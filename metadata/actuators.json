@@ -1,0 +1,1268 @@
+{
+    "version": 1,
+	"translation": {
+		"items": {
+			"outputs_v1": {
+				"list": {
+					"key": "label",
+					"items": {
+						"subgroups": {
+							"list": {
+								"items": {
+									"parameters": {
+										"list": {
+											"key": "name",
+											"translate": [ "label" ]
+										}
+									},
+									"per-channel-parameters": {
+										"list": {
+											"key": "name",
+											"translate": [ "label" ]
+										}
+									},
+									"channels": {
+										"list": {
+											"key": "param-index",
+											"translate": [ "label" ]
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+			"functions_v1": {
+				"items": {
+					"*": {
+						"translate": [ "label" ],
+						"items": {
+							"note": {
+								"translate": [ "text" ]
+							}
+						}
+					}
+				}
+			},
+			"mixer_v1": {
+				"items": {
+					"actuator-types": {
+						"items": {
+							"*": {
+								"items": {
+									"per-item-parameters": {
+										"list": {
+											"key": "name",
+											"translate": [ "label" ]
+										}
+									}
+								}
+							}
+						}
+					},
+					"config": {
+						"list": {
+							"key": "option",
+							"translate": [ "title" ],
+							"items": {
+								"actuators": {
+									"list": {
+										"translate": [ "group-label", "item-label-prefix" ],
+										"items": {
+											"parameters": {
+												"list": {
+													"key": "name",
+													"translate": [ "label" ]
+												}
+											},
+											"per-item-parameters": {
+												"list": {
+													"key": "name",
+													"translate": [ "label" ]
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+    "show-ui-if": "SYS_CTRL_ALLOC==1",
+    "outputs_v1": [
+        {
+            "label": "SIM",
+            "subgroups": [
+                {
+                    "channels": [
+                        {
+                            "label": "Channel 1",
+                            "param-index": 1
+                        },
+                        {
+                            "label": "Channel 2",
+                            "param-index": 2
+                        },
+                        {
+                            "label": "Channel 3",
+                            "param-index": 3
+                        },
+                        {
+                            "label": "Channel 4",
+                            "param-index": 4
+                        },
+                        {
+                            "label": "Channel 5",
+                            "param-index": 5
+                        },
+                        {
+                            "label": "Channel 6",
+                            "param-index": 6
+                        },
+                        {
+                            "label": "Channel 7",
+                            "param-index": 7
+                        },
+                        {
+                            "label": "Channel 8",
+                            "param-index": 8
+                        },
+                        {
+                            "label": "Channel 9",
+                            "param-index": 9
+                        },
+                        {
+                            "label": "Channel 10",
+                            "param-index": 10
+                        },
+                        {
+                            "label": "Channel 11",
+                            "param-index": 11
+                        },
+                        {
+                            "label": "Channel 12",
+                            "param-index": 12
+                        },
+                        {
+                            "label": "Channel 13",
+                            "param-index": 13
+                        },
+                        {
+                            "label": "Channel 14",
+                            "param-index": 14
+                        },
+                        {
+                            "label": "Channel 15",
+                            "param-index": 15
+                        },
+                        {
+                            "label": "Channel 16",
+                            "param-index": 16
+                        }
+                    ],
+                    "per-channel-parameters": [
+                        {
+                            "label": "Function",
+                            "name": "PWM_MAIN_FUNC${i}",
+                            "function": "function"
+                        },
+                        {
+                            "label": "Rev Range\n(for Servos)",
+                            "name": "PWM_MAIN_REV",
+                            "index-offset": -1,
+                            "show-as": "bitset"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "functions_v1": {
+        "0": {
+            "label": "Disabled"
+        },
+        "1": {
+            "label": "Constant Min"
+        },
+        "2": {
+            "label": "Constant Max"
+        },
+        "101": {
+            "label": "Motor 1"
+        },
+        "102": {
+            "label": "Motor 2"
+        },
+        "103": {
+            "label": "Motor 3"
+        },
+        "104": {
+            "label": "Motor 4"
+        },
+        "105": {
+            "label": "Motor 5"
+        },
+        "106": {
+            "label": "Motor 6"
+        },
+        "107": {
+            "label": "Motor 7"
+        },
+        "108": {
+            "label": "Motor 8"
+        },
+        "201": {
+            "label": "Servo 1"
+        },
+        "202": {
+            "label": "Servo 2"
+        },
+        "203": {
+            "label": "Servo 3"
+        },
+        "204": {
+            "label": "Servo 4"
+        },
+        "205": {
+            "label": "Servo 5"
+        },
+        "206": {
+            "label": "Servo 6"
+        },
+        "207": {
+            "label": "Servo 7"
+        },
+        "208": {
+            "label": "Servo 8"
+        },
+        "301": {
+            "label": "Offboard Actuator Set 1"
+        },
+        "302": {
+            "label": "Offboard Actuator Set 2"
+        },
+        "303": {
+            "label": "Offboard Actuator Set 3"
+        },
+        "304": {
+            "label": "Offboard Actuator Set 4"
+        },
+        "305": {
+            "label": "Offboard Actuator Set 5"
+        },
+        "306": {
+            "label": "Offboard Actuator Set 6"
+        },
+        "400": {
+            "label": "Landing Gear"
+        },
+        "401": {
+            "label": "Parachute"
+        },
+        "402": {
+            "label": "RC Roll"
+        },
+        "403": {
+            "label": "RC Pitch"
+        },
+        "404": {
+            "label": "RC Throttle"
+        },
+        "405": {
+            "label": "RC Yaw"
+        },
+        "406": {
+            "label": "RC Flaps"
+        },
+        "407": {
+            "label": "RC AUX 1"
+        },
+        "408": {
+            "label": "RC AUX 2"
+        },
+        "409": {
+            "label": "RC AUX 3"
+        },
+        "410": {
+            "label": "RC AUX 4"
+        },
+        "411": {
+            "label": "RC AUX 5"
+        },
+        "412": {
+            "label": "RC AUX 6"
+        },
+        "420": {
+            "label": "Gimbal Roll"
+        },
+        "421": {
+            "label": "Gimbal Pitch"
+        },
+        "422": {
+            "label": "Gimbal Yaw"
+        },
+        "2000": {
+            "label": "Camera Trigger",
+            "exclude-from-actuator-testing": true,
+            "note": {
+                "condition": "TRIG_MODE==0",
+                "text": "Camera triggering needs to be enabled and configured via TRIG_* parameters."
+            }
+        },
+        "2032": {
+            "label": "Camera Capture",
+            "exclude-from-actuator-testing": true,
+            "note": {
+                "condition": "CAM_CAP_FBACK==0",
+                "text": "Camera feedback needs to be enabled and configured via CAM_CAP_* parameters."
+            }
+        },
+        "2064": {
+            "label": "PPS Input",
+            "exclude-from-actuator-testing": true,
+            "note": {
+                "condition": "PPS_CAP_ENABLE==0",
+                "text": "PPS needs to be enabled via PPS_CAP_ENABLE parameter."
+            }
+        }
+    },
+    "mixer_v1": {
+        "actuator-types": {
+            "motor": {
+                "label-index-offset": 1,
+                "function-min": 101,
+                "function-max": 108,
+                "values": {
+                    "min": 0,
+                    "max": 1,
+                    "default-is-nan": true
+                },
+                "per-item-parameters": [
+                    {
+                        "name": "CA_R_REV",
+                        "label": "Reversible",
+                        "show-as": "bitset",
+                        "index-offset": 0,
+                        "advanced": true
+                    },
+                    {
+                        "name": "CA_R${i}_SLEW",
+                        "label": "Slew Rate",
+                        "index-offset": 0,
+                        "advanced": true
+                    }
+                ]
+            },
+            "servo": {
+                "label-index-offset": 1,
+                "function-min": 201,
+                "function-max": 208,
+                "values": {
+                    "min": -1,
+                    "max": 1,
+                    "default": 0
+                },
+                "per-item-parameters": [
+                    {
+                        "name": "CA_SV${i}_SLEW",
+                        "label": "Slew Rate",
+                        "index-offset": 0,
+                        "advanced": true
+                    }
+                ]
+            },
+            "DEFAULT": {
+                "values": {
+                    "min": -1,
+                    "max": 1,
+                    "default": -1
+                }
+            }
+        },
+        "config": [
+            {
+                "option": "CA_AIRFRAME==0",
+                "type": "multirotor",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "Motors",
+                        "count": "CA_ROTOR_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "name": "CA_ROTOR${i}_PX",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "name": "CA_ROTOR${i}_PY",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "name": "CA_ROTOR${i}_PZ",
+                                "advanced": true,
+                                "index-offset": 0
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_KM",
+                                "label": "Direction CCW",
+                                "function": "spin-dir",
+                                "show-as": "true-if-positive"
+                            }
+                        ],
+                        "parameters": []
+                    }
+                ]
+            },
+            {
+                "option": "CA_AIRFRAME==1",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "Motors",
+                        "count": "CA_ROTOR_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "name": "CA_ROTOR${i}_PX",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "name": "CA_ROTOR${i}_PY",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "name": "CA_ROTOR${i}_PZ",
+                                "advanced": true,
+                                "index-offset": 0
+                            }
+                        ],
+                        "parameters": []
+                    },
+                    {
+                        "actuator-type": "servo",
+                        "required": true,
+                        "group-label": "Control Surfaces",
+                        "count": "CA_SV_CS_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "name": "CA_SV_CS${i}_TYPE",
+                                "label": "Type",
+                                "function": "type",
+                                "identifier": "servo-type"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_R",
+                                "label": "Roll Torque",
+                                "identifier": "servo-torque-roll"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_P",
+                                "label": "Pitch Torque",
+                                "identifier": "servo-torque-pitch"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_Y",
+                                "label": "Yaw Torque",
+                                "identifier": "servo-torque-yaw"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRIM",
+                                "label": "Trim"
+                            }
+                        ],
+                        "parameters": []
+                    }
+                ]
+            },
+            {
+                "option": "CA_AIRFRAME==2",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "MC Motors",
+                        "count": "CA_ROTOR_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "name": "CA_ROTOR${i}_PX",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "name": "CA_ROTOR${i}_PY",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "name": "CA_ROTOR${i}_PZ",
+                                "advanced": true,
+                                "index-offset": 0
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_KM",
+                                "label": "Direction CCW",
+                                "function": "spin-dir",
+                                "show-as": "true-if-positive"
+                            }
+                        ],
+                        "parameters": []
+                    },
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "FW Motors",
+                        "count": "CA_STDVTOL_N_P",
+                        "per-item-parameters": [],
+                        "item-label-prefix": "FW Motor ${i}",
+                        "parameters": []
+                    },
+                    {
+                        "actuator-type": "servo",
+                        "required": true,
+                        "group-label": "Control Surfaces",
+                        "count": "CA_SV_CS_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "name": "CA_SV_CS${i}_TYPE",
+                                "label": "Type",
+                                "function": "type",
+                                "identifier": "servo-type"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_R",
+                                "label": "Roll Scale",
+                                "identifier": "servo-torque-roll"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_P",
+                                "label": "Pitch Scale",
+                                "identifier": "servo-torque-pitch"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_Y",
+                                "label": "Yaw Scale",
+                                "identifier": "servo-torque-yaw"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRIM",
+                                "label": "Trim"
+                            }
+                        ],
+                        "parameters": [
+                            {
+                                "label": "Lock control surfaces in hover",
+                                "name": "VT_ELEV_MC_LOCK"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "option": "CA_AIRFRAME==3",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "MC Motors",
+                        "count": "CA_ROTOR_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "name": "CA_ROTOR${i}_PX",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "name": "CA_ROTOR${i}_PY",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "name": "CA_ROTOR${i}_PZ",
+                                "advanced": true,
+                                "index-offset": 0
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_TILT",
+                                "label": "Tilted by"
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_KM",
+                                "label": "Direction CCW",
+                                "function": "spin-dir",
+                                "show-as": "true-if-positive"
+                            }
+                        ],
+                        "parameters": []
+                    },
+                    {
+                        "actuator-type": "servo",
+                        "required": true,
+                        "group-label": "Control Surfaces",
+                        "count": "CA_SV_CS_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "name": "CA_SV_CS${i}_TYPE",
+                                "label": "Type",
+                                "function": "type",
+                                "identifier": "servo-type"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_R",
+                                "label": "Roll Scale",
+                                "identifier": "servo-torque-roll"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_P",
+                                "label": "Pitch Scale",
+                                "identifier": "servo-torque-pitch"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_Y",
+                                "label": "Yaw Scale",
+                                "identifier": "servo-torque-yaw"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRIM",
+                                "label": "Trim"
+                            }
+                        ],
+                        "item-label-prefix": "Surface ${i}",
+                        "parameters": [
+                            {
+                                "label": "Lock control surfaces in hover",
+                                "name": "VT_ELEV_MC_LOCK"
+                            }
+                        ]
+                    },
+                    {
+                        "actuator-type": "servo",
+                        "required": true,
+                        "group-label": "Tilt Servos",
+                        "count": "CA_SV_TL_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "name": "CA_SV_TL${i}_MINA",
+                                "label": "Angle at Min\nTilt"
+                            },
+                            {
+                                "name": "CA_SV_TL${i}_MAXA",
+                                "label": "Angle at Max\nTilt"
+                            },
+                            {
+                                "name": "CA_SV_TL${i}_TD",
+                                "label": "Tilt Direction"
+                            },
+                            {
+                                "name": "CA_SV_TL${i}_CT",
+                                "label": "Use for Control"
+                            }
+                        ],
+                        "item-label-prefix": "Tilt ${i}",
+                        "parameters": []
+                    }
+                ]
+            },
+            {
+                "option": "CA_AIRFRAME==4",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "MC Motors",
+                        "count": "CA_ROTOR_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "name": "CA_ROTOR${i}_PX",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "name": "CA_ROTOR${i}_PY",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "name": "CA_ROTOR${i}_PZ",
+                                "advanced": true,
+                                "index-offset": 0
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_KM",
+                                "label": "Direction CCW",
+                                "function": "spin-dir",
+                                "show-as": "true-if-positive"
+                            }
+                        ],
+                        "parameters": []
+                    },
+                    {
+                        "actuator-type": "servo",
+                        "required": true,
+                        "group-label": "Control Surfaces",
+                        "count": "CA_SV_CS_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "name": "CA_SV_CS${i}_TYPE",
+                                "label": "Type",
+                                "function": "type",
+                                "identifier": "servo-type-tailsitter"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_R",
+                                "label": "Roll Scale",
+                                "identifier": "servo-torque-roll-tailsitter"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_P",
+                                "label": "Pitch Scale",
+                                "identifier": "servo-torque-pitch-tailsitter"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_Y",
+                                "label": "Yaw Scale",
+                                "identifier": "servo-torque-yaw-tailsitter"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRIM",
+                                "label": "Trim"
+                            }
+                        ],
+                        "item-label-prefix": "Surface ${i}",
+                        "parameters": [
+                            {
+                                "label": "Lock control surfaces in hover",
+                                "name": "VT_ELEV_MC_LOCK"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "option": "CA_AIRFRAME==5",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "Motors",
+                        "count": 1,
+                        "item-label-prefix": [
+                            "Throttle"
+                        ],
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "value": [
+                                    -1.0
+                                ]
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "value": [
+                                    0
+                                ]
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "value": [
+                                    0
+                                ],
+                                "advanced": true
+                            }
+                        ],
+                        "parameters": []
+                    },
+                    {
+                        "actuator-type": "servo",
+                        "required": true,
+                        "group-label": "Servos",
+                        "count": 1,
+                        "item-label-prefix": [
+                            "Steering"
+                        ],
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "value": [
+                                    1.0
+                                ]
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "value": [
+                                    0
+                                ]
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "value": [
+                                    0
+                                ],
+                                "advanced": true
+                            }
+                        ],
+                        "parameters": []
+                    }
+                ]
+            },
+            {
+                "option": "CA_AIRFRAME==6",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "Motors",
+                        "count": 2,
+                        "item-label-prefix": [
+                            "Left Motor",
+                            "Right Motor"
+                        ],
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "value": [
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "value": [
+                                    -1.0,
+                                    1.0
+                                ]
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "value": [
+                                    0,
+                                    0
+                                ],
+                                "advanced": true
+                            }
+                        ],
+                        "parameters": []
+                    }
+                ]
+            },
+            {
+                "option": "CA_AIRFRAME==7",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "Motors",
+                        "count": "CA_ROTOR_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "name": "CA_ROTOR${i}_PX",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "name": "CA_ROTOR${i}_PY",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "name": "CA_ROTOR${i}_PZ",
+                                "advanced": true,
+                                "index-offset": 0
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_AX",
+                                "label": "Axis X",
+                                "function": "axisx"
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_AY",
+                                "label": "Axis Y",
+                                "function": "axisy"
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_AZ",
+                                "label": "Axis Z",
+                                "function": "axisz"
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_KM",
+                                "label": "Moment\nCoefficient"
+                            }
+                        ],
+                        "parameters": []
+                    }
+                ]
+            },
+            {
+                "option": "CA_AIRFRAME==8",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "Motors",
+                        "count": "CA_ROTOR_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "name": "CA_ROTOR${i}_PX",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "name": "CA_ROTOR${i}_PY",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "name": "CA_ROTOR${i}_PZ",
+                                "advanced": true,
+                                "index-offset": 0
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_KM",
+                                "label": "Direction CCW",
+                                "function": "spin-dir",
+                                "show-as": "true-if-positive"
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_TILT",
+                                "label": "Tilted by"
+                            }
+                        ],
+                        "parameters": []
+                    },
+                    {
+                        "actuator-type": "servo",
+                        "required": true,
+                        "group-label": "Tilt Servos",
+                        "count": "CA_SV_TL_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "name": "CA_SV_TL${i}_MINA",
+                                "label": "Angle at Min\nTilt"
+                            },
+                            {
+                                "name": "CA_SV_TL${i}_MAXA",
+                                "label": "Angle at Max\nTilt"
+                            },
+                            {
+                                "name": "CA_SV_TL${i}_TD",
+                                "label": "Tilt Direction"
+                            },
+                            {
+                                "name": "CA_SV_TL${i}_CT",
+                                "label": "Use for Control"
+                            }
+                        ],
+                        "item-label-prefix": "Tilt ${i}",
+                        "parameters": []
+                    }
+                ]
+            },
+            {
+                "option": "CA_AIRFRAME==9",
+                "actuators": [
+                    {
+                        "actuator-type": "motor",
+                        "required": true,
+                        "group-label": "Thrust/Motors",
+                        "count": "CA_ROTOR_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "label": "Position X",
+                                "function": "posx",
+                                "name": "CA_ROTOR${i}_PX",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Y",
+                                "function": "posy",
+                                "name": "CA_ROTOR${i}_PY",
+                                "index-offset": 0
+                            },
+                            {
+                                "label": "Position Z",
+                                "function": "posz",
+                                "name": "CA_ROTOR${i}_PZ",
+                                "advanced": true,
+                                "index-offset": 0
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_AX",
+                                "label": "Axis X",
+                                "function": "axisx"
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_AY",
+                                "label": "Axis Y",
+                                "function": "axisy"
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_AZ",
+                                "label": "Axis Z",
+                                "function": "axisz"
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_CT",
+                                "label": "Thrust\nCoefficient"
+                            },
+                            {
+                                "name": "CA_ROTOR${i}_KM",
+                                "label": "Moment\nCoefficient"
+                            }
+                        ],
+                        "parameters": []
+                    },
+                    {
+                        "actuator-type": "servo",
+                        "required": true,
+                        "group-label": "Torque",
+                        "count": "CA_SV_CS_COUNT",
+                        "per-item-parameters": [
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_R",
+                                "label": "Roll Scale"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_P",
+                                "label": "Pitch Scale"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRQ_Y",
+                                "label": "Yaw Scale"
+                            },
+                            {
+                                "name": "CA_SV_CS${i}_TRIM",
+                                "label": "Trim"
+                            }
+                        ],
+                        "item-label-prefix": "Torque ${i}",
+                        "parameters": []
+                    }
+                ]
+            }
+        ],
+        "rules": [
+            {
+                "select-identifier": "servo-type",
+                "apply-identifiers": [
+                    "servo-torque-roll",
+                    "servo-torque-pitch",
+                    "servo-torque-yaw"
+                ],
+                "items": {
+                    "1": [
+                        {
+                            "min": -1.0,
+                            "max": 0.0,
+                            "default": -0.5
+                        },
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        },
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        }
+                    ],
+                    "2": [
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        },
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        },
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        }
+                    ],
+                    "3": [
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 1.0
+                        },
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        }
+                    ],
+                    "4": [
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        },
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 1.0
+                        }
+                    ],
+                    "5": [
+                        {
+                            "min": -1.0,
+                            "max": 0.0,
+                            "default": -0.5
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        },
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        }
+                    ],
+                    "6": [
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        },
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        }
+                    ],
+                    "7": [
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        }
+                    ],
+                    "8": [
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        },
+                        {
+                            "min": -1.0,
+                            "max": 0.0,
+                            "default": -0.5
+                        }
+                    ]
+                }
+            },
+            {
+                "select-identifier": "servo-type-tailsitter",
+                "apply-identifiers": [
+                    "servo-torque-roll-tailsitter",
+                    "servo-torque-pitch-tailsitter",
+                    "servo-torque-yaw-tailsitter"
+                ],
+                "items": {
+                    "5": [
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        }
+                    ],
+                    "6": [
+                        {
+                            "hidden": true,
+                            "default": 0.0
+                        },
+                        {
+                            "min": 0.0,
+                            "max": 1.0,
+                            "default": 0.5
+                        },
+                        {
+                            "min": -1.0,
+                            "max": 0.0,
+                            "default": -0.5
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}

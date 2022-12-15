@@ -1,0 +1,1787 @@
+{
+  "version": 1,
+  "translation": {
+	  "items": {
+		  "components": {
+			  "items": {
+				  "*": {
+					  "items": {
+						  "enums": {
+							  "items": {
+								  "*": {
+									  "items": {
+										  "entries": {
+											  "items": {
+												  "*": {
+													  "translate": [ "description" ]
+												  }
+											  }
+										  }
+									  }
+								  }
+							  }
+						  },
+						  "event_groups": {
+							  "items": {
+								  "*": {
+									  "items": {
+										  "events": {
+											  "items": {
+												  "*": {
+													  "translate": [ "message", "description" ]
+												  }
+											  }
+										  }
+									  }
+								  }
+							  }
+						  }
+					  }
+				  }
+			  }
+		  }
+	  }
+  },
+  "components": {
+    "1": {
+      "namespace": "px4",
+      "event_groups": {
+        "default": {
+          "events": {
+            "7626787": {
+              "name": "px4io_io_ver_mismatch",
+              "message": "IO version mismatch, please upgrade the software"
+            },
+            "8912808": {
+              "name": "px4io_comm_failed",
+              "message": "Failed to communicate with IO, aborting initialization"
+            },
+            "15923029": {
+              "name": "px4io_proto_fw_mismatch",
+              "message": "IO protocol/firmware mismatch, aborting initialization"
+            },
+            "4472241": {
+              "name": "px4io_config_read_failed",
+              "message": "IO config read failed, aborting initialization"
+            },
+            "2741589": {
+              "name": "px4io_inair_restart_recovery",
+              "message": "Recovering from in-air restart"
+            },
+            "11762527": {
+              "name": "px4io_inair_restart_recovery_failed",
+              "message": "Failed to recover from in-air restart, aborting initialization"
+            },
+            "698448": {
+              "name": "px4io_init_in_failsafe",
+              "message": "IO is in failsafe, forcing flight termination"
+            },
+            "9128708": {
+              "name": "px4io_inair_restart_recovery_failed3",
+              "message": "Failed to recover from in-air restart, aborting initialization"
+            },
+            "9129111": {
+              "name": "px4io_inair_restart_recovery_failed2",
+              "message": "Failed to recover from in-air restart, aborting initialization"
+            },
+            "1290073": {
+              "name": "px4io_io_rc_config_upload_failed",
+              "message": "IO RC config upload failed, aborting initialization"
+            },
+            "4693161": {
+              "name": "px4io_failsafe_upload_failed",
+              "message": "Failsafe upload failed, threshold: {1} us",
+              "arguments": [
+                {
+                  "type": "uint16_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "12286459": {
+              "name": "px4io_config_rc_rejected",
+              "message": "Config for RC{1} rejected by IO",
+              "arguments": [
+                {
+                  "type": "uint16_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "9535505": {
+              "name": "px4io_mixer_upload_failed",
+              "message": "IO mixer upload failed"
+            },
+            "5734437": {
+              "name": "commander_cal_cmd_denied",
+              "message": "Command denied during calibration: {1}",
+              "arguments": [
+                {
+                  "type": "uint32_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "10044444": {
+              "name": "commander_load_param_failed",
+              "message": "Error loading settings"
+            },
+            "5063943": {
+              "name": "commander_save_param_failed",
+              "message": "Error saving settings"
+            },
+            "1749061": {
+              "name": "commander_arm_denied_throttle_center",
+              "message": "Arming denied: throttle above center"
+            },
+            "5874720": {
+              "name": "commander_arm_denied_throttle_high",
+              "message": "Arming denied: high throttle"
+            },
+            "13576620": {
+              "name": "commander_arm_denied_geofence_rtl",
+              "message": "Arming denied: Geofence RTL requires valid home"
+            },
+            "9489139": {
+              "name": "commander_armed_by",
+              "message": "Armed by {1}",
+              "arguments": [
+                {
+                  "type": "px4::arm_disarm_reason_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "16017271": {
+              "name": "commander_disarmed_by",
+              "message": "Disrmed by {1}",
+              "arguments": [
+                {
+                  "type": "px4::arm_disarm_reason_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "2343791": {
+              "name": "commander_reposition_rejected",
+              "message": "Reposition command rejected",
+              "description": "Check for a valid position estimate"
+            },
+            "3092229": {
+              "name": "commander_unsupported_auto_mode",
+              "message": "Unsupported auto mode"
+            },
+            "2440093": {
+              "name": "commander_unsupported_arm_disarm_param",
+              "message": "Unsupported ARM_DISARM param: {1:.3}",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "15745089": {
+              "name": "commander_arming_denied_already_armed",
+              "message": "Arming denied, already armed"
+            },
+            "6222441": {
+              "name": "commander_arming_denied_not_landed",
+              "message": "Arming denied, not landed"
+            },
+            "8165317": {
+              "name": "commander_disarming_denied_not_landed",
+              "message": "Disarming denied, not landed"
+            },
+            "3484900": {
+              "name": "commander_rtl",
+              "message": "Returning to launch"
+            },
+            "3596138": {
+              "name": "commander_rtl_denied",
+              "message": "Return to launch denied",
+              "description": "Check for a valid position estimate"
+            },
+            "1310036": {
+              "name": "commander_takeoff_denied",
+              "message": "Takeoff denied! Please disarm and retry",
+              "description": "Check for a valid position estimate"
+            },
+            "3322590": {
+              "name": "commander_landing_current_pos",
+              "message": "Landing at current position"
+            },
+            "11374816": {
+              "name": "commander_landing_current_pos_denied",
+              "message": "Landing denied! Please land manually",
+              "description": "Check for a valid position estimate"
+            },
+            "8310204": {
+              "name": "commander_landing_prec_land",
+              "message": "Landing using precision landing"
+            },
+            "7750530": {
+              "name": "commander_landing_prec_land_denied",
+              "message": "Precision landing denied! Please land manually",
+              "description": "Check for a valid position estimate"
+            },
+            "1113643": {
+              "name": "commander_mission_start_denied",
+              "message": "Mission start denied",
+              "description": "Check for a valid position estimate"
+            },
+            "7067274": {
+              "name": "commander_mission_start_denied_no_mission",
+              "message": "Mission start denied! No valid mission"
+            },
+            "16591495": {
+              "name": "commander_ctrl_high_latency_failed",
+              "message": "Control high latency failed! Telemetry unavailable"
+            },
+            "10072599": {
+              "name": "commander_calib_rc_off",
+              "message": "Calibration: Disabling RC input"
+            },
+            "6349555": {
+              "name": "commander_calib_rc_on",
+              "message": "Calibration: Restoring RC input"
+            },
+            "13329394": {
+              "name": "commander_airmode_requires_arm_sw",
+              "message": "Yaw Airmode requires the use of an Arm Switch",
+              "description": "<param>MC_AIRMODE</param> is now set to roll/pitch airmode."
+            },
+            "9922301": {
+              "name": "commander_reboot_usb_disconnect",
+              "message": "USB disconnected, rebooting for flight safety"
+            },
+            "9844908": {
+              "name": "commander_landing_detected",
+              "message": "Landing detected"
+            },
+            "4277609": {
+              "name": "commander_takeoff_detected",
+              "message": "Takeoff detected"
+            },
+            "637603": {
+              "name": "commander_esc_telemetry_timeout",
+              "message": "ESCs telemetry timeout"
+            },
+            "5365174": {
+              "name": "commander_esc_telemetry_not_con",
+              "message": "ESCs telemetry not connected"
+            },
+            "10701004": {
+              "name": "commander_mission_cannot_be_completed",
+              "message": "Mission cannot be completed"
+            },
+            "10637577": {
+              "name": "commander_geofence_termination",
+              "message": "Geofence violation! Flight terminated"
+            },
+            "6114881": {
+              "name": "commander_mission_termination",
+              "message": "GPS failure: Flight terminated"
+            },
+            "7218380": {
+              "name": "commander_mission_termination_active",
+              "message": "Flight termination active"
+            },
+            "713405": {
+              "name": "commander_rc_regained",
+              "message": "Manual control regained after {1:.1} s",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "6712551": {
+              "name": "commander_arming_denied_not_manual",
+              "message": "Not arming! Switch to a manual mode first"
+            },
+            "16292867": {
+              "name": "commander_rc_override_pos",
+              "message": "Pilot took over position control using sticks"
+            },
+            "6989070": {
+              "name": "commander_rc_override_alt",
+              "message": "Pilot took over altitude control using sticks"
+            },
+            "7257889": {
+              "name": "commander_landed_landing_gear_error",
+              "message": "Landed, unable to retract landing gear"
+            },
+            "11290563": {
+              "name": "commander_kill_sw_engaged",
+              "message": "Kill-switch engaged"
+            },
+            "16682655": {
+              "name": "commander_kill_sw_disengaged",
+              "message": "Kill-switch disengaged"
+            },
+            "5623108": {
+              "name": "commander_rc_lost",
+              "message": "Manual control lost"
+            },
+            "6793696": {
+              "name": "commander_fd_escs_not_arming",
+              "message": "ESCs did not respond to arm request"
+            },
+            "4981286": {
+              "name": "commander_fd_lockdown",
+              "message": "Critical failure detected: lockdown",
+              "description": "When a critical failure is detected right after takeoff, the system turns off the motors. Failures include an exceeding tilt angle, altitude failure or an external failure trigger.\n\n<profile name=\"dev\"> This can be configured with the parameter <param>COM_LKDOWN_TKO</param>.\n</profile>"
+            },
+            "15187096": {
+              "name": "commander_fd_terminate",
+              "message": "Critical failure detected: terminate flight",
+              "description": "Critical failures include an exceeding tilt angle, altitude failure or an external failure trigger.\n\n<profile name=\"dev\"> Flight termination can be disabled with the parameter <param>CBRK_FLIGHTTERM</param>.\n</profile>"
+            },
+            "7378827": {
+              "name": "commander_failsafe_activated",
+              "message": "Failsafe mode activated"
+            },
+            "10823682": {
+              "name": "commander_failsafe_deactivated",
+              "message": "Failsafe mode deactivated"
+            },
+            "10503063": {
+              "name": "commander_modeswitch_not_avail",
+              "message": "Switching to mode '{1}' is currently not possible",
+              "description": "Check for a valid position estimate",
+              "arguments": [
+                {
+                  "type": "px4::navigation_mode_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "14234660": {
+              "name": "commander_dl_regained",
+              "message": "Data link regained"
+            },
+            "10716939": {
+              "name": "commander_onboard_ctrl_regained",
+              "message": "Onboard controller regained"
+            },
+            "10794072": {
+              "name": "commander_gcs_lost",
+              "message": "Connection to ground station lost"
+            },
+            "11123101": {
+              "name": "commander_mission_comp_lost",
+              "message": "Connection to mission computer lost"
+            },
+            "3645914": {
+              "name": "commander_high_latency_lost",
+              "message": "High latency data link lost"
+            },
+            "15603271": {
+              "name": "commander_low_bat_shutdown",
+              "message": "Dangerously low battery! Shutting system down"
+            },
+            "5847165": {
+              "name": "commander_low_bat_shutdown_failed",
+              "message": "Dangerously low battery! System shut down failed",
+              "description": "Cannot shut down, most likely the system does not support it."
+            },
+            "4370078": {
+              "name": "commander_stopping_mag_use",
+              "message": "Stopping compass use! Check the calibration on landing"
+            },
+            "10032085": {
+              "name": "commander_navigation_failure",
+              "message": "Navigation failure! Land and recalibrate the sensors"
+            },
+            "7599207": {
+              "name": "commander_esc_offline",
+              "message": "ESC{1} offline",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "7024224": {
+              "name": "commander_esc_over_current",
+              "message": "ESC{1}: over current",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "7842927": {
+              "name": "commander_esc_over_voltage",
+              "message": "ESC{1}: over voltage",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "13487097": {
+              "name": "commander_esc_over_temp",
+              "message": "ESC{1}: over temperature",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "13876584": {
+              "name": "commander_esc_over_rpm",
+              "message": "ESC{1}: over RPM",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "7524766": {
+              "name": "commander_esc_cmd_inconsistent",
+              "message": "ESC{1}: command inconsistency",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "15504278": {
+              "name": "commander_esc_motor_stuck",
+              "message": "ESC{1}: motor stuck",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "9787740": {
+              "name": "commander_esc_generic_failure",
+              "message": "ESC{1}: generic failure (code {2})",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "uint8_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "12907101": {
+              "name": "commander_transition_denied",
+              "message": "Arming state transition denied: {1} to {2}",
+              "arguments": [
+                {
+                  "type": "px4::arming_state_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "px4::arming_state_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "10269283": {
+              "name": "commander_enable_failsafe",
+              "message": "Failsafe enabled: {1}",
+              "arguments": [
+                {
+                  "type": "px4::failsafe_reason_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "100336": {
+              "name": "commander_bat_low",
+              "message": "Low battery level! Return advised"
+            },
+            "7127974": {
+              "name": "commander_bat_crit",
+              "message": "Critical battery level! Landing advised"
+            },
+            "316595": {
+              "name": "commander_bat_crit_rtl",
+              "message": "Critical battery level! Executing RTL"
+            },
+            "8523199": {
+              "name": "commander_bat_crit_no_rtl_land",
+              "message": "Critical battery level! Cannot execute RTL, landing instead"
+            },
+            "8421110": {
+              "name": "commander_bat_crit_land",
+              "message": "Critical battery level! Landing now"
+            },
+            "15093385": {
+              "name": "commander_bat_emerg_warn",
+              "message": "Dangerous battery level! Please land immediately"
+            },
+            "429013": {
+              "name": "commander_bat_emerg_rtl",
+              "message": "Dangerous battery level! Executing RTL"
+            },
+            "14071709": {
+              "name": "commander_bat_emerg_no_rtl_land",
+              "message": "Dangerous battery level! Cannot execute RTL, landing instead"
+            },
+            "14671524": {
+              "name": "commander_bat_emerg_land",
+              "message": "Dangerous battery level! Landing now"
+            },
+            "6632984": {
+              "name": "commander_bat_failure",
+              "message": "Battery failure detected"
+            },
+            "8833276": {
+              "name": "commander_cal_no_inputs",
+              "message": "No inputs, aborting RC trim calibration"
+            },
+            "697858": {
+              "name": "commander_cal_trim_param_set_failed",
+              "message": "RC trim calibration: failed to set parameters"
+            },
+            "6415112": {
+              "name": "commander_cal_trim_done",
+              "message": "RC trim calibration completed"
+            },
+            "12894058": {
+              "name": "sensor_failover",
+              "message": "{1} sensor #{2} failure: {3}",
+              "description": "Land immediately and check the system.",
+              "arguments": [
+                {
+                  "type": "px4::sensor_type_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "uint8_t",
+                  "name": "arg1"
+                },
+                {
+                  "type": "px4::sensor_failover_reason_t",
+                  "name": "arg2"
+                }
+              ]
+            },
+            "10398259": {
+              "name": "mission_execute_rev",
+              "message": "Executing Reverse Mission"
+            },
+            "15598001": {
+              "name": "mission_execute",
+              "message": "Executing Mission"
+            },
+            "2806966": {
+              "name": "mission_finished_rev",
+              "message": "Reverse Mission finished, landed"
+            },
+            "7803396": {
+              "name": "mission_finished",
+              "message": "Mission finished, landed"
+            },
+            "1064976": {
+              "name": "mission_finished_rev_loiter",
+              "message": "Reverse Mission finished, loitering"
+            },
+            "4678390": {
+              "name": "mission_finished_loiter",
+              "message": "Mission finished, loitering"
+            },
+            "4854315": {
+              "name": "mission_not_valid_refuse",
+              "message": "No valid mission available, refusing takeoff"
+            },
+            "3390156": {
+              "name": "mission_not_valid_loiter",
+              "message": "No valid mission available, loitering"
+            },
+            "15151454": {
+              "name": "mission_takeoff_to",
+              "message": "Takeoff to {1:.1m_v} above home",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "16773080": {
+              "name": "mission_ignore_non_position_item",
+              "message": "MissionReverse: Got a non-position mission item, ignoring it"
+            },
+            "11985219": {
+              "name": "mission_holding_above_landing",
+              "message": "Holding at {1:.0m_v} above landing",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "1962848": {
+              "name": "mission_index_out_of_bound",
+              "message": "Mission item index out of bound, index: {1}, max: {2}",
+              "arguments": [
+                {
+                  "type": "uint16_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "uint16_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "11724756": {
+              "name": "mission_failed_to_read_wp",
+              "message": "Waypoint {1} could not be read from storage",
+              "arguments": [
+                {
+                  "type": "uint16_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "6922012": {
+              "name": "mission_failed_to_write_do_jump",
+              "message": "DO JUMP waypoint could not be written"
+            },
+            "9316102": {
+              "name": "mission_do_jump_rep_completed",
+              "message": "DO JUMP repetitions completed"
+            },
+            "4488117": {
+              "name": "mission_do_jump_cycle",
+              "message": "DO JUMP is cycling, giving up"
+            },
+            "3817890": {
+              "name": "mission_invalid_mission_state",
+              "message": "Invalid mission state",
+              "description": "No mission or storage failure"
+            },
+            "8163167": {
+              "name": "mission_cannot_read_mission",
+              "message": "Could not read mission"
+            },
+            "2718537": {
+              "name": "enginefailure_loitering",
+              "message": "Engine failure. Loitering down"
+            },
+            "13495236": {
+              "name": "navigator_reposition_outside_geofence",
+              "message": "Reposition is outside geofence"
+            },
+            "16175383": {
+              "name": "navigator_rtl_landing_activated",
+              "message": "RTL activated"
+            },
+            "6114654": {
+              "name": "navigator_rtl_closest_point_activated",
+              "message": "RTL to closest landing point activated"
+            },
+            "6835962": {
+              "name": "navigator_rtl_mission_activated",
+              "message": "RTL Mission activated, continue mission"
+            },
+            "8716192": {
+              "name": "navigator_rtl_mission_activated_rev",
+              "message": "RTL Mission activated, fly mission in reverse"
+            },
+            "124372": {
+              "name": "navigator_rtl_mission_activated_home",
+              "message": "RTL Mission activated, fly to home"
+            },
+            "1344123": {
+              "name": "navigator_rtl_home_activated",
+              "message": "RTL activated"
+            },
+            "13102530": {
+              "name": "navigator_approach_geofence",
+              "message": "Approaching on Geofence"
+            },
+            "10236960": {
+              "name": "navigator_traffic",
+              "message": "Traffic alert",
+              "description": "- ID: {1}\n- Distance: {2m}\n- Direction: {3} degrees",
+              "arguments": [
+                {
+                  "type": "uint64_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "int32_t",
+                  "name": "arg1"
+                },
+                {
+                  "type": "int16_t",
+                  "name": "arg2"
+                }
+              ]
+            },
+            "10664053": {
+              "name": "navigator_traffic_rtl",
+              "message": "Traffic alert, returning home",
+              "description": "- ID: {1}\n- Distance: {2m}\n- Direction: {3} degrees",
+              "arguments": [
+                {
+                  "type": "uint64_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "int32_t",
+                  "name": "arg1"
+                },
+                {
+                  "type": "int16_t",
+                  "name": "arg2"
+                }
+              ]
+            },
+            "7144644": {
+              "name": "navigator_traffic_land",
+              "message": "Traffic alert, landing",
+              "description": "- ID: {1}\n- Distance: {2m}\n- Direction: {3} degrees",
+              "arguments": [
+                {
+                  "type": "uint64_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "int32_t",
+                  "name": "arg1"
+                },
+                {
+                  "type": "int16_t",
+                  "name": "arg2"
+                }
+              ]
+            },
+            "1801328": {
+              "name": "navigator_traffic_hold",
+              "message": "Traffic alert, holding position",
+              "description": "- ID: {1}\n- Distance: {2m}\n- Direction: {3} degrees",
+              "arguments": [
+                {
+                  "type": "uint64_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "int32_t",
+                  "name": "arg1"
+                },
+                {
+                  "type": "int16_t",
+                  "name": "arg2"
+                }
+              ]
+            },
+            "710679": {
+              "name": "navigator_mission_failure_heading",
+              "message": "Mission failure: unable to reach heading within timeout"
+            },
+            "1438136": {
+              "name": "navigator_geofence_max_dist_from_home",
+              "message": "Geofence: maximum distance from home reached ({1:.0m})",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "9370229": {
+              "name": "navigator_geofence_max_alt_from_home",
+              "message": "Geofence: maximum altitude above home reached ({1:.0m_v})",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "4704426": {
+              "name": "navigator_geofence_imported",
+              "message": "Geofence imported"
+            },
+            "8865457": {
+              "name": "navigator_geofence_import_failed",
+              "message": "Geofence: import error"
+            },
+            "8324861": {
+              "name": "navigator_mis_no_pos_lock",
+              "message": "Not yet ready for mission, no position lock"
+            },
+            "5795201": {
+              "name": "navigator_mis_geofence_no_home",
+              "message": "Geofence requires a valid home position"
+            },
+            "3453129": {
+              "name": "navigator_mis_geofence_no_home2",
+              "message": "Geofence requires a valid home position"
+            },
+            "2831661": {
+              "name": "navigator_mis_geofence_violation",
+              "message": "Geofence violation for waypoint {1}",
+              "arguments": [
+                {
+                  "type": "int16_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "3378258": {
+              "name": "navigator_mis_no_home_rel_alt",
+              "message": "Mission rejected: No home position, waypoint {1} uses relative altitude",
+              "arguments": [
+                {
+                  "type": "int16_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "14590856": {
+              "name": "navigator_mis_wp_below_home",
+              "message": "Waypoint {1} below home",
+              "arguments": [
+                {
+                  "type": "int16_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "15110109": {
+              "name": "navigator_mis_sd_failure",
+              "message": "Mission rejected: Cannot access mission storage"
+            },
+            "8775715": {
+              "name": "navigator_mis_unsup_cmd",
+              "message": "Mission rejected: item {1}: unsupported command: {2}",
+              "arguments": [
+                {
+                  "type": "uint16_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "uint16_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "16386654": {
+              "name": "navigator_mis_act_index",
+              "message": "Actuator number {1} is out of bounds 0..5",
+              "arguments": [
+                {
+                  "type": "uint32_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "3502103": {
+              "name": "navigator_mis_act_range",
+              "message": "Actuator value {1} is out of bounds -{2}..{2}",
+              "arguments": [
+                {
+                  "type": "uint32_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "uint32_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "6124520": {
+              "name": "navigator_mis_starts_w_landing",
+              "message": "Mission rejected: starts with landing"
+            },
+            "12208749": {
+              "name": "navigator_mis_takeoff_too_low",
+              "message": "Mission rejected: takeoff altitude too low! Minimum: {1:.1m_v}",
+              "description": "The minimum takeoff altitude is the acceptance radius plus 1m.",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "5494498": {
+              "name": "navigator_mis_takeoff_missing",
+              "message": "Mission rejected: takeoff waypoint required"
+            },
+            "16663074": {
+              "name": "navigator_mis_takeoff_not_first",
+              "message": "Mission rejected: takeoff is not the first waypoint item"
+            },
+            "12768213": {
+              "name": "navigator_mis_multiple_land",
+              "message": "Mission rejected: more than one land start commands"
+            },
+            "11950283": {
+              "name": "navigator_mis_land_approach",
+              "message": "Mission rejected: adjust landing approach",
+              "description": "The landing waypoint must be above the altitude of slope at the given waypoint distance. Move it down {1m_v} or move it further away by {2m}.",
+              "arguments": [
+                {
+                  "type": "int32_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "int32_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "14950552": {
+              "name": "navigator_mis_land_too_high",
+              "message": "Mission rejected: landing waypoint is above the last waypoint"
+            },
+            "10829831": {
+              "name": "navigator_mis_land_within_flare",
+              "message": "Mission rejected: waypoint is within landing flare"
+            },
+            "15928750": {
+              "name": "navigator_mis_req_landing_approach",
+              "message": "Mission rejected: landing approach is required"
+            },
+            "1925166": {
+              "name": "navigator_mis_starts_w_landing2",
+              "message": "Mission rejected: starts with landing"
+            },
+            "7860665": {
+              "name": "navigator_mis_land_before_rtl",
+              "message": "Mission rejected: land start item before RTL item is not possible"
+            },
+            "8459921": {
+              "name": "navigator_mis_land_missing",
+              "message": "Mission rejected: landing pattern required"
+            },
+            "13956202": {
+              "name": "navigator_mis_invalid_land",
+              "message": "Mission rejected: invalid land start"
+            },
+            "5475904": {
+              "name": "navigator_mis_multi_land",
+              "message": "Mission rejected: more than one land start commands"
+            },
+            "14275296": {
+              "name": "navigator_mis_starts_w_land",
+              "message": "Mission rejected: starts with land waypoint"
+            },
+            "13712849": {
+              "name": "navigator_mis_land_before_rtl2",
+              "message": "Mission rejected: land start item before RTL item is not possible"
+            },
+            "3580569": {
+              "name": "navigator_mis_land_missing2",
+              "message": "Mission rejected: landing pattern required"
+            },
+            "3974792": {
+              "name": "navigator_mis_invalid_land2",
+              "message": "Mission rejected: invalid land start"
+            },
+            "14448793": {
+              "name": "navigator_mis_storage_failure",
+              "message": "Error reading mission storage"
+            },
+            "11675604": {
+              "name": "navigator_mis_first_wp_too_far",
+              "message": "First waypoint too far away: {1m} (maximum: {2m})",
+              "arguments": [
+                {
+                  "type": "uint32_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "uint32_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "1176881": {
+              "name": "navigator_mis_storage_failure2",
+              "message": "Error reading mission storage"
+            },
+            "15950842": {
+              "name": "navigator_mis_wp_dist_too_far",
+              "message": "Distance between waypoints too far: {1m}, (maximum: {2m})",
+              "arguments": [
+                {
+                  "type": "uint32_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "uint32_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "13378512": {
+              "name": "navigator_mis_wp_gate_too_close",
+              "message": "Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                },
+                {
+                  "type": "float",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "9351472": {
+              "name": "rtl_unsupported_mav_frame",
+              "message": "RTL: unsupported MAV_FRAME ({1})",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "11157417": {
+              "name": "rtl_land_at_home",
+              "message": "RTL: landing at home position"
+            },
+            "14005080": {
+              "name": "rtl_land_at_mission",
+              "message": "RTL: landing at mission landing"
+            },
+            "15432474": {
+              "name": "rtl_land_at_safe_point",
+              "message": "RTL: landing at safe landing point"
+            },
+            "4513795": {
+              "name": "rtl_using_mission_landing",
+              "message": "RTL: using mission landing"
+            },
+            "10406957": {
+              "name": "rtl_not_using_mission_landing",
+              "message": "RTL: unable to use mission landing, doing regular RTL"
+            },
+            "9210889": {
+              "name": "rtl_climb_to",
+              "message": "RTL: climb to {1m_v} ({2m_v} above destination)",
+              "arguments": [
+                {
+                  "type": "int32_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "int32_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "16133968": {
+              "name": "rtl_return_at",
+              "message": "RTL: return at {1m_v} ({2m_v} above destination)",
+              "arguments": [
+                {
+                  "type": "int32_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "int32_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "12128736": {
+              "name": "rtl_descend_to",
+              "message": "RTL: descend to {1m_v} ({2m_v} above destination)",
+              "arguments": [
+                {
+                  "type": "int32_t",
+                  "name": "arg0"
+                },
+                {
+                  "type": "int32_t",
+                  "name": "arg1"
+                }
+              ]
+            },
+            "11851609": {
+              "name": "rtl_loiter",
+              "message": "RTL: loiter {1:.1}s",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "16725343": {
+              "name": "rtl_completed_loiter",
+              "message": "RTL: completed, loitering"
+            },
+            "185258": {
+              "name": "rtl_land_at_destination",
+              "message": "RTL: land at destination"
+            },
+            "9806595": {
+              "name": "navigator_gpsfailure_loitering",
+              "message": "Global position failure: loitering"
+            },
+            "14521933": {
+              "name": "navigator_gpsfailure_terminate",
+              "message": "No GPS recovery, terminating flight"
+            },
+            "14415650": {
+              "name": "navigator_takeoff_min_alt",
+              "message": "Using minimum takeoff altitude: {1:.2m}",
+              "arguments": [
+                {
+                  "type": "float",
+                  "name": "arg0"
+                }
+              ]
+            },
+            "2321600": {
+              "name": "navigator_takeoff_already_higher",
+              "message": "Already higher than takeoff altitude (not descending)"
+            }
+          }
+        }
+      },
+      "enums": {
+        "sensor_type_t": {
+          "type": "uint8_t",
+          "description": "Sensor type for failover reporting",
+          "entries": {
+            "0": {
+              "name": "accel",
+              "description": "Accelerometer"
+            },
+            "1": {
+              "name": "gyro",
+              "description": "Gyroscope"
+            },
+            "2": {
+              "name": "mag",
+              "description": "Magnetometer"
+            }
+          }
+        },
+        "sensor_failover_reason_t": {
+          "type": "uint16_t",
+          "description": "Bitfield for sensor failover reason",
+          "is_bitfield": true,
+          "entries": {
+            "1": {
+              "name": "no_data",
+              "description": "No data"
+            },
+            "2": {
+              "name": "stale_data",
+              "description": "Stale data"
+            },
+            "4": {
+              "name": "timeout",
+              "description": "Timeout"
+            },
+            "8": {
+              "name": "high_error_count",
+              "description": "High Error Count"
+            },
+            "16": {
+              "name": "high_error_density",
+              "description": "High Error Density"
+            }
+          }
+        },
+        "arming_state_t": {
+          "type": "uint8_t",
+          "description": "State of the main arming state machine",
+          "entries": {
+            "0": {
+              "name": "init",
+              "description": "Init"
+            },
+            "1": {
+              "name": "standby",
+              "description": "Standby"
+            },
+            "2": {
+              "name": "armed",
+              "description": "Armed"
+            },
+            "3": {
+              "name": "standby_error",
+              "description": "Standby Error"
+            },
+            "4": {
+              "name": "shutdown",
+              "description": "Shutdown"
+            },
+            "5": {
+              "name": "inair_restore",
+              "description": "In-air Restore"
+            }
+          }
+        },
+        "failsafe_reason_t": {
+          "type": "uint8_t",
+          "description": "Reason for entering failsafe",
+          "entries": {
+            "0": {
+              "name": "no_rc",
+              "description": "No manual control stick input"
+            },
+            "1": {
+              "name": "no_offboard",
+              "description": "No offboard control inputs"
+            },
+            "2": {
+              "name": "no_rc_and_no_offboard",
+              "description": "No manual control stick and no offboard control inputs"
+            },
+            "3": {
+              "name": "no_local_position",
+              "description": "No local position estimate"
+            },
+            "4": {
+              "name": "no_global_position",
+              "description": "No global position estimate"
+            },
+            "5": {
+              "name": "no_datalink",
+              "description": "No datalink"
+            },
+            "6": {
+              "name": "no_rc_and_no_datalink",
+              "description": "No RC and no datalink"
+            }
+          }
+        },
+        "arm_disarm_reason_t": {
+          "type": "uint8_t",
+          "description": "Reason for arming/disarming",
+          "entries": {
+            "0": {
+              "name": "transition_to_standby",
+              "description": "Transition to standby"
+            },
+            "1": {
+              "name": "rc_stick",
+              "description": "RC"
+            },
+            "2": {
+              "name": "rc_switch",
+              "description": "RC (switch)"
+            },
+            "3": {
+              "name": "command_internal",
+              "description": "internal command"
+            },
+            "4": {
+              "name": "command_external",
+              "description": "external command"
+            },
+            "5": {
+              "name": "mission_start",
+              "description": "mission start"
+            },
+            "6": {
+              "name": "safety_button",
+              "description": "safety button"
+            },
+            "7": {
+              "name": "auto_disarm_land",
+              "description": "landing"
+            },
+            "8": {
+              "name": "auto_disarm_preflight",
+              "description": "auto preflight disarming"
+            },
+            "9": {
+              "name": "kill_switch",
+              "description": "kill switch"
+            },
+            "10": {
+              "name": "lockdown",
+              "description": "lockdown"
+            },
+            "11": {
+              "name": "failure_detector",
+              "description": "failure detector"
+            },
+            "12": {
+              "name": "shutdown",
+              "description": "shutdown request"
+            },
+            "13": {
+              "name": "unit_test",
+              "description": "unit tests"
+            }
+          }
+        },
+        "navigation_mode_t": {
+          "type": "uint8_t",
+          "description": "Flight mode",
+          "entries": {
+            "0": {
+              "name": "manual",
+              "description": "Manual"
+            },
+            "1": {
+              "name": "altctl",
+              "description": "Altitude control"
+            },
+            "2": {
+              "name": "posctl",
+              "description": "Position control"
+            },
+            "3": {
+              "name": "auto_mission",
+              "description": "Mission"
+            },
+            "4": {
+              "name": "auto_loiter",
+              "description": "Hold"
+            },
+            "5": {
+              "name": "auto_rtl",
+              "description": "RTL"
+            },
+            "6": {
+              "name": "acro",
+              "description": "Acro"
+            },
+            "7": {
+              "name": "offboard",
+              "description": "Offboard"
+            },
+            "8": {
+              "name": "stab",
+              "description": "Stabilized"
+            },
+            "10": {
+              "name": "auto_takeoff",
+              "description": "Takeoff"
+            },
+            "11": {
+              "name": "auto_land",
+              "description": "Land"
+            },
+            "12": {
+              "name": "auto_follow_target",
+              "description": "Follow Target"
+            },
+            "13": {
+              "name": "auto_precland",
+              "description": "Precision Landing"
+            },
+            "14": {
+              "name": "orbit",
+              "description": "Orbit"
+            },
+            "255": {
+              "name": "unknown",
+              "description": "[Unknown]"
+            }
+          }
+        }
+      }
+    },
+    "0": {
+      "namespace": "common",
+      "enums": {
+        "health_component_t": {
+          "type": "uint64_t",
+          "description": "Bitfield for subsystems & components",
+          "is_bitfield": true,
+          "entries": {
+            "1": {
+              "name": "sensor_imu",
+              "description": "IMU"
+            },
+            "2": {
+              "name": "sensor_absolute_pressure",
+              "description": "Absolute pressure"
+            },
+            "4": {
+              "name": "sensor_differential_pressure",
+              "description": "Differential pressure"
+            },
+            "8": {
+              "name": "sensor_gps",
+              "description": "GPS"
+            },
+            "16": {
+              "name": "sensor_optical_flow",
+              "description": "Optical flow"
+            },
+            "32": {
+              "name": "sensor_vision_position",
+              "description": "Vision position estimate"
+            },
+            "64": {
+              "name": "sensor_distance",
+              "description": "Distance sensor"
+            },
+            "128": {
+              "name": "manual_control_input",
+              "description": "RC or virtual joystick input"
+            },
+            "256": {
+              "name": "motors_escs",
+              "description": "Motors/ESCs"
+            },
+            "512": {
+              "name": "utm",
+              "description": "UTM"
+            },
+            "1024": {
+              "name": "logging",
+              "description": "Logging"
+            },
+            "2048": {
+              "name": "battery",
+              "description": "Battery"
+            },
+            "4096": {
+              "name": "communication_links",
+              "description": "Communication links"
+            },
+            "8192": {
+              "name": "rate_controller",
+              "description": "Rate controller"
+            },
+            "16384": {
+              "name": "attitude_controller",
+              "description": "Attitude controller"
+            },
+            "32768": {
+              "name": "position_controller",
+              "description": "Position controller"
+            },
+            "65536": {
+              "name": "attitude_estimate",
+              "description": "Attitude estimate"
+            },
+            "131072": {
+              "name": "local_position_estimate",
+              "description": "Local position estimate"
+            },
+            "262144": {
+              "name": "mission",
+              "description": "Mission"
+            },
+            "524288": {
+              "name": "avoidance",
+              "description": "Avoidance"
+            },
+            "1048576": {
+              "name": "system",
+              "description": "System",
+              "comment": "e.g. CPU or RAM"
+            },
+            "2097152": {
+              "name": "camera",
+              "description": "Camera"
+            },
+            "4194304": {
+              "name": "gimbal",
+              "description": "Gimbal"
+            },
+            "8388608": {
+              "name": "payload",
+              "description": "Payload"
+            },
+            "16777216": {
+              "name": "global_position_estimate",
+              "description": "Global position estimate"
+            },
+            "33554432": {
+              "name": "storage",
+              "description": "Storage",
+              "comment": "e.g. SD card or FRAM"
+            }
+          }
+        },
+        "navigation_mode_category_t": {
+          "type": "uint8_t",
+          "description": "Navigation/flight mode category bits",
+          "is_bitfield": true,
+          "entries": {
+            "1": {
+              "name": "current",
+              "description": "Current mode"
+            },
+            "2": {
+              "name": "manual__unused",
+              "description": "Fully manual modes (w/o any controller support) (enable once needed)"
+            },
+            "4": {
+              "name": "rate__unused",
+              "description": "Rate-controlled modes (enable once needed)"
+            },
+            "8": {
+              "name": "attitude__unused",
+              "description": "Attitude-controlled modes (enable once needed)"
+            },
+            "16": {
+              "name": "altitude",
+              "description": "Altitude-controlled modes"
+            },
+            "32": {
+              "name": "position",
+              "description": "Position-controlled modes"
+            },
+            "64": {
+              "name": "autonomous",
+              "description": "Autonomous navigation modes"
+            },
+            "128": {
+              "name": "mission",
+              "description": "(Planned) Mission modes"
+            }
+          }
+        },
+        "calibration_type_t": {
+          "type": "uint16_t",
+          "description": "Calibration type",
+          "is_bitfield": true,
+          "entries": {
+            "1": {
+              "name": "accel",
+              "description": "Accelerometer"
+            },
+            "2": {
+              "name": "mag",
+              "description": "Magnetometer"
+            },
+            "4": {
+              "name": "gyro",
+              "description": "Gyroscope"
+            },
+            "8": {
+              "name": "level",
+              "description": "Level"
+            },
+            "16": {
+              "name": "airspeed",
+              "description": "Airspeed"
+            },
+            "32": {
+              "name": "rc",
+              "description": "RC"
+            },
+            "64": {
+              "name": "airframe_selection",
+              "description": "Airframe selection"
+            }
+          }
+        },
+        "calibration_sides_t": {
+          "type": "uint8_t",
+          "description": "Calibration Sides Bitfield",
+          "is_bitfield": true,
+          "entries": {
+            "1": {
+              "name": "tail_down",
+              "description": "Tail Down"
+            },
+            "2": {
+              "name": "nose_down",
+              "description": "Nose Down"
+            },
+            "4": {
+              "name": "left_side_down",
+              "description": "Left Side Down"
+            },
+            "8": {
+              "name": "right_side_down",
+              "description": "Right Side Down"
+            },
+            "16": {
+              "name": "upside_down",
+              "description": "Upside Down"
+            },
+            "32": {
+              "name": "down",
+              "description": "Down"
+            }
+          }
+        },
+        "calibration_action_t": {
+          "type": "uint8_t",
+          "description": "Calibration Action/next step",
+          "entries": {
+            "0": {
+              "name": "already_completed",
+              "description": "Side already completed, switch to one of the remaining sides"
+            },
+            "1": {
+              "name": "next_orientation",
+              "description": "Switch to next orientation"
+            },
+            "2": {
+              "name": "rotate",
+              "description": "Rotate as shown"
+            },
+            "3": {
+              "name": "hold_still",
+              "description": "Hold still"
+            }
+          }
+        },
+        "calibration_result_t": {
+          "type": "uint8_t",
+          "description": "Calibration Result",
+          "entries": {
+            "0": {
+              "name": "success",
+              "description": "Success"
+            },
+            "1": {
+              "name": "failed",
+              "description": "Failed"
+            },
+            "2": {
+              "name": "aborted",
+              "description": "Aborted"
+            }
+          }
+        }
+      },
+      "event_groups": {
+        "default": {
+          "events": {}
+        },
+        "health": {
+          "events": {
+            "1000": {
+              "name": "health_summary",
+              "message": "Health report summary event",
+              "arguments": [
+                {
+                  "type": "health_component_t",
+                  "name": "is_present",
+                  "description": "Bitset for each component if present or not"
+                },
+                {
+                  "type": "health_component_t",
+                  "name": "error",
+                  "description": "Bitset for each component if there is a failure or fatal error"
+                },
+                {
+                  "type": "health_component_t",
+                  "name": "warning",
+                  "description": "Bitset for each component if there are warnings"
+                }
+              ]
+            }
+          }
+        },
+        "arming_check": {
+          "events": {
+            "1010": {
+              "name": "arming_check_summary",
+              "message": "Arming check summary event",
+              "arguments": [
+                {
+                  "type": "health_component_t",
+                  "name": "error",
+                  "description": "Bitset for each component if there is an error (over all navigation mode categories)"
+                },
+                {
+                  "type": "health_component_t",
+                  "name": "warning",
+                  "description": "Bitset for each component if there is a warning (over all navigation mode categories)"
+                },
+                {
+                  "type": "navigation_mode_category_t",
+                  "name": "can_arm",
+                  "description": "Bitset for each navigation modes if arming is allowed."
+                }
+              ]
+            }
+          }
+        },
+        "calibration": {
+          "events": {
+            "1100": {
+              "name": "cal_progress",
+              "message": "Calibration progress: {2}%",
+              "arguments": [
+                {
+                  "type": "uint8_t",
+                  "name": "proto_ver",
+                  "description": "Protocol version (set to 1)"
+                },
+                {
+                  "type": "int8_t",
+                  "name": "progress",
+                  "description": "Current progress in %"
+                },
+                {
+                  "type": "calibration_type_t",
+                  "name": "calibration_type"
+                },
+                {
+                  "type": "calibration_sides_t",
+                  "name": "required_sides",
+                  "description": "Sides still left to be done"
+                }
+              ]
+            },
+            "1101": {
+              "name": "cal_orientation_detected",
+              "message": "Orientation detected: {1}",
+              "arguments": [
+                {
+                  "type": "calibration_sides_t",
+                  "name": "orientation"
+                },
+                {
+                  "type": "calibration_action_t",
+                  "name": "action"
+                }
+              ]
+            },
+            "1102": {
+              "name": "cal_orientation_done",
+              "message": "Orientation Complete: {1}, next step: {2}",
+              "arguments": [
+                {
+                  "type": "calibration_sides_t",
+                  "name": "orientation"
+                },
+                {
+                  "type": "calibration_action_t",
+                  "name": "action"
+                }
+              ]
+            },
+            "1103": {
+              "name": "cal_done",
+              "message": "Calibration Complete: {1}",
+              "arguments": [
+                {
+                  "type": "calibration_result_t",
+                  "name": "result"
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
