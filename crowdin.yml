@@ -1,0 +1,3 @@
+files:
+  - source: to_translate/*.ts
+    translation: /translated/%file_name%_%locale_with_underscore%.%file_extension%
