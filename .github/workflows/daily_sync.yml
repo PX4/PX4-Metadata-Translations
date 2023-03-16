@@ -1,0 +1,38 @@
+name: ClusterFuzzLite batch fuzzing
+on:
+  schedule:
+    - cron: '0 6 * * *'  # UTC 6am every day.
+  push: # TODO
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      GIT_COMMITTER_EMAIL: bot@px4.io
+      GIT_COMMITTER_NAME: PX4BuildBot
+    steps:
+    - uses: actions/checkout@v2.3.1
+    - name: Install deps
+      run: sudo apt update && sudo apt install xz-utils
+    - name: Update metadata
+      run: |
+        mkdir metadata || true
+        wget https://px4-travis.s3.amazonaws.com/Firmware/master/_general/all_events.json.xz
+        xz --decompress all_events.json.xz
+        mv all_events.json metadata/events.json
+
+        wget https://px4-travis.s3.amazonaws.com/Firmware/master/_general/parameters.json.xz
+        xz --decompress parameters.json.xz
+        mv parameters.json metadata/
+
+        ./scripts/prepare_ts_all.sh
+
+    - name: Update summary
+      run: ./scripts/update_summary.py translated
+    - name: auto-commit any changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: '[AUTO COMMIT] update metadata and summary'
+        commit_user_name: ${GIT_COMMITTER_NAME}
+        commit_user_email: ${GIT_COMMITTER_EMAIL}
+

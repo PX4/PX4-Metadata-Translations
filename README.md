@@ -12,7 +12,7 @@ Directories:
 Update steps:
 - CI syncs px4 metadata to `metadata/`
 - Execute:
-  `./scripts/prepare_to_ts_all.sh`
+  `./scripts/prepare_ts_all.sh`
 - Using Crowdin (or any other translation service): translate `to_translate/*.ts`
 - Push translated files to `translated/`
 - Compress and update summary file:
