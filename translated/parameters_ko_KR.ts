@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de" sourcelanguage="en">
+<TS version="2.1" language="ko" sourcelanguage="en">
   <context>
     <name>/parameters/ctl_bw/shortDesc</name>
     <message>
       <source>Speed controller bandwidth</source>
-      <translation type="unfinished">Speed controller bandwidth</translation>
+      <translation>속도 조종 장치 대역폭</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_bw/longDesc</name>
     <message>
       <source>Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</source>
-      <translation type="unfinished">Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</translation>
+      <translation>속도 컨트롤러 대역폭 (Hz). 값이 높을수록 속도와 전류 상승 시간이 빨라지지만, 오버 슈트와 전류 소비가 많이 발생할 수 있습니다. 고정익의 값은 50Hz 미만이어야합니다. 멀티콥터는 100Hz까지는 응답성을 향상시킬 수 있습니다.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/shortDesc</name>
     <message>
       <source>Reverse direction</source>
-      <translation type="unfinished">Reverse direction</translation>
+      <translation>역방향</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/longDesc</name>
     <message>
       <source>Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</source>
-      <translation>Motordrehrichtung wie bei der ersten Aufzählung erkannt. Verwenden Sie 0 oder 1, um die Richtung umzukehren.</translation>
+      <translation>초기 열거자중에서 감지된 모터 회전 방향. 방향을 바꾸려면 0 또는 1을 사용합니다.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_gain/shortDesc</name>
     <message>
       <source>Speed (RPM) controller gain</source>
-      <translation>Geschwindigkeit (RPM) Controller Verstärkung</translation>
+      <translation type="unfinished">Speed (RPM) controller gain</translation>
     </message>
   </context>
   <context>
@@ -59,7 +59,7 @@
     <name>/parameters/ctl_hz_idle/shortDesc</name>
     <message>
       <source>Idle speed (e Hz)</source>
-      <translation>Leerlaufgeschwindigkeit (e Hz)</translation>
+      <translation type="unfinished">Idle speed (e Hz)</translation>
     </message>
   </context>
   <context>

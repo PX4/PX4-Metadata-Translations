@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de" sourcelanguage="en">
+<TS version="2.1" language="en" sourcelanguage="en">
   <context>
     <name>/parameters/ctl_bw/shortDesc</name>
     <message>
@@ -26,14 +26,14 @@
     <name>/parameters/ctl_dir/longDesc</name>
     <message>
       <source>Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</source>
-      <translation>Motordrehrichtung wie bei der ersten Aufzählung erkannt. Verwenden Sie 0 oder 1, um die Richtung umzukehren.</translation>
+      <translation type="unfinished">Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_gain/shortDesc</name>
     <message>
       <source>Speed (RPM) controller gain</source>
-      <translation>Geschwindigkeit (RPM) Controller Verstärkung</translation>
+      <translation type="unfinished">Speed (RPM) controller gain</translation>
     </message>
   </context>
   <context>
@@ -59,7 +59,7 @@
     <name>/parameters/ctl_hz_idle/shortDesc</name>
     <message>
       <source>Idle speed (e Hz)</source>
-      <translation>Leerlaufgeschwindigkeit (e Hz)</translation>
+      <translation type="unfinished">Idle speed (e Hz)</translation>
     </message>
   </context>
   <context>
