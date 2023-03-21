@@ -4583,5 +4583,52 @@
       ]
     }
   },
-  "version": 1
+  "translation": {
+    "items": {
+      "components": {
+        "items": {
+          "*": {
+            "items": {
+              "enums": {
+                "items": {
+                  "*": {
+                    "items": {
+                      "entries": {
+                        "items": {
+                          "*": {
+                            "translate": [
+                              "description"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "event_groups": {
+                "items": {
+                  "*": {
+                    "items": {
+                      "events": {
+                        "items": {
+                          "*": {
+                            "translate": [
+                              "message",
+                              "description"
+                            ]
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "version": 2
 }
