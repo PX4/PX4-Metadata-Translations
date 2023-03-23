@@ -3573,7 +3573,7 @@
       "decimalPlaces": 1,
       "default": 0.0,
       "group": "EKF2",
-      "longDesc": "A value of zero will deactivate airspeed fusion. Any other positive value will determine the minimum airspeed which will still be fused. Set to about 90% of the vehicles stall speed. Both airspeed fusion and sideslip fusion must be active for the EKF to continue navigating after loss of GPS. Use EKF2_FUSE_BETA to activate sideslip fusion.",
+      "longDesc": "A value of zero will deactivate airspeed fusion. Any other positive value will determine the minimum airspeed which will still be fused. Set to about 90% of the vehicles stall speed. Both airspeed fusion and sideslip fusion must be active for the EKF to continue navigating after loss of GPS. Use EKF2_FUSE_BETA to activate sideslip fusion. Note: side slip fusion is currently not supported for tailsitters.",
       "min": 0.0,
       "name": "EKF2_ARSP_THR",
       "shortDesc": "Airspeed fusion threshold",
@@ -9817,30 +9817,6 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 3,
-      "default": 0.0,
-      "group": "Mount",
-      "longDesc": "if required for the gimbal (only in AUX output mode)",
-      "max": 1.0,
-      "min": -1.0,
-      "name": "MNT_OB_LOCK_MODE",
-      "shortDesc": "Mixer value for selecting a locking mode",
-      "type": "Float"
-    },
-    {
-      "category": "Standard",
-      "decimalPlaces": 3,
-      "default": -1.0,
-      "group": "Mount",
-      "longDesc": "if required by the gimbal (only in AUX output mode)",
-      "max": 1.0,
-      "min": -1.0,
-      "name": "MNT_OB_NORM_MODE",
-      "shortDesc": "Mixer value for selecting normal mode",
-      "type": "Float"
-    },
-    {
-      "category": "Standard",
       "decimalPlaces": 1,
       "default": 0.0,
       "group": "Mount",
@@ -10322,6 +10298,18 @@
       "shortDesc": "Land crawl descend rate",
       "type": "Float",
       "units": "m/s"
+    },
+    {
+      "category": "Standard",
+      "decimalPlaces": 1,
+      "default": 1000.0,
+      "group": "Multicopter Position Control",
+      "longDesc": "When user assisted descent is enabled (see MPC_LAND_RC_HELP), this parameter controls the maximum position adjustment allowed from the original landing point.",
+      "min": 0.0,
+      "name": "MPC_LAND_RADIUS",
+      "shortDesc": "User assisted landing radius",
+      "type": "Float",
+      "units": "m"
     },
     {
       "category": "Standard",
