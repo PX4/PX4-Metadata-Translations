@@ -6730,7 +6730,7 @@
     {
       "category": "Standard",
       "decimalPlaces": 2,
-      "default": 0.3,
+      "default": 0.1,
       "group": "FW TECS",
       "increment": 0.05,
       "longDesc": "This is the integrator gain on the throttle part of the control loop. Increasing this gain increases the speed at which speed and height offsets are trimmed out, but reduces damping and increases overshoot. Set this value to zero to completely disable all integrator action.",
