@@ -2932,20 +2932,6 @@
               "message": "IO protocol/firmware mismatch, aborting initialization",
               "name": "px4io_proto_fw_mismatch"
             },
-            "15950842": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "uint32_t"
-                }
-              ],
-              "message": "Distance between waypoints too far: {1m}, (maximum: {2m})",
-              "name": "navigator_mis_wp_dist_too_far"
-            },
             "16017271": {
               "arguments": [
                 {

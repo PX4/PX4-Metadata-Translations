@@ -2510,12 +2510,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/15950842/message</name>
-  <message>
-  <source>Distance between waypoints too far: {1m}, (maximum: {2m})</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/16017271/message</name>
   <message>
   <source>Disarmed by {1}</source>
