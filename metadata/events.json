@@ -3009,6 +3009,10 @@
               "message": "Ignoring mission item, invalid item",
               "name": "mavlink_mission_mis_item_invalid"
             },
+            "16718376": {
+              "message": "RTL to Mission landing, continue landing",
+              "name": "rtl_land_at_mission_continue_landing"
+            },
             "16725343": {
               "message": "RTL: completed, loitering",
               "name": "rtl_completed_loiter"

@@ -2588,6 +2588,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/16718376/message</name>
+  <message>
+  <source>RTL to Mission landing, continue landing</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/16725343/message</name>
   <message>
   <source>RTL: completed, loitering</source>
