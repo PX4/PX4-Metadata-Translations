@@ -3917,13 +3917,13 @@
 <context>
   <name>/parameters/EKF2_AID_MASK/shortDesc</name>
   <message>
-  <source>Integer bitmask controlling data fusion and aiding methods</source>
+  <source>Will be removed after v1.14 release</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_AID_MASK/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Deprecated, use EKF2_GPS_CTRL instead 1 : Set to true to use optical flow data if available 2 : Deprecated, use EKF2_IMU_CTRL instead 3 : Deprecated, use EKF2_EV_CTRL instead 4 : Deprecated, use EKF2_EV_CTRL instead 5 : Set to true to enable multi-rotor drag specific force fusion 6 : Deprecated, use EKF2_EV_CTRL instead 7 : Deprecated, use EKF2_GPS_CTRL instead 8 : Deprecated, use EKF2_EV_CTRL instead</source>
+  <source>Set bits in the following positions to enable: 0 : Deprecated, use EKF2_GPS_CTRL instead 1 : Deprecated. use EKF2_OF_CTRL instead 2 : Deprecated, use EKF2_IMU_CTRL instead 3 : Deprecated, use EKF2_EV_CTRL instead 4 : Deprecated, use EKF2_EV_CTRL instead 5 : Deprecated. use EKF2_DRAG_CTRL instead 6 : Deprecated, use EKF2_EV_CTRL instead 7 : Deprecated, use EKF2_GPS_CTRL instead 8 : Deprecated, use EKF2_EV_CTRL instead</source>
   </message>
 </context>
 <context>
@@ -3935,7 +3935,7 @@
 <context>
   <name>/parameters/EKF2_AID_MASK/bitmask/1/description</name>
   <message>
-  <source>use optical flow</source>
+  <source>unused</source>
   </message>
 </context>
 <context>
@@ -3959,7 +3959,7 @@
 <context>
   <name>/parameters/EKF2_AID_MASK/bitmask/5/description</name>
   <message>
-  <source>multi-rotor drag fusion</source>
+  <source>unused</source>
   </message>
 </context>
 <context>
@@ -4025,7 +4025,7 @@
 <context>
   <name>/parameters/EKF2_BARO_CTRL/longDesc</name>
   <message>
-  <source>If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate it's height in addition to other height sources (if activated).</source>
+  <source>If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate its height in addition to other height sources (if activated).</source>
   </message>
 </context>
 <context>
@@ -4073,7 +4073,7 @@
 <context>
   <name>/parameters/EKF2_BCOEF_X/longDesc</name>
   <message>
-  <source>This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_AID_MASK parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
+  <source>This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
   </message>
 </context>
 <context>
@@ -4085,7 +4085,7 @@
 <context>
   <name>/parameters/EKF2_BCOEF_Y/longDesc</name>
   <message>
-  <source>This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_AID_MASK parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
+  <source>This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
   </message>
 </context>
 <context>
@@ -4134,6 +4134,30 @@
   <name>/parameters/EKF2_DECL_TYPE/bitmask/2/description</name>
   <message>
   <source>use declination as an observation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_DRAG_CTRL/shortDesc</name>
+  <message>
+  <source>Multirotor wind estimation selection</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_DRAG_CTRL/longDesc</name>
+  <message>
+  <source>Activate wind speed estimation using specific-force measurements and a drag model defined by EKF2_BCOEF_[XY] and EKF2_MCOEF. Only use on vehicles that have their thrust aligned with the Z axis and no thrust in the XY plane.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_DRAG_CTRL/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_DRAG_CTRL/values/1/description</name>
+  <message>
+  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -4733,7 +4757,7 @@
 <context>
   <name>/parameters/EKF2_MAG_TYPE/longDesc</name>
   <message>
-  <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to '3-axis' 3-axis field fusion is used at all times. If set to 'VTOL custom' the behaviour is the same as 'Automatic', but if fusing airspeed, magnetometer fusion is only allowed to modify the magnetic field states. This can be used by VTOL platforms with large magnetic field disturbances to prevent incorrect bias states being learned during forward flight operation which can adversely affect estimation accuracy after transition to hovering flight. If set to 'MC custom' the behaviour is the same as 'Automatic, but if there are no earth frame position or velocity observations being used, the magnetometer will not be used. This enables vehicles to operate with no GPS in environments where the magnetic field cannot be used to provide a heading reference. Prior to flight, the yaw angle is assumed to be constant if movement tests indicate that the vehicle is static. This allows the vehicle to be placed on the ground to learn the yaw gyro bias prior to flight. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality). Other external sources of yaw may be used if selected via the EKF2_AID_MASK parameter.</source>
+  <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to '3-axis' 3-axis field fusion is used at all times. If set to 'VTOL custom' the behaviour is the same as 'Automatic', but if fusing airspeed, magnetometer fusion is only allowed to modify the magnetic field states. This can be used by VTOL platforms with large magnetic field disturbances to prevent incorrect bias states being learned during forward flight operation which can adversely affect estimation accuracy after transition to hovering flight. If set to 'MC custom' the behaviour is the same as 'Automatic, but if there are no earth frame position or velocity observations being used, the magnetometer will not be used. This enables vehicles to operate with no GPS in environments where the magnetic field cannot be used to provide a heading reference. Prior to flight, the yaw angle is assumed to be constant if movement tests indicate that the vehicle is static. This allows the vehicle to be placed on the ground to learn the yaw gyro bias prior to flight. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality).</source>
   </message>
 </context>
 <context>
@@ -4793,7 +4817,7 @@
 <context>
   <name>/parameters/EKF2_MCOEF/longDesc</name>
   <message>
-  <source>This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_AID_MASK parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.</source>
+  <source>This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.</source>
   </message>
 </context>
 <context>
@@ -4842,6 +4866,30 @@
   <name>/parameters/EKF2_NOAID_TOUT/shortDesc</name>
   <message>
   <source>Maximum lapsed time from last fusion of measurements that constrain velocity drift before the EKF will report the horizontal nav solution as invalid</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_CTRL/shortDesc</name>
+  <message>
+  <source>Optical flow aiding</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_CTRL/longDesc</name>
+  <message>
+  <source>Enable optical flow fusion.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_CTRL/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_CTRL/values/1/description</name>
+  <message>
+  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -5045,7 +5093,7 @@
 <context>
   <name>/parameters/EKF2_RNG_A_HMAX/longDesc</name>
   <message>
-  <source>If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate it's height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
+  <source>If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
   </message>
 </context>
 <context>
@@ -5069,7 +5117,7 @@
 <context>
   <name>/parameters/EKF2_RNG_A_VMAX/longDesc</name>
   <message>
-  <source>If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate it's height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
+  <source>If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
   </message>
 </context>
 <context>
@@ -5081,7 +5129,7 @@
 <context>
   <name>/parameters/EKF2_RNG_CTRL/longDesc</name>
   <message>
-  <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. To en-/disable range finder for terrain height estimation, use EKF2_TERR_MASK instead. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate it's height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
+  <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. To en-/disable range finder for terrain height estimation, use EKF2_TERR_MASK instead. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
   </message>
 </context>
 <context>
@@ -24519,15 +24567,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Developer</name>
-  <message>
-  <source>Developer</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/Standard</name>
   <message>
   <source>Standard</source>
+  </message>
+</context>
+<context>
+  <name>$globals/category/Developer</name>
+  <message>
+  <source>Developer</source>
   </message>
 </context>
 <context>
@@ -24537,105 +24585,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Transponder</name>
-  <message>
-  <source>Transponder</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control</name>
-  <message>
-  <source>Rover Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Cyphal</name>
-  <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Serial</name>
-  <message>
-  <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Control</name>
-  <message>
-  <source>Camera Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Radio Calibration</name>
   <message>
   <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
   </message>
 </context>
 <context>
@@ -24645,9 +24597,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/FW NPFG Control</name>
+  <name>$globals/group/Testing</name>
   <message>
-  <source>FW NPFG Control</source>
+  <source>Testing</source>
   </message>
 </context>
 <context>
@@ -24657,249 +24609,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Sensors</name>
   <message>
   <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MODAL IO</name>
-  <message>
-  <source>MODAL IO</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing target Estimator</name>
-  <message>
-  <source>Landing target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Telemetry</name>
-  <message>
-  <source>Telemetry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Landing</name>
-  <message>
-  <source>FW Auto Landing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Iridium SBD</name>
-  <message>
-  <source>Iridium SBD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera trigger</name>
-  <message>
-  <source>Camera trigger</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ESC</name>
-  <message>
-  <source>ESC</source>
   </message>
 </context>
 <context>
@@ -24909,51 +24621,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <name>$globals/group/GPS</name>
   <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
+  <source>GPS</source>
   </message>
 </context>
 <context>
@@ -24963,9 +24633,387 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Iridium SBD</name>
+  <message>
+  <source>Iridium SBD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Serial</name>
+  <message>
+  <source>Serial</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control</name>
+  <message>
+  <source>Rover Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN</name>
+  <message>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Events</name>
+  <message>
+  <source>Events</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MODAL IO</name>
+  <message>
+  <source>MODAL IO</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing target Estimator</name>
+  <message>
+  <source>Landing target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Path Control</name>
+  <message>
+  <source>FW Path Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Capture</name>
+  <message>
+  <source>Camera Capture</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Land Detector</name>
+  <message>
+  <source>Land Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ESC</name>
+  <message>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulator</name>
+  <message>
+  <source>Simulator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Telemetry</name>
+  <message>
+  <source>Telemetry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Transponder</name>
+  <message>
+  <source>Transponder</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FlightTaskOrbit</name>
+  <message>
+  <source>FlightTaskOrbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Commander</name>
   <message>
   <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Cyphal</name>
+  <message>
+  <source>Cyphal</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Control</name>
+  <message>
+  <source>Camera Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera trigger</name>
+  <message>
+  <source>Camera trigger</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
   </message>
 </context>
 </TS>

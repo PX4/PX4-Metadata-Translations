@@ -2338,6 +2338,17 @@
               "message": "SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}",
               "name": "mavlink_rcv_sp_target_gl_invalid_coord"
             },
+            "11078412": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_DRAG_CTRL instead",
+              "name": "ekf2_aid_mask_drag"
+            },
             "11085221": {
               "message": "Mission: unable to write to storage",
               "name": "mavlink_mission_storage_failure"
@@ -3077,6 +3088,17 @@
             "2087806": {
               "message": "Orbit radius limit exceeded",
               "name": "orbit_radius_exceeded"
+            },
+            "2225852": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_OF_CTRL instead",
+              "name": "ekf2_aid_mask_opt_flow"
             },
             "2321600": {
               "message": "Already higher than takeoff altitude (not descending)",

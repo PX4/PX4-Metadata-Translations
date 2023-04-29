@@ -1968,6 +1968,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/11078412/message</name>
+  <message>
+  <source>Use EKF2_DRAG_CTRL instead</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/11078412/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/11085221/message</name>
   <message>
   <source>Mission: unable to write to storage</source>
@@ -2659,6 +2671,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/2087806/message</name>
   <message>
   <source>Orbit radius limit exceeded</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/2225852/message</name>
+  <message>
+  <source>Use EKF2_OF_CTRL instead</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/2225852/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
