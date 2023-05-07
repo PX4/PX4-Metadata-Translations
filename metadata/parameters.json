@@ -17524,6 +17524,25 @@
       "category": "Standard",
       "default": 0,
       "group": "Sensors",
+      "name": "SENS_EN_ADIS165X",
+      "rebootRequired": true,
+      "shortDesc": "Analog Devices ADIS16507 IMU (external SPI)",
+      "type": "Int32",
+      "values": [
+        {
+          "description": "Disabled",
+          "value": 0
+        },
+        {
+          "description": "Enabled",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "category": "Standard",
+      "default": 0,
+      "group": "Sensors",
       "max": 1,
       "min": 0,
       "name": "SENS_EN_ARSPDSIM",
