@@ -2013,29 +2013,6 @@
     },
     {
       "category": "Standard",
-      "default": 0,
-      "group": "Commander",
-      "longDesc": "This check detects if the Open Drone ID system is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.",
-      "name": "COM_ARM_ODID",
-      "shortDesc": "Enable Drone ID system detection and health check",
-      "type": "Int32",
-      "values": [
-        {
-          "description": "Disabled",
-          "value": 0
-        },
-        {
-          "description": "Warning only",
-          "value": 1
-        },
-        {
-          "description": "Enforce Open Drone ID system presence",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "category": "Standard",
       "default": 1,
       "group": "Commander",
       "longDesc": "This check detects if the FMU SD card is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.",
@@ -6173,25 +6150,6 @@
       "shortDesc": "Acro body x max rate",
       "type": "Float",
       "units": "deg"
-    },
-    {
-      "category": "Standard",
-      "default": 0,
-      "group": "FW Rate Control",
-      "longDesc": "If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.",
-      "name": "FW_ACRO_YAW_EN",
-      "shortDesc": "Enable yaw rate controller in Acro",
-      "type": "Int32",
-      "values": [
-        {
-          "description": "Disabled",
-          "value": 0
-        },
-        {
-          "description": "Enabled",
-          "value": 1
-        }
-      ]
     },
     {
       "category": "Standard",
@@ -23365,10 +23323,10 @@
       "default": 0.0,
       "group": "VTOL Attitude Control",
       "increment": 1.0,
-      "longDesc": "Altitude error threshold for quad-chute triggering during fixed-wing flight. The check is only active if altitude is controlled and the vehicle is below the current altitude reference. The altitude error is relative to the highest altitude the vehicle has achieved since it has flown below the current altitude reference. Set to 0 do disable.",
+      "longDesc": "Threshold for integrated height rate error to trigger a uncommanded-descent quad-chute. Only checked in altitude-controlled fixed-wing flight. Additional conditions that have to be met for uncommanded descent detection are a positive (climbing) height rate setpoint and a negative (sinking) current height rate estimate. Set to 0 do disable this threshold.",
       "max": 200.0,
       "min": 0.0,
-      "name": "VT_QC_ALT_LOSS",
+      "name": "VT_QC_HR_ERROR_I",
       "shortDesc": "Quad-chute uncommanded descent threshold",
       "type": "Float",
       "units": "m"
