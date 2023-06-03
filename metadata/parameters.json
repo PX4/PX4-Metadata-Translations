@@ -5251,25 +5251,6 @@
     },
     {
       "category": "Standard",
-      "default": 0,
-      "group": "FW Attitude Control",
-      "longDesc": "On vehicles without airspeed sensor this parameter can be used to enable flying without an airspeed reading",
-      "name": "FW_ARSP_MODE",
-      "shortDesc": "Airspeed mode",
-      "type": "Int32",
-      "values": [
-        {
-          "description": "Use airspeed in controller",
-          "value": 0
-        },
-        {
-          "description": "Do not use airspeed in controller",
-          "value": 1
-        }
-      ]
-    },
-    {
-      "category": "Standard",
       "decimalPlaces": 1,
       "default": 30.0,
       "group": "FW Attitude Control",
@@ -5281,19 +5262,6 @@
       "shortDesc": "Maximum manual pitch angle",
       "type": "Float",
       "units": "deg"
-    },
-    {
-      "category": "Standard",
-      "decimalPlaces": 2,
-      "default": 1.0,
-      "group": "FW Attitude Control",
-      "increment": 0.01,
-      "longDesc": "Scale factor applied to the desired pitch actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.",
-      "min": 0.0,
-      "name": "FW_MAN_P_SC",
-      "shortDesc": "Manual pitch scale",
-      "type": "Float",
-      "units": "norm"
     },
     {
       "category": "Standard",
@@ -5311,20 +5279,6 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 2,
-      "default": 1.0,
-      "group": "FW Attitude Control",
-      "increment": 0.01,
-      "longDesc": "Scale factor applied to the desired roll actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.",
-      "max": 1.0,
-      "min": 0.0,
-      "name": "FW_MAN_R_SC",
-      "shortDesc": "Manual roll scale",
-      "type": "Float",
-      "units": "norm"
-    },
-    {
-      "category": "Standard",
       "decimalPlaces": 1,
       "default": 30.0,
       "group": "FW Attitude Control",
@@ -5335,19 +5289,6 @@
       "shortDesc": "Maximum manually added yaw rate",
       "type": "Float",
       "units": "deg/s"
-    },
-    {
-      "category": "Standard",
-      "decimalPlaces": 2,
-      "default": 1.0,
-      "group": "FW Attitude Control",
-      "increment": 0.01,
-      "longDesc": "Scale factor applied to the desired yaw actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.",
-      "min": 0.0,
-      "name": "FW_MAN_Y_SC",
-      "shortDesc": "Manual yaw scale",
-      "type": "Float",
-      "units": "norm"
     },
     {
       "category": "Standard",
@@ -5369,7 +5310,7 @@
       "default": 60.0,
       "group": "FW Attitude Control",
       "increment": 0.5,
-      "max": 90.0,
+      "max": 180.0,
       "min": 0.0,
       "name": "FW_P_RMAX_NEG",
       "shortDesc": "Maximum negative / down pitch rate setpoint",
@@ -5382,7 +5323,7 @@
       "default": 60.0,
       "group": "FW Attitude Control",
       "increment": 0.5,
-      "max": 90.0,
+      "max": 180.0,
       "min": 0.0,
       "name": "FW_P_RMAX_POS",
       "shortDesc": "Maximum positive / up pitch rate setpoint",
@@ -5406,22 +5347,10 @@
     {
       "category": "Standard",
       "decimalPlaces": 1,
-      "default": 0.0,
-      "group": "FW Attitude Control",
-      "increment": 0.01,
-      "longDesc": "This gain can be used to counteract the \"adverse yaw\" effect for fixed wings. When the plane enters a roll it will tend to yaw the nose out of the turn. This gain enables the use of a yaw actuator to counteract this effect.",
-      "min": 0.0,
-      "name": "FW_RLL_TO_YAW_FF",
-      "shortDesc": "Roll control to yaw control feedforward gain",
-      "type": "Float"
-    },
-    {
-      "category": "Standard",
-      "decimalPlaces": 1,
       "default": 70.0,
       "group": "FW Attitude Control",
       "increment": 0.5,
-      "max": 90.0,
+      "max": 180.0,
       "min": 0.0,
       "name": "FW_R_RMAX",
       "shortDesc": "Maximum roll rate setpoint",
@@ -5470,35 +5399,12 @@
     },
     {
       "category": "Standard",
-      "default": 0,
-      "group": "FW Attitude Control",
-      "longDesc": "Chose source for manual setting of spoilers in manual flight modes.",
-      "name": "FW_SPOILERS_MAN",
-      "shortDesc": "Spoiler input in manual flight",
-      "type": "Int32",
-      "values": [
-        {
-          "description": "Disabled",
-          "value": 0
-        },
-        {
-          "description": "Flaps channel",
-          "value": 1
-        },
-        {
-          "description": "Aux1",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "category": "Standard",
       "decimalPlaces": 2,
       "default": 0.2,
       "group": "FW Attitude Control",
       "increment": 0.05,
       "longDesc": "Direct feed forward from rate setpoint to control surface output",
-      "max": 1.0,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_WR_FF",
       "shortDesc": "Wheel steering rate feed forward",
@@ -5512,7 +5418,7 @@
       "group": "FW Attitude Control",
       "increment": 0.005,
       "longDesc": "This gain defines how much control response will result out of a steady state error. It trims any constant error.",
-      "max": 0.5,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_WR_I",
       "shortDesc": "Wheel steering rate integrator gain",
@@ -5539,7 +5445,7 @@
       "group": "FW Attitude Control",
       "increment": 0.005,
       "longDesc": "This defines how much the wheel steering input will be commanded depending on the current body angular rate error.",
-      "max": 1.0,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_WR_P",
       "shortDesc": "Wheel steering rate proportional gain",
@@ -5585,7 +5491,7 @@
       "default": 50.0,
       "group": "FW Attitude Control",
       "increment": 0.5,
-      "max": 90.0,
+      "max": 180.0,
       "min": 0.0,
       "name": "FW_Y_RMAX",
       "shortDesc": "Maximum yaw rate setpoint",
@@ -6145,7 +6051,7 @@
       "group": "FW Rate Control",
       "longDesc": "This is the rate the controller is trying to achieve if the user applies full roll stick input in acro mode.",
       "max": 720.0,
-      "min": 45.0,
+      "min": 10.0,
       "name": "FW_ACRO_X_MAX",
       "shortDesc": "Acro body x max rate",
       "type": "Float",
@@ -6156,7 +6062,7 @@
       "default": 90.0,
       "group": "FW Rate Control",
       "max": 720.0,
-      "min": 45.0,
+      "min": 10.0,
       "name": "FW_ACRO_Y_MAX",
       "shortDesc": "Acro body pitch max rate setpoint",
       "type": "Float",
@@ -6166,12 +6072,31 @@
       "category": "Standard",
       "default": 45.0,
       "group": "FW Rate Control",
-      "max": 180.0,
+      "max": 720.0,
       "min": 10.0,
       "name": "FW_ACRO_Z_MAX",
       "shortDesc": "Acro body yaw max rate setpoint",
       "type": "Float",
       "units": "deg"
+    },
+    {
+      "category": "Standard",
+      "default": 0,
+      "group": "FW Rate Control",
+      "longDesc": "On vehicles without airspeed sensor this parameter can be used to enable flying without an airspeed reading",
+      "name": "FW_ARSP_MODE",
+      "shortDesc": "Airspeed mode",
+      "type": "Int32",
+      "values": [
+        {
+          "description": "Use airspeed in controller",
+          "value": 0
+        },
+        {
+          "description": "Do not use airspeed in controller",
+          "value": 1
+        }
+      ]
     },
     {
       "category": "Standard",
@@ -6218,8 +6143,8 @@
       "group": "FW Rate Control",
       "increment": 0.01,
       "longDesc": "This increment is added to TRIM_PITCH when airspeed is FW_AIRSPD_MAX.",
-      "max": 0.25,
-      "min": -0.25,
+      "max": 0.5,
+      "min": -0.5,
       "name": "FW_DTRIM_P_VMAX",
       "shortDesc": "Pitch trim increment at maximum airspeed",
       "type": "Float"
@@ -6231,8 +6156,8 @@
       "group": "FW Rate Control",
       "increment": 0.01,
       "longDesc": "This increment is added to TRIM_PITCH when airspeed is FW_AIRSPD_MIN.",
-      "max": 0.25,
-      "min": -0.25,
+      "max": 0.5,
+      "min": -0.5,
       "name": "FW_DTRIM_P_VMIN",
       "shortDesc": "Pitch trim increment at minimum airspeed",
       "type": "Float"
@@ -6244,8 +6169,8 @@
       "group": "FW Rate Control",
       "increment": 0.01,
       "longDesc": "This increment is added to TRIM_ROLL when airspeed is FW_AIRSPD_MAX.",
-      "max": 0.25,
-      "min": -0.25,
+      "max": 0.5,
+      "min": -0.5,
       "name": "FW_DTRIM_R_VMAX",
       "shortDesc": "Roll trim increment at maximum airspeed",
       "type": "Float"
@@ -6257,8 +6182,8 @@
       "group": "FW Rate Control",
       "increment": 0.01,
       "longDesc": "This increment is added to TRIM_ROLL when airspeed is FW_AIRSPD_MIN.",
-      "max": 0.25,
-      "min": -0.25,
+      "max": 0.5,
+      "min": -0.5,
       "name": "FW_DTRIM_R_VMIN",
       "shortDesc": "Roll trim increment at minimum airspeed",
       "type": "Float"
@@ -6270,8 +6195,8 @@
       "group": "FW Rate Control",
       "increment": 0.01,
       "longDesc": "This increment is added to TRIM_YAW when airspeed is FW_AIRSPD_MAX.",
-      "max": 0.25,
-      "min": -0.25,
+      "max": 0.5,
+      "min": -0.5,
       "name": "FW_DTRIM_Y_VMAX",
       "shortDesc": "Yaw trim increment at maximum airspeed",
       "type": "Float"
@@ -6283,8 +6208,8 @@
       "group": "FW Rate Control",
       "increment": 0.01,
       "longDesc": "This increment is added to TRIM_YAW when airspeed is FW_AIRSPD_MIN.",
-      "max": 0.25,
-      "min": -0.25,
+      "max": 0.5,
+      "min": -0.5,
       "name": "FW_DTRIM_Y_VMIN",
       "shortDesc": "Yaw trim increment at minimum airspeed",
       "type": "Float"
@@ -6319,12 +6244,52 @@
     },
     {
       "category": "Standard",
+      "decimalPlaces": 2,
+      "default": 1.0,
+      "group": "FW Rate Control",
+      "increment": 0.01,
+      "longDesc": "Scale factor applied to the desired pitch actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.",
+      "min": 0.0,
+      "name": "FW_MAN_P_SC",
+      "shortDesc": "Manual pitch scale",
+      "type": "Float",
+      "units": "norm"
+    },
+    {
+      "category": "Standard",
+      "decimalPlaces": 2,
+      "default": 1.0,
+      "group": "FW Rate Control",
+      "increment": 0.01,
+      "longDesc": "Scale factor applied to the desired roll actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.",
+      "max": 1.0,
+      "min": 0.0,
+      "name": "FW_MAN_R_SC",
+      "shortDesc": "Manual roll scale",
+      "type": "Float",
+      "units": "norm"
+    },
+    {
+      "category": "Standard",
+      "decimalPlaces": 2,
+      "default": 1.0,
+      "group": "FW Rate Control",
+      "increment": 0.01,
+      "longDesc": "Scale factor applied to the desired yaw actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.",
+      "min": 0.0,
+      "name": "FW_MAN_Y_SC",
+      "shortDesc": "Manual yaw scale",
+      "type": "Float",
+      "units": "norm"
+    },
+    {
+      "category": "Standard",
       "decimalPlaces": 3,
       "default": 0.0,
       "group": "FW Rate Control",
       "increment": 0.005,
       "longDesc": "Pitch rate differential gain.",
-      "max": 1.0,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_PR_D",
       "shortDesc": "Pitch rate derivative gain",
@@ -6352,7 +6317,7 @@
       "group": "FW Rate Control",
       "increment": 0.005,
       "longDesc": "This gain defines how much control response will result out of a steady state error. It trims any constant error.",
-      "max": 0.5,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_PR_I",
       "shortDesc": "Pitch rate integrator gain",
@@ -6378,7 +6343,7 @@
       "default": 0.08,
       "group": "FW Rate Control",
       "increment": 0.005,
-      "max": 1.0,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_PR_P",
       "shortDesc": "Pitch rate proportional gain",
@@ -6387,12 +6352,24 @@
     },
     {
       "category": "Standard",
+      "decimalPlaces": 1,
+      "default": 0.0,
+      "group": "FW Rate Control",
+      "increment": 0.01,
+      "longDesc": "This gain can be used to counteract the \"adverse yaw\" effect for fixed wings. When the plane enters a roll it will tend to yaw the nose out of the turn. This gain enables the use of a yaw actuator to counteract this effect.",
+      "min": 0.0,
+      "name": "FW_RLL_TO_YAW_FF",
+      "shortDesc": "Roll control to yaw control feedforward gain",
+      "type": "Float"
+    },
+    {
+      "category": "Standard",
       "decimalPlaces": 3,
       "default": 0.0,
       "group": "FW Rate Control",
       "increment": 0.005,
       "longDesc": "Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.",
-      "max": 1.0,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_RR_D",
       "shortDesc": "Roll rate derivative Gain",
@@ -6415,12 +6392,12 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 3,
+      "decimalPlaces": 2,
       "default": 0.1,
       "group": "FW Rate Control",
-      "increment": 0.005,
+      "increment": 0.01,
       "longDesc": "This gain defines how much control response will result out of a steady state error. It trims any constant error.",
-      "max": 0.2,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_RR_I",
       "shortDesc": "Roll rate integrator Gain",
@@ -6446,7 +6423,7 @@
       "default": 0.05,
       "group": "FW Rate Control",
       "increment": 0.005,
-      "max": 1.0,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_RR_P",
       "shortDesc": "Roll rate proportional Gain",
@@ -6455,12 +6432,35 @@
     },
     {
       "category": "Standard",
+      "default": 0,
+      "group": "FW Rate Control",
+      "longDesc": "Chose source for manual setting of spoilers in manual flight modes.",
+      "name": "FW_SPOILERS_MAN",
+      "shortDesc": "Spoiler input in manual flight",
+      "type": "Int32",
+      "values": [
+        {
+          "description": "Disabled",
+          "value": 0
+        },
+        {
+          "description": "Flaps channel",
+          "value": 1
+        },
+        {
+          "description": "Aux1",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "category": "Standard",
       "decimalPlaces": 3,
       "default": 0.0,
       "group": "FW Rate Control",
       "increment": 0.005,
       "longDesc": "Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.",
-      "max": 1.0,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_YR_D",
       "shortDesc": "Yaw rate derivative gain",
@@ -6488,7 +6488,7 @@
       "group": "FW Rate Control",
       "increment": 0.5,
       "longDesc": "This gain defines how much control response will result out of a steady state error. It trims any constant error.",
-      "max": 50.0,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_YR_I",
       "shortDesc": "Yaw rate integrator gain",
@@ -6514,7 +6514,7 @@
       "default": 0.05,
       "group": "FW Rate Control",
       "increment": 0.005,
-      "max": 1.0,
+      "max": 10.0,
       "min": 0.0,
       "name": "FW_YR_P",
       "shortDesc": "Yaw rate proportional gain",
@@ -6528,7 +6528,6 @@
       "group": "FW TECS",
       "increment": 0.5,
       "longDesc": "The maximal airspeed (calibrated airspeed) the user is able to command.",
-      "max": 40.0,
       "min": 0.5,
       "name": "FW_AIRSPD_MAX",
       "shortDesc": "Maximum Airspeed (CAS)",
@@ -6542,7 +6541,6 @@
       "group": "FW TECS",
       "increment": 0.5,
       "longDesc": "The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Has to be set according to the vehicle's stall speed (which should be set in FW_AIRSPD_STALL), with some margin between the stall speed and minimum airspeed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).",
-      "max": 40.0,
       "min": 0.5,
       "name": "FW_AIRSPD_MIN",
       "shortDesc": "Minimum Airspeed (CAS)",
@@ -6556,7 +6554,6 @@
       "group": "FW TECS",
       "increment": 0.5,
       "longDesc": "The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.",
-      "max": 40.0,
       "min": 0.5,
       "name": "FW_AIRSPD_STALL",
       "shortDesc": "Stall Airspeed (CAS)",
@@ -6570,7 +6567,6 @@
       "group": "FW TECS",
       "increment": 0.5,
       "longDesc": "The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve.",
-      "max": 40.0,
       "min": 0.5,
       "name": "FW_AIRSPD_TRIM",
       "shortDesc": "Trim (Cruise) Airspeed",
@@ -6794,7 +6790,7 @@
     {
       "category": "Standard",
       "decimalPlaces": 2,
-      "default": 0.1,
+      "default": 0.05,
       "group": "FW TECS",
       "increment": 0.05,
       "longDesc": "This is the integrator gain on the throttle part of the control loop. Increasing this gain increases the speed at which speed and height offsets are trimmed out, but reduces damping and increases overshoot. Set this value to zero to completely disable all integrator action.",
@@ -14178,8 +14174,8 @@
       "group": "Radio Calibration",
       "increment": 0.01,
       "longDesc": "The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.",
-      "max": 0.25,
-      "min": -0.25,
+      "max": 0.5,
+      "min": -0.5,
       "name": "TRIM_PITCH",
       "shortDesc": "Pitch trim",
       "type": "Float"
@@ -14191,8 +14187,8 @@
       "group": "Radio Calibration",
       "increment": 0.01,
       "longDesc": "The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.",
-      "max": 0.25,
-      "min": -0.25,
+      "max": 0.5,
+      "min": -0.5,
       "name": "TRIM_ROLL",
       "shortDesc": "Roll trim",
       "type": "Float"
@@ -14204,8 +14200,8 @@
       "group": "Radio Calibration",
       "increment": 0.01,
       "longDesc": "The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.",
-      "max": 0.25,
-      "min": -0.25,
+      "max": 0.5,
+      "min": -0.5,
       "name": "TRIM_YAW",
       "shortDesc": "Yaw trim",
       "type": "Float"
@@ -23042,8 +23038,10 @@
     },
     {
       "category": "Standard",
+      "decimalPlaces": 1,
       "default": 3.0,
       "group": "VTOL Attitude Control",
+      "increment": 0.1,
       "longDesc": "This sets the duration during which the MC motors ramp up to the commanded thrust during the back transition stage.",
       "max": 20.0,
       "min": 0.0,
@@ -23112,8 +23110,10 @@
     },
     {
       "category": "Standard",
+      "decimalPlaces": 2,
       "default": 0.7,
       "group": "VTOL Attitude Control",
+      "increment": 0.01,
       "longDesc": "Scale applied to the demanded down-pitch to get the fixed-wing forward actuation in hover mode. Enabled via VT_FWD_THRUST_EN.",
       "max": 2.0,
       "min": 0.0,
@@ -23323,10 +23323,10 @@
       "default": 0.0,
       "group": "VTOL Attitude Control",
       "increment": 1.0,
-      "longDesc": "Threshold for integrated height rate error to trigger a uncommanded-descent quad-chute. Only checked in altitude-controlled fixed-wing flight. Additional conditions that have to be met for uncommanded descent detection are a positive (climbing) height rate setpoint and a negative (sinking) current height rate estimate. Set to 0 do disable this threshold.",
+      "longDesc": "Altitude error threshold for quad-chute triggering during fixed-wing flight. The check is only active if altitude is controlled and the vehicle is below the current altitude reference. The altitude error is relative to the highest altitude the vehicle has achieved since it has flown below the current altitude reference. Set to 0 do disable.",
       "max": 200.0,
       "min": 0.0,
-      "name": "VT_QC_HR_ERROR_I",
+      "name": "VT_QC_ALT_LOSS",
       "shortDesc": "Quad-chute uncommanded descent threshold",
       "type": "Float",
       "units": "m"
@@ -23367,7 +23367,7 @@
       "max": 1.0,
       "min": 0.0,
       "name": "VT_TILT_FW",
-      "shortDesc": "Position of tilt servo in fw mode",
+      "shortDesc": "Normalized tilt in FW",
       "type": "Float"
     },
     {
@@ -23379,7 +23379,7 @@
       "max": 1.0,
       "min": 0.0,
       "name": "VT_TILT_MC",
-      "shortDesc": "Position of tilt servo in mc mode",
+      "shortDesc": "Normalized tilt in Hover",
       "type": "Float"
     },
     {
@@ -23398,13 +23398,13 @@
     {
       "category": "Standard",
       "decimalPlaces": 3,
-      "default": 0.3,
+      "default": 0.4,
       "group": "VTOL Attitude Control",
       "increment": 0.01,
       "max": 1.0,
       "min": 0.0,
       "name": "VT_TILT_TRANS",
-      "shortDesc": "Position of tilt servo in transition mode",
+      "shortDesc": "Normalized tilt in transition to FW",
       "type": "Float"
     },
     {
