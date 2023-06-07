@@ -506,10 +506,6 @@
               "description": "System",
               "name": "system"
             },
-            "1073741824": {
-              "description": "Open Drone ID system",
-              "name": "open_drone_id"
-            },
             "128": {
               "description": "Remote Control (RC or Joystick)",
               "name": "remote_control"
@@ -840,21 +836,6 @@
               ],
               "message": "No valid global position estimate",
               "name": "check_modes_global_pos"
-            },
-            "10161216": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Open Drone ID system failed to report. Make sure it is setup and installed properly.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
-              "message": "Open Drone ID system missing",
-              "name": "check_open_drone_id_missing"
             },
             "10198977": {
               "arguments": [
@@ -1996,21 +1977,6 @@
               "message": "Home position not set",
               "name": "check_modes_home_position"
             },
-            "8441780": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Open Drone ID system reported being unhealthy.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
-              "message": "Open Drone ID system not ready",
-              "name": "check_open_drone_id_unhealthy"
-            },
             "8495477": {
               "arguments": [
                 {
@@ -2417,10 +2383,6 @@
             "11290563": {
               "message": "Kill-switch engaged",
               "name": "commander_kill_sw_engaged"
-            },
-            "11521721": {
-              "message": "Mission rejected: Mission contains VTOL items but vehicle is not a VTOL",
-              "name": "navigator_mis_vtol_items"
             },
             "11552065": {
               "arguments": [
