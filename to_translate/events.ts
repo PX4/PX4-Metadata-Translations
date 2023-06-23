@@ -1734,6 +1734,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/7959667/message</name>
+  <message>
+  <source>Vehicle is in safety configuration</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/7959667/description</name>
+  <message>
+  <source>Vehicle is in safety configuration and denies arming.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/8441780/message</name>
   <message>
   <source>Open Drone ID system not ready</source>
