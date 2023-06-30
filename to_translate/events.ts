@@ -548,12 +548,6 @@
   </message>
 </context>
 <context>
-  <name>/components/1/enums/health_component_t/entries/1073741824/description</name>
-  <message>
-  <source>Open Drone ID system</source>
-  </message>
-</context>
-<context>
   <name>/components/1/enums/health_component_t/entries/128/description</name>
   <message>
   <source>Remote Control (RC or Joystick)</source>
@@ -971,21 +965,6 @@
   <name>/components/1/event_groups/arming_check/events/10011251/message</name>
   <message>
   <source>No valid global position estimate</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/10161216/message</name>
-  <message>
-  <source>Open Drone ID system missing</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/10161216/description</name>
-  <message>
-  <source>Open Drone ID system failed to report. Make sure it is setup and installed properly.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -1734,36 +1713,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/7959667/message</name>
-  <message>
-  <source>Vehicle is in safety configuration</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/7959667/description</name>
-  <message>
-  <source>Vehicle is in safety configuration and denies arming.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/8441780/message</name>
-  <message>
-  <source>Open Drone ID system not ready</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/8441780/description</name>
-  <message>
-  <source>Open Drone ID system reported being unhealthy.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/8495477/message</name>
   <message>
   <source>RC calibration for channel {3} invalid: TRIM less than MIN ({4} less than {5})</source>
@@ -2071,12 +2020,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/11290563/message</name>
   <message>
   <source>Kill-switch engaged</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/11521721/message</name>
-  <message>
-  <source>Mission rejected: Mission contains VTOL items but vehicle is not a VTOL</source>
   </message>
 </context>
 <context>
