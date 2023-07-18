@@ -1318,7 +1318,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; Measured: {3:.1m/s}, limit: {4:.1m/s}.
 
-This check can be configured via &lt;param&gt;COM_ARM_ARSP_EN&lt;/param&gt; and &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
+This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>

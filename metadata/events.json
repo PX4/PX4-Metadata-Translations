@@ -1364,7 +1364,7 @@
                   "type": "float"
                 }
               ],
-              "description": "Current airspeed reading too high. Check if wind is below maximum airspeed and redo airspeed calibration if the measured airspeed does not correspond to wind conditions.\n\n<profile name=\"dev\"> Measured: {3:.1m/s}, limit: {4:.1m/s}.\n\nThis check can be configured via <param>COM_ARM_ARSP_EN</param> and <param>FW_AIRSPD_MAX</param> parameter.\n</profile>",
+              "description": "Current airspeed reading too high. Check if wind is below maximum airspeed and redo airspeed calibration if the measured airspeed does not correspond to wind conditions.\n\n<profile name=\"dev\"> Measured: {3:.1m/s}, limit: {4:.1m/s}.\n\nThis check can be configured via <param>FW_AIRSPD_MAX</param> parameter.\n</profile>",
               "message": "Airspeed too high",
               "name": "check_airspeed_too_high"
             },
