@@ -2106,7 +2106,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/11664376/description</name>
   <message>
-  <source>Mission type: {1}. Number of bytes read: {2}</source>
+  <source>Mission type: {1}</source>
   </message>
 </context>
 <context>
@@ -2893,12 +2893,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/3611313/message</name>
-  <message>
-  <source>Mission: Unable to write to storage</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/3623245/message</name>
   <message>
   <source>Invalid configuration: Airspeed max smaller than min</source>
@@ -3301,12 +3295,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/710679/message</name>
   <message>
   <source>Mission failure: unable to reach heading within timeout</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/7126042/message</name>
-  <message>
-  <source>Failed to write current mission ID to storage</source>
   </message>
 </context>
 <context>

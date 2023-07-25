@@ -2470,13 +2470,9 @@
                 {
                   "name": "arg0",
                   "type": "uint8_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "int16_t"
                 }
               ],
-              "description": "Mission type: {1}. Number of bytes read: {2}",
+              "description": "Mission type: {1}",
               "message": "Mission: Unable to read from storage",
               "name": "mavlink_mission_storage_read_failure"
             },
@@ -3299,10 +3295,6 @@
               "message": "Use EKF2_IMU_CTRL instead",
               "name": "ekf2_aid_mask_imu"
             },
-            "3611313": {
-              "message": "Mission: Unable to write to storage",
-              "name": "mavlink_mission_storage_write_failure"
-            },
             "3623245": {
               "arguments": [
                 {
@@ -3660,10 +3652,6 @@
             "710679": {
               "message": "Mission failure: unable to reach heading within timeout",
               "name": "navigator_mission_failure_heading"
-            },
-            "7126042": {
-              "message": "Failed to write current mission ID to storage",
-              "name": "mavlink_mission_err_id"
             },
             "713405": {
               "arguments": [
