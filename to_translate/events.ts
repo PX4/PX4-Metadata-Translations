@@ -1268,7 +1268,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/arming_check/events/15713375/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
+  <source>&lt;profile name="dev"&gt; Measured strength: {3:.3}, expected: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Measured inclination: {5:.3}, expected: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
   </message>
 </context>

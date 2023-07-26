@@ -1278,9 +1278,25 @@
                 {
                   "name": "health_component_index",
                   "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "float"
+                },
+                {
+                  "name": "arg1",
+                  "type": "float"
+                },
+                {
+                  "name": "arg2",
+                  "type": "float"
+                },
+                {
+                  "name": "arg3",
+                  "type": "float"
                 }
               ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_ARM_MAG_STR</param> and <param>EKF2_MAG_CHECK</param> parameters.\n</profile>",
+              "description": "<profile name=\"dev\"> Measured strength: {3:.3}, expected: {4:.3} \u00b1 <param>EKF2_MAG_CHK_STR</param> Measured inclination: {5:.3}, expected: {6:.3} \u00b1 <param>EKF2_MAG_CHK_INC</param> This check can be configured via <param>COM_ARM_MAG_STR</param> and <param>EKF2_MAG_CHECK</param> parameters.\n</profile>",
               "message": "Strong magnetic interference",
               "name": "check_estimator_mag_interference"
             },

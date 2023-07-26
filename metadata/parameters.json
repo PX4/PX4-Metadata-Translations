@@ -4421,17 +4421,7 @@
       "min": 0,
       "name": "EKF2_MAG_CHECK",
       "shortDesc": "Magnetic field strength test selection",
-      "type": "Int32",
-      "values": [
-        {
-          "description": "Disabled",
-          "value": 0
-        },
-        {
-          "description": "Enabled",
-          "value": 1
-        }
-      ]
+      "type": "Int32"
     },
     {
       "category": "Standard",
