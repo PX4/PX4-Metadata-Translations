@@ -3902,6 +3902,11 @@
               "message": "RTL: climb to {1m_v} ({2m_v} above destination)",
               "name": "rtl_climb_to"
             },
+            "929525": {
+              "description": "Switch to manual mode recommended.\n\n<profile name=\"dev\"> This warning is triggered when the position error estimate is 90% of (or only 10m below) <param>COM_POS_FS_EPH</param> parameter.\n</profile>",
+              "message": "Estimated position error is approaching the failsafe threshold",
+              "name": "check_estimator_position_failure_imminent"
+            },
             "9316102": {
               "message": "DO JUMP repetitions completed",
               "name": "mission_do_jump_rep_completed"

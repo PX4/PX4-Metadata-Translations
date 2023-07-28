@@ -3546,6 +3546,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/929525/message</name>
+  <message>
+  <source>Estimated position error is approaching the failsafe threshold</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/929525/description</name>
+  <message>
+  <source>Switch to manual mode recommended.
+
+&lt;profile name="dev"&gt; This warning is triggered when the position error estimate is 90% of (or only 10m below) &lt;param&gt;COM_POS_FS_EPH&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/9316102/message</name>
   <message>
   <source>DO JUMP repetitions completed</source>
