@@ -2242,12 +2242,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/12907101/message</name>
-  <message>
-  <source>Arming state transition denied: {1} to {2}</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/12957883/message</name>
   <message>
   <source>Start descending</source>
@@ -2722,6 +2716,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/1962848/message</name>
   <message>
   <source>Mission item index out of bound, index: {1}, max: {2}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/2066387/message</name>
+  <message>
+  <source>Arming denied: calibrating</source>
   </message>
 </context>
 <context>
@@ -3396,12 +3396,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/8165317/message</name>
-  <message>
-  <source>Disarming denied, not landed</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/8275181/message</name>
   <message>
   <source>Transponder Failure</source>
@@ -3531,6 +3525,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9013084/message</name>
   <message>
   <source>Ignoring mission request, currently busy</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/9091509/message</name>
+  <message>
+  <source>Disarming denied: not landed</source>
   </message>
 </context>
 <context>

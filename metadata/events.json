@@ -2667,20 +2667,6 @@
               "message": "IO RC config upload failed, aborting initialization",
               "name": "px4io_io_rc_config_upload_failed"
             },
-            "12907101": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "px4::arming_state_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "px4::arming_state_t"
-                }
-              ],
-              "message": "Arming state transition denied: {1} to {2}",
-              "name": "commander_transition_denied"
-            },
             "12957883": {
               "message": "Start descending",
               "name": "fixedwing_position_control_descend"
@@ -3149,6 +3135,10 @@
               ],
               "message": "Mission item index out of bound, index: {1}, max: {2}",
               "name": "mission_index_out_of_bound"
+            },
+            "2066387": {
+              "message": "Arming denied: calibrating",
+              "name": "commander_arm_denied_calibrating"
             },
             "2087806": {
               "message": "Orbit radius limit exceeded",
@@ -3763,10 +3753,6 @@
               "message": "Could not read mission",
               "name": "mission_cannot_read_mission"
             },
-            "8165317": {
-              "message": "Disarming denied, not landed",
-              "name": "commander_disarming_denied_not_landed"
-            },
             "8275181": {
               "message": "Transponder Failure",
               "name": "mxs_xpdr_fail"
@@ -3883,6 +3869,10 @@
             "9013084": {
               "message": "Ignoring mission request, currently busy",
               "name": "mavlink_mission_mis_req_ignored_busy"
+            },
+            "9091509": {
+              "message": "Disarming denied: not landed",
+              "name": "commander_disarm_denied_not_landed"
             },
             "9092852": {
               "message": "Unexpected waypoint index, aborting mission transfer",
