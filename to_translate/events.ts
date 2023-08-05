@@ -2152,6 +2152,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/12140426/message</name>
+  <message>
+  <source>EKF2_MAG_TYPE invalid, resetting to default</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/12140426/description</name>
+  <message>
+  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/12208749/message</name>
   <message>
   <source>Mission rejected: takeoff altitude too low! Minimum: {1:.1m_v}</source>

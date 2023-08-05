@@ -2584,6 +2584,17 @@
               "message": "RTL: descend to {1m_v} ({2m_v} above destination)",
               "name": "rtl_descend_to"
             },
+            "12140426": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "EKF2_MAG_TYPE invalid, resetting to default",
+              "name": "ekf2_mag_type_invalid"
+            },
             "12208749": {
               "arguments": [
                 {
