@@ -1965,27 +1965,27 @@
   </message>
 </context>
 <context>
-  <name>/parameters/COM_ARMABLE/shortDesc</name>
+  <name>/parameters/COM_ARM_ARSP_EN/shortDesc</name>
   <message>
-  <source>Flag to allow arming</source>
+  <source>Enable preflight check for maximal allowed airspeed when arming</source>
   </message>
 </context>
 <context>
-  <name>/parameters/COM_ARMABLE/longDesc</name>
+  <name>/parameters/COM_ARM_ARSP_EN/longDesc</name>
   <message>
-  <source>Set 0 to prevent accidental use of the vehicle e.g. for safety or maintenance reasons.</source>
+  <source>Deny arming if the current airspeed measurement is greater than half the cruise airspeed (FW_AIRSPD_TRIM). Excessive airspeed measurements on ground are either caused by wind or bad airspeed calibration.</source>
   </message>
 </context>
 <context>
-  <name>/parameters/COM_ARMABLE/values/0/description</name>
+  <name>/parameters/COM_ARM_ARSP_EN/values/0/description</name>
   <message>
-  <source>Disallow arming</source>
+  <source>Disabled</source>
   </message>
 </context>
 <context>
-  <name>/parameters/COM_ARMABLE/values/1/description</name>
+  <name>/parameters/COM_ARM_ARSP_EN/values/1/description</name>
   <message>
-  <source>Allow arming</source>
+  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -2211,36 +2211,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/COM_ARM_ODID/shortDesc</name>
-  <message>
-  <source>Enable Drone ID system detection and health check</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_ARM_ODID/longDesc</name>
-  <message>
-  <source>This check detects if the Open Drone ID system is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_ARM_ODID/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_ARM_ODID/values/1/description</name>
-  <message>
-  <source>Warning only</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_ARM_ODID/values/2/description</name>
-  <message>
-  <source>Enforce Open Drone ID system presence</source>
-  </message>
-</context>
-<context>
   <name>/parameters/COM_ARM_SDCARD/shortDesc</name>
   <message>
   <source>Enable FMU SD card detection check</source>
@@ -2298,6 +2268,12 @@
   <name>/parameters/COM_ARM_WO_GPS/shortDesc</name>
   <message>
   <source>Allow arming without GPS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_ARM_WO_GPS/longDesc</name>
+  <message>
+  <source>The default allows the vehicle to arm without GPS signal.</source>
   </message>
 </context>
 <context>
@@ -3191,13 +3167,13 @@
 <context>
   <name>/parameters/COM_MOT_TEST_EN/shortDesc</name>
   <message>
-  <source>Enable Actuator Testing</source>
+  <source>Enable Motor Testing</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_MOT_TEST_EN/longDesc</name>
   <message>
-  <source>If set, enables the actuator test interface via MAVLink (ACTUATOR_TEST), that allows spinning the motors and moving the servos for testing purposes.</source>
+  <source>If set, enables the motor test interface via MAVLink (DO_MOTOR_TEST), that allows spinning the motors for testing purposes.</source>
   </message>
 </context>
 <context>
@@ -3371,7 +3347,7 @@
 <context>
   <name>/parameters/COM_POS_FS_EPH/longDesc</name>
   <message>
-  <source>This is the horizontal position error (EPH) threshold that will trigger a failsafe. The default is appropriate for a multicopter. Can be increased for a fixed-wing. If the previous position error was below this threshold, there is an additional factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation). Set to -1 to disable.</source>
+  <source>This is the horizontal position error (EPH) threshold that will trigger a failsafe. The default is appropriate for a multicopter. Can be increased for a fixed-wing. If the previous position error was below this threshold, there is an additional factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).</source>
   </message>
 </context>
 <context>
@@ -3563,7 +3539,7 @@
 <context>
   <name>/parameters/COM_RC_OVERRIDE/longDesc</name>
   <message>
-  <source>When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV immediately gives control back to the pilot by switching to Position mode and if position is unavailable Altitude mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</source>
+  <source>When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV immediately gives control back to the pilot by switching to Position mode and if position is unavailable Altitude mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode. This parameter is not considered in case of a GPS failure (Descend flight mode), where stick override is always enabled.</source>
   </message>
 </context>
 <context>
@@ -4601,7 +4577,7 @@
 <context>
   <name>/parameters/EKF2_HDG_GATE/shortDesc</name>
   <message>
-  <source>Gate size for heading fusion</source>
+  <source>Gate size for magnetic heading fusion</source>
   </message>
 </context>
 <context>
@@ -4721,49 +4697,19 @@
 <context>
   <name>/parameters/EKF2_MAG_CHECK/longDesc</name>
   <message>
-  <source>Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM</source>
+  <source>When set, the EKF checks the strength of the magnetic field to decide whether the magnetometer data is valid. If GPS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance.</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_MAG_CHECK/bitmask/0/description</name>
+  <name>/parameters/EKF2_MAG_CHECK/values/0/description</name>
   <message>
-  <source>Strength (EKF2_MAG_CHK_STR)</source>
+  <source>Disabled</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_MAG_CHECK/bitmask/1/description</name>
+  <name>/parameters/EKF2_MAG_CHECK/values/1/description</name>
   <message>
-  <source>Inclination (EKF2_MAG_CHK_INC)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHECK/bitmask/2/description</name>
-  <message>
-  <source>Wait for WMM</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHK_INC/shortDesc</name>
-  <message>
-  <source>Magnetic field inclination check tolerance</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHK_INC/longDesc</name>
-  <message>
-  <source>Maximum allowed deviation from the expected magnetic field inclination to pass the check.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHK_STR/shortDesc</name>
-  <message>
-  <source>Magnetic field strength check tolerance</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHK_STR/longDesc</name>
-  <message>
-  <source>Maximum allowed deviation from the expected magnetic field strength to pass the check.</source>
+  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -4811,7 +4757,7 @@
 <context>
   <name>/parameters/EKF2_MAG_TYPE/longDesc</name>
   <message>
-  <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality).</source>
+  <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to '3-axis' 3-axis field fusion is used at all times. If set to 'VTOL custom' the behaviour is the same as 'Automatic', but if fusing airspeed, magnetometer fusion is only allowed to modify the magnetic field states. This can be used by VTOL platforms with large magnetic field disturbances to prevent incorrect bias states being learned during forward flight operation which can adversely affect estimation accuracy after transition to hovering flight. If set to 'MC custom' the behaviour is the same as 'Automatic, but if there are no earth frame position or velocity observations being used, the magnetometer will not be used. This enables vehicles to operate with no GPS in environments where the magnetic field cannot be used to provide a heading reference. Prior to flight, the yaw angle is assumed to be constant if movement tests indicate that the vehicle is static. This allows the vehicle to be placed on the ground to learn the yaw gyro bias prior to flight. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality).</source>
   </message>
 </context>
 <context>
@@ -4824,6 +4770,24 @@
   <name>/parameters/EKF2_MAG_TYPE/values/1/description</name>
   <message>
   <source>Magnetic heading</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_MAG_TYPE/values/2/description</name>
+  <message>
+  <source>3-axis</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_MAG_TYPE/values/3/description</name>
+  <message>
+  <source>VTOL custom</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_MAG_TYPE/values/4/description</name>
+  <message>
+  <source>MC custom</source>
   </message>
 </context>
 <context>
@@ -6234,30 +6198,6 @@
   <name>/parameters/FW_ACRO_X_MAX/longDesc</name>
   <message>
   <source>This is the rate the controller is trying to achieve if the user applies full roll stick input in acro mode.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_YAW_EN/shortDesc</name>
-  <message>
-  <source>Enable yaw rate controller in Acro</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_YAW_EN/longDesc</name>
-  <message>
-  <source>If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_YAW_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_YAW_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -9425,7 +9365,13 @@
 <context>
   <name>/parameters/MPC_YAW_MODE/shortDesc</name>
   <message>
-  <source>Heading behavior in autonomous modes</source>
+  <source>Yaw mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_YAW_MODE/longDesc</name>
+  <message>
+  <source>Specifies the heading in Auto.</source>
   </message>
 </context>
 <context>
@@ -9521,7 +9467,7 @@
 <context>
   <name>/parameters/NAV_LOITER_RAD/longDesc</name>
   <message>
-  <source>Default value of loiter radius in FW mode (e.g. for Loiter mode).</source>
+  <source>Default value of loiter radius for missions, Hold mode, Return mode, etc. (fixedwing only).</source>
   </message>
 </context>
 <context>
@@ -10121,13 +10067,13 @@
 <context>
   <name>/parameters/MPC_YAWRAUTO_MAX/shortDesc</name>
   <message>
-  <source>Max yaw rate in autonomous modes</source>
+  <source>Max yaw rate in auto mode</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_YAWRAUTO_MAX/longDesc</name>
   <message>
-  <source>Limits the rate of change of the yaw setpoint to avoid large control output and mixer saturation.</source>
+  <source>Limit the rate of change of the yaw setpoint in autonomous mode to avoid large control output and mixer saturation.</source>
   </message>
 </context>
 <context>
@@ -10205,43 +10151,43 @@
 <context>
   <name>/parameters/MPC_ACC_DOWN_MAX/shortDesc</name>
   <message>
-  <source>Maximum downwards acceleration in climb rate controlled modes</source>
+  <source>Maximum vertical acceleration in velocity controlled modes down</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_ACC_HOR/shortDesc</name>
   <message>
-  <source>Acceleration for autonomous and for manual modes</source>
+  <source>Acceleration for auto and for manual</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_ACC_HOR/longDesc</name>
   <message>
-  <source>When piloting manually, this parameter is only used in MPC_POS_MODE 4.</source>
+  <source>Note: In manual, this parameter is only used in MPC_POS_MODE 4.</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_ACC_HOR_MAX/shortDesc</name>
   <message>
-  <source>Maximum horizontal acceleration</source>
+  <source>Maximum horizontal acceleration for auto mode and for manual mode</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_ACC_HOR_MAX/longDesc</name>
   <message>
-  <source>MPC_POS_MODE 1 just deceleration 3 acceleration and deceleration 4 not used, use MPC_ACC_HOR instead</source>
+  <source>MPC_POS_MODE 1 just deceleration 3 acceleration and deceleration 4 just acceleration</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_ACC_UP_MAX/shortDesc</name>
   <message>
-  <source>Maximum upwards acceleration in climb rate controlled modes</source>
+  <source>Maximum vertical acceleration in velocity controlled modes upward</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_ALT_MODE/shortDesc</name>
   <message>
-  <source>Altitude reference mode</source>
+  <source>Altitude control mode</source>
   </message>
 </context>
 <context>
@@ -10271,13 +10217,7 @@
 <context>
   <name>/parameters/MPC_HOLD_DZ/shortDesc</name>
   <message>
-  <source>Deadzone for sticks in manual piloted modes</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MPC_HOLD_DZ/longDesc</name>
-  <message>
-  <source>Does not apply to manual throttle and direct attitude piloting by stick.</source>
+  <source>Deadzone of sticks where position hold is enabled</source>
   </message>
 </context>
 <context>
@@ -10287,45 +10227,33 @@
   </message>
 </context>
 <context>
-  <name>/parameters/MPC_HOLD_MAX_XY/longDesc</name>
-  <message>
-  <source>Only used with MPC_POS_MODE 0 or MPC_ALT_MODE 2</source>
-  </message>
-</context>
-<context>
   <name>/parameters/MPC_HOLD_MAX_Z/shortDesc</name>
   <message>
   <source>Maximum vertical velocity for which position hold is enabled (use 0 to disable check)</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MPC_HOLD_MAX_Z/longDesc</name>
-  <message>
-  <source>Only used with MPC_ALT_MODE 1</source>
-  </message>
-</context>
-<context>
   <name>/parameters/MPC_JERK_AUTO/shortDesc</name>
   <message>
-  <source>Jerk limit in autonomous modes</source>
+  <source>Jerk limit in auto mode</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_JERK_AUTO/longDesc</name>
   <message>
-  <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions but also limited agility.</source>
+  <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions, but it also limits its agility.</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_JERK_MAX/shortDesc</name>
   <message>
-  <source>Maximum horizontal and vertical jerk in Position/Altitude mode</source>
+  <source>Maximum jerk limit</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_JERK_MAX/longDesc</name>
   <message>
-  <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother motions but limits agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Only used with smooth MPC_POS_MODE 3 and 4.</source>
+  <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions, but it also limits its agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Note: This is only used when MPC_POS_MODE is set to a smoothing mode 3 or 4.</source>
   </message>
 </context>
 <context>
@@ -10385,31 +10313,31 @@
 <context>
   <name>/parameters/MPC_LAND_RADIUS/longDesc</name>
   <message>
-  <source>When nudging is enabled (see MPC_LAND_RC_HELP), this controls the maximum allowed horizontal displacement from the original landing point.</source>
+  <source>When user assisted descent is enabled (see MPC_LAND_RC_HELP), this parameter controls the maximum position adjustment allowed from the original landing point.</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_LAND_RC_HELP/shortDesc</name>
   <message>
-  <source>Enable nudging based on user input during autonomous land routine</source>
+  <source>Enable user assisted descent for autonomous land routine</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_LAND_RC_HELP/longDesc</name>
   <message>
-  <source>Using stick input the vehicle can be moved horizontally and yawed. The descend speed is amended: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</source>
+  <source>When enabled, descent speed will be: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Additionally, the vehicle can be yawed and moved laterally using the other sticks. Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_LAND_RC_HELP/values/0/description</name>
   <message>
-  <source>Nudging disabled</source>
+  <source>Fixed descent speed of MPC_LAND_SPEED</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_LAND_RC_HELP/values/1/description</name>
   <message>
-  <source>Nudging enabled</source>
+  <source>User assisted descent speed</source>
   </message>
 </context>
 <context>
@@ -10421,25 +10349,25 @@
 <context>
   <name>/parameters/MPC_MANTHR_MIN/shortDesc</name>
   <message>
-  <source>Minimum collective thrust in Stabilized mode</source>
+  <source>Minimum manual thrust</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_MANTHR_MIN/longDesc</name>
   <message>
-  <source>The value is mapped to the lowest throttle stick position in Stabilized mode. Too low collective thrust leads to loss of roll/pitch/yaw torque control authority. Airmode is used to keep torque authority with zero thrust (see MC_AIRMODE).</source>
+  <source>Minimum vertical thrust. It's recommended to set it &gt; 0 to avoid free fall with zero thrust. With MC_AIRMODE set to 1, this can safely be set to 0.</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_MAN_TILT_MAX/shortDesc</name>
   <message>
-  <source>Maximal tilt angle in Stabilized or Altitude mode</source>
+  <source>Maximal tilt angle in manual or altitude mode</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_MAN_Y_MAX/shortDesc</name>
   <message>
-  <source>Max manual yaw rate for Stabilized, Altitude, Position mode</source>
+  <source>Max manual yaw rate</source>
   </message>
 </context>
 <context>
@@ -10451,49 +10379,49 @@
 <context>
   <name>/parameters/MPC_MAN_Y_TAU/longDesc</name>
   <message>
-  <source>Not used in Stabilized mode Setting this parameter to 0 disables the filter</source>
+  <source>Setting this parameter to 0 disables the filter</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_POS_MODE/shortDesc</name>
   <message>
-  <source>Position/Altitude mode variant</source>
+  <source>Manual-Position control sub-mode</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_POS_MODE/longDesc</name>
   <message>
-  <source>The supported sub-modes are: 0 Sticks directly map to velocity setpoints without smoothing. Also applies to vertical direction and Altitude mode. Useful for velocity control tuning. 3 Sticks map to velocity but with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). 4 Sticks map to acceleration and there's a virtual brake drag</source>
+  <source>The supported sub-modes are: 0 Simple position control where sticks map directly to velocity setpoints without smoothing. Useful for velocity control tuning. 3 Smooth position control with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). 4 Smooth position control where sticks map to acceleration and there's a virtual brake drag</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_POS_MODE/values/0/description</name>
   <message>
-  <source>Direct velocity</source>
+  <source>Simple position control</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_POS_MODE/values/3/description</name>
   <message>
-  <source>Smoothed velocity</source>
+  <source>Smooth position control (Jerk optimized)</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_POS_MODE/values/4/description</name>
   <message>
-  <source>Acceleration based</source>
+  <source>Acceleration based input</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_THR_CURVE/shortDesc</name>
   <message>
-  <source>Thrust curve mapping in Stabilized Mode</source>
+  <source>Thrust curve in Manual Mode</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_THR_CURVE/longDesc</name>
   <message>
-  <source>This parameter defines how the throttle stick input is mapped to collective thrust in Stabilized mode. In case the default is used ('Rescale to hover thrust'), the stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). Select 'No Rescale' to directly map the stick 1:1 to the output. This can be useful in case the hover thrust is very low and the default would lead to too much distortion (e.g. if hover thrust is set to 20%, then 80% of the upper thrust range is squeezed into the upper half of the stick range). Note: In case MPC_THR_HOVER is set to 50%, the modes 0 and 1 are the same.</source>
+  <source>This parameter defines how the throttle stick input is mapped to commanded thrust in Manual/Stabilized flight mode. In case the default is used ('Rescale to hover thrust'), the stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). Select 'No Rescale' to directly map the stick 1:1 to the output. This can be useful in case the hover thrust is very low and the default would lead to too much distortion (e.g. if hover thrust is set to 20%, 80% of the upper thrust range is squeezed into the upper half of the stick range). Note: In case MPC_THR_HOVER is set to 50%, the modes 0 and 1 are the same.</source>
   </message>
 </context>
 <context>
@@ -10511,37 +10439,37 @@
 <context>
   <name>/parameters/MPC_THR_HOVER/shortDesc</name>
   <message>
-  <source>Vertical thrust required to hover</source>
+  <source>Hover thrust</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_THR_HOVER/longDesc</name>
   <message>
-  <source>Mapped to center throttle stick in Stabilized mode (see MPC_THR_CURVE). Used for initialization of the hover thrust estimator (see MPC_USE_HTE). The estimated hover thrust is used as base for zero vertical acceleration in altitude control. The hover thrust is important for land detection to work correctly.</source>
+  <source>Vertical thrust required to hover. This value is mapped to center stick for manual throttle control. With this value set to the thrust required to hover, transition from manual to Altitude or Position mode while hovering will occur with the throttle stick near center, which is then interpreted as (near) zero demand for vertical speed. This parameter is also important for the landing detection to work correctly.</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_THR_MAX/shortDesc</name>
   <message>
-  <source>Maximum collective thrust in climb rate controlled modes</source>
+  <source>Maximum thrust in auto thrust control</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_THR_MAX/longDesc</name>
   <message>
-  <source>Limit allowed thrust e.g. for indoor test of overpowered vehicle.</source>
+  <source>Limit max allowed thrust</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_THR_MIN/shortDesc</name>
   <message>
-  <source>Minimum collective thrust in climb rate controlled modes</source>
+  <source>Minimum collective thrust in auto thrust control</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_THR_MIN/longDesc</name>
   <message>
-  <source>Too low thrust leads to loss of roll/pitch/yaw torque control authority. With airmode enabled this parameters can be set to 0 while still keeping torque authority (see MC_AIRMODE).</source>
+  <source>It's recommended to set it &gt; 0 to avoid free fall with zero thrust. Note: Without airmode zero thrust leads to zero roll/pitch control authority. (see MC_AIRMODE)</source>
   </message>
 </context>
 <context>
@@ -10553,7 +10481,7 @@
 <context>
   <name>/parameters/MPC_THR_XY_MARG/longDesc</name>
   <message>
-  <source>Margin that is kept for horizontal control when higher priority vertical thrust is saturated. To avoid completely starving horizontal control with high vertical error.</source>
+  <source>Margin that is kept for horizontal control when prioritizing vertical thrust. To avoid completely starving horizontal control with high vertical error.</source>
   </message>
 </context>
 <context>
@@ -10565,31 +10493,31 @@
 <context>
   <name>/parameters/MPC_TILTMAX_AIR/longDesc</name>
   <message>
-  <source>Absolute maximum for all velocity or acceleration controlled modes. Any higher value is truncated.</source>
+  <source>Limits maximum tilt in AUTO and POSCTRL modes during flight.</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_TILTMAX_LND/shortDesc</name>
   <message>
-  <source>Maximum tilt during inital takeoff ramp</source>
+  <source>Maximum tilt during landing</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_TILTMAX_LND/longDesc</name>
   <message>
-  <source>Tighter tilt limit during takeoff to avoid tip over.</source>
+  <source>Limits maximum tilt angle on landing.</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_TKO_RAMP_T/shortDesc</name>
   <message>
-  <source>Smooth takeoff ramp time constant</source>
+  <source>Position control smooth takeoff ramp time constant</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_TKO_RAMP_T/longDesc</name>
   <message>
-  <source>Increasing this value will make climb rate controlled takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</source>
+  <source>Increasing this value will make automatic and manual takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</source>
   </message>
 </context>
 <context>
@@ -10601,13 +10529,13 @@
 <context>
   <name>/parameters/MPC_USE_HTE/shortDesc</name>
   <message>
-  <source>Hover thrust estimator</source>
+  <source>Hover thrust source selector</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_USE_HTE/longDesc</name>
   <message>
-  <source>Disable to use the fixed parameter MPC_THR_HOVER Enable to use the hover thrust estimator</source>
+  <source>Set false to use the fixed parameter MPC_THR_HOVER Set true to use the value computed by the hover thrust estimator</source>
   </message>
 </context>
 <context>
@@ -10625,7 +10553,7 @@
 <context>
   <name>/parameters/MPC_VELD_LP/shortDesc</name>
   <message>
-  <source>Numerical velocity derivative low pass cutoff frequency</source>
+  <source>Low pass filter cut freq. for numerical velocity derivative</source>
   </message>
 </context>
 <context>
@@ -10637,7 +10565,7 @@
 <context>
   <name>/parameters/MPC_VEL_MANUAL/longDesc</name>
   <message>
-  <source>Must be smaller than MPC_XY_VEL_MAX. The maximum sideways and backward speed can be set differently using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.</source>
+  <source>If velocity setpoint larger than MPC_XY_VEL_MAX is set, then the setpoint will be capped to MPC_XY_VEL_MAX The maximum sideways and backward speed can be set differently using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.</source>
   </message>
 </context>
 <context>
@@ -10667,13 +10595,13 @@
 <context>
   <name>/parameters/MPC_XY_CRUISE/shortDesc</name>
   <message>
-  <source>Default horizontal velocity in autonomous modes</source>
+  <source>Default horizontal velocity in mission</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_XY_CRUISE/longDesc</name>
   <message>
-  <source>e.g. in Missions, RTL, Goto if the waypoint does not specify differently</source>
+  <source>Horizontal velocity used when flying autonomously in e.g. Missions, RTL, Goto.</source>
   </message>
 </context>
 <context>
@@ -10697,19 +10625,13 @@
 <context>
   <name>/parameters/MPC_XY_MAN_EXPO/longDesc</name>
   <message>
-  <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
+  <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_XY_P/shortDesc</name>
   <message>
   <source>Proportional gain for horizontal position error</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MPC_XY_P/longDesc</name>
-  <message>
-  <source>Defined as corrective velocity in m/s per m position error</source>
   </message>
 </context>
 <context>
@@ -10733,13 +10655,13 @@
 <context>
   <name>/parameters/MPC_XY_VEL_D_ACC/shortDesc</name>
   <message>
-  <source>Differential gain for horizontal velocity error</source>
+  <source>Differential gain for horizontal velocity error. Small values help reduce fast oscillations. If value is too big oscillations will appear again</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_XY_VEL_D_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative</source>
+  <source>defined as correction acceleration in m/s^2 per m/s^2 velocity derivative</source>
   </message>
 </context>
 <context>
@@ -10751,7 +10673,7 @@
 <context>
   <name>/parameters/MPC_XY_VEL_I_ACC/longDesc</name>
   <message>
-  <source>Defined as correction acceleration in m/s^2 per m velocity integral Allows to eliminate steady state errors in disturbances like wind.</source>
+  <source>defined as correction acceleration in m/s^2 per m velocity integral Non-zero value allows to eliminate steady state errors in the presence of disturbances like wind.</source>
   </message>
 </context>
 <context>
@@ -10763,7 +10685,7 @@
 <context>
   <name>/parameters/MPC_XY_VEL_MAX/longDesc</name>
   <message>
-  <source>Absolute maximum for all velocity controlled modes. Any higher value is truncated.</source>
+  <source>Maximum horizontal velocity in AUTO mode. If higher speeds are commanded in a mission they will be capped to this velocity.</source>
   </message>
 </context>
 <context>
@@ -10775,7 +10697,7 @@
 <context>
   <name>/parameters/MPC_XY_VEL_P_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m/s velocity error</source>
+  <source>defined as correction acceleration in m/s^2 per m/s velocity error</source>
   </message>
 </context>
 <context>
@@ -10787,7 +10709,7 @@
 <context>
   <name>/parameters/MPC_YAW_EXPO/longDesc</name>
   <message>
-  <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
+  <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve</source>
   </message>
 </context>
 <context>
@@ -10799,19 +10721,13 @@
 <context>
   <name>/parameters/MPC_Z_MAN_EXPO/longDesc</name>
   <message>
-  <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
+  <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_Z_P/shortDesc</name>
   <message>
   <source>Proportional gain for vertical position error</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MPC_Z_P/longDesc</name>
-  <message>
-  <source>Defined as corrective velocity in m/s per m position error</source>
   </message>
 </context>
 <context>
@@ -10835,7 +10751,7 @@
 <context>
   <name>/parameters/MPC_Z_VEL_D_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative</source>
+  <source>defined as correction acceleration in m/s^2 per m/s^2 velocity derivative</source>
   </message>
 </context>
 <context>
@@ -10847,7 +10763,7 @@
 <context>
   <name>/parameters/MPC_Z_VEL_I_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m velocity integral</source>
+  <source>defined as correction acceleration in m/s^2 per m velocity integral Non zero value allows hovering thrust estimation on stabilized or autonomous takeoff.</source>
   </message>
 </context>
 <context>
@@ -10859,7 +10775,7 @@
 <context>
   <name>/parameters/MPC_Z_VEL_MAX_DN/longDesc</name>
   <message>
-  <source>Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
+  <source>Descent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_DN</source>
   </message>
 </context>
 <context>
@@ -10871,7 +10787,7 @@
 <context>
   <name>/parameters/MPC_Z_VEL_MAX_UP/longDesc</name>
   <message>
-  <source>Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
+  <source>Ascent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_UP</source>
   </message>
 </context>
 <context>
@@ -10883,31 +10799,31 @@
 <context>
   <name>/parameters/MPC_Z_VEL_P_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m/s velocity error</source>
+  <source>defined as correction acceleration in m/s^2 per m/s velocity error</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_Z_V_AUTO_DN/shortDesc</name>
   <message>
-  <source>Descent velocity in autonomous modes</source>
+  <source>Automatic descent velocity</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_Z_V_AUTO_DN/longDesc</name>
   <message>
-  <source>For manual modes and offboard, see MPC_Z_VEL_MAX_DN</source>
+  <source>Descent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_DN</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_Z_V_AUTO_UP/shortDesc</name>
   <message>
-  <source>Ascent velocity in autonomous modes</source>
+  <source>Automatic ascent velocity</source>
   </message>
 </context>
 <context>
   <name>/parameters/MPC_Z_V_AUTO_UP/longDesc</name>
   <message>
-  <source>For manually controlled modes and offboard see MPC_Z_VEL_MAX_UP</source>
+  <source>Ascent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_UP</source>
   </message>
 </context>
 <context>
@@ -14771,7 +14687,7 @@
 <context>
   <name>/parameters/TRIM_PITCH/longDesc</name>
   <message>
-  <source>The trim value is the actuator control value the system needs for straight and level flight.</source>
+  <source>The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.</source>
   </message>
 </context>
 <context>
@@ -14783,7 +14699,7 @@
 <context>
   <name>/parameters/TRIM_ROLL/longDesc</name>
   <message>
-  <source>The trim value is the actuator control value the system needs for straight and level flight.</source>
+  <source>The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.</source>
   </message>
 </context>
 <context>
@@ -14795,7 +14711,7 @@
 <context>
   <name>/parameters/TRIM_YAW/longDesc</name>
   <message>
-  <source>The trim value is the actuator control value the system needs for straight and level flight.</source>
+  <source>The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.</source>
   </message>
 </context>
 <context>
@@ -19257,12 +19173,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_EN_SF1XX/values/7/description</name>
-  <message>
-  <source>SF/LW30/d</source>
-  </message>
-</context>
-<context>
   <name>/parameters/SENS_EN_SHT3X/shortDesc</name>
   <message>
   <source>SHT3x temperature and hygrometer</source>
@@ -21839,13 +21749,7 @@
 <context>
   <name>/parameters/SYS_FAC_CAL_MODE/values/1/description</name>
   <message>
-  <source>All sensors</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SYS_FAC_CAL_MODE/values/2/description</name>
-  <message>
-  <source>All sensors except mag</source>
+  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -23259,408 +23163,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/TC_M0_ID/shortDesc</name>
-  <message>
-  <source>ID of Magnetometer that the calibration is for</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_TMAX/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration maximum temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_TMIN/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration minimum temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_TREF/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration reference temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X0_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X0_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X0_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X1_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X1_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X1_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X2_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X2_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X2_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X3_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X3_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M0_X3_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_ID/shortDesc</name>
-  <message>
-  <source>ID of Magnetometer that the calibration is for</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_TMAX/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration maximum temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_TMIN/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration minimum temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_TREF/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration reference temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X0_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X0_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X0_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X1_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X1_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X1_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X2_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X2_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X2_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X3_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X3_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M1_X3_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_ID/shortDesc</name>
-  <message>
-  <source>ID of Magnetometer that the calibration is for</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_TMAX/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration maximum temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_TMIN/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration minimum temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_TREF/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration reference temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X0_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X0_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X0_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X1_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X1_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X1_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X2_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X2_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X2_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X3_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X3_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M2_X3_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_ID/shortDesc</name>
-  <message>
-  <source>ID of Magnetometer that the calibration is for</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_TMAX/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration maximum temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_TMIN/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration minimum temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_TREF/shortDesc</name>
-  <message>
-  <source>Magnetometer calibration reference temperature</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X0_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X0_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X0_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^0 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X1_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X1_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X1_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^1 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X2_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X2_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X2_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^2 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X3_0/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X3_1/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M3_X3_2/shortDesc</name>
-  <message>
-  <source>Magnetometer offset temperature ^3 polynomial coefficient - Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M_ENABLE/shortDesc</name>
-  <message>
-  <source>Thermal compensation for magnetometer sensors</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M_ENABLE/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/TC_M_ENABLE/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/MXS_EXT_CFG/shortDesc</name>
   <message>
   <source>Sagetech External Configuration Mode</source>
@@ -24603,15 +24105,9 @@
   </message>
 </context>
 <context>
-  <name>/parameters/VT_BT_TILT_DUR/shortDesc</name>
+  <name>/parameters/VT_B_DEC_FF/shortDesc</name>
   <message>
-  <source>Duration motor tilt up in backtransition</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/VT_BT_TILT_DUR/longDesc</name>
-  <message>
-  <source>Time in seconds it takes to tilt form VT_TILT_FW to VT_TILT_MC.</source>
+  <source>Backtransition deceleration setpoint to pitch feedforward gain</source>
   </message>
 </context>
 <context>
@@ -24629,7 +24125,7 @@
 <context>
   <name>/parameters/VT_B_DEC_MSS/longDesc</name>
   <message>
-  <source>Used to calculate back transition distance in an auto mode. For standard vtol and tiltrotors a controller is used to track this value during the transition.</source>
+  <source>The approximate deceleration during a back transition in m/s/s Used to calculate back transition distance in an auto mode. For standard vtol and tiltrotors a controller is used to track this value during the transition.</source>
   </message>
 </context>
 <context>
@@ -24641,7 +24137,7 @@
 <context>
   <name>/parameters/VT_B_TRANS_DUR/longDesc</name>
   <message>
-  <source>Transition is also declared over if the groundspeed drops below MPC_XY_CRUISE.</source>
+  <source>Time in seconds used for a back transition maximally. Transition is also declared over if the groundspeed drops below MPC_XY_CRUISE.</source>
   </message>
 </context>
 <context>
@@ -24879,6 +24375,12 @@
   </message>
 </context>
 <context>
+  <name>/parameters/VT_F_TRANS_THR/longDesc</name>
+  <message>
+  <source>standard vtol: pusher tailsitter, tiltrotor: main throttle</source>
+  </message>
+</context>
+<context>
   <name>/parameters/VT_F_TR_OL_TM/shortDesc</name>
   <message>
   <source>Airspeed-less front transition time (open loop)</source>
@@ -24911,7 +24413,7 @@
 <context>
   <name>/parameters/VT_PITCH_MIN/longDesc</name>
   <message>
-  <source>Any pitch setpoint below this value is translated to a forward force by the fixed-wing forward actuation if VT_FW_TRHUST_EN is set to 1.</source>
+  <source>Minimum pitch angle during hover flight. If the desired pitch angle is is lower than this value then the fixed-wing forward actuation can be used to compensate for the missing thrust in forward direction (see VT_FW_TRHUST_EN)</source>
   </message>
 </context>
 <context>
@@ -25107,45 +24609,33 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Autotune</name>
+  <name>$globals/group/FW Path Control</name>
   <message>
-  <source>Autotune</source>
+  <source>FW Path Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UUV Attitude Control</name>
+  <name>$globals/group/Cyphal</name>
   <message>
-  <source>UUV Attitude Control</source>
+  <source>Cyphal</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Attitude Control</name>
+  <name>$globals/group/VTOL Takeoff</name>
   <message>
-  <source>VTOL Attitude Control</source>
+  <source>VTOL Takeoff</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Geometry</name>
+  <name>$globals/group/System</name>
   <message>
-  <source>FW Geometry</source>
+  <source>System</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Simulation In Hardware</name>
+  <name>$globals/group/Events</name>
   <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
+  <source>Events</source>
   </message>
 </context>
 <context>
@@ -25155,39 +24645,21 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Thermal Compensation</name>
+  <name>$globals/group/Camera Capture</name>
   <message>
-  <source>Thermal Compensation</source>
+  <source>Camera Capture</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <name>$globals/group/Serial</name>
   <message>
-  <source>UAVCAN Motor Parameters</source>
+  <source>Serial</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Landing Target Estimator</name>
+  <name>$globals/group/Hover Thrust Estimator</name>
   <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
+  <source>Hover Thrust Estimator</source>
   </message>
 </context>
 <context>
@@ -25197,57 +24669,129 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Landing target Estimator</name>
+  <name>$globals/group/Attitude Q estimator</name>
   <message>
-  <source>Landing target Estimator</source>
+  <source>Attitude Q estimator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Telemetry</name>
+  <name>$globals/group/Precision Land</name>
   <message>
-  <source>Telemetry</source>
+  <source>Precision Land</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Launch detection</name>
+  <name>$globals/group/SITL</name>
   <message>
-  <source>FW Launch detection</source>
+  <source>SITL</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/MODAL IO</name>
+  <name>$globals/group/Multicopter Attitude Control</name>
   <message>
-  <source>MODAL IO</source>
+  <source>Multicopter Attitude Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/OSD</name>
+  <name>$globals/group/Runway Takeoff</name>
   <message>
-  <source>OSD</source>
+  <source>Runway Takeoff</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Commander</name>
+  <name>$globals/group/UAVCAN GNSS</name>
   <message>
-  <source>Commander</source>
+  <source>UAVCAN GNSS</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <name>$globals/group/FW Rate Control</name>
   <message>
-  <source>Magnetometer Bias Estimator</source>
+  <source>FW Rate Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Battery Calibration</name>
+  <name>$globals/group/Manual Control</name>
   <message>
-  <source>Battery Calibration</source>
+  <source>Manual Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Camera Capture</name>
+  <name>$globals/group/Mixer Output</name>
   <message>
-  <source>Camera Capture</source>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Iridium SBD</name>
+  <message>
+  <source>Iridium SBD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Control</name>
+  <message>
+  <source>Camera Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
   </message>
 </context>
 <context>
@@ -25263,87 +24807,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Attitude Control</name>
+  <name>$globals/group/Mount</name>
   <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ESC</name>
-  <message>
-  <source>ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
+  <source>Mount</source>
   </message>
 </context>
 <context>
@@ -25353,93 +24819,45 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/ADSB</name>
   <message>
   <source>ADSB</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW TECS</name>
+  <name>$globals/group/Simulator</name>
   <message>
-  <source>FW TECS</source>
+  <source>Simulator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/MAVLink</name>
+  <name>$globals/group/Thermal Compensation</name>
   <message>
-  <source>MAVLink</source>
+  <source>Thermal Compensation</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Camera trigger</name>
+  <name>$globals/group/Sensor Calibration</name>
   <message>
-  <source>Camera trigger</source>
+  <source>Sensor Calibration</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Circuit Breaker</name>
+  <name>$globals/group/Landing target Estimator</name>
   <message>
-  <source>Circuit Breaker</source>
+  <source>Landing target Estimator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Rate Control</name>
+  <name>$globals/group/Battery Calibration</name>
   <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Serial</name>
-  <message>
-  <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Control</name>
-  <message>
-  <source>Camera Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Iridium SBD</name>
-  <message>
-  <source>Iridium SBD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Cyphal</name>
-  <message>
-  <source>Cyphal</source>
+  <source>Battery Calibration</source>
   </message>
 </context>
 <context>
@@ -25449,9 +24867,33 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Sensors</name>
+  <name>$globals/group/Autotune</name>
   <message>
-  <source>Sensors</source>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
   </message>
 </context>
 <context>
@@ -25461,9 +24903,57 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/PWM Outputs</name>
+  <name>$globals/group/FW Launch detection</name>
   <message>
-  <source>PWM Outputs</source>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ESC</name>
+  <message>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
   </message>
 </context>
 <context>
@@ -25473,45 +24963,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Path Control</name>
+  <name>$globals/group/MODAL IO</name>
   <message>
-  <source>FW Path Control</source>
+  <source>MODAL IO</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Airspeed Validator</name>
+  <name>$globals/group/Simulation In Hardware</name>
   <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
+  <source>Simulation In Hardware</source>
   </message>
 </context>
 <context>
@@ -25521,21 +24981,63 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Mission</name>
+  <name>$globals/group/VTOL Attitude Control</name>
   <message>
-  <source>Mission</source>
+  <source>VTOL Attitude Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Rate Control</name>
+  <name>$globals/group/Camera trigger</name>
   <message>
-  <source>FW Rate Control</source>
+  <source>Camera trigger</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Auto Landing</name>
+  <name>$globals/group/UAVCAN</name>
   <message>
-  <source>FW Auto Landing</source>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FlightTaskOrbit</name>
+  <message>
+  <source>FlightTaskOrbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Telemetry</name>
+  <message>
+  <source>Telemetry</source>
   </message>
 </context>
 </TS>

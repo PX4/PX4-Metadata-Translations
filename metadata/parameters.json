@@ -1771,17 +1771,17 @@
       "category": "Standard",
       "default": 1,
       "group": "Commander",
-      "longDesc": "Set 0 to prevent accidental use of the vehicle e.g. for safety or maintenance reasons.",
-      "name": "COM_ARMABLE",
-      "shortDesc": "Flag to allow arming",
+      "longDesc": "Deny arming if the current airspeed measurement is greater than half the cruise airspeed (FW_AIRSPD_TRIM). Excessive airspeed measurements on ground are either caused by wind or bad airspeed calibration.",
+      "name": "COM_ARM_ARSP_EN",
+      "shortDesc": "Enable preflight check for maximal allowed airspeed when arming",
       "type": "Int32",
       "values": [
         {
-          "description": "Disallow arming",
+          "description": "Disabled",
           "value": 0
         },
         {
-          "description": "Allow arming",
+          "description": "Enabled",
           "value": 1
         }
       ]
@@ -2013,29 +2013,6 @@
     },
     {
       "category": "Standard",
-      "default": 0,
-      "group": "Commander",
-      "longDesc": "This check detects if the Open Drone ID system is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.",
-      "name": "COM_ARM_ODID",
-      "shortDesc": "Enable Drone ID system detection and health check",
-      "type": "Int32",
-      "values": [
-        {
-          "description": "Disabled",
-          "value": 0
-        },
-        {
-          "description": "Warning only",
-          "value": 1
-        },
-        {
-          "description": "Enforce Open Drone ID system presence",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "category": "Standard",
       "default": 1,
       "group": "Commander",
       "longDesc": "This check detects if the FMU SD card is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.",
@@ -2080,6 +2057,7 @@
       "category": "Standard",
       "default": 1,
       "group": "Commander",
+      "longDesc": "The default allows the vehicle to arm without GPS signal.",
       "name": "COM_ARM_WO_GPS",
       "shortDesc": "Allow arming without GPS",
       "type": "Int32",
@@ -2771,9 +2749,9 @@
       "category": "Standard",
       "default": 1,
       "group": "Commander",
-      "longDesc": "If set, enables the actuator test interface via MAVLink (ACTUATOR_TEST), that allows spinning the motors and moving the servos for testing purposes.",
+      "longDesc": "If set, enables the motor test interface via MAVLink (DO_MOTOR_TEST), that allows spinning the motors for testing purposes.",
       "name": "COM_MOT_TEST_EN",
-      "shortDesc": "Enable Actuator Testing",
+      "shortDesc": "Enable Motor Testing",
       "type": "Int32",
       "values": [
         {
@@ -2926,9 +2904,8 @@
       "decimalPlaces": 1,
       "default": 5.0,
       "group": "Commander",
-      "longDesc": "This is the horizontal position error (EPH) threshold that will trigger a failsafe. The default is appropriate for a multicopter. Can be increased for a fixed-wing. If the previous position error was below this threshold, there is an additional factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation). Set to -1 to disable.",
-      "max": 400.0,
-      "min": -1.0,
+      "longDesc": "This is the horizontal position error (EPH) threshold that will trigger a failsafe. The default is appropriate for a multicopter. Can be increased for a fixed-wing. If the previous position error was below this threshold, there is an additional factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).",
+      "min": 0.0,
       "name": "COM_POS_FS_EPH",
       "shortDesc": "Horizontal position error threshold",
       "type": "Float",
@@ -2939,7 +2916,6 @@
       "default": -1.0,
       "group": "Commander",
       "longDesc": "Specify the threshold for triggering a warning for low local position accuracy. Additionally triggers a RTL if currently in Mission or Loiter mode. Local position has to be still declared valid, which is most of all depending on COM_POS_FS_EPH. Use this feature on systems with dead-reckoning capabilites (e.g. fixed-wing vehicles with airspeed sensor) to improve the user notification and failure mitigation when flying in GNSS-denied areas. Set to -1 to disable.",
-      "max": 1000.0,
       "min": -1.0,
       "name": "COM_POS_LOW_EPH",
       "shortDesc": "EPH threshold for RTL",
@@ -3104,7 +3080,7 @@
       "category": "Standard",
       "default": 1,
       "group": "Commander",
-      "longDesc": "When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV immediately gives control back to the pilot by switching to Position mode and if position is unavailable Altitude mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode.",
+      "longDesc": "When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV immediately gives control back to the pilot by switching to Position mode and if position is unavailable Altitude mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode. This parameter is not considered in case of a GPS failure (Descend flight mode), where stick override is always enabled.",
       "max": 3,
       "min": 0,
       "name": "COM_RC_OVERRIDE",
@@ -4275,7 +4251,7 @@
       "longDesc": "Sets the number of standard deviations used by the innovation consistency test.",
       "min": 1.0,
       "name": "EKF2_HDG_GATE",
-      "shortDesc": "Gate size for heading fusion",
+      "shortDesc": "Gate size for magnetic heading fusion",
       "type": "Float",
       "units": "SD"
     },
@@ -4399,55 +4375,23 @@
       "units": "gauss/s"
     },
     {
-      "bitmask": [
-        {
-          "description": "Strength (EKF2_MAG_CHK_STR)",
-          "index": 0
-        },
-        {
-          "description": "Inclination (EKF2_MAG_CHK_INC)",
-          "index": 1
-        },
-        {
-          "description": "Wait for WMM",
-          "index": 2
-        }
-      ],
       "category": "Standard",
       "default": 1,
       "group": "EKF2",
-      "longDesc": "Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM",
-      "max": 7,
-      "min": 0,
+      "longDesc": "When set, the EKF checks the strength of the magnetic field to decide whether the magnetometer data is valid. If GPS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance.",
       "name": "EKF2_MAG_CHECK",
       "shortDesc": "Magnetic field strength test selection",
-      "type": "Int32"
-    },
-    {
-      "category": "Standard",
-      "decimalPlaces": 1,
-      "default": 20.0,
-      "group": "EKF2",
-      "longDesc": "Maximum allowed deviation from the expected magnetic field inclination to pass the check.",
-      "max": 90.0,
-      "min": 0.0,
-      "name": "EKF2_MAG_CHK_INC",
-      "shortDesc": "Magnetic field inclination check tolerance",
-      "type": "Float",
-      "units": "deg"
-    },
-    {
-      "category": "Standard",
-      "decimalPlaces": 2,
-      "default": 0.2,
-      "group": "EKF2",
-      "longDesc": "Maximum allowed deviation from the expected magnetic field strength to pass the check.",
-      "max": 1.0,
-      "min": 0.0,
-      "name": "EKF2_MAG_CHK_STR",
-      "shortDesc": "Magnetic field strength check tolerance",
-      "type": "Float",
-      "units": "gauss"
+      "type": "Int32",
+      "values": [
+        {
+          "description": "Disabled",
+          "value": 0
+        },
+        {
+          "description": "Enabled",
+          "value": 1
+        }
+      ]
     },
     {
       "category": "System",
@@ -4513,7 +4457,7 @@
       "category": "Standard",
       "default": 0,
       "group": "EKF2",
-      "longDesc": "Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality).",
+      "longDesc": "Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to '3-axis' 3-axis field fusion is used at all times. If set to 'VTOL custom' the behaviour is the same as 'Automatic', but if fusing airspeed, magnetometer fusion is only allowed to modify the magnetic field states. This can be used by VTOL platforms with large magnetic field disturbances to prevent incorrect bias states being learned during forward flight operation which can adversely affect estimation accuracy after transition to hovering flight. If set to 'MC custom' the behaviour is the same as 'Automatic, but if there are no earth frame position or velocity observations being used, the magnetometer will not be used. This enables vehicles to operate with no GPS in environments where the magnetic field cannot be used to provide a heading reference. Prior to flight, the yaw angle is assumed to be constant if movement tests indicate that the vehicle is static. This allows the vehicle to be placed on the ground to learn the yaw gyro bias prior to flight. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality).",
       "name": "EKF2_MAG_TYPE",
       "rebootRequired": true,
       "shortDesc": "Type of magnetometer fusion",
@@ -4526,6 +4470,18 @@
         {
           "description": "Magnetic heading",
           "value": 1
+        },
+        {
+          "description": "3-axis",
+          "value": 2
+        },
+        {
+          "description": "VTOL custom",
+          "value": 3
+        },
+        {
+          "description": "MC custom",
+          "value": 4
         },
         {
           "description": "None",
@@ -6110,25 +6066,6 @@
       "shortDesc": "Acro body x max rate",
       "type": "Float",
       "units": "deg"
-    },
-    {
-      "category": "Standard",
-      "default": 0,
-      "group": "FW Rate Control",
-      "longDesc": "If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.",
-      "name": "FW_ACRO_YAW_EN",
-      "shortDesc": "Enable yaw rate controller in Acro",
-      "type": "Int32",
-      "values": [
-        {
-          "description": "Disabled",
-          "value": 0
-        },
-        {
-          "description": "Enabled",
-          "value": 1
-        }
-      ]
     },
     {
       "category": "Standard",
@@ -9462,10 +9399,11 @@
       "category": "Standard",
       "default": 0,
       "group": "Mission",
+      "longDesc": "Specifies the heading in Auto.",
       "max": 4,
       "min": 0,
       "name": "MPC_YAW_MODE",
-      "shortDesc": "Heading behavior in autonomous modes",
+      "shortDesc": "Yaw mode",
       "type": "Int32",
       "values": [
         {
@@ -9555,7 +9493,7 @@
       "default": 80.0,
       "group": "Mission",
       "increment": 0.5,
-      "longDesc": "Default value of loiter radius in FW mode (e.g. for Loiter mode).",
+      "longDesc": "Default value of loiter radius for missions, Hold mode, Return mode, etc. (fixedwing only).",
       "max": 1000.0,
       "min": 25.0,
       "name": "NAV_LOITER_RAD",
@@ -10164,15 +10102,15 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 0,
+      "decimalPlaces": 1,
       "default": 45.0,
       "group": "Multicopter Attitude Control",
       "increment": 5.0,
-      "longDesc": "Limits the rate of change of the yaw setpoint to avoid large control output and mixer saturation.",
+      "longDesc": "Limit the rate of change of the yaw setpoint in autonomous mode to avoid large control output and mixer saturation.",
       "max": 360.0,
       "min": 0.0,
       "name": "MPC_YAWRAUTO_MAX",
-      "shortDesc": "Max yaw rate in autonomous modes",
+      "shortDesc": "Max yaw rate in auto mode",
       "type": "Float",
       "units": "deg/s"
     },
@@ -10246,28 +10184,28 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 1,
+      "decimalPlaces": 2,
       "default": 3.0,
       "group": "Multicopter Position Control",
       "increment": 1.0,
       "max": 15.0,
       "min": 2.0,
       "name": "MPC_ACC_DOWN_MAX",
-      "shortDesc": "Maximum downwards acceleration in climb rate controlled modes",
+      "shortDesc": "Maximum vertical acceleration in velocity controlled modes down",
       "type": "Float",
       "units": "m/s^2"
     },
     {
       "category": "Standard",
-      "decimalPlaces": 1,
+      "decimalPlaces": 2,
       "default": 3.0,
       "group": "Multicopter Position Control",
       "increment": 1.0,
-      "longDesc": "When piloting manually, this parameter is only used in MPC_POS_MODE 4.",
+      "longDesc": "Note: In manual, this parameter is only used in MPC_POS_MODE 4.",
       "max": 15.0,
       "min": 2.0,
       "name": "MPC_ACC_HOR",
-      "shortDesc": "Acceleration for autonomous and for manual modes",
+      "shortDesc": "Acceleration for auto and for manual",
       "type": "Float",
       "units": "m/s^2"
     },
@@ -10277,24 +10215,24 @@
       "default": 5.0,
       "group": "Multicopter Position Control",
       "increment": 1.0,
-      "longDesc": "MPC_POS_MODE 1 just deceleration 3 acceleration and deceleration 4 not used, use MPC_ACC_HOR instead",
+      "longDesc": "MPC_POS_MODE 1 just deceleration 3 acceleration and deceleration 4 just acceleration",
       "max": 15.0,
       "min": 2.0,
       "name": "MPC_ACC_HOR_MAX",
-      "shortDesc": "Maximum horizontal acceleration",
+      "shortDesc": "Maximum horizontal acceleration for auto mode and for manual mode",
       "type": "Float",
       "units": "m/s^2"
     },
     {
       "category": "Standard",
-      "decimalPlaces": 1,
+      "decimalPlaces": 2,
       "default": 4.0,
       "group": "Multicopter Position Control",
       "increment": 1.0,
       "max": 15.0,
       "min": 2.0,
       "name": "MPC_ACC_UP_MAX",
-      "shortDesc": "Maximum upwards acceleration in climb rate controlled modes",
+      "shortDesc": "Maximum vertical acceleration in velocity controlled modes upward",
       "type": "Float",
       "units": "m/s^2"
     },
@@ -10306,7 +10244,7 @@
       "max": 2,
       "min": 0,
       "name": "MPC_ALT_MODE",
-      "shortDesc": "Altitude reference mode",
+      "shortDesc": "Altitude control mode",
       "type": "Int32",
       "values": [
         {
@@ -10328,12 +10266,10 @@
       "decimalPlaces": 2,
       "default": 0.1,
       "group": "Multicopter Position Control",
-      "increment": 0.01,
-      "longDesc": "Does not apply to manual throttle and direct attitude piloting by stick.",
       "max": 1.0,
       "min": 0.0,
       "name": "MPC_HOLD_DZ",
-      "shortDesc": "Deadzone for sticks in manual piloted modes",
+      "shortDesc": "Deadzone of sticks where position hold is enabled",
       "type": "Float"
     },
     {
@@ -10341,7 +10277,6 @@
       "decimalPlaces": 2,
       "default": 0.8,
       "group": "Multicopter Position Control",
-      "longDesc": "Only used with MPC_POS_MODE 0 or MPC_ALT_MODE 2",
       "max": 3.0,
       "min": 0.0,
       "name": "MPC_HOLD_MAX_XY",
@@ -10354,7 +10289,6 @@
       "decimalPlaces": 2,
       "default": 0.6,
       "group": "Multicopter Position Control",
-      "longDesc": "Only used with MPC_ALT_MODE 1",
       "max": 3.0,
       "min": 0.0,
       "name": "MPC_HOLD_MAX_Z",
@@ -10368,25 +10302,25 @@
       "default": 4.0,
       "group": "Multicopter Position Control",
       "increment": 1.0,
-      "longDesc": "Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions but also limited agility.",
+      "longDesc": "Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions, but it also limits its agility.",
       "max": 80.0,
       "min": 1.0,
       "name": "MPC_JERK_AUTO",
-      "shortDesc": "Jerk limit in autonomous modes",
+      "shortDesc": "Jerk limit in auto mode",
       "type": "Float",
       "units": "m/s^3"
     },
     {
       "category": "Standard",
-      "decimalPlaces": 0,
+      "decimalPlaces": 2,
       "default": 8.0,
       "group": "Multicopter Position Control",
       "increment": 1.0,
-      "longDesc": "Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother motions but limits agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Only used with smooth MPC_POS_MODE 3 and 4.",
+      "longDesc": "Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions, but it also limits its agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Note: This is only used when MPC_POS_MODE is set to a smoothing mode 3 or 4.",
       "max": 500.0,
       "min": 0.5,
       "name": "MPC_JERK_MAX",
-      "shortDesc": "Maximum horizontal and vertical jerk in Position/Altitude mode",
+      "shortDesc": "Maximum jerk limit",
       "type": "Float",
       "units": "m/s^3"
     },
@@ -10443,11 +10377,10 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 0,
+      "decimalPlaces": 1,
       "default": 1000.0,
       "group": "Multicopter Position Control",
-      "increment": 1.0,
-      "longDesc": "When nudging is enabled (see MPC_LAND_RC_HELP), this controls the maximum allowed horizontal displacement from the original landing point.",
+      "longDesc": "When user assisted descent is enabled (see MPC_LAND_RC_HELP), this parameter controls the maximum position adjustment allowed from the original landing point.",
       "min": 0.0,
       "name": "MPC_LAND_RADIUS",
       "shortDesc": "User assisted landing radius",
@@ -10458,19 +10391,19 @@
       "category": "Standard",
       "default": 0,
       "group": "Multicopter Position Control",
-      "longDesc": "Using stick input the vehicle can be moved horizontally and yawed. The descend speed is amended: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).",
+      "longDesc": "When enabled, descent speed will be: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Additionally, the vehicle can be yawed and moved laterally using the other sticks. Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).",
       "max": 1,
       "min": 0,
       "name": "MPC_LAND_RC_HELP",
-      "shortDesc": "Enable nudging based on user input during autonomous land routine",
+      "shortDesc": "Enable user assisted descent for autonomous land routine",
       "type": "Int32",
       "values": [
         {
-          "description": "Nudging disabled",
+          "description": "Fixed descent speed of MPC_LAND_SPEED",
           "value": 0
         },
         {
-          "description": "Nudging enabled",
+          "description": "User assisted descent speed",
           "value": 1
         }
       ]
@@ -10492,37 +10425,35 @@
       "default": 0.08,
       "group": "Multicopter Position Control",
       "increment": 0.01,
-      "longDesc": "The value is mapped to the lowest throttle stick position in Stabilized mode. Too low collective thrust leads to loss of roll/pitch/yaw torque control authority. Airmode is used to keep torque authority with zero thrust (see MC_AIRMODE).",
+      "longDesc": "Minimum vertical thrust. It's recommended to set it > 0 to avoid free fall with zero thrust. With MC_AIRMODE set to 1, this can safely be set to 0.",
       "max": 1.0,
       "min": 0.0,
       "name": "MPC_MANTHR_MIN",
-      "shortDesc": "Minimum collective thrust in Stabilized mode",
+      "shortDesc": "Minimum manual thrust",
       "type": "Float",
       "units": "norm"
     },
     {
       "category": "Standard",
-      "decimalPlaces": 0,
+      "decimalPlaces": 1,
       "default": 35.0,
       "group": "Multicopter Position Control",
-      "increment": 1.0,
       "max": 90.0,
       "min": 0.0,
       "name": "MPC_MAN_TILT_MAX",
-      "shortDesc": "Maximal tilt angle in Stabilized or Altitude mode",
+      "shortDesc": "Maximal tilt angle in manual or altitude mode",
       "type": "Float",
       "units": "deg"
     },
     {
       "category": "Standard",
-      "decimalPlaces": 0,
+      "decimalPlaces": 1,
       "default": 150.0,
       "group": "Multicopter Position Control",
-      "increment": 10.0,
       "max": 400.0,
       "min": 0.0,
       "name": "MPC_MAN_Y_MAX",
-      "shortDesc": "Max manual yaw rate for Stabilized, Altitude, Position mode",
+      "shortDesc": "Max manual yaw rate",
       "type": "Float",
       "units": "deg/s"
     },
@@ -10531,8 +10462,7 @@
       "decimalPlaces": 2,
       "default": 0.08,
       "group": "Multicopter Position Control",
-      "increment": 0.01,
-      "longDesc": "Not used in Stabilized mode Setting this parameter to 0 disables the filter",
+      "longDesc": "Setting this parameter to 0 disables the filter",
       "max": 5.0,
       "min": 0.0,
       "name": "MPC_MAN_Y_TAU",
@@ -10544,21 +10474,21 @@
       "category": "Standard",
       "default": 4,
       "group": "Multicopter Position Control",
-      "longDesc": "The supported sub-modes are: 0 Sticks directly map to velocity setpoints without smoothing. Also applies to vertical direction and Altitude mode. Useful for velocity control tuning. 3 Sticks map to velocity but with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). 4 Sticks map to acceleration and there's a virtual brake drag",
+      "longDesc": "The supported sub-modes are: 0 Simple position control where sticks map directly to velocity setpoints without smoothing. Useful for velocity control tuning. 3 Smooth position control with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). 4 Smooth position control where sticks map to acceleration and there's a virtual brake drag",
       "name": "MPC_POS_MODE",
-      "shortDesc": "Position/Altitude mode variant",
+      "shortDesc": "Manual-Position control sub-mode",
       "type": "Int32",
       "values": [
         {
-          "description": "Direct velocity",
+          "description": "Simple position control",
           "value": 0
         },
         {
-          "description": "Smoothed velocity",
+          "description": "Smooth position control (Jerk optimized)",
           "value": 3
         },
         {
-          "description": "Acceleration based",
+          "description": "Acceleration based input",
           "value": 4
         }
       ]
@@ -10567,9 +10497,9 @@
       "category": "Standard",
       "default": 0,
       "group": "Multicopter Position Control",
-      "longDesc": "This parameter defines how the throttle stick input is mapped to collective thrust in Stabilized mode. In case the default is used ('Rescale to hover thrust'), the stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). Select 'No Rescale' to directly map the stick 1:1 to the output. This can be useful in case the hover thrust is very low and the default would lead to too much distortion (e.g. if hover thrust is set to 20%, then 80% of the upper thrust range is squeezed into the upper half of the stick range). Note: In case MPC_THR_HOVER is set to 50%, the modes 0 and 1 are the same.",
+      "longDesc": "This parameter defines how the throttle stick input is mapped to commanded thrust in Manual/Stabilized flight mode. In case the default is used ('Rescale to hover thrust'), the stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). Select 'No Rescale' to directly map the stick 1:1 to the output. This can be useful in case the hover thrust is very low and the default would lead to too much distortion (e.g. if hover thrust is set to 20%, 80% of the upper thrust range is squeezed into the upper half of the stick range). Note: In case MPC_THR_HOVER is set to 50%, the modes 0 and 1 are the same.",
       "name": "MPC_THR_CURVE",
-      "shortDesc": "Thrust curve mapping in Stabilized Mode",
+      "shortDesc": "Thrust curve in Manual Mode",
       "type": "Int32",
       "values": [
         {
@@ -10588,11 +10518,11 @@
       "default": 0.5,
       "group": "Multicopter Position Control",
       "increment": 0.01,
-      "longDesc": "Mapped to center throttle stick in Stabilized mode (see MPC_THR_CURVE). Used for initialization of the hover thrust estimator (see MPC_USE_HTE). The estimated hover thrust is used as base for zero vertical acceleration in altitude control. The hover thrust is important for land detection to work correctly.",
+      "longDesc": "Vertical thrust required to hover. This value is mapped to center stick for manual throttle control. With this value set to the thrust required to hover, transition from manual to Altitude or Position mode while hovering will occur with the throttle stick near center, which is then interpreted as (near) zero demand for vertical speed. This parameter is also important for the landing detection to work correctly.",
       "max": 0.8,
       "min": 0.1,
       "name": "MPC_THR_HOVER",
-      "shortDesc": "Vertical thrust required to hover",
+      "shortDesc": "Hover thrust",
       "type": "Float",
       "units": "norm"
     },
@@ -10601,12 +10531,12 @@
       "decimalPlaces": 2,
       "default": 1.0,
       "group": "Multicopter Position Control",
-      "increment": 0.05,
-      "longDesc": "Limit allowed thrust e.g. for indoor test of overpowered vehicle.",
+      "increment": 0.01,
+      "longDesc": "Limit max allowed thrust",
       "max": 1.0,
       "min": 0.0,
       "name": "MPC_THR_MAX",
-      "shortDesc": "Maximum collective thrust in climb rate controlled modes",
+      "shortDesc": "Maximum thrust in auto thrust control",
       "type": "Float",
       "units": "norm"
     },
@@ -10616,11 +10546,11 @@
       "default": 0.12,
       "group": "Multicopter Position Control",
       "increment": 0.01,
-      "longDesc": "Too low thrust leads to loss of roll/pitch/yaw torque control authority. With airmode enabled this parameters can be set to 0 while still keeping torque authority (see MC_AIRMODE).",
-      "max": 0.5,
+      "longDesc": "It's recommended to set it > 0 to avoid free fall with zero thrust. Note: Without airmode zero thrust leads to zero roll/pitch control authority. (see MC_AIRMODE)",
+      "max": 1.0,
       "min": 0.05,
       "name": "MPC_THR_MIN",
-      "shortDesc": "Minimum collective thrust in climb rate controlled modes",
+      "shortDesc": "Minimum collective thrust in auto thrust control",
       "type": "Float",
       "units": "norm"
     },
@@ -10630,7 +10560,7 @@
       "default": 0.3,
       "group": "Multicopter Position Control",
       "increment": 0.01,
-      "longDesc": "Margin that is kept for horizontal control when higher priority vertical thrust is saturated. To avoid completely starving horizontal control with high vertical error.",
+      "longDesc": "Margin that is kept for horizontal control when prioritizing vertical thrust. To avoid completely starving horizontal control with high vertical error.",
       "max": 0.5,
       "min": 0.0,
       "name": "MPC_THR_XY_MARG",
@@ -10640,11 +10570,10 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 0,
+      "decimalPlaces": 1,
       "default": 45.0,
       "group": "Multicopter Position Control",
-      "increment": 1.0,
-      "longDesc": "Absolute maximum for all velocity or acceleration controlled modes. Any higher value is truncated.",
+      "longDesc": "Limits maximum tilt in AUTO and POSCTRL modes during flight.",
       "max": 89.0,
       "min": 20.0,
       "name": "MPC_TILTMAX_AIR",
@@ -10654,15 +10583,14 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 0,
+      "decimalPlaces": 1,
       "default": 12.0,
       "group": "Multicopter Position Control",
-      "increment": 1.0,
-      "longDesc": "Tighter tilt limit during takeoff to avoid tip over.",
+      "longDesc": "Limits maximum tilt angle on landing.",
       "max": 89.0,
-      "min": 5.0,
+      "min": 10.0,
       "name": "MPC_TILTMAX_LND",
-      "shortDesc": "Maximum tilt during inital takeoff ramp",
+      "shortDesc": "Maximum tilt during landing",
       "type": "Float",
       "units": "deg"
     },
@@ -10670,13 +10598,12 @@
       "category": "Standard",
       "default": 3.0,
       "group": "Multicopter Position Control",
-      "longDesc": "Increasing this value will make climb rate controlled takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp",
+      "longDesc": "Increasing this value will make automatic and manual takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp",
       "max": 5.0,
       "min": 0.0,
       "name": "MPC_TKO_RAMP_T",
-      "shortDesc": "Smooth takeoff ramp time constant",
-      "type": "Float",
-      "units": "s"
+      "shortDesc": "Position control smooth takeoff ramp time constant",
+      "type": "Float"
     },
     {
       "category": "Standard",
@@ -10694,9 +10621,9 @@
       "category": "Standard",
       "default": 1,
       "group": "Multicopter Position Control",
-      "longDesc": "Disable to use the fixed parameter MPC_THR_HOVER Enable to use the hover thrust estimator",
+      "longDesc": "Set false to use the fixed parameter MPC_THR_HOVER Set true to use the value computed by the hover thrust estimator",
       "name": "MPC_USE_HTE",
-      "shortDesc": "Hover thrust estimator",
+      "shortDesc": "Hover thrust source selector",
       "type": "Int32",
       "values": [
         {
@@ -10711,24 +10638,23 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 1,
+      "decimalPlaces": 2,
       "default": 5.0,
       "group": "Multicopter Position Control",
-      "increment": 0.5,
       "max": 10.0,
       "min": 0.0,
       "name": "MPC_VELD_LP",
-      "shortDesc": "Numerical velocity derivative low pass cutoff frequency",
+      "shortDesc": "Low pass filter cut freq. for numerical velocity derivative",
       "type": "Float",
       "units": "Hz"
     },
     {
       "category": "Standard",
-      "decimalPlaces": 1,
+      "decimalPlaces": 2,
       "default": 10.0,
       "group": "Multicopter Position Control",
       "increment": 1.0,
-      "longDesc": "Must be smaller than MPC_XY_VEL_MAX. The maximum sideways and backward speed can be set differently using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.",
+      "longDesc": "If velocity setpoint larger than MPC_XY_VEL_MAX is set, then the setpoint will be capped to MPC_XY_VEL_MAX The maximum sideways and backward speed can be set differently using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.",
       "max": 20.0,
       "min": 3.0,
       "name": "MPC_VEL_MANUAL",
@@ -10738,10 +10664,10 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 1,
+      "decimalPlaces": 2,
       "default": -1.0,
       "group": "Multicopter Position Control",
-      "increment": 1.0,
+      "increment": 0.1,
       "longDesc": "If set to a negative value or larger than MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.",
       "max": 20.0,
       "min": -1.0,
@@ -10752,10 +10678,10 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 1,
+      "decimalPlaces": 2,
       "default": -1.0,
       "group": "Multicopter Position Control",
-      "increment": 1.0,
+      "increment": 0.1,
       "longDesc": "If set to a negative value or larger than MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.",
       "max": 20.0,
       "min": -1.0,
@@ -10766,15 +10692,15 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 0,
+      "decimalPlaces": 2,
       "default": 5.0,
       "group": "Multicopter Position Control",
       "increment": 1.0,
-      "longDesc": "e.g. in Missions, RTL, Goto if the waypoint does not specify differently",
+      "longDesc": "Horizontal velocity used when flying autonomously in e.g. Missions, RTL, Goto.",
       "max": 20.0,
       "min": 3.0,
       "name": "MPC_XY_CRUISE",
-      "shortDesc": "Default horizontal velocity in autonomous modes",
+      "shortDesc": "Default horizontal velocity in mission",
       "type": "Float",
       "units": "m/s"
     },
@@ -10783,7 +10709,6 @@
       "decimalPlaces": 1,
       "default": 2.0,
       "group": "Multicopter Position Control",
-      "increment": 1.0,
       "longDesc": "The integration speed of the trajectory setpoint is linearly reduced with the horizontal position tracking error. When the error is above this parameter, the integration of the trajectory is stopped to wait for the drone. This value can be adjusted depending on the tracking capabilities of the vehicle.",
       "max": 10.0,
       "min": 0.1,
@@ -10796,8 +10721,7 @@
       "decimalPlaces": 2,
       "default": 0.6,
       "group": "Multicopter Position Control",
-      "increment": 0.01,
-      "longDesc": "The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve",
+      "longDesc": "The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve",
       "max": 1.0,
       "min": 0.0,
       "name": "MPC_XY_MAN_EXPO",
@@ -10809,8 +10733,6 @@
       "decimalPlaces": 2,
       "default": 0.95,
       "group": "Multicopter Position Control",
-      "increment": 0.1,
-      "longDesc": "Defined as corrective velocity in m/s per m position error",
       "max": 2.0,
       "min": 0.0,
       "name": "MPC_XY_P",
@@ -10822,7 +10744,6 @@
       "decimalPlaces": 1,
       "default": 0.5,
       "group": "Multicopter Position Control",
-      "increment": 0.1,
       "max": 1.0,
       "min": 0.1,
       "name": "MPC_XY_TRAJ_P",
@@ -10844,24 +10765,22 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 2,
+      "decimalPlaces": 3,
       "default": 0.2,
       "group": "Multicopter Position Control",
-      "increment": 0.02,
-      "longDesc": "Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative",
+      "longDesc": "defined as correction acceleration in m/s^2 per m/s^2 velocity derivative",
       "max": 2.0,
       "min": 0.1,
       "name": "MPC_XY_VEL_D_ACC",
-      "shortDesc": "Differential gain for horizontal velocity error",
+      "shortDesc": "Differential gain for horizontal velocity error. Small values help reduce fast oscillations. If value is too big oscillations will appear again",
       "type": "Float"
     },
     {
       "category": "Standard",
-      "decimalPlaces": 2,
+      "decimalPlaces": 3,
       "default": 0.4,
       "group": "Multicopter Position Control",
-      "increment": 0.02,
-      "longDesc": "Defined as correction acceleration in m/s^2 per m velocity integral Allows to eliminate steady state errors in disturbances like wind.",
+      "longDesc": "defined as correction acceleration in m/s^2 per m velocity integral Non-zero value allows to eliminate steady state errors in the presence of disturbances like wind.",
       "max": 60.0,
       "min": 0.0,
       "name": "MPC_XY_VEL_I_ACC",
@@ -10870,11 +10789,11 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 1,
+      "decimalPlaces": 2,
       "default": 12.0,
       "group": "Multicopter Position Control",
       "increment": 1.0,
-      "longDesc": "Absolute maximum for all velocity controlled modes. Any higher value is truncated.",
+      "longDesc": "Maximum horizontal velocity in AUTO mode. If higher speeds are commanded in a mission they will be capped to this velocity.",
       "max": 20.0,
       "min": 0.0,
       "name": "MPC_XY_VEL_MAX",
@@ -10887,8 +10806,7 @@
       "decimalPlaces": 2,
       "default": 1.8,
       "group": "Multicopter Position Control",
-      "increment": 0.1,
-      "longDesc": "Defined as corrective acceleration in m/s^2 per m/s velocity error",
+      "longDesc": "defined as correction acceleration in m/s^2 per m/s velocity error",
       "max": 5.0,
       "min": 1.2,
       "name": "MPC_XY_VEL_P_ACC",
@@ -10900,8 +10818,7 @@
       "decimalPlaces": 2,
       "default": 0.6,
       "group": "Multicopter Position Control",
-      "increment": 0.01,
-      "longDesc": "The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve",
+      "longDesc": "The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve",
       "max": 1.0,
       "min": 0.0,
       "name": "MPC_YAW_EXPO",
@@ -10913,8 +10830,7 @@
       "decimalPlaces": 2,
       "default": 0.6,
       "group": "Multicopter Position Control",
-      "increment": 0.01,
-      "longDesc": "The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve",
+      "longDesc": "The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve",
       "max": 1.0,
       "min": 0.0,
       "name": "MPC_Z_MAN_EXPO",
@@ -10926,10 +10842,8 @@
       "decimalPlaces": 2,
       "default": 1.0,
       "group": "Multicopter Position Control",
-      "increment": 0.1,
-      "longDesc": "Defined as corrective velocity in m/s per m position error",
       "max": 1.5,
-      "min": 0.1,
+      "min": 0.0,
       "name": "MPC_Z_P",
       "shortDesc": "Proportional gain for vertical position error",
       "type": "Float"
@@ -10949,11 +10863,10 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 2,
+      "decimalPlaces": 3,
       "default": 0.0,
       "group": "Multicopter Position Control",
-      "increment": 0.02,
-      "longDesc": "Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative",
+      "longDesc": "defined as correction acceleration in m/s^2 per m/s^2 velocity derivative",
       "max": 2.0,
       "min": 0.0,
       "name": "MPC_Z_VEL_D_ACC",
@@ -10962,11 +10875,10 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 2,
+      "decimalPlaces": 3,
       "default": 2.0,
       "group": "Multicopter Position Control",
-      "increment": 0.1,
-      "longDesc": "Defined as corrective acceleration in m/s^2 per m velocity integral",
+      "longDesc": "defined as correction acceleration in m/s^2 per m velocity integral Non zero value allows hovering thrust estimation on stabilized or autonomous takeoff.",
       "max": 3.0,
       "min": 0.2,
       "name": "MPC_Z_VEL_I_ACC",
@@ -10979,7 +10891,7 @@
       "default": 1.5,
       "group": "Multicopter Position Control",
       "increment": 0.1,
-      "longDesc": "Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP",
+      "longDesc": "Descent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_DN",
       "max": 4.0,
       "min": 0.5,
       "name": "MPC_Z_VEL_MAX_DN",
@@ -10993,7 +10905,7 @@
       "default": 3.0,
       "group": "Multicopter Position Control",
       "increment": 0.1,
-      "longDesc": "Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP",
+      "longDesc": "Ascent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_UP",
       "max": 8.0,
       "min": 0.5,
       "name": "MPC_Z_VEL_MAX_UP",
@@ -11006,8 +10918,7 @@
       "decimalPlaces": 2,
       "default": 4.0,
       "group": "Multicopter Position Control",
-      "increment": 0.1,
-      "longDesc": "Defined as corrective acceleration in m/s^2 per m/s velocity error",
+      "longDesc": "defined as correction acceleration in m/s^2 per m/s velocity error",
       "max": 15.0,
       "min": 2.0,
       "name": "MPC_Z_VEL_P_ACC",
@@ -11019,12 +10930,12 @@
       "decimalPlaces": 1,
       "default": 1.5,
       "group": "Multicopter Position Control",
-      "increment": 0.5,
-      "longDesc": "For manual modes and offboard, see MPC_Z_VEL_MAX_DN",
+      "increment": 0.1,
+      "longDesc": "Descent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_DN",
       "max": 4.0,
       "min": 0.5,
       "name": "MPC_Z_V_AUTO_DN",
-      "shortDesc": "Descent velocity in autonomous modes",
+      "shortDesc": "Automatic descent velocity",
       "type": "Float",
       "units": "m/s"
     },
@@ -11033,12 +10944,12 @@
       "decimalPlaces": 1,
       "default": 3.0,
       "group": "Multicopter Position Control",
-      "increment": 0.5,
-      "longDesc": "For manually controlled modes and offboard see MPC_Z_VEL_MAX_UP",
+      "increment": 0.1,
+      "longDesc": "Ascent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_UP",
       "max": 8.0,
       "min": 0.5,
       "name": "MPC_Z_V_AUTO_UP",
-      "shortDesc": "Ascent velocity in autonomous modes",
+      "shortDesc": "Automatic ascent velocity",
       "type": "Float",
       "units": "m/s"
     },
@@ -14272,7 +14183,7 @@
       "default": 0.0,
       "group": "Radio Calibration",
       "increment": 0.01,
-      "longDesc": "The trim value is the actuator control value the system needs for straight and level flight.",
+      "longDesc": "The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.",
       "max": 0.5,
       "min": -0.5,
       "name": "TRIM_PITCH",
@@ -14285,7 +14196,7 @@
       "default": 0.0,
       "group": "Radio Calibration",
       "increment": 0.01,
-      "longDesc": "The trim value is the actuator control value the system needs for straight and level flight.",
+      "longDesc": "The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.",
       "max": 0.5,
       "min": -0.5,
       "name": "TRIM_ROLL",
@@ -14298,7 +14209,7 @@
       "default": 0.0,
       "group": "Radio Calibration",
       "increment": 0.01,
-      "longDesc": "The trim value is the actuator control value the system needs for straight and level flight.",
+      "longDesc": "The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.",
       "max": 0.5,
       "min": -0.5,
       "name": "TRIM_YAW",
@@ -18194,10 +18105,6 @@
         {
           "description": "SF/LW20/c",
           "value": 6
-        },
-        {
-          "description": "SF/LW30/d",
-          "value": 7
         }
       ]
     },
@@ -20443,12 +20350,8 @@
           "value": 0
         },
         {
-          "description": "All sensors",
+          "description": "Enabled",
           "value": 1
-        },
-        {
-          "description": "All sensors except mag",
-          "value": 2
         }
       ]
     },
@@ -22199,537 +22102,6 @@
       ]
     },
     {
-      "category": "System",
-      "default": 0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_ID",
-      "shortDesc": "ID of Magnetometer that the calibration is for",
-      "type": "Int32"
-    },
-    {
-      "category": "System",
-      "default": 100.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_TMAX",
-      "shortDesc": "Magnetometer calibration maximum temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_TMIN",
-      "shortDesc": "Magnetometer calibration minimum temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 25.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_TREF",
-      "shortDesc": "Magnetometer calibration reference temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X0_0",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X0_1",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X0_2",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X1_0",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X1_1",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X1_2",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X2_0",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X2_1",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X2_2",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X3_0",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X3_1",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M0_X3_2",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_ID",
-      "shortDesc": "ID of Magnetometer that the calibration is for",
-      "type": "Int32"
-    },
-    {
-      "category": "System",
-      "default": 100.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_TMAX",
-      "shortDesc": "Magnetometer calibration maximum temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_TMIN",
-      "shortDesc": "Magnetometer calibration minimum temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 25.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_TREF",
-      "shortDesc": "Magnetometer calibration reference temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X0_0",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X0_1",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X0_2",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X1_0",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X1_1",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X1_2",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X2_0",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X2_1",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X2_2",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X3_0",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X3_1",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M1_X3_2",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_ID",
-      "shortDesc": "ID of Magnetometer that the calibration is for",
-      "type": "Int32"
-    },
-    {
-      "category": "System",
-      "default": 100.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_TMAX",
-      "shortDesc": "Magnetometer calibration maximum temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_TMIN",
-      "shortDesc": "Magnetometer calibration minimum temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 25.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_TREF",
-      "shortDesc": "Magnetometer calibration reference temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X0_0",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X0_1",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X0_2",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X1_0",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X1_1",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X1_2",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X2_0",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X2_1",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X2_2",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X3_0",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X3_1",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M2_X3_2",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_ID",
-      "shortDesc": "ID of Magnetometer that the calibration is for",
-      "type": "Int32"
-    },
-    {
-      "category": "System",
-      "default": 100.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_TMAX",
-      "shortDesc": "Magnetometer calibration maximum temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_TMIN",
-      "shortDesc": "Magnetometer calibration minimum temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 25.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_TREF",
-      "shortDesc": "Magnetometer calibration reference temperature",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X0_0",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X0_1",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X0_2",
-      "shortDesc": "Magnetometer offset temperature ^0 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X1_0",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X1_1",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X1_2",
-      "shortDesc": "Magnetometer offset temperature ^1 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X2_0",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X2_1",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X2_2",
-      "shortDesc": "Magnetometer offset temperature ^2 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X3_0",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - X axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X3_1",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - Y axis",
-      "type": "Float"
-    },
-    {
-      "category": "System",
-      "default": 0.0,
-      "group": "Thermal Compensation",
-      "name": "TC_M3_X3_2",
-      "shortDesc": "Magnetometer offset temperature ^3 polynomial coefficient - Z axis",
-      "type": "Float"
-    },
-    {
-      "category": "Standard",
-      "default": 0,
-      "group": "Thermal Compensation",
-      "name": "TC_M_ENABLE",
-      "rebootRequired": true,
-      "shortDesc": "Thermal compensation for magnetometer sensors",
-      "type": "Int32",
-      "values": [
-        {
-          "description": "Disabled",
-          "value": 0
-        },
-        {
-          "description": "Enabled",
-          "value": 1
-        }
-      ]
-    },
-    {
       "category": "Standard",
       "default": 0,
       "group": "Transponder",
@@ -23622,17 +22994,16 @@
     },
     {
       "category": "Standard",
-      "decimalPlaces": 1,
-      "default": 1.0,
+      "decimalPlaces": 2,
+      "default": 0.0,
       "group": "VTOL Attitude Control",
-      "increment": 0.1,
-      "longDesc": "Time in seconds it takes to tilt form VT_TILT_FW to VT_TILT_MC.",
-      "max": 10.0,
-      "min": 0.1,
-      "name": "VT_BT_TILT_DUR",
-      "shortDesc": "Duration motor tilt up in backtransition",
+      "increment": 0.01,
+      "max": 0.2,
+      "min": 0.0,
+      "name": "VT_B_DEC_FF",
+      "shortDesc": "Backtransition deceleration setpoint to pitch feedforward gain",
       "type": "Float",
-      "units": "s"
+      "units": "rad s^2/m"
     },
     {
       "category": "Standard",
@@ -23653,7 +23024,7 @@
       "default": 2.0,
       "group": "VTOL Attitude Control",
       "increment": 0.1,
-      "longDesc": "Used to calculate back transition distance in an auto mode. For standard vtol and tiltrotors a controller is used to track this value during the transition.",
+      "longDesc": "The approximate deceleration during a back transition in m/s/s Used to calculate back transition distance in an auto mode. For standard vtol and tiltrotors a controller is used to track this value during the transition.",
       "max": 10.0,
       "min": 0.5,
       "name": "VT_B_DEC_MSS",
@@ -23667,7 +23038,7 @@
       "default": 10.0,
       "group": "VTOL Attitude Control",
       "increment": 1.0,
-      "longDesc": "Transition is also declared over if the groundspeed drops below MPC_XY_CRUISE.",
+      "longDesc": "Time in seconds used for a back transition maximally. Transition is also declared over if the groundspeed drops below MPC_XY_CRUISE.",
       "max": 20.0,
       "min": 0.1,
       "name": "VT_B_TRANS_DUR",
@@ -23894,6 +23265,7 @@
       "default": 1.0,
       "group": "VTOL Attitude Control",
       "increment": 0.01,
+      "longDesc": "standard vtol: pusher tailsitter, tiltrotor: main throttle",
       "max": 1.0,
       "min": 0.0,
       "name": "VT_F_TRANS_THR",
@@ -23934,7 +23306,7 @@
       "default": -5.0,
       "group": "VTOL Attitude Control",
       "increment": 0.1,
-      "longDesc": "Any pitch setpoint below this value is translated to a forward force by the fixed-wing forward actuation if VT_FW_TRHUST_EN is set to 1.",
+      "longDesc": "Minimum pitch angle during hover flight. If the desired pitch angle is is lower than this value then the fixed-wing forward actuation can be used to compensate for the missing thrust in forward direction (see VT_FW_TRHUST_EN)",
       "max": 45.0,
       "min": -10.0,
       "name": "VT_PITCH_MIN",
