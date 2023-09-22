@@ -506,10 +506,6 @@
               "description": "System",
               "name": "system"
             },
-            "1073741824": {
-              "description": "Open Drone ID system",
-              "name": "open_drone_id"
-            },
             "128": {
               "description": "Remote Control (RC or Joystick)",
               "name": "remote_control"
@@ -840,21 +836,6 @@
               ],
               "message": "No valid global position estimate",
               "name": "check_modes_global_pos"
-            },
-            "10161216": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Open Drone ID system failed to report. Make sure it is setup and installed properly.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
-              "message": "Open Drone ID system missing",
-              "name": "check_open_drone_id_missing"
             },
             "10198977": {
               "arguments": [
@@ -1278,25 +1259,9 @@
                 {
                   "name": "health_component_index",
                   "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                },
-                {
-                  "name": "arg2",
-                  "type": "float"
-                },
-                {
-                  "name": "arg3",
-                  "type": "float"
                 }
               ],
-              "description": "<profile name=\"dev\"> Measured strength: {3:.3}, expected: {4:.3} \u00b1 <param>EKF2_MAG_CHK_STR</param> Measured inclination: {5:.3}, expected: {6:.3} \u00b1 <param>EKF2_MAG_CHK_INC</param> This check can be configured via <param>COM_ARM_MAG_STR</param> and <param>EKF2_MAG_CHECK</param> parameters.\n</profile>",
+              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_ARM_MAG_STR</param> and <param>EKF2_MAG_CHECK</param> parameters.\n</profile>",
               "message": "Strong magnetic interference",
               "name": "check_estimator_mag_interference"
             },
@@ -1380,7 +1345,7 @@
                   "type": "float"
                 }
               ],
-              "description": "Current airspeed reading too high. Check if wind is below maximum airspeed and redo airspeed calibration if the measured airspeed does not correspond to wind conditions.\n\n<profile name=\"dev\"> Measured: {3:.1m/s}, limit: {4:.1m/s}.\n\nThis check can be configured via <param>FW_AIRSPD_MAX</param> parameter.\n</profile>",
+              "description": "Current airspeed reading too high. Check if wind is below maximum airspeed and redo airspeed calibration if the measured airspeed does not correspond to wind conditions.\n\n<profile name=\"dev\"> Measured: {3:.1m/s}, limit: {4:.1m/s}.\n\nThis check can be configured via <param>COM_ARM_ARSP_EN</param> and <param>FW_AIRSPD_MAX</param> parameter.\n</profile>",
               "message": "Airspeed too high",
               "name": "check_airspeed_too_high"
             },
@@ -2012,36 +1977,6 @@
               "message": "Home position not set",
               "name": "check_modes_home_position"
             },
-            "7959667": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Vehicle is in safety configuration and denies arming.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARMABLE</param> parameter.\n</profile>",
-              "message": "Vehicle is in safety configuration",
-              "name": "check_armable_configuration"
-            },
-            "8441780": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Open Drone ID system reported being unhealthy.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
-              "message": "Open Drone ID system not ready",
-              "name": "check_open_drone_id_unhealthy"
-            },
             "8495477": {
               "arguments": [
                 {
@@ -2449,10 +2384,6 @@
               "message": "Kill-switch engaged",
               "name": "commander_kill_sw_engaged"
             },
-            "11521721": {
-              "message": "Mission rejected: Mission contains VTOL items but vehicle is not a VTOL",
-              "name": "navigator_mis_vtol_items"
-            },
             "11552065": {
               "arguments": [
                 {
@@ -2486,9 +2417,13 @@
                 {
                   "name": "arg0",
                   "type": "uint8_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "int16_t"
                 }
               ],
-              "description": "Mission type: {1}",
+              "description": "Mission type: {1}. Number of bytes read: {2}",
               "message": "Mission: Unable to read from storage",
               "name": "mavlink_mission_storage_read_failure"
             },
@@ -2584,17 +2519,6 @@
               "message": "RTL: descend to {1m_v} ({2m_v} above destination)",
               "name": "rtl_descend_to"
             },
-            "12140426": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
-              "message": "EKF2_MAG_TYPE invalid, resetting to default",
-              "name": "ekf2_mag_type_invalid"
-            },
             "12208749": {
               "arguments": [
                 {
@@ -2677,6 +2601,20 @@
             "1290073": {
               "message": "IO RC config upload failed, aborting initialization",
               "name": "px4io_io_rc_config_upload_failed"
+            },
+            "12907101": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "px4::arming_state_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "px4::arming_state_t"
+                }
+              ],
+              "message": "Arming state transition denied: {1} to {2}",
+              "name": "commander_transition_denied"
             },
             "12957883": {
               "message": "Start descending",
@@ -2835,6 +2773,16 @@
               "message": "Geofence: maximum distance from home reached ({1:.0m})",
               "name": "navigator_geofence_max_dist_from_home"
             },
+            "14415650": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Using minimum takeoff altitude: {1:.2m}",
+              "name": "navigator_takeoff_min_alt"
+            },
             "14443523": {
               "message": "Launch detected: enable motors",
               "name": "launch_detection_enable_motors"
@@ -2897,6 +2845,16 @@
               ],
               "message": "Disabling transmitting with IRIDIUM mavlink on instance {1}",
               "name": "mavlink_iridium_disable"
+            },
+            "15151454": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Takeoff to {1:.1m_v} above home",
+              "name": "mission_takeoff_to"
             },
             "1525547": {
               "message": "Landing aborted: unknown criterion",
@@ -3127,10 +3085,6 @@
               "message": "Mission item index out of bound, index: {1}, max: {2}",
               "name": "mission_index_out_of_bound"
             },
-            "2066387": {
-              "message": "Arming denied: calibrating",
-              "name": "commander_arm_denied_calibrating"
-            },
             "2087806": {
               "message": "Orbit radius limit exceeded",
               "name": "orbit_radius_exceeded"
@@ -3292,6 +3246,10 @@
               "message": "Use EKF2_IMU_CTRL instead",
               "name": "ekf2_aid_mask_imu"
             },
+            "3611313": {
+              "message": "Mission: Unable to write to storage",
+              "name": "mavlink_mission_storage_write_failure"
+            },
             "3623245": {
               "arguments": [
                 {
@@ -3326,16 +3284,6 @@
               "description": "No mission or storage failure",
               "message": "Invalid mission state",
               "name": "mission_invalid_mission_state"
-            },
-            "3878855": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "message": "Using default takeoff altitude: {1:.2m}",
-              "name": "navigator_takeoff_default_alt"
             },
             "3914228": {
               "message": "Rejecting mission request command, component or system ID mismatch",
@@ -3660,6 +3608,10 @@
               "message": "Mission failure: unable to reach heading within timeout",
               "name": "navigator_mission_failure_heading"
             },
+            "7126042": {
+              "message": "Failed to write current mission ID to storage",
+              "name": "mavlink_mission_err_id"
+            },
             "713405": {
               "arguments": [
                 {
@@ -3754,15 +3706,9 @@
               "message": "Could not read mission",
               "name": "mission_cannot_read_mission"
             },
-            "8208988": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "message": "Climb to {1:.1m_v} above home",
-              "name": "mission_climb_before_start"
+            "8165317": {
+              "message": "Disarming denied, not landed",
+              "name": "commander_disarming_denied_not_landed"
             },
             "8275181": {
               "message": "Transponder Failure",
@@ -3881,10 +3827,6 @@
               "message": "Ignoring mission request, currently busy",
               "name": "mavlink_mission_mis_req_ignored_busy"
             },
-            "9091509": {
-              "message": "Disarming denied: not landed",
-              "name": "commander_disarm_denied_not_landed"
-            },
             "9092852": {
               "message": "Unexpected waypoint index, aborting mission transfer",
               "name": "mavlink_mission_wp_unexpected2"
@@ -3902,11 +3844,6 @@
               ],
               "message": "RTL: climb to {1m_v} ({2m_v} above destination)",
               "name": "rtl_climb_to"
-            },
-            "929525": {
-              "description": "Switch to manual mode recommended.\n\n<profile name=\"dev\"> This warning is triggered when the position error estimate is 90% of (or only 10m below) <param>COM_POS_FS_EPH</param> parameter.\n</profile>",
-              "message": "Estimated position error is approaching the failsafe threshold",
-              "name": "check_estimator_position_failure_imminent"
             },
             "9316102": {
               "message": "DO JUMP repetitions completed",
