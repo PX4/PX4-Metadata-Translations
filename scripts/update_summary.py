@@ -37,6 +37,10 @@ for file in os.listdir(path_fs):
         metadata_index = basename[:-9]
         locale = basename[-8:-3]
 
+        if locale.startswith('en_'):
+            # Skip english, as this is the source language already
+            continue
+
         if metadata_index not in metadata:
             metadata[metadata_index] = {}
 
