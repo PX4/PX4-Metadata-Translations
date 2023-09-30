@@ -875,7 +875,7 @@
 <context>
   <name>/parameters/ASPD_BETA_GATE/shortDesc</name>
   <message>
-  <source>Airspeed Selector: Gate size for sideslip angle fusion</source>
+  <source>Gate size for sideslip angle fusion</source>
   </message>
 </context>
 <context>
@@ -887,7 +887,7 @@
 <context>
   <name>/parameters/ASPD_BETA_NOISE/shortDesc</name>
   <message>
-  <source>Airspeed Selector: Wind estimator sideslip measurement noise</source>
+  <source>Wind estimator sideslip measurement noise</source>
   </message>
 </context>
 <context>
@@ -905,7 +905,7 @@
 <context>
   <name>/parameters/ASPD_DO_CHECKS/longDesc</name>
   <message>
-  <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0. Note that the data missing check is enabled if any of the options is set.</source>
+  <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.</source>
   </message>
 </context>
 <context>
@@ -1103,7 +1103,7 @@
 <context>
   <name>/parameters/ASPD_SCALE_NSD/shortDesc</name>
   <message>
-  <source>Airspeed Selector: Wind estimator true airspeed scale process noise spectral density</source>
+  <source>Wind estimator true airspeed scale process noise spectral density</source>
   </message>
 </context>
 <context>
@@ -1115,7 +1115,7 @@
 <context>
   <name>/parameters/ASPD_TAS_GATE/shortDesc</name>
   <message>
-  <source>Airspeed Selector: Gate size for true airspeed fusion</source>
+  <source>Gate size for true airspeed fusion</source>
   </message>
 </context>
 <context>
@@ -1127,7 +1127,7 @@
 <context>
   <name>/parameters/ASPD_TAS_NOISE/shortDesc</name>
   <message>
-  <source>Airspeed Selector: Wind estimator true airspeed measurement noise</source>
+  <source>Wind estimator true airspeed measurement noise</source>
   </message>
 </context>
 <context>
@@ -1145,13 +1145,13 @@
 <context>
   <name>/parameters/ASPD_WERR_THR/longDesc</name>
   <message>
-  <source>The synthetic airspeed estimate (from groundspeed and heading) will be declared valid as soon and as long the horizontal wind uncertainty drops below this value.</source>
+  <source>The synthetic airspeed estimate (from groundspeed and heading) will be declared valid as soon and as long the horizontal wind uncertainty is below this value.</source>
   </message>
 </context>
 <context>
   <name>/parameters/ASPD_WIND_NSD/shortDesc</name>
   <message>
-  <source>Airspeed Selector: Wind estimator wind process noise noise spectral density</source>
+  <source>Wind estimator wind process noise spectral density</source>
   </message>
 </context>
 <context>
@@ -4019,7 +4019,7 @@
 <context>
   <name>/parameters/EKF2_ARSP_THR/longDesc</name>
   <message>
-  <source>A value of zero will deactivate airspeed fusion. Any other positive value will determine the minimum airspeed which will still be fused. Set to about 90% of the vehicles stall speed. Both airspeed fusion and sideslip fusion must be active for the EKF to continue navigating after loss of GPS. Use EKF2_FUSE_BETA to activate sideslip fusion. Note: side slip fusion is currently not supported for tailsitters.</source>
+  <source>Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).</source>
   </message>
 </context>
 <context>
@@ -4343,13 +4343,13 @@
 <context>
   <name>/parameters/EKF2_FUSE_BETA/shortDesc</name>
   <message>
-  <source>Boolean determining if synthetic sideslip measurements should fused</source>
+  <source>Enable synthetic sideslip fusion</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_FUSE_BETA/longDesc</name>
   <message>
-  <source>A value of 1 indicates that fusion is active Both  sideslip fusion and airspeed fusion must be active for the EKF to continue navigating after loss of GPS. Use EKF2_ARSP_THR to activate airspeed fusion.</source>
+  <source>For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode). Note: side slip fusion is currently not supported for tailsitters.</source>
   </message>
 </context>
 <context>
@@ -5501,7 +5501,7 @@
 <context>
   <name>/parameters/FW_MAN_P_MAX/longDesc</name>
   <message>
-  <source>Maximum manual pitch angle setpoint (positive &amp; negative) in manual attitude-only stabilized mode</source>
+  <source>Applies to both directions in all manual modes with attitude stabilization but without altitude control</source>
   </message>
 </context>
 <context>
@@ -5513,7 +5513,7 @@
 <context>
   <name>/parameters/FW_MAN_R_MAX/longDesc</name>
   <message>
-  <source>Maximum manual roll angle setpoint (positive &amp; negative) in manual attitude-only stabilized mode</source>
+  <source>Applies to both directions in all manual modes with attitude stabilization</source>
   </message>
 </context>
 <context>
@@ -5525,7 +5525,7 @@
 <context>
   <name>/parameters/FW_MAN_YR_MAX/longDesc</name>
   <message>
-  <source>This is the maximally added yaw rate setpoint from the yaw stick in any attitude controlled flight mode. The controller already generates a yaw rate setpoint to coordinate a turn, and this value is added to it. This is an absolute value, which is applied symmetrically to the negative and positive side.</source>
+  <source>This is the maximally added yaw rate setpoint from the yaw stick in any attitude controlled flight mode. It is added to the yaw rate setpoint generated by the controller for turn coordination.</source>
   </message>
 </context>
 <context>
@@ -5561,7 +5561,7 @@
 <context>
   <name>/parameters/FW_P_TC/longDesc</name>
   <message>
-  <source>This defines the latency between a pitch step input and the achieved setpoint (inverse to a P gain). Half a second is a good start value and fits for most average systems. Smaller systems may require smaller values, but as this will wear out servos faster, the value should only be decreased as needed.</source>
+  <source>This defines the latency between a pitch step input and the achieved setpoint (inverse to a P gain). Smaller systems may require smaller values.</source>
   </message>
 </context>
 <context>
@@ -5579,7 +5579,7 @@
 <context>
   <name>/parameters/FW_R_TC/longDesc</name>
   <message>
-  <source>This defines the latency between a roll step input and the achieved setpoint (inverse to a P gain). Half a second is a good start value and fits for most average systems. Smaller systems may require smaller values, but as this will wear out servos faster, the value should only be decreased as needed.</source>
+  <source>This defines the latency between a roll step input and the achieved setpoint (inverse to a P gain). Smaller systems may require smaller values.</source>
   </message>
 </context>
 <context>
@@ -5601,12 +5601,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_WR_FF/longDesc</name>
-  <message>
-  <source>Direct feed forward from rate setpoint to control surface output</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_WR_I/shortDesc</name>
   <message>
   <source>Wheel steering rate integrator gain</source>
@@ -5622,12 +5616,6 @@
   <name>/parameters/FW_WR_IMAX/shortDesc</name>
   <message>
   <source>Wheel steering rate integrator limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_WR_IMAX/longDesc</name>
-  <message>
-  <source>The portion of the integrator part in the control surface deflection is limited to this value</source>
   </message>
 </context>
 <context>
@@ -5741,7 +5729,7 @@
 <context>
   <name>/parameters/FW_LND_EARLYCFG/longDesc</name>
   <message>
-  <source>When disabled, the landing configuration (flaps, landing airspeed, etc.) is only activated on the final approach to landing. When enabled, it is already activated when entering the final loiter-down (loiter-to-alt) waypoint before the landing approach. This shifts the (often large) altitude and airspeed errors caused by the configuration change away from the ground such that these are not so critical. It also gives the controller enough time to adapt to the new configuration such that the landing approach starts with a cleaner initial state.</source>
+  <source>When disabled, the landing configuration (flaps, landing airspeed, etc.) is only activated on the final approach to landing. When enabled, it is already activated when entering the final loiter-down (loiter-to-alt) waypoint before the landing approach.</source>
   </message>
 </context>
 <context>
@@ -5957,13 +5945,13 @@
 <context>
   <name>/parameters/FW_LAUN_DETCN_ON/shortDesc</name>
   <message>
-  <source>FW Launch detection</source>
+  <source>Fixed-wing launch detection</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_LAUN_DETCN_ON/longDesc</name>
   <message>
-  <source>Enables automatic launch detection based on measured acceleration. Use for hand- or catapult-launched vehicles. Only available for fixed-wing vehicles. Not compatible with runway takeoff.</source>
+  <source>Enables automatic launch detection based on measured acceleration. Use for hand- or catapult-launched vehicles. Not compatible with runway takeoff.</source>
   </message>
 </context>
 <context>
@@ -6227,13 +6215,7 @@
 <context>
   <name>/parameters/FW_ACRO_X_MAX/shortDesc</name>
   <message>
-  <source>Acro body x max rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_ACRO_X_MAX/longDesc</name>
-  <message>
-  <source>This is the rate the controller is trying to achieve if the user applies full roll stick input in acro mode.</source>
+  <source>Acro body roll max rate setpoint</source>
   </message>
 </context>
 <context>
@@ -6507,21 +6489,9 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_PR_I/longDesc</name>
-  <message>
-  <source>This gain defines how much control response will result out of a steady state error. It trims any constant error.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_PR_IMAX/shortDesc</name>
   <message>
   <source>Pitch rate integrator limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PR_IMAX/longDesc</name>
-  <message>
-  <source>The portion of the integrator part in the control surface deflection is limited to this value</source>
   </message>
 </context>
 <context>
@@ -6545,13 +6515,7 @@
 <context>
   <name>/parameters/FW_RR_D/shortDesc</name>
   <message>
-  <source>Roll rate derivative Gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RR_D/longDesc</name>
-  <message>
-  <source>Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
+  <source>Roll rate derivative gain</source>
   </message>
 </context>
 <context>
@@ -6563,37 +6527,25 @@
 <context>
   <name>/parameters/FW_RR_FF/longDesc</name>
   <message>
-  <source>Direct feed forward from rate setpoint to control surface output. Use this to obtain a tigher response of the controller without introducing noise amplification.</source>
+  <source>Direct feed forward from rate setpoint to control surface output.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_RR_I/shortDesc</name>
   <message>
-  <source>Roll rate integrator Gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RR_I/longDesc</name>
-  <message>
-  <source>This gain defines how much control response will result out of a steady state error. It trims any constant error.</source>
+  <source>Roll rate integrator gain</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_RR_IMAX/shortDesc</name>
   <message>
-  <source>Roll integrator anti-windup</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_RR_IMAX/longDesc</name>
-  <message>
-  <source>The portion of the integrator part in the control surface deflection is limited to this value.</source>
+  <source>Roll integrator limit</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_RR_P/shortDesc</name>
   <message>
-  <source>Roll rate proportional Gain</source>
+  <source>Roll rate proportional gain</source>
   </message>
 </context>
 <context>
@@ -6633,12 +6585,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_YR_D/longDesc</name>
-  <message>
-  <source>Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_YR_FF/shortDesc</name>
   <message>
   <source>Yaw rate feed forward</source>
@@ -6657,21 +6603,9 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_YR_I/longDesc</name>
-  <message>
-  <source>This gain defines how much control response will result out of a steady state error. It trims any constant error.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_YR_IMAX/shortDesc</name>
   <message>
   <source>Yaw rate integrator limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_YR_IMAX/longDesc</name>
-  <message>
-  <source>The portion of the integrator part in the control surface deflection is limited to this value</source>
   </message>
 </context>
 <context>
@@ -6701,7 +6635,7 @@
 <context>
   <name>/parameters/FW_AIRSPD_MIN/longDesc</name>
   <message>
-  <source>The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Has to be set according to the vehicle's stall speed (which should be set in FW_AIRSPD_STALL), with some margin between the stall speed and minimum airspeed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
+  <source>The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Should be set (with some margin) above the vehicle stall speed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adapated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
   </message>
 </context>
 <context>
@@ -6809,7 +6743,7 @@
 <context>
   <name>/parameters/FW_THR_MAX/longDesc</name>
   <message>
-  <source>This is the maximum throttle % that can be used by the controller. For overpowered aircraft, this should be reduced to a value that provides sufficient thrust to climb at the maximum pitch angle PTCH_MAX.</source>
+  <source>Maximum throttle limit in altitude controlled modes. Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
   </message>
 </context>
 <context>
@@ -6821,7 +6755,7 @@
 <context>
   <name>/parameters/FW_THR_MIN/longDesc</name>
   <message>
-  <source>This is the minimum throttle % that can be used by the controller. For electric aircraft this will normally be set to zero, but can be set to a small non-zero value if a folding prop is fitted to prevent the prop from folding and unfolding repeatedly in-flight or to provide some aerodynamic drag from a turning prop to improve the descent rate. For aircraft with internal combustion engine this parameter should be set for desired idle rpm.</source>
+  <source>Minimum throttle limit in altitude controlled modes. Usually set to 0 but can be increased to prevent the motor from stopping when descending, which can increase achievable descent rates. For aircraft with internal combustion engine this parameter should be set for desired idle rpm.</source>
   </message>
 </context>
 <context>
@@ -7085,7 +7019,7 @@
 <context>
   <name>/parameters/FW_WIND_ARSP_SC/longDesc</name>
   <message>
-  <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind. Only applies to AUTO flight mode. airspeed_min_adjusted = FW_AIRSPD_MIN + FW_WIND_ARSP_SC * wind.length()</source>
+  <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind. Only applies to AUTO flight mode.</source>
   </message>
 </context>
 <context>
@@ -24989,7 +24923,7 @@
 <context>
   <name>/parameters/VT_LND_PITCH_MIN/longDesc</name>
   <message>
-  <source>Overrides VT_PITCH_MIN when the vehicle is in LAND mode (hovering). During landing it can be beneficial to allow lower minimum pitch angles as it can avoid the wings generating too much lift and preventing the vehicle from sinking at the desired rate.</source>
+  <source>Overrides VT_PITCH_MIN when the vehicle is in LAND mode (hovering). During landing it can be beneficial to reduce the pitch angle to reduce the generated lift in head wind.</source>
   </message>
 </context>
 <context>
@@ -25037,7 +24971,7 @@
 <context>
   <name>/parameters/VT_QC_T_ALT_LOSS/longDesc</name>
   <message>
-  <source>Altitude loss threshold for quad-chute triggering during VTOL transition to fixed-wing flight. Active until 5s after completing transition to fixed-wing. Only active if altitude estimate is valid and in altitude-controlled mode. If the current altitude is more than this value below the altitude at the beginning of the transition, it will instantly switch back to MC mode and execute behavior defined in COM_QC_ACT. Set to 0 do disable this threshold.</source>
+  <source>Altitude loss threshold for quad-chute triggering during VTOL transition to fixed-wing flight in altitude-controlled flight modes. Active until 5s after completing transition to fixed-wing. If the current altitude is more than this value below the altitude at the beginning of the transition, it will instantly switch back to MC mode and execute behavior defined in COM_QC_ACT. Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
@@ -25167,12 +25101,6 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Standard</name>
-  <message>
-  <source>Standard</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/Developer</name>
   <message>
   <source>Developer</source>
@@ -25185,135 +25113,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Return Mode</name>
+  <name>$globals/category/Standard</name>
   <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Serial</name>
-  <message>
-  <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Telemetry</name>
-  <message>
-  <source>Telemetry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Iridium SBD</name>
-  <message>
-  <source>Iridium SBD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Transponder</name>
-  <message>
-  <source>Transponder</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
+  <source>Standard</source>
   </message>
 </context>
 <context>
@@ -25323,171 +25125,27 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Attitude Control</name>
+  <name>$globals/group/Telemetry</name>
   <message>
-  <source>Multicopter Attitude Control</source>
+  <source>Telemetry</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Rate Control</name>
+  <name>$globals/group/Manual Control</name>
   <message>
-  <source>Multicopter Rate Control</source>
+  <source>Manual Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <name>$globals/group/Events</name>
   <message>
-  <source>UAVCAN Motor Parameters</source>
+  <source>Events</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Return To Land</name>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
   <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Control</name>
-  <message>
-  <source>Camera Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Launch detection</name>
-  <message>
-  <source>FW Launch detection</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Acro Mode</name>
-  <message>
-  <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control</name>
-  <message>
-  <source>Rover Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Cyphal</name>
-  <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
+  <source>Magnetometer Bias Estimator</source>
   </message>
 </context>
 <context>
@@ -25497,39 +25155,33 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/SD Logging</name>
+  <name>$globals/group/Camera Capture</name>
   <message>
-  <source>SD Logging</source>
+  <source>Camera Capture</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UUV Position Control</name>
+  <name>$globals/group/Testing</name>
   <message>
-  <source>UUV Position Control</source>
+  <source>Testing</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/EKF2</name>
+  <name>$globals/group/PWM Outputs</name>
   <message>
-  <source>EKF2</source>
+  <source>PWM Outputs</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/System</name>
+  <name>$globals/group/Serial</name>
   <message>
-  <source>System</source>
+  <source>Serial</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Attitude Control</name>
+  <name>$globals/group/UAVCAN GNSS</name>
   <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
+  <source>UAVCAN GNSS</source>
   </message>
 </context>
 <context>
@@ -25539,15 +25191,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/ESC</name>
+  <name>$globals/group/Multicopter Attitude Control</name>
   <message>
-  <source>ESC</source>
+  <source>Multicopter Attitude Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Path Control</name>
+  <name>$globals/group/Attitude Q estimator</name>
   <message>
-  <source>FW Path Control</source>
+  <source>Attitude Q estimator</source>
   </message>
 </context>
 <context>
@@ -25557,51 +25209,21 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Landing</name>
-  <message>
-  <source>FW Auto Landing</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/FW Geometry</name>
   <message>
   <source>FW Geometry</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Radio Switches</name>
+  <name>$globals/group/Mission</name>
   <message>
-  <source>Radio Switches</source>
+  <source>Mission</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Circuit Breaker</name>
+  <name>$globals/group/Hover Thrust Estimator</name>
   <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
+  <source>Hover Thrust Estimator</source>
   </message>
 </context>
 <context>
@@ -25611,9 +25233,321 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Iridium SBD</name>
+  <message>
+  <source>Iridium SBD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Launch detection</name>
+  <message>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ESC</name>
+  <message>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Land Detector</name>
+  <message>
+  <source>Land Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN</name>
+  <message>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Control</name>
+  <message>
+  <source>Camera Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulator</name>
+  <message>
+  <source>Simulator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FlightTaskOrbit</name>
+  <message>
+  <source>FlightTaskOrbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control</name>
+  <message>
+  <source>Rover Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Cyphal</name>
+  <message>
+  <source>Cyphal</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Path Control</name>
+  <message>
+  <source>FW Path Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/OSD</name>
   <message>
   <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Transponder</name>
+  <message>
+  <source>Transponder</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
   </message>
 </context>
 </TS>

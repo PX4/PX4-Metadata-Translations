@@ -1910,6 +1910,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/10162376/message</name>
+  <message>
+  <source>Mission land item could not be read</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/10229254/message</name>
+  <message>
+  <source>RTL Mission Land: climb to {1m_v}</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/10236960/message</name>
   <message>
   <source>Traffic alert</source>
@@ -1921,12 +1933,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <source>- ID: {1}
 - Distance: {2m}
 - Direction: {3} degrees</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/10398259/message</name>
-  <message>
-  <source>Executing Reverse Mission</source>
   </message>
 </context>
 <context>
@@ -1951,12 +1957,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/10503063/message</name>
   <message>
   <source>Switching to mode '{2}' is currently not possible</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/1064976/message</name>
-  <message>
-  <source>Reverse Mission finished, loitering</source>
   </message>
 </context>
 <context>
@@ -2040,12 +2040,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/11123101/message</name>
   <message>
   <source>Connection to mission computer lost</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/11157417/message</name>
-  <message>
-  <source>RTL: landing at home position</source>
   </message>
 </context>
 <context>
@@ -2206,12 +2200,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/124372/message</name>
-  <message>
-  <source>RTL Mission activated, fly to home</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/12499622/message</name>
   <message>
   <source>Mission: Unable to write to storage</source>
@@ -2290,12 +2278,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/1344123/message</name>
-  <message>
-  <source>RTL activated</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/13471314/message</name>
   <message>
   <source>Quad-chute triggered due to loss of altitude during transition</source>
@@ -2335,12 +2317,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/13956202/message</name>
   <message>
   <source>Mission rejected: invalid land start</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/14005080/message</name>
-  <message>
-  <source>RTL: landing at mission landing</source>
   </message>
 </context>
 <context>
@@ -2507,12 +2483,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/15432474/message</name>
-  <message>
-  <source>RTL: landing at safe landing point</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/15456613/message</name>
   <message>
   <source>Accel {1} clipping, not safe to fly!</source>
@@ -2651,21 +2621,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/16718376/message</name>
-  <message>
-  <source>RTL to Mission landing, continue landing</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/16725343/message</name>
   <message>
   <source>RTL: completed, loitering</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/16773080/message</name>
-  <message>
-  <source>MissionReverse: Got a non-position mission item, ignoring it</source>
   </message>
 </context>
 <context>
@@ -2710,12 +2668,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/1925166/message</name>
   <message>
   <source>Mission rejected: starts with landing</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/1962848/message</name>
-  <message>
-  <source>Mission item index out of bound, index: {1}, max: {2}</source>
   </message>
 </context>
 <context>
@@ -2785,12 +2737,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/2806966/message</name>
-  <message>
-  <source>Reverse Mission finished, landed</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/2831661/message</name>
   <message>
   <source>Geofence violation for waypoint {1}</source>
@@ -2823,7 +2769,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/3321936/message</name>
   <message>
-  <source>Waypoint index out of bounds ({1} \&lt; {2})</source>
+  <source>Waypoint index out of bounds (current {1} \&gt;= total {2})</source>
   </message>
 </context>
 <context>
@@ -2993,12 +2939,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/4472241/message</name>
   <message>
   <source>IO config read failed, aborting initialization</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/4488117/message</name>
-  <message>
-  <source>DO JUMP is cycling, giving up</source>
   </message>
 </context>
 <context>
@@ -3238,12 +3178,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/6835962/message</name>
-  <message>
-  <source>RTL Mission activated, continue mission</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/6843301/message</name>
   <message>
   <source>Parachute system regained</source>
@@ -3396,12 +3330,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/8163167/message</name>
-  <message>
-  <source>Could not read mission</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/8208988/message</name>
   <message>
   <source>Climb to {1:.1m_v} above home</source>
@@ -3477,12 +3405,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/8706060/description</name>
   <message>
   <source>&lt;param&gt;MPC_VEL_MAN_BACK&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/8716192/message</name>
-  <message>
-  <source>RTL Mission activated, fly mission in reverse</source>
   </message>
 </context>
 <context>
@@ -3573,12 +3495,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/9316102/message</name>
-  <message>
-  <source>DO JUMP repetitions completed</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/9346577/message</name>
   <message>
   <source>Reached clearance altitude</source>
@@ -3588,6 +3504,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9351472/message</name>
   <message>
   <source>RTL: unsupported MAV_FRAME ({1})</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/9355528/message</name>
+  <message>
+  <source>Could not set mission closest to position</source>
   </message>
 </context>
 <context>
@@ -3606,6 +3528,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9421773/description</name>
   <message>
   <source>Land immediately and check the system.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/9427265/message</name>
+  <message>
+  <source>Mission could not reset jump count</source>
   </message>
 </context>
 <context>
@@ -3636,6 +3564,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9751178/message</name>
   <message>
   <source>Failsafe activated due to {3}, triggering {2}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/9758530/message</name>
+  <message>
+  <source>Mission item could not be set</source>
   </message>
 </context>
 <context>
