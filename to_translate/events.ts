@@ -2140,12 +2140,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/11851609/message</name>
-  <message>
-  <source>RTL: loiter {1:.1}s</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/11985219/message</name>
   <message>
   <source>Holding at {1:.0m_v} above landing waypoint</source>
@@ -2161,12 +2155,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/12117072/message</name>
   <message>
   <source>Transponder System Failure</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/12128736/message</name>
-  <message>
-  <source>RTL: descend to {1m_v} ({2m_v} above destination)</source>
   </message>
 </context>
 <context>
@@ -2588,12 +2576,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/16105804/message</name>
   <message>
   <source>OpenDroneID system lost</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/16133968/message</name>
-  <message>
-  <source>RTL: return at {1m_v} ({2m_v} above destination)</source>
   </message>
 </context>
 <context>
@@ -3094,6 +3076,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/5383828/message</name>
+  <message>
+  <source>RTL: start return at {1m_v} ({2m_v} above destination)</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/5494498/message</name>
   <message>
   <source>Mission rejected: Takeoff waypoint required</source>
@@ -3495,12 +3483,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9092852/message</name>
   <message>
   <source>Unexpected waypoint index, aborting mission transfer</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/9210889/message</name>
-  <message>
-  <source>RTL: climb to {1m_v} ({2m_v} above destination)</source>
   </message>
 </context>
 <context>

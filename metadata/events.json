@@ -2534,16 +2534,6 @@
               "message": "Waypoint {1} could not be read from storage",
               "name": "mission_failed_to_read_wp"
             },
-            "11851609": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "message": "RTL: loiter {1:.1}s",
-              "name": "rtl_loiter"
-            },
             "11985219": {
               "arguments": [
                 {
@@ -2587,20 +2577,6 @@
             "12117072": {
               "message": "Transponder System Failure",
               "name": "mxs_system_fail"
-            },
-            "12128736": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "int32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "int32_t"
-                }
-              ],
-              "message": "RTL: descend to {1m_v} ({2m_v} above destination)",
-              "name": "rtl_descend_to"
             },
             "12140426": {
               "arguments": [
@@ -3011,20 +2987,6 @@
             "16105804": {
               "message": "OpenDroneID system lost",
               "name": "commander_open_drone_id_lost"
-            },
-            "16133968": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "int32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "int32_t"
-                }
-              ],
-              "message": "RTL: return at {1m_v} ({2m_v} above destination)",
-              "name": "rtl_return_at"
             },
             "16223078": {
               "message": "Landing aborted by operator",
@@ -3501,6 +3463,20 @@
               "message": "Magnetometer sensor #{1} failure: {2}",
               "name": "sensor_failover_mag"
             },
+            "5383828": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "int32_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "int32_t"
+                }
+              ],
+              "message": "RTL: start return at {1m_v} ({2m_v} above destination)",
+              "name": "vrtl_return_at"
+            },
             "5494498": {
               "message": "Mission rejected: Takeoff waypoint required",
               "name": "navigator_mis_takeoff_missing"
@@ -3848,20 +3824,6 @@
             "9092852": {
               "message": "Unexpected waypoint index, aborting mission transfer",
               "name": "mavlink_mission_wp_unexpected2"
-            },
-            "9210889": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "int32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "int32_t"
-                }
-              ],
-              "message": "RTL: climb to {1m_v} ({2m_v} above destination)",
-              "name": "rtl_climb_to"
             },
             "929525": {
               "description": "Switch to manual mode recommended.\n\n<profile name=\"dev\"> This warning is triggered when the position error estimate is 90% of (or only 10m below) <param>COM_POS_FS_EPH</param> parameter.\n</profile>",
