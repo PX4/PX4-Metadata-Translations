@@ -1069,7 +1069,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/11413600/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_WIND_MAX&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_WIND_MAX&lt;/param&gt; and &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -2516,6 +2516,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/15603271/message</name>
   <message>
   <source>Dangerously low battery! Shutting system down</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/15624514/message</name>
+  <message>
+  <source>Wind speed above limit ({1:.1m/s}), landing advised</source>
   </message>
 </context>
 <context>

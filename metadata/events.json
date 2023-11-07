@@ -973,7 +973,7 @@
                   "type": "float"
                 }
               ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_WIND_MAX</param> parameter.\n</profile>",
+              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_WIND_MAX</param> and <param>COM_WIND_MAX_ACT</param> parameters.\n</profile>",
               "message": "Wind speed is above limit ({3:.1m/s})",
               "name": "check_wind_too_high"
             },
@@ -2935,6 +2935,16 @@
             "15603271": {
               "message": "Dangerously low battery! Shutting system down",
               "name": "commander_low_bat_shutdown"
+            },
+            "15624514": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Wind speed above limit ({1:.1m/s}), landing advised",
+              "name": "check_above_wind_limits_warning"
             },
             "1569033": {
               "message": "parameter_rc_channel_index out of bounds",
