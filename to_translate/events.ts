@@ -2184,7 +2184,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/12221094/message</name>
   <message>
-  <source>landing target: unsupported coordinate frame {1}</source>
+  <source>Landing target: unsupported coordinate frame {1}</source>
   </message>
 </context>
 <context>

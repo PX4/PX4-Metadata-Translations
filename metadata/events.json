@@ -2610,7 +2610,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "message": "landing target: unsupported coordinate frame {1}",
+              "message": "Landing target: unsupported coordinate frame {1}",
               "name": "mavlink_rcv_lnd_target_unsup_coord"
             },
             "12224414": {
