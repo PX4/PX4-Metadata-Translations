@@ -2629,6 +2629,10 @@
               "message": "Arming denied: switch to manual mode first",
               "name": "commander_arm_denied_not_manual"
             },
+            "12464476": {
+              "message": "Ready for throw launch",
+              "name": "mc_throw_launch_ready"
+            },
             "12499622": {
               "message": "Mission: Unable to write to storage",
               "name": "mavlink_mission_storage_write_failure3"
@@ -3019,6 +3023,10 @@
             "16509566": {
               "message": "Mission rejected: Add Takeoff item or remove Landing",
               "name": "navigator_mis_add_to_or_rm_land"
+            },
+            "16558486": {
+              "message": "Disarmed, don't throw",
+              "name": "mc_throw_launch_not_ready"
             },
             "16591495": {
               "message": "Control high latency failed! Telemetry unavailable",

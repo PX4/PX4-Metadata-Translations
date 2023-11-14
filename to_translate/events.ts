@@ -2212,6 +2212,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/12464476/message</name>
+  <message>
+  <source>Ready for throw launch</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/12499622/message</name>
   <message>
   <source>Mission: Unable to write to storage</source>
@@ -2606,6 +2612,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/16509566/message</name>
   <message>
   <source>Mission rejected: Add Takeoff item or remove Landing</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/16558486/message</name>
+  <message>
+  <source>Disarmed, don't throw</source>
   </message>
 </context>
 <context>
