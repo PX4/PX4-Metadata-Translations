@@ -2163,18 +2163,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/11078412/message</name>
-  <message>
-  <source>Use EKF2_DRAG_CTRL instead</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/11078412/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/11085221/message</name>
   <message>
   <source>Mission: unable to write to storage</source>
@@ -2286,7 +2274,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/12140426/description</name>
   <message>
-  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
+  <source>&lt;param&gt;EKF2_MAG_TYPE&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
@@ -2404,18 +2392,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/13439583/message</name>
-  <message>
-  <source>EV vertical position enabled by EKF2_HGT_REF</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/13439583/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_EV_CTRL&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/13471314/message</name>
   <message>
   <source>Quad-chute triggered due to loss of altitude during transition</source>
@@ -2488,33 +2464,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/14188249/message</name>
-  <message>
-  <source>Range enabled by EKF2_HGT_REF</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/14188249/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_RNG_CTRL&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/14234660/message</name>
   <message>
   <source>GCS connection regained</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/14380058/message</name>
-  <message>
-  <source>Use EKF2_GPS_CTRL instead</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/14380058/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
@@ -2833,18 +2785,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/2225852/message</name>
-  <message>
-  <source>Use EKF2_OF_CTRL instead</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/2225852/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/2321600/message</name>
   <message>
   <source>Already higher than takeoff altitude (not descending)</source>
@@ -2941,18 +2881,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/3386258/message</name>
-  <message>
-  <source>GPS lon/lat is required for altitude fusion</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/3386258/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_GPS_CTRL&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/3390156/message</name>
   <message>
   <source>No valid mission available, loitering</source>
@@ -2974,18 +2902,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/3484900/message</name>
   <message>
   <source>Returning to launch</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/3592387/message</name>
-  <message>
-  <source>Use EKF2_IMU_CTRL instead</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/3592387/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
@@ -3426,18 +3342,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/7293273/message</name>
-  <message>
-  <source>Use EKF2_EV_CTRL instead</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/7293273/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_AID_MASK&lt;/param&gt; is set to {1:.0}.</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/7714236/message</name>
   <message>
   <source>Approaching max flight time (system will RTL in {1} seconds)</source>
@@ -3471,18 +3375,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/7860665/message</name>
   <message>
   <source>Mission rejected: land start item before RTL item is not possible</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/7867944/message</name>
-  <message>
-  <source>GPS enabled by EKF2_HGT_REF</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/7867944/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_GPS_CTRL&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>
@@ -3573,18 +3465,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/8833276/message</name>
   <message>
   <source>No inputs, aborting RC trim calibration</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/8858122/message</name>
-  <message>
-  <source>Baro enabled by EKF2_HGT_REF</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/8858122/description</name>
-  <message>
-  <source>&lt;param&gt;EKF2_BARO_CTRL&lt;/param&gt; is set to {1:.0}.</source>
   </message>
 </context>
 <context>

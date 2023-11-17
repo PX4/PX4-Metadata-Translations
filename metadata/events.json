@@ -2519,17 +2519,6 @@
               "message": "SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}",
               "name": "mavlink_rcv_sp_target_gl_invalid_coord"
             },
-            "11078412": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
-              "message": "Use EKF2_DRAG_CTRL instead",
-              "name": "ekf2_aid_mask_drag"
-            },
             "11085221": {
               "message": "Mission: unable to write to storage",
               "name": "mavlink_mission_storage_failure"
@@ -2679,7 +2668,7 @@
                   "type": "float"
                 }
               ],
-              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "description": "<param>EKF2_MAG_TYPE</param> is set to {1:.0}.",
               "message": "EKF2_MAG_TYPE invalid, resetting to default",
               "name": "ekf2_mag_type_invalid"
             },
@@ -2796,17 +2785,6 @@
               "message": "Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})",
               "name": "navigator_mis_wp_gate_too_close"
             },
-            "13439583": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_EV_CTRL</param> is set to {1:.0}.",
-              "message": "EV vertical position enabled by EKF2_HGT_REF",
-              "name": "ekf2_hgt_ref_ev"
-            },
             "13471314": {
               "message": "Quad-chute triggered due to loss of altitude during transition",
               "name": "vtol_att_ctrl_quadchute_trans_alt_err"
@@ -2879,31 +2857,9 @@
               "message": "Manual speed has been constrained by maximum speed",
               "name": "mc_pos_ctrl_man_vel_set"
             },
-            "14188249": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_RNG_CTRL</param> is set to {1:.0}.",
-              "message": "Range enabled by EKF2_HGT_REF",
-              "name": "ekf2_hgt_ref_rng"
-            },
             "14234660": {
               "message": "GCS connection regained",
               "name": "commander_dl_regained"
-            },
-            "14380058": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
-              "message": "Use EKF2_GPS_CTRL instead",
-              "name": "ekf2_aid_mask_gps"
             },
             "1438136": {
               "arguments": [
@@ -3193,17 +3149,6 @@
               "message": "Orbit radius limit exceeded",
               "name": "orbit_radius_exceeded"
             },
-            "2225852": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
-              "message": "Use EKF2_OF_CTRL instead",
-              "name": "ekf2_aid_mask_opt_flow"
-            },
             "2321600": {
               "message": "Already higher than takeoff altitude (not descending)",
               "name": "navigator_takeoff_already_higher"
@@ -3308,17 +3253,6 @@
               "message": "Mission rejected: No home position, waypoint {1} uses relative altitude",
               "name": "navigator_mis_no_home_rel_alt"
             },
-            "3386258": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_GPS_CTRL</param> is set to {1:.0}.",
-              "message": "GPS lon/lat is required for altitude fusion",
-              "name": "ekf2_gps_ctrl_alt"
-            },
             "3390156": {
               "message": "No valid mission available, loitering",
               "name": "mission_not_valid_loiter"
@@ -3334,17 +3268,6 @@
             "3484900": {
               "message": "Returning to launch",
               "name": "commander_rtl"
-            },
-            "3592387": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
-              "message": "Use EKF2_IMU_CTRL instead",
-              "name": "ekf2_aid_mask_imu"
             },
             "3623245": {
               "arguments": [
@@ -3754,17 +3677,6 @@
               "message": "Yaw Airmode requires disabling the stick arm gesture",
               "name": "commander_airmode_requires_no_arm_gesture"
             },
-            "7293273": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
-              "message": "Use EKF2_EV_CTRL instead",
-              "name": "ekf2_aid_mask_ev"
-            },
             "7714236": {
               "arguments": [
                 {
@@ -3798,17 +3710,6 @@
             "7860665": {
               "message": "Mission rejected: land start item before RTL item is not possible",
               "name": "navigator_mis_land_before_rtl"
-            },
-            "7867944": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_GPS_CTRL</param> is set to {1:.0}.",
-              "message": "GPS enabled by EKF2_HGT_REF",
-              "name": "ekf2_hgt_ref_gps"
             },
             "8208988": {
               "arguments": [
@@ -3901,17 +3802,6 @@
             "8833276": {
               "message": "No inputs, aborting RC trim calibration",
               "name": "commander_cal_no_inputs"
-            },
-            "8858122": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "<param>EKF2_BARO_CTRL</param> is set to {1:.0}.",
-              "message": "Baro enabled by EKF2_HGT_REF",
-              "name": "ekf2_hgt_ref_baro"
             },
             "8865457": {
               "message": "Geofence: import error",
