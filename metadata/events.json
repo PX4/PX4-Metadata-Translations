@@ -2547,7 +2547,7 @@
               "name": "fixedwing_position_control_conf_invalid_stall"
             },
             "11290563": {
-              "message": "Kill-switch engaged",
+              "message": "Kill engaged",
               "name": "commander_kill_sw_engaged"
             },
             "11521721": {
@@ -3091,7 +3091,7 @@
               "name": "navigator_mis_takeoff_not_first"
             },
             "16682655": {
-              "message": "Kill-switch disengaged",
+              "message": "Kill disengaged",
               "name": "commander_kill_sw_disengaged"
             },
             "16691824": {

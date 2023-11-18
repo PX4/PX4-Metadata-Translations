@@ -2196,7 +2196,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/11290563/message</name>
   <message>
-  <source>Kill-switch engaged</source>
+  <source>Kill engaged</source>
   </message>
 </context>
 <context>
@@ -2713,7 +2713,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/16682655/message</name>
   <message>
-  <source>Kill-switch disengaged</source>
+  <source>Kill disengaged</source>
   </message>
 </context>
 <context>
