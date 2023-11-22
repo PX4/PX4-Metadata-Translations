@@ -4001,7 +4001,7 @@
 <context>
   <name>/parameters/EKF2_GPS_P_GATE/shortDesc</name>
   <message>
-  <source>Gate size for GPS horizontal position fusion</source>
+  <source>Gate size for GNSS position fusion</source>
   </message>
 </context>
 <context>
@@ -4013,13 +4013,13 @@
 <context>
   <name>/parameters/EKF2_GPS_P_NOISE/shortDesc</name>
   <message>
-  <source>Measurement noise for gps position</source>
+  <source>Measurement noise for GNSS position</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_V_GATE/shortDesc</name>
   <message>
-  <source>Gate size for GPS velocity fusion</source>
+  <source>Gate size for GNSS velocity fusion</source>
   </message>
 </context>
 <context>
@@ -4031,7 +4031,7 @@
 <context>
   <name>/parameters/EKF2_GPS_V_NOISE/shortDesc</name>
   <message>
-  <source>Measurement noise for gps horizontal velocity</source>
+  <source>Measurement noise for GNSS velocity</source>
   </message>
 </context>
 <context>
@@ -5691,6 +5691,150 @@
   </message>
 </context>
 <context>
+  <name>/parameters/FW_AIRSPD_MAX/shortDesc</name>
+  <message>
+  <source>Maximum Airspeed (CAS)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_MAX/longDesc</name>
+  <message>
+  <source>The maximal airspeed (calibrated airspeed) the user is able to command.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_MIN/shortDesc</name>
+  <message>
+  <source>Minimum Airspeed (CAS)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_MIN/longDesc</name>
+  <message>
+  <source>The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Has to be set according to the vehicle's stall speed (which should be set in FW_AIRSPD_STALL), with some margin between the stall speed and minimum airspeed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_STALL/shortDesc</name>
+  <message>
+  <source>Stall Airspeed (CAS)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_STALL/longDesc</name>
+  <message>
+  <source>The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_TRIM/shortDesc</name>
+  <message>
+  <source>Trim (Cruise) Airspeed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_AIRSPD_TRIM/longDesc</name>
+  <message>
+  <source>The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve. This value corresponds to the trim airspeed with the default load factor (level flight, default weight).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_SERVICE_CEIL/shortDesc</name>
+  <message>
+  <source>Service ceiling</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_SERVICE_CEIL/longDesc</name>
+  <message>
+  <source>Altitude in standard atmosphere at which the vehicle in normal configuration (WEIGHT_BASE) is still able to achieve a maximum climb rate of 0.5m/s at maximum throttle (FW_THR_MAX). Used to compensate for air density in FW_T_CLMB_MAX. Set negative to disable.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_ASPD_MAX/shortDesc</name>
+  <message>
+  <source>Throttle at max airspeed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_ASPD_MAX/longDesc</name>
+  <message>
+  <source>Required throttle (at sea level, standard atmosphere) for level flight at maximum airspeed FW_AIRSPD_MAX Set to 0 to disable mapping of airspeed to trim throttle.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_ASPD_MIN/shortDesc</name>
+  <message>
+  <source>Throttle at min airspeed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_ASPD_MIN/longDesc</name>
+  <message>
+  <source>Required throttle (at sea level, standard atmosphere) for level flight at minimum airspeed FW_AIRSPD_MIN Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_TRIM/shortDesc</name>
+  <message>
+  <source>Trim throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_TRIM/longDesc</name>
+  <message>
+  <source>Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_CLMB_MAX/shortDesc</name>
+  <message>
+  <source>Maximum climb rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_CLMB_MAX/longDesc</name>
+  <message>
+  <source>This is the maximum calibrated climb rate that the aircraft can achieve with the throttle set to FW_THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SINK_MIN/shortDesc</name>
+  <message>
+  <source>Minimum descent rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SINK_MIN/longDesc</name>
+  <message>
+  <source>This is the minimum calibrated sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/WEIGHT_BASE/shortDesc</name>
+  <message>
+  <source>Vehicle base weight</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/WEIGHT_BASE/longDesc</name>
+  <message>
+  <source>This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/WEIGHT_GROSS/shortDesc</name>
+  <message>
+  <source>Vehicle gross weight</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/WEIGHT_GROSS/longDesc</name>
+  <message>
+  <source>This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/FW_ACRO_X_MAX/shortDesc</name>
   <message>
   <source>Acro body roll max rate setpoint</source>
@@ -6093,54 +6237,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_AIRSPD_MAX/shortDesc</name>
-  <message>
-  <source>Maximum Airspeed (CAS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MAX/longDesc</name>
-  <message>
-  <source>The maximal airspeed (calibrated airspeed) the user is able to command.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MIN/shortDesc</name>
-  <message>
-  <source>Minimum Airspeed (CAS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_MIN/longDesc</name>
-  <message>
-  <source>The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Should be set (with some margin) above the vehicle stall speed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adapated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_STALL/shortDesc</name>
-  <message>
-  <source>Stall Airspeed (CAS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_STALL/longDesc</name>
-  <message>
-  <source>The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_TRIM/shortDesc</name>
-  <message>
-  <source>Trim (Cruise) Airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_AIRSPD_TRIM/longDesc</name>
-  <message>
-  <source>The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_GND_SPD_MIN/shortDesc</name>
   <message>
   <source>Minimum groundspeed</source>
@@ -6174,30 +6270,6 @@
   <name>/parameters/FW_P_LIM_MIN/longDesc</name>
   <message>
   <source>The minimum pitch angle setpoint for a height-rate or altitude controlled mode.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_ASPD_MAX/shortDesc</name>
-  <message>
-  <source>Throttle at max airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_ASPD_MAX/longDesc</name>
-  <message>
-  <source>Required throttle for level flight at maximum airspeed FW_AIRSPD_MAX (sea level, standard atmosphere) Set to 0 to disable mapping of airspeed to trim throttle.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_ASPD_MIN/shortDesc</name>
-  <message>
-  <source>Throttle at min airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_ASPD_MIN/longDesc</name>
-  <message>
-  <source>Required throttle for level flight at minimum airspeed FW_AIRSPD_MIN (sea level, standard atmosphere) Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</source>
   </message>
 </context>
 <context>
@@ -6249,18 +6321,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_THR_TRIM/shortDesc</name>
-  <message>
-  <source>Trim throttle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_TRIM/longDesc</name>
-  <message>
-  <source>This is the throttle setting required to achieve FW_AIRSPD_TRIM during level flight.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_TKO_AIRSPD/shortDesc</name>
   <message>
   <source>Takeoff Airspeed</source>
@@ -6276,18 +6336,6 @@
   <name>/parameters/FW_T_ALT_TC/shortDesc</name>
   <message>
   <source>Altitude error time constant</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_CLMB_MAX/shortDesc</name>
-  <message>
-  <source>Maximum climb rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_CLMB_MAX/longDesc</name>
-  <message>
-  <source>This is the maximum climb rate that the aircraft can achieve with the throttle set to THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</source>
   </message>
 </context>
 <context>
@@ -6372,18 +6420,6 @@
   <name>/parameters/FW_T_SINK_MAX/longDesc</name>
   <message>
   <source>This sets the maximum descent rate that the controller will use. If this value is too large, the aircraft can over-speed on descent. This should be set to a value that can be achieved without exceeding the lower pitch angle limit and without over-speeding the aircraft.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SINK_MIN/shortDesc</name>
-  <message>
-  <source>Minimum descent rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SINK_MIN/longDesc</name>
-  <message>
-  <source>This is the sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</source>
   </message>
 </context>
 <context>
@@ -9030,30 +9066,6 @@
   <name>/parameters/NAV_TRAFF_COLL_T/longDesc</name>
   <message>
   <source>Minimum acceptable time until collsion. Assumes constant speed over 3d distance.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/WEIGHT_BASE/shortDesc</name>
-  <message>
-  <source>Vehicle base weight</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/WEIGHT_BASE/longDesc</name>
-  <message>
-  <source>This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/WEIGHT_GROSS/shortDesc</name>
-  <message>
-  <source>Vehicle gross weight</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/WEIGHT_GROSS/longDesc</name>
-  <message>
-  <source>This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
   </message>
 </context>
 <context>
@@ -24579,15 +24591,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Developer</name>
-  <message>
-  <source>Developer</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/Standard</name>
   <message>
   <source>Standard</source>
+  </message>
+</context>
+<context>
+  <name>$globals/category/Developer</name>
+  <message>
+  <source>Developer</source>
   </message>
 </context>
 <context>
@@ -24597,237 +24609,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Simulation In Hardware</name>
+  <name>$globals/group/Attitude Q estimator</name>
   <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Transponder</name>
-  <message>
-  <source>Transponder</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Serial</name>
-  <message>
-  <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera trigger</name>
-  <message>
-  <source>Camera trigger</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Landing</name>
-  <message>
-  <source>FW Auto Landing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MODAL IO</name>
-  <message>
-  <source>MODAL IO</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ESC</name>
-  <message>
-  <source>ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
+  <source>Attitude Q estimator</source>
   </message>
 </context>
 <context>
@@ -24837,63 +24621,33 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Miscellaneous</name>
+  <name>$globals/group/SD Logging</name>
   <message>
-  <source>Miscellaneous</source>
+  <source>SD Logging</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Manual Control</name>
+  <name>$globals/group/Commander</name>
   <message>
-  <source>Manual Control</source>
+  <source>Commander</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Takeoff</name>
+  <name>$globals/group/UUV Attitude Control</name>
   <message>
-  <source>VTOL Takeoff</source>
+  <source>UUV Attitude Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/SITL</name>
+  <name>$globals/group/Mission</name>
   <message>
-  <source>SITL</source>
+  <source>Mission</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Circuit Breaker</name>
+  <name>$globals/group/FW NPFG Control</name>
   <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
+  <source>FW NPFG Control</source>
   </message>
 </context>
 <context>
@@ -24903,57 +24657,45 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Runway Takeoff</name>
+  <name>$globals/group/ADSB</name>
   <message>
-  <source>Runway Takeoff</source>
+  <source>ADSB</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <name>$globals/group/Serial</name>
   <message>
-  <source>UAVCAN Motor Parameters</source>
+  <source>Serial</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Attitude Control</name>
+  <name>$globals/group/Failure Detector</name>
   <message>
-  <source>VTOL Attitude Control</source>
+  <source>Failure Detector</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Follow target</name>
+  <name>$globals/group/Simulation In Hardware</name>
   <message>
-  <source>Follow target</source>
+  <source>Simulation In Hardware</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN</name>
+  <name>$globals/group/Simulator</name>
   <message>
-  <source>UAVCAN</source>
+  <source>Simulator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Attitude Control</name>
+  <name>$globals/group/Camera trigger</name>
   <message>
-  <source>Multicopter Attitude Control</source>
+  <source>Camera trigger</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW TECS</name>
+  <name>$globals/group/Testing</name>
   <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Launch detection</name>
-  <message>
-  <source>FW Launch detection</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
+  <source>Testing</source>
   </message>
 </context>
 <context>
@@ -24963,21 +24705,243 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Launch detection</name>
+  <message>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FlightTaskOrbit</name>
+  <message>
+  <source>FlightTaskOrbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ESC</name>
+  <message>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Land Detector</name>
+  <message>
+  <source>Land Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Multicopter Acro Mode</name>
   <message>
   <source>Multicopter Acro Mode</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Attitude Q estimator</name>
+  <name>$globals/group/Camera Capture</name>
   <message>
-  <source>Attitude Q estimator</source>
+  <source>Camera Capture</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Camera Control</name>
+  <name>$globals/group/MODAL IO</name>
   <message>
-  <source>Camera Control</source>
+  <source>MODAL IO</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Path Control</name>
+  <message>
+  <source>FW Path Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Attitude Control</name>
+  <message>
+  <source>FW Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN</name>
+  <message>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Transponder</name>
+  <message>
+  <source>Transponder</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
   </message>
 </context>
 <context>
@@ -24987,33 +24951,21 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Precision Land</name>
+  <name>$globals/group/GPS</name>
   <message>
-  <source>Precision Land</source>
+  <source>GPS</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Airspeed Validator</name>
+  <name>$globals/group/UUV Position Control</name>
   <message>
-  <source>Airspeed Validator</source>
+  <source>UUV Position Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Battery Calibration</name>
+  <name>$globals/group/FW Auto Landing</name>
   <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Cyphal</name>
-  <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control</name>
-  <message>
-  <source>Rover Position Control</source>
+  <source>FW Auto Landing</source>
   </message>
 </context>
 <context>
@@ -25023,9 +24975,75 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Commander</name>
+  <name>$globals/group/Airspeed Validator</name>
   <message>
-  <source>Commander</source>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control</name>
+  <message>
+  <source>Rover Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Cyphal</name>
+  <message>
+  <source>Cyphal</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Performance</name>
+  <message>
+  <source>FW Performance</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Control</name>
+  <message>
+  <source>Camera Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Events</name>
+  <message>
+  <source>Events</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
   </message>
 </context>
 </TS>
