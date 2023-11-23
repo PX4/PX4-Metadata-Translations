@@ -512,24 +512,6 @@
   </message>
 </context>
 <context>
-  <name>/components/1/enums/geofence_violation_reason_t/entries/0/description</name>
-  <message>
-  <source>maximum distance to home exceeded</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/geofence_violation_reason_t/entries/1/description</name>
-  <message>
-  <source>maximum altitude exceeded</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/geofence_violation_reason_t/entries/2/description</name>
-  <message>
-  <source>approaching or outside geofence</source>
-  </message>
-</context>
-<context>
   <name>/components/1/enums/health_component_t/entries/1/description</name>
   <message>
   <source>None</source>
@@ -1287,19 +1269,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/13131225/message</name>
-  <message>
-  <source>Geofence violation: {3}</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/13131225/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/1326449/message</name>
   <message>
   <source>Gyro {3} uncalibrated</source>
@@ -1318,6 +1287,19 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/13923616/message</name>
+  <message>
+  <source>Geofence violation: exceeding maximum altitude above Home</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/13923616/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_VER_DIST&lt;/param&gt; parameters.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/14200647/message</name>
   <message>
   <source>Vehicle is not in multicopter mode</source>
@@ -1327,6 +1309,19 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
   <name>/components/1/event_groups/arming_check/events/14200647/description</name>
   <message>
   <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/143019/message</name>
+  <message>
+  <source>Geofence violation: approaching or outside geofence</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/143019/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1596,6 +1591,19 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   <source>Upload a mission first.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/4065583/message</name>
+  <message>
+  <source>Geofence violation: exceeding maximum distance to Home</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/4065583/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -2163,6 +2171,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/10973461/message</name>
+  <message>
+  <source>Geofence invalid, doesn't contain Home position</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/11085221/message</name>
   <message>
   <source>Mission: unable to write to storage</source>
@@ -2467,12 +2481,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/14234660/message</name>
   <message>
   <source>GCS connection regained</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/1438136/message</name>
-  <message>
-  <source>Geofence: maximum distance from home reached ({1:.0m})</source>
   </message>
 </context>
 <context>
@@ -3543,12 +3551,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/9370229/message</name>
-  <message>
-  <source>Geofence: maximum altitude above home reached ({1:.0m_v})</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/9421773/message</name>
   <message>
   <source>Baro sensor #{1} failure: {2}</source>
@@ -3564,6 +3566,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9427265/message</name>
   <message>
   <source>Mission could not reset jump count</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/9432105/message</name>
+  <message>
+  <source>Geofence invalid, doesn't contain current vehicle position</source>
   </message>
 </context>
 <context>

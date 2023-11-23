@@ -471,24 +471,6 @@
           },
           "type": "uint8_t"
         },
-        "geofence_violation_reason_t": {
-          "description": "Reason for geofence violation",
-          "entries": {
-            "0": {
-              "description": "maximum distance to home exceeded",
-              "name": "dist_to_home_exceeded"
-            },
-            "1": {
-              "description": "maximum altitude exceeded",
-              "name": "max_altitude_exceeded"
-            },
-            "2": {
-              "description": "approaching or outside geofence",
-              "name": "fence_violation"
-            }
-          },
-          "type": "uint8_t"
-        },
         "health_component_t": {
           "description": "Bitfield for subsystems & components",
           "entries": {
@@ -1210,25 +1192,6 @@
               "message": "Not enough GPS Satellites",
               "name": "check_estimator_gps_num_sats_too_low"
             },
-            "13131225": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "px4::geofence_violation_reason_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> parameter.\n</profile>",
-              "message": "Geofence violation: {3}",
-              "name": "check_gf_violation"
-            },
             "1326449": {
               "arguments": [
                 {
@@ -1275,6 +1238,21 @@
               "message": "No valid local position estimate",
               "name": "check_modes_local_pos"
             },
+            "13923616": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> and <param>GF_MAX_VER_DIST</param> parameters.\n</profile>",
+              "message": "Geofence violation: exceeding maximum altitude above Home",
+              "name": "check_gf_violation_max_alt"
+            },
             "14200647": {
               "arguments": [
                 {
@@ -1289,6 +1267,21 @@
               "description": "<profile name=\"dev\"> This check can be configured via <param>CBRK_VTOLARMING</param> parameter.\n</profile>",
               "message": "Vehicle is not in multicopter mode",
               "name": "check_system_vtol_in_fw_mode"
+            },
+            "143019": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> parameter.\n</profile>",
+              "message": "Geofence violation: approaching or outside geofence",
+              "name": "check_gf_violation_custom_gf"
             },
             "14644618": {
               "arguments": [
@@ -1715,6 +1708,21 @@
               "description": "Upload a mission first.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_MIS_REQ</param> parameter.\n</profile>",
               "message": "No valid mission available",
               "name": "check_modes_mission"
+            },
+            "4065583": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> and <param>GF_MAX_HOR_DIST</param> parameters.\n</profile>",
+              "message": "Geofence violation: exceeding maximum distance to Home",
+              "name": "check_gf_violation_max_hor_dist"
             },
             "4261821": {
               "arguments": [
@@ -2519,6 +2527,10 @@
               "message": "SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}",
               "name": "mavlink_rcv_sp_target_gl_invalid_coord"
             },
+            "10973461": {
+              "message": "Geofence invalid, doesn't contain Home position",
+              "name": "navigator_geofence_invalid_against_home"
+            },
             "11085221": {
               "message": "Mission: unable to write to storage",
               "name": "mavlink_mission_storage_failure"
@@ -2860,16 +2872,6 @@
             "14234660": {
               "message": "GCS connection regained",
               "name": "commander_dl_regained"
-            },
-            "1438136": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "message": "Geofence: maximum distance from home reached ({1:.0m})",
-              "name": "navigator_geofence_max_dist_from_home"
             },
             "14443523": {
               "message": "Launch detected: enable motors",
@@ -3854,16 +3856,6 @@
               "message": "Could not set mission closest to position",
               "name": "mission_failed_set_closest"
             },
-            "9370229": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "message": "Geofence: maximum altitude above home reached ({1:.0m_v})",
-              "name": "navigator_geofence_max_alt_from_home"
-            },
             "9421773": {
               "arguments": [
                 {
@@ -3882,6 +3874,10 @@
             "9427265": {
               "message": "Mission could not reset jump count",
               "name": "mission_failed_set_jump_count"
+            },
+            "9432105": {
+              "message": "Geofence invalid, doesn't contain current vehicle position",
+              "name": "navigator_geofence_invalid_against_cur_pos"
             },
             "9476947": {
               "message": "Quad-chute triggered due to uncommanded descent detection",
