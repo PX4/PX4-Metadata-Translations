@@ -1014,8 +1014,8 @@
   <context>
     <name>/parameters/ASPD_BETA_GATE/shortDesc</name>
     <message>
-      <source>Airspeed Selector: Gate size for sideslip angle fusion</source>
-      <translation type="unfinished">Airspeed Selector: Gate size for sideslip angle fusion</translation>
+      <source>Gate size for sideslip angle fusion</source>
+      <translation type="unfinished">Gate size for sideslip angle fusion</translation>
     </message>
   </context>
   <context>
@@ -1028,8 +1028,8 @@
   <context>
     <name>/parameters/ASPD_BETA_NOISE/shortDesc</name>
     <message>
-      <source>Airspeed Selector: Wind estimator sideslip measurement noise</source>
-      <translation type="unfinished">Airspeed Selector: Wind estimator sideslip measurement noise</translation>
+      <source>Wind estimator sideslip measurement noise</source>
+      <translation type="unfinished">Wind estimator sideslip measurement noise</translation>
     </message>
   </context>
   <context>
@@ -1049,8 +1049,8 @@
   <context>
     <name>/parameters/ASPD_DO_CHECKS/longDesc</name>
     <message>
-      <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0. Note that the data missing check is enabled if any of the options is set.</source>
-      <translation type="unfinished">Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0. Note that the data missing check is enabled if any of the options is set.</translation>
+      <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.</source>
+      <translation type="unfinished">Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.</translation>
     </message>
   </context>
   <context>
@@ -1280,8 +1280,8 @@
   <context>
     <name>/parameters/ASPD_SCALE_NSD/shortDesc</name>
     <message>
-      <source>Airspeed Selector: Wind estimator true airspeed scale process noise spectral density</source>
-      <translation type="unfinished">Airspeed Selector: Wind estimator true airspeed scale process noise spectral density</translation>
+      <source>Wind estimator true airspeed scale process noise spectral density</source>
+      <translation type="unfinished">Wind estimator true airspeed scale process noise spectral density</translation>
     </message>
   </context>
   <context>
@@ -1294,8 +1294,8 @@
   <context>
     <name>/parameters/ASPD_TAS_GATE/shortDesc</name>
     <message>
-      <source>Airspeed Selector: Gate size for true airspeed fusion</source>
-      <translation type="unfinished">Airspeed Selector: Gate size for true airspeed fusion</translation>
+      <source>Gate size for true airspeed fusion</source>
+      <translation type="unfinished">Gate size for true airspeed fusion</translation>
     </message>
   </context>
   <context>
@@ -1308,8 +1308,8 @@
   <context>
     <name>/parameters/ASPD_TAS_NOISE/shortDesc</name>
     <message>
-      <source>Airspeed Selector: Wind estimator true airspeed measurement noise</source>
-      <translation type="unfinished">Airspeed Selector: Wind estimator true airspeed measurement noise</translation>
+      <source>Wind estimator true airspeed measurement noise</source>
+      <translation type="unfinished">Wind estimator true airspeed measurement noise</translation>
     </message>
   </context>
   <context>
@@ -1329,15 +1329,15 @@
   <context>
     <name>/parameters/ASPD_WERR_THR/longDesc</name>
     <message>
-      <source>The synthetic airspeed estimate (from groundspeed and heading) will be declared valid as soon and as long the horizontal wind uncertainty drops below this value.</source>
-      <translation type="unfinished">The synthetic airspeed estimate (from groundspeed and heading) will be declared valid as soon and as long the horizontal wind uncertainty drops below this value.</translation>
+      <source>The synthetic airspeed estimate (from groundspeed and heading) will be declared valid as soon and as long the horizontal wind uncertainty is below this value.</source>
+      <translation type="unfinished">The synthetic airspeed estimate (from groundspeed and heading) will be declared valid as soon and as long the horizontal wind uncertainty is below this value.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_WIND_NSD/shortDesc</name>
     <message>
-      <source>Airspeed Selector: Wind estimator wind process noise noise spectral density</source>
-      <translation type="unfinished">Airspeed Selector: Wind estimator wind process noise noise spectral density</translation>
+      <source>Wind estimator wind process noise spectral density</source>
+      <translation type="unfinished">Wind estimator wind process noise spectral density</translation>
     </message>
   </context>
   <context>
@@ -2286,31 +2286,31 @@
     </message>
   </context>
   <context>
-    <name>/parameters/COM_ARM_ARSP_EN/shortDesc</name>
+    <name>/parameters/COM_ARMABLE/shortDesc</name>
     <message>
-      <source>Enable preflight check for maximal allowed airspeed when arming</source>
-      <translation type="unfinished">Enable preflight check for maximal allowed airspeed when arming</translation>
+      <source>Flag to allow arming</source>
+      <translation type="unfinished">Flag to allow arming</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/COM_ARM_ARSP_EN/longDesc</name>
+    <name>/parameters/COM_ARMABLE/longDesc</name>
     <message>
-      <source>Deny arming if the current airspeed measurement is greater than half the cruise airspeed (FW_AIRSPD_TRIM). Excessive airspeed measurements on ground are either caused by wind or bad airspeed calibration.</source>
-      <translation type="unfinished">Deny arming if the current airspeed measurement is greater than half the cruise airspeed (FW_AIRSPD_TRIM). Excessive airspeed measurements on ground are either caused by wind or bad airspeed calibration.</translation>
+      <source>Set 0 to prevent accidental use of the vehicle e.g. for safety or maintenance reasons.</source>
+      <translation type="unfinished">Set 0 to prevent accidental use of the vehicle e.g. for safety or maintenance reasons.</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/COM_ARM_ARSP_EN/values/0/description</name>
+    <name>/parameters/COM_ARMABLE/values/0/description</name>
     <message>
-      <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <source>Disallow arming</source>
+      <translation type="unfinished">Disallow arming</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/COM_ARM_ARSP_EN/values/1/description</name>
+    <name>/parameters/COM_ARMABLE/values/1/description</name>
     <message>
-      <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <source>Allow arming</source>
+      <translation type="unfinished">Allow arming</translation>
     </message>
   </context>
   <context>
@@ -2395,6 +2395,20 @@
     <message>
       <source>Timeout for authorizer answer. Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
       <translation type="unfinished">Timeout for authorizer answer. Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_BAT_MIN/shortDesc</name>
+    <message>
+      <source>Minimum battery level for arming</source>
+      <translation type="unfinished">Minimum battery level for arming</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_BAT_MIN/longDesc</name>
+    <message>
+      <source>Additional battery level check that only allows arming if the state of charge of the emptiest connected battery is above this value. A value of 0 disables the check.</source>
+      <translation type="unfinished">Additional battery level check that only allows arming if the state of charge of the emptiest connected battery is above this value. A value of 0 disables the check.</translation>
     </message>
   </context>
   <context>
@@ -2573,6 +2587,41 @@
     </message>
   </context>
   <context>
+    <name>/parameters/COM_ARM_ODID/shortDesc</name>
+    <message>
+      <source>Enable Drone ID system detection and health check</source>
+      <translation type="unfinished">Enable Drone ID system detection and health check</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_ODID/longDesc</name>
+    <message>
+      <source>This check detects if the Open Drone ID system is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.</source>
+      <translation type="unfinished">This check detects if the Open Drone ID system is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_ODID/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_ODID/values/1/description</name>
+    <message>
+      <source>Warning only</source>
+      <translation type="unfinished">Warning only</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_ODID/values/2/description</name>
+    <message>
+      <source>Enforce Open Drone ID system presence</source>
+      <translation type="unfinished">Enforce Open Drone ID system presence</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/COM_ARM_SDCARD/shortDesc</name>
     <message>
       <source>Enable FMU SD card detection check</source>
@@ -2643,13 +2692,6 @@
     </message>
   </context>
   <context>
-    <name>/parameters/COM_ARM_WO_GPS/longDesc</name>
-    <message>
-      <source>The default allows the vehicle to arm without GPS signal.</source>
-      <translation type="unfinished">The default allows the vehicle to arm without GPS signal.</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/COM_ARM_WO_GPS/values/0/description</name>
     <message>
       <source>Require GPS lock to arm</source>
@@ -2673,8 +2715,8 @@
   <context>
     <name>/parameters/COM_CPU_MAX/longDesc</name>
     <message>
-      <source>A negative value disables the check.</source>
-      <translation type="unfinished">A negative value disables the check.</translation>
+      <source>The check fails if the CPU load is above this threshold for 2s. A negative value disables the check.</source>
+      <translation type="unfinished">The check fails if the CPU load is above this threshold for 2s. A negative value disables the check.</translation>
     </message>
   </context>
   <context>
@@ -2689,6 +2731,34 @@
     <message>
       <source>A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be automatically disarmed in case a landing situation has been detected during this period. A zero or negative value means that automatic disarming triggered by landing detection is disabled.</source>
       <translation type="unfinished">A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be automatically disarmed in case a landing situation has been detected during this period. A zero or negative value means that automatic disarming triggered by landing detection is disabled.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DISARM_MAN/shortDesc</name>
+    <message>
+      <source>Allow disarming via switch/stick/button on multicopters in manual thrust modes</source>
+      <translation type="unfinished">Allow disarming via switch/stick/button on multicopters in manual thrust modes</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DISARM_MAN/longDesc</name>
+    <message>
+      <source>0: Disallow disarming when not landed 1: Allow disarming in multicopter flight in modes where the thrust is directly controlled by thr throttle stick e.g. Stabilized, Acro</source>
+      <translation type="unfinished">0: Disallow disarming when not landed 1: Allow disarming in multicopter flight in modes where the thrust is directly controlled by thr throttle stick e.g. Stabilized, Acro</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DISARM_MAN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DISARM_MAN/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
     </message>
   </context>
   <context>
@@ -2729,8 +2799,8 @@
   <context>
     <name>/parameters/COM_FAIL_ACT_T/longDesc</name>
     <message>
-      <source>Before entering failsafe (RTL, Land, Hold), wait COM_FAIL_ACT_T seconds in Hold mode for the user to realize. During that time the user cannot take over control. Afterwards the configured failsafe action is triggered and the user may take over. A zero value disables the delay and the user cannot take over via stick movements (switching modes is still allowed).</source>
-      <translation type="unfinished">Before entering failsafe (RTL, Land, Hold), wait COM_FAIL_ACT_T seconds in Hold mode for the user to realize. During that time the user cannot take over control. Afterwards the configured failsafe action is triggered and the user may take over. A zero value disables the delay and the user cannot take over via stick movements (switching modes is still allowed).</translation>
+      <source>Before entering failsafe (RTL, Land, Hold), wait COM_FAIL_ACT_T seconds in Hold mode for the user to realize. During that time the user cannot take over control via the stick override feature (see COM_RC_OVERRIDE). Afterwards the configured failsafe action is triggered and the user may use stick override. A zero value disables the delay and the user cannot take over via stick movements (switching modes is still allowed).</source>
+      <translation type="unfinished">Before entering failsafe (RTL, Land, Hold), wait COM_FAIL_ACT_T seconds in Hold mode for the user to realize. During that time the user cannot take over control via the stick override feature (see COM_RC_OVERRIDE). Afterwards the configured failsafe action is triggered and the user may use stick override. A zero value disables the delay and the user cannot take over via stick movements (switching modes is still allowed).</translation>
     </message>
   </context>
   <context>
@@ -2745,678 +2815,6 @@
     <message>
       <source>This number is incremented automatically after every flight on disarming in order to remember the next flight UUID. The first flight is 0.</source>
       <translation type="unfinished">This number is incremented automatically after every flight on disarming in order to remember the next flight UUID. The first flight is 0.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/shortDesc</name>
-    <message>
-      <source>First flightmode slot (1000-1160)</source>
-      <translation type="unfinished">First flightmode slot (1000-1160)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/longDesc</name>
-    <message>
-      <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the selected flight mode will be applied.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/-1/description</name>
-    <message>
-      <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/0/description</name>
-    <message>
-      <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/1/description</name>
-    <message>
-      <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/2/description</name>
-    <message>
-      <source>Position</source>
-      <translation type="unfinished">Position</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/3/description</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/4/description</name>
-    <message>
-      <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/5/description</name>
-    <message>
-      <source>Return</source>
-      <translation type="unfinished">Return</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/6/description</name>
-    <message>
-      <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/7/description</name>
-    <message>
-      <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/8/description</name>
-    <message>
-      <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/10/description</name>
-    <message>
-      <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/11/description</name>
-    <message>
-      <source>Land</source>
-      <translation type="unfinished">Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/12/description</name>
-    <message>
-      <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE1/values/13/description</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/shortDesc</name>
-    <message>
-      <source>Second flightmode slot (1160-1320)</source>
-      <translation type="unfinished">Second flightmode slot (1160-1320)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/longDesc</name>
-    <message>
-      <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the selected flight mode will be applied.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/-1/description</name>
-    <message>
-      <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/0/description</name>
-    <message>
-      <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/1/description</name>
-    <message>
-      <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/2/description</name>
-    <message>
-      <source>Position</source>
-      <translation type="unfinished">Position</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/3/description</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/4/description</name>
-    <message>
-      <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/5/description</name>
-    <message>
-      <source>Return</source>
-      <translation type="unfinished">Return</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/6/description</name>
-    <message>
-      <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/7/description</name>
-    <message>
-      <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/8/description</name>
-    <message>
-      <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/10/description</name>
-    <message>
-      <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/11/description</name>
-    <message>
-      <source>Land</source>
-      <translation type="unfinished">Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/12/description</name>
-    <message>
-      <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE2/values/13/description</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/shortDesc</name>
-    <message>
-      <source>Third flightmode slot (1320-1480)</source>
-      <translation type="unfinished">Third flightmode slot (1320-1480)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/longDesc</name>
-    <message>
-      <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the selected flight mode will be applied.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/-1/description</name>
-    <message>
-      <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/0/description</name>
-    <message>
-      <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/1/description</name>
-    <message>
-      <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/2/description</name>
-    <message>
-      <source>Position</source>
-      <translation type="unfinished">Position</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/3/description</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/4/description</name>
-    <message>
-      <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/5/description</name>
-    <message>
-      <source>Return</source>
-      <translation type="unfinished">Return</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/6/description</name>
-    <message>
-      <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/7/description</name>
-    <message>
-      <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/8/description</name>
-    <message>
-      <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/10/description</name>
-    <message>
-      <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/11/description</name>
-    <message>
-      <source>Land</source>
-      <translation type="unfinished">Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/12/description</name>
-    <message>
-      <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE3/values/13/description</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/shortDesc</name>
-    <message>
-      <source>Fourth flightmode slot (1480-1640)</source>
-      <translation type="unfinished">Fourth flightmode slot (1480-1640)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/longDesc</name>
-    <message>
-      <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the selected flight mode will be applied.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/-1/description</name>
-    <message>
-      <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/0/description</name>
-    <message>
-      <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/1/description</name>
-    <message>
-      <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/2/description</name>
-    <message>
-      <source>Position</source>
-      <translation type="unfinished">Position</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/3/description</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/4/description</name>
-    <message>
-      <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/5/description</name>
-    <message>
-      <source>Return</source>
-      <translation type="unfinished">Return</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/6/description</name>
-    <message>
-      <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/7/description</name>
-    <message>
-      <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/8/description</name>
-    <message>
-      <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/10/description</name>
-    <message>
-      <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/11/description</name>
-    <message>
-      <source>Land</source>
-      <translation type="unfinished">Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/12/description</name>
-    <message>
-      <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE4/values/13/description</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/shortDesc</name>
-    <message>
-      <source>Fifth flightmode slot (1640-1800)</source>
-      <translation type="unfinished">Fifth flightmode slot (1640-1800)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/longDesc</name>
-    <message>
-      <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the selected flight mode will be applied.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/-1/description</name>
-    <message>
-      <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/0/description</name>
-    <message>
-      <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/1/description</name>
-    <message>
-      <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/2/description</name>
-    <message>
-      <source>Position</source>
-      <translation type="unfinished">Position</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/3/description</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/4/description</name>
-    <message>
-      <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/5/description</name>
-    <message>
-      <source>Return</source>
-      <translation type="unfinished">Return</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/6/description</name>
-    <message>
-      <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/7/description</name>
-    <message>
-      <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/8/description</name>
-    <message>
-      <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/10/description</name>
-    <message>
-      <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/11/description</name>
-    <message>
-      <source>Land</source>
-      <translation type="unfinished">Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/12/description</name>
-    <message>
-      <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE5/values/13/description</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/shortDesc</name>
-    <message>
-      <source>Sixth flightmode slot (1800-2000)</source>
-      <translation type="unfinished">Sixth flightmode slot (1800-2000)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/longDesc</name>
-    <message>
-      <source>If the main switch channel is in this range the selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the selected flight mode will be applied.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/-1/description</name>
-    <message>
-      <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/0/description</name>
-    <message>
-      <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/1/description</name>
-    <message>
-      <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/2/description</name>
-    <message>
-      <source>Position</source>
-      <translation type="unfinished">Position</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/3/description</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/4/description</name>
-    <message>
-      <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/5/description</name>
-    <message>
-      <source>Return</source>
-      <translation type="unfinished">Return</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/6/description</name>
-    <message>
-      <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/7/description</name>
-    <message>
-      <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/8/description</name>
-    <message>
-      <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/10/description</name>
-    <message>
-      <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/11/description</name>
-    <message>
-      <source>Land</source>
-      <translation type="unfinished">Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/12/description</name>
-    <message>
-      <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_FLTMODE6/values/13/description</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
     </message>
   </context>
   <context>
@@ -3688,15 +3086,15 @@
   <context>
     <name>/parameters/COM_MOT_TEST_EN/shortDesc</name>
     <message>
-      <source>Enable Motor Testing</source>
-      <translation type="unfinished">Enable Motor Testing</translation>
+      <source>Enable Actuator Testing</source>
+      <translation type="unfinished">Enable Actuator Testing</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MOT_TEST_EN/longDesc</name>
     <message>
-      <source>If set, enables the motor test interface via MAVLink (DO_MOTOR_TEST), that allows spinning the motors for testing purposes.</source>
-      <translation type="unfinished">If set, enables the motor test interface via MAVLink (DO_MOTOR_TEST), that allows spinning the motors for testing purposes.</translation>
+      <source>If set, enables the actuator test interface via MAVLink (ACTUATOR_TEST), that allows spinning the motors and moving the servos for testing purposes.</source>
+      <translation type="unfinished">If set, enables the actuator test interface via MAVLink (ACTUATOR_TEST), that allows spinning the motors and moving the servos for testing purposes.</translation>
     </message>
   </context>
   <context>
@@ -3898,8 +3296,8 @@
   <context>
     <name>/parameters/COM_POS_FS_EPH/longDesc</name>
     <message>
-      <source>This is the horizontal position error (EPH) threshold that will trigger a failsafe. The default is appropriate for a multicopter. Can be increased for a fixed-wing. If the previous position error was below this threshold, there is an additional factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).</source>
-      <translation type="unfinished">This is the horizontal position error (EPH) threshold that will trigger a failsafe. The default is appropriate for a multicopter. Can be increased for a fixed-wing. If the previous position error was below this threshold, there is an additional factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).</translation>
+      <source>This is the horizontal position error (EPH) threshold that will trigger a failsafe. The default is appropriate for a multicopter. Can be increased for a fixed-wing. If the previous position error was below this threshold, there is an additional factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation). Set to -1 to disable.</source>
+      <translation type="unfinished">This is the horizontal position error (EPH) threshold that will trigger a failsafe. The default is appropriate for a multicopter. Can be increased for a fixed-wing. If the previous position error was below this threshold, there is an additional factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation). Set to -1 to disable.</translation>
     </message>
   </context>
   <context>
@@ -4101,15 +3499,15 @@
   <context>
     <name>/parameters/COM_RC_LOSS_T/shortDesc</name>
     <message>
-      <source>RC loss time threshold</source>
-      <translation type="unfinished">RC loss time threshold</translation>
+      <source>Manual control loss timeout</source>
+      <translation type="unfinished">Manual control loss timeout</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_LOSS_T/longDesc</name>
     <message>
-      <source>After this amount of seconds without RC connection it's considered lost and not used anymore</source>
-      <translation type="unfinished">After this amount of seconds without RC connection it's considered lost and not used anymore</translation>
+      <source>The time in seconds without a new setpoint from RC or Joystick, after which the connection is considered lost. This must be kept short as the vehicle will use the last supplied setpoint until the timeout triggers.</source>
+      <translation type="unfinished">The time in seconds without a new setpoint from RC or Joystick, after which the connection is considered lost. This must be kept short as the vehicle will use the last supplied setpoint until the timeout triggers.</translation>
     </message>
   </context>
   <context>
@@ -4122,8 +3520,8 @@
   <context>
     <name>/parameters/COM_RC_OVERRIDE/longDesc</name>
     <message>
-      <source>When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV immediately gives control back to the pilot by switching to Position mode and if position is unavailable Altitude mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode. This parameter is not considered in case of a GPS failure (Descend flight mode), where stick override is always enabled.</source>
-      <translation type="unfinished">When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV immediately gives control back to the pilot by switching to Position mode and if position is unavailable Altitude mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode. This parameter is not considered in case of a GPS failure (Descend flight mode), where stick override is always enabled.</translation>
+      <source>When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV immediately gives control back to the pilot by switching to Position mode and if position is unavailable Altitude mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</source>
+      <translation type="unfinished">When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV immediately gives control back to the pilot by switching to Position mode and if position is unavailable Altitude mode. Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</translation>
     </message>
   </context>
   <context>
@@ -4197,6 +3595,48 @@
     </message>
   </context>
   <context>
+    <name>/parameters/COM_THROW_EN/shortDesc</name>
+    <message>
+      <source>Enable throw-start</source>
+      <translation type="unfinished">Enable throw-start</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_THROW_EN/longDesc</name>
+    <message>
+      <source>Allows to start the vehicle by throwing it into the air.</source>
+      <translation type="unfinished">Allows to start the vehicle by throwing it into the air.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_THROW_EN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_THROW_EN/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_THROW_SPEED/shortDesc</name>
+    <message>
+      <source>Minimum speed for the throw start</source>
+      <translation type="unfinished">Minimum speed for the throw start</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_THROW_SPEED/longDesc</name>
+    <message>
+      <source>When the throw launch is enabled, the drone will only arm after this speed is exceeded before detecting the freefall. This is a safety feature to ensure the drone does not turn on after accidental drop or a rapid movement before the throw. Set to 0 to disable.</source>
+      <translation type="unfinished">When the throw launch is enabled, the drone will only arm after this speed is exceeded before detecting the freefall. This is a safety feature to ensure the drone does not turn on after accidental drop or a rapid movement before the throw. Set to 0 to disable.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/COM_VEL_FS_EVH/shortDesc</name>
     <message>
       <source>Horizontal velocity error threshold</source>
@@ -4213,15 +3653,71 @@
   <context>
     <name>/parameters/COM_WIND_MAX/shortDesc</name>
     <message>
-      <source>Wind speed RTL threshold</source>
-      <translation type="unfinished">Wind speed RTL threshold</translation>
+      <source>High wind speed failsafe threshold</source>
+      <translation type="unfinished">High wind speed failsafe threshold</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_WIND_MAX/longDesc</name>
     <message>
-      <source>Wind speed threshold above which an automatic return to launch is triggered. It is not possible to resume the mission or switch to any auto mode other than RTL or Land if this threshold is exceeded. Taking over in any manual mode is still possible. Set to -1 to disable.</source>
-      <translation type="unfinished">Wind speed threshold above which an automatic return to launch is triggered. It is not possible to resume the mission or switch to any auto mode other than RTL or Land if this threshold is exceeded. Taking over in any manual mode is still possible. Set to -1 to disable.</translation>
+      <source>Wind speed threshold above which an automatic failsafe action is triggered. Failsafe action can be specified with COM_WIND_MAX_ACT.</source>
+      <translation type="unfinished">Wind speed threshold above which an automatic failsafe action is triggered. Failsafe action can be specified with COM_WIND_MAX_ACT.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_WIND_MAX_ACT/shortDesc</name>
+    <message>
+      <source>High wind failsafe mode</source>
+      <translation type="unfinished">High wind failsafe mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_WIND_MAX_ACT/longDesc</name>
+    <message>
+      <source>Action the system takes when a wind speed above the specified threshold is detected. See COM_WIND_MAX to set the failsafe threshold. If enabled, it is not possible to resume the mission or switch to any auto mode other than RTL or Land if this threshold is exceeded. Taking over in any manual mode is still possible.</source>
+      <translation type="unfinished">Action the system takes when a wind speed above the specified threshold is detected. See COM_WIND_MAX to set the failsafe threshold. If enabled, it is not possible to resume the mission or switch to any auto mode other than RTL or Land if this threshold is exceeded. Taking over in any manual mode is still possible.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_WIND_MAX_ACT/values/0/description</name>
+    <message>
+      <source>None</source>
+      <translation type="unfinished">None</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_WIND_MAX_ACT/values/1/description</name>
+    <message>
+      <source>Warning</source>
+      <translation type="unfinished">Warning</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_WIND_MAX_ACT/values/2/description</name>
+    <message>
+      <source>Hold</source>
+      <translation type="unfinished">Hold</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_WIND_MAX_ACT/values/3/description</name>
+    <message>
+      <source>Return</source>
+      <translation type="unfinished">Return</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_WIND_MAX_ACT/values/4/description</name>
+    <message>
+      <source>Terminate</source>
+      <translation type="unfinished">Terminate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_WIND_MAX_ACT/values/5/description</name>
+    <message>
+      <source>Land</source>
+      <translation type="unfinished">Land</translation>
     </message>
   </context>
   <context>
@@ -4500,8 +3996,8 @@
   <context>
     <name>/parameters/EKF2_ABL_ACCLIM/longDesc</name>
     <message>
-      <source>If the magnitude of the IMU accelerometer vector exceeds this value, the EKF delta velocity state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the delta velocity bias estimates.</source>
-      <translation type="unfinished">If the magnitude of the IMU accelerometer vector exceeds this value, the EKF delta velocity state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the delta velocity bias estimates.</translation>
+      <source>If the magnitude of the IMU accelerometer vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the accel bias estimates.</source>
+      <translation type="unfinished">If the magnitude of the IMU accelerometer vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the accel bias estimates.</translation>
     </message>
   </context>
   <context>
@@ -4514,8 +4010,8 @@
   <context>
     <name>/parameters/EKF2_ABL_GYRLIM/longDesc</name>
     <message>
-      <source>If the magnitude of the IMU angular rate vector exceeds this value, the EKF delta velocity state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the delta velocity bias estimates.</source>
-      <translation type="unfinished">If the magnitude of the IMU angular rate vector exceeds this value, the EKF delta velocity state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the delta velocity bias estimates.</translation>
+      <source>If the magnitude of the IMU angular rate vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the accel bias estimates.</source>
+      <translation type="unfinished">If the magnitude of the IMU angular rate vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the accel bias estimates.</translation>
     </message>
   </context>
   <context>
@@ -4528,15 +4024,15 @@
   <context>
     <name>/parameters/EKF2_ABL_LIM/longDesc</name>
     <message>
-      <source>The ekf delta velocity bias states will be limited to within a range equivalent to +- of this value.</source>
-      <translation type="unfinished">The ekf delta velocity bias states will be limited to within a range equivalent to +- of this value.</translation>
+      <source>The ekf accel bias states will be limited to within a range equivalent to +- of this value.</source>
+      <translation type="unfinished">The ekf accel bias states will be limited to within a range equivalent to +- of this value.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ABL_TAU/shortDesc</name>
     <message>
-      <source>Time constant used by acceleration and angular rate magnitude checks used to inhibit delta velocity bias learning</source>
-      <translation type="unfinished">Time constant used by acceleration and angular rate magnitude checks used to inhibit delta velocity bias learning</translation>
+      <source>Time constant used by acceleration and angular rate magnitude checks used to inhibit accel bias learning</source>
+      <translation type="unfinished">Time constant used by acceleration and angular rate magnitude checks used to inhibit accel bias learning</translation>
     </message>
   </context>
   <context>
@@ -4561,83 +4057,6 @@
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AID_MASK/shortDesc</name>
-    <message>
-      <source>Integer bitmask controlling data fusion and aiding methods</source>
-      <translation type="unfinished">Integer bitmask controlling data fusion and aiding methods</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/longDesc</name>
-    <message>
-      <source>Set bits in the following positions to enable: 0 : Deprecated, use EKF2_GPS_CTRL instead 1 : Set to true to use optical flow data if available 2 : Deprecated, use EKF2_IMU_CTRL instead 3 : Deprecated, use EKF2_EV_CTRL instead 4 : Deprecated, use EKF2_EV_CTRL instead 5 : Set to true to enable multi-rotor drag specific force fusion 6 : Deprecated, use EKF2_EV_CTRL instead 7 : Deprecated, use EKF2_GPS_CTRL instead 3 : Deprecated, use EKF2_EV_CTRL instead</source>
-      <translation type="unfinished">Set bits in the following positions to enable: 0 : Deprecated, use EKF2_GPS_CTRL instead 1 : Set to true to use optical flow data if available 2 : Deprecated, use EKF2_IMU_CTRL instead 3 : Deprecated, use EKF2_EV_CTRL instead 4 : Deprecated, use EKF2_EV_CTRL instead 5 : Set to true to enable multi-rotor drag specific force fusion 6 : Deprecated, use EKF2_EV_CTRL instead 7 : Deprecated, use EKF2_GPS_CTRL instead 3 : Deprecated, use EKF2_EV_CTRL instead</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/bitmask/0/description</name>
-    <message>
-      <source>unused</source>
-      <translation type="unfinished">unused</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/bitmask/1/description</name>
-    <message>
-      <source>use optical flow</source>
-      <translation type="unfinished">use optical flow</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/bitmask/2/description</name>
-    <message>
-      <source>unused</source>
-      <translation type="unfinished">unused</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/bitmask/3/description</name>
-    <message>
-      <source>unused</source>
-      <translation type="unfinished">unused</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/bitmask/4/description</name>
-    <message>
-      <source>unused</source>
-      <translation type="unfinished">unused</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/bitmask/5/description</name>
-    <message>
-      <source>multi-rotor drag fusion</source>
-      <translation type="unfinished">multi-rotor drag fusion</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/bitmask/6/description</name>
-    <message>
-      <source>unused</source>
-      <translation type="unfinished">unused</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/bitmask/7/description</name>
-    <message>
-      <source>unused</source>
-      <translation type="unfinished">unused</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_AID_MASK/bitmask/8/description</name>
-    <message>
-      <source>unused</source>
-      <translation type="unfinished">unused</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/EKF2_ANGERR_INIT/shortDesc</name>
     <message>
       <source>1-sigma tilt angle uncertainty after gravity vector alignment</source>
@@ -4654,8 +4073,8 @@
   <context>
     <name>/parameters/EKF2_ARSP_THR/longDesc</name>
     <message>
-      <source>A value of zero will deactivate airspeed fusion. Any other positive value will determine the minimum airspeed which will still be fused. Set to about 90% of the vehicles stall speed. Both airspeed fusion and sideslip fusion must be active for the EKF to continue navigating after loss of GPS. Use EKF2_FUSE_BETA to activate sideslip fusion. Note: side slip fusion is currently not supported for tailsitters.</source>
-      <translation type="unfinished">A value of zero will deactivate airspeed fusion. Any other positive value will determine the minimum airspeed which will still be fused. Set to about 90% of the vehicles stall speed. Both airspeed fusion and sideslip fusion must be active for the EKF to continue navigating after loss of GPS. Use EKF2_FUSE_BETA to activate sideslip fusion. Note: side slip fusion is currently not supported for tailsitters.</translation>
+      <source>Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).</source>
+      <translation type="unfinished">Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).</translation>
     </message>
   </context>
   <context>
@@ -4689,8 +4108,8 @@
   <context>
     <name>/parameters/EKF2_BARO_CTRL/longDesc</name>
     <message>
-      <source>If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate it's height in addition to other height sources (if activated).</source>
-      <translation type="unfinished">If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate it's height in addition to other height sources (if activated).</translation>
+      <source>If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate its height in addition to other height sources (if activated).</source>
+      <translation type="unfinished">If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate its height in addition to other height sources (if activated).</translation>
     </message>
   </context>
   <context>
@@ -4745,8 +4164,8 @@
   <context>
     <name>/parameters/EKF2_BCOEF_X/longDesc</name>
     <message>
-      <source>This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_AID_MASK parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
-      <translation type="unfinished">This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_AID_MASK parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</translation>
+      <source>This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
+      <translation type="unfinished">This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</translation>
     </message>
   </context>
   <context>
@@ -4759,8 +4178,8 @@
   <context>
     <name>/parameters/EKF2_BCOEF_Y/longDesc</name>
     <message>
-      <source>This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_AID_MASK parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
-      <translation type="unfinished">This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_AID_MASK parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</translation>
+      <source>This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
+      <translation type="unfinished">This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</translation>
     </message>
   </context>
   <context>
@@ -4817,6 +4236,34 @@
     <message>
       <source>use declination as an observation</source>
       <translation type="unfinished">use declination as an observation</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_DRAG_CTRL/shortDesc</name>
+    <message>
+      <source>Multirotor wind estimation selection</source>
+      <translation type="unfinished">Multirotor wind estimation selection</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_DRAG_CTRL/longDesc</name>
+    <message>
+      <source>Activate wind speed estimation using specific-force measurements and a drag model defined by EKF2_BCOEF_[XY] and EKF2_MCOEF. Only use on vehicles that have their thrust aligned with the Z axis and no thrust in the XY plane.</source>
+      <translation type="unfinished">Activate wind speed estimation using specific-force measurements and a drag model defined by EKF2_BCOEF_[XY] and EKF2_MCOEF. Only use on vehicles that have their thrust aligned with the Z axis and no thrust in the XY plane.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_DRAG_CTRL/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_DRAG_CTRL/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
     </message>
   </context>
   <context>
@@ -5004,15 +4451,15 @@
   <context>
     <name>/parameters/EKF2_FUSE_BETA/shortDesc</name>
     <message>
-      <source>Boolean determining if synthetic sideslip measurements should fused</source>
-      <translation type="unfinished">Boolean determining if synthetic sideslip measurements should fused</translation>
+      <source>Enable synthetic sideslip fusion</source>
+      <translation type="unfinished">Enable synthetic sideslip fusion</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_FUSE_BETA/longDesc</name>
     <message>
-      <source>A value of 1 indicates that fusion is active Both  sideslip fusion and airspeed fusion must be active for the EKF to continue navigating after loss of GPS. Use EKF2_ARSP_THR to activate airspeed fusion.</source>
-      <translation type="unfinished">A value of 1 indicates that fusion is active Both  sideslip fusion and airspeed fusion must be active for the EKF to continue navigating after loss of GPS. Use EKF2_ARSP_THR to activate airspeed fusion.</translation>
+      <source>For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode). Note: side slip fusion is currently not supported for tailsitters.</source>
+      <translation type="unfinished">For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode). Note: side slip fusion is currently not supported for tailsitters.</translation>
     </message>
   </context>
   <context>
@@ -5214,8 +4661,8 @@
   <context>
     <name>/parameters/EKF2_GPS_P_GATE/shortDesc</name>
     <message>
-      <source>Gate size for GPS horizontal position fusion</source>
-      <translation type="unfinished">Gate size for GPS horizontal position fusion</translation>
+      <source>Gate size for GNSS position fusion</source>
+      <translation type="unfinished">Gate size for GNSS position fusion</translation>
     </message>
   </context>
   <context>
@@ -5228,15 +4675,15 @@
   <context>
     <name>/parameters/EKF2_GPS_P_NOISE/shortDesc</name>
     <message>
-      <source>Measurement noise for gps position</source>
-      <translation type="unfinished">Measurement noise for gps position</translation>
+      <source>Measurement noise for GNSS position</source>
+      <translation type="unfinished">Measurement noise for GNSS position</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_V_GATE/shortDesc</name>
     <message>
-      <source>Gate size for GPS velocity fusion</source>
-      <translation type="unfinished">Gate size for GPS velocity fusion</translation>
+      <source>Gate size for GNSS velocity fusion</source>
+      <translation type="unfinished">Gate size for GNSS velocity fusion</translation>
     </message>
   </context>
   <context>
@@ -5249,8 +4696,8 @@
   <context>
     <name>/parameters/EKF2_GPS_V_NOISE/shortDesc</name>
     <message>
-      <source>Measurement noise for gps horizontal velocity</source>
-      <translation type="unfinished">Measurement noise for gps horizontal velocity</translation>
+      <source>Measurement noise for GNSS velocity</source>
+      <translation type="unfinished">Measurement noise for GNSS velocity</translation>
     </message>
   </context>
   <context>
@@ -5284,8 +4731,8 @@
   <context>
     <name>/parameters/EKF2_GYR_B_LIM/longDesc</name>
     <message>
-      <source>The ekf delta angle bias states will be limited to within a range equivalent to +- of this value.</source>
-      <translation type="unfinished">The ekf delta angle bias states will be limited to within a range equivalent to +- of this value.</translation>
+      <source>The ekf gyro bias states will be limited to within a range equivalent to +- of this value.</source>
+      <translation type="unfinished">The ekf gyro bias states will be limited to within a range equivalent to +- of this value.</translation>
     </message>
   </context>
   <context>
@@ -5305,8 +4752,8 @@
   <context>
     <name>/parameters/EKF2_HDG_GATE/shortDesc</name>
     <message>
-      <source>Gate size for magnetic heading fusion</source>
-      <translation type="unfinished">Gate size for magnetic heading fusion</translation>
+      <source>Gate size for heading fusion</source>
+      <translation type="unfinished">Gate size for heading fusion</translation>
     </message>
   </context>
   <context>
@@ -5445,22 +4892,57 @@
   <context>
     <name>/parameters/EKF2_MAG_CHECK/longDesc</name>
     <message>
-      <source>When set, the EKF checks the strength of the magnetic field to decide whether the magnetometer data is valid. If GPS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance.</source>
-      <translation type="unfinished">When set, the EKF checks the strength of the magnetic field to decide whether the magnetometer data is valid. If GPS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance.</translation>
+      <source>Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM</source>
+      <translation type="unfinished">Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_MAG_CHECK/values/0/description</name>
+    <name>/parameters/EKF2_MAG_CHECK/bitmask/0/description</name>
     <message>
-      <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <source>Strength (EKF2_MAG_CHK_STR)</source>
+      <translation type="unfinished">Strength (EKF2_MAG_CHK_STR)</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_MAG_CHECK/values/1/description</name>
+    <name>/parameters/EKF2_MAG_CHECK/bitmask/1/description</name>
     <message>
-      <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <source>Inclination (EKF2_MAG_CHK_INC)</source>
+      <translation type="unfinished">Inclination (EKF2_MAG_CHK_INC)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_MAG_CHECK/bitmask/2/description</name>
+    <message>
+      <source>Wait for WMM</source>
+      <translation type="unfinished">Wait for WMM</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_MAG_CHK_INC/shortDesc</name>
+    <message>
+      <source>Magnetic field inclination check tolerance</source>
+      <translation type="unfinished">Magnetic field inclination check tolerance</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_MAG_CHK_INC/longDesc</name>
+    <message>
+      <source>Maximum allowed deviation from the expected magnetic field inclination to pass the check.</source>
+      <translation type="unfinished">Maximum allowed deviation from the expected magnetic field inclination to pass the check.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_MAG_CHK_STR/shortDesc</name>
+    <message>
+      <source>Magnetic field strength check tolerance</source>
+      <translation type="unfinished">Magnetic field strength check tolerance</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_MAG_CHK_STR/longDesc</name>
+    <message>
+      <source>Maximum allowed deviation from the expected magnetic field strength to pass the check.</source>
+      <translation type="unfinished">Maximum allowed deviation from the expected magnetic field strength to pass the check.</translation>
     </message>
   </context>
   <context>
@@ -5515,8 +4997,8 @@
   <context>
     <name>/parameters/EKF2_MAG_TYPE/longDesc</name>
     <message>
-      <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to '3-axis' 3-axis field fusion is used at all times. If set to 'VTOL custom' the behaviour is the same as 'Automatic', but if fusing airspeed, magnetometer fusion is only allowed to modify the magnetic field states. This can be used by VTOL platforms with large magnetic field disturbances to prevent incorrect bias states being learned during forward flight operation which can adversely affect estimation accuracy after transition to hovering flight. If set to 'MC custom' the behaviour is the same as 'Automatic, but if there are no earth frame position or velocity observations being used, the magnetometer will not be used. This enables vehicles to operate with no GPS in environments where the magnetic field cannot be used to provide a heading reference. Prior to flight, the yaw angle is assumed to be constant if movement tests indicate that the vehicle is static. This allows the vehicle to be placed on the ground to learn the yaw gyro bias prior to flight. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality). Other external sources of yaw may be used if selected via the EKF2_AID_MASK parameter.</source>
-      <translation type="unfinished">Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to '3-axis' 3-axis field fusion is used at all times. If set to 'VTOL custom' the behaviour is the same as 'Automatic', but if fusing airspeed, magnetometer fusion is only allowed to modify the magnetic field states. This can be used by VTOL platforms with large magnetic field disturbances to prevent incorrect bias states being learned during forward flight operation which can adversely affect estimation accuracy after transition to hovering flight. If set to 'MC custom' the behaviour is the same as 'Automatic, but if there are no earth frame position or velocity observations being used, the magnetometer will not be used. This enables vehicles to operate with no GPS in environments where the magnetic field cannot be used to provide a heading reference. Prior to flight, the yaw angle is assumed to be constant if movement tests indicate that the vehicle is static. This allows the vehicle to be placed on the ground to learn the yaw gyro bias prior to flight. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality). Other external sources of yaw may be used if selected via the EKF2_AID_MASK parameter.</translation>
+      <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality).</source>
+      <translation type="unfinished">Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality).</translation>
     </message>
   </context>
   <context>
@@ -5531,27 +5013,6 @@
     <message>
       <source>Magnetic heading</source>
       <translation type="unfinished">Magnetic heading</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_MAG_TYPE/values/2/description</name>
-    <message>
-      <source>3-axis</source>
-      <translation type="unfinished">3-axis</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_MAG_TYPE/values/3/description</name>
-    <message>
-      <source>VTOL custom</source>
-      <translation type="unfinished">VTOL custom</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/EKF2_MAG_TYPE/values/4/description</name>
-    <message>
-      <source>MC custom</source>
-      <translation type="unfinished">MC custom</translation>
     </message>
   </context>
   <context>
@@ -5585,8 +5046,8 @@
   <context>
     <name>/parameters/EKF2_MCOEF/longDesc</name>
     <message>
-      <source>This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_AID_MASK parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.</source>
-      <translation type="unfinished">This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_AID_MASK parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.</translation>
+      <source>This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.</source>
+      <translation type="unfinished">This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.</translation>
     </message>
   </context>
   <context>
@@ -5643,6 +5104,34 @@
     <message>
       <source>Maximum lapsed time from last fusion of measurements that constrain velocity drift before the EKF will report the horizontal nav solution as invalid</source>
       <translation type="unfinished">Maximum lapsed time from last fusion of measurements that constrain velocity drift before the EKF will report the horizontal nav solution as invalid</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_OF_CTRL/shortDesc</name>
+    <message>
+      <source>Optical flow aiding</source>
+      <translation type="unfinished">Optical flow aiding</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_OF_CTRL/longDesc</name>
+    <message>
+      <source>Enable optical flow fusion.</source>
+      <translation type="unfinished">Enable optical flow fusion.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_OF_CTRL/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_OF_CTRL/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
     </message>
   </context>
   <context>
@@ -5718,8 +5207,15 @@
   <context>
     <name>/parameters/EKF2_OF_QMIN/shortDesc</name>
     <message>
-      <source>Optical Flow data will only be used if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</source>
-      <translation type="unfinished">Optical Flow data will only be used if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</translation>
+      <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</source>
+      <translation type="unfinished">Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_OF_QMIN_GND/shortDesc</name>
+    <message>
+      <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND</source>
+      <translation type="unfinished">Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND</translation>
     </message>
   </context>
   <context>
@@ -5879,8 +5375,8 @@
   <context>
     <name>/parameters/EKF2_RNG_A_HMAX/longDesc</name>
     <message>
-      <source>If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate it's height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
-      <translation type="unfinished">If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate it's height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</translation>
+      <source>If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
+      <translation type="unfinished">If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</translation>
     </message>
   </context>
   <context>
@@ -5907,8 +5403,8 @@
   <context>
     <name>/parameters/EKF2_RNG_A_VMAX/longDesc</name>
     <message>
-      <source>If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate it's height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
-      <translation type="unfinished">If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate it's height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</translation>
+      <source>If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
+      <translation type="unfinished">If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</translation>
     </message>
   </context>
   <context>
@@ -5921,8 +5417,8 @@
   <context>
     <name>/parameters/EKF2_RNG_CTRL/longDesc</name>
     <message>
-      <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. To en-/disable range finder for terrain height estimation, use EKF2_TERR_MASK instead. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate it's height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
-      <translation type="unfinished">WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. To en-/disable range finder for terrain height estimation, use EKF2_TERR_MASK instead. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate it's height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</translation>
+      <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. To en-/disable range finder for terrain height estimation, use EKF2_TERR_MASK instead. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
+      <translation type="unfinished">WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. To en-/disable range finder for terrain height estimation, use EKF2_TERR_MASK instead. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</translation>
     </message>
   </context>
   <context>
@@ -6297,34 +5793,6 @@
     </message>
   </context>
   <context>
-    <name>/parameters/FW_ARSP_MODE/shortDesc</name>
-    <message>
-      <source>Airspeed mode</source>
-      <translation type="unfinished">Airspeed mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_ARSP_MODE/longDesc</name>
-    <message>
-      <source>On vehicles without airspeed sensor this parameter can be used to enable flying without an airspeed reading</source>
-      <translation type="unfinished">On vehicles without airspeed sensor this parameter can be used to enable flying without an airspeed reading</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_ARSP_MODE/values/0/description</name>
-    <message>
-      <source>Use airspeed in controller</source>
-      <translation type="unfinished">Use airspeed in controller</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_ARSP_MODE/values/1/description</name>
-    <message>
-      <source>Do not use airspeed in controller</source>
-      <translation type="unfinished">Do not use airspeed in controller</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/FW_MAN_P_MAX/shortDesc</name>
     <message>
       <source>Maximum manual pitch angle</source>
@@ -6334,22 +5802,8 @@
   <context>
     <name>/parameters/FW_MAN_P_MAX/longDesc</name>
     <message>
-      <source>Maximum manual pitch angle setpoint (positive &amp; negative) in manual attitude-only stabilized mode</source>
-      <translation type="unfinished">Maximum manual pitch angle setpoint (positive &amp; negative) in manual attitude-only stabilized mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_MAN_P_SC/shortDesc</name>
-    <message>
-      <source>Manual pitch scale</source>
-      <translation type="unfinished">Manual pitch scale</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_MAN_P_SC/longDesc</name>
-    <message>
-      <source>Scale factor applied to the desired pitch actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</source>
-      <translation type="unfinished">Scale factor applied to the desired pitch actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</translation>
+      <source>Applies to both directions in all manual modes with attitude stabilization but without altitude control</source>
+      <translation type="unfinished">Applies to both directions in all manual modes with attitude stabilization but without altitude control</translation>
     </message>
   </context>
   <context>
@@ -6362,22 +5816,8 @@
   <context>
     <name>/parameters/FW_MAN_R_MAX/longDesc</name>
     <message>
-      <source>Maximum manual roll angle setpoint (positive &amp; negative) in manual attitude-only stabilized mode</source>
-      <translation type="unfinished">Maximum manual roll angle setpoint (positive &amp; negative) in manual attitude-only stabilized mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_MAN_R_SC/shortDesc</name>
-    <message>
-      <source>Manual roll scale</source>
-      <translation type="unfinished">Manual roll scale</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_MAN_R_SC/longDesc</name>
-    <message>
-      <source>Scale factor applied to the desired roll actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</source>
-      <translation type="unfinished">Scale factor applied to the desired roll actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</translation>
+      <source>Applies to both directions in all manual modes with attitude stabilization</source>
+      <translation type="unfinished">Applies to both directions in all manual modes with attitude stabilization</translation>
     </message>
   </context>
   <context>
@@ -6390,22 +5830,8 @@
   <context>
     <name>/parameters/FW_MAN_YR_MAX/longDesc</name>
     <message>
-      <source>This is the maximally added yaw rate setpoint from the yaw stick in any attitude controlled flight mode. The controller already generates a yaw rate setpoint to coordinate a turn, and this value is added to it. This is an absolute value, which is applied symmetrically to the negative and positive side.</source>
-      <translation type="unfinished">This is the maximally added yaw rate setpoint from the yaw stick in any attitude controlled flight mode. The controller already generates a yaw rate setpoint to coordinate a turn, and this value is added to it. This is an absolute value, which is applied symmetrically to the negative and positive side.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_MAN_Y_SC/shortDesc</name>
-    <message>
-      <source>Manual yaw scale</source>
-      <translation type="unfinished">Manual yaw scale</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_MAN_Y_SC/longDesc</name>
-    <message>
-      <source>Scale factor applied to the desired yaw actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</source>
-      <translation type="unfinished">Scale factor applied to the desired yaw actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</translation>
+      <source>This is the maximally added yaw rate setpoint from the yaw stick in any attitude controlled flight mode. It is added to the yaw rate setpoint generated by the controller for turn coordination.</source>
+      <translation type="unfinished">This is the maximally added yaw rate setpoint from the yaw stick in any attitude controlled flight mode. It is added to the yaw rate setpoint generated by the controller for turn coordination.</translation>
     </message>
   </context>
   <context>
@@ -6446,22 +5872,8 @@
   <context>
     <name>/parameters/FW_P_TC/longDesc</name>
     <message>
-      <source>This defines the latency between a pitch step input and the achieved setpoint (inverse to a P gain). Half a second is a good start value and fits for most average systems. Smaller systems may require smaller values, but as this will wear out servos faster, the value should only be decreased as needed.</source>
-      <translation type="unfinished">This defines the latency between a pitch step input and the achieved setpoint (inverse to a P gain). Half a second is a good start value and fits for most average systems. Smaller systems may require smaller values, but as this will wear out servos faster, the value should only be decreased as needed.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_RLL_TO_YAW_FF/shortDesc</name>
-    <message>
-      <source>Roll control to yaw control feedforward gain</source>
-      <translation type="unfinished">Roll control to yaw control feedforward gain</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_RLL_TO_YAW_FF/longDesc</name>
-    <message>
-      <source>This gain can be used to counteract the "adverse yaw" effect for fixed wings. When the plane enters a roll it will tend to yaw the nose out of the turn. This gain enables the use of a yaw actuator to counteract this effect.</source>
-      <translation type="unfinished">This gain can be used to counteract the "adverse yaw" effect for fixed wings. When the plane enters a roll it will tend to yaw the nose out of the turn. This gain enables the use of a yaw actuator to counteract this effect.</translation>
+      <source>This defines the latency between a pitch step input and the achieved setpoint (inverse to a P gain). Smaller systems may require smaller values.</source>
+      <translation type="unfinished">This defines the latency between a pitch step input and the achieved setpoint (inverse to a P gain). Smaller systems may require smaller values.</translation>
     </message>
   </context>
   <context>
@@ -6481,8 +5893,8 @@
   <context>
     <name>/parameters/FW_R_TC/longDesc</name>
     <message>
-      <source>This defines the latency between a roll step input and the achieved setpoint (inverse to a P gain). Half a second is a good start value and fits for most average systems. Smaller systems may require smaller values, but as this will wear out servos faster, the value should only be decreased as needed.</source>
-      <translation type="unfinished">This defines the latency between a roll step input and the achieved setpoint (inverse to a P gain). Half a second is a good start value and fits for most average systems. Smaller systems may require smaller values, but as this will wear out servos faster, the value should only be decreased as needed.</translation>
+      <source>This defines the latency between a roll step input and the achieved setpoint (inverse to a P gain). Smaller systems may require smaller values.</source>
+      <translation type="unfinished">This defines the latency between a roll step input and the achieved setpoint (inverse to a P gain). Smaller systems may require smaller values.</translation>
     </message>
   </context>
   <context>
@@ -6500,52 +5912,10 @@
     </message>
   </context>
   <context>
-    <name>/parameters/FW_SPOILERS_MAN/shortDesc</name>
-    <message>
-      <source>Spoiler input in manual flight</source>
-      <translation type="unfinished">Spoiler input in manual flight</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_SPOILERS_MAN/longDesc</name>
-    <message>
-      <source>Chose source for manual setting of spoilers in manual flight modes.</source>
-      <translation type="unfinished">Chose source for manual setting of spoilers in manual flight modes.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_SPOILERS_MAN/values/0/description</name>
-    <message>
-      <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_SPOILERS_MAN/values/1/description</name>
-    <message>
-      <source>Flaps channel</source>
-      <translation type="unfinished">Flaps channel</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_SPOILERS_MAN/values/2/description</name>
-    <message>
-      <source>Aux1</source>
-      <translation type="unfinished">Aux1</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/FW_WR_FF/shortDesc</name>
     <message>
       <source>Wheel steering rate feed forward</source>
       <translation type="unfinished">Wheel steering rate feed forward</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_WR_FF/longDesc</name>
-    <message>
-      <source>Direct feed forward from rate setpoint to control surface output</source>
-      <translation type="unfinished">Direct feed forward from rate setpoint to control surface output</translation>
     </message>
   </context>
   <context>
@@ -6567,13 +5937,6 @@
     <message>
       <source>Wheel steering rate integrator limit</source>
       <translation type="unfinished">Wheel steering rate integrator limit</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_WR_IMAX/longDesc</name>
-    <message>
-      <source>The portion of the integrator part in the control surface deflection is limited to this value</source>
-      <translation type="unfinished">The portion of the integrator part in the control surface deflection is limited to this value</translation>
     </message>
   </context>
   <context>
@@ -6705,8 +6068,8 @@
   <context>
     <name>/parameters/FW_LND_EARLYCFG/longDesc</name>
     <message>
-      <source>When disabled, the landing configuration (flaps, landing airspeed, etc.) is only activated on the final approach to landing. When enabled, it is already activated when entering the final loiter-down (loiter-to-alt) waypoint before the landing approach. This shifts the (often large) altitude and airspeed errors caused by the configuration change away from the ground such that these are not so critical. It also gives the controller enough time to adapt to the new configuration such that the landing approach starts with a cleaner initial state.</source>
-      <translation type="unfinished">When disabled, the landing configuration (flaps, landing airspeed, etc.) is only activated on the final approach to landing. When enabled, it is already activated when entering the final loiter-down (loiter-to-alt) waypoint before the landing approach. This shifts the (often large) altitude and airspeed errors caused by the configuration change away from the ground such that these are not so critical. It also gives the controller enough time to adapt to the new configuration such that the landing approach starts with a cleaner initial state.</translation>
+      <source>When disabled, the landing configuration (flaps, landing airspeed, etc.) is only activated on the final approach to landing. When enabled, it is already activated when entering the final loiter-down (loiter-to-alt) waypoint before the landing approach.</source>
+      <translation type="unfinished">When disabled, the landing configuration (flaps, landing airspeed, etc.) is only activated on the final approach to landing. When enabled, it is already activated when entering the final loiter-down (loiter-to-alt) waypoint before the landing approach.</translation>
     </message>
   </context>
   <context>
@@ -6957,15 +6320,15 @@
   <context>
     <name>/parameters/FW_LAUN_DETCN_ON/shortDesc</name>
     <message>
-      <source>FW Launch detection</source>
-      <translation type="unfinished">FW Launch detection</translation>
+      <source>Fixed-wing launch detection</source>
+      <translation type="unfinished">Fixed-wing launch detection</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LAUN_DETCN_ON/longDesc</name>
     <message>
-      <source>Enables automatic launch detection based on measured acceleration. Use for hand- or catapult-launched vehicles. Only available for fixed-wing vehicles. Not compatible with runway takeoff.</source>
-      <translation type="unfinished">Enables automatic launch detection based on measured acceleration. Use for hand- or catapult-launched vehicles. Only available for fixed-wing vehicles. Not compatible with runway takeoff.</translation>
+      <source>Enables automatic launch detection based on measured acceleration. Use for hand- or catapult-launched vehicles. Not compatible with runway takeoff.</source>
+      <translation type="unfinished">Enables automatic launch detection based on measured acceleration. Use for hand- or catapult-launched vehicles. Not compatible with runway takeoff.</translation>
     </message>
   </context>
   <context>
@@ -7270,17 +6633,206 @@
     </message>
   </context>
   <context>
-    <name>/parameters/FW_ACRO_X_MAX/shortDesc</name>
+    <name>/parameters/FW_AIRSPD_MAX/shortDesc</name>
     <message>
-      <source>Acro body x max rate</source>
-      <translation type="unfinished">Acro body x max rate</translation>
+      <source>Maximum Airspeed (CAS)</source>
+      <translation type="unfinished">Maximum Airspeed (CAS)</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/FW_ACRO_X_MAX/longDesc</name>
+    <name>/parameters/FW_AIRSPD_MAX/longDesc</name>
     <message>
-      <source>This is the rate the controller is trying to achieve if the user applies full roll stick input in acro mode.</source>
-      <translation type="unfinished">This is the rate the controller is trying to achieve if the user applies full roll stick input in acro mode.</translation>
+      <source>The maximal airspeed (calibrated airspeed) the user is able to command.</source>
+      <translation type="unfinished">The maximal airspeed (calibrated airspeed) the user is able to command.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_AIRSPD_MIN/shortDesc</name>
+    <message>
+      <source>Minimum Airspeed (CAS)</source>
+      <translation type="unfinished">Minimum Airspeed (CAS)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_AIRSPD_MIN/longDesc</name>
+    <message>
+      <source>The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Has to be set according to the vehicle's stall speed (which should be set in FW_AIRSPD_STALL), with some margin between the stall speed and minimum airspeed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
+      <translation type="unfinished">The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Has to be set according to the vehicle's stall speed (which should be set in FW_AIRSPD_STALL), with some margin between the stall speed and minimum airspeed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_AIRSPD_STALL/shortDesc</name>
+    <message>
+      <source>Stall Airspeed (CAS)</source>
+      <translation type="unfinished">Stall Airspeed (CAS)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_AIRSPD_STALL/longDesc</name>
+    <message>
+      <source>The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.</source>
+      <translation type="unfinished">The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_AIRSPD_TRIM/shortDesc</name>
+    <message>
+      <source>Trim (Cruise) Airspeed</source>
+      <translation type="unfinished">Trim (Cruise) Airspeed</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_AIRSPD_TRIM/longDesc</name>
+    <message>
+      <source>The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve. This value corresponds to the trim airspeed with the default load factor (level flight, default weight).</source>
+      <translation type="unfinished">The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve. This value corresponds to the trim airspeed with the default load factor (level flight, default weight).</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_SERVICE_CEIL/shortDesc</name>
+    <message>
+      <source>Service ceiling</source>
+      <translation type="unfinished">Service ceiling</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_SERVICE_CEIL/longDesc</name>
+    <message>
+      <source>Altitude in standard atmosphere at which the vehicle in normal configuration (WEIGHT_BASE) is still able to achieve a maximum climb rate of 0.5m/s at maximum throttle (FW_THR_MAX). Used to compensate for air density in FW_T_CLMB_MAX. Set negative to disable.</source>
+      <translation type="unfinished">Altitude in standard atmosphere at which the vehicle in normal configuration (WEIGHT_BASE) is still able to achieve a maximum climb rate of 0.5m/s at maximum throttle (FW_THR_MAX). Used to compensate for air density in FW_T_CLMB_MAX. Set negative to disable.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_THR_ASPD_MAX/shortDesc</name>
+    <message>
+      <source>Throttle at max airspeed</source>
+      <translation type="unfinished">Throttle at max airspeed</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_THR_ASPD_MAX/longDesc</name>
+    <message>
+      <source>Required throttle (at sea level, standard atmosphere) for level flight at maximum airspeed FW_AIRSPD_MAX Set to 0 to disable mapping of airspeed to trim throttle.</source>
+      <translation type="unfinished">Required throttle (at sea level, standard atmosphere) for level flight at maximum airspeed FW_AIRSPD_MAX Set to 0 to disable mapping of airspeed to trim throttle.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_THR_ASPD_MIN/shortDesc</name>
+    <message>
+      <source>Throttle at min airspeed</source>
+      <translation type="unfinished">Throttle at min airspeed</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_THR_ASPD_MIN/longDesc</name>
+    <message>
+      <source>Required throttle (at sea level, standard atmosphere) for level flight at minimum airspeed FW_AIRSPD_MIN Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</source>
+      <translation type="unfinished">Required throttle (at sea level, standard atmosphere) for level flight at minimum airspeed FW_AIRSPD_MIN Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_THR_TRIM/shortDesc</name>
+    <message>
+      <source>Trim throttle</source>
+      <translation type="unfinished">Trim throttle</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_THR_TRIM/longDesc</name>
+    <message>
+      <source>Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM</source>
+      <translation type="unfinished">Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_T_CLMB_MAX/shortDesc</name>
+    <message>
+      <source>Maximum climb rate</source>
+      <translation type="unfinished">Maximum climb rate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_T_CLMB_MAX/longDesc</name>
+    <message>
+      <source>This is the maximum calibrated climb rate that the aircraft can achieve with the throttle set to FW_THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</source>
+      <translation type="unfinished">This is the maximum calibrated climb rate that the aircraft can achieve with the throttle set to FW_THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_T_SINK_MIN/shortDesc</name>
+    <message>
+      <source>Minimum descent rate</source>
+      <translation type="unfinished">Minimum descent rate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_T_SINK_MIN/longDesc</name>
+    <message>
+      <source>This is the minimum calibrated sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</source>
+      <translation type="unfinished">This is the minimum calibrated sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/WEIGHT_BASE/shortDesc</name>
+    <message>
+      <source>Vehicle base weight</source>
+      <translation type="unfinished">Vehicle base weight</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/WEIGHT_BASE/longDesc</name>
+    <message>
+      <source>This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
+      <translation type="unfinished">This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/WEIGHT_GROSS/shortDesc</name>
+    <message>
+      <source>Vehicle gross weight</source>
+      <translation type="unfinished">Vehicle gross weight</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/WEIGHT_GROSS/longDesc</name>
+    <message>
+      <source>This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
+      <translation type="unfinished">This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_ACRO_X_MAX/shortDesc</name>
+    <message>
+      <source>Acro body roll max rate setpoint</source>
+      <translation type="unfinished">Acro body roll max rate setpoint</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_ACRO_YAW_EN/shortDesc</name>
+    <message>
+      <source>Enable yaw rate controller in Acro</source>
+      <translation type="unfinished">Enable yaw rate controller in Acro</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_ACRO_YAW_EN/longDesc</name>
+    <message>
+      <source>If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.</source>
+      <translation type="unfinished">If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_ACRO_YAW_EN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_ACRO_YAW_EN/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
     </message>
   </context>
   <context>
@@ -7295,6 +6847,34 @@
     <message>
       <source>Acro body yaw max rate setpoint</source>
       <translation type="unfinished">Acro body yaw max rate setpoint</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_ARSP_MODE/shortDesc</name>
+    <message>
+      <source>Airspeed mode</source>
+      <translation type="unfinished">Airspeed mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_ARSP_MODE/longDesc</name>
+    <message>
+      <source>On vehicles without airspeed sensor this parameter can be used to enable flying without an airspeed reading</source>
+      <translation type="unfinished">On vehicles without airspeed sensor this parameter can be used to enable flying without an airspeed reading</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_ARSP_MODE/values/0/description</name>
+    <message>
+      <source>Use airspeed in controller</source>
+      <translation type="unfinished">Use airspeed in controller</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_ARSP_MODE/values/1/description</name>
+    <message>
+      <source>Do not use airspeed in controller</source>
+      <translation type="unfinished">Do not use airspeed in controller</translation>
     </message>
   </context>
   <context>
@@ -7466,6 +7046,48 @@
     </message>
   </context>
   <context>
+    <name>/parameters/FW_MAN_P_SC/shortDesc</name>
+    <message>
+      <source>Manual pitch scale</source>
+      <translation type="unfinished">Manual pitch scale</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_MAN_P_SC/longDesc</name>
+    <message>
+      <source>Scale factor applied to the desired pitch actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</source>
+      <translation type="unfinished">Scale factor applied to the desired pitch actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_MAN_R_SC/shortDesc</name>
+    <message>
+      <source>Manual roll scale</source>
+      <translation type="unfinished">Manual roll scale</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_MAN_R_SC/longDesc</name>
+    <message>
+      <source>Scale factor applied to the desired roll actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</source>
+      <translation type="unfinished">Scale factor applied to the desired roll actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_MAN_Y_SC/shortDesc</name>
+    <message>
+      <source>Manual yaw scale</source>
+      <translation type="unfinished">Manual yaw scale</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_MAN_Y_SC/longDesc</name>
+    <message>
+      <source>Scale factor applied to the desired yaw actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</source>
+      <translation type="unfinished">Scale factor applied to the desired yaw actuator command in full manual mode. This parameter allows to adjust the throws of the control surfaces.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/FW_PR_D/shortDesc</name>
     <message>
       <source>Pitch rate derivative gain</source>
@@ -7501,24 +7123,10 @@
     </message>
   </context>
   <context>
-    <name>/parameters/FW_PR_I/longDesc</name>
-    <message>
-      <source>This gain defines how much control response will result out of a steady state error. It trims any constant error.</source>
-      <translation type="unfinished">This gain defines how much control response will result out of a steady state error. It trims any constant error.</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/FW_PR_IMAX/shortDesc</name>
     <message>
       <source>Pitch rate integrator limit</source>
       <translation type="unfinished">Pitch rate integrator limit</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_PR_IMAX/longDesc</name>
-    <message>
-      <source>The portion of the integrator part in the control surface deflection is limited to this value</source>
-      <translation type="unfinished">The portion of the integrator part in the control surface deflection is limited to this value</translation>
     </message>
   </context>
   <context>
@@ -7529,17 +7137,24 @@
     </message>
   </context>
   <context>
-    <name>/parameters/FW_RR_D/shortDesc</name>
+    <name>/parameters/FW_RLL_TO_YAW_FF/shortDesc</name>
     <message>
-      <source>Roll rate derivative Gain</source>
-      <translation type="unfinished">Roll rate derivative Gain</translation>
+      <source>Roll control to yaw control feedforward gain</source>
+      <translation type="unfinished">Roll control to yaw control feedforward gain</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/FW_RR_D/longDesc</name>
+    <name>/parameters/FW_RLL_TO_YAW_FF/longDesc</name>
     <message>
-      <source>Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
-      <translation type="unfinished">Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</translation>
+      <source>This gain can be used to counteract the "adverse yaw" effect for fixed wings. When the plane enters a roll it will tend to yaw the nose out of the turn. This gain enables the use of a yaw actuator to counteract this effect.</source>
+      <translation type="unfinished">This gain can be used to counteract the "adverse yaw" effect for fixed wings. When the plane enters a roll it will tend to yaw the nose out of the turn. This gain enables the use of a yaw actuator to counteract this effect.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_RR_D/shortDesc</name>
+    <message>
+      <source>Roll rate derivative gain</source>
+      <translation type="unfinished">Roll rate derivative gain</translation>
     </message>
   </context>
   <context>
@@ -7552,43 +7167,64 @@
   <context>
     <name>/parameters/FW_RR_FF/longDesc</name>
     <message>
-      <source>Direct feed forward from rate setpoint to control surface output. Use this to obtain a tigher response of the controller without introducing noise amplification.</source>
-      <translation type="unfinished">Direct feed forward from rate setpoint to control surface output. Use this to obtain a tigher response of the controller without introducing noise amplification.</translation>
+      <source>Direct feed forward from rate setpoint to control surface output.</source>
+      <translation type="unfinished">Direct feed forward from rate setpoint to control surface output.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_RR_I/shortDesc</name>
     <message>
-      <source>Roll rate integrator Gain</source>
-      <translation type="unfinished">Roll rate integrator Gain</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_RR_I/longDesc</name>
-    <message>
-      <source>This gain defines how much control response will result out of a steady state error. It trims any constant error.</source>
-      <translation type="unfinished">This gain defines how much control response will result out of a steady state error. It trims any constant error.</translation>
+      <source>Roll rate integrator gain</source>
+      <translation type="unfinished">Roll rate integrator gain</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_RR_IMAX/shortDesc</name>
     <message>
-      <source>Roll integrator anti-windup</source>
-      <translation type="unfinished">Roll integrator anti-windup</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_RR_IMAX/longDesc</name>
-    <message>
-      <source>The portion of the integrator part in the control surface deflection is limited to this value.</source>
-      <translation type="unfinished">The portion of the integrator part in the control surface deflection is limited to this value.</translation>
+      <source>Roll integrator limit</source>
+      <translation type="unfinished">Roll integrator limit</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_RR_P/shortDesc</name>
     <message>
-      <source>Roll rate proportional Gain</source>
-      <translation type="unfinished">Roll rate proportional Gain</translation>
+      <source>Roll rate proportional gain</source>
+      <translation type="unfinished">Roll rate proportional gain</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_SPOILERS_MAN/shortDesc</name>
+    <message>
+      <source>Spoiler input in manual flight</source>
+      <translation type="unfinished">Spoiler input in manual flight</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_SPOILERS_MAN/longDesc</name>
+    <message>
+      <source>Chose source for manual setting of spoilers in manual flight modes.</source>
+      <translation type="unfinished">Chose source for manual setting of spoilers in manual flight modes.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_SPOILERS_MAN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_SPOILERS_MAN/values/1/description</name>
+    <message>
+      <source>Flaps channel</source>
+      <translation type="unfinished">Flaps channel</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/FW_SPOILERS_MAN/values/2/description</name>
+    <message>
+      <source>Aux1</source>
+      <translation type="unfinished">Aux1</translation>
     </message>
   </context>
   <context>
@@ -7596,13 +7232,6 @@
     <message>
       <source>Yaw rate derivative gain</source>
       <translation type="unfinished">Yaw rate derivative gain</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_YR_D/longDesc</name>
-    <message>
-      <source>Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
-      <translation type="unfinished">Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</translation>
     </message>
   </context>
   <context>
@@ -7627,13 +7256,6 @@
     </message>
   </context>
   <context>
-    <name>/parameters/FW_YR_I/longDesc</name>
-    <message>
-      <source>This gain defines how much control response will result out of a steady state error. It trims any constant error.</source>
-      <translation type="unfinished">This gain defines how much control response will result out of a steady state error. It trims any constant error.</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/FW_YR_IMAX/shortDesc</name>
     <message>
       <source>Yaw rate integrator limit</source>
@@ -7641,73 +7263,10 @@
     </message>
   </context>
   <context>
-    <name>/parameters/FW_YR_IMAX/longDesc</name>
-    <message>
-      <source>The portion of the integrator part in the control surface deflection is limited to this value</source>
-      <translation type="unfinished">The portion of the integrator part in the control surface deflection is limited to this value</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/FW_YR_P/shortDesc</name>
     <message>
       <source>Yaw rate proportional gain</source>
       <translation type="unfinished">Yaw rate proportional gain</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_AIRSPD_MAX/shortDesc</name>
-    <message>
-      <source>Maximum Airspeed (CAS)</source>
-      <translation type="unfinished">Maximum Airspeed (CAS)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_AIRSPD_MAX/longDesc</name>
-    <message>
-      <source>The maximal airspeed (calibrated airspeed) the user is able to command.</source>
-      <translation type="unfinished">The maximal airspeed (calibrated airspeed) the user is able to command.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_AIRSPD_MIN/shortDesc</name>
-    <message>
-      <source>Minimum Airspeed (CAS)</source>
-      <translation type="unfinished">Minimum Airspeed (CAS)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_AIRSPD_MIN/longDesc</name>
-    <message>
-      <source>The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Has to be set according to the vehicle's stall speed (which should be set in FW_AIRSPD_STALL), with some margin between the stall speed and minimum airspeed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
-      <translation type="unfinished">The minimal airspeed (calibrated airspeed) the user is able to command. Further, if the airspeed falls below this value, the TECS controller will try to increase airspeed more aggressively. Has to be set according to the vehicle's stall speed (which should be set in FW_AIRSPD_STALL), with some margin between the stall speed and minimum airspeed. This value corresponds to the desired minimum speed with the default load factor (level flight, default weight), and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_AIRSPD_STALL/shortDesc</name>
-    <message>
-      <source>Stall Airspeed (CAS)</source>
-      <translation type="unfinished">Stall Airspeed (CAS)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_AIRSPD_STALL/longDesc</name>
-    <message>
-      <source>The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.</source>
-      <translation type="unfinished">The stall airspeed (calibrated airspeed) of the vehicle. It is used for airspeed sensor failure detection and for the control surface scaling airspeed limits.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_AIRSPD_TRIM/shortDesc</name>
-    <message>
-      <source>Trim (Cruise) Airspeed</source>
-      <translation type="unfinished">Trim (Cruise) Airspeed</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_AIRSPD_TRIM/longDesc</name>
-    <message>
-      <source>The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve.</source>
-      <translation type="unfinished">The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active, this is the default airspeed setpoint that the controller will try to achieve.</translation>
     </message>
   </context>
   <context>
@@ -7776,8 +7335,8 @@
   <context>
     <name>/parameters/FW_THR_MAX/longDesc</name>
     <message>
-      <source>This is the maximum throttle % that can be used by the controller. For overpowered aircraft, this should be reduced to a value that provides sufficient thrust to climb at the maximum pitch angle PTCH_MAX.</source>
-      <translation type="unfinished">This is the maximum throttle % that can be used by the controller. For overpowered aircraft, this should be reduced to a value that provides sufficient thrust to climb at the maximum pitch angle PTCH_MAX.</translation>
+      <source>Maximum throttle limit in altitude controlled modes. Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
+      <translation type="unfinished">Maximum throttle limit in altitude controlled modes. Should be set accordingly to achieve FW_T_CLMB_MAX.</translation>
     </message>
   </context>
   <context>
@@ -7790,8 +7349,8 @@
   <context>
     <name>/parameters/FW_THR_MIN/longDesc</name>
     <message>
-      <source>This is the minimum throttle % that can be used by the controller. For electric aircraft this will normally be set to zero, but can be set to a small non-zero value if a folding prop is fitted to prevent the prop from folding and unfolding repeatedly in-flight or to provide some aerodynamic drag from a turning prop to improve the descent rate. For aircraft with internal combustion engine this parameter should be set for desired idle rpm.</source>
-      <translation type="unfinished">This is the minimum throttle % that can be used by the controller. For electric aircraft this will normally be set to zero, but can be set to a small non-zero value if a folding prop is fitted to prevent the prop from folding and unfolding repeatedly in-flight or to provide some aerodynamic drag from a turning prop to improve the descent rate. For aircraft with internal combustion engine this parameter should be set for desired idle rpm.</translation>
+      <source>Minimum throttle limit in altitude controlled modes. Usually set to 0 but can be increased to prevent the motor from stopping when descending, which can increase achievable descent rates. For aircraft with internal combustion engine this parameter should be set for desired idle rpm.</source>
+      <translation type="unfinished">Minimum throttle limit in altitude controlled modes. Usually set to 0 but can be increased to prevent the motor from stopping when descending, which can increase achievable descent rates. For aircraft with internal combustion engine this parameter should be set for desired idle rpm.</translation>
     </message>
   </context>
   <context>
@@ -7806,20 +7365,6 @@
     <message>
       <source>Maximum slew rate for the commanded throttle</source>
       <translation type="unfinished">Maximum slew rate for the commanded throttle</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_THR_TRIM/shortDesc</name>
-    <message>
-      <source>Trim throttle</source>
-      <translation type="unfinished">Trim throttle</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_THR_TRIM/longDesc</name>
-    <message>
-      <source>This is the throttle setting required to achieve FW_AIRSPD_TRIM during level flight.</source>
-      <translation type="unfinished">This is the throttle setting required to achieve FW_AIRSPD_TRIM during level flight.</translation>
     </message>
   </context>
   <context>
@@ -7841,20 +7386,6 @@
     <message>
       <source>Altitude error time constant</source>
       <translation type="unfinished">Altitude error time constant</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_T_CLMB_MAX/shortDesc</name>
-    <message>
-      <source>Maximum climb rate</source>
-      <translation type="unfinished">Maximum climb rate</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_T_CLMB_MAX/longDesc</name>
-    <message>
-      <source>This is the maximum climb rate that the aircraft can achieve with the throttle set to THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</source>
-      <translation type="unfinished">This is the maximum climb rate that the aircraft can achieve with the throttle set to THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</translation>
     </message>
   </context>
   <context>
@@ -7953,20 +7484,6 @@
     <message>
       <source>This sets the maximum descent rate that the controller will use. If this value is too large, the aircraft can over-speed on descent. This should be set to a value that can be achieved without exceeding the lower pitch angle limit and without over-speeding the aircraft.</source>
       <translation type="unfinished">This sets the maximum descent rate that the controller will use. If this value is too large, the aircraft can over-speed on descent. This should be set to a value that can be achieved without exceeding the lower pitch angle limit and without over-speeding the aircraft.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_T_SINK_MIN/shortDesc</name>
-    <message>
-      <source>Minimum descent rate</source>
-      <translation type="unfinished">Minimum descent rate</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/FW_T_SINK_MIN/longDesc</name>
-    <message>
-      <source>This is the sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</source>
-      <translation type="unfinished">This is the sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</translation>
     </message>
   </context>
   <context>
@@ -8098,8 +7615,8 @@
   <context>
     <name>/parameters/FW_WIND_ARSP_SC/longDesc</name>
     <message>
-      <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind. Only applies to AUTO flight mode. airspeed_min_adjusted = FW_AIRSPD_MIN + FW_WIND_ARSP_SC * wind.length()</source>
-      <translation type="unfinished">Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind. Only applies to AUTO flight mode. airspeed_min_adjusted = FW_AIRSPD_MIN + FW_WIND_ARSP_SC * wind.length()</translation>
+      <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind. Only applies to AUTO flight mode.</source>
+      <translation type="unfinished">Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind. Only applies to AUTO flight mode.</translation>
     </message>
   </context>
   <context>
@@ -8537,6 +8054,13 @@
     </message>
   </context>
   <context>
+    <name>/parameters/GPS_1_PROTOCOL/values/7/description</name>
+    <message>
+      <source>Septentrio (SBF)</source>
+      <translation type="unfinished">Septentrio (SBF)</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/GPS_2_GNSS/shortDesc</name>
     <message>
       <source>GNSS Systems for Secondary GPS (integer bitmask)</source>
@@ -8681,6 +8205,20 @@
     <message>
       <source>RTCM output (PPK)</source>
       <translation type="unfinished">RTCM output (PPK)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/GPS_PITCH_OFFSET/shortDesc</name>
+    <message>
+      <source>Pitch offset for dual antenna GPS</source>
+      <translation type="unfinished">Pitch offset for dual antenna GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/GPS_PITCH_OFFSET/longDesc</name>
+    <message>
+      <source>Vertical offsets can be compensated for by adjusting the Pitch offset (Septentrio). Note that this can be interpreted as the "roll" angle in case the antennas are aligned along the perpendicular axis. This occurs in situations where the two antenna ARPs may not be exactly at the same height in the vehicle reference frame. Since pitch is defined as the right-handed rotation about the vehicle Y axis, a situation where the main antenna is mounted lower than the aux antenna (assuming the default antenna setup) will result in a positive pitch.</source>
+      <translation type="unfinished">Vertical offsets can be compensated for by adjusting the Pitch offset (Septentrio). Note that this can be interpreted as the "roll" angle in case the antennas are aligned along the perpendicular axis. This occurs in situations where the two antenna ARPs may not be exactly at the same height in the vehicle reference frame. Since pitch is defined as the right-handed rotation about the vehicle Y axis, a situation where the main antenna is mounted lower than the aux antenna (assuming the default antenna setup) will result in a positive pitch.</translation>
     </message>
   </context>
   <context>
@@ -8978,87 +8516,45 @@
     </message>
   </context>
   <context>
-    <name>/parameters/GF_ALTMODE/shortDesc</name>
-    <message>
-      <source>Geofence altitude mode</source>
-      <translation type="unfinished">Geofence altitude mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/GF_ALTMODE/longDesc</name>
-    <message>
-      <source>Select which altitude (AMSL) source should be used for geofence calculations.</source>
-      <translation type="unfinished">Select which altitude (AMSL) source should be used for geofence calculations.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/GF_ALTMODE/values/0/description</name>
-    <message>
-      <source>Autopilot estimator global position altitude (GPS)</source>
-      <translation type="unfinished">Autopilot estimator global position altitude (GPS)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/GF_ALTMODE/values/1/description</name>
-    <message>
-      <source>Raw barometer altitude (assuming standard atmospheric pressure)</source>
-      <translation type="unfinished">Raw barometer altitude (assuming standard atmospheric pressure)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/GF_COUNT/shortDesc</name>
-    <message>
-      <source>Geofence counter limit</source>
-      <translation type="unfinished">Geofence counter limit</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/GF_COUNT/longDesc</name>
-    <message>
-      <source>Set how many subsequent position measurements outside of the fence are needed before geofence violation is triggered</source>
-      <translation type="unfinished">Set how many subsequent position measurements outside of the fence are needed before geofence violation is triggered</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/GF_MAX_HOR_DIST/shortDesc</name>
     <message>
-      <source>Max horizontal distance in meters</source>
-      <translation type="unfinished">Max horizontal distance in meters</translation>
+      <source>Max horizontal distance from Home</source>
+      <translation type="unfinished">Max horizontal distance from Home</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GF_MAX_HOR_DIST/longDesc</name>
     <message>
-      <source>Maximum horizontal distance in meters the vehicle can be from home before triggering a geofence action. Disabled if 0.</source>
-      <translation type="unfinished">Maximum horizontal distance in meters the vehicle can be from home before triggering a geofence action. Disabled if 0.</translation>
+      <source>Maximum horizontal distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</source>
+      <translation type="unfinished">Maximum horizontal distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GF_MAX_VER_DIST/shortDesc</name>
     <message>
-      <source>Max vertical distance in meters</source>
-      <translation type="unfinished">Max vertical distance in meters</translation>
+      <source>Max vertical distance from Home</source>
+      <translation type="unfinished">Max vertical distance from Home</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GF_MAX_VER_DIST/longDesc</name>
     <message>
-      <source>Maximum vertical distance in meters the vehicle can be from home before triggering a geofence action. Disabled if 0.</source>
-      <translation type="unfinished">Maximum vertical distance in meters the vehicle can be from home before triggering a geofence action. Disabled if 0.</translation>
+      <source>Maximum vertical distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</source>
+      <translation type="unfinished">Maximum vertical distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GF_PREDICT/shortDesc</name>
     <message>
-      <source>Use Pre-emptive geofence triggering</source>
-      <translation type="unfinished">Use Pre-emptive geofence triggering</translation>
+      <source>[EXPERIMENTAL] Use Pre-emptive geofence triggering</source>
+      <translation type="unfinished">[EXPERIMENTAL] Use Pre-emptive geofence triggering</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GF_PREDICT/longDesc</name>
     <message>
-      <source>Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</source>
-      <translation type="unfinished">Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</translation>
+      <source>WARNING: This experimental feature may cause flyaways. Use at your own risk. Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</source>
+      <translation type="unfinished">WARNING: This experimental feature may cause flyaways. Use at your own risk. Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</translation>
     </message>
   </context>
   <context>
@@ -9300,20 +8796,6 @@
     </message>
   </context>
   <context>
-    <name>/parameters/LNDMC_ALT_MAX/shortDesc</name>
-    <message>
-      <source>Maximum altitude for multicopters</source>
-      <translation type="unfinished">Maximum altitude for multicopters</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LNDMC_ALT_MAX/longDesc</name>
-    <message>
-      <source>The system will obey this limit as a hard altitude limit. This setting will be consolidated with the GF_MAX_VER_DIST parameter. A negative value indicates no altitude limitation.</source>
-      <translation type="unfinished">The system will obey this limit as a hard altitude limit. This setting will be consolidated with the GF_MAX_VER_DIST parameter. A negative value indicates no altitude limitation.</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/LNDMC_ROT_MAX/shortDesc</name>
     <message>
       <source>Multicopter max rotation</source>
@@ -9395,97 +8877,6 @@
     <message>
       <source>Total flight time of this autopilot. Lower 32 bits of the value. Flight time in microseconds = (LND_FLIGHT_T_HI &lt;&lt; 32) | LND_FLIGHT_T_LO.</source>
       <translation type="unfinished">Total flight time of this autopilot. Lower 32 bits of the value. Flight time in microseconds = (LND_FLIGHT_T_HI &lt;&lt; 32) | LND_FLIGHT_T_LO.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_POS_X/shortDesc</name>
-    <message>
-      <source>X Position of IRLOCK in body frame (forward)</source>
-      <translation type="unfinished">X Position of IRLOCK in body frame (forward)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_POS_Y/shortDesc</name>
-    <message>
-      <source>Y Position of IRLOCK in body frame (right)</source>
-      <translation type="unfinished">Y Position of IRLOCK in body frame (right)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_POS_Z/shortDesc</name>
-    <message>
-      <source>Z Position of IRLOCK in body frame (downward)</source>
-      <translation type="unfinished">Z Position of IRLOCK in body frame (downward)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/shortDesc</name>
-    <message>
-      <source>Rotation of IRLOCK sensor relative to airframe</source>
-      <translation type="unfinished">Rotation of IRLOCK sensor relative to airframe</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/longDesc</name>
-    <message>
-      <source>Default orientation of Yaw 90°</source>
-      <translation type="unfinished">Default orientation of Yaw 90°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/0/description</name>
-    <message>
-      <source>No rotation</source>
-      <translation type="unfinished">No rotation</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/1/description</name>
-    <message>
-      <source>Yaw 45°</source>
-      <translation type="unfinished">Yaw 45°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/2/description</name>
-    <message>
-      <source>Yaw 90°</source>
-      <translation type="unfinished">Yaw 90°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/3/description</name>
-    <message>
-      <source>Yaw 135°</source>
-      <translation type="unfinished">Yaw 135°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/4/description</name>
-    <message>
-      <source>Yaw 180°</source>
-      <translation type="unfinished">Yaw 180°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/5/description</name>
-    <message>
-      <source>Yaw 225°</source>
-      <translation type="unfinished">Yaw 225°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/6/description</name>
-    <message>
-      <source>Yaw 270°</source>
-      <translation type="unfinished">Yaw 270°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/7/description</name>
-    <message>
-      <source>Yaw 315°</source>
-      <translation type="unfinished">Yaw 315°</translation>
     </message>
   </context>
   <context>
@@ -9584,6 +8975,97 @@
     <message>
       <source>Landing target y measurements are scaled by this factor before being used</source>
       <translation type="unfinished">Landing target y measurements are scaled by this factor before being used</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_POS_X/shortDesc</name>
+    <message>
+      <source>X Position of IRLOCK in body frame (forward)</source>
+      <translation type="unfinished">X Position of IRLOCK in body frame (forward)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_POS_Y/shortDesc</name>
+    <message>
+      <source>Y Position of IRLOCK in body frame (right)</source>
+      <translation type="unfinished">Y Position of IRLOCK in body frame (right)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_POS_Z/shortDesc</name>
+    <message>
+      <source>Z Position of IRLOCK in body frame (downward)</source>
+      <translation type="unfinished">Z Position of IRLOCK in body frame (downward)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/shortDesc</name>
+    <message>
+      <source>Rotation of IRLOCK sensor relative to airframe</source>
+      <translation type="unfinished">Rotation of IRLOCK sensor relative to airframe</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/longDesc</name>
+    <message>
+      <source>Default orientation of Yaw 90°</source>
+      <translation type="unfinished">Default orientation of Yaw 90°</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/values/0/description</name>
+    <message>
+      <source>No rotation</source>
+      <translation type="unfinished">No rotation</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/values/1/description</name>
+    <message>
+      <source>Yaw 45°</source>
+      <translation type="unfinished">Yaw 45°</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/values/2/description</name>
+    <message>
+      <source>Yaw 90°</source>
+      <translation type="unfinished">Yaw 90°</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/values/3/description</name>
+    <message>
+      <source>Yaw 135°</source>
+      <translation type="unfinished">Yaw 135°</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/values/4/description</name>
+    <message>
+      <source>Yaw 180°</source>
+      <translation type="unfinished">Yaw 180°</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/values/5/description</name>
+    <message>
+      <source>Yaw 225°</source>
+      <translation type="unfinished">Yaw 225°</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/values/6/description</name>
+    <message>
+      <source>Yaw 270°</source>
+      <translation type="unfinished">Yaw 270°</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/LTEST_SENS_ROT/values/7/description</name>
+    <message>
+      <source>Yaw 315°</source>
+      <translation type="unfinished">Yaw 315°</translation>
     </message>
   </context>
   <context>
@@ -10630,6 +10112,20 @@
     </message>
   </context>
   <context>
+    <name>/parameters/MAN_KILL_GEST_T/shortDesc</name>
+    <message>
+      <source>Trigger time for kill stick gesture</source>
+      <translation type="unfinished">Trigger time for kill stick gesture</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MAN_KILL_GEST_T/longDesc</name>
+    <message>
+      <source>The timeout for holding the left stick to the lower left and the right stick to the lower right at the same time until the gesture kills the actuators one-way. A negative value disables the feature.</source>
+      <translation type="unfinished">The timeout for holding the left stick to the lower left and the right stick to the lower right at the same time until the gesture kills the actuators one-way. A negative value disables the feature.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/FW_GPSF_LT/shortDesc</name>
     <message>
       <source>GPS failure loiter time</source>
@@ -10723,15 +10219,15 @@
   <context>
     <name>/parameters/MIS_TAKEOFF_ALT/shortDesc</name>
     <message>
-      <source>Take-off altitude</source>
-      <translation type="unfinished">Take-off altitude</translation>
+      <source>Default take-off altitude</source>
+      <translation type="unfinished">Default take-off altitude</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MIS_TAKEOFF_ALT/longDesc</name>
     <message>
-      <source>This is the minimum altitude the system will take off to.</source>
-      <translation type="unfinished">This is the minimum altitude the system will take off to.</translation>
+      <source>This is the relative altitude the system will take off to if not otherwise specified.</source>
+      <translation type="unfinished">This is the relative altitude the system will take off to if not otherwise specified.</translation>
     </message>
   </context>
   <context>
@@ -10807,15 +10303,8 @@
   <context>
     <name>/parameters/MPC_YAW_MODE/shortDesc</name>
     <message>
-      <source>Yaw mode</source>
-      <translation type="unfinished">Yaw mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MPC_YAW_MODE/longDesc</name>
-    <message>
-      <source>Specifies the heading in Auto.</source>
-      <translation type="unfinished">Specifies the heading in Auto.</translation>
+      <source>Heading behavior in autonomous modes</source>
+      <translation type="unfinished">Heading behavior in autonomous modes</translation>
     </message>
   </context>
   <context>
@@ -10926,8 +10415,8 @@
   <context>
     <name>/parameters/NAV_LOITER_RAD/longDesc</name>
     <message>
-      <source>Default value of loiter radius for missions, Hold mode, Return mode, etc. (fixedwing only).</source>
-      <translation type="unfinished">Default value of loiter radius for missions, Hold mode, Return mode, etc. (fixedwing only).</translation>
+      <source>Default value of loiter radius in FW mode (e.g. for Loiter mode).</source>
+      <translation type="unfinished">Default value of loiter radius in FW mode (e.g. for Loiter mode).</translation>
     </message>
   </context>
   <context>
@@ -11040,34 +10529,6 @@
     <message>
       <source>Minimum acceptable time until collsion. Assumes constant speed over 3d distance.</source>
       <translation type="unfinished">Minimum acceptable time until collsion. Assumes constant speed over 3d distance.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/WEIGHT_BASE/shortDesc</name>
-    <message>
-      <source>Vehicle base weight</source>
-      <translation type="unfinished">Vehicle base weight</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/WEIGHT_BASE/longDesc</name>
-    <message>
-      <source>This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
-      <translation type="unfinished">This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/WEIGHT_GROSS/shortDesc</name>
-    <message>
-      <source>Vehicle gross weight</source>
-      <translation type="unfinished">Vehicle gross weight</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/WEIGHT_GROSS/longDesc</name>
-    <message>
-      <source>This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
-      <translation type="unfinished">This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</translation>
     </message>
   </context>
   <context>
@@ -11533,6 +10994,104 @@
     </message>
   </context>
   <context>
+    <name>/parameters/MC_ACRO_EXPO/shortDesc</name>
+    <message>
+      <source>Acro mode roll, pitch expo factor</source>
+      <translation type="unfinished">Acro mode roll, pitch expo factor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_EXPO/longDesc</name>
+    <message>
+      <source>Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</source>
+      <translation type="unfinished">Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_EXPO_Y/shortDesc</name>
+    <message>
+      <source>Acro mode yaw expo factor</source>
+      <translation type="unfinished">Acro mode yaw expo factor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_EXPO_Y/longDesc</name>
+    <message>
+      <source>Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</source>
+      <translation type="unfinished">Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_P_MAX/shortDesc</name>
+    <message>
+      <source>Acro mode maximum pitch rate</source>
+      <translation type="unfinished">Acro mode maximum pitch rate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_P_MAX/longDesc</name>
+    <message>
+      <source>Full stick deflection leads to this rate.</source>
+      <translation type="unfinished">Full stick deflection leads to this rate.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_R_MAX/shortDesc</name>
+    <message>
+      <source>Acro mode maximum roll rate</source>
+      <translation type="unfinished">Acro mode maximum roll rate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_R_MAX/longDesc</name>
+    <message>
+      <source>Full stick deflection leads to this rate.</source>
+      <translation type="unfinished">Full stick deflection leads to this rate.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_SUPEXPO/shortDesc</name>
+    <message>
+      <source>Acro mode roll, pitch super expo factor</source>
+      <translation type="unfinished">Acro mode roll, pitch super expo factor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_SUPEXPO/longDesc</name>
+    <message>
+      <source>"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</source>
+      <translation type="unfinished">"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_SUPEXPOY/shortDesc</name>
+    <message>
+      <source>Acro mode yaw super expo factor</source>
+      <translation type="unfinished">Acro mode yaw super expo factor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_SUPEXPOY/longDesc</name>
+    <message>
+      <source>"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO_Y. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</source>
+      <translation type="unfinished">"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO_Y. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_Y_MAX/shortDesc</name>
+    <message>
+      <source>Acro mode maximum yaw rate</source>
+      <translation type="unfinished">Acro mode maximum yaw rate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MC_ACRO_Y_MAX/longDesc</name>
+    <message>
+      <source>Full stick deflection leads to this rate.</source>
+      <translation type="unfinished">Full stick deflection leads to this rate.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/MC_PITCHRATE_MAX/shortDesc</name>
     <message>
       <source>Max pitch rate</source>
@@ -11626,15 +11185,15 @@
   <context>
     <name>/parameters/MPC_YAWRAUTO_MAX/shortDesc</name>
     <message>
-      <source>Max yaw rate in auto mode</source>
-      <translation type="unfinished">Max yaw rate in auto mode</translation>
+      <source>Max yaw rate in autonomous modes</source>
+      <translation type="unfinished">Max yaw rate in autonomous modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_YAWRAUTO_MAX/longDesc</name>
     <message>
-      <source>Limit the rate of change of the yaw setpoint in autonomous mode to avoid large control output and mixer saturation.</source>
-      <translation type="unfinished">Limit the rate of change of the yaw setpoint in autonomous mode to avoid large control output and mixer saturation.</translation>
+      <source>Limits the rate of change of the yaw setpoint to avoid large control output and mixer saturation.</source>
+      <translation type="unfinished">Limits the rate of change of the yaw setpoint to avoid large control output and mixer saturation.</translation>
     </message>
   </context>
   <context>
@@ -11724,50 +11283,50 @@
   <context>
     <name>/parameters/MPC_ACC_DOWN_MAX/shortDesc</name>
     <message>
-      <source>Maximum vertical acceleration in velocity controlled modes down</source>
-      <translation type="unfinished">Maximum vertical acceleration in velocity controlled modes down</translation>
+      <source>Maximum downwards acceleration in climb rate controlled modes</source>
+      <translation type="unfinished">Maximum downwards acceleration in climb rate controlled modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_ACC_HOR/shortDesc</name>
     <message>
-      <source>Acceleration for auto and for manual</source>
-      <translation type="unfinished">Acceleration for auto and for manual</translation>
+      <source>Acceleration for autonomous and for manual modes</source>
+      <translation type="unfinished">Acceleration for autonomous and for manual modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_ACC_HOR/longDesc</name>
     <message>
-      <source>Note: In manual, this parameter is only used in MPC_POS_MODE 4.</source>
-      <translation type="unfinished">Note: In manual, this parameter is only used in MPC_POS_MODE 4.</translation>
+      <source>When piloting manually, this parameter is only used in MPC_POS_MODE 4.</source>
+      <translation type="unfinished">When piloting manually, this parameter is only used in MPC_POS_MODE 4.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_ACC_HOR_MAX/shortDesc</name>
     <message>
-      <source>Maximum horizontal acceleration for auto mode and for manual mode</source>
-      <translation type="unfinished">Maximum horizontal acceleration for auto mode and for manual mode</translation>
+      <source>Maximum horizontal acceleration</source>
+      <translation type="unfinished">Maximum horizontal acceleration</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_ACC_HOR_MAX/longDesc</name>
     <message>
-      <source>MPC_POS_MODE 1 just deceleration 3 acceleration and deceleration 4 just acceleration</source>
-      <translation type="unfinished">MPC_POS_MODE 1 just deceleration 3 acceleration and deceleration 4 just acceleration</translation>
+      <source>MPC_POS_MODE 1 just deceleration 3 acceleration and deceleration 4 not used, use MPC_ACC_HOR instead</source>
+      <translation type="unfinished">MPC_POS_MODE 1 just deceleration 3 acceleration and deceleration 4 not used, use MPC_ACC_HOR instead</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_ACC_UP_MAX/shortDesc</name>
     <message>
-      <source>Maximum vertical acceleration in velocity controlled modes upward</source>
-      <translation type="unfinished">Maximum vertical acceleration in velocity controlled modes upward</translation>
+      <source>Maximum upwards acceleration in climb rate controlled modes</source>
+      <translation type="unfinished">Maximum upwards acceleration in climb rate controlled modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_ALT_MODE/shortDesc</name>
     <message>
-      <source>Altitude control mode</source>
-      <translation type="unfinished">Altitude control mode</translation>
+      <source>Altitude reference mode</source>
+      <translation type="unfinished">Altitude reference mode</translation>
     </message>
   </context>
   <context>
@@ -11801,8 +11360,15 @@
   <context>
     <name>/parameters/MPC_HOLD_DZ/shortDesc</name>
     <message>
-      <source>Deadzone of sticks where position hold is enabled</source>
-      <translation type="unfinished">Deadzone of sticks where position hold is enabled</translation>
+      <source>Deadzone for sticks in manual piloted modes</source>
+      <translation type="unfinished">Deadzone for sticks in manual piloted modes</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MPC_HOLD_DZ/longDesc</name>
+    <message>
+      <source>Does not apply to manual throttle and direct attitude piloting by stick.</source>
+      <translation type="unfinished">Does not apply to manual throttle and direct attitude piloting by stick.</translation>
     </message>
   </context>
   <context>
@@ -11813,6 +11379,13 @@
     </message>
   </context>
   <context>
+    <name>/parameters/MPC_HOLD_MAX_XY/longDesc</name>
+    <message>
+      <source>Only used with MPC_POS_MODE 0 or MPC_ALT_MODE 2</source>
+      <translation type="unfinished">Only used with MPC_POS_MODE 0 or MPC_ALT_MODE 2</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/MPC_HOLD_MAX_Z/shortDesc</name>
     <message>
       <source>Maximum vertical velocity for which position hold is enabled (use 0 to disable check)</source>
@@ -11820,31 +11393,38 @@
     </message>
   </context>
   <context>
+    <name>/parameters/MPC_HOLD_MAX_Z/longDesc</name>
+    <message>
+      <source>Only used with MPC_ALT_MODE 1</source>
+      <translation type="unfinished">Only used with MPC_ALT_MODE 1</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/MPC_JERK_AUTO/shortDesc</name>
     <message>
-      <source>Jerk limit in auto mode</source>
-      <translation type="unfinished">Jerk limit in auto mode</translation>
+      <source>Jerk limit in autonomous modes</source>
+      <translation type="unfinished">Jerk limit in autonomous modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_JERK_AUTO/longDesc</name>
     <message>
-      <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions, but it also limits its agility.</source>
-      <translation type="unfinished">Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions, but it also limits its agility.</translation>
+      <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions but also limited agility.</source>
+      <translation type="unfinished">Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions but also limited agility.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_JERK_MAX/shortDesc</name>
     <message>
-      <source>Maximum jerk limit</source>
-      <translation type="unfinished">Maximum jerk limit</translation>
+      <source>Maximum horizontal and vertical jerk in Position/Altitude mode</source>
+      <translation type="unfinished">Maximum horizontal and vertical jerk in Position/Altitude mode</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_JERK_MAX/longDesc</name>
     <message>
-      <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions, but it also limits its agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Note: This is only used when MPC_POS_MODE is set to a smoothing mode 3 or 4.</source>
-      <translation type="unfinished">Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother vehicle motions, but it also limits its agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Note: This is only used when MPC_POS_MODE is set to a smoothing mode 3 or 4.</translation>
+      <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother motions but limits agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Only used with smooth MPC_POS_MODE 3 and 4.</source>
+      <translation type="unfinished">Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother motions but limits agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Only used with smooth MPC_POS_MODE 3 and 4.</translation>
     </message>
   </context>
   <context>
@@ -11913,36 +11493,36 @@
   <context>
     <name>/parameters/MPC_LAND_RADIUS/longDesc</name>
     <message>
-      <source>When user assisted descent is enabled (see MPC_LAND_RC_HELP), this parameter controls the maximum position adjustment allowed from the original landing point.</source>
-      <translation type="unfinished">When user assisted descent is enabled (see MPC_LAND_RC_HELP), this parameter controls the maximum position adjustment allowed from the original landing point.</translation>
+      <source>When nudging is enabled (see MPC_LAND_RC_HELP), this controls the maximum allowed horizontal displacement from the original landing point.</source>
+      <translation type="unfinished">When nudging is enabled (see MPC_LAND_RC_HELP), this controls the maximum allowed horizontal displacement from the original landing point.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_LAND_RC_HELP/shortDesc</name>
     <message>
-      <source>Enable user assisted descent for autonomous land routine</source>
-      <translation type="unfinished">Enable user assisted descent for autonomous land routine</translation>
+      <source>Enable nudging based on user input during autonomous land routine</source>
+      <translation type="unfinished">Enable nudging based on user input during autonomous land routine</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_LAND_RC_HELP/longDesc</name>
     <message>
-      <source>When enabled, descent speed will be: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Additionally, the vehicle can be yawed and moved laterally using the other sticks. Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</source>
-      <translation type="unfinished">When enabled, descent speed will be: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Additionally, the vehicle can be yawed and moved laterally using the other sticks. Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</translation>
+      <source>Using stick input the vehicle can be moved horizontally and yawed. The descend speed is amended: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</source>
+      <translation type="unfinished">Using stick input the vehicle can be moved horizontally and yawed. The descend speed is amended: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_LAND_RC_HELP/values/0/description</name>
     <message>
-      <source>Fixed descent speed of MPC_LAND_SPEED</source>
-      <translation type="unfinished">Fixed descent speed of MPC_LAND_SPEED</translation>
+      <source>Nudging disabled</source>
+      <translation type="unfinished">Nudging disabled</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_LAND_RC_HELP/values/1/description</name>
     <message>
-      <source>User assisted descent speed</source>
-      <translation type="unfinished">User assisted descent speed</translation>
+      <source>Nudging enabled</source>
+      <translation type="unfinished">Nudging enabled</translation>
     </message>
   </context>
   <context>
@@ -11955,29 +11535,29 @@
   <context>
     <name>/parameters/MPC_MANTHR_MIN/shortDesc</name>
     <message>
-      <source>Minimum manual thrust</source>
-      <translation type="unfinished">Minimum manual thrust</translation>
+      <source>Minimum collective thrust in Stabilized mode</source>
+      <translation type="unfinished">Minimum collective thrust in Stabilized mode</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_MANTHR_MIN/longDesc</name>
     <message>
-      <source>Minimum vertical thrust. It's recommended to set it &gt; 0 to avoid free fall with zero thrust. With MC_AIRMODE set to 1, this can safely be set to 0.</source>
-      <translation type="unfinished">Minimum vertical thrust. It's recommended to set it &gt; 0 to avoid free fall with zero thrust. With MC_AIRMODE set to 1, this can safely be set to 0.</translation>
+      <source>The value is mapped to the lowest throttle stick position in Stabilized mode. Too low collective thrust leads to loss of roll/pitch/yaw torque control authority. Airmode is used to keep torque authority with zero thrust (see MC_AIRMODE).</source>
+      <translation type="unfinished">The value is mapped to the lowest throttle stick position in Stabilized mode. Too low collective thrust leads to loss of roll/pitch/yaw torque control authority. Airmode is used to keep torque authority with zero thrust (see MC_AIRMODE).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_MAN_TILT_MAX/shortDesc</name>
     <message>
-      <source>Maximal tilt angle in manual or altitude mode</source>
-      <translation type="unfinished">Maximal tilt angle in manual or altitude mode</translation>
+      <source>Maximal tilt angle in Stabilized or Altitude mode</source>
+      <translation type="unfinished">Maximal tilt angle in Stabilized or Altitude mode</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_MAN_Y_MAX/shortDesc</name>
     <message>
-      <source>Max manual yaw rate</source>
-      <translation type="unfinished">Max manual yaw rate</translation>
+      <source>Max manual yaw rate for Stabilized, Altitude, Position mode</source>
+      <translation type="unfinished">Max manual yaw rate for Stabilized, Altitude, Position mode</translation>
     </message>
   </context>
   <context>
@@ -11990,57 +11570,57 @@
   <context>
     <name>/parameters/MPC_MAN_Y_TAU/longDesc</name>
     <message>
-      <source>Setting this parameter to 0 disables the filter</source>
-      <translation type="unfinished">Setting this parameter to 0 disables the filter</translation>
+      <source>Not used in Stabilized mode Setting this parameter to 0 disables the filter</source>
+      <translation type="unfinished">Not used in Stabilized mode Setting this parameter to 0 disables the filter</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_POS_MODE/shortDesc</name>
     <message>
-      <source>Manual-Position control sub-mode</source>
-      <translation type="unfinished">Manual-Position control sub-mode</translation>
+      <source>Position/Altitude mode variant</source>
+      <translation type="unfinished">Position/Altitude mode variant</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_POS_MODE/longDesc</name>
     <message>
-      <source>The supported sub-modes are: 0 Simple position control where sticks map directly to velocity setpoints without smoothing. Useful for velocity control tuning. 3 Smooth position control with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). 4 Smooth position control where sticks map to acceleration and there's a virtual brake drag</source>
-      <translation type="unfinished">The supported sub-modes are: 0 Simple position control where sticks map directly to velocity setpoints without smoothing. Useful for velocity control tuning. 3 Smooth position control with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). 4 Smooth position control where sticks map to acceleration and there's a virtual brake drag</translation>
+      <source>The supported sub-modes are: 0 Sticks directly map to velocity setpoints without smoothing. Also applies to vertical direction and Altitude mode. Useful for velocity control tuning. 3 Sticks map to velocity but with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). 4 Sticks map to acceleration and there's a virtual brake drag</source>
+      <translation type="unfinished">The supported sub-modes are: 0 Sticks directly map to velocity setpoints without smoothing. Also applies to vertical direction and Altitude mode. Useful for velocity control tuning. 3 Sticks map to velocity but with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). 4 Sticks map to acceleration and there's a virtual brake drag</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_POS_MODE/values/0/description</name>
     <message>
-      <source>Simple position control</source>
-      <translation type="unfinished">Simple position control</translation>
+      <source>Direct velocity</source>
+      <translation type="unfinished">Direct velocity</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_POS_MODE/values/3/description</name>
     <message>
-      <source>Smooth position control (Jerk optimized)</source>
-      <translation type="unfinished">Smooth position control (Jerk optimized)</translation>
+      <source>Smoothed velocity</source>
+      <translation type="unfinished">Smoothed velocity</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_POS_MODE/values/4/description</name>
     <message>
-      <source>Acceleration based input</source>
-      <translation type="unfinished">Acceleration based input</translation>
+      <source>Acceleration based</source>
+      <translation type="unfinished">Acceleration based</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_THR_CURVE/shortDesc</name>
     <message>
-      <source>Thrust curve in Manual Mode</source>
-      <translation type="unfinished">Thrust curve in Manual Mode</translation>
+      <source>Thrust curve mapping in Stabilized Mode</source>
+      <translation type="unfinished">Thrust curve mapping in Stabilized Mode</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_THR_CURVE/longDesc</name>
     <message>
-      <source>This parameter defines how the throttle stick input is mapped to commanded thrust in Manual/Stabilized flight mode. In case the default is used ('Rescale to hover thrust'), the stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). Select 'No Rescale' to directly map the stick 1:1 to the output. This can be useful in case the hover thrust is very low and the default would lead to too much distortion (e.g. if hover thrust is set to 20%, 80% of the upper thrust range is squeezed into the upper half of the stick range). Note: In case MPC_THR_HOVER is set to 50%, the modes 0 and 1 are the same.</source>
-      <translation type="unfinished">This parameter defines how the throttle stick input is mapped to commanded thrust in Manual/Stabilized flight mode. In case the default is used ('Rescale to hover thrust'), the stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). Select 'No Rescale' to directly map the stick 1:1 to the output. This can be useful in case the hover thrust is very low and the default would lead to too much distortion (e.g. if hover thrust is set to 20%, 80% of the upper thrust range is squeezed into the upper half of the stick range). Note: In case MPC_THR_HOVER is set to 50%, the modes 0 and 1 are the same.</translation>
+      <source>This parameter defines how the throttle stick input is mapped to collective thrust in Stabilized mode. In case the default is used ('Rescale to hover thrust'), the stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). Select 'No Rescale' to directly map the stick 1:1 to the output. This can be useful in case the hover thrust is very low and the default would lead to too much distortion (e.g. if hover thrust is set to 20%, then 80% of the upper thrust range is squeezed into the upper half of the stick range). Note: In case MPC_THR_HOVER is set to 50%, the modes 0 and 1 are the same.</source>
+      <translation type="unfinished">This parameter defines how the throttle stick input is mapped to collective thrust in Stabilized mode. In case the default is used ('Rescale to hover thrust'), the stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). Select 'No Rescale' to directly map the stick 1:1 to the output. This can be useful in case the hover thrust is very low and the default would lead to too much distortion (e.g. if hover thrust is set to 20%, then 80% of the upper thrust range is squeezed into the upper half of the stick range). Note: In case MPC_THR_HOVER is set to 50%, the modes 0 and 1 are the same.</translation>
     </message>
   </context>
   <context>
@@ -12060,43 +11640,43 @@
   <context>
     <name>/parameters/MPC_THR_HOVER/shortDesc</name>
     <message>
-      <source>Hover thrust</source>
-      <translation type="unfinished">Hover thrust</translation>
+      <source>Vertical thrust required to hover</source>
+      <translation type="unfinished">Vertical thrust required to hover</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_THR_HOVER/longDesc</name>
     <message>
-      <source>Vertical thrust required to hover. This value is mapped to center stick for manual throttle control. With this value set to the thrust required to hover, transition from manual to Altitude or Position mode while hovering will occur with the throttle stick near center, which is then interpreted as (near) zero demand for vertical speed. This parameter is also important for the landing detection to work correctly.</source>
-      <translation type="unfinished">Vertical thrust required to hover. This value is mapped to center stick for manual throttle control. With this value set to the thrust required to hover, transition from manual to Altitude or Position mode while hovering will occur with the throttle stick near center, which is then interpreted as (near) zero demand for vertical speed. This parameter is also important for the landing detection to work correctly.</translation>
+      <source>Mapped to center throttle stick in Stabilized mode (see MPC_THR_CURVE). Used for initialization of the hover thrust estimator (see MPC_USE_HTE). The estimated hover thrust is used as base for zero vertical acceleration in altitude control. The hover thrust is important for land detection to work correctly.</source>
+      <translation type="unfinished">Mapped to center throttle stick in Stabilized mode (see MPC_THR_CURVE). Used for initialization of the hover thrust estimator (see MPC_USE_HTE). The estimated hover thrust is used as base for zero vertical acceleration in altitude control. The hover thrust is important for land detection to work correctly.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_THR_MAX/shortDesc</name>
     <message>
-      <source>Maximum thrust in auto thrust control</source>
-      <translation type="unfinished">Maximum thrust in auto thrust control</translation>
+      <source>Maximum collective thrust in climb rate controlled modes</source>
+      <translation type="unfinished">Maximum collective thrust in climb rate controlled modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_THR_MAX/longDesc</name>
     <message>
-      <source>Limit max allowed thrust</source>
-      <translation type="unfinished">Limit max allowed thrust</translation>
+      <source>Limit allowed thrust e.g. for indoor test of overpowered vehicle.</source>
+      <translation type="unfinished">Limit allowed thrust e.g. for indoor test of overpowered vehicle.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_THR_MIN/shortDesc</name>
     <message>
-      <source>Minimum collective thrust in auto thrust control</source>
-      <translation type="unfinished">Minimum collective thrust in auto thrust control</translation>
+      <source>Minimum collective thrust in climb rate controlled modes</source>
+      <translation type="unfinished">Minimum collective thrust in climb rate controlled modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_THR_MIN/longDesc</name>
     <message>
-      <source>It's recommended to set it &gt; 0 to avoid free fall with zero thrust. Note: Without airmode zero thrust leads to zero roll/pitch control authority. (see MC_AIRMODE)</source>
-      <translation type="unfinished">It's recommended to set it &gt; 0 to avoid free fall with zero thrust. Note: Without airmode zero thrust leads to zero roll/pitch control authority. (see MC_AIRMODE)</translation>
+      <source>Too low thrust leads to loss of roll/pitch/yaw torque control authority. With airmode enabled this parameters can be set to 0 while still keeping torque authority (see MC_AIRMODE).</source>
+      <translation type="unfinished">Too low thrust leads to loss of roll/pitch/yaw torque control authority. With airmode enabled this parameters can be set to 0 while still keeping torque authority (see MC_AIRMODE).</translation>
     </message>
   </context>
   <context>
@@ -12109,8 +11689,8 @@
   <context>
     <name>/parameters/MPC_THR_XY_MARG/longDesc</name>
     <message>
-      <source>Margin that is kept for horizontal control when prioritizing vertical thrust. To avoid completely starving horizontal control with high vertical error.</source>
-      <translation type="unfinished">Margin that is kept for horizontal control when prioritizing vertical thrust. To avoid completely starving horizontal control with high vertical error.</translation>
+      <source>Margin that is kept for horizontal control when higher priority vertical thrust is saturated. To avoid completely starving horizontal control with high vertical error.</source>
+      <translation type="unfinished">Margin that is kept for horizontal control when higher priority vertical thrust is saturated. To avoid completely starving horizontal control with high vertical error.</translation>
     </message>
   </context>
   <context>
@@ -12123,36 +11703,36 @@
   <context>
     <name>/parameters/MPC_TILTMAX_AIR/longDesc</name>
     <message>
-      <source>Limits maximum tilt in AUTO and POSCTRL modes during flight.</source>
-      <translation type="unfinished">Limits maximum tilt in AUTO and POSCTRL modes during flight.</translation>
+      <source>Absolute maximum for all velocity or acceleration controlled modes. Any higher value is truncated.</source>
+      <translation type="unfinished">Absolute maximum for all velocity or acceleration controlled modes. Any higher value is truncated.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_TILTMAX_LND/shortDesc</name>
     <message>
-      <source>Maximum tilt during landing</source>
-      <translation type="unfinished">Maximum tilt during landing</translation>
+      <source>Maximum tilt during inital takeoff ramp</source>
+      <translation type="unfinished">Maximum tilt during inital takeoff ramp</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_TILTMAX_LND/longDesc</name>
     <message>
-      <source>Limits maximum tilt angle on landing.</source>
-      <translation type="unfinished">Limits maximum tilt angle on landing.</translation>
+      <source>Tighter tilt limit during takeoff to avoid tip over.</source>
+      <translation type="unfinished">Tighter tilt limit during takeoff to avoid tip over.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_TKO_RAMP_T/shortDesc</name>
     <message>
-      <source>Position control smooth takeoff ramp time constant</source>
-      <translation type="unfinished">Position control smooth takeoff ramp time constant</translation>
+      <source>Smooth takeoff ramp time constant</source>
+      <translation type="unfinished">Smooth takeoff ramp time constant</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_TKO_RAMP_T/longDesc</name>
     <message>
-      <source>Increasing this value will make automatic and manual takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</source>
-      <translation type="unfinished">Increasing this value will make automatic and manual takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</translation>
+      <source>Increasing this value will make climb rate controlled takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</source>
+      <translation type="unfinished">Increasing this value will make climb rate controlled takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</translation>
     </message>
   </context>
   <context>
@@ -12165,15 +11745,15 @@
   <context>
     <name>/parameters/MPC_USE_HTE/shortDesc</name>
     <message>
-      <source>Hover thrust source selector</source>
-      <translation type="unfinished">Hover thrust source selector</translation>
+      <source>Hover thrust estimator</source>
+      <translation type="unfinished">Hover thrust estimator</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_USE_HTE/longDesc</name>
     <message>
-      <source>Set false to use the fixed parameter MPC_THR_HOVER Set true to use the value computed by the hover thrust estimator</source>
-      <translation type="unfinished">Set false to use the fixed parameter MPC_THR_HOVER Set true to use the value computed by the hover thrust estimator</translation>
+      <source>Disable to use the fixed parameter MPC_THR_HOVER Enable to use the hover thrust estimator</source>
+      <translation type="unfinished">Disable to use the fixed parameter MPC_THR_HOVER Enable to use the hover thrust estimator</translation>
     </message>
   </context>
   <context>
@@ -12193,8 +11773,8 @@
   <context>
     <name>/parameters/MPC_VELD_LP/shortDesc</name>
     <message>
-      <source>Low pass filter cut freq. for numerical velocity derivative</source>
-      <translation type="unfinished">Low pass filter cut freq. for numerical velocity derivative</translation>
+      <source>Numerical velocity derivative low pass cutoff frequency</source>
+      <translation type="unfinished">Numerical velocity derivative low pass cutoff frequency</translation>
     </message>
   </context>
   <context>
@@ -12207,8 +11787,8 @@
   <context>
     <name>/parameters/MPC_VEL_MANUAL/longDesc</name>
     <message>
-      <source>If velocity setpoint larger than MPC_XY_VEL_MAX is set, then the setpoint will be capped to MPC_XY_VEL_MAX The maximum sideways and backward speed can be set differently using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.</source>
-      <translation type="unfinished">If velocity setpoint larger than MPC_XY_VEL_MAX is set, then the setpoint will be capped to MPC_XY_VEL_MAX The maximum sideways and backward speed can be set differently using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.</translation>
+      <source>Must be smaller than MPC_XY_VEL_MAX. The maximum sideways and backward speed can be set differently using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.</source>
+      <translation type="unfinished">Must be smaller than MPC_XY_VEL_MAX. The maximum sideways and backward speed can be set differently using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.</translation>
     </message>
   </context>
   <context>
@@ -12242,15 +11822,15 @@
   <context>
     <name>/parameters/MPC_XY_CRUISE/shortDesc</name>
     <message>
-      <source>Default horizontal velocity in mission</source>
-      <translation type="unfinished">Default horizontal velocity in mission</translation>
+      <source>Default horizontal velocity in autonomous modes</source>
+      <translation type="unfinished">Default horizontal velocity in autonomous modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_XY_CRUISE/longDesc</name>
     <message>
-      <source>Horizontal velocity used when flying autonomously in e.g. Missions, RTL, Goto.</source>
-      <translation type="unfinished">Horizontal velocity used when flying autonomously in e.g. Missions, RTL, Goto.</translation>
+      <source>e.g. in Missions, RTL, Goto if the waypoint does not specify differently</source>
+      <translation type="unfinished">e.g. in Missions, RTL, Goto if the waypoint does not specify differently</translation>
     </message>
   </context>
   <context>
@@ -12277,8 +11857,8 @@
   <context>
     <name>/parameters/MPC_XY_MAN_EXPO/longDesc</name>
     <message>
-      <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve</source>
-      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve</translation>
+      <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
+      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</translation>
     </message>
   </context>
   <context>
@@ -12286,6 +11866,13 @@
     <message>
       <source>Proportional gain for horizontal position error</source>
       <translation type="unfinished">Proportional gain for horizontal position error</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MPC_XY_P/longDesc</name>
+    <message>
+      <source>Defined as corrective velocity in m/s per m position error</source>
+      <translation type="unfinished">Defined as corrective velocity in m/s per m position error</translation>
     </message>
   </context>
   <context>
@@ -12312,15 +11899,15 @@
   <context>
     <name>/parameters/MPC_XY_VEL_D_ACC/shortDesc</name>
     <message>
-      <source>Differential gain for horizontal velocity error. Small values help reduce fast oscillations. If value is too big oscillations will appear again</source>
-      <translation type="unfinished">Differential gain for horizontal velocity error. Small values help reduce fast oscillations. If value is too big oscillations will appear again</translation>
+      <source>Differential gain for horizontal velocity error</source>
+      <translation type="unfinished">Differential gain for horizontal velocity error</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_XY_VEL_D_ACC/longDesc</name>
     <message>
-      <source>defined as correction acceleration in m/s^2 per m/s^2 velocity derivative</source>
-      <translation type="unfinished">defined as correction acceleration in m/s^2 per m/s^2 velocity derivative</translation>
+      <source>Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative</source>
+      <translation type="unfinished">Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative</translation>
     </message>
   </context>
   <context>
@@ -12333,8 +11920,8 @@
   <context>
     <name>/parameters/MPC_XY_VEL_I_ACC/longDesc</name>
     <message>
-      <source>defined as correction acceleration in m/s^2 per m velocity integral Non-zero value allows to eliminate steady state errors in the presence of disturbances like wind.</source>
-      <translation type="unfinished">defined as correction acceleration in m/s^2 per m velocity integral Non-zero value allows to eliminate steady state errors in the presence of disturbances like wind.</translation>
+      <source>Defined as correction acceleration in m/s^2 per m velocity integral Allows to eliminate steady state errors in disturbances like wind.</source>
+      <translation type="unfinished">Defined as correction acceleration in m/s^2 per m velocity integral Allows to eliminate steady state errors in disturbances like wind.</translation>
     </message>
   </context>
   <context>
@@ -12347,8 +11934,8 @@
   <context>
     <name>/parameters/MPC_XY_VEL_MAX/longDesc</name>
     <message>
-      <source>Maximum horizontal velocity in AUTO mode. If higher speeds are commanded in a mission they will be capped to this velocity.</source>
-      <translation type="unfinished">Maximum horizontal velocity in AUTO mode. If higher speeds are commanded in a mission they will be capped to this velocity.</translation>
+      <source>Absolute maximum for all velocity controlled modes. Any higher value is truncated.</source>
+      <translation type="unfinished">Absolute maximum for all velocity controlled modes. Any higher value is truncated.</translation>
     </message>
   </context>
   <context>
@@ -12361,8 +11948,8 @@
   <context>
     <name>/parameters/MPC_XY_VEL_P_ACC/longDesc</name>
     <message>
-      <source>defined as correction acceleration in m/s^2 per m/s velocity error</source>
-      <translation type="unfinished">defined as correction acceleration in m/s^2 per m/s velocity error</translation>
+      <source>Defined as corrective acceleration in m/s^2 per m/s velocity error</source>
+      <translation type="unfinished">Defined as corrective acceleration in m/s^2 per m/s velocity error</translation>
     </message>
   </context>
   <context>
@@ -12375,8 +11962,8 @@
   <context>
     <name>/parameters/MPC_YAW_EXPO/longDesc</name>
     <message>
-      <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve</source>
-      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve</translation>
+      <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
+      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</translation>
     </message>
   </context>
   <context>
@@ -12389,8 +11976,8 @@
   <context>
     <name>/parameters/MPC_Z_MAN_EXPO/longDesc</name>
     <message>
-      <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve</source>
-      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve (default) 1 Purely cubic input curve</translation>
+      <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
+      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</translation>
     </message>
   </context>
   <context>
@@ -12398,6 +11985,13 @@
     <message>
       <source>Proportional gain for vertical position error</source>
       <translation type="unfinished">Proportional gain for vertical position error</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MPC_Z_P/longDesc</name>
+    <message>
+      <source>Defined as corrective velocity in m/s per m position error</source>
+      <translation type="unfinished">Defined as corrective velocity in m/s per m position error</translation>
     </message>
   </context>
   <context>
@@ -12424,8 +12018,8 @@
   <context>
     <name>/parameters/MPC_Z_VEL_D_ACC/longDesc</name>
     <message>
-      <source>defined as correction acceleration in m/s^2 per m/s^2 velocity derivative</source>
-      <translation type="unfinished">defined as correction acceleration in m/s^2 per m/s^2 velocity derivative</translation>
+      <source>Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative</source>
+      <translation type="unfinished">Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative</translation>
     </message>
   </context>
   <context>
@@ -12438,8 +12032,8 @@
   <context>
     <name>/parameters/MPC_Z_VEL_I_ACC/longDesc</name>
     <message>
-      <source>defined as correction acceleration in m/s^2 per m velocity integral Non zero value allows hovering thrust estimation on stabilized or autonomous takeoff.</source>
-      <translation type="unfinished">defined as correction acceleration in m/s^2 per m velocity integral Non zero value allows hovering thrust estimation on stabilized or autonomous takeoff.</translation>
+      <source>Defined as corrective acceleration in m/s^2 per m velocity integral</source>
+      <translation type="unfinished">Defined as corrective acceleration in m/s^2 per m velocity integral</translation>
     </message>
   </context>
   <context>
@@ -12452,8 +12046,8 @@
   <context>
     <name>/parameters/MPC_Z_VEL_MAX_DN/longDesc</name>
     <message>
-      <source>Descent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_DN</source>
-      <translation type="unfinished">Descent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_DN</translation>
+      <source>Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
+      <translation type="unfinished">Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</translation>
     </message>
   </context>
   <context>
@@ -12466,8 +12060,8 @@
   <context>
     <name>/parameters/MPC_Z_VEL_MAX_UP/longDesc</name>
     <message>
-      <source>Ascent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_UP</source>
-      <translation type="unfinished">Ascent velocity in manual modes and offboard. For auto modes, see MPC_Z_V_AUTO_UP</translation>
+      <source>Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
+      <translation type="unfinished">Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</translation>
     </message>
   </context>
   <context>
@@ -12480,36 +12074,36 @@
   <context>
     <name>/parameters/MPC_Z_VEL_P_ACC/longDesc</name>
     <message>
-      <source>defined as correction acceleration in m/s^2 per m/s velocity error</source>
-      <translation type="unfinished">defined as correction acceleration in m/s^2 per m/s velocity error</translation>
+      <source>Defined as corrective acceleration in m/s^2 per m/s velocity error</source>
+      <translation type="unfinished">Defined as corrective acceleration in m/s^2 per m/s velocity error</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_Z_V_AUTO_DN/shortDesc</name>
     <message>
-      <source>Automatic descent velocity</source>
-      <translation type="unfinished">Automatic descent velocity</translation>
+      <source>Descent velocity in autonomous modes</source>
+      <translation type="unfinished">Descent velocity in autonomous modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_Z_V_AUTO_DN/longDesc</name>
     <message>
-      <source>Descent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_DN</source>
-      <translation type="unfinished">Descent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_DN</translation>
+      <source>For manual modes and offboard, see MPC_Z_VEL_MAX_DN</source>
+      <translation type="unfinished">For manual modes and offboard, see MPC_Z_VEL_MAX_DN</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_Z_V_AUTO_UP/shortDesc</name>
     <message>
-      <source>Automatic ascent velocity</source>
-      <translation type="unfinished">Automatic ascent velocity</translation>
+      <source>Ascent velocity in autonomous modes</source>
+      <translation type="unfinished">Ascent velocity in autonomous modes</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_Z_V_AUTO_UP/longDesc</name>
     <message>
-      <source>Ascent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_UP</source>
-      <translation type="unfinished">Ascent velocity in auto modes. For manual modes and offboard, see MPC_Z_VEL_MAX_UP</translation>
+      <source>For manually controlled modes and offboard see MPC_Z_VEL_MAX_UP</source>
+      <translation type="unfinished">For manually controlled modes and offboard see MPC_Z_VEL_MAX_UP</translation>
     </message>
   </context>
   <context>
@@ -12559,104 +12153,6 @@
     <message>
       <source>Maximum yawrate the weathervane controller is allowed to demand</source>
       <translation type="unfinished">Maximum yawrate the weathervane controller is allowed to demand</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_EXPO/shortDesc</name>
-    <message>
-      <source>Acro mode Expo factor for Roll and Pitch</source>
-      <translation type="unfinished">Acro mode Expo factor for Roll and Pitch</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_EXPO/longDesc</name>
-    <message>
-      <source>Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</source>
-      <translation type="unfinished">Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_EXPO_Y/shortDesc</name>
-    <message>
-      <source>Acro mode Expo factor for Yaw</source>
-      <translation type="unfinished">Acro mode Expo factor for Yaw</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_EXPO_Y/longDesc</name>
-    <message>
-      <source>Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</source>
-      <translation type="unfinished">Exponential factor for tuning the input curve shape. 0 Purely linear input curve 1 Purely cubic input curve</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_P_MAX/shortDesc</name>
-    <message>
-      <source>Max acro pitch rate</source>
-      <translation type="unfinished">Max acro pitch rate</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_P_MAX/longDesc</name>
-    <message>
-      <source>default: 2 turns per second</source>
-      <translation type="unfinished">default: 2 turns per second</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_R_MAX/shortDesc</name>
-    <message>
-      <source>Max acro roll rate</source>
-      <translation type="unfinished">Max acro roll rate</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_R_MAX/longDesc</name>
-    <message>
-      <source>default: 2 turns per second</source>
-      <translation type="unfinished">default: 2 turns per second</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_SUPEXPO/shortDesc</name>
-    <message>
-      <source>Acro mode SuperExpo factor for Roll and Pitch</source>
-      <translation type="unfinished">Acro mode SuperExpo factor for Roll and Pitch</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_SUPEXPO/longDesc</name>
-    <message>
-      <source>SuperExpo factor for refining the input curve shape tuned using MC_ACRO_EXPO. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</source>
-      <translation type="unfinished">SuperExpo factor for refining the input curve shape tuned using MC_ACRO_EXPO. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_SUPEXPOY/shortDesc</name>
-    <message>
-      <source>Acro mode SuperExpo factor for Yaw</source>
-      <translation type="unfinished">Acro mode SuperExpo factor for Yaw</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_SUPEXPOY/longDesc</name>
-    <message>
-      <source>SuperExpo factor for refining the input curve shape tuned using MC_ACRO_EXPO_Y. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</source>
-      <translation type="unfinished">SuperExpo factor for refining the input curve shape tuned using MC_ACRO_EXPO_Y. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_Y_MAX/shortDesc</name>
-    <message>
-      <source>Max acro yaw rate</source>
-      <translation type="unfinished">Max acro yaw rate</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MC_ACRO_Y_MAX/longDesc</name>
-    <message>
-      <source>default 1.5 turns per second</source>
-      <translation type="unfinished">default 1.5 turns per second</translation>
     </message>
   </context>
   <context>
@@ -17016,8 +16512,8 @@
   <context>
     <name>/parameters/TRIM_PITCH/longDesc</name>
     <message>
-      <source>The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.</source>
-      <translation type="unfinished">The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.</translation>
+      <source>The trim value is the actuator control value the system needs for straight and level flight.</source>
+      <translation type="unfinished">The trim value is the actuator control value the system needs for straight and level flight.</translation>
     </message>
   </context>
   <context>
@@ -17030,8 +16526,8 @@
   <context>
     <name>/parameters/TRIM_ROLL/longDesc</name>
     <message>
-      <source>The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.</source>
-      <translation type="unfinished">The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.</translation>
+      <source>The trim value is the actuator control value the system needs for straight and level flight.</source>
+      <translation type="unfinished">The trim value is the actuator control value the system needs for straight and level flight.</translation>
     </message>
   </context>
   <context>
@@ -17044,8 +16540,8 @@
   <context>
     <name>/parameters/TRIM_YAW/longDesc</name>
     <message>
-      <source>The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.</source>
-      <translation type="unfinished">The trim value is the actuator control value the system needs for straight and level flight. It can be calibrated by flying manually straight and level using the RC trims and copying them using the GCS.</translation>
+      <source>The trim value is the actuator control value the system needs for straight and level flight.</source>
+      <translation type="unfinished">The trim value is the actuator control value the system needs for straight and level flight.</translation>
     </message>
   </context>
   <context>
@@ -19660,6 +19156,34 @@
     </message>
   </context>
   <context>
+    <name>/parameters/RTL_APPR_FORCE/shortDesc</name>
+    <message>
+      <source>RTL force approach landing</source>
+      <translation type="unfinished">RTL force approach landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RTL_APPR_FORCE/longDesc</name>
+    <message>
+      <source>Only consider RTL point, if it has an approach defined.</source>
+      <translation type="unfinished">Only consider RTL point, if it has an approach defined.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RTL_APPR_FORCE/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RTL_APPR_FORCE/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/RTL_TIME_FACTOR/shortDesc</name>
     <message>
       <source>RTL time estimate safety margin factor</source>
@@ -21179,6 +20703,104 @@
     </message>
   </context>
   <context>
+    <name>/parameters/SENS_AFBR_HYSTER/shortDesc</name>
+    <message>
+      <source>AFBR Rangefinder Short/Long Range Threshold Hysteresis</source>
+      <translation type="unfinished">AFBR Rangefinder Short/Long Range Threshold Hysteresis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_HYSTER/longDesc</name>
+    <message>
+      <source>This parameter defines the hysteresis for switching between short and long range mode.</source>
+      <translation type="unfinished">This parameter defines the hysteresis for switching between short and long range mode.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_L_RATE/shortDesc</name>
+    <message>
+      <source>AFBR Rangefinder Long Range Rate</source>
+      <translation type="unfinished">AFBR Rangefinder Long Range Rate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_L_RATE/longDesc</name>
+    <message>
+      <source>This parameter defines measurement rate of the AFBR Rangefinder in long range mode.</source>
+      <translation type="unfinished">This parameter defines measurement rate of the AFBR Rangefinder in long range mode.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_MODE/shortDesc</name>
+    <message>
+      <source>AFBR Rangefinder Mode</source>
+      <translation type="unfinished">AFBR Rangefinder Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_MODE/longDesc</name>
+    <message>
+      <source>This parameter defines the mode of the AFBR Rangefinder.</source>
+      <translation type="unfinished">This parameter defines the mode of the AFBR Rangefinder.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_MODE/values/0/description</name>
+    <message>
+      <source>Short Range Mode</source>
+      <translation type="unfinished">Short Range Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_MODE/values/1/description</name>
+    <message>
+      <source>Long Range Mode</source>
+      <translation type="unfinished">Long Range Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_MODE/values/2/description</name>
+    <message>
+      <source>High Speed Short Range Mode</source>
+      <translation type="unfinished">High Speed Short Range Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_MODE/values/3/description</name>
+    <message>
+      <source>High Speed Long Range Mode</source>
+      <translation type="unfinished">High Speed Long Range Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_S_RATE/shortDesc</name>
+    <message>
+      <source>AFBR Rangefinder Short Range Rate</source>
+      <translation type="unfinished">AFBR Rangefinder Short Range Rate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_S_RATE/longDesc</name>
+    <message>
+      <source>This parameter defines measurement rate of the AFBR Rangefinder in short range mode.</source>
+      <translation type="unfinished">This parameter defines measurement rate of the AFBR Rangefinder in short range mode.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_THRESH/shortDesc</name>
+    <message>
+      <source>AFBR Rangefinder Short/Long Range Threshold</source>
+      <translation type="unfinished">AFBR Rangefinder Short/Long Range Threshold</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_AFBR_THRESH/longDesc</name>
+    <message>
+      <source>This parameter defines the threshold for switching between short and long range mode. The mode will switch from short to long range when the distance is greater than the threshold plus the hysteresis. The mode will switch from long to short range when the distance is less than the threshold minus the hysteresis.</source>
+      <translation type="unfinished">This parameter defines the threshold for switching between short and long range mode. The mode will switch from short to long range when the distance is greater than the threshold plus the hysteresis. The mode will switch from long to short range when the distance is less than the threshold minus the hysteresis.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/SENS_BARO_QNH/shortDesc</name>
     <message>
       <source>QNH for barometer</source>
@@ -21564,6 +21186,27 @@
     </message>
   </context>
   <context>
+    <name>/parameters/SENS_EN_ADIS165X/shortDesc</name>
+    <message>
+      <source>Analog Devices ADIS16507 IMU (external SPI)</source>
+      <translation type="unfinished">Analog Devices ADIS16507 IMU (external SPI)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_EN_ADIS165X/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_EN_ADIS165X/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/SENS_EN_ARSPDSIM/shortDesc</name>
     <message>
       <source>Enable simulated airspeed sensor instance</source>
@@ -21579,6 +21222,27 @@
   </context>
   <context>
     <name>/parameters/SENS_EN_ARSPDSIM/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_EN_ASP5033/shortDesc</name>
+    <message>
+      <source>ASP5033 differential pressure sensor (external I2C)</source>
+      <translation type="unfinished">ASP5033 differential pressure sensor (external I2C)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_EN_ASP5033/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_EN_ASP5033/values/1/description</name>
     <message>
       <source>Enabled</source>
       <translation type="unfinished">Enabled</translation>
@@ -22226,6 +21890,13 @@
     <message>
       <source>SF/LW20/c</source>
       <translation type="unfinished">SF/LW20/c</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SENS_EN_SF1XX/values/7/description</name>
+    <message>
+      <source>SF/LW30/d</source>
+      <translation type="unfinished">SF/LW30/d</translation>
     </message>
   </context>
   <context>
@@ -25234,8 +24905,15 @@
   <context>
     <name>/parameters/SYS_FAC_CAL_MODE/values/1/description</name>
     <message>
-      <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <source>All sensors</source>
+      <translation type="unfinished">All sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SYS_FAC_CAL_MODE/values/2/description</name>
+    <message>
+      <source>All sensors except mag</source>
+      <translation type="unfinished">All sensors except mag</translation>
     </message>
   </context>
   <context>
@@ -25339,15 +25017,15 @@
   <context>
     <name>/parameters/SYS_HAS_NUM_DIST/shortDesc</name>
     <message>
-      <source>Control the number of distance sensors on the vehicle</source>
-      <translation type="unfinished">Control the number of distance sensors on the vehicle</translation>
+      <source>Number of distance sensors to check being available</source>
+      <translation type="unfinished">Number of distance sensors to check being available</translation>
     </message>
   </context>
   <context>
     <name>/parameters/SYS_HAS_NUM_DIST/longDesc</name>
     <message>
-      <source>If set to the number of distance sensors, the preflight check will check for their presence and valid data publication. Disable with 0 if no distance sensor present or to disable the preflight check.</source>
-      <translation type="unfinished">If set to the number of distance sensors, the preflight check will check for their presence and valid data publication. Disable with 0 if no distance sensor present or to disable the preflight check.</translation>
+      <source>The preflight check will fail if fewer than this number of distance sensors with valid data is present. Disable the check with 0.</source>
+      <translation type="unfinished">The preflight check will fail if fewer than this number of distance sensors with valid data is present. Disable the check with 0.</translation>
     </message>
   </context>
   <context>
@@ -25460,34 +25138,6 @@
     <message>
       <source>Enabled</source>
       <translation type="unfinished">Enabled</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SYS_USE_IO/shortDesc</name>
-    <message>
-      <source>Set usage of IO board</source>
-      <translation type="unfinished">Set usage of IO board</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SYS_USE_IO/longDesc</name>
-    <message>
-      <source>Can be used to use a configure the use of the IO board.</source>
-      <translation type="unfinished">Can be used to use a configure the use of the IO board.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SYS_USE_IO/values/0/description</name>
-    <message>
-      <source>IO PWM disabled (RC only)</source>
-      <translation type="unfinished">IO PWM disabled (RC only)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SYS_USE_IO/values/1/description</name>
-    <message>
-      <source>IO enabled (RC &amp; PWM)</source>
-      <translation type="unfinished">IO enabled (RC &amp; PWM)</translation>
     </message>
   </context>
   <context>
@@ -26884,6 +26534,475 @@
     </message>
   </context>
   <context>
+    <name>/parameters/TC_M0_ID/shortDesc</name>
+    <message>
+      <source>ID of Magnetometer that the calibration is for</source>
+      <translation type="unfinished">ID of Magnetometer that the calibration is for</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_TMAX/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration maximum temperature</source>
+      <translation type="unfinished">Magnetometer calibration maximum temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_TMIN/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration minimum temperature</source>
+      <translation type="unfinished">Magnetometer calibration minimum temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_TREF/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration reference temperature</source>
+      <translation type="unfinished">Magnetometer calibration reference temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X0_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X0_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X0_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X1_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X1_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X1_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X2_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X2_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X2_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X3_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X3_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M0_X3_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_ID/shortDesc</name>
+    <message>
+      <source>ID of Magnetometer that the calibration is for</source>
+      <translation type="unfinished">ID of Magnetometer that the calibration is for</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_TMAX/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration maximum temperature</source>
+      <translation type="unfinished">Magnetometer calibration maximum temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_TMIN/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration minimum temperature</source>
+      <translation type="unfinished">Magnetometer calibration minimum temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_TREF/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration reference temperature</source>
+      <translation type="unfinished">Magnetometer calibration reference temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X0_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X0_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X0_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X1_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X1_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X1_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X2_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X2_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X2_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X3_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X3_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M1_X3_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_ID/shortDesc</name>
+    <message>
+      <source>ID of Magnetometer that the calibration is for</source>
+      <translation type="unfinished">ID of Magnetometer that the calibration is for</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_TMAX/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration maximum temperature</source>
+      <translation type="unfinished">Magnetometer calibration maximum temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_TMIN/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration minimum temperature</source>
+      <translation type="unfinished">Magnetometer calibration minimum temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_TREF/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration reference temperature</source>
+      <translation type="unfinished">Magnetometer calibration reference temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X0_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X0_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X0_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X1_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X1_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X1_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X2_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X2_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X2_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X3_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X3_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M2_X3_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_ID/shortDesc</name>
+    <message>
+      <source>ID of Magnetometer that the calibration is for</source>
+      <translation type="unfinished">ID of Magnetometer that the calibration is for</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_TMAX/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration maximum temperature</source>
+      <translation type="unfinished">Magnetometer calibration maximum temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_TMIN/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration minimum temperature</source>
+      <translation type="unfinished">Magnetometer calibration minimum temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_TREF/shortDesc</name>
+    <message>
+      <source>Magnetometer calibration reference temperature</source>
+      <translation type="unfinished">Magnetometer calibration reference temperature</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X0_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X0_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X0_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^0 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^0 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X1_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X1_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X1_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^1 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^1 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X2_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X2_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X2_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^2 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^2 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X3_0/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - X axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - X axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X3_1/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - Y axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - Y axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M3_X3_2/shortDesc</name>
+    <message>
+      <source>Magnetometer offset temperature ^3 polynomial coefficient - Z axis</source>
+      <translation type="unfinished">Magnetometer offset temperature ^3 polynomial coefficient - Z axis</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M_ENABLE/shortDesc</name>
+    <message>
+      <source>Thermal compensation for magnetometer sensors</source>
+      <translation type="unfinished">Thermal compensation for magnetometer sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M_ENABLE/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/TC_M_ENABLE/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/MXS_EXT_CFG/shortDesc</name>
     <message>
       <source>Sagetech External Configuration Mode</source>
@@ -26993,20 +27112,6 @@
     <message>
       <source>UAVCAN CAN bus bitrate</source>
       <translation type="unfinished">UAVCAN CAN bus bitrate</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/CANNODE_NODE_ID/shortDesc</name>
-    <message>
-      <source>UAVCAN Node ID</source>
-      <translation type="unfinished">UAVCAN Node ID</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/CANNODE_NODE_ID/longDesc</name>
-    <message>
-      <source>Read the specs at http://uavcan.org to learn more about Node ID.</source>
-      <translation type="unfinished">Read the specs at http://uavcan.org to learn more about Node ID.</translation>
     </message>
   </context>
   <context>
@@ -27983,10 +28088,17 @@
     </message>
   </context>
   <context>
-    <name>/parameters/VT_B_DEC_FF/shortDesc</name>
+    <name>/parameters/VT_BT_TILT_DUR/shortDesc</name>
     <message>
-      <source>Backtransition deceleration setpoint to pitch feedforward gain</source>
-      <translation type="unfinished">Backtransition deceleration setpoint to pitch feedforward gain</translation>
+      <source>Duration motor tilt up in backtransition</source>
+      <translation type="unfinished">Duration motor tilt up in backtransition</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VT_BT_TILT_DUR/longDesc</name>
+    <message>
+      <source>Time in seconds it takes to tilt form VT_TILT_FW to VT_TILT_MC.</source>
+      <translation type="unfinished">Time in seconds it takes to tilt form VT_TILT_FW to VT_TILT_MC.</translation>
     </message>
   </context>
   <context>
@@ -28006,22 +28118,22 @@
   <context>
     <name>/parameters/VT_B_DEC_MSS/longDesc</name>
     <message>
-      <source>The approximate deceleration during a back transition in m/s/s Used to calculate back transition distance in an auto mode. For standard vtol and tiltrotors a controller is used to track this value during the transition.</source>
-      <translation type="unfinished">The approximate deceleration during a back transition in m/s/s Used to calculate back transition distance in an auto mode. For standard vtol and tiltrotors a controller is used to track this value during the transition.</translation>
+      <source>Used to calculate back transition distance in an auto mode. For standard vtol and tiltrotors a controller is used to track this value during the transition.</source>
+      <translation type="unfinished">Used to calculate back transition distance in an auto mode. For standard vtol and tiltrotors a controller is used to track this value during the transition.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VT_B_TRANS_DUR/shortDesc</name>
     <message>
-      <source>Duration of a back transition</source>
-      <translation type="unfinished">Duration of a back transition</translation>
+      <source>Maximum duration of a back transition</source>
+      <translation type="unfinished">Maximum duration of a back transition</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VT_B_TRANS_DUR/longDesc</name>
     <message>
-      <source>Time in seconds used for a back transition</source>
-      <translation type="unfinished">Time in seconds used for a back transition</translation>
+      <source>Transition is also declared over if the groundspeed drops below MPC_XY_CRUISE.</source>
+      <translation type="unfinished">Transition is also declared over if the groundspeed drops below MPC_XY_CRUISE.</translation>
     </message>
   </context>
   <context>
@@ -28036,20 +28148,6 @@
     <message>
       <source>This sets the duration during which the MC motors ramp up to the commanded thrust during the back transition stage.</source>
       <translation type="unfinished">This sets the duration during which the MC motors ramp up to the commanded thrust during the back transition stage.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/VT_B_TRANS_THR/shortDesc</name>
-    <message>
-      <source>Target throttle value for the transition to hover flight</source>
-      <translation type="unfinished">Target throttle value for the transition to hover flight</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/VT_B_TRANS_THR/longDesc</name>
-    <message>
-      <source>standard vtol: pusher tailsitter, tiltrotor: main throttle</source>
-      <translation type="unfinished">standard vtol: pusher tailsitter, tiltrotor: main throttle</translation>
     </message>
   </context>
   <context>
@@ -28312,13 +28410,6 @@
     </message>
   </context>
   <context>
-    <name>/parameters/VT_F_TRANS_THR/longDesc</name>
-    <message>
-      <source>standard vtol: pusher tailsitter, tiltrotor: main throttle</source>
-      <translation type="unfinished">standard vtol: pusher tailsitter, tiltrotor: main throttle</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/VT_F_TR_OL_TM/shortDesc</name>
     <message>
       <source>Airspeed-less front transition time (open loop)</source>
@@ -28342,8 +28433,8 @@
   <context>
     <name>/parameters/VT_LND_PITCH_MIN/longDesc</name>
     <message>
-      <source>Overrides VT_PITCH_MIN when the vehicle is in LAND mode (hovering). During landing it can be beneficial to allow lower minimum pitch angles as it can avoid the wings generating too much lift and preventing the vehicle from sinking at the desired rate.</source>
-      <translation type="unfinished">Overrides VT_PITCH_MIN when the vehicle is in LAND mode (hovering). During landing it can be beneficial to allow lower minimum pitch angles as it can avoid the wings generating too much lift and preventing the vehicle from sinking at the desired rate.</translation>
+      <source>Overrides VT_PITCH_MIN when the vehicle is in LAND mode (hovering). During landing it can be beneficial to reduce the pitch angle to reduce the generated lift in head wind.</source>
+      <translation type="unfinished">Overrides VT_PITCH_MIN when the vehicle is in LAND mode (hovering). During landing it can be beneficial to reduce the pitch angle to reduce the generated lift in head wind.</translation>
     </message>
   </context>
   <context>
@@ -28356,8 +28447,8 @@
   <context>
     <name>/parameters/VT_PITCH_MIN/longDesc</name>
     <message>
-      <source>Minimum pitch angle during hover flight. If the desired pitch angle is is lower than this value then the fixed-wing forward actuation can be used to compensate for the missing thrust in forward direction (see VT_FW_TRHUST_EN)</source>
-      <translation type="unfinished">Minimum pitch angle during hover flight. If the desired pitch angle is is lower than this value then the fixed-wing forward actuation can be used to compensate for the missing thrust in forward direction (see VT_FW_TRHUST_EN)</translation>
+      <source>Any pitch setpoint below this value is translated to a forward force by the fixed-wing forward actuation if VT_FW_TRHUST_EN is set to 1.</source>
+      <translation type="unfinished">Any pitch setpoint below this value is translated to a forward force by the fixed-wing forward actuation if VT_FW_TRHUST_EN is set to 1.</translation>
     </message>
   </context>
   <context>
@@ -28375,17 +28466,17 @@
     </message>
   </context>
   <context>
-    <name>/parameters/VT_QC_HR_ERROR_I/shortDesc</name>
+    <name>/parameters/VT_QC_ALT_LOSS/shortDesc</name>
     <message>
       <source>Quad-chute uncommanded descent threshold</source>
       <translation type="unfinished">Quad-chute uncommanded descent threshold</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/VT_QC_HR_ERROR_I/longDesc</name>
+    <name>/parameters/VT_QC_ALT_LOSS/longDesc</name>
     <message>
-      <source>Threshold for integrated height rate error to trigger a uncommanded-descent quad-chute. Only checked in altitude-controlled fixed-wing flight. Additional conditions that have to be met for uncommanded descent detection are a positive (climbing) height rate setpoint and a negative (sinking) current height rate estimate. Set to 0 do disable this threshold.</source>
-      <translation type="unfinished">Threshold for integrated height rate error to trigger a uncommanded-descent quad-chute. Only checked in altitude-controlled fixed-wing flight. Additional conditions that have to be met for uncommanded descent detection are a positive (climbing) height rate setpoint and a negative (sinking) current height rate estimate. Set to 0 do disable this threshold.</translation>
+      <source>Altitude error threshold for quad-chute triggering during fixed-wing flight. The check is only active if altitude is controlled and the vehicle is below the current altitude reference. The altitude error is relative to the highest altitude the vehicle has achieved since it has flown below the current altitude reference. Set to 0 do disable.</source>
+      <translation type="unfinished">Altitude error threshold for quad-chute triggering during fixed-wing flight. The check is only active if altitude is controlled and the vehicle is below the current altitude reference. The altitude error is relative to the highest altitude the vehicle has achieved since it has flown below the current altitude reference. Set to 0 do disable.</translation>
     </message>
   </context>
   <context>
@@ -28398,8 +28489,8 @@
   <context>
     <name>/parameters/VT_QC_T_ALT_LOSS/longDesc</name>
     <message>
-      <source>Altitude loss threshold for quad-chute triggering during VTOL transition to fixed-wing flight. If the current altitude is more than this value below the altitude at the beginning of the transition, it will instantly switch back to MC mode and execute behavior defined in COM_QC_ACT. Set to 0 do disable this threshold.</source>
-      <translation type="unfinished">Altitude loss threshold for quad-chute triggering during VTOL transition to fixed-wing flight. If the current altitude is more than this value below the altitude at the beginning of the transition, it will instantly switch back to MC mode and execute behavior defined in COM_QC_ACT. Set to 0 do disable this threshold.</translation>
+      <source>Altitude loss threshold for quad-chute triggering during VTOL transition to fixed-wing flight in altitude-controlled flight modes. Active until 5s after completing transition to fixed-wing. If the current altitude is more than this value below the altitude at the beginning of the transition, it will instantly switch back to MC mode and execute behavior defined in COM_QC_ACT. Set to 0 do disable this threshold.</source>
+      <translation type="unfinished">Altitude loss threshold for quad-chute triggering during VTOL transition to fixed-wing flight in altitude-controlled flight modes. Active until 5s after completing transition to fixed-wing. If the current altitude is more than this value below the altitude at the beginning of the transition, it will instantly switch back to MC mode and execute behavior defined in COM_QC_ACT. Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
@@ -28412,36 +28503,22 @@
   <context>
     <name>/parameters/VT_TILT_FW/shortDesc</name>
     <message>
-      <source>Position of tilt servo in fw mode</source>
-      <translation type="unfinished">Position of tilt servo in fw mode</translation>
+      <source>Normalized tilt in FW</source>
+      <translation type="unfinished">Normalized tilt in FW</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VT_TILT_MC/shortDesc</name>
     <message>
-      <source>Position of tilt servo in mc mode</source>
-      <translation type="unfinished">Position of tilt servo in mc mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/VT_TILT_SPINUP/shortDesc</name>
-    <message>
-      <source>Tilt when disarmed and in the first second after arming</source>
-      <translation type="unfinished">Tilt when disarmed and in the first second after arming</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/VT_TILT_SPINUP/longDesc</name>
-    <message>
-      <source>This specific tilt during spin-up is necessary for some systems whose motors otherwise don't spin-up freely.</source>
-      <translation type="unfinished">This specific tilt during spin-up is necessary for some systems whose motors otherwise don't spin-up freely.</translation>
+      <source>Normalized tilt in Hover</source>
+      <translation type="unfinished">Normalized tilt in Hover</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VT_TILT_TRANS/shortDesc</name>
     <message>
-      <source>Position of tilt servo in transition mode</source>
-      <translation type="unfinished">Position of tilt servo in transition mode</translation>
+      <source>Normalized tilt in transition to FW</source>
+      <translation type="unfinished">Normalized tilt in transition to FW</translation>
     </message>
   </context>
   <context>
@@ -28585,45 +28662,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Autotune</name>
+    <name>$globals/group/Simulation In Hardware</name>
     <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Miscellaneous</name>
-    <message>
-      <source>Miscellaneous</source>
-      <translation type="unfinished">Miscellaneous</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Attitude Q estimator</name>
-    <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
-    <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Position Control</name>
-    <message>
-      <source>Rover Position Control</source>
-      <translation type="unfinished">Rover Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
     </message>
   </context>
   <context>
@@ -28634,38 +28676,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Battery Calibration</name>
+    <name>$globals/group/Manual Control</name>
     <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN Motor Parameters</name>
-    <message>
-      <source>UAVCAN Motor Parameters</source>
-      <translation type="unfinished">UAVCAN Motor Parameters</translation>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
     </message>
   </context>
   <context>
@@ -28676,395 +28690,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Thermal Compensation</name>
-    <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Transponder</name>
-    <message>
-      <source>Transponder</source>
-      <translation type="unfinished">Transponder</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulator</name>
-    <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FlightTaskOrbit</name>
-    <message>
-      <source>FlightTaskOrbit</source>
-      <translation type="unfinished">FlightTaskOrbit</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/FW Auto Landing</name>
     <message>
       <source>FW Auto Landing</source>
       <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulation In Hardware</name>
-    <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW TECS</name>
-    <message>
-      <source>FW TECS</source>
-      <translation type="unfinished">FW TECS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Attitude Control</name>
-    <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing target Estimator</name>
-    <message>
-      <source>Landing target Estimator</source>
-      <translation type="unfinished">Landing target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MAVLink</name>
-    <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Manual Control</name>
-    <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ESC</name>
-    <message>
-      <source>ESC</source>
-      <translation type="unfinished">ESC</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Cyphal</name>
-    <message>
-      <source>Cyphal</source>
-      <translation type="unfinished">Cyphal</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Path Control</name>
-    <message>
-      <source>FW Path Control</source>
-      <translation type="unfinished">FW Path Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mount</name>
-    <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Iridium SBD</name>
-    <message>
-      <source>Iridium SBD</source>
-      <translation type="unfinished">Iridium SBD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Events</name>
-    <message>
-      <source>Events</source>
-      <translation type="unfinished">Events</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Serial</name>
-    <message>
-      <source>Serial</source>
-      <translation type="unfinished">Serial</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN</name>
-    <message>
-      <source>UAVCAN</source>
-      <translation type="unfinished">UAVCAN</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MODAL IO</name>
-    <message>
-      <source>MODAL IO</source>
-      <translation type="unfinished">MODAL IO</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return Mode</name>
-    <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/EKF2</name>
-    <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/GPS</name>
-    <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Geometry</name>
-    <message>
-      <source>FW Geometry</source>
-      <translation type="unfinished">FW Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN GNSS</name>
-    <message>
-      <source>UAVCAN GNSS</source>
-      <translation type="unfinished">UAVCAN GNSS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Launch detection</name>
-    <message>
-      <source>FW Launch detection</source>
-      <translation type="unfinished">FW Launch detection</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Calibration</name>
-    <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SD Logging</name>
-    <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
     </message>
   </context>
   <context>
@@ -29075,10 +28704,248 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Telemetry</name>
+    <name>$globals/group/FW Rate Control</name>
     <message>
-      <source>Telemetry</source>
-      <translation type="unfinished">Telemetry</translation>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Calibration</name>
+    <message>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Camera trigger</name>
+    <message>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MODAL IO</name>
+    <message>
+      <source>MODAL IO</source>
+      <translation type="unfinished">MODAL IO</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN</name>
+    <message>
+      <source>UAVCAN</source>
+      <translation type="unfinished">UAVCAN</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Miscellaneous</name>
+    <message>
+      <source>Miscellaneous</source>
+      <translation type="unfinished">Miscellaneous</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Cyphal</name>
+    <message>
+      <source>Cyphal</source>
+      <translation type="unfinished">Cyphal</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Attitude Control</name>
+    <message>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Iridium SBD</name>
+    <message>
+      <source>Iridium SBD</source>
+      <translation type="unfinished">Iridium SBD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/PWM Outputs</name>
+    <message>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Launch detection</name>
+    <message>
+      <source>FW Launch detection</source>
+      <translation type="unfinished">FW Launch detection</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Path Control</name>
+    <message>
+      <source>FW Path Control</source>
+      <translation type="unfinished">FW Path Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW TECS</name>
+    <message>
+      <source>FW TECS</source>
+      <translation type="unfinished">FW TECS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Serial</name>
+    <message>
+      <source>Serial</source>
+      <translation type="unfinished">Serial</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
     </message>
   </context>
   <context>
@@ -29086,6 +28953,223 @@
     <message>
       <source>Mission</source>
       <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Geometry</name>
+    <message>
+      <source>FW Geometry</source>
+      <translation type="unfinished">FW Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <message>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Position Control</name>
+    <message>
+      <source>Rover Position Control</source>
+      <translation type="unfinished">Rover Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Events</name>
+    <message>
+      <source>Events</source>
+      <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FlightTaskOrbit</name>
+    <message>
+      <source>FlightTaskOrbit</source>
+      <translation type="unfinished">FlightTaskOrbit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulator</name>
+    <message>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Transponder</name>
+    <message>
+      <source>Transponder</source>
+      <translation type="unfinished">Transponder</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ESC</name>
+    <message>
+      <source>ESC</source>
+      <translation type="unfinished">ESC</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN GNSS</name>
+    <message>
+      <source>UAVCAN GNSS</source>
+      <translation type="unfinished">UAVCAN GNSS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Telemetry</name>
+    <message>
+      <source>Telemetry</source>
+      <translation type="unfinished">Telemetry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Attitude Q estimator</name>
+    <message>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/GPS</name>
+    <message>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN Motor Parameters</name>
+    <message>
+      <source>UAVCAN Motor Parameters</source>
+      <translation type="unfinished">UAVCAN Motor Parameters</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
     </message>
   </context>
 </TS>
