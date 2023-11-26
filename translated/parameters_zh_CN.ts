@@ -280,8 +280,8 @@
       <source>Dynamic model used in the GNSS positioning engine. 0 –
         Automotive, 1 – Sea, 2 – Airborne.
       </source>
-      <translation type="unfinished">Dynamic model used in the GNSS positioning engine. 0 –
-        Automotive, 1 – Sea, 2 – Airborne.
+      <translation>Dynamic model used in the GNSS positioning engine. 0 –
+        汽车, 1 – 海上, 2 – 空中.
       </translation>
     </message>
   </context>
@@ -289,21 +289,21 @@
     <name>/parameters/gnss.dyn_model/values/0/description</name>
     <message>
       <source>Automotive</source>
-      <translation type="unfinished">Automotive</translation>
+      <translation>汽车</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/1/description</name>
     <message>
       <source>Sea</source>
-      <translation type="unfinished">Sea</translation>
+      <translation>海上</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/2/description</name>
     <message>
       <source>Airborne</source>
-      <translation type="unfinished">Airborne</translation>
+      <translation>空中</translation>
     </message>
   </context>
   <context>
