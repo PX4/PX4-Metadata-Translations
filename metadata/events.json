@@ -3143,6 +3143,10 @@
               "message": "Mission rejected: starts with landing",
               "name": "navigator_mis_starts_w_landing2"
             },
+            "2020940": {
+              "message": "Roll command reduced due to uncertain velocity/wind estimates!",
+              "name": "npfg_roll_command_uncertain"
+            },
             "2066387": {
               "message": "Arming denied: calibrating",
               "name": "commander_arm_denied_calibrating"

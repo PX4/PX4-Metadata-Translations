@@ -2781,6 +2781,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/2020940/message</name>
+  <message>
+  <source>Roll command reduced due to uncertain velocity/wind estimates!</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/2066387/message</name>
   <message>
   <source>Arming denied: calibrating</source>
