@@ -980,6 +980,12 @@
   </message>
 </context>
 <context>
+  <name>/components/1/enums/navigation_mode_t/entries/9/description</name>
+  <message>
+  <source>Position Slow</source>
+  </message>
+</context>
+<context>
   <name>/components/1/enums/sensor_failover_reason_t/entries/1/description</name>
   <message>
   <source>No data</source>

@@ -802,6 +802,10 @@
             "8": {
               "description": "Stabilized",
               "name": "stab"
+            },
+            "9": {
+              "description": "Position Slow",
+              "name": "position_slow"
             }
           },
           "type": "uint8_t"
