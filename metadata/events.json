@@ -4536,7 +4536,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Most likely the airspeed selector module is not running. This check can be configured via <param>CBRK_AIRSPD_CHK</param> parameter.\n</profile>",
+              "description": "<profile name=\"dev\"> Most likely the airspeed selector module is not running. This check can be configured via <param>SYS_HAS_NUM_ASPD</param> parameter.\n</profile>",
               "message": "No airspeed data",
               "name": "check_airspeed_no_data"
             }

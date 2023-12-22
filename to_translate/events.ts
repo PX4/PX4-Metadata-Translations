@@ -3983,7 +3983,7 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/9493632/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;CBRK_AIRSPD_CHK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;SYS_HAS_NUM_ASPD&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
