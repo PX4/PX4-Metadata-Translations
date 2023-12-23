@@ -471,6 +471,24 @@
           },
           "type": "uint8_t"
         },
+        "geofence_violation_reason_t": {
+          "description": "Reason for geofence violation",
+          "entries": {
+            "0": {
+              "description": "maximum distance to home exceeded",
+              "name": "dist_to_home_exceeded"
+            },
+            "1": {
+              "description": "maximum altitude exceeded",
+              "name": "max_altitude_exceeded"
+            },
+            "2": {
+              "description": "approaching or outside geofence",
+              "name": "fence_violation"
+            }
+          },
+          "type": "uint8_t"
+        },
         "health_component_t": {
           "description": "Bitfield for subsystems & components",
           "entries": {
@@ -487,10 +505,6 @@
               "comment": "e.g. CPU or RAM",
               "description": "System",
               "name": "system"
-            },
-            "1073741824": {
-              "description": "Open Drone ID system",
-              "name": "open_drone_id"
             },
             "128": {
               "description": "Remote Control (RC or Joystick)",
@@ -620,17 +634,9 @@
               "description": "Precision Land",
               "name": "precland"
             },
-            "1073741824": {
-              "description": "External 8",
-              "name": "external8"
-            },
             "131072": {
               "description": "Takeoff",
               "name": "takeoff"
-            },
-            "134217728": {
-              "description": "External 5",
-              "name": "external5"
             },
             "16": {
               "description": "Loiter",
@@ -639,10 +645,6 @@
             "16384": {
               "description": "Offboard",
               "name": "offboard"
-            },
-            "16777216": {
-              "description": "External 2",
-              "name": "external2"
             },
             "2": {
               "description": "Altitude mode",
@@ -656,10 +658,6 @@
               "description": "Land",
               "name": "land"
             },
-            "268435456": {
-              "description": "External 6",
-              "name": "external6"
-            },
             "32": {
               "description": "RTL",
               "name": "rtl"
@@ -667,10 +665,6 @@
             "32768": {
               "description": "Stabilized",
               "name": "stab"
-            },
-            "33554432": {
-              "description": "External 3",
-              "name": "external3"
             },
             "4": {
               "description": "Position mode",
@@ -684,21 +678,9 @@
               "description": "Follow Target",
               "name": "follow_target"
             },
-            "536870912": {
-              "description": "External 7",
-              "name": "external7"
-            },
-            "67108864": {
-              "description": "External 4",
-              "name": "external4"
-            },
             "8": {
               "description": "Mission mode",
               "name": "mission"
-            },
-            "8388608": {
-              "description": "External 1",
-              "name": "external1"
             }
           },
           "is_bitfield": true,
@@ -739,41 +721,9 @@
               "description": "Vtol Takeoff",
               "name": "auto_vtol_takeoff"
             },
-            "16": {
-              "description": "External 1",
-              "name": "external1"
-            },
-            "17": {
-              "description": "External 2",
-              "name": "external2"
-            },
-            "18": {
-              "description": "External 3",
-              "name": "external3"
-            },
-            "19": {
-              "description": "External 4",
-              "name": "external4"
-            },
             "2": {
               "description": "Position control",
               "name": "posctl"
-            },
-            "20": {
-              "description": "External 5",
-              "name": "external5"
-            },
-            "21": {
-              "description": "External 6",
-              "name": "external6"
-            },
-            "22": {
-              "description": "External 7",
-              "name": "external7"
-            },
-            "23": {
-              "description": "External 8",
-              "name": "external8"
             },
             "255": {
               "description": "[Unknown]",
@@ -802,10 +752,6 @@
             "8": {
               "description": "Stabilized",
               "name": "stab"
-            },
-            "9": {
-              "description": "Position Slow",
-              "name": "position_slow"
             }
           },
           "type": "uint8_t"
@@ -890,21 +836,6 @@
               ],
               "message": "No valid global position estimate",
               "name": "check_modes_global_pos"
-            },
-            "10161216": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Open Drone ID system failed to report. Make sure it is setup and installed properly.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
-              "message": "Open Drone ID system missing",
-              "name": "check_open_drone_id_missing"
             },
             "10198977": {
               "arguments": [
@@ -1023,7 +954,7 @@
                   "type": "float"
                 }
               ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_WIND_MAX</param> and <param>COM_WIND_MAX_ACT</param> parameters.\n</profile>",
+              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_WIND_MAX</param> parameter.\n</profile>",
               "message": "Wind speed is above limit ({3:.1m/s})",
               "name": "check_wind_too_high"
             },
@@ -1196,6 +1127,25 @@
               "message": "Not enough GPS Satellites",
               "name": "check_estimator_gps_num_sats_too_low"
             },
+            "13131225": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "px4::geofence_violation_reason_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> parameter.\n</profile>",
+              "message": "Geofence violation: {3}",
+              "name": "check_gf_violation"
+            },
             "1326449": {
               "arguments": [
                 {
@@ -1242,21 +1192,6 @@
               "message": "No valid local position estimate",
               "name": "check_modes_local_pos"
             },
-            "13923616": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> and <param>GF_MAX_VER_DIST</param> parameters.\n</profile>",
-              "message": "Geofence violation: exceeding maximum altitude above Home",
-              "name": "check_gf_violation_max_alt"
-            },
             "14200647": {
               "arguments": [
                 {
@@ -1272,21 +1207,6 @@
               "message": "Vehicle is not in multicopter mode",
               "name": "check_system_vtol_in_fw_mode"
             },
-            "143019": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> parameter.\n</profile>",
-              "message": "Geofence violation: approaching or outside geofence",
-              "name": "check_gf_violation_custom_gf"
-            },
             "14644618": {
               "arguments": [
                 {
@@ -1301,21 +1221,6 @@
               "description": "<profile name=\"dev\"> This check can be configured via <param>COM_FLT_TIME_MAX</param> parameter.\n</profile>",
               "message": "Maximum flight time reached",
               "name": "check_flight_time_limit"
-            },
-            "14748737": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "The application running the mode is not started.",
-              "message": "Mode is not registered",
-              "name": "check_external_modes_unavailable"
             },
             "15180799": {
               "arguments": [
@@ -1354,25 +1259,9 @@
                 {
                   "name": "health_component_index",
                   "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                },
-                {
-                  "name": "arg2",
-                  "type": "float"
-                },
-                {
-                  "name": "arg3",
-                  "type": "float"
                 }
               ],
-              "description": "<profile name=\"dev\"> Measured strength: {3:.3}, expected: {4:.3} \u00b1 <param>EKF2_MAG_CHK_STR</param> Measured inclination: {5:.3}, expected: {6:.3} \u00b1 <param>EKF2_MAG_CHK_INC</param> This check can be configured via <param>COM_ARM_MAG_STR</param> and <param>EKF2_MAG_CHECK</param> parameters.\n</profile>",
+              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_ARM_MAG_STR</param> and <param>EKF2_MAG_CHECK</param> parameters.\n</profile>",
               "message": "Strong magnetic interference",
               "name": "check_estimator_mag_interference"
             },
@@ -1456,7 +1345,7 @@
                   "type": "float"
                 }
               ],
-              "description": "Current airspeed reading too high. Check if wind is below maximum airspeed and redo airspeed calibration if the measured airspeed does not correspond to wind conditions.\n\n<profile name=\"dev\"> Measured: {3:.1m/s}, limit: {4:.1m/s}.\n\nThis check can be configured via <param>FW_AIRSPD_MAX</param> parameter.\n</profile>",
+              "description": "Current airspeed reading too high. Check if wind is below maximum airspeed and redo airspeed calibration if the measured airspeed does not correspond to wind conditions.\n\n<profile name=\"dev\"> Measured: {3:.1m/s}, limit: {4:.1m/s}.\n\nThis check can be configured via <param>COM_ARM_ARSP_EN</param> and <param>FW_AIRSPD_MAX</param> parameter.\n</profile>",
               "message": "Airspeed too high",
               "name": "check_airspeed_too_high"
             },
@@ -1501,21 +1390,6 @@
               "description": "Recalibrate the RC.",
               "message": "RC calibration for channel {3} invalid: TRIM greater than MAX ({4} greater than {5})",
               "name": "check_rc_trim_too_high"
-            },
-            "2071276": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "The battery state of charge of the worst battery is below the preflight threshold.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_BAT_MIN</param> parameter.\n</profile>",
-              "message": "Low battery",
-              "name": "check_battery_preflight_low"
             },
             "2088119": {
               "arguments": [
@@ -1713,21 +1587,6 @@
               "message": "No valid mission available",
               "name": "check_modes_mission"
             },
-            "4065583": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> and <param>GF_MAX_HOR_DIST</param> parameters.\n</profile>",
-              "message": "Geofence violation: exceeding maximum distance to Home",
-              "name": "check_gf_violation_max_hor_dist"
-            },
             "4261821": {
               "arguments": [
                 {
@@ -1798,7 +1657,6 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "The battery state of charge of the worst battery is below the warning threshold.\n\n<profile name=\"dev\"> This check can be configured via <param>BAT_LOW_THR</param>, <param>BAT_CRIT_THR</param> and <param>BAT_EMERGEN_THR</param> parameters.\n</profile>",
               "message": "Low battery",
               "name": "check_battery_low"
             },
@@ -2119,36 +1977,6 @@
               "message": "Home position not set",
               "name": "check_modes_home_position"
             },
-            "7959667": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Vehicle is in safety configuration and denies arming.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARMABLE</param> parameter.\n</profile>",
-              "message": "Vehicle is in safety configuration",
-              "name": "check_armable_configuration"
-            },
-            "8441780": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Open Drone ID system reported being unhealthy.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
-              "message": "Open Drone ID system not ready",
-              "name": "check_open_drone_id_unhealthy"
-            },
             "8495477": {
               "arguments": [
                 {
@@ -2367,21 +2195,6 @@
               "message": "Angular velocity not valid",
               "name": "check_modes_angular_velocity"
             },
-            "9815168": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "The application running the mode might have crashed or the CPU load is too high.",
-              "message": "Mode is unresponsive",
-              "name": "check_external_modes_unresponsive"
-            },
             "9965819": {
               "arguments": [
                 {
@@ -2409,20 +2222,6 @@
               "message": "Calibration: Disabling RC input",
               "name": "commander_calib_rc_off"
             },
-            "10162376": {
-              "message": "Mission land item could not be read",
-              "name": "rtl_failed_to_read_land_item"
-            },
-            "10229254": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "int32_t"
-                }
-              ],
-              "message": "RTL Mission Land: climb to {1m_v}",
-              "name": "rtl_mission_land_climb"
-            },
             "10236960": {
               "arguments": [
                 {
@@ -2441,6 +2240,10 @@
               "description": "- ID: {1}\n- Distance: {2m}\n- Direction: {3} degrees",
               "message": "Traffic alert",
               "name": "navigator_traffic"
+            },
+            "10398259": {
+              "message": "Executing Reverse Mission",
+              "name": "mission_execute_rev"
             },
             "10452355": {
               "message": "Takeoff airspeed reached, climbout",
@@ -2474,6 +2277,10 @@
               "message": "Switching to mode '{2}' is currently not possible",
               "name": "commander_modeswitch_not_avail",
               "type": "append_health_and_arming_messages"
+            },
+            "1064976": {
+              "message": "Reverse Mission finished, loitering",
+              "name": "mission_finished_rev_loiter"
             },
             "10658115": {
               "message": "SET_POSITION_TARGET_GLOBAL_INT: FORCE is not supported",
@@ -2531,9 +2338,16 @@
               "message": "SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}",
               "name": "mavlink_rcv_sp_target_gl_invalid_coord"
             },
-            "10973461": {
-              "message": "Geofence invalid, doesn't contain Home position",
-              "name": "navigator_geofence_invalid_against_home"
+            "11078412": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_DRAG_CTRL instead",
+              "name": "ekf2_aid_mask_drag"
             },
             "11085221": {
               "message": "Mission: unable to write to storage",
@@ -2542,6 +2356,10 @@
             "11123101": {
               "message": "Connection to mission computer lost",
               "name": "commander_mission_comp_lost"
+            },
+            "11157417": {
+              "message": "RTL: landing at home position",
+              "name": "rtl_land_at_home"
             },
             "11174541": {
               "message": "Hardware fault: Camera capture disabled",
@@ -2563,12 +2381,8 @@
               "name": "fixedwing_position_control_conf_invalid_stall"
             },
             "11290563": {
-              "message": "Kill engaged",
+              "message": "Kill-switch engaged",
               "name": "commander_kill_sw_engaged"
-            },
-            "11521721": {
-              "message": "Mission rejected: Mission contains VTOL items but vehicle is not a VTOL",
-              "name": "navigator_mis_vtol_items"
             },
             "11552065": {
               "arguments": [
@@ -2603,9 +2417,13 @@
                 {
                   "name": "arg0",
                   "type": "uint8_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "int16_t"
                 }
               ],
-              "description": "Mission type: {1}",
+              "description": "Mission type: {1}. Number of bytes read: {2}",
               "message": "Mission: Unable to read from storage",
               "name": "mavlink_mission_storage_read_failure"
             },
@@ -2632,6 +2450,16 @@
               ],
               "message": "Waypoint {1} could not be read from storage",
               "name": "mission_failed_to_read_wp"
+            },
+            "11851609": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "RTL: loiter {1:.1}s",
+              "name": "rtl_loiter"
             },
             "11985219": {
               "arguments": [
@@ -2677,16 +2505,19 @@
               "message": "Transponder System Failure",
               "name": "mxs_system_fail"
             },
-            "12140426": {
+            "12128736": {
               "arguments": [
                 {
                   "name": "arg0",
-                  "type": "float"
+                  "type": "int32_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "int32_t"
                 }
               ],
-              "description": "<param>EKF2_MAG_TYPE</param> is set to {1:.0}.",
-              "message": "EKF2_MAG_TYPE invalid, resetting to default",
-              "name": "ekf2_mag_type_invalid"
+              "message": "RTL: descend to {1m_v} ({2m_v} above destination)",
+              "name": "rtl_descend_to"
             },
             "12208749": {
               "arguments": [
@@ -2709,7 +2540,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "message": "Landing target: unsupported coordinate frame {1}",
+              "message": "landing target: unsupported coordinate frame {1}",
               "name": "mavlink_rcv_lnd_target_unsup_coord"
             },
             "12224414": {
@@ -2728,9 +2559,9 @@
               "message": "Arming denied: switch to manual mode first",
               "name": "commander_arm_denied_not_manual"
             },
-            "12464476": {
-              "message": "Ready for throw launch",
-              "name": "mc_throw_launch_ready"
+            "124372": {
+              "message": "RTL Mission activated, fly to home",
+              "name": "navigator_rtl_mission_activated_home"
             },
             "12499622": {
               "message": "Mission: Unable to write to storage",
@@ -2771,6 +2602,20 @@
               "message": "IO RC config upload failed, aborting initialization",
               "name": "px4io_io_rc_config_upload_failed"
             },
+            "12907101": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "px4::arming_state_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "px4::arming_state_t"
+                }
+              ],
+              "message": "Arming state transition denied: {1} to {2}",
+              "name": "commander_transition_denied"
+            },
             "12957883": {
               "message": "Start descending",
               "name": "fixedwing_position_control_descend"
@@ -2800,6 +2645,21 @@
               ],
               "message": "Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})",
               "name": "navigator_mis_wp_gate_too_close"
+            },
+            "13439583": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_EV_CTRL</param> is set to {1:.0}.",
+              "message": "EV vertical position enabled by EKF2_HGT_REF",
+              "name": "ekf2_hgt_ref_ev"
+            },
+            "1344123": {
+              "message": "RTL activated",
+              "name": "navigator_rtl_home_activated"
             },
             "13471314": {
               "message": "Quad-chute triggered due to loss of altitude during transition",
@@ -2847,6 +2707,10 @@
               "message": "Mission rejected: invalid land start",
               "name": "navigator_mis_invalid_land"
             },
+            "14005080": {
+              "message": "RTL: landing at mission landing",
+              "name": "rtl_land_at_mission"
+            },
             "14080694": {
               "arguments": [
                 {
@@ -2873,9 +2737,51 @@
               "message": "Manual speed has been constrained by maximum speed",
               "name": "mc_pos_ctrl_man_vel_set"
             },
+            "14188249": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_RNG_CTRL</param> is set to {1:.0}.",
+              "message": "Range enabled by EKF2_HGT_REF",
+              "name": "ekf2_hgt_ref_rng"
+            },
             "14234660": {
               "message": "GCS connection regained",
               "name": "commander_dl_regained"
+            },
+            "14380058": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_GPS_CTRL instead",
+              "name": "ekf2_aid_mask_gps"
+            },
+            "1438136": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Geofence: maximum distance from home reached ({1:.0m})",
+              "name": "navigator_geofence_max_dist_from_home"
+            },
+            "14415650": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Using minimum takeoff altitude: {1:.2m}",
+              "name": "navigator_takeoff_min_alt"
             },
             "14443523": {
               "message": "Launch detected: enable motors",
@@ -2940,6 +2846,16 @@
               "message": "Disabling transmitting with IRIDIUM mavlink on instance {1}",
               "name": "mavlink_iridium_disable"
             },
+            "15151454": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Takeoff to {1:.1m_v} above home",
+              "name": "mission_takeoff_to"
+            },
             "1525547": {
               "message": "Landing aborted: unknown criterion",
               "name": "fixedwing_position_control_landing_abort_status_unknown_criterion"
@@ -2977,6 +2893,10 @@
               "message": "Launch detected: enablecontrol, waiting {1:.1}s until full throttle",
               "name": "launch_detection_wait_for_throttle"
             },
+            "15432474": {
+              "message": "RTL: landing at safe landing point",
+              "name": "rtl_land_at_safe_point"
+            },
             "15456613": {
               "arguments": [
                 {
@@ -2988,10 +2908,6 @@
               "message": "Accel {1} clipping, not safe to fly!",
               "name": "vehicle_imu_accel_clipping"
             },
-            "15536452": {
-              "message": "External mode is unresponsive, falling back to internal",
-              "name": "commander_mode_fallback_internal"
-            },
             "15598001": {
               "message": "Executing Mission",
               "name": "mission_execute"
@@ -2999,16 +2915,6 @@
             "15603271": {
               "message": "Dangerously low battery! Shutting system down",
               "name": "commander_low_bat_shutdown"
-            },
-            "15624514": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "message": "Wind speed above limit ({1:.1m/s}), landing advised",
-              "name": "check_above_wind_limits_warning"
             },
             "1569033": {
               "message": "parameter_rc_channel_index out of bounds",
@@ -3062,6 +2968,20 @@
               "message": "OpenDroneID system lost",
               "name": "commander_open_drone_id_lost"
             },
+            "16133968": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "int32_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "int32_t"
+                }
+              ],
+              "message": "RTL: return at {1m_v} ({2m_v} above destination)",
+              "name": "rtl_return_at"
+            },
             "16223078": {
               "message": "Landing aborted by operator",
               "name": "fixedwing_position_control_landing_abort_status_operator_abort"
@@ -3084,10 +3004,6 @@
               "message": "Mission rejected: Add Takeoff item or remove Landing",
               "name": "navigator_mis_add_to_or_rm_land"
             },
-            "16558486": {
-              "message": "Disarmed, don't throw",
-              "name": "mc_throw_launch_not_ready"
-            },
             "16591495": {
               "message": "Control high latency failed! Telemetry unavailable",
               "name": "commander_ctrl_high_latency_failed"
@@ -3097,16 +3013,24 @@
               "name": "navigator_mis_takeoff_not_first"
             },
             "16682655": {
-              "message": "Kill disengaged",
+              "message": "Kill-switch disengaged",
               "name": "commander_kill_sw_disengaged"
             },
             "16691824": {
               "message": "Ignoring mission item, invalid item",
               "name": "mavlink_mission_mis_item_invalid"
             },
+            "16718376": {
+              "message": "RTL to Mission landing, continue landing",
+              "name": "rtl_land_at_mission_continue_landing"
+            },
             "16725343": {
               "message": "RTL: completed, loitering",
               "name": "rtl_completed_loiter"
+            },
+            "16773080": {
+              "message": "MissionReverse: Got a non-position mission item, ignoring it",
+              "name": "mission_ignore_non_position_item"
             },
             "1746622": {
               "message": "Pilot took over using sticks",
@@ -3147,17 +3071,34 @@
               "message": "Mission rejected: starts with landing",
               "name": "navigator_mis_starts_w_landing2"
             },
-            "2020940": {
-              "message": "Roll command reduced due to uncertain velocity/wind estimates!",
-              "name": "npfg_roll_command_uncertain"
-            },
-            "2066387": {
-              "message": "Arming denied: calibrating",
-              "name": "commander_arm_denied_calibrating"
+            "1962848": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint16_t"
+                }
+              ],
+              "message": "Mission item index out of bound, index: {1}, max: {2}",
+              "name": "mission_index_out_of_bound"
             },
             "2087806": {
               "message": "Orbit radius limit exceeded",
               "name": "orbit_radius_exceeded"
+            },
+            "2225852": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_OF_CTRL instead",
+              "name": "ekf2_aid_mask_opt_flow"
             },
             "2321600": {
               "message": "Already higher than takeoff altitude (not descending)",
@@ -3205,6 +3146,10 @@
               "message": "Mission rejected: Add Landing item or remove Takeoff",
               "name": "navigator_mis_add_land_or_rm_to"
             },
+            "2806966": {
+              "message": "Reverse Mission finished, landed",
+              "name": "mission_finished_rev"
+            },
             "2831661": {
               "arguments": [
                 {
@@ -3235,14 +3180,14 @@
               "arguments": [
                 {
                   "name": "arg0",
-                  "type": "uint16_t"
+                  "type": "int32_t"
                 },
                 {
                   "name": "arg1",
-                  "type": "uint16_t"
+                  "type": "int32_t"
                 }
               ],
-              "message": "Waypoint index out of bounds (current {1} \\>= total {2})",
+              "message": "Waypoint index out of bounds ({1} \\< {2})",
               "name": "mavlink_mission_wp_index_out_of_bounds"
             },
             "3322590": {
@@ -3263,6 +3208,17 @@
               "message": "Mission rejected: No home position, waypoint {1} uses relative altitude",
               "name": "navigator_mis_no_home_rel_alt"
             },
+            "3386258": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_GPS_CTRL</param> is set to {1:.0}.",
+              "message": "GPS lon/lat is required for altitude fusion",
+              "name": "ekf2_gps_ctrl_alt"
+            },
             "3390156": {
               "message": "No valid mission available, loitering",
               "name": "mission_not_valid_loiter"
@@ -3278,6 +3234,21 @@
             "3484900": {
               "message": "Returning to launch",
               "name": "commander_rtl"
+            },
+            "3592387": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_IMU_CTRL instead",
+              "name": "ekf2_aid_mask_imu"
+            },
+            "3611313": {
+              "message": "Mission: Unable to write to storage",
+              "name": "mavlink_mission_storage_write_failure"
             },
             "3623245": {
               "arguments": [
@@ -3313,16 +3284,6 @@
               "description": "No mission or storage failure",
               "message": "Invalid mission state",
               "name": "mission_invalid_mission_state"
-            },
-            "3878855": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "message": "Using default takeoff altitude: {1:.2m}",
-              "name": "navigator_takeoff_default_alt"
             },
             "3914228": {
               "message": "Rejecting mission request command, component or system ID mismatch",
@@ -3362,6 +3323,10 @@
             "4472241": {
               "message": "IO config read failed, aborting initialization",
               "name": "px4io_config_read_failed"
+            },
+            "4488117": {
+              "message": "DO JUMP is cycling, giving up",
+              "name": "mission_do_jump_cycle"
             },
             "4502496": {
               "arguments": [
@@ -3512,20 +3477,6 @@
               "message": "Magnetometer sensor #{1} failure: {2}",
               "name": "sensor_failover_mag"
             },
-            "5383828": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "int32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "int32_t"
-                }
-              ],
-              "message": "RTL: start return at {1m_v} ({2m_v} above destination)",
-              "name": "vrtl_return_at"
-            },
             "5494498": {
               "message": "Mission rejected: Takeoff waypoint required",
               "name": "navigator_mis_takeoff_missing"
@@ -3610,6 +3561,10 @@
               "message": "RC trim calibration completed",
               "name": "commander_cal_trim_done"
             },
+            "6835962": {
+              "message": "RTL Mission activated, continue mission",
+              "name": "navigator_rtl_mission_activated"
+            },
             "6843301": {
               "message": "Parachute system regained",
               "name": "commander_parachute_regained"
@@ -3653,6 +3608,10 @@
               "message": "Mission failure: unable to reach heading within timeout",
               "name": "navigator_mission_failure_heading"
             },
+            "7126042": {
+              "message": "Failed to write current mission ID to storage",
+              "name": "mavlink_mission_err_id"
+            },
             "713405": {
               "arguments": [
                 {
@@ -3686,6 +3645,17 @@
               "description": "<param>MC_AIRMODE</param> is now set to roll/pitch airmode.",
               "message": "Yaw Airmode requires disabling the stick arm gesture",
               "name": "commander_airmode_requires_no_arm_gesture"
+            },
+            "7293273": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_AID_MASK</param> is set to {1:.0}.",
+              "message": "Use EKF2_EV_CTRL instead",
+              "name": "ekf2_aid_mask_ev"
             },
             "7714236": {
               "arguments": [
@@ -3721,15 +3691,24 @@
               "message": "Mission rejected: land start item before RTL item is not possible",
               "name": "navigator_mis_land_before_rtl"
             },
-            "8208988": {
+            "7867944": {
               "arguments": [
                 {
                   "name": "arg0",
                   "type": "float"
                 }
               ],
-              "message": "Climb to {1:.1m_v} above home",
-              "name": "mission_climb_before_start"
+              "description": "<param>EKF2_GPS_CTRL</param> is set to {1:.0}.",
+              "message": "GPS enabled by EKF2_HGT_REF",
+              "name": "ekf2_hgt_ref_gps"
+            },
+            "8163167": {
+              "message": "Could not read mission",
+              "name": "mission_cannot_read_mission"
+            },
+            "8165317": {
+              "message": "Disarming denied, not landed",
+              "name": "commander_disarming_denied_not_landed"
             },
             "8275181": {
               "message": "Transponder Failure",
@@ -3795,6 +3774,10 @@
               "message": "Manual backward speed has been constrained by forward speed",
               "name": "mc_pos_ctrl_man_vel_back_set"
             },
+            "8716192": {
+              "message": "RTL Mission activated, fly mission in reverse",
+              "name": "navigator_rtl_mission_activated_rev"
+            },
             "8775715": {
               "arguments": [
                 {
@@ -3812,6 +3795,17 @@
             "8833276": {
               "message": "No inputs, aborting RC trim calibration",
               "name": "commander_cal_no_inputs"
+            },
+            "8858122": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "<param>EKF2_BARO_CTRL</param> is set to {1:.0}.",
+              "message": "Baro enabled by EKF2_HGT_REF",
+              "name": "ekf2_hgt_ref_baro"
             },
             "8865457": {
               "message": "Geofence: import error",
@@ -3833,18 +3827,27 @@
               "message": "Ignoring mission request, currently busy",
               "name": "mavlink_mission_mis_req_ignored_busy"
             },
-            "9091509": {
-              "message": "Disarming denied: not landed",
-              "name": "commander_disarm_denied_not_landed"
-            },
             "9092852": {
               "message": "Unexpected waypoint index, aborting mission transfer",
               "name": "mavlink_mission_wp_unexpected2"
             },
-            "929525": {
-              "description": "Switch to manual mode recommended.\n\n<profile name=\"dev\"> This warning is triggered when the position error estimate is 90% of (or only 10m below) <param>COM_POS_FS_EPH</param> parameter.\n</profile>",
-              "message": "Estimated position error is approaching the failsafe threshold",
-              "name": "check_estimator_position_failure_imminent"
+            "9210889": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "int32_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "int32_t"
+                }
+              ],
+              "message": "RTL: climb to {1m_v} ({2m_v} above destination)",
+              "name": "rtl_climb_to"
+            },
+            "9316102": {
+              "message": "DO JUMP repetitions completed",
+              "name": "mission_do_jump_rep_completed"
             },
             "9346577": {
               "message": "Reached clearance altitude",
@@ -3860,9 +3863,15 @@
               "message": "RTL: unsupported MAV_FRAME ({1})",
               "name": "rtl_unsupported_mav_frame"
             },
-            "9355528": {
-              "message": "Could not set mission closest to position",
-              "name": "mission_failed_set_closest"
+            "9370229": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Geofence: maximum altitude above home reached ({1:.0m_v})",
+              "name": "navigator_geofence_max_alt_from_home"
             },
             "9421773": {
               "arguments": [
@@ -3878,14 +3887,6 @@
               "description": "Land immediately and check the system.",
               "message": "Baro sensor #{1} failure: {2}",
               "name": "sensor_failover_baro"
-            },
-            "9427265": {
-              "message": "Mission could not reset jump count",
-              "name": "mission_failed_set_jump_count"
-            },
-            "9432105": {
-              "message": "Geofence invalid, doesn't contain current vehicle position",
-              "name": "navigator_geofence_invalid_against_cur_pos"
             },
             "9476947": {
               "message": "Quad-chute triggered due to uncommanded descent detection",
@@ -3932,10 +3933,6 @@
               ],
               "message": "Failsafe activated due to {3}, triggering {2}",
               "name": "commander_failsafe_enter"
-            },
-            "9758530": {
-              "message": "Mission item could not be set",
-              "name": "mission_item_set_failed"
             },
             "9844908": {
               "message": "Landing detected",
@@ -4536,7 +4533,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Most likely the airspeed selector module is not running. This check can be configured via <param>SYS_HAS_NUM_ASPD</param> parameter.\n</profile>",
+              "description": "<profile name=\"dev\"> Most likely the airspeed selector module is not running. This check can be configured via <param>CBRK_AIRSPD_CHK</param> parameter.\n</profile>",
               "message": "No airspeed data",
               "name": "check_airspeed_no_data"
             }
@@ -4582,32 +4579,8 @@
           "22": [
             168034304
           ],
-          "23": [
-            184811520
-          ],
-          "24": [
-            201588736
-          ],
-          "25": [
-            218365952
-          ],
-          "26": [
-            235143168
-          ],
-          "27": [
-            251920384
-          ],
-          "28": [
-            268697600
-          ],
-          "29": [
-            285474816
-          ],
           "3": [
             67371008
-          ],
-          "30": [
-            302252032
           ],
           "4": [
             50593792
