@@ -2514,12 +2514,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/14590856/message</name>
-  <message>
-  <source>Waypoint {1} below home</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/14605264/message</name>
   <message>
   <source>Failsafe activated, triggering {2}</source>

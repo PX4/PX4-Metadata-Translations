@@ -2896,16 +2896,6 @@
               "message": "Maximum tilt limit has been constrained to a safe value",
               "name": "mc_pos_ctrl_tilt_set"
             },
-            "14590856": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "int16_t"
-                }
-              ],
-              "message": "Waypoint {1} below home",
-              "name": "navigator_mis_wp_below_home"
-            },
             "14605264": {
               "arguments": [
                 {
