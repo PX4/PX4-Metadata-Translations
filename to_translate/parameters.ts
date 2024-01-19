@@ -8427,222 +8427,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/MODAL_IO_BAUD/shortDesc</name>
-  <message>
-  <source>UART ESC baud rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_BAUD/longDesc</name>
-  <message>
-  <source>Default rate is 250Kbps, which is used in off-the-shelf MoadalAI ESC products.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_CONFIG/shortDesc</name>
-  <message>
-  <source>UART ESC configuration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_CONFIG/longDesc</name>
-  <message>
-  <source>Selects what type of UART ESC, if any, is being used.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_CONFIG/values/0/description</name>
-  <message>
-  <source>- Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_CONFIG/values/1/description</name>
-  <message>
-  <source>- VOXL ESC</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/shortDesc</name>
-  <message>
-  <source>UART ESC Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/longDesc</name>
-  <message>
-  <source>Selects what type of mode is enabled, if any</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/values/0/description</name>
-  <message>
-  <source>- None</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/values/1/description</name>
-  <message>
-  <source>- Turtle Mode enabled via AUX1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/values/2/description</name>
-  <message>
-  <source>- Turtle Mode enabled via AUX2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_MODE/values/3/description</name>
-  <message>
-  <source>- UART Passthrough Mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_RPM_MAX/shortDesc</name>
-  <message>
-  <source>UART ESC RPM Max</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_RPM_MAX/longDesc</name>
-  <message>
-  <source>Maximum RPM for ESC</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_RPM_MIN/shortDesc</name>
-  <message>
-  <source>UART ESC RPM Min</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_RPM_MIN/longDesc</name>
-  <message>
-  <source>Minimum RPM for ESC</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR1/shortDesc</name>
-  <message>
-  <source>UART ESC ID 1 Spin Direction Flag</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR1/values/0/description</name>
-  <message>
-  <source>- Default</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR1/values/1/description</name>
-  <message>
-  <source>- Reverse</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR2/shortDesc</name>
-  <message>
-  <source>UART ESC ID 2 Spin Direction Flag</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR2/values/0/description</name>
-  <message>
-  <source>- Default</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR2/values/1/description</name>
-  <message>
-  <source>- Reverse</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR3/shortDesc</name>
-  <message>
-  <source>UART ESC ID 3 Spin Direction Flag</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR3/values/0/description</name>
-  <message>
-  <source>- Default</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR3/values/1/description</name>
-  <message>
-  <source>- Reverse</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR4/shortDesc</name>
-  <message>
-  <source>UART ESC ID 4 Spin Direction Flag</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR4/values/0/description</name>
-  <message>
-  <source>- Default</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_SDIR4/values/1/description</name>
-  <message>
-  <source>- Reverse</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_COSP/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Cosphi</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_DEAD/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Crash Flip Motor Deadband</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_EXPO/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Crash Flip Motor expo</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_MINF/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Crash Flip Motor STICK_MINF</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_T_PERC/shortDesc</name>
-  <message>
-  <source>UART ESC Turtle Mode Crash Flip Motor Percent</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_VLOG/shortDesc</name>
-  <message>
-  <source>UART ESC verbose logging</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_VLOG/values/0/description</name>
-  <message>
-  <source>- Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/MODAL_IO_VLOG/values/1/description</name>
-  <message>
-  <source>- Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/MBE_ENABLE/shortDesc</name>
   <message>
   <source>Enable online mag bias calibration</source>
@@ -24351,6 +24135,282 @@
   </message>
 </context>
 <context>
+  <name>/parameters/VOXL_ESC_BAUD/shortDesc</name>
+  <message>
+  <source>UART ESC baud rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_BAUD/longDesc</name>
+  <message>
+  <source>Default rate is 250Kbps, which is used in off-the-shelf MoadalAI ESC products.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_CONFIG/shortDesc</name>
+  <message>
+  <source>UART ESC configuration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_CONFIG/longDesc</name>
+  <message>
+  <source>Selects what type of UART ESC, if any, is being used.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_CONFIG/values/0/description</name>
+  <message>
+  <source>- Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_CONFIG/values/1/description</name>
+  <message>
+  <source>- VOXL ESC</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_MODE/shortDesc</name>
+  <message>
+  <source>UART ESC Mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_MODE/longDesc</name>
+  <message>
+  <source>Selects what type of mode is enabled, if any</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_MODE/values/0/description</name>
+  <message>
+  <source>- None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_MODE/values/1/description</name>
+  <message>
+  <source>- Turtle Mode enabled via AUX1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_MODE/values/2/description</name>
+  <message>
+  <source>- Turtle Mode enabled via AUX2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_MODE/values/3/description</name>
+  <message>
+  <source>- UART Passthrough Mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_PUB_BST/shortDesc</name>
+  <message>
+  <source>UART ESC Enable publishing of battery status</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_PUB_BST/longDesc</name>
+  <message>
+  <source>Only applicable to ESCs that report total battery voltage and current</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_PUB_BST/values/0/description</name>
+  <message>
+  <source>- Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_PUB_BST/values/1/description</name>
+  <message>
+  <source>- Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_RPM_MAX/shortDesc</name>
+  <message>
+  <source>UART ESC RPM Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_RPM_MAX/longDesc</name>
+  <message>
+  <source>Maximum RPM for ESC</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_RPM_MIN/shortDesc</name>
+  <message>
+  <source>UART ESC RPM Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_RPM_MIN/longDesc</name>
+  <message>
+  <source>Minimum RPM for ESC</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR1/shortDesc</name>
+  <message>
+  <source>UART ESC ID 1 Spin Direction Flag</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR1/values/0/description</name>
+  <message>
+  <source>- Default</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR1/values/1/description</name>
+  <message>
+  <source>- Reverse</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR2/shortDesc</name>
+  <message>
+  <source>UART ESC ID 2 Spin Direction Flag</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR2/values/0/description</name>
+  <message>
+  <source>- Default</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR2/values/1/description</name>
+  <message>
+  <source>- Reverse</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR3/shortDesc</name>
+  <message>
+  <source>UART ESC ID 3 Spin Direction Flag</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR3/values/0/description</name>
+  <message>
+  <source>- Default</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR3/values/1/description</name>
+  <message>
+  <source>- Reverse</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR4/shortDesc</name>
+  <message>
+  <source>UART ESC ID 4 Spin Direction Flag</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR4/values/0/description</name>
+  <message>
+  <source>- Default</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_SDIR4/values/1/description</name>
+  <message>
+  <source>- Reverse</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_T_COSP/shortDesc</name>
+  <message>
+  <source>UART ESC Turtle Mode Cosphi</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_T_DEAD/shortDesc</name>
+  <message>
+  <source>UART ESC Turtle Mode Crash Flip Motor Deadband</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_T_EXPO/shortDesc</name>
+  <message>
+  <source>UART ESC Turtle Mode Crash Flip Motor expo</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_T_MINF/shortDesc</name>
+  <message>
+  <source>UART ESC Turtle Mode Crash Flip Motor STICK_MINF</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_T_PERC/shortDesc</name>
+  <message>
+  <source>UART ESC Turtle Mode Crash Flip Motor Percent</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_VLOG/shortDesc</name>
+  <message>
+  <source>UART ESC verbose logging</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_VLOG/values/0/description</name>
+  <message>
+  <source>- Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL_ESC_VLOG/values/1/description</name>
+  <message>
+  <source>- Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL2_IO_BAUD/shortDesc</name>
+  <message>
+  <source>UART M0065 baud rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL2_IO_BAUD/longDesc</name>
+  <message>
+  <source>Default rate is 921600, which is used for communicating with M0065.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL2_IO_MAX/shortDesc</name>
+  <message>
+  <source>M0065 PWM Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL2_IO_MAX/longDesc</name>
+  <message>
+  <source>Maximum duration (microseconds) for M0065 PWM</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL2_IO_MIN/shortDesc</name>
+  <message>
+  <source>M0065 PWM Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VOXL2_IO_MIN/longDesc</name>
+  <message>
+  <source>Minimum duration (microseconds) for M0065 PWM</source>
+  </message>
+</context>
+<context>
   <name>/parameters/VT_ARSP_BLEND/shortDesc</name>
   <message>
   <source>Transition blending airspeed</source>
@@ -24873,9 +24933,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Developer</name>
+  <name>$globals/category/Standard</name>
   <message>
-  <source>Developer</source>
+  <source>Standard</source>
   </message>
 </context>
 <context>
@@ -24885,39 +24945,39 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Standard</name>
+  <name>$globals/category/Developer</name>
   <message>
-  <source>Standard</source>
+  <source>Developer</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Position Control</name>
+  <name>$globals/group/MAVLink</name>
   <message>
-  <source>Multicopter Position Control</source>
+  <source>MAVLink</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN GNSS</name>
+  <name>$globals/group/Commander</name>
   <message>
-  <source>UAVCAN GNSS</source>
+  <source>Commander</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Transponder</name>
+  <name>$globals/group/Events</name>
   <message>
-  <source>Transponder</source>
+  <source>Events</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Testing</name>
+  <name>$globals/group/OSD</name>
   <message>
-  <source>Testing</source>
+  <source>OSD</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Path Control</name>
+  <name>$globals/group/Miscellaneous</name>
   <message>
-  <source>FW Path Control</source>
+  <source>Miscellaneous</source>
   </message>
 </context>
 <context>
@@ -24927,45 +24987,87 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Path Control</name>
+  <message>
+  <source>FW Path Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Cyphal</name>
+  <message>
+  <source>Cyphal</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Performance</name>
+  <message>
+  <source>FW Performance</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Mixer Output</name>
   <message>
   <source>Mixer Output</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Sensor Calibration</name>
+  <name>$globals/group/Radio Calibration</name>
   <message>
-  <source>Sensor Calibration</source>
+  <source>Radio Calibration</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Follow target</name>
+  <name>$globals/group/UUV Position Control</name>
   <message>
-  <source>Follow target</source>
+  <source>UUV Position Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Autotune</name>
+  <name>$globals/group/Testing</name>
   <message>
-  <source>Autotune</source>
+  <source>Testing</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Auto Landing</name>
+  <name>$globals/group/FlightTaskOrbit</name>
   <message>
-  <source>FW Auto Landing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Iridium SBD</name>
-  <message>
-  <source>Iridium SBD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
+  <source>FlightTaskOrbit</source>
   </message>
 </context>
 <context>
@@ -24975,33 +25077,81 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Serial</name>
+  <name>$globals/group/Mission</name>
   <message>
-  <source>Serial</source>
+  <source>Mission</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Telemetry</name>
+  <name>$globals/group/Multicopter Position Control</name>
   <message>
-  <source>Telemetry</source>
+  <source>Multicopter Position Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Attitude Q estimator</name>
+  <name>$globals/group/Simulator</name>
   <message>
-  <source>Attitude Q estimator</source>
+  <source>Simulator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Attitude Control</name>
+  <name>$globals/group/Circuit Breaker</name>
   <message>
-  <source>FW Attitude Control</source>
+  <source>Circuit Breaker</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/EKF2</name>
+  <name>$globals/group/VOXL2 IO</name>
   <message>
-  <source>EKF2</source>
+  <source>VOXL2 IO</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN</name>
+  <message>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ESC</name>
+  <message>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Launch detection</name>
+  <message>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
   </message>
 </context>
 <context>
@@ -25017,267 +25167,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ESC</name>
-  <message>
-  <source>ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Launch detection</name>
-  <message>
-  <source>FW Launch detection</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
-  <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Cyphal</name>
-  <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Control</name>
-  <message>
-  <source>Camera Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera trigger</name>
-  <message>
-  <source>Camera trigger</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Acro Mode</name>
-  <message>
-  <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MODAL IO</name>
-  <message>
-  <source>MODAL IO</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/System</name>
   <message>
   <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Attitude Control</name>
+  <message>
+  <source>FW Attitude Control</source>
   </message>
 </context>
 <context>
@@ -25287,15 +25185,183 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera trigger</name>
+  <message>
+  <source>Camera trigger</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VOXL ESC</name>
+  <message>
+  <source>VOXL ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Land Detector</name>
+  <message>
+  <source>Land Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Capture</name>
+  <message>
+  <source>Camera Capture</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/VTOL Attitude Control</name>
   <message>
   <source>VTOL Attitude Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Thermal Compensation</name>
+  <name>$globals/group/Telemetry</name>
   <message>
-  <source>Thermal Compensation</source>
+  <source>Telemetry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Serial</name>
+  <message>
+  <source>Serial</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Transponder</name>
+  <message>
+  <source>Transponder</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Control</name>
+  <message>
+  <source>Camera Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Iridium SBD</name>
+  <message>
+  <source>Iridium SBD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
   </message>
 </context>
 <context>
@@ -25305,33 +25371,33 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Mission</name>
+  <name>$globals/group/Follow target</name>
   <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
+  <source>Follow target</source>
   </message>
 </context>
 <context>
   <name>$globals/group/Radio Switches</name>
   <message>
   <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <message>
+  <source>Multicopter Position Slow Mode</source>
   </message>
 </context>
 </TS>
