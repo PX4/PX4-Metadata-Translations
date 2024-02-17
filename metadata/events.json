@@ -3205,6 +3205,10 @@
               "message": "Geofence violation for waypoint {1}",
               "name": "navigator_mis_geofence_violation"
             },
+            "2842608": {
+              "message": "Mission rejected: Landing waypoint/pattern required",
+              "name": "feasibility_mis_in_air_landing_req"
+            },
             "3038268": {
               "message": "Received unknown mission type, abort",
               "name": "mavlink_mission_unknown_mis_type"

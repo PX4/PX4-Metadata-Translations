@@ -2847,6 +2847,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/2842608/message</name>
+  <message>
+  <source>Mission rejected: Landing waypoint/pattern required</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/3038268/message</name>
   <message>
   <source>Received unknown mission type, abort</source>
