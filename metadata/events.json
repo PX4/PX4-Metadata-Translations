@@ -467,6 +467,10 @@
             "5": {
               "description": "emergency battery level",
               "name": "emergency_battery_level"
+            },
+            "6": {
+              "description": "low remaining flight time",
+              "name": "low_remaining_flight_time"
             }
           },
           "type": "uint8_t"
@@ -3148,6 +3152,10 @@
             "2087806": {
               "message": "Orbit radius limit exceeded",
               "name": "orbit_radius_exceeded"
+            },
+            "2308551": {
+              "message": "Low remaining flight time, return advised",
+              "name": "commander_failsafe_enter_low_flight_time_warn"
             },
             "2321600": {
               "message": "Already higher than takeoff altitude (not descending)",

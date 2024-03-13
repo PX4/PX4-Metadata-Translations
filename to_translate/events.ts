@@ -512,6 +512,12 @@
   </message>
 </context>
 <context>
+  <name>/components/1/enums/failsafe_cause_t/entries/6/description</name>
+  <message>
+  <source>low remaining flight time</source>
+  </message>
+</context>
+<context>
   <name>/components/1/enums/health_component_t/entries/1/description</name>
   <message>
   <source>None</source>
@@ -2796,6 +2802,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/2087806/message</name>
   <message>
   <source>Orbit radius limit exceeded</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/2308551/message</name>
+  <message>
+  <source>Low remaining flight time, return advised</source>
   </message>
 </context>
 <context>
