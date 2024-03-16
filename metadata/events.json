@@ -407,19 +407,19 @@
               "name": "terminate"
             },
             "2": {
-              "description": "fallback to position control",
+              "description": "Position mode",
               "name": "fallback_posctrl"
             },
             "3": {
-              "description": "fallback to altitude control",
+              "description": "Altitude mode",
               "name": "fallback_altctrl"
             },
             "4": {
-              "description": "fallback to stabilized",
+              "description": "Stabilized mode",
               "name": "fallback_stabilized"
             },
             "5": {
-              "description": "hold",
+              "description": "Hold",
               "name": "hold"
             },
             "6": {
@@ -427,11 +427,11 @@
               "name": "rtl"
             },
             "7": {
-              "description": "land",
+              "description": "Land",
               "name": "land"
             },
             "8": {
-              "description": "descend",
+              "description": "Descend",
               "name": "descend"
             },
             "9": {
@@ -449,7 +449,7 @@
               "name": "generic"
             },
             "1": {
-              "description": "manual control loss",
+              "description": "Manual control loss",
               "name": "manual_control_loss"
             },
             "2": {
@@ -457,19 +457,19 @@
               "name": "gcs_connection_loss"
             },
             "3": {
-              "description": "low battery level",
+              "description": "Low battery level",
               "name": "low_battery_level"
             },
             "4": {
-              "description": "critical battery level",
+              "description": "Critical battery level",
               "name": "critical_battery_level"
             },
             "5": {
-              "description": "emergency battery level",
+              "description": "Emergency battery level",
               "name": "emergency_battery_level"
             },
             "6": {
-              "description": "low remaining flight time",
+              "description": "Remaining flight time low",
               "name": "low_remaining_flight_time"
             }
           },
@@ -2791,6 +2791,10 @@
               "name": "commander_failsafe_enter_generic_warn",
               "type": "append_health_and_arming_messages"
             },
+            "133277": {
+              "message": "Arming denied: Resolve system health failures first",
+              "name": "commander_arm_denied_resolve_failures"
+            },
             "13378512": {
               "arguments": [
                 {
@@ -2840,7 +2844,7 @@
                   "type": "px4::failsafe_cause_t"
                 }
               ],
-              "message": "Failsafe activated due to {4}, triggering {2} in {3} seconds",
+              "message": "{4}, triggering {2} in {3} seconds",
               "name": "commander_failsafe_enter_hold"
             },
             "13944665": {
@@ -2911,7 +2915,7 @@
                   "type": "px4::failsafe_action_t"
                 }
               ],
-              "message": "Failsafe activated, triggering {2}",
+              "message": "Failsafe, triggering {2}",
               "name": "commander_failsafe_enter_generic",
               "type": "append_health_and_arming_messages"
             },
@@ -3380,7 +3384,7 @@
                   "type": "uint16_t"
                 }
               ],
-              "message": "Failsafe activated, triggering {2} in {3} seconds",
+              "message": "Failsafe, triggering {2} in {3} seconds",
               "name": "commander_failsafe_enter_generic_hold",
               "type": "append_health_and_arming_messages"
             },
@@ -3932,7 +3936,7 @@
                   "type": "px4::failsafe_cause_t"
                 }
               ],
-              "message": "Failsafe activated due to {3}, triggering {2}",
+              "message": "{3}, triggering {2}",
               "name": "commander_failsafe_enter"
             },
             "9758530": {

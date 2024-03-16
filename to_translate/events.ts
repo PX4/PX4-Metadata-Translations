@@ -430,25 +430,25 @@
 <context>
   <name>/components/1/enums/failsafe_action_t/entries/2/description</name>
   <message>
-  <source>fallback to position control</source>
+  <source>Position mode</source>
   </message>
 </context>
 <context>
   <name>/components/1/enums/failsafe_action_t/entries/3/description</name>
   <message>
-  <source>fallback to altitude control</source>
+  <source>Altitude mode</source>
   </message>
 </context>
 <context>
   <name>/components/1/enums/failsafe_action_t/entries/4/description</name>
   <message>
-  <source>fallback to stabilized</source>
+  <source>Stabilized mode</source>
   </message>
 </context>
 <context>
   <name>/components/1/enums/failsafe_action_t/entries/5/description</name>
   <message>
-  <source>hold</source>
+  <source>Hold</source>
   </message>
 </context>
 <context>
@@ -460,13 +460,13 @@
 <context>
   <name>/components/1/enums/failsafe_action_t/entries/7/description</name>
   <message>
-  <source>land</source>
+  <source>Land</source>
   </message>
 </context>
 <context>
   <name>/components/1/enums/failsafe_action_t/entries/8/description</name>
   <message>
-  <source>descend</source>
+  <source>Descend</source>
   </message>
 </context>
 <context>
@@ -484,7 +484,7 @@
 <context>
   <name>/components/1/enums/failsafe_cause_t/entries/1/description</name>
   <message>
-  <source>manual control loss</source>
+  <source>Manual control loss</source>
   </message>
 </context>
 <context>
@@ -496,25 +496,25 @@
 <context>
   <name>/components/1/enums/failsafe_cause_t/entries/3/description</name>
   <message>
-  <source>low battery level</source>
+  <source>Low battery level</source>
   </message>
 </context>
 <context>
   <name>/components/1/enums/failsafe_cause_t/entries/4/description</name>
   <message>
-  <source>critical battery level</source>
+  <source>Critical battery level</source>
   </message>
 </context>
 <context>
   <name>/components/1/enums/failsafe_cause_t/entries/5/description</name>
   <message>
-  <source>emergency battery level</source>
+  <source>Emergency battery level</source>
   </message>
 </context>
 <context>
   <name>/components/1/enums/failsafe_cause_t/entries/6/description</name>
   <message>
-  <source>low remaining flight time</source>
+  <source>Remaining flight time low</source>
   </message>
 </context>
 <context>
@@ -2412,6 +2412,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/133277/message</name>
+  <message>
+  <source>Arming denied: Resolve system health failures first</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/13378512/message</name>
   <message>
   <source>Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})</source>
@@ -2444,7 +2450,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/13704694/message</name>
   <message>
-  <source>Failsafe activated due to {4}, triggering {2} in {3} seconds</source>
+  <source>{4}, triggering {2} in {3} seconds</source>
   </message>
 </context>
 <context>
@@ -2522,7 +2528,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/14605264/message</name>
   <message>
-  <source>Failsafe activated, triggering {2}</source>
+  <source>Failsafe, triggering {2}</source>
   </message>
 </context>
 <context>
@@ -3042,7 +3048,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/4502496/message</name>
   <message>
-  <source>Failsafe activated, triggering {2} in {3} seconds</source>
+  <source>Failsafe, triggering {2} in {3} seconds</source>
   </message>
 </context>
 <context>
@@ -3625,7 +3631,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/9751178/message</name>
   <message>
-  <source>Failsafe activated due to {3}, triggering {2}</source>
+  <source>{3}, triggering {2}</source>
   </message>
 </context>
 <context>
