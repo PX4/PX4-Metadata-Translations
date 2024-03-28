@@ -2787,7 +2787,7 @@
                 }
               ],
               "description": "No action is triggered.",
-              "message": "Failsafe warning triggered",
+              "message": "Failsafe warning:",
               "name": "commander_failsafe_enter_generic_warn",
               "type": "append_health_and_arming_messages"
             },
@@ -2844,7 +2844,7 @@
                   "type": "px4::failsafe_cause_t"
                 }
               ],
-              "message": "{4}, triggering {2} in {3} seconds",
+              "message": "{4}: switching to {2} in {3} seconds",
               "name": "commander_failsafe_enter_hold"
             },
             "13944665": {
@@ -2915,7 +2915,7 @@
                   "type": "px4::failsafe_action_t"
                 }
               ],
-              "message": "Failsafe, triggering {2}",
+              "message": "Failsafe activated: Autopilot disengaged, switching to {2}",
               "name": "commander_failsafe_enter_generic",
               "type": "append_health_and_arming_messages"
             },
@@ -3384,7 +3384,7 @@
                   "type": "uint16_t"
                 }
               ],
-              "message": "Failsafe, triggering {2} in {3} seconds",
+              "message": "Failsafe activated: switching to {2} in {3} seconds",
               "name": "commander_failsafe_enter_generic_hold",
               "type": "append_health_and_arming_messages"
             },
@@ -3777,7 +3777,7 @@
                 }
               ],
               "description": "No action is triggered.",
-              "message": "Failsafe warning triggered due to {2}",
+              "message": "Failsafe warning: {2}",
               "name": "commander_failsafe_enter_warn"
             },
             "8673473": {
@@ -3936,7 +3936,7 @@
                   "type": "px4::failsafe_cause_t"
                 }
               ],
-              "message": "{3}, triggering {2}",
+              "message": "{3}: switching to {2}",
               "name": "commander_failsafe_enter"
             },
             "9758530": {

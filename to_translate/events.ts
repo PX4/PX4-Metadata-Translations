@@ -2402,7 +2402,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/13277401/message</name>
   <message>
-  <source>Failsafe warning triggered</source>
+  <source>Failsafe warning:</source>
   </message>
 </context>
 <context>
@@ -2450,7 +2450,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/13704694/message</name>
   <message>
-  <source>{4}, triggering {2} in {3} seconds</source>
+  <source>{4}: switching to {2} in {3} seconds</source>
   </message>
 </context>
 <context>
@@ -2528,7 +2528,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/14605264/message</name>
   <message>
-  <source>Failsafe, triggering {2}</source>
+  <source>Failsafe activated: Autopilot disengaged, switching to {2}</source>
   </message>
 </context>
 <context>
@@ -3048,7 +3048,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/4502496/message</name>
   <message>
-  <source>Failsafe, triggering {2} in {3} seconds</source>
+  <source>Failsafe activated: switching to {2} in {3} seconds</source>
   </message>
 </context>
 <context>
@@ -3466,7 +3466,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/8557551/message</name>
   <message>
-  <source>Failsafe warning triggered due to {2}</source>
+  <source>Failsafe warning: {2}</source>
   </message>
 </context>
 <context>
@@ -3631,7 +3631,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/9751178/message</name>
   <message>
-  <source>{3}, triggering {2}</source>
+  <source>{3}: switching to {2}</source>
   </message>
 </context>
 <context>
