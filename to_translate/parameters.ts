@@ -3519,1542 +3519,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_ABIAS_INIT/shortDesc</name>
-  <message>
-  <source>1-sigma IMU accelerometer switch-on bias</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ABL_ACCLIM/shortDesc</name>
-  <message>
-  <source>Maximum IMU accel magnitude that allows IMU bias learning</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ABL_ACCLIM/longDesc</name>
-  <message>
-  <source>If the magnitude of the IMU accelerometer vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the accel bias estimates.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ABL_GYRLIM/shortDesc</name>
-  <message>
-  <source>Maximum IMU gyro angular rate magnitude that allows IMU bias learning</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ABL_GYRLIM/longDesc</name>
-  <message>
-  <source>If the magnitude of the IMU angular rate vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the accel bias estimates.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ABL_LIM/shortDesc</name>
-  <message>
-  <source>Accelerometer bias learning limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ABL_LIM/longDesc</name>
-  <message>
-  <source>The ekf accel bias states will be limited to within a range equivalent to +- of this value.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ABL_TAU/shortDesc</name>
-  <message>
-  <source>Time constant used by acceleration and angular rate magnitude checks used to inhibit accel bias learning</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ABL_TAU/longDesc</name>
-  <message>
-  <source>The vector magnitude of angular rate and acceleration used to check if learning should be inhibited has a peak hold filter applied to it with an exponential decay. This parameter controls the time constant of the decay.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ACC_B_NOISE/shortDesc</name>
-  <message>
-  <source>Process noise for IMU accelerometer bias prediction</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ACC_NOISE/shortDesc</name>
-  <message>
-  <source>Accelerometer noise for covariance prediction</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_AGP_CTRL/shortDesc</name>
-  <message>
-  <source>Aux global position (AGP) sensor aiding</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_AGP_CTRL/longDesc</name>
-  <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_AGP_CTRL/bitmask/0/description</name>
-  <message>
-  <source>Horizontal position</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_AGP_CTRL/bitmask/1/description</name>
-  <message>
-  <source>Vertical position</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_AGP_DELAY/shortDesc</name>
-  <message>
-  <source>Aux global position estimator delay relative to IMU measurements</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_AGP_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for aux global position fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_AGP_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_AGP_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for aux global position observations used to lower bound or replace the uncertainty included in the message</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ANGERR_INIT/shortDesc</name>
-  <message>
-  <source>1-sigma tilt angle uncertainty after gravity vector alignment</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ARSP_THR/shortDesc</name>
-  <message>
-  <source>Airspeed fusion threshold</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ARSP_THR/longDesc</name>
-  <message>
-  <source>Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ASPD_MAX/shortDesc</name>
-  <message>
-  <source>Upper limit on airspeed along individual axes used to correct baro for position error effects</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_ASP_DELAY/shortDesc</name>
-  <message>
-  <source>Airspeed measurement delay relative to IMU measurements</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_AVEL_DELAY/shortDesc</name>
-  <message>
-  <source>Auxiliary Velocity Estimate (e.g from a landing target) delay relative to IMU measurements</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BARO_CTRL/shortDesc</name>
-  <message>
-  <source>Barometric sensor height aiding</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BARO_CTRL/longDesc</name>
-  <message>
-  <source>If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate its height in addition to other height sources (if activated).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BARO_CTRL/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BARO_CTRL/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BARO_DELAY/shortDesc</name>
-  <message>
-  <source>Barometer measurement delay relative to IMU measurements</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BARO_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for barometric and GPS height fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BARO_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BARO_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for barometric altitude</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BCOEF_X/shortDesc</name>
-  <message>
-  <source>X-axis ballistic coefficient used for multi-rotor wind estimation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BCOEF_X/longDesc</name>
-  <message>
-  <source>This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BCOEF_Y/shortDesc</name>
-  <message>
-  <source>Y-axis ballistic coefficient used for multi-rotor wind estimation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BCOEF_Y/longDesc</name>
-  <message>
-  <source>This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BETA_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for synthetic sideslip fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BETA_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_BETA_NOISE/shortDesc</name>
-  <message>
-  <source>Noise for synthetic sideslip fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DECL_TYPE/shortDesc</name>
-  <message>
-  <source>Integer bitmask controlling handling of magnetic declination</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DECL_TYPE/longDesc</name>
-  <message>
-  <source>Set bits in the following positions to enable functions. 0 : Set to true to use the declination from the geo_lookup library when the GPS position becomes available, set to false to always use the EKF2_MAG_DECL value. 1 : Set to true to save the EKF2_MAG_DECL parameter to the value returned by the EKF when the vehicle disarms.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DECL_TYPE/bitmask/0/description</name>
-  <message>
-  <source>use geo_lookup declination</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DECL_TYPE/bitmask/1/description</name>
-  <message>
-  <source>save EKF2_MAG_DECL on disarm</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DRAG_CTRL/shortDesc</name>
-  <message>
-  <source>Multirotor wind estimation selection</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DRAG_CTRL/longDesc</name>
-  <message>
-  <source>Activate wind speed estimation using specific-force measurements and a drag model defined by EKF2_BCOEF_[XY] and EKF2_MCOEF. Only use on vehicles that have their thrust aligned with the Z axis and no thrust in the XY plane.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DRAG_CTRL/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DRAG_CTRL/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DRAG_NOISE/shortDesc</name>
-  <message>
-  <source>Specific drag force observation noise variance used by the multi-rotor specific drag force model</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_DRAG_NOISE/longDesc</name>
-  <message>
-  <source>Increasing this makes the multi-rotor wind estimates adjust more slowly.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EAS_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for airspeed fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EN/shortDesc</name>
-  <message>
-  <source>EKF2 enable</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EVA_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for vision angle observations used to lower bound or replace the uncertainty included in the message</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EVP_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for vision position fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EVP_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EVP_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for vision position observations used to lower bound or replace the uncertainty included in the message</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EVV_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for vision velocity estimate fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EVV_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EVV_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for vision velocity observations used to lower bound or replace the uncertainty included in the message</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_CTRL/shortDesc</name>
-  <message>
-  <source>External vision (EV) sensor aiding</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_CTRL/longDesc</name>
-  <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion 2 : 3D velocity fusion 3 : Yaw</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_CTRL/bitmask/0/description</name>
-  <message>
-  <source>Horizontal position</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_CTRL/bitmask/1/description</name>
-  <message>
-  <source>Vertical position</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_CTRL/bitmask/2/description</name>
-  <message>
-  <source>3D velocity</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_CTRL/bitmask/3/description</name>
-  <message>
-  <source>Yaw</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_DELAY/shortDesc</name>
-  <message>
-  <source>Vision Position Estimator delay relative to IMU measurements</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_NOISE_MD/shortDesc</name>
-  <message>
-  <source>External vision (EV) noise mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_NOISE_MD/longDesc</name>
-  <message>
-  <source>If set to 0 (default) the measurement noise is taken from the vision message and the EV noise parameters are used as a lower bound. If set to 1 the observation noise is set from the parameters directly,</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_NOISE_MD/values/0/description</name>
-  <message>
-  <source>EV reported variance (parameter lower bound)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_NOISE_MD/values/1/description</name>
-  <message>
-  <source>EV noise parameters</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_POS_X/shortDesc</name>
-  <message>
-  <source>X position of VI sensor focal point in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_POS_Y/shortDesc</name>
-  <message>
-  <source>Y position of VI sensor focal point in body frame (right axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_POS_Z/shortDesc</name>
-  <message>
-  <source>Z position of VI sensor focal point in body frame (down axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_QMIN/shortDesc</name>
-  <message>
-  <source>External vision (EV) minimum quality (optional)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_EV_QMIN/longDesc</name>
-  <message>
-  <source>External vision will only be started and fused if the quality metric is above this threshold. The quality metric is a completely optional field provided by some VIO systems.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_FUSE_BETA/shortDesc</name>
-  <message>
-  <source>Enable synthetic sideslip fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_FUSE_BETA/longDesc</name>
-  <message>
-  <source>For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode). Note: side slip fusion is currently not supported for tailsitters.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_FUSE_BETA/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_FUSE_BETA/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GBIAS_INIT/shortDesc</name>
-  <message>
-  <source>1-sigma IMU gyro switch-on bias</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GND_EFF_DZ/shortDesc</name>
-  <message>
-  <source>Baro deadzone range for height fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GND_EFF_DZ/longDesc</name>
-  <message>
-  <source>Sets the value of deadzone applied to negative baro innovations. Deadzone is enabled when EKF2_GND_EFF_DZ &gt; 0.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GND_MAX_HGT/shortDesc</name>
-  <message>
-  <source>Height above ground level for ground effect zone</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GND_MAX_HGT/longDesc</name>
-  <message>
-  <source>Sets the maximum distance to the ground level where negative baro innovations are expected.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/shortDesc</name>
-  <message>
-  <source>Integer bitmask controlling GPS checks</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/longDesc</name>
-  <message>
-  <source>Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Minimum required sat count set by EKF2_REQ_NSATS 1 : Maximum allowed PDOP set by EKF2_REQ_PDOP 2 : Maximum allowed horizontal position error set by EKF2_REQ_EPH 3 : Maximum allowed vertical position error set by EKF2_REQ_EPV 4 : Maximum allowed speed error set by EKF2_REQ_SACC 5 : Maximum allowed horizontal position rate set by EKF2_REQ_HDRIFT. This check will only run when the vehicle is on ground and stationary. 6 : Maximum allowed vertical position rate set by EKF2_REQ_VDRIFT. This check will only run when the vehicle is on ground and stationary. 7 : Maximum allowed horizontal speed set by EKF2_REQ_HDRIFT. This check will only run when the vehicle is on ground and stationary. 8 : Maximum allowed vertical velocity discrepancy set by EKF2_REQ_VDRIFT</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/0/description</name>
-  <message>
-  <source>Min sat count (EKF2_REQ_NSATS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/1/description</name>
-  <message>
-  <source>Max PDOP (EKF2_REQ_PDOP)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/2/description</name>
-  <message>
-  <source>Max horizontal position error (EKF2_REQ_EPH)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/3/description</name>
-  <message>
-  <source>Max vertical position error (EKF2_REQ_EPV)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/4/description</name>
-  <message>
-  <source>Max speed error (EKF2_REQ_SACC)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/5/description</name>
-  <message>
-  <source>Max horizontal position rate (EKF2_REQ_HDRIFT)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/6/description</name>
-  <message>
-  <source>Max vertical position rate (EKF2_REQ_VDRIFT)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/7/description</name>
-  <message>
-  <source>Max horizontal speed (EKF2_REQ_HDRIFT)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/8/description</name>
-  <message>
-  <source>Max vertical velocity discrepancy (EKF2_REQ_VDRIFT)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CTRL/shortDesc</name>
-  <message>
-  <source>GNSS sensor aiding</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CTRL/longDesc</name>
-  <message>
-  <source>Set bits in the following positions to enable: 0 : Longitude and latitude fusion 1 : Altitude fusion 2 : 3D velocity fusion 3 : Dual antenna heading fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CTRL/bitmask/0/description</name>
-  <message>
-  <source>Lon/lat</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CTRL/bitmask/1/description</name>
-  <message>
-  <source>Altitude</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CTRL/bitmask/2/description</name>
-  <message>
-  <source>3D velocity</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CTRL/bitmask/3/description</name>
-  <message>
-  <source>Dual antenna heading</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_DELAY/shortDesc</name>
-  <message>
-  <source>GPS measurement delay relative to IMU measurements</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_POS_X/shortDesc</name>
-  <message>
-  <source>X position of GPS antenna in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_POS_Y/shortDesc</name>
-  <message>
-  <source>Y position of GPS antenna in body frame (right axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_POS_Z/shortDesc</name>
-  <message>
-  <source>Z position of GPS antenna in body frame (down axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_P_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for GNSS position fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_P_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_P_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for GNSS position</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_V_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for GNSS velocity fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_V_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_V_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for GNSS velocity</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GRAV_NOISE/shortDesc</name>
-  <message>
-  <source>Accelerometer measurement noise for gravity based observations</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GSF_TAS/shortDesc</name>
-  <message>
-  <source>Default value of true airspeed used in EKF-GSF AHRS calculation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GSF_TAS/longDesc</name>
-  <message>
-  <source>If no airspeed measurements are available, the EKF-GSF AHRS calculation will assume this value of true airspeed when compensating for centripetal acceleration during turns. Set to zero to disable centripetal acceleration compensation during fixed wing flight modes.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GYR_B_LIM/shortDesc</name>
-  <message>
-  <source>Gyro bias learning limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GYR_B_LIM/longDesc</name>
-  <message>
-  <source>The ekf gyro bias states will be limited to within a range equivalent to +- of this value.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GYR_B_NOISE/shortDesc</name>
-  <message>
-  <source>Process noise for IMU rate gyro bias prediction</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GYR_NOISE/shortDesc</name>
-  <message>
-  <source>Rate gyro noise for covariance prediction</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_HDG_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for heading fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_HDG_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_HEAD_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for magnetic heading fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_HGT_REF/shortDesc</name>
-  <message>
-  <source>Determines the reference source of height data used by the EKF</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_HGT_REF/longDesc</name>
-  <message>
-  <source>When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_HGT_REF/values/0/description</name>
-  <message>
-  <source>Barometric pressure</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_HGT_REF/values/1/description</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_HGT_REF/values/2/description</name>
-  <message>
-  <source>Range sensor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_HGT_REF/values/3/description</name>
-  <message>
-  <source>Vision</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_IMU_CTRL/shortDesc</name>
-  <message>
-  <source>IMU control</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_IMU_CTRL/bitmask/0/description</name>
-  <message>
-  <source>Gyro Bias</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_IMU_CTRL/bitmask/1/description</name>
-  <message>
-  <source>Accel Bias</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_IMU_CTRL/bitmask/2/description</name>
-  <message>
-  <source>Gravity vector fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_IMU_POS_X/shortDesc</name>
-  <message>
-  <source>X position of IMU in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_IMU_POS_Y/shortDesc</name>
-  <message>
-  <source>Y position of IMU in body frame (right axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_IMU_POS_Z/shortDesc</name>
-  <message>
-  <source>Z position of IMU in body frame (down axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_ACCLIM/shortDesc</name>
-  <message>
-  <source>Horizontal acceleration threshold used for heading observability check</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_ACCLIM/longDesc</name>
-  <message>
-  <source>The heading is assumed to be observable when the body acceleration is greater than this parameter when a global position/velocity aiding source is active.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_B_NOISE/shortDesc</name>
-  <message>
-  <source>Process noise for body magnetic field prediction</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHECK/shortDesc</name>
-  <message>
-  <source>Magnetic field strength test selection</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHECK/longDesc</name>
-  <message>
-  <source>Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHECK/bitmask/0/description</name>
-  <message>
-  <source>Strength (EKF2_MAG_CHK_STR)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHECK/bitmask/1/description</name>
-  <message>
-  <source>Inclination (EKF2_MAG_CHK_INC)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHECK/bitmask/2/description</name>
-  <message>
-  <source>Wait for WMM</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHK_INC/shortDesc</name>
-  <message>
-  <source>Magnetic field inclination check tolerance</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHK_INC/longDesc</name>
-  <message>
-  <source>Maximum allowed deviation from the expected magnetic field inclination to pass the check.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHK_STR/shortDesc</name>
-  <message>
-  <source>Magnetic field strength check tolerance</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_CHK_STR/longDesc</name>
-  <message>
-  <source>Maximum allowed deviation from the expected magnetic field strength to pass the check.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_DECL/shortDesc</name>
-  <message>
-  <source>Magnetic declination</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_DELAY/shortDesc</name>
-  <message>
-  <source>Magnetometer measurement delay relative to IMU measurements</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_E_NOISE/shortDesc</name>
-  <message>
-  <source>Process noise for earth magnetic field prediction</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for magnetometer XYZ component fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for magnetometer 3-axis fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_TYPE/shortDesc</name>
-  <message>
-  <source>Type of magnetometer fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_TYPE/longDesc</name>
-  <message>
-  <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_TYPE/values/0/description</name>
-  <message>
-  <source>Automatic</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_TYPE/values/1/description</name>
-  <message>
-  <source>Magnetic heading</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MAG_TYPE/values/5/description</name>
-  <message>
-  <source>None</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MCOEF/shortDesc</name>
-  <message>
-  <source>Propeller momentum drag coefficient used for multi-rotor wind estimation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MCOEF/longDesc</name>
-  <message>
-  <source>This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MIN_RNG/shortDesc</name>
-  <message>
-  <source>Expected range finder reading when on ground</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MIN_RNG/longDesc</name>
-  <message>
-  <source>If the vehicle is on ground, is not moving as determined by the motion test and the range finder is returning invalid or no data, then an assumed range value of EKF2_MIN_RNG will be used by the terrain estimator so that a terrain height estimate is available at the start of flight in situations where the range finder may be inside its minimum measurements distance when on ground.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MULTI_IMU/shortDesc</name>
-  <message>
-  <source>Multi-EKF IMUs</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MULTI_IMU/longDesc</name>
-  <message>
-  <source>Maximum number of IMUs to use for Multi-EKF. Set 0 to disable. Requires SENS_IMU_MODE 0.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MULTI_MAG/shortDesc</name>
-  <message>
-  <source>Multi-EKF Magnetometers</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_MULTI_MAG/longDesc</name>
-  <message>
-  <source>Maximum number of magnetometers to use for Multi-EKF. Set 0 to disable. Requires SENS_MAG_MODE 0.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_NOAID_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for non-aiding position hold</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_NOAID_TOUT/shortDesc</name>
-  <message>
-  <source>Maximum lapsed time from last fusion of measurements that constrain velocity drift before the EKF will report the horizontal nav solution as invalid</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_CTRL/shortDesc</name>
-  <message>
-  <source>Optical flow aiding</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_CTRL/longDesc</name>
-  <message>
-  <source>Enable optical flow fusion.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_CTRL/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_CTRL/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_DELAY/shortDesc</name>
-  <message>
-  <source>Optical flow measurement delay relative to IMU measurements</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_DELAY/longDesc</name>
-  <message>
-  <source>Assumes measurement is timestamped at trailing edge of integration period</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for optical flow fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_N_MAX/shortDesc</name>
-  <message>
-  <source>Measurement noise for the optical flow sensor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_N_MAX/longDesc</name>
-  <message>
-  <source>(when it's reported quality metric is at the minimum set by EKF2_OF_QMIN). The following condition must be met: EKF2_OF_N_MAXN &gt;= EKF2_OF_N_MIN</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_N_MIN/shortDesc</name>
-  <message>
-  <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_POS_X/shortDesc</name>
-  <message>
-  <source>X position of optical flow focal point in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_POS_Y/shortDesc</name>
-  <message>
-  <source>Y position of optical flow focal point in body frame (right axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_POS_Z/shortDesc</name>
-  <message>
-  <source>Z position of optical flow focal point in body frame (down axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_QMIN/shortDesc</name>
-  <message>
-  <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_QMIN_GND/shortDesc</name>
-  <message>
-  <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_XN/shortDesc</name>
-  <message>
-  <source>Static pressure position error coefficient for the negative X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_XN/longDesc</name>
-  <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a negative wind relative velocity along the X body axis. If the baro height estimate rises during backwards flight, then this will be a negative number.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_XP/shortDesc</name>
-  <message>
-  <source>Static pressure position error coefficient for the positive X axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_XP/longDesc</name>
-  <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a positive wind relative velocity along the X body axis. If the baro height estimate rises during forward flight, then this will be a negative number.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_YN/shortDesc</name>
-  <message>
-  <source>Pressure position error coefficient for the negative Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_YN/longDesc</name>
-  <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the negative Y (LH) body axis. If the baro height estimate rises during sideways flight to the left, then this will be a negative number.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_YP/shortDesc</name>
-  <message>
-  <source>Pressure position error coefficient for the positive Y axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_YP/longDesc</name>
-  <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the positive Y (RH) body axis. If the baro height estimate rises during sideways flight to the right, then this will be a negative number.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_Z/shortDesc</name>
-  <message>
-  <source>Static pressure position error coefficient for the Z axis</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PCOEF_Z/longDesc</name>
-  <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the Z body axis.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PREDICT_US/shortDesc</name>
-  <message>
-  <source>EKF prediction period</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_PREDICT_US/longDesc</name>
-  <message>
-  <source>EKF prediction period in microseconds. This should ideally be an integer multiple of the IMU time delta. Actual filter update will be an integer multiple of IMU update.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_EPH/shortDesc</name>
-  <message>
-  <source>Required EPH to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_EPV/shortDesc</name>
-  <message>
-  <source>Required EPV to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_GPS_H/shortDesc</name>
-  <message>
-  <source>Required GPS health time on startup</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_GPS_H/longDesc</name>
-  <message>
-  <source>Minimum continuous period without GPS failure required to mark a healthy GPS status. It can be reduced to speed up initialization, but it's recommended to keep this unchanged for a vehicle.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_HDRIFT/shortDesc</name>
-  <message>
-  <source>Maximum horizontal drift speed to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_NSATS/shortDesc</name>
-  <message>
-  <source>Required satellite count to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_PDOP/shortDesc</name>
-  <message>
-  <source>Maximum PDOP to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_SACC/shortDesc</name>
-  <message>
-  <source>Required speed accuracy to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_VDRIFT/shortDesc</name>
-  <message>
-  <source>Maximum vertical drift speed to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_A_HMAX/shortDesc</name>
-  <message>
-  <source>Maximum absolute altitude (height above ground level) allowed for conditional range aid mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_A_HMAX/longDesc</name>
-  <message>
-  <source>If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_A_IGATE/shortDesc</name>
-  <message>
-  <source>Gate size used for innovation consistency checks for range aid fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_A_IGATE/longDesc</name>
-  <message>
-  <source>A lower value means HAGL needs to be more stable in order to use range finder for height estimation in range aid mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_A_VMAX/shortDesc</name>
-  <message>
-  <source>Maximum horizontal velocity allowed for conditional range aid mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_A_VMAX/longDesc</name>
-  <message>
-  <source>If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_CTRL/shortDesc</name>
-  <message>
-  <source>Range sensor height aiding</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_CTRL/longDesc</name>
-  <message>
-  <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. To en-/disable range finder for terrain height estimation, use EKF2_TERR_MASK instead. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_CTRL/values/0/description</name>
-  <message>
-  <source>Disable range fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_CTRL/values/1/description</name>
-  <message>
-  <source>Enabled (conditional mode)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_CTRL/values/2/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_DELAY/shortDesc</name>
-  <message>
-  <source>Range finder measurement delay relative to IMU measurements</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for range finder fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_K_GATE/shortDesc</name>
-  <message>
-  <source>Gate size used for range finder kinematic consistency check</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_K_GATE/longDesc</name>
-  <message>
-  <source>To be used, the time derivative of the distance sensor measurements projected on the vertical axis needs to be statistically consistent with the estimated vertical velocity of the drone. Decrease this value to make the filter more robust against range finder faulty data (stuck, reflections, ...). Note: tune the range finder noise parameters (EKF2_RNG_NOISE and EKF2_RNG_SFE) before tuning this gate.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_NOISE/shortDesc</name>
-  <message>
-  <source>Measurement noise for range finder fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_PITCH/shortDesc</name>
-  <message>
-  <source>Range sensor pitch offset</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_POS_X/shortDesc</name>
-  <message>
-  <source>X position of range finder origin in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_POS_Y/shortDesc</name>
-  <message>
-  <source>Y position of range finder origin in body frame (right axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_POS_Z/shortDesc</name>
-  <message>
-  <source>Z position of range finder origin in body frame (down axis with origin relative to vehicle centre of gravity)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_QLTY_T/shortDesc</name>
-  <message>
-  <source>Minimum duration during which the reported range finder signal quality needs to be non-zero in order to be declared valid (s)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_SFE/shortDesc</name>
-  <message>
-  <source>Range finder range dependent noise scaler</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_RNG_SFE/longDesc</name>
-  <message>
-  <source>Specifies the increase in range finder noise with range.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_ERR_RED/shortDesc</name>
-  <message>
-  <source>Selector error reduce threshold</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_ERR_RED/longDesc</name>
-  <message>
-  <source>EKF2 instances have to be better than the selected by at least this amount before their relative score can be reduced.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_IMU_ACC/shortDesc</name>
-  <message>
-  <source>Selector acceleration threshold</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_IMU_ACC/longDesc</name>
-  <message>
-  <source>EKF2 selector acceleration error threshold for comparing accelerometers. Acceleration vector differences larger than this will result in accumulated velocity error.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_IMU_ANG/shortDesc</name>
-  <message>
-  <source>Selector angular threshold</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_IMU_ANG/longDesc</name>
-  <message>
-  <source>EKF2 selector maximum accumulated angular error threshold for comparing gyros. Accumulated angular error larger than this will result in the sensor being declared faulty.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_IMU_RAT/shortDesc</name>
-  <message>
-  <source>Selector angular rate threshold</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_IMU_RAT/longDesc</name>
-  <message>
-  <source>EKF2 selector angular rate error threshold for comparing gyros. Angular rate vector differences larger than this will result in accumulated angular error.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_IMU_VEL/shortDesc</name>
-  <message>
-  <source>Selector angular threshold</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SEL_IMU_VEL/longDesc</name>
-  <message>
-  <source>EKF2 selector maximum accumulated velocity threshold for comparing accelerometers. Accumulated velocity error larger than this will result in the sensor being declared faulty.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SYNT_MAG_Z/shortDesc</name>
-  <message>
-  <source>Enable synthetic magnetometer Z component measurement</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SYNT_MAG_Z/longDesc</name>
-  <message>
-  <source>Use for vehicles where the measured body Z magnetic field is subject to strong magnetic interference. For magnetic heading fusion the magnetometer Z measurement will be replaced by a synthetic value calculated using the knowledge of the 3D magnetic field vector at the location of the drone. Therefore, this parameter will only have an effect if the global position of the drone is known. For 3D mag fusion the magnetometer Z measurement will simply be ignored instead of fusing the synthetic value.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SYNT_MAG_Z/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_SYNT_MAG_Z/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TAS_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for TAS fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TAS_GATE/longDesc</name>
-  <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TAU_POS/shortDesc</name>
-  <message>
-  <source>Time constant of the position output prediction and smoothing filter. Controls how tightly the output track the EKF states</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TAU_VEL/shortDesc</name>
-  <message>
-  <source>Time constant of the velocity output prediction and smoothing filter</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TERR_GRAD/shortDesc</name>
-  <message>
-  <source>Magnitude of terrain gradient</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TERR_MASK/shortDesc</name>
-  <message>
-  <source>Integer bitmask controlling fusion sources of the terrain estimator</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TERR_MASK/longDesc</name>
-  <message>
-  <source>Set bits in the following positions to enable: 0 : Set to true to use range finder data if available 1 : Set to true to use optical flow data if available</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TERR_MASK/bitmask/0/description</name>
-  <message>
-  <source>use range finder</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TERR_MASK/bitmask/1/description</name>
-  <message>
-  <source>use optical flow</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TERR_NOISE/shortDesc</name>
-  <message>
-  <source>Terrain altitude process noise - accounts for instability in vehicle height estimate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_WIND_NSD/shortDesc</name>
-  <message>
-  <source>Process noise spectral density for wind velocity prediction</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_WIND_NSD/longDesc</name>
-  <message>
-  <source>When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/ESC_BL_VER/shortDesc</name>
   <message>
   <source>Required esc bootloader version</source>
@@ -25077,99 +23541,21 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/Standard</name>
   <message>
   <source>Standard</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Attitude Control</name>
+  <name>$globals/category/System</name>
   <message>
-  <source>Multicopter Attitude Control</source>
+  <source>System</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Cyphal</name>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
   <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Acro Mode</name>
-  <message>
-  <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
+  <source>Multicopter Position Slow Mode</source>
   </message>
 </context>
 <context>
@@ -25179,147 +23565,39 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/FW NPFG Control</name>
   <message>
   <source>FW NPFG Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/OSD</name>
+  <name>$globals/group/FW Performance</name>
   <message>
-  <source>OSD</source>
+  <source>FW Performance</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Position Control</name>
+  <name>$globals/group/Return Mode</name>
   <message>
-  <source>Rover Position Control</source>
+  <source>Return Mode</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Sensors</name>
+  <name>$globals/group/Multicopter Attitude Control</name>
   <message>
-  <source>Sensors</source>
+  <source>Multicopter Attitude Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UUV Position Control</name>
+  <name>$globals/group/Telemetry</name>
   <message>
-  <source>UUV Position Control</source>
+  <source>Telemetry</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Circuit Breaker</name>
+  <name>$globals/group/FW Rate Control</name>
   <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Landing</name>
-  <message>
-  <source>FW Auto Landing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
+  <source>FW Rate Control</source>
   </message>
 </context>
 <context>
@@ -25329,9 +23607,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/VOXL2 IO</name>
+  <name>$globals/group/SITL</name>
   <message>
-  <source>VOXL2 IO</source>
+  <source>SITL</source>
   </message>
 </context>
 <context>
@@ -25341,27 +23619,33 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Camera trigger</name>
+  <name>$globals/group/Local Position Estimator</name>
   <message>
-  <source>Camera trigger</source>
+  <source>Local Position Estimator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/ESC</name>
+  <name>$globals/group/Battery Calibration</name>
   <message>
-  <source>ESC</source>
+  <source>Battery Calibration</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Mission</name>
+  <name>$globals/group/Events</name>
   <message>
-  <source>Mission</source>
+  <source>Events</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Mount</name>
+  <name>$globals/group/FW Attitude Control</name>
   <message>
-  <source>Mount</source>
+  <source>FW Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
   </message>
 </context>
 <context>
@@ -25377,15 +23661,21 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Telemetry</name>
+  <name>$globals/group/Camera Control</name>
   <message>
-  <source>Telemetry</source>
+  <source>Camera Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Transponder</name>
+  <name>$globals/group/Camera trigger</name>
   <message>
-  <source>Transponder</source>
+  <source>Camera trigger</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Path Control</name>
+  <message>
+  <source>FW Path Control</source>
   </message>
 </context>
 <context>
@@ -25395,15 +23685,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Failure Detector</name>
+  <name>$globals/group/UAVCAN GNSS</name>
   <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
+  <source>UAVCAN GNSS</source>
   </message>
 </context>
 <context>
@@ -25413,15 +23697,99 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Land Detector</name>
+  <message>
+  <source>Land Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Transponder</name>
+  <message>
+  <source>Transponder</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FlightTaskOrbit</name>
+  <message>
+  <source>FlightTaskOrbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Hover Thrust Estimator</name>
   <message>
   <source>Hover Thrust Estimator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/ADSB</name>
+  <name>$globals/group/Multicopter Acro Mode</name>
   <message>
-  <source>ADSB</source>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control</name>
+  <message>
+  <source>Rover Position Control</source>
   </message>
 </context>
 <context>
@@ -25431,9 +23799,153 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Land Detector</name>
+  <name>$globals/group/ESC</name>
   <message>
-  <source>Land Detector</source>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Capture</name>
+  <message>
+  <source>Camera Capture</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VOXL2 IO</name>
+  <message>
+  <source>VOXL2 IO</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Serial</name>
+  <message>
+  <source>Serial</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VOXL ESC</name>
+  <message>
+  <source>VOXL ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Cyphal</name>
+  <message>
+  <source>Cyphal</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
   </message>
 </context>
 <context>
@@ -25449,93 +23961,39 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
-  <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VOXL ESC</name>
-  <message>
-  <source>VOXL ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Control</name>
-  <message>
-  <source>Camera Control</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Iridium SBD</name>
   <message>
   <source>Iridium SBD</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN GNSS</name>
+  <name>$globals/group/Runway Takeoff</name>
   <message>
-  <source>UAVCAN GNSS</source>
+  <source>Runway Takeoff</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Landing Target Estimator</name>
+  <name>$globals/group/Autotune</name>
   <message>
-  <source>Landing Target Estimator</source>
+  <source>Autotune</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/SD Logging</name>
+  <name>$globals/group/System</name>
   <message>
-  <source>SD Logging</source>
+  <source>System</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Serial</name>
+  <name>$globals/group/Circuit Breaker</name>
   <message>
-  <source>Serial</source>
+  <source>Circuit Breaker</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/EKF2</name>
+  <name>$globals/group/Testing</name>
   <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
+  <source>Testing</source>
   </message>
 </context>
 </TS>
