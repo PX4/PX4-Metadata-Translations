@@ -2484,6 +2484,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/14117485/message</name>
+  <message>
+  <source>EKF2_DELAY_MAX increased to {2}ms, please reboot</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/14117485/description</name>
+  <message>
+  <source>EKF2_DELAY_MAX({1}ms) is too small compared to the maximum sensor delay ({2})</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/14153224/message</name>
   <message>
   <source>Manual speed has been constrained by maximum speed</source>
