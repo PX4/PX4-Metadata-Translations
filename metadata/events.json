@@ -2431,7 +2431,7 @@
               "arguments": [
                 {
                   "name": "arg0",
-                  "type": "uint64_t"
+                  "type": "uint32_t"
                 },
                 {
                   "name": "arg1",
@@ -2442,8 +2442,8 @@
                   "type": "int16_t"
                 }
               ],
-              "description": "- ID: {1}\n- Distance: {2m}\n- Direction: {3} degrees",
-              "message": "Traffic alert",
+              "description": "- ICAO Address: {1}\n- Traffic Separation Distance: {2m}\n- Heading: {3} degrees",
+              "message": "Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}",
               "name": "navigator_traffic"
             },
             "10452355": {
@@ -2487,7 +2487,7 @@
               "arguments": [
                 {
                   "name": "arg0",
-                  "type": "uint64_t"
+                  "type": "uint32_t"
                 },
                 {
                   "name": "arg1",
@@ -2498,8 +2498,8 @@
                   "type": "int16_t"
                 }
               ],
-              "description": "- ID: {1}\n- Distance: {2m}\n- Direction: {3} degrees",
-              "message": "Traffic alert, returning home",
+              "description": "- ICAO Address: {1}\n- Traffic Separation Distance: {2m}\n- Heading: {3} degrees",
+              "message": "Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, returning home",
               "name": "navigator_traffic_rtl"
             },
             "10716939": {
@@ -3050,6 +3050,10 @@
               "message": "IO protocol/firmware mismatch, aborting initialization",
               "name": "px4io_proto_fw_mismatch"
             },
+            "1593841": {
+              "message": "Too much traffic! Showing all messages from now on",
+              "name": "buffer_full"
+            },
             "16017271": {
               "arguments": [
                 {
@@ -3133,7 +3137,7 @@
               "arguments": [
                 {
                   "name": "arg0",
-                  "type": "uint64_t"
+                  "type": "uint32_t"
                 },
                 {
                   "name": "arg1",
@@ -3144,8 +3148,8 @@
                   "type": "int16_t"
                 }
               ],
-              "description": "- ID: {1}\n- Distance: {2m}\n- Direction: {3} degrees",
-              "message": "Traffic alert, holding position",
+              "description": "- ICAO Address: {1}\n- Traffic Separation Distance: {2m}\n- Heading: {3} degrees",
+              "message": "Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position",
               "name": "navigator_traffic_hold"
             },
             "185258": {
@@ -3462,10 +3466,10 @@
               "arguments": [
                 {
                   "name": "arg0",
-                  "type": "uint64_t"
+                  "type": "uint32_t"
                 }
               ],
-              "message": "Traffic Conflict Resolved",
+              "message": "Traffic Conflict Resolved {1}!",
               "name": "navigator_traffic_resolved"
             },
             "4796299": {
@@ -3688,7 +3692,7 @@
               "arguments": [
                 {
                   "name": "arg0",
-                  "type": "uint64_t"
+                  "type": "uint32_t"
                 },
                 {
                   "name": "arg1",
@@ -3699,8 +3703,8 @@
                   "type": "int16_t"
                 }
               ],
-              "description": "- ID: {1}\n- Distance: {2m}\n- Direction: {3} degrees",
-              "message": "Traffic alert, landing",
+              "description": "- ICAO Address: {1}\n- Traffic Separation Distance: {2m}\n- Heading: {3} degrees",
+              "message": "Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, landing",
               "name": "navigator_traffic_land"
             },
             "7186357": {
@@ -3737,6 +3741,16 @@
             "7803396": {
               "message": "Mission finished, landed",
               "name": "mission_finished"
+            },
+            "7832778": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint32_t"
+                }
+              ],
+              "message": "Traffic Conflict {1} Expired and removed from buffer",
+              "name": "navigator_traffic_expired"
             },
             "7860665": {
               "message": "Mission rejected: land start item before RTL item is not possible",

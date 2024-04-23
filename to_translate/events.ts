@@ -2088,15 +2088,15 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/10236960/message</name>
   <message>
-  <source>Traffic alert</source>
+  <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/default/events/10236960/description</name>
   <message>
-  <source>- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</source>
+  <source>- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</source>
   </message>
 </context>
 <context>
@@ -2132,15 +2132,15 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/10664053/message</name>
   <message>
-  <source>Traffic alert, returning home</source>
+  <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, returning home</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/default/events/10664053/description</name>
   <message>
-  <source>- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</source>
+  <source>- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</source>
   </message>
 </context>
 <context>
@@ -2677,6 +2677,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/1593841/message</name>
+  <message>
+  <source>Too much traffic! Showing all messages from now on</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/16017271/message</name>
   <message>
   <source>Disarmed by {1}</source>
@@ -2775,15 +2781,15 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/1801328/message</name>
   <message>
-  <source>Traffic alert, holding position</source>
+  <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/default/events/1801328/description</name>
   <message>
-  <source>- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</source>
+  <source>- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</source>
   </message>
 </context>
 <context>
@@ -3104,7 +3110,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/4790285/message</name>
   <message>
-  <source>Traffic Conflict Resolved</source>
+  <source>Traffic Conflict Resolved {1}!</source>
   </message>
 </context>
 <context>
@@ -3368,15 +3374,15 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/7144644/message</name>
   <message>
-  <source>Traffic alert, landing</source>
+  <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, landing</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/default/events/7144644/description</name>
   <message>
-  <source>- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</source>
+  <source>- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</source>
   </message>
 </context>
 <context>
@@ -3419,6 +3425,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/7803396/message</name>
   <message>
   <source>Mission finished, landed</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/7832778/message</name>
+  <message>
+  <source>Traffic Conflict {1} Expired and removed from buffer</source>
   </message>
 </context>
 <context>
