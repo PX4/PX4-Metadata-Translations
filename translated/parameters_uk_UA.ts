@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ko" sourcelanguage="en">
+<TS version="2.1" language="uk" sourcelanguage="en">
   <context>
     <name>/parameters/ctl_bw/shortDesc</name>
     <message>
       <source>Speed controller bandwidth</source>
-      <translation>속도 조종 장치 대역폭</translation>
+      <translation type="unfinished">Speed controller bandwidth</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_bw/longDesc</name>
     <message>
       <source>Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</source>
-      <translation>속도 컨트롤러 대역폭 (Hz). 값이 높을수록 속도와 전류 상승 시간이 빨라지지만, 오버 슈트와 전류 소비가 많이 발생할 수 있습니다. 고정익의 값은 50Hz 미만이어야합니다. 멀티콥터는 100Hz까지는 응답성을 향상시킬 수 있습니다.</translation>
+      <translation type="unfinished">Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/shortDesc</name>
     <message>
       <source>Reverse direction</source>
-      <translation>역방향</translation>
+      <translation type="unfinished">Reverse direction</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/longDesc</name>
     <message>
       <source>Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</source>
-      <translation>초기 열거자중에서 감지된 모터 회전 방향. 방향을 바꾸려면 0 또는 1을 사용합니다.</translation>
+      <translation type="unfinished">Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_gain/shortDesc</name>
     <message>
       <source>Speed (RPM) controller gain</source>
-      <translation>속도 (RPM) 컨트롤러 게인</translation>
+      <translation type="unfinished">Speed (RPM) controller gain</translation>
     </message>
   </context>
   <context>
@@ -46,98 +46,104 @@
             decreased. Higher values result in faster response, but may result
             in oscillation and excessive overshoot. Lower values result in a
             slower, smoother response.</source>
-      <translation>속도 (RPM) 컨트롤러 게인. 컨트롤러 공격성을 결정합니다. 단위는 amp-초/라다인당 입니다. 회전 관성이 높은 시스템 (대형 소품) 은 게인 증가가 필요합니다. 회전 관성이 낮은 시스템 (작은 소품) 은 게인 감소가 필요할 수 있습니다. 값이 높을수록 응답 속도가 빨라지지만 진동과 과도한 오버 슈트가 발생할 수 있습니다. 값이 낮을수록 반응이 느려지고 부드러워집니다.</translation>
+      <translation type="unfinished">Speed (RPM) controller gain. Determines controller
+            aggressiveness; units are amp-seconds per radian. Systems with
+            higher rotational inertia (large props) will need gain increased;
+            systems with low rotational inertia (small props) may need gain
+            decreased. Higher values result in faster response, but may result
+            in oscillation and excessive overshoot. Lower values result in a
+            slower, smoother response.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_hz_idle/shortDesc</name>
     <message>
       <source>Idle speed (e Hz)</source>
-      <translation>유휴 속도 (e Hz)</translation>
+      <translation type="unfinished">Idle speed (e Hz)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_hz_idle/longDesc</name>
     <message>
       <source>Idle speed (e Hz)</source>
-      <translation>유휴 속도 (e Hz)</translation>
+      <translation type="unfinished">Idle speed (e Hz)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_start_rate/shortDesc</name>
     <message>
       <source>Spin-up rate (e Hz/s)</source>
-      <translation>스핀업 속도 (e Hz / s)</translation>
+      <translation type="unfinished">Spin-up rate (e Hz/s)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_start_rate/longDesc</name>
     <message>
       <source>Spin-up rate (e Hz/s)</source>
-      <translation>스핀업 속도 (e Hz / s)</translation>
+      <translation type="unfinished">Spin-up rate (e Hz/s)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/esc_index/shortDesc</name>
     <message>
       <source>Index of this ESC in throttle command messages.</source>
-      <translation>스로틀 명령 메시지의 ESC 색인입니다.</translation>
+      <translation type="unfinished">Index of this ESC in throttle command messages.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/esc_index/longDesc</name>
     <message>
       <source>Index of this ESC in throttle command messages.</source>
-      <translation>스로틀 명령 메시지의 ESC 색인.</translation>
+      <translation type="unfinished">Index of this ESC in throttle command messages.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/id_ext_status/shortDesc</name>
     <message>
       <source>Extended status ID</source>
-      <translation>확장 상태 ID</translation>
+      <translation type="unfinished">Extended status ID</translation>
     </message>
   </context>
   <context>
     <name>/parameters/id_ext_status/longDesc</name>
     <message>
       <source>Extended status ID</source>
-      <translation>확장 상태 ID</translation>
+      <translation type="unfinished">Extended status ID</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_ext_status/shortDesc</name>
     <message>
       <source>Extended status interval (µs)</source>
-      <translation>확장 상태 간격 (µs)</translation>
+      <translation type="unfinished">Extended status interval (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_ext_status/longDesc</name>
     <message>
       <source>Extended status interval (µs)</source>
-      <translation>확장 상태 간격 (µs)</translation>
+      <translation type="unfinished">Extended status interval (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_status/shortDesc</name>
     <message>
       <source>ESC status interval (µs)</source>
-      <translation>ESC 상태 간격 (µs)</translation>
+      <translation type="unfinished">ESC status interval (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_status/longDesc</name>
     <message>
       <source>ESC status interval (µs)</source>
-      <translation>ESC 상태 간격 (µs)</translation>
+      <translation type="unfinished">ESC status interval (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_i_max/shortDesc</name>
     <message>
       <source>Motor current limit in amps</source>
-      <translation>모터 전류 제한(암페어 단위)</translation>
+      <translation type="unfinished">Motor current limit in amps</translation>
     </message>
   </context>
   <context>
@@ -149,14 +155,19 @@
             the continuous current rating listed in the motor’s specification
             sheet, or set equal to the motor’s specified continuous power
             divided by the motor voltage limit.</source>
-      <translation>모터 전류 제한 (암페어 단위). 최대 전류 컨트롤러 설정값과 최대 허용 전류 설정값 슬루율을 결정합니다. 이 값은 일반적으로 모터 사양서에 나열된 연속 전류 정격으로 설정하거나, 모터의 지정된 연속 전력을 모터 전압 제한으로 나눈 값과 동일하게 설정하여야 합니다.</translation>
+      <translation type="unfinished">Motor current limit in amps. This determines the maximum
+            current controller setpoint, as well as the maximum allowable
+            current setpoint slew rate. This value should generally be set to
+            the continuous current rating listed in the motor’s specification
+            sheet, or set equal to the motor’s specified continuous power
+            divided by the motor voltage limit.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_kv/shortDesc</name>
     <message>
       <source>Motor Kv in RPM per volt</source>
-      <translation>모터 Kv (볼트당 RPM)</translation>
+      <translation type="unfinished">Motor Kv in RPM per volt</translation>
     </message>
   </context>
   <context>
@@ -165,28 +176,30 @@
       <source>Motor Kv in RPM per volt. This can be taken from the motor’s
             specification sheet; accuracy will help control performance but
             some deviation from the specified value is acceptable.</source>
-      <translation>모터 Kv (볼트당 RPM). 이것은 모터의 사양 시트에서 가져올 수 있습니다. 정확도는 성능 제어에 도움이 되지만 지정된 값에서 약간의 편차는 허용됩니다.</translation>
+      <translation type="unfinished">Motor Kv in RPM per volt. This can be taken from the motor’s
+            specification sheet; accuracy will help control performance but
+            some deviation from the specified value is acceptable.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_ls/shortDesc</name>
     <message>
       <source>READ ONLY: Motor inductance in henries.</source>
-      <translation>읽기 전용 : 모터 인덕턴스(단위 헨리).</translation>
+      <translation type="unfinished">READ ONLY: Motor inductance in henries.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_ls/longDesc</name>
     <message>
       <source>READ ONLY: Motor inductance in henries. This is measured on start-up.</source>
-      <translation>읽기 전용 : 모터 인덕턴스(단위 헨리). 시작시 측정됩니다.</translation>
+      <translation type="unfinished">READ ONLY: Motor inductance in henries. This is measured on start-up.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_num_poles/shortDesc</name>
     <message>
       <source>Number of motor poles.</source>
-      <translation>모터 극 수.</translation>
+      <translation type="unfinished">Number of motor poles.</translation>
     </message>
   </context>
   <context>
@@ -195,14 +208,16 @@
       <source>Number of motor poles. Used to convert mechanical speeds to
             electrical speeds. This number should be taken from the motor’s
             specification sheet.</source>
-      <translation>모터 극 수. 기계적 속도를 전기 속도로 변환에 사용됩니다. 이 번호는 모터 사양서를 참조하여야 합니다.</translation>
+      <translation type="unfinished">Number of motor poles. Used to convert mechanical speeds to
+            electrical speeds. This number should be taken from the motor’s
+            specification sheet.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_rs/shortDesc</name>
     <message>
       <source>READ ONLY: Motor resistance in ohms</source>
-      <translation>읽기 전용 : 모터 저항(단위 옴)</translation>
+      <translation type="unfinished">READ ONLY: Motor resistance in ohms</translation>
     </message>
   </context>
   <context>
@@ -211,28 +226,30 @@
       <source>READ ONLY: Motor resistance in ohms. This is measured on start-up. When
             tuning a new motor, check that this value is approximately equal
             to the value shown in the motor’s specification sheet.</source>
-      <translation>읽기 전용 : 모터 저항(단위 옴). 시작시 측정됩니다. 새 모터 튜닝시 모터 사양서에 표시된 값과 같은지 확인하십시오.</translation>
+      <translation type="unfinished">READ ONLY: Motor resistance in ohms. This is measured on start-up. When
+            tuning a new motor, check that this value is approximately equal
+            to the value shown in the motor’s specification sheet.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_accel/shortDesc</name>
     <message>
       <source>Acceleration limit (V)</source>
-      <translation>가속 한계 (V)</translation>
+      <translation type="unfinished">Acceleration limit (V)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_accel/longDesc</name>
     <message>
       <source>Acceleration limit (V)</source>
-      <translation>가속 한계 (V)</translation>
+      <translation type="unfinished">Acceleration limit (V)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_max/shortDesc</name>
     <message>
       <source>Motor voltage limit in volts</source>
-      <translation>모터 전압 제한 (단위 볼트)</translation>
+      <translation type="unfinished">Motor voltage limit in volts</translation>
     </message>
   </context>
   <context>
@@ -243,14 +260,18 @@
             safely be above the nominal voltage of the motor; to determine the
             actual motor voltage limit, divide the motor’s rated power by the
             motor current limit.</source>
-      <translation>모터 전압 제한 (볼트). 전류 컨트롤러의 명령 전압은 이 값을 초과하지 않습니다. 이것은 모터의 공칭 전압 이상일 수 있습니다. 실제 모터 전압 한계를 결정하려면 모터의 정격 전력을 모터 전류 한계로 나눕니다.</translation>
+      <translation type="unfinished">Motor voltage limit in volts. The current controller’s
+            commanded voltage will never exceed this value. Note that this may
+            safely be above the nominal voltage of the motor; to determine the
+            actual motor voltage limit, divide the motor’s rated power by the
+            motor current limit.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/shortDesc</name>
     <message>
       <source>GNSS dynamic model</source>
-      <translation>GNSS 동적 모델</translation>
+      <translation type="unfinished">GNSS dynamic model</translation>
     </message>
   </context>
   <context>
@@ -259,35 +280,37 @@
       <source>Dynamic model used in the GNSS positioning engine. 0 –
         Automotive, 1 – Sea, 2 – Airborne.
       </source>
-      <translation>GNSS 위치 엔진에서 사용되는 동적 모델. 0 – 자동차, 1 – 바다, 2 – 항공.</translation>
+      <translation type="unfinished">Dynamic model used in the GNSS positioning engine. 0 –
+        Automotive, 1 – Sea, 2 – Airborne.
+      </translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/0/description</name>
     <message>
       <source>Automotive</source>
-      <translation>자동차</translation>
+      <translation type="unfinished">Automotive</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/1/description</name>
     <message>
       <source>Sea</source>
-      <translation>바다</translation>
+      <translation type="unfinished">Sea</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/2/description</name>
     <message>
       <source>Airborne</source>
-      <translation>항공</translation>
+      <translation type="unfinished">Airborne</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.old_fix_msg/shortDesc</name>
     <message>
       <source>Broadcast old GNSS fix message</source>
-      <translation>이전 GNSS 수정 메시지 브로드 캐스트</translation>
+      <translation type="unfinished">Broadcast old GNSS fix message</translation>
     </message>
   </context>
   <context>
@@ -298,7 +321,11 @@
         uavcan.equipment.gnss.Fix2. It is recommended to
         disable this feature to reduce the CAN bus traffic.
       </source>
-      <translation>새로운 대체 uavcan.equipment.gnss.Fix2와 함께 이전 (더 이상 사용되지 않는) GNSS 수정 메시지 uavcan.equipment.gnss.Fix를 브로드 캐스트합니다. CAN 버스 트래픽을 줄이려면 이 기능을 비활성화하는 것이 좋습니다.</translation>
+      <translation type="unfinished">Broadcast the old (deprecated) GNSS fix message
+        uavcan.equipment.gnss.Fix alongside the new alternative
+        uavcan.equipment.gnss.Fix2. It is recommended to
+        disable this feature to reduce the CAN bus traffic.
+      </translation>
     </message>
   </context>
   <context>
@@ -319,7 +346,7 @@
     <name>/parameters/gnss.warn_dimens/shortDesc</name>
     <message>
       <source>device health warning</source>
-      <translation>장치 상태 경고</translation>
+      <translation type="unfinished">device health warning</translation>
     </message>
   </context>
   <context>
@@ -330,35 +357,39 @@
               solution, 2 for planar (2D) solution, 1 for time-only solution,
               0 disables the feature.
       </source>
-      <translation>GNSS 솔루션의 차원이 이 값보다 작은 경우 장치 상태를 경고로 설정합니다. 전체 (3D) 솔루션의 경우 3, 평면 (2D) 솔루션의 경우 2, 시간 전용 솔루션의 경우 1, 0은 기능을 비활성화합니다.</translation>
+      <translation type="unfinished">Set the device health to Warning if the dimensionality of
+              the GNSS solution is less than this value. 3 for the full (3D)
+              solution, 2 for planar (2D) solution, 1 for time-only solution,
+              0 disables the feature.
+      </translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/0/description</name>
     <message>
       <source>disables the feature</source>
-      <translation>기능을 비활성화합니다.</translation>
+      <translation type="unfinished">disables the feature</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/1/description</name>
     <message>
       <source>time-only solution</source>
-      <translation>시간 전용 솔루션</translation>
+      <translation type="unfinished">time-only solution</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/2/description</name>
     <message>
       <source>planar (2D) solution</source>
-      <translation>평면 (2D) 솔루션</translation>
+      <translation type="unfinished">planar (2D) solution</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/3/description</name>
     <message>
       <source>full (3D) solution</source>
-      <translation>전체 (3D) 솔루션</translation>
+      <translation type="unfinished">full (3D) solution</translation>
     </message>
   </context>
   <context>
@@ -375,7 +406,10 @@
         used in the GNSS solution is below this threshold. Zero
         disables the feature
       </source>
-      <translation>GNSS 솔루션에 사용되는 위성 수가 임계 값 미만인 경우 장치 상태를 경고로 설정합니다. 0은 기능을 비활성화합니다.</translation>
+      <translation type="unfinished">Set the device health to Warning if the number of satellites
+        used in the GNSS solution is below this threshold. Zero
+        disables the feature
+      </translation>
     </message>
   </context>
   <context>
@@ -392,7 +426,10 @@
         used in the GNSS solution is below this threshold. Zero
         disables the feature
       </source>
-      <translation>GNSS 솔루션에 사용되는 위성 수가 임계 값 미만인 경우 장치 상태를 경고로 설정합니다. 0은 기능을 비활성화합니다.</translation>
+      <translation type="unfinished">Set the device health to Warning if the number of satellites
+        used in the GNSS solution is below this threshold. Zero
+        disables the feature
+      </translation>
     </message>
   </context>
   <context>
