@@ -501,29 +501,29 @@
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/2/description</name>
     <message>
-      <source>fallback to position control</source>
-      <translation type="unfinished">fallback to position control</translation>
+      <source>Position mode</source>
+      <translation type="unfinished">Position mode</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/3/description</name>
     <message>
-      <source>fallback to altitude control</source>
-      <translation type="unfinished">fallback to altitude control</translation>
+      <source>Altitude mode</source>
+      <translation type="unfinished">Altitude mode</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/4/description</name>
     <message>
-      <source>fallback to stabilized</source>
-      <translation type="unfinished">fallback to stabilized</translation>
+      <source>Stabilized mode</source>
+      <translation type="unfinished">Stabilized mode</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/5/description</name>
     <message>
-      <source>hold</source>
-      <translation type="unfinished">hold</translation>
+      <source>Hold</source>
+      <translation type="unfinished">Hold</translation>
     </message>
   </context>
   <context>
@@ -536,15 +536,15 @@
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/7/description</name>
     <message>
-      <source>land</source>
-      <translation type="unfinished">land</translation>
+      <source>Land</source>
+      <translation type="unfinished">Land</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/8/description</name>
     <message>
-      <source>descend</source>
-      <translation type="unfinished">descend</translation>
+      <source>Descend</source>
+      <translation type="unfinished">Descend</translation>
     </message>
   </context>
   <context>
@@ -564,8 +564,8 @@
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/1/description</name>
     <message>
-      <source>manual control loss</source>
-      <translation type="unfinished">manual control loss</translation>
+      <source>Manual control loss</source>
+      <translation type="unfinished">Manual control loss</translation>
     </message>
   </context>
   <context>
@@ -578,22 +578,29 @@
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/3/description</name>
     <message>
-      <source>low battery level</source>
-      <translation type="unfinished">low battery level</translation>
+      <source>Low battery level</source>
+      <translation type="unfinished">Low battery level</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/4/description</name>
     <message>
-      <source>critical battery level</source>
-      <translation type="unfinished">critical battery level</translation>
+      <source>Critical battery level</source>
+      <translation type="unfinished">Critical battery level</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/5/description</name>
     <message>
-      <source>emergency battery level</source>
-      <translation type="unfinished">emergency battery level</translation>
+      <source>Emergency battery level</source>
+      <translation type="unfinished">Emergency battery level</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/enums/failsafe_cause_t/entries/6/description</name>
+    <message>
+      <source>Remaining flight time low</source>
+      <translation type="unfinished">Remaining flight time low</translation>
     </message>
   </context>
   <context>
@@ -1140,6 +1147,13 @@
     <message>
       <source>Stabilized</source>
       <translation type="unfinished">Stabilized</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/enums/navigation_mode_t/entries/9/description</name>
+    <message>
+      <source>Position Slow</source>
+      <translation type="unfinished">Position Slow</translation>
     </message>
   </context>
   <context>
@@ -2508,19 +2522,19 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/10236960/message</name>
     <message>
-      <source>Traffic alert</source>
-      <translation type="unfinished">Traffic alert</translation>
+      <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}</source>
+      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10236960/description</name>
     <message>
-      <source>- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</source>
-      <translation type="unfinished">- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</translation>
+      <source>- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</source>
+      <translation type="unfinished">- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</translation>
     </message>
   </context>
   <context>
@@ -2561,19 +2575,19 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/10664053/message</name>
     <message>
-      <source>Traffic alert, returning home</source>
-      <translation type="unfinished">Traffic alert, returning home</translation>
+      <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, returning home</source>
+      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, returning home</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10664053/description</name>
     <message>
-      <source>- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</source>
-      <translation type="unfinished">- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</translation>
+      <source>- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</source>
+      <translation type="unfinished">- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</translation>
     </message>
   </context>
   <context>
@@ -2881,8 +2895,8 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/13277401/message</name>
     <message>
-      <source>Failsafe warning triggered</source>
-      <translation type="unfinished">Failsafe warning triggered</translation>
+      <source>Failsafe warning:</source>
+      <translation type="unfinished">Failsafe warning:</translation>
     </message>
   </context>
   <context>
@@ -2890,6 +2904,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>No action is triggered.</source>
       <translation type="unfinished">No action is triggered.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/133277/message</name>
+    <message>
+      <source>Arming denied: Resolve system health failures first</source>
+      <translation type="unfinished">Arming denied: Resolve system health failures first</translation>
     </message>
   </context>
   <context>
@@ -2930,8 +2951,8 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/13704694/message</name>
     <message>
-      <source>Failsafe activated due to {4}, triggering {2} in {3} seconds</source>
-      <translation type="unfinished">Failsafe activated due to {4}, triggering {2} in {3} seconds</translation>
+      <source>{4}: switching to {2} in {3} seconds</source>
+      <translation type="unfinished">{4}: switching to {2} in {3} seconds</translation>
     </message>
   </context>
   <context>
@@ -2967,6 +2988,20 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>Quad-chute triggered due to external command</source>
       <translation type="unfinished">Quad-chute triggered due to external command</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/14117485/message</name>
+    <message>
+      <source>EKF2_DELAY_MAX increased to {2}ms, please reboot</source>
+      <translation type="unfinished">EKF2_DELAY_MAX increased to {2}ms, please reboot</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/14117485/description</name>
+    <message>
+      <source>EKF2_DELAY_MAX({1}ms) is too small compared to the maximum sensor delay ({2})</source>
+      <translation type="unfinished">EKF2_DELAY_MAX({1}ms) is too small compared to the maximum sensor delay ({2})</translation>
     </message>
   </context>
   <context>
@@ -3019,17 +3054,10 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/default/events/14590856/message</name>
-    <message>
-      <source>Waypoint {1} below home</source>
-      <translation type="unfinished">Waypoint {1} below home</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/default/events/14605264/message</name>
     <message>
-      <source>Failsafe activated, triggering {2}</source>
-      <translation type="unfinished">Failsafe activated, triggering {2}</translation>
+      <source>Failsafe activated: Autopilot disengaged, switching to {2}</source>
+      <translation type="unfinished">Failsafe activated: Autopilot disengaged, switching to {2}</translation>
     </message>
   </context>
   <context>
@@ -3189,6 +3217,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/default/events/1593841/message</name>
+    <message>
+      <source>Too much traffic! Showing all messages from now on</source>
+      <translation type="unfinished">Too much traffic! Showing all messages from now on</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/default/events/16017271/message</name>
     <message>
       <source>Disarmed by {1}</source>
@@ -3303,19 +3338,19 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/1801328/message</name>
     <message>
-      <source>Traffic alert, holding position</source>
-      <translation type="unfinished">Traffic alert, holding position</translation>
+      <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position</source>
+      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1801328/description</name>
     <message>
-      <source>- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</source>
-      <translation type="unfinished">- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</translation>
+      <source>- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</source>
+      <translation type="unfinished">- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</translation>
     </message>
   </context>
   <context>
@@ -3340,6 +3375,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/default/events/2020940/message</name>
+    <message>
+      <source>Roll command reduced due to uncertain velocity/wind estimates!</source>
+      <translation type="unfinished">Roll command reduced due to uncertain velocity/wind estimates!</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/default/events/2066387/message</name>
     <message>
       <source>Arming denied: calibrating</source>
@@ -3351,6 +3393,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>Orbit radius limit exceeded</source>
       <translation type="unfinished">Orbit radius limit exceeded</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/2308551/message</name>
+    <message>
+      <source>Low remaining flight time, return advised</source>
+      <translation type="unfinished">Low remaining flight time, return advised</translation>
     </message>
   </context>
   <context>
@@ -3407,6 +3456,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>Geofence violation for waypoint {1}</source>
       <translation type="unfinished">Geofence violation for waypoint {1}</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/2842608/message</name>
+    <message>
+      <source>Mission rejected: Landing waypoint/pattern required</source>
+      <translation type="unfinished">Mission rejected: Landing waypoint/pattern required</translation>
     </message>
   </context>
   <context>
@@ -3617,8 +3673,8 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/4502496/message</name>
     <message>
-      <source>Failsafe activated, triggering {2} in {3} seconds</source>
-      <translation type="unfinished">Failsafe activated, triggering {2} in {3} seconds</translation>
+      <source>Failsafe activated: switching to {2} in {3} seconds</source>
+      <translation type="unfinished">Failsafe activated: switching to {2} in {3} seconds</translation>
     </message>
   </context>
   <context>
@@ -3670,8 +3726,8 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/4790285/message</name>
     <message>
-      <source>Traffic Conflict Resolved</source>
-      <translation type="unfinished">Traffic Conflict Resolved</translation>
+      <source>Traffic Conflict Resolved {1}!</source>
+      <translation type="unfinished">Traffic Conflict Resolved {1}!</translation>
     </message>
   </context>
   <context>
@@ -3978,19 +4034,19 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/7144644/message</name>
     <message>
-      <source>Traffic alert, landing</source>
-      <translation type="unfinished">Traffic alert, landing</translation>
+      <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, landing</source>
+      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, landing</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7144644/description</name>
     <message>
-      <source>- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</source>
-      <translation type="unfinished">- ID: {1}
-- Distance: {2m}
-- Direction: {3} degrees</translation>
+      <source>- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</source>
+      <translation type="unfinished">- ICAO Address: {1}
+- Traffic Separation Distance: {2m}
+- Heading: {3} degrees</translation>
     </message>
   </context>
   <context>
@@ -4040,6 +4096,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>Mission finished, landed</source>
       <translation type="unfinished">Mission finished, landed</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/7832778/message</name>
+    <message>
+      <source>Traffic Conflict {1} Expired and removed from buffer</source>
+      <translation type="unfinished">Traffic Conflict {1} Expired and removed from buffer</translation>
     </message>
   </context>
   <context>
@@ -4108,8 +4171,8 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/8557551/message</name>
     <message>
-      <source>Failsafe warning triggered due to {2}</source>
-      <translation type="unfinished">Failsafe warning triggered due to {2}</translation>
+      <source>Failsafe warning: {2}</source>
+      <translation type="unfinished">Failsafe warning: {2}</translation>
     </message>
   </context>
   <context>
@@ -4301,10 +4364,17 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/default/events/9621455/message</name>
+    <message>
+      <source>5V overcurrent detected, landing advised</source>
+      <translation type="unfinished">5V overcurrent detected, landing advised</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/default/events/9751178/message</name>
     <message>
-      <source>Failsafe activated due to {3}, triggering {2}</source>
-      <translation type="unfinished">Failsafe activated due to {3}, triggering {2}</translation>
+      <source>{3}: switching to {2}</source>
+      <translation type="unfinished">{3}: switching to {2}</translation>
     </message>
   </context>
   <context>
@@ -4609,6 +4679,20 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/health/events/5699115/message</name>
+    <message>
+      <source>Overcurrent detected for the peripheral 5V supply</source>
+      <translation type="unfinished">Overcurrent detected for the peripheral 5V supply</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/5699115/description</name>
+    <message>
+      <source>Check the power supply</source>
+      <translation type="unfinished">Check the power supply</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/health/events/6410608/message</name>
     <message>
       <source>No valid data from Compass {3}</source>
@@ -4649,6 +4733,20 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/6962647/message</name>
+    <message>
+      <source>Overcurrent detected for the hipower 5V supply</source>
+      <translation type="unfinished">Overcurrent detected for the hipower 5V supply</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/6962647/description</name>
+    <message>
+      <source>Check the power supply</source>
+      <translation type="unfinished">Check the power supply</translation>
     </message>
   </context>
   <context>
@@ -4768,9 +4866,9 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/health/events/9493632/description</name>
     <message>
-      <source>&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;CBRK_AIRSPD_CHK&lt;/param&gt; parameter.
+      <source>&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;SYS_HAS_NUM_ASPD&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;CBRK_AIRSPD_CHK&lt;/param&gt; parameter.
+      <translation type="unfinished">&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;SYS_HAS_NUM_ASPD&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
