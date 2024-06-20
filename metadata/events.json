@@ -3950,10 +3950,6 @@
               "message": "Pilot took over using sticks",
               "name": "failsafe_rc_override"
             },
-            "9621455": {
-              "message": "5V overcurrent detected, landing advised",
-              "name": "check_power_oc_report"
-            },
             "9751178": {
               "arguments": [
                 {
@@ -4375,21 +4371,6 @@
               "message": "Battery {3} mode: {4}",
               "name": "check_battery_mode"
             },
-            "5699115": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Check the power supply",
-              "message": "Overcurrent detected for the peripheral 5V supply",
-              "name": "check_power_oc_periph"
-            },
             "6410608": {
               "arguments": [
                 {
@@ -4449,21 +4430,6 @@
               "description": "{5}\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_CHK_ESCS</param> parameter.\n</profile>",
               "message": "ESC {3}: {4}",
               "name": "check_escs_fault"
-            },
-            "6962647": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Check the power supply",
-              "message": "Overcurrent detected for the hipower 5V supply",
-              "name": "check_power_oc_hipower"
             },
             "7214714": {
               "arguments": [

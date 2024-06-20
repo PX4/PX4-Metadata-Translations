@@ -3653,12 +3653,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/9621455/message</name>
-  <message>
-  <source>5V overcurrent detected, landing advised</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/9751178/message</name>
   <message>
   <source>{3}: switching to {2}</source>
@@ -3903,18 +3897,6 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/health/events/5699115/message</name>
-  <message>
-  <source>Overcurrent detected for the peripheral 5V supply</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/5699115/description</name>
-  <message>
-  <source>Check the power supply</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/health/events/6410608/message</name>
   <message>
   <source>No valid data from Compass {3}</source>
@@ -3946,18 +3928,6 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/6962647/message</name>
-  <message>
-  <source>Overcurrent detected for the hipower 5V supply</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/6962647/description</name>
-  <message>
-  <source>Check the power supply</source>
   </message>
 </context>
 <context>
