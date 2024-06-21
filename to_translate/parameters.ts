@@ -1647,30 +1647,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/BAT_N_CELLS/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_N_CELLS instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_CHARGED/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_V_CHARGED instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_EMPTY/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_V_EMPTY instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_LOAD_DROP/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_V_LOAD_DROP instead</source>
-  </message>
-</context>
-<context>
   <name>/parameters/BAT_V_OFFS_CURR/shortDesc</name>
   <message>
   <source>Offset in volt as seen by the ADC input of the current sensor</source>
@@ -4367,7 +4343,7 @@
 <context>
   <name>/parameters/FW_PN_R_SLEW_MAX/longDesc</name>
   <message>
-  <source>The maximum change in roll angle setpoint per second.</source>
+  <source>The maximum change in roll angle setpoint per second. This limit is applied in all Auto modes, plus manual Position and Altitude modes.</source>
   </message>
 </context>
 <context>
@@ -5073,6 +5049,12 @@
   </message>
 </context>
 <context>
+  <name>/parameters/FW_T_F_ALT_ERR/shortDesc</name>
+  <message>
+  <source>Minimum altitude error needed to descend with max airspeed. A negative value disables fast descend</source>
+  </message>
+</context>
+<context>
   <name>/parameters/FW_T_HRATE_FF/shortDesc</name>
   <message>
   <source>Height rate feed forward</source>
@@ -5543,7 +5525,7 @@
 <context>
   <name>/parameters/GPS_1_GNSS/longDesc</name>
   <message>
-  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS</source>
+  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS 5 : Use NAVIC</source>
   </message>
 </context>
 <context>
@@ -5574,6 +5556,12 @@
   <name>/parameters/GPS_1_GNSS/bitmask/4/description</name>
   <message>
   <source>GLONASS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GPS_1_GNSS/bitmask/5/description</name>
+  <message>
+  <source>NAVIC</source>
   </message>
 </context>
 <context>
@@ -5631,12 +5619,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/GPS_1_PROTOCOL/values/7/description</name>
-  <message>
-  <source>Septentrio (SBF)</source>
-  </message>
-</context>
-<context>
   <name>/parameters/GPS_2_GNSS/shortDesc</name>
   <message>
   <source>GNSS Systems for Secondary GPS (integer bitmask)</source>
@@ -5645,7 +5627,7 @@
 <context>
   <name>/parameters/GPS_2_GNSS/longDesc</name>
   <message>
-  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS</source>
+  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS 5 : Use NAVIC</source>
   </message>
 </context>
 <context>
@@ -5676,6 +5658,12 @@
   <name>/parameters/GPS_2_GNSS/bitmask/4/description</name>
   <message>
   <source>GLONASS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GPS_2_GNSS/bitmask/5/description</name>
+  <message>
+  <source>NAVIC</source>
   </message>
 </context>
 <context>
@@ -5760,18 +5748,6 @@
   <name>/parameters/GPS_DUMP_COMM/values/2/description</name>
   <message>
   <source>RTCM output (PPK)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_PITCH_OFFSET/shortDesc</name>
-  <message>
-  <source>Pitch offset for dual antenna GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_PITCH_OFFSET/longDesc</name>
-  <message>
-  <source>Vertical offsets can be compensated for by adjusting the Pitch offset (Septentrio). Note that this can be interpreted as the "roll" angle in case the antennas are aligned along the perpendicular axis. This occurs in situations where the two antenna ARPs may not be exactly at the same height in the vehicle reference frame. Since pitch is defined as the right-handed rotation about the vehicle Y axis, a situation where the main antenna is mounted lower than the aux antenna (assuming the default antenna setup) will result in a positive pitch.</source>
   </message>
 </context>
 <context>
@@ -5951,7 +5927,7 @@
 <context>
   <name>/parameters/GPS_YAW_OFFSET/longDesc</name>
   <message>
-  <source>Heading offset angle for dual antenna GPS setups that support heading estimation. Set this to 0 if the antennas are parallel to the forward-facing direction of the vehicle and the rover (or Unicore primary) antenna is in front. The offset angle increases clockwise. Set this to 90 if the rover (or Unicore primary) antenna is placed on the right side of the vehicle and the moving base antenna is on the left side. (Note: the Unicore primary antenna is the one connected on the right as seen from the top).</source>
+  <source>Heading offset angle for dual antenna GPS setups that support heading estimation. Set this to 0 if the antennas are parallel to the forward-facing direction of the vehicle and the rover (or Unicore primary) antenna is in front. The offset angle increases clockwise. Set this to 90 if the rover (or Unicore primary, or Septentrio Mosaic Aux) antenna is placed on the right side of the vehicle and the moving base antenna is on the left side. (Note: the Unicore primary antenna is the one connected on the right as seen from the top).</source>
   </message>
 </context>
 <context>
@@ -7401,6 +7377,12 @@
   </message>
 </context>
 <context>
+  <name>/parameters/MPC_YAW_MODE/values/5/description</name>
+  <message>
+  <source>yaw fixed</source>
+  </message>
+</context>
+<context>
   <name>/parameters/NAV_ACC_RAD/shortDesc</name>
   <message>
   <source>Acceptance Radius</source>
@@ -8663,7 +8645,25 @@
 <context>
   <name>/parameters/MPC_VELD_LP/shortDesc</name>
   <message>
-  <source>Numerical velocity derivative low pass cutoff frequency</source>
+  <source>Velocity derivative low pass cutoff frequency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VELD_LP/longDesc</name>
+  <message>
+  <source>A value of 0 disables the filter.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_LP/shortDesc</name>
+  <message>
+  <source>Velocity low pass cutoff frequency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_LP/longDesc</name>
+  <message>
+  <source>A value of 0 disables the filter.</source>
   </message>
 </context>
 <context>
@@ -8700,6 +8700,30 @@
   <name>/parameters/MPC_VEL_MAN_SIDE/longDesc</name>
   <message>
   <source>If set to a negative value or larger than MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_BW/shortDesc</name>
+  <message>
+  <source>Velocity notch filter bandwidth</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_BW/longDesc</name>
+  <message>
+  <source>A value of 0 disables the filter.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_FRQ/shortDesc</name>
+  <message>
+  <source>Velocity notch filter frequency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_FRQ/longDesc</name>
+  <message>
+  <source>The center frequency for the 2nd order notch filter on the velocity. A value of 0 disables the filter.</source>
   </message>
 </context>
 <context>
@@ -13029,126 +13053,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RC_MAP_ACRO_SW/shortDesc</name>
-  <message>
-  <source>Acro switch channel (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RC_MAP_ARM_SW/shortDesc</name>
   <message>
   <source>Arm switch channel</source>
@@ -14001,126 +13905,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RC_MAP_MAN_SW/shortDesc</name>
-  <message>
-  <source>Manual switch channel mapping (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RC_MAP_MODE_SW/shortDesc</name>
   <message>
   <source>Mode switch channel mapping (deprecated)</source>
@@ -14367,246 +14151,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RC_MAP_POSCTL_SW/shortDesc</name>
-  <message>
-  <source>Position Control switch channel (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/shortDesc</name>
-  <message>
-  <source>Rattitude switch channel (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RC_MAP_RETURN_SW/shortDesc</name>
   <message>
   <source>Return switch channel</source>
@@ -14722,126 +14266,6 @@
 </context>
 <context>
   <name>/parameters/RC_MAP_RETURN_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/shortDesc</name>
-  <message>
-  <source>Stabilize switch channel mapping  (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/18/description</name>
   <message>
   <source>Channel 18</source>
   </message>
@@ -17422,6 +16846,24 @@
 </context>
 <context>
   <name>/parameters/SENS_EN_PX4FLOW/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_SCH16T/shortDesc</name>
+  <message>
+  <source>Murata SCH16T IMU (external SPI)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_SCH16T/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_SCH16T/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -20289,6 +19731,18 @@
   </message>
 </context>
 <context>
+  <name>/parameters/SYS_PARAM_VER/shortDesc</name>
+  <message>
+  <source>Parameter version</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_PARAM_VER/longDesc</name>
+  <message>
+  <source>This is used internally only: an airframe configuration might set an expected parameter version value via PARAM_DEFAULTS_VER. This is checked on bootup against SYS_PARAM_VER, and if they do not match, parameters are reset and reloaded from the airframe configuration.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SYS_RGB_MAXBRT/shortDesc</name>
   <message>
   <source>RGB Led brightness limit</source>
@@ -22107,6 +21561,48 @@
   </message>
 </context>
 <context>
+  <name>/parameters/UAVCAN_ECU_FUELT/shortDesc</name>
+  <message>
+  <source>UAVCAN fuel tank fuel type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/longDesc</name>
+  <message>
+  <source>This parameter defines the type of fuel used in the vehicle's fuel tank. 0: Unknown 1: Liquid (e.g., gasoline, diesel) 2: Gas (e.g., hydrogen, methane, propane)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/values/0/description</name>
+  <message>
+  <source>Unknown</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/values/1/description</name>
+  <message>
+  <source>Liquid</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/values/2/description</name>
+  <message>
+  <source>Gas</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_MAXF/shortDesc</name>
+  <message>
+  <source>UAVCAN fuel tank maximum capacity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_MAXF/longDesc</name>
+  <message>
+  <source>This parameter defines the maximum fuel capacity of the vehicle's fuel tank.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/UAVCAN_ENABLE/shortDesc</name>
   <message>
   <source>UAVCAN mode</source>
@@ -22540,6 +22036,30 @@
 </context>
 <context>
   <name>/parameters/UAVCAN_SUB_FLOW/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/shortDesc</name>
+  <message>
+  <source>subscription fuel tank</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/longDesc</name>
+  <message>
+  <source>Enable UAVCAN fuel tank status subscription.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -23637,6 +23157,138 @@
   </message>
 </context>
 <context>
+  <name>/parameters/SCH16T_ACC_FILT/shortDesc</name>
+  <message>
+  <source>Accel filter settings</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/0/description</name>
+  <message>
+  <source>13 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/1/description</name>
+  <message>
+  <source>30 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/2/description</name>
+  <message>
+  <source>68 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/3/description</name>
+  <message>
+  <source>235 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/4/description</name>
+  <message>
+  <source>280 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/5/description</name>
+  <message>
+  <source>370 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/6/description</name>
+  <message>
+  <source>No filter</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/shortDesc</name>
+  <message>
+  <source>Gyro and Accel decimation settings</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/1/description</name>
+  <message>
+  <source>5900 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/2/description</name>
+  <message>
+  <source>2950 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/3/description</name>
+  <message>
+  <source>1475 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/4/description</name>
+  <message>
+  <source>738 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/shortDesc</name>
+  <message>
+  <source>Gyro filter settings</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/0/description</name>
+  <message>
+  <source>13 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/1/description</name>
+  <message>
+  <source>30 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/2/description</name>
+  <message>
+  <source>68 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/3/description</name>
+  <message>
+  <source>235 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/4/description</name>
+  <message>
+  <source>280 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/5/description</name>
+  <message>
+  <source>370 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/6/description</name>
+  <message>
+  <source>No filter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SF1XX_MODE/shortDesc</name>
   <message>
   <source>Lightware SF1xx/SF20/LW20 Operation Mode</source>
@@ -23679,12 +23331,6 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Standard</name>
-  <message>
-  <source>Standard</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/System</name>
   <message>
   <source>System</source>
@@ -23697,141 +23343,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Simulator</name>
+  <name>$globals/category/Standard</name>
   <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Control</name>
-  <message>
-  <source>Camera Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Telemetry</name>
-  <message>
-  <source>Telemetry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control</name>
-  <message>
-  <source>Rover Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Iridium SBD</name>
-  <message>
-  <source>Iridium SBD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Transponder</name>
-  <message>
-  <source>Transponder</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VOXL ESC</name>
-  <message>
-  <source>VOXL ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ESC</name>
-  <message>
-  <source>ESC</source>
+  <source>Standard</source>
   </message>
 </context>
 <context>
@@ -23841,261 +23355,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/FW NPFG Control</name>
+  <name>$globals/group/Camera Control</name>
   <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Serial</name>
-  <message>
-  <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
-  <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Cyphal</name>
-  <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VOXL2 IO</name>
-  <message>
-  <source>VOXL2 IO</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Launch detection</name>
-  <message>
-  <source>FW Launch detection</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/CDCACM</name>
-  <message>
-  <source>CDCACM</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Landing</name>
-  <message>
-  <source>FW Auto Landing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Acro Mode</name>
-  <message>
-  <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera trigger</name>
-  <message>
-  <source>Camera trigger</source>
+  <source>Camera Control</source>
   </message>
 </context>
 <context>
@@ -24105,21 +23367,33 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Miscellaneous</name>
+  <name>$globals/group/VTOL Takeoff</name>
   <message>
-  <source>Miscellaneous</source>
+  <source>VTOL Takeoff</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Performance</name>
+  <name>$globals/group/Camera trigger</name>
   <message>
-  <source>FW Performance</source>
+  <source>Camera trigger</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <name>$globals/group/FW Attitude Control</name>
   <message>
-  <source>UAVCAN Motor Parameters</source>
+  <source>FW Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <message>
+  <source>Multicopter Position Slow Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
   </message>
 </context>
 <context>
@@ -24129,9 +23403,153 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Attitude Q estimator</name>
+  <name>$globals/group/Mixer Output</name>
   <message>
-  <source>Attitude Q estimator</source>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VOXL2 IO</name>
+  <message>
+  <source>VOXL2 IO</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Serial</name>
+  <message>
+  <source>Serial</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Path Control</name>
+  <message>
+  <source>FW Path Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/CDCACM</name>
+  <message>
+  <source>CDCACM</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Telemetry</name>
+  <message>
+  <source>Telemetry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Iridium SBD</name>
+  <message>
+  <source>Iridium SBD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
   </message>
 </context>
 <context>
@@ -24141,9 +23559,243 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Cyphal</name>
+  <message>
+  <source>Cyphal</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ESC</name>
+  <message>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FlightTaskOrbit</name>
+  <message>
+  <source>FlightTaskOrbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN</name>
+  <message>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Launch detection</name>
+  <message>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control</name>
+  <message>
+  <source>Rover Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulator</name>
+  <message>
+  <source>Simulator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Transponder</name>
+  <message>
+  <source>Transponder</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VOXL ESC</name>
+  <message>
+  <source>VOXL ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Events</name>
   <message>
   <source>Events</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Performance</name>
+  <message>
+  <source>FW Performance</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Capture</name>
+  <message>
+  <source>Camera Capture</source>
   </message>
 </context>
 </TS>
