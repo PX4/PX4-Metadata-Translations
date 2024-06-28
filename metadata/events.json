@@ -4070,6 +4070,25 @@
               "message": "Distance sensor {3} missing",
               "name": "check_distance_sensor_missing"
             },
+            "14421482": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "The RAM usage can be reduced for example by disabling unused modules (e.g. mavlink instances).\n\n<profile name=\"dev\"> The threshold can be adjusted via <param>COM_RAM_MAX</param> parameter.\n</profile>",
+              "message": "RAM usage too high: {3:.1}%",
+              "name": "check_ram_usage_too_high"
+            },
             "14566046": {
               "arguments": [
                 {
@@ -4590,8 +4609,8 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> If the system does not provide any CPU load information, use the parameter <param>COM_CPU_MAX</param> to disable the check.\n</profile>",
-              "message": "No CPU load information",
+              "description": "<profile name=\"dev\"> If the system does not provide any CPU and RAM load information, use the parameters <param>COM_CPU_MAX</param> and <param>COM_RAM_MAX</param> to disable the checks.\n</profile>",
+              "message": "No CPU and RAM load information",
               "name": "check_missing_cpuload"
             },
             "9493632": {

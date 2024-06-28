@@ -3738,6 +3738,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/health/events/14421482/message</name>
+  <message>
+  <source>RAM usage too high: {3:.1}%</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/14421482/description</name>
+  <message>
+  <source>The RAM usage can be reduced for example by disabling unused modules (e.g. mavlink instances).
+
+&lt;profile name="dev"&gt; The threshold can be adjusted via &lt;param&gt;COM_RAM_MAX&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/health/events/14566046/message</name>
   <message>
   <source>ESC {3} offline</source>
@@ -4036,13 +4051,13 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/9266821/message</name>
   <message>
-  <source>No CPU load information</source>
+  <source>No CPU and RAM load information</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/health/events/9266821/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; If the system does not provide any CPU load information, use the parameter &lt;param&gt;COM_CPU_MAX&lt;/param&gt; to disable the check.
+  <source>&lt;profile name="dev"&gt; If the system does not provide any CPU and RAM load information, use the parameters &lt;param&gt;COM_CPU_MAX&lt;/param&gt; and &lt;param&gt;COM_RAM_MAX&lt;/param&gt; to disable the checks.
 &lt;/profile&gt;</source>
   </message>
 </context>
