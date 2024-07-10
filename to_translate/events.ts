@@ -1949,6 +1949,19 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/8713942/message</name>
+  <message>
+  <source>GPS signal spoofed</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/8713942/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/8902208/message</name>
   <message>
   <source>Horizontal velocity unstable</source>
@@ -3569,6 +3582,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9092852/message</name>
   <message>
   <source>Unexpected waypoint index, aborting mission transfer</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/9180535/message</name>
+  <message>
+  <source>GNSS signal spoofed</source>
   </message>
 </context>
 <context>

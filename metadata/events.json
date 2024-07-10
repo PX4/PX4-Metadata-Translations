@@ -2209,6 +2209,21 @@
               "message": "GPS reports multiple spoofing indicated",
               "name": "check_estimator_gps_multiple_spoofing_indicated"
             },
+            "8713942": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>EKF2_GPS_CHECK</param> parameter.\n</profile>",
+              "message": "GPS signal spoofed",
+              "name": "check_estimator_gps_spoofed"
+            },
             "8902208": {
               "arguments": [
                 {
@@ -3875,6 +3890,10 @@
             "9092852": {
               "message": "Unexpected waypoint index, aborting mission transfer",
               "name": "mavlink_mission_wp_unexpected2"
+            },
+            "9180535": {
+              "message": "GNSS signal spoofed",
+              "name": "check_estimator_gnss_warning_spoofing"
             },
             "929525": {
               "description": "Switch to manual mode recommended.\n\n<profile name=\"dev\"> This warning is triggered when the position error estimate is 90% of (or only 10m below) <param>COM_POS_FS_EPH</param> parameter.\n</profile>",
