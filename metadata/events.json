@@ -2209,21 +2209,6 @@
               "message": "GPS reports multiple spoofing indicated",
               "name": "check_estimator_gps_multiple_spoofing_indicated"
             },
-            "8713942": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>EKF2_GPS_CHECK</param> parameter.\n</profile>",
-              "message": "GPS signal spoofed",
-              "name": "check_estimator_gps_spoofed"
-            },
             "8902208": {
               "arguments": [
                 {
@@ -3891,10 +3876,6 @@
               "message": "Unexpected waypoint index, aborting mission transfer",
               "name": "mavlink_mission_wp_unexpected2"
             },
-            "9180535": {
-              "message": "GNSS signal spoofed",
-              "name": "check_estimator_gnss_warning_spoofing"
-            },
             "929525": {
               "description": "Switch to manual mode recommended.\n\n<profile name=\"dev\"> This warning is triggered when the position error estimate is 90% of (or only 10m below) <param>COM_POS_FS_EPH</param> parameter.\n</profile>",
               "message": "Estimated position error is approaching the failsafe threshold",
@@ -3968,10 +3949,6 @@
             "961599": {
               "message": "Pilot took over using sticks",
               "name": "failsafe_rc_override"
-            },
-            "9621455": {
-              "message": "5V overcurrent detected, landing advised",
-              "name": "check_power_oc_report"
             },
             "9751178": {
               "arguments": [
@@ -4088,25 +4065,6 @@
               "description": "<profile name=\"dev\"> This check can be configured via <param>SYS_HAS_NUM_DIST</param> parameter.\n</profile>",
               "message": "Distance sensor {3} missing",
               "name": "check_distance_sensor_missing"
-            },
-            "14421482": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "The RAM usage can be reduced for example by disabling unused modules (e.g. mavlink instances).\n\n<profile name=\"dev\"> The threshold can be adjusted via <param>COM_RAM_MAX</param> parameter.\n</profile>",
-              "message": "RAM usage too high: {3:.1}%",
-              "name": "check_ram_usage_too_high"
             },
             "14566046": {
               "arguments": [
@@ -4413,21 +4371,6 @@
               "message": "Battery {3} mode: {4}",
               "name": "check_battery_mode"
             },
-            "5699115": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Check the power supply",
-              "message": "Overcurrent detected for the peripheral 5V supply",
-              "name": "check_power_oc_periph"
-            },
             "6410608": {
               "arguments": [
                 {
@@ -4487,21 +4430,6 @@
               "description": "{5}\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_CHK_ESCS</param> parameter.\n</profile>",
               "message": "ESC {3}: {4}",
               "name": "check_escs_fault"
-            },
-            "6962647": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Check the power supply",
-              "message": "Overcurrent detected for the hipower 5V supply",
-              "name": "check_power_oc_hipower"
             },
             "7214714": {
               "arguments": [
@@ -4628,8 +4556,8 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> If the system does not provide any CPU and RAM load information, use the parameters <param>COM_CPU_MAX</param> and <param>COM_RAM_MAX</param> to disable the checks.\n</profile>",
-              "message": "No CPU and RAM load information",
+              "description": "<profile name=\"dev\"> If the system does not provide any CPU load information, use the parameter <param>COM_CPU_MAX</param> to disable the check.\n</profile>",
+              "message": "No CPU load information",
               "name": "check_missing_cpuload"
             },
             "9493632": {
