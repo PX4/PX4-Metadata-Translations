@@ -933,6 +933,12 @@
   </message>
 </context>
 <context>
+  <name>/parameters/ASPD_DO_CHECKS/bitmask/4/description</name>
+  <message>
+  <source>First principle check (airspeed change vs. throttle and pitch)</source>
+  </message>
+</context>
+<context>
   <name>/parameters/ASPD_FALLBACK_GW/shortDesc</name>
   <message>
   <source>Enable fallback to sensor-less airspeed estimation</source>
@@ -954,6 +960,18 @@
   <name>/parameters/ASPD_FALLBACK_GW/values/1/description</name>
   <message>
   <source>Enable fallback to sensor-less estimation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ASPD_FP_T_WINDOW/shortDesc</name>
+  <message>
+  <source>First principle airspeed check time window</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ASPD_FP_T_WINDOW/longDesc</name>
+  <message>
+  <source>Window for comparing airspeed change to throttle and pitch change. Triggers when the airspeed change within this window is negative while throttle increases and the vehicle pitches down. Is meant to catch degrading airspeed blockages as can happen when flying through icing conditions. Relies on  FW_THR_TRIM being set accurately.</source>
   </message>
 </context>
 <context>
@@ -1644,30 +1662,6 @@
   <name>/parameters/BAT_LOW_THR/longDesc</name>
   <message>
   <source>Sets the threshold when the battery will be reported as low. This has to be higher than the critical threshold.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_N_CELLS/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_N_CELLS instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_CHARGED/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_V_CHARGED instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_EMPTY/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_V_EMPTY instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_LOAD_DROP/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_V_LOAD_DROP instead</source>
   </message>
 </context>
 <context>
@@ -3129,6 +3123,18 @@
   </message>
 </context>
 <context>
+  <name>/parameters/COM_RAM_MAX/shortDesc</name>
+  <message>
+  <source>Maximum allowed RAM usage to pass checks</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_RAM_MAX/longDesc</name>
+  <message>
+  <source>The check fails if the RAM usage is above this threshold. A negative value disables the check.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/COM_RCL_EXCEPT/shortDesc</name>
   <message>
   <source>RC loss exceptions</source>
@@ -3585,6 +3591,54 @@
   </message>
 </context>
 <context>
+  <name>/parameters/UCAN1_FB0_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 0 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB1_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 1 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB2_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 2 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB3_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 3 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB4_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 4 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB5_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 5 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB6_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 6 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB7_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 7 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
   <name>/parameters/UCAN1_GPS0_SUB/shortDesc</name>
   <message>
   <source>GPS 0 subscription port ID</source>
@@ -3606,6 +3660,12 @@
   <name>/parameters/UCAN1_LG_BMS_SUB/shortDesc</name>
   <message>
   <source>Cyphal legacy battery port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_READ_PUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC readiness port ID</source>
   </message>
 </context>
 <context>
@@ -3783,12 +3843,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_SPOILERS_DESC/shortDesc</name>
-  <message>
-  <source>Spoiler descend setting</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_SPOILERS_LND/shortDesc</name>
   <message>
   <source>Spoiler landing setting</source>
@@ -3905,7 +3959,7 @@
 <context>
   <name>/parameters/FW_LND_AIRSPD/longDesc</name>
   <message>
-  <source>The calibrated airspeed setpoint during landing. If set &lt;= 0.0, landing airspeed = FW_AIRSPD_MIN by default.</source>
+  <source>The calibrated airspeed setpoint during landing. If set &lt;= 0, landing airspeed = FW_AIRSPD_MIN by default.</source>
   </message>
 </context>
 <context>
@@ -3929,7 +3983,7 @@
 <context>
   <name>/parameters/FW_LND_EARLYCFG/longDesc</name>
   <message>
-  <source>When disabled, the landing configuration (flaps, landing airspeed, etc.) is only activated on the final approach to landing. When enabled, it is already activated when entering the final loiter-down (loiter-to-alt) waypoint before the landing approach.</source>
+  <source>Allows to deploy the landing configuration (flaps, landing airspeed, etc.) already in the loiter-down waypoint before the final approach. Otherwise is enabled only in the final approach.</source>
   </message>
 </context>
 <context>
@@ -3965,7 +4019,7 @@
 <context>
   <name>/parameters/FW_LND_FL_PMAX/longDesc</name>
   <message>
-  <source>Maximum pitch during flare, a positive sign means nose up Applied once flaring is triggered</source>
+  <source>Maximum pitch during landing flare.</source>
   </message>
 </context>
 <context>
@@ -3977,7 +4031,7 @@
 <context>
   <name>/parameters/FW_LND_FL_PMIN/longDesc</name>
   <message>
-  <source>Minimum pitch during flare, a positive sign means nose up Applied once flaring is triggered</source>
+  <source>Minimum pitch during landing flare.</source>
   </message>
 </context>
 <context>
@@ -4013,7 +4067,7 @@
 <context>
   <name>/parameters/FW_LND_NUDGE/longDesc</name>
   <message>
-  <source>Approach angle nudging: shifts the touchdown point laterally while keeping the approach entrance point constant Approach path nudging: shifts the touchdown point laterally along with the entire approach path This is useful for manually adjusting the landing point in real time when map or GNSS errors cause an offset from the desired landing vector. Nuding is done with yaw stick, constrained to FW_LND_TD_OFF (in meters) and the direction is relative to the vehicle heading (stick deflection to the right = land point moves to the right as seen by the vehicle).</source>
+  <source>Approach angle nudging: shifts the touchdown point laterally while keeping the approach entrance point constant Approach path nudging: shifts the touchdown point laterally along with the entire approach path This is useful for manually adjusting the landing point in real time when map or GNSS errors cause an offset from the desired landing vector. Nudging is done with yaw stick, constrained to FW_LND_TD_OFF (in meters) and the direction is relative to the vehicle heading (stick deflection to the right = land point moves to the right as seen by the vehicle).</source>
   </message>
 </context>
 <context>
@@ -4061,19 +4115,19 @@
 <context>
   <name>/parameters/FW_LND_THRTC_SC/longDesc</name>
   <message>
-  <source>Set this parameter to less than 1.0 to make TECS react faster to altitude errors during landing than during normal flight. During landing, the TECS altitude time constant (FW_T_ALT_TC) is multiplied by this value.</source>
+  <source>During landing, the TECS altitude time constant (FW_T_ALT_TC) is multiplied by this value.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_LND_USETER/shortDesc</name>
   <message>
-  <source>Use terrain estimation during landing. This is critical for detecting when to flare, and should be enabled if possible</source>
+  <source>Use terrain estimation during landing</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_LND_USETER/longDesc</name>
   <message>
-  <source>NOTE: terrain estimate is currently solely derived from a distance sensor. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
+  <source>This is critical for detecting when to flare, and should be enabled if possible. NOTE: terrain estimate is currently solely derived from a distance sensor. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
   </message>
 </context>
 <context>
@@ -4367,19 +4421,19 @@
 <context>
   <name>/parameters/FW_PN_R_SLEW_MAX/longDesc</name>
   <message>
-  <source>The maximum change in roll angle setpoint per second.</source>
+  <source>The maximum change in roll angle setpoint per second. This limit is applied in all Auto modes, plus manual Position and Altitude modes.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_POS_STK_CONF/shortDesc</name>
   <message>
-  <source>RC stick configuration fixed-wing</source>
+  <source>Custom stick configuration</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_POS_STK_CONF/longDesc</name>
   <message>
-  <source>Set RC/joystick configuration for fixed-wing manual position and altitude controlled flight.</source>
+  <source>Applies in manual Position and Altitude flight modes.</source>
   </message>
 </context>
 <context>
@@ -4397,13 +4451,13 @@
 <context>
   <name>/parameters/FW_R_LIM/shortDesc</name>
   <message>
-  <source>Maximum roll angle</source>
+  <source>Maximum roll angle setpoint</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_R_LIM/longDesc</name>
   <message>
-  <source>The maximum roll angle setpoint for setpoint for a height-rate or altitude controlled mode.</source>
+  <source>Applies in any altitude controlled flight mode.</source>
   </message>
 </context>
 <context>
@@ -4973,25 +5027,25 @@
 <context>
   <name>/parameters/FW_P_LIM_MAX/shortDesc</name>
   <message>
-  <source>Maximum pitch angle</source>
+  <source>Maximum pitch angle setpoint</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_P_LIM_MAX/longDesc</name>
   <message>
-  <source>The maximum pitch angle setpoint setpoint for a height-rate or altitude controlled mode.</source>
+  <source>Applies in any altitude controlled flight mode.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_P_LIM_MIN/shortDesc</name>
   <message>
-  <source>Minimum pitch angle</source>
+  <source>Minimum pitch angle setpoint</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_P_LIM_MIN/longDesc</name>
   <message>
-  <source>The minimum pitch angle setpoint for a height-rate or altitude controlled mode.</source>
+  <source>Applies in any altitude controlled flight mode.</source>
   </message>
 </context>
 <context>
@@ -5003,7 +5057,7 @@
 <context>
   <name>/parameters/FW_THR_IDLE/longDesc</name>
   <message>
-  <source>This is the minimum throttle while on the ground For aircraft with internal combustion engines, this parameter should be set above the desired idle rpm. For electric motors, idle should typically be set to zero. Note that in automatic modes, "landed" conditions will engage idle throttle.</source>
+  <source>This is the minimum throttle while on the ground ("landed") in auto modes.</source>
   </message>
 </context>
 <context>
@@ -5015,7 +5069,7 @@
 <context>
   <name>/parameters/FW_THR_MAX/longDesc</name>
   <message>
-  <source>Maximum throttle limit in altitude controlled modes. Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
+  <source>Applies in any altitude controlled flight mode. Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
   </message>
 </context>
 <context>
@@ -5027,7 +5081,7 @@
 <context>
   <name>/parameters/FW_THR_MIN/longDesc</name>
   <message>
-  <source>Minimum throttle limit in altitude controlled modes. Usually set to 0 but can be increased to prevent the motor from stopping when descending, which can increase achievable descent rates. For aircraft with internal combustion engine this parameter should be set for desired idle rpm.</source>
+  <source>Applies in any altitude controlled flight mode. Usually set to 0 but can be increased to prevent the motor from stopping when descending, which can increase achievable descent rates.</source>
   </message>
 </context>
 <context>
@@ -5051,7 +5105,7 @@
 <context>
   <name>/parameters/FW_TKO_AIRSPD/longDesc</name>
   <message>
-  <source>The calibrated airspeed setpoint TECS will stabilize to during the takeoff climbout. If set &lt;= 0.0, FW_AIRSPD_MIN will be set by default.</source>
+  <source>The calibrated airspeed setpoint during the takeoff climbout. If set &lt;= 0, FW_AIRSPD_MIN will be set by default.</source>
   </message>
 </context>
 <context>
@@ -5069,7 +5123,19 @@
 <context>
   <name>/parameters/FW_T_CLMB_R_SP/longDesc</name>
   <message>
-  <source>The default rate at which the vehicle will climb in autonomous modes to achieve altitude setpoints. In manual modes this defines the maximum rate at which the altitude setpoint can be increased.</source>
+  <source>In auto modes: default climb rate output by controller to achieve altitude setpoints. In manual modes: maximum climb rate setpoint.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_F_ALT_ERR/shortDesc</name>
+  <message>
+  <source>Fast descend: minimum altitude error</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_F_ALT_ERR/longDesc</name>
+  <message>
+  <source>Minimum altitude error needed to descend with max airspeed and minimal throttle. A negative value disables fast descend.</source>
   </message>
 </context>
 <context>
@@ -5087,19 +5153,13 @@
 <context>
   <name>/parameters/FW_T_I_GAIN_PIT/longDesc</name>
   <message>
-  <source>Integrator gain on the pitch part of the control loop. Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
+  <source>Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_PTCH_DAMP/shortDesc</name>
   <message>
-  <source>Pitch damping factor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_PTCH_DAMP/longDesc</name>
-  <message>
-  <source>This is the damping gain for the pitch demand loop. Increase to add damping to correct for oscillations in height. The default value of 0.0 will work well provided the pitch to servo controller has been tuned properly.</source>
+  <source>Pitch damping gain</source>
   </message>
 </context>
 <context>
@@ -5111,7 +5171,7 @@
 <context>
   <name>/parameters/FW_T_RLL2THR/longDesc</name>
   <message>
-  <source>Increasing this gain turn increases the amount of throttle that will be used to compensate for the additional drag created by turning. Ideally this should be set to  approximately 10 x the extra sink rate in m/s created by a 45 degree bank turn. Increase this gain if the aircraft initially loses energy in turns and reduce if the aircraft initially gains energy in turns. Efficient high aspect-ratio aircraft (eg powered sailplanes) can use a lower value, whereas inefficient low aspect-ratio models (eg delta wings) can use a higher value.</source>
+  <source>Is used to compensate for the additional drag created by turning. Increase this gain if the aircraft initially loses energy in turns and reduce if the aircraft initially gains energy in turns.</source>
   </message>
 </context>
 <context>
@@ -5129,7 +5189,7 @@
 <context>
   <name>/parameters/FW_T_SINK_MAX/longDesc</name>
   <message>
-  <source>This sets the maximum descent rate that the controller will use. If this value is too large, the aircraft can over-speed on descent. This should be set to a value that can be achieved without exceeding the lower pitch angle limit and without over-speeding the aircraft.</source>
+  <source>This sets the maximum descent rate that the controller will use.</source>
   </message>
 </context>
 <context>
@@ -5141,7 +5201,7 @@
 <context>
   <name>/parameters/FW_T_SINK_R_SP/longDesc</name>
   <message>
-  <source>The default rate at which the vehicle will sink in autonomous modes to achieve altitude setpoints. In manual modes this defines the maximum rate at which the altitude setpoint can be decreased.</source>
+  <source>In auto modes: default sink rate output by controller to achieve altitude setpoints. In manual modes: maximum sink rate setpoint.</source>
   </message>
 </context>
 <context>
@@ -5153,43 +5213,43 @@
 <context>
   <name>/parameters/FW_T_SPDWEIGHT/longDesc</name>
   <message>
-  <source>This parameter adjusts the amount of weighting that the pitch control applies to speed vs height errors. Setting it to 0.0 will cause the pitch control to control height and ignore speed errors. This will normally improve height accuracy but give larger airspeed errors. Setting it to 2.0 will cause the pitch control loop to control speed and ignore height errors. This will normally reduce airspeed errors, but give larger height errors. The default value of 1.0 allows the pitch control to simultaneously control height and speed. Set to 2 for gliders.</source>
+  <source>Adjusts the amount of weighting that the pitch control applies to speed vs height errors. Setting it to 0.0 will cause the pitch control to control height and ignore speed errors. Setting it to 2.0 will cause the pitch control loop to control speed and ignore height errors. The default value of 1.0 allows the pitch control to simultaneously control height and speed. Set to 2 for gliders.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_DEV_STD/shortDesc</name>
   <message>
-  <source>Airspeed rate measurement standard deviation for airspeed filter</source>
+  <source>Airspeed rate measurement standard deviation</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_DEV_STD/longDesc</name>
   <message>
-  <source>This is the measurement standard deviation for the airspeed rate used in the airspeed filter in TECS.</source>
+  <source>For the airspeed filter in TECS.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_PRC_STD/shortDesc</name>
   <message>
-  <source>Process noise standard deviation for the airspeed rate in the airspeed filter</source>
+  <source>Process noise standard deviation for the airspeed rate</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_PRC_STD/longDesc</name>
   <message>
-  <source>This is the process noise standard deviation in the airspeed filter filter defining the noise in the airspeed rate for the constant airspeed rate model. This is used to define how much the airspeed and the airspeed rate are filtered. The smaller the value the more the measurements are smoothed with the drawback for delays.</source>
+  <source>This is defining the noise in the airspeed rate for the constant airspeed rate model of the TECS airspeed filter.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_STD/shortDesc</name>
   <message>
-  <source>Airspeed measurement standard deviation for airspeed filter</source>
+  <source>Airspeed measurement standard deviation</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_STD/longDesc</name>
   <message>
-  <source>This is the measurement standard deviation for the airspeed used in the airspeed filter in TECS.</source>
+  <source>For the airspeed filter in TECS.</source>
   </message>
 </context>
 <context>
@@ -5219,7 +5279,7 @@
 <context>
   <name>/parameters/FW_T_THR_DAMPING/longDesc</name>
   <message>
-  <source>This is the damping gain for the throttle demand loop. Increase to add damping to correct for oscillations in speed and height.</source>
+  <source>This is the damping gain for the throttle demand loop.</source>
   </message>
 </context>
 <context>
@@ -5231,7 +5291,7 @@
 <context>
   <name>/parameters/FW_T_THR_INTEG/longDesc</name>
   <message>
-  <source>Integrator gain on the throttle part of the control loop. Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
+  <source>Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
   </message>
 </context>
 <context>
@@ -5243,7 +5303,7 @@
 <context>
   <name>/parameters/FW_T_VERT_ACC/longDesc</name>
   <message>
-  <source>This is the maximum vertical acceleration (in m/s/s) either up or down that the controller will use to correct speed or height errors. The default value of 7 m/s/s (equivalent to +- 0.7 g) allows for reasonably aggressive pitch changes if required to recover from under-speed conditions.</source>
+  <source>This is the maximum vertical acceleration either up or down that the controller will use to correct speed or height errors.</source>
   </message>
 </context>
 <context>
@@ -5255,7 +5315,7 @@
 <context>
   <name>/parameters/FW_WIND_ARSP_SC/longDesc</name>
   <message>
-  <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind. Only applies to AUTO flight mode.</source>
+  <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind.</source>
   </message>
 </context>
 <context>
@@ -5543,7 +5603,7 @@
 <context>
   <name>/parameters/GPS_1_GNSS/longDesc</name>
   <message>
-  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS</source>
+  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS 5 : Use NAVIC</source>
   </message>
 </context>
 <context>
@@ -5574,6 +5634,12 @@
   <name>/parameters/GPS_1_GNSS/bitmask/4/description</name>
   <message>
   <source>GLONASS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GPS_1_GNSS/bitmask/5/description</name>
+  <message>
+  <source>NAVIC</source>
   </message>
 </context>
 <context>
@@ -5631,12 +5697,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/GPS_1_PROTOCOL/values/7/description</name>
-  <message>
-  <source>Septentrio (SBF)</source>
-  </message>
-</context>
-<context>
   <name>/parameters/GPS_2_GNSS/shortDesc</name>
   <message>
   <source>GNSS Systems for Secondary GPS (integer bitmask)</source>
@@ -5645,7 +5705,7 @@
 <context>
   <name>/parameters/GPS_2_GNSS/longDesc</name>
   <message>
-  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS</source>
+  <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your receiver's documentation on how many systems are supported to be used in parallel. Currently this functionality is just implemented for u-blox receivers. When no bits are set, the receiver's default configuration should be used. Set bits true to enable: 0 : Use GPS (with QZSS) 1 : Use SBAS (multiple GPS augmentation systems) 2 : Use Galileo 3 : Use BeiDou 4 : Use GLONASS 5 : Use NAVIC</source>
   </message>
 </context>
 <context>
@@ -5676,6 +5736,12 @@
   <name>/parameters/GPS_2_GNSS/bitmask/4/description</name>
   <message>
   <source>GLONASS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GPS_2_GNSS/bitmask/5/description</name>
+  <message>
+  <source>NAVIC</source>
   </message>
 </context>
 <context>
@@ -5760,18 +5826,6 @@
   <name>/parameters/GPS_DUMP_COMM/values/2/description</name>
   <message>
   <source>RTCM output (PPK)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_PITCH_OFFSET/shortDesc</name>
-  <message>
-  <source>Pitch offset for dual antenna GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/GPS_PITCH_OFFSET/longDesc</name>
-  <message>
-  <source>Vertical offsets can be compensated for by adjusting the Pitch offset (Septentrio). Note that this can be interpreted as the "roll" angle in case the antennas are aligned along the perpendicular axis. This occurs in situations where the two antenna ARPs may not be exactly at the same height in the vehicle reference frame. Since pitch is defined as the right-handed rotation about the vehicle Y axis, a situation where the main antenna is mounted lower than the aux antenna (assuming the default antenna setup) will result in a positive pitch.</source>
   </message>
 </context>
 <context>
@@ -5951,7 +6005,7 @@
 <context>
   <name>/parameters/GPS_YAW_OFFSET/longDesc</name>
   <message>
-  <source>Heading offset angle for dual antenna GPS setups that support heading estimation. Set this to 0 if the antennas are parallel to the forward-facing direction of the vehicle and the rover (or Unicore primary) antenna is in front. The offset angle increases clockwise. Set this to 90 if the rover (or Unicore primary) antenna is placed on the right side of the vehicle and the moving base antenna is on the left side. (Note: the Unicore primary antenna is the one connected on the right as seen from the top).</source>
+  <source>Heading offset angle for dual antenna GPS setups that support heading estimation. Set this to 0 if the antennas are parallel to the forward-facing direction of the vehicle and the rover (or Unicore primary) antenna is in front. The offset angle increases clockwise. Set this to 90 if the rover (or Unicore primary, or Septentrio Mosaic Aux) antenna is placed on the right side of the vehicle and the moving base antenna is on the left side. (Note: the Unicore primary antenna is the one connected on the right as seen from the top).</source>
   </message>
 </context>
 <context>
@@ -7217,7 +7271,7 @@
 <context>
   <name>/parameters/FW_GPSF_LT/longDesc</name>
   <message>
-  <source>The time in seconds the system should do open loop loiter and wait for GPS recovery before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R. Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</source>
+  <source>The time the system should do open loop loiter and wait for GPS recovery before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R. Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</source>
   </message>
 </context>
 <context>
@@ -7229,7 +7283,7 @@
 <context>
   <name>/parameters/FW_GPSF_R/longDesc</name>
   <message>
-  <source>Roll in degrees during the loiter after the vehicle has lost GPS in an auto mode (e.g. mission or loiter).</source>
+  <source>Roll angle in GPS failure loiter mode.</source>
   </message>
 </context>
 <context>
@@ -7398,6 +7452,12 @@
   <name>/parameters/MPC_YAW_MODE/values/4/description</name>
   <message>
   <source>towards waypoint (yaw first)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_YAW_MODE/values/5/description</name>
+  <message>
+  <source>yaw fixed</source>
   </message>
 </context>
 <context>
@@ -8663,7 +8723,25 @@
 <context>
   <name>/parameters/MPC_VELD_LP/shortDesc</name>
   <message>
-  <source>Numerical velocity derivative low pass cutoff frequency</source>
+  <source>Velocity derivative low pass cutoff frequency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VELD_LP/longDesc</name>
+  <message>
+  <source>A value of 0 disables the filter.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_LP/shortDesc</name>
+  <message>
+  <source>Velocity low pass cutoff frequency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_LP/longDesc</name>
+  <message>
+  <source>A value of 0 disables the filter.</source>
   </message>
 </context>
 <context>
@@ -8700,6 +8778,30 @@
   <name>/parameters/MPC_VEL_MAN_SIDE/longDesc</name>
   <message>
   <source>If set to a negative value or larger than MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_BW/shortDesc</name>
+  <message>
+  <source>Velocity notch filter bandwidth</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_BW/longDesc</name>
+  <message>
+  <source>A value of 0 disables the filter.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_FRQ/shortDesc</name>
+  <message>
+  <source>Velocity notch filter frequency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_FRQ/longDesc</name>
+  <message>
+  <source>The center frequency for the 2nd order notch filter on the velocity. A value of 0 disables the filter.</source>
   </message>
 </context>
 <context>
@@ -13029,126 +13131,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RC_MAP_ACRO_SW/shortDesc</name>
-  <message>
-  <source>Acro switch channel (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RC_MAP_ARM_SW/shortDesc</name>
   <message>
   <source>Arm switch channel</source>
@@ -14001,126 +13983,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RC_MAP_MAN_SW/shortDesc</name>
-  <message>
-  <source>Manual switch channel mapping (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RC_MAP_MODE_SW/shortDesc</name>
   <message>
   <source>Mode switch channel mapping (deprecated)</source>
@@ -14367,246 +14229,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RC_MAP_POSCTL_SW/shortDesc</name>
-  <message>
-  <source>Position Control switch channel (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/shortDesc</name>
-  <message>
-  <source>Rattitude switch channel (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RC_MAP_RETURN_SW/shortDesc</name>
   <message>
   <source>Return switch channel</source>
@@ -14722,126 +14344,6 @@
 </context>
 <context>
   <name>/parameters/RC_MAP_RETURN_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/shortDesc</name>
-  <message>
-  <source>Stabilize switch channel mapping  (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/18/description</name>
   <message>
   <source>Channel 18</source>
   </message>
@@ -17427,6 +16929,24 @@
   </message>
 </context>
 <context>
+  <name>/parameters/SENS_EN_SCH16T/shortDesc</name>
+  <message>
+  <source>Murata SCH16T IMU (external SPI)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_SCH16T/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_SCH16T/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SENS_EN_SDP3X/shortDesc</name>
   <message>
   <source>Sensirion SDP3X differential pressure sensor (external I2C)</source>
@@ -19811,7 +19331,7 @@
 <context>
   <name>/parameters/SIH_LOC_LAT0/longDesc</name>
   <message>
-  <source>This value represents the North-South location on Earth where the simulation begins. A value of 45 deg should be written 450000000. LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others to represent a physical ground location on Earth.</source>
+  <source>This value represents the North-South location on Earth where the simulation begins. LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others to represent a physical ground location on Earth.</source>
   </message>
 </context>
 <context>
@@ -19823,7 +19343,7 @@
 <context>
   <name>/parameters/SIH_LOC_LON0/longDesc</name>
   <message>
-  <source>This value represents the East-West location on Earth where the simulation begins. A value of 45 deg should be written 450000000. LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others to represent a physical ground location on Earth.</source>
+  <source>This value represents the East-West location on Earth where the simulation begins. LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others to represent a physical ground location on Earth.</source>
   </message>
 </context>
 <context>
@@ -20286,6 +19806,18 @@
   <name>/parameters/SYS_HITL/values/2/description</name>
   <message>
   <source>SIH enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_PARAM_VER/shortDesc</name>
+  <message>
+  <source>Parameter version</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_PARAM_VER/longDesc</name>
+  <message>
+  <source>This is used internally only: an airframe configuration might set an expected parameter version value via PARAM_DEFAULTS_VER. This is checked on bootup against SYS_PARAM_VER, and if they do not match, parameters are reset and reloaded from the airframe configuration.</source>
   </message>
 </context>
 <context>
@@ -22107,6 +21639,48 @@
   </message>
 </context>
 <context>
+  <name>/parameters/UAVCAN_ECU_FUELT/shortDesc</name>
+  <message>
+  <source>UAVCAN fuel tank fuel type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/longDesc</name>
+  <message>
+  <source>This parameter defines the type of fuel used in the vehicle's fuel tank. 0: Unknown 1: Liquid (e.g., gasoline, diesel) 2: Gas (e.g., hydrogen, methane, propane)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/values/0/description</name>
+  <message>
+  <source>Unknown</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/values/1/description</name>
+  <message>
+  <source>Liquid</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/values/2/description</name>
+  <message>
+  <source>Gas</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_MAXF/shortDesc</name>
+  <message>
+  <source>UAVCAN fuel tank maximum capacity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_MAXF/longDesc</name>
+  <message>
+  <source>This parameter defines the maximum fuel capacity of the vehicle's fuel tank.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/UAVCAN_ENABLE/shortDesc</name>
   <message>
   <source>UAVCAN mode</source>
@@ -22540,6 +22114,30 @@
 </context>
 <context>
   <name>/parameters/UAVCAN_SUB_FLOW/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/shortDesc</name>
+  <message>
+  <source>subscription fuel tank</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/longDesc</name>
+  <message>
+  <source>Enable UAVCAN fuel tank status subscription.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -23637,6 +23235,138 @@
   </message>
 </context>
 <context>
+  <name>/parameters/SCH16T_ACC_FILT/shortDesc</name>
+  <message>
+  <source>Accel filter settings</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/0/description</name>
+  <message>
+  <source>13 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/1/description</name>
+  <message>
+  <source>30 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/2/description</name>
+  <message>
+  <source>68 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/3/description</name>
+  <message>
+  <source>235 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/4/description</name>
+  <message>
+  <source>280 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/5/description</name>
+  <message>
+  <source>370 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/6/description</name>
+  <message>
+  <source>No filter</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/shortDesc</name>
+  <message>
+  <source>Gyro and Accel decimation settings</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/1/description</name>
+  <message>
+  <source>5900 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/2/description</name>
+  <message>
+  <source>2950 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/3/description</name>
+  <message>
+  <source>1475 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/4/description</name>
+  <message>
+  <source>738 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/shortDesc</name>
+  <message>
+  <source>Gyro filter settings</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/0/description</name>
+  <message>
+  <source>13 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/1/description</name>
+  <message>
+  <source>30 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/2/description</name>
+  <message>
+  <source>68 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/3/description</name>
+  <message>
+  <source>235 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/4/description</name>
+  <message>
+  <source>280 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/5/description</name>
+  <message>
+  <source>370 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/6/description</name>
+  <message>
+  <source>No filter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SF1XX_MODE/shortDesc</name>
   <message>
   <source>Lightware SF1xx/SF20/LW20 Operation Mode</source>
@@ -23679,15 +23409,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Standard</name>
-  <message>
-  <source>Standard</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/Developer</name>
   <message>
   <source>Developer</source>
+  </message>
+</context>
+<context>
+  <name>$globals/category/Standard</name>
+  <message>
+  <source>Standard</source>
   </message>
 </context>
 <context>
@@ -23697,15 +23427,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Return Mode</name>
+  <name>$globals/group/Mixer Output</name>
   <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
+  <source>Mixer Output</source>
   </message>
 </context>
 <context>
@@ -23715,93 +23439,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/PWM Outputs</name>
   <message>
   <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
   </message>
 </context>
 <context>
@@ -23811,147 +23451,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/CDCACM</name>
+  <name>$globals/group/Transponder</name>
   <message>
-  <source>CDCACM</source>
+  <source>Transponder</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Manual Control</name>
+  <name>$globals/group/VOXL2 IO</name>
   <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Serial</name>
-  <message>
-  <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Launch detection</name>
-  <message>
-  <source>FW Launch detection</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
+  <source>VOXL2 IO</source>
   </message>
 </context>
 <context>
@@ -23961,75 +23469,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Follow target</name>
+  <name>$globals/group/FW Path Control</name>
   <message>
-  <source>Follow target</source>
+  <source>FW Path Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <name>$globals/group/UUV Position Control</name>
   <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Telemetry</name>
-  <message>
-  <source>Telemetry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VOXL ESC</name>
-  <message>
-  <source>VOXL ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control</name>
-  <message>
-  <source>Rover Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Transponder</name>
-  <message>
-  <source>Transponder</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
+  <source>UUV Position Control</source>
   </message>
 </context>
 <context>
@@ -24039,21 +23487,123 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/OSD</name>
+  <name>$globals/group/FW Attitude Control</name>
   <message>
-  <source>OSD</source>
+  <source>FW Attitude Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Testing</name>
+  <name>$globals/group/Multicopter Position Control</name>
   <message>
-  <source>Testing</source>
+  <source>Multicopter Position Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Acro Mode</name>
+  <name>$globals/group/ESC</name>
   <message>
-  <source>Multicopter Acro Mode</source>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Performance</name>
+  <message>
+  <source>FW Performance</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Serial</name>
+  <message>
+  <source>Serial</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Capture</name>
+  <message>
+  <source>Camera Capture</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Iridium SBD</name>
+  <message>
+  <source>Iridium SBD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
   </message>
 </context>
 <context>
@@ -24069,9 +23619,21 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Radio Switches</name>
+  <name>$globals/group/Mission</name>
   <message>
-  <source>Radio Switches</source>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/CDCACM</name>
+  <message>
+  <source>CDCACM</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
   </message>
 </context>
 <context>
@@ -24081,21 +23643,57 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Auto Landing</name>
+  <name>$globals/group/Return Mode</name>
   <message>
-  <source>FW Auto Landing</source>
+  <source>Return Mode</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/MAVLink</name>
+  <name>$globals/group/Rover Position Control</name>
   <message>
-  <source>MAVLink</source>
+  <source>Rover Position Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Attitude Control</name>
+  <name>$globals/group/Multicopter Acro Mode</name>
   <message>
-  <source>Multicopter Attitude Control</source>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <message>
+  <source>Multicopter Position Slow Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
   </message>
 </context>
 <context>
@@ -24105,45 +23703,177 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <name>$globals/group/Geofence</name>
   <message>
-  <source>Magnetometer Bias Estimator</source>
+  <source>Geofence</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/VOXL2 IO</name>
+  <name>$globals/group/Land Detector</name>
   <message>
-  <source>VOXL2 IO</source>
+  <source>Land Detector</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Performance</name>
+  <name>$globals/group/Events</name>
   <message>
-  <source>FW Performance</source>
+  <source>Events</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/ESC</name>
+  <name>$globals/group/Multicopter Rate Control</name>
   <message>
-  <source>ESC</source>
+  <source>Multicopter Rate Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Attitude Q estimator</name>
+  <name>$globals/group/Simulator</name>
   <message>
-  <source>Attitude Q estimator</source>
+  <source>Simulator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Airspeed Validator</name>
+  <name>$globals/group/Telemetry</name>
   <message>
-  <source>Airspeed Validator</source>
+  <source>Telemetry</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Iridium SBD</name>
+  <name>$globals/group/OSD</name>
   <message>
-  <source>Iridium SBD</source>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Launch detection</name>
+  <message>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FlightTaskOrbit</name>
+  <message>
+  <source>FlightTaskOrbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN</name>
+  <message>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VOXL ESC</name>
+  <message>
+  <source>VOXL ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Testing</name>
+  <message>
+  <source>Testing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
   </message>
 </context>
 </TS>
