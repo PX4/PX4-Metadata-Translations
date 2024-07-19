@@ -1046,29 +1046,6 @@
               "message": "GPS Vertical Position Drift too high",
               "name": "check_estimator_gps_vert_pos_drift_too_high"
             },
-            "11973889": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                }
-              ],
-              "description": "<profile name=\"dev\"> Test ratio: {3:.3}, limit: {4:.3}.\n\nThis check can be configured via <param>COM_ARM_EKF_VEL</param> parameter.\n</profile>",
-              "message": "Velocity estimate error",
-              "name": "check_estimator_vel_est_err"
-            },
             "12276004": {
               "arguments": [
                 {
@@ -2011,29 +1988,6 @@
               "message": "No connection to the ground control station",
               "name": "check_rc_dl_no_dllink"
             },
-            "6952872": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                }
-              ],
-              "description": "<profile name=\"dev\"> Test ratio: {3:.3}, limit: {4:.3}.\n\nThis check can be configured via <param>COM_ARM_EKF_POS</param> parameter.\n</profile>",
-              "message": "Position estimate error",
-              "name": "check_estimator_pos_est_err"
-            },
             "6979701": {
               "arguments": [
                 {
@@ -2238,29 +2192,6 @@
               "message": "Horizontal velocity unstable",
               "name": "check_estimator_hor_vel_not_stable"
             },
-            "9028597": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                }
-              ],
-              "description": "<profile name=\"dev\"> Test ratio: {3:.3}, limit: {4:.3}.\n\nThis check can be configured via <param>COM_ARM_EKF_HGT</param> parameter.\n</profile>",
-              "message": "Height estimate error",
-              "name": "check_estimator_hgt_est_err"
-            },
             "9077977": {
               "arguments": [
                 {
@@ -2320,29 +2251,6 @@
               "message": "High Gyro Bias",
               "name": "check_estimator_high_gyro_bias"
             },
-            "9581033": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "float"
-                },
-                {
-                  "name": "arg1",
-                  "type": "float"
-                }
-              ],
-              "description": "<profile name=\"dev\"> Test ratio: {3:.3}, limit: {4:.3}.\n\nThis check can be configured via <param>COM_ARM_EKF_YAW</param> parameter.\n</profile>",
-              "message": "Yaw estimate error",
-              "name": "check_estimator_yaw_est_err"
-            },
             "9608226": {
               "arguments": [
                 {
@@ -2385,6 +2293,20 @@
               "description": "Make sure the gyroscope is providing valid data.",
               "message": "Angular velocity not valid",
               "name": "check_modes_angular_velocity"
+            },
+            "9697819": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "message": "Horizontal position unstable",
+              "name": "check_estimator_hor_pos_not_stable"
             },
             "9815168": {
               "arguments": [

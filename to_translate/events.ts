@@ -1177,21 +1177,6 @@
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/11973889/message</name>
-  <message>
-  <source>Velocity estimate error</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/11973889/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/12276004/message</name>
   <message>
   <source>Global position required</source>
@@ -1820,21 +1805,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/6952872/message</name>
-  <message>
-  <source>Position estimate error</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/6952872/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/6979701/message</name>
   <message>
   <source>RC calibration for channel {3} invalid: MIN less than {4}</source>
@@ -1968,21 +1938,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/9028597/message</name>
-  <message>
-  <source>Height estimate error</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/9028597/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/9077977/message</name>
   <message>
   <source>Kill switch engaged</source>
@@ -2012,21 +1967,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/9581033/message</name>
-  <message>
-  <source>Yaw estimate error</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/9581033/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/9608226/message</name>
   <message>
   <source>Estimator not using GPS</source>
@@ -2048,6 +1988,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/arming_check/events/9643369/description</name>
   <message>
   <source>Make sure the gyroscope is providing valid data.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/9697819/message</name>
+  <message>
+  <source>Horizontal position unstable</source>
   </message>
 </context>
 <context>
