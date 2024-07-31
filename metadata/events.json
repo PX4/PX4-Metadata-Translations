@@ -289,8 +289,8 @@
               "name": "voltage_spikes"
             },
             "10": {
-              "description": "Battery is over-heating",
-              "name": "over_temperature"
+              "description": "Battery failed to arm",
+              "name": "failed_to_arm"
             },
             "2": {
               "description": "One or more battery cells have failed",
@@ -302,7 +302,7 @@
             },
             "4": {
               "description": "Battery has reached a critical temperature which can result in a critical failure",
-              "name": "fault_temperature"
+              "name": "over_temperature"
             },
             "5": {
               "description": "Battery temperature is below operating range",
@@ -323,24 +323,6 @@
             "9": {
               "description": "Battery reported an hardware problem",
               "name": "hardware_fault"
-            }
-          },
-          "type": "uint8_t"
-        },
-        "battery_mode_t": {
-          "description": "Smart battery modes of operation",
-          "entries": {
-            "0": {
-              "description": "unknown",
-              "name": "unknown"
-            },
-            "1": {
-              "description": "auto discharging towards storage level",
-              "name": "autodischarging"
-            },
-            "2": {
-              "description": "hot-swap",
-              "name": "hotswap"
             }
           },
           "type": "uint8_t"
@@ -3001,6 +2983,10 @@
               "message": "Disarmed by {1}",
               "name": "commander_disarmed_by"
             },
+            "1604295": {
+              "message": "Terrain collision risk, descent is stopped",
+              "name": "navigator_terrain_collision_risk"
+            },
             "16048801": {
               "arguments": [
                 {
@@ -3925,6 +3911,25 @@
         },
         "health": {
           "events": {
+            "10318274": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Make sure all required batteries are connected.",
+              "message": "Battery {3} missing",
+              "name": "check_battery_missing"
+            },
             "1058956": {
               "arguments": [
                 {
@@ -3973,7 +3978,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "Make sure all batteries are connected and operational.",
+              "description": "Make sure all batteries are operational.",
               "message": "Battery unhealthy",
               "name": "check_battery_unhealthy"
             },
@@ -4111,13 +4116,9 @@
                 {
                   "name": "arg2",
                   "type": "px4::suggested_action_t"
-                },
-                {
-                  "name": "arg3",
-                  "type": "uint32_t"
                 }
               ],
-              "description": "The battery reported a failure which might be dangerous to fly with. Manufacturer error code: {6}",
+              "description": "The battery reported a failure which might be dangerous to fly with.",
               "message": "Battery {3}: {4}. {5}",
               "name": "check_battery_fault"
             },
@@ -4312,28 +4313,6 @@
               ],
               "message": "Barometer {3} missing",
               "name": "check_baro_missing"
-            },
-            "5623109": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "px4::battery_mode_t"
-                }
-              ],
-              "message": "Battery {3} mode: {4}",
-              "name": "check_battery_mode"
             },
             "5699115": {
               "arguments": [

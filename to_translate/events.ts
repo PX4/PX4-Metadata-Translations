@@ -280,7 +280,7 @@
 <context>
   <name>/components/1/enums/battery_fault_reason_t/entries/10/description</name>
   <message>
-  <source>Battery is over-heating</source>
+  <source>Battery failed to arm</source>
   </message>
 </context>
 <context>
@@ -329,24 +329,6 @@
   <name>/components/1/enums/battery_fault_reason_t/entries/9/description</name>
   <message>
   <source>Battery reported an hardware problem</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/battery_mode_t/entries/0/description</name>
-  <message>
-  <source>unknown</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/battery_mode_t/entries/1/description</name>
-  <message>
-  <source>auto discharging towards storage level</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/battery_mode_t/entries/2/description</name>
-  <message>
-  <source>hot-swap</source>
   </message>
 </context>
 <context>
@@ -2648,6 +2630,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/1604295/message</name>
+  <message>
+  <source>Terrain collision risk, descent is stopped</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/16048801/message</name>
   <message>
   <source>Not logging, storage is almost full: {1} MiB</source>
@@ -3642,6 +3630,18 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/health/events/10318274/message</name>
+  <message>
+  <source>Battery {3} missing</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/10318274/description</name>
+  <message>
+  <source>Make sure all required batteries are connected.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/health/events/1058956/message</name>
   <message>
   <source>CPU load too high: {3:.1}%</source>
@@ -3671,7 +3671,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/13344346/description</name>
   <message>
-  <source>Make sure all batteries are connected and operational.</source>
+  <source>Make sure all batteries are operational.</source>
   </message>
 </context>
 <context>
@@ -3760,7 +3760,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/15602498/description</name>
   <message>
-  <source>The battery reported a failure which might be dangerous to fly with. Manufacturer error code: {6}</source>
+  <source>The battery reported a failure which might be dangerous to fly with.</source>
   </message>
 </context>
 <context>
@@ -3874,12 +3874,6 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
   <name>/components/1/event_groups/health/events/5095593/message</name>
   <message>
   <source>Barometer {3} missing</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/5623109/message</name>
-  <message>
-  <source>Battery {3} mode: {4}</source>
   </message>
 </context>
 <context>
