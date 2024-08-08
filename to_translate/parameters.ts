@@ -44667,6 +44667,42 @@
   </message>
 </context>
 <context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/shortDesc</name>
+  <message>
+  <source>Yaw behaviour during orbit flight</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/0/description</name>
+  <message>
+  <source>Front to Circle Center</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/1/description</name>
+  <message>
+  <source>Hold Initial Heading</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/2/description</name>
+  <message>
+  <source>Uncontrolled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/3/description</name>
+  <message>
+  <source>Hold Front Tangent to Circle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/4/description</name>
+  <message>
+  <source>RC Controlled</source>
+  </message>
+</context>
+<context>
   <name>/parameters/FLW_TGT_ALT_M/shortDesc</name>
   <message>
   <source>Altitude control mode</source>
@@ -59907,99 +59943,129 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_ANG_SCALE/shortDesc</name>
+  <name>/parameters/RD_HEADING_I/shortDesc</name>
   <message>
-  <source>Manual angular velocity scale</source>
+  <source>Integral gain for heading controller</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_I_ANG_VEL/shortDesc</name>
-  <message>
-  <source>Integral gain for angular velocity controller</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RDD_I_SPEED/shortDesc</name>
-  <message>
-  <source>Integral gain for ground speed controller</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RDD_MAX_ACCEL/shortDesc</name>
-  <message>
-  <source>Maximum acceleration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RDD_MAX_ACCEL/longDesc</name>
-  <message>
-  <source>Maximum acceleration is used to limit the acceleration of the rover</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RDD_MAX_JERK/shortDesc</name>
-  <message>
-  <source>Maximum jerk</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RDD_MAX_JERK/longDesc</name>
-  <message>
-  <source>Limit for forwards acc/deceleration change.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RDD_P_ANG_VEL/shortDesc</name>
-  <message>
-  <source>Proportional gain for angular velocity controller</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RDD_P_HEADING/shortDesc</name>
+  <name>/parameters/RD_HEADING_P/shortDesc</name>
   <message>
   <source>Proportional gain for heading controller</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_P_SPEED/shortDesc</name>
+  <name>/parameters/RD_MAN_YAW_SCALE/shortDesc</name>
+  <message>
+  <source>Manual yaw rate scale</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAN_YAW_SCALE/longDesc</name>
+  <message>
+  <source>In manual mode the setpoint for the yaw rate received from the rc remote is scaled by this value.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_ACCEL/shortDesc</name>
+  <message>
+  <source>Maximum acceleration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_ACCEL/longDesc</name>
+  <message>
+  <source>Maximum acceleration is used to limit the acceleration of the rover</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_JERK/shortDesc</name>
+  <message>
+  <source>Maximum jerk</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_JERK/longDesc</name>
+  <message>
+  <source>Limit for forwards acc/deceleration change.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_SPEED/shortDesc</name>
+  <message>
+  <source>Maximum speed the rover can drive</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_SPEED/longDesc</name>
+  <message>
+  <source>This parameter is used to map desired speeds to normalized motor commands.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_YAW_RATE/shortDesc</name>
+  <message>
+  <source>Maximum allowed yaw rate for the rover</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_YAW_RATE/longDesc</name>
+  <message>
+  <source>This parameter is used to cap desired yaw rates and map controller inputs to desired yaw rates in acro mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MISS_SPD_DEF/shortDesc</name>
+  <message>
+  <source>Default rover speed during a mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_SPEED_I/shortDesc</name>
+  <message>
+  <source>Integral gain for ground speed controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_SPEED_P/shortDesc</name>
   <message>
   <source>Proportional gain for speed controller</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_SPEED_SCALE/shortDesc</name>
+  <name>/parameters/RD_TRANS_DRV_TRN/shortDesc</name>
   <message>
-  <source>Manual speed scale</source>
+  <source>Heading error threshhold to switch from driving to spot turning</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_WHEEL_BASE/shortDesc</name>
+  <name>/parameters/RD_TRANS_TRN_DRV/shortDesc</name>
   <message>
-  <source>Wheel base</source>
+  <source>Heading error threshhold to switch from spot turning to driving</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_WHEEL_BASE/longDesc</name>
+  <name>/parameters/RD_WHEEL_TRACK/shortDesc</name>
+  <message>
+  <source>Wheel track</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_WHEEL_TRACK/longDesc</name>
   <message>
   <source>Distance from the center of the right wheel to the center of the left wheel</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_WHEEL_RADIUS/shortDesc</name>
+  <name>/parameters/RD_YAW_RATE_I/shortDesc</name>
   <message>
-  <source>Wheel radius</source>
+  <source>Integral gain for angular velocity controller</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_WHEEL_RADIUS/longDesc</name>
+  <name>/parameters/RD_YAW_RATE_P/shortDesc</name>
   <message>
-  <source>Size of the wheel, half the diameter of the wheel</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RDD_WHEEL_SPEED/shortDesc</name>
-  <message>
-  <source>Maximum wheel speed</source>
+  <source>Proportional gain for angular velocity controller</source>
   </message>
 </context>
 <context>
@@ -78219,12 +78285,6 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Standard</name>
-  <message>
-  <source>Standard</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/System</name>
   <message>
   <source>System</source>
@@ -78237,339 +78297,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Return To Land</name>
+  <name>$globals/category/Standard</name>
   <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/CDCACM</name>
-  <message>
-  <source>CDCACM</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Ackermann</name>
-  <message>
-  <source>Rover Ackermann</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Telemetry</name>
-  <message>
-  <source>Telemetry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ModalAI Custom Configuration</name>
-  <message>
-  <source>ModalAI Custom Configuration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Acro Mode</name>
-  <message>
-  <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/RC</name>
-  <message>
-  <source>RC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Iridium SBD</name>
-  <message>
-  <source>Iridium SBD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FlightTaskOrbit</name>
-  <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UXRCE-DDS Client</name>
-  <message>
-  <source>UXRCE-DDS Client</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Cyphal</name>
-  <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Control</name>
-  <message>
-  <source>Camera Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UWB</name>
-  <message>
-  <source>UWB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Serial</name>
-  <message>
-  <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
-  <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Transponder</name>
-  <message>
-  <source>Transponder</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
+  <source>Standard</source>
   </message>
 </context>
 <context>
@@ -78579,57 +78309,27 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Roboclaw</name>
+  <name>$globals/group/Pure Pursuit</name>
   <message>
-  <source>Roboclaw</source>
+  <source>Pure Pursuit</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Mission</name>
+  <name>$globals/group/FW Path Control</name>
   <message>
-  <source>Mission</source>
+  <source>FW Path Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Manual Control</name>
+  <name>$globals/group/Attitude Q estimator</name>
   <message>
-  <source>Manual Control</source>
+  <source>Attitude Q estimator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Landing Target Estimator</name>
+  <name>$globals/group/Simulator</name>
   <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ESC</name>
-  <message>
-  <source>ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Actuator Outputs</name>
-  <message>
-  <source>Actuator Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
+  <source>Simulator</source>
   </message>
 </context>
 <context>
@@ -78639,33 +78339,39 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Differential Drive</name>
+  <name>$globals/group/Land Detector</name>
   <message>
-  <source>Rover Differential Drive</source>
+  <source>Land Detector</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Mixer Output</name>
+  <name>$globals/group/VTOL Takeoff</name>
   <message>
-  <source>Mixer Output</source>
+  <source>VTOL Takeoff</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Attitude Control</name>
+  <name>$globals/group/Camera Capture</name>
   <message>
-  <source>Multicopter Attitude Control</source>
+  <source>Camera Capture</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Position Control</name>
+  <name>$globals/group/Events</name>
   <message>
-  <source>Multicopter Position Control</source>
+  <source>Events</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/GPS</name>
+  <name>$globals/group/SD Logging</name>
   <message>
-  <source>GPS</source>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
   </message>
 </context>
 <context>
@@ -78681,21 +78387,33 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/VOXL2 IO</name>
-  <message>
-  <source>VOXL2 IO</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Roboclaw Driver</name>
-  <message>
-  <source>Roboclaw Driver</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Testing</name>
   <message>
   <source>Testing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
   </message>
 </context>
 <context>
@@ -78705,27 +78423,33 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Pure Pursuit</name>
+  <name>$globals/group/Thermal Compensation</name>
   <message>
-  <source>Pure Pursuit</source>
+  <source>Thermal Compensation</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <name>$globals/group/Mount</name>
   <message>
-  <source>UAVCAN Motor Parameters</source>
+  <source>Mount</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Land Detector</name>
+  <name>$globals/group/FW Geometry</name>
   <message>
-  <source>Land Detector</source>
+  <source>FW Geometry</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/RC Input</name>
+  <name>$globals/group/Iridium SBD</name>
   <message>
-  <source>RC Input</source>
+  <source>Iridium SBD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Ackermann</name>
+  <message>
+  <source>Rover Ackermann</source>
   </message>
 </context>
 <context>
@@ -78735,33 +78459,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Septentrio</name>
+  <name>$globals/group/Local Position Estimator</name>
   <message>
-  <source>Septentrio</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control</name>
-  <message>
-  <source>Rover Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
+  <source>Local Position Estimator</source>
   </message>
 </context>
 <context>
@@ -78771,9 +78471,165 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Transponder</name>
+  <message>
+  <source>Transponder</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Flight Task Orbit</name>
+  <message>
+  <source>Flight Task Orbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Cyphal</name>
+  <message>
+  <source>Cyphal</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Camera trigger</name>
   <message>
   <source>Camera trigger</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN</name>
+  <message>
+  <source>UAVCAN</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <message>
+  <source>Multicopter Position Slow Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
   </message>
 </context>
 <context>
@@ -78783,9 +78639,219 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Geofence</name>
+  <name>$globals/group/Serial</name>
   <message>
-  <source>Geofence</source>
+  <source>Serial</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ESC</name>
+  <message>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control</name>
+  <message>
+  <source>Rover Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VOXL2 IO</name>
+  <message>
+  <source>VOXL2 IO</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Telemetry</name>
+  <message>
+  <source>Telemetry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/CDCACM</name>
+  <message>
+  <source>CDCACM</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Actuator Outputs</name>
+  <message>
+  <source>Actuator Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UWB</name>
+  <message>
+  <source>UWB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UXRCE-DDS Client</name>
+  <message>
+  <source>UXRCE-DDS Client</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Attitude Control</name>
+  <message>
+  <source>FW Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Roboclaw Driver</name>
+  <message>
+  <source>Roboclaw Driver</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Differential</name>
+  <message>
+  <source>Rover Differential</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/RC Input</name>
+  <message>
+  <source>RC Input</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ModalAI Custom Configuration</name>
+  <message>
+  <source>ModalAI Custom Configuration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Control</name>
+  <message>
+  <source>Camera Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Performance</name>
+  <message>
+  <source>FW Performance</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Septentrio</name>
+  <message>
+  <source>Septentrio</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/RC</name>
+  <message>
+  <source>RC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Roboclaw</name>
+  <message>
+  <source>Roboclaw</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
   </message>
 </context>
 </TS>
