@@ -2074,6 +2074,20 @@
               "message": "Vehicle is in safety configuration",
               "name": "check_armable_configuration"
             },
+            "810921": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "message": "Waypoint above maximum height",
+              "name": "check_navigator_failure_hagl"
+            },
             "8441780": {
               "arguments": [
                 {
@@ -2997,6 +3011,10 @@
               "description": "Either manually free up some space, or enable automatic log rotation via <param>SDLOG_DIRS_MAX</param>.",
               "message": "Not logging, storage is almost full: {1} MiB",
               "name": "logger_storage_full"
+            },
+            "16090940": {
+              "message": "RTL: return alt higher than max HAGL",
+              "name": "rtl_fail_max_hagl"
             },
             "16105804": {
               "message": "OpenDroneID system lost",

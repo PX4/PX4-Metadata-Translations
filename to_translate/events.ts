@@ -1853,6 +1853,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/810921/message</name>
+  <message>
+  <source>Waypoint above maximum height</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/8441780/message</name>
   <message>
   <source>Open Drone ID system not ready</source>
@@ -2645,6 +2651,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/16048801/description</name>
   <message>
   <source>Either manually free up some space, or enable automatic log rotation via &lt;param&gt;SDLOG_DIRS_MAX&lt;/param&gt;.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/16090940/message</name>
+  <message>
+  <source>RTL: return alt higher than max HAGL</source>
   </message>
 </context>
 <context>
