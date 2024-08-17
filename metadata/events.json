@@ -2657,6 +2657,10 @@
               "message": "Landing aborted: terrain measurement not found",
               "name": "fixedwing_position_control_landing_abort_status_terrain_not_found"
             },
+            "12306507": {
+              "message": "Target altitude higher than max HAGL",
+              "name": "navigator_fail_max_hagl"
+            },
             "12320347": {
               "message": "Primary airspeed index bigger than number connected sensors, taking last sensor",
               "name": "airspeed_selector_prim_too_high"
@@ -2680,6 +2684,22 @@
             "12768213": {
               "message": "Mission rejected: more than one land start commands",
               "name": "navigator_mis_multiple_land"
+            },
+            "12770418": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint32_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "px4::failsafe_action_t"
+                }
+              ],
+              "description": "Failsafe actions that disengage the autopilot (remove position control)",
+              "message": "Failsafe activated: Autopilot disengaged, switching to {2}",
+              "name": "commander_failsafe_enter_autopilot_disengaged",
+              "type": "append_health_and_arming_messages"
             },
             "12815955": {
               "message": "SET_POSITION_TARGET_LOCAL_NED: FORCE is not supported",
@@ -2863,7 +2883,7 @@
                   "type": "px4::failsafe_action_t"
                 }
               ],
-              "message": "Failsafe activated: Autopilot disengaged, switching to {2}",
+              "message": "Failsafe activated: switching to {2}",
               "name": "commander_failsafe_enter_generic",
               "type": "append_health_and_arming_messages"
             },
@@ -3011,10 +3031,6 @@
               "description": "Either manually free up some space, or enable automatic log rotation via <param>SDLOG_DIRS_MAX</param>.",
               "message": "Not logging, storage is almost full: {1} MiB",
               "name": "logger_storage_full"
-            },
-            "16090940": {
-              "message": "RTL: return alt higher than max HAGL",
-              "name": "rtl_fail_max_hagl"
             },
             "16105804": {
               "message": "OpenDroneID system lost",

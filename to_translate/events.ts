@@ -2281,6 +2281,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/12306507/message</name>
+  <message>
+  <source>Target altitude higher than max HAGL</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/12320347/message</name>
   <message>
   <source>Primary airspeed index bigger than number connected sensors, taking last sensor</source>
@@ -2314,6 +2320,18 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/12768213/message</name>
   <message>
   <source>Mission rejected: more than one land start commands</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/12770418/message</name>
+  <message>
+  <source>Failsafe activated: Autopilot disengaged, switching to {2}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/12770418/description</name>
+  <message>
+  <source>Failsafe actions that disengage the autopilot (remove position control)</source>
   </message>
 </context>
 <context>
@@ -2487,7 +2505,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/14605264/message</name>
   <message>
-  <source>Failsafe activated: Autopilot disengaged, switching to {2}</source>
+  <source>Failsafe activated: switching to {2}</source>
   </message>
 </context>
 <context>
@@ -2651,12 +2669,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/16048801/description</name>
   <message>
   <source>Either manually free up some space, or enable automatic log rotation via &lt;param&gt;SDLOG_DIRS_MAX&lt;/param&gt;.</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/16090940/message</name>
-  <message>
-  <source>RTL: return alt higher than max HAGL</source>
   </message>
 </context>
 <context>
