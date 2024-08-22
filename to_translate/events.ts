@@ -2209,12 +2209,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/11675604/message</name>
-  <message>
-  <source>First waypoint too far away: {1m} (maximum: {2m})</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/11724756/message</name>
   <message>
   <source>Waypoint {1} could not be read from storage</source>
@@ -3142,6 +3136,19 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/5158211/message</name>
   <message>
   <source>No airspeed sensor detected, switching to non-airspeed mode</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/5314313/message</name>
+  <message>
+  <source>First waypoint far away from Home: {1m} Correct mission loaded?</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/5314313/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;MIS_DIST_1WP&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>

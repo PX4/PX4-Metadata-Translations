@@ -2546,20 +2546,6 @@
               "message": "Mission: Unable to read from storage",
               "name": "mavlink_mission_storage_read_failure"
             },
-            "11675604": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "uint32_t"
-                }
-              ],
-              "message": "First waypoint too far away: {1m} (maximum: {2m})",
-              "name": "navigator_mis_first_wp_too_far"
-            },
             "11724756": {
               "arguments": [
                 {
@@ -3474,6 +3460,17 @@
             "5158211": {
               "message": "No airspeed sensor detected, switching to non-airspeed mode",
               "name": "airspeed_selector_switch"
+            },
+            "5314313": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint32_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>MIS_DIST_1WP</param> parameter.\n</profile>",
+              "message": "First waypoint far away from Home: {1m} Correct mission loaded?",
+              "name": "navigator_mis_first_wp_far"
             },
             "5334836": {
               "message": "Hardware fault: GPS PPS disabled",
