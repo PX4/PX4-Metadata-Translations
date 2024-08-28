@@ -280,7 +280,7 @@
 <context>
   <name>/components/1/enums/battery_fault_reason_t/entries/10/description</name>
   <message>
-  <source>Battery failed to arm</source>
+  <source>Battery is over-heating</source>
   </message>
 </context>
 <context>
@@ -329,6 +329,24 @@
   <name>/components/1/enums/battery_fault_reason_t/entries/9/description</name>
   <message>
   <source>Battery reported an hardware problem</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/battery_mode_t/entries/0/description</name>
+  <message>
+  <source>unknown</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/battery_mode_t/entries/1/description</name>
+  <message>
+  <source>auto discharging towards storage level</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/battery_mode_t/entries/2/description</name>
+  <message>
+  <source>hot-swap</source>
   </message>
 </context>
 <context>
@@ -1159,6 +1177,21 @@
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/11973889/message</name>
+  <message>
+  <source>Velocity estimate error</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/11973889/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+
+This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/12276004/message</name>
   <message>
   <source>Global position required</source>
@@ -1787,6 +1820,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/6952872/message</name>
+  <message>
+  <source>Position estimate error</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/6952872/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+
+This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/6979701/message</name>
   <message>
   <source>RC calibration for channel {3} invalid: MIN less than {4}</source>
@@ -1853,12 +1901,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/810921/message</name>
-  <message>
-  <source>Waypoint above maximum height</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/8441780/message</name>
   <message>
   <source>Open Drone ID system not ready</source>
@@ -1907,22 +1949,24 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/8713942/message</name>
-  <message>
-  <source>GPS signal spoofed</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/8713942/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/8902208/message</name>
   <message>
   <source>Horizontal velocity unstable</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/9028597/message</name>
+  <message>
+  <source>Height estimate error</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/9028597/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+
+This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -1955,6 +1999,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/9581033/message</name>
+  <message>
+  <source>Yaw estimate error</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/9581033/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+
+This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/9608226/message</name>
   <message>
   <source>Estimator not using GPS</source>
@@ -1976,12 +2035,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/arming_check/events/9643369/description</name>
   <message>
   <source>Make sure the gyroscope is providing valid data.</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/9697819/message</name>
-  <message>
-  <source>Horizontal position unstable</source>
   </message>
 </context>
 <context>
@@ -2209,6 +2262,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/11675604/message</name>
+  <message>
+  <source>First waypoint too far away: {1m} (maximum: {2m})</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/11724756/message</name>
   <message>
   <source>Waypoint {1} could not be read from storage</source>
@@ -2275,12 +2334,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/12306507/message</name>
-  <message>
-  <source>Target altitude higher than max HAGL</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/12320347/message</name>
   <message>
   <source>Primary airspeed index bigger than number connected sensors, taking last sensor</source>
@@ -2314,18 +2367,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/12768213/message</name>
   <message>
   <source>Mission rejected: more than one land start commands</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/12770418/message</name>
-  <message>
-  <source>Failsafe activated: Autopilot disengaged, switching to {2}</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/12770418/description</name>
-  <message>
-  <source>Failsafe actions that disengage the autopilot (remove position control)</source>
   </message>
 </context>
 <context>
@@ -2499,7 +2540,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/14605264/message</name>
   <message>
-  <source>Failsafe activated: switching to {2}</source>
+  <source>Failsafe activated: Autopilot disengaged, switching to {2}</source>
   </message>
 </context>
 <context>
@@ -2645,12 +2686,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/16017271/message</name>
   <message>
   <source>Disarmed by {1}</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/1604295/message</name>
-  <message>
-  <source>Terrain collision risk, descent is stopped</source>
   </message>
 </context>
 <context>
@@ -3139,19 +3174,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/5314313/message</name>
-  <message>
-  <source>First waypoint far away from Home: {1m} Correct mission loaded?</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/5314313/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;MIS_DIST_1WP&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/5334836/message</name>
   <message>
   <source>Hardware fault: GPS PPS disabled</source>
@@ -3550,12 +3572,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/9180535/message</name>
-  <message>
-  <source>GNSS signal spoofed</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/929525/message</name>
   <message>
   <source>Estimated position error is approaching the failsafe threshold</source>
@@ -3637,12 +3653,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/9621455/message</name>
-  <message>
-  <source>5V overcurrent detected, landing advised</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/9751178/message</name>
   <message>
   <source>{3}: switching to {2}</source>
@@ -3658,18 +3668,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9844908/message</name>
   <message>
   <source>Landing detected</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/10318274/message</name>
-  <message>
-  <source>Battery {3} missing</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/10318274/description</name>
-  <message>
-  <source>Make sure all required batteries are connected.</source>
   </message>
 </context>
 <context>
@@ -3702,7 +3700,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/13344346/description</name>
   <message>
-  <source>Make sure all batteries are operational.</source>
+  <source>Make sure all batteries are connected and operational.</source>
   </message>
 </context>
 <context>
@@ -3730,21 +3728,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/health/events/14221469/description</name>
   <message>
   <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;SYS_HAS_NUM_DIST&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/14421482/message</name>
-  <message>
-  <source>RAM usage too high: {3:.1}%</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/14421482/description</name>
-  <message>
-  <source>The RAM usage can be reduced for example by disabling unused modules (e.g. mavlink instances).
-
-&lt;profile name="dev"&gt; The threshold can be adjusted via &lt;param&gt;COM_RAM_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -3791,7 +3774,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/15602498/description</name>
   <message>
-  <source>The battery reported a failure which might be dangerous to fly with.</source>
+  <source>The battery reported a failure which might be dangerous to fly with. Manufacturer error code: {6}</source>
   </message>
 </context>
 <context>
@@ -3908,15 +3891,9 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/health/events/5699115/message</name>
+  <name>/components/1/event_groups/health/events/5623109/message</name>
   <message>
-  <source>Overcurrent detected for the peripheral 5V supply</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/5699115/description</name>
-  <message>
-  <source>Check the power supply</source>
+  <source>Battery {3} mode: {4}</source>
   </message>
 </context>
 <context>
@@ -3951,18 +3928,6 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/6962647/message</name>
-  <message>
-  <source>Overcurrent detected for the hipower 5V supply</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/6962647/description</name>
-  <message>
-  <source>Check the power supply</source>
   </message>
 </context>
 <context>
@@ -4041,13 +4006,13 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/9266821/message</name>
   <message>
-  <source>No CPU and RAM load information</source>
+  <source>No CPU load information</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/health/events/9266821/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; If the system does not provide any CPU and RAM load information, use the parameters &lt;param&gt;COM_CPU_MAX&lt;/param&gt; and &lt;param&gt;COM_RAM_MAX&lt;/param&gt; to disable the checks.
+  <source>&lt;profile name="dev"&gt; If the system does not provide any CPU load information, use the parameter &lt;param&gt;COM_CPU_MAX&lt;/param&gt; to disable the check.
 &lt;/profile&gt;</source>
   </message>
 </context>
