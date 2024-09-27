@@ -20061,6 +20061,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/SIM_GZ_WH_DIS3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 3 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_DIS3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_DIS4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 4 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_DIS4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SIM_GZ_WH_FAIL1/shortDesc</name>
   <message>
   <source>SIM_GZ Wheels 1 Failsafe Value</source>
@@ -20082,6 +20106,30 @@
   <name>/parameters/SIM_GZ_WH_FAIL2/longDesc</name>
   <message>
   <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_WH_FUNC2).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FAIL3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 3 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FAIL3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_WH_FUNC3).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FAIL4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 4 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FAIL4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see SIM_GZ_WH_FUNC4).</source>
   </message>
 </context>
 <context>
@@ -20673,6 +20721,594 @@
   </message>
 </context>
 <context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 3 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Wheels 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC3/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 4 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/longDesc</name>
+  <message>
+  <source>Select what should be output on SIM_GZ Wheels 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_FUNC4/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SIM_GZ_WH_MAX1/shortDesc</name>
   <message>
   <source>SIM_GZ Wheels 1 Maximum Value</source>
@@ -20692,6 +21328,30 @@
 </context>
 <context>
   <name>/parameters/SIM_GZ_WH_MAX2/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_MAX3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 3 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_MAX3/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_MAX4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 4 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_MAX4/longDesc</name>
   <message>
   <source>Maxmimum output value (when not disarmed).</source>
   </message>
@@ -20721,6 +21381,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/SIM_GZ_WH_MIN3/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 3 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_MIN3/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_MIN4/shortDesc</name>
+  <message>
+  <source>SIM_GZ Wheels 4 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_MIN4/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SIM_GZ_WH_REV/shortDesc</name>
   <message>
   <source>Reverse Output Range for SIM_GZ</source>
@@ -20742,6 +21426,18 @@
   <name>/parameters/SIM_GZ_WH_REV/bitmask/1/description</name>
   <message>
   <source>SIM_GZ Wheels 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_REV/bitmask/2/description</name>
+  <message>
+  <source>SIM_GZ Wheels 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_GZ_WH_REV/bitmask/3/description</name>
+  <message>
+  <source>SIM_GZ Wheels 4</source>
   </message>
 </context>
 <context>
@@ -36465,6 +37161,5586 @@
   </message>
 </context>
 <context>
+  <name>/parameters/VTQ_IO_DIS0/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 0 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS0/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS1/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 1 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS10/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 10 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS10/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS11/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 11 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS11/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS12/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 12 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS12/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS13/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 13 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS13/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS14/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 14 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS14/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS15/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 15 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS15/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS2/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 2 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS3/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 3 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS4/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 4 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS5/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 5 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS6/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 6 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS7/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 7 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS8/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 8 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS9/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 9 Disarmed Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_DIS9/longDesc</name>
+  <message>
+  <source>This is the output value that is set when not armed. Note that non-motor outputs might already be active in prearm state if COM_PREARM_MODE is set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL0/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 0 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL0/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC0).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL1/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 1 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL1/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC1).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL10/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 10 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL10/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC10).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL11/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 11 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL11/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC11).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL12/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 12 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL12/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC12).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL13/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 13 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL13/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC13).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL14/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 14 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL14/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC14).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL15/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 15 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL15/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC15).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL2/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 2 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL2/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC2).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL3/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 3 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL3/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC3).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL4/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 4 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL4/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC4).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL5/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 5 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL5/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC5).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL6/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 6 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL6/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC6).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL7/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 7 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL7/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC7).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL8/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 8 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL8/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC8).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL9/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 9 Failsafe Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FAIL9/longDesc</name>
+  <message>
+  <source>This is the output value that is set when in failsafe mode. When set to -1 (default), the value depends on the function (see VTQ_IO_FUNC9).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 0 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 0. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC0/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 1 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC1/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 10 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 10. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC10/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 11 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 11. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC11/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 12 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 12. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC12/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 13 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 13. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC13/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 14 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 14. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC14/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 15 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 15. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC15/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 2 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC2/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 3 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC3/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 4 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC4/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 5 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC5/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 6 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC6/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 7 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC7/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 8 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC8/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 9 Output Function</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/longDesc</name>
+  <message>
+  <source>Select what should be output on Vertiq IO CVI 9. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/1/description</name>
+  <message>
+  <source>Constant Min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/2/description</name>
+  <message>
+  <source>Constant Max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/101/description</name>
+  <message>
+  <source>Motor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/102/description</name>
+  <message>
+  <source>Motor 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/103/description</name>
+  <message>
+  <source>Motor 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/104/description</name>
+  <message>
+  <source>Motor 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/105/description</name>
+  <message>
+  <source>Motor 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/106/description</name>
+  <message>
+  <source>Motor 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/107/description</name>
+  <message>
+  <source>Motor 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/108/description</name>
+  <message>
+  <source>Motor 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/109/description</name>
+  <message>
+  <source>Motor 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/110/description</name>
+  <message>
+  <source>Motor 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/111/description</name>
+  <message>
+  <source>Motor 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/112/description</name>
+  <message>
+  <source>Motor 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/201/description</name>
+  <message>
+  <source>Servo 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/202/description</name>
+  <message>
+  <source>Servo 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/203/description</name>
+  <message>
+  <source>Servo 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/204/description</name>
+  <message>
+  <source>Servo 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/205/description</name>
+  <message>
+  <source>Servo 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/206/description</name>
+  <message>
+  <source>Servo 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/207/description</name>
+  <message>
+  <source>Servo 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/208/description</name>
+  <message>
+  <source>Servo 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/301/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/302/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/303/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/304/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/305/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/306/description</name>
+  <message>
+  <source>Peripheral via Actuator Set 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/400/description</name>
+  <message>
+  <source>Landing Gear</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/401/description</name>
+  <message>
+  <source>Parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/402/description</name>
+  <message>
+  <source>RC Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/403/description</name>
+  <message>
+  <source>RC Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/404/description</name>
+  <message>
+  <source>RC Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/405/description</name>
+  <message>
+  <source>RC Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/406/description</name>
+  <message>
+  <source>RC Flaps</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/407/description</name>
+  <message>
+  <source>RC AUX 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/408/description</name>
+  <message>
+  <source>RC AUX 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/409/description</name>
+  <message>
+  <source>RC AUX 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/410/description</name>
+  <message>
+  <source>RC AUX 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/411/description</name>
+  <message>
+  <source>RC AUX 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/412/description</name>
+  <message>
+  <source>RC AUX 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/420/description</name>
+  <message>
+  <source>Gimbal Roll</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/421/description</name>
+  <message>
+  <source>Gimbal Pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/422/description</name>
+  <message>
+  <source>Gimbal Yaw</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/430/description</name>
+  <message>
+  <source>Gripper</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_FUNC9/values/440/description</name>
+  <message>
+  <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX0/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 0 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX0/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX1/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 1 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX1/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX10/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 10 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX10/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX11/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 11 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX11/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX12/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 12 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX12/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX13/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 13 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX13/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX14/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 14 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX14/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX15/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 15 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX15/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX2/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 2 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX2/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX3/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 3 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX3/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX4/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 4 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX4/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX5/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 5 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX5/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX6/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 6 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX6/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX7/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 7 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX7/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX8/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 8 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX8/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX9/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 9 Maximum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MAX9/longDesc</name>
+  <message>
+  <source>Maxmimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN0/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 0 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN0/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN1/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 1 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN1/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN10/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 10 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN10/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN11/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 11 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN11/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN12/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 12 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN12/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN13/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 13 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN13/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN14/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 14 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN14/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN15/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 15 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN15/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN2/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 2 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN2/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN3/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 3 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN3/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN4/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 4 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN4/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN5/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 5 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN5/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN6/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 6 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN6/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN7/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 7 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN7/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN8/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 8 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN8/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN9/shortDesc</name>
+  <message>
+  <source>Vertiq IO CVI 9 Minimum Value</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_MIN9/longDesc</name>
+  <message>
+  <source>Minimum output value (when not disarmed).</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/shortDesc</name>
+  <message>
+  <source>Reverse Output Range for Vertiq IO</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/longDesc</name>
+  <message>
+  <source>Allows to reverse the output range for each channel. Note: this is only useful for servos.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/-1/description</name>
+  <message>
+  <source>Vertiq IO CVI 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/0/description</name>
+  <message>
+  <source>Vertiq IO CVI 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/1/description</name>
+  <message>
+  <source>Vertiq IO CVI 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/2/description</name>
+  <message>
+  <source>Vertiq IO CVI 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/3/description</name>
+  <message>
+  <source>Vertiq IO CVI 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/4/description</name>
+  <message>
+  <source>Vertiq IO CVI 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/5/description</name>
+  <message>
+  <source>Vertiq IO CVI 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/6/description</name>
+  <message>
+  <source>Vertiq IO CVI 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/7/description</name>
+  <message>
+  <source>Vertiq IO CVI 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/8/description</name>
+  <message>
+  <source>Vertiq IO CVI 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/9/description</name>
+  <message>
+  <source>Vertiq IO CVI 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/10/description</name>
+  <message>
+  <source>Vertiq IO CVI 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/11/description</name>
+  <message>
+  <source>Vertiq IO CVI 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/12/description</name>
+  <message>
+  <source>Vertiq IO CVI 13</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/13/description</name>
+  <message>
+  <source>Vertiq IO CVI 14</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_IO_REV/bitmask/14/description</name>
+  <message>
+  <source>Vertiq IO CVI 15</source>
+  </message>
+</context>
+<context>
   <name>/parameters/ASPD_BETA_GATE/shortDesc</name>
   <message>
   <source>Gate size for sideslip angle fusion</source>
@@ -36525,6 +42801,12 @@
   </message>
 </context>
 <context>
+  <name>/parameters/ASPD_DO_CHECKS/bitmask/4/description</name>
+  <message>
+  <source>First principle check (airspeed change vs. throttle and pitch)</source>
+  </message>
+</context>
+<context>
   <name>/parameters/ASPD_FALLBACK_GW/shortDesc</name>
   <message>
   <source>Enable fallback to sensor-less airspeed estimation</source>
@@ -36546,6 +42828,18 @@
   <name>/parameters/ASPD_FALLBACK_GW/values/1/description</name>
   <message>
   <source>Enable fallback to sensor-less estimation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ASPD_FP_T_WINDOW/shortDesc</name>
+  <message>
+  <source>First principle airspeed check time window</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ASPD_FP_T_WINDOW/longDesc</name>
+  <message>
+  <source>Window for comparing airspeed change to throttle and pitch change. Triggers when the airspeed change within this window is negative while throttle increases and the vehicle pitches down. Is meant to catch degrading airspeed blockages as can happen when flying through icing conditions. Relies on  FW_THR_TRIM being set accurately.</source>
   </message>
 </context>
 <context>
@@ -37343,7 +43637,7 @@
 <context>
   <name>/parameters/BAT1_R_INTERNAL/longDesc</name>
   <message>
-  <source>If non-negative, then this will be used in place of BAT1_V_LOAD_DROP for all calculations.</source>
+  <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
   </message>
 </context>
 <context>
@@ -37428,18 +43722,6 @@
   <name>/parameters/BAT1_V_EMPTY/longDesc</name>
   <message>
   <source>Defines the voltage where a single cell of the battery is considered empty. The voltage should be chosen above the steep dropoff at 3.5V. A typical lithium battery can only be discharged under high load down to 10% before it drops off to a voltage level damaging the cells.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT1_V_LOAD_DROP/shortDesc</name>
-  <message>
-  <source>Voltage drop per cell on full throttle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT1_V_LOAD_DROP/longDesc</name>
-  <message>
-  <source>This implicitly defines the internal resistance to maximum current ratio for the battery and assumes linearity. A good value to use is the difference between the 5C and 20-25C load. Not used if BAT1_R_INTERNAL is set.</source>
   </message>
 </context>
 <context>
@@ -37601,7 +43883,7 @@
 <context>
   <name>/parameters/BAT2_R_INTERNAL/longDesc</name>
   <message>
-  <source>If non-negative, then this will be used in place of BAT2_V_LOAD_DROP for all calculations.</source>
+  <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
   </message>
 </context>
 <context>
@@ -37686,18 +43968,6 @@
   <name>/parameters/BAT2_V_EMPTY/longDesc</name>
   <message>
   <source>Defines the voltage where a single cell of the battery is considered empty. The voltage should be chosen above the steep dropoff at 3.5V. A typical lithium battery can only be discharged under high load down to 10% before it drops off to a voltage level damaging the cells.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT2_V_LOAD_DROP/shortDesc</name>
-  <message>
-  <source>Voltage drop per cell on full throttle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT2_V_LOAD_DROP/longDesc</name>
-  <message>
-  <source>This implicitly defines the internal resistance to maximum current ratio for the battery and assumes linearity. A good value to use is the difference between the 5C and 20-25C load. Not used if BAT2_R_INTERNAL is set.</source>
   </message>
 </context>
 <context>
@@ -37835,7 +44105,7 @@
 <context>
   <name>/parameters/BAT3_R_INTERNAL/longDesc</name>
   <message>
-  <source>If non-negative, then this will be used in place of BAT3_V_LOAD_DROP for all calculations.</source>
+  <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
   </message>
 </context>
 <context>
@@ -37899,18 +44169,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/BAT3_V_LOAD_DROP/shortDesc</name>
-  <message>
-  <source>Voltage drop per cell on full throttle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT3_V_LOAD_DROP/longDesc</name>
-  <message>
-  <source>This implicitly defines the internal resistance to maximum current ratio for the battery and assumes linearity. A good value to use is the difference between the 5C and 20-25C load. Not used if BAT3_R_INTERNAL is set.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/BAT_ADC_CHANNEL/shortDesc</name>
   <message>
   <source>This parameter is deprecated. Please use BAT1_I_CHANNEL</source>
@@ -37962,30 +44220,6 @@
   <name>/parameters/BAT_LOW_THR/longDesc</name>
   <message>
   <source>Sets the threshold when the battery will be reported as low. This has to be higher than the critical threshold.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_N_CELLS/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_N_CELLS instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_CHARGED/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_V_CHARGED instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_EMPTY/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_V_EMPTY instead</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/BAT_V_LOAD_DROP/shortDesc</name>
-  <message>
-  <source>This parameter is deprecated. Please use BAT1_V_LOAD_DROP instead</source>
   </message>
 </context>
 <context>
@@ -38595,30 +44829,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/COM_ARM_EKF_HGT/shortDesc</name>
-  <message>
-  <source>Maximum EKF height innovation test ratio that will allow arming</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_ARM_EKF_POS/shortDesc</name>
-  <message>
-  <source>Maximum EKF position innovation test ratio that will allow arming</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_ARM_EKF_VEL/shortDesc</name>
-  <message>
-  <source>Maximum EKF velocity innovation test ratio that will allow arming</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_ARM_EKF_YAW/shortDesc</name>
-  <message>
-  <source>Maximum EKF yaw innovation test ratio that will allow arming</source>
-  </message>
-</context>
-<context>
   <name>/parameters/COM_ARM_HFLT_CHK/shortDesc</name>
   <message>
   <source>Enable FMU SD card hardfault detection check</source>
@@ -38807,19 +45017,31 @@
 <context>
   <name>/parameters/COM_ARM_WO_GPS/shortDesc</name>
   <message>
-  <source>Allow arming without GPS</source>
+  <source>GPS preflight check</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_ARM_WO_GPS/longDesc</name>
+  <message>
+  <source>Measures taken when a check defined by EKF2_GPS_CHECK is failing.</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_ARM_WO_GPS/values/0/description</name>
   <message>
-  <source>Require GPS lock to arm</source>
+  <source>Deny arming</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_ARM_WO_GPS/values/1/description</name>
   <message>
-  <source>Allow arming without GPS</source>
+  <source>Warning only</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_ARM_WO_GPS/values/2/description</name>
+  <message>
+  <source>Disabled</source>
   </message>
 </context>
 <context>
@@ -40229,7 +46451,7 @@
 <context>
   <name>/parameters/COM_OBL_RC_ACT/values/2/description</name>
   <message>
-  <source>Manual</source>
+  <source>Stabilized</source>
   </message>
 </context>
 <context>
@@ -40313,25 +46535,25 @@
 <context>
   <name>/parameters/COM_POSCTL_NAVL/shortDesc</name>
   <message>
-  <source>Position control navigation loss response</source>
+  <source>Position mode navigation loss response</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_POSCTL_NAVL/longDesc</name>
   <message>
-  <source>This sets the flight mode that will be used if navigation accuracy is no longer adequate for position control. If Altitude/Manual is selected: assume use of remote control after fallback. Switch to Altitude mode if a height estimate is available, else switch to MANUAL. If Land/Descend is selected: assume no use of remote control after fallback. Switch to Land mode if a height estimate is available, else switch to Descend.</source>
+  <source>This sets the flight mode that will be used if navigation accuracy is no longer adequate for position control in manual Position mode.</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_POSCTL_NAVL/values/0/description</name>
   <message>
-  <source>Altitude/Manual</source>
+  <source>Altitude mode</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_POSCTL_NAVL/values/1/description</name>
   <message>
-  <source>Land/Descend</source>
+  <source>Land mode (descend)</source>
   </message>
 </context>
 <context>
@@ -40440,6 +46662,18 @@
   <name>/parameters/COM_QC_ACT/values/2/description</name>
   <message>
   <source>Hold mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_RAM_MAX/shortDesc</name>
+  <message>
+  <source>Maximum allowed RAM usage to pass checks</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_RAM_MAX/longDesc</name>
+  <message>
+  <source>The check fails if the RAM usage is above this threshold. A negative value disables the check.</source>
   </message>
 </context>
 <context>
@@ -40899,6 +47133,54 @@
   </message>
 </context>
 <context>
+  <name>/parameters/UCAN1_FB0_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 0 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB1_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 1 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB2_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 2 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB3_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 3 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB4_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 4 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB5_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 5 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB6_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 6 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_FB7_SUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC 7 zubax feedback port ID</source>
+  </message>
+</context>
+<context>
   <name>/parameters/UCAN1_GPS0_SUB/shortDesc</name>
   <message>
   <source>GPS 0 subscription port ID</source>
@@ -40920,6 +47202,12 @@
   <name>/parameters/UCAN1_LG_BMS_SUB/shortDesc</name>
   <message>
   <source>Cyphal legacy battery port ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UCAN1_READ_PUB/shortDesc</name>
+  <message>
+  <source>Cyphal ESC readiness port ID</source>
   </message>
 </context>
 <context>
@@ -40984,6 +47272,30 @@
 </context>
 <context>
   <name>/parameters/DSHOT_3D_ENABLE/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/DSHOT_BIDIR_EN/shortDesc</name>
+  <message>
+  <source>Enable bidirectional DShot</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/DSHOT_BIDIR_EN/longDesc</name>
+  <message>
+  <source>This parameter enables bidirectional DShot which provides RPM feedback. Note that this requires ESCs that support bidirectional DSHot, e.g. BlHeli32. This is not the same as DShot telemetry which requires an additional serial connection.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/DSHOT_BIDIR_EN/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/DSHOT_BIDIR_EN/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -41141,7 +47453,7 @@
 <context>
   <name>/parameters/EKF2_ABL_TAU/shortDesc</name>
   <message>
-  <source>Time constant used by acceleration and angular rate magnitude checks used to inhibit accel bias learning</source>
+  <source>Accel bias learning inhibit time constant</source>
   </message>
 </context>
 <context>
@@ -41207,7 +47519,13 @@
 <context>
   <name>/parameters/EKF2_AGP_NOISE/shortDesc</name>
   <message>
-  <source>Measurement noise for aux global position observations used to lower bound or replace the uncertainty included in the message</source>
+  <source>Measurement noise for aux global position measurements</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_AGP_NOISE/longDesc</name>
+  <message>
+  <source>Used to lower bound or replace the uncertainty included in the message</source>
   </message>
 </context>
 <context>
@@ -41231,7 +47549,7 @@
 <context>
   <name>/parameters/EKF2_ASPD_MAX/shortDesc</name>
   <message>
-  <source>Upper limit on airspeed along individual axes used to correct baro for position error effects</source>
+  <source>Maximum airspeed used for baro static pressure compensation</source>
   </message>
 </context>
 <context>
@@ -41243,7 +47561,7 @@
 <context>
   <name>/parameters/EKF2_AVEL_DELAY/shortDesc</name>
   <message>
-  <source>Auxiliary Velocity Estimate (e.g from a landing target) delay relative to IMU measurements</source>
+  <source>Auxiliary Velocity Estimate delay relative to IMU measurements</source>
   </message>
 </context>
 <context>
@@ -41399,13 +47717,13 @@
 <context>
   <name>/parameters/EKF2_DRAG_NOISE/shortDesc</name>
   <message>
-  <source>Specific drag force observation noise variance used by the multi-rotor specific drag force model</source>
+  <source>Specific drag force observation noise variance</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_DRAG_NOISE/longDesc</name>
   <message>
-  <source>Increasing this makes the multi-rotor wind estimates adjust more slowly.</source>
+  <source>Used by the multi-rotor specific drag force model. Increasing this makes the multi-rotor wind estimates adjust more slowly.</source>
   </message>
 </context>
 <context>
@@ -41435,7 +47753,13 @@
 <context>
   <name>/parameters/EKF2_EVA_NOISE/shortDesc</name>
   <message>
-  <source>Measurement noise for vision angle observations used to lower bound or replace the uncertainty included in the message</source>
+  <source>Measurement noise for vision angle measurements</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_EVA_NOISE/longDesc</name>
+  <message>
+  <source>Used to lower bound or replace the uncertainty included in the message</source>
   </message>
 </context>
 <context>
@@ -41453,7 +47777,13 @@
 <context>
   <name>/parameters/EKF2_EVP_NOISE/shortDesc</name>
   <message>
-  <source>Measurement noise for vision position observations used to lower bound or replace the uncertainty included in the message</source>
+  <source>Measurement noise for vision position measurements</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_EVP_NOISE/longDesc</name>
+  <message>
+  <source>Used to lower bound or replace the uncertainty included in the message</source>
   </message>
 </context>
 <context>
@@ -41471,7 +47801,13 @@
 <context>
   <name>/parameters/EKF2_EVV_NOISE/shortDesc</name>
   <message>
-  <source>Measurement noise for vision velocity observations used to lower bound or replace the uncertainty included in the message</source>
+  <source>Measurement noise for vision velocity measurements</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_EVV_NOISE/longDesc</name>
+  <message>
+  <source>Used to lower bound or replace the uncertainty included in the message</source>
   </message>
 </context>
 <context>
@@ -41543,19 +47879,37 @@
 <context>
   <name>/parameters/EKF2_EV_POS_X/shortDesc</name>
   <message>
-  <source>X position of VI sensor focal point in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
+  <source>X position of VI sensor focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_EV_POS_X/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_EV_POS_Y/shortDesc</name>
   <message>
-  <source>Y position of VI sensor focal point in body frame (right axis with origin relative to vehicle centre of gravity)</source>
+  <source>Y position of VI sensor focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_EV_POS_Y/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_EV_POS_Z/shortDesc</name>
   <message>
-  <source>Z position of VI sensor focal point in body frame (down axis with origin relative to vehicle centre of gravity)</source>
+  <source>Z position of VI sensor focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_EV_POS_Z/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
@@ -41633,61 +47987,67 @@
 <context>
   <name>/parameters/EKF2_GPS_CHECK/longDesc</name>
   <message>
-  <source>Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Minimum required sat count set by EKF2_REQ_NSATS 1 : Maximum allowed PDOP set by EKF2_REQ_PDOP 2 : Maximum allowed horizontal position error set by EKF2_REQ_EPH 3 : Maximum allowed vertical position error set by EKF2_REQ_EPV 4 : Maximum allowed speed error set by EKF2_REQ_SACC 5 : Maximum allowed horizontal position rate set by EKF2_REQ_HDRIFT. This check will only run when the vehicle is on ground and stationary. 6 : Maximum allowed vertical position rate set by EKF2_REQ_VDRIFT. This check will only run when the vehicle is on ground and stationary. 7 : Maximum allowed horizontal speed set by EKF2_REQ_HDRIFT. This check will only run when the vehicle is on ground and stationary. 8 : Maximum allowed vertical velocity discrepancy set by EKF2_REQ_VDRIFT</source>
+  <source>Each threshold value is defined by the parameter indicated next to the check. Drift and offset checks only run when the vehicle is on ground and stationary.</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/bitmask/0/description</name>
   <message>
-  <source>Min sat count (EKF2_REQ_NSATS)</source>
+  <source>Sat count (EKF2_REQ_NSATS)</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/bitmask/1/description</name>
   <message>
-  <source>Max PDOP (EKF2_REQ_PDOP)</source>
+  <source>PDOP (EKF2_REQ_PDOP)</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/bitmask/2/description</name>
   <message>
-  <source>Max horizontal position error (EKF2_REQ_EPH)</source>
+  <source>EPH (EKF2_REQ_EPH)</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/bitmask/3/description</name>
   <message>
-  <source>Max vertical position error (EKF2_REQ_EPV)</source>
+  <source>EPV (EKF2_REQ_EPV)</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/bitmask/4/description</name>
   <message>
-  <source>Max speed error (EKF2_REQ_SACC)</source>
+  <source>Speed accuracy (EKF2_REQ_SACC)</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/bitmask/5/description</name>
   <message>
-  <source>Max horizontal position rate (EKF2_REQ_HDRIFT)</source>
+  <source>Horizontal position drift (EKF2_REQ_HDRIFT)</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/bitmask/6/description</name>
   <message>
-  <source>Max vertical position rate (EKF2_REQ_VDRIFT)</source>
+  <source>Vertical position drift (EKF2_REQ_VDRIFT)</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/bitmask/7/description</name>
   <message>
-  <source>Max horizontal speed (EKF2_REQ_HDRIFT)</source>
+  <source>Horizontal speed offset (EKF2_REQ_HDRIFT)</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/bitmask/8/description</name>
   <message>
-  <source>Max vertical velocity discrepancy (EKF2_REQ_VDRIFT)</source>
+  <source>Vertical speed offset (EKF2_REQ_VDRIFT)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_GPS_CHECK/bitmask/9/description</name>
+  <message>
+  <source>Spoofing</source>
   </message>
 </context>
 <context>
@@ -41735,19 +48095,37 @@
 <context>
   <name>/parameters/EKF2_GPS_POS_X/shortDesc</name>
   <message>
-  <source>X position of GPS antenna in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
+  <source>X position of GPS antenna in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_GPS_POS_X/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_POS_Y/shortDesc</name>
   <message>
-  <source>Y position of GPS antenna in body frame (right axis with origin relative to vehicle centre of gravity)</source>
+  <source>Y position of GPS antenna in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_GPS_POS_Y/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_GPS_POS_Z/shortDesc</name>
   <message>
-  <source>Z position of GPS antenna in body frame (down axis with origin relative to vehicle centre of gravity)</source>
+  <source>Z position of GPS antenna in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_GPS_POS_Z/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
@@ -41909,19 +48287,55 @@
 <context>
   <name>/parameters/EKF2_IMU_POS_X/shortDesc</name>
   <message>
-  <source>X position of IMU in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
+  <source>X position of IMU in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_IMU_POS_X/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_IMU_POS_Y/shortDesc</name>
   <message>
-  <source>Y position of IMU in body frame (right axis with origin relative to vehicle centre of gravity)</source>
+  <source>Y position of IMU in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_IMU_POS_Y/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_IMU_POS_Z/shortDesc</name>
   <message>
-  <source>Z position of IMU in body frame (down axis with origin relative to vehicle centre of gravity)</source>
+  <source>Z position of IMU in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_IMU_POS_Z/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_LOG_VERBOSE/shortDesc</name>
+  <message>
+  <source>Verbose logging</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_LOG_VERBOSE/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_LOG_VERBOSE/values/1/description</name>
+  <message>
+  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -42041,7 +48455,7 @@
 <context>
   <name>/parameters/EKF2_MAG_TYPE/longDesc</name>
   <message>
-  <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight with fallback to magnetic heading fusion if there is insufficient motion to make yaw or magnetic field states observable. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GPS velocity measurements to align the yaw angle with the timer required (depending on the amount of movement and GPS data quality).</source>
+  <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GNSS velocity measurements to align the yaw angle. If set to 'Init' the magnetometer is only used to initalize the heading.</source>
   </message>
 </context>
 <context>
@@ -42063,9 +48477,15 @@
   </message>
 </context>
 <context>
+  <name>/parameters/EKF2_MAG_TYPE/values/6/description</name>
+  <message>
+  <source>Init</source>
+  </message>
+</context>
+<context>
   <name>/parameters/EKF2_MCOEF/shortDesc</name>
   <message>
-  <source>Propeller momentum drag coefficient used for multi-rotor wind estimation</source>
+  <source>Propeller momentum drag coefficient for multi-rotor wind estimation</source>
   </message>
 </context>
 <context>
@@ -42119,6 +48539,12 @@
 <context>
   <name>/parameters/EKF2_NOAID_TOUT/shortDesc</name>
   <message>
+  <source>Maximum inertial dead-reckoning time</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_NOAID_TOUT/longDesc</name>
+  <message>
   <source>Maximum lapsed time from last fusion of measurements that constrain velocity drift before the EKF will report the horizontal nav solution as invalid</source>
   </message>
 </context>
@@ -42171,19 +48597,49 @@
   </message>
 </context>
 <context>
+  <name>/parameters/EKF2_OF_GYR_SRC/shortDesc</name>
+  <message>
+  <source>Optical flow angular rate compensation source</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_GYR_SRC/longDesc</name>
+  <message>
+  <source>Auto: use gyro from optical flow message if available, internal gyro otherwise. Internal: always use internal gyro</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_GYR_SRC/values/0/description</name>
+  <message>
+  <source>Auto</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_GYR_SRC/values/1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
   <name>/parameters/EKF2_OF_N_MAX/shortDesc</name>
   <message>
-  <source>Measurement noise for the optical flow sensor</source>
+  <source>Optical flow maximum noise</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_OF_N_MAX/longDesc</name>
   <message>
-  <source>(when it's reported quality metric is at the minimum set by EKF2_OF_QMIN). The following condition must be met: EKF2_OF_N_MAXN &gt;= EKF2_OF_N_MIN</source>
+  <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the minimum</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_OF_N_MIN/shortDesc</name>
+  <message>
+  <source>Optical flow minimum noise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_N_MIN/longDesc</name>
   <message>
   <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum</source>
   </message>
@@ -42191,29 +48647,59 @@
 <context>
   <name>/parameters/EKF2_OF_POS_X/shortDesc</name>
   <message>
-  <source>X position of optical flow focal point in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
+  <source>X position of optical flow focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_POS_X/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_OF_POS_Y/shortDesc</name>
   <message>
-  <source>Y position of optical flow focal point in body frame (right axis with origin relative to vehicle centre of gravity)</source>
+  <source>Y position of optical flow focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_POS_Y/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_OF_POS_Z/shortDesc</name>
   <message>
-  <source>Z position of optical flow focal point in body frame (down axis with origin relative to vehicle centre of gravity)</source>
+  <source>Z position of optical flow focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_POS_Z/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_OF_QMIN/shortDesc</name>
+  <message>
+  <source>In air optical flow minimum quality</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_QMIN/longDesc</name>
   <message>
   <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_OF_QMIN_GND/shortDesc</name>
+  <message>
+  <source>On ground optical flow minimum quality</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF_QMIN_GND/longDesc</name>
   <message>
   <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND</source>
   </message>
@@ -42347,7 +48833,7 @@
 <context>
   <name>/parameters/EKF2_RNG_A_HMAX/shortDesc</name>
   <message>
-  <source>Maximum absolute altitude (height above ground level) allowed for conditional range aid mode</source>
+  <source>Maximum height above ground allowed for conditional range aid mode</source>
   </message>
 </context>
 <context>
@@ -42389,7 +48875,7 @@
 <context>
   <name>/parameters/EKF2_RNG_CTRL/longDesc</name>
   <message>
-  <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. To en-/disable range finder for terrain height estimation, use EKF2_TERR_MASK instead. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
+  <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
   </message>
 </context>
 <context>
@@ -42414,6 +48900,18 @@
   <name>/parameters/EKF2_RNG_DELAY/shortDesc</name>
   <message>
   <source>Range finder measurement delay relative to IMU measurements</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_RNG_FOG/shortDesc</name>
+  <message>
+  <source>Maximum distance at which the range finder could detect fog (m)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_RNG_FOG/longDesc</name>
+  <message>
+  <source>Limit for fog detection. If the range finder measures a distance greater than this value, the measurement is considered to not be blocked by fog or rain. If there's a jump from larger than RNG_FOG to smaller than EKF2_RNG_FOG, the measurement may gets rejected. 0 - disabled</source>
   </message>
 </context>
 <context>
@@ -42455,23 +48953,47 @@
 <context>
   <name>/parameters/EKF2_RNG_POS_X/shortDesc</name>
   <message>
-  <source>X position of range finder origin in body frame (forward axis with origin relative to vehicle centre of gravity)</source>
+  <source>X position of range finder origin in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_RNG_POS_X/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_RNG_POS_Y/shortDesc</name>
   <message>
-  <source>Y position of range finder origin in body frame (right axis with origin relative to vehicle centre of gravity)</source>
+  <source>Y position of range finder origin in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_RNG_POS_Y/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_RNG_POS_Z/shortDesc</name>
   <message>
-  <source>Z position of range finder origin in body frame (down axis with origin relative to vehicle centre of gravity)</source>
+  <source>Z position of range finder origin in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_RNG_POS_Z/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity</source>
   </message>
 </context>
 <context>
   <name>/parameters/EKF2_RNG_QLTY_T/shortDesc</name>
+  <message>
+  <source>Minumum range validity period</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_RNG_QLTY_T/longDesc</name>
   <message>
   <source>Minimum duration during which the reported range finder signal quality needs to be non-zero in order to be declared valid (s)</source>
   </message>
@@ -42587,7 +49109,13 @@
 <context>
   <name>/parameters/EKF2_TAU_POS/shortDesc</name>
   <message>
-  <source>Time constant of the position output prediction and smoothing filter. Controls how tightly the output track the EKF states</source>
+  <source>Output predictor position time constant</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_TAU_POS/longDesc</name>
+  <message>
+  <source>Controls how tightly the output track the EKF states</source>
   </message>
 </context>
 <context>
@@ -42603,33 +49131,9 @@
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_TERR_MASK/shortDesc</name>
-  <message>
-  <source>Integer bitmask controlling fusion sources of the terrain estimator</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TERR_MASK/longDesc</name>
-  <message>
-  <source>Set bits in the following positions to enable: 0 : Set to true to use range finder data if available 1 : Set to true to use optical flow data if available</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TERR_MASK/bitmask/0/description</name>
-  <message>
-  <source>use range finder</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_TERR_MASK/bitmask/1/description</name>
-  <message>
-  <source>use optical flow</source>
-  </message>
-</context>
-<context>
   <name>/parameters/EKF2_TERR_NOISE/shortDesc</name>
   <message>
-  <source>Terrain altitude process noise - accounts for instability in vehicle height estimate</source>
+  <source>Terrain altitude process noise</source>
   </message>
 </context>
 <context>
@@ -42801,12 +49305,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_SPOILERS_DESC/shortDesc</name>
-  <message>
-  <source>Spoiler descend setting</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_SPOILERS_LND/shortDesc</name>
   <message>
   <source>Spoiler landing setting</source>
@@ -42923,7 +49421,7 @@
 <context>
   <name>/parameters/FW_LND_AIRSPD/longDesc</name>
   <message>
-  <source>The calibrated airspeed setpoint during landing. If set &lt;= 0.0, landing airspeed = FW_AIRSPD_MIN by default.</source>
+  <source>The calibrated airspeed setpoint during landing. If set &lt;= 0, landing airspeed = FW_AIRSPD_MIN by default.</source>
   </message>
 </context>
 <context>
@@ -42947,7 +49445,7 @@
 <context>
   <name>/parameters/FW_LND_EARLYCFG/longDesc</name>
   <message>
-  <source>When disabled, the landing configuration (flaps, landing airspeed, etc.) is only activated on the final approach to landing. When enabled, it is already activated when entering the final loiter-down (loiter-to-alt) waypoint before the landing approach.</source>
+  <source>Allows to deploy the landing configuration (flaps, landing airspeed, etc.) already in the loiter-down waypoint before the final approach. Otherwise is enabled only in the final approach.</source>
   </message>
 </context>
 <context>
@@ -42983,7 +49481,7 @@
 <context>
   <name>/parameters/FW_LND_FL_PMAX/longDesc</name>
   <message>
-  <source>Maximum pitch during flare, a positive sign means nose up Applied once flaring is triggered</source>
+  <source>Maximum pitch during landing flare.</source>
   </message>
 </context>
 <context>
@@ -42995,7 +49493,7 @@
 <context>
   <name>/parameters/FW_LND_FL_PMIN/longDesc</name>
   <message>
-  <source>Minimum pitch during flare, a positive sign means nose up Applied once flaring is triggered</source>
+  <source>Minimum pitch during landing flare.</source>
   </message>
 </context>
 <context>
@@ -43031,7 +49529,7 @@
 <context>
   <name>/parameters/FW_LND_NUDGE/longDesc</name>
   <message>
-  <source>Approach angle nudging: shifts the touchdown point laterally while keeping the approach entrance point constant Approach path nudging: shifts the touchdown point laterally along with the entire approach path This is useful for manually adjusting the landing point in real time when map or GNSS errors cause an offset from the desired landing vector. Nuding is done with yaw stick, constrained to FW_LND_TD_OFF (in meters) and the direction is relative to the vehicle heading (stick deflection to the right = land point moves to the right as seen by the vehicle).</source>
+  <source>Approach angle nudging: shifts the touchdown point laterally while keeping the approach entrance point constant Approach path nudging: shifts the touchdown point laterally along with the entire approach path This is useful for manually adjusting the landing point in real time when map or GNSS errors cause an offset from the desired landing vector. Nudging is done with yaw stick, constrained to FW_LND_TD_OFF (in meters) and the direction is relative to the vehicle heading (stick deflection to the right = land point moves to the right as seen by the vehicle).</source>
   </message>
 </context>
 <context>
@@ -43073,25 +49571,25 @@
 <context>
   <name>/parameters/FW_LND_THRTC_SC/shortDesc</name>
   <message>
-  <source>Altitude time constant factor for landing</source>
+  <source>Altitude time constant factor for landing and low-height flight</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_LND_THRTC_SC/longDesc</name>
   <message>
-  <source>Set this parameter to less than 1.0 to make TECS react faster to altitude errors during landing than during normal flight. During landing, the TECS altitude time constant (FW_T_ALT_TC) is multiplied by this value.</source>
+  <source>The TECS altitude time constant (FW_T_ALT_TC) is multiplied by this value.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_LND_USETER/shortDesc</name>
   <message>
-  <source>Use terrain estimation during landing. This is critical for detecting when to flare, and should be enabled if possible</source>
+  <source>Use terrain estimation during landing</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_LND_USETER/longDesc</name>
   <message>
-  <source>NOTE: terrain estimate is currently solely derived from a distance sensor. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
+  <source>This is critical for detecting when to flare, and should be enabled if possible. NOTE: terrain estimate is currently solely derived from a distance sensor. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
   </message>
 </context>
 <context>
@@ -43385,19 +49883,19 @@
 <context>
   <name>/parameters/FW_PN_R_SLEW_MAX/longDesc</name>
   <message>
-  <source>The maximum change in roll angle setpoint per second.</source>
+  <source>The maximum change in roll angle setpoint per second. This limit is applied in all Auto modes, plus manual Position and Altitude modes.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_POS_STK_CONF/shortDesc</name>
   <message>
-  <source>RC stick configuration fixed-wing</source>
+  <source>Custom stick configuration</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_POS_STK_CONF/longDesc</name>
   <message>
-  <source>Set RC/joystick configuration for fixed-wing manual position and altitude controlled flight.</source>
+  <source>Applies in manual Position and Altitude flight modes.</source>
   </message>
 </context>
 <context>
@@ -43415,13 +49913,13 @@
 <context>
   <name>/parameters/FW_R_LIM/shortDesc</name>
   <message>
-  <source>Maximum roll angle</source>
+  <source>Maximum roll angle setpoint</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_R_LIM/longDesc</name>
   <message>
-  <source>The maximum roll angle setpoint for setpoint for a height-rate or altitude controlled mode.</source>
+  <source>Applies in any altitude controlled flight mode.</source>
   </message>
 </context>
 <context>
@@ -43991,25 +50489,25 @@
 <context>
   <name>/parameters/FW_P_LIM_MAX/shortDesc</name>
   <message>
-  <source>Maximum pitch angle</source>
+  <source>Maximum pitch angle setpoint</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_P_LIM_MAX/longDesc</name>
   <message>
-  <source>The maximum pitch angle setpoint setpoint for a height-rate or altitude controlled mode.</source>
+  <source>Applies in any altitude controlled flight mode.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_P_LIM_MIN/shortDesc</name>
   <message>
-  <source>Minimum pitch angle</source>
+  <source>Minimum pitch angle setpoint</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_P_LIM_MIN/longDesc</name>
   <message>
-  <source>The minimum pitch angle setpoint for a height-rate or altitude controlled mode.</source>
+  <source>Applies in any altitude controlled flight mode.</source>
   </message>
 </context>
 <context>
@@ -44021,7 +50519,7 @@
 <context>
   <name>/parameters/FW_THR_IDLE/longDesc</name>
   <message>
-  <source>This is the minimum throttle while on the ground For aircraft with internal combustion engines, this parameter should be set above the desired idle rpm. For electric motors, idle should typically be set to zero. Note that in automatic modes, "landed" conditions will engage idle throttle.</source>
+  <source>This is the minimum throttle while on the ground ("landed") in auto modes.</source>
   </message>
 </context>
 <context>
@@ -44033,7 +50531,7 @@
 <context>
   <name>/parameters/FW_THR_MAX/longDesc</name>
   <message>
-  <source>Maximum throttle limit in altitude controlled modes. Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
+  <source>Applies in any altitude controlled flight mode. Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
   </message>
 </context>
 <context>
@@ -44045,7 +50543,7 @@
 <context>
   <name>/parameters/FW_THR_MIN/longDesc</name>
   <message>
-  <source>Minimum throttle limit in altitude controlled modes. Usually set to 0 but can be increased to prevent the motor from stopping when descending, which can increase achievable descent rates. For aircraft with internal combustion engine this parameter should be set for desired idle rpm.</source>
+  <source>Applies in any altitude controlled flight mode. Usually set to 0 but can be increased to prevent the motor from stopping when descending, which can increase achievable descent rates.</source>
   </message>
 </context>
 <context>
@@ -44069,7 +50567,7 @@
 <context>
   <name>/parameters/FW_TKO_AIRSPD/longDesc</name>
   <message>
-  <source>The calibrated airspeed setpoint TECS will stabilize to during the takeoff climbout. If set &lt;= 0.0, FW_AIRSPD_MIN will be set by default.</source>
+  <source>The calibrated airspeed setpoint during the takeoff climbout. If set &lt;= 0, FW_AIRSPD_MIN will be set by default.</source>
   </message>
 </context>
 <context>
@@ -44087,7 +50585,19 @@
 <context>
   <name>/parameters/FW_T_CLMB_R_SP/longDesc</name>
   <message>
-  <source>The default rate at which the vehicle will climb in autonomous modes to achieve altitude setpoints. In manual modes this defines the maximum rate at which the altitude setpoint can be increased.</source>
+  <source>In auto modes: default climb rate output by controller to achieve altitude setpoints. In manual modes: maximum climb rate setpoint.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_F_ALT_ERR/shortDesc</name>
+  <message>
+  <source>Fast descend: minimum altitude error</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_F_ALT_ERR/longDesc</name>
+  <message>
+  <source>Minimum altitude error needed to descend with max airspeed and minimal throttle. A negative value disables fast descend.</source>
   </message>
 </context>
 <context>
@@ -44105,19 +50615,13 @@
 <context>
   <name>/parameters/FW_T_I_GAIN_PIT/longDesc</name>
   <message>
-  <source>Integrator gain on the pitch part of the control loop. Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
+  <source>Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_PTCH_DAMP/shortDesc</name>
   <message>
-  <source>Pitch damping factor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_PTCH_DAMP/longDesc</name>
-  <message>
-  <source>This is the damping gain for the pitch demand loop. Increase to add damping to correct for oscillations in height. The default value of 0.0 will work well provided the pitch to servo controller has been tuned properly.</source>
+  <source>Pitch damping gain</source>
   </message>
 </context>
 <context>
@@ -44129,7 +50633,7 @@
 <context>
   <name>/parameters/FW_T_RLL2THR/longDesc</name>
   <message>
-  <source>Increasing this gain turn increases the amount of throttle that will be used to compensate for the additional drag created by turning. Ideally this should be set to  approximately 10 x the extra sink rate in m/s created by a 45 degree bank turn. Increase this gain if the aircraft initially loses energy in turns and reduce if the aircraft initially gains energy in turns. Efficient high aspect-ratio aircraft (eg powered sailplanes) can use a lower value, whereas inefficient low aspect-ratio models (eg delta wings) can use a higher value.</source>
+  <source>Is used to compensate for the additional drag created by turning. Increase this gain if the aircraft initially loses energy in turns and reduce if the aircraft initially gains energy in turns.</source>
   </message>
 </context>
 <context>
@@ -44147,7 +50651,7 @@
 <context>
   <name>/parameters/FW_T_SINK_MAX/longDesc</name>
   <message>
-  <source>This sets the maximum descent rate that the controller will use. If this value is too large, the aircraft can over-speed on descent. This should be set to a value that can be achieved without exceeding the lower pitch angle limit and without over-speeding the aircraft.</source>
+  <source>This sets the maximum descent rate that the controller will use.</source>
   </message>
 </context>
 <context>
@@ -44159,7 +50663,7 @@
 <context>
   <name>/parameters/FW_T_SINK_R_SP/longDesc</name>
   <message>
-  <source>The default rate at which the vehicle will sink in autonomous modes to achieve altitude setpoints. In manual modes this defines the maximum rate at which the altitude setpoint can be decreased.</source>
+  <source>In auto modes: default sink rate output by controller to achieve altitude setpoints. In manual modes: maximum sink rate setpoint.</source>
   </message>
 </context>
 <context>
@@ -44171,43 +50675,43 @@
 <context>
   <name>/parameters/FW_T_SPDWEIGHT/longDesc</name>
   <message>
-  <source>This parameter adjusts the amount of weighting that the pitch control applies to speed vs height errors. Setting it to 0.0 will cause the pitch control to control height and ignore speed errors. This will normally improve height accuracy but give larger airspeed errors. Setting it to 2.0 will cause the pitch control loop to control speed and ignore height errors. This will normally reduce airspeed errors, but give larger height errors. The default value of 1.0 allows the pitch control to simultaneously control height and speed. Set to 2 for gliders.</source>
+  <source>Adjusts the amount of weighting that the pitch control applies to speed vs height errors. Setting it to 0.0 will cause the pitch control to control height and ignore speed errors. Setting it to 2.0 will cause the pitch control loop to control speed and ignore height errors. The default value of 1.0 allows the pitch control to simultaneously control height and speed. Set to 2 for gliders.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_DEV_STD/shortDesc</name>
   <message>
-  <source>Airspeed rate measurement standard deviation for airspeed filter</source>
+  <source>Airspeed rate measurement standard deviation</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_DEV_STD/longDesc</name>
   <message>
-  <source>This is the measurement standard deviation for the airspeed rate used in the airspeed filter in TECS.</source>
+  <source>For the airspeed filter in TECS.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_PRC_STD/shortDesc</name>
   <message>
-  <source>Process noise standard deviation for the airspeed rate in the airspeed filter</source>
+  <source>Process noise standard deviation for the airspeed rate</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_PRC_STD/longDesc</name>
   <message>
-  <source>This is the process noise standard deviation in the airspeed filter filter defining the noise in the airspeed rate for the constant airspeed rate model. This is used to define how much the airspeed and the airspeed rate are filtered. The smaller the value the more the measurements are smoothed with the drawback for delays.</source>
+  <source>This is defining the noise in the airspeed rate for the constant airspeed rate model of the TECS airspeed filter.</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_STD/shortDesc</name>
   <message>
-  <source>Airspeed measurement standard deviation for airspeed filter</source>
+  <source>Airspeed measurement standard deviation</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPD_STD/longDesc</name>
   <message>
-  <source>This is the measurement standard deviation for the airspeed used in the airspeed filter in TECS.</source>
+  <source>For the airspeed filter in TECS.</source>
   </message>
 </context>
 <context>
@@ -44237,7 +50741,7 @@
 <context>
   <name>/parameters/FW_T_THR_DAMPING/longDesc</name>
   <message>
-  <source>This is the damping gain for the throttle demand loop. Increase to add damping to correct for oscillations in speed and height.</source>
+  <source>This is the damping gain for the throttle demand loop.</source>
   </message>
 </context>
 <context>
@@ -44249,7 +50753,19 @@
 <context>
   <name>/parameters/FW_T_THR_INTEG/longDesc</name>
   <message>
-  <source>Integrator gain on the throttle part of the control loop. Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
+  <source>Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_THR_LOW_HGT/shortDesc</name>
+  <message>
+  <source>Low-height threshold for tighter altitude tracking</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_THR_LOW_HGT/longDesc</name>
+  <message>
+  <source>Defines the height (distance to bottom) threshold below which tighter altitude tracking gets enabled (see FW_LND_THRTC_SC). Below this height, TECS smoothly (1 sec / sec) transitions the altitude tracking time constant from FW_T_ALT_TC to FW_LND_THRTC_SC*FW_T_ALT_TC. If equal to -1, low-height traking is disabled.</source>
   </message>
 </context>
 <context>
@@ -44261,7 +50777,7 @@
 <context>
   <name>/parameters/FW_T_VERT_ACC/longDesc</name>
   <message>
-  <source>This is the maximum vertical acceleration (in m/s/s) either up or down that the controller will use to correct speed or height errors. The default value of 7 m/s/s (equivalent to +- 0.7 g) allows for reasonably aggressive pitch changes if required to recover from under-speed conditions.</source>
+  <source>This is the maximum vertical acceleration either up or down that the controller will use to correct speed or height errors.</source>
   </message>
 </context>
 <context>
@@ -44273,7 +50789,7 @@
 <context>
   <name>/parameters/FW_WIND_ARSP_SC/longDesc</name>
   <message>
-  <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind. Only applies to AUTO flight mode.</source>
+  <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind.</source>
   </message>
 </context>
 <context>
@@ -44460,6 +50976,42 @@
   <name>/parameters/MC_ORBIT_RAD_MAX/shortDesc</name>
   <message>
   <source>Maximum radius of orbit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/shortDesc</name>
+  <message>
+  <source>Yaw behaviour during orbit flight</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/0/description</name>
+  <message>
+  <source>Front to Circle Center</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/1/description</name>
+  <message>
+  <source>Hold Initial Heading</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/2/description</name>
+  <message>
+  <source>Uncontrolled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/3/description</name>
+  <message>
+  <source>Hold Front Tangent to Circle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_ORBIT_YAW_MOD/values/4/description</name>
+  <message>
+  <source>RC Controlled</source>
   </message>
 </context>
 <context>
@@ -45366,6 +51918,12 @@
   <name>/parameters/CA_AIRFRAME/values/12/description</name>
   <message>
   <source>Helicopter (Coaxial)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CA_AIRFRAME/values/13/description</name>
+  <message>
+  <source>Rover (Mecanum)</source>
   </message>
 </context>
 <context>
@@ -50325,6 +56883,18 @@
   </message>
 </context>
 <context>
+  <name>/parameters/MAV_0_HL_FREQ/shortDesc</name>
+  <message>
+  <source>Configures the frequency of HIGH_LATENCY2 stream for instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_HL_FREQ/longDesc</name>
+  <message>
+  <source>Positive real value that configures the transmission frequency of the HIGH_LATENCY2 stream for instance 0, configured in iridium mode. This parameter has no effect if the instance mode is different from iridium.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/MAV_0_MODE/shortDesc</name>
   <message>
   <source>MAVLink Mode for instance 0</source>
@@ -50637,6 +57207,18 @@
   </message>
 </context>
 <context>
+  <name>/parameters/MAV_1_HL_FREQ/shortDesc</name>
+  <message>
+  <source>Configures the frequency of HIGH_LATENCY2 stream for instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_HL_FREQ/longDesc</name>
+  <message>
+  <source>Positive real value that configures the transmission frequency of the HIGH_LATENCY2 stream for instance 1, configured in iridium mode. This parameter has no effect if the instance mode is different from iridium.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/MAV_1_MODE/shortDesc</name>
   <message>
   <source>MAVLink Mode for instance 1</source>
@@ -50946,6 +57528,18 @@
   <name>/parameters/MAV_2_FORWARD/values/1/description</name>
   <message>
   <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_HL_FREQ/shortDesc</name>
+  <message>
+  <source>Configures the frequency of HIGH_LATENCY2 stream for instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_HL_FREQ/longDesc</name>
+  <message>
+  <source>Positive real value that configures the transmission frequency of the HIGH_LATENCY2 stream for instance 2, configured in iridium mode. This parameter has no effect if the instance mode is different from iridium.</source>
   </message>
 </context>
 <context>
@@ -51357,6 +57951,120 @@
   </message>
 </context>
 <context>
+  <name>/parameters/BMM350_AVG/shortDesc</name>
+  <message>
+  <source>BMM350 data averaging</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_AVG/longDesc</name>
+  <message>
+  <source>Defines which averaging mode to use during data polling.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_AVG/values/0/description</name>
+  <message>
+  <source>No averaging</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_AVG/values/1/description</name>
+  <message>
+  <source>2 sample averaging</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_AVG/values/2/description</name>
+  <message>
+  <source>4 sample averaging</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_AVG/values/3/description</name>
+  <message>
+  <source>8 sample averaging</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_DRIVE/shortDesc</name>
+  <message>
+  <source>BMM350 pad drive strength setting</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_DRIVE/longDesc</name>
+  <message>
+  <source>This setting helps avoid signal problems like overshoot or undershoot.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/shortDesc</name>
+  <message>
+  <source>BMM350 ODR rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/longDesc</name>
+  <message>
+  <source>Defines which ODR rate to use during data polling.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/values/0/description</name>
+  <message>
+  <source>400 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/values/1/description</name>
+  <message>
+  <source>200 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/values/2/description</name>
+  <message>
+  <source>100 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/values/3/description</name>
+  <message>
+  <source>50 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/values/4/description</name>
+  <message>
+  <source>25 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/values/5/description</name>
+  <message>
+  <source>12.5 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/values/6/description</name>
+  <message>
+  <source>6.25 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/values/7/description</name>
+  <message>
+  <source>3.125 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/BMM350_ODR/values/8/description</name>
+  <message>
+  <source>1.5625 Hz</source>
+  </message>
+</context>
+<context>
   <name>/parameters/MBE_ENABLE/shortDesc</name>
   <message>
   <source>Enable online mag bias calibration</source>
@@ -51437,7 +58145,7 @@
 <context>
   <name>/parameters/FW_GPSF_LT/longDesc</name>
   <message>
-  <source>The time in seconds the system should do open loop loiter and wait for GPS recovery before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R. Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</source>
+  <source>The time the system should do open loop loiter and wait for GPS recovery before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R. Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</source>
   </message>
 </context>
 <context>
@@ -51449,7 +58157,7 @@
 <context>
   <name>/parameters/FW_GPSF_R/longDesc</name>
   <message>
-  <source>Roll in degrees during the loiter after the vehicle has lost GPS in an auto mode (e.g. mission or loiter).</source>
+  <source>Roll angle in GPS failure loiter mode.</source>
   </message>
 </context>
 <context>
@@ -51621,6 +58329,12 @@
   </message>
 </context>
 <context>
+  <name>/parameters/MPC_YAW_MODE/values/5/description</name>
+  <message>
+  <source>yaw fixed</source>
+  </message>
+</context>
+<context>
   <name>/parameters/NAV_ACC_RAD/shortDesc</name>
   <message>
   <source>Acceptance Radius</source>
@@ -51696,6 +58410,18 @@
   <name>/parameters/NAV_MC_ALT_RAD/longDesc</name>
   <message>
   <source>Acceptance radius for multicopter altitude.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/NAV_MIN_GND_DIST/shortDesc</name>
+  <message>
+  <source>Minimum height above ground during Mission and RTL</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/NAV_MIN_GND_DIST/longDesc</name>
+  <message>
+  <source>Minimum height above ground the vehicle is allowed to descend to during Mission and RTL, excluding landing commands. Requires a distance sensor to be set up. Note: only prevents the vehicle from descending further, but does not force it to climb. Set to a negative value to disable.</source>
   </message>
 </context>
 <context>
@@ -52457,7 +59183,7 @@
 <context>
   <name>/parameters/MPC_ACC_DECOUPLE/longDesc</name>
   <message>
-  <source>Set to decouple tilt from vertical acceleration.</source>
+  <source>Set to decouple tilt from vertical acceleration. This provides smoother flight but slightly worse tracking in position and auto modes. Unset if accurate position tracking during dynamic maneuvers is more important than a smooth flight.</source>
   </message>
 </context>
 <context>
@@ -52487,7 +59213,7 @@
 <context>
   <name>/parameters/MPC_ACC_HOR/longDesc</name>
   <message>
-  <source>When piloting manually, this parameter is only used in MPC_POS_MODE 4.</source>
+  <source>When piloting manually, this parameter is only used in MPC_POS_MODE Acceleration based.</source>
   </message>
 </context>
 <context>
@@ -52559,7 +59285,7 @@
 <context>
   <name>/parameters/MPC_HOLD_MAX_XY/longDesc</name>
   <message>
-  <source>Only used with MPC_POS_MODE 0 or MPC_ALT_MODE 2</source>
+  <source>Only used with MPC_POS_MODE Direct velocity or MPC_ALT_MODE 2</source>
   </message>
 </context>
 <context>
@@ -52595,7 +59321,7 @@
 <context>
   <name>/parameters/MPC_JERK_MAX/longDesc</name>
   <message>
-  <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother motions but limits agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Only used with smooth MPC_POS_MODE 3 and 4.</source>
+  <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change). A lower value leads to smoother motions but limits agility (how fast it can change directions or break). Setting this to the maximum value essentially disables the limit. Only used with smooth MPC_POS_MODE Smoothed velocity and Acceleration based.</source>
   </message>
 </context>
 <context>
@@ -52733,7 +59459,7 @@
 <context>
   <name>/parameters/MPC_POS_MODE/longDesc</name>
   <message>
-  <source>The supported sub-modes are: 0 Sticks directly map to velocity setpoints without smoothing. Also applies to vertical direction and Altitude mode. Useful for velocity control tuning. 3 Sticks map to velocity but with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). 4 Sticks map to acceleration and there's a virtual brake drag</source>
+  <source>The supported sub-modes are: - "Direct velocity": Sticks directly map to velocity setpoints without smoothing. Also applies to vertical direction and Altitude mode. Useful for velocity control tuning. - "Smoothed velocity": Sticks map to velocity but with maximum acceleration and jerk limits based on jerk optimized trajectory generator (different algorithm than 1). - "Acceleration based": Sticks map to acceleration and there's a virtual brake drag</source>
   </message>
 </context>
 <context>
@@ -52895,7 +59621,25 @@
 <context>
   <name>/parameters/MPC_VELD_LP/shortDesc</name>
   <message>
-  <source>Numerical velocity derivative low pass cutoff frequency</source>
+  <source>Velocity derivative low pass cutoff frequency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VELD_LP/longDesc</name>
+  <message>
+  <source>A value of 0 disables the filter.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_LP/shortDesc</name>
+  <message>
+  <source>Velocity low pass cutoff frequency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_LP/longDesc</name>
+  <message>
+  <source>A value of 0 disables the filter.</source>
   </message>
 </context>
 <context>
@@ -52932,6 +59676,30 @@
   <name>/parameters/MPC_VEL_MAN_SIDE/longDesc</name>
   <message>
   <source>If set to a negative value or larger than MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_BW/shortDesc</name>
+  <message>
+  <source>Velocity notch filter bandwidth</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_BW/longDesc</name>
+  <message>
+  <source>A value of 0 disables the filter.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_FRQ/shortDesc</name>
+  <message>
+  <source>Velocity notch filter frequency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MPC_VEL_NF_FRQ/longDesc</name>
+  <message>
+  <source>The center frequency for the 2nd order notch filter on the velocity. A value of 0 disables the filter.</source>
   </message>
 </context>
 <context>
@@ -54153,6 +60921,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PP_LOOKAHD_GAIN/shortDesc</name>
+  <message>
+  <source>Tuning parameter for the pure pursuit controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PP_LOOKAHD_GAIN/longDesc</name>
+  <message>
+  <source>Lower value -&gt; More aggressive controller (beware overshoot/oscillations)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PP_LOOKAHD_MAX/shortDesc</name>
+  <message>
+  <source>Maximum lookahead distance for the pure pursuit controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PP_LOOKAHD_MIN/shortDesc</name>
+  <message>
+  <source>Minimum lookahead distance for the pure pursuit controller</source>
+  </message>
+</context>
+<context>
   <name>/parameters/RC_CRSF_TEL_EN/shortDesc</name>
   <message>
   <source>Crossfire RC telemetry enable</source>
@@ -54172,6 +60964,30 @@
 </context>
 <context>
   <name>/parameters/RC_CRSF_TEL_EN/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_TEL_EN/shortDesc</name>
+  <message>
+  <source>Ghost RC telemetry enable</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_TEL_EN/longDesc</name>
+  <message>
+  <source>Ghost telemetry enable</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_TEL_EN/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_TEL_EN/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -57675,126 +64491,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RC_MAP_ACRO_SW/shortDesc</name>
-  <message>
-  <source>Acro switch channel (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_ACRO_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RC_MAP_ARM_SW/shortDesc</name>
   <message>
   <source>Arm switch channel</source>
@@ -58647,126 +65343,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RC_MAP_MAN_SW/shortDesc</name>
-  <message>
-  <source>Manual switch channel mapping (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_MAN_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RC_MAP_MODE_SW/shortDesc</name>
   <message>
   <source>Mode switch channel mapping (deprecated)</source>
@@ -59013,246 +65589,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RC_MAP_POSCTL_SW/shortDesc</name>
-  <message>
-  <source>Position Control switch channel (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_POSCTL_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/shortDesc</name>
-  <message>
-  <source>Rattitude switch channel (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_RATT_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RC_MAP_RETURN_SW/shortDesc</name>
   <message>
   <source>Return switch channel</source>
@@ -59368,126 +65704,6 @@
 </context>
 <context>
   <name>/parameters/RC_MAP_RETURN_SW/values/18/description</name>
-  <message>
-  <source>Channel 18</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/shortDesc</name>
-  <message>
-  <source>Stabilize switch channel mapping  (deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/0/description</name>
-  <message>
-  <source>Unassigned</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/1/description</name>
-  <message>
-  <source>Channel 1</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/2/description</name>
-  <message>
-  <source>Channel 2</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/3/description</name>
-  <message>
-  <source>Channel 3</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/4/description</name>
-  <message>
-  <source>Channel 4</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/5/description</name>
-  <message>
-  <source>Channel 5</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/6/description</name>
-  <message>
-  <source>Channel 6</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/7/description</name>
-  <message>
-  <source>Channel 7</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/8/description</name>
-  <message>
-  <source>Channel 8</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/9/description</name>
-  <message>
-  <source>Channel 9</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/10/description</name>
-  <message>
-  <source>Channel 10</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/11/description</name>
-  <message>
-  <source>Channel 11</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/12/description</name>
-  <message>
-  <source>Channel 12</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/13/description</name>
-  <message>
-  <source>Channel 13</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/14/description</name>
-  <message>
-  <source>Channel 14</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/15/description</name>
-  <message>
-  <source>Channel 15</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/16/description</name>
-  <message>
-  <source>Channel 16</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/17/description</name>
-  <message>
-  <source>Channel 17</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RC_MAP_STAB_SW/values/18/description</name>
   <message>
   <source>Channel 18</source>
   </message>
@@ -60027,99 +66243,441 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_ANG_SCALE/shortDesc</name>
+  <name>/parameters/RA_ACC_RAD_GAIN/shortDesc</name>
   <message>
-  <source>Manual angular velocity scale</source>
+  <source>Tuning parameter for corner cutting</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_I_ANG_VEL/shortDesc</name>
+  <name>/parameters/RA_ACC_RAD_GAIN/longDesc</name>
   <message>
-  <source>Integral gain for angular velocity controller</source>
+  <source>The geometric ideal acceptance radius is multiplied by this factor to account for kinematic and dynamic effects. Higher value -&gt; The rover starts to cut the corner earlier.</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_I_SPEED/shortDesc</name>
+  <name>/parameters/RA_ACC_RAD_MAX/shortDesc</name>
   <message>
-  <source>Integral gain for ground speed controller</source>
+  <source>Maximum acceptance radius for the waypoints</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_MAX_ACCEL/shortDesc</name>
+  <name>/parameters/RA_ACC_RAD_MAX/longDesc</name>
   <message>
-  <source>Maximum acceleration</source>
+  <source>The controller scales the acceptance radius based on the angle between the previous, current and next waypoint. Higher value -&gt; smoother trajectory at the cost of how close the rover gets to the waypoint (Set to -1 to disable corner cutting).</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_MAX_ACCEL/longDesc</name>
+  <name>/parameters/RA_MAX_ACCEL/shortDesc</name>
   <message>
-  <source>Maximum acceleration is used to limit the acceleration of the rover</source>
+  <source>Maximum acceleration for the rover</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_MAX_JERK/shortDesc</name>
+  <name>/parameters/RA_MAX_ACCEL/longDesc</name>
+  <message>
+  <source>This is used for the acceleration slew rate, the feed-forward term for the speed controller during missions and the corner slow down effect. Note: For the corner slow down effect RA_MAX_JERK, RA_MISS_VEL_GAIN and RA_MISS_VEL_MIN also have to be set.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RA_MAX_JERK/shortDesc</name>
   <message>
   <source>Maximum jerk</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_MAX_JERK/longDesc</name>
+  <name>/parameters/RA_MAX_JERK/longDesc</name>
   <message>
-  <source>Limit for forwards acc/deceleration change.</source>
+  <source>Limit for forwards acc/deceleration change. This is used for the corner slow down effect. Note: RA_MAX_ACCEL, RA_MISS_VEL_GAIN and RA_MISS_VEL_MIN also have to be set for this to be enabled.</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_P_ANG_VEL/shortDesc</name>
+  <name>/parameters/RA_MAX_SPEED/shortDesc</name>
   <message>
-  <source>Proportional gain for angular velocity controller</source>
+  <source>Speed the rover drives at maximum throttle</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_P_HEADING/shortDesc</name>
+  <name>/parameters/RA_MAX_SPEED/longDesc</name>
   <message>
-  <source>Proportional gain for heading controller</source>
+  <source>This is used for the feed-forward term of the speed controller. A value of -1 disables the feed-forward term in which case the Integrator (RA_SPEED_I) becomes necessary to track speed setpoints.</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_P_SPEED/shortDesc</name>
+  <name>/parameters/RA_MAX_STR_ANG/shortDesc</name>
   <message>
-  <source>Proportional gain for speed controller</source>
+  <source>Maximum steering angle</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_SPEED_SCALE/shortDesc</name>
+  <name>/parameters/RA_MAX_STR_ANG/longDesc</name>
   <message>
-  <source>Manual speed scale</source>
+  <source>The maximum angle that the rover can steer</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_WHEEL_BASE/shortDesc</name>
+  <name>/parameters/RA_MAX_STR_RATE/shortDesc</name>
+  <message>
+  <source>Maximum steering rate for the rover</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RA_MISS_VEL_DEF/shortDesc</name>
+  <message>
+  <source>Default rover velocity during a mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RA_MISS_VEL_GAIN/shortDesc</name>
+  <message>
+  <source>Tuning parameter for the velocity reduction during cornering</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RA_MISS_VEL_GAIN/longDesc</name>
+  <message>
+  <source>The cornering speed is equal to the inverse of the acceptance radius of the WP multiplied with this factor. Lower value -&gt; More velocity reduction during cornering.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RA_MISS_VEL_MIN/shortDesc</name>
+  <message>
+  <source>Minimum rover velocity during a mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RA_MISS_VEL_MIN/longDesc</name>
+  <message>
+  <source>The velocity off the rover is reduced based on the corner it has to take to smooth the trajectory (Set to -1 to disable)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RA_SPEED_I/shortDesc</name>
+  <message>
+  <source>Integral gain for ground speed controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RA_SPEED_P/shortDesc</name>
+  <message>
+  <source>Proportional gain for ground speed controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RA_WHEEL_BASE/shortDesc</name>
   <message>
   <source>Wheel base</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_WHEEL_BASE/longDesc</name>
+  <name>/parameters/RA_WHEEL_BASE/longDesc</name>
+  <message>
+  <source>Distance from the front to the rear axle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAN_YAW_SCALE/shortDesc</name>
+  <message>
+  <source>Manual yaw rate scale</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAN_YAW_SCALE/longDesc</name>
+  <message>
+  <source>In manual mode the setpoint for the yaw rate received from the yaw stick is scaled by this value.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_ACCEL/shortDesc</name>
+  <message>
+  <source>Maximum acceleration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_ACCEL/longDesc</name>
+  <message>
+  <source>Maximum acceleration is used to limit the acceleration of the rover</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_JERK/shortDesc</name>
+  <message>
+  <source>Maximum jerk</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_JERK/longDesc</name>
+  <message>
+  <source>Limit for forwards acc/deceleration change.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_SPEED/shortDesc</name>
+  <message>
+  <source>Maximum speed setpoint</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_SPEED/longDesc</name>
+  <message>
+  <source>This parameter is used to cap desired forward speed and map controller inputs to desired speeds in Position mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_THR_SPD/shortDesc</name>
+  <message>
+  <source>Speed the rover drives at maximum throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_THR_SPD/longDesc</name>
+  <message>
+  <source>This parameter is used to calculate the feedforward term of the closed loop speed control which linearly maps desired speeds to normalized motor commands [-1. 1]. A good starting point is the observed ground speed when the rover drives at maximum throttle in manual mode. Increase this parameter if the rover is faster than the setpoint, and decrease if the rover is slower.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_THR_YAW_R/shortDesc</name>
+  <message>
+  <source>Yaw rate turning left/right wheels at max speed in opposite directions</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_THR_YAW_R/longDesc</name>
+  <message>
+  <source>This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is twice the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_YAW_RATE/shortDesc</name>
+  <message>
+  <source>Maximum allowed yaw rate for the rover</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MAX_YAW_RATE/longDesc</name>
+  <message>
+  <source>This parameter is used to cap desired yaw rates and map controller inputs to desired yaw rates in Acro,Stabilized and Position mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_MISS_SPD_DEF/shortDesc</name>
+  <message>
+  <source>Default forward speed for the rover during auto modes</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_SPEED_I/shortDesc</name>
+  <message>
+  <source>Integral gain for closed loop forward speed controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_SPEED_P/shortDesc</name>
+  <message>
+  <source>Proportional gain for closed loop forward speed controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_TRANS_DRV_TRN/shortDesc</name>
+  <message>
+  <source>Yaw error threshhold to switch from driving to spot turning</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_TRANS_DRV_TRN/longDesc</name>
+  <message>
+  <source>This threshold is used for the state machine to switch from driving to turning based on the error between the desired and actual yaw. It is also used as the threshold whether the rover should come to a smooth stop at the next waypoint. This slow down effect is active if the angle between the line segments from prevWP-currWP and currWP-nextWP is smaller then 180 - RD_TRANS_DRV_TRN.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_TRANS_TRN_DRV/shortDesc</name>
+  <message>
+  <source>Yaw error threshhold to switch from spot turning to driving</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_WHEEL_TRACK/shortDesc</name>
+  <message>
+  <source>Wheel track</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_WHEEL_TRACK/longDesc</name>
   <message>
   <source>Distance from the center of the right wheel to the center of the left wheel</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_WHEEL_RADIUS/shortDesc</name>
+  <name>/parameters/RD_YAW_I/shortDesc</name>
   <message>
-  <source>Wheel radius</source>
+  <source>Integral gain for closed loop yaw controller</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_WHEEL_RADIUS/longDesc</name>
+  <name>/parameters/RD_YAW_P/shortDesc</name>
   <message>
-  <source>Size of the wheel, half the diameter of the wheel</source>
+  <source>Proportional gain for closed loop yaw controller</source>
   </message>
 </context>
 <context>
-  <name>/parameters/RDD_WHEEL_SPEED/shortDesc</name>
+  <name>/parameters/RD_YAW_RATE_I/shortDesc</name>
   <message>
-  <source>Maximum wheel speed</source>
+  <source>Integral gain for closed loop yaw rate controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RD_YAW_RATE_P/shortDesc</name>
+  <message>
+  <source>Proportional gain for closed loop yaw rate controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAN_YAW_SCALE/shortDesc</name>
+  <message>
+  <source>Manual yaw rate scale</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAN_YAW_SCALE/longDesc</name>
+  <message>
+  <source>In Manual mode the setpoint for the yaw rate received from the control stick is scaled by this value.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_ACCEL/shortDesc</name>
+  <message>
+  <source>Maximum acceleration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_ACCEL/longDesc</name>
+  <message>
+  <source>Maximum acceleration is used to limit the acceleration of the rover</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_JERK/shortDesc</name>
+  <message>
+  <source>Maximum jerk</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_JERK/longDesc</name>
+  <message>
+  <source>Limit for forwards acc/deceleration change.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_SPEED/shortDesc</name>
+  <message>
+  <source>Maximum speed the rover is allowed to drive</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_SPEED/longDesc</name>
+  <message>
+  <source>This parameter is used cap the maximum speed the rover is allowed to drive and to map stick inputs to desired speeds in position mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_THR_SPD/shortDesc</name>
+  <message>
+  <source>Speed the rover drives at maximum throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_THR_SPD/longDesc</name>
+  <message>
+  <source>This parameter is used to calculate the feedforward term of the closed loop speed control which linearly maps desired speeds to normalized motor commands [-1. 1]. A good starting point is the observed ground speed when the rover drives at maximum throttle in manual mode. Increase this parameter if the rover is faster than the setpoint, and decrease if the rover is slower.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_THR_YAW_R/shortDesc</name>
+  <message>
+  <source>Yaw rate turning left/right wheels at max speed in opposite directions</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_THR_YAW_R/longDesc</name>
+  <message>
+  <source>This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is twice the speed the rover drives at maximum throttle (RM_MAX_THRTL_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_YAW_RATE/shortDesc</name>
+  <message>
+  <source>Maximum allowed yaw rate for the rover</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MAX_YAW_RATE/longDesc</name>
+  <message>
+  <source>This parameter is used to cap desired yaw rates and map controller inputs to desired yaw rates in acro mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MISS_SPD_DEF/shortDesc</name>
+  <message>
+  <source>Default rover speed during a mission</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MISS_VEL_GAIN/shortDesc</name>
+  <message>
+  <source>Tuning parameter for the velocity reduction during waypoint transition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_MISS_VEL_GAIN/longDesc</name>
+  <message>
+  <source>The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More velocity reduction during cornering.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_SPEED_I/shortDesc</name>
+  <message>
+  <source>Integral gain for ground speed controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_SPEED_P/shortDesc</name>
+  <message>
+  <source>Proportional gain for speed controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_WHEEL_TRACK/shortDesc</name>
+  <message>
+  <source>Wheel track</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_WHEEL_TRACK/longDesc</name>
+  <message>
+  <source>Distance from the center of the right wheels to the center of the left wheels.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_YAW_I/shortDesc</name>
+  <message>
+  <source>Integral gain for closed loop yaw controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_YAW_P/shortDesc</name>
+  <message>
+  <source>Proportional gain for closed loop yaw controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_YAW_RATE_I/shortDesc</name>
+  <message>
+  <source>Integral gain for the closed-loop yaw rate controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RM_YAW_RATE_P/shortDesc</name>
+  <message>
+  <source>Proportional gain for the closed-loop yaw rate controller</source>
   </message>
 </context>
 <context>
@@ -60599,7 +67157,7 @@
 <context>
   <name>/parameters/SDLOG_MODE/values/3/description</name>
   <message>
-  <source>depending on AUX1 RC channel</source>
+  <source>while manual input AUX1 &gt;30%</source>
   </message>
 </context>
 <context>
@@ -66921,6 +73479,36 @@
   </message>
 </context>
 <context>
+  <name>/parameters/SENS_EN_AUAVX/shortDesc</name>
+  <message>
+  <source>Amphenol AUAV differential / absolute pressure sensor (external I2C)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_AUAVX/values/0/description</name>
+  <message>
+  <source>Sensor disabled, when explicitly started treated as AUAV L05D</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_AUAVX/values/1/description</name>
+  <message>
+  <source>AUAV L05D</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_AUAVX/values/2/description</name>
+  <message>
+  <source>AUAV L10D</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_AUAVX/values/3/description</name>
+  <message>
+  <source>AUAV L30D</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SENS_EN_BAROSIM/shortDesc</name>
   <message>
   <source>Enable simulated barometer sensor instance</source>
@@ -67348,6 +73936,24 @@
 </context>
 <context>
   <name>/parameters/SENS_EN_PX4FLOW/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_SCH16T/shortDesc</name>
+  <message>
+  <source>Murata SCH16T IMU (external SPI)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_SCH16T/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_EN_SCH16T/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -70983,6 +77589,174 @@
   </message>
 </context>
 <context>
+  <name>/parameters/RC_DSM_PRT_CFG/shortDesc</name>
+  <message>
+  <source>Serial Configuration for DSM RC Input Driver</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/longDesc</name>
+  <message>
+  <source>Configure on which serial port to run DSM RC Input Driver. DSM RC (Spektrum) driver.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/6/description</name>
+  <message>
+  <source>UART 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/101/description</name>
+  <message>
+  <source>TELEM 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/102/description</name>
+  <message>
+  <source>TELEM 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/103/description</name>
+  <message>
+  <source>TELEM 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/104/description</name>
+  <message>
+  <source>TELEM/SERIAL 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/201/description</name>
+  <message>
+  <source>GPS 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/202/description</name>
+  <message>
+  <source>GPS 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/203/description</name>
+  <message>
+  <source>GPS 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/300/description</name>
+  <message>
+  <source>Radio Controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/301/description</name>
+  <message>
+  <source>Wifi Port</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_DSM_PRT_CFG/values/401/description</name>
+  <message>
+  <source>EXT2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/shortDesc</name>
+  <message>
+  <source>Serial Configuration for GHST RC Input Driver</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/longDesc</name>
+  <message>
+  <source>Configure on which serial port to run GHST RC Input Driver. Ghost (GHST) RC driver.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/6/description</name>
+  <message>
+  <source>UART 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/101/description</name>
+  <message>
+  <source>TELEM 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/102/description</name>
+  <message>
+  <source>TELEM 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/103/description</name>
+  <message>
+  <source>TELEM 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/104/description</name>
+  <message>
+  <source>TELEM/SERIAL 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/201/description</name>
+  <message>
+  <source>GPS 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/202/description</name>
+  <message>
+  <source>GPS 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/203/description</name>
+  <message>
+  <source>GPS 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/300/description</name>
+  <message>
+  <source>Radio Controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/301/description</name>
+  <message>
+  <source>Wifi Port</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_GHST_PRT_CFG/values/401/description</name>
+  <message>
+  <source>EXT2</source>
+  </message>
+</context>
+<context>
   <name>/parameters/RC_PORT_CONFIG/shortDesc</name>
   <message>
   <source>Serial Configuration for RC Input Driver</source>
@@ -71062,6 +77836,90 @@
 </context>
 <context>
   <name>/parameters/RC_PORT_CONFIG/values/401/description</name>
+  <message>
+  <source>EXT2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/shortDesc</name>
+  <message>
+  <source>Serial Configuration for SBUS RC Input Driver</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/longDesc</name>
+  <message>
+  <source>Configure on which serial port to run SBUS RC Input Driver. SBUS RC driver.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/6/description</name>
+  <message>
+  <source>UART 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/101/description</name>
+  <message>
+  <source>TELEM 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/102/description</name>
+  <message>
+  <source>TELEM 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/103/description</name>
+  <message>
+  <source>TELEM 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/104/description</name>
+  <message>
+  <source>TELEM/SERIAL 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/201/description</name>
+  <message>
+  <source>GPS 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/202/description</name>
+  <message>
+  <source>GPS 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/203/description</name>
+  <message>
+  <source>GPS 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/300/description</name>
+  <message>
+  <source>Radio Controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/301/description</name>
+  <message>
+  <source>Wifi Port</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RC_SBUS_PRT_CFG/values/401/description</name>
   <message>
   <source>EXT2</source>
   </message>
@@ -73133,7 +79991,7 @@
 <context>
   <name>/parameters/SIH_LOC_LAT0/longDesc</name>
   <message>
-  <source>This value represents the North-South location on Earth where the simulation begins. A value of 45 deg should be written 450000000. LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others to represent a physical ground location on Earth.</source>
+  <source>This value represents the North-South location on Earth where the simulation begins. LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others to represent a physical ground location on Earth.</source>
   </message>
 </context>
 <context>
@@ -73145,7 +80003,7 @@
 <context>
   <name>/parameters/SIH_LOC_LON0/longDesc</name>
   <message>
-  <source>This value represents the East-West location on Earth where the simulation begins. A value of 45 deg should be written 450000000. LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others to represent a physical ground location on Earth.</source>
+  <source>This value represents the East-West location on Earth where the simulation begins. LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others to represent a physical ground location on Earth.</source>
   </message>
 </context>
 <context>
@@ -73608,6 +80466,18 @@
   <name>/parameters/SYS_HITL/values/2/description</name>
   <message>
   <source>SIH enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_PARAM_VER/shortDesc</name>
+  <message>
+  <source>Parameter version</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_PARAM_VER/longDesc</name>
+  <message>
+  <source>This is used internally only: an airframe configuration might set an expected parameter version value via PARAM_DEFAULTS_VER. This is checked on bootup against SYS_PARAM_VER, and if they do not match, parameters are reset and reloaded from the airframe configuration.</source>
   </message>
 </context>
 <context>
@@ -75681,6 +82551,48 @@
   </message>
 </context>
 <context>
+  <name>/parameters/UAVCAN_ECU_FUELT/shortDesc</name>
+  <message>
+  <source>UAVCAN fuel tank fuel type</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/longDesc</name>
+  <message>
+  <source>This parameter defines the type of fuel used in the vehicle's fuel tank. 0: Unknown 1: Liquid (e.g., gasoline, diesel) 2: Gas (e.g., hydrogen, methane, propane)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/values/0/description</name>
+  <message>
+  <source>Unknown</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/values/1/description</name>
+  <message>
+  <source>Liquid</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_FUELT/values/2/description</name>
+  <message>
+  <source>Gas</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_MAXF/shortDesc</name>
+  <message>
+  <source>UAVCAN fuel tank maximum capacity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_ECU_MAXF/longDesc</name>
+  <message>
+  <source>This parameter defines the maximum fuel capacity of the vehicle's fuel tank.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/UAVCAN_ENABLE/shortDesc</name>
   <message>
   <source>UAVCAN mode</source>
@@ -76114,6 +83026,30 @@
 </context>
 <context>
   <name>/parameters/UAVCAN_SUB_FLOW/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/shortDesc</name>
+  <message>
+  <source>subscription fuel tank</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/longDesc</name>
+  <message>
+  <source>Enable UAVCAN fuel tank status subscription.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UAVCAN_SUB_FUEL/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
@@ -77805,6 +84741,846 @@
   </message>
 </context>
 <context>
+  <name>/parameters/VERTIQ_IO_CFG/shortDesc</name>
+  <message>
+  <source>Serial Configuration for Vertiq IO</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/longDesc</name>
+  <message>
+  <source>Configure on which serial port to run Vertiq IO.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/6/description</name>
+  <message>
+  <source>UART 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/101/description</name>
+  <message>
+  <source>TELEM 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/102/description</name>
+  <message>
+  <source>TELEM 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/103/description</name>
+  <message>
+  <source>TELEM 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/104/description</name>
+  <message>
+  <source>TELEM/SERIAL 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/201/description</name>
+  <message>
+  <source>GPS 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/202/description</name>
+  <message>
+  <source>GPS 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/203/description</name>
+  <message>
+  <source>GPS 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/300/description</name>
+  <message>
+  <source>Radio Controller</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/301/description</name>
+  <message>
+  <source>Wifi Port</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VERTIQ_IO_CFG/values/401/description</name>
+  <message>
+  <source>EXT2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_ARM_BEHAVE/shortDesc</name>
+  <message>
+  <source>The triggered behavior on PX4 arm</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_ARM_BEHAVE/longDesc</name>
+  <message>
+  <source>The behavior triggered when the flight controller arms. You have the option to use your motors' arming behaviors, or to force all of your motors to arm</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_ARM_BEHAVE/values/0/description</name>
+  <message>
+  <source>Use Motor Arm Behavior</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_ARM_BEHAVE/values/1/description</name>
+  <message>
+  <source>Send Explicit Arm Command</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_BAUD/shortDesc</name>
+  <message>
+  <source>The IQUART driver's baud rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_BAUD/longDesc</name>
+  <message>
+  <source>The baud rate (in bits per second) used by the serial port connected with IQUART communication</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_CONTROL_MODE/shortDesc</name>
+  <message>
+  <source>Module Param - The module's control mechanism</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_CONTROL_MODE/longDesc</name>
+  <message>
+  <source>PWM Mode: Commands a fraction of battery voltage. This changes as the battery voltage changes. This is the least safe mode because the upper throttle limit is determined by the battery voltage. Voltage Mode: Commands a voltage. The motor will behave the same way throughout the life of a battery, assuming the commanded voltage is less than the battery voltage. You must set the MAX_VOLTS parameter. Velocity Mode: Closed-loop, commands a velocity. The controller will adjust the applied voltage so that the motor spins at the commanded velocity. This mode has faster reaction times. Only use this if you know the properties of your propeller. You must set the MAX_VELOCITY parameter.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_CONTROL_MODE/values/0/description</name>
+  <message>
+  <source>PWM</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_CONTROL_MODE/values/1/description</name>
+  <message>
+  <source>Voltage</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_CONTROL_MODE/values/2/description</name>
+  <message>
+  <source>Velocity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_DISARM_TRIG/shortDesc</name>
+  <message>
+  <source>The triggered behavior sent to the motors on PX4 disarm</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_DISARM_TRIG/longDesc</name>
+  <message>
+  <source>The behavior triggered when the flight controller disarms. You have the option to trigger your motors' disarm behaviors, set all motors to coast, or set a predefined throttle setpoint</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_DISARM_TRIG/values/0/description</name>
+  <message>
+  <source>Send Explicit Disarm</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_DISARM_TRIG/values/1/description</name>
+  <message>
+  <source>Coast Motors</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_DISARM_TRIG/values/2/description</name>
+  <message>
+  <source>Set Predefined Velocity Setpoint</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_DISARM_VELO/shortDesc</name>
+  <message>
+  <source>Velocity sent when DISARM_TRIGGER is Set Predefined Velocity Setpoint</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_DISARM_VELO/longDesc</name>
+  <message>
+  <source>This is the velocity that will be sent to all motors when PX4 is disarmed and DISARM_TRIGGER is Set Predefined Velocity Setpoint</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_FC_DIR/shortDesc</name>
+  <message>
+  <source>Module Param - If the flight controller uses 2D or 3D communication</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_FC_DIR/longDesc</name>
+  <message>
+  <source>The FC and the ESC must agree upon the meaning of the signal coming out of the ESC. When FCs are in 3D mode they re-map negative signals. This parameter keeps the FC and ESC in agreement.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_FC_DIR/values/0/description</name>
+  <message>
+  <source>2D</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_FC_DIR/values/1/description</name>
+  <message>
+  <source>3D</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MAX_VELOCITY/shortDesc</name>
+  <message>
+  <source>Module Param - Maximum velocity when CONTROL_MODE is set to Velocity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MAX_VELOCITY/longDesc</name>
+  <message>
+  <source>Only relevant in Velocity Mode. This is the velocity the controller will command at full throttle.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MAX_VOLTS/shortDesc</name>
+  <message>
+  <source>Module Param - Maximum voltage when CONTROL_MODE is set to Voltage</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MAX_VOLTS/longDesc</name>
+  <message>
+  <source>Only relevant in Voltage Mode. This is the voltage the controller will command at full throttle.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MOTOR_DIR/shortDesc</name>
+  <message>
+  <source>Module Param - The direction that the module should spin</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MOTOR_DIR/longDesc</name>
+  <message>
+  <source>Set the targeted motor's spinning direction (clockwise vs. counter clockwise) and flight mode (2D non-reversible vs. 3D reversible)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MOTOR_DIR/values/0/description</name>
+  <message>
+  <source>Unconfigured</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MOTOR_DIR/values/1/description</name>
+  <message>
+  <source>3D Counter Clockwise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MOTOR_DIR/values/2/description</name>
+  <message>
+  <source>3D Clockwise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MOTOR_DIR/values/3/description</name>
+  <message>
+  <source>2D Counter Clockwise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_MOTOR_DIR/values/4/description</name>
+  <message>
+  <source>2D Clockwise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_NUM_CVS/shortDesc</name>
+  <message>
+  <source>The number of Vertiq IFCI parameters to use</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_NUM_CVS/longDesc</name>
+  <message>
+  <source>The total number of IFCI control variables being used across all connected modules</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_PULSE_V_LIM/shortDesc</name>
+  <message>
+  <source>Module Param - Max pulsing voltage limit when in Voltage Limit Mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_PULSE_V_LIM/longDesc</name>
+  <message>
+  <source>This sets the max pulsing voltage limit when in Voltage Limit Mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_PULSE_V_MODE/shortDesc</name>
+  <message>
+  <source>Module Param - 0 = Supply Voltage Mode, 1 = Voltage Limit Mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_PULSE_V_MODE/longDesc</name>
+  <message>
+  <source>Supply Voltage Mode means that the maximum voltage applied to pulsing is the supplied voltage. Voltage Limit Mode indicates that PULSE_VOLT_LIM is the maximum allowed voltage to apply towards pulsing.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_PULSE_V_MODE/values/0/description</name>
+  <message>
+  <source>Supply Voltage Mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_PULSE_V_MODE/values/1/description</name>
+  <message>
+  <source>Voltage Limit Mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_REDO_READ/shortDesc</name>
+  <message>
+  <source>Reinitialize the target module's values into the PX4 parameters</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_REDO_READ/longDesc</name>
+  <message>
+  <source>Setting this value to true will reinitialize PX4's IQUART connected parameters to the value stored on the currently targeted motor. This is especially useful if your flight controller powered on before your connected modules</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_REDO_READ/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_REDO_READ/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/shortDesc</name>
+  <message>
+  <source>Module IDs [0, 31] that you would like to request telemetry from</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/longDesc</name>
+  <message>
+  <source>The module IDs [0, 31] that should be asked for telemetry. The data received from these IDs will be published via the esc_status topic.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/0/description</name>
+  <message>
+  <source>Module ID 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/1/description</name>
+  <message>
+  <source>Module ID 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/2/description</name>
+  <message>
+  <source>Module ID 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/3/description</name>
+  <message>
+  <source>Module ID 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/4/description</name>
+  <message>
+  <source>Module ID 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/5/description</name>
+  <message>
+  <source>Module ID 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/6/description</name>
+  <message>
+  <source>Module ID 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/7/description</name>
+  <message>
+  <source>Module ID 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/8/description</name>
+  <message>
+  <source>Module ID 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/9/description</name>
+  <message>
+  <source>Module ID 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/10/description</name>
+  <message>
+  <source>Module ID 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/11/description</name>
+  <message>
+  <source>Module ID 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/12/description</name>
+  <message>
+  <source>Module ID 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/13/description</name>
+  <message>
+  <source>Module ID 13</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/14/description</name>
+  <message>
+  <source>Module ID 14</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/15/description</name>
+  <message>
+  <source>Module ID 15</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/16/description</name>
+  <message>
+  <source>Module ID 16</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/17/description</name>
+  <message>
+  <source>Module ID 17</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/18/description</name>
+  <message>
+  <source>Module ID 18</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/19/description</name>
+  <message>
+  <source>Module ID 19</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/20/description</name>
+  <message>
+  <source>Module ID 20</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/21/description</name>
+  <message>
+  <source>Module ID 21</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/22/description</name>
+  <message>
+  <source>Module ID 22</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/23/description</name>
+  <message>
+  <source>Module ID 23</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/24/description</name>
+  <message>
+  <source>Module ID 24</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/25/description</name>
+  <message>
+  <source>Module ID 25</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/26/description</name>
+  <message>
+  <source>Module ID 26</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/27/description</name>
+  <message>
+  <source>Module ID 27</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/28/description</name>
+  <message>
+  <source>Module ID 28</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/29/description</name>
+  <message>
+  <source>Module ID 29</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/30/description</name>
+  <message>
+  <source>Module ID 30</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_1/bitmask/31/description</name>
+  <message>
+  <source>Module ID 31</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/shortDesc</name>
+  <message>
+  <source>Module IDs [32, 62] that you would like to request telemetry from</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/longDesc</name>
+  <message>
+  <source>The module IDs [32, 62] that should be asked for telemetry. The data received from these IDs will be published via the esc_status topic.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/32/description</name>
+  <message>
+  <source>Module ID 32</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/33/description</name>
+  <message>
+  <source>Module ID 33</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/34/description</name>
+  <message>
+  <source>Module ID 34</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/35/description</name>
+  <message>
+  <source>Module ID 35</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/36/description</name>
+  <message>
+  <source>Module ID 36</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/37/description</name>
+  <message>
+  <source>Module ID 37</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/38/description</name>
+  <message>
+  <source>Module ID 38</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/39/description</name>
+  <message>
+  <source>Module ID 39</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/40/description</name>
+  <message>
+  <source>Module ID 40</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/41/description</name>
+  <message>
+  <source>Module ID 41</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/42/description</name>
+  <message>
+  <source>Module ID 42</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/43/description</name>
+  <message>
+  <source>Module ID 43</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/44/description</name>
+  <message>
+  <source>Module ID 44</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/45/description</name>
+  <message>
+  <source>Module ID 45</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/46/description</name>
+  <message>
+  <source>Module ID 46</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/47/description</name>
+  <message>
+  <source>Module ID 47</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/48/description</name>
+  <message>
+  <source>Module ID 48</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/49/description</name>
+  <message>
+  <source>Module ID 49</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/50/description</name>
+  <message>
+  <source>Module ID 50</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/51/description</name>
+  <message>
+  <source>Module ID 51</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/52/description</name>
+  <message>
+  <source>Module ID 52</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/53/description</name>
+  <message>
+  <source>Module ID 53</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/54/description</name>
+  <message>
+  <source>Module ID 54</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/55/description</name>
+  <message>
+  <source>Module ID 55</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/56/description</name>
+  <message>
+  <source>Module ID 56</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/57/description</name>
+  <message>
+  <source>Module ID 57</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/58/description</name>
+  <message>
+  <source>Module ID 58</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/59/description</name>
+  <message>
+  <source>Module ID 59</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/60/description</name>
+  <message>
+  <source>Module ID 60</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/61/description</name>
+  <message>
+  <source>Module ID 61</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TELEM_IDS_2/bitmask/62/description</name>
+  <message>
+  <source>Module ID 62</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_THROTTLE_CVI/shortDesc</name>
+  <message>
+  <source>Module Param - The module's Throttle Control Value Index</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_THROTTLE_CVI/longDesc</name>
+  <message>
+  <source>This represents the Control Value Index where the targeted module will look for throttle commands</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TQUE_OFF_ANG/shortDesc</name>
+  <message>
+  <source>Module Param - Offsets pulse angle to allow for mechanical properties</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TQUE_OFF_ANG/longDesc</name>
+  <message>
+  <source>This offsets where the pulse starts around the motor to allow for propeller mechanical properties.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TRGT_MOD_ID/shortDesc</name>
+  <message>
+  <source>The Module ID of the module you would like to communicate with</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_TRGT_MOD_ID/longDesc</name>
+  <message>
+  <source>This is the value used as the target module ID of all configuration parameters (not operational parameters). The Vertiq module with the module ID matching this value will react to all get and set requests from PX4. Any Vertiq client made with dynamic object IDs should use this value to instantiate itself.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_VELO_CUTOFF/shortDesc</name>
+  <message>
+  <source>Module Param - The minimum velocity required to allow pulsing</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_VELO_CUTOFF/longDesc</name>
+  <message>
+  <source>This is the velocity at which pulsing is allowed. Any velocity between VELOCITY_CUTOFF and -VELOCITY_CUTOFF will not pulse.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_X_CVI/shortDesc</name>
+  <message>
+  <source>Module Param - CVI for the X rectangular coordinate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_X_CVI/longDesc</name>
+  <message>
+  <source>This represents the Control Value Index where the targeted module will look for the X rectangular coordinate.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_Y_CVI/shortDesc</name>
+  <message>
+  <source>Module Param - CVI for the Y rectangular coordinate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_Y_CVI/longDesc</name>
+  <message>
+  <source>This represents the Control Value Index where the targeted module will look for the Y rectangular coordinate.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_ZERO_ANGLE/shortDesc</name>
+  <message>
+  <source>Module Param - The encoder angle at which theta is zero</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTQ_ZERO_ANGLE/longDesc</name>
+  <message>
+  <source>The encoder angle at which theta is zero. Adjust this number to change the location of 0 phase when pulsing.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/ZENOH_ENABLE/shortDesc</name>
   <message>
   <source>Zenoh Enable</source>
@@ -77814,6 +85590,138 @@
   <name>/parameters/ZENOH_ENABLE/longDesc</name>
   <message>
   <source>Zenoh</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/shortDesc</name>
+  <message>
+  <source>Accel filter settings</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/0/description</name>
+  <message>
+  <source>13 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/1/description</name>
+  <message>
+  <source>30 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/2/description</name>
+  <message>
+  <source>68 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/3/description</name>
+  <message>
+  <source>235 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/4/description</name>
+  <message>
+  <source>280 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/5/description</name>
+  <message>
+  <source>370 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_ACC_FILT/values/6/description</name>
+  <message>
+  <source>No filter</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/shortDesc</name>
+  <message>
+  <source>Gyro and Accel decimation settings</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/1/description</name>
+  <message>
+  <source>5900 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/2/description</name>
+  <message>
+  <source>2950 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/3/description</name>
+  <message>
+  <source>1475 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_DECIM/values/4/description</name>
+  <message>
+  <source>738 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/shortDesc</name>
+  <message>
+  <source>Gyro filter settings</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/0/description</name>
+  <message>
+  <source>13 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/1/description</name>
+  <message>
+  <source>30 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/2/description</name>
+  <message>
+  <source>68 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/3/description</name>
+  <message>
+  <source>235 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/4/description</name>
+  <message>
+  <source>280 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/5/description</name>
+  <message>
+  <source>370 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SCH16T_GYRO_FILT/values/6/description</name>
+  <message>
+  <source>No filter</source>
   </message>
 </context>
 <context>
@@ -77837,7 +85745,7 @@
 <context>
   <name>/parameters/SF1XX_MODE/values/2/description</name>
   <message>
-  <source>Disabled during VTOL fast forward flight</source>
+  <source>Enabled in VTOL MC mode, listen to request from system in FW mode</source>
   </message>
 </context>
 <context>
@@ -77859,12 +85767,6 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Developer</name>
-  <message>
-  <source>Developer</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/System</name>
   <message>
   <source>System</source>
@@ -77877,69 +85779,27 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Camera trigger</name>
+  <name>$globals/category/Developer</name>
   <message>
-  <source>Camera trigger</source>
+  <source>Developer</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Roboclaw</name>
+  <name>$globals/group/Pure Pursuit</name>
   <message>
-  <source>Roboclaw</source>
+  <source>Pure Pursuit</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Battery Calibration</name>
+  <name>$globals/group/Rover Ackermann</name>
   <message>
-  <source>Battery Calibration</source>
+  <source>Rover Ackermann</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Runway Takeoff</name>
+  <name>$globals/group/Vertiq IO</name>
   <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VOXL ESC</name>
-  <message>
-  <source>VOXL ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Serial</name>
-  <message>
-  <source>Serial</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
+  <source>Vertiq IO</source>
   </message>
 </context>
 <context>
@@ -77949,141 +85809,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Precision Land</name>
+  <name>$globals/group/Land Detector</name>
   <message>
-  <source>Precision Land</source>
+  <source>Land Detector</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FlightTaskOrbit</name>
+  <name>$globals/group/Events</name>
   <message>
-  <source>FlightTaskOrbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ModalAI Custom Configuration</name>
-  <message>
-  <source>ModalAI Custom Configuration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Capture</name>
-  <message>
-  <source>Camera Capture</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control</name>
-  <message>
-  <source>Rover Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN</name>
-  <message>
-  <source>UAVCAN</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Payload Deliverer</name>
-  <message>
-  <source>Payload Deliverer</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Telemetry</name>
-  <message>
-  <source>Telemetry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UXRCE-DDS Client</name>
-  <message>
-  <source>UXRCE-DDS Client</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Septentrio</name>
-  <message>
-  <source>Septentrio</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
-  <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Launch detection</name>
-  <message>
-  <source>FW Launch detection</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
+  <source>Events</source>
   </message>
 </context>
 <context>
@@ -78093,243 +85827,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/RC Input</name>
+  <name>$globals/group/Thermal Compensation</name>
   <message>
-  <source>RC Input</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Transponder</name>
-  <message>
-  <source>Transponder</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Zenoh</name>
-  <message>
-  <source>Zenoh</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UWB</name>
-  <message>
-  <source>UWB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Acro Mode</name>
-  <message>
-  <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Cyphal</name>
-  <message>
-  <source>Cyphal</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Roboclaw Driver</name>
-  <message>
-  <source>Roboclaw Driver</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera Control</name>
-  <message>
-  <source>Camera Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/DShot</name>
-  <message>
-  <source>DShot</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Differential Drive</name>
-  <message>
-  <source>Rover Differential Drive</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/RC</name>
-  <message>
-  <source>RC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Actuator Outputs</name>
-  <message>
-  <source>Actuator Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ESC</name>
-  <message>
-  <source>ESC</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VOXL2 IO</name>
-  <message>
-  <source>VOXL2 IO</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/CDCACM</name>
-  <message>
-  <source>CDCACM</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
+  <source>Thermal Compensation</source>
   </message>
 </context>
 <context>
@@ -78339,69 +85839,99 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Magnetometer Bias Estimator</name>
   <message>
   <source>Magnetometer Bias Estimator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN GNSS</name>
+  <name>$globals/group/Mixer Output</name>
   <message>
-  <source>UAVCAN GNSS</source>
+  <source>Mixer Output</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/PWM Outputs</name>
+  <name>$globals/group/MAVLink</name>
   <message>
-  <source>PWM Outputs</source>
+  <source>MAVLink</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Thermal Compensation</name>
+  <name>$globals/group/UAVCAN</name>
   <message>
-  <source>Thermal Compensation</source>
+  <source>UAVCAN</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UUV Position Control</name>
+  <name>$globals/group/Serial</name>
   <message>
-  <source>UUV Position Control</source>
+  <source>Serial</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Auto Landing</name>
+  <name>$globals/group/FW Performance</name>
   <message>
-  <source>FW Auto Landing</source>
+  <source>FW Performance</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Attitude Control</name>
+  <name>$globals/group/Actuator Outputs</name>
   <message>
-  <source>Multicopter Attitude Control</source>
+  <source>Actuator Outputs</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Return Mode</name>
+  <name>$globals/group/SD Logging</name>
   <message>
-  <source>Return Mode</source>
+  <source>SD Logging</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Rate Control</name>
+  <name>$globals/group/Septentrio</name>
   <message>
-  <source>Multicopter Rate Control</source>
+  <source>Septentrio</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
   </message>
 </context>
 <context>
@@ -78411,9 +85941,417 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/SD Logging</name>
+  <name>$globals/group/Roboclaw Driver</name>
   <message>
-  <source>SD Logging</source>
+  <source>Roboclaw Driver</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera trigger</name>
+  <message>
+  <source>Camera trigger</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulator</name>
+  <message>
+  <source>Simulator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Attitude Control</name>
+  <message>
+  <source>FW Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Transponder</name>
+  <message>
+  <source>Transponder</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VOXL2 IO</name>
+  <message>
+  <source>VOXL2 IO</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/RC Input</name>
+  <message>
+  <source>RC Input</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/CDCACM</name>
+  <message>
+  <source>CDCACM</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Differential</name>
+  <message>
+  <source>Rover Differential</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UWB</name>
+  <message>
+  <source>UWB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control</name>
+  <message>
+  <source>Rover Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VOXL ESC</name>
+  <message>
+  <source>VOXL ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UXRCE-DDS Client</name>
+  <message>
+  <source>UXRCE-DDS Client</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Control</name>
+  <message>
+  <source>Camera Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Zenoh</name>
+  <message>
+  <source>Zenoh</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ESC</name>
+  <message>
+  <source>ESC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Roboclaw</name>
+  <message>
+  <source>Roboclaw</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ModalAI Custom Configuration</name>
+  <message>
+  <source>ModalAI Custom Configuration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Telemetry</name>
+  <message>
+  <source>Telemetry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/RC</name>
+  <message>
+  <source>RC</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer</name>
+  <message>
+  <source>Magnetometer</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Testing</name>
+  <message>
+  <source>Testing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Path Control</name>
+  <message>
+  <source>FW Path Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <message>
+  <source>Multicopter Position Slow Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera Capture</name>
+  <message>
+  <source>Camera Capture</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Flight Task Orbit</name>
+  <message>
+  <source>Flight Task Orbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Cyphal</name>
+  <message>
+  <source>Cyphal</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Launch detection</name>
+  <message>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Payload Deliverer</name>
+  <message>
+  <source>Payload Deliverer</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Mecanum</name>
+  <message>
+  <source>Rover Mecanum</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/DShot</name>
+  <message>
+  <source>DShot</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
   </message>
 </context>
 </TS>
