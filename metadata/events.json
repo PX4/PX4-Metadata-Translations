@@ -189,8 +189,8 @@
               "name": "transition_to_standby"
             },
             "1": {
-              "description": "Stick gesture",
-              "name": "stick_gesture"
+              "description": "RC",
+              "name": "rc_stick"
             },
             "10": {
               "description": "failure detector",
@@ -213,7 +213,7 @@
               "name": "failsafe"
             },
             "2": {
-              "description": "RC switch",
+              "description": "RC (switch)",
               "name": "rc_switch"
             },
             "3": {
@@ -289,8 +289,8 @@
               "name": "voltage_spikes"
             },
             "10": {
-              "description": "Battery failed to arm",
-              "name": "failed_to_arm"
+              "description": "Battery is over-heating",
+              "name": "over_temperature"
             },
             "2": {
               "description": "One or more battery cells have failed",
@@ -302,14 +302,14 @@
             },
             "4": {
               "description": "Battery has reached a critical temperature which can result in a critical failure",
-              "name": "over_temperature"
+              "name": "fault_temperature"
             },
             "5": {
               "description": "Battery temperature is below operating range",
               "name": "under_temperature"
             },
             "6": {
-              "description": "Voltage mismatch, use equally charged batteries",
+              "description": "Vehicle voltage is not compatible with battery one",
               "name": "incompatible_voltage"
             },
             "7": {
@@ -323,6 +323,24 @@
             "9": {
               "description": "Battery reported an hardware problem",
               "name": "hardware_fault"
+            }
+          },
+          "type": "uint8_t"
+        },
+        "battery_mode_t": {
+          "description": "Smart battery modes of operation",
+          "entries": {
+            "0": {
+              "description": "unknown",
+              "name": "unknown"
+            },
+            "1": {
+              "description": "auto discharging towards storage level",
+              "name": "autodischarging"
+            },
+            "2": {
+              "description": "hot-swap",
+              "name": "hotswap"
             }
           },
           "type": "uint8_t"
@@ -1027,6 +1045,29 @@
               "description": "<profile name=\"dev\"> This check can be configured via <param>EKF2_GPS_CHECK</param> parameter.\n</profile>",
               "message": "GPS Vertical Position Drift too high",
               "name": "check_estimator_gps_vert_pos_drift_too_high"
+            },
+            "11973889": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "float"
+                },
+                {
+                  "name": "arg1",
+                  "type": "float"
+                }
+              ],
+              "description": "<profile name=\"dev\"> Test ratio: {3:.3}, limit: {4:.3}.\n\nThis check can be configured via <param>COM_ARM_EKF_VEL</param> parameter.\n</profile>",
+              "message": "Velocity estimate error",
+              "name": "check_estimator_vel_est_err"
             },
             "12276004": {
               "arguments": [
@@ -1970,6 +2011,29 @@
               "message": "No connection to the ground control station",
               "name": "check_rc_dl_no_dllink"
             },
+            "6952872": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "float"
+                },
+                {
+                  "name": "arg1",
+                  "type": "float"
+                }
+              ],
+              "description": "<profile name=\"dev\"> Test ratio: {3:.3}, limit: {4:.3}.\n\nThis check can be configured via <param>COM_ARM_EKF_POS</param> parameter.\n</profile>",
+              "message": "Position estimate error",
+              "name": "check_estimator_pos_est_err"
+            },
             "6979701": {
               "arguments": [
                 {
@@ -2074,20 +2138,6 @@
               "message": "Vehicle is in safety configuration",
               "name": "check_armable_configuration"
             },
-            "810921": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "message": "Waypoint above maximum height",
-              "name": "check_navigator_failure_hagl"
-            },
             "8441780": {
               "arguments": [
                 {
@@ -2159,21 +2209,6 @@
               "message": "GPS reports multiple spoofing indicated",
               "name": "check_estimator_gps_multiple_spoofing_indicated"
             },
-            "8713942": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>EKF2_GPS_CHECK</param> parameter.\n</profile>",
-              "message": "GPS signal spoofed",
-              "name": "check_estimator_gps_spoofed"
-            },
             "8902208": {
               "arguments": [
                 {
@@ -2187,6 +2222,29 @@
               ],
               "message": "Horizontal velocity unstable",
               "name": "check_estimator_hor_vel_not_stable"
+            },
+            "9028597": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "float"
+                },
+                {
+                  "name": "arg1",
+                  "type": "float"
+                }
+              ],
+              "description": "<profile name=\"dev\"> Test ratio: {3:.3}, limit: {4:.3}.\n\nThis check can be configured via <param>COM_ARM_EKF_HGT</param> parameter.\n</profile>",
+              "message": "Height estimate error",
+              "name": "check_estimator_hgt_est_err"
             },
             "9077977": {
               "arguments": [
@@ -2247,6 +2305,29 @@
               "message": "High Gyro Bias",
               "name": "check_estimator_high_gyro_bias"
             },
+            "9581033": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "float"
+                },
+                {
+                  "name": "arg1",
+                  "type": "float"
+                }
+              ],
+              "description": "<profile name=\"dev\"> Test ratio: {3:.3}, limit: {4:.3}.\n\nThis check can be configured via <param>COM_ARM_EKF_YAW</param> parameter.\n</profile>",
+              "message": "Yaw estimate error",
+              "name": "check_estimator_yaw_est_err"
+            },
             "9608226": {
               "arguments": [
                 {
@@ -2289,20 +2370,6 @@
               "description": "Make sure the gyroscope is providing valid data.",
               "message": "Angular velocity not valid",
               "name": "check_modes_angular_velocity"
-            },
-            "9697819": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "message": "Horizontal position unstable",
-              "name": "check_estimator_hor_pos_not_stable"
             },
             "9815168": {
               "arguments": [
@@ -2546,6 +2613,20 @@
               "message": "Mission: Unable to read from storage",
               "name": "mavlink_mission_storage_read_failure"
             },
+            "11675604": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint32_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint32_t"
+                }
+              ],
+              "message": "First waypoint too far away: {1m} (maximum: {2m})",
+              "name": "navigator_mis_first_wp_too_far"
+            },
             "11724756": {
               "arguments": [
                 {
@@ -2643,10 +2724,6 @@
               "message": "Landing aborted: terrain measurement not found",
               "name": "fixedwing_position_control_landing_abort_status_terrain_not_found"
             },
-            "12306507": {
-              "message": "Target altitude higher than max HAGL",
-              "name": "navigator_fail_max_hagl"
-            },
             "12320347": {
               "message": "Primary airspeed index bigger than number connected sensors, taking last sensor",
               "name": "airspeed_selector_prim_too_high"
@@ -2670,22 +2747,6 @@
             "12768213": {
               "message": "Mission rejected: more than one land start commands",
               "name": "navigator_mis_multiple_land"
-            },
-            "12770418": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "px4::failsafe_action_t"
-                }
-              ],
-              "description": "Failsafe actions that disengage the autopilot (remove position control)",
-              "message": "Failsafe activated: Autopilot disengaged, switching to {2}",
-              "name": "commander_failsafe_enter_autopilot_disengaged",
-              "type": "append_health_and_arming_messages"
             },
             "12815955": {
               "message": "SET_POSITION_TARGET_LOCAL_NED: FORCE is not supported",
@@ -2869,13 +2930,18 @@
                   "type": "px4::failsafe_action_t"
                 }
               ],
-              "message": "Failsafe activated: switching to {2}",
+              "message": "Failsafe activated: Autopilot disengaged, switching to {2}",
               "name": "commander_failsafe_enter_generic",
               "type": "append_health_and_arming_messages"
             },
             "14699175": {
               "message": "GNSS data fusion stopped",
               "name": "check_estimator_gnss_fusion_stopped"
+            },
+            "15007151": {
+              "description": "<param>MAN_ARM_GESTURE</param> is now set to disable arm/disarm stick gesture.",
+              "message": "Arm stick gesture disabled if arm switch in use",
+              "name": "rc_update_arm_stick_gesture_disabled_with_switch"
             },
             "15098248": {
               "arguments": [
@@ -2997,10 +3063,6 @@
               ],
               "message": "Disarmed by {1}",
               "name": "commander_disarmed_by"
-            },
-            "1604295": {
-              "message": "Terrain collision risk, descent is stopped",
-              "name": "navigator_terrain_collision_risk"
             },
             "16048801": {
               "arguments": [
@@ -3456,17 +3518,6 @@
               "message": "No airspeed sensor detected, switching to non-airspeed mode",
               "name": "airspeed_selector_switch"
             },
-            "5314313": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>MIS_DIST_1WP</param> parameter.\n</profile>",
-              "message": "First waypoint far away from Home: {1m} Correct mission loaded?",
-              "name": "navigator_mis_first_wp_far"
-            },
             "5334836": {
               "message": "Hardware fault: GPS PPS disabled",
               "name": "pps_capture_pps_rate_exceeded"
@@ -3571,11 +3622,6 @@
             "613779": {
               "message": "Mission rejected: unsupported landing approach entrance waypoint type. Only ORBIT_TO_ALT or WAYPOINT allowed",
               "name": "navigator_mis_unsupported_landing_approach_wp"
-            },
-            "621270": {
-              "description": "<param>MAN_ARM_GESTURE</param> is now set to disable arm/disarm stick gesture.",
-              "message": "Arm stick gesture disabled if arm switch in use",
-              "name": "stick_gesture_disabled_by_arm_switch"
             },
             "6349555": {
               "message": "Calibration: Restoring RC input",
@@ -3830,10 +3876,6 @@
               "message": "Unexpected waypoint index, aborting mission transfer",
               "name": "mavlink_mission_wp_unexpected2"
             },
-            "9180535": {
-              "message": "GNSS signal spoofed",
-              "name": "check_estimator_gnss_warning_spoofing"
-            },
             "929525": {
               "description": "Switch to manual mode recommended.\n\n<profile name=\"dev\"> This warning is triggered when the position error estimate is 90% of (or only 10m below) <param>COM_POS_FS_EPH</param> parameter.\n</profile>",
               "message": "Estimated position error is approaching the failsafe threshold",
@@ -3908,10 +3950,6 @@
               "message": "Pilot took over using sticks",
               "name": "failsafe_rc_override"
             },
-            "9621455": {
-              "message": "5V overcurrent detected, landing advised",
-              "name": "check_power_oc_report"
-            },
             "9751178": {
               "arguments": [
                 {
@@ -3942,25 +3980,6 @@
         },
         "health": {
           "events": {
-            "10318274": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Make sure all required batteries are connected.",
-              "message": "Battery {3} missing",
-              "name": "check_battery_missing"
-            },
             "1058956": {
               "arguments": [
                 {
@@ -4009,7 +4028,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "Make sure all batteries are operational.",
+              "description": "Make sure all batteries are connected and operational.",
               "message": "Battery unhealthy",
               "name": "check_battery_unhealthy"
             },
@@ -4046,25 +4065,6 @@
               "description": "<profile name=\"dev\"> This check can be configured via <param>SYS_HAS_NUM_DIST</param> parameter.\n</profile>",
               "message": "Distance sensor {3} missing",
               "name": "check_distance_sensor_missing"
-            },
-            "14421482": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "float"
-                }
-              ],
-              "description": "The RAM usage can be reduced for example by disabling unused modules (e.g. mavlink instances).\n\n<profile name=\"dev\"> The threshold can be adjusted via <param>COM_RAM_MAX</param> parameter.\n</profile>",
-              "message": "RAM usage too high: {3:.1}%",
-              "name": "check_ram_usage_too_high"
             },
             "14566046": {
               "arguments": [
@@ -4147,9 +4147,13 @@
                 {
                   "name": "arg2",
                   "type": "px4::suggested_action_t"
+                },
+                {
+                  "name": "arg3",
+                  "type": "uint32_t"
                 }
               ],
-              "description": "The battery reported a failure which might be dangerous to fly with.",
+              "description": "The battery reported a failure which might be dangerous to fly with. Manufacturer error code: {6}",
               "message": "Battery {3}: {4}. {5}",
               "name": "check_battery_fault"
             },
@@ -4345,7 +4349,7 @@
               "message": "Barometer {3} missing",
               "name": "check_baro_missing"
             },
-            "5699115": {
+            "5623109": {
               "arguments": [
                 {
                   "name": "modes",
@@ -4354,11 +4358,18 @@
                 {
                   "name": "health_component_index",
                   "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "px4::battery_mode_t"
                 }
               ],
-              "description": "Check the power supply",
-              "message": "Overcurrent detected for the peripheral 5V supply",
-              "name": "check_power_oc_periph"
+              "message": "Battery {3} mode: {4}",
+              "name": "check_battery_mode"
             },
             "6410608": {
               "arguments": [
@@ -4419,21 +4430,6 @@
               "description": "{5}\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_CHK_ESCS</param> parameter.\n</profile>",
               "message": "ESC {3}: {4}",
               "name": "check_escs_fault"
-            },
-            "6962647": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Check the power supply",
-              "message": "Overcurrent detected for the hipower 5V supply",
-              "name": "check_power_oc_hipower"
             },
             "7214714": {
               "arguments": [
@@ -4560,8 +4556,8 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> If the system does not provide any CPU and RAM load information, use the parameters <param>COM_CPU_MAX</param> and <param>COM_RAM_MAX</param> to disable the checks.\n</profile>",
-              "message": "No CPU and RAM load information",
+              "description": "<profile name=\"dev\"> If the system does not provide any CPU load information, use the parameter <param>COM_CPU_MAX</param> to disable the check.\n</profile>",
+              "message": "No CPU load information",
               "name": "check_missing_cpuload"
             },
             "9493632": {
