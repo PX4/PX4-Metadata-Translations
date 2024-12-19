@@ -11903,7 +11903,7 @@
 <context>
   <name>/parameters/FW_LND_USETER/longDesc</name>
   <message>
-  <source>This is critical for detecting when to flare, and should be enabled if possible. NOTE: terrain estimate is currently solely derived from a distance sensor. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
+  <source>This is critical for detecting when to flare, and should be enabled if possible. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
   </message>
 </context>
 <context>
@@ -12017,7 +12017,7 @@
 <context>
   <name>/parameters/NPFG_DAMPING/longDesc</name>
   <message>
-  <source>Damping ratio of the NPFG control law.</source>
+  <source>Damping ratio of NPFG control law.</source>
   </message>
 </context>
 <context>
@@ -12059,7 +12059,7 @@
 <context>
   <name>/parameters/NPFG_LB_PERIOD/longDesc</name>
   <message>
-  <source>Avoids limit cycling from a too aggressively tuned period/damping combination. If set to false, also disables the upper bound NPFG_PERIOD_UB.</source>
+  <source>Avoids limit cycling from a too aggressively tuned period/damping combination. If false, also disables upper bound NPFG_PERIOD_UB.</source>
   </message>
 </context>
 <context>
@@ -12083,7 +12083,7 @@
 <context>
   <name>/parameters/NPFG_PERIOD/longDesc</name>
   <message>
-  <source>Period of the NPFG control law.</source>
+  <source>Period of NPFG control law.</source>
   </message>
 </context>
 <context>
@@ -12197,7 +12197,7 @@
 <context>
   <name>/parameters/FW_PN_R_SLEW_MAX/longDesc</name>
   <message>
-  <source>The maximum change in roll angle setpoint per second. This limit is applied in all Auto modes, plus manual Position and Altitude modes.</source>
+  <source>Maximum change in roll angle setpoint per second. Applied in all Auto modes, plus manual Position &amp; Altitude modes.</source>
   </message>
 </context>
 <context>
@@ -12963,12 +12963,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_T_SINK_MAX/longDesc</name>
-  <message>
-  <source>This sets the maximum descent rate that the controller will use.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_T_SINK_R_SP/shortDesc</name>
   <message>
   <source>Default target sinkrate</source>
@@ -12983,13 +12977,13 @@
 <context>
   <name>/parameters/FW_T_SPDWEIGHT/shortDesc</name>
   <message>
-  <source>Speed &lt;--&gt; Altitude priority</source>
+  <source>Speed &lt;--&gt; Altitude weight</source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_T_SPDWEIGHT/longDesc</name>
   <message>
-  <source>Adjusts the amount of weighting that the pitch control applies to speed vs height errors. Setting it to 0.0 will cause the pitch control to control height and ignore speed errors. Setting it to 2.0 will cause the pitch control loop to control speed and ignore height errors. The default value of 1.0 allows the pitch control to simultaneously control height and speed. Set to 2 for gliders.</source>
+  <source>Adjusts the amount of weighting that the pitch control applies to speed vs height errors. 0 -&gt; control height only 2 -&gt; control speed only (gliders)</source>
   </message>
 </context>
 <context>
@@ -13079,7 +13073,7 @@
 <context>
   <name>/parameters/FW_T_THR_LOW_HGT/longDesc</name>
   <message>
-  <source>Defines the height (distance to bottom) threshold below which tighter altitude tracking gets enabled (see FW_LND_THRTC_SC). Below this height, TECS smoothly (1 sec / sec) transitions the altitude tracking time constant from FW_T_ALT_TC to FW_LND_THRTC_SC*FW_T_ALT_TC. If equal to -1, low-height traking is disabled.</source>
+  <source>Height above ground threshold below which tighter altitude tracking gets enabled (see FW_LND_THRTC_SC). Below this height, TECS smoothly (1 sec / sec) transitions the altitude tracking time constant from FW_T_ALT_TC to FW_LND_THRTC_SC*FW_T_ALT_TC. -1 to disable.</source>
   </message>
 </context>
 <context>
@@ -37857,6 +37851,12 @@
   </message>
 </context>
 <context>
+  <name>$globals/category/Standard</name>
+  <message>
+  <source>Standard</source>
+  </message>
+</context>
+<context>
   <name>$globals/category/Developer</name>
   <message>
   <source>Developer</source>
@@ -37869,207 +37869,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Standard</name>
-  <message>
-  <source>Standard</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control</name>
-  <message>
-  <source>Rover Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Flight Task Orbit</name>
-  <message>
-  <source>Flight Task Orbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Camera trigger</name>
   <message>
   <source>Camera trigger</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
   </message>
 </context>
 <context>
@@ -38079,171 +37881,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Mixer Output</name>
+  <name>$globals/group/Land Detector</name>
   <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Differential</name>
-  <message>
-  <source>Rover Differential</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Payload Deliverer</name>
-  <message>
-  <source>Payload Deliverer</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Mecanum</name>
-  <message>
-  <source>Rover Mecanum</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Actuator Outputs</name>
-  <message>
-  <source>Actuator Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
-  <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Ackermann</name>
-  <message>
-  <source>Rover Ackermann</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UXRCE-DDS Client</name>
-  <message>
-  <source>UXRCE-DDS Client</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Launch detection</name>
-  <message>
-  <source>FW Launch detection</source>
+  <source>Land Detector</source>
   </message>
 </context>
 <context>
@@ -38253,27 +37893,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Return Mode</name>
+  <name>$globals/group/Autotune</name>
   <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
+  <source>Autotune</source>
   </message>
 </context>
 <context>
@@ -38283,9 +37905,111 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Auto Landing</name>
+  <name>$globals/group/Attitude Q estimator</name>
   <message>
-  <source>FW Auto Landing</source>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Events</name>
+  <message>
+  <source>Events</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Differential</name>
+  <message>
+  <source>Rover Differential</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Flight Task Orbit</name>
+  <message>
+  <source>Flight Task Orbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <message>
+  <source>Multicopter Position Slow Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UXRCE-DDS Client</name>
+  <message>
+  <source>UXRCE-DDS Client</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Performance</name>
+  <message>
+  <source>FW Performance</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
   </message>
 </context>
 <context>
@@ -38295,15 +38019,285 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/Actuator Outputs</name>
+  <message>
+  <source>Actuator Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Payload Deliverer</name>
+  <message>
+  <source>Payload Deliverer</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Pure Pursuit</name>
   <message>
   <source>Pure Pursuit</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Battery Calibration</name>
+  <name>$globals/group/Thermal Compensation</name>
   <message>
-  <source>Battery Calibration</source>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Launch detection</name>
+  <message>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control</name>
+  <message>
+  <source>Rover Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulator</name>
+  <message>
+  <source>Simulator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Mecanum</name>
+  <message>
+  <source>Rover Mecanum</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Ackermann</name>
+  <message>
+  <source>Rover Ackermann</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Testing</name>
+  <message>
+  <source>Testing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Attitude Control</name>
+  <message>
+  <source>FW Attitude Control</source>
   </message>
 </context>
 </TS>
