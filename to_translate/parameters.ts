@@ -1167,6 +1167,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC1/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/PWM_MAIN_FUNC10/shortDesc</name>
   <message>
   <source>SIM Channel 10 Output Function</source>
@@ -1458,6 +1482,30 @@
   <name>/parameters/PWM_MAIN_FUNC10/values/440/description</name>
   <message>
   <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC10/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
   </message>
 </context>
 <context>
@@ -1755,6 +1803,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC11/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/PWM_MAIN_FUNC12/shortDesc</name>
   <message>
   <source>SIM Channel 12 Output Function</source>
@@ -2046,6 +2118,30 @@
   <name>/parameters/PWM_MAIN_FUNC12/values/440/description</name>
   <message>
   <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC12/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
   </message>
 </context>
 <context>
@@ -2343,6 +2439,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC13/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/PWM_MAIN_FUNC14/shortDesc</name>
   <message>
   <source>SIM Channel 14 Output Function</source>
@@ -2634,6 +2754,30 @@
   <name>/parameters/PWM_MAIN_FUNC14/values/440/description</name>
   <message>
   <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC14/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
   </message>
 </context>
 <context>
@@ -2931,6 +3075,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC15/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/PWM_MAIN_FUNC16/shortDesc</name>
   <message>
   <source>SIM Channel 16 Output Function</source>
@@ -3222,6 +3390,30 @@
   <name>/parameters/PWM_MAIN_FUNC16/values/440/description</name>
   <message>
   <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC16/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
   </message>
 </context>
 <context>
@@ -3519,6 +3711,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC2/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/PWM_MAIN_FUNC3/shortDesc</name>
   <message>
   <source>SIM Channel 3 Output Function</source>
@@ -3810,6 +4026,30 @@
   <name>/parameters/PWM_MAIN_FUNC3/values/440/description</name>
   <message>
   <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC3/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
   </message>
 </context>
 <context>
@@ -4107,6 +4347,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC4/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/PWM_MAIN_FUNC5/shortDesc</name>
   <message>
   <source>SIM Channel 5 Output Function</source>
@@ -4398,6 +4662,30 @@
   <name>/parameters/PWM_MAIN_FUNC5/values/440/description</name>
   <message>
   <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC5/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
   </message>
 </context>
 <context>
@@ -4695,6 +4983,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC6/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/PWM_MAIN_FUNC7/shortDesc</name>
   <message>
   <source>SIM Channel 7 Output Function</source>
@@ -4986,6 +5298,30 @@
   <name>/parameters/PWM_MAIN_FUNC7/values/440/description</name>
   <message>
   <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC7/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
   </message>
 </context>
 <context>
@@ -5283,6 +5619,30 @@
   </message>
 </context>
 <context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC8/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
+  </message>
+</context>
+<context>
   <name>/parameters/PWM_MAIN_FUNC9/shortDesc</name>
   <message>
   <source>SIM Channel 9 Output Function</source>
@@ -5574,6 +5934,30 @@
   <name>/parameters/PWM_MAIN_FUNC9/values/440/description</name>
   <message>
   <source>Landing Gear Wheel</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/450/description</name>
+  <message>
+  <source>IC Engine Ignition</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/451/description</name>
+  <message>
+  <source>IC Engine Throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/452/description</name>
+  <message>
+  <source>IC Engine Choke</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/PWM_MAIN_FUNC9/values/453/description</name>
+  <message>
+  <source>IC Engine Starter</source>
   </message>
 </context>
 <context>
@@ -9144,24 +9528,6 @@
   <name>/parameters/COM_OBL_RC_ACT/values/7/description</name>
   <message>
   <source>Disarm</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_OBS_AVOID/shortDesc</name>
-  <message>
-  <source>Flag to enable obstacle avoidance</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_OBS_AVOID/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_OBS_AVOID/values/1/description</name>
-  <message>
-  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -21771,6 +22137,54 @@
   </message>
 </context>
 <context>
+  <name>/parameters/MC_SLOW_MAP_PTCH/shortDesc</name>
+  <message>
+  <source>RC_MAP_AUX{N} to allow for gimbal pitch rate control in position slow mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_SLOW_MAP_PTCH/values/0/description</name>
+  <message>
+  <source>No pitch rate input</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_SLOW_MAP_PTCH/values/1/description</name>
+  <message>
+  <source>AUX1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_SLOW_MAP_PTCH/values/2/description</name>
+  <message>
+  <source>AUX2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_SLOW_MAP_PTCH/values/3/description</name>
+  <message>
+  <source>AUX3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_SLOW_MAP_PTCH/values/4/description</name>
+  <message>
+  <source>AUX4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_SLOW_MAP_PTCH/values/5/description</name>
+  <message>
+  <source>AUX5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_SLOW_MAP_PTCH/values/6/description</name>
+  <message>
+  <source>AUX6</source>
+  </message>
+</context>
+<context>
   <name>/parameters/MC_SLOW_MAP_VVEL/shortDesc</name>
   <message>
   <source>Manual input mapped to scale vertical velocity in position slow mode</source>
@@ -27789,66 +28203,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RD_MAX_ACCEL/shortDesc</name>
-  <message>
-  <source>Maximum acceleration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_ACCEL/longDesc</name>
-  <message>
-  <source>Maximum acceleration is used to limit the acceleration of the rover</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_DECEL/shortDesc</name>
-  <message>
-  <source>Maximum deceleration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_DECEL/longDesc</name>
-  <message>
-  <source>Maximum decelaration is used to limit the deceleration of the rover. Set to -1 to disable, causing the rover to decelerate as fast as possible. Caution: This disables the slow down effect in auto modes.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_JERK/shortDesc</name>
-  <message>
-  <source>Maximum jerk</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_JERK/longDesc</name>
-  <message>
-  <source>Limit for forwards acc/deceleration change.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_SPEED/shortDesc</name>
-  <message>
-  <source>Maximum speed setpoint</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_SPEED/longDesc</name>
-  <message>
-  <source>This parameter is used to cap desired forward speed and map controller inputs to desired speeds in Position mode.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_THR_SPD/shortDesc</name>
-  <message>
-  <source>Speed the rover drives at maximum throttle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_THR_SPD/longDesc</name>
-  <message>
-  <source>This parameter is used to calculate the feedforward term of the closed loop speed control which linearly maps desired speeds to normalized motor commands [-1. 1]. A good starting point is the observed ground speed when the rover drives at maximum throttle in manual mode. Increase this parameter if the rover is faster than the setpoint, and decrease if the rover is slower.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RD_MAX_THR_YAW_R/shortDesc</name>
   <message>
   <source>Yaw rate turning left/right wheels at max speed in opposite directions</source>
@@ -27857,31 +28211,7 @@
 <context>
   <name>/parameters/RD_MAX_THR_YAW_R/longDesc</name>
   <message>
-  <source>This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is twice the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_YAW_ACCEL/shortDesc</name>
-  <message>
-  <source>Maximum allowed yaw acceleration for the rover</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_YAW_ACCEL/longDesc</name>
-  <message>
-  <source>This parameter is used to cap desired yaw acceleration. This is used to adjust incoming yaw rate setpoints to a feasible yaw rate setpoint based on the physical limitation on how fast the yaw rate can change. This leads to a smooth setpoint trajectory for the closed loop yaw rate controller to track. Set to -1 to disable.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_YAW_RATE/shortDesc</name>
-  <message>
-  <source>Maximum allowed yaw rate for the rover</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_MAX_YAW_RATE/longDesc</name>
-  <message>
-  <source>This parameter is used to cap desired yaw rates and map controller inputs to desired yaw rates in Acro,Stabilized and Position mode.</source>
+  <source>This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is half the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.</source>
   </message>
 </context>
 <context>
@@ -27893,19 +28223,7 @@
 <context>
   <name>/parameters/RD_MISS_SPD_GAIN/longDesc</name>
   <message>
-  <source>The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_SPEED_I/shortDesc</name>
-  <message>
-  <source>Integral gain for closed loop forward speed controller</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_SPEED_P/shortDesc</name>
-  <message>
-  <source>Proportional gain for closed loop forward speed controller</source>
+  <source>The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.</source>
   </message>
 </context>
 <context>
@@ -27927,6 +28245,12 @@
   </message>
 </context>
 <context>
+  <name>/parameters/RD_TRANS_TRN_DRV/longDesc</name>
+  <message>
+  <source>This threshold is used for the state machine to switch from turning to driving based on the error between the desired and actual yaw.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/RD_WHEEL_TRACK/shortDesc</name>
   <message>
   <source>Wheel track</source>
@@ -27935,31 +28259,7 @@
 <context>
   <name>/parameters/RD_WHEEL_TRACK/longDesc</name>
   <message>
-  <source>Distance from the center of the right wheel to the center of the left wheel</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_YAW_I/shortDesc</name>
-  <message>
-  <source>Integral gain for closed loop yaw controller</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_YAW_P/shortDesc</name>
-  <message>
-  <source>Proportional gain for closed loop yaw controller</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_YAW_RATE_I/shortDesc</name>
-  <message>
-  <source>Integral gain for closed loop yaw rate controller</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RD_YAW_RATE_P/shortDesc</name>
-  <message>
-  <source>Proportional gain for closed loop yaw rate controller</source>
+  <source>Distance from the center of the right wheel to the center of the left wheel.</source>
   </message>
 </context>
 <context>
@@ -28325,7 +28625,19 @@
 <context>
   <name>/parameters/RO_YAW_ACCEL_LIM/longDesc</name>
   <message>
-  <source>Set to -1 to disable.</source>
+  <source>Used to cap how quickly the magnitude of yaw rate setpoints can increase. Set to -1 to disable.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_YAW_DECEL_LIM/shortDesc</name>
+  <message>
+  <source>Yaw deceleration limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_YAW_DECEL_LIM/longDesc</name>
+  <message>
+  <source>Used to cap how quickly the magnitude of yaw rate setpoints can decrease. Set to -1 to disable.</source>
   </message>
 </context>
 <context>
@@ -28667,7 +28979,7 @@
 <context>
   <name>/parameters/SDLOG_PROFILE/longDesc</name>
   <message>
-  <source>This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data) 7 : Topics for computer vision and collision avoidance 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)</source>
+  <source>This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data) 7 : Topics for computer vision and collision prevention 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)</source>
   </message>
 </context>
 <context>
@@ -37443,6 +37755,18 @@
   </message>
 </context>
 <context>
+  <name>/parameters/UXRCE_DDS_RX_TO/shortDesc</name>
+  <message>
+  <source>RX rate timeout configuration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_RX_TO/longDesc</name>
+  <message>
+  <source>Specifies after how many seconds without receiving data the DDS connection is reestablished. A value less than one disables the RX rate timeout.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/UXRCE_DDS_SYNCC/shortDesc</name>
   <message>
   <source>Enable uXRCE-DDS system clock synchronization</source>
@@ -37488,6 +37812,18 @@
   <name>/parameters/UXRCE_DDS_SYNCT/values/1/description</name>
   <message>
   <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_TX_TO/shortDesc</name>
+  <message>
+  <source>TX rate timeout configuration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/UXRCE_DDS_TX_TO/longDesc</name>
+  <message>
+  <source>Specifies after how many seconds without sending data the DDS connection is reestablished. A value less than one disables the TX rate timeout.</source>
   </message>
 </context>
 <context>
@@ -37989,15 +38325,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/Standard</name>
-  <message>
-  <source>Standard</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/System</name>
   <message>
   <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/category/Standard</name>
+  <message>
+  <source>Standard</source>
   </message>
 </context>
 <context>
@@ -38007,21 +38343,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Velocity Control</name>
+  <name>$globals/group/MAVLink</name>
   <message>
-  <source>Rover Velocity Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
+  <source>MAVLink</source>
   </message>
 </context>
 <context>
@@ -38031,9 +38355,27 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/Events</name>
+  <message>
+  <source>Events</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/UXRCE-DDS Client</name>
   <message>
   <source>UXRCE-DDS Client</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Attitude Control</name>
+  <message>
+  <source>Rover Attitude Control</source>
   </message>
 </context>
 <context>
@@ -38043,117 +38385,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Rate Control</name>
-  <message>
-  <source>Rover Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/GPS</name>
   <message>
   <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Landing</name>
-  <message>
-  <source>FW Auto Landing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
   </message>
 </context>
 <context>
@@ -38163,147 +38397,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Ackermann</name>
+  <name>$globals/group/Attitude Q estimator</name>
   <message>
-  <source>Rover Ackermann</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Mecanum</name>
-  <message>
-  <source>Rover Mecanum</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control (Deprecated)</name>
-  <message>
-  <source>Rover Position Control (Deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
-  <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Launch detection</name>
-  <message>
-  <source>FW Launch detection</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
+  <source>Attitude Q estimator</source>
   </message>
 </context>
 <context>
@@ -38319,99 +38415,51 @@
   </message>
 </context>
 <context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Testing</name>
+  <message>
+  <source>Testing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Commander</name>
   <message>
   <source>Commander</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Control</name>
+  <name>$globals/group/Follow target</name>
   <message>
-  <source>Rover Control</source>
+  <source>Follow target</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Sensors</name>
+  <name>$globals/group/Return Mode</name>
   <message>
-  <source>Sensors</source>
+  <source>Return Mode</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UAVCAN GNSS</name>
+  <name>$globals/group/Land Detector</name>
   <message>
-  <source>UAVCAN GNSS</source>
+  <source>Land Detector</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Radio Calibration</name>
+  <name>$globals/group/Rover Ackermann</name>
   <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Payload Deliverer</name>
-  <message>
-  <source>Payload Deliverer</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Flight Task Orbit</name>
-  <message>
-  <source>Flight Task Orbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Acro Mode</name>
-  <message>
-  <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Pure Pursuit</name>
-  <message>
-  <source>Pure Pursuit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera trigger</name>
-  <message>
-  <source>Camera trigger</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Geometry</name>
-  <message>
-  <source>FW Geometry</source>
+  <source>Rover Ackermann</source>
   </message>
 </context>
 <context>
@@ -38421,15 +38469,153 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Simulator</name>
+  <name>$globals/group/Precision Land</name>
   <message>
-  <source>Simulator</source>
+  <source>Precision Land</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Attitude Control</name>
+  <name>$globals/group/Autotune</name>
   <message>
-  <source>Rover Attitude Control</source>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Geometry</name>
+  <message>
+  <source>FW Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Control</name>
+  <message>
+  <source>Rover Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Flight Task Orbit</name>
+  <message>
+  <source>Flight Task Orbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Pure Pursuit</name>
+  <message>
+  <source>Pure Pursuit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Mecanum</name>
+  <message>
+  <source>Rover Mecanum</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <message>
+  <source>Multicopter Position Slow Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Launch detection</name>
+  <message>
+  <source>FW Launch detection</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera trigger</name>
+  <message>
+  <source>Camera trigger</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
   </message>
 </context>
 <context>
@@ -38439,21 +38625,171 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Events</name>
+  <name>$globals/group/Local Position Estimator</name>
   <message>
-  <source>Events</source>
+  <source>Local Position Estimator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Actuator Outputs</name>
+  <name>$globals/group/EKF2</name>
   <message>
-  <source>Actuator Outputs</source>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Performance</name>
+  <message>
+  <source>FW Performance</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Payload Deliverer</name>
+  <message>
+  <source>Payload Deliverer</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Position Control (Deprecated)</name>
+  <message>
+  <source>Rover Position Control (Deprecated)</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Rate Control</name>
+  <message>
+  <source>Rover Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Velocity Control</name>
+  <message>
+  <source>Rover Velocity Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW TECS</name>
+  <message>
+  <source>FW TECS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
   </message>
 </context>
 <context>
   <name>$globals/group/FW Rate Control</name>
   <message>
   <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulator</name>
+  <message>
+  <source>Simulator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Path Control</name>
+  <message>
+  <source>FW Path Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Attitude Control</name>
+  <message>
+  <source>FW Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Actuator Outputs</name>
+  <message>
+  <source>Actuator Outputs</source>
   </message>
 </context>
 <context>
