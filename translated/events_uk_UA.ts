@@ -327,119 +327,119 @@
     <name>/components/1/enums/battery_fault_reason_t/entries/10/description</name>
     <message>
       <source>Battery is over-heating</source>
-      <translation type="unfinished">Battery is over-heating</translation>
+      <translation>Батарея перегрівається</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/2/description</name>
     <message>
       <source>One or more battery cells have failed</source>
-      <translation type="unfinished">One or more battery cells have failed</translation>
+      <translation>Одна або більше комірок батареї відмовила</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/3/description</name>
     <message>
       <source>Battery reported over-current</source>
-      <translation type="unfinished">Battery reported over-current</translation>
+      <translation>Батарея повідомляє про надмірну напругу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/4/description</name>
     <message>
       <source>Battery has reached a critical temperature which can result in a critical failure</source>
-      <translation type="unfinished">Battery has reached a critical temperature which can result in a critical failure</translation>
+      <translation>Батарея досягла критичної температури, що може призвести до критичної поломки</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/5/description</name>
     <message>
       <source>Battery temperature is below operating range</source>
-      <translation type="unfinished">Battery temperature is below operating range</translation>
+      <translation>Температура батареї нижче за робочий рівень</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/6/description</name>
     <message>
       <source>Vehicle voltage is not compatible with battery one</source>
-      <translation type="unfinished">Vehicle voltage is not compatible with battery one</translation>
+      <translation>Вольтаж апарату не є сумісним з вольтажем батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/7/description</name>
     <message>
       <source>Battery firmware is not compatible with current autopilot firmware</source>
-      <translation type="unfinished">Battery firmware is not compatible with current autopilot firmware</translation>
+      <translation>Прошивка батареї не є сумісною з поточною прошивкою автопілота</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/8/description</name>
     <message>
       <source>Battery model is not supported by the system</source>
-      <translation type="unfinished">Battery model is not supported by the system</translation>
+      <translation>Модель батареї не підтримується системою</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/9/description</name>
     <message>
       <source>Battery reported an hardware problem</source>
-      <translation type="unfinished">Battery reported an hardware problem</translation>
+      <translation>Батарея повідомляє про проблему обладнання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_mode_t/entries/0/description</name>
     <message>
       <source>unknown</source>
-      <translation type="unfinished">unknown</translation>
+      <translation>невідомо</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_mode_t/entries/1/description</name>
     <message>
       <source>auto discharging towards storage level</source>
-      <translation type="unfinished">auto discharging towards storage level</translation>
+      <translation>автоматичне розряджання до рівня зберігання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_mode_t/entries/2/description</name>
     <message>
       <source>hot-swap</source>
-      <translation type="unfinished">hot-swap</translation>
+      <translation>гаряча заміна</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/0/description</name>
     <message>
       <source>detected over current</source>
-      <translation type="unfinished">detected over current</translation>
+      <translation>виявлено надвисоку напругу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/1/description</name>
     <message>
       <source>detected over voltage</source>
-      <translation type="unfinished">detected over voltage</translation>
+      <translation>виявлено надвисокий вольтаж</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/2/description</name>
     <message>
       <source>Motor has reached a critical temperature</source>
-      <translation type="unfinished">Motor has reached a critical temperature</translation>
+      <translation>Мотор досягнув критичної температури</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/3/description</name>
     <message>
       <source>Motor RPM is exceeding the limits</source>
-      <translation type="unfinished">Motor RPM is exceeding the limits</translation>
+      <translation>Оберти мотору перевищують ліміт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/4/description</name>
     <message>
       <source>received an invalid control command</source>
-      <translation type="unfinished">received an invalid control command</translation>
+      <translation>отримано невірну контрольну команду</translation>
     </message>
   </context>
   <context>
