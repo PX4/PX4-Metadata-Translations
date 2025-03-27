@@ -5,7 +5,7 @@
     <name>/outputs_v1/SIM/subgroups/0/per-channel-parameters/PWM_MAIN_FUNC${i}/label</name>
     <message>
       <source>Function</source>
-      <translation type="unfinished">Function</translation>
+      <translation>Функція</translation>
     </message>
   </context>
   <context>
