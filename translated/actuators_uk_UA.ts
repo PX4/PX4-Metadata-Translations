@@ -321,7 +321,7 @@
     <name>/functions_v1/402/label</name>
     <message>
       <source>RC Roll</source>
-      <translation>Пульт: нахил</translation>
+      <translation>Пульта(RC) крен</translation>
     </message>
   </context>
   <context>
@@ -398,7 +398,7 @@
     <name>/functions_v1/420/label</name>
     <message>
       <source>Gimbal Roll</source>
-      <translation>Нахил підвісу</translation>
+      <translation>Крен підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -657,7 +657,7 @@
     <name>/mixer_v1/config/CA_AIRFRAME==2/actuators/2/per-item-parameters/CA_SV_CS${i}_TRQ_R/label</name>
     <message>
       <source>Roll Scale</source>
-      <translation>Рівень нахилу</translation>
+      <translation>Масштаб крену</translation>
     </message>
   </context>
   <context>
@@ -755,7 +755,7 @@
     <name>/mixer_v1/config/CA_AIRFRAME==3/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_R/label</name>
     <message>
       <source>Roll Scale</source>
-      <translation>Рівень обертання</translation>
+      <translation>Масштаб крену</translation>
     </message>
   </context>
   <context>
@@ -890,7 +890,7 @@ Tilt</source>
     <name>/mixer_v1/config/CA_AIRFRAME==4/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_R/label</name>
     <message>
       <source>Roll Scale</source>
-      <translation>Рівень нахилу</translation>
+      <translation>Масштаб крену</translation>
     </message>
   </context>
   <context>
@@ -1253,7 +1253,7 @@ Coefficient</source>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_R/label</name>
     <message>
       <source>Roll Scale</source>
-      <translation>Рівень нахилу</translation>
+      <translation>Масштаб крену</translation>
     </message>
   </context>
   <context>
