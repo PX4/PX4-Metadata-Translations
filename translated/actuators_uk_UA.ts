@@ -468,14 +468,14 @@
     <name>/mixer_v1/actuator-types/motor/per-item-parameters/CA_R${i}_SLEW/label</name>
     <message>
       <source>Slew Rate</source>
-      <translation>Рівень заносу</translation>
+      <translation>Коефіцієнт заносу</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/actuator-types/servo/per-item-parameters/CA_SV${i}_SLEW/label</name>
     <message>
       <source>Slew Rate</source>
-      <translation>Рівень заносу</translation>
+      <translation>Коефіцієнт заносу</translation>
     </message>
   </context>
   <context>
