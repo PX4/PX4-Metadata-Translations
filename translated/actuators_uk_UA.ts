@@ -713,7 +713,7 @@
     <name>/mixer_v1/config/CA_AIRFRAME==3/actuators/0/per-item-parameters/CA_ROTOR${i}_TILT/label</name>
     <message>
       <source>Tilted by</source>
-      <translation>Названо</translation>
+      <translation>Нахилено</translation>
     </message>
   </context>
   <context>
@@ -1123,7 +1123,7 @@ Coefficient</source>
     <name>/mixer_v1/config/CA_AIRFRAME==8/actuators/0/per-item-parameters/CA_ROTOR${i}_TILT/label</name>
     <message>
       <source>Tilted by</source>
-      <translation>Названий</translation>
+      <translation>Нахилено</translation>
     </message>
   </context>
   <context>
@@ -1137,7 +1137,7 @@ Coefficient</source>
     <name>/mixer_v1/config/CA_AIRFRAME==8/actuators/1/item-label-prefix</name>
     <message>
       <source>Tilt ${i}</source>
-      <translation type="unfinished">Tilt ${i}</translation>
+      <translation>Нахил ${i}</translation>
     </message>
   </context>
   <context>
@@ -1145,8 +1145,7 @@ Coefficient</source>
     <message>
       <source>Angle at Min
 Tilt</source>
-      <translation type="unfinished">Angle at Min
-Tilt</translation>
+      <translation>Кут при мінімальному нахилі</translation>
     </message>
   </context>
   <context>
@@ -1154,71 +1153,70 @@ Tilt</translation>
     <message>
       <source>Angle at Max
 Tilt</source>
-      <translation type="unfinished">Angle at Max
-Tilt</translation>
+      <translation>Кут при максимальному нахилі</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==8/actuators/1/per-item-parameters/CA_SV_TL${i}_TD/label</name>
     <message>
       <source>Tilt Direction</source>
-      <translation type="unfinished">Tilt Direction</translation>
+      <translation>Напрямок нахилу</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==8/actuators/1/per-item-parameters/CA_SV_TL${i}_CT/label</name>
     <message>
       <source>Use for Control</source>
-      <translation type="unfinished">Use for Control</translation>
+      <translation>Використання для контролю</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/0/group-label</name>
     <message>
       <source>Thrust/Motors</source>
-      <translation type="unfinished">Thrust/Motors</translation>
+      <translation>Тяга/мотори</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/0/per-item-parameters/CA_ROTOR${i}_PX/label</name>
     <message>
       <source>Position X</source>
-      <translation type="unfinished">Position X</translation>
+      <translation>Позиція X</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/0/per-item-parameters/CA_ROTOR${i}_PY/label</name>
     <message>
       <source>Position Y</source>
-      <translation type="unfinished">Position Y</translation>
+      <translation>Позиція Y</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/0/per-item-parameters/CA_ROTOR${i}_PZ/label</name>
     <message>
       <source>Position Z</source>
-      <translation type="unfinished">Position Z</translation>
+      <translation>Позиція Z</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/0/per-item-parameters/CA_ROTOR${i}_AX/label</name>
     <message>
       <source>Axis X</source>
-      <translation type="unfinished">Axis X</translation>
+      <translation>Вісь X</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/0/per-item-parameters/CA_ROTOR${i}_AY/label</name>
     <message>
       <source>Axis Y</source>
-      <translation type="unfinished">Axis Y</translation>
+      <translation>Вісь Y</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/0/per-item-parameters/CA_ROTOR${i}_AZ/label</name>
     <message>
       <source>Axis Z</source>
-      <translation type="unfinished">Axis Z</translation>
+      <translation>Вісь Z</translation>
     </message>
   </context>
   <context>
@@ -1226,8 +1224,7 @@ Tilt</translation>
     <message>
       <source>Thrust
 Coefficient</source>
-      <translation type="unfinished">Thrust
-Coefficient</translation>
+      <translation>Коефіцієнт тяги</translation>
     </message>
   </context>
   <context>
@@ -1235,50 +1232,49 @@ Coefficient</translation>
     <message>
       <source>Moment
 Coefficient</source>
-      <translation type="unfinished">Moment
-Coefficient</translation>
+      <translation>Коефіцієнт моменту</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/1/group-label</name>
     <message>
       <source>Torque</source>
-      <translation type="unfinished">Torque</translation>
+      <translation>Крутний момент</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/1/item-label-prefix</name>
     <message>
       <source>Torque ${i}</source>
-      <translation type="unfinished">Torque ${i}</translation>
+      <translation>Крутний момент ${i}</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_R/label</name>
     <message>
       <source>Roll Scale</source>
-      <translation type="unfinished">Roll Scale</translation>
+      <translation>Рівень нахилу</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_P/label</name>
     <message>
       <source>Pitch Scale</source>
-      <translation type="unfinished">Pitch Scale</translation>
+      <translation>Рівень тангажу</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_Y/label</name>
     <message>
       <source>Yaw Scale</source>
-      <translation type="unfinished">Yaw Scale</translation>
+      <translation>Рівень повороту</translation>
     </message>
   </context>
   <context>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/1/per-item-parameters/CA_SV_CS${i}_TRIM/label</name>
     <message>
       <source>Trim</source>
-      <translation type="unfinished">Trim</translation>
+      <translation>Трім</translation>
     </message>
   </context>
 </TS>
