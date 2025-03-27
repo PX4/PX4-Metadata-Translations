@@ -446,35 +446,35 @@
     <name>/components/1/enums/esc_fault_reason_t/entries/5/description</name>
     <message>
       <source>Motor stalled</source>
-      <translation type="unfinished">Motor stalled</translation>
+      <translation>Мотор зупинився</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/6/description</name>
     <message>
       <source>detected a generic hardware failure</source>
-      <translation type="unfinished">detected a generic hardware failure</translation>
+      <translation>виявлено загальну помилку обладнання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/7/description</name>
     <message>
       <source>Motor is over-heating</source>
-      <translation type="unfinished">Motor is over-heating</translation>
+      <translation>Мотор перегрівається</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/8/description</name>
     <message>
       <source>is over-heating</source>
-      <translation type="unfinished">is over-heating</translation>
+      <translation>перегрівається</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/9/description</name>
     <message>
       <source>reached a critical temperature</source>
-      <translation type="unfinished">reached a critical temperature</translation>
+      <translation>досягнув критичної температури</translation>
     </message>
   </context>
   <context>
@@ -488,70 +488,70 @@
     <name>/components/1/enums/failsafe_action_t/entries/1/description</name>
     <message>
       <source>warning</source>
-      <translation type="unfinished">warning</translation>
+      <translation>попередження</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/10/description</name>
     <message>
       <source>terminate</source>
-      <translation type="unfinished">terminate</translation>
+      <translation>закінчити</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/2/description</name>
     <message>
       <source>Position mode</source>
-      <translation type="unfinished">Position mode</translation>
+      <translation>Позиційний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/3/description</name>
     <message>
       <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
+      <translation>Висотний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/4/description</name>
     <message>
       <source>Stabilized mode</source>
-      <translation type="unfinished">Stabilized mode</translation>
+      <translation>Стабілізаційний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/5/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Тримати</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/6/description</name>
     <message>
       <source>RTL</source>
-      <translation type="unfinished">RTL</translation>
+      <translation>режим RTL (Return to Launch - повернення до точки зльоту)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/7/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/8/description</name>
     <message>
       <source>Descend</source>
-      <translation type="unfinished">Descend</translation>
+      <translation>Зниження</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/9/description</name>
     <message>
       <source>disarm</source>
-      <translation type="unfinished">disarm</translation>
+      <translation>деактивувати</translation>
     </message>
   </context>
   <context>
@@ -565,14 +565,14 @@
     <name>/components/1/enums/failsafe_cause_t/entries/1/description</name>
     <message>
       <source>Manual control loss</source>
-      <translation type="unfinished">Manual control loss</translation>
+      <translation>Ручний контроль втрат</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/2/description</name>
     <message>
       <source>GCS connection loss</source>
-      <translation type="unfinished">GCS connection loss</translation>
+      <translation>GCS з'єднання втрачено</translation>
     </message>
   </context>
   <context>
