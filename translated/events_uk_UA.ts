@@ -740,28 +740,28 @@
     <name>/components/1/enums/health_component_t/entries/4/description</name>
     <message>
       <source>Differential pressure</source>
-      <translation type="unfinished">Differential pressure</translation>
+      <translation>Диференціальний тиск</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/4096/description</name>
     <message>
       <source>Communication links</source>
-      <translation type="unfinished">Communication links</translation>
+      <translation>Комунікаційні зв'язки</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/4194304/description</name>
     <message>
       <source>Gimbal</source>
-      <translation type="unfinished">Gimbal</translation>
+      <translation>Підвіс камери</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/512/description</name>
     <message>
       <source>UTM</source>
-      <translation type="unfinished">UTM</translation>
+      <translation>UTM (Безпілотне управління дорожнім рухом)</translation>
     </message>
   </context>
   <context>
