@@ -635,35 +635,35 @@
     <name>/components/1/enums/health_component_t/entries/128/description</name>
     <message>
       <source>Remote Control (RC or Joystick)</source>
-      <translation type="unfinished">Remote Control (RC or Joystick)</translation>
+      <translation>Пульт керування (RC або джойстик)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/131072/description</name>
     <message>
       <source>Local position estimate</source>
-      <translation type="unfinished">Local position estimate</translation>
+      <translation>Оцінка локальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/134217728/description</name>
     <message>
       <source>Magnetometer</source>
-      <translation type="unfinished">Magnetometer</translation>
+      <translation>Магнетометр</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/16/description</name>
     <message>
       <source>Optical flow</source>
-      <translation type="unfinished">Optical flow</translation>
+      <translation>Оптичний потік</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/16384/description</name>
     <message>
       <source>Attitude controller</source>
-      <translation type="unfinished">Attitude controller</translation>
+      <translation>Контролер режиму ATTI</translation>
     </message>
   </context>
   <context>
