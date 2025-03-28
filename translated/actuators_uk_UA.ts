@@ -342,7 +342,7 @@
     <name>/functions_v1/405/label</name>
     <message>
       <source>RC Yaw</source>
-      <translation>Розворот при керуванні пультом(RC)</translation>
+      <translation>Рискання при керуванні пультом(RC)</translation>
     </message>
   </context>
   <context>
@@ -412,7 +412,7 @@
     <name>/functions_v1/422/label</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Поворот підвісу камери</translation>
+      <translation>Рискання підвісом камери</translation>
     </message>
   </context>
   <context>
@@ -573,7 +573,7 @@
     <name>/mixer_v1/config/CA_AIRFRAME==1/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_Y/label</name>
     <message>
       <source>Yaw Torque</source>
-      <translation>Крутий момент повороту</translation>
+      <translation>Крутий момент рискання</translation>
     </message>
   </context>
   <context>
@@ -671,7 +671,7 @@
     <name>/mixer_v1/config/CA_AIRFRAME==2/actuators/2/per-item-parameters/CA_SV_CS${i}_TRQ_Y/label</name>
     <message>
       <source>Yaw Scale</source>
-      <translation>Рівень повороту</translation>
+      <translation>Масштаб рискання</translation>
     </message>
   </context>
   <context>
@@ -769,7 +769,7 @@
     <name>/mixer_v1/config/CA_AIRFRAME==3/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_Y/label</name>
     <message>
       <source>Yaw Scale</source>
-      <translation>Рівень розвороту</translation>
+      <translation>Масштаб рискання</translation>
     </message>
   </context>
   <context>
@@ -904,7 +904,7 @@ Tilt</source>
     <name>/mixer_v1/config/CA_AIRFRAME==4/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_Y/label</name>
     <message>
       <source>Yaw Scale</source>
-      <translation>Рівень розвороту</translation>
+      <translation>Масштаб рискання</translation>
     </message>
   </context>
   <context>
@@ -1267,7 +1267,7 @@ Coefficient</source>
     <name>/mixer_v1/config/CA_AIRFRAME==9/actuators/1/per-item-parameters/CA_SV_CS${i}_TRQ_Y/label</name>
     <message>
       <source>Yaw Scale</source>
-      <translation>Рівень повороту</translation>
+      <translation>Масштаб рискання</translation>
     </message>
   </context>
   <context>
