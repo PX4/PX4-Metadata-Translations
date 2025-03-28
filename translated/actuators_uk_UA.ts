@@ -321,35 +321,35 @@
     <name>/functions_v1/402/label</name>
     <message>
       <source>RC Roll</source>
-      <translation>Пульта(RC) крен</translation>
+      <translation>Крен при керуванні пультом(RC)</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/403/label</name>
     <message>
       <source>RC Pitch</source>
-      <translation>Пульт тангаж</translation>
+      <translation>Тангаж при керуванні пультом(RC)</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/404/label</name>
     <message>
       <source>RC Throttle</source>
-      <translation>Пульт тяга</translation>
+      <translation>Тяга при керуванні пультом(RC)</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/405/label</name>
     <message>
       <source>RC Yaw</source>
-      <translation>Пульт розворот</translation>
+      <translation>Розворот при керуванні пультом(RC)</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/406/label</name>
     <message>
       <source>RC Flaps</source>
-      <translation>Пульт закрилки</translation>
+      <translation>Закрилки при керуванні пультом(RC)</translation>
     </message>
   </context>
   <context>
@@ -370,28 +370,28 @@
     <name>/functions_v1/409/label</name>
     <message>
       <source>RC AUX 3</source>
-      <translation type="unfinished">RC AUX 3</translation>
+      <translation>Пульт(RC) AUX 3</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/410/label</name>
     <message>
       <source>RC AUX 4</source>
-      <translation>Пульт AUX 4</translation>
+      <translation>Пульт(RC) AUX 4</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/411/label</name>
     <message>
       <source>RC AUX 5</source>
-      <translation>Пульт AUX 5</translation>
+      <translation>Пульт(RC) AUX 5</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/412/label</name>
     <message>
       <source>RC AUX 6</source>
-      <translation>Пульт AUX 6</translation>
+      <translation>Пульт(RC) AUX 6</translation>
     </message>
   </context>
   <context>
