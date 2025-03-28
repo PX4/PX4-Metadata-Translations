@@ -768,259 +768,259 @@
     <name>/components/1/enums/health_component_t/entries/524288/description</name>
     <message>
       <source>Avoidance</source>
-      <translation type="unfinished">Avoidance</translation>
+      <translation>Уникнення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/536870912/description</name>
     <message>
       <source>Gyroscope</source>
-      <translation type="unfinished">Gyroscope</translation>
+      <translation>Гіроскоп</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/64/description</name>
     <message>
       <source>Distance sensor</source>
-      <translation type="unfinished">Distance sensor</translation>
+      <translation>Сенсор відстані</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/65536/description</name>
     <message>
       <source>Attitude estimate</source>
-      <translation type="unfinished">Attitude estimate</translation>
+      <translation>Оцінювання режиму ATTI</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/67108864/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8/description</name>
     <message>
       <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
+      <translation>GPS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8192/description</name>
     <message>
       <source>Rate controller</source>
-      <translation type="unfinished">Rate controller</translation>
+      <translation>Коефіцієнт контролера</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8388608/description</name>
     <message>
       <source>Payload</source>
-      <translation type="unfinished">Payload</translation>
+      <translation>Боєкомплект</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1/description</name>
     <message>
       <source>Fully manual mode (w/o any controller support)</source>
-      <translation type="unfinished">Fully manual mode (w/o any controller support)</translation>
+      <translation>Повністю ручний режим (без будь-якої підтримки контролером)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1024/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1048576/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1073741824/description</name>
     <message>
       <source>External 8</source>
-      <translation type="unfinished">External 8</translation>
+      <translation>Зовнішній 8</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/131072/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/134217728/description</name>
     <message>
       <source>External 5</source>
-      <translation type="unfinished">External 5</translation>
+      <translation>Зовнішній 5</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/16/description</name>
     <message>
       <source>Loiter</source>
-      <translation type="unfinished">Loiter</translation>
+      <translation>Утримання положення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/16384/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/16777216/description</name>
     <message>
       <source>External 2</source>
-      <translation type="unfinished">External 2</translation>
+      <translation>Зовнішній 2</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/2/description</name>
     <message>
       <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
+      <translation>Режим висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/2097152/description</name>
     <message>
       <source>Orbit</source>
-      <translation type="unfinished">Orbit</translation>
+      <translation>Орбіта</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/262144/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/268435456/description</name>
     <message>
       <source>External 6</source>
-      <translation type="unfinished">External 6</translation>
+      <translation>Зовнішній 6</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/32/description</name>
     <message>
       <source>RTL</source>
-      <translation type="unfinished">RTL</translation>
+      <translation>RTL (Return to Launch - повернення до точки зльоту)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/32768/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізувати</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/33554432/description</name>
     <message>
       <source>External 3</source>
-      <translation type="unfinished">External 3</translation>
+      <translation>Зовнішній 3</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/4/description</name>
     <message>
       <source>Position mode</source>
-      <translation type="unfinished">Position mode</translation>
+      <translation>Позиційний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/4194304/description</name>
     <message>
       <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
+      <translation>Вертикальний зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/524288/description</name>
     <message>
       <source>Follow Target</source>
-      <translation type="unfinished">Follow Target</translation>
+      <translation>Слідувати за ціллю</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/536870912/description</name>
     <message>
       <source>External 7</source>
-      <translation type="unfinished">External 7</translation>
+      <translation>Зовнішній 7</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/67108864/description</name>
     <message>
       <source>External 4</source>
-      <translation type="unfinished">External 4</translation>
+      <translation>Зовнішній 4</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/8/description</name>
     <message>
       <source>Mission mode</source>
-      <translation type="unfinished">Mission mode</translation>
+      <translation>Режим місії</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/8388608/description</name>
     <message>
       <source>External 1</source>
-      <translation type="unfinished">External 1</translation>
+      <translation>Зовнішній 1</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/1/description</name>
     <message>
       <source>Altitude control</source>
-      <translation type="unfinished">Altitude control</translation>
+      <translation>Контроль висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/12/description</name>
     <message>
       <source>Follow Target</source>
-      <translation type="unfinished">Follow Target</translation>
+      <translation>Переслідувати ціль</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/13/description</name>
     <message>
       <source>Precision Landing</source>
-      <translation type="unfinished">Precision Landing</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
