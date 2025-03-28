@@ -222,7 +222,7 @@
     <name>/components/1/enums/arm_disarm_reason_t/entries/3/description</name>
     <message>
       <source>internal command</source>
-      <translation type="unfinished">internal command</translation>
+      <translation>внутрішня команда</translation>
     </message>
   </context>
   <context>
@@ -670,70 +670,70 @@
     <name>/components/1/enums/health_component_t/entries/16777216/description</name>
     <message>
       <source>Global position estimate</source>
-      <translation type="unfinished">Global position estimate</translation>
+      <translation>Оцінка глобальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2/description</name>
     <message>
       <source>Absolute pressure</source>
-      <translation type="unfinished">Absolute pressure</translation>
+      <translation>Абсолютний тиск</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2048/description</name>
     <message>
       <source>Battery</source>
-      <translation type="unfinished">Battery</translation>
+      <translation>Батарея</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2097152/description</name>
     <message>
       <source>Camera</source>
-      <translation type="unfinished">Camera</translation>
+      <translation>Камера</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/256/description</name>
     <message>
       <source>Motors/ESCs</source>
-      <translation type="unfinished">Motors/ESCs</translation>
+      <translation>Мотори/ESCs</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/262144/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/268435456/description</name>
     <message>
       <source>Accelerometer</source>
-      <translation type="unfinished">Accelerometer</translation>
+      <translation>Акселерометр</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/32/description</name>
     <message>
       <source>Vision position estimate</source>
-      <translation type="unfinished">Vision position estimate</translation>
+      <translation>Оцінка огляду з позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/32768/description</name>
     <message>
       <source>Position controller</source>
-      <translation type="unfinished">Position controller</translation>
+      <translation>Контролер позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/33554432/description</name>
     <message>
       <source>Storage</source>
-      <translation type="unfinished">Storage</translation>
+      <translation>Сховище</translation>
     </message>
   </context>
   <context>
