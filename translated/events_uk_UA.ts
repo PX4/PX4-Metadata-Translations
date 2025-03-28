@@ -579,56 +579,56 @@
     <name>/components/1/enums/failsafe_cause_t/entries/3/description</name>
     <message>
       <source>Low battery level</source>
-      <translation type="unfinished">Low battery level</translation>
+      <translation>Низький рівень батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/4/description</name>
     <message>
       <source>Critical battery level</source>
-      <translation type="unfinished">Critical battery level</translation>
+      <translation>Критичний рівень батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/5/description</name>
     <message>
       <source>Emergency battery level</source>
-      <translation type="unfinished">Emergency battery level</translation>
+      <translation>Аварійний заряд батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/6/description</name>
     <message>
       <source>Remaining flight time low</source>
-      <translation type="unfinished">Remaining flight time low</translation>
+      <translation>Залишилось мало польотного часу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>Нічого</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1024/description</name>
     <message>
       <source>Logging</source>
-      <translation type="unfinished">Logging</translation>
+      <translation>Ведення журналу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1048576/description</name>
     <message>
       <source>System</source>
-      <translation type="unfinished">System</translation>
+      <translation>Система</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1073741824/description</name>
     <message>
       <source>Open Drone ID system</source>
-      <translation type="unfinished">Open Drone ID system</translation>
+      <translation>Відкрити систему Drone ID</translation>
     </message>
   </context>
   <context>
