@@ -5,476 +5,476 @@
     <name>/components/0/enums/calibration_action_t/entries/0/description</name>
     <message>
       <source>Side already completed, switch to one of the remaining sides</source>
-      <translation type="unfinished">Side already completed, switch to one of the remaining sides</translation>
+      <translation>Сторону укомплектовано, перейдіть до однієї зі сторін що залишилися</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_action_t/entries/1/description</name>
     <message>
       <source>Switch to next orientation</source>
-      <translation type="unfinished">Switch to next orientation</translation>
+      <translation>Перейдіть до наступної орієнтації</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_action_t/entries/2/description</name>
     <message>
       <source>Rotate as shown</source>
-      <translation type="unfinished">Rotate as shown</translation>
+      <translation>Обертайте як показано</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_action_t/entries/3/description</name>
     <message>
       <source>Hold still</source>
-      <translation type="unfinished">Hold still</translation>
+      <translation>Тримати нерухомо</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_result_t/entries/0/description</name>
     <message>
       <source>Success</source>
-      <translation type="unfinished">Success</translation>
+      <translation>Успіх</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_result_t/entries/1/description</name>
     <message>
       <source>Failed</source>
-      <translation type="unfinished">Failed</translation>
+      <translation>Невдалий</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_result_t/entries/2/description</name>
     <message>
       <source>Aborted</source>
-      <translation type="unfinished">Aborted</translation>
+      <translation>Скасований</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/1/description</name>
     <message>
       <source>Tail Down</source>
-      <translation type="unfinished">Tail Down</translation>
+      <translation>Скласти хвіст</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/16/description</name>
     <message>
       <source>Upside Down</source>
-      <translation type="unfinished">Upside Down</translation>
+      <translation>Перевернутий</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/2/description</name>
     <message>
       <source>Nose Down</source>
-      <translation type="unfinished">Nose Down</translation>
+      <translation>Ніс донизу</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/32/description</name>
     <message>
       <source>Down</source>
-      <translation type="unfinished">Down</translation>
+      <translation>Донизу</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/4/description</name>
     <message>
       <source>Left Side Down</source>
-      <translation type="unfinished">Left Side Down</translation>
+      <translation>Лівий бік донизу</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/8/description</name>
     <message>
       <source>Right Side Down</source>
-      <translation type="unfinished">Right Side Down</translation>
+      <translation>Правий бік донизу</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/1/description</name>
     <message>
       <source>Accelerometer</source>
-      <translation type="unfinished">Accelerometer</translation>
+      <translation>Акселерометр</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/16/description</name>
     <message>
       <source>Airspeed</source>
-      <translation type="unfinished">Airspeed</translation>
+      <translation>Швидкість польоту</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/2/description</name>
     <message>
       <source>Magnetometer</source>
-      <translation type="unfinished">Magnetometer</translation>
+      <translation>Магнетометр</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/32/description</name>
     <message>
       <source>RC</source>
-      <translation type="unfinished">RC</translation>
+      <translation>Пульт</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/4/description</name>
     <message>
       <source>Gyroscope</source>
-      <translation type="unfinished">Gyroscope</translation>
+      <translation>Гіроскоп</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/8/description</name>
     <message>
       <source>Level</source>
-      <translation type="unfinished">Level</translation>
+      <translation>Рівень</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1100/message</name>
     <message>
       <source>Calibration progress: {2}%</source>
-      <translation type="unfinished">Calibration progress: {2}%</translation>
+      <translation>Прогрес калібрування: {2}%</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1101/message</name>
     <message>
       <source>Orientation detected: {1}</source>
-      <translation type="unfinished">Orientation detected: {1}</translation>
+      <translation>Орієнтацію знайдено: {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1102/message</name>
     <message>
       <source>Orientation Complete: {1}, next step: {2}</source>
-      <translation type="unfinished">Orientation Complete: {1}, next step: {2}</translation>
+      <translation>Орієнтацію завершено: {1}, наступний крок: {2}</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1103/message</name>
     <message>
       <source>Calibration Complete: {1}</source>
-      <translation type="unfinished">Calibration Complete: {1}</translation>
+      <translation>Калібрування завершено: {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/0/description</name>
     <message>
       <source>Transition to standby</source>
-      <translation type="unfinished">Transition to standby</translation>
+      <translation>Перехід до режиму очікування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/1/description</name>
     <message>
       <source>RC</source>
-      <translation type="unfinished">RC</translation>
+      <translation>Пульт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/10/description</name>
     <message>
       <source>failure detector</source>
-      <translation type="unfinished">failure detector</translation>
+      <translation>детектор помилок</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/11/description</name>
     <message>
       <source>shutdown request</source>
-      <translation type="unfinished">shutdown request</translation>
+      <translation>запит на вимкнення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/12/description</name>
     <message>
       <source>unit tests</source>
-      <translation type="unfinished">unit tests</translation>
+      <translation>тести блоків</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/13/description</name>
     <message>
       <source>RC (button)</source>
-      <translation type="unfinished">RC (button)</translation>
+      <translation>Пульт (кнопка)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/14/description</name>
     <message>
       <source>failsafe</source>
-      <translation type="unfinished">failsafe</translation>
+      <translation>аварійний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/2/description</name>
     <message>
       <source>RC (switch)</source>
-      <translation type="unfinished">RC (switch)</translation>
+      <translation>Пульт (перемикач)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/3/description</name>
     <message>
       <source>internal command</source>
-      <translation type="unfinished">internal command</translation>
+      <translation>внутрішня команда</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/4/description</name>
     <message>
       <source>external command</source>
-      <translation type="unfinished">external command</translation>
+      <translation>зовнішня команда</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/5/description</name>
     <message>
       <source>mission start</source>
-      <translation type="unfinished">mission start</translation>
+      <translation>початок місії</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/6/description</name>
     <message>
       <source>landing</source>
-      <translation type="unfinished">landing</translation>
+      <translation>приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/7/description</name>
     <message>
       <source>auto preflight disarming</source>
-      <translation type="unfinished">auto preflight disarming</translation>
+      <translation>автоматична передполітна деактивація</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/8/description</name>
     <message>
       <source>kill switch</source>
-      <translation type="unfinished">kill switch</translation>
+      <translation>ліквідувати перемикач</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/9/description</name>
     <message>
       <source>lockdown</source>
-      <translation type="unfinished">lockdown</translation>
+      <translation>локдаун</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/0/description</name>
     <message>
       <source>Init</source>
-      <translation type="unfinished">Init</translation>
+      <translation>Init</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/1/description</name>
     <message>
       <source>Standby</source>
-      <translation type="unfinished">Standby</translation>
+      <translation>Режим очікування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/2/description</name>
     <message>
       <source>Armed</source>
-      <translation type="unfinished">Armed</translation>
+      <translation>Активований</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/3/description</name>
     <message>
       <source>Standby Error</source>
-      <translation type="unfinished">Standby Error</translation>
+      <translation>Помилка режиму очікування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/4/description</name>
     <message>
       <source>Shutdown</source>
-      <translation type="unfinished">Shutdown</translation>
+      <translation>Вимкнути</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/5/description</name>
     <message>
       <source>In-air Restore</source>
-      <translation type="unfinished">In-air Restore</translation>
+      <translation>In-air відновлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/0/description</name>
     <message>
       <source>Battery has deep discharged</source>
-      <translation type="unfinished">Battery has deep discharged</translation>
+      <translation>Батарея глибоко розряджена</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/1/description</name>
     <message>
       <source>Battery detected voltage spikes</source>
-      <translation type="unfinished">Battery detected voltage spikes</translation>
+      <translation>Батарея виявила стрибки напруги</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/10/description</name>
     <message>
       <source>Battery is over-heating</source>
-      <translation type="unfinished">Battery is over-heating</translation>
+      <translation>Батарея перегрівається</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/2/description</name>
     <message>
       <source>One or more battery cells have failed</source>
-      <translation type="unfinished">One or more battery cells have failed</translation>
+      <translation>Одна або більше комірок батареї відмовила</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/3/description</name>
     <message>
       <source>Battery reported over-current</source>
-      <translation type="unfinished">Battery reported over-current</translation>
+      <translation>Батарея повідомляє про надмірну напругу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/4/description</name>
     <message>
       <source>Battery has reached a critical temperature which can result in a critical failure</source>
-      <translation type="unfinished">Battery has reached a critical temperature which can result in a critical failure</translation>
+      <translation>Батарея досягла критичної температури, що може призвести до критичної поломки</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/5/description</name>
     <message>
       <source>Battery temperature is below operating range</source>
-      <translation type="unfinished">Battery temperature is below operating range</translation>
+      <translation>Температура батареї нижче за робочий рівень</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/6/description</name>
     <message>
       <source>Vehicle voltage is not compatible with battery one</source>
-      <translation type="unfinished">Vehicle voltage is not compatible with battery one</translation>
+      <translation>Вольтаж апарату не є сумісним з вольтажем батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/7/description</name>
     <message>
       <source>Battery firmware is not compatible with current autopilot firmware</source>
-      <translation type="unfinished">Battery firmware is not compatible with current autopilot firmware</translation>
+      <translation>Прошивка батареї не є сумісною з поточною прошивкою автопілота</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/8/description</name>
     <message>
       <source>Battery model is not supported by the system</source>
-      <translation type="unfinished">Battery model is not supported by the system</translation>
+      <translation>Модель батареї не підтримується системою</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/9/description</name>
     <message>
       <source>Battery reported an hardware problem</source>
-      <translation type="unfinished">Battery reported an hardware problem</translation>
+      <translation>Батарея повідомляє про проблему обладнання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_mode_t/entries/0/description</name>
     <message>
       <source>unknown</source>
-      <translation type="unfinished">unknown</translation>
+      <translation>невідомо</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_mode_t/entries/1/description</name>
     <message>
       <source>auto discharging towards storage level</source>
-      <translation type="unfinished">auto discharging towards storage level</translation>
+      <translation>автоматичне розряджання до рівня зберігання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_mode_t/entries/2/description</name>
     <message>
       <source>hot-swap</source>
-      <translation type="unfinished">hot-swap</translation>
+      <translation>гаряча заміна</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/0/description</name>
     <message>
       <source>detected over current</source>
-      <translation type="unfinished">detected over current</translation>
+      <translation>виявлено надвисоку напругу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/1/description</name>
     <message>
       <source>detected over voltage</source>
-      <translation type="unfinished">detected over voltage</translation>
+      <translation>виявлено надвисокий вольтаж</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/2/description</name>
     <message>
       <source>Motor has reached a critical temperature</source>
-      <translation type="unfinished">Motor has reached a critical temperature</translation>
+      <translation>Мотор досягнув критичної температури</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/3/description</name>
     <message>
       <source>Motor RPM is exceeding the limits</source>
-      <translation type="unfinished">Motor RPM is exceeding the limits</translation>
+      <translation>Оберти мотору перевищують ліміт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/4/description</name>
     <message>
       <source>received an invalid control command</source>
-      <translation type="unfinished">received an invalid control command</translation>
+      <translation>отримано невірну контрольну команду</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/5/description</name>
     <message>
       <source>Motor stalled</source>
-      <translation type="unfinished">Motor stalled</translation>
+      <translation>Мотор зупинився</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/6/description</name>
     <message>
       <source>detected a generic hardware failure</source>
-      <translation type="unfinished">detected a generic hardware failure</translation>
+      <translation>виявлено загальну помилку обладнання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/7/description</name>
     <message>
       <source>Motor is over-heating</source>
-      <translation type="unfinished">Motor is over-heating</translation>
+      <translation>Мотор перегрівається</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/8/description</name>
     <message>
       <source>is over-heating</source>
-      <translation type="unfinished">is over-heating</translation>
+      <translation>перегрівається</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/9/description</name>
     <message>
       <source>reached a critical temperature</source>
-      <translation type="unfinished">reached a critical temperature</translation>
+      <translation>досягнув критичної температури</translation>
     </message>
   </context>
   <context>
@@ -488,70 +488,70 @@
     <name>/components/1/enums/failsafe_action_t/entries/1/description</name>
     <message>
       <source>warning</source>
-      <translation type="unfinished">warning</translation>
+      <translation>попередження</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/10/description</name>
     <message>
       <source>terminate</source>
-      <translation type="unfinished">terminate</translation>
+      <translation>закінчити</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/2/description</name>
     <message>
       <source>Position mode</source>
-      <translation type="unfinished">Position mode</translation>
+      <translation>Позиційний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/3/description</name>
     <message>
       <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
+      <translation>Висотний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/4/description</name>
     <message>
       <source>Stabilized mode</source>
-      <translation type="unfinished">Stabilized mode</translation>
+      <translation>Стабілізаційний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/5/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Тримати</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/6/description</name>
     <message>
       <source>RTL</source>
-      <translation type="unfinished">RTL</translation>
+      <translation>режим RTL (Return to Launch - повернення до точки зльоту)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/7/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/8/description</name>
     <message>
       <source>Descend</source>
-      <translation type="unfinished">Descend</translation>
+      <translation>Зниження</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/9/description</name>
     <message>
       <source>disarm</source>
-      <translation type="unfinished">disarm</translation>
+      <translation>деактивувати</translation>
     </message>
   </context>
   <context>
@@ -565,462 +565,462 @@
     <name>/components/1/enums/failsafe_cause_t/entries/1/description</name>
     <message>
       <source>Manual control loss</source>
-      <translation type="unfinished">Manual control loss</translation>
+      <translation>Ручний контроль втрат</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/2/description</name>
     <message>
       <source>GCS connection loss</source>
-      <translation type="unfinished">GCS connection loss</translation>
+      <translation>GCS з'єднання втрачено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/3/description</name>
     <message>
       <source>Low battery level</source>
-      <translation type="unfinished">Low battery level</translation>
+      <translation>Низький рівень батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/4/description</name>
     <message>
       <source>Critical battery level</source>
-      <translation type="unfinished">Critical battery level</translation>
+      <translation>Критичний рівень батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/5/description</name>
     <message>
       <source>Emergency battery level</source>
-      <translation type="unfinished">Emergency battery level</translation>
+      <translation>Аварійний заряд батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/6/description</name>
     <message>
       <source>Remaining flight time low</source>
-      <translation type="unfinished">Remaining flight time low</translation>
+      <translation>Залишилось мало польотного часу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>Нічого</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1024/description</name>
     <message>
       <source>Logging</source>
-      <translation type="unfinished">Logging</translation>
+      <translation>Ведення журналу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1048576/description</name>
     <message>
       <source>System</source>
-      <translation type="unfinished">System</translation>
+      <translation>Система</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1073741824/description</name>
     <message>
       <source>Open Drone ID system</source>
-      <translation type="unfinished">Open Drone ID system</translation>
+      <translation>Відкрити систему Drone ID</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/128/description</name>
     <message>
       <source>Remote Control (RC or Joystick)</source>
-      <translation type="unfinished">Remote Control (RC or Joystick)</translation>
+      <translation>Пульт керування (RC або джойстик)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/131072/description</name>
     <message>
       <source>Local position estimate</source>
-      <translation type="unfinished">Local position estimate</translation>
+      <translation>Оцінка локальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/134217728/description</name>
     <message>
       <source>Magnetometer</source>
-      <translation type="unfinished">Magnetometer</translation>
+      <translation>Магнетометр</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/16/description</name>
     <message>
       <source>Optical flow</source>
-      <translation type="unfinished">Optical flow</translation>
+      <translation>Оптичний потік</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/16384/description</name>
     <message>
       <source>Attitude controller</source>
-      <translation type="unfinished">Attitude controller</translation>
+      <translation>Контролер режиму ATTI</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/16777216/description</name>
     <message>
       <source>Global position estimate</source>
-      <translation type="unfinished">Global position estimate</translation>
+      <translation>Оцінка глобальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2/description</name>
     <message>
       <source>Absolute pressure</source>
-      <translation type="unfinished">Absolute pressure</translation>
+      <translation>Абсолютний тиск</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2048/description</name>
     <message>
       <source>Battery</source>
-      <translation type="unfinished">Battery</translation>
+      <translation>Батарея</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2097152/description</name>
     <message>
       <source>Camera</source>
-      <translation type="unfinished">Camera</translation>
+      <translation>Камера</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/256/description</name>
     <message>
       <source>Motors/ESCs</source>
-      <translation type="unfinished">Motors/ESCs</translation>
+      <translation>Мотори/ESCs</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/262144/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/268435456/description</name>
     <message>
       <source>Accelerometer</source>
-      <translation type="unfinished">Accelerometer</translation>
+      <translation>Акселерометр</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/32/description</name>
     <message>
       <source>Vision position estimate</source>
-      <translation type="unfinished">Vision position estimate</translation>
+      <translation>Оцінка огляду з позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/32768/description</name>
     <message>
       <source>Position controller</source>
-      <translation type="unfinished">Position controller</translation>
+      <translation>Контролер позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/33554432/description</name>
     <message>
       <source>Storage</source>
-      <translation type="unfinished">Storage</translation>
+      <translation>Сховище</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/4/description</name>
     <message>
       <source>Differential pressure</source>
-      <translation type="unfinished">Differential pressure</translation>
+      <translation>Диференціальний тиск</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/4096/description</name>
     <message>
       <source>Communication links</source>
-      <translation type="unfinished">Communication links</translation>
+      <translation>Комунікаційні зв'язки</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/4194304/description</name>
     <message>
       <source>Gimbal</source>
-      <translation type="unfinished">Gimbal</translation>
+      <translation>Підвіс камери</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/512/description</name>
     <message>
       <source>UTM</source>
-      <translation type="unfinished">UTM</translation>
+      <translation>UTM (Безпілотне управління дорожнім рухом)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/524288/description</name>
     <message>
       <source>Avoidance</source>
-      <translation type="unfinished">Avoidance</translation>
+      <translation>Уникнення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/536870912/description</name>
     <message>
       <source>Gyroscope</source>
-      <translation type="unfinished">Gyroscope</translation>
+      <translation>Гіроскоп</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/64/description</name>
     <message>
       <source>Distance sensor</source>
-      <translation type="unfinished">Distance sensor</translation>
+      <translation>Сенсор відстані</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/65536/description</name>
     <message>
       <source>Attitude estimate</source>
-      <translation type="unfinished">Attitude estimate</translation>
+      <translation>Оцінювання режиму ATTI</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/67108864/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8/description</name>
     <message>
       <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
+      <translation>GPS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8192/description</name>
     <message>
       <source>Rate controller</source>
-      <translation type="unfinished">Rate controller</translation>
+      <translation>Коефіцієнт контролера</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8388608/description</name>
     <message>
       <source>Payload</source>
-      <translation type="unfinished">Payload</translation>
+      <translation>Боєкомплект</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1/description</name>
     <message>
       <source>Fully manual mode (w/o any controller support)</source>
-      <translation type="unfinished">Fully manual mode (w/o any controller support)</translation>
+      <translation>Повністю ручний режим (без будь-якої підтримки контролером)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1024/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1048576/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1073741824/description</name>
     <message>
       <source>External 8</source>
-      <translation type="unfinished">External 8</translation>
+      <translation>Зовнішній 8</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/131072/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/134217728/description</name>
     <message>
       <source>External 5</source>
-      <translation type="unfinished">External 5</translation>
+      <translation>Зовнішній 5</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/16/description</name>
     <message>
       <source>Loiter</source>
-      <translation type="unfinished">Loiter</translation>
+      <translation>Утримання положення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/16384/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/16777216/description</name>
     <message>
       <source>External 2</source>
-      <translation type="unfinished">External 2</translation>
+      <translation>Зовнішній 2</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/2/description</name>
     <message>
       <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
+      <translation>Режим висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/2097152/description</name>
     <message>
       <source>Orbit</source>
-      <translation type="unfinished">Orbit</translation>
+      <translation>Орбіта</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/262144/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/268435456/description</name>
     <message>
       <source>External 6</source>
-      <translation type="unfinished">External 6</translation>
+      <translation>Зовнішній 6</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/32/description</name>
     <message>
       <source>RTL</source>
-      <translation type="unfinished">RTL</translation>
+      <translation>RTL (Return to Launch - повернення до точки зльоту)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/32768/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізувати</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/33554432/description</name>
     <message>
       <source>External 3</source>
-      <translation type="unfinished">External 3</translation>
+      <translation>Зовнішній 3</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/4/description</name>
     <message>
       <source>Position mode</source>
-      <translation type="unfinished">Position mode</translation>
+      <translation>Позиційний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/4194304/description</name>
     <message>
       <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
+      <translation>Вертикальний зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/524288/description</name>
     <message>
       <source>Follow Target</source>
-      <translation type="unfinished">Follow Target</translation>
+      <translation>Слідувати за ціллю</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/536870912/description</name>
     <message>
       <source>External 7</source>
-      <translation type="unfinished">External 7</translation>
+      <translation>Зовнішній 7</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/67108864/description</name>
     <message>
       <source>External 4</source>
-      <translation type="unfinished">External 4</translation>
+      <translation>Зовнішній 4</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/8/description</name>
     <message>
       <source>Mission mode</source>
-      <translation type="unfinished">Mission mode</translation>
+      <translation>Режим місії</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/8388608/description</name>
     <message>
       <source>External 1</source>
-      <translation type="unfinished">External 1</translation>
+      <translation>Зовнішній 1</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/1/description</name>
     <message>
       <source>Altitude control</source>
-      <translation type="unfinished">Altitude control</translation>
+      <translation>Контроль висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/12/description</name>
     <message>
       <source>Follow Target</source>
-      <translation type="unfinished">Follow Target</translation>
+      <translation>Переслідувати ціль</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/13/description</name>
     <message>
       <source>Precision Landing</source>
-      <translation type="unfinished">Precision Landing</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
