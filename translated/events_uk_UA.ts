@@ -1272,7 +1272,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1280,21 +1280,21 @@
     <name>/components/1/event_groups/arming_check/events/10450063/message</name>
     <message>
       <source>No valid attitude estimate</source>
-      <translation type="unfinished">No valid attitude estimate</translation>
+      <translation>Не визначено належної позиції апарату</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/10450063/description</name>
     <message>
       <source>Wait until the estimator initialized</source>
-      <translation type="unfinished">Wait until the estimator initialized</translation>
+      <translation>Дочекайтесь ініціалізації оцінника</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/1049276/message</name>
     <message>
       <source>GPS Horizontal Position Error too high</source>
-      <translation type="unfinished">GPS Horizontal Position Error too high</translation>
+      <translation>Занадто велика помилка GPS горизонтального положення</translation>
     </message>
   </context>
   <context>
@@ -1302,7 +1302,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1310,7 +1310,7 @@
     <name>/components/1/event_groups/arming_check/events/10678671/message</name>
     <message>
       <source>GPS Speed Accuracy too low</source>
-      <translation type="unfinished">GPS Speed Accuracy too low</translation>
+      <translation>Занадто низька точність GPS швидкості</translation>
     </message>
   </context>
   <context>
@@ -1318,7 +1318,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1326,7 +1326,7 @@
     <name>/components/1/event_groups/arming_check/events/10996333/message</name>
     <message>
       <source>Missing FMU SD Card</source>
-      <translation type="unfinished">Missing FMU SD Card</translation>
+      <translation>Відсутня FMU SD картка</translation>
     </message>
   </context>
   <context>
@@ -1336,9 +1336,9 @@
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_SDCARD&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Insert an SD Card to the autopilot and reboot the system.
+      <translation>Вставте SD картку в автопілот та перезавантажте систему.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_SDCARD&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_SDCARD&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1346,14 +1346,14 @@
     <name>/components/1/event_groups/arming_check/events/11047904/message</name>
     <message>
       <source>Arming check summary event</source>
-      <translation type="unfinished">Arming check summary event</translation>
+      <translation>Підсумок події перевірки активації</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/11413600/message</name>
     <message>
       <source>Wind speed is above limit ({3:.1m/s})</source>
-      <translation type="unfinished">Wind speed is above limit ({3:.1m/s})</translation>
+      <translation>Швидкість вітру перевищує норму ({3:.1м/с})</translation>
     </message>
   </context>
   <context>
@@ -1361,7 +1361,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_WIND_MAX&lt;/param&gt; and &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_WIND_MAX&lt;/param&gt; and &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_WIND_MAX&lt;/param&gt; and &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1369,7 +1369,7 @@
     <name>/components/1/event_groups/arming_check/events/11497430/message</name>
     <message>
       <source>GPS Vertical Position Drift too high</source>
-      <translation type="unfinished">GPS Vertical Position Drift too high</translation>
+      <translation>Занадто високий дріфт GPS положення по вертикалі</translation>
     </message>
   </context>
   <context>
