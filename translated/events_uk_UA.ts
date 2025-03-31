@@ -1167,49 +1167,49 @@
     <name>/components/1/enums/sensor_failover_reason_t/entries/16/description</name>
     <message>
       <source>High Error Density</source>
-      <translation type="unfinished">High Error Density</translation>
+      <translation>Висока щільність помилок</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_failover_reason_t/entries/2/description</name>
     <message>
       <source>Stale data</source>
-      <translation type="unfinished">Stale data</translation>
+      <translation>Stale данні</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_failover_reason_t/entries/4/description</name>
     <message>
       <source>Timeout</source>
-      <translation type="unfinished">Timeout</translation>
+      <translation>Тайм-аут</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_failover_reason_t/entries/8/description</name>
     <message>
       <source>High Error Count</source>
-      <translation type="unfinished">High Error Count</translation>
+      <translation>Висока кількість помилок</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_type_t/entries/0/description</name>
     <message>
       <source>Accelerometer</source>
-      <translation type="unfinished">Accelerometer</translation>
+      <translation>Акселерометр</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_type_t/entries/1/description</name>
     <message>
       <source>Gyroscope</source>
-      <translation type="unfinished">Gyroscope</translation>
+      <translation>Гіроскоп</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_type_t/entries/2/description</name>
     <message>
       <source>Magnetometer</source>
-      <translation type="unfinished">Magnetometer</translation>
+      <translation>Магнетометр</translation>
     </message>
   </context>
   <context>
@@ -1223,28 +1223,28 @@
     <name>/components/1/enums/suggested_action_t/entries/1/description</name>
     <message>
       <source>Land now!</source>
-      <translation type="unfinished">Land now!</translation>
+      <translation>Приземляйтеся зараз!</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/suggested_action_t/entries/2/description</name>
     <message>
       <source>Reduce throttle!</source>
-      <translation type="unfinished">Reduce throttle!</translation>
+      <translation>Зменште тягу!</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/10011251/message</name>
     <message>
       <source>No valid global position estimate</source>
-      <translation type="unfinished">No valid global position estimate</translation>
+      <translation>Не визначено дійсної глобальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/10161216/message</name>
     <message>
       <source>Open Drone ID system missing</source>
-      <translation type="unfinished">Open Drone ID system missing</translation>
+      <translation>Бракує системи Open Drone ID</translation>
     </message>
   </context>
   <context>
@@ -1254,7 +1254,7 @@
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Open Drone ID system failed to report. Make sure it is setup and installed properly.
+      <translation>Невдалий звіт системи Open Drone ID. Переконайтеся що система встановлена належним чином.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
@@ -1264,7 +1264,7 @@
     <name>/components/1/event_groups/arming_check/events/10198977/message</name>
     <message>
       <source>GPS PDOP too high</source>
-      <translation type="unfinished">GPS PDOP too high</translation>
+      <translation>Занадто висока GPS PDOP (погіршення точності позиції)</translation>
     </message>
   </context>
   <context>
