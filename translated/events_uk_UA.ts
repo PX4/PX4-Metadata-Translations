@@ -1027,84 +1027,84 @@
     <name>/components/1/enums/navigation_mode_t/entries/14/description</name>
     <message>
       <source>Orbit</source>
-      <translation type="unfinished">Orbit</translation>
+      <translation>Орбіта</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/15/description</name>
     <message>
       <source>Vtol Takeoff</source>
-      <translation type="unfinished">Vtol Takeoff</translation>
+      <translation>Вертикальний зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/16/description</name>
     <message>
       <source>External 1</source>
-      <translation type="unfinished">External 1</translation>
+      <translation>Зовнішній 1</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/17/description</name>
     <message>
       <source>External 2</source>
-      <translation type="unfinished">External 2</translation>
+      <translation>Зовнішній 2</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/18/description</name>
     <message>
       <source>External 3</source>
-      <translation type="unfinished">External 3</translation>
+      <translation>Зовнішній 3</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/19/description</name>
     <message>
       <source>External 4</source>
-      <translation type="unfinished">External 4</translation>
+      <translation>Зовнішній 4</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/2/description</name>
     <message>
       <source>Position control</source>
-      <translation type="unfinished">Position control</translation>
+      <translation>Контроль позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/20/description</name>
     <message>
       <source>External 5</source>
-      <translation type="unfinished">External 5</translation>
+      <translation>Зовнішній 5</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/21/description</name>
     <message>
       <source>External 6</source>
-      <translation type="unfinished">External 6</translation>
+      <translation>Зовнішній 6</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/22/description</name>
     <message>
       <source>External 7</source>
-      <translation type="unfinished">External 7</translation>
+      <translation>Зовнішній 7</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/23/description</name>
     <message>
       <source>External 8</source>
-      <translation type="unfinished">External 8</translation>
+      <translation>Зовнішній 8</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/255/description</name>
     <message>
       <source>[Unknown]</source>
-      <translation type="unfinished">[Unknown]</translation>
+      <translation>[Невідомий]</translation>
     </message>
   </context>
   <context>
@@ -1118,7 +1118,7 @@
     <name>/components/1/enums/navigation_mode_t/entries/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Тримати</translation>
     </message>
   </context>
   <context>
