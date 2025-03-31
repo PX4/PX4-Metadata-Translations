@@ -286,21 +286,21 @@
     <name>/functions_v1/304/label</name>
     <message>
       <source>Offboard Actuator Set 4</source>
-      <translation>Блок поза бортового актуатора 4</translation>
+      <translation>Блок актуатора 4 режиму Offboard</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/305/label</name>
     <message>
       <source>Offboard Actuator Set 5</source>
-      <translation>Блок поза бортового актуатора 5</translation>
+      <translation>Блок актуатора 5 режиму Offboard</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/306/label</name>
     <message>
       <source>Offboard Actuator Set 6</source>
-      <translation>Блок поза бортового актуатора 6</translation>
+      <translation>Блок актуатора 6 режиму Offboard</translation>
     </message>
   </context>
   <context>
