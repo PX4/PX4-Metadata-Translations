@@ -1377,7 +1377,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1385,7 +1385,7 @@
     <name>/components/1/event_groups/arming_check/events/11973889/message</name>
     <message>
       <source>Velocity estimate error</source>
-      <translation type="unfinished">Velocity estimate error</translation>
+      <translation>Помилка визначення швидкості</translation>
     </message>
   </context>
   <context>
@@ -1395,9 +1395,9 @@
 
 This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+Ця перевірка може бути налаштована через
+&lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1405,7 +1405,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/12276004/message</name>
     <message>
       <source>Global position required</source>
-      <translation type="unfinished">Global position required</translation>
+      <translation>Необхідно глобальне позиціювання</translation>
     </message>
   </context>
   <context>
@@ -1413,7 +1413,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1421,7 +1421,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/12369553/message</name>
     <message>
       <source>GPS fix too low</source>
-      <translation type="unfinished">GPS fix too low</translation>
+      <translation>Занадто низька точність GPS даних</translation>
     </message>
   </context>
   <context>
@@ -1429,7 +1429,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1437,7 +1437,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/124285/message</name>
     <message>
       <source>Geofence RTL requires valid home</source>
-      <translation type="unfinished">Geofence RTL requires valid home</translation>
+      <translation>Геозона RTL(точки повернення до зльоту) потребує дійсної домашньої точки)</translation>
     </message>
   </context>
   <context>
@@ -1445,7 +1445,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1453,35 +1453,35 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/12689900/message</name>
     <message>
       <source>No valid altitude estimate</source>
-      <translation type="unfinished">No valid altitude estimate</translation>
+      <translation>Не визначено належної висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/12754954/message</name>
     <message>
       <source>Flight termination active</source>
-      <translation type="unfinished">Flight termination active</translation>
+      <translation>Активне завершення польоту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/12780289/message</name>
     <message>
       <source>GPS reports critical jamming state</source>
-      <translation type="unfinished">GPS reports critical jamming state</translation>
+      <translation>Повідомлення про критичний стан придушення GPS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/12805643/message</name>
     <message>
       <source>Mission cannot be completed</source>
-      <translation type="unfinished">Mission cannot be completed</translation>
+      <translation>Місія не може бути завершеною</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/13017122/message</name>
     <message>
       <source>Avoidance system not ready</source>
-      <translation type="unfinished">Avoidance system not ready</translation>
+      <translation>Система уникання не готова</translation>
     </message>
   </context>
   <context>
@@ -1489,7 +1489,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_OBS_AVOID&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_OBS_AVOID&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_OBS_AVOID&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1497,7 +1497,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/13094458/message</name>
     <message>
       <source>Not enough GPS Satellites</source>
-      <translation type="unfinished">Not enough GPS Satellites</translation>
+      <translation>Не достатньо GPS супутників</translation>
     </message>
   </context>
   <context>
