@@ -1111,7 +1111,7 @@
     <name>/components/1/enums/navigation_mode_t/entries/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
@@ -1505,7 +1505,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
