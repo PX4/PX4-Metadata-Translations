@@ -1513,7 +1513,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/1326449/message</name>
     <message>
       <source>Gyro {3} uncalibrated</source>
-      <translation type="unfinished">Gyro {3} uncalibrated</translation>
+      <translation>Гіро {3} не відкалібровано</translation>
     </message>
   </context>
   <context>
