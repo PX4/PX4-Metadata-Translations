@@ -873,7 +873,7 @@
     <name>/components/1/enums/navigation_mode_group_t/entries/16384/description</name>
     <message>
       <source>Offboard</source>
-      <translation>Поза бортом</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
@@ -1125,42 +1125,42 @@
     <name>/components/1/enums/navigation_mode_t/entries/5/description</name>
     <message>
       <source>RTL</source>
-      <translation type="unfinished">RTL</translation>
+      <translation>режим RTL (Return to Launch - повернення до точки зльоту)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільний режим позиціювання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_failover_reason_t/entries/1/description</name>
     <message>
       <source>No data</source>
-      <translation type="unfinished">No data</translation>
+      <translation>Немає даних</translation>
     </message>
   </context>
   <context>
