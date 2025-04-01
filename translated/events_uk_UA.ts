@@ -1769,7 +1769,7 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/2229864/message</name>
     <message>
       <source>Power redundancy not met</source>
-      <translation>Надлишок заряду нижче норми</translation>
+      <translation>Надлишок живлення нижче норми</translation>
     </message>
   </context>
   <context>
@@ -1779,9 +1779,9 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POWER_COUNT&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Available power modules: {3}. Required power modules: {4}.
+      <translation>Доступні модулі живлення: {3}. Потрібні модулі живлення: {4}.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POWER_COUNT&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_POWER_COUNT&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1789,7 +1789,7 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/2481841/message</name>
     <message>
       <source>Gyro {3} inconsistent</source>
-      <translation type="unfinished">Gyro {3} inconsistent</translation>
+      <translation>Гіроскоп {3} нестабільний</translation>
     </message>
   </context>
   <context>
@@ -1801,11 +1801,11 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Check the calibration.
+      <translation>Перевірте калібрування.
 
-Inconsistency value: {4}. Configured Threshold: {5}.
+Нестабільне значення: {4}. Налаштований поріг: {5}.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
