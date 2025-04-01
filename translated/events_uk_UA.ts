@@ -1683,7 +1683,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/1802995/message</name>
     <message>
       <source>Airspeed too high</source>
-      <translation type="unfinished">Airspeed too high</translation>
+      <translation>Швидкість польоту занадто висока</translation>
     </message>
   </context>
   <context>
@@ -2125,7 +2125,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6491364/message</name>
     <message>
       <source>Home position required</source>
-      <translation type="unfinished">Home position required</translation>
+      <translation>Необхідна точка зльоту</translation>
     </message>
   </context>
   <context>
