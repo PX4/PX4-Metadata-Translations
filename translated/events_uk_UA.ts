@@ -1813,7 +1813,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <name>/components/1/event_groups/arming_check/events/276785/message</name>
     <message>
       <source>Press safety button first</source>
-      <translation type="unfinished">Press safety button first</translation>
+      <translation>Натисніть спочатку кнопку запобіжника</translation>
     </message>
   </context>
   <context>
@@ -1821,7 +1821,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1829,7 +1829,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <name>/components/1/event_groups/arming_check/events/3061044/message</name>
     <message>
       <source>Accel {3} inconsistent</source>
-      <translation type="unfinished">Accel {3} inconsistent</translation>
+      <translation>Прискорення {3} нестабільне</translation>
     </message>
   </context>
   <context>
@@ -1841,11 +1841,11 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Check the calibration.
+      <translation>Перевірте калібрування.
 
-Inconsistency value: {4}. Configured Threshold: {5}.
+Нестабільне значення: {4}. Налаштований поріг: {5}.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1853,7 +1853,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <name>/components/1/event_groups/arming_check/events/3087815/message</name>
     <message>
       <source>No offboard signal</source>
-      <translation type="unfinished">No offboard signal</translation>
+      <translation>Відсутній зовнішній сигнал</translation>
     </message>
   </context>
   <context>
