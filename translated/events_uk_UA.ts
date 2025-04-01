@@ -1695,11 +1695,11 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 
 This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Current airspeed reading too high. Check if wind is below maximum airspeed and redo airspeed calibration if the measured airspeed does not correspond to wind conditions.
+      <translation>Занадто висока поточна зчитувана швидкість польоту. Перевірте чи швидкість вітру нижче за максимальну швидкість польоту та повторіть калібрування швидкості польоту якщо виміряна швидкість польоту не відповідає умовам вітру.
 
-&lt;profile name="dev"&gt; Measured: {3:.1m/s}, limit: {4:.1m/s}.
+&lt;profile name="dev"&gt; Виміряно: {3:.1m/s}, ліміт: {4:.1m/s}.
 
-This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1707,14 +1707,14 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/1871713/message</name>
     <message>
       <source>Mode not suitable for arming</source>
-      <translation type="unfinished">Mode not suitable for arming</translation>
+      <translation>Режим не підходить для активації</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/1871713/description</name>
     <message>
       <source>Switch to another mode first.</source>
-      <translation type="unfinished">Switch to another mode first.</translation>
+      <translation>Спочатку перейдіть на інший режим.</translation>
     </message>
   </context>
   <context>
@@ -1728,14 +1728,14 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/1917030/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібруйте пульт(RC).</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/2071276/message</name>
     <message>
       <source>Low battery</source>
-      <translation type="unfinished">Low battery</translation>
+      <translation>Низький заряд батареї</translation>
     </message>
   </context>
   <context>
@@ -1745,9 +1745,9 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">The battery state of charge of the worst battery is below the preflight threshold.
+      <translation>Стан заряду найгіршої батареї нижче передполітного порогу.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може налаштована через &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1755,21 +1755,21 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/2088119/message</name>
     <message>
       <source>Poor GPS Quality</source>
-      <translation type="unfinished">Poor GPS Quality</translation>
+      <translation>Низька якість GPS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/2228586/message</name>
     <message>
       <source>Remaining flight time low</source>
-      <translation type="unfinished">Remaining flight time low</translation>
+      <translation>Низький залишок політного часу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/2229864/message</name>
     <message>
       <source>Power redundancy not met</source>
-      <translation type="unfinished">Power redundancy not met</translation>
+      <translation>Надлишок заряду нижче норми</translation>
     </message>
   </context>
   <context>
