@@ -663,7 +663,7 @@
     <name>/components/1/enums/health_component_t/entries/16384/description</name>
     <message>
       <source>Attitude controller</source>
-      <translation>Контролер режиму ATTI</translation>
+      <translation>Контролер стану орієнтації</translation>
     </message>
   </context>
   <context>
@@ -789,7 +789,7 @@
     <name>/components/1/enums/health_component_t/entries/65536/description</name>
     <message>
       <source>Attitude estimate</source>
-      <translation>Оцінювання режиму ATTI</translation>
+      <translation>Оцінювання стану орієнтації</translation>
     </message>
   </context>
   <context>
@@ -1280,7 +1280,7 @@
     <name>/components/1/event_groups/arming_check/events/10450063/message</name>
     <message>
       <source>No valid attitude estimate</source>
-      <translation>Не визначено належної позиції апарату</translation>
+      <translation>Не визначено належного стану орієнтації</translation>
     </message>
   </context>
   <context>
@@ -1520,21 +1520,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/13528143/message</name>
     <message>
       <source>Vehicle is in transition state</source>
-      <translation type="unfinished">Vehicle is in transition state</translation>
+      <translation>Апарат в перехідному стані</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/13835193/message</name>
     <message>
       <source>No valid local position estimate</source>
-      <translation type="unfinished">No valid local position estimate</translation>
+      <translation>Не визначено дійсної локальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/13923616/message</name>
     <message>
       <source>Geofence violation: exceeding maximum altitude above Home</source>
-      <translation type="unfinished">Geofence violation: exceeding maximum altitude above Home</translation>
+      <translation>Порушення зони обмеження: перевищено максимальну висоту над домашній точці</translation>
     </message>
   </context>
   <context>
@@ -1542,7 +1542,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_VER_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_VER_DIST&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_VER_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1550,7 +1550,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/14200647/message</name>
     <message>
       <source>Vehicle is not in multicopter mode</source>
-      <translation type="unfinished">Vehicle is not in multicopter mode</translation>
+      <translation>Апарат не знаходиться у режимі мультикоптера</translation>
     </message>
   </context>
   <context>
@@ -1558,7 +1558,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1566,7 +1566,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/143019/message</name>
     <message>
       <source>Geofence violation: approaching or outside geofence</source>
-      <translation type="unfinished">Geofence violation: approaching or outside geofence</translation>
+      <translation>Порушення зони обмеження: наближення або вихід за межі зони обмеження</translation>
     </message>
   </context>
   <context>
@@ -1574,7 +1574,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1590,7 +1590,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1598,35 +1598,35 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/14748737/message</name>
     <message>
       <source>Mode is not registered</source>
-      <translation type="unfinished">Mode is not registered</translation>
+      <translation>Режим не зареєстровано</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/14748737/description</name>
     <message>
       <source>The application running the mode is not started.</source>
-      <translation type="unfinished">The application running the mode is not started.</translation>
+      <translation>Не запущено застосунок, який забезпечує роботу режиму.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/15180799/message</name>
     <message>
       <source>VTOL fixed-wing system failure detected. Verify reason for failure, and reboot the vehicle once confirmed safe</source>
-      <translation type="unfinished">VTOL fixed-wing system failure detected. Verify reason for failure, and reboot the vehicle once confirmed safe</translation>
+      <translation>Виявлено помилку системи вертикального зльоту/посадки фіксованого крила. Перевірте причину помилки та перезавантажте апарат, коли підтверджено безпеку</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/15399315/message</name>
     <message>
       <source>GPS reports spoofing indicated</source>
-      <translation type="unfinished">GPS reports spoofing indicated</translation>
+      <translation>GPS звітує про виявлений спуфінг</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/15713375/message</name>
     <message>
       <source>Strong magnetic interference</source>
-      <translation type="unfinished">Strong magnetic interference</translation>
+      <translation>Потужне магнітне втручання</translation>
     </message>
   </context>
   <context>
@@ -1634,7 +1634,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; Measured strength: {3:.3}, expected: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Measured inclination: {5:.3}, expected: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Measured strength: {3:.3}, expected: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Measured inclination: {5:.3}, expected: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Вимерена потужність: {3:.3}, очікувана: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Вимерений нахил: {5:.3}, очікуваний: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1642,28 +1642,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/16158540/message</name>
     <message>
       <source>Landing gear switch set in UP position</source>
-      <translation type="unfinished">Landing gear switch set in UP position</translation>
+      <translation>Блок приземлення переведено у положення UP</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/16642797/message</name>
     <message>
       <source>Heading estimate not stable</source>
-      <translation type="unfinished">Heading estimate not stable</translation>
+      <translation>Визначений напрямок не стабільний</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/16716537/message</name>
     <message>
       <source>Compass {3} uncalibrated</source>
-      <translation type="unfinished">Compass {3} uncalibrated</translation>
+      <translation>Компас {3} не відкалібровано</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/16745468/message</name>
     <message>
       <source>Attitude failure detected</source>
-      <translation type="unfinished">Attitude failure detected</translation>
+      <translation>Помилка визначення стану орієнтації</translation>
     </message>
   </context>
   <context>
@@ -1673,9 +1673,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_P&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">The vehicle exceeded the maximum configured pitch angle.
+      <translation>Апарат перевищив максимально встановлений кут тангажу.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_P&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_FAIL_P&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
