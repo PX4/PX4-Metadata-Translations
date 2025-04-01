@@ -1860,21 +1860,21 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <name>/components/1/event_groups/arming_check/events/3087815/description</name>
     <message>
       <source>The offboard component is not sending setpoints or the required estimate (e.g. position) is missing.</source>
-      <translation type="unfinished">The offboard component is not sending setpoints or the required estimate (e.g. position) is missing.</translation>
+      <translation>Зовнішній компонент не надсилає задані значення або необхідне розраховане значення (напр. положення) відсутнє.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/3603209/message</name>
     <message>
       <source>Stopping compass use</source>
-      <translation type="unfinished">Stopping compass use</translation>
+      <translation>Припинення використання компасу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/3603209/description</name>
     <message>
       <source>Land and calibrate the compass.</source>
-      <translation type="unfinished">Land and calibrate the compass.</translation>
+      <translation>Приземлитися та відкалібрувати компас.</translation>
     </message>
   </context>
   <context>
