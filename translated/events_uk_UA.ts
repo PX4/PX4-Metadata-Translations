@@ -1437,7 +1437,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/124285/message</name>
     <message>
       <source>Geofence RTL requires valid home</source>
-      <translation>Геозона RTL(точки повернення до зльоту) потребує дійсної домашньої точки)</translation>
+      <translation>Геозона RTL(точки повернення до зльоту) потребує належної домашньої точки)</translation>
     </message>
   </context>
   <context>
@@ -1905,7 +1905,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/377561/message</name>
     <message>
       <source>No valid mission available</source>
-      <translation type="unfinished">No valid mission available</translation>
+      <translation>Немає дійсної місії</translation>
     </message>
   </context>
   <context>
@@ -1915,9 +1915,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Upload a mission first.
+      <translation>Спочатку завантажте місію.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1925,7 +1925,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/4065583/message</name>
     <message>
       <source>Geofence violation: exceeding maximum distance to Home</source>
-      <translation type="unfinished">Geofence violation: exceeding maximum distance to Home</translation>
+      <translation>Порушення зони обмеження: перевищено максимальну дистанцію до точки повернення</translation>
     </message>
   </context>
   <context>
@@ -1933,7 +1933,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1941,7 +1941,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/4261821/message</name>
     <message>
       <source>Failure triggered by external system</source>
-      <translation type="unfinished">Failure triggered by external system</translation>
+      <translation>Помилка викликана зовнішньою системою</translation>
     </message>
   </context>
   <context>
@@ -1949,7 +1949,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1957,7 +1957,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/453929/message</name>
     <message>
       <source>No manual control input</source>
-      <translation type="unfinished">No manual control input</translation>
+      <translation>Немає ручного контролю введення</translation>
     </message>
   </context>
   <context>
@@ -1966,8 +1966,8 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
       <source>Connect and enable stick input or use autonomous mode.
 &lt;profile name="dev"&gt; Sticks can be enabled via &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Connect and enable stick input or use autonomous mode.
-&lt;profile name="dev"&gt; Sticks can be enabled via &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
+      <translation>Під'єднайте та активуйте введення стіками або використовуйте автономний режим.
+&lt;profile name="dev"&gt; Стіки можуть бути активовані через &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1975,14 +1975,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/4549029/message</name>
     <message>
       <source>Altitude failure detected</source>
-      <translation type="unfinished">Altitude failure detected</translation>
+      <translation>Виявлено помилку висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/4975227/message</name>
     <message>
       <source>GPS Horizontal Speed Drift too high</source>
-      <translation type="unfinished">GPS Horizontal Speed Drift too high</translation>
+      <translation>Занадто великий горизонтальний швидкісний GPS дріфт</translation>
     </message>
   </context>
   <context>
@@ -1990,7 +1990,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1998,7 +1998,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5049764/message</name>
     <message>
       <source>Low battery</source>
-      <translation type="unfinished">Low battery</translation>
+      <translation>Низький заряд батареї</translation>
     </message>
   </context>
   <context>
@@ -2008,9 +2008,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;BAT_LOW_THR&lt;/param&gt;, &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; and &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">The battery state of charge of the worst battery is below the warning threshold.
+      <translation>Стан заряду найгіршої батареї нижче порогу попередження.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;BAT_LOW_THR&lt;/param&gt;, &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; and &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt; parameters.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;BAT_LOW_THR&lt;/param&gt;, &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; and &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2018,7 +2018,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/516062/message</name>
     <message>
       <source>GPS Vertical Position Error too high</source>
-      <translation type="unfinished">GPS Vertical Position Error too high</translation>
+      <translation>Занадто велика помилка GPS вертикального позиціювання</translation>
     </message>
   </context>
   <context>
@@ -2026,7 +2026,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2034,7 +2034,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5273740/message</name>
     <message>
       <source>Compass inconsistent by {3} degrees</source>
-      <translation type="unfinished">Compass inconsistent by {3} degrees</translation>
+      <translation>Похибка компасу {3} градусів</translation>
     </message>
   </context>
   <context>
@@ -2044,9 +2044,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_ANG&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Check the compass orientations and recalibrate.
+      <translation>Перевірте орієнтацію компасу та перекалібруйте.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_ANG&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MAG_ANG&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2054,7 +2054,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5444856/message</name>
     <message>
       <source>Accelerometer {3} uncalibrated</source>
-      <translation type="unfinished">Accelerometer {3} uncalibrated</translation>
+      <translation>Акселерометр {3} не відкалібровано</translation>
     </message>
   </context>
   <context>
