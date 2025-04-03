@@ -1881,7 +1881,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <name>/components/1/event_groups/arming_check/events/3613628/message</name>
     <message>
       <source>High Accelerometer Bias</source>
-      <translation type="unfinished">High Accelerometer Bias</translation>
+      <translation>Велике відхилення акселерометра</translation>
     </message>
   </context>
   <context>
