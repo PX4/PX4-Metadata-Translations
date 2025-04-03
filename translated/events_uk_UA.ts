@@ -2141,7 +2141,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6558257/message</name>
     <message>
       <source>GPS Vertical Speed Drift too high</source>
-      <translation type="unfinished">GPS Vertical Speed Drift too high</translation>
+      <translation>Занадто великий вертикальний швидкісний GPS дріфт</translation>
     </message>
   </context>
   <context>
@@ -2149,7 +2149,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2157,21 +2157,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6659180/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: DZ greater than {4}</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: DZ greater than {4}</translation>
+      <translation>Невдале калібрування пульта для каналу {3}: DZ більше ніж {4}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6659180/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібрувати пульт(RC).</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6801787/message</name>
     <message>
       <source>No connection to the ground control station</source>
-      <translation type="unfinished">No connection to the ground control station</translation>
+      <translation>Немає з'єднання з наземною станцією</translation>
     </message>
   </context>
   <context>
