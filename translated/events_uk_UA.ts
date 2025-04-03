@@ -2061,14 +2061,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5704353/message</name>
     <message>
       <source>Arm authorization denied</source>
-      <translation type="unfinished">Arm authorization denied</translation>
+      <translation>Авторизацію активації відхилено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/5717196/message</name>
     <message>
       <source>GPS Horizontal Position Drift too high</source>
-      <translation type="unfinished">GPS Horizontal Position Drift too high</translation>
+      <translation>Занадто великий дріфт горизонтальної GPS позиції</translation>
     </message>
   </context>
   <context>
@@ -2076,7 +2076,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2084,7 +2084,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5943233/message</name>
     <message>
       <source>Found {3} compass (required: {4})</source>
-      <translation type="unfinished">Found {3} compass (required: {4})</translation>
+      <translation>Знайдено {3} компас (необхідно: {4})</translation>
     </message>
   </context>
   <context>
