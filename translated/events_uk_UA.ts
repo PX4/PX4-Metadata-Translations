@@ -2094,9 +2094,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;SYS_HAS_MAG&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Make sure all required sensors are working, enabled and calibrated.
+      <translation>Переконайтеся що усі необхідні сенсори працюють, їх увімкнено та прокалібровано.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;SYS_HAS_MAG&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;SYS_HAS_MAG&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2104,21 +2104,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6054338/message</name>
     <message>
       <source>Waiting for estimator to initialize</source>
-      <translation type="unfinished">Waiting for estimator to initialize</translation>
+      <translation>Очікування ініціалізації оцінювача</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6258044/message</name>
     <message>
       <source>Estimator fault due to Compass {3}</source>
-      <translation type="unfinished">Estimator fault due to Compass {3}</translation>
+      <translation>Помилка оцінювача через компас {3}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6258044/description</name>
     <message>
       <source>Recalibrate the compass and check the orientation.</source>
-      <translation type="unfinished">Recalibrate the compass and check the orientation.</translation>
+      <translation>Перекалібруйте компас та перевірте орієнтування.</translation>
     </message>
   </context>
   <context>
@@ -2133,7 +2133,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
