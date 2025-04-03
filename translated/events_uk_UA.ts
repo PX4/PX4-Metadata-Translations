@@ -1237,7 +1237,7 @@
     <name>/components/1/event_groups/arming_check/events/10011251/message</name>
     <message>
       <source>No valid global position estimate</source>
-      <translation>Не визначено дійсної глобальної позиції</translation>
+      <translation>Не визначено належної глобальної позиції</translation>
     </message>
   </context>
   <context>
@@ -1893,11 +1893,11 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">An accelerometer recalibration might help.
+      <translation>Перекалібрування акселерометра може допомогти.
 
 &lt;profile name="dev"&gt; Axis {3}: |{4:.8}| \&gt; {5:.8} + {6:.8}
 
-This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
