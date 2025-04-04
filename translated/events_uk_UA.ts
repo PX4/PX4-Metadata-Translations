@@ -2266,14 +2266,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/79408/message</name>
     <message>
       <source>Home position not set</source>
-      <translation type="unfinished">Home position not set</translation>
+      <translation>Перемикач RTL (повернення на точку злету) задіяно</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/7959667/message</name>
     <message>
       <source>Vehicle is in safety configuration</source>
-      <translation type="unfinished">Vehicle is in safety configuration</translation>
+      <translation>Апарат у безпечному режимі</translation>
     </message>
   </context>
   <context>
@@ -2283,9 +2283,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Vehicle is in safety configuration and denies arming.
+      <translation>Апарат у безпечному режимі та не сприймає активацію.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2293,7 +2293,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/8441780/message</name>
     <message>
       <source>Open Drone ID system not ready</source>
-      <translation type="unfinished">Open Drone ID system not ready</translation>
+      <translation>Відкрита Drone ID система не готова</translation>
     </message>
   </context>
   <context>
@@ -2303,9 +2303,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Open Drone ID system reported being unhealthy.
+      <translation>Відкрита Drone ID система звітувала про перебування у неробочому стані.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2313,21 +2313,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/8495477/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: TRIM less than MIN ({4} less than {5})</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: TRIM less than MIN ({4} less than {5})</translation>
+      <translation>Калібрування пульта(RC) для каналу {3} є невдалим: TRIM менше ніж MIN ({4} менше ніж {5})</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/8495477/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібрувати пульт(RC).</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/8538897/message</name>
     <message>
       <source>Attitude failure detected</source>
-      <translation type="unfinished">Attitude failure detected</translation>
+      <translation>Виявлено помилку стану орієнтації</translation>
     </message>
   </context>
   <context>
@@ -2337,9 +2337,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_R&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">The vehicle exceeded the maximum configured roll angle.
+      <translation>Апарат перевищив налаштований максимум кута крену.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_R&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_FAIL_R&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
