@@ -5,476 +5,476 @@
     <name>/components/0/enums/calibration_action_t/entries/0/description</name>
     <message>
       <source>Side already completed, switch to one of the remaining sides</source>
-      <translation type="unfinished">Side already completed, switch to one of the remaining sides</translation>
+      <translation>Сторону укомплектовано, перейдіть до однієї зі сторін що залишилися</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_action_t/entries/1/description</name>
     <message>
       <source>Switch to next orientation</source>
-      <translation type="unfinished">Switch to next orientation</translation>
+      <translation>Перейдіть до наступної орієнтації</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_action_t/entries/2/description</name>
     <message>
       <source>Rotate as shown</source>
-      <translation type="unfinished">Rotate as shown</translation>
+      <translation>Обертайте як показано</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_action_t/entries/3/description</name>
     <message>
       <source>Hold still</source>
-      <translation type="unfinished">Hold still</translation>
+      <translation>Тримати нерухомо</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_result_t/entries/0/description</name>
     <message>
       <source>Success</source>
-      <translation type="unfinished">Success</translation>
+      <translation>Успіх</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_result_t/entries/1/description</name>
     <message>
       <source>Failed</source>
-      <translation type="unfinished">Failed</translation>
+      <translation>Невдалий</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_result_t/entries/2/description</name>
     <message>
       <source>Aborted</source>
-      <translation type="unfinished">Aborted</translation>
+      <translation>Скасований</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/1/description</name>
     <message>
       <source>Tail Down</source>
-      <translation type="unfinished">Tail Down</translation>
+      <translation>Скласти хвіст</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/16/description</name>
     <message>
       <source>Upside Down</source>
-      <translation type="unfinished">Upside Down</translation>
+      <translation>Перевернутий</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/2/description</name>
     <message>
       <source>Nose Down</source>
-      <translation type="unfinished">Nose Down</translation>
+      <translation>Ніс донизу</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/32/description</name>
     <message>
       <source>Down</source>
-      <translation type="unfinished">Down</translation>
+      <translation>Донизу</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/4/description</name>
     <message>
       <source>Left Side Down</source>
-      <translation type="unfinished">Left Side Down</translation>
+      <translation>Лівий бік донизу</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/8/description</name>
     <message>
       <source>Right Side Down</source>
-      <translation type="unfinished">Right Side Down</translation>
+      <translation>Правий бік донизу</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/1/description</name>
     <message>
       <source>Accelerometer</source>
-      <translation type="unfinished">Accelerometer</translation>
+      <translation>Акселерометр</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/16/description</name>
     <message>
       <source>Airspeed</source>
-      <translation type="unfinished">Airspeed</translation>
+      <translation>Швидкість польоту</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/2/description</name>
     <message>
       <source>Magnetometer</source>
-      <translation type="unfinished">Magnetometer</translation>
+      <translation>Магнетометр</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/32/description</name>
     <message>
       <source>RC</source>
-      <translation type="unfinished">RC</translation>
+      <translation>Пульт</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/4/description</name>
     <message>
       <source>Gyroscope</source>
-      <translation type="unfinished">Gyroscope</translation>
+      <translation>Гіроскоп</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/8/description</name>
     <message>
       <source>Level</source>
-      <translation type="unfinished">Level</translation>
+      <translation>Рівень</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1100/message</name>
     <message>
       <source>Calibration progress: {2}%</source>
-      <translation type="unfinished">Calibration progress: {2}%</translation>
+      <translation>Прогрес калібрування: {2}%</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1101/message</name>
     <message>
       <source>Orientation detected: {1}</source>
-      <translation type="unfinished">Orientation detected: {1}</translation>
+      <translation>Орієнтацію знайдено: {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1102/message</name>
     <message>
       <source>Orientation Complete: {1}, next step: {2}</source>
-      <translation type="unfinished">Orientation Complete: {1}, next step: {2}</translation>
+      <translation>Орієнтацію завершено: {1}, наступний крок: {2}</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1103/message</name>
     <message>
       <source>Calibration Complete: {1}</source>
-      <translation type="unfinished">Calibration Complete: {1}</translation>
+      <translation>Калібрування завершено: {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/0/description</name>
     <message>
       <source>Transition to standby</source>
-      <translation type="unfinished">Transition to standby</translation>
+      <translation>Перехід до режиму очікування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/1/description</name>
     <message>
       <source>RC</source>
-      <translation type="unfinished">RC</translation>
+      <translation>Пульт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/10/description</name>
     <message>
       <source>failure detector</source>
-      <translation type="unfinished">failure detector</translation>
+      <translation>детектор помилок</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/11/description</name>
     <message>
       <source>shutdown request</source>
-      <translation type="unfinished">shutdown request</translation>
+      <translation>запит на вимкнення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/12/description</name>
     <message>
       <source>unit tests</source>
-      <translation type="unfinished">unit tests</translation>
+      <translation>тести блоків</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/13/description</name>
     <message>
       <source>RC (button)</source>
-      <translation type="unfinished">RC (button)</translation>
+      <translation>Пульт (кнопка)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/14/description</name>
     <message>
       <source>failsafe</source>
-      <translation type="unfinished">failsafe</translation>
+      <translation>аварійний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/2/description</name>
     <message>
       <source>RC (switch)</source>
-      <translation type="unfinished">RC (switch)</translation>
+      <translation>Пульт (перемикач)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/3/description</name>
     <message>
       <source>internal command</source>
-      <translation type="unfinished">internal command</translation>
+      <translation>внутрішня команда</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/4/description</name>
     <message>
       <source>external command</source>
-      <translation type="unfinished">external command</translation>
+      <translation>зовнішня команда</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/5/description</name>
     <message>
       <source>mission start</source>
-      <translation type="unfinished">mission start</translation>
+      <translation>початок місії</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/6/description</name>
     <message>
       <source>landing</source>
-      <translation type="unfinished">landing</translation>
+      <translation>приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/7/description</name>
     <message>
       <source>auto preflight disarming</source>
-      <translation type="unfinished">auto preflight disarming</translation>
+      <translation>автоматична передполітна деактивація</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/8/description</name>
     <message>
       <source>kill switch</source>
-      <translation type="unfinished">kill switch</translation>
+      <translation>ліквідувати перемикач</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/9/description</name>
     <message>
       <source>lockdown</source>
-      <translation type="unfinished">lockdown</translation>
+      <translation>локдаун</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/0/description</name>
     <message>
       <source>Init</source>
-      <translation type="unfinished">Init</translation>
+      <translation>Init</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/1/description</name>
     <message>
       <source>Standby</source>
-      <translation type="unfinished">Standby</translation>
+      <translation>Режим очікування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/2/description</name>
     <message>
       <source>Armed</source>
-      <translation type="unfinished">Armed</translation>
+      <translation>Активований</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/3/description</name>
     <message>
       <source>Standby Error</source>
-      <translation type="unfinished">Standby Error</translation>
+      <translation>Помилка режиму очікування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/4/description</name>
     <message>
       <source>Shutdown</source>
-      <translation type="unfinished">Shutdown</translation>
+      <translation>Вимкнути</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/5/description</name>
     <message>
       <source>In-air Restore</source>
-      <translation type="unfinished">In-air Restore</translation>
+      <translation>In-air відновлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/0/description</name>
     <message>
       <source>Battery has deep discharged</source>
-      <translation type="unfinished">Battery has deep discharged</translation>
+      <translation>Батарея глибоко розряджена</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/1/description</name>
     <message>
       <source>Battery detected voltage spikes</source>
-      <translation type="unfinished">Battery detected voltage spikes</translation>
+      <translation>Батарея виявила стрибки напруги</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/10/description</name>
     <message>
       <source>Battery is over-heating</source>
-      <translation type="unfinished">Battery is over-heating</translation>
+      <translation>Батарея перегрівається</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/2/description</name>
     <message>
       <source>One or more battery cells have failed</source>
-      <translation type="unfinished">One or more battery cells have failed</translation>
+      <translation>Одна або більше комірок батареї відмовила</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/3/description</name>
     <message>
       <source>Battery reported over-current</source>
-      <translation type="unfinished">Battery reported over-current</translation>
+      <translation>Батарея повідомляє про надмірну напругу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/4/description</name>
     <message>
       <source>Battery has reached a critical temperature which can result in a critical failure</source>
-      <translation type="unfinished">Battery has reached a critical temperature which can result in a critical failure</translation>
+      <translation>Батарея досягла критичної температури, що може призвести до критичної поломки</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/5/description</name>
     <message>
       <source>Battery temperature is below operating range</source>
-      <translation type="unfinished">Battery temperature is below operating range</translation>
+      <translation>Температура батареї нижче за робочий рівень</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/6/description</name>
     <message>
       <source>Vehicle voltage is not compatible with battery one</source>
-      <translation type="unfinished">Vehicle voltage is not compatible with battery one</translation>
+      <translation>Вольтаж апарату не є сумісним з вольтажем батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/7/description</name>
     <message>
       <source>Battery firmware is not compatible with current autopilot firmware</source>
-      <translation type="unfinished">Battery firmware is not compatible with current autopilot firmware</translation>
+      <translation>Прошивка батареї не є сумісною з поточною прошивкою автопілота</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/8/description</name>
     <message>
       <source>Battery model is not supported by the system</source>
-      <translation type="unfinished">Battery model is not supported by the system</translation>
+      <translation>Модель батареї не підтримується системою</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/9/description</name>
     <message>
       <source>Battery reported an hardware problem</source>
-      <translation type="unfinished">Battery reported an hardware problem</translation>
+      <translation>Батарея повідомляє про проблему обладнання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_mode_t/entries/0/description</name>
     <message>
       <source>unknown</source>
-      <translation type="unfinished">unknown</translation>
+      <translation>невідомо</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_mode_t/entries/1/description</name>
     <message>
       <source>auto discharging towards storage level</source>
-      <translation type="unfinished">auto discharging towards storage level</translation>
+      <translation>автоматичне розряджання до рівня зберігання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_mode_t/entries/2/description</name>
     <message>
       <source>hot-swap</source>
-      <translation type="unfinished">hot-swap</translation>
+      <translation>гаряча заміна</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/0/description</name>
     <message>
       <source>detected over current</source>
-      <translation type="unfinished">detected over current</translation>
+      <translation>виявлено надвисоку напругу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/1/description</name>
     <message>
       <source>detected over voltage</source>
-      <translation type="unfinished">detected over voltage</translation>
+      <translation>виявлено надвисокий вольтаж</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/2/description</name>
     <message>
       <source>Motor has reached a critical temperature</source>
-      <translation type="unfinished">Motor has reached a critical temperature</translation>
+      <translation>Мотор досягнув критичної температури</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/3/description</name>
     <message>
       <source>Motor RPM is exceeding the limits</source>
-      <translation type="unfinished">Motor RPM is exceeding the limits</translation>
+      <translation>Оберти мотору перевищують ліміт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/4/description</name>
     <message>
       <source>received an invalid control command</source>
-      <translation type="unfinished">received an invalid control command</translation>
+      <translation>отримано невірну контрольну команду</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/5/description</name>
     <message>
       <source>Motor stalled</source>
-      <translation type="unfinished">Motor stalled</translation>
+      <translation>Мотор зупинився</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/6/description</name>
     <message>
       <source>detected a generic hardware failure</source>
-      <translation type="unfinished">detected a generic hardware failure</translation>
+      <translation>виявлено загальну помилку обладнання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/7/description</name>
     <message>
       <source>Motor is over-heating</source>
-      <translation type="unfinished">Motor is over-heating</translation>
+      <translation>Мотор перегрівається</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/8/description</name>
     <message>
       <source>is over-heating</source>
-      <translation type="unfinished">is over-heating</translation>
+      <translation>перегрівається</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/esc_fault_reason_t/entries/9/description</name>
     <message>
       <source>reached a critical temperature</source>
-      <translation type="unfinished">reached a critical temperature</translation>
+      <translation>досягнув критичної температури</translation>
     </message>
   </context>
   <context>
@@ -488,70 +488,70 @@
     <name>/components/1/enums/failsafe_action_t/entries/1/description</name>
     <message>
       <source>warning</source>
-      <translation type="unfinished">warning</translation>
+      <translation>попередження</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/10/description</name>
     <message>
       <source>terminate</source>
-      <translation type="unfinished">terminate</translation>
+      <translation>закінчити</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/2/description</name>
     <message>
       <source>Position mode</source>
-      <translation type="unfinished">Position mode</translation>
+      <translation>Позиційний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/3/description</name>
     <message>
       <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
+      <translation>Висотний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/4/description</name>
     <message>
       <source>Stabilized mode</source>
-      <translation type="unfinished">Stabilized mode</translation>
+      <translation>Стабілізаційний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/5/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Тримати</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/6/description</name>
     <message>
       <source>RTL</source>
-      <translation type="unfinished">RTL</translation>
+      <translation>режим RTL (Return to Launch - повернення до точки зльоту)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/7/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/8/description</name>
     <message>
       <source>Descend</source>
-      <translation type="unfinished">Descend</translation>
+      <translation>Зниження</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_action_t/entries/9/description</name>
     <message>
       <source>disarm</source>
-      <translation type="unfinished">disarm</translation>
+      <translation>деактивувати</translation>
     </message>
   </context>
   <context>
@@ -565,651 +565,651 @@
     <name>/components/1/enums/failsafe_cause_t/entries/1/description</name>
     <message>
       <source>Manual control loss</source>
-      <translation type="unfinished">Manual control loss</translation>
+      <translation>Ручний контроль втрат</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/2/description</name>
     <message>
       <source>GCS connection loss</source>
-      <translation type="unfinished">GCS connection loss</translation>
+      <translation>GCS з'єднання втрачено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/3/description</name>
     <message>
       <source>Low battery level</source>
-      <translation type="unfinished">Low battery level</translation>
+      <translation>Низький рівень батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/4/description</name>
     <message>
       <source>Critical battery level</source>
-      <translation type="unfinished">Critical battery level</translation>
+      <translation>Критичний рівень батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/5/description</name>
     <message>
       <source>Emergency battery level</source>
-      <translation type="unfinished">Emergency battery level</translation>
+      <translation>Аварійний заряд батареї</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/6/description</name>
     <message>
       <source>Remaining flight time low</source>
-      <translation type="unfinished">Remaining flight time low</translation>
+      <translation>Залишилось мало польотного часу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>Нічого</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1024/description</name>
     <message>
       <source>Logging</source>
-      <translation type="unfinished">Logging</translation>
+      <translation>Ведення журналу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1048576/description</name>
     <message>
       <source>System</source>
-      <translation type="unfinished">System</translation>
+      <translation>Система</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1073741824/description</name>
     <message>
       <source>Open Drone ID system</source>
-      <translation type="unfinished">Open Drone ID system</translation>
+      <translation>Відкрити систему Drone ID</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/128/description</name>
     <message>
       <source>Remote Control (RC or Joystick)</source>
-      <translation type="unfinished">Remote Control (RC or Joystick)</translation>
+      <translation>Пульт керування (RC або джойстик)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/131072/description</name>
     <message>
       <source>Local position estimate</source>
-      <translation type="unfinished">Local position estimate</translation>
+      <translation>Оцінка локальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/134217728/description</name>
     <message>
       <source>Magnetometer</source>
-      <translation type="unfinished">Magnetometer</translation>
+      <translation>Магнетометр</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/16/description</name>
     <message>
       <source>Optical flow</source>
-      <translation type="unfinished">Optical flow</translation>
+      <translation>Оптичний потік</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/16384/description</name>
     <message>
       <source>Attitude controller</source>
-      <translation type="unfinished">Attitude controller</translation>
+      <translation>Контролер стану орієнтації</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/16777216/description</name>
     <message>
       <source>Global position estimate</source>
-      <translation type="unfinished">Global position estimate</translation>
+      <translation>Оцінка глобальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2/description</name>
     <message>
       <source>Absolute pressure</source>
-      <translation type="unfinished">Absolute pressure</translation>
+      <translation>Абсолютний тиск</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2048/description</name>
     <message>
       <source>Battery</source>
-      <translation type="unfinished">Battery</translation>
+      <translation>Батарея</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2097152/description</name>
     <message>
       <source>Camera</source>
-      <translation type="unfinished">Camera</translation>
+      <translation>Камера</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/256/description</name>
     <message>
       <source>Motors/ESCs</source>
-      <translation type="unfinished">Motors/ESCs</translation>
+      <translation>Мотори/ESCs</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/262144/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/268435456/description</name>
     <message>
       <source>Accelerometer</source>
-      <translation type="unfinished">Accelerometer</translation>
+      <translation>Акселерометр</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/32/description</name>
     <message>
       <source>Vision position estimate</source>
-      <translation type="unfinished">Vision position estimate</translation>
+      <translation>Оцінка огляду з позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/32768/description</name>
     <message>
       <source>Position controller</source>
-      <translation type="unfinished">Position controller</translation>
+      <translation>Контролер позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/33554432/description</name>
     <message>
       <source>Storage</source>
-      <translation type="unfinished">Storage</translation>
+      <translation>Сховище</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/4/description</name>
     <message>
       <source>Differential pressure</source>
-      <translation type="unfinished">Differential pressure</translation>
+      <translation>Диференціальний тиск</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/4096/description</name>
     <message>
       <source>Communication links</source>
-      <translation type="unfinished">Communication links</translation>
+      <translation>Комунікаційні зв'язки</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/4194304/description</name>
     <message>
       <source>Gimbal</source>
-      <translation type="unfinished">Gimbal</translation>
+      <translation>Підвіс камери</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/512/description</name>
     <message>
       <source>UTM</source>
-      <translation type="unfinished">UTM</translation>
+      <translation>UTM (Безпілотне управління дорожнім рухом)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/524288/description</name>
     <message>
       <source>Avoidance</source>
-      <translation type="unfinished">Avoidance</translation>
+      <translation>Уникнення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/536870912/description</name>
     <message>
       <source>Gyroscope</source>
-      <translation type="unfinished">Gyroscope</translation>
+      <translation>Гіроскоп</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/64/description</name>
     <message>
       <source>Distance sensor</source>
-      <translation type="unfinished">Distance sensor</translation>
+      <translation>Сенсор відстані</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/65536/description</name>
     <message>
       <source>Attitude estimate</source>
-      <translation type="unfinished">Attitude estimate</translation>
+      <translation>Оцінювання стану орієнтації</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/67108864/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8/description</name>
     <message>
       <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
+      <translation>GPS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8192/description</name>
     <message>
       <source>Rate controller</source>
-      <translation type="unfinished">Rate controller</translation>
+      <translation>Коефіцієнт контролера</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8388608/description</name>
     <message>
       <source>Payload</source>
-      <translation type="unfinished">Payload</translation>
+      <translation>Боєкомплект</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1/description</name>
     <message>
       <source>Fully manual mode (w/o any controller support)</source>
-      <translation type="unfinished">Fully manual mode (w/o any controller support)</translation>
+      <translation>Повністю ручний режим (без будь-якої підтримки контролером)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1024/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1048576/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/1073741824/description</name>
     <message>
       <source>External 8</source>
-      <translation type="unfinished">External 8</translation>
+      <translation>Зовнішній 8</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/131072/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/134217728/description</name>
     <message>
       <source>External 5</source>
-      <translation type="unfinished">External 5</translation>
+      <translation>Зовнішній 5</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/16/description</name>
     <message>
       <source>Loiter</source>
-      <translation type="unfinished">Loiter</translation>
+      <translation>Утримання положення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/16384/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/16777216/description</name>
     <message>
       <source>External 2</source>
-      <translation type="unfinished">External 2</translation>
+      <translation>Зовнішній 2</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/2/description</name>
     <message>
       <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
+      <translation>Режим висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/2097152/description</name>
     <message>
       <source>Orbit</source>
-      <translation type="unfinished">Orbit</translation>
+      <translation>Орбіта</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/262144/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/268435456/description</name>
     <message>
       <source>External 6</source>
-      <translation type="unfinished">External 6</translation>
+      <translation>Зовнішній 6</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/32/description</name>
     <message>
       <source>RTL</source>
-      <translation type="unfinished">RTL</translation>
+      <translation>RTL (Return to Launch - повернення до точки зльоту)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/32768/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізувати</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/33554432/description</name>
     <message>
       <source>External 3</source>
-      <translation type="unfinished">External 3</translation>
+      <translation>Зовнішній 3</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/4/description</name>
     <message>
       <source>Position mode</source>
-      <translation type="unfinished">Position mode</translation>
+      <translation>Позиційний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/4194304/description</name>
     <message>
       <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
+      <translation>Вертикальний зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/524288/description</name>
     <message>
       <source>Follow Target</source>
-      <translation type="unfinished">Follow Target</translation>
+      <translation>Слідувати за ціллю</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/536870912/description</name>
     <message>
       <source>External 7</source>
-      <translation type="unfinished">External 7</translation>
+      <translation>Зовнішній 7</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/67108864/description</name>
     <message>
       <source>External 4</source>
-      <translation type="unfinished">External 4</translation>
+      <translation>Зовнішній 4</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/8/description</name>
     <message>
       <source>Mission mode</source>
-      <translation type="unfinished">Mission mode</translation>
+      <translation>Режим місії</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/8388608/description</name>
     <message>
       <source>External 1</source>
-      <translation type="unfinished">External 1</translation>
+      <translation>Зовнішній 1</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/1/description</name>
     <message>
       <source>Altitude control</source>
-      <translation type="unfinished">Altitude control</translation>
+      <translation>Контроль висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/12/description</name>
     <message>
       <source>Follow Target</source>
-      <translation type="unfinished">Follow Target</translation>
+      <translation>Переслідувати ціль</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/13/description</name>
     <message>
       <source>Precision Landing</source>
-      <translation type="unfinished">Precision Landing</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/14/description</name>
     <message>
       <source>Orbit</source>
-      <translation type="unfinished">Orbit</translation>
+      <translation>Орбіта</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/15/description</name>
     <message>
       <source>Vtol Takeoff</source>
-      <translation type="unfinished">Vtol Takeoff</translation>
+      <translation>Вертикальний зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/16/description</name>
     <message>
       <source>External 1</source>
-      <translation type="unfinished">External 1</translation>
+      <translation>Зовнішній 1</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/17/description</name>
     <message>
       <source>External 2</source>
-      <translation type="unfinished">External 2</translation>
+      <translation>Зовнішній 2</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/18/description</name>
     <message>
       <source>External 3</source>
-      <translation type="unfinished">External 3</translation>
+      <translation>Зовнішній 3</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/19/description</name>
     <message>
       <source>External 4</source>
-      <translation type="unfinished">External 4</translation>
+      <translation>Зовнішній 4</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/2/description</name>
     <message>
       <source>Position control</source>
-      <translation type="unfinished">Position control</translation>
+      <translation>Контроль позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/20/description</name>
     <message>
       <source>External 5</source>
-      <translation type="unfinished">External 5</translation>
+      <translation>Зовнішній 5</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/21/description</name>
     <message>
       <source>External 6</source>
-      <translation type="unfinished">External 6</translation>
+      <translation>Зовнішній 6</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/22/description</name>
     <message>
       <source>External 7</source>
-      <translation type="unfinished">External 7</translation>
+      <translation>Зовнішній 7</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/23/description</name>
     <message>
       <source>External 8</source>
-      <translation type="unfinished">External 8</translation>
+      <translation>Зовнішній 8</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/255/description</name>
     <message>
       <source>[Unknown]</source>
-      <translation type="unfinished">[Unknown]</translation>
+      <translation>[Невідомий]</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Тримати</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/5/description</name>
     <message>
       <source>RTL</source>
-      <translation type="unfinished">RTL</translation>
+      <translation>режим RTL (Return to Launch - повернення до точки зльоту)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_t/entries/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільний режим позиціювання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_failover_reason_t/entries/1/description</name>
     <message>
       <source>No data</source>
-      <translation type="unfinished">No data</translation>
+      <translation>Немає даних</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_failover_reason_t/entries/16/description</name>
     <message>
       <source>High Error Density</source>
-      <translation type="unfinished">High Error Density</translation>
+      <translation>Висока щільність помилок</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_failover_reason_t/entries/2/description</name>
     <message>
       <source>Stale data</source>
-      <translation type="unfinished">Stale data</translation>
+      <translation>Stale данні</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_failover_reason_t/entries/4/description</name>
     <message>
       <source>Timeout</source>
-      <translation type="unfinished">Timeout</translation>
+      <translation>Тайм-аут</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_failover_reason_t/entries/8/description</name>
     <message>
       <source>High Error Count</source>
-      <translation type="unfinished">High Error Count</translation>
+      <translation>Висока кількість помилок</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_type_t/entries/0/description</name>
     <message>
       <source>Accelerometer</source>
-      <translation type="unfinished">Accelerometer</translation>
+      <translation>Акселерометр</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_type_t/entries/1/description</name>
     <message>
       <source>Gyroscope</source>
-      <translation type="unfinished">Gyroscope</translation>
+      <translation>Гіроскоп</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/sensor_type_t/entries/2/description</name>
     <message>
       <source>Magnetometer</source>
-      <translation type="unfinished">Magnetometer</translation>
+      <translation>Магнетометр</translation>
     </message>
   </context>
   <context>
@@ -1223,28 +1223,28 @@
     <name>/components/1/enums/suggested_action_t/entries/1/description</name>
     <message>
       <source>Land now!</source>
-      <translation type="unfinished">Land now!</translation>
+      <translation>Приземляйтеся зараз!</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/suggested_action_t/entries/2/description</name>
     <message>
       <source>Reduce throttle!</source>
-      <translation type="unfinished">Reduce throttle!</translation>
+      <translation>Зменште тягу!</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/10011251/message</name>
     <message>
       <source>No valid global position estimate</source>
-      <translation type="unfinished">No valid global position estimate</translation>
+      <translation>Не визначено належної глобальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/10161216/message</name>
     <message>
       <source>Open Drone ID system missing</source>
-      <translation type="unfinished">Open Drone ID system missing</translation>
+      <translation>Бракує системи Open Drone ID</translation>
     </message>
   </context>
   <context>
@@ -1254,7 +1254,7 @@
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Open Drone ID system failed to report. Make sure it is setup and installed properly.
+      <translation>Невдалий звіт системи Open Drone ID. Переконайтеся що система встановлена належним чином.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
@@ -1264,7 +1264,7 @@
     <name>/components/1/event_groups/arming_check/events/10198977/message</name>
     <message>
       <source>GPS PDOP too high</source>
-      <translation type="unfinished">GPS PDOP too high</translation>
+      <translation>Занадто висока GPS PDOP (погіршення точності позиції)</translation>
     </message>
   </context>
   <context>
@@ -1272,7 +1272,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1280,21 +1280,21 @@
     <name>/components/1/event_groups/arming_check/events/10450063/message</name>
     <message>
       <source>No valid attitude estimate</source>
-      <translation type="unfinished">No valid attitude estimate</translation>
+      <translation>Не визначено належного стану орієнтації</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/10450063/description</name>
     <message>
       <source>Wait until the estimator initialized</source>
-      <translation type="unfinished">Wait until the estimator initialized</translation>
+      <translation>Дочекайтесь ініціалізації оцінника</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/1049276/message</name>
     <message>
       <source>GPS Horizontal Position Error too high</source>
-      <translation type="unfinished">GPS Horizontal Position Error too high</translation>
+      <translation>Занадто велика помилка GPS горизонтального положення</translation>
     </message>
   </context>
   <context>
@@ -1302,7 +1302,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1310,7 +1310,7 @@
     <name>/components/1/event_groups/arming_check/events/10678671/message</name>
     <message>
       <source>GPS Speed Accuracy too low</source>
-      <translation type="unfinished">GPS Speed Accuracy too low</translation>
+      <translation>Занадто низька точність GPS швидкості</translation>
     </message>
   </context>
   <context>
@@ -1318,7 +1318,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1326,7 +1326,7 @@
     <name>/components/1/event_groups/arming_check/events/10996333/message</name>
     <message>
       <source>Missing FMU SD Card</source>
-      <translation type="unfinished">Missing FMU SD Card</translation>
+      <translation>Відсутня FMU SD картка</translation>
     </message>
   </context>
   <context>
@@ -1336,9 +1336,9 @@
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_SDCARD&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Insert an SD Card to the autopilot and reboot the system.
+      <translation>Вставте SD картку в автопілот та перезавантажте систему.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_SDCARD&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_SDCARD&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1346,14 +1346,14 @@
     <name>/components/1/event_groups/arming_check/events/11047904/message</name>
     <message>
       <source>Arming check summary event</source>
-      <translation type="unfinished">Arming check summary event</translation>
+      <translation>Підсумок події перевірки активації</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/11413600/message</name>
     <message>
       <source>Wind speed is above limit ({3:.1m/s})</source>
-      <translation type="unfinished">Wind speed is above limit ({3:.1m/s})</translation>
+      <translation>Швидкість вітру перевищує норму ({3:.1м/с})</translation>
     </message>
   </context>
   <context>
@@ -1361,7 +1361,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_WIND_MAX&lt;/param&gt; and &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_WIND_MAX&lt;/param&gt; and &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_WIND_MAX&lt;/param&gt; and &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1369,7 +1369,7 @@
     <name>/components/1/event_groups/arming_check/events/11497430/message</name>
     <message>
       <source>GPS Vertical Position Drift too high</source>
-      <translation type="unfinished">GPS Vertical Position Drift too high</translation>
+      <translation>Занадто високий дріфт GPS положення по вертикалі</translation>
     </message>
   </context>
   <context>
@@ -1377,7 +1377,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1385,7 +1385,7 @@
     <name>/components/1/event_groups/arming_check/events/11973889/message</name>
     <message>
       <source>Velocity estimate error</source>
-      <translation type="unfinished">Velocity estimate error</translation>
+      <translation>Помилка визначення швидкості</translation>
     </message>
   </context>
   <context>
@@ -1395,9 +1395,9 @@
 
 This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
+Ця перевірка може бути налаштована через
+&lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1405,7 +1405,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/12276004/message</name>
     <message>
       <source>Global position required</source>
-      <translation type="unfinished">Global position required</translation>
+      <translation>Необхідно глобальне позиціювання</translation>
     </message>
   </context>
   <context>
@@ -1413,7 +1413,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1421,7 +1421,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/12369553/message</name>
     <message>
       <source>GPS fix too low</source>
-      <translation type="unfinished">GPS fix too low</translation>
+      <translation>Занадто низька точність GPS даних</translation>
     </message>
   </context>
   <context>
@@ -1429,7 +1429,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1437,7 +1437,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/124285/message</name>
     <message>
       <source>Geofence RTL requires valid home</source>
-      <translation type="unfinished">Geofence RTL requires valid home</translation>
+      <translation>Геозона RTL(точки повернення до зльоту) потребує належної домашньої точки)</translation>
     </message>
   </context>
   <context>
@@ -1445,7 +1445,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1453,35 +1453,35 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/12689900/message</name>
     <message>
       <source>No valid altitude estimate</source>
-      <translation type="unfinished">No valid altitude estimate</translation>
+      <translation>Не визначено належної висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/12754954/message</name>
     <message>
       <source>Flight termination active</source>
-      <translation type="unfinished">Flight termination active</translation>
+      <translation>Активне завершення польоту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/12780289/message</name>
     <message>
       <source>GPS reports critical jamming state</source>
-      <translation type="unfinished">GPS reports critical jamming state</translation>
+      <translation>Повідомлення про критичний стан придушення GPS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/12805643/message</name>
     <message>
       <source>Mission cannot be completed</source>
-      <translation type="unfinished">Mission cannot be completed</translation>
+      <translation>Місія не може бути завершеною</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/13017122/message</name>
     <message>
       <source>Avoidance system not ready</source>
-      <translation type="unfinished">Avoidance system not ready</translation>
+      <translation>Система уникання не готова</translation>
     </message>
   </context>
   <context>
@@ -1489,7 +1489,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_OBS_AVOID&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_OBS_AVOID&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_OBS_AVOID&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1497,7 +1497,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/13094458/message</name>
     <message>
       <source>Not enough GPS Satellites</source>
-      <translation type="unfinished">Not enough GPS Satellites</translation>
+      <translation>Не достатньо GPS супутників</translation>
     </message>
   </context>
   <context>
@@ -1505,7 +1505,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1513,28 +1513,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/1326449/message</name>
     <message>
       <source>Gyro {3} uncalibrated</source>
-      <translation type="unfinished">Gyro {3} uncalibrated</translation>
+      <translation>Гіро {3} не відкалібровано</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/13528143/message</name>
     <message>
       <source>Vehicle is in transition state</source>
-      <translation type="unfinished">Vehicle is in transition state</translation>
+      <translation>Апарат в перехідному стані</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/13835193/message</name>
     <message>
       <source>No valid local position estimate</source>
-      <translation type="unfinished">No valid local position estimate</translation>
+      <translation>Не визначено дійсної локальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/13923616/message</name>
     <message>
       <source>Geofence violation: exceeding maximum altitude above Home</source>
-      <translation type="unfinished">Geofence violation: exceeding maximum altitude above Home</translation>
+      <translation>Порушення зони обмеження: перевищено максимальну висоту над домашній точці</translation>
     </message>
   </context>
   <context>
@@ -1542,7 +1542,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_VER_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_VER_DIST&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_VER_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1550,7 +1550,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/14200647/message</name>
     <message>
       <source>Vehicle is not in multicopter mode</source>
-      <translation type="unfinished">Vehicle is not in multicopter mode</translation>
+      <translation>Апарат не знаходиться у режимі мультикоптера</translation>
     </message>
   </context>
   <context>
@@ -1558,7 +1558,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1566,7 +1566,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/143019/message</name>
     <message>
       <source>Geofence violation: approaching or outside geofence</source>
-      <translation type="unfinished">Geofence violation: approaching or outside geofence</translation>
+      <translation>Порушення зони обмеження: наближення або вихід за межі зони обмеження</translation>
     </message>
   </context>
   <context>
@@ -1574,7 +1574,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1590,7 +1590,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1598,35 +1598,35 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/14748737/message</name>
     <message>
       <source>Mode is not registered</source>
-      <translation type="unfinished">Mode is not registered</translation>
+      <translation>Режим не зареєстровано</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/14748737/description</name>
     <message>
       <source>The application running the mode is not started.</source>
-      <translation type="unfinished">The application running the mode is not started.</translation>
+      <translation>Не запущено застосунок, який забезпечує роботу режиму.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/15180799/message</name>
     <message>
       <source>VTOL fixed-wing system failure detected. Verify reason for failure, and reboot the vehicle once confirmed safe</source>
-      <translation type="unfinished">VTOL fixed-wing system failure detected. Verify reason for failure, and reboot the vehicle once confirmed safe</translation>
+      <translation>Виявлено помилку системи вертикального зльоту/посадки фіксованого крила. Перевірте причину помилки та перезавантажте апарат, коли підтверджено безпеку</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/15399315/message</name>
     <message>
       <source>GPS reports spoofing indicated</source>
-      <translation type="unfinished">GPS reports spoofing indicated</translation>
+      <translation>GPS звітує про виявлений спуфінг</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/15713375/message</name>
     <message>
       <source>Strong magnetic interference</source>
-      <translation type="unfinished">Strong magnetic interference</translation>
+      <translation>Потужне магнітне втручання</translation>
     </message>
   </context>
   <context>
@@ -1634,7 +1634,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; Measured strength: {3:.3}, expected: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Measured inclination: {5:.3}, expected: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Measured strength: {3:.3}, expected: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Measured inclination: {5:.3}, expected: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Вимерена потужність: {3:.3}, очікувана: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Вимерений нахил: {5:.3}, очікуваний: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1642,28 +1642,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/16158540/message</name>
     <message>
       <source>Landing gear switch set in UP position</source>
-      <translation type="unfinished">Landing gear switch set in UP position</translation>
+      <translation>Блок приземлення переведено у положення UP</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/16642797/message</name>
     <message>
       <source>Heading estimate not stable</source>
-      <translation type="unfinished">Heading estimate not stable</translation>
+      <translation>Оцінюваний напрямок не стабільний</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/16716537/message</name>
     <message>
       <source>Compass {3} uncalibrated</source>
-      <translation type="unfinished">Compass {3} uncalibrated</translation>
+      <translation>Компас {3} не відкалібровано</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/16745468/message</name>
     <message>
       <source>Attitude failure detected</source>
-      <translation type="unfinished">Attitude failure detected</translation>
+      <translation>Помилка визначення стану орієнтації</translation>
     </message>
   </context>
   <context>
@@ -1673,9 +1673,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_P&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">The vehicle exceeded the maximum configured pitch angle.
+      <translation>Апарат перевищив максимально встановлений кут тангажу.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_P&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_FAIL_P&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1683,7 +1683,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/1802995/message</name>
     <message>
       <source>Airspeed too high</source>
-      <translation type="unfinished">Airspeed too high</translation>
+      <translation>Швидкість польоту занадто висока</translation>
     </message>
   </context>
   <context>
@@ -1695,11 +1695,11 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 
 This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Current airspeed reading too high. Check if wind is below maximum airspeed and redo airspeed calibration if the measured airspeed does not correspond to wind conditions.
+      <translation>Занадто висока поточна зчитувана швидкість польоту. Перевірте чи швидкість вітру нижче за максимальну швидкість польоту та повторіть калібрування швидкості польоту якщо виміряна швидкість польоту не відповідає умовам вітру.
 
-&lt;profile name="dev"&gt; Measured: {3:.1m/s}, limit: {4:.1m/s}.
+&lt;profile name="dev"&gt; Виміряно: {3:.1m/s}, ліміт: {4:.1m/s}.
 
-This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1707,35 +1707,35 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/1871713/message</name>
     <message>
       <source>Mode not suitable for arming</source>
-      <translation type="unfinished">Mode not suitable for arming</translation>
+      <translation>Режим не підходить для активації</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/1871713/description</name>
     <message>
       <source>Switch to another mode first.</source>
-      <translation type="unfinished">Switch to another mode first.</translation>
+      <translation>Спочатку перейдіть на інший режим.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/1917030/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: TRIM greater than MAX ({4} greater than {5})</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: TRIM greater than MAX ({4} greater than {5})</translation>
+      <translation>Калібрування пульта(RC) для {3} є невдалим: TRIM більше за MAX ({4} більше за {5})</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/1917030/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібруйте пульт(RC).</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/2071276/message</name>
     <message>
       <source>Low battery</source>
-      <translation type="unfinished">Low battery</translation>
+      <translation>Низький заряд батареї</translation>
     </message>
   </context>
   <context>
@@ -1745,9 +1745,9 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">The battery state of charge of the worst battery is below the preflight threshold.
+      <translation>Стан заряду найгіршої батареї нижче передполітного порогу.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може налаштована через &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1755,21 +1755,21 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/2088119/message</name>
     <message>
       <source>Poor GPS Quality</source>
-      <translation type="unfinished">Poor GPS Quality</translation>
+      <translation>Низька якість GPS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/2228586/message</name>
     <message>
       <source>Remaining flight time low</source>
-      <translation type="unfinished">Remaining flight time low</translation>
+      <translation>Низький залишок політного часу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/2229864/message</name>
     <message>
       <source>Power redundancy not met</source>
-      <translation type="unfinished">Power redundancy not met</translation>
+      <translation>Надлишок живлення нижче норми</translation>
     </message>
   </context>
   <context>
@@ -1779,9 +1779,9 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POWER_COUNT&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Available power modules: {3}. Required power modules: {4}.
+      <translation>Доступні модулі живлення: {3}. Потрібні модулі живлення: {4}.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POWER_COUNT&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_POWER_COUNT&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1789,7 +1789,7 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/2481841/message</name>
     <message>
       <source>Gyro {3} inconsistent</source>
-      <translation type="unfinished">Gyro {3} inconsistent</translation>
+      <translation>Гіроскоп {3} нестабільний</translation>
     </message>
   </context>
   <context>
@@ -1801,11 +1801,11 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Check the calibration.
+      <translation>Перевірте калібрування.
 
-Inconsistency value: {4}. Configured Threshold: {5}.
+Нестабільне значення: {4}. Налаштований поріг: {5}.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1813,7 +1813,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <name>/components/1/event_groups/arming_check/events/276785/message</name>
     <message>
       <source>Press safety button first</source>
-      <translation type="unfinished">Press safety button first</translation>
+      <translation>Натисніть спочатку кнопку запобіжника</translation>
     </message>
   </context>
   <context>
@@ -1821,7 +1821,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1829,7 +1829,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <name>/components/1/event_groups/arming_check/events/3061044/message</name>
     <message>
       <source>Accel {3} inconsistent</source>
-      <translation type="unfinished">Accel {3} inconsistent</translation>
+      <translation>Прискорення {3} нестабільне</translation>
     </message>
   </context>
   <context>
@@ -1841,11 +1841,11 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Check the calibration.
+      <translation>Перевірте калібрування.
 
-Inconsistency value: {4}. Configured Threshold: {5}.
+Нестабільне значення: {4}. Налаштований поріг: {5}.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1853,35 +1853,35 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <name>/components/1/event_groups/arming_check/events/3087815/message</name>
     <message>
       <source>No offboard signal</source>
-      <translation type="unfinished">No offboard signal</translation>
+      <translation>Відсутній зовнішній сигнал</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/3087815/description</name>
     <message>
       <source>The offboard component is not sending setpoints or the required estimate (e.g. position) is missing.</source>
-      <translation type="unfinished">The offboard component is not sending setpoints or the required estimate (e.g. position) is missing.</translation>
+      <translation>Зовнішній компонент не надсилає задані значення або необхідне розраховане значення (напр. положення) відсутнє.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/3603209/message</name>
     <message>
       <source>Stopping compass use</source>
-      <translation type="unfinished">Stopping compass use</translation>
+      <translation>Припинення використання компасу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/3603209/description</name>
     <message>
       <source>Land and calibrate the compass.</source>
-      <translation type="unfinished">Land and calibrate the compass.</translation>
+      <translation>Приземлитися та відкалібрувати компас.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/3613628/message</name>
     <message>
       <source>High Accelerometer Bias</source>
-      <translation type="unfinished">High Accelerometer Bias</translation>
+      <translation>Велике відхилення акселерометра</translation>
     </message>
   </context>
   <context>
@@ -1893,11 +1893,11 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">An accelerometer recalibration might help.
+      <translation>Перекалібрування акселерометра може допомогти.
 
 &lt;profile name="dev"&gt; Axis {3}: |{4:.8}| \&gt; {5:.8} + {6:.8}
 
-This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1905,7 +1905,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/377561/message</name>
     <message>
       <source>No valid mission available</source>
-      <translation type="unfinished">No valid mission available</translation>
+      <translation>Немає дійсної місії</translation>
     </message>
   </context>
   <context>
@@ -1915,9 +1915,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Upload a mission first.
+      <translation>Спочатку завантажте місію.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1925,7 +1925,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/4065583/message</name>
     <message>
       <source>Geofence violation: exceeding maximum distance to Home</source>
-      <translation type="unfinished">Geofence violation: exceeding maximum distance to Home</translation>
+      <translation>Порушення зони обмеження: перевищено максимальну дистанцію до точки повернення</translation>
     </message>
   </context>
   <context>
@@ -1933,7 +1933,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1941,7 +1941,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/4261821/message</name>
     <message>
       <source>Failure triggered by external system</source>
-      <translation type="unfinished">Failure triggered by external system</translation>
+      <translation>Помилка викликана зовнішньою системою</translation>
     </message>
   </context>
   <context>
@@ -1949,7 +1949,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1957,7 +1957,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/453929/message</name>
     <message>
       <source>No manual control input</source>
-      <translation type="unfinished">No manual control input</translation>
+      <translation>Немає ручного контролю введення</translation>
     </message>
   </context>
   <context>
@@ -1966,8 +1966,8 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
       <source>Connect and enable stick input or use autonomous mode.
 &lt;profile name="dev"&gt; Sticks can be enabled via &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Connect and enable stick input or use autonomous mode.
-&lt;profile name="dev"&gt; Sticks can be enabled via &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
+      <translation>Під'єднайте та активуйте введення стіками або використовуйте автономний режим.
+&lt;profile name="dev"&gt; Стіки можуть бути активовані через &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1975,14 +1975,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/4549029/message</name>
     <message>
       <source>Altitude failure detected</source>
-      <translation type="unfinished">Altitude failure detected</translation>
+      <translation>Виявлено помилку висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/4975227/message</name>
     <message>
       <source>GPS Horizontal Speed Drift too high</source>
-      <translation type="unfinished">GPS Horizontal Speed Drift too high</translation>
+      <translation>Занадто великий горизонтальний швидкісний GPS дріфт</translation>
     </message>
   </context>
   <context>
@@ -1990,7 +1990,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1998,7 +1998,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5049764/message</name>
     <message>
       <source>Low battery</source>
-      <translation type="unfinished">Low battery</translation>
+      <translation>Низький заряд батареї</translation>
     </message>
   </context>
   <context>
@@ -2008,9 +2008,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;BAT_LOW_THR&lt;/param&gt;, &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; and &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">The battery state of charge of the worst battery is below the warning threshold.
+      <translation>Стан заряду найгіршої батареї нижче порогу попередження.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;BAT_LOW_THR&lt;/param&gt;, &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; and &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt; parameters.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;BAT_LOW_THR&lt;/param&gt;, &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; and &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2018,7 +2018,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/516062/message</name>
     <message>
       <source>GPS Vertical Position Error too high</source>
-      <translation type="unfinished">GPS Vertical Position Error too high</translation>
+      <translation>Занадто велика помилка GPS вертикального позиціювання</translation>
     </message>
   </context>
   <context>
@@ -2026,7 +2026,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2034,7 +2034,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5273740/message</name>
     <message>
       <source>Compass inconsistent by {3} degrees</source>
-      <translation type="unfinished">Compass inconsistent by {3} degrees</translation>
+      <translation>Похибка компасу {3} градусів</translation>
     </message>
   </context>
   <context>
@@ -2044,9 +2044,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_ANG&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Check the compass orientations and recalibrate.
+      <translation>Перевірте орієнтацію компасу та перекалібруйте.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_ANG&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MAG_ANG&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2054,21 +2054,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5444856/message</name>
     <message>
       <source>Accelerometer {3} uncalibrated</source>
-      <translation type="unfinished">Accelerometer {3} uncalibrated</translation>
+      <translation>Акселерометр {3} не відкалібровано</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/5704353/message</name>
     <message>
       <source>Arm authorization denied</source>
-      <translation type="unfinished">Arm authorization denied</translation>
+      <translation>Авторизацію активації відхилено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/5717196/message</name>
     <message>
       <source>GPS Horizontal Position Drift too high</source>
-      <translation type="unfinished">GPS Horizontal Position Drift too high</translation>
+      <translation>Занадто великий дріфт горизонтальної GPS позиції</translation>
     </message>
   </context>
   <context>
@@ -2076,7 +2076,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2084,7 +2084,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5943233/message</name>
     <message>
       <source>Found {3} compass (required: {4})</source>
-      <translation type="unfinished">Found {3} compass (required: {4})</translation>
+      <translation>Знайдено {3} компас (необхідно: {4})</translation>
     </message>
   </context>
   <context>
@@ -2094,9 +2094,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;SYS_HAS_MAG&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Make sure all required sensors are working, enabled and calibrated.
+      <translation>Переконайтеся що усі необхідні сенсори працюють, їх увімкнено та прокалібровано.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;SYS_HAS_MAG&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;SYS_HAS_MAG&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2104,28 +2104,28 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6054338/message</name>
     <message>
       <source>Waiting for estimator to initialize</source>
-      <translation type="unfinished">Waiting for estimator to initialize</translation>
+      <translation>Очікування ініціалізації оцінювача</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6258044/message</name>
     <message>
       <source>Estimator fault due to Compass {3}</source>
-      <translation type="unfinished">Estimator fault due to Compass {3}</translation>
+      <translation>Помилка оцінювача через компас {3}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6258044/description</name>
     <message>
       <source>Recalibrate the compass and check the orientation.</source>
-      <translation type="unfinished">Recalibrate the compass and check the orientation.</translation>
+      <translation>Перекалібруйте компас та перевірте орієнтування.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6491364/message</name>
     <message>
       <source>Home position required</source>
-      <translation type="unfinished">Home position required</translation>
+      <translation>Необхідна точка зльоту</translation>
     </message>
   </context>
   <context>
@@ -2133,7 +2133,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2141,7 +2141,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6558257/message</name>
     <message>
       <source>GPS Vertical Speed Drift too high</source>
-      <translation type="unfinished">GPS Vertical Speed Drift too high</translation>
+      <translation>Занадто великий вертикальний швидкісний GPS дріфт</translation>
     </message>
   </context>
   <context>
@@ -2149,7 +2149,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2157,21 +2157,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6659180/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: DZ greater than {4}</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: DZ greater than {4}</translation>
+      <translation>Невдале калібрування пульта для каналу {3}: DZ більше ніж {4}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6659180/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібрувати пульт(RC).</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6801787/message</name>
     <message>
       <source>No connection to the ground control station</source>
-      <translation type="unfinished">No connection to the ground control station</translation>
+      <translation>Немає з'єднання з наземною станцією</translation>
     </message>
   </context>
   <context>
@@ -2181,9 +2181,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">To arm, at least a data link or manual control (RC) must be present.
+      <translation>Для активації щонайменше посилання даних або ручний контроль пульта(RC) має бути наявним.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2191,7 +2191,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6952872/message</name>
     <message>
       <source>Position estimate error</source>
-      <translation type="unfinished">Position estimate error</translation>
+      <translation>Помилка розрахування позиції</translation>
     </message>
   </context>
   <context>
@@ -2201,9 +2201,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+      <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
 
-This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2211,21 +2211,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/6979701/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: MIN less than {4}</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: MIN less than {4}</translation>
+      <translation>Калібрування пульта(RC) для каналу {3} є невдалим: MIN менше ніж {4}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6979701/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібрувати пульт(RC).</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/7662152/message</name>
     <message>
       <source>USB connected</source>
-      <translation type="unfinished">USB connected</translation>
+      <translation>USB під'єднано</translation>
     </message>
   </context>
   <context>
@@ -2235,9 +2235,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Flying with USB is not safe. Disconnect it and reboot the FMU.
+      <translation>Літати з USB небезпечно. Від'єднайте це та перезавантажте FMU (польотний контролер).
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2245,35 +2245,35 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/7847312/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: MAX greater than {4}</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: MAX greater than {4}</translation>
+      <translation>Калібрування пульта(RC) для каналу {3} є невдалим: MAX більше ніж {4}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/7847312/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібрувати пульт(RC).</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/7884377/message</name>
     <message>
       <source>RTL switch engaged</source>
-      <translation type="unfinished">RTL switch engaged</translation>
+      <translation>Перемикач RTL (повернення на точку злету) задіяно</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/79408/message</name>
     <message>
       <source>Home position not set</source>
-      <translation type="unfinished">Home position not set</translation>
+      <translation>Перемикач RTL (повернення на точку злету) задіяно</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/7959667/message</name>
     <message>
       <source>Vehicle is in safety configuration</source>
-      <translation type="unfinished">Vehicle is in safety configuration</translation>
+      <translation>Апарат у безпечному режимі</translation>
     </message>
   </context>
   <context>
@@ -2283,9 +2283,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Vehicle is in safety configuration and denies arming.
+      <translation>Апарат у безпечному режимі та не сприймає активацію.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2293,7 +2293,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/8441780/message</name>
     <message>
       <source>Open Drone ID system not ready</source>
-      <translation type="unfinished">Open Drone ID system not ready</translation>
+      <translation>Відкрита Drone ID система не готова</translation>
     </message>
   </context>
   <context>
@@ -2303,9 +2303,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Open Drone ID system reported being unhealthy.
+      <translation>Відкрита Drone ID система звітувала про перебування у неробочому стані.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2313,21 +2313,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/8495477/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: TRIM less than MIN ({4} less than {5})</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: TRIM less than MIN ({4} less than {5})</translation>
+      <translation>Калібрування пульта(RC) для каналу {3} є невдалим: TRIM менше ніж MIN ({4} менше ніж {5})</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/8495477/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібрувати пульт(RC).</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/8538897/message</name>
     <message>
       <source>Attitude failure detected</source>
-      <translation type="unfinished">Attitude failure detected</translation>
+      <translation>Виявлено помилку стану орієнтації</translation>
     </message>
   </context>
   <context>
@@ -2337,9 +2337,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_R&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">The vehicle exceeded the maximum configured roll angle.
+      <translation>Апарат перевищив налаштований максимум кута крену.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_R&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_FAIL_R&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2347,21 +2347,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/8658530/message</name>
     <message>
       <source>GPS reports multiple spoofing indicated</source>
-      <translation type="unfinished">GPS reports multiple spoofing indicated</translation>
+      <translation>GPS повідомляє про наявність чисельного спуфінгу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/8902208/message</name>
     <message>
       <source>Horizontal velocity unstable</source>
-      <translation type="unfinished">Horizontal velocity unstable</translation>
+      <translation>Нестабільна горизонтальна швидкість</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9028597/message</name>
     <message>
       <source>Height estimate error</source>
-      <translation type="unfinished">Height estimate error</translation>
+      <translation>Помилка розрахування висоти</translation>
     </message>
   </context>
   <context>
@@ -2371,9 +2371,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+      <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
 
-This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2381,21 +2381,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9077977/message</name>
     <message>
       <source>Kill switch engaged</source>
-      <translation type="unfinished">Kill switch engaged</translation>
+      <translation>Знешкодити залучений перемикач</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9171208/message</name>
     <message>
       <source>Vertical velocity unstable</source>
-      <translation type="unfinished">Vertical velocity unstable</translation>
+      <translation>Нестабільна вертикальна висота</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9307221/message</name>
     <message>
       <source>High Gyro Bias</source>
-      <translation type="unfinished">High Gyro Bias</translation>
+      <translation>Велике відхилення гіроскопа</translation>
     </message>
   </context>
   <context>
@@ -2407,11 +2407,11 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; para
 
 This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">A Gyro recalibration might help.
+      <translation>Перекалібрування гіроскопа може допомогти.
 
 &lt;profile name="dev"&gt; Axis {3}: |{4:.8}| \&gt; {5:.8} + {6:.8}
 
-This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2419,7 +2419,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9581033/message</name>
     <message>
       <source>Yaw estimate error</source>
-      <translation type="unfinished">Yaw estimate error</translation>
+      <translation>Розрахована помилка рискання(Yaw)</translation>
     </message>
   </context>
   <context>
@@ -2429,9 +2429,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 
 This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+      <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
 
-This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2439,77 +2439,77 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9608226/message</name>
     <message>
       <source>Estimator not using GPS</source>
-      <translation type="unfinished">Estimator not using GPS</translation>
+      <translation>Оцінювач не використовує GPS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9634798/message</name>
     <message>
       <source>Height estimate not stable</source>
-      <translation type="unfinished">Height estimate not stable</translation>
+      <translation>Вимірювання висоти не стабільне</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9643369/message</name>
     <message>
       <source>Angular velocity not valid</source>
-      <translation type="unfinished">Angular velocity not valid</translation>
+      <translation>Неприпустима кутова швидкість</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9643369/description</name>
     <message>
       <source>Make sure the gyroscope is providing valid data.</source>
-      <translation type="unfinished">Make sure the gyroscope is providing valid data.</translation>
+      <translation>Переконайтеся що гіроскоп надає належні дані.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9815168/message</name>
     <message>
       <source>Mode is unresponsive</source>
-      <translation type="unfinished">Mode is unresponsive</translation>
+      <translation>Режим не відповідає</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9815168/description</name>
     <message>
       <source>The application running the mode might have crashed or the CPU load is too high.</source>
-      <translation type="unfinished">The application running the mode might have crashed or the CPU load is too high.</translation>
+      <translation>Поточний режим додатка ймовірно дав збій або навантаження центрального процесора(CPU) є надто великим.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9965819/message</name>
     <message>
       <source>GNSS heading not reliable</source>
-      <translation type="unfinished">GNSS heading not reliable</translation>
+      <translation>GNSS напрямок не є надійним</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9965819/description</name>
     <message>
       <source>Land now</source>
-      <translation type="unfinished">Land now</translation>
+      <translation>Приземлитися зараз</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10044444/message</name>
     <message>
       <source>Error loading settings</source>
-      <translation type="unfinished">Error loading settings</translation>
+      <translation>Помилка завантаження налаштувань</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10072599/message</name>
     <message>
       <source>Calibration: Disabling RC input</source>
-      <translation type="unfinished">Calibration: Disabling RC input</translation>
+      <translation>Калібрування: вимкнення входу пульта(RC)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10162376/message</name>
     <message>
       <source>Mission land item could not be read</source>
-      <translation type="unfinished">Mission land item could not be read</translation>
+      <translation>Елемент приземлення місії не може бути прочитаний</translation>
     </message>
   </context>
   <context>

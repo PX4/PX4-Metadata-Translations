@@ -5,7 +5,7 @@
     <name>/outputs_v1/SIM/subgroups/0/per-channel-parameters/PWM_MAIN_FUNC${i}/label</name>
     <message>
       <source>Function</source>
-      <translation type="unfinished">Function</translation>
+      <translation>Functie</translation>
     </message>
   </context>
   <context>
@@ -21,119 +21,119 @@
     <name>/outputs_v1/SIM/subgroups/0/channels/1/label</name>
     <message>
       <source>Channel 1</source>
-      <translation type="unfinished">Channel 1</translation>
+      <translation>Kanaal 1</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/2/label</name>
     <message>
       <source>Channel 2</source>
-      <translation type="unfinished">Channel 2</translation>
+      <translation>Kanaal 2</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/3/label</name>
     <message>
       <source>Channel 3</source>
-      <translation type="unfinished">Channel 3</translation>
+      <translation>Kanaal 3</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/4/label</name>
     <message>
       <source>Channel 4</source>
-      <translation type="unfinished">Channel 4</translation>
+      <translation>Kanaal 4</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/5/label</name>
     <message>
       <source>Channel 5</source>
-      <translation type="unfinished">Channel 5</translation>
+      <translation>Kanaal 5</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/6/label</name>
     <message>
       <source>Channel 6</source>
-      <translation type="unfinished">Channel 6</translation>
+      <translation>Kanaal 6</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/7/label</name>
     <message>
       <source>Channel 7</source>
-      <translation type="unfinished">Channel 7</translation>
+      <translation>Kanaal 7</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/8/label</name>
     <message>
       <source>Channel 8</source>
-      <translation type="unfinished">Channel 8</translation>
+      <translation>Kanaal 8</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/9/label</name>
     <message>
       <source>Channel 9</source>
-      <translation type="unfinished">Channel 9</translation>
+      <translation>Kanaal 9</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/10/label</name>
     <message>
       <source>Channel 10</source>
-      <translation type="unfinished">Channel 10</translation>
+      <translation>Kanaal 10</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/11/label</name>
     <message>
       <source>Channel 11</source>
-      <translation type="unfinished">Channel 11</translation>
+      <translation>Kanaal 11</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/12/label</name>
     <message>
       <source>Channel 12</source>
-      <translation type="unfinished">Channel 12</translation>
+      <translation>Kanaal 12</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/13/label</name>
     <message>
       <source>Channel 13</source>
-      <translation type="unfinished">Channel 13</translation>
+      <translation>Kanaal 13</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/14/label</name>
     <message>
       <source>Channel 14</source>
-      <translation type="unfinished">Channel 14</translation>
+      <translation>Kanaal 14</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/15/label</name>
     <message>
       <source>Channel 15</source>
-      <translation type="unfinished">Channel 15</translation>
+      <translation>Kanaal 15</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/16/label</name>
     <message>
       <source>Channel 16</source>
-      <translation type="unfinished">Channel 16</translation>
+      <translation>Kanaal 16</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/0/label</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Uitgeschakeld</translation>
     </message>
   </context>
   <context>
@@ -154,7 +154,7 @@
     <name>/functions_v1/101/label</name>
     <message>
       <source>Motor 1</source>
-      <translation type="unfinished">Motor 1</translation>
+      <translation>Motor 1</translation>
     </message>
   </context>
   <context>
