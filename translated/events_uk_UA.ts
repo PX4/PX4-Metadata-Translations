@@ -2453,56 +2453,56 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9643369/message</name>
     <message>
       <source>Angular velocity not valid</source>
-      <translation type="unfinished">Angular velocity not valid</translation>
+      <translation>Неприпустима кутова швидкість</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9643369/description</name>
     <message>
       <source>Make sure the gyroscope is providing valid data.</source>
-      <translation type="unfinished">Make sure the gyroscope is providing valid data.</translation>
+      <translation>Переконайтеся що гіроскоп надає належні дані.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9815168/message</name>
     <message>
       <source>Mode is unresponsive</source>
-      <translation type="unfinished">Mode is unresponsive</translation>
+      <translation>Режим не відповідає</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9815168/description</name>
     <message>
       <source>The application running the mode might have crashed or the CPU load is too high.</source>
-      <translation type="unfinished">The application running the mode might have crashed or the CPU load is too high.</translation>
+      <translation>Поточний режим додатка ймовірно дав збій або навантаження центрального процесора(CPU) є надто великим.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9965819/message</name>
     <message>
       <source>GNSS heading not reliable</source>
-      <translation type="unfinished">GNSS heading not reliable</translation>
+      <translation>GNSS напрямок не є надійним</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9965819/description</name>
     <message>
       <source>Land now</source>
-      <translation type="unfinished">Land now</translation>
+      <translation>Приземлитися зараз</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10044444/message</name>
     <message>
       <source>Error loading settings</source>
-      <translation type="unfinished">Error loading settings</translation>
+      <translation>Помилка завантаження налаштувань</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10072599/message</name>
     <message>
       <source>Calibration: Disabling RC input</source>
-      <translation type="unfinished">Calibration: Disabling RC input</translation>
+      <translation>Калібрування: вимкнення входу пульта(RC)</translation>
     </message>
   </context>
   <context>
