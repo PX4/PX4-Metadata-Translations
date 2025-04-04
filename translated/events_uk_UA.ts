@@ -2181,9 +2181,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">To arm, at least a data link or manual control (RC) must be present.
+      <translation>Для активації щонайменше посилання даних або ручний контроль пульта(RC) має бути наявним.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2191,7 +2191,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6952872/message</name>
     <message>
       <source>Position estimate error</source>
-      <translation type="unfinished">Position estimate error</translation>
+      <translation>Помилка визначення позиції</translation>
     </message>
   </context>
   <context>
@@ -2201,9 +2201,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+      <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
 
-This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2211,21 +2211,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/6979701/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: MIN less than {4}</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: MIN less than {4}</translation>
+      <translation>Калібрування пульта(RC) для каналу {3} є невдалим: MIN менше ніж {4}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/6979701/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібрувати пульт(RC).</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/7662152/message</name>
     <message>
       <source>USB connected</source>
-      <translation type="unfinished">USB connected</translation>
+      <translation>USB під'єднано</translation>
     </message>
   </context>
   <context>
