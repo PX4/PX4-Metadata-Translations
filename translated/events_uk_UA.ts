@@ -1395,7 +1395,7 @@
 
 This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+      <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
 Ця перевірка може бути налаштована через
 &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
@@ -2347,21 +2347,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/8658530/message</name>
     <message>
       <source>GPS reports multiple spoofing indicated</source>
-      <translation type="unfinished">GPS reports multiple spoofing indicated</translation>
+      <translation>GPS повідомляє про наявність чисельного спуфінгу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/8902208/message</name>
     <message>
       <source>Horizontal velocity unstable</source>
-      <translation type="unfinished">Horizontal velocity unstable</translation>
+      <translation>Нестабільна горизонтальна швидкість</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9028597/message</name>
     <message>
       <source>Height estimate error</source>
-      <translation type="unfinished">Height estimate error</translation>
+      <translation>Помилка визначення висоти</translation>
     </message>
   </context>
   <context>
@@ -2371,9 +2371,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+      <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
 
-This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
