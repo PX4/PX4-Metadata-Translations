@@ -2235,9 +2235,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Flying with USB is not safe. Disconnect it and reboot the FMU.
+      <translation>Літати з USB небезпечно. Від'єднайте це та перезавантажте FMU (польотний контролер).
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2245,14 +2245,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/7847312/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: MAX greater than {4}</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: MAX greater than {4}</translation>
+      <translation>Калібрування пульта(RC) для каналу {3} є невдалим: MAX більше ніж {4}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/7847312/description</name>
     <message>
       <source>Recalibrate the RC.</source>
-      <translation type="unfinished">Recalibrate the RC.</translation>
+      <translation>Перекалібрувати пульт(RC).</translation>
     </message>
   </context>
   <context>
