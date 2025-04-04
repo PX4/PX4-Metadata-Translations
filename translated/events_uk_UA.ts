@@ -1649,7 +1649,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/16642797/message</name>
     <message>
       <source>Heading estimate not stable</source>
-      <translation>Визначений напрямок не стабільний</translation>
+      <translation>Оцінюваний напрямок не стабільний</translation>
     </message>
   </context>
   <context>
@@ -1721,7 +1721,7 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/1917030/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: TRIM greater than MAX ({4} greater than {5})</source>
-      <translation type="unfinished">RC calibration for channel {3} invalid: TRIM greater than MAX ({4} greater than {5})</translation>
+      <translation>Калібрування пульта(RC) для {3} є невдалим: TRIM більше за MAX ({4} більше за {5})</translation>
     </message>
   </context>
   <context>
@@ -2191,7 +2191,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6952872/message</name>
     <message>
       <source>Position estimate error</source>
-      <translation>Помилка визначення позиції</translation>
+      <translation>Помилка розрахування позиції</translation>
     </message>
   </context>
   <context>
@@ -2259,7 +2259,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/7884377/message</name>
     <message>
       <source>RTL switch engaged</source>
-      <translation type="unfinished">RTL switch engaged</translation>
+      <translation>Перемикач RTL (повернення на точку злету) задіяно</translation>
     </message>
   </context>
   <context>
@@ -2361,7 +2361,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9028597/message</name>
     <message>
       <source>Height estimate error</source>
-      <translation>Помилка визначення висоти</translation>
+      <translation>Помилка розрахування висоти</translation>
     </message>
   </context>
   <context>
@@ -2381,21 +2381,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9077977/message</name>
     <message>
       <source>Kill switch engaged</source>
-      <translation type="unfinished">Kill switch engaged</translation>
+      <translation>Знешкодити залучений перемикач</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9171208/message</name>
     <message>
       <source>Vertical velocity unstable</source>
-      <translation type="unfinished">Vertical velocity unstable</translation>
+      <translation>Нестабільна вертикальна висота</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9307221/message</name>
     <message>
       <source>High Gyro Bias</source>
-      <translation type="unfinished">High Gyro Bias</translation>
+      <translation>Велике відхилення гіроскопа</translation>
     </message>
   </context>
   <context>
@@ -2407,11 +2407,11 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; para
 
 This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">A Gyro recalibration might help.
+      <translation>Перекалібрування гіроскопа може допомогти.
 
 &lt;profile name="dev"&gt; Axis {3}: |{4:.8}| \&gt; {5:.8} + {6:.8}
 
-This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2419,7 +2419,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9581033/message</name>
     <message>
       <source>Yaw estimate error</source>
-      <translation type="unfinished">Yaw estimate error</translation>
+      <translation>Розрахована помилка рискання(Yaw)</translation>
     </message>
   </context>
   <context>
@@ -2429,9 +2429,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 
 This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
+      <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
 
-This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2439,14 +2439,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9608226/message</name>
     <message>
       <source>Estimator not using GPS</source>
-      <translation type="unfinished">Estimator not using GPS</translation>
+      <translation>Оцінювач не використовує GPS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9634798/message</name>
     <message>
       <source>Height estimate not stable</source>
-      <translation type="unfinished">Height estimate not stable</translation>
+      <translation>Вимірювання висоти не стабільне</translation>
     </message>
   </context>
   <context>
