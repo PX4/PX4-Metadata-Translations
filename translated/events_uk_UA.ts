@@ -2509,7 +2509,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/10162376/message</name>
     <message>
       <source>Mission land item could not be read</source>
-      <translation type="unfinished">Mission land item could not be read</translation>
+      <translation>Елемент приземлення місії не може бути прочитаний</translation>
     </message>
   </context>
   <context>
