@@ -2532,44 +2532,44 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
       <source>- ICAO Address: {1}
 - Traffic Separation Distance: {2m}
 - Heading: {3} degrees</source>
-      <translation type="unfinished">- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</translation>
+      <translation>- ICAO Адреса: {1}
+- Дистанція Розділення Трафіку: {2m}
+- Напрямок: {3} degrees</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10452355/message</name>
     <message>
       <source>Takeoff airspeed reached, climbout</source>
-      <translation type="unfinished">Takeoff airspeed reached, climbout</translation>
+      <translation>Швидкості злету досягнуто, набираємо висоту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1047676/message</name>
     <message>
       <source>Enabling transmitting with IRIDIUM mavlink on instance {1} by command</source>
-      <translation type="unfinished">Enabling transmitting with IRIDIUM mavlink on instance {1} by command</translation>
+      <translation>Вмикання передавання через IRIDIUM mavlink на приклад {1} по команді</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10493596/message</name>
     <message>
       <source>Airspeed sensor failure detected. Return to launch (RTL) is advised</source>
-      <translation type="unfinished">Airspeed sensor failure detected. Return to launch (RTL) is advised</translation>
+      <translation>Виявлено помилку сенсора швидкості польоту. Рекомендовано повернення на точку запуску (RTL)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10503063/message</name>
     <message>
       <source>Switching to mode '{2}' is currently not possible</source>
-      <translation type="unfinished">Switching to mode '{2}' is currently not possible</translation>
+      <translation>Перемикання у режим '{2}' на цей момент неможливе</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10658115/message</name>
     <message>
       <source>SET_POSITION_TARGET_GLOBAL_INT: FORCE is not supported</source>
-      <translation type="unfinished">SET_POSITION_TARGET_GLOBAL_INT: FORCE is not supported</translation>
+      <translation>SET_POSITION_TARGET_GLOBAL_INT: FORCE не підтримується</translation>
     </message>
   </context>
   <context>
@@ -2585,30 +2585,30 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
       <source>- ICAO Address: {1}
 - Traffic Separation Distance: {2m}
 - Heading: {3} degrees</source>
-      <translation type="unfinished">- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</translation>
+      <translation>- ICAO Адреса: {1}
+- Дистанція Розділення Трафіку: {2m}
+- Напрямок: {3} градусів</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10716939/message</name>
     <message>
       <source>Onboard controller regained</source>
-      <translation type="unfinished">Onboard controller regained</translation>
+      <translation>Вбудований контролер відновлено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10794072/message</name>
     <message>
       <source>Connection to ground control station lost</source>
-      <translation type="unfinished">Connection to ground control station lost</translation>
+      <translation>З'єднання зі станцією наземного контролю втрачено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10834203/message</name>
     <message>
       <source>Enabling transmitting with IRIDIUM mavlink on instance {1}</source>
-      <translation type="unfinished">Enabling transmitting with IRIDIUM mavlink on instance {1}</translation>
+      <translation>Вмикання передавання через IRIDIUM mavlink на приклад {1}</translation>
     </message>
   </context>
   <context>
