@@ -1582,7 +1582,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/14644618/message</name>
     <message>
       <source>Maximum flight time reached</source>
-      <translation type="unfinished">Maximum flight time reached</translation>
+      <translation>Досягнуто максимального часу польоту</translation>
     </message>
   </context>
   <context>
@@ -2548,7 +2548,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/1047676/message</name>
     <message>
       <source>Enabling transmitting with IRIDIUM mavlink on instance {1} by command</source>
-      <translation>Вмикання передавання через IRIDIUM mavlink на приклад {1} по команді</translation>
+      <translation>Вмикання передавання через IRIDIUM mavlink наприклад {1} по команді</translation>
     </message>
   </context>
   <context>
@@ -2608,14 +2608,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/10834203/message</name>
     <message>
       <source>Enabling transmitting with IRIDIUM mavlink on instance {1}</source>
-      <translation>Вмикання передавання через IRIDIUM mavlink на приклад {1}</translation>
+      <translation>Вмикання передавання через IRIDIUM mavlink наприклад {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10960133/message</name>
     <message>
       <source>Local position estimate has low accuracy</source>
-      <translation type="unfinished">Local position estimate has low accuracy</translation>
+      <translation>Низька точність визначення місцевої позиції</translation>
     </message>
   </context>
   <context>
@@ -2625,9 +2625,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POS_LOW_EPH&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Local position estimate valid but has low accuracy. Warn user.
+      <translation>Місцеву позицію визначено як дійсну, але з низькою точністю. Попередьте користувача.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POS_LOW_EPH&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_POS_LOW_EPH&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2635,28 +2635,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/10962739/message</name>
     <message>
       <source>SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}</source>
-      <translation type="unfinished">SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}</translation>
+      <translation>SET_POSITION_TARGET_GLOBAL_INT неприйнятна координатна сітка {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10973461/message</name>
     <message>
       <source>Geofence invalid, doesn't contain Home position</source>
-      <translation type="unfinished">Geofence invalid, doesn't contain Home position</translation>
+      <translation>Неприйнятна зона обмеження, не містить точки повернення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11085221/message</name>
     <message>
       <source>Mission: unable to write to storage</source>
-      <translation type="unfinished">Mission: unable to write to storage</translation>
+      <translation>Місія: неможливо зробити запис у сховище</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11123101/message</name>
     <message>
       <source>Connection to mission computer lost</source>
-      <translation type="unfinished">Connection to mission computer lost</translation>
+      <translation>Втрачено з'єднання з комп'ютером місії</translation>
     </message>
   </context>
   <context>
