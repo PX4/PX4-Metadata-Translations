@@ -2670,7 +2670,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/1119664/message</name>
     <message>
       <source>Invalid configuration: FW_AIRSPD_STALL higher FW_AIRSPD_MIN</source>
-      <translation type="unfinished">Invalid configuration: FW_AIRSPD_STALL higher FW_AIRSPD_MIN</translation>
+      <translation>Недійсний конфігуратор: FW_AIRSPD_STALL вище за FW_AIRSPD_MIN</translation>
     </message>
   </context>
   <context>
@@ -2678,7 +2678,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_STALL&lt;/param&gt;: {2:.1}</source>
-      <translation type="unfinished">- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {1:.1}
+      <translation>- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_STALL&lt;/param&gt;: {2:.1}</translation>
     </message>
   </context>
@@ -2686,28 +2686,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/11290563/message</name>
     <message>
       <source>Kill engaged</source>
-      <translation type="unfinished">Kill engaged</translation>
+      <translation>Знищення залучено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11521721/message</name>
     <message>
       <source>Mission rejected: Mission contains VTOL items but vehicle is not a VTOL</source>
-      <translation type="unfinished">Mission rejected: Mission contains VTOL items but vehicle is not a VTOL</translation>
+      <translation>Місію відхилено: Місія містить елементи VTOL (вертикальний зліт/посадка) але апарат не є VTOL</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11552065/message</name>
     <message>
       <source>SET_POSITION_TARGET_LOCAL_NED: coordinate frame {1} unsupported</source>
-      <translation type="unfinished">SET_POSITION_TARGET_LOCAL_NED: coordinate frame {1} unsupported</translation>
+      <translation>SET_POSITION_TARGET_LOCAL_NED: сітка координат {1} не підтримується</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11572261/message</name>
     <message>
       <source>Reduce the glide slope, lower the entrance altitude {1} meters, or increase the landing approach distance {2} meters</source>
-      <translation type="unfinished">Reduce the glide slope, lower the entrance altitude {1} meters, or increase the landing approach distance {2} meters</translation>
+      <translation>Зменшити нахил глісади, знизити вхідну висоту {1} метрів, або збільшити відстань наближення до приземлення {2} метрів</translation>
     </message>
   </context>
   <context>
