@@ -2576,7 +2576,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/10664053/message</name>
     <message>
       <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, returning home</source>
-      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, returning home</translation>
+      <translation>Попередження про трафік - ICAO Адреса {1}! Дистанція Розділення {2}, Напрямок {3}, вертання на точку повернення</translation>
     </message>
   </context>
   <context>
@@ -2714,77 +2714,77 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/11606074/message</name>
     <message>
       <source>Launch detected: enable motors (no motor delay)</source>
-      <translation type="unfinished">Launch detected: enable motors (no motor delay)</translation>
+      <translation>Виявлено запуск: увімкніть мотори (без затримки моторів)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11664376/message</name>
     <message>
       <source>Mission: Unable to read from storage</source>
-      <translation type="unfinished">Mission: Unable to read from storage</translation>
+      <translation>Місія: Неможливо зчитати зі сховища</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11664376/description</name>
     <message>
       <source>Mission type: {1}</source>
-      <translation type="unfinished">Mission type: {1}</translation>
+      <translation>Тип місії: {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11675604/message</name>
     <message>
       <source>First waypoint too far away: {1m} (maximum: {2m})</source>
-      <translation type="unfinished">First waypoint too far away: {1m} (maximum: {2m})</translation>
+      <translation>Перша точка маршруту занадто далеко: {1m}(maximum:{2m})</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11724756/message</name>
     <message>
       <source>Waypoint {1} could not be read from storage</source>
-      <translation type="unfinished">Waypoint {1} could not be read from storage</translation>
+      <translation>Точка маршруту {1} не може бути зчитана зі сховища</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/11985219/message</name>
     <message>
       <source>Holding at {1:.0m_v} above landing waypoint</source>
-      <translation type="unfinished">Holding at {1:.0m_v} above landing waypoint</translation>
+      <translation>Утримання на {1:.0m_v} над точкою приземлення на маршруті</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1203183/message</name>
     <message>
       <source>logging: opening log file {1}-{2}-{3}/{4}_{5}_{6}.ulg</source>
-      <translation type="unfinished">logging: opening log file {1}-{2}-{3}/{4}_{5}_{6}.ulg</translation>
+      <translation>ведення журналу записів: відкриття файлу журнала записів {1}-{2}-{3}/{4}_{5}_{6}.ulg</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12117072/message</name>
     <message>
       <source>Transponder System Failure</source>
-      <translation type="unfinished">Transponder System Failure</translation>
+      <translation>Збій у Системі Транспондеру</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12140426/message</name>
     <message>
       <source>EKF2_MAG_TYPE invalid, resetting to default</source>
-      <translation type="unfinished">EKF2_MAG_TYPE invalid, resetting to default</translation>
+      <translation>EKF2_MAG_TYPE недійсний, перезавантаження до налаштувань за замовченням</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12140426/description</name>
     <message>
       <source>&lt;param&gt;EKF2_MAG_TYPE&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;EKF2_MAG_TYPE&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;EKF2_MAG_TYPE&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12208749/message</name>
     <message>
       <source>Mission rejected: takeoff altitude too low! Minimum: {1:.1m_v}</source>
-      <translation type="unfinished">Mission rejected: takeoff altitude too low! Minimum: {1:.1m_v}</translation>
+      <translation>Місію відхилено: висота зльоту занадто мала! Мінімум: {1:.1m_v}</translation>
     </message>
   </context>
   <context>
