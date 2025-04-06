@@ -2516,14 +2516,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/10229254/message</name>
     <message>
       <source>RTL Mission Land: climb to {1m_v}</source>
-      <translation type="unfinished">RTL Mission Land: climb to {1m_v}</translation>
+      <translation>RTL(повернення до точки запуску) місії приземлення: піднятися до {1m_v}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10236960/message</name>
     <message>
       <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}</source>
-      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}</translation>
+      <translation>Попередження про трафік - ICAO(міжнародна організація цивільної авіації) адреса {1}! Дистанція Розділення {2}, Напрямок {3}</translation>
     </message>
   </context>
   <context>
