@@ -2663,7 +2663,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/11174541/message</name>
     <message>
       <source>Hardware fault: Camera capture disabled</source>
-      <translation type="unfinished">Hardware fault: Camera capture disabled</translation>
+      <translation>Помилка обладнання: захват камери вимкнено</translation>
     </message>
   </context>
   <context>
