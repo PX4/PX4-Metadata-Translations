@@ -2635,7 +2635,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/10962739/message</name>
     <message>
       <source>SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}</source>
-      <translation>SET_POSITION_TARGET_GLOBAL_INT неприйнятна координатна сітка {1}</translation>
+      <translation>SET_POSITION_TARGET_GLOBAL_INT неприйнятна система координат {1}</translation>
     </message>
   </context>
   <context>
@@ -2700,7 +2700,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/11552065/message</name>
     <message>
       <source>SET_POSITION_TARGET_LOCAL_NED: coordinate frame {1} unsupported</source>
-      <translation>SET_POSITION_TARGET_LOCAL_NED: сітка координат {1} не підтримується</translation>
+      <translation>SET_POSITION_TARGET_LOCAL_NED: система координат {1} не підтримується</translation>
     </message>
   </context>
   <context>
@@ -2791,35 +2791,35 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/12216659/message</name>
     <message>
       <source>Low battery level, return advised</source>
-      <translation type="unfinished">Low battery level, return advised</translation>
+      <translation>Низький заряд батареї, рекомендовано повернення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12221094/message</name>
     <message>
       <source>Landing target: unsupported coordinate frame {1}</source>
-      <translation type="unfinished">Landing target: unsupported coordinate frame {1}</translation>
+      <translation>Ціль приземлення: непідтримувана система координат {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12224414/message</name>
     <message>
       <source>Mission rejected: Takeoff or Landing item missing</source>
-      <translation type="unfinished">Mission rejected: Takeoff or Landing item missing</translation>
+      <translation>Місію відхилено: елемент Зльоту або Приземлення відсутній</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/122461/message</name>
     <message>
       <source>Landing aborted: terrain measurement not found</source>
-      <translation type="unfinished">Landing aborted: terrain measurement not found</translation>
+      <translation>Приземлення скасовано: не знайдено розмірів ландшафту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12320347/message</name>
     <message>
       <source>Primary airspeed index bigger than number connected sensors, taking last sensor</source>
-      <translation type="unfinished">Primary airspeed index bigger than number connected sensors, taking last sensor</translation>
+      <translation>Початковий індекс швидкості польоту більше за кількість підключених сенсорів, візьміть останній сенсор</translation>
     </message>
   </context>
   <context>
