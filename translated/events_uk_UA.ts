@@ -2826,7 +2826,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/12420351/message</name>
     <message>
       <source>Arming denied: switch to manual mode first</source>
-      <translation type="unfinished">Arming denied: switch to manual mode first</translation>
+      <translation>Активацію відхилено: перемикніться спочатку на ручний режим</translation>
     </message>
   </context>
   <context>
