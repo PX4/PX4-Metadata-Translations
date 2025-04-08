@@ -2903,14 +2903,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/13277401/description</name>
     <message>
       <source>No action is triggered.</source>
-      <translation type="unfinished">No action is triggered.</translation>
+      <translation>Не викликано ніякої дії.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/133277/message</name>
     <message>
       <source>Arming denied: Resolve system health failures first</source>
-      <translation type="unfinished">Arming denied: Resolve system health failures first</translation>
+      <translation>Активацію відхилено: Спочатку вирішіть неполадки у системі</translation>
     </message>
   </context>
   <context>
