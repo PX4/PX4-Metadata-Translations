@@ -3057,14 +3057,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/14605264/message</name>
     <message>
       <source>Failsafe activated: Autopilot disengaged, switching to {2}</source>
-      <translation type="unfinished">Failsafe activated: Autopilot disengaged, switching to {2}</translation>
+      <translation>Аварійний режим активовано: Автопілот відключено, перемикання на {2}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14699175/message</name>
     <message>
       <source>GNSS data fusion stopped</source>
-      <translation type="unfinished">GNSS data fusion stopped</translation>
+      <translation>Поєднання GNSS даних зупинено</translation>
     </message>
   </context>
   <context>
