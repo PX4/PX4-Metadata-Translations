@@ -2952,105 +2952,105 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/13704694/message</name>
     <message>
       <source>{4}: switching to {2} in {3} seconds</source>
-      <translation type="unfinished">{4}: switching to {2} in {3} seconds</translation>
+      <translation>{4}: перемкнутися на {2} через {3} секунди</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/13944665/message</name>
     <message>
       <source>Transition to hover mode and descend</source>
-      <translation type="unfinished">Transition to hover mode and descend</translation>
+      <translation>Перехід до режиму зависання та спускання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/13956202/message</name>
     <message>
       <source>Mission rejected: invalid land start</source>
-      <translation type="unfinished">Mission rejected: invalid land start</translation>
+      <translation>Місію відхилено: неприпустимий старт з землі</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14080694/message</name>
     <message>
       <source>Descent speed has been constrained by max speed</source>
-      <translation type="unfinished">Descent speed has been constrained by max speed</translation>
+      <translation>Швидкість зниження обмежена максимальною швидкістю</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14080694/description</name>
     <message>
       <source>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1410140/message</name>
     <message>
       <source>Quad-chute triggered due to external command</source>
-      <translation type="unfinished">Quad-chute triggered due to external command</translation>
+      <translation>Quad-chute задіяно через зовнішню команду</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14117485/message</name>
     <message>
       <source>EKF2_DELAY_MAX increased to {2}ms, please reboot</source>
-      <translation type="unfinished">EKF2_DELAY_MAX increased to {2}ms, please reboot</translation>
+      <translation>EKF2_DELAY_MAX збільшено до {2}мс, будь ласка, перезавантажте</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14117485/description</name>
     <message>
       <source>EKF2_DELAY_MAX({1}ms) is too small compared to the maximum sensor delay ({2})</source>
-      <translation type="unfinished">EKF2_DELAY_MAX({1}ms) is too small compared to the maximum sensor delay ({2})</translation>
+      <translation>EKF2_DELAY_MAX({1}мс) занадто малий у порівнянні з максимальною затримкою датчика ({2})</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14153224/message</name>
     <message>
       <source>Manual speed has been constrained by maximum speed</source>
-      <translation type="unfinished">Manual speed has been constrained by maximum speed</translation>
+      <translation>Ручна швидкість була обмежена максимальною швидкістю</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14153224/description</name>
     <message>
       <source>&lt;param&gt;MPC_VEL_MANUAL&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;MPC_VEL_MANUAL&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14234660/message</name>
     <message>
       <source>GCS connection regained</source>
-      <translation type="unfinished">GCS connection regained</translation>
+      <translation>З'єднання GCS відновлено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14443523/message</name>
     <message>
       <source>Launch detected: enable motors</source>
-      <translation type="unfinished">Launch detected: enable motors</translation>
+      <translation>Виявлено запуск: увімкнути двигуни</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14535820/message</name>
     <message>
       <source>Landing aborted: terrain estimate timed out</source>
-      <translation type="unfinished">Landing aborted: terrain estimate timed out</translation>
+      <translation>Приземлення скасовано: термін оцінювання ландшафту вичерпано</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14581325/message</name>
     <message>
       <source>Maximum tilt limit has been constrained to a safe value</source>
-      <translation type="unfinished">Maximum tilt limit has been constrained to a safe value</translation>
+      <translation>Максимальне ліміт нахилу обмежено до безпечного значення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14581325/description</name>
     <message>
       <source>&lt;param&gt;MPC_TILTMAX_AIR&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;MPC_TILTMAX_AIR&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
