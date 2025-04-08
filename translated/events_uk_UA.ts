@@ -3071,49 +3071,49 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15007151/message</name>
     <message>
       <source>Arm stick gesture disabled if arm switch in use</source>
-      <translation type="unfinished">Arm stick gesture disabled if arm switch in use</translation>
+      <translation>Рух активації стіком відключено якщо перемикач активації використовується</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15007151/description</name>
     <message>
       <source>&lt;param&gt;MAN_ARM_GESTURE&lt;/param&gt; is now set to disable arm/disarm stick gesture.</source>
-      <translation type="unfinished">&lt;param&gt;MAN_ARM_GESTURE&lt;/param&gt; is now set to disable arm/disarm stick gesture.</translation>
+      <translation>&lt;param&gt;MAN_ARM_GESTURE&lt;/param&gt; тепер налаштовано для вимкнення активації/деактивації рухом стіка.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15098248/message</name>
     <message>
       <source>Disabling transmitting with IRIDIUM mavlink on instance {1}</source>
-      <translation type="unfinished">Disabling transmitting with IRIDIUM mavlink on instance {1}</translation>
+      <translation>Вимкнення передавання через IRIDIUM mavlink наприклад {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1525547/message</name>
     <message>
       <source>Landing aborted: unknown criterion</source>
-      <translation type="unfinished">Landing aborted: unknown criterion</translation>
+      <translation>Приземлення перервано: невідомий критерій</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15283212/message</name>
     <message>
       <source>Mission download request ignored, already active</source>
-      <translation type="unfinished">Mission download request ignored, already active</translation>
+      <translation>Запит на завантаження місій проігноровано, вже активний</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15292483/message</name>
     <message>
       <source>GNSS data fusion started</source>
-      <translation type="unfinished">GNSS data fusion started</translation>
+      <translation>Поєднання GNSS даних розпочато</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15317431/message</name>
     <message>
       <source>Invalid configuration: Airspeed max \&lt; 5 m/s or min \&gt; 100 m/s</source>
-      <translation type="unfinished">Invalid configuration: Airspeed max \&lt; 5 m/s or min \&gt; 100 m/s</translation>
+      <translation>Некоректна конфігурація: максимальна повітряна швидкість \&lt; 5 м/с або мінімальна \&gt; 100 м/с</translation>
     </message>
   </context>
   <context>
@@ -3121,7 +3121,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {2:.1}</source>
-      <translation type="unfinished">- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
+      <translation>- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {2:.1}</translation>
     </message>
   </context>
@@ -3129,14 +3129,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15373867/message</name>
     <message>
       <source>Launch detected: enablecontrol, waiting {1:.1}s until full throttle</source>
-      <translation type="unfinished">Launch detected: enablecontrol, waiting {1:.1}s until full throttle</translation>
+      <translation>Виявлено запуск: увімкнення контролю, очікування {1:.1}до повної тяги</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15456613/message</name>
     <message>
       <source>Accel {1} clipping, not safe to fly!</source>
-      <translation type="unfinished">Accel {1} clipping, not safe to fly!</translation>
+      <translation>Акселерометр {1} розпадається, летіти небезпечно!</translation>
     </message>
   </context>
   <context>
