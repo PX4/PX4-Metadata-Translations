@@ -2882,21 +2882,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/1290073/message</name>
     <message>
       <source>IO RC config upload failed, aborting initialization</source>
-      <translation type="unfinished">IO RC config upload failed, aborting initialization</translation>
+      <translation>Невдала конфігурація IO(input /output - вхід/вихід) пульта(RC), початок скасування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12957883/message</name>
     <message>
       <source>Start descending</source>
-      <translation type="unfinished">Start descending</translation>
+      <translation>Старт зниження</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/13277401/message</name>
     <message>
       <source>Failsafe warning:</source>
-      <translation type="unfinished">Failsafe warning:</translation>
+      <translation>Попередження безаварійності:</translation>
     </message>
   </context>
   <context>
