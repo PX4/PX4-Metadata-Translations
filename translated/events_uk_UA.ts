@@ -2840,42 +2840,42 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/12499622/message</name>
     <message>
       <source>Mission: Unable to write to storage</source>
-      <translation type="unfinished">Mission: Unable to write to storage</translation>
+      <translation>Місія: неможливо зробити запис у сховище</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12500025/message</name>
     <message>
       <source>Mission: Unable to write to storage</source>
-      <translation type="unfinished">Mission: Unable to write to storage</translation>
+      <translation>Місія: неможливо зробити запис у сховище</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12768213/message</name>
     <message>
       <source>Mission rejected: more than one land start commands</source>
-      <translation type="unfinished">Mission rejected: more than one land start commands</translation>
+      <translation>Місію відхилено: більше однієї команди про старт приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12815955/message</name>
     <message>
       <source>SET_POSITION_TARGET_LOCAL_NED: FORCE is not supported</source>
-      <translation type="unfinished">SET_POSITION_TARGET_LOCAL_NED: FORCE is not supported</translation>
+      <translation>SET_POSITION_TARGET_LOCAL_NED: FORCE не підтримується</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12894058/message</name>
     <message>
       <source>{1} sensor #{2} failure: {3}</source>
-      <translation type="unfinished">{1} sensor #{2} failure: {3}</translation>
+      <translation>{1} сенсор #{2} невдача: {3}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/12894058/description</name>
     <message>
       <source>Land immediately and check the system.</source>
-      <translation type="unfinished">Land immediately and check the system.</translation>
+      <translation>Терміново приземляйтеся та перевірте систему.</translation>
     </message>
   </context>
   <context>
