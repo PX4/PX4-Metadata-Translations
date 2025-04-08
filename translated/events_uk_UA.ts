@@ -1437,7 +1437,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/124285/message</name>
     <message>
       <source>Geofence RTL requires valid home</source>
-      <translation>Геозона RTL(точки повернення до зльоту) потребує належної домашньої точки)</translation>
+      <translation>Гео-огорожа RTL(точки повернення до зльоту) потребує належної домашньої точки)</translation>
     </message>
   </context>
   <context>
@@ -1534,7 +1534,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/13923616/message</name>
     <message>
       <source>Geofence violation: exceeding maximum altitude above Home</source>
-      <translation>Порушення зони обмеження: перевищено максимальну висоту над домашній точці</translation>
+      <translation>Порушення гео-огорожі: перевищено максимальну висоту над домашньою точкою</translation>
     </message>
   </context>
   <context>
@@ -1566,7 +1566,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/143019/message</name>
     <message>
       <source>Geofence violation: approaching or outside geofence</source>
-      <translation>Порушення зони обмеження: наближення або вихід за межі зони обмеження</translation>
+      <translation>Порушення гео-огорожі: наближення або вихід за межі гео-огорожі</translation>
     </message>
   </context>
   <context>
@@ -1925,7 +1925,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/4065583/message</name>
     <message>
       <source>Geofence violation: exceeding maximum distance to Home</source>
-      <translation>Порушення зони обмеження: перевищено максимальну дистанцію до точки повернення</translation>
+      <translation>Порушення гео-огорожі: перевищено максимальну дистанцію до точки повернення</translation>
     </message>
   </context>
   <context>
@@ -2642,7 +2642,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/10973461/message</name>
     <message>
       <source>Geofence invalid, doesn't contain Home position</source>
-      <translation>Неприйнятна зона обмеження, не містить точки повернення</translation>
+      <translation>Неприйнятна гео-огорожа, не містить точки повернення</translation>
     </message>
   </context>
   <context>
@@ -2917,35 +2917,35 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/13378512/message</name>
     <message>
       <source>Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})</source>
-      <translation type="unfinished">Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})</translation>
+      <translation>Занадто мала відстань між точкою маршруту та пунктом: {1:.3m}(minimum: {2:.3m})</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/13471314/message</name>
     <message>
       <source>Quad-chute triggered due to loss of altitude during transition</source>
-      <translation type="unfinished">Quad-chute triggered due to loss of altitude during transition</translation>
+      <translation>Quad-chute спрацював через втрату висоти під час переходу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/13495236/message</name>
     <message>
       <source>Reposition is outside geofence</source>
-      <translation type="unfinished">Reposition is outside geofence</translation>
+      <translation>Перепозиціонування за межами гео-огорожі</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/13568553/message</name>
     <message>
       <source>New mission waypoint sequence out of bounds</source>
-      <translation type="unfinished">New mission waypoint sequence out of bounds</translation>
+      <translation>Нова послідовність точок маршруту поза межами зони</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1369685/message</name>
     <message>
       <source>Takeoff on runway</source>
-      <translation type="unfinished">Takeoff on runway</translation>
+      <translation>Зліт на злітній смузі</translation>
     </message>
   </context>
   <context>
