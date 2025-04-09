@@ -3348,9 +3348,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
       <source>- ICAO Address: {1}
 - Traffic Separation Distance: {2m}
 - Heading: {3} degrees</source>
-      <translation type="unfinished">- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</translation>
+      <translation>- ICAO Адреса: {1}
+- Дистанція Розділення Трафіку: {2m}
+- Напрямок: {3} градусів</translation>
     </message>
   </context>
   <context>
