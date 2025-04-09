@@ -3136,56 +3136,56 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15456613/message</name>
     <message>
       <source>Accel {1} clipping, not safe to fly!</source>
-      <translation>Акселерометр {1} розпадається, летіти небезпечно!</translation>
+      <translation>Акселерометр {1} викривлює сигнал, летіти небезпечно!</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15456613/description</name>
     <message>
       <source>Land now, and check the vehicle setup. Clipping can lead to fly-aways.</source>
-      <translation type="unfinished">Land now, and check the vehicle setup. Clipping can lead to fly-aways.</translation>
+      <translation>Приземліться зараз та перевірте налаштування апарату. Викривлення сигналу може призвести до задалеких відльотів.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15536452/message</name>
     <message>
       <source>External mode is unresponsive, falling back to internal</source>
-      <translation type="unfinished">External mode is unresponsive, falling back to internal</translation>
+      <translation>Зовнішній режим не відповідає, повернення до внутрішнього</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15598001/message</name>
     <message>
       <source>Executing Mission</source>
-      <translation type="unfinished">Executing Mission</translation>
+      <translation>Виконання місії</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15603271/message</name>
     <message>
       <source>Dangerously low battery! Shutting system down</source>
-      <translation type="unfinished">Dangerously low battery! Shutting system down</translation>
+      <translation>Небезпечно низький заряд батареї! Завершення роботи системи</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15624514/message</name>
     <message>
       <source>Wind speed above limit ({1:.1m/s}), landing advised</source>
-      <translation type="unfinished">Wind speed above limit ({1:.1m/s}), landing advised</translation>
+      <translation>Швидкість вітру перевищує ліміт ({1:.1м/с}), рекомендуємо приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1569033/message</name>
     <message>
       <source>parameter_rc_channel_index out of bounds</source>
-      <translation type="unfinished">parameter_rc_channel_index out of bounds</translation>
+      <translation>parameter_rc_channel_index поза межами зони</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15869512/message</name>
     <message>
       <source>Quad-chute triggered due to transition timeout</source>
-      <translation type="unfinished">Quad-chute triggered due to transition timeout</translation>
+      <translation>Quad-chute викликано через тайм-аут переходу</translation>
     </message>
   </context>
   <context>
