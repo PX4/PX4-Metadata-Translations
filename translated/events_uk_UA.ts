@@ -3304,42 +3304,42 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/16682655/message</name>
     <message>
       <source>Kill disengaged</source>
-      <translation type="unfinished">Kill disengaged</translation>
+      <translation>Ліквідувати незалучених</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16691824/message</name>
     <message>
       <source>Ignoring mission item, invalid item</source>
-      <translation type="unfinished">Ignoring mission item, invalid item</translation>
+      <translation>Ігнорування предмет місії, неприпустимий предмет</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16725343/message</name>
     <message>
       <source>RTL: completed, loitering</source>
-      <translation type="unfinished">RTL: completed, loitering</translation>
+      <translation>RTL (повернення на точку злету): завершено, утримання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1746622/message</name>
     <message>
       <source>Pilot took over using sticks</source>
-      <translation type="unfinished">Pilot took over using sticks</translation>
+      <translation>Пілот прийняв управління за допомогою стіків</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1749061/message</name>
     <message>
       <source>Arming denied: throttle above center</source>
-      <translation type="unfinished">Arming denied: throttle above center</translation>
+      <translation>Активацію відхилено: тяга над центром</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1801328/message</name>
     <message>
       <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position</source>
-      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position</translation>
+      <translation>Попередження про трафік - ICAO Адреса {1}! Дистанція Розділення {2}, Напрямок {3}, утримання позиції</translation>
     </message>
   </context>
   <context>
