@@ -3192,112 +3192,112 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15900704/message</name>
     <message>
       <source>Quad-chute triggered due to minimum altitude breach</source>
-      <translation type="unfinished">Quad-chute triggered due to minimum altitude breach</translation>
+      <translation>Quad-chute викликано через перетин мінімальної висоти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15909593/message</name>
     <message>
       <source>Cruise speed has been constrained by maximum speed</source>
-      <translation type="unfinished">Cruise speed has been constrained by maximum speed</translation>
+      <translation>Крейсерська швидкість обмежена максимальною швидкістю</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15909593/description</name>
     <message>
       <source>&lt;param&gt;MPC_XY_CRUISE&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;MPC_XY_CRUISE&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/15923029/message</name>
     <message>
       <source>IO protocol/firmware mismatch, aborting initialization</source>
-      <translation type="unfinished">IO protocol/firmware mismatch, aborting initialization</translation>
+      <translation>Розбіжність IO протоколу/прошивки, ініціалізація переривання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1593841/message</name>
     <message>
       <source>Too much traffic! Showing all messages from now on</source>
-      <translation type="unfinished">Too much traffic! Showing all messages from now on</translation>
+      <translation>Забагато трафіку! Показуються всі повідомлення відтепер</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16017271/message</name>
     <message>
       <source>Disarmed by {1}</source>
-      <translation type="unfinished">Disarmed by {1}</translation>
+      <translation>Деактивовані {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16048801/message</name>
     <message>
       <source>Not logging, storage is almost full: {1} MiB</source>
-      <translation type="unfinished">Not logging, storage is almost full: {1} MiB</translation>
+      <translation>Немає ведення журналу записів, сховище майже заповнено: {1} MiB</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16048801/description</name>
     <message>
       <source>Either manually free up some space, or enable automatic log rotation via &lt;param&gt;SDLOG_DIRS_MAX&lt;/param&gt;.</source>
-      <translation type="unfinished">Either manually free up some space, or enable automatic log rotation via &lt;param&gt;SDLOG_DIRS_MAX&lt;/param&gt;.</translation>
+      <translation>Звільніть певний простір вручну, або увімкніть автоматичну ротацію записів журналу через &lt;param&gt;SDLOG_DIRS_MAX&lt;/param&gt;.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16105804/message</name>
     <message>
       <source>OpenDroneID system lost</source>
-      <translation type="unfinished">OpenDroneID system lost</translation>
+      <translation>Система OpenDroneID втрачена</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16223078/message</name>
     <message>
       <source>Landing aborted by operator</source>
-      <translation type="unfinished">Landing aborted by operator</translation>
+      <translation>Приземлення перервано оператором</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16347639/message</name>
     <message>
       <source>Landing, flaring</source>
-      <translation type="unfinished">Landing, flaring</translation>
+      <translation>Приземлення, спалювання (flaring)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16440365/message</name>
     <message>
       <source>ODOMETRY: unsupported estimator_type {1}</source>
-      <translation type="unfinished">ODOMETRY: unsupported estimator_type {1}</translation>
+      <translation>ОДОМЕТРІЯ: непідтримуваний estimator_type {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16509566/message</name>
     <message>
       <source>Mission rejected: Add Takeoff item or remove Landing</source>
-      <translation type="unfinished">Mission rejected: Add Takeoff item or remove Landing</translation>
+      <translation>Місія відхилена: Додати елемент Зльоту або видалити Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16558486/message</name>
     <message>
       <source>Disarmed, don't throw</source>
-      <translation type="unfinished">Disarmed, don't throw</translation>
+      <translation>Деактивований, не кидати</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16591495/message</name>
     <message>
       <source>Control high latency failed! Telemetry unavailable</source>
-      <translation type="unfinished">Control high latency failed! Telemetry unavailable</translation>
+      <translation>Перевірка високої затримки не вдалася! Телеметрія недоступна</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16663074/message</name>
     <message>
       <source>Mission rejected: takeoff is not the first waypoint item</source>
-      <translation type="unfinished">Mission rejected: takeoff is not the first waypoint item</translation>
+      <translation>Місію відхилено: зліт не є першою точкою маршруту елемента</translation>
     </message>
   </context>
   <context>
