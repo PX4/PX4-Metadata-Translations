@@ -3136,7 +3136,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15456613/message</name>
     <message>
       <source>Accel {1} clipping, not safe to fly!</source>
-      <translation>Акселерометр {1} викривлює сигнал, летіти небезпечно!</translation>
+      <translation>Акселерометр {1} обрізає дані, летіти небезпечно!</translation>
     </message>
   </context>
   <context>
@@ -3364,14 +3364,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/1880909/message</name>
     <message>
       <source>Altitude change is outside geofence</source>
-      <translation type="unfinished">Altitude change is outside geofence</translation>
+      <translation>Зміна висоти поза гео-огорожею</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1925166/message</name>
     <message>
       <source>Mission rejected: starts with landing</source>
-      <translation type="unfinished">Mission rejected: starts with landing</translation>
+      <translation>Місія відхилена: починається з посадки</translation>
     </message>
   </context>
   <context>
