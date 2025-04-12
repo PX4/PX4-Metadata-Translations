@@ -3357,7 +3357,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/185258/message</name>
     <message>
       <source>RTL: land at destination</source>
-      <translation type="unfinished">RTL: land at destination</translation>
+      <translation>RTL: точка приземлення в місці призначення</translation>
     </message>
   </context>
   <context>
