@@ -3378,7 +3378,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/2020940/message</name>
     <message>
       <source>Roll command reduced due to uncertain velocity/wind estimates!</source>
-      <translation type="unfinished">Roll command reduced due to uncertain velocity/wind estimates!</translation>
+      <translation>Команду крену скорочено через невизначені вимірювання швидкості польоту/швидкості вітру!</translation>
     </message>
   </context>
   <context>
