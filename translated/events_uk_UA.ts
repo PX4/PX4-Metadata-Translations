@@ -3504,7 +3504,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3322590/message</name>
     <message>
       <source>Landing at current position</source>
-      <translation type="unfinished">Landing at current position</translation>
+      <translation/>
     </message>
   </context>
   <context>
