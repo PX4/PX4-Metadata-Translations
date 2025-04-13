@@ -3434,70 +3434,70 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/2659830/message</name>
     <message>
       <source>Waypoint index eceeds list capacity (maximum: {1})</source>
-      <translation type="unfinished">Waypoint index eceeds list capacity (maximum: {1})</translation>
+      <translation>Індекс точок маршруту перевищує місткість списку (максимум: {1})</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2754873/message</name>
     <message>
       <source>Mission upload busy, ignoring MISSION_COUNT</source>
-      <translation type="unfinished">Mission upload busy, ignoring MISSION_COUNT</translation>
+      <translation>Довантаження місії зайняте, ігнорується MISSION_COUNT</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2769710/message</name>
     <message>
       <source>Mission rejected: Add Landing item or remove Takeoff</source>
-      <translation type="unfinished">Mission rejected: Add Landing item or remove Takeoff</translation>
+      <translation>Місію відхилено: Додати предмет Приземлення або видалити Зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2831661/message</name>
     <message>
       <source>Geofence violation for waypoint {1}</source>
-      <translation type="unfinished">Geofence violation for waypoint {1}</translation>
+      <translation>Порушення геоогорожі для точки маршруту {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2842608/message</name>
     <message>
       <source>Mission rejected: Landing waypoint/pattern required</source>
-      <translation type="unfinished">Mission rejected: Landing waypoint/pattern required</translation>
+      <translation>Місію відхилено: Необхідна точка маршруту/шаблон</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3038268/message</name>
     <message>
       <source>Received unknown mission type, abort</source>
-      <translation type="unfinished">Received unknown mission type, abort</translation>
+      <translation>Отримано невідомий тип місії, переривання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3092229/message</name>
     <message>
       <source>Unsupported auto mode</source>
-      <translation type="unfinished">Unsupported auto mode</translation>
+      <translation>Непідтримуваний автоматичний режим</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3198435/message</name>
     <message>
       <source>Mission rejected: the approach waypoint must be above the landing point</source>
-      <translation type="unfinished">Mission rejected: the approach waypoint must be above the landing point</translation>
+      <translation>Місія відхилена: точка маршруту на підході повинна бути вище точки приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3237806/message</name>
     <message>
       <source>Landing, flaring</source>
-      <translation type="unfinished">Landing, flaring</translation>
+      <translation>Приземлення, посадкове вирівнювання (flaring)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3321936/message</name>
     <message>
       <source>Waypoint index out of bounds (current {1} \&gt;= total {2})</source>
-      <translation type="unfinished">Waypoint index out of bounds (current {1} \&gt;= total {2})</translation>
+      <translation>Індекс точок vfhihene поза межами зони (поточне {1} \&gt;= всього {2})</translation>
     </message>
   </context>
   <context>
