@@ -3681,7 +3681,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4519150/message</name>
     <message>
       <source>Invalid configuration: Airspeed trim out of min or max bounds</source>
-      <translation type="unfinished">Invalid configuration: Airspeed trim out of min or max bounds</translation>
+      <translation>Некоректна конфігурація: обмеження польотної швидкості поза межами min або max меж</translation>
     </message>
   </context>
   <context>
@@ -3690,7 +3690,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
       <source>- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {2:.1}
 - &lt;param&gt;FW_AIRSPD_TRIM&lt;/param&gt;: {3:.1}</source>
-      <translation type="unfinished">- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
+      <translation>- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {2:.1}
 - &lt;param&gt;FW_AIRSPD_TRIM&lt;/param&gt;: {3:.1}</translation>
     </message>
@@ -3699,35 +3699,35 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4535132/message</name>
     <message>
       <source>logging: opening log file sess{1}/log{2}.ulg</source>
-      <translation type="unfinished">logging: opening log file sess{1}/log{2}.ulg</translation>
+      <translation>ведення журналу записів: відкриття файлу журналу записів sess{1}/log{2}.ulg</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4678390/message</name>
     <message>
       <source>Mission finished, loitering</source>
-      <translation type="unfinished">Mission finished, loitering</translation>
+      <translation>Місія завершена, утримання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4704426/message</name>
     <message>
       <source>Geofence imported</source>
-      <translation type="unfinished">Geofence imported</translation>
+      <translation>Геоогорожу імпортовано</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4774181/message</name>
     <message>
       <source>Mission rejected: the landing glide slope is steeper than the vehicle setting of {1}.{2} degrees</source>
-      <translation type="unfinished">Mission rejected: the landing glide slope is steeper than the vehicle setting of {1}.{2} degrees</translation>
+      <translation>Місія відхилена: нахил приземлення крутіший, ніж налаштування апарату {1}.{2} градусів</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4790285/message</name>
     <message>
       <source>Traffic Conflict Resolved {1}!</source>
-      <translation type="unfinished">Traffic Conflict Resolved {1}!</translation>
+      <translation>Конфлікт трафіку вирішений {1}!</translation>
     </message>
   </context>
   <context>
