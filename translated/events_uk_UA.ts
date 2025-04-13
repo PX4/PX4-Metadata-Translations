@@ -3385,49 +3385,49 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/2066387/message</name>
     <message>
       <source>Arming denied: calibrating</source>
-      <translation type="unfinished">Arming denied: calibrating</translation>
+      <translation>Активацію відхилено: калібрування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2087806/message</name>
     <message>
       <source>Orbit radius limit exceeded</source>
-      <translation type="unfinished">Orbit radius limit exceeded</translation>
+      <translation>Перевищено ліміт радіусу орбіти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2308551/message</name>
     <message>
       <source>Low remaining flight time, return advised</source>
-      <translation type="unfinished">Low remaining flight time, return advised</translation>
+      <translation>Залишилося мало польотного часу, рекомендовано повернення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2321600/message</name>
     <message>
       <source>Already higher than takeoff altitude (not descending)</source>
-      <translation type="unfinished">Already higher than takeoff altitude (not descending)</translation>
+      <translation>Вже вище, ніж висота зльоту (не знижується)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2440093/message</name>
     <message>
       <source>Unsupported ARM_DISARM param: {1:.3}</source>
-      <translation type="unfinished">Unsupported ARM_DISARM param: {1:.3}</translation>
+      <translation>Непідтримуваний ARM_DISARM param: {1:.3}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2474944/message</name>
     <message>
       <source>Critical battery level, land now</source>
-      <translation type="unfinished">Critical battery level, land now</translation>
+      <translation>Критичний рівень батареї, приземліться зараз</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/2566971/message</name>
     <message>
       <source>Disabling transmitting with IRIDIUM mavlink on instance {1} by command</source>
-      <translation type="unfinished">Disabling transmitting with IRIDIUM mavlink on instance {1} by command</translation>
+      <translation>Відключення передавання через IRIDIUM mavlink наприклад {1} по команді</translation>
     </message>
   </context>
   <context>
