@@ -3734,49 +3734,49 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4796299/message</name>
     <message>
       <source>Mission upload busy, already receiving waypoint</source>
-      <translation type="unfinished">Mission upload busy, already receiving waypoint</translation>
+      <translation>Завантаження місії зайняте, їде отримання точки маршруту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4854315/message</name>
     <message>
       <source>No valid mission available, refusing takeoff</source>
-      <translation type="unfinished">No valid mission available, refusing takeoff</translation>
+      <translation>Немає належних місій, відхилення зльоту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4934924/message</name>
     <message>
       <source>Gyro {1} clipping, not safe to fly!</source>
-      <translation type="unfinished">Gyro {1} clipping, not safe to fly!</translation>
+      <translation>Гіроскоп {1} обрізає дані, летіти небезпечно!</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4934924/description</name>
     <message>
       <source>Land now, and check the vehicle setup. Clipping can lead to fly-aways.</source>
-      <translation type="unfinished">Land now, and check the vehicle setup. Clipping can lead to fly-aways.</translation>
+      <translation>Приземліться зараз та перевірте налаштування апарату. Обрізання даних може призвести до задалеких відльотів.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5063943/message</name>
     <message>
       <source>Error saving settings</source>
-      <translation type="unfinished">Error saving settings</translation>
+      <translation>Помилка збереження налаштувань</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5065788/message</name>
     <message>
       <source>Manual sideways speed has been constrained by forward speed</source>
-      <translation type="unfinished">Manual sideways speed has been constrained by forward speed</translation>
+      <translation>Ручна бокова швидкість була обмежена прямою швидкістю</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5065788/description</name>
     <message>
       <source>&lt;param&gt;MPC_VEL_MAN_SIDE&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;MPC_VEL_MAN_SIDE&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
