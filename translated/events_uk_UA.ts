@@ -3553,7 +3553,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3623245/message</name>
     <message>
       <source>Invalid configuration: Airspeed max smaller than min</source>
-      <translation type="unfinished">Invalid configuration: Airspeed max smaller than min</translation>
+      <translation>Некоректна конфігурація: максимальна швидкість польоту менша за мінімальну</translation>
     </message>
   </context>
   <context>
@@ -3561,7 +3561,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {2:.1}</source>
-      <translation type="unfinished">- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
+      <translation>- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {2:.1}</translation>
     </message>
   </context>
@@ -3569,112 +3569,112 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3645914/message</name>
     <message>
       <source>High latency data link lost</source>
-      <translation type="unfinished">High latency data link lost</translation>
+      <translation>Висока затримка втрачено з'єднання даних</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3779911/message</name>
     <message>
       <source>Hover thrust has been constrained by min/max thrust</source>
-      <translation type="unfinished">Hover thrust has been constrained by min/max thrust</translation>
+      <translation>Тяга при зависанні обмежена min/max тягою</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3779911/description</name>
     <message>
       <source>&lt;param&gt;MPC_THR_HOVER&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;MPC_THR_HOVER&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3817890/message</name>
     <message>
       <source>Invalid mission state</source>
-      <translation type="unfinished">Invalid mission state</translation>
+      <translation>Неприпустимий стан місії</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3817890/description</name>
     <message>
       <source>No mission or storage failure</source>
-      <translation type="unfinished">No mission or storage failure</translation>
+      <translation>Немає місії або збїй сховища</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3878855/message</name>
     <message>
       <source>Using default takeoff altitude: {1:.2m}</source>
-      <translation type="unfinished">Using default takeoff altitude: {1:.2m}</translation>
+      <translation>Використання висоти зльоту за замовчуванням: {1:.2m}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3914228/message</name>
     <message>
       <source>Rejecting mission request command, component or system ID mismatch</source>
-      <translation type="unfinished">Rejecting mission request command, component or system ID mismatch</translation>
+      <translation>Відхилення запиту команд місії, розбіжність компоненту чи системного ID</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3939705/message</name>
     <message>
       <source>Land tilt limit has been constrained by maximum tilt</source>
-      <translation type="unfinished">Land tilt limit has been constrained by maximum tilt</translation>
+      <translation>Ліміт нахилу над поверхнею обмежений максимальним нахилом</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3939705/description</name>
     <message>
       <source>&lt;param&gt;MPC_TILTMAX_LND&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;MPC_TILTMAX_LND&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4089486/message</name>
     <message>
       <source>Rejecting waypoint command, component or system ID mismatch</source>
-      <translation type="unfinished">Rejecting waypoint command, component or system ID mismatch</translation>
+      <translation>Відхилення команд точок маршруту, компоненту чи розбіжність системного ID</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4163547/message</name>
     <message>
       <source>Start loiter with fixed bank angle</source>
-      <translation type="unfinished">Start loiter with fixed bank angle</translation>
+      <translation>Почніть утримання з фіксованого кута крену</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4202815/message</name>
     <message>
       <source>Ignoring mission clear command, busy</source>
-      <translation type="unfinished">Ignoring mission clear command, busy</translation>
+      <translation>Ігнорування команди місію завершено (mission clear), зайнято</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4277609/message</name>
     <message>
       <source>Takeoff detected</source>
-      <translation type="unfinished">Takeoff detected</translation>
+      <translation>Виявлено зліт</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/439666/message</name>
     <message>
       <source>Ignoring mission item, no transfer in progress</source>
-      <translation type="unfinished">Ignoring mission item, no transfer in progress</translation>
+      <translation>Ігнорування предмету місії, немає прогресу у трансфері</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4472241/message</name>
     <message>
       <source>IO config read failed, aborting initialization</source>
-      <translation type="unfinished">IO config read failed, aborting initialization</translation>
+      <translation>Невдала IO конфігурація, початок скасування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4502496/message</name>
     <message>
       <source>Failsafe activated: switching to {2} in {3} seconds</source>
-      <translation type="unfinished">Failsafe activated: switching to {2} in {3} seconds</translation>
+      <translation>Аварійний режим активовано: перемикання на {2} через {3} секунд</translation>
     </message>
   </context>
   <context>
