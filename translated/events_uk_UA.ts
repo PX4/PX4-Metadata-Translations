@@ -3783,203 +3783,203 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/5108026/message</name>
     <message>
       <source>ESCs calibration denied</source>
-      <translation type="unfinished">ESCs calibration denied</translation>
+      <translation>ESCs калібрування відхилено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/51327/message</name>
     <message>
       <source>Emergency battery level, land immediately</source>
-      <translation type="unfinished">Emergency battery level, land immediately</translation>
+      <translation>Екстрений рівень батареї, приземлитися негайно</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5158211/message</name>
     <message>
       <source>No airspeed sensor detected, switching to non-airspeed mode</source>
-      <translation type="unfinished">No airspeed sensor detected, switching to non-airspeed mode</translation>
+      <translation>Не виявлено датчика швидкості польоту, перемикання на режим без швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5334836/message</name>
     <message>
       <source>Hardware fault: GPS PPS disabled</source>
-      <translation type="unfinished">Hardware fault: GPS PPS disabled</translation>
+      <translation>Апаратний збій: GPS PPS вимкнено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5371654/message</name>
     <message>
       <source>Magnetometer sensor #{1} failure: {2}</source>
-      <translation type="unfinished">Magnetometer sensor #{1} failure: {2}</translation>
+      <translation>Датчик магнітометра #{1} дає збій: {2}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5371654/description</name>
     <message>
       <source>Land immediately and check the system.</source>
-      <translation type="unfinished">Land immediately and check the system.</translation>
+      <translation>Терміново приземляйтеся та перевірте систему.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5383828/message</name>
     <message>
       <source>RTL: start return at {1m_v} ({2m_v} above destination)</source>
-      <translation type="unfinished">RTL: start return at {1m_v} ({2m_v} above destination)</translation>
+      <translation>RTL: початок повернення в {1m_v} ({2m_v} над пунктом призначення)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5494498/message</name>
     <message>
       <source>Mission rejected: Takeoff waypoint required</source>
-      <translation type="unfinished">Mission rejected: Takeoff waypoint required</translation>
+      <translation>Місію відхилено: Необхідна точка маршруту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5623108/message</name>
     <message>
       <source>Manual control lost</source>
-      <translation type="unfinished">Manual control lost</translation>
+      <translation>Втрачено ручне керування</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5650341/message</name>
     <message>
       <source>SET_POSITION_TARGET_LOCAL_NED: invalid, missing position, velocity or acceleration</source>
-      <translation type="unfinished">SET_POSITION_TARGET_LOCAL_NED: invalid, missing position, velocity or acceleration</translation>
+      <translation>SET_POSITION_TARGET_LOCAL_NED: неприпустимий, відсутня позиція, швидкість або прискорення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5726704/message</name>
     <message>
       <source>High wind speed detected ({1:.1m/s}), landing advised</source>
-      <translation type="unfinished">High wind speed detected ({1:.1m/s}), landing advised</translation>
+      <translation>Виявлено високу швидкість вітру ({1:.1м/с}), радимо приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5734437/message</name>
     <message>
       <source>Command denied during calibration: {1}</source>
-      <translation type="unfinished">Command denied during calibration: {1}</translation>
+      <translation>Команду відхилено під час калібрування: {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5795201/message</name>
     <message>
       <source>Geofence requires a valid home position</source>
-      <translation type="unfinished">Geofence requires a valid home position</translation>
+      <translation>Геоогорожа потребує дійсної точки зльоту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5814991/message</name>
     <message>
       <source>Ascent speed has been constrained by max speed</source>
-      <translation type="unfinished">Ascent speed has been constrained by max speed</translation>
+      <translation>Швидкість зниження обмежена максимальною швидкістю</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5814991/description</name>
     <message>
       <source>&lt;param&gt;MPC_Z_V_AUTO_UP&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;MPC_Z_V_AUTO_UP&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5847165/message</name>
     <message>
       <source>Dangerously low battery! System shut down failed</source>
-      <translation type="unfinished">Dangerously low battery! System shut down failed</translation>
+      <translation>Небезпечно низький заряд батареї! Система відключена</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5847165/description</name>
     <message>
       <source>Cannot shut down, most likely the system does not support it.</source>
-      <translation type="unfinished">Cannot shut down, most likely the system does not support it.</translation>
+      <translation>Неможливо вимкнути, швидше за все, система це не підтримує.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5874720/message</name>
     <message>
       <source>Arming denied: high throttle</source>
-      <translation type="unfinished">Arming denied: high throttle</translation>
+      <translation>Активацію відхилено: велика тяга</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5911339/message</name>
     <message>
       <source>Received unknown mission type, abort</source>
-      <translation type="unfinished">Received unknown mission type, abort</translation>
+      <translation>Отримано невідомий тип місії, переривання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6006807/message</name>
     <message>
       <source>Quad-chute triggered due to maximum pitch angle exceeded</source>
-      <translation type="unfinished">Quad-chute triggered due to maximum pitch angle exceeded</translation>
+      <translation>Quad-chute спрацював через перевищення максимального кута тангажу</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6124520/message</name>
     <message>
       <source>Mission rejected: starts with landing</source>
-      <translation type="unfinished">Mission rejected: starts with landing</translation>
+      <translation>Місія відхилена: починається з приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/613779/message</name>
     <message>
       <source>Mission rejected: unsupported landing approach entrance waypoint type. Only ORBIT_TO_ALT or WAYPOINT allowed</source>
-      <translation type="unfinished">Mission rejected: unsupported landing approach entrance waypoint type. Only ORBIT_TO_ALT or WAYPOINT allowed</translation>
+      <translation>Місія відхилена: непідтримуваний тип точки маршруту при наближенні до входу у приземлення. Дозволено лише ORBIT_TO_ALT або WAYPOINT</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6349555/message</name>
     <message>
       <source>Calibration: Restoring RC input</source>
-      <translation type="unfinished">Calibration: Restoring RC input</translation>
+      <translation>Калібрування: Відновлення входу пульта(RC)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6363289/message</name>
     <message>
       <source>Airspeed estimation valid</source>
-      <translation type="unfinished">Airspeed estimation valid</translation>
+      <translation>Дійсне вимірювання швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6415112/message</name>
     <message>
       <source>RC trim calibration completed</source>
-      <translation type="unfinished">RC trim calibration completed</translation>
+      <translation>Калібрування корекції пульта(RC) завершено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6843301/message</name>
     <message>
       <source>Parachute system regained</source>
-      <translation type="unfinished">Parachute system regained</translation>
+      <translation>Відновлена система парашуту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6847604/message</name>
     <message>
       <source>Quad-chute triggered due to maximum roll angle exceeded</source>
-      <translation type="unfinished">Quad-chute triggered due to maximum roll angle exceeded</translation>
+      <translation>Quad-chute спрацював через перевищення максимального кута крену</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6880628/message</name>
     <message>
       <source>Approaching max flight time (system will RTL in {1} minutes)</source>
-      <translation type="unfinished">Approaching max flight time (system will RTL in {1} minutes)</translation>
+      <translation>Наближається максимальний час польоту (система RTL (повернеться на точку запуску) за {1} хвилину)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6880628/description</name>
     <message>
       <source>Maximal flight time warning (more than 1min remaining)</source>
-      <translation type="unfinished">Maximal flight time warning (more than 1min remaining)</translation>
+      <translation>Попередження про максимальний час польоту (більше 1 хв. залишилось)</translation>
     </message>
   </context>
   <context>
