@@ -3986,28 +3986,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/6922012/message</name>
     <message>
       <source>DO JUMP waypoint could not be written</source>
-      <translation type="unfinished">DO JUMP waypoint could not be written</translation>
+      <translation>Точка маршруту DO JUMP не може бути записана</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/6974862/message</name>
     <message>
       <source>Unexpected waypoint index, aborting transfer</source>
-      <translation type="unfinished">Unexpected waypoint index, aborting transfer</translation>
+      <translation>Неочікуваний індекс точки маршруту, переривання передачі</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/697858/message</name>
     <message>
       <source>RC trim calibration: failed to set parameters</source>
-      <translation type="unfinished">RC trim calibration: failed to set parameters</translation>
+      <translation>Калібрування корекції пульта(RC): не вдалось встановити параметри</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7028282/message</name>
     <message>
       <source>Airspeed sensor failure detected. Check connection and reboot</source>
-      <translation type="unfinished">Airspeed sensor failure detected. Check connection and reboot</translation>
+      <translation>Виявлено помилку датчика швидкості польоту. Перевірте з'єднання та перезавантажте</translation>
     </message>
   </context>
   <context>
