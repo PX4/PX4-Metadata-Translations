@@ -3511,42 +3511,42 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3329221/message</name>
     <message>
       <source>OpenDroneID system regained</source>
-      <translation type="unfinished">OpenDroneID system regained</translation>
+      <translation>Систему OpenDroneID повернуто</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3378258/message</name>
     <message>
       <source>Mission rejected: No home position, waypoint {1} uses relative altitude</source>
-      <translation type="unfinished">Mission rejected: No home position, waypoint {1} uses relative altitude</translation>
+      <translation>Місія відхилена: немає точки зльоту, точка маршруту {1} використовує відносну висоту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3390156/message</name>
     <message>
       <source>No valid mission available, loitering</source>
-      <translation type="unfinished">No valid mission available, loitering</translation>
+      <translation>Немає доступної місії, триває утримання</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3453129/message</name>
     <message>
       <source>Geofence requires a valid home position</source>
-      <translation type="unfinished">Geofence requires a valid home position</translation>
+      <translation>Геоогорожа потребує дійсної точки зльоту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/346311/message</name>
     <message>
       <source>Launch detection running</source>
-      <translation type="unfinished">Launch detection running</translation>
+      <translation>Детекція запуску працює</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3484900/message</name>
     <message>
       <source>Returning to launch</source>
-      <translation type="unfinished">Returning to launch</translation>
+      <translation>Повернення до запуску</translation>
     </message>
   </context>
   <context>
