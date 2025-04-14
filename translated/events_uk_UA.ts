@@ -4214,14 +4214,14 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/8833276/message</name>
     <message>
       <source>No inputs, aborting RC trim calibration</source>
-      <translation type="unfinished">No inputs, aborting RC trim calibration</translation>
+      <translation>Немає вхідних даних, переривання калібрування корекції пульта(RC)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8865457/message</name>
     <message>
       <source>Geofence: import error</source>
-      <translation type="unfinished">Geofence: import error</translation>
+      <translation>Геоогорожа: помилка імпорту</translation>
     </message>
   </context>
   <context>
