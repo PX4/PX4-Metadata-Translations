@@ -4053,7 +4053,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/7186357/message</name>
     <message>
       <source>Yaw Airmode requires disabling the stick arm gesture</source>
-      <translation type="unfinished">Yaw Airmode requires disabling the stick arm gesture</translation>
+      <translation>Режим рискання потребує вимкнення руху взведення стіком</translation>
     </message>
   </context>
   <context>
