@@ -4060,56 +4060,56 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/7186357/description</name>
     <message>
       <source>&lt;param&gt;MC_AIRMODE&lt;/param&gt; is now set to roll/pitch airmode.</source>
-      <translation type="unfinished">&lt;param&gt;MC_AIRMODE&lt;/param&gt; is now set to roll/pitch airmode.</translation>
+      <translation>&lt;param&gt;MC_AIRMODE&lt;/param&gt; зараз налаштовано на режим крен/тангаж.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7714236/message</name>
     <message>
       <source>Approaching max flight time (system will RTL in {1} seconds)</source>
-      <translation type="unfinished">Approaching max flight time (system will RTL in {1} seconds)</translation>
+      <translation>Наближається максимальний час польоту (система зробить RTL (повернеться на точку запуску) за {1} секунд)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7714236/description</name>
     <message>
       <source>Maximal flight time warning (less than 1min remaining)</source>
-      <translation type="unfinished">Maximal flight time warning (less than 1min remaining)</translation>
+      <translation>Попередження про максимальний час польоту (менше ніж 1хв залишилось)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7791755/message</name>
     <message>
       <source>Airspeed sensor healthy, start using again</source>
-      <translation type="unfinished">Airspeed sensor healthy, start using again</translation>
+      <translation>Датчик швидкості польоту в нормі, почніть використовувати знову</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7791755/description</name>
     <message>
       <source>Previously selected sensor index: {1}, current sensor index: {2}.</source>
-      <translation type="unfinished">Previously selected sensor index: {1}, current sensor index: {2}.</translation>
+      <translation>Попередньо обраний індекс датчиків:{1}, поточний індекс датчиків: {2}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7803396/message</name>
     <message>
       <source>Mission finished, landed</source>
-      <translation type="unfinished">Mission finished, landed</translation>
+      <translation>Місія завершена, приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7832778/message</name>
     <message>
       <source>Traffic Conflict {1} Expired and removed from buffer</source>
-      <translation type="unfinished">Traffic Conflict {1} Expired and removed from buffer</translation>
+      <translation>Конфлікт трафіку {1} має закінчений термін та був прибраний з буфера обміну</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7860665/message</name>
     <message>
       <source>Mission rejected: land start item before RTL item is not possible</source>
-      <translation type="unfinished">Mission rejected: land start item before RTL item is not possible</translation>
+      <translation>Місія відхилена: елемент старту з землі перед елементом RTL неможливий</translation>
     </message>
   </context>
   <context>
