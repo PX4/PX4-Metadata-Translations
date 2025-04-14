@@ -447,7 +447,7 @@
     <name>/functions_v1/2064/label</name>
     <message>
       <source>PPS Input</source>
-      <translation>Вхід PPS</translation>
+      <translation>Вхідні дані PPS</translation>
     </message>
   </context>
   <context>
