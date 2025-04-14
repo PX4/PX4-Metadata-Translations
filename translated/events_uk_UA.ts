@@ -4116,98 +4116,98 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/8208988/message</name>
     <message>
       <source>Climb to {1:.1m_v} above home</source>
-      <translation type="unfinished">Climb to {1:.1m_v} above home</translation>
+      <translation>Перейти до {1:.1m_v} вище точки повернення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8275181/message</name>
     <message>
       <source>Transponder Failure</source>
-      <translation type="unfinished">Transponder Failure</translation>
+      <translation>Збій Транспондеру</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8280920/message</name>
     <message>
       <source>Airspeed estimation invalid</source>
-      <translation type="unfinished">Airspeed estimation invalid</translation>
+      <translation>Оцінка швидкості польоту не вдала</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8310204/message</name>
     <message>
       <source>Landing using precision landing</source>
-      <translation type="unfinished">Landing using precision landing</translation>
+      <translation>Приземлення з використанням точного приземлення</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8324861/message</name>
     <message>
       <source>Not yet ready for mission, no position lock</source>
-      <translation type="unfinished">Not yet ready for mission, no position lock</translation>
+      <translation>Ще немає готовності для місії, немає замикання позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8459921/message</name>
     <message>
       <source>Mission rejected: Landing waypoint/pattern required</source>
-      <translation type="unfinished">Mission rejected: Landing waypoint/pattern required</translation>
+      <translation>Місію відхилено: Необхідна точка приземлення/шаблону</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8520304/message</name>
     <message>
       <source>Operation timeout, aborting transfer</source>
-      <translation type="unfinished">Operation timeout, aborting transfer</translation>
+      <translation>Тайм-аут операції, переривання передачі</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8546752/message</name>
     <message>
       <source>Ignoring mission item, busy</source>
-      <translation type="unfinished">Ignoring mission item, busy</translation>
+      <translation>Ігнорування предмету місії, зайнятий</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8557551/message</name>
     <message>
       <source>Failsafe warning: {2}</source>
-      <translation type="unfinished">Failsafe warning: {2}</translation>
+      <translation>Попередження аварійного режиму: {2}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8557551/description</name>
     <message>
       <source>No action is triggered.</source>
-      <translation type="unfinished">No action is triggered.</translation>
+      <translation>Жодної дії не викликано.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8673473/message</name>
     <message>
       <source>Not enough bandwidth to enable log streaming ({1} \&lt; 5000)</source>
-      <translation type="unfinished">Not enough bandwidth to enable log streaming ({1} \&lt; 5000)</translation>
+      <translation>Не вистачає пропускної здатності для увімкнення потокового передавання журналу ({1} \&lt; 5000)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8706060/message</name>
     <message>
       <source>Manual backward speed has been constrained by forward speed</source>
-      <translation type="unfinished">Manual backward speed has been constrained by forward speed</translation>
+      <translation>Ручна бокова швидкість була обмежена прямою швидкістю</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8706060/description</name>
     <message>
       <source>&lt;param&gt;MPC_VEL_MAN_BACK&lt;/param&gt; is set to {1:.0}.</source>
-      <translation type="unfinished">&lt;param&gt;MPC_VEL_MAN_BACK&lt;/param&gt; is set to {1:.0}.</translation>
+      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8775715/message</name>
     <message>
       <source>Mission rejected: item {1}: unsupported command: {2}</source>
-      <translation type="unfinished">Mission rejected: item {1}: unsupported command: {2}</translation>
+      <translation>Місія відхилена: елемент {1}: непідтримувана команда: {2}</translation>
     </message>
   </context>
   <context>
