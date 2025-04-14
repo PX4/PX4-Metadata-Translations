@@ -4014,28 +4014,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/7067274/message</name>
     <message>
       <source>Mission start denied! No valid mission</source>
-      <translation type="unfinished">Mission start denied! No valid mission</translation>
+      <translation>Старт місії відхилено! Немає належної місії</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/710679/message</name>
     <message>
       <source>Mission failure: unable to reach heading within timeout</source>
-      <translation type="unfinished">Mission failure: unable to reach heading within timeout</translation>
+      <translation>Помилка місії: неможливо досягти напрямку в межах тайм-ауту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/713405/message</name>
     <message>
       <source>Manual control regained after {1:.1} s</source>
-      <translation type="unfinished">Manual control regained after {1:.1} s</translation>
+      <translation>Ручне управління відновлено після {1:.1} с</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7144644/message</name>
     <message>
       <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, landing</source>
-      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, landing</translation>
+      <translation>Попередження про трафік - ICAO Адреса {1}! Дистанція Розділення {2}, Напрямок {3}, приземлення</translation>
     </message>
   </context>
   <context>
@@ -4044,9 +4044,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
       <source>- ICAO Address: {1}
 - Traffic Separation Distance: {2m}
 - Heading: {3} degrees</source>
-      <translation type="unfinished">- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</translation>
+      <translation>- ICAO Адреса: {1}
+- Дистанція Розділення Трафіку: {2m}
+- Напрямок: {3} градусів</translation>
     </message>
   </context>
   <context>
