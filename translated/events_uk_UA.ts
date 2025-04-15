@@ -4280,9 +4280,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This warning is triggered when the position error estimate is 90% of (or only 10m below) &lt;param&gt;COM_POS_FS_EPH&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Switch to manual mode recommended.
+      <translation>Рекомендовано перемикнутися на ручний режим.
 
-&lt;profile name="dev"&gt; This warning is triggered when the position error estimate is 90% of (or only 10m below) &lt;param&gt;COM_POS_FS_EPH&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Це попередження викликається коли оцінка помилки позиції є 90% з (або тільки 10м нижче) &lt;param&gt;COM_POS_FS_EPH&lt;/param&gt; параметра.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4290,63 +4290,63 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/9346577/message</name>
     <message>
       <source>Reached clearance altitude</source>
-      <translation type="unfinished">Reached clearance altitude</translation>
+      <translation>Досягнуто висоти прольоту перешкод</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9351472/message</name>
     <message>
       <source>RTL: unsupported MAV_FRAME ({1})</source>
-      <translation type="unfinished">RTL: unsupported MAV_FRAME ({1})</translation>
+      <translation>RTL: непідтримуваний MAV_FRAME ({1})</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9355528/message</name>
     <message>
       <source>Could not set mission closest to position</source>
-      <translation type="unfinished">Could not set mission closest to position</translation>
+      <translation>Не вдалося встановити місію якнайближче до позиції</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9421773/message</name>
     <message>
       <source>Baro sensor #{1} failure: {2}</source>
-      <translation type="unfinished">Baro sensor #{1} failure: {2}</translation>
+      <translation>Барометр #{1} дає збій: {2}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9421773/description</name>
     <message>
       <source>Land immediately and check the system.</source>
-      <translation type="unfinished">Land immediately and check the system.</translation>
+      <translation>Терміново приземляйтеся та перевірте систему.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9427265/message</name>
     <message>
       <source>Mission could not reset jump count</source>
-      <translation type="unfinished">Mission could not reset jump count</translation>
+      <translation>Місія не може перевстановити лічильник стрибків</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9432105/message</name>
     <message>
       <source>Geofence invalid, doesn't contain current vehicle position</source>
-      <translation type="unfinished">Geofence invalid, doesn't contain current vehicle position</translation>
+      <translation>Неприйнятна геоогорожа, не містить поточної позиції апарату</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9476947/message</name>
     <message>
       <source>Quad-chute triggered due to uncommanded descent detection</source>
-      <translation type="unfinished">Quad-chute triggered due to uncommanded descent detection</translation>
+      <translation>Quad-chute викликано через виявлення мимовільного зниження</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9489139/message</name>
     <message>
       <source>Armed by {1}</source>
-      <translation type="unfinished">Armed by {1}</translation>
+      <translation>Взведений за допомогою {1}</translation>
     </message>
   </context>
   <context>
