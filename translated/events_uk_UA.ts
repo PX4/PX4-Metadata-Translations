@@ -4228,49 +4228,49 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/8894709/message</name>
     <message>
       <source>Mission rejected: the landing point must be outside the orbit radius</source>
-      <translation type="unfinished">Mission rejected: the landing point must be outside the orbit radius</translation>
+      <translation>Місія відхилена: точка приземлення має бути поза радіусом орбіти</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8912808/message</name>
     <message>
       <source>Failed to communicate with IO, aborting initialization</source>
-      <translation type="unfinished">Failed to communicate with IO, aborting initialization</translation>
+      <translation>Не вдалося зв'язатися з IO, переривання ініціалізації</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8935528/message</name>
     <message>
       <source>Mission manager currently busy, ignoring new waypoint index</source>
-      <translation type="unfinished">Mission manager currently busy, ignoring new waypoint index</translation>
+      <translation>Менеджер місії зараз зайнятий, ігнорує новий індекс точки маршруту</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9013084/message</name>
     <message>
       <source>Ignoring mission request, currently busy</source>
-      <translation type="unfinished">Ignoring mission request, currently busy</translation>
+      <translation>Ігнорування запиту місії, наразі зайнятий</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9091509/message</name>
     <message>
       <source>Disarming denied: not landed</source>
-      <translation type="unfinished">Disarming denied: not landed</translation>
+      <translation>Охолощення недоступно: не приземлено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9092852/message</name>
     <message>
       <source>Unexpected waypoint index, aborting mission transfer</source>
-      <translation type="unfinished">Unexpected waypoint index, aborting mission transfer</translation>
+      <translation>Неочікуваний індекс точки маршруту, переривання трансферу місії</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/929525/message</name>
     <message>
       <source>Estimated position error is approaching the failsafe threshold</source>
-      <translation type="unfinished">Estimated position error is approaching the failsafe threshold</translation>
+      <translation>Помилка оціненої позиції наближається до порогу аварійного режиму</translation>
     </message>
   </context>
   <context>
