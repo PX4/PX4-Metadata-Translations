@@ -4353,42 +4353,42 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/9537079/message</name>
     <message>
       <source>Obstacle message received in unsupported frame {1}</source>
-      <translation type="unfinished">Obstacle message received in unsupported frame {1}</translation>
+      <translation>Повідомлення про перешкоду отримано у рамці, що не підтримується {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/961599/message</name>
     <message>
       <source>Pilot took over using sticks</source>
-      <translation type="unfinished">Pilot took over using sticks</translation>
+      <translation>Пілот прийняв управління за допомогою стіків</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9751178/message</name>
     <message>
       <source>{3}: switching to {2}</source>
-      <translation type="unfinished">{3}: switching to {2}</translation>
+      <translation>{3}: switching to {2}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9758530/message</name>
     <message>
       <source>Mission item could not be set</source>
-      <translation type="unfinished">Mission item could not be set</translation>
+      <translation>Елемент місії не може бути встановлений</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/9844908/message</name>
     <message>
       <source>Landing detected</source>
-      <translation type="unfinished">Landing detected</translation>
+      <translation>Приземлення виявлено</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/1058956/message</name>
     <message>
       <source>CPU load too high: {3:.1}%</source>
-      <translation type="unfinished">CPU load too high: {3:.1}%</translation>
+      <translation>Занадто велике навантаження на ЦП: {3:.1}%</translation>
     </message>
   </context>
   <context>
