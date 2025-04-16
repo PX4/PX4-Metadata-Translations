@@ -4398,7 +4398,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; The threshold can be adjusted via &lt;param&gt;COM_CPU_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">The CPU load can be reduced for example by disabling unused modules (e.g. mavlink instances) or reducing the gyro update rate via &lt;param&gt;IMU_GYRO_RATEMAX&lt;/param&gt;.
+      <translation>Навантаження на ЦП(CPU) може бути зменшено наприклад через відключення незалучений модулей (напр. mavlink екземпляри) або зменшення частоти оновлення гірокомпаса через &lt;param&gt;IMU_GYRO_RATEMAX&lt;/param&gt;.
 
 &lt;profile name="dev"&gt; The threshold can be adjusted via &lt;param&gt;COM_CPU_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
@@ -4408,28 +4408,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/11478328/message</name>
     <message>
       <source>No valid data from Gyro {3}</source>
-      <translation type="unfinished">No valid data from Gyro {3}</translation>
+      <translation>Немає належних даних від Гірокомпаса {3}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/13344346/message</name>
     <message>
       <source>Battery unhealthy</source>
-      <translation type="unfinished">Battery unhealthy</translation>
+      <translation>Батарея має проблеми</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/13344346/description</name>
     <message>
       <source>Make sure all batteries are connected and operational.</source>
-      <translation type="unfinished">Make sure all batteries are connected and operational.</translation>
+      <translation>Переконайтеся, що всі акумулятори підключені та робочі.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/13372152/message</name>
     <message>
       <source>Parachute system not ready</source>
-      <translation type="unfinished">Parachute system not ready</translation>
+      <translation>Парашутна система не готова</translation>
     </message>
   </context>
   <context>
@@ -4439,9 +4439,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_PARACHUTE&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Parachute system reported being unhealth.
+      <translation>Парашутна система повідомляє про наявність проблем.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_PARACHUTE&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_PARACHUTE&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4449,7 +4449,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/14221469/message</name>
     <message>
       <source>Distance sensor {3} missing</source>
-      <translation type="unfinished">Distance sensor {3} missing</translation>
+      <translation>Сенсор відстані {3} відсутній</translation>
     </message>
   </context>
   <context>
@@ -4457,7 +4457,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;SYS_HAS_NUM_DIST&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;SYS_HAS_NUM_DIST&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;SYS_HAS_NUM_DIST&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4465,7 +4465,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/14566046/message</name>
     <message>
       <source>ESC {3} offline</source>
-      <translation type="unfinished">ESC {3} offline</translation>
+      <translation>ESC {3} офлайн</translation>
     </message>
   </context>
   <context>
@@ -4473,7 +4473,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4481,7 +4481,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/15289843/message</name>
     <message>
       <source>Avionics Power high: {3:.2} Volt</source>
-      <translation type="unfinished">Avionics Power high: {3:.2} Volt</translation>
+      <translation>Потужність авіоніки велика: {3:.2} Volt</translation>
     </message>
   </context>
   <context>
@@ -4491,9 +4491,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Check the voltage supply to the FMU, it must be below {4:.2} Volt.
+      <translation>Перевірте вольтаж живлення FMU, він має бути нижче за {4:.2} Volt.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4501,28 +4501,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/15388760/message</name>
     <message>
       <source>Compass sensor {3} missing</source>
-      <translation type="unfinished">Compass sensor {3} missing</translation>
+      <translation>Сенсор відстані {3} відсутній</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/15602498/message</name>
     <message>
       <source>Battery {3}: {4}. {5}</source>
-      <translation type="unfinished">Battery {3}: {4}. {5}</translation>
+      <translation>Батарея {3}: {4}. {5}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/15602498/description</name>
     <message>
       <source>The battery reported a failure which might be dangerous to fly with. Manufacturer error code: {6}</source>
-      <translation type="unfinished">The battery reported a failure which might be dangerous to fly with. Manufacturer error code: {6}</translation>
+      <translation>Батарея повідомила про помилку, з якою може бути небезпечним летіти. Код помилки за номером виробника: {6}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/15793174/message</name>
     <message>
       <source>ESC failure</source>
-      <translation type="unfinished">ESC failure</translation>
+      <translation>Помилка ESC</translation>
     </message>
   </context>
   <context>
@@ -4532,9 +4532,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_ESCS_EN&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">One or more ESCs failed to arm.
+      <translation>Не вдалося взвести один або більше ESCs.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_ESCS_EN&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_ESCS_EN&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4542,7 +4542,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/15965684/message</name>
     <message>
       <source>Parachute system missing</source>
-      <translation type="unfinished">Parachute system missing</translation>
+      <translation>Парашутна система відсутня</translation>
     </message>
   </context>
   <context>
