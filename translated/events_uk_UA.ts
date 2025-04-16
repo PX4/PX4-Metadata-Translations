@@ -1634,7 +1634,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; Measured strength: {3:.3}, expected: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Measured inclination: {5:.3}, expected: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Вимерена потужність: {3:.3}, очікувана: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Вимерений нахил: {5:.3}, очікуваний: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Вимерена потужність: {3:.3}, очікувана: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Вимерений нахил: {5:.3}, очікуваний: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; параметри.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1675,7 +1675,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 &lt;/profile&gt;</source>
       <translation>Апарат перевищив максимально встановлений кут тангажу.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_FAIL_P&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_FAIL_P&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1747,7 +1747,7 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
 &lt;/profile&gt;</source>
       <translation>Стан заряду найгіршої батареї нижче передполітного порогу.
 
-&lt;profile name="dev"&gt; Ця перевірка може налаштована через &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може налаштована через &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1805,7 +1805,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 Нестабільне значення: {4}. Налаштований поріг: {5}.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1821,7 +1821,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1845,7 +1845,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 Нестабільне значення: {4}. Налаштований поріг: {5}.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1897,7 +1897,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; Axis {3}: |{4:.8}| \&gt; {5:.8} + {6:.8}
 
-Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1917,7 +1917,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 &lt;/profile&gt;</source>
       <translation>Спочатку завантажте місію.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MIS_REQ&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1933,7 +1933,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; parameters.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; та &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; параметри.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1949,7 +1949,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1990,7 +1990,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2010,7 +2010,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 &lt;/profile&gt;</source>
       <translation>Стан заряду найгіршої батареї нижче порогу попередження.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;BAT_LOW_THR&lt;/param&gt;, &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; and &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt; parameters.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;BAT_LOW_THR&lt;/param&gt;, &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; та &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt; параметри.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2026,7 +2026,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2046,7 +2046,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 &lt;/profile&gt;</source>
       <translation>Перевірте орієнтацію компасу та перекалібруйте.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MAG_ANG&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MAG_ANG&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2076,7 +2076,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2096,7 +2096,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 &lt;/profile&gt;</source>
       <translation>Переконайтеся що усі необхідні сенсори працюють, їх увімкнено та прокалібровано.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;SYS_HAS_MAG&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;SYS_HAS_MAG&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2133,7 +2133,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2149,7 +2149,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2183,7 +2183,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 &lt;/profile&gt;</source>
       <translation>Для активації щонайменше посилання даних або ручний контроль пульта(RC) має бути наявним.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2203,7 +2203,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 &lt;/profile&gt;</source>
       <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
 
-Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2237,7 +2237,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 &lt;/profile&gt;</source>
       <translation>Літати з USB небезпечно. Від'єднайте це та перезавантажте FMU (польотний контролер).
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2285,7 +2285,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 &lt;/profile&gt;</source>
       <translation>Апарат у безпечному режимі та не сприймає активацію.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARMABLE&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2305,7 +2305,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 &lt;/profile&gt;</source>
       <translation>Відкрита Drone ID система звітувала про перебування у неробочому стані.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_ODID&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2339,7 +2339,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
 &lt;/profile&gt;</source>
       <translation>Апарат перевищив налаштований максимум кута крену.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_FAIL_R&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;FD_FAIL_R&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2373,7 +2373,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; para
 &lt;/profile&gt;</source>
       <translation>&lt;profile name="dev"&gt; Тест співвідношення: {3:.3}, ліміт: {4:.3}.
 
-Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2411,7 +2411,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; Axis {3}: |{4:.8}| \&gt; {5:.8} + {6:.8}
 
-Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4661,28 +4661,28 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
     <name>/components/1/event_groups/health/events/5095593/message</name>
     <message>
       <source>Barometer {3} missing</source>
-      <translation type="unfinished">Barometer {3} missing</translation>
+      <translation>Відсутній барометр {3}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/5623109/message</name>
     <message>
       <source>Battery {3} mode: {4}</source>
-      <translation type="unfinished">Battery {3} mode: {4}</translation>
+      <translation>Батарея {3} режим: {4}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/6410608/message</name>
     <message>
       <source>No valid data from Compass {3}</source>
-      <translation type="unfinished">No valid data from Compass {3}</translation>
+      <translation>Немає належних даних від Компаса {3}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/666479/message</name>
     <message>
       <source>Motor failure detected</source>
-      <translation type="unfinished">Motor failure detected</translation>
+      <translation>Виявлено помилку мотору</translation>
     </message>
   </context>
   <context>
@@ -4690,7 +4690,7 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_ACT_EN&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_ACT_EN&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4698,7 +4698,7 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
     <name>/components/1/event_groups/health/events/6948489/message</name>
     <message>
       <source>ESC {3}: {4}</source>
-      <translation type="unfinished">ESC {3}: {4}</translation>
+      <translation>ESC {3}: {4}</translation>
     </message>
   </context>
   <context>
@@ -4708,9 +4708,9 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">{5}
+      <translation>{5}
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4718,7 +4718,7 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
     <name>/components/1/event_groups/health/events/7214714/message</name>
     <message>
       <source>System power unavailable</source>
-      <translation type="unfinished">System power unavailable</translation>
+      <translation>Живлення системи відсутнє</translation>
     </message>
   </context>
   <context>
@@ -4728,9 +4728,9 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
 
 This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Ensure the ADC is working and the system_power topic is published.
+      <translation>&lt;profile name="dev"&gt; Переконайтесь що ADC працює та заголовок живлення_системи опубліковано.
 
-This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; parameter.
+Ця перевірка може бути налаштована через &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4738,7 +4738,7 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/7908333/message</name>
     <message>
       <source>Power module not connected</source>
-      <translation type="unfinished">Power module not connected</translation>
+      <translation>Модуль живлення не під'єднано</translation>
     </message>
   </context>
   <context>
@@ -4748,9 +4748,9 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">Note that USB must be disconnected as well.
+      <translation>Зверніть увагу, що USB має бути також від'єднано.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4758,42 +4758,42 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/8227839/message</name>
     <message>
       <source>Accelerometer sensor {3} missing</source>
-      <translation type="unfinished">Accelerometer sensor {3} missing</translation>
+      <translation>Датчик акселерометра {3} відсутній</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/8274357/message</name>
     <message>
       <source>Navigation failure</source>
-      <translation type="unfinished">Navigation failure</translation>
+      <translation>Помилка навігації</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/8274357/description</name>
     <message>
       <source>Land and recalibrate the sensors.</source>
-      <translation type="unfinished">Land and recalibrate the sensors.</translation>
+      <translation>Приземліться та перекалібруйте датчики.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/8544646/message</name>
     <message>
       <source>No valid data from distance sensor {3}</source>
-      <translation type="unfinished">No valid data from distance sensor {3}</translation>
+      <translation>Немає дійсних даних від датчика відстані {3}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/8799553/message</name>
     <message>
       <source>Battery {3} disconnected</source>
-      <translation type="unfinished">Battery {3} disconnected</translation>
+      <translation>Батарею {3} від’єднано</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/9191449/message</name>
     <message>
       <source>ESC telemetry missing</source>
-      <translation type="unfinished">ESC telemetry missing</translation>
+      <translation>ESC телеметрія відсутня</translation>
     </message>
   </context>
   <context>
@@ -4801,7 +4801,7 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4809,7 +4809,7 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/9266821/message</name>
     <message>
       <source>No CPU load information</source>
-      <translation type="unfinished">No CPU load information</translation>
+      <translation>Немає інформації про завантаження процесора</translation>
     </message>
   </context>
   <context>
@@ -4817,7 +4817,7 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; If the system does not provide any CPU load information, use the parameter &lt;param&gt;COM_CPU_MAX&lt;/param&gt; to disable the check.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; If the system does not provide any CPU load information, use the parameter &lt;param&gt;COM_CPU_MAX&lt;/param&gt; to disable the check.
+      <translation>&lt;profile name="dev"&gt; Якщо система не надає ніякої інформації про завантаження процесора (CPU), використайте параметр &lt;param&gt;COM_CPU_MAX&lt;/param&gt;, щоб вимкнути перевірку.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4825,7 +4825,7 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/9493632/message</name>
     <message>
       <source>No airspeed data</source>
-      <translation type="unfinished">No airspeed data</translation>
+      <translation>Немає даних про швидкість польоту</translation>
     </message>
   </context>
   <context>
@@ -4833,7 +4833,7 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;SYS_HAS_NUM_ASPD&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation type="unfinished">&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;SYS_HAS_NUM_ASPD&lt;/param&gt; parameter.
+      <translation>&lt;profile name="dev"&gt; Вірогідно що модуль селектора швидкості польоту не працює. Ця перевірка може бути налаштована через &lt;param&gt;SYS_HAS_NUM_ASPD&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
     </message>
   </context>
