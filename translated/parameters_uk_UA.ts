@@ -46,13 +46,13 @@
             decreased. Higher values result in faster response, but may result
             in oscillation and excessive overshoot. Lower values result in a
             slower, smoother response.</source>
-      <translation type="unfinished">Speed (RPM) controller gain. Determines controller
-            aggressiveness; units are amp-seconds per radian. Systems with
-            higher rotational inertia (large props) will need gain increased;
-            systems with low rotational inertia (small props) may need gain
-            decreased. Higher values result in faster response, but may result
-            in oscillation and excessive overshoot. Lower values result in a
-            slower, smoother response.</translation>
+      <translation>Регулятор швидкості (RPM - обертів на хвилину) отримано. Визначає контролеру
+            агресивність; одиниці виміру є ампер/секунд у радіані. Система з
+            високою інерцією обертання (великі пропелери) потребуватиме підвищеного коефіцієнту;
+            система з низькою інерцією обертання (малі пропелери) може потребувати підвищеного коефіцієнту може потребувати зниженого
+            коефіцієнту. Більші значення дають швидкіше реагування, але може перейти
+            у коливання надмірного прельоту. Більш низькі значення викликають
+            повільніше, smoother response.</translation>
     </message>
   </context>
   <context>
