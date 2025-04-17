@@ -5,7 +5,7 @@
     <name>/parameters/ctl_bw/shortDesc</name>
     <message>
       <source>Speed controller bandwidth</source>
-      <translation type="unfinished">Speed controller bandwidth</translation>
+      <translation>Пропускна здатність регулятора швидкості</translation>
     </message>
   </context>
   <context>
