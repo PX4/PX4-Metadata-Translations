@@ -12,28 +12,28 @@
     <name>/parameters/ctl_bw/longDesc</name>
     <message>
       <source>Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</source>
-      <translation type="unfinished">Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</translation>
+      <translation>Пропускна здатність контролера швидкості у Гц. Вищі значення призводять до більшої швидкості та зростання поточного часу, але можуть призвести до перельоту та більшого поточного споживання. Для активних літаків з нерухомим крилом це значення має бути менше 50 Гц; для мультироторів значення до 100 Гц може забезпечити поліпшення чутливості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/shortDesc</name>
     <message>
       <source>Reverse direction</source>
-      <translation type="unfinished">Reverse direction</translation>
+      <translation>Зворотний напрямок</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/longDesc</name>
     <message>
       <source>Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</source>
-      <translation type="unfinished">Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</translation>
+      <translation>Напрямок обертання мотору виявлено під час початкового підрахунку. Використовуйте 0 або 1 для зворотного напрямку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_gain/shortDesc</name>
     <message>
       <source>Speed (RPM) controller gain</source>
-      <translation type="unfinished">Speed (RPM) controller gain</translation>
+      <translation>Регулятор швидкості (RPM - обертів на хвилину) отримано</translation>
     </message>
   </context>
   <context>
