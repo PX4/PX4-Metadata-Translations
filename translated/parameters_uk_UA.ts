@@ -155,12 +155,12 @@
             the continuous current rating listed in the motor’s specification
             sheet, or set equal to the motor’s specified continuous power
             divided by the motor voltage limit.</source>
-      <translation type="unfinished">Motor current limit in amps. This determines the maximum
-            current controller setpoint, as well as the maximum allowable
-            current setpoint slew rate. This value should generally be set to
-            the continuous current rating listed in the motor’s specification
-            sheet, or set equal to the motor’s specified continuous power
-            divided by the motor voltage limit.</translation>
+      <translation>Ліміт струму мотора в амперах. Це визначає максимальне 
+            задане значення струму контролера, так само як і максимально припустиму
+             задану швидкість зростання струму. Це значення взагалі має бути встановлено до
+            рівня постійного струму  зазначеного у таблиці характеристик мотору
+            , або встановлене відповідно до визначеної постійної потужності мотору,
+            поділеної на ліміт вольтажу мотору.</translation>
     </message>
   </context>
   <context>
@@ -176,16 +176,16 @@
       <source>Motor Kv in RPM per volt. This can be taken from the motor’s
             specification sheet; accuracy will help control performance but
             some deviation from the specified value is acceptable.</source>
-      <translation type="unfinished">Motor Kv in RPM per volt. This can be taken from the motor’s
-            specification sheet; accuracy will help control performance but
-            some deviation from the specified value is acceptable.</translation>
+      <translation>KV мотора вимірюється у RPM на вольт. Це значення може бути взяте з 
+            таблиці характеристик мотору; точність допоможе контролювати роботу, але
+            але припустимі деякі відхилення від зазначеного значення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_ls/shortDesc</name>
     <message>
       <source>READ ONLY: Motor inductance in henries.</source>
-      <translation type="unfinished">READ ONLY: Motor inductance in henries.</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Індуктивність мотору визначена у Гн(генрі)</translation>
     </message>
   </context>
   <context>
