@@ -261,10 +261,10 @@
             actual motor voltage limit, divide the motor’s rated power by the
             motor current limit.</source>
       <translation>Ліміт електричної напруги в вольтах. Призначена напруга
-            контролера струму ніколи . Note that this may
-            safely be above the nominal voltage of the motor; to determine the
-            actual motor voltage limit, divide the motor’s rated power by the
-            motor current limit.</translation>
+            контролера струму ніколи не перевищить це значення . Зверніть увагу, що це значення може
+            безпечно перебільшувати номінальну напругу моторів; для визначення
+            актуального ліміту напруги у моторі, поділіть номінальну потужність мотору на
+            ліміт напруги у моторі.</translation>
     </message>
   </context>
   <context>
