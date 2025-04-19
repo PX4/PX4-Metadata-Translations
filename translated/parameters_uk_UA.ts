@@ -5,35 +5,35 @@
     <name>/parameters/ctl_bw/shortDesc</name>
     <message>
       <source>Speed controller bandwidth</source>
-      <translation type="unfinished">Speed controller bandwidth</translation>
+      <translation>Пропускна здатність регулятора швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_bw/longDesc</name>
     <message>
       <source>Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</source>
-      <translation type="unfinished">Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</translation>
+      <translation>Пропускна здатність контролера швидкості у Гц. Вищі значення призводять до більшої швидкості та зростання поточного часу, але можуть призвести до перельоту та більшого поточного споживання. Для активних літаків з нерухомим крилом це значення має бути менше 50 Гц; для мультироторів значення до 100 Гц може забезпечити поліпшення чутливості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/shortDesc</name>
     <message>
       <source>Reverse direction</source>
-      <translation type="unfinished">Reverse direction</translation>
+      <translation>Зворотний напрямок</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/longDesc</name>
     <message>
       <source>Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</source>
-      <translation type="unfinished">Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</translation>
+      <translation>Напрямок обертання мотору виявлено під час початкового підрахунку. Використовуйте 0 або 1 для зворотного напрямку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_gain/shortDesc</name>
     <message>
       <source>Speed (RPM) controller gain</source>
-      <translation type="unfinished">Speed (RPM) controller gain</translation>
+      <translation>Регулятор швидкості (RPM - обертів на хвилину) отримано</translation>
     </message>
   </context>
   <context>
@@ -46,104 +46,104 @@
             decreased. Higher values result in faster response, but may result
             in oscillation and excessive overshoot. Lower values result in a
             slower, smoother response.</source>
-      <translation type="unfinished">Speed (RPM) controller gain. Determines controller
-            aggressiveness; units are amp-seconds per radian. Systems with
-            higher rotational inertia (large props) will need gain increased;
-            systems with low rotational inertia (small props) may need gain
-            decreased. Higher values result in faster response, but may result
-            in oscillation and excessive overshoot. Lower values result in a
-            slower, smoother response.</translation>
+      <translation>Регулятор швидкості (RPM - обертів на хвилину) отримано. Визначає контролеру
+            агресивність; одиниці виміру є ампер/секунд у радіані. Система з
+            високою інерцією обертання (великі пропелери) потребуватиме підвищеного коефіцієнту;
+            система з низькою інерцією обертання (малі пропелери) може потребувати зниженого
+            коефіцієнту. Більші значення дають більш швидке реагування, але може призвести
+            до коливання та надмірного перельоту. Більш низькі значення викликають
+            повільніше, гладкіше реагування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_hz_idle/shortDesc</name>
     <message>
       <source>Idle speed (e Hz)</source>
-      <translation type="unfinished">Idle speed (e Hz)</translation>
+      <translation>Швидкість холостого ходу (e Гц)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_hz_idle/longDesc</name>
     <message>
       <source>Idle speed (e Hz)</source>
-      <translation type="unfinished">Idle speed (e Hz)</translation>
+      <translation>Швидкість холостого ходу (e Гц)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_start_rate/shortDesc</name>
     <message>
       <source>Spin-up rate (e Hz/s)</source>
-      <translation type="unfinished">Spin-up rate (e Hz/s)</translation>
+      <translation>Рівень розкрутки (е Гц/с)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_start_rate/longDesc</name>
     <message>
       <source>Spin-up rate (e Hz/s)</source>
-      <translation type="unfinished">Spin-up rate (e Hz/s)</translation>
+      <translation>Рівень розкрутки (е Гц/с)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/esc_index/shortDesc</name>
     <message>
       <source>Index of this ESC in throttle command messages.</source>
-      <translation type="unfinished">Index of this ESC in throttle command messages.</translation>
+      <translation>Індекс цього ESC (електронного регулятора швидкості) командних повідомленнях тяги.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/esc_index/longDesc</name>
     <message>
       <source>Index of this ESC in throttle command messages.</source>
-      <translation type="unfinished">Index of this ESC in throttle command messages.</translation>
+      <translation>Індекс цього ESC (електронного регулятора швидкості) командних повідомленнях тяги.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/id_ext_status/shortDesc</name>
     <message>
       <source>Extended status ID</source>
-      <translation type="unfinished">Extended status ID</translation>
+      <translation>Розширений статус ID</translation>
     </message>
   </context>
   <context>
     <name>/parameters/id_ext_status/longDesc</name>
     <message>
       <source>Extended status ID</source>
-      <translation type="unfinished">Extended status ID</translation>
+      <translation>Розширений статус ID</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_ext_status/shortDesc</name>
     <message>
       <source>Extended status interval (µs)</source>
-      <translation type="unfinished">Extended status interval (µs)</translation>
+      <translation>Розширений статусний інтервал (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_ext_status/longDesc</name>
     <message>
       <source>Extended status interval (µs)</source>
-      <translation type="unfinished">Extended status interval (µs)</translation>
+      <translation>Розширений статусний інтервал (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_status/shortDesc</name>
     <message>
       <source>ESC status interval (µs)</source>
-      <translation type="unfinished">ESC status interval (µs)</translation>
+      <translation>ESC статусний інтервал (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_status/longDesc</name>
     <message>
       <source>ESC status interval (µs)</source>
-      <translation type="unfinished">ESC status interval (µs)</translation>
+      <translation>ESC статусний інтервал (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_i_max/shortDesc</name>
     <message>
       <source>Motor current limit in amps</source>
-      <translation type="unfinished">Motor current limit in amps</translation>
+      <translation>Ліміт струму в моторах в амперах</translation>
     </message>
   </context>
   <context>
@@ -155,12 +155,12 @@
             the continuous current rating listed in the motor’s specification
             sheet, or set equal to the motor’s specified continuous power
             divided by the motor voltage limit.</source>
-      <translation type="unfinished">Motor current limit in amps. This determines the maximum
-            current controller setpoint, as well as the maximum allowable
-            current setpoint slew rate. This value should generally be set to
-            the continuous current rating listed in the motor’s specification
-            sheet, or set equal to the motor’s specified continuous power
-            divided by the motor voltage limit.</translation>
+      <translation>Ліміт струму мотора в амперах. Це визначає максимальне 
+            задане значення струму контролера, так само як і максимально припустиму
+             задану швидкість зростання струму. Це значення взагалі має бути встановлено до
+            рівня постійного струму  зазначеного у таблиці характеристик мотору
+            , або встановлене відповідно до визначеної постійної потужності мотору,
+            поділеної на ліміт вольтажу мотору.</translation>
     </message>
   </context>
   <context>
@@ -176,30 +176,30 @@
       <source>Motor Kv in RPM per volt. This can be taken from the motor’s
             specification sheet; accuracy will help control performance but
             some deviation from the specified value is acceptable.</source>
-      <translation type="unfinished">Motor Kv in RPM per volt. This can be taken from the motor’s
-            specification sheet; accuracy will help control performance but
-            some deviation from the specified value is acceptable.</translation>
+      <translation>KV мотора вимірюється у RPM на вольт. Це значення може бути взяте з 
+            таблиці характеристик мотору; точність допоможе контролювати роботу, але
+            але припустимі деякі відхилення від зазначеного значення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_ls/shortDesc</name>
     <message>
       <source>READ ONLY: Motor inductance in henries.</source>
-      <translation type="unfinished">READ ONLY: Motor inductance in henries.</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Індуктивність мотору визначена у Гн(генрі)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_ls/longDesc</name>
     <message>
       <source>READ ONLY: Motor inductance in henries. This is measured on start-up.</source>
-      <translation type="unfinished">READ ONLY: Motor inductance in henries. This is measured on start-up.</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Індуктивність мотору визначена у Гн(генрі). Індуктивність визначається на початку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_num_poles/shortDesc</name>
     <message>
       <source>Number of motor poles.</source>
-      <translation type="unfinished">Number of motor poles.</translation>
+      <translation>Кількість полюсів мотора.</translation>
     </message>
   </context>
   <context>
@@ -208,16 +208,16 @@
       <source>Number of motor poles. Used to convert mechanical speeds to
             electrical speeds. This number should be taken from the motor’s
             specification sheet.</source>
-      <translation type="unfinished">Number of motor poles. Used to convert mechanical speeds to
-            electrical speeds. This number should be taken from the motor’s
-            specification sheet.</translation>
+      <translation>Кількість полюсів мотора. Використовується для перетворення механічної швидкості на
+            електричну швидкість. Значення кількості полюсів слід здобути з таблиці
+            характеристики мотору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_rs/shortDesc</name>
     <message>
       <source>READ ONLY: Motor resistance in ohms</source>
-      <translation type="unfinished">READ ONLY: Motor resistance in ohms</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Електричний опір мотору в Омах</translation>
     </message>
   </context>
   <context>
@@ -226,30 +226,30 @@
       <source>READ ONLY: Motor resistance in ohms. This is measured on start-up. When
             tuning a new motor, check that this value is approximately equal
             to the value shown in the motor’s specification sheet.</source>
-      <translation type="unfinished">READ ONLY: Motor resistance in ohms. This is measured on start-up. When
-            tuning a new motor, check that this value is approximately equal
-            to the value shown in the motor’s specification sheet.</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Електричний опір мотору в Омах. Він вимірюється на початку. При
+            налаштуванні нового мотору перевірте що це значення приблизно дорівнює
+            значенню наданому у таблиці характеристик мотору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_accel/shortDesc</name>
     <message>
       <source>Acceleration limit (V)</source>
-      <translation type="unfinished">Acceleration limit (V)</translation>
+      <translation>Ліміт прискорення (V)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_accel/longDesc</name>
     <message>
       <source>Acceleration limit (V)</source>
-      <translation type="unfinished">Acceleration limit (V)</translation>
+      <translation>Ліміт прискорення (V)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_max/shortDesc</name>
     <message>
       <source>Motor voltage limit in volts</source>
-      <translation type="unfinished">Motor voltage limit in volts</translation>
+      <translation>Ліміт електричної напруги в вольтах</translation>
     </message>
   </context>
   <context>
@@ -260,11 +260,11 @@
             safely be above the nominal voltage of the motor; to determine the
             actual motor voltage limit, divide the motor’s rated power by the
             motor current limit.</source>
-      <translation type="unfinished">Motor voltage limit in volts. The current controller’s
-            commanded voltage will never exceed this value. Note that this may
-            safely be above the nominal voltage of the motor; to determine the
-            actual motor voltage limit, divide the motor’s rated power by the
-            motor current limit.</translation>
+      <translation>Ліміт електричної напруги в вольтах. Призначена напруга
+            контролера струму ніколи не перевищить це значення . Зверніть увагу, що це значення може
+            безпечно перебільшувати номінальну напругу моторів; для визначення
+            актуального ліміту напруги у моторі, поділіть номінальну потужність мотору на
+            ліміт напруги у моторі.</translation>
     </message>
   </context>
   <context>
@@ -9512,6 +9512,41 @@
     </message>
   </context>
   <context>
+    <name>/parameters/COM_DLL_EXCEPT/shortDesc</name>
+    <message>
+      <source>Datalink loss exceptions</source>
+      <translation type="unfinished">Datalink loss exceptions</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DLL_EXCEPT/longDesc</name>
+    <message>
+      <source>Specify modes in which datalink loss is ignored and the failsafe action not triggered.</source>
+      <translation type="unfinished">Specify modes in which datalink loss is ignored and the failsafe action not triggered.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DLL_EXCEPT/bitmask/0/description</name>
+    <message>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DLL_EXCEPT/bitmask/1/description</name>
+    <message>
+      <source>Hold</source>
+      <translation type="unfinished">Hold</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DLL_EXCEPT/bitmask/2/description</name>
+    <message>
+      <source>Offboard</source>
+      <translation type="unfinished">Offboard</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/COM_DL_LOSS_T/shortDesc</name>
     <message>
       <source>GCS connection loss time threshold</source>
@@ -17186,8 +17221,8 @@
   <context>
     <name>/parameters/CA_METHOD/longDesc</name>
     <message>
-      <source>Selects the algorithm and desaturation method. If set to Automtic, the selection is based on the airframe (CA_AIRFRAME).</source>
-      <translation type="unfinished">Selects the algorithm and desaturation method. If set to Automtic, the selection is based on the airframe (CA_AIRFRAME).</translation>
+      <source>Selects the algorithm and desaturation method. If set to Automatic, the selection is based on the airframe (CA_AIRFRAME).</source>
+      <translation type="unfinished">Selects the algorithm and desaturation method. If set to Automatic, the selection is based on the airframe (CA_AIRFRAME).</translation>
     </message>
   </context>
   <context>
@@ -21631,8 +21666,8 @@
   <context>
     <name>/parameters/LNDFW_ROT_MAX/longDesc</name>
     <message>
-      <source>Maximum allowed norm of the angular velocity in the landed state.</source>
-      <translation type="unfinished">Maximum allowed norm of the angular velocity in the landed state.</translation>
+      <source>Maximum allowed norm of the angular velocity in the landed state. Only used if neither airspeed nor groundspeed can be used for landing detection.</source>
+      <translation type="unfinished">Maximum allowed norm of the angular velocity in the landed state. Only used if neither airspeed nor groundspeed can be used for landing detection.</translation>
     </message>
   </context>
   <context>
@@ -32745,6 +32780,13 @@
     </message>
   </context>
   <context>
+    <name>/parameters/RTL_TYPE/values/4/description</name>
+    <message>
+      <source>Return to the planned mission landing, or to home via the reverse mission path, whichever is closer by counting waypoints. Do not consider rally points.</source>
+      <translation type="unfinished">Return to the planned mission landing, or to home via the reverse mission path, whichever is closer by counting waypoints. Do not consider rally points.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/RTL_APPR_FORCE/shortDesc</name>
     <message>
       <source>RTL force approach landing</source>
@@ -41663,24 +41705,31 @@
     </message>
   </context>
   <context>
+    <name>/parameters/SYS_DM_BACKEND/longDesc</name>
+    <message>
+      <source>If the board supports persistent storage (i.e., the KConfig variable DATAMAN_PERSISTENT_STORAGE is set), the 'Default storage' backend uses a file on persistent storage. If not supported, this backend uses non-persistent storage in RAM.</source>
+      <translation type="unfinished">If the board supports persistent storage (i.e., the KConfig variable DATAMAN_PERSISTENT_STORAGE is set), the 'Default storage' backend uses a file on persistent storage. If not supported, this backend uses non-persistent storage in RAM.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/SYS_DM_BACKEND/values/-1/description</name>
     <message>
-      <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <source>Dataman disabled</source>
+      <translation type="unfinished">Dataman disabled</translation>
     </message>
   </context>
   <context>
     <name>/parameters/SYS_DM_BACKEND/values/0/description</name>
     <message>
-      <source>default (SD card)</source>
-      <translation type="unfinished">default (SD card)</translation>
+      <source>Default storage</source>
+      <translation type="unfinished">Default storage</translation>
     </message>
   </context>
   <context>
     <name>/parameters/SYS_DM_BACKEND/values/1/description</name>
     <message>
-      <source>RAM (not persistent)</source>
-      <translation type="unfinished">RAM (not persistent)</translation>
+      <source>RAM storage</source>
+      <translation type="unfinished">RAM storage</translation>
     </message>
   </context>
   <context>
@@ -44715,129 +44764,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Mount</name>
+    <name>$globals/group/System</name>
     <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN GNSS</name>
-    <message>
-      <source>UAVCAN GNSS</source>
-      <translation type="unfinished">UAVCAN GNSS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return Mode</name>
-    <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
-    <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN Motor Parameters</name>
-    <message>
-      <source>UAVCAN Motor Parameters</source>
-      <translation type="unfinished">UAVCAN Motor Parameters</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW TECS</name>
-    <message>
-      <source>FW TECS</source>
-      <translation type="unfinished">FW TECS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
     </message>
   </context>
   <context>
@@ -44848,24 +44778,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Radio Calibration</name>
+    <name>$globals/group/Attitude Q estimator</name>
     <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
     </message>
   </context>
   <context>
@@ -44876,101 +44792,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Rate Control</name>
+    <name>$globals/group/Sensor Calibration</name>
     <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Mecanum</name>
-    <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Ackermann</name>
-    <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/GPS</name>
-    <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Attitude Q estimator</name>
-    <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Payload Deliverer</name>
-    <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
     </message>
   </context>
   <context>
@@ -44981,38 +44806,24 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Airspeed Validator</name>
+    <name>$globals/group/Mixer Output</name>
     <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Manual Control</name>
+    <name>$globals/group/FW NPFG Control</name>
     <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Thermal Compensation</name>
+    <name>$globals/group/Circuit Breaker</name>
     <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
     </message>
   </context>
   <context>
@@ -45023,17 +44834,101 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Geometry</name>
+    <name>$globals/group/UUV Position Control</name>
     <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Sensor Calibration</name>
+    <name>$globals/group/Rover Position Control (Deprecated)</name>
     <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
+      <source>Rover Position Control (Deprecated)</source>
+      <translation type="unfinished">Rover Position Control (Deprecated)</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/PWM Outputs</name>
+    <message>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <message>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
     </message>
   </context>
   <context>
@@ -45051,122 +44946,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Landing Target Estimator</name>
+    <name>$globals/group/Rover Mecanum</name>
     <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Geometry</name>
-    <message>
-      <source>FW Geometry</source>
-      <translation type="unfinished">FW Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Position Control (Deprecated)</name>
-    <message>
-      <source>Rover Position Control (Deprecated)</source>
-      <translation type="unfinished">Rover Position Control (Deprecated)</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Launch detection</name>
-    <message>
-      <source>FW Launch detection</source>
-      <translation type="unfinished">FW Launch detection</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Pure Pursuit</name>
-    <message>
-      <source>Pure Pursuit</source>
-      <translation type="unfinished">Pure Pursuit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Miscellaneous</name>
-    <message>
-      <source>Miscellaneous</source>
-      <translation type="unfinished">Miscellaneous</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulator</name>
-    <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
     </message>
   </context>
   <context>
@@ -45177,10 +44960,80 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Runway Takeoff</name>
+    <name>$globals/group/Radio Calibration</name>
     <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Pure Pursuit</name>
+    <message>
+      <source>Pure Pursuit</source>
+      <translation type="unfinished">Pure Pursuit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN Motor Parameters</name>
+    <message>
+      <source>UAVCAN Motor Parameters</source>
+      <translation type="unfinished">UAVCAN Motor Parameters</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
     </message>
   </context>
   <context>
@@ -45191,24 +45044,24 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Autotune</name>
+    <name>$globals/group/ADSB</name>
     <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/EKF2</name>
+    <name>$globals/group/Camera trigger</name>
     <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Differential</name>
+    <name>$globals/group/FW Rate Control</name>
     <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
     </message>
   </context>
   <context>
@@ -45219,10 +45072,185 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <name>$globals/group/FW TECS</name>
     <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+      <source>FW TECS</source>
+      <translation type="unfinished">FW TECS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN GNSS</name>
+    <message>
+      <source>UAVCAN GNSS</source>
+      <translation type="unfinished">UAVCAN GNSS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Flight Task Orbit</name>
+    <message>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/GPS</name>
+    <message>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Miscellaneous</name>
+    <message>
+      <source>Miscellaneous</source>
+      <translation type="unfinished">Miscellaneous</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Attitude Control</name>
+    <message>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Geometry</name>
+    <message>
+      <source>FW Geometry</source>
+      <translation type="unfinished">FW Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geometry</name>
+    <message>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulator</name>
+    <message>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
     </message>
   </context>
   <context>
@@ -45233,10 +45261,31 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/MAVLink</name>
+    <name>$globals/group/Mission</name>
     <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Launch detection</name>
+    <message>
+      <source>FW Launch detection</source>
+      <translation type="unfinished">FW Launch detection</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <message>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
     </message>
   </context>
 </TS>
