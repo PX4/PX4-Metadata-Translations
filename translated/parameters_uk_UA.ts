@@ -192,14 +192,14 @@
     <name>/parameters/mot_ls/longDesc</name>
     <message>
       <source>READ ONLY: Motor inductance in henries. This is measured on start-up.</source>
-      <translation type="unfinished">READ ONLY: Motor inductance in henries. This is measured on start-up.</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Індуктивність мотору визначена у Гн(генрі). Індуктивність визначається на початку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_num_poles/shortDesc</name>
     <message>
       <source>Number of motor poles.</source>
-      <translation type="unfinished">Number of motor poles.</translation>
+      <translation>Кількість полюсів мотора.</translation>
     </message>
   </context>
   <context>
@@ -208,16 +208,16 @@
       <source>Number of motor poles. Used to convert mechanical speeds to
             electrical speeds. This number should be taken from the motor’s
             specification sheet.</source>
-      <translation type="unfinished">Number of motor poles. Used to convert mechanical speeds to
-            electrical speeds. This number should be taken from the motor’s
-            specification sheet.</translation>
+      <translation>Кількість полюсів мотора. Використовується для перетворення механічної швидкості на
+            електричну швидкість. Значення кількості полюсів слід здобути з таблиці
+            характеристики мотору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_rs/shortDesc</name>
     <message>
       <source>READ ONLY: Motor resistance in ohms</source>
-      <translation type="unfinished">READ ONLY: Motor resistance in ohms</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Електричний опір мотору в Омах</translation>
     </message>
   </context>
   <context>
@@ -226,30 +226,30 @@
       <source>READ ONLY: Motor resistance in ohms. This is measured on start-up. When
             tuning a new motor, check that this value is approximately equal
             to the value shown in the motor’s specification sheet.</source>
-      <translation type="unfinished">READ ONLY: Motor resistance in ohms. This is measured on start-up. When
-            tuning a new motor, check that this value is approximately equal
-            to the value shown in the motor’s specification sheet.</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Електричний опір мотору в Омах. Він вимірюється на початку. При
+            налаштуванні нового мотору перевірте що це значення приблизно дорівнює
+            значенню наданому у таблиці характеристик мотору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_accel/shortDesc</name>
     <message>
       <source>Acceleration limit (V)</source>
-      <translation type="unfinished">Acceleration limit (V)</translation>
+      <translation>Ліміт прискорення (V)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_accel/longDesc</name>
     <message>
       <source>Acceleration limit (V)</source>
-      <translation type="unfinished">Acceleration limit (V)</translation>
+      <translation>Ліміт прискорення (V)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_max/shortDesc</name>
     <message>
       <source>Motor voltage limit in volts</source>
-      <translation type="unfinished">Motor voltage limit in volts</translation>
+      <translation>Ліміт електричної напруги в вольтах</translation>
     </message>
   </context>
   <context>
@@ -260,8 +260,8 @@
             safely be above the nominal voltage of the motor; to determine the
             actual motor voltage limit, divide the motor’s rated power by the
             motor current limit.</source>
-      <translation type="unfinished">Motor voltage limit in volts. The current controller’s
-            commanded voltage will never exceed this value. Note that this may
+      <translation>Ліміт електричної напруги в вольтах. Призначена напруга
+            контролера струму ніколи . Note that this may
             safely be above the nominal voltage of the motor; to determine the
             actual motor voltage limit, divide the motor’s rated power by the
             motor current limit.</translation>
