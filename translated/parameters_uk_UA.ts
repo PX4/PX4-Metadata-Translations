@@ -280,35 +280,37 @@
       <source>Dynamic model used in the GNSS positioning engine. 0 –
         Automotive, 1 – Sea, 2 – Airborne.
       </source>
-      <translation/>
+      <translation>Динамічна модель, яка використовується в двигуні позиціонування GNSS. 0 -
+        Автомобільний, 1 - Морський, 2 - Авіаційний.
+      </translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/0/description</name>
     <message>
       <source>Automotive</source>
-      <translation type="unfinished">Automotive</translation>
+      <translation>Автомобільний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/1/description</name>
     <message>
       <source>Sea</source>
-      <translation type="unfinished">Sea</translation>
+      <translation>Морський</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/2/description</name>
     <message>
       <source>Airborne</source>
-      <translation type="unfinished">Airborne</translation>
+      <translation>Авіаційний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.old_fix_msg/shortDesc</name>
     <message>
       <source>Broadcast old GNSS fix message</source>
-      <translation type="unfinished">Broadcast old GNSS fix message</translation>
+      <translation>Передавати старі fix повідомлення GNSS</translation>
     </message>
   </context>
   <context>
