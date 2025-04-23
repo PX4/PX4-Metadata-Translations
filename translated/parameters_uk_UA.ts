@@ -321,18 +321,14 @@
         uavcan.equipment.gnss.Fix2. It is recommended to
         disable this feature to reduce the CAN bus traffic.
       </source>
-      <translation type="unfinished">Broadcast the old (deprecated) GNSS fix message
-        uavcan.equipment.gnss.Fix alongside the new alternative
-        uavcan.equipment.gnss.Fix2. It is recommended to
-        disable this feature to reduce the CAN bus traffic.
-      </translation>
+      <translation>Передавання старих (застарілих) GNSS fix повідомлень        uavcan.equipment.gnss.FIX разом з новими альтернативними        uavcan.equipment.gnss.Fix2. Рекомендовано відключити цю функцію для зменшення CAN трафік шини.      </translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.old_fix_msg/values/0/description</name>
     <message>
       <source>Fix2</source>
-      <translation type="unfinished">Fix2</translation>
+      <translation>Fix2</translation>
     </message>
   </context>
   <context>
