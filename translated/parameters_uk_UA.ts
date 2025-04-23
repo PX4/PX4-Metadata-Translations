@@ -335,7 +335,7 @@
     <name>/parameters/gnss.old_fix_msg/values/1/description</name>
     <message>
       <source>Fix and Fix2</source>
-      <translation type="unfinished">Fix and Fix2</translation>
+      <translation>Fix та Fix2</translation>
     </message>
   </context>
   <context>
