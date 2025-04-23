@@ -353,10 +353,10 @@
               solution, 2 for planar (2D) solution, 1 for time-only solution,
               0 disables the feature.
       </source>
-      <translation type="unfinished">Set the device health to Warning if the dimensionality of
-              the GNSS solution is less than this value. 3 for the full (3D)
-              solution, 2 for planar (2D) solution, 1 for time-only solution,
-              0 disables the feature.
+      <translation>Встановіть стан пристрою як Увага , якщо багатовимірність
+              GNSS рішення є меншим за це рішення. 3 для повного (3D)
+              рішення, 2 для плаского (2D) рішення, 1 один для рішення 'тльки час',
+              0 вимикає функцію.
       </translation>
     </message>
   </context>
@@ -364,28 +364,28 @@
     <name>/parameters/gnss.warn_dimens/values/0/description</name>
     <message>
       <source>disables the feature</source>
-      <translation type="unfinished">disables the feature</translation>
+      <translation>вимикає функцію</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/1/description</name>
     <message>
       <source>time-only solution</source>
-      <translation type="unfinished">time-only solution</translation>
+      <translation>рішення 'тільки час'</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/2/description</name>
     <message>
       <source>planar (2D) solution</source>
-      <translation type="unfinished">planar (2D) solution</translation>
+      <translation>пласке (2D) рішення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/3/description</name>
     <message>
       <source>full (3D) solution</source>
-      <translation type="unfinished">full (3D) solution</translation>
+      <translation>повне (3D) рішення</translation>
     </message>
   </context>
   <context>
@@ -402,9 +402,9 @@
         used in the GNSS solution is below this threshold. Zero
         disables the feature
       </source>
-      <translation type="unfinished">Set the device health to Warning if the number of satellites
-        used in the GNSS solution is below this threshold. Zero
-        disables the feature
+      <translation>Встановіть стан пристрою як Увага, якщо кількість супутників 
+        що використовуються у GNSS рішенні нижче цього порогу. Нуль
+        вимикає функцію 
       </translation>
     </message>
   </context>
