@@ -342,7 +342,7 @@
     <name>/parameters/gnss.warn_dimens/shortDesc</name>
     <message>
       <source>device health warning</source>
-      <translation type="unfinished">device health warning</translation>
+      <translation>попередження про стан</translation>
     </message>
   </context>
   <context>
