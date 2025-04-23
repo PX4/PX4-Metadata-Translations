@@ -422,9 +422,9 @@
         used in the GNSS solution is below this threshold. Zero
         disables the feature
       </source>
-      <translation type="unfinished">Set the device health to Warning if the number of satellites
-        used in the GNSS solution is below this threshold. Zero
-        disables the feature
+      <translation>Встановіть стан пристрою як Увага, якщо кількість супутників 
+        що використовуються у GNSS рішенні нижче цього порогу. Нуль
+        вимикає функцію 
       </translation>
     </message>
   </context>
