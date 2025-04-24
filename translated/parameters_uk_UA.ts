@@ -439,133 +439,133 @@
     <name>/parameters/ADSB_CALLSIGN_1/longDesc</name>
     <message>
       <source>Sets first 4 characters of a total of 8. Valid characters are A-Z, 0-9, " ". Example "PX4 " -&gt; 1347957792 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</source>
-      <translation type="unfinished">Sets first 4 characters of a total of 8. Valid characters are A-Z, 0-9, " ". Example "PX4 " -&gt; 1347957792 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</translation>
+      <translation>Встановіть перші 4 символи з 8 загалом. Допустимими символами є A-Z, 0-9, " ". Наприклад "PX4 " -&gt; 1347957792 для CALLSIGN коротше за 8 символів використовують нульове закінчення наприкінці '\0'.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_CALLSIGN_2/shortDesc</name>
     <message>
       <source>Second 4 characters of CALLSIGN</source>
-      <translation type="unfinished">Second 4 characters of CALLSIGN</translation>
+      <translation>Другі 4 символи з CALLSIGN</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_CALLSIGN_2/longDesc</name>
     <message>
       <source>Sets second 4 characters of a total of 8. Valid characters are A-Z, 0-9, " " only. Example "TEST" -&gt; 1413829460 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</source>
-      <translation type="unfinished">Sets second 4 characters of a total of 8. Valid characters are A-Z, 0-9, " " only. Example "TEST" -&gt; 1413829460 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</translation>
+      <translation>Встановлює другі 4 символи з 8 загалом. Допустимими символами є лише A-Z, 0-9, " ". Наприклад "TEST" -&gt; 1413829460 для CALLSIGN коротше за 8 символів використовують нульове закінчення наприкінці '\0'.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/shortDesc</name>
     <message>
       <source>ADSB-Out Emergency State</source>
-      <translation type="unfinished">ADSB-Out Emergency State</translation>
+      <translation>ADSB-Out Надзвичайний Стан</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/longDesc</name>
     <message>
       <source>Sets the vehicle emergency state</source>
-      <translation type="unfinished">Sets the vehicle emergency state</translation>
+      <translation>Встановлює надзвичайний стан для апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/0/description</name>
     <message>
       <source>NoEmergency</source>
-      <translation type="unfinished">NoEmergency</translation>
+      <translation>Немає надзвичайного стану</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/1/description</name>
     <message>
       <source>General</source>
-      <translation type="unfinished">General</translation>
+      <translation>Головне</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/2/description</name>
     <message>
       <source>Medical</source>
-      <translation type="unfinished">Medical</translation>
+      <translation>Медичне</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/3/description</name>
     <message>
       <source>LowFuel</source>
-      <translation type="unfinished">LowFuel</translation>
+      <translation>Мало палива</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/4/description</name>
     <message>
       <source>NoCommunications</source>
-      <translation type="unfinished">NoCommunications</translation>
+      <translation>Немає зв'язку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/5/description</name>
     <message>
       <source>Interference</source>
-      <translation type="unfinished">Interference</translation>
+      <translation>Втручання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/6/description</name>
     <message>
       <source>Downed</source>
-      <translation type="unfinished">Downed</translation>
+      <translation>Збитий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/shortDesc</name>
     <message>
       <source>ADSB-Out Vehicle Emitter Type</source>
-      <translation type="unfinished">ADSB-Out Vehicle Emitter Type</translation>
+      <translation>ADSB-Out тип випромінювача апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/longDesc</name>
     <message>
       <source>Configure the emitter type of the vehicle.</source>
-      <translation type="unfinished">Configure the emitter type of the vehicle.</translation>
+      <translation>Налаштувати тип випромінювача апарату.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/0/description</name>
     <message>
       <source>Unknown</source>
-      <translation type="unfinished">Unknown</translation>
+      <translation>Невідомий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/1/description</name>
     <message>
       <source>Light</source>
-      <translation type="unfinished">Light</translation>
+      <translation>Світлий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/2/description</name>
     <message>
       <source>Small</source>
-      <translation type="unfinished">Small</translation>
+      <translation>Малий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/3/description</name>
     <message>
       <source>Large</source>
-      <translation type="unfinished">Large</translation>
+      <translation>Великий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/4/description</name>
     <message>
       <source>HighVortex</source>
-      <translation type="unfinished">HighVortex</translation>
+      <translation>HighVortex</translation>
     </message>
   </context>
   <context>
@@ -579,28 +579,28 @@
     <name>/parameters/ADSB_EMIT_TYPE/values/6/description</name>
     <message>
       <source>Performance</source>
-      <translation type="unfinished">Performance</translation>
+      <translation>Показники</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/7/description</name>
     <message>
       <source>Rotorcraft</source>
-      <translation type="unfinished">Rotorcraft</translation>
+      <translation>Гвинтокрил</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/8/description</name>
     <message>
       <source>RESERVED</source>
-      <translation type="unfinished">RESERVED</translation>
+      <translation>ЗАРЕЗЕРВОВАНИЙ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/9/description</name>
     <message>
       <source>Glider</source>
-      <translation type="unfinished">Glider</translation>
+      <translation>Планер</translation>
     </message>
   </context>
   <context>
@@ -908,7 +908,7 @@
     <name>/parameters/ADSB_LEN_WIDTH/values/9/description</name>
     <message>
       <source>Len55_Wid52</source>
-      <translation type="unfinished">Len55_Wid52</translation>
+      <translation>Len55_Wid52</translation>
     </message>
   </context>
   <context>
@@ -957,28 +957,28 @@
     <name>/parameters/ADSB_LIST_MAX/shortDesc</name>
     <message>
       <source>ADSB-In Vehicle List Size</source>
-      <translation type="unfinished">ADSB-In Vehicle List Size</translation>
+      <translation>ADSB-In список розмірів апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LIST_MAX/longDesc</name>
     <message>
       <source>Change number of targets to track</source>
-      <translation type="unfinished">Change number of targets to track</translation>
+      <translation>Змініть кількість цілей для відстеження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/shortDesc</name>
     <message>
       <source>ADSB-Out Vehicle Max Speed</source>
-      <translation type="unfinished">ADSB-Out Vehicle Max Speed</translation>
+      <translation>ADSB-Out максимальна швидкість апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/longDesc</name>
     <message>
       <source>Informs ADSB vehicles of this vehicle's max speed capability</source>
-      <translation type="unfinished">Informs ADSB vehicles of this vehicle's max speed capability</translation>
+      <translation>Інформує ADSB апарати про максимальні швидкісні можливості цього авто</translation>
     </message>
   </context>
   <context>
