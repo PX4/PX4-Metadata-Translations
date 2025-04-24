@@ -572,7 +572,7 @@
     <name>/parameters/ADSB_EMIT_TYPE/values/5/description</name>
     <message>
       <source>Heavy</source>
-      <translation type="unfinished">Heavy</translation>
+      <translation>Важкий</translation>
     </message>
   </context>
   <context>
@@ -607,84 +607,84 @@
     <name>/parameters/ADSB_EMIT_TYPE/values/10/description</name>
     <message>
       <source>LightAir</source>
-      <translation type="unfinished">LightAir</translation>
+      <translation>Легкий вітер</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/11/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/12/description</name>
     <message>
       <source>UltraLight</source>
-      <translation type="unfinished">UltraLight</translation>
+      <translation>Надлегкий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/13/description</name>
     <message>
       <source>RESERVED</source>
-      <translation type="unfinished">RESERVED</translation>
+      <translation>ЗАРЕЗЕРВОВАНИЙ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/14/description</name>
     <message>
       <source>UAV</source>
-      <translation type="unfinished">UAV</translation>
+      <translation>БПЛА</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/15/description</name>
     <message>
       <source>Space</source>
-      <translation type="unfinished">Space</translation>
+      <translation>Простір</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/16/description</name>
     <message>
       <source>RESERVED</source>
-      <translation type="unfinished">RESERVED</translation>
+      <translation>ЗАРЕЗЕРВОВАНИЙ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/17/description</name>
     <message>
       <source>EmergencySurf</source>
-      <translation type="unfinished">EmergencySurf</translation>
+      <translation>Surf надзвичайного стану</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/18/description</name>
     <message>
       <source>ServiceSurf</source>
-      <translation type="unfinished">ServiceSurf</translation>
+      <translation>Surf сервісу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/19/description</name>
     <message>
       <source>PointObstacle</source>
-      <translation type="unfinished">PointObstacle</translation>
+      <translation>Точка перешкоди</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/shortDesc</name>
     <message>
       <source>ADSB-Out GPS Offset lat</source>
-      <translation type="unfinished">ADSB-Out GPS Offset lat</translation>
+      <translation>ADSB-Out GPS бічне зміщення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/longDesc</name>
     <message>
       <source>Sets GPS lataral offset encoding</source>
-      <translation type="unfinished">Sets GPS lataral offset encoding</translation>
+      <translation>Встановлює кодування GPS бічного зміщення</translation>
     </message>
   </context>
   <context>
@@ -985,35 +985,35 @@
     <name>/parameters/ADSB_MAX_SPEED/values/0/description</name>
     <message>
       <source>UnknownMaxSpeed</source>
-      <translation type="unfinished">UnknownMaxSpeed</translation>
+      <translation>Невідома максимальна швидкість</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/1/description</name>
     <message>
       <source>75Kts</source>
-      <translation type="unfinished">75Kts</translation>
+      <translation>75Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/2/description</name>
     <message>
       <source>150Kts</source>
-      <translation type="unfinished">150Kts</translation>
+      <translation>150Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/3/description</name>
     <message>
       <source>300Kts</source>
-      <translation type="unfinished">300Kts</translation>
+      <translation>300Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/4/description</name>
     <message>
       <source>600Kts</source>
-      <translation type="unfinished">600Kts</translation>
+      <translation>600Kts (вузлів)</translation>
     </message>
   </context>
   <context>
