@@ -677,7 +677,7 @@
     <name>/parameters/ADSB_GPS_OFF_LAT/shortDesc</name>
     <message>
       <source>ADSB-Out GPS Offset lat</source>
-      <translation>ADSB-Out GPS бічне зміщення</translation>
+      <translation>ADSB-Out GPS зміщення за широтою</translation>
     </message>
   </context>
   <context>
@@ -691,70 +691,70 @@
     <name>/parameters/ADSB_GPS_OFF_LAT/values/0/description</name>
     <message>
       <source>NoData</source>
-      <translation type="unfinished">NoData</translation>
+      <translation>Немає даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/1/description</name>
     <message>
       <source>LatLeft2M</source>
-      <translation type="unfinished">LatLeft2M</translation>
+      <translation>Бічне Ліворуч 2M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/2/description</name>
     <message>
       <source>LatLeft4M</source>
-      <translation type="unfinished">LatLeft4M</translation>
+      <translation>Бічне Ліворуч 4M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/3/description</name>
     <message>
       <source>LatLeft6M</source>
-      <translation type="unfinished">LatLeft6M</translation>
+      <translation>Бічне Ліворуч 6M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/4/description</name>
     <message>
       <source>LatRight0M</source>
-      <translation type="unfinished">LatRight0M</translation>
+      <translation>Бічне Праворуч 0M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/5/description</name>
     <message>
       <source>LatRight2M</source>
-      <translation type="unfinished">LatRight2M</translation>
+      <translation>Бічне Праворуч 2M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/6/description</name>
     <message>
       <source>LatRight4M</source>
-      <translation type="unfinished">LatRight4M</translation>
+      <translation>Бічне Праворуч 4M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/7/description</name>
     <message>
       <source>LatRight6M</source>
-      <translation type="unfinished">LatRight6M</translation>
+      <translation>Бічне Праворуч 6M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LON/shortDesc</name>
     <message>
       <source>ADSB-Out GPS Offset lon</source>
-      <translation type="unfinished">ADSB-Out GPS Offset lon</translation>
+      <translation>ADSB-Out GPS зміщення по довготі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LON/longDesc</name>
     <message>
       <source>Sets GPS longitudinal offset encoding</source>
-      <translation type="unfinished">Sets GPS longitudinal offset encoding</translation>
+      <translation>Встановлює кодування GPS зміщення за довготою</translation>
     </message>
   </context>
   <context>
@@ -978,7 +978,7 @@
     <name>/parameters/ADSB_MAX_SPEED/longDesc</name>
     <message>
       <source>Informs ADSB vehicles of this vehicle's max speed capability</source>
-      <translation>Інформує ADSB апарати про максимальні швидкісні можливості цього авто</translation>
+      <translation>Інформує ADSB апарати про максимальні швидкісні можливості цього апарату</translation>
     </message>
   </context>
   <context>
