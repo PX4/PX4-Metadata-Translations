@@ -761,63 +761,63 @@
     <name>/parameters/ADSB_GPS_OFF_LON/values/0/description</name>
     <message>
       <source>NoData</source>
-      <translation type="unfinished">NoData</translation>
+      <translation>Немає даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LON/values/1/description</name>
     <message>
       <source>AppliedBySensor</source>
-      <translation type="unfinished">AppliedBySensor</translation>
+      <translation>Подано сенсором</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_ICAO_ID/shortDesc</name>
     <message>
       <source>ADSB-Out ICAO configuration</source>
-      <translation type="unfinished">ADSB-Out ICAO configuration</translation>
+      <translation>ADSB-Out ICAO конфігурація</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_ICAO_ID/longDesc</name>
     <message>
       <source>Defines the ICAO ID of the vehicle</source>
-      <translation type="unfinished">Defines the ICAO ID of the vehicle</translation>
+      <translation>Визначає ICAO ID апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_ICAO_SPECL/shortDesc</name>
     <message>
       <source>ADSB-In Special ICAO configuration</source>
-      <translation type="unfinished">ADSB-In Special ICAO configuration</translation>
+      <translation>ADSB-In спеціальна ICAO конфігурація</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_ICAO_SPECL/longDesc</name>
     <message>
       <source>This vehicle is always tracked. Use 0 to disable.</source>
-      <translation type="unfinished">This vehicle is always tracked. Use 0 to disable.</translation>
+      <translation>Цей апарат завжди відстежується. Використовуйте 0, щоб вимкнути.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_IDENT/shortDesc</name>
     <message>
       <source>ADSB-Out Ident Configuration</source>
-      <translation type="unfinished">ADSB-Out Ident Configuration</translation>
+      <translation>ADSB-Out визначальна конфігурація</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_IDENT/longDesc</name>
     <message>
       <source>Enable Identification of Position feature</source>
-      <translation type="unfinished">Enable Identification of Position feature</translation>
+      <translation>Увімкнути ідентифікацію функції положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_IDENT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Вимкнути</translation>
     </message>
   </context>
   <context>
