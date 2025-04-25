@@ -3227,7 +3227,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/16017271/message</name>
     <message>
       <source>Disarmed by {1}</source>
-      <translation>Деактивовані {1}</translation>
+      <translation>Охолощений за допомогою {1}</translation>
     </message>
   </context>
   <context>
@@ -3283,7 +3283,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/16558486/message</name>
     <message>
       <source>Disarmed, don't throw</source>
-      <translation>Деактивований, не кидати</translation>
+      <translation>Охолощений, не кидати</translation>
     </message>
   </context>
   <context>
