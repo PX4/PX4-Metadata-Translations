@@ -824,21 +824,21 @@
     <name>/parameters/ADSB_IDENT/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/shortDesc</name>
     <message>
       <source>ADSB-Out Vehicle Size Configuration</source>
-      <translation type="unfinished">ADSB-Out Vehicle Size Configuration</translation>
+      <translation>Налаштування розміру апарату ADSB-Out</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/longDesc</name>
     <message>
       <source>Report the length and width of the vehicle in meters. In most cases, use '1' for the smallest vehicle size.</source>
-      <translation type="unfinished">Report the length and width of the vehicle in meters. In most cases, use '1' for the smallest vehicle size.</translation>
+      <translation>Повідомити про довжину та ширину апарату в метрах. У більшості випадків використовуйте '1' для найменшого розміру апарату.</translation>
     </message>
   </context>
   <context>
