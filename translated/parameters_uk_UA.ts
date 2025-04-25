@@ -845,63 +845,63 @@
     <name>/parameters/ADSB_LEN_WIDTH/values/0/description</name>
     <message>
       <source>SizeUnknown</source>
-      <translation type="unfinished">SizeUnknown</translation>
+      <translation>Розмір невідомо</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/1/description</name>
     <message>
       <source>Len15_Wid23</source>
-      <translation type="unfinished">Len15_Wid23</translation>
+      <translation>Дов15_Шир23</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/2/description</name>
     <message>
       <source>Len25_Wid28</source>
-      <translation type="unfinished">Len25_Wid28</translation>
+      <translation>Дов25_Шир28</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/3/description</name>
     <message>
       <source>Len25_Wid34</source>
-      <translation type="unfinished">Len25_Wid34</translation>
+      <translation>Дов25_Шир34</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/4/description</name>
     <message>
       <source>Len35_Wid33</source>
-      <translation type="unfinished">Len35_Wid33</translation>
+      <translation>Дов35_Шир33</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/5/description</name>
     <message>
       <source>Len35_Wid38</source>
-      <translation type="unfinished">Len35_Wid38</translation>
+      <translation>Дов35_Шир38</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/6/description</name>
     <message>
       <source>Len45_Wid39</source>
-      <translation type="unfinished">Len45_Wid39</translation>
+      <translation>Дов45_Шир39</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/7/description</name>
     <message>
       <source>Len45_Wid45</source>
-      <translation type="unfinished">Len45_Wid45</translation>
+      <translation>Дов45_Шир45</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/8/description</name>
     <message>
       <source>Len55_Wid45</source>
-      <translation type="unfinished">Len55_Wid45</translation>
+      <translation>Дов55_Шир45</translation>
     </message>
   </context>
   <context>
@@ -915,42 +915,42 @@
     <name>/parameters/ADSB_LEN_WIDTH/values/10/description</name>
     <message>
       <source>Len65_Wid59</source>
-      <translation type="unfinished">Len65_Wid59</translation>
+      <translation>Дов65_Шир59</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/11/description</name>
     <message>
       <source>Len65_Wid67</source>
-      <translation type="unfinished">Len65_Wid67</translation>
+      <translation>Дов65_Шир67</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/12/description</name>
     <message>
       <source>Len75_Wid72</source>
-      <translation type="unfinished">Len75_Wid72</translation>
+      <translation>Дов75_Шир72</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/13/description</name>
     <message>
       <source>Len75_Wid80</source>
-      <translation type="unfinished">Len75_Wid80</translation>
+      <translation>Дов75_Шир80</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/14/description</name>
     <message>
       <source>Len85_Wid80</source>
-      <translation type="unfinished">Len85_Wid80</translation>
+      <translation>Дов85_Шир80</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/15/description</name>
     <message>
       <source>Len85_Wid90</source>
-      <translation type="unfinished">Len85_Wid90</translation>
+      <translation>Дов85_Шир90</translation>
     </message>
   </context>
   <context>
@@ -1020,14 +1020,14 @@
     <name>/parameters/ADSB_MAX_SPEED/values/5/description</name>
     <message>
       <source>1200Kts</source>
-      <translation type="unfinished">1200Kts</translation>
+      <translation>1200Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/6/description</name>
     <message>
       <source>Over1200Kts</source>
-      <translation type="unfinished">Over1200Kts</translation>
+      <translation>Понад 1200Kts (вузлів)</translation>
     </message>
   </context>
   <context>
