@@ -11828,7 +11828,7 @@
     <name>/parameters/NAV_RCL_ACT/longDesc</name>
     <message>
       <source>The RC loss failsafe will only be entered after a timeout, set by COM_RC_LOSS_T in seconds. If RC input checks have been disabled by setting the COM_RC_IN_MODE param it will not be triggered.</source>
-      <translation type="unfinished">The RC loss failsafe will only be entered after a timeout, set by COM_RC_LOSS_T in seconds. If RC input checks have been disabled by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
+      <translation>Втрата аварійного режиму пульта(RC) буде введено лише після перерви, встановлених за допомогою COM_RC_LOSS_T за секунди. Якщо перевірки введення даних з пульта(RC) було вимкнено шляхом встановлення COM_RC_IN_MODE param, то він не буде запущений.</translation>
     </message>
   </context>
   <context>
@@ -12066,7 +12066,7 @@
     <name>/parameters/EKF2_BARO_CTRL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -12213,7 +12213,7 @@
     <name>/parameters/EKF2_DRAG_CTRL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -12255,7 +12255,7 @@
     <name>/parameters/EKF2_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -12486,7 +12486,7 @@
     <name>/parameters/EKF2_FUSE_BETA/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
