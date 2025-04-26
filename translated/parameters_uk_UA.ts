@@ -12836,7 +12836,7 @@
     <name>/parameters/EKF2_HGT_REF/longDesc</name>
     <message>
       <source>When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level. If GPS is set as reference but altitude fusion is disabled in EKF2_GPS_CTRL, the GPS altitude is still used to initiaize the bias of the other height sensors.</source>
-      <translation>Коли одночасно ввімкнули кілька джерел даних про висоту, оцінка висоти завжди буде близькою до джерела відносної висоти, обраної цим параметром. Датчик радіусу та параметри камери мають використовуватися тільки при роботі над плоскою поверхнею, оскільки точка відліку локального NED буде рухатися вгору і вниз разом з рівнем поверхні. Якщо GPS встановлено відносно, але підрахунок висоти вимкнено в EKF2_GPS_CTRL, GPS висота як і раніше використовується, щоб ініціювати зміщення інших датчиків висоти.</translation>
+      <translation>Якщо одночасно ввімкнути декілька джерел даних про висоту, визначення висоти завжди буде близьке до джерела відносної висоти, обраної цим параметром. Датчик радіусу та параметри камери мають використовуватися тільки при роботі над плоскою поверхнею, оскільки точка відліку локального NED буде рухатися вгору і вниз разом з рівнем поверхні. Якщо GPS встановлено відносно, але підрахунок висоти вимкнено в EKF2_GPS_CTRL, висота за GPS все одно використовується, щоб внести дані про зміщення інших датчиків висоти.</translation>
     </message>
   </context>
   <context>
