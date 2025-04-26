@@ -9483,7 +9483,7 @@
     <name>/parameters/COM_DISARM_MAN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -10743,7 +10743,7 @@
     <name>/parameters/COM_FORCE_SAFETY/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -10799,7 +10799,7 @@
     <name>/parameters/COM_HOME_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -10827,7 +10827,7 @@
     <name>/parameters/COM_HOME_IN_AIR/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -10855,7 +10855,7 @@
     <name>/parameters/COM_IMB_PROP_ACT/values/-1/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -10897,7 +10897,7 @@
     <name>/parameters/COM_LKDOWN_TKO/longDesc</name>
     <message>
       <source>A non-zero, positive value specifies the timeframe in seconds within failure detector is allowed to disarm the vehicle if attitude exceeds the limits defined in FD_FAIL_P and FD_FAIL_R. The check is not executed for flight modes that do support acrobatic maneuvers, e.g: Acro (MC/FW) and Manual (FW). A zero or negative value means that the check is disabled.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the timeframe in seconds within failure detector is allowed to disarm the vehicle if attitude exceeds the limits defined in FD_FAIL_P and FD_FAIL_R. The check is not executed for flight modes that do support acrobatic maneuvers, e.g: Acro (MC/FW) and Manual (FW). A zero or negative value means that the check is disabled.</translation>
+      <translation>Не нульове, позитивне значення уточнює часові рамки в секундах у детекторі збоїв, якому дозволяється охолостити апарат, якщо стан орієнтації перевищує межі, визначені в FD_FAIL_P і FD_FAIL_R. Ця перевірка не виконується для режимів польоту, які підтримують акробатичні маневри.: Acro (MC/FW) та Ручний (FW). Нульове або від'ємне значення означає, що перевірка відключена.</translation>
     </message>
   </context>
   <context>
