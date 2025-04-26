@@ -11058,14 +11058,14 @@
     <name>/parameters/COM_MODE_ARM_CHK/longDesc</name>
     <message>
       <source>By default disabled for safety reasons</source>
-      <translation type="unfinished">By default disabled for safety reasons</translation>
+      <translation>За замовчуванням вимкнено з міркувань безпеки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE_ARM_CHK/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11093,7 +11093,7 @@
     <name>/parameters/COM_MOT_TEST_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11205,7 +11205,7 @@
     <name>/parameters/COM_PARACHUTE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11359,7 +11359,7 @@
     <name>/parameters/COM_PREARM_MODE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
