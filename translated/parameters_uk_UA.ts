@@ -9462,7 +9462,7 @@
     <name>/parameters/COM_DISARM_LAND/longDesc</name>
     <message>
       <source>A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be automatically disarmed in case a landing situation has been detected during this period. A zero or negative value means that automatic disarming triggered by landing detection is disabled.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be automatically disarmed in case a landing situation has been detected during this period. A zero or negative value means that automatic disarming triggered by landing detection is disabled.</translation>
+      <translation>Не нульове позитивне значення уточнює час перерви у секундах, після якого апарат буде автоматично охолощений холощений у випадку, якщо було виявлено ситуацію приземлення протягом цього часу. Нуль або від'ємне значення означає, що автоматичне охолощення, яке викликане детекцією приземлення, є вимкнене.</translation>
     </message>
   </context>
   <context>
