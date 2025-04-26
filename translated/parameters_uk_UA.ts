@@ -11485,7 +11485,7 @@
     <name>/parameters/COM_RC_IN_MODE/longDesc</name>
     <message>
       <source>A value of 0 enables RC transmitter control (only). A valid RC transmitter calibration is required. A value of 1 allows joystick control only. RC input handling and the associated checks are disabled. A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid. A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot. A value of 4 ignores any stick input.</source>
-      <translation type="unfinished">A value of 0 enables RC transmitter control (only). A valid RC transmitter calibration is required. A value of 1 allows joystick control only. RC input handling and the associated checks are disabled. A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid. A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot. A value of 4 ignores any stick input.</translation>
+      <translation>Значення 0 вимикає лише управління через передавач пульта(RC). Потрібне належне калібрування трансмітера RC (пульта). Значення 1 дозволяє керувати лише джойстиком. Введення даних пультом(RC) і пов'язані перевірки вимкнені. Значення 2 дозволяє роботу або трансмітера пульта(RC) або внесення даних джойстиком. Використовується перший допустимий спосіб введення даних; відбудеться повернення до інших джерел, якщо вхідний потік даних стає недійсним. Значення 3 дозволяє введеня з пульта(RC) або джойстика. Перше доступне джерело вибирається і використовується до перезавантаження. Значення 4 ігнорує будь-яке введення даних стіками.</translation>
     </message>
   </context>
   <context>
@@ -11520,7 +11520,7 @@
     <name>/parameters/COM_RC_IN_MODE/values/4/description</name>
     <message>
       <source>Stick input disabled</source>
-      <translation type="unfinished">Stick input disabled</translation>
+      <translation>Вимкнено введення стіками</translation>
     </message>
   </context>
   <context>
@@ -11639,7 +11639,7 @@
     <name>/parameters/COM_THROW_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11779,7 +11779,7 @@
     <name>/parameters/NAV_DLL_ACT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
