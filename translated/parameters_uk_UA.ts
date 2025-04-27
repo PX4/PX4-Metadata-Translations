@@ -24127,14 +24127,14 @@
     <name>/parameters/MC_AIRMODE/longDesc</name>
     <message>
       <source>The air-mode enables the mixer to increase the total thrust of the multirotor in order to keep attitude and rate control even at low and high throttle. This function should be disabled during tuning as it will help the controller to diverge if the closed-loop is unstable (i.e. the vehicle is not tuned yet). Enabling air-mode for yaw requires the use of an arming switch.</source>
-      <translation type="unfinished">The air-mode enables the mixer to increase the total thrust of the multirotor in order to keep attitude and rate control even at low and high throttle. This function should be disabled during tuning as it will help the controller to diverge if the closed-loop is unstable (i.e. the vehicle is not tuned yet). Enabling air-mode for yaw requires the use of an arming switch.</translation>
+      <translation>Режим air-mode вмикає мікшер для збільшення загальної тяги мультиротора для збереження положення та рівня контролю навіть при низькій або високій тязі. Ця функція повинна бути вимкнена під час налаштувань, оскільки вона допоможе контролеру розосередитися, якщо замкнутий цикл є нестабільним (тобто апарат ще не налаштовано). Увімкнення режиму air-mode для рискання вимагає використання перемикача взведення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AIRMODE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -24414,7 +24414,7 @@
     <name>/parameters/MNT_MODE_IN/values/-1/description</name>
     <message>
       <source>DISABLED</source>
-      <translation type="unfinished">DISABLED</translation>
+      <translation>ВИМКНЕНО</translation>
     </message>
   </context>
   <context>
@@ -24820,7 +24820,7 @@
     <name>/parameters/CP_DIST/longDesc</name>
     <message>
       <source>Only used in Position mode. Collision avoidance is disabled by setting this parameter to a negative value</source>
-      <translation type="unfinished">Only used in Position mode. Collision avoidance is disabled by setting this parameter to a negative value</translation>
+      <translation>Використовується тільки в режимі Положення. Уникнення зіткнення вимкнуто шляхом встановлення цього параметра на від'ємне значення</translation>
     </message>
   </context>
   <context>
@@ -24841,7 +24841,7 @@
     <name>/parameters/CP_GO_NO_DATA/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -24897,7 +24897,7 @@
     <name>/parameters/MPC_ACC_DECOUPLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
