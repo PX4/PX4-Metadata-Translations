@@ -14502,7 +14502,7 @@
     <name>/parameters/FW_LAUN_DETCN_ON/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14551,7 +14551,7 @@
     <name>/parameters/NPFG_EN_MIN_GSP/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14593,7 +14593,7 @@
     <name>/parameters/NPFG_LB_PERIOD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14670,7 +14670,7 @@
     <name>/parameters/NPFG_TRACK_KEEP/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14698,7 +14698,7 @@
     <name>/parameters/NPFG_UB_PERIOD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14726,7 +14726,7 @@
     <name>/parameters/NPFG_WIND_REG/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
