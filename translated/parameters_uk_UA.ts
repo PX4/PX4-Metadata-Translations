@@ -13830,7 +13830,7 @@
     <name>/parameters/EKF2_SYNT_MAG_Z/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -13928,7 +13928,7 @@
     <name>/parameters/EV_TSK_RC_LOSS/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -13956,7 +13956,7 @@
     <name>/parameters/EV_TSK_STAT_DIS/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14138,7 +14138,7 @@
     <name>/parameters/FW_W_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14243,7 +14243,7 @@
     <name>/parameters/FW_LND_EARLYCFG/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
