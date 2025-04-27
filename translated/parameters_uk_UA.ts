@@ -14985,14 +14985,14 @@
     <name>/parameters/FW_ACRO_YAW_EN/longDesc</name>
     <message>
       <source>If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.</source>
-      <translation type="unfinished">If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.</translation>
+      <translation>Якщо цей параметр встановлено на 1, то контролер темпу увімкнено для Нерухомого крила в Acro режимі. В іншому випадку пілот безпосередньо керує актюатором рискання. Ця можливість відключена за замовчуванням, оскільки активний контролер темпу рискання буде протистояти природній координації повороту апарату.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_ACRO_YAW_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15034,7 +15034,7 @@
     <name>/parameters/FW_ARSP_SCALE_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15062,7 +15062,7 @@
     <name>/parameters/FW_BAT_SCALE_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15349,7 +15349,7 @@
     <name>/parameters/FW_SPOILERS_MAN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15384,7 +15384,7 @@
     <name>/parameters/FW_USE_AIRSPD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15818,7 +15818,7 @@
     <name>/parameters/FD_ACT_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15888,7 +15888,7 @@
     <name>/parameters/FD_ESCS_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15916,7 +15916,7 @@
     <name>/parameters/FD_EXT_ATS_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -16455,7 +16455,7 @@
     <name>/parameters/GPS_SAT_INFO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -16714,7 +16714,7 @@
     <name>/parameters/GF_MAX_HOR_DIST/longDesc</name>
     <message>
       <source>Maximum horizontal distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</source>
-      <translation type="unfinished">Maximum horizontal distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</translation>
+      <translation>Максимальна горизонтальна відстань в метрах на якій апарат може знаходитися від точки повернення перед викликом дії гео-огорожі. Вимкнено якщо 0.</translation>
     </message>
   </context>
   <context>
@@ -16728,7 +16728,7 @@
     <name>/parameters/GF_MAX_VER_DIST/longDesc</name>
     <message>
       <source>Maximum vertical distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</source>
-      <translation type="unfinished">Maximum vertical distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</translation>
+      <translation>Максимальна вертикальна відстань в метрах на якій апарат може знаходитися від точки повернення перед викликом дії гео-огорожі. Вимкнено якщо 0.</translation>
     </message>
   </context>
   <context>
@@ -16749,7 +16749,7 @@
     <name>/parameters/GF_PREDICT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -17141,7 +17141,7 @@
     <name>/parameters/CA_HELI_YAW_CCW/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -17253,7 +17253,7 @@
     <name>/parameters/CA_R0_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17267,7 +17267,7 @@
     <name>/parameters/CA_R10_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17281,7 +17281,7 @@
     <name>/parameters/CA_R11_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17295,7 +17295,7 @@
     <name>/parameters/CA_R1_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17309,7 +17309,7 @@
     <name>/parameters/CA_R2_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17323,7 +17323,7 @@
     <name>/parameters/CA_R3_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17337,7 +17337,7 @@
     <name>/parameters/CA_R4_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17351,7 +17351,7 @@
     <name>/parameters/CA_R5_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17365,7 +17365,7 @@
     <name>/parameters/CA_R6_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17379,7 +17379,7 @@
     <name>/parameters/CA_R7_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17393,7 +17393,7 @@
     <name>/parameters/CA_R8_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17407,7 +17407,7 @@
     <name>/parameters/CA_R9_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19437,7 +19437,7 @@
     <name>/parameters/CA_SV0_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19451,7 +19451,7 @@
     <name>/parameters/CA_SV1_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19465,7 +19465,7 @@
     <name>/parameters/CA_SV2_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19479,7 +19479,7 @@
     <name>/parameters/CA_SV3_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19493,7 +19493,7 @@
     <name>/parameters/CA_SV4_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19507,7 +19507,7 @@
     <name>/parameters/CA_SV5_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19521,7 +19521,7 @@
     <name>/parameters/CA_SV6_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19535,7 +19535,7 @@
     <name>/parameters/CA_SV7_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -22069,7 +22069,7 @@
     <name>/parameters/LPE_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -22524,7 +22524,7 @@
     <name>/parameters/MAV_0_FORWARD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -22664,7 +22664,7 @@
     <name>/parameters/MAV_0_RADIO_CTL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -22804,7 +22804,7 @@
     <name>/parameters/MAV_1_FORWARD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -22944,7 +22944,7 @@
     <name>/parameters/MAV_1_RADIO_CTL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23084,7 +23084,7 @@
     <name>/parameters/MAV_2_FORWARD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23224,7 +23224,7 @@
     <name>/parameters/MAV_2_RADIO_CTL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23301,7 +23301,7 @@
     <name>/parameters/MAV_FWDEXTSP/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23329,7 +23329,7 @@
     <name>/parameters/MAV_HASH_CHK_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
