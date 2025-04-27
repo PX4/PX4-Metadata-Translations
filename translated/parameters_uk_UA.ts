@@ -14404,7 +14404,7 @@
     <name>/parameters/FW_LND_USETER/longDesc</name>
     <message>
       <source>This is critical for detecting when to flare, and should be enabled if possible. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
-      <translation type="unfinished">This is critical for detecting when to flare, and should be enabled if possible. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</translation>
+      <translation>Це є критичним для визначення коли потрібно вирівнятися перед приземленням, та ця функція має бути увімкнена, якщо це можливо. Якщо функцію увімкнено та не знайдено вимірювань протягом певного часу, то буде використано висоту над точкою приземлення АБО приземлення буде перервано в залежності від критеріїв встановлених у FW_LND_ABORT. Якщо функцію вимкнено, то FW_LND_ABORT поверхневі базові критерії ігноруюються.</translation>
     </message>
   </context>
   <context>
