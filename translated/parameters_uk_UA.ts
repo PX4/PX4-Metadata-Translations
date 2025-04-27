@@ -5,35 +5,35 @@
     <name>/parameters/ctl_bw/shortDesc</name>
     <message>
       <source>Speed controller bandwidth</source>
-      <translation type="unfinished">Speed controller bandwidth</translation>
+      <translation>Пропускна здатність регулятора швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_bw/longDesc</name>
     <message>
       <source>Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</source>
-      <translation type="unfinished">Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</translation>
+      <translation>Пропускна здатність контролера швидкості у Гц. Вищі значення призводять до більшої швидкості та зростання поточного часу, але можуть призвести до перельоту та більшого поточного споживання. Для активних літаків з нерухомим крилом це значення має бути менше 50 Гц; для мультироторів значення до 100 Гц може забезпечити поліпшення чутливості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/shortDesc</name>
     <message>
       <source>Reverse direction</source>
-      <translation type="unfinished">Reverse direction</translation>
+      <translation>Зворотний напрямок</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_dir/longDesc</name>
     <message>
       <source>Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</source>
-      <translation type="unfinished">Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</translation>
+      <translation>Напрямок обертання мотору виявлено під час початкового підрахунку. Використовуйте 0 або 1 для зворотного напрямку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_gain/shortDesc</name>
     <message>
       <source>Speed (RPM) controller gain</source>
-      <translation type="unfinished">Speed (RPM) controller gain</translation>
+      <translation>Регулятор швидкості (RPM - обертів на хвилину) отримано</translation>
     </message>
   </context>
   <context>
@@ -46,104 +46,104 @@
             decreased. Higher values result in faster response, but may result
             in oscillation and excessive overshoot. Lower values result in a
             slower, smoother response.</source>
-      <translation type="unfinished">Speed (RPM) controller gain. Determines controller
-            aggressiveness; units are amp-seconds per radian. Systems with
-            higher rotational inertia (large props) will need gain increased;
-            systems with low rotational inertia (small props) may need gain
-            decreased. Higher values result in faster response, but may result
-            in oscillation and excessive overshoot. Lower values result in a
-            slower, smoother response.</translation>
+      <translation>Регулятор швидкості (RPM - обертів на хвилину) отримано. Визначає контролеру
+            агресивність; одиниці виміру є ампер/секунд у радіані. Система з
+            високою інерцією обертання (великі пропелери) потребуватиме підвищеного коефіцієнту;
+            система з низькою інерцією обертання (малі пропелери) може потребувати зниженого
+            коефіцієнту. Більші значення дають більш швидке реагування, але може призвести
+            до коливання та надмірного перельоту. Більш низькі значення викликають
+            повільніше, гладкіше реагування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_hz_idle/shortDesc</name>
     <message>
       <source>Idle speed (e Hz)</source>
-      <translation type="unfinished">Idle speed (e Hz)</translation>
+      <translation>Швидкість холостого ходу (e Гц)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_hz_idle/longDesc</name>
     <message>
       <source>Idle speed (e Hz)</source>
-      <translation type="unfinished">Idle speed (e Hz)</translation>
+      <translation>Швидкість холостого ходу (e Гц)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_start_rate/shortDesc</name>
     <message>
       <source>Spin-up rate (e Hz/s)</source>
-      <translation type="unfinished">Spin-up rate (e Hz/s)</translation>
+      <translation>Рівень розкрутки (е Гц/с)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ctl_start_rate/longDesc</name>
     <message>
       <source>Spin-up rate (e Hz/s)</source>
-      <translation type="unfinished">Spin-up rate (e Hz/s)</translation>
+      <translation>Рівень розкрутки (е Гц/с)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/esc_index/shortDesc</name>
     <message>
       <source>Index of this ESC in throttle command messages.</source>
-      <translation type="unfinished">Index of this ESC in throttle command messages.</translation>
+      <translation>Індекс цього ESC (електронного регулятора швидкості) командних повідомленнях тяги.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/esc_index/longDesc</name>
     <message>
       <source>Index of this ESC in throttle command messages.</source>
-      <translation type="unfinished">Index of this ESC in throttle command messages.</translation>
+      <translation>Індекс цього ESC (електронного регулятора швидкості) командних повідомленнях тяги.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/id_ext_status/shortDesc</name>
     <message>
       <source>Extended status ID</source>
-      <translation type="unfinished">Extended status ID</translation>
+      <translation>Розширений статус ID</translation>
     </message>
   </context>
   <context>
     <name>/parameters/id_ext_status/longDesc</name>
     <message>
       <source>Extended status ID</source>
-      <translation type="unfinished">Extended status ID</translation>
+      <translation>Розширений статус ID</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_ext_status/shortDesc</name>
     <message>
       <source>Extended status interval (µs)</source>
-      <translation type="unfinished">Extended status interval (µs)</translation>
+      <translation>Розширений статусний інтервал (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_ext_status/longDesc</name>
     <message>
       <source>Extended status interval (µs)</source>
-      <translation type="unfinished">Extended status interval (µs)</translation>
+      <translation>Розширений статусний інтервал (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_status/shortDesc</name>
     <message>
       <source>ESC status interval (µs)</source>
-      <translation type="unfinished">ESC status interval (µs)</translation>
+      <translation>ESC статусний інтервал (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/int_status/longDesc</name>
     <message>
       <source>ESC status interval (µs)</source>
-      <translation type="unfinished">ESC status interval (µs)</translation>
+      <translation>ESC статусний інтервал (µs)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_i_max/shortDesc</name>
     <message>
       <source>Motor current limit in amps</source>
-      <translation type="unfinished">Motor current limit in amps</translation>
+      <translation>Ліміт струму в моторах в амперах</translation>
     </message>
   </context>
   <context>
@@ -155,19 +155,19 @@
             the continuous current rating listed in the motor’s specification
             sheet, or set equal to the motor’s specified continuous power
             divided by the motor voltage limit.</source>
-      <translation type="unfinished">Motor current limit in amps. This determines the maximum
-            current controller setpoint, as well as the maximum allowable
-            current setpoint slew rate. This value should generally be set to
-            the continuous current rating listed in the motor’s specification
-            sheet, or set equal to the motor’s specified continuous power
-            divided by the motor voltage limit.</translation>
+      <translation>Ліміт струму мотора в амперах. Це визначає максимальне 
+            задане значення струму контролера, так само як і максимально припустиму
+             задану швидкість зростання струму. Це значення взагалі має бути встановлено до
+            рівня постійного струму  зазначеного у таблиці характеристик мотору
+            , або встановлене відповідно до визначеної постійної потужності мотору,
+            поділеної на ліміт вольтажу мотору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_kv/shortDesc</name>
     <message>
       <source>Motor Kv in RPM per volt</source>
-      <translation type="unfinished">Motor Kv in RPM per volt</translation>
+      <translation>KV мотора вимірюється у RPM на вольт</translation>
     </message>
   </context>
   <context>
@@ -176,30 +176,30 @@
       <source>Motor Kv in RPM per volt. This can be taken from the motor’s
             specification sheet; accuracy will help control performance but
             some deviation from the specified value is acceptable.</source>
-      <translation type="unfinished">Motor Kv in RPM per volt. This can be taken from the motor’s
-            specification sheet; accuracy will help control performance but
-            some deviation from the specified value is acceptable.</translation>
+      <translation>KV мотора вимірюється у RPM на вольт. Це значення може бути взяте з 
+            таблиці характеристик мотору; точність допоможе контролювати роботу, але
+            але припустимі деякі відхилення від зазначеного значення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_ls/shortDesc</name>
     <message>
       <source>READ ONLY: Motor inductance in henries.</source>
-      <translation type="unfinished">READ ONLY: Motor inductance in henries.</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Індуктивність мотору визначена у Гн(генрі)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_ls/longDesc</name>
     <message>
       <source>READ ONLY: Motor inductance in henries. This is measured on start-up.</source>
-      <translation type="unfinished">READ ONLY: Motor inductance in henries. This is measured on start-up.</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Індуктивність мотору визначена у Гн(генрі). Індуктивність визначається на початку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_num_poles/shortDesc</name>
     <message>
       <source>Number of motor poles.</source>
-      <translation type="unfinished">Number of motor poles.</translation>
+      <translation>Кількість полюсів мотора.</translation>
     </message>
   </context>
   <context>
@@ -208,16 +208,16 @@
       <source>Number of motor poles. Used to convert mechanical speeds to
             electrical speeds. This number should be taken from the motor’s
             specification sheet.</source>
-      <translation type="unfinished">Number of motor poles. Used to convert mechanical speeds to
-            electrical speeds. This number should be taken from the motor’s
-            specification sheet.</translation>
+      <translation>Кількість полюсів мотора. Використовується для перетворення механічної швидкості на
+            електричну швидкість. Значення кількості полюсів слід здобути з таблиці
+            характеристики мотору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_rs/shortDesc</name>
     <message>
       <source>READ ONLY: Motor resistance in ohms</source>
-      <translation type="unfinished">READ ONLY: Motor resistance in ohms</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Електричний опір мотору в Омах</translation>
     </message>
   </context>
   <context>
@@ -226,30 +226,30 @@
       <source>READ ONLY: Motor resistance in ohms. This is measured on start-up. When
             tuning a new motor, check that this value is approximately equal
             to the value shown in the motor’s specification sheet.</source>
-      <translation type="unfinished">READ ONLY: Motor resistance in ohms. This is measured on start-up. When
-            tuning a new motor, check that this value is approximately equal
-            to the value shown in the motor’s specification sheet.</translation>
+      <translation>ТІЛЬКИ ЧИТАННЯ: Електричний опір мотору в Омах. Він вимірюється на початку. При
+            налаштуванні нового мотору перевірте що це значення приблизно дорівнює
+            значенню наданому у таблиці характеристик мотору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_accel/shortDesc</name>
     <message>
       <source>Acceleration limit (V)</source>
-      <translation type="unfinished">Acceleration limit (V)</translation>
+      <translation>Ліміт прискорення (V)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_accel/longDesc</name>
     <message>
       <source>Acceleration limit (V)</source>
-      <translation type="unfinished">Acceleration limit (V)</translation>
+      <translation>Ліміт прискорення (V)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/mot_v_max/shortDesc</name>
     <message>
       <source>Motor voltage limit in volts</source>
-      <translation type="unfinished">Motor voltage limit in volts</translation>
+      <translation>Ліміт електричної напруги в вольтах</translation>
     </message>
   </context>
   <context>
@@ -260,18 +260,18 @@
             safely be above the nominal voltage of the motor; to determine the
             actual motor voltage limit, divide the motor’s rated power by the
             motor current limit.</source>
-      <translation type="unfinished">Motor voltage limit in volts. The current controller’s
-            commanded voltage will never exceed this value. Note that this may
-            safely be above the nominal voltage of the motor; to determine the
-            actual motor voltage limit, divide the motor’s rated power by the
-            motor current limit.</translation>
+      <translation>Ліміт електричної напруги в вольтах. Призначена напруга
+            контролера струму ніколи не перевищить це значення . Зверніть увагу, що це значення може
+            безпечно перебільшувати номінальну напругу моторів; для визначення
+            актуального ліміту напруги у моторі, поділіть номінальну потужність мотору на
+            ліміт напруги у моторі.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/shortDesc</name>
     <message>
       <source>GNSS dynamic model</source>
-      <translation type="unfinished">GNSS dynamic model</translation>
+      <translation>Динамічна модель GNSS</translation>
     </message>
   </context>
   <context>
@@ -280,8 +280,8 @@
       <source>Dynamic model used in the GNSS positioning engine. 0 –
         Automotive, 1 – Sea, 2 – Airborne.
       </source>
-      <translation type="unfinished">Dynamic model used in the GNSS positioning engine. 0 –
-        Automotive, 1 – Sea, 2 – Airborne.
+      <translation>Динамічна модель, яка використовується в двигуні позиціонування GNSS. 0 -
+        Автомобільний, 1 - Морський, 2 - Авіаційний.
       </translation>
     </message>
   </context>
@@ -289,28 +289,28 @@
     <name>/parameters/gnss.dyn_model/values/0/description</name>
     <message>
       <source>Automotive</source>
-      <translation type="unfinished">Automotive</translation>
+      <translation>Автомобільний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/1/description</name>
     <message>
       <source>Sea</source>
-      <translation type="unfinished">Sea</translation>
+      <translation>Морський</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.dyn_model/values/2/description</name>
     <message>
       <source>Airborne</source>
-      <translation type="unfinished">Airborne</translation>
+      <translation>Авіаційний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.old_fix_msg/shortDesc</name>
     <message>
       <source>Broadcast old GNSS fix message</source>
-      <translation type="unfinished">Broadcast old GNSS fix message</translation>
+      <translation>Передавати старі fix повідомлення GNSS</translation>
     </message>
   </context>
   <context>
@@ -321,32 +321,28 @@
         uavcan.equipment.gnss.Fix2. It is recommended to
         disable this feature to reduce the CAN bus traffic.
       </source>
-      <translation type="unfinished">Broadcast the old (deprecated) GNSS fix message
-        uavcan.equipment.gnss.Fix alongside the new alternative
-        uavcan.equipment.gnss.Fix2. It is recommended to
-        disable this feature to reduce the CAN bus traffic.
-      </translation>
+      <translation>Передавання старих (застарілих) GNSS fix повідомлень        uavcan.equipment.gnss.FIX разом з новими альтернативними        uavcan.equipment.gnss.Fix2. Рекомендовано відключити цю функцію для зменшення CAN трафік шини.      </translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.old_fix_msg/values/0/description</name>
     <message>
       <source>Fix2</source>
-      <translation type="unfinished">Fix2</translation>
+      <translation>Fix2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.old_fix_msg/values/1/description</name>
     <message>
       <source>Fix and Fix2</source>
-      <translation type="unfinished">Fix and Fix2</translation>
+      <translation>Fix та Fix2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/shortDesc</name>
     <message>
       <source>device health warning</source>
-      <translation type="unfinished">device health warning</translation>
+      <translation>попередження про стан</translation>
     </message>
   </context>
   <context>
@@ -357,10 +353,10 @@
               solution, 2 for planar (2D) solution, 1 for time-only solution,
               0 disables the feature.
       </source>
-      <translation type="unfinished">Set the device health to Warning if the dimensionality of
-              the GNSS solution is less than this value. 3 for the full (3D)
-              solution, 2 for planar (2D) solution, 1 for time-only solution,
-              0 disables the feature.
+      <translation>Встановіть стан пристрою як Увага , якщо багатовимірність
+              GNSS рішення є меншим за це рішення. 3 для повного (3D)
+              рішення, 2 для плаского (2D) рішення, 1 один для рішення 'тльки час',
+              0 вимикає функцію.
       </translation>
     </message>
   </context>
@@ -368,28 +364,28 @@
     <name>/parameters/gnss.warn_dimens/values/0/description</name>
     <message>
       <source>disables the feature</source>
-      <translation type="unfinished">disables the feature</translation>
+      <translation>вимикає функцію</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/1/description</name>
     <message>
       <source>time-only solution</source>
-      <translation type="unfinished">time-only solution</translation>
+      <translation>рішення 'тільки час'</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/2/description</name>
     <message>
       <source>planar (2D) solution</source>
-      <translation type="unfinished">planar (2D) solution</translation>
+      <translation>пласке (2D) рішення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/gnss.warn_dimens/values/3/description</name>
     <message>
       <source>full (3D) solution</source>
-      <translation type="unfinished">full (3D) solution</translation>
+      <translation>повне (3D) рішення</translation>
     </message>
   </context>
   <context>
@@ -406,9 +402,9 @@
         used in the GNSS solution is below this threshold. Zero
         disables the feature
       </source>
-      <translation type="unfinished">Set the device health to Warning if the number of satellites
-        used in the GNSS solution is below this threshold. Zero
-        disables the feature
+      <translation>Встановіть стан пристрою як Увага, якщо кількість супутників 
+        що використовуються у GNSS рішенні нижче цього порогу. Нуль
+        вимикає функцію 
       </translation>
     </message>
   </context>
@@ -426,9 +422,9 @@
         used in the GNSS solution is below this threshold. Zero
         disables the feature
       </source>
-      <translation type="unfinished">Set the device health to Warning if the number of satellites
-        used in the GNSS solution is below this threshold. Zero
-        disables the feature
+      <translation>Встановіть стан пристрою як Увага, якщо кількість супутників 
+        що використовуються у GNSS рішенні нижче цього порогу. Нуль
+        вимикає функцію 
       </translation>
     </message>
   </context>
@@ -436,2737 +432,2737 @@
     <name>/parameters/ADSB_CALLSIGN_1/shortDesc</name>
     <message>
       <source>First 4 characters of CALLSIGN</source>
-      <translation type="unfinished">First 4 characters of CALLSIGN</translation>
+      <translation>Перші 4 символи з CALLSIGN</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_CALLSIGN_1/longDesc</name>
     <message>
       <source>Sets first 4 characters of a total of 8. Valid characters are A-Z, 0-9, " ". Example "PX4 " -&gt; 1347957792 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</source>
-      <translation type="unfinished">Sets first 4 characters of a total of 8. Valid characters are A-Z, 0-9, " ". Example "PX4 " -&gt; 1347957792 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</translation>
+      <translation>Встановіть перші 4 символи з 8 загалом. Допустимими символами є A-Z, 0-9, " ". Наприклад "PX4 " -&gt; 1347957792 для CALLSIGN коротше за 8 символів використовують нульове закінчення наприкінці '\0'.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_CALLSIGN_2/shortDesc</name>
     <message>
       <source>Second 4 characters of CALLSIGN</source>
-      <translation type="unfinished">Second 4 characters of CALLSIGN</translation>
+      <translation>Другі 4 символи з CALLSIGN</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_CALLSIGN_2/longDesc</name>
     <message>
       <source>Sets second 4 characters of a total of 8. Valid characters are A-Z, 0-9, " " only. Example "TEST" -&gt; 1413829460 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</source>
-      <translation type="unfinished">Sets second 4 characters of a total of 8. Valid characters are A-Z, 0-9, " " only. Example "TEST" -&gt; 1413829460 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</translation>
+      <translation>Встановлює другі 4 символи з 8 загалом. Допустимими символами є лише A-Z, 0-9, " ". Наприклад "TEST" -&gt; 1413829460 для CALLSIGN коротше за 8 символів використовують нульове закінчення наприкінці '\0'.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/shortDesc</name>
     <message>
       <source>ADSB-Out Emergency State</source>
-      <translation type="unfinished">ADSB-Out Emergency State</translation>
+      <translation>ADSB-Out Надзвичайний Стан</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/longDesc</name>
     <message>
       <source>Sets the vehicle emergency state</source>
-      <translation type="unfinished">Sets the vehicle emergency state</translation>
+      <translation>Встановлює надзвичайний стан для апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/0/description</name>
     <message>
       <source>NoEmergency</source>
-      <translation type="unfinished">NoEmergency</translation>
+      <translation>Немає надзвичайного стану</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/1/description</name>
     <message>
       <source>General</source>
-      <translation type="unfinished">General</translation>
+      <translation>Головне</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/2/description</name>
     <message>
       <source>Medical</source>
-      <translation type="unfinished">Medical</translation>
+      <translation>Медичне</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/3/description</name>
     <message>
       <source>LowFuel</source>
-      <translation type="unfinished">LowFuel</translation>
+      <translation>Мало палива</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/4/description</name>
     <message>
       <source>NoCommunications</source>
-      <translation type="unfinished">NoCommunications</translation>
+      <translation>Немає зв'язку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/5/description</name>
     <message>
       <source>Interference</source>
-      <translation type="unfinished">Interference</translation>
+      <translation>Втручання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMERGC/values/6/description</name>
     <message>
       <source>Downed</source>
-      <translation type="unfinished">Downed</translation>
+      <translation>Збитий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/shortDesc</name>
     <message>
       <source>ADSB-Out Vehicle Emitter Type</source>
-      <translation type="unfinished">ADSB-Out Vehicle Emitter Type</translation>
+      <translation>ADSB-Out тип випромінювача апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/longDesc</name>
     <message>
       <source>Configure the emitter type of the vehicle.</source>
-      <translation type="unfinished">Configure the emitter type of the vehicle.</translation>
+      <translation>Налаштувати тип випромінювача апарату.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/0/description</name>
     <message>
       <source>Unknown</source>
-      <translation type="unfinished">Unknown</translation>
+      <translation>Невідомий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/1/description</name>
     <message>
       <source>Light</source>
-      <translation type="unfinished">Light</translation>
+      <translation>Світлий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/2/description</name>
     <message>
       <source>Small</source>
-      <translation type="unfinished">Small</translation>
+      <translation>Малий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/3/description</name>
     <message>
       <source>Large</source>
-      <translation type="unfinished">Large</translation>
+      <translation>Великий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/4/description</name>
     <message>
       <source>HighVortex</source>
-      <translation type="unfinished">HighVortex</translation>
+      <translation>HighVortex</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/5/description</name>
     <message>
       <source>Heavy</source>
-      <translation type="unfinished">Heavy</translation>
+      <translation>Важкий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/6/description</name>
     <message>
       <source>Performance</source>
-      <translation type="unfinished">Performance</translation>
+      <translation>Показники</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/7/description</name>
     <message>
       <source>Rotorcraft</source>
-      <translation type="unfinished">Rotorcraft</translation>
+      <translation>Гвинтокрил</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/8/description</name>
     <message>
       <source>RESERVED</source>
-      <translation type="unfinished">RESERVED</translation>
+      <translation>ЗАРЕЗЕРВОВАНИЙ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/9/description</name>
     <message>
       <source>Glider</source>
-      <translation type="unfinished">Glider</translation>
+      <translation>Планер</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/10/description</name>
     <message>
       <source>LightAir</source>
-      <translation type="unfinished">LightAir</translation>
+      <translation>Легкий вітер</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/11/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/12/description</name>
     <message>
       <source>UltraLight</source>
-      <translation type="unfinished">UltraLight</translation>
+      <translation>Надлегкий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/13/description</name>
     <message>
       <source>RESERVED</source>
-      <translation type="unfinished">RESERVED</translation>
+      <translation>ЗАРЕЗЕРВОВАНИЙ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/14/description</name>
     <message>
       <source>UAV</source>
-      <translation type="unfinished">UAV</translation>
+      <translation>БПЛА</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/15/description</name>
     <message>
       <source>Space</source>
-      <translation type="unfinished">Space</translation>
+      <translation>Простір</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/16/description</name>
     <message>
       <source>RESERVED</source>
-      <translation type="unfinished">RESERVED</translation>
+      <translation>ЗАРЕЗЕРВОВАНИЙ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/17/description</name>
     <message>
       <source>EmergencySurf</source>
-      <translation type="unfinished">EmergencySurf</translation>
+      <translation>Surf надзвичайного стану</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/18/description</name>
     <message>
       <source>ServiceSurf</source>
-      <translation type="unfinished">ServiceSurf</translation>
+      <translation>Surf сервісу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/19/description</name>
     <message>
       <source>PointObstacle</source>
-      <translation type="unfinished">PointObstacle</translation>
+      <translation>Точка перешкоди</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/shortDesc</name>
     <message>
       <source>ADSB-Out GPS Offset lat</source>
-      <translation type="unfinished">ADSB-Out GPS Offset lat</translation>
+      <translation>ADSB-Out GPS зміщення за широтою</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/longDesc</name>
     <message>
       <source>Sets GPS lataral offset encoding</source>
-      <translation type="unfinished">Sets GPS lataral offset encoding</translation>
+      <translation>Встановлює кодування GPS бічного зміщення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/0/description</name>
     <message>
       <source>NoData</source>
-      <translation type="unfinished">NoData</translation>
+      <translation>Немає даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/1/description</name>
     <message>
       <source>LatLeft2M</source>
-      <translation type="unfinished">LatLeft2M</translation>
+      <translation>Бічне Ліворуч 2M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/2/description</name>
     <message>
       <source>LatLeft4M</source>
-      <translation type="unfinished">LatLeft4M</translation>
+      <translation>Бічне Ліворуч 4M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/3/description</name>
     <message>
       <source>LatLeft6M</source>
-      <translation type="unfinished">LatLeft6M</translation>
+      <translation>Бічне Ліворуч 6M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/4/description</name>
     <message>
       <source>LatRight0M</source>
-      <translation type="unfinished">LatRight0M</translation>
+      <translation>Бічне Праворуч 0M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/5/description</name>
     <message>
       <source>LatRight2M</source>
-      <translation type="unfinished">LatRight2M</translation>
+      <translation>Бічне Праворуч 2M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/6/description</name>
     <message>
       <source>LatRight4M</source>
-      <translation type="unfinished">LatRight4M</translation>
+      <translation>Бічне Праворуч 4M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LAT/values/7/description</name>
     <message>
       <source>LatRight6M</source>
-      <translation type="unfinished">LatRight6M</translation>
+      <translation>Бічне Праворуч 6M</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LON/shortDesc</name>
     <message>
       <source>ADSB-Out GPS Offset lon</source>
-      <translation type="unfinished">ADSB-Out GPS Offset lon</translation>
+      <translation>ADSB-Out GPS зміщення по довготі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LON/longDesc</name>
     <message>
       <source>Sets GPS longitudinal offset encoding</source>
-      <translation type="unfinished">Sets GPS longitudinal offset encoding</translation>
+      <translation>Встановлює кодування GPS зміщення за довготою</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LON/values/0/description</name>
     <message>
       <source>NoData</source>
-      <translation type="unfinished">NoData</translation>
+      <translation>Немає даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_GPS_OFF_LON/values/1/description</name>
     <message>
       <source>AppliedBySensor</source>
-      <translation type="unfinished">AppliedBySensor</translation>
+      <translation>Подано сенсором</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_ICAO_ID/shortDesc</name>
     <message>
       <source>ADSB-Out ICAO configuration</source>
-      <translation type="unfinished">ADSB-Out ICAO configuration</translation>
+      <translation>ADSB-Out ICAO конфігурація</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_ICAO_ID/longDesc</name>
     <message>
       <source>Defines the ICAO ID of the vehicle</source>
-      <translation type="unfinished">Defines the ICAO ID of the vehicle</translation>
+      <translation>Визначає ICAO ID апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_ICAO_SPECL/shortDesc</name>
     <message>
       <source>ADSB-In Special ICAO configuration</source>
-      <translation type="unfinished">ADSB-In Special ICAO configuration</translation>
+      <translation>ADSB-In спеціальна ICAO конфігурація</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_ICAO_SPECL/longDesc</name>
     <message>
       <source>This vehicle is always tracked. Use 0 to disable.</source>
-      <translation type="unfinished">This vehicle is always tracked. Use 0 to disable.</translation>
+      <translation>Цей апарат завжди відстежується. Використовуйте 0, щоб вимкнути.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_IDENT/shortDesc</name>
     <message>
       <source>ADSB-Out Ident Configuration</source>
-      <translation type="unfinished">ADSB-Out Ident Configuration</translation>
+      <translation>ADSB-Out визначальна конфігурація</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_IDENT/longDesc</name>
     <message>
       <source>Enable Identification of Position feature</source>
-      <translation type="unfinished">Enable Identification of Position feature</translation>
+      <translation>Увімкнути ідентифікацію функції положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_IDENT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_IDENT/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/shortDesc</name>
     <message>
       <source>ADSB-Out Vehicle Size Configuration</source>
-      <translation type="unfinished">ADSB-Out Vehicle Size Configuration</translation>
+      <translation>Налаштування розміру апарату ADSB-Out</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/longDesc</name>
     <message>
       <source>Report the length and width of the vehicle in meters. In most cases, use '1' for the smallest vehicle size.</source>
-      <translation type="unfinished">Report the length and width of the vehicle in meters. In most cases, use '1' for the smallest vehicle size.</translation>
+      <translation>Повідомити про довжину та ширину апарату в метрах. У більшості випадків використовуйте '1' для найменшого розміру апарату.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/0/description</name>
     <message>
       <source>SizeUnknown</source>
-      <translation type="unfinished">SizeUnknown</translation>
+      <translation>Розмір невідомо</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/1/description</name>
     <message>
       <source>Len15_Wid23</source>
-      <translation type="unfinished">Len15_Wid23</translation>
+      <translation>Дов15_Шир23</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/2/description</name>
     <message>
       <source>Len25_Wid28</source>
-      <translation type="unfinished">Len25_Wid28</translation>
+      <translation>Дов25_Шир28</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/3/description</name>
     <message>
       <source>Len25_Wid34</source>
-      <translation type="unfinished">Len25_Wid34</translation>
+      <translation>Дов25_Шир34</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/4/description</name>
     <message>
       <source>Len35_Wid33</source>
-      <translation type="unfinished">Len35_Wid33</translation>
+      <translation>Дов35_Шир33</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/5/description</name>
     <message>
       <source>Len35_Wid38</source>
-      <translation type="unfinished">Len35_Wid38</translation>
+      <translation>Дов35_Шир38</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/6/description</name>
     <message>
       <source>Len45_Wid39</source>
-      <translation type="unfinished">Len45_Wid39</translation>
+      <translation>Дов45_Шир39</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/7/description</name>
     <message>
       <source>Len45_Wid45</source>
-      <translation type="unfinished">Len45_Wid45</translation>
+      <translation>Дов45_Шир45</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/8/description</name>
     <message>
       <source>Len55_Wid45</source>
-      <translation type="unfinished">Len55_Wid45</translation>
+      <translation>Дов55_Шир45</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/9/description</name>
     <message>
       <source>Len55_Wid52</source>
-      <translation type="unfinished">Len55_Wid52</translation>
+      <translation>Len55_Wid52</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/10/description</name>
     <message>
       <source>Len65_Wid59</source>
-      <translation type="unfinished">Len65_Wid59</translation>
+      <translation>Дов65_Шир59</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/11/description</name>
     <message>
       <source>Len65_Wid67</source>
-      <translation type="unfinished">Len65_Wid67</translation>
+      <translation>Дов65_Шир67</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/12/description</name>
     <message>
       <source>Len75_Wid72</source>
-      <translation type="unfinished">Len75_Wid72</translation>
+      <translation>Дов75_Шир72</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/13/description</name>
     <message>
       <source>Len75_Wid80</source>
-      <translation type="unfinished">Len75_Wid80</translation>
+      <translation>Дов75_Шир80</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/14/description</name>
     <message>
       <source>Len85_Wid80</source>
-      <translation type="unfinished">Len85_Wid80</translation>
+      <translation>Дов85_Шир80</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LEN_WIDTH/values/15/description</name>
     <message>
       <source>Len85_Wid90</source>
-      <translation type="unfinished">Len85_Wid90</translation>
+      <translation>Дов85_Шир90</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LIST_MAX/shortDesc</name>
     <message>
       <source>ADSB-In Vehicle List Size</source>
-      <translation type="unfinished">ADSB-In Vehicle List Size</translation>
+      <translation>ADSB-In список розмірів апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_LIST_MAX/longDesc</name>
     <message>
       <source>Change number of targets to track</source>
-      <translation type="unfinished">Change number of targets to track</translation>
+      <translation>Змініть кількість цілей для відстеження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/shortDesc</name>
     <message>
       <source>ADSB-Out Vehicle Max Speed</source>
-      <translation type="unfinished">ADSB-Out Vehicle Max Speed</translation>
+      <translation>ADSB-Out максимальна швидкість апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/longDesc</name>
     <message>
       <source>Informs ADSB vehicles of this vehicle's max speed capability</source>
-      <translation type="unfinished">Informs ADSB vehicles of this vehicle's max speed capability</translation>
+      <translation>Інформує ADSB апарати про максимальні швидкісні можливості цього апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/0/description</name>
     <message>
       <source>UnknownMaxSpeed</source>
-      <translation type="unfinished">UnknownMaxSpeed</translation>
+      <translation>Невідома максимальна швидкість</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/1/description</name>
     <message>
       <source>75Kts</source>
-      <translation type="unfinished">75Kts</translation>
+      <translation>75Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/2/description</name>
     <message>
       <source>150Kts</source>
-      <translation type="unfinished">150Kts</translation>
+      <translation>150Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/3/description</name>
     <message>
       <source>300Kts</source>
-      <translation type="unfinished">300Kts</translation>
+      <translation>300Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/4/description</name>
     <message>
       <source>600Kts</source>
-      <translation type="unfinished">600Kts</translation>
+      <translation>600Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/5/description</name>
     <message>
       <source>1200Kts</source>
-      <translation type="unfinished">1200Kts</translation>
+      <translation>1200Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_MAX_SPEED/values/6/description</name>
     <message>
       <source>Over1200Kts</source>
-      <translation type="unfinished">Over1200Kts</translation>
+      <translation>Понад 1200Kts (вузлів)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_SQUAWK/shortDesc</name>
     <message>
       <source>ADSB-Out squawk code configuration</source>
-      <translation type="unfinished">ADSB-Out squawk code configuration</translation>
+      <translation>ADSB-Out налаштування squawk коду</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_SQUAWK/longDesc</name>
     <message>
       <source>This parameter defines the squawk code. Value should be between 0000 and 7777.</source>
-      <translation type="unfinished">This parameter defines the squawk code. Value should be between 0000 and 7777.</translation>
+      <translation>Цей параметр визначає swuawk код. Значення має бути між 0000 та 7777.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/shortDesc</name>
     <message>
       <source>SIM Channel 1 Output Function</source>
-      <translation type="unfinished">SIM Channel 1 Output Function</translation>
+      <translation>Функції виводу SIM Каналу 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 1. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має виходити на SIM Каналі 1. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/1/description</name>
     <message>
       <source>Constant Min</source>
-      <translation type="unfinished">Constant Min</translation>
+      <translation>Постійне Min</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/2/description</name>
     <message>
       <source>Constant Max</source>
-      <translation type="unfinished">Constant Max</translation>
+      <translation>Постійне Max</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/101/description</name>
     <message>
       <source>Motor 1</source>
-      <translation type="unfinished">Motor 1</translation>
+      <translation>Мотор 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/102/description</name>
     <message>
       <source>Motor 2</source>
-      <translation type="unfinished">Motor 2</translation>
+      <translation>Мотор 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/103/description</name>
     <message>
       <source>Motor 3</source>
-      <translation type="unfinished">Motor 3</translation>
+      <translation>Мотор 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/104/description</name>
     <message>
       <source>Motor 4</source>
-      <translation type="unfinished">Motor 4</translation>
+      <translation>Мотор 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/105/description</name>
     <message>
       <source>Motor 5</source>
-      <translation type="unfinished">Motor 5</translation>
+      <translation>Мотор 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/106/description</name>
     <message>
       <source>Motor 6</source>
-      <translation type="unfinished">Motor 6</translation>
+      <translation>Мотор 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/107/description</name>
     <message>
       <source>Motor 7</source>
-      <translation type="unfinished">Motor 7</translation>
+      <translation>Мотор 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/108/description</name>
     <message>
       <source>Motor 8</source>
-      <translation type="unfinished">Motor 8</translation>
+      <translation>Мотор 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/109/description</name>
     <message>
       <source>Motor 9</source>
-      <translation type="unfinished">Motor 9</translation>
+      <translation>Мотор 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/110/description</name>
     <message>
       <source>Motor 10</source>
-      <translation type="unfinished">Motor 10</translation>
+      <translation>Мотор 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/111/description</name>
     <message>
       <source>Motor 11</source>
-      <translation type="unfinished">Motor 11</translation>
+      <translation>Мотор 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/112/description</name>
     <message>
       <source>Motor 12</source>
-      <translation type="unfinished">Motor 12</translation>
+      <translation>Мотор 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/201/description</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>Сервопривід 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/202/description</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>Сервопривід 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/203/description</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>Сервопривід 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/204/description</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>Сервопривід 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/205/description</name>
     <message>
       <source>Servo 5</source>
-      <translation type="unfinished">Servo 5</translation>
+      <translation>Сервопривід 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/206/description</name>
     <message>
       <source>Servo 6</source>
-      <translation type="unfinished">Servo 6</translation>
+      <translation>Сервопривід 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/207/description</name>
     <message>
       <source>Servo 7</source>
-      <translation type="unfinished">Servo 7</translation>
+      <translation>Сервопривід 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/208/description</name>
     <message>
       <source>Servo 8</source>
-      <translation type="unfinished">Servo 8</translation>
+      <translation>Сервопривід 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation type="unfinished">Peripheral via Actuator Set 1</translation>
+      <translation>Периферія через Актюатора Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation type="unfinished">Peripheral via Actuator Set 2</translation>
+      <translation>Периферія через Актюатора Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation type="unfinished">Peripheral via Actuator Set 3</translation>
+      <translation>Периферія через Актюатора Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation type="unfinished">Peripheral via Actuator Set 4</translation>
+      <translation>Периферія через Актюатора Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation type="unfinished">Peripheral via Actuator Set 5</translation>
+      <translation>Периферія через Актюатора Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation type="unfinished">Peripheral via Actuator Set 6</translation>
+      <translation>Периферія через Актюатора Набір 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation type="unfinished">Landing Gear</translation>
+      <translation>Блок приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/401/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/402/description</name>
     <message>
       <source>RC Roll</source>
-      <translation type="unfinished">RC Roll</translation>
+      <translation>Пульт(RC) крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/403/description</name>
     <message>
       <source>RC Pitch</source>
-      <translation type="unfinished">RC Pitch</translation>
+      <translation>Пульт(RC) тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) тяга</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/405/description</name>
     <message>
       <source>RC Yaw</source>
-      <translation type="unfinished">RC Yaw</translation>
+      <translation>Пульт(RC) рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/406/description</name>
     <message>
       <source>RC Flaps</source>
-      <translation type="unfinished">RC Flaps</translation>
+      <translation>Пульт(RC) Закрилки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/407/description</name>
     <message>
       <source>RC AUX 1</source>
-      <translation type="unfinished">RC AUX 1</translation>
+      <translation>Пульт(RC) AUX 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/408/description</name>
     <message>
       <source>RC AUX 2</source>
-      <translation type="unfinished">RC AUX 2</translation>
+      <translation>Пульт(RC) AUX 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/409/description</name>
     <message>
       <source>RC AUX 3</source>
-      <translation type="unfinished">RC AUX 3</translation>
+      <translation>Пульт(RC) AUX 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/410/description</name>
     <message>
       <source>RC AUX 4</source>
-      <translation type="unfinished">RC AUX 4</translation>
+      <translation>Пульт(RC) AUX 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/411/description</name>
     <message>
       <source>RC AUX 5</source>
-      <translation type="unfinished">RC AUX 5</translation>
+      <translation>Пульт(RC) AUX 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/412/description</name>
     <message>
       <source>RC AUX 6</source>
-      <translation type="unfinished">RC AUX 6</translation>
+      <translation>Пульт(RC) AUX 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/420/description</name>
     <message>
       <source>Gimbal Roll</source>
-      <translation type="unfinished">Gimbal Roll</translation>
+      <translation>Крен підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation type="unfinished">Gimbal Pitch</translation>
+      <translation>Тангаж підвіса для камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation type="unfinished">Gimbal Yaw</translation>
+      <translation>Рискання підвісом камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/430/description</name>
     <message>
       <source>Gripper</source>
-      <translation type="unfinished">Gripper</translation>
+      <translation>Захват</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation type="unfinished">Landing Gear Wheel</translation>
+      <translation>Колесо блоку приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC Запалювання Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Тяга Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC Стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/shortDesc</name>
     <message>
       <source>SIM Channel 10 Output Function</source>
-      <translation type="unfinished">SIM Channel 10 Output Function</translation>
+      <translation>Функція виводу SIM каналу 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 10. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 10. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має виходити на SIM Каналі 10. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/1/description</name>
     <message>
       <source>Constant Min</source>
-      <translation type="unfinished">Constant Min</translation>
+      <translation>Постійне Min</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/2/description</name>
     <message>
       <source>Constant Max</source>
-      <translation type="unfinished">Constant Max</translation>
+      <translation>Постійне Max</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/101/description</name>
     <message>
       <source>Motor 1</source>
-      <translation type="unfinished">Motor 1</translation>
+      <translation>Мотор 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/102/description</name>
     <message>
       <source>Motor 2</source>
-      <translation type="unfinished">Motor 2</translation>
+      <translation>Мотор 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/103/description</name>
     <message>
       <source>Motor 3</source>
-      <translation type="unfinished">Motor 3</translation>
+      <translation>Мотор 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/104/description</name>
     <message>
       <source>Motor 4</source>
-      <translation type="unfinished">Motor 4</translation>
+      <translation>Мотор 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/105/description</name>
     <message>
       <source>Motor 5</source>
-      <translation type="unfinished">Motor 5</translation>
+      <translation>Мотор 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/106/description</name>
     <message>
       <source>Motor 6</source>
-      <translation type="unfinished">Motor 6</translation>
+      <translation>Мотор 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/107/description</name>
     <message>
       <source>Motor 7</source>
-      <translation type="unfinished">Motor 7</translation>
+      <translation>Мотор 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/108/description</name>
     <message>
       <source>Motor 8</source>
-      <translation type="unfinished">Motor 8</translation>
+      <translation>Мотор 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/109/description</name>
     <message>
       <source>Motor 9</source>
-      <translation type="unfinished">Motor 9</translation>
+      <translation>Мотор 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/110/description</name>
     <message>
       <source>Motor 10</source>
-      <translation type="unfinished">Motor 10</translation>
+      <translation>Мотор 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/111/description</name>
     <message>
       <source>Motor 11</source>
-      <translation type="unfinished">Motor 11</translation>
+      <translation>Мотор 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/112/description</name>
     <message>
       <source>Motor 12</source>
-      <translation type="unfinished">Motor 12</translation>
+      <translation>Мотор 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/201/description</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>Сервопривід 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/202/description</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>Сервопривід 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/203/description</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>Сервопривід 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/204/description</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>Сервопривід 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/205/description</name>
     <message>
       <source>Servo 5</source>
-      <translation type="unfinished">Servo 5</translation>
+      <translation>Сервопривід 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/206/description</name>
     <message>
       <source>Servo 6</source>
-      <translation type="unfinished">Servo 6</translation>
+      <translation>Сервопривід 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/207/description</name>
     <message>
       <source>Servo 7</source>
-      <translation type="unfinished">Servo 7</translation>
+      <translation>Сервопривід 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/208/description</name>
     <message>
       <source>Servo 8</source>
-      <translation type="unfinished">Servo 8</translation>
+      <translation>Сервопривід 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation type="unfinished">Peripheral via Actuator Set 1</translation>
+      <translation>Периферія через Актюатора Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation type="unfinished">Peripheral via Actuator Set 2</translation>
+      <translation>Периферія через Актюатора Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation type="unfinished">Peripheral via Actuator Set 3</translation>
+      <translation>Периферія через Актюатора Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation type="unfinished">Peripheral via Actuator Set 4</translation>
+      <translation>Периферія через Актюатора Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation type="unfinished">Peripheral via Actuator Set 5</translation>
+      <translation>Периферія через Актюатора Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation type="unfinished">Peripheral via Actuator Set 6</translation>
+      <translation>Периферія через Актюатора Набір 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation type="unfinished">Landing Gear</translation>
+      <translation>Блок приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/401/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/402/description</name>
     <message>
       <source>RC Roll</source>
-      <translation type="unfinished">RC Roll</translation>
+      <translation>Пульт(RC) крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/403/description</name>
     <message>
       <source>RC Pitch</source>
-      <translation type="unfinished">RC Pitch</translation>
+      <translation>Пульт(RC) тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) тяга</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/405/description</name>
     <message>
       <source>RC Yaw</source>
-      <translation type="unfinished">RC Yaw</translation>
+      <translation>Пульт(RC) рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/406/description</name>
     <message>
       <source>RC Flaps</source>
-      <translation type="unfinished">RC Flaps</translation>
+      <translation>Пульт(RC) Закрилки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/407/description</name>
     <message>
       <source>RC AUX 1</source>
-      <translation type="unfinished">RC AUX 1</translation>
+      <translation>Пульт(RC) AUX 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/408/description</name>
     <message>
       <source>RC AUX 2</source>
-      <translation type="unfinished">RC AUX 2</translation>
+      <translation>Пульт(RC) AUX 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/409/description</name>
     <message>
       <source>RC AUX 3</source>
-      <translation type="unfinished">RC AUX 3</translation>
+      <translation>Пульт(RC) AUX 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/410/description</name>
     <message>
       <source>RC AUX 4</source>
-      <translation type="unfinished">RC AUX 4</translation>
+      <translation>Пульт(RC) AUX 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/411/description</name>
     <message>
       <source>RC AUX 5</source>
-      <translation type="unfinished">RC AUX 5</translation>
+      <translation>Пульт(RC) AUX 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/412/description</name>
     <message>
       <source>RC AUX 6</source>
-      <translation type="unfinished">RC AUX 6</translation>
+      <translation>Пульт(RC) AUX 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/420/description</name>
     <message>
       <source>Gimbal Roll</source>
-      <translation type="unfinished">Gimbal Roll</translation>
+      <translation>Крен підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation type="unfinished">Gimbal Pitch</translation>
+      <translation>Тангаж підвіса для камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation type="unfinished">Gimbal Yaw</translation>
+      <translation>Рискання підвісом камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/430/description</name>
     <message>
       <source>Gripper</source>
-      <translation type="unfinished">Gripper</translation>
+      <translation>Захват</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation type="unfinished">Landing Gear Wheel</translation>
+      <translation>Колесо блоку приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC Запалювання Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC Стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/shortDesc</name>
     <message>
       <source>SIM Channel 11 Output Function</source>
-      <translation type="unfinished">SIM Channel 11 Output Function</translation>
+      <translation>Функція виводу SIM каналу 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 11. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 11. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має виходити на SIM Каналі 11. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/1/description</name>
     <message>
       <source>Constant Min</source>
-      <translation type="unfinished">Constant Min</translation>
+      <translation>Постійне Min</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/2/description</name>
     <message>
       <source>Constant Max</source>
-      <translation type="unfinished">Constant Max</translation>
+      <translation>Постійне Max</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/101/description</name>
     <message>
       <source>Motor 1</source>
-      <translation type="unfinished">Motor 1</translation>
+      <translation>Мотор 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/102/description</name>
     <message>
       <source>Motor 2</source>
-      <translation type="unfinished">Motor 2</translation>
+      <translation>Мотор 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/103/description</name>
     <message>
       <source>Motor 3</source>
-      <translation type="unfinished">Motor 3</translation>
+      <translation>Мотор 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/104/description</name>
     <message>
       <source>Motor 4</source>
-      <translation type="unfinished">Motor 4</translation>
+      <translation>Мотор 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/105/description</name>
     <message>
       <source>Motor 5</source>
-      <translation type="unfinished">Motor 5</translation>
+      <translation>Мотор 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/106/description</name>
     <message>
       <source>Motor 6</source>
-      <translation type="unfinished">Motor 6</translation>
+      <translation>Мотор 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/107/description</name>
     <message>
       <source>Motor 7</source>
-      <translation type="unfinished">Motor 7</translation>
+      <translation>Мотор 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/108/description</name>
     <message>
       <source>Motor 8</source>
-      <translation type="unfinished">Motor 8</translation>
+      <translation>Мотор 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/109/description</name>
     <message>
       <source>Motor 9</source>
-      <translation type="unfinished">Motor 9</translation>
+      <translation>Мотор 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/110/description</name>
     <message>
       <source>Motor 10</source>
-      <translation type="unfinished">Motor 10</translation>
+      <translation>Мотор 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/111/description</name>
     <message>
       <source>Motor 11</source>
-      <translation type="unfinished">Motor 11</translation>
+      <translation>Мотор 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/112/description</name>
     <message>
       <source>Motor 12</source>
-      <translation type="unfinished">Motor 12</translation>
+      <translation>Мотор 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/201/description</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>Сервопривід 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/202/description</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>Сервопривід 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/203/description</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>Сервопривід 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/204/description</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>Сервопривід 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/205/description</name>
     <message>
       <source>Servo 5</source>
-      <translation type="unfinished">Servo 5</translation>
+      <translation>Сервопривід 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/206/description</name>
     <message>
       <source>Servo 6</source>
-      <translation type="unfinished">Servo 6</translation>
+      <translation>Сервопривід 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/207/description</name>
     <message>
       <source>Servo 7</source>
-      <translation type="unfinished">Servo 7</translation>
+      <translation>Сервопривід 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/208/description</name>
     <message>
       <source>Servo 8</source>
-      <translation type="unfinished">Servo 8</translation>
+      <translation>Сервопривід 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation type="unfinished">Peripheral via Actuator Set 1</translation>
+      <translation>Периферія через Актюатора Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation type="unfinished">Peripheral via Actuator Set 2</translation>
+      <translation>Периферія через Актюатора Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation type="unfinished">Peripheral via Actuator Set 3</translation>
+      <translation>Периферія через Актюатора Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation type="unfinished">Peripheral via Actuator Set 4</translation>
+      <translation>Периферія через Актюатора Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation type="unfinished">Peripheral via Actuator Set 5</translation>
+      <translation>Периферія через Актюатора Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation type="unfinished">Peripheral via Actuator Set 6</translation>
+      <translation>Периферія через Актюатора Набір 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation type="unfinished">Landing Gear</translation>
+      <translation>Блок приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/401/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/402/description</name>
     <message>
       <source>RC Roll</source>
-      <translation type="unfinished">RC Roll</translation>
+      <translation>Пульт(RC) крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/403/description</name>
     <message>
       <source>RC Pitch</source>
-      <translation type="unfinished">RC Pitch</translation>
+      <translation>Пульт(RC) тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) тяга</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/405/description</name>
     <message>
       <source>RC Yaw</source>
-      <translation type="unfinished">RC Yaw</translation>
+      <translation>Пульт(RC) рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/406/description</name>
     <message>
       <source>RC Flaps</source>
-      <translation type="unfinished">RC Flaps</translation>
+      <translation>Пульт(RC) Закрилки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/407/description</name>
     <message>
       <source>RC AUX 1</source>
-      <translation type="unfinished">RC AUX 1</translation>
+      <translation>Пульт(RC) AUX 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/408/description</name>
     <message>
       <source>RC AUX 2</source>
-      <translation type="unfinished">RC AUX 2</translation>
+      <translation>Пульт(RC) AUX 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/409/description</name>
     <message>
       <source>RC AUX 3</source>
-      <translation type="unfinished">RC AUX 3</translation>
+      <translation>Пульт(RC) AUX 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/410/description</name>
     <message>
       <source>RC AUX 4</source>
-      <translation type="unfinished">RC AUX 4</translation>
+      <translation>Пульт(RC) AUX 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/411/description</name>
     <message>
       <source>RC AUX 5</source>
-      <translation type="unfinished">RC AUX 5</translation>
+      <translation>Пульт(RC) AUX 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/412/description</name>
     <message>
       <source>RC AUX 6</source>
-      <translation type="unfinished">RC AUX 6</translation>
+      <translation>Пульт(RC) AUX 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/420/description</name>
     <message>
       <source>Gimbal Roll</source>
-      <translation type="unfinished">Gimbal Roll</translation>
+      <translation>Крен підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation type="unfinished">Gimbal Pitch</translation>
+      <translation>Тангаж підвісу для камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation type="unfinished">Gimbal Yaw</translation>
+      <translation>Рискання підвісом камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/430/description</name>
     <message>
       <source>Gripper</source>
-      <translation type="unfinished">Gripper</translation>
+      <translation>Захват</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation type="unfinished">Landing Gear Wheel</translation>
+      <translation>Колесо блоку приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC Запалювання Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC Стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/shortDesc</name>
     <message>
       <source>SIM Channel 12 Output Function</source>
-      <translation type="unfinished">SIM Channel 12 Output Function</translation>
+      <translation>Функції виводу SIM Каналу 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 12. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 12. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має виходити на SIM Каналі 12. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/1/description</name>
     <message>
       <source>Constant Min</source>
-      <translation type="unfinished">Constant Min</translation>
+      <translation>Постійне Min</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/2/description</name>
     <message>
       <source>Constant Max</source>
-      <translation type="unfinished">Constant Max</translation>
+      <translation>Постійне Max</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/101/description</name>
     <message>
       <source>Motor 1</source>
-      <translation type="unfinished">Motor 1</translation>
+      <translation>Мотор 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/102/description</name>
     <message>
       <source>Motor 2</source>
-      <translation type="unfinished">Motor 2</translation>
+      <translation>Мотор 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/103/description</name>
     <message>
       <source>Motor 3</source>
-      <translation type="unfinished">Motor 3</translation>
+      <translation>Мотор 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/104/description</name>
     <message>
       <source>Motor 4</source>
-      <translation type="unfinished">Motor 4</translation>
+      <translation>Мотор 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/105/description</name>
     <message>
       <source>Motor 5</source>
-      <translation type="unfinished">Motor 5</translation>
+      <translation>Мотор 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/106/description</name>
     <message>
       <source>Motor 6</source>
-      <translation type="unfinished">Motor 6</translation>
+      <translation>Мотор 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/107/description</name>
     <message>
       <source>Motor 7</source>
-      <translation type="unfinished">Motor 7</translation>
+      <translation>Мотор 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/108/description</name>
     <message>
       <source>Motor 8</source>
-      <translation type="unfinished">Motor 8</translation>
+      <translation>Мотор 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/109/description</name>
     <message>
       <source>Motor 9</source>
-      <translation type="unfinished">Motor 9</translation>
+      <translation>Мотор 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/110/description</name>
     <message>
       <source>Motor 10</source>
-      <translation type="unfinished">Motor 10</translation>
+      <translation>Мотор 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/111/description</name>
     <message>
       <source>Motor 11</source>
-      <translation type="unfinished">Motor 11</translation>
+      <translation>Мотор 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/112/description</name>
     <message>
       <source>Motor 12</source>
-      <translation type="unfinished">Motor 12</translation>
+      <translation>Мотор 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/201/description</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>Сервопривід 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/202/description</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>Сервопривід 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/203/description</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>Сервопривід 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/204/description</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>Сервопривід 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/205/description</name>
     <message>
       <source>Servo 5</source>
-      <translation type="unfinished">Servo 5</translation>
+      <translation>Сервопривід 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/206/description</name>
     <message>
       <source>Servo 6</source>
-      <translation type="unfinished">Servo 6</translation>
+      <translation>Сервопривід 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/207/description</name>
     <message>
       <source>Servo 7</source>
-      <translation type="unfinished">Servo 7</translation>
+      <translation>Сервопривід 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/208/description</name>
     <message>
       <source>Servo 8</source>
-      <translation type="unfinished">Servo 8</translation>
+      <translation>Сервопривід 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation type="unfinished">Peripheral via Actuator Set 1</translation>
+      <translation>Периферія через Актюатора Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation type="unfinished">Peripheral via Actuator Set 2</translation>
+      <translation>Периферія через Актюатора Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation type="unfinished">Peripheral via Actuator Set 3</translation>
+      <translation>Периферія через Актюатора Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation type="unfinished">Peripheral via Actuator Set 4</translation>
+      <translation>Периферія через Актюатора Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation type="unfinished">Peripheral via Actuator Set 5</translation>
+      <translation>Периферія через Актюатора Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation type="unfinished">Peripheral via Actuator Set 6</translation>
+      <translation>Периферія через Актюатора Набір 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation type="unfinished">Landing Gear</translation>
+      <translation>Блок приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/401/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/402/description</name>
     <message>
       <source>RC Roll</source>
-      <translation type="unfinished">RC Roll</translation>
+      <translation>Пульт(RC) крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/403/description</name>
     <message>
       <source>RC Pitch</source>
-      <translation type="unfinished">RC Pitch</translation>
+      <translation>Пульт(RC) тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) тяга</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/405/description</name>
     <message>
       <source>RC Yaw</source>
-      <translation type="unfinished">RC Yaw</translation>
+      <translation>Пульт(RC) рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/406/description</name>
     <message>
       <source>RC Flaps</source>
-      <translation type="unfinished">RC Flaps</translation>
+      <translation>Пульт(RC) Закрилки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/407/description</name>
     <message>
       <source>RC AUX 1</source>
-      <translation type="unfinished">RC AUX 1</translation>
+      <translation>Пульт(RC) AUX 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/408/description</name>
     <message>
       <source>RC AUX 2</source>
-      <translation type="unfinished">RC AUX 2</translation>
+      <translation>Пульт(RC) AUX 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/409/description</name>
     <message>
       <source>RC AUX 3</source>
-      <translation type="unfinished">RC AUX 3</translation>
+      <translation>Пульт(RC) AUX 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/410/description</name>
     <message>
       <source>RC AUX 4</source>
-      <translation type="unfinished">RC AUX 4</translation>
+      <translation>Пульт(RC) AUX 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/411/description</name>
     <message>
       <source>RC AUX 5</source>
-      <translation type="unfinished">RC AUX 5</translation>
+      <translation>Пульт(RC) AUX 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/412/description</name>
     <message>
       <source>RC AUX 6</source>
-      <translation type="unfinished">RC AUX 6</translation>
+      <translation>Пульт(RC) AUX 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/420/description</name>
     <message>
       <source>Gimbal Roll</source>
-      <translation type="unfinished">Gimbal Roll</translation>
+      <translation>Крен підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation type="unfinished">Gimbal Pitch</translation>
+      <translation>Тангаж підвісу для камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation type="unfinished">Gimbal Yaw</translation>
+      <translation>Рискання підвісом камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/430/description</name>
     <message>
       <source>Gripper</source>
-      <translation type="unfinished">Gripper</translation>
+      <translation>Захват</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation type="unfinished">Landing Gear Wheel</translation>
+      <translation>Колесо блоку приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC Запалювання Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation/>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/shortDesc</name>
     <message>
       <source>SIM Channel 13 Output Function</source>
-      <translation type="unfinished">SIM Channel 13 Output Function</translation>
+      <translation>Функція виводу SIM Каналу 13</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 13. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 13. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має виходити на SIM Каналі 13. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/1/description</name>
     <message>
       <source>Constant Min</source>
-      <translation type="unfinished">Constant Min</translation>
+      <translation>Постійне Min</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/2/description</name>
     <message>
       <source>Constant Max</source>
-      <translation type="unfinished">Constant Max</translation>
+      <translation>Постійне Max</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/101/description</name>
     <message>
       <source>Motor 1</source>
-      <translation type="unfinished">Motor 1</translation>
+      <translation>Мотор 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/102/description</name>
     <message>
       <source>Motor 2</source>
-      <translation type="unfinished">Motor 2</translation>
+      <translation>Мотор 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/103/description</name>
     <message>
       <source>Motor 3</source>
-      <translation type="unfinished">Motor 3</translation>
+      <translation>Мотор 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/104/description</name>
     <message>
       <source>Motor 4</source>
-      <translation type="unfinished">Motor 4</translation>
+      <translation>Мотор 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/105/description</name>
     <message>
       <source>Motor 5</source>
-      <translation type="unfinished">Motor 5</translation>
+      <translation>Мотор 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/106/description</name>
     <message>
       <source>Motor 6</source>
-      <translation type="unfinished">Motor 6</translation>
+      <translation>Мотор 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/107/description</name>
     <message>
       <source>Motor 7</source>
-      <translation type="unfinished">Motor 7</translation>
+      <translation>Мотор 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/108/description</name>
     <message>
       <source>Motor 8</source>
-      <translation type="unfinished">Motor 8</translation>
+      <translation>Мотор 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/109/description</name>
     <message>
       <source>Motor 9</source>
-      <translation type="unfinished">Motor 9</translation>
+      <translation>Мотор 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/110/description</name>
     <message>
       <source>Motor 10</source>
-      <translation type="unfinished">Motor 10</translation>
+      <translation>Мотор 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/111/description</name>
     <message>
       <source>Motor 11</source>
-      <translation type="unfinished">Motor 11</translation>
+      <translation>Мотор 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/112/description</name>
     <message>
       <source>Motor 12</source>
-      <translation type="unfinished">Motor 12</translation>
+      <translation>Мотор 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/201/description</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>Сервопривід 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/202/description</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>Сервопривід 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/203/description</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>Сервопривід 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/204/description</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>Сервопривід 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/205/description</name>
     <message>
       <source>Servo 5</source>
-      <translation type="unfinished">Servo 5</translation>
+      <translation>Сервопривід 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/206/description</name>
     <message>
       <source>Servo 6</source>
-      <translation type="unfinished">Servo 6</translation>
+      <translation>Сервопривід 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/207/description</name>
     <message>
       <source>Servo 7</source>
-      <translation type="unfinished">Servo 7</translation>
+      <translation>Сервопривід 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/208/description</name>
     <message>
       <source>Servo 8</source>
-      <translation type="unfinished">Servo 8</translation>
+      <translation>Сервопривід 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation type="unfinished">Peripheral via Actuator Set 1</translation>
+      <translation>Периферія через Актюатора Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation type="unfinished">Peripheral via Actuator Set 2</translation>
+      <translation>Периферія через Актюатора Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation type="unfinished">Peripheral via Actuator Set 3</translation>
+      <translation>Периферія через Актюатора Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation type="unfinished">Peripheral via Actuator Set 4</translation>
+      <translation>Периферія через Актюатора Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation type="unfinished">Peripheral via Actuator Set 5</translation>
+      <translation>Периферія через Актюатора Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation type="unfinished">Peripheral via Actuator Set 6</translation>
+      <translation>Периферія через Актюатора Набір 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation type="unfinished">Landing Gear</translation>
+      <translation>Блок приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/401/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/402/description</name>
     <message>
       <source>RC Roll</source>
-      <translation type="unfinished">RC Roll</translation>
+      <translation>Пульт(RC) крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/403/description</name>
     <message>
       <source>RC Pitch</source>
-      <translation type="unfinished">RC Pitch</translation>
+      <translation>Пульт(RC) тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) тяга</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/405/description</name>
     <message>
       <source>RC Yaw</source>
-      <translation type="unfinished">RC Yaw</translation>
+      <translation>Пульт(RC) рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/406/description</name>
     <message>
       <source>RC Flaps</source>
-      <translation type="unfinished">RC Flaps</translation>
+      <translation>Пульт(RC) Закрилки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/407/description</name>
     <message>
       <source>RC AUX 1</source>
-      <translation type="unfinished">RC AUX 1</translation>
+      <translation>Пульт(RC) AUX 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/408/description</name>
     <message>
       <source>RC AUX 2</source>
-      <translation type="unfinished">RC AUX 2</translation>
+      <translation>Пульт(RC) AUX 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/409/description</name>
     <message>
       <source>RC AUX 3</source>
-      <translation type="unfinished">RC AUX 3</translation>
+      <translation>Пульт(RC) AUX 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/410/description</name>
     <message>
       <source>RC AUX 4</source>
-      <translation type="unfinished">RC AUX 4</translation>
+      <translation>Пульт(RC) AUX 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/411/description</name>
     <message>
       <source>RC AUX 5</source>
-      <translation type="unfinished">RC AUX 5</translation>
+      <translation>Пульт(RC) AUX 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/412/description</name>
     <message>
       <source>RC AUX 6</source>
-      <translation type="unfinished">RC AUX 6</translation>
+      <translation>Пульт(RC) AUX 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/420/description</name>
     <message>
       <source>Gimbal Roll</source>
-      <translation type="unfinished">Gimbal Roll</translation>
+      <translation>Крен підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation type="unfinished">Gimbal Pitch</translation>
+      <translation>Тангаж підвісу для камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation type="unfinished">Gimbal Yaw</translation>
+      <translation>Рискання підвісом камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/430/description</name>
     <message>
       <source>Gripper</source>
-      <translation type="unfinished">Gripper</translation>
+      <translation>Захват</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation type="unfinished">Landing Gear Wheel</translation>
+      <translation>Колесо блоку приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC Запалювання Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC Стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/shortDesc</name>
     <message>
       <source>SIM Channel 14 Output Function</source>
-      <translation type="unfinished">SIM Channel 14 Output Function</translation>
+      <translation>Функція виводу SIM Каналу 14</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 14. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 14. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має виходити на SIM Каналі 14. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/1/description</name>
     <message>
       <source>Constant Min</source>
-      <translation type="unfinished">Constant Min</translation>
+      <translation>Постійне Min</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/2/description</name>
     <message>
       <source>Constant Max</source>
-      <translation type="unfinished">Constant Max</translation>
+      <translation>Постійне Max</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/101/description</name>
     <message>
       <source>Motor 1</source>
-      <translation type="unfinished">Motor 1</translation>
+      <translation>Мотор 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/102/description</name>
     <message>
       <source>Motor 2</source>
-      <translation type="unfinished">Motor 2</translation>
+      <translation>Мотор 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/103/description</name>
     <message>
       <source>Motor 3</source>
-      <translation type="unfinished">Motor 3</translation>
+      <translation>Мотор 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/104/description</name>
     <message>
       <source>Motor 4</source>
-      <translation type="unfinished">Motor 4</translation>
+      <translation>Мотор 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/105/description</name>
     <message>
       <source>Motor 5</source>
-      <translation type="unfinished">Motor 5</translation>
+      <translation>Мотор 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/106/description</name>
     <message>
       <source>Motor 6</source>
-      <translation type="unfinished">Motor 6</translation>
+      <translation>Мотор 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/107/description</name>
     <message>
       <source>Motor 7</source>
-      <translation type="unfinished">Motor 7</translation>
+      <translation>Мотор 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/108/description</name>
     <message>
       <source>Motor 8</source>
-      <translation type="unfinished">Motor 8</translation>
+      <translation>Мотор 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/109/description</name>
     <message>
       <source>Motor 9</source>
-      <translation type="unfinished">Motor 9</translation>
+      <translation>Мотор 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/110/description</name>
     <message>
       <source>Motor 10</source>
-      <translation type="unfinished">Motor 10</translation>
+      <translation>Мотор 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/111/description</name>
     <message>
       <source>Motor 11</source>
-      <translation type="unfinished">Motor 11</translation>
+      <translation>Мотор 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/112/description</name>
     <message>
       <source>Motor 12</source>
-      <translation type="unfinished">Motor 12</translation>
+      <translation>Мотор 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/201/description</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>Сервопривід 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/202/description</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>Сервопривід 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/203/description</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>Сервопривід 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/204/description</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>Сервопривід 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/205/description</name>
     <message>
       <source>Servo 5</source>
-      <translation type="unfinished">Servo 5</translation>
+      <translation>Сервопривід 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/206/description</name>
     <message>
       <source>Servo 6</source>
-      <translation type="unfinished">Servo 6</translation>
+      <translation>Сервопривід 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/207/description</name>
     <message>
       <source>Servo 7</source>
-      <translation type="unfinished">Servo 7</translation>
+      <translation>Сервопривід 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/208/description</name>
     <message>
       <source>Servo 8</source>
-      <translation type="unfinished">Servo 8</translation>
+      <translation>Сервопривід 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation type="unfinished">Peripheral via Actuator Set 1</translation>
+      <translation>Периферія через Актюатора Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation type="unfinished">Peripheral via Actuator Set 2</translation>
+      <translation>Периферія через Актюатора Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation type="unfinished">Peripheral via Actuator Set 3</translation>
+      <translation>Периферія через Актюатора Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation type="unfinished">Peripheral via Actuator Set 4</translation>
+      <translation>Периферія через Актюатора Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation type="unfinished">Peripheral via Actuator Set 5</translation>
+      <translation/>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation type="unfinished">Peripheral via Actuator Set 6</translation>
+      <translation>Периферія через Актюатора Набір 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation type="unfinished">Landing Gear</translation>
+      <translation>Блок приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/401/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/402/description</name>
     <message>
       <source>RC Roll</source>
-      <translation type="unfinished">RC Roll</translation>
+      <translation>Пульт(RC) крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/403/description</name>
     <message>
       <source>RC Pitch</source>
-      <translation type="unfinished">RC Pitch</translation>
+      <translation>Пульт(RC) тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) тяга</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/405/description</name>
     <message>
       <source>RC Yaw</source>
-      <translation type="unfinished">RC Yaw</translation>
+      <translation>Пульт(RC) рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/406/description</name>
     <message>
       <source>RC Flaps</source>
-      <translation type="unfinished">RC Flaps</translation>
+      <translation>Пульт(RC) Закрилки</translation>
     </message>
   </context>
   <context>
@@ -3292,7 +3288,7 @@
     <name>/parameters/PWM_MAIN_FUNC15/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -3439,84 +3435,84 @@
     <name>/parameters/PWM_MAIN_FUNC15/values/207/description</name>
     <message>
       <source>Servo 7</source>
-      <translation type="unfinished">Servo 7</translation>
+      <translation>Сервопривід 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/208/description</name>
     <message>
       <source>Servo 8</source>
-      <translation type="unfinished">Servo 8</translation>
+      <translation>Сервопривід 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation type="unfinished">Peripheral via Actuator Set 1</translation>
+      <translation>Периферія через Актюатора Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation type="unfinished">Peripheral via Actuator Set 2</translation>
+      <translation>Периферія через Актюатора Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation type="unfinished">Peripheral via Actuator Set 3</translation>
+      <translation>Периферія через Актюатора Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation type="unfinished">Peripheral via Actuator Set 4</translation>
+      <translation>Периферія через Актюатора Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation type="unfinished">Peripheral via Actuator Set 5</translation>
+      <translation>Периферія через Актюатора Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation type="unfinished">Peripheral via Actuator Set 6</translation>
+      <translation>Периферія через Актюатора Набір 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation type="unfinished">Landing Gear</translation>
+      <translation>Блок приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/401/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/402/description</name>
     <message>
       <source>RC Roll</source>
-      <translation type="unfinished">RC Roll</translation>
+      <translation>Пульт(RC) крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/403/description</name>
     <message>
       <source>RC Pitch</source>
-      <translation type="unfinished">RC Pitch</translation>
+      <translation>Пульт(RC) тангаж</translation>
     </message>
   </context>
   <context>
@@ -3530,7 +3526,7 @@
     <name>/parameters/PWM_MAIN_FUNC15/values/405/description</name>
     <message>
       <source>RC Yaw</source>
-      <translation type="unfinished">RC Yaw</translation>
+      <translation>Пульт(RC) рискання</translation>
     </message>
   </context>
   <context>
@@ -3663,7 +3659,7 @@
     <name>/parameters/PWM_MAIN_FUNC16/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -4034,7 +4030,7 @@
     <name>/parameters/PWM_MAIN_FUNC2/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -4405,7 +4401,7 @@
     <name>/parameters/PWM_MAIN_FUNC3/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -4776,7 +4772,7 @@
     <name>/parameters/PWM_MAIN_FUNC4/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -5147,7 +5143,7 @@
     <name>/parameters/PWM_MAIN_FUNC5/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -5518,7 +5514,7 @@
     <name>/parameters/PWM_MAIN_FUNC6/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -5889,7 +5885,7 @@
     <name>/parameters/PWM_MAIN_FUNC7/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -6260,7 +6256,7 @@
     <name>/parameters/PWM_MAIN_FUNC8/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -6631,7 +6627,7 @@
     <name>/parameters/PWM_MAIN_FUNC9/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -7471,7 +7467,7 @@
     <name>/parameters/ATT_ACC_COMP/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -7506,7 +7502,7 @@
     <name>/parameters/ATT_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -7576,7 +7572,7 @@
     <name>/parameters/ATT_MAG_DECL_A/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -7772,7 +7768,7 @@
     <name>/parameters/FW_AT_START/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -7919,7 +7915,7 @@
     <name>/parameters/MC_AT_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -7954,7 +7950,7 @@
     <name>/parameters/MC_AT_START/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -8150,7 +8146,7 @@
     <name>/parameters/BAT1_SOURCE/values/-1/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -8381,7 +8377,7 @@
     <name>/parameters/BAT2_SOURCE/values/-1/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -8612,7 +8608,7 @@
     <name>/parameters/BAT3_SOURCE/values/-1/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9123,7 +9119,7 @@
     <name>/parameters/COM_ARM_AUTH_REQ/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9179,7 +9175,7 @@
     <name>/parameters/COM_ARM_CHK_ESCS/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9207,7 +9203,7 @@
     <name>/parameters/COM_ARM_HFLT_CHK/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9263,7 +9259,7 @@
     <name>/parameters/COM_ARM_MAG_STR/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9298,7 +9294,7 @@
     <name>/parameters/COM_ARM_MIS_REQ/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9319,14 +9315,14 @@
     <name>/parameters/COM_ARM_ODID/longDesc</name>
     <message>
       <source>This check detects if the Open Drone ID system is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.</source>
-      <translation type="unfinished">This check detects if the Open Drone ID system is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.</translation>
+      <translation>Ця перевірка визначить, чи відсутня система ID Open Drone ID. Залежно від значення параметру, перевірка може бути відключена, працюватиме тільки попередження або відхилення взведення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_ODID/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9354,14 +9350,14 @@
     <name>/parameters/COM_ARM_SDCARD/longDesc</name>
     <message>
       <source>This check detects if the FMU SD card is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.</source>
-      <translation type="unfinished">This check detects if the FMU SD card is missing. Depending on the value of the parameter, the check can be disabled, warn only or deny arming.</translation>
+      <translation>Ця перевірка визначить, чи відсутня FMU SD картка. Залежно від значення параметру, перевірка може бути відключена, працюватиме тільки попередження або відхилення взведення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_SDCARD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9396,7 +9392,7 @@
     <name>/parameters/COM_ARM_SWISBTN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9438,7 +9434,7 @@
     <name>/parameters/COM_ARM_WO_GPS/values/2/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9466,7 +9462,7 @@
     <name>/parameters/COM_DISARM_LAND/longDesc</name>
     <message>
       <source>A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be automatically disarmed in case a landing situation has been detected during this period. A zero or negative value means that automatic disarming triggered by landing detection is disabled.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be automatically disarmed in case a landing situation has been detected during this period. A zero or negative value means that automatic disarming triggered by landing detection is disabled.</translation>
+      <translation>Не нульове позитивне значення уточнює час перерви у секундах, після якого апарат буде автоматично охолощений холощений у випадку, якщо було виявлено ситуацію приземлення протягом цього часу. Нуль або від'ємне значення означає, що автоматичне охолощення, яке викликане детекцією приземлення, є вимкнене.</translation>
     </message>
   </context>
   <context>
@@ -9487,7 +9483,7 @@
     <name>/parameters/COM_DISARM_MAN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -9509,6 +9505,41 @@
     <message>
       <source>A non-zero, positive value specifies the time in seconds, within which the vehicle is expected to take off after arming. In case the vehicle didn't takeoff within the timeout it disarms again. A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.</source>
       <translation type="unfinished">A non-zero, positive value specifies the time in seconds, within which the vehicle is expected to take off after arming. In case the vehicle didn't takeoff within the timeout it disarms again. A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DLL_EXCEPT/shortDesc</name>
+    <message>
+      <source>Datalink loss exceptions</source>
+      <translation type="unfinished">Datalink loss exceptions</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DLL_EXCEPT/longDesc</name>
+    <message>
+      <source>Specify modes in which datalink loss is ignored and the failsafe action not triggered.</source>
+      <translation type="unfinished">Specify modes in which datalink loss is ignored and the failsafe action not triggered.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DLL_EXCEPT/bitmask/0/description</name>
+    <message>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DLL_EXCEPT/bitmask/1/description</name>
+    <message>
+      <source>Hold</source>
+      <translation type="unfinished">Hold</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_DLL_EXCEPT/bitmask/2/description</name>
+    <message>
+      <source>Offboard</source>
+      <translation type="unfinished">Offboard</translation>
     </message>
   </context>
   <context>
@@ -10712,7 +10743,7 @@
     <name>/parameters/COM_FORCE_SAFETY/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -10768,7 +10799,7 @@
     <name>/parameters/COM_HOME_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -10796,7 +10827,7 @@
     <name>/parameters/COM_HOME_IN_AIR/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -10824,7 +10855,7 @@
     <name>/parameters/COM_IMB_PROP_ACT/values/-1/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -10866,7 +10897,7 @@
     <name>/parameters/COM_LKDOWN_TKO/longDesc</name>
     <message>
       <source>A non-zero, positive value specifies the timeframe in seconds within failure detector is allowed to disarm the vehicle if attitude exceeds the limits defined in FD_FAIL_P and FD_FAIL_R. The check is not executed for flight modes that do support acrobatic maneuvers, e.g: Acro (MC/FW) and Manual (FW). A zero or negative value means that the check is disabled.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the timeframe in seconds within failure detector is allowed to disarm the vehicle if attitude exceeds the limits defined in FD_FAIL_P and FD_FAIL_R. The check is not executed for flight modes that do support acrobatic maneuvers, e.g: Acro (MC/FW) and Manual (FW). A zero or negative value means that the check is disabled.</translation>
+      <translation>Не нульове, позитивне значення уточнює часові рамки в секундах у детекторі збоїв, якому дозволяється охолостити апарат, якщо стан орієнтації перевищує межі, визначені в FD_FAIL_P і FD_FAIL_R. Ця перевірка не виконується для режимів польоту, які підтримують акробатичні маневри.: Acro (MC/FW) та Ручний (FW). Нульове або від'ємне значення означає, що перевірка відключена.</translation>
     </message>
   </context>
   <context>
@@ -11027,14 +11058,14 @@
     <name>/parameters/COM_MODE_ARM_CHK/longDesc</name>
     <message>
       <source>By default disabled for safety reasons</source>
-      <translation type="unfinished">By default disabled for safety reasons</translation>
+      <translation>За замовчуванням вимкнено з міркувань безпеки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE_ARM_CHK/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11062,7 +11093,7 @@
     <name>/parameters/COM_MOT_TEST_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11174,7 +11205,7 @@
     <name>/parameters/COM_PARACHUTE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11328,7 +11359,7 @@
     <name>/parameters/COM_PREARM_MODE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11454,7 +11485,7 @@
     <name>/parameters/COM_RC_IN_MODE/longDesc</name>
     <message>
       <source>A value of 0 enables RC transmitter control (only). A valid RC transmitter calibration is required. A value of 1 allows joystick control only. RC input handling and the associated checks are disabled. A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid. A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot. A value of 4 ignores any stick input.</source>
-      <translation type="unfinished">A value of 0 enables RC transmitter control (only). A valid RC transmitter calibration is required. A value of 1 allows joystick control only. RC input handling and the associated checks are disabled. A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid. A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot. A value of 4 ignores any stick input.</translation>
+      <translation>Значення 0 вимикає лише управління через передавач пульта(RC). Потрібне належне калібрування трансмітера RC (пульта). Значення 1 дозволяє керувати лише джойстиком. Введення даних пультом(RC) і пов'язані перевірки вимкнені. Значення 2 дозволяє роботу або трансмітера пульта(RC) або внесення даних джойстиком. Використовується перший допустимий спосіб введення даних; відбудеться повернення до інших джерел, якщо вхідний потік даних стає недійсним. Значення 3 дозволяє введеня з пульта(RC) або джойстика. Перше доступне джерело вибирається і використовується до перезавантаження. Значення 4 ігнорує будь-яке введення даних стіками.</translation>
     </message>
   </context>
   <context>
@@ -11489,7 +11520,7 @@
     <name>/parameters/COM_RC_IN_MODE/values/4/description</name>
     <message>
       <source>Stick input disabled</source>
-      <translation type="unfinished">Stick input disabled</translation>
+      <translation>Вимкнено введення стіками</translation>
     </message>
   </context>
   <context>
@@ -11608,7 +11639,7 @@
     <name>/parameters/COM_THROW_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11748,7 +11779,7 @@
     <name>/parameters/NAV_DLL_ACT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -11797,7 +11828,7 @@
     <name>/parameters/NAV_RCL_ACT/longDesc</name>
     <message>
       <source>The RC loss failsafe will only be entered after a timeout, set by COM_RC_LOSS_T in seconds. If RC input checks have been disabled by setting the COM_RC_IN_MODE param it will not be triggered.</source>
-      <translation type="unfinished">The RC loss failsafe will only be entered after a timeout, set by COM_RC_LOSS_T in seconds. If RC input checks have been disabled by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
+      <translation>Втрата аварійного режиму пульта(RC) буде введено лише після перерви, встановлених за допомогою COM_RC_LOSS_T за секунди. Якщо перевірки введення даних з пульта(RC) було вимкнено шляхом встановлення COM_RC_IN_MODE param, то він не буде запущений.</translation>
     </message>
   </context>
   <context>
@@ -12035,7 +12066,7 @@
     <name>/parameters/EKF2_BARO_CTRL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -12182,7 +12213,7 @@
     <name>/parameters/EKF2_DRAG_CTRL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -12224,7 +12255,7 @@
     <name>/parameters/EKF2_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -12455,7 +12486,7 @@
     <name>/parameters/EKF2_FUSE_BETA/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -12805,7 +12836,7 @@
     <name>/parameters/EKF2_HGT_REF/longDesc</name>
     <message>
       <source>When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level. If GPS is set as reference but altitude fusion is disabled in EKF2_GPS_CTRL, the GPS altitude is still used to initiaize the bias of the other height sensors.</source>
-      <translation type="unfinished">When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level. If GPS is set as reference but altitude fusion is disabled in EKF2_GPS_CTRL, the GPS altitude is still used to initiaize the bias of the other height sensors.</translation>
+      <translation>Якщо одночасно ввімкнути декілька джерел даних про висоту, визначення висоти завжди буде близьке до джерела відносної висоти, обраної цим параметром. Датчик радіусу та параметри камери мають використовуватися тільки при роботі над плоскою поверхнею, оскільки точка відліку локального NED буде рухатися вгору і вниз разом з рівнем поверхні. Якщо GPS встановлено відносно, але підрахунок висоти вимкнено в EKF2_GPS_CTRL, висота за GPS все одно використовується, щоб внести дані про зміщення інших датчиків висоти.</translation>
     </message>
   </context>
   <context>
@@ -17186,8 +17217,8 @@
   <context>
     <name>/parameters/CA_METHOD/longDesc</name>
     <message>
-      <source>Selects the algorithm and desaturation method. If set to Automtic, the selection is based on the airframe (CA_AIRFRAME).</source>
-      <translation type="unfinished">Selects the algorithm and desaturation method. If set to Automtic, the selection is based on the airframe (CA_AIRFRAME).</translation>
+      <source>Selects the algorithm and desaturation method. If set to Automatic, the selection is based on the airframe (CA_AIRFRAME).</source>
+      <translation type="unfinished">Selects the algorithm and desaturation method. If set to Automatic, the selection is based on the airframe (CA_AIRFRAME).</translation>
     </message>
   </context>
   <context>
@@ -21631,8 +21662,8 @@
   <context>
     <name>/parameters/LNDFW_ROT_MAX/longDesc</name>
     <message>
-      <source>Maximum allowed norm of the angular velocity in the landed state.</source>
-      <translation type="unfinished">Maximum allowed norm of the angular velocity in the landed state.</translation>
+      <source>Maximum allowed norm of the angular velocity in the landed state. Only used if neither airspeed nor groundspeed can be used for landing detection.</source>
+      <translation type="unfinished">Maximum allowed norm of the angular velocity in the landed state. Only used if neither airspeed nor groundspeed can be used for landing detection.</translation>
     </message>
   </context>
   <context>
@@ -25061,8 +25092,8 @@
   <context>
     <name>/parameters/MPC_LAND_ALT3/longDesc</name>
     <message>
-      <source>Below this altitude descending velocity gets limited to "MPC_LAND_CRWL", if LIDAR available. No effect if LIDAR not available</source>
-      <translation type="unfinished">Below this altitude descending velocity gets limited to "MPC_LAND_CRWL", if LIDAR available. No effect if LIDAR not available</translation>
+      <source>If a valid distance sensor measurement to the ground is available, limit descending velocity to "MPC_LAND_CRWL" below this altitude.</source>
+      <translation type="unfinished">If a valid distance sensor measurement to the ground is available, limit descending velocity to "MPC_LAND_CRWL" below this altitude.</translation>
     </message>
   </context>
   <context>
@@ -25208,22 +25239,29 @@
   <context>
     <name>/parameters/MPC_THR_CURVE/longDesc</name>
     <message>
-      <source>Defines how the throttle stick is mapped to collective thrust in Stabilized mode. Rescale to hover thrust: Stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). No Rescale: Directly map the stick 1:1 to the output. Can be useful with very low hover thrust which leads to much distortion and the upper half getting sensitive. With MPC_THR_HOVER 0.5 both modes are the same.</source>
-      <translation type="unfinished">Defines how the throttle stick is mapped to collective thrust in Stabilized mode. Rescale to hover thrust: Stick input is linearly rescaled, such that a centered stick corresponds to the hover throttle (see MPC_THR_HOVER). No Rescale: Directly map the stick 1:1 to the output. Can be useful with very low hover thrust which leads to much distortion and the upper half getting sensitive. With MPC_THR_HOVER 0.5 both modes are the same.</translation>
+      <source>Defines how the throttle stick is mapped to collective thrust in Stabilized mode. Rescale to hover thrust estimate: Stick input is linearly rescaled, such that a centered throttle stick corresponds to the hover thrust estimator's output. No rescale: Directly map the stick 1:1 to the output. Can be useful with very low hover thrust which leads to much distortion and the upper half getting sensitive. Rescale to hover thrust parameter: Similar to rescaling to the hover thrust estimate, but it uses the hover thrust parameter value (see MPC_THR_HOVER) instead of estimated value. With MPC_THR_HOVER 0.5 it's equivalent to No rescale.</source>
+      <translation type="unfinished">Defines how the throttle stick is mapped to collective thrust in Stabilized mode. Rescale to hover thrust estimate: Stick input is linearly rescaled, such that a centered throttle stick corresponds to the hover thrust estimator's output. No rescale: Directly map the stick 1:1 to the output. Can be useful with very low hover thrust which leads to much distortion and the upper half getting sensitive. Rescale to hover thrust parameter: Similar to rescaling to the hover thrust estimate, but it uses the hover thrust parameter value (see MPC_THR_HOVER) instead of estimated value. With MPC_THR_HOVER 0.5 it's equivalent to No rescale.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_THR_CURVE/values/0/description</name>
     <message>
-      <source>Rescale to hover thrust</source>
-      <translation type="unfinished">Rescale to hover thrust</translation>
+      <source>Rescale to estimate</source>
+      <translation type="unfinished">Rescale to estimate</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_THR_CURVE/values/1/description</name>
     <message>
-      <source>No Rescale</source>
-      <translation type="unfinished">No Rescale</translation>
+      <source>No rescale</source>
+      <translation type="unfinished">No rescale</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/MPC_THR_CURVE/values/2/description</name>
+    <message>
+      <source>Rescale to parameter</source>
+      <translation type="unfinished">Rescale to parameter</translation>
     </message>
   </context>
   <context>
@@ -25334,15 +25372,15 @@
   <context>
     <name>/parameters/MPC_USE_HTE/shortDesc</name>
     <message>
-      <source>Hover thrust estimator</source>
-      <translation type="unfinished">Hover thrust estimator</translation>
+      <source>Use hover thrust estimate for altitude control</source>
+      <translation type="unfinished">Use hover thrust estimate for altitude control</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_USE_HTE/longDesc</name>
     <message>
-      <source>Disable to use the fixed parameter MPC_THR_HOVER Enable to use the hover thrust estimator</source>
-      <translation type="unfinished">Disable to use the fixed parameter MPC_THR_HOVER Enable to use the hover thrust estimator</translation>
+      <source>Disable to use the fixed parameter MPC_THR_HOVER instead of the hover thrust estimate in the position controller. This parameter does not influence Stabilized mode throttle curve (see MPC_THR_CURVE).</source>
+      <translation type="unfinished">Disable to use the fixed parameter MPC_THR_HOVER instead of the hover thrust estimate in the position controller. This parameter does not influence Stabilized mode throttle curve (see MPC_THR_CURVE).</translation>
     </message>
   </context>
   <context>
@@ -32742,6 +32780,13 @@
     <message>
       <source>Return via direct path to closest destination: home, start of mission landing pattern or safe point. If the destination is a mission landing pattern, follow the pattern to land.</source>
       <translation type="unfinished">Return via direct path to closest destination: home, start of mission landing pattern or safe point. If the destination is a mission landing pattern, follow the pattern to land.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RTL_TYPE/values/4/description</name>
+    <message>
+      <source>Return to the planned mission landing, or to home via the reverse mission path, whichever is closer by counting waypoints. Do not consider rally points.</source>
+      <translation type="unfinished">Return to the planned mission landing, or to home via the reverse mission path, whichever is closer by counting waypoints. Do not consider rally points.</translation>
     </message>
   </context>
   <context>
@@ -41663,24 +41708,31 @@
     </message>
   </context>
   <context>
+    <name>/parameters/SYS_DM_BACKEND/longDesc</name>
+    <message>
+      <source>If the board supports persistent storage (i.e., the KConfig variable DATAMAN_PERSISTENT_STORAGE is set), the 'Default storage' backend uses a file on persistent storage. If not supported, this backend uses non-persistent storage in RAM.</source>
+      <translation type="unfinished">If the board supports persistent storage (i.e., the KConfig variable DATAMAN_PERSISTENT_STORAGE is set), the 'Default storage' backend uses a file on persistent storage. If not supported, this backend uses non-persistent storage in RAM.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/SYS_DM_BACKEND/values/-1/description</name>
     <message>
-      <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <source>Dataman disabled</source>
+      <translation type="unfinished">Dataman disabled</translation>
     </message>
   </context>
   <context>
     <name>/parameters/SYS_DM_BACKEND/values/0/description</name>
     <message>
-      <source>default (SD card)</source>
-      <translation type="unfinished">default (SD card)</translation>
+      <source>Default storage</source>
+      <translation type="unfinished">Default storage</translation>
     </message>
   </context>
   <context>
     <name>/parameters/SYS_DM_BACKEND/values/1/description</name>
     <message>
-      <source>RAM (not persistent)</source>
-      <translation type="unfinished">RAM (not persistent)</translation>
+      <source>RAM storage</source>
+      <translation type="unfinished">RAM storage</translation>
     </message>
   </context>
   <context>
@@ -44241,8 +44293,8 @@
   <context>
     <name>/parameters/VT_FWD_THRUST_EN/longDesc</name>
     <message>
-      <source>This feature can be used to avoid the plane having to pitch nose down in order to move forward. Prevents large, negative lift from pitching nose down into wind. Fixed-wing forward actuators refers to puller/pusher (standard VTOL), or forward-tilt (tiltrotor VTOL). Only active if demanded down pitch is below VT_PITCH_MIN. Use VT_FWD_THRUST_SC to tune it. Descend mode is treated as Landing too. Only active (if enabled) in Altitude, Position and Auto modes, not in Stabilized.</source>
-      <translation type="unfinished">This feature can be used to avoid the plane having to pitch nose down in order to move forward. Prevents large, negative lift from pitching nose down into wind. Fixed-wing forward actuators refers to puller/pusher (standard VTOL), or forward-tilt (tiltrotor VTOL). Only active if demanded down pitch is below VT_PITCH_MIN. Use VT_FWD_THRUST_SC to tune it. Descend mode is treated as Landing too. Only active (if enabled) in Altitude, Position and Auto modes, not in Stabilized.</translation>
+      <source>Prevents downforce from pitching the body down when facing wind. Uses puller/pusher (standard VTOL), or forward-tilt (tiltrotor VTOL) to accelerate forward instead. Only active if demanded pitch  is below VT_PITCH_MIN. Use VT_FWD_THRUST_SC to tune it. Descend mode is treated as Landing too. Only active (if enabled) in height-rate controlled modes.</source>
+      <translation type="unfinished">Prevents downforce from pitching the body down when facing wind. Uses puller/pusher (standard VTOL), or forward-tilt (tiltrotor VTOL) to accelerate forward instead. Only active if demanded pitch  is below VT_PITCH_MIN. Use VT_FWD_THRUST_SC to tune it. Descend mode is treated as Landing too. Only active (if enabled) in height-rate controlled modes.</translation>
     </message>
   </context>
   <context>
@@ -44262,15 +44314,15 @@
   <context>
     <name>/parameters/VT_FWD_THRUST_EN/values/2/description</name>
     <message>
-      <source>Enabled if distance to ground above MPC_LAND_ALT1</source>
-      <translation type="unfinished">Enabled if distance to ground above MPC_LAND_ALT1</translation>
+      <source>Enabled if above MPC_LAND_ALT1</source>
+      <translation type="unfinished">Enabled if above MPC_LAND_ALT1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VT_FWD_THRUST_EN/values/3/description</name>
     <message>
-      <source>Enabled if distance to ground above MPC_LAND_ALT2</source>
-      <translation type="unfinished">Enabled if distance to ground above MPC_LAND_ALT2</translation>
+      <source>Enabled if above MPC_LAND_ALT2</source>
+      <translation type="unfinished">Enabled if above MPC_LAND_ALT2</translation>
     </message>
   </context>
   <context>
@@ -44283,29 +44335,29 @@
   <context>
     <name>/parameters/VT_FWD_THRUST_EN/values/5/description</name>
     <message>
-      <source>Enabled if distance to ground above MPC_LAND_ALT1 (except LANDING)</source>
-      <translation type="unfinished">Enabled if distance to ground above MPC_LAND_ALT1 (except LANDING)</translation>
+      <source>Enabled if above MPC_LAND_ALT1 (except LANDING)</source>
+      <translation type="unfinished">Enabled if above MPC_LAND_ALT1 (except LANDING)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VT_FWD_THRUST_EN/values/6/description</name>
     <message>
-      <source>Enabled if distance to ground above MPC_LAND_ALT2 (except LANDING)</source>
-      <translation type="unfinished">Enabled if distance to ground above MPC_LAND_ALT2 (except LANDING)</translation>
+      <source>Enabled if above MPC_LAND_ALT2 (except LANDING)</source>
+      <translation type="unfinished">Enabled if above MPC_LAND_ALT2 (except LANDING)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VT_FWD_THRUST_SC/shortDesc</name>
     <message>
-      <source>Fixed-wing actuation thrust scale for hover forward flight</source>
-      <translation type="unfinished">Fixed-wing actuation thrust scale for hover forward flight</translation>
+      <source>Fixed-wing actuation thrust scale in hover</source>
+      <translation type="unfinished">Fixed-wing actuation thrust scale in hover</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VT_FWD_THRUST_SC/longDesc</name>
     <message>
-      <source>Scale applied to the demanded down-pitch to get the fixed-wing forward actuation in hover mode. Enabled via VT_FWD_THRUST_EN.</source>
-      <translation type="unfinished">Scale applied to the demanded down-pitch to get the fixed-wing forward actuation in hover mode. Enabled via VT_FWD_THRUST_EN.</translation>
+      <source>Scale applied to the demanded pitch (below VT_PITCH_MIN) to get the fixed-wing forward actuation in hover mode. Enabled via VT_FWD_THRUST_EN.</source>
+      <translation type="unfinished">Scale applied to the demanded pitch (below VT_PITCH_MIN) to get the fixed-wing forward actuation in hover mode. Enabled via VT_FWD_THRUST_EN.</translation>
     </message>
   </context>
   <context>
@@ -44715,171 +44767,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Mount</name>
+    <name>$globals/group/Follow target</name>
     <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN GNSS</name>
-    <message>
-      <source>UAVCAN GNSS</source>
-      <translation type="unfinished">UAVCAN GNSS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return Mode</name>
-    <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
-    <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN Motor Parameters</name>
-    <message>
-      <source>UAVCAN Motor Parameters</source>
-      <translation type="unfinished">UAVCAN Motor Parameters</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW TECS</name>
-    <message>
-      <source>FW TECS</source>
-      <translation type="unfinished">FW TECS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SD Logging</name>
-    <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Calibration</name>
-    <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Path Control</name>
-    <message>
-      <source>FW Path Control</source>
-      <translation type="unfinished">FW Path Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Rate Control</name>
-    <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
     </message>
   </context>
   <context>
@@ -44890,199 +44781,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Ackermann</name>
-    <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/GPS</name>
-    <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Attitude Q estimator</name>
-    <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Payload Deliverer</name>
-    <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Manual Control</name>
-    <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Thermal Compensation</name>
-    <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Events</name>
-    <message>
-      <source>Events</source>
-      <translation type="unfinished">Events</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulation In Hardware</name>
-    <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Precision Land</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Geometry</name>
-    <message>
-      <source>FW Geometry</source>
-      <translation type="unfinished">FW Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Rover Position Control (Deprecated)</name>
     <message>
       <source>Rover Position Control (Deprecated)</source>
       <translation type="unfinished">Rover Position Control (Deprecated)</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Launch detection</name>
-    <message>
-      <source>FW Launch detection</source>
-      <translation type="unfinished">FW Launch detection</translation>
     </message>
   </context>
   <context>
@@ -45100,66 +44802,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Miscellaneous</name>
     <message>
       <source>Miscellaneous</source>
       <translation type="unfinished">Miscellaneous</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulator</name>
-    <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
     </message>
   </context>
   <context>
@@ -45170,24 +44816,73 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Land Detector</name>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
     <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Runway Takeoff</name>
+    <name>$globals/group/Hover Thrust Estimator</name>
     <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/VTOL Takeoff</name>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
     <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN Motor Parameters</name>
+    <message>
+      <source>UAVCAN Motor Parameters</source>
+      <translation type="unfinished">UAVCAN Motor Parameters</translation>
     </message>
   </context>
   <context>
@@ -45198,31 +44893,73 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/EKF2</name>
+    <name>$globals/group/FW Launch detection</name>
     <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
+      <source>FW Launch detection</source>
+      <translation type="unfinished">FW Launch detection</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Differential</name>
+    <name>$globals/group/UUV Position Control</name>
     <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/VTOL Attitude Control</name>
+    <name>$globals/group/Sensor Calibration</name>
     <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <name>$globals/group/UAVCAN GNSS</name>
     <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+      <source>UAVCAN GNSS</source>
+      <translation type="unfinished">UAVCAN GNSS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/GPS</name>
+    <message>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Geometry</name>
+    <message>
+      <source>FW Geometry</source>
+      <translation type="unfinished">FW Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
     </message>
   </context>
   <context>
@@ -45233,10 +44970,325 @@
     </message>
   </context>
   <context>
+    <name>$globals/group/FW TECS</name>
+    <message>
+      <source>FW TECS</source>
+      <translation type="unfinished">FW TECS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mission</name>
+    <message>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Attitude Control</name>
+    <message>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulation In Hardware</name>
+    <message>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Camera trigger</name>
+    <message>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geometry</name>
+    <message>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Calibration</name>
+    <message>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulator</name>
+    <message>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Attitude Q estimator</name>
+    <message>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Events</name>
+    <message>
+      <source>Events</source>
+      <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/MAVLink</name>
     <message>
       <source>MAVLink</source>
       <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Flight Task Orbit</name>
+    <message>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/PWM Outputs</name>
+    <message>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Path Control</name>
+    <message>
+      <source>FW Path Control</source>
+      <translation type="unfinished">FW Path Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
     </message>
   </context>
 </TS>
