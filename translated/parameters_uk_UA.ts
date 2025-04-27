@@ -23350,14 +23350,14 @@
     <name>/parameters/MAV_HB_FORW_EN/longDesc</name>
     <message>
       <source>The mavlink heartbeat message will not be forwarded if this parameter is set to 'disabled'. The main reason for disabling heartbeats to be forwarded is because they confuse dronekit.</source>
-      <translation type="unfinished">The mavlink heartbeat message will not be forwarded if this parameter is set to 'disabled'. The main reason for disabling heartbeats to be forwarded is because they confuse dronekit.</translation>
+      <translation>Повідомлення mavlink heartbeat не буде переслано, якщо цей параметр встановлено в 'вимкнено(disabled)'. Основною причиною вимкнення heartbeat - інформування є те, що вони плутають dronekit.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MAV_HB_FORW_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23581,7 +23581,7 @@
     <name>/parameters/MAV_USEHILGPS/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23609,7 +23609,7 @@
     <name>/parameters/MBE_ENABLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23651,7 +23651,7 @@
     <name>/parameters/MAN_ARM_GESTURE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23756,7 +23756,7 @@
     <name>/parameters/MIS_MNT_YAW_CTL/longDesc</name>
     <message>
       <source>If enabled, yaw commands will be sent to the mount and the vehicle will follow its heading towards the flight direction. If disabled, the vehicle will yaw towards the ROI.</source>
-      <translation type="unfinished">If enabled, yaw commands will be sent to the mount and the vehicle will follow its heading towards the flight direction. If disabled, the vehicle will yaw towards the ROI.</translation>
+      <translation>Якщо увімкнуто, то команди рискання надсилатимуться на гору і транспортний засіб буде слідувати у своєму напрямку спрямованому вздовж напрямку польоту. Якщо відключено, то апарат буде рискати у напрямку зони інтересу (ROI).</translation>
     </message>
   </context>
   <context>
@@ -23861,7 +23861,7 @@
     <name>/parameters/MIS_YAW_TMT/longDesc</name>
     <message>
       <source>If set &gt; 0 it will ignore the target heading for normal waypoint acceptance. If the waypoint forces the heading the timeout will matter. For example on VTOL forwards transition. Mainly useful for VTOLs that have less yaw authority and might not reach target yaw in wind. Disabled by default.</source>
-      <translation type="unfinished">If set &gt; 0 it will ignore the target heading for normal waypoint acceptance. If the waypoint forces the heading the timeout will matter. For example on VTOL forwards transition. Mainly useful for VTOLs that have less yaw authority and might not reach target yaw in wind. Disabled by default.</translation>
+      <translation>Якщо встановлено &gt; 0, то відбудеться ігнорування цільового направлення для нормального сприйняття точки маршруту. Якщо точка маршруту впливає на напрямок, то часовий інтервал матиме вплив. Наприклад вертикальна зліт/посадка (VTOL) перенаправляє перехід. Це здебільшого корисно для вертикального зльоту/посадки (VTOLs) що мають менше змоги для рискання та можливо не досягнуть цілі рискання при вітрі. Відключено за замовчуванням.</translation>
     </message>
   </context>
   <context>
@@ -23938,7 +23938,7 @@
     <name>/parameters/NAV_FORCE_VT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -24050,7 +24050,7 @@
     <name>/parameters/NAV_TRAFF_AVOID/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
