@@ -31267,7 +31267,7 @@
     <name>/parameters/RC_MAP_FLTM_BTN/longDesc</name>
     <message>
       <source>This bitmask allows to specify multiple channels for changing flight modes using momentary buttons. Each channel is assigned to a mode slot ((lowest channel = slot 1). The resulting modes for each slot X is defined by the COM_FLTMODEX parameters. The functionality can be used only if RC_MAP_FLTMODE is disabled. The maximum number of available slots and hence bits set in the mask is 6.</source>
-      <translation type="unfinished">This bitmask allows to specify multiple channels for changing flight modes using momentary buttons. Each channel is assigned to a mode slot ((lowest channel = slot 1). The resulting modes for each slot X is defined by the COM_FLTMODEX parameters. The functionality can be used only if RC_MAP_FLTMODE is disabled. The maximum number of available slots and hence bits set in the mask is 6.</translation>
+      <translation>Ця bitmask дозволяє визначити чисельні канали для зміни режимів польоту за допомогою кнопок короткочасного призначення. Кожному каналу присвоюється слот режиму (найнижчий канал = слот 1). Отримані режими для кожного слота Х визначені параметрами COM_FLTMODEX. Функціонал можна використовувати лише у випадку, якщо RC_MAP_FLTMODE вимкнений. Максимальна кількість доступних слотів і набір бітів у масці налічує 6 штук.</translation>
     </message>
   </context>
   <context>
@@ -32807,7 +32807,7 @@
     <name>/parameters/RTL_APPR_FORCE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
