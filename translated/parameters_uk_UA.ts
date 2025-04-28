@@ -11485,7 +11485,7 @@
     <name>/parameters/COM_RC_IN_MODE/longDesc</name>
     <message>
       <source>A value of 0 enables RC transmitter control (only). A valid RC transmitter calibration is required. A value of 1 allows joystick control only. RC input handling and the associated checks are disabled. A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid. A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot. A value of 4 ignores any stick input.</source>
-      <translation>Значення 0 вимикає лише управління через передавач пульта(RC). Потрібне належне калібрування трансмітера RC (пульта). Значення 1 дозволяє керувати лише джойстиком. Введення даних пультом(RC) і пов'язані перевірки вимкнені. Значення 2 дозволяє роботу або трансмітера пульта(RC) або внесення даних джойстиком. Використовується перший допустимий спосіб введення даних; відбудеться повернення до інших джерел, якщо вхідний потік даних стає недійсним. Значення 3 дозволяє введеня з пульта(RC) або джойстика. Перше доступне джерело вибирається і використовується до перезавантаження. Значення 4 ігнорує будь-яке введення даних стіками.</translation>
+      <translation>Значення 0 вимикає лише управління через передавач пульта(RC). Потрібне належне калібрування трансмітера RC (пульта). Значення 1 дозволяє керувати лише джойстиком. Керування пультом(RC) і пов'язані перевірки вимкнені. Значення 2 дозволяє роботу або трансмітера пульта(RC) або керування джойстиком. Використовується перший допустимий спосіб керування; відбудеться повернення до інших джерел, якщо потік керування стає неприйнятним. Значення 3 дозволяє керування пультом(RC) або джойстиком. Перше доступне джерело вибирається і використовується до перезавантаження. Значення 4 ігнорує будь-які рухи стіками.</translation>
     </message>
   </context>
   <context>
@@ -11520,7 +11520,7 @@
     <name>/parameters/COM_RC_IN_MODE/values/4/description</name>
     <message>
       <source>Stick input disabled</source>
-      <translation>Вимкнено введення стіками</translation>
+      <translation>Керування стіками вимкнено</translation>
     </message>
   </context>
   <context>
@@ -11828,7 +11828,7 @@
     <name>/parameters/NAV_RCL_ACT/longDesc</name>
     <message>
       <source>The RC loss failsafe will only be entered after a timeout, set by COM_RC_LOSS_T in seconds. If RC input checks have been disabled by setting the COM_RC_IN_MODE param it will not be triggered.</source>
-      <translation>Втрата аварійного режиму пульта(RC) буде введено лише після перерви, встановлених за допомогою COM_RC_LOSS_T за секунди. Якщо перевірки введення даних з пульта(RC) було вимкнено шляхом встановлення COM_RC_IN_MODE param, то він не буде запущений.</translation>
+      <translation>Втрата аварійного режиму пульта(RC) буде введено лише після перерви, встановлених за допомогою COM_RC_LOSS_T за секунди. Якщо перевірки керування пультом(RC) було вимкнено шляхом встановлення COM_RC_IN_MODE param, то він не буде запущений.</translation>
     </message>
   </context>
   <context>
@@ -12948,7 +12948,7 @@
     <name>/parameters/EKF2_LOG_VERBOSE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -13221,7 +13221,7 @@
     <name>/parameters/EKF2_OF_CTRL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
@@ -13627,7 +13627,7 @@
     <name>/parameters/EKF2_RNG_FOG/longDesc</name>
     <message>
       <source>Limit for fog detection. If the range finder measures a distance greater than this value, the measurement is considered to not be blocked by fog or rain. If there's a jump from larger than RNG_FOG to smaller than EKF2_RNG_FOG, the measurement may gets rejected. 0 - disabled</source>
-      <translation type="unfinished">Limit for fog detection. If the range finder measures a distance greater than this value, the measurement is considered to not be blocked by fog or rain. If there's a jump from larger than RNG_FOG to smaller than EKF2_RNG_FOG, the measurement may gets rejected. 0 - disabled</translation>
+      <translation>Обмеження для виявлення туману. Якщо вимірювач відстані визначає дистанцію, що перевищує це значення, то вважається що вимірювання не блокується туманом або дощем. Якщо існує стрибок із більшого за RNG_FOG до меншого за EKF2_RNG_FOG, тоді вимірювання може бути відхилено. 0 - вимкнуто</translation>
     </message>
   </context>
   <context>
@@ -13830,7 +13830,7 @@
     <name>/parameters/EKF2_SYNT_MAG_Z/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -13928,7 +13928,7 @@
     <name>/parameters/EV_TSK_RC_LOSS/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -13956,7 +13956,7 @@
     <name>/parameters/EV_TSK_STAT_DIS/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14138,7 +14138,7 @@
     <name>/parameters/FW_W_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14243,7 +14243,7 @@
     <name>/parameters/FW_LND_EARLYCFG/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14404,7 +14404,7 @@
     <name>/parameters/FW_LND_USETER/longDesc</name>
     <message>
       <source>This is critical for detecting when to flare, and should be enabled if possible. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
-      <translation type="unfinished">This is critical for detecting when to flare, and should be enabled if possible. If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing will be aborted, depending on the criteria set in FW_LND_ABORT. If disabled, FW_LND_ABORT terrain based criteria are ignored.</translation>
+      <translation>Це є критичним для визначення коли потрібно вирівнятися перед приземленням, та ця функція має бути увімкнена, якщо це можливо. Якщо функцію увімкнено та не знайдено вимірювань протягом певного часу, то буде використано висоту над точкою приземлення АБО приземлення буде перервано в залежності від критеріїв встановлених у FW_LND_ABORT. Якщо функцію вимкнено, то FW_LND_ABORT поверхневі базові критерії ігноруюються.</translation>
     </message>
   </context>
   <context>
@@ -14502,7 +14502,7 @@
     <name>/parameters/FW_LAUN_DETCN_ON/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14551,7 +14551,7 @@
     <name>/parameters/NPFG_EN_MIN_GSP/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14593,7 +14593,7 @@
     <name>/parameters/NPFG_LB_PERIOD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14670,7 +14670,7 @@
     <name>/parameters/NPFG_TRACK_KEEP/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14698,7 +14698,7 @@
     <name>/parameters/NPFG_UB_PERIOD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14726,7 +14726,7 @@
     <name>/parameters/NPFG_WIND_REG/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -14985,14 +14985,14 @@
     <name>/parameters/FW_ACRO_YAW_EN/longDesc</name>
     <message>
       <source>If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.</source>
-      <translation type="unfinished">If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode. Otherwise the pilot commands directly the yaw actuator. It is disabled by default because an active yaw rate controller will fight against the natural turn coordination of the plane.</translation>
+      <translation>Якщо цей параметр встановлено на 1, то контролер темпу увімкнено для Нерухомого крила в Acro режимі. В іншому випадку пілот безпосередньо керує актюатором рискання. Ця можливість відключена за замовчуванням, оскільки активний контролер темпу рискання буде протистояти природній координації повороту апарату.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_ACRO_YAW_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15034,7 +15034,7 @@
     <name>/parameters/FW_ARSP_SCALE_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15062,7 +15062,7 @@
     <name>/parameters/FW_BAT_SCALE_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15349,7 +15349,7 @@
     <name>/parameters/FW_SPOILERS_MAN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15384,7 +15384,7 @@
     <name>/parameters/FW_USE_AIRSPD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15818,7 +15818,7 @@
     <name>/parameters/FD_ACT_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15888,7 +15888,7 @@
     <name>/parameters/FD_ESCS_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -15916,7 +15916,7 @@
     <name>/parameters/FD_EXT_ATS_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -16455,7 +16455,7 @@
     <name>/parameters/GPS_SAT_INFO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -16714,7 +16714,7 @@
     <name>/parameters/GF_MAX_HOR_DIST/longDesc</name>
     <message>
       <source>Maximum horizontal distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</source>
-      <translation type="unfinished">Maximum horizontal distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</translation>
+      <translation>Максимальна горизонтальна відстань в метрах на якій апарат може знаходитися від точки повернення перед викликом дії гео-огорожі. Вимкнено якщо 0.</translation>
     </message>
   </context>
   <context>
@@ -16728,7 +16728,7 @@
     <name>/parameters/GF_MAX_VER_DIST/longDesc</name>
     <message>
       <source>Maximum vertical distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</source>
-      <translation type="unfinished">Maximum vertical distance in meters the vehicle can be from Home before triggering a geofence action. Disabled if 0.</translation>
+      <translation>Максимальна вертикальна відстань в метрах на якій апарат може знаходитися від точки повернення перед викликом дії гео-огорожі. Вимкнено якщо 0.</translation>
     </message>
   </context>
   <context>
@@ -16749,7 +16749,7 @@
     <name>/parameters/GF_PREDICT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -17141,7 +17141,7 @@
     <name>/parameters/CA_HELI_YAW_CCW/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -17253,7 +17253,7 @@
     <name>/parameters/CA_R0_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17267,7 +17267,7 @@
     <name>/parameters/CA_R10_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17281,7 +17281,7 @@
     <name>/parameters/CA_R11_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17295,7 +17295,7 @@
     <name>/parameters/CA_R1_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17309,7 +17309,7 @@
     <name>/parameters/CA_R2_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17323,7 +17323,7 @@
     <name>/parameters/CA_R3_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17337,7 +17337,7 @@
     <name>/parameters/CA_R4_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17351,7 +17351,7 @@
     <name>/parameters/CA_R5_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17365,7 +17365,7 @@
     <name>/parameters/CA_R6_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17379,7 +17379,7 @@
     <name>/parameters/CA_R7_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17393,7 +17393,7 @@
     <name>/parameters/CA_R8_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -17407,7 +17407,7 @@
     <name>/parameters/CA_R9_SLEW/longDesc</name>
     <message>
       <source>Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the motor output signal to take at least the configured time (in seconds) to traverse its full range (normally [0, 1], or if reversible [-1, 1]). Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал мотору зайняти принаймні заданий час (в секундах) для перетину його повного діапазону (зазвичай [0, 1], або якщо реверсивний [-1, 1]). Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19437,7 +19437,7 @@
     <name>/parameters/CA_SV0_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19451,7 +19451,7 @@
     <name>/parameters/CA_SV1_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19465,7 +19465,7 @@
     <name>/parameters/CA_SV2_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19479,7 +19479,7 @@
     <name>/parameters/CA_SV3_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19493,7 +19493,7 @@
     <name>/parameters/CA_SV4_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19507,7 +19507,7 @@
     <name>/parameters/CA_SV5_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19521,7 +19521,7 @@
     <name>/parameters/CA_SV6_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -19535,7 +19535,7 @@
     <name>/parameters/CA_SV7_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</source>
-      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds) to traverse its full range [-100%, 100%]. Zero means that slew rate limiting is disabled.</translation>
+      <translation>Змушує вихідний сигнал сервоприводу зайняти принаймні налаштований час (у секундах) для перетину його повного діапазону [-100%, 100%]. Нуль означає, що обмеження швидкості зростання вимкнуто.</translation>
     </message>
   </context>
   <context>
@@ -22069,7 +22069,7 @@
     <name>/parameters/LPE_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -22524,7 +22524,7 @@
     <name>/parameters/MAV_0_FORWARD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -22664,7 +22664,7 @@
     <name>/parameters/MAV_0_RADIO_CTL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -22804,7 +22804,7 @@
     <name>/parameters/MAV_1_FORWARD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -22944,7 +22944,7 @@
     <name>/parameters/MAV_1_RADIO_CTL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23084,7 +23084,7 @@
     <name>/parameters/MAV_2_FORWARD/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23224,7 +23224,7 @@
     <name>/parameters/MAV_2_RADIO_CTL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23301,7 +23301,7 @@
     <name>/parameters/MAV_FWDEXTSP/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23329,7 +23329,7 @@
     <name>/parameters/MAV_HASH_CHK_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23350,14 +23350,14 @@
     <name>/parameters/MAV_HB_FORW_EN/longDesc</name>
     <message>
       <source>The mavlink heartbeat message will not be forwarded if this parameter is set to 'disabled'. The main reason for disabling heartbeats to be forwarded is because they confuse dronekit.</source>
-      <translation type="unfinished">The mavlink heartbeat message will not be forwarded if this parameter is set to 'disabled'. The main reason for disabling heartbeats to be forwarded is because they confuse dronekit.</translation>
+      <translation>Повідомлення mavlink heartbeat не буде переслано, якщо цей параметр встановлено в 'вимкнено(disabled)'. Основною причиною вимкнення heartbeat - інформування є те, що вони плутають dronekit.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MAV_HB_FORW_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23581,7 +23581,7 @@
     <name>/parameters/MAV_USEHILGPS/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23609,7 +23609,7 @@
     <name>/parameters/MBE_ENABLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23651,7 +23651,7 @@
     <name>/parameters/MAN_ARM_GESTURE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -23756,7 +23756,7 @@
     <name>/parameters/MIS_MNT_YAW_CTL/longDesc</name>
     <message>
       <source>If enabled, yaw commands will be sent to the mount and the vehicle will follow its heading towards the flight direction. If disabled, the vehicle will yaw towards the ROI.</source>
-      <translation type="unfinished">If enabled, yaw commands will be sent to the mount and the vehicle will follow its heading towards the flight direction. If disabled, the vehicle will yaw towards the ROI.</translation>
+      <translation>Якщо увімкнуто, то команди рискання надсилатимуться на гору і транспортний засіб буде слідувати у своєму напрямку спрямованому вздовж напрямку польоту. Якщо відключено, то апарат буде рискати у напрямку зони інтересу (ROI).</translation>
     </message>
   </context>
   <context>
@@ -23861,7 +23861,7 @@
     <name>/parameters/MIS_YAW_TMT/longDesc</name>
     <message>
       <source>If set &gt; 0 it will ignore the target heading for normal waypoint acceptance. If the waypoint forces the heading the timeout will matter. For example on VTOL forwards transition. Mainly useful for VTOLs that have less yaw authority and might not reach target yaw in wind. Disabled by default.</source>
-      <translation type="unfinished">If set &gt; 0 it will ignore the target heading for normal waypoint acceptance. If the waypoint forces the heading the timeout will matter. For example on VTOL forwards transition. Mainly useful for VTOLs that have less yaw authority and might not reach target yaw in wind. Disabled by default.</translation>
+      <translation>Якщо встановлено &gt; 0, то відбудеться ігнорування цільового направлення для нормального сприйняття точки маршруту. Якщо точка маршруту впливає на напрямок, то часовий інтервал матиме вплив. Наприклад вертикальна зліт/посадка (VTOL) перенаправляє перехід. Це здебільшого корисно для вертикального зльоту/посадки (VTOLs) що мають менше змоги для рискання та можливо не досягнуть цілі рискання при вітрі. Відключено за замовчуванням.</translation>
     </message>
   </context>
   <context>
@@ -23938,7 +23938,7 @@
     <name>/parameters/NAV_FORCE_VT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -24050,7 +24050,7 @@
     <name>/parameters/NAV_TRAFF_AVOID/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -24127,14 +24127,14 @@
     <name>/parameters/MC_AIRMODE/longDesc</name>
     <message>
       <source>The air-mode enables the mixer to increase the total thrust of the multirotor in order to keep attitude and rate control even at low and high throttle. This function should be disabled during tuning as it will help the controller to diverge if the closed-loop is unstable (i.e. the vehicle is not tuned yet). Enabling air-mode for yaw requires the use of an arming switch.</source>
-      <translation type="unfinished">The air-mode enables the mixer to increase the total thrust of the multirotor in order to keep attitude and rate control even at low and high throttle. This function should be disabled during tuning as it will help the controller to diverge if the closed-loop is unstable (i.e. the vehicle is not tuned yet). Enabling air-mode for yaw requires the use of an arming switch.</translation>
+      <translation>Режим air-mode вмикає мікшер для збільшення загальної тяги мультиротора для збереження положення та рівня контролю навіть при низькій або високій тязі. Ця функція повинна бути вимкнена під час налаштувань, оскільки вона допоможе контролеру розосередитися, якщо замкнутий цикл є нестабільним (тобто апарат ще не налаштовано). Увімкнення режиму air-mode для рискання вимагає використання перемикача взведення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AIRMODE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -24414,7 +24414,7 @@
     <name>/parameters/MNT_MODE_IN/values/-1/description</name>
     <message>
       <source>DISABLED</source>
-      <translation type="unfinished">DISABLED</translation>
+      <translation>ВИМКНЕНО</translation>
     </message>
   </context>
   <context>
@@ -24820,7 +24820,7 @@
     <name>/parameters/CP_DIST/longDesc</name>
     <message>
       <source>Only used in Position mode. Collision avoidance is disabled by setting this parameter to a negative value</source>
-      <translation type="unfinished">Only used in Position mode. Collision avoidance is disabled by setting this parameter to a negative value</translation>
+      <translation>Використовується тільки в режимі Положення. Уникнення зіткнення вимкнуто шляхом встановлення цього параметра на від'ємне значення</translation>
     </message>
   </context>
   <context>
@@ -24841,7 +24841,7 @@
     <name>/parameters/CP_GO_NO_DATA/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -24897,7 +24897,7 @@
     <name>/parameters/MPC_ACC_DECOUPLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -25135,14 +25135,14 @@
     <name>/parameters/MPC_LAND_RC_HELP/longDesc</name>
     <message>
       <source>Using stick input the vehicle can be moved horizontally and yawed. The descend speed is amended: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</source>
-      <translation type="unfinished">Using stick input the vehicle can be moved horizontally and yawed. The descend speed is amended: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</translation>
+      <translation>Використовуючи стіки, апаратом можна рухати горизонтально та рискати. Швидкість зниження змінена: стік повністю догори - 0 стік по центру - MPC_LAND_SPEED стік повністю донизу- 2 * MPC_LAND_SPEED Можливість переходу на ручний режим під час автоматичних режимів має бути вимкнуто для використання цієї функції (див. COM_RC_OVERRIDE).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_LAND_RC_HELP/values/0/description</name>
     <message>
       <source>Nudging disabled</source>
-      <translation type="unfinished">Nudging disabled</translation>
+      <translation>Перекочування вимкнено</translation>
     </message>
   </context>
   <context>
@@ -25387,7 +25387,7 @@
     <name>/parameters/MPC_USE_HTE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -25807,7 +25807,7 @@
     <name>/parameters/WV_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -26157,7 +26157,7 @@
     <name>/parameters/MC_BAT_SCALE_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -26682,7 +26682,7 @@
     <name>/parameters/PD_GRIPPER_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -29370,7 +29370,7 @@
     <name>/parameters/RC_MAP_FAILSAFE/longDesc</name>
     <message>
       <source>Configures which RC channel is used by the receiver to indicate the signal was lost (on receivers that use output a fixed signal value to report lost signal). If set to 0, the channel mapped to throttle is used. Use RC_FAILS_THR to set the threshold indicating lost signal. By default it's below the expected range and hence disabled.</source>
-      <translation type="unfinished">Configures which RC channel is used by the receiver to indicate the signal was lost (on receivers that use output a fixed signal value to report lost signal). If set to 0, the channel mapped to throttle is used. Use RC_FAILS_THR to set the threshold indicating lost signal. By default it's below the expected range and hence disabled.</translation>
+      <translation>Налаштовує канал RC, який використовується приймачем для позначення втрати сигнала (на приймачах, які використовують значення вихідного фіксованого сигналу для повідомлення про втрачений сигнал). Якщо встановлено на 0, то буде використаний канал призначений для тяги. Використовуйте RC_FAILS_THR щоб встановити поріг індікації втраченого сигнала. За замовчуванням він нижче очікуваного діапазону, а отже вимкнений.</translation>
     </message>
   </context>
   <context>
@@ -30833,7 +30833,7 @@
     <name>/parameters/RC_MAP_ARM_SW/longDesc</name>
     <message>
       <source>Use it to arm/disarm via switch instead of default throttle stick. If this is assigned, arming and disarming via stick is disabled.</source>
-      <translation type="unfinished">Use it to arm/disarm via switch instead of default throttle stick. If this is assigned, arming and disarming via stick is disabled.</translation>
+      <translation>Використовуйте його для взведення/охолощення за допомогою перемикача замість призначеного стіка тяги. Якщо це призначено, взведення та охолощення за допомогою стіків буде вимкнено.</translation>
     </message>
   </context>
   <context>
@@ -31267,7 +31267,7 @@
     <name>/parameters/RC_MAP_FLTM_BTN/longDesc</name>
     <message>
       <source>This bitmask allows to specify multiple channels for changing flight modes using momentary buttons. Each channel is assigned to a mode slot ((lowest channel = slot 1). The resulting modes for each slot X is defined by the COM_FLTMODEX parameters. The functionality can be used only if RC_MAP_FLTMODE is disabled. The maximum number of available slots and hence bits set in the mask is 6.</source>
-      <translation type="unfinished">This bitmask allows to specify multiple channels for changing flight modes using momentary buttons. Each channel is assigned to a mode slot ((lowest channel = slot 1). The resulting modes for each slot X is defined by the COM_FLTMODEX parameters. The functionality can be used only if RC_MAP_FLTMODE is disabled. The maximum number of available slots and hence bits set in the mask is 6.</translation>
+      <translation>Ця bitmask дозволяє визначити чисельні канали для зміни режимів польоту за допомогою кнопок короткочасного призначення. Кожному каналу присвоюється слот режиму (найнижчий канал = слот 1). Отримані режими для кожного слота Х визначені параметрами COM_FLTMODEX. Функціонал можна використовувати лише у випадку, якщо RC_MAP_FLTMODE вимкнений. Максимальна кількість доступних слотів і набір бітів у масці налічує 6 штук.</translation>
     </message>
   </context>
   <context>
@@ -32807,7 +32807,7 @@
     <name>/parameters/RTL_APPR_FORCE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33381,7 +33381,7 @@
     <name>/parameters/RO_DECEL_LIM/longDesc</name>
     <message>
       <source>Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral deceleration.</source>
-      <translation type="unfinished">Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral deceleration.</translation>
+      <translation>Встановіть -1, щоб вимкнути. Зауважте, якщо це вимкнуто, то апарат не буде сповільнюватися при наближенні точок маршруту в автоматичних режимах. Для апаратів на колесах Ілона це обмеження використовується для повздовжного та бічного уповільнення.</translation>
     </message>
   </context>
   <context>
@@ -33395,7 +33395,7 @@
     <name>/parameters/RO_JERK_LIM/longDesc</name>
     <message>
       <source>Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral jerk.</source>
-      <translation type="unfinished">Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral jerk.</translation>
+      <translation>Встановіть -1, щоб вимкнути. Зауважте, якщо це вимкнуто, то апарат не буде сповільнюватися при наближенні точок маршруту в автоматичних режимах. Для апаратів на колесах Ілона це обмеження використовується для повздовжного та бічного ривка.</translation>
     </message>
   </context>
   <context>
@@ -33514,7 +33514,7 @@
     <name>/parameters/RWTO_NUDGE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33584,7 +33584,7 @@
     <name>/parameters/RWTO_TKOFF/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33612,7 +33612,7 @@
     <name>/parameters/SDLOG_ALGORITHM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33640,7 +33640,7 @@
     <name>/parameters/SDLOG_BOOT_BAT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33710,7 +33710,7 @@
     <name>/parameters/SDLOG_MISSION/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33745,7 +33745,7 @@
     <name>/parameters/SDLOG_MODE/values/-1/description</name>
     <message>
       <source>disabled</source>
-      <translation type="unfinished">disabled</translation>
+      <translation>відключено</translation>
     </message>
   </context>
   <context>
@@ -33906,7 +33906,7 @@
     <name>/parameters/SDLOG_UUID/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33941,7 +33941,7 @@
     <name>/parameters/SIM_BAT_ENABLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33997,7 +33997,7 @@
     <name>/parameters/CAL_ACC0_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -34417,7 +34417,7 @@
     <name>/parameters/CAL_ACC1_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -34837,7 +34837,7 @@
     <name>/parameters/CAL_ACC2_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35257,7 +35257,7 @@
     <name>/parameters/CAL_ACC3_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35684,7 +35684,7 @@
     <name>/parameters/CAL_BARO0_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35761,7 +35761,7 @@
     <name>/parameters/CAL_BARO1_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35838,7 +35838,7 @@
     <name>/parameters/CAL_BARO2_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35915,7 +35915,7 @@
     <name>/parameters/CAL_BARO3_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35985,7 +35985,7 @@
     <name>/parameters/CAL_GYRO0_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -36384,7 +36384,7 @@
     <name>/parameters/CAL_GYRO1_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -36783,7 +36783,7 @@
     <name>/parameters/CAL_GYRO2_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -37182,7 +37182,7 @@
     <name>/parameters/CAL_GYRO3_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -37595,7 +37595,7 @@
     <name>/parameters/CAL_MAG0_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -38127,7 +38127,7 @@
     <name>/parameters/CAL_MAG1_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -38659,7 +38659,7 @@
     <name>/parameters/CAL_MAG2_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -39191,7 +39191,7 @@
     <name>/parameters/CAL_MAG3_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -39688,7 +39688,7 @@
     <name>/parameters/CAL_MAG_COMP_TYP/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -39758,7 +39758,7 @@
     <name>/parameters/SENS_DPRES_REV/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -39919,7 +39919,7 @@
     <name>/parameters/IMU_GYRO_CAL_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40024,7 +40024,7 @@
     <name>/parameters/IMU_GYRO_FFT_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40619,7 +40619,7 @@
     <name>/parameters/SENS_EN_AGPSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40640,7 +40640,7 @@
     <name>/parameters/SENS_EN_ARSPDSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40661,7 +40661,7 @@
     <name>/parameters/SENS_EN_BAROSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40682,7 +40682,7 @@
     <name>/parameters/SENS_EN_GPSSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40703,7 +40703,7 @@
     <name>/parameters/SENS_EN_MAGSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40759,7 +40759,7 @@
     <name>/parameters/SENS_EXT_I2C_PRB/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40941,7 +40941,7 @@
     <name>/parameters/SENS_IMU_AUTOCAL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40969,7 +40969,7 @@
     <name>/parameters/SENS_IMU_CLPNOTI/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40990,7 +40990,7 @@
     <name>/parameters/SENS_IMU_MODE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41018,7 +41018,7 @@
     <name>/parameters/SENS_INT_BARO_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41046,7 +41046,7 @@
     <name>/parameters/SENS_MAG_AUTOCAL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41074,7 +41074,7 @@
     <name>/parameters/SENS_MAG_AUTOROT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41165,7 +41165,7 @@
     <name>/parameters/SIM_ARSPD_FAIL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41606,7 +41606,7 @@
     <name>/parameters/SYS_BL_UPDATE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41718,7 +41718,7 @@
     <name>/parameters/SYS_DM_BACKEND/values/-1/description</name>
     <message>
       <source>Dataman disabled</source>
-      <translation type="unfinished">Dataman disabled</translation>
+      <translation>Dataman вимкнуто</translation>
     </message>
   </context>
   <context>
@@ -41753,7 +41753,7 @@
     <name>/parameters/SYS_FAC_CAL_MODE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41788,7 +41788,7 @@
     <name>/parameters/SYS_FAILURE_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41809,14 +41809,14 @@
     <name>/parameters/SYS_HAS_BARO/longDesc</name>
     <message>
       <source>Disable this if the board has no barometer, such as some of the Omnibus F4 SD variants. If disabled, the preflight checks will not check for the presence of a barometer.</source>
-      <translation type="unfinished">Disable this if the board has no barometer, such as some of the Omnibus F4 SD variants. If disabled, the preflight checks will not check for the presence of a barometer.</translation>
+      <translation>Відключіть це, якщо плата немає барометра, такого як деякі варіанти Omnibus F4 SD. Якщо вимкнено, то передполітні перевірки на наявність барометра не будуть проводитися.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/SYS_HAS_BARO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -44746,10 +44746,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/category/System</name>
+    <name>$globals/category/Standard</name>
     <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
+      <source>Standard</source>
+      <translation type="unfinished">Standard</translation>
     </message>
   </context>
   <context>
@@ -44760,80 +44760,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/category/Standard</name>
+    <name>$globals/category/System</name>
     <message>
-      <source>Standard</source>
-      <translation type="unfinished">Standard</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Mecanum</name>
-    <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Position Control (Deprecated)</name>
-    <message>
-      <source>Rover Position Control (Deprecated)</source>
-      <translation type="unfinished">Rover Position Control (Deprecated)</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Pure Pursuit</name>
-    <message>
-      <source>Pure Pursuit</source>
-      <translation type="unfinished">Pure Pursuit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Miscellaneous</name>
-    <message>
-      <source>Miscellaneous</source>
-      <translation type="unfinished">Miscellaneous</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
-    <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
-    <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
     </message>
   </context>
   <context>
@@ -44844,199 +44774,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/System</name>
+    <name>$globals/group/Pure Pursuit</name>
     <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN Motor Parameters</name>
-    <message>
-      <source>UAVCAN Motor Parameters</source>
-      <translation type="unfinished">UAVCAN Motor Parameters</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Autotune</name>
-    <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Launch detection</name>
-    <message>
-      <source>FW Launch detection</source>
-      <translation type="unfinished">FW Launch detection</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN GNSS</name>
-    <message>
-      <source>UAVCAN GNSS</source>
-      <translation type="unfinished">UAVCAN GNSS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Manual Control</name>
-    <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SD Logging</name>
-    <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/GPS</name>
-    <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Geometry</name>
-    <message>
-      <source>FW Geometry</source>
-      <translation type="unfinished">FW Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Actuator Outputs</name>
-    <message>
-      <source>Actuator Outputs</source>
-      <translation type="unfinished">Actuator Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW TECS</name>
-    <message>
-      <source>FW TECS</source>
-      <translation type="unfinished">FW TECS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return Mode</name>
-    <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulation In Hardware</name>
-    <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
+      <source>Pure Pursuit</source>
+      <translation type="unfinished">Pure Pursuit</translation>
     </message>
   </context>
   <context>
@@ -45047,27 +44788,6 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Calibration</name>
-    <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Circuit Breaker</name>
     <message>
       <source>Circuit Breaker</source>
@@ -45075,45 +44795,38 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Precision Land</name>
+    <name>$globals/group/Commander</name>
     <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/OSD</name>
+    <name>$globals/group/Mission</name>
     <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Rate Control</name>
+    <name>$globals/group/Actuator Outputs</name>
     <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
+      <source>Actuator Outputs</source>
+      <translation type="unfinished">Actuator Outputs</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/SITL</name>
+    <name>$globals/group/Multicopter Rate Control</name>
     <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/VTOL Takeoff</name>
+    <name>$globals/group/Flight Task Orbit</name>
     <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Ackermann</name>
-    <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
     </message>
   </context>
   <context>
@@ -45121,6 +44834,90 @@
     <message>
       <source>UUV Attitude Control</source>
       <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/GPS</name>
+    <message>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulation In Hardware</name>
+    <message>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Launch detection</name>
+    <message>
+      <source>FW Launch detection</source>
+      <translation type="unfinished">FW Launch detection</translation>
     </message>
   </context>
   <context>
@@ -45138,17 +44935,31 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Simulator</name>
+    <name>$globals/group/Hover Thrust Estimator</name>
     <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/VTOL Attitude Control</name>
+    <name>$globals/group/Autotune</name>
     <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
     </message>
   </context>
   <context>
@@ -45156,6 +44967,27 @@
     <message>
       <source>Attitude Q estimator</source>
       <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
     </message>
   </context>
   <context>
@@ -45173,59 +45005,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Payload Deliverer</name>
+    <name>$globals/group/UAVCAN Motor Parameters</name>
     <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Differential</name>
-    <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
+      <source>UAVCAN Motor Parameters</source>
+      <translation type="unfinished">UAVCAN Motor Parameters</translation>
     </message>
   </context>
   <context>
@@ -45236,10 +45019,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Runway Takeoff</name>
+    <name>$globals/group/Multicopter Position Control</name>
     <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
     </message>
   </context>
   <context>
@@ -45250,24 +45033,185 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Path Control</name>
+    <name>$globals/group/Geometry</name>
     <message>
-      <source>FW Path Control</source>
-      <translation type="unfinished">FW Path Control</translation>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/ADSB</name>
+    <name>$globals/group/Local Position Estimator</name>
     <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Rate Control</name>
+    <name>$globals/group/Sensor Calibration</name>
     <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Calibration</name>
+    <message>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN GNSS</name>
+    <message>
+      <source>UAVCAN GNSS</source>
+      <translation type="unfinished">UAVCAN GNSS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW TECS</name>
+    <message>
+      <source>FW TECS</source>
+      <translation type="unfinished">FW TECS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <message>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulator</name>
+    <message>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Miscellaneous</name>
+    <message>
+      <source>Miscellaneous</source>
+      <translation type="unfinished">Miscellaneous</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Geometry</name>
+    <message>
+      <source>FW Geometry</source>
+      <translation type="unfinished">FW Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Position Control (Deprecated)</name>
+    <message>
+      <source>Rover Position Control (Deprecated)</source>
+      <translation type="unfinished">Rover Position Control (Deprecated)</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Attitude Control</name>
+    <message>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
     </message>
   </context>
   <context>
@@ -45278,17 +45222,73 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
     <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Commander</name>
+    <name>$globals/group/VTOL Takeoff</name>
     <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/PWM Outputs</name>
+    <message>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Path Control</name>
+    <message>
+      <source>FW Path Control</source>
+      <translation type="unfinished">FW Path Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
     </message>
   </context>
 </TS>
