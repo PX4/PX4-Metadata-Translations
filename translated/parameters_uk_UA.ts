@@ -41809,7 +41809,7 @@
     <name>/parameters/SYS_HAS_BARO/longDesc</name>
     <message>
       <source>Disable this if the board has no barometer, such as some of the Omnibus F4 SD variants. If disabled, the preflight checks will not check for the presence of a barometer.</source>
-      <translation type="unfinished">Disable this if the board has no barometer, such as some of the Omnibus F4 SD variants. If disabled, the preflight checks will not check for the presence of a barometer.</translation>
+      <translation>Відключіть це, якщо плата немає барометра, такого як деякі варіанти Omnibus F4 SD. Якщо вимкнено, то передполітні перевірки на наявність барометра не будуть проводитися.</translation>
     </message>
   </context>
   <context>
