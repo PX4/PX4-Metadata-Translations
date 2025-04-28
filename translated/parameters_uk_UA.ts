@@ -11485,7 +11485,7 @@
     <name>/parameters/COM_RC_IN_MODE/longDesc</name>
     <message>
       <source>A value of 0 enables RC transmitter control (only). A valid RC transmitter calibration is required. A value of 1 allows joystick control only. RC input handling and the associated checks are disabled. A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid. A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot. A value of 4 ignores any stick input.</source>
-      <translation>Значення 0 вимикає лише управління через передавач пульта(RC). Потрібне належне калібрування трансмітера RC (пульта). Значення 1 дозволяє керувати лише джойстиком. Введення даних пультом(RC) і пов'язані перевірки вимкнені. Значення 2 дозволяє роботу або трансмітера пульта(RC) або внесення даних джойстиком. Використовується перший допустимий спосіб введення даних; відбудеться повернення до інших джерел, якщо вхідний потік даних стає недійсним. Значення 3 дозволяє введеня з пульта(RC) або джойстика. Перше доступне джерело вибирається і використовується до перезавантаження. Значення 4 ігнорує будь-яке введення даних стіками.</translation>
+      <translation>Значення 0 вимикає лише управління через передавач пульта(RC). Потрібне належне калібрування трансмітера RC (пульта). Значення 1 дозволяє керувати лише джойстиком. Керування пультом(RC) і пов'язані перевірки вимкнені. Значення 2 дозволяє роботу або трансмітера пульта(RC) або керування джойстиком. Використовується перший допустимий спосіб керування; відбудеться повернення до інших джерел, якщо потік керування стає неприйнятним. Значення 3 дозволяє керування пультом(RC) або джойстиком. Перше доступне джерело вибирається і використовується до перезавантаження. Значення 4 ігнорує будь-які рухи стіками.</translation>
     </message>
   </context>
   <context>
@@ -11520,7 +11520,7 @@
     <name>/parameters/COM_RC_IN_MODE/values/4/description</name>
     <message>
       <source>Stick input disabled</source>
-      <translation>Вимкнено введення стіками</translation>
+      <translation>Керування стіками вимкнено</translation>
     </message>
   </context>
   <context>
@@ -25135,7 +25135,7 @@
     <name>/parameters/MPC_LAND_RC_HELP/longDesc</name>
     <message>
       <source>Using stick input the vehicle can be moved horizontally and yawed. The descend speed is amended: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</source>
-      <translation type="unfinished">Using stick input the vehicle can be moved horizontally and yawed. The descend speed is amended: stick full up - 0 stick centered - MPC_LAND_SPEED stick full down - 2 * MPC_LAND_SPEED Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</translation>
+      <translation>Використовуючи стіки, апаратом можна рухати горизонтально та рискати. Швидкість зниження змінена: стік повністю догори - 0 стік по центру - MPC_LAND_SPEED стік повністю донизу- 2 * MPC_LAND_SPEED Можливість переходу на ручний режим під час автоматичних режимів має бути вимкнуто для використання цієї функції (див. COM_RC_OVERRIDE).</translation>
     </message>
   </context>
   <context>
