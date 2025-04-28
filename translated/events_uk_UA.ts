@@ -1966,7 +1966,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
       <source>Connect and enable stick input or use autonomous mode.
 &lt;profile name="dev"&gt; Sticks can be enabled via &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Під'єднайте та активуйте введення стіками або використовуйте автономний режим.
+      <translation>Під'єднайте та активуйте керування стіками або використовуйте автономний режим.
 &lt;profile name="dev"&gt; Стіки можуть бути активовані через &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
