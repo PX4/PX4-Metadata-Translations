@@ -33381,7 +33381,7 @@
     <name>/parameters/RO_DECEL_LIM/longDesc</name>
     <message>
       <source>Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral deceleration.</source>
-      <translation type="unfinished">Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral deceleration.</translation>
+      <translation>Встановіть -1, щоб вимкнути. Зауважте, якщо це вимкнуто, то апарат не буде сповільнюватися при наближенні точок маршруту в автоматичних режимах. Для апаратів на колесах Ілона це обмеження використовується для повздовжного та бічного уповільнення.</translation>
     </message>
   </context>
   <context>
