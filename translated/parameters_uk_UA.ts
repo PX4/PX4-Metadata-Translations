@@ -33395,7 +33395,7 @@
     <name>/parameters/RO_JERK_LIM/longDesc</name>
     <message>
       <source>Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral jerk.</source>
-      <translation type="unfinished">Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral jerk.</translation>
+      <translation>Встановіть -1, щоб вимкнути. Зауважте, якщо це вимкнуто, то апарат не буде сповільнюватися при наближенні точок маршруту в автоматичних режимах. Для апаратів на колесах Ілона це обмеження використовується для повздовжного та бічного ривка.</translation>
     </message>
   </context>
   <context>
@@ -33514,7 +33514,7 @@
     <name>/parameters/RWTO_NUDGE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33584,7 +33584,7 @@
     <name>/parameters/RWTO_TKOFF/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33612,7 +33612,7 @@
     <name>/parameters/SDLOG_ALGORITHM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33640,7 +33640,7 @@
     <name>/parameters/SDLOG_BOOT_BAT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33710,7 +33710,7 @@
     <name>/parameters/SDLOG_MISSION/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33745,7 +33745,7 @@
     <name>/parameters/SDLOG_MODE/values/-1/description</name>
     <message>
       <source>disabled</source>
-      <translation type="unfinished">disabled</translation>
+      <translation>відключено</translation>
     </message>
   </context>
   <context>
@@ -33906,7 +33906,7 @@
     <name>/parameters/SDLOG_UUID/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33941,7 +33941,7 @@
     <name>/parameters/SIM_BAT_ENABLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -33997,7 +33997,7 @@
     <name>/parameters/CAL_ACC0_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -34417,7 +34417,7 @@
     <name>/parameters/CAL_ACC1_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -34837,7 +34837,7 @@
     <name>/parameters/CAL_ACC2_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35257,7 +35257,7 @@
     <name>/parameters/CAL_ACC3_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35684,7 +35684,7 @@
     <name>/parameters/CAL_BARO0_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35761,7 +35761,7 @@
     <name>/parameters/CAL_BARO1_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35838,7 +35838,7 @@
     <name>/parameters/CAL_BARO2_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35915,7 +35915,7 @@
     <name>/parameters/CAL_BARO3_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -35985,7 +35985,7 @@
     <name>/parameters/CAL_GYRO0_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -36384,7 +36384,7 @@
     <name>/parameters/CAL_GYRO1_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -36783,7 +36783,7 @@
     <name>/parameters/CAL_GYRO2_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -37182,7 +37182,7 @@
     <name>/parameters/CAL_GYRO3_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -37595,7 +37595,7 @@
     <name>/parameters/CAL_MAG0_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -38127,7 +38127,7 @@
     <name>/parameters/CAL_MAG1_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -38659,7 +38659,7 @@
     <name>/parameters/CAL_MAG2_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -39191,7 +39191,7 @@
     <name>/parameters/CAL_MAG3_PRIO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -39688,7 +39688,7 @@
     <name>/parameters/CAL_MAG_COMP_TYP/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -39758,7 +39758,7 @@
     <name>/parameters/SENS_DPRES_REV/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -39919,7 +39919,7 @@
     <name>/parameters/IMU_GYRO_CAL_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40024,7 +40024,7 @@
     <name>/parameters/IMU_GYRO_FFT_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40619,7 +40619,7 @@
     <name>/parameters/SENS_EN_AGPSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40640,7 +40640,7 @@
     <name>/parameters/SENS_EN_ARSPDSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40661,7 +40661,7 @@
     <name>/parameters/SENS_EN_BAROSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40682,7 +40682,7 @@
     <name>/parameters/SENS_EN_GPSSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40703,7 +40703,7 @@
     <name>/parameters/SENS_EN_MAGSIM/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40759,7 +40759,7 @@
     <name>/parameters/SENS_EXT_I2C_PRB/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40941,7 +40941,7 @@
     <name>/parameters/SENS_IMU_AUTOCAL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40969,7 +40969,7 @@
     <name>/parameters/SENS_IMU_CLPNOTI/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -40990,7 +40990,7 @@
     <name>/parameters/SENS_IMU_MODE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41018,7 +41018,7 @@
     <name>/parameters/SENS_INT_BARO_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41046,7 +41046,7 @@
     <name>/parameters/SENS_MAG_AUTOCAL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41074,7 +41074,7 @@
     <name>/parameters/SENS_MAG_AUTOROT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41165,7 +41165,7 @@
     <name>/parameters/SIM_ARSPD_FAIL/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41606,7 +41606,7 @@
     <name>/parameters/SYS_BL_UPDATE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41718,7 +41718,7 @@
     <name>/parameters/SYS_DM_BACKEND/values/-1/description</name>
     <message>
       <source>Dataman disabled</source>
-      <translation type="unfinished">Dataman disabled</translation>
+      <translation>Dataman вимкнуто</translation>
     </message>
   </context>
   <context>
@@ -41753,7 +41753,7 @@
     <name>/parameters/SYS_FAC_CAL_MODE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -41788,7 +41788,7 @@
     <name>/parameters/SYS_FAILURE_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
