@@ -30833,7 +30833,7 @@
     <name>/parameters/RC_MAP_ARM_SW/longDesc</name>
     <message>
       <source>Use it to arm/disarm via switch instead of default throttle stick. If this is assigned, arming and disarming via stick is disabled.</source>
-      <translation>Використовуйте його для взведення/знешкодженням за допомогою перемикача замість стандартної палички. Якщо це призначено, озброєння та роззброєння за допомогою паличка вимкнено.</translation>
+      <translation>Використовуйте його для взведення/охолощення за допомогою перемикача замість призначеного стіка тяги. Якщо це призначено, взведення та охолощення за допомогою стіків буде вимкнено.</translation>
     </message>
   </context>
   <context>
