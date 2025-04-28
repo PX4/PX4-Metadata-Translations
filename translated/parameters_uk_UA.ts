@@ -41816,7 +41816,7 @@
     <name>/parameters/SYS_HAS_BARO/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
