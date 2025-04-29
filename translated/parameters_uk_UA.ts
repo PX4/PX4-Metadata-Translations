@@ -25275,7 +25275,7 @@
     <name>/parameters/MPC_THR_HOVER/longDesc</name>
     <message>
       <source>Mapped to center throttle stick in Stabilized mode (see MPC_THR_CURVE). Used for initialization of the hover thrust estimator (see MPC_USE_HTE). The estimated hover thrust is used as base for zero vertical acceleration in altitude control. The hover thrust is important for land detection to work correctly.</source>
-      <translation type="unfinished">Mapped to center throttle stick in Stabilized mode (see MPC_THR_CURVE). Used for initialization of the hover thrust estimator (see MPC_USE_HTE). The estimated hover thrust is used as base for zero vertical acceleration in altitude control. The hover thrust is important for land detection to work correctly.</translation>
+      <translation>Стік тяги у режимі Stabilized призначено до центру (див. MPC_THR_CURVE). Використовується для ініціалізації оцінювання сили тяги зависання (див. MPC_USE_HTE). Визначена сила тяги зависання використовується як база для нульового вертикального прискорення при контролі висоти. Сила тяги зависання є важливою для правильної роботи відстеження приземлення.</translation>
     </message>
   </context>
   <context>
@@ -25842,7 +25842,7 @@
     <name>/parameters/MC_SLOW_DEF_HVEL/longDesc</name>
     <message>
       <source>This value is used in slow mode if no aux channel is mapped and no limit is commanded through MAVLink.</source>
-      <translation type="unfinished">This value is used in slow mode if no aux channel is mapped and no limit is commanded through MAVLink.</translation>
+      <translation>Це значення використовується в уповільненому режимі, якщо не призначено aux channel і немає обмеження призначеного через MAVLink.</translation>
     </message>
   </context>
   <context>
@@ -25856,7 +25856,7 @@
     <name>/parameters/MC_SLOW_DEF_VVEL/longDesc</name>
     <message>
       <source>This value is used in slow mode if no aux channel is mapped and no limit is commanded through MAVLink.</source>
-      <translation type="unfinished">This value is used in slow mode if no aux channel is mapped and no limit is commanded through MAVLink.</translation>
+      <translation>Це значення використовується в уповільненому режимі, якщо не призначено aux channel і немає обмеження призначеного через MAVLink.</translation>
     </message>
   </context>
   <context>
@@ -25870,14 +25870,14 @@
     <name>/parameters/MC_SLOW_DEF_YAWR/longDesc</name>
     <message>
       <source>This value is used in slow mode if no aux channel is mapped and no limit is commanded through MAVLink.</source>
-      <translation type="unfinished">This value is used in slow mode if no aux channel is mapped and no limit is commanded through MAVLink.</translation>
+      <translation>Це значення використовується в уповільненому режимі, якщо не призначено aux channel і немає обмеження призначеного через MAVLink.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_SLOW_MAP_HVEL/shortDesc</name>
     <message>
       <source>Manual input mapped to scale horizontal velocity in position slow mode</source>
-      <translation type="unfinished">Manual input mapped to scale horizontal velocity in position slow mode</translation>
+      <translation>Призначено ручне керування, для налаштування горизонтальної швидкості в позиції повільного режиму</translation>
     </message>
   </context>
   <context>
@@ -25989,7 +25989,7 @@
     <name>/parameters/MC_SLOW_MAP_VVEL/shortDesc</name>
     <message>
       <source>Manual input mapped to scale vertical velocity in position slow mode</source>
-      <translation type="unfinished">Manual input mapped to scale vertical velocity in position slow mode</translation>
+      <translation>Призначено ручне керування, для налаштування горизонтальної швидкості в позиції повільного режиму</translation>
     </message>
   </context>
   <context>
@@ -26045,7 +26045,7 @@
     <name>/parameters/MC_SLOW_MAP_YAWR/shortDesc</name>
     <message>
       <source>Manual input mapped to scale yaw rate in position slow mode</source>
-      <translation type="unfinished">Manual input mapped to scale yaw rate in position slow mode</translation>
+      <translation>Призначено ручне керування, для налаштування горизонтальної швидкості в позиції повільного режиму</translation>
     </message>
   </context>
   <context>
@@ -32926,7 +32926,7 @@
     <name>/parameters/RD_MAX_THR_YAW_R/longDesc</name>
     <message>
       <source>This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is half the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.</source>
-      <translation type="unfinished">This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is half the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.</translation>
+      <translation>Цей параметр використовується для обчислення періоду контролю прямого зв'язку (feedforward) закритого циклу рівня рискання. Контролер розраховує першу необхідну різницю між лівим і правом двигуном для досягнення бажаної швидкості руху. Ця бажана різниця в тому, що потім є лінійною картою до нормалізованих команд моду. Хорошою відправною точкою є напівшвидкість, з більшою швидкістю даху (RD_MAX_THR_SPD)). Збільшення цього параметру, якщо водій працює швидше, ніж встановлена точка, і зменшити, якщо мотузка повертається повільніше.</translation>
     </message>
   </context>
   <context>
