@@ -1279,14 +1279,14 @@
     <name>/parameters/PWM_MAIN_FUNC1/values/402/description</name>
     <message>
       <source>RC Roll</source>
-      <translation>Пульт(RC) крен</translation>
+      <translation>Пульт(RC) Крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/403/description</name>
     <message>
       <source>RC Pitch</source>
-      <translation>Пульт(RC) тангаж</translation>
+      <translation>Пульт(RC) Тангаж</translation>
     </message>
   </context>
   <context>
@@ -1300,7 +1300,7 @@
     <name>/parameters/PWM_MAIN_FUNC1/values/405/description</name>
     <message>
       <source>RC Yaw</source>
-      <translation>Пульт(RC) рискання</translation>
+      <translation>Пульт(RC) Рискання</translation>
     </message>
   </context>
   <context>
@@ -25170,7 +25170,7 @@
     <name>/parameters/MPC_MANTHR_MIN/longDesc</name>
     <message>
       <source>The value is mapped to the lowest throttle stick position in Stabilized mode. Too low collective thrust leads to loss of roll/pitch/yaw torque control authority. Airmode is used to keep torque authority with zero thrust (see MC_AIRMODE).</source>
-      <translation type="unfinished">The value is mapped to the lowest throttle stick position in Stabilized mode. Too low collective thrust leads to loss of roll/pitch/yaw torque control authority. Airmode is used to keep torque authority with zero thrust (see MC_AIRMODE).</translation>
+      <translation>Це значення призначено найнижчому положенню стіка тяги у режимі Stabilized. Занадто низька загальна тяга призводить до втрати контролю крутного моменту при крені(roll)/тангажі(pitch)/рисканні(yaw). Режим Airmode використовується, щоб зберігти контроль крутного моменту центр з нульовою тягою (див. MC_AIRMODE).</translation>
     </message>
   </context>
   <context>
@@ -41921,7 +41921,7 @@
     <name>/parameters/SYS_HITL/longDesc</name>
     <message>
       <source>While enabled the system will boot in Hardware-In-The-Loop (HITL) or Simulation-In-Hardware (SIH) mode and not enable all sensors and checks. When disabled the same vehicle can be flown normally. Set to 'external HITL', if the system should perform as if it were a real vehicle (the only difference to a real system is then only the parameter value, which can be used for log analysis).</source>
-      <translation type="unfinished">While enabled the system will boot in Hardware-In-The-Loop (HITL) or Simulation-In-Hardware (SIH) mode and not enable all sensors and checks. When disabled the same vehicle can be flown normally. Set to 'external HITL', if the system should perform as if it were a real vehicle (the only difference to a real system is then only the parameter value, which can be used for log analysis).</translation>
+      <translation>При включенні: система буде завантажуватися у "Hardware-In-The-Loop (HITL) або у режимі Simulation-In-Hardware (SIH), і не буде вмикати всі датчики та перевірки. Коли відключено: той самий апарат може літати нормально. Встановити як "зовнішній HITL", якщо система раптом працює як справжній апарат (єдина різниця від реальної системі - це тільки значення параметра, який може бути використаний для аналізу журналу записів).</translation>
     </message>
   </context>
   <context>
@@ -41935,7 +41935,7 @@
     <name>/parameters/SYS_HITL/values/0/description</name>
     <message>
       <source>HITL and SIH disabled</source>
-      <translation type="unfinished">HITL and SIH disabled</translation>
+      <translation>HITL і SIH вимкнуто</translation>
     </message>
   </context>
   <context>
@@ -41991,7 +41991,7 @@
     <name>/parameters/SYS_STCK_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -42586,7 +42586,7 @@
     <name>/parameters/TC_A_ENABLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -42887,7 +42887,7 @@
     <name>/parameters/TC_B_ENABLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -43356,7 +43356,7 @@
     <name>/parameters/TC_G_ENABLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -43825,7 +43825,7 @@
     <name>/parameters/TC_M_ENABLE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -44112,7 +44112,7 @@
     <name>/parameters/UXRCE_DDS_SYNCC/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -44140,7 +44140,7 @@
     <name>/parameters/UXRCE_DDS_SYNCT/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -44273,7 +44273,7 @@
     <name>/parameters/VT_ELEV_MC_LOCK/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -44301,7 +44301,7 @@
     <name>/parameters/VT_FWD_THRUST_EN/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
