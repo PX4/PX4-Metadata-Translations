@@ -21621,7 +21621,7 @@
     <name>/parameters/HTE_VXY_THR/longDesc</name>
     <message>
       <source>Above this speed, the measurement noise is linearly increased to reduce the sensitivity of the estimator from biased measurement. Set to a low value on vehicles with large lifting surfaces.</source>
-      <translation type="unfinished">Above this speed, the measurement noise is linearly increased to reduce the sensitivity of the estimator from biased measurement. Set to a low value on vehicles with large lifting surfaces.</translation>
+      <translation>Над цією швидкістю, вимірювання шуму рівномірно збільшується, щоб зменшити чутливість оцінювача від упередженого вимірювання. Встановіть низьке значення на апаратах з великими підйомними поверхнями.</translation>
     </message>
   </context>
   <context>
@@ -21635,7 +21635,7 @@
     <name>/parameters/HTE_VZ_THR/longDesc</name>
     <message>
       <source>Above this speed, the measurement noise is linearly increased to reduce the sensitivity of the estimator from biased measurement. Set to a low value on vehicles affected by air drag when climbing or descending.</source>
-      <translation type="unfinished">Above this speed, the measurement noise is linearly increased to reduce the sensitivity of the estimator from biased measurement. Set to a low value on vehicles affected by air drag when climbing or descending.</translation>
+      <translation>Над цією швидкістю, вимірювання шуму рівномірно збільшується, щоб зменшити чутливість оцінювача від упередженого вимірювання. Встановіть низьке значення на апаратах, що зазнають опору повітря при підйомі або зниженні.</translation>
     </message>
   </context>
   <context>
@@ -25520,7 +25520,7 @@
     <name>/parameters/MPC_XY_ERR_MAX/longDesc</name>
     <message>
       <source>The integration speed of the trajectory setpoint is linearly reduced with the horizontal position tracking error. When the error is above this parameter, the integration of the trajectory is stopped to wait for the drone. This value can be adjusted depending on the tracking capabilities of the vehicle.</source>
-      <translation type="unfinished">The integration speed of the trajectory setpoint is linearly reduced with the horizontal position tracking error. When the error is above this parameter, the integration of the trajectory is stopped to wait for the drone. This value can be adjusted depending on the tracking capabilities of the vehicle.</translation>
+      <translation>Швидкість інтегрування точки траєкторії лінійно зменшується з помилкою відстежування горизонтального розташування. Коли помилка вище цього параметру, інтеграція траєкторії припиняється, щоб чекати на дрон. Це значення можна налаштувати в залежності від можливостей апарату відстежувати.</translation>
     </message>
   </context>
   <context>
@@ -33178,7 +33178,7 @@
     <name>/parameters/GND_SPEED_THR_SC/longDesc</name>
     <message>
       <source>This is a gain to map the speed control output to the throttle linearly.</source>
-      <translation type="unfinished">This is a gain to map the speed control output to the throttle linearly.</translation>
+      <translation>Це отримано для зображення результату контролю швидкості для плавної тяги.</translation>
     </message>
   </context>
   <context>
@@ -33409,7 +33409,7 @@
     <name>/parameters/RO_MAX_THR_SPEED/longDesc</name>
     <message>
       <source>Used to linearly map speeds [m/s] to throttle values [-1. 1].</source>
-      <translation type="unfinished">Used to linearly map speeds [m/s] to throttle values [-1. 1].</translation>
+      <translation>Використовується для лінійного позначення швидкості [м/с] для значень тяги [-1. 1].</translation>
     </message>
   </context>
   <context>
