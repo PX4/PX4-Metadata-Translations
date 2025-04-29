@@ -41837,14 +41837,14 @@
     <name>/parameters/SYS_HAS_GPS/longDesc</name>
     <message>
       <source>Disable this if the system has no GPS. If disabled, the sensors hub will not process sensor_gps, and GPS will not be available for the rest of the system.</source>
-      <translation type="unfinished">Disable this if the system has no GPS. If disabled, the sensors hub will not process sensor_gps, and GPS will not be available for the rest of the system.</translation>
+      <translation>Вимкніть це, якщо система не має GPS. Якщо вимкнено, то хаб сенсорів не буде обробляти sensor_gps, і GPS не буде доступний для решти системи.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/SYS_HAS_GPS/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
