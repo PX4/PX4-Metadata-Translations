@@ -25240,7 +25240,7 @@
     <name>/parameters/MPC_THR_CURVE/longDesc</name>
     <message>
       <source>Defines how the throttle stick is mapped to collective thrust in Stabilized mode. Rescale to hover thrust estimate: Stick input is linearly rescaled, such that a centered throttle stick corresponds to the hover thrust estimator's output. No rescale: Directly map the stick 1:1 to the output. Can be useful with very low hover thrust which leads to much distortion and the upper half getting sensitive. Rescale to hover thrust parameter: Similar to rescaling to the hover thrust estimate, but it uses the hover thrust parameter value (see MPC_THR_HOVER) instead of estimated value. With MPC_THR_HOVER 0.5 it's equivalent to No rescale.</source>
-      <translation>Визначає, як стік тяги призначено для загальної сили тяги у режимі Stabilized. Переналаштування для розрахунку тяги зависання: Лінійний рух стіка переналаштовано, так що по центру стік тяги відповідає результату розрахунку тяги зависання. Без переналаштування: Прямо призначте стік 1:1 до результату. Може бути корисним при низькій тязі зависання, що призводить до значного викривлення даних, і верхня половина стає чуттєвою. Переналаштування до параметрів тяги зависання: Подібно до переналаштування до значення тяги зависання, але воно використовує значення параметра сили тяги зависання (див. MPC_THR_HOVER) замість вирахуваного значення. З MPC_THR_HOVER 0.5 це еквівалентно відсутності переналаштування.</translation>
+      <translation>Визначає, як стік тяги призначено для загальної сили тяги у режимі Stabilized. Переналаштування для розрахунку тяги зависання: Управління стіками переналаштовано рівномірно, так що по центру стік тяги відповідає результату розрахунку тяги зависання. Без переналаштування: Прямо призначте стік 1:1 до результату. Може бути корисним при низькій тязі зависання, що призводить до значного викривлення даних, і верхня половина стає чуттєвою. Переналаштування до параметрів тяги зависання: Подібно до переналаштування до значення тяги зависання, але воно використовує значення параметра сили тяги зависання (див. MPC_THR_HOVER) замість вирахуваного значення. З MPC_THR_HOVER 0.5 це еквівалентно відсутності переналаштування.</translation>
     </message>
   </context>
   <context>
@@ -32926,7 +32926,7 @@
     <name>/parameters/RD_MAX_THR_YAW_R/longDesc</name>
     <message>
       <source>This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is half the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.</source>
-      <translation>Цей параметр використовується для обчислення періоду контролю прямого зв'язку (feedforward) закритого циклу рівня рискання. Контролер розраховує першу необхідну різницю між лівим і правом двигуном для досягнення бажаної швидкості руху. Ця бажана різниця в тому, що потім є лінійною картою до нормалізованих команд моду. Хорошою відправною точкою є напівшвидкість, з більшою швидкістю даху (RD_MAX_THR_SPD)). Збільшення цього параметру, якщо водій працює швидше, ніж встановлена точка, і зменшити, якщо мотузка повертається повільніше.</translation>
+      <translation>Цей параметр використовується для обчислення періоду прямого зв'язку (feedforward) закритого циклу контролю рівня рискання. Спочатку контролер вираховує необхідну різницю швидкості між лівим та правим мотором для досягнення бажаного темпу рискання. Тоді бажана різниця швидкості рівномірно розподіляється для нормалізації управління моторами. Гарна стартова точка це половина швидкості, яку машина розвиває при максимальному дроселі (RD_MAX_THR_SPD)). Збільшуйте цей параметр, якщо машина їде швидше за встановлене значення, та зменшуйте якщо машина їде повільніше.</translation>
     </message>
   </context>
   <context>
@@ -33010,7 +33010,7 @@
     <name>/parameters/RM_MAX_THR_YAW_R/longDesc</name>
     <message>
       <source>This parameter is used to calculate the feedforward term of the closed loop yaw rate control. The controller first calculates the required speed difference between the left and right motor to achieve the desired yaw rate. This desired speed difference is then linearly mapped to normalized motor commands. A good starting point is half the speed the rover drives at maximum throttle (RD_MAX_THR_SPD)). Increase this parameter if the rover turns faster than the setpoint, and decrease if the rover turns slower.</source>
-      <translation>Цей параметр використовується для обчислення періоду прямого зв'язку (feedforward) закритого циклу контролю рівня рискання. Спочатку контролер вираховує необхідну різницю швидкості між лівим та правим мотором для досягнення бажаного темпу рискання. Тоді бажана різниця швидкості рівномірно розподіляється для нормалізації управління моторами. Гарна стартова точка це половина швидкості, яку машина розвиває при максимальному дроселі (RD_MAX_THR_SPD)). Збільшуйте цій параметр, якщо машина їде швидше за встановлене значення, та зменшуйте якщо машина їде повільніше.</translation>
+      <translation>Цей параметр використовується для обчислення періоду прямого зв'язку (feedforward) закритого циклу контролю рівня рискання. Спочатку контролер вираховує необхідну різницю швидкості між лівим та правим мотором для досягнення бажаного темпу рискання. Тоді бажана різниця швидкості рівномірно розподіляється для нормалізації управління моторами. Гарна стартова точка це половина швидкості, яку машина розвиває при максимальному дроселі (RD_MAX_THR_SPD)). Збільшуйте цей параметр, якщо машина їде швидше за встановлене значення, та зменшуйте якщо машина їде повільніше.</translation>
     </message>
   </context>
   <context>
@@ -33381,7 +33381,7 @@
     <name>/parameters/RO_DECEL_LIM/longDesc</name>
     <message>
       <source>Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral deceleration.</source>
-      <translation>Встановіть -1, щоб вимкнути. Зауважте, якщо це вимкнуто, то апарат не буде сповільнюватися при наближенні точок маршруту в автоматичних режимах. Для апаратів на колесах Ілона це обмеження використовується для повздовжного та бічного уповільнення.</translation>
+      <translation>Встановіть -1, щоб вимкнути. Зауважте, якщо це вимкнуто, то машина не буде сповільнюватися при наближенні до точок маршруту в автоматичних режимах. Для машин на колесах Ілона це обмеження використовується для повздовжного та бічного уповільнення.</translation>
     </message>
   </context>
   <context>
@@ -33395,7 +33395,7 @@
     <name>/parameters/RO_JERK_LIM/longDesc</name>
     <message>
       <source>Set to -1 to disable. Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes. For mecanum rovers this limit is used for longitudinal and lateral jerk.</source>
-      <translation>Встановіть -1, щоб вимкнути. Зауважте, якщо це вимкнуто, то апарат не буде сповільнюватися при наближенні точок маршруту в автоматичних режимах. Для апаратів на колесах Ілона це обмеження використовується для повздовжного та бічного ривка.</translation>
+      <translation>Встановіть -1, щоб вимкнути. Зауважте, якщо це вимкнуто, то машина не буде сповільнюватися при наближенні точок маршруту в автоматичних режимах. Для машин на колесах Ілона це обмеження використовується для повздовжного та бічного ривка.</translation>
     </message>
   </context>
   <context>
@@ -44000,7 +44000,7 @@
     <name>/parameters/UXRCE_DDS_AG_IP/longDesc</name>
     <message>
       <source>If ethernet is enabled and is the selected configuration for uXRCE-DDS, the selected Agent IP address will be set and used. Decimal dot notation is not supported. IP address must be provided in int32 format. For example, 192.168.1.2 is mapped to -1062731518; 127.0.0.1 is mapped to 2130706433.</source>
-      <translation type="unfinished">If ethernet is enabled and is the selected configuration for uXRCE-DDS, the selected Agent IP address will be set and used. Decimal dot notation is not supported. IP address must be provided in int32 format. For example, 192.168.1.2 is mapped to -1062731518; 127.0.0.1 is mapped to 2130706433.</translation>
+      <translation>Якщо ethernet увімкнено і він є обраною конфігурацією для uXRCE-DS, обрана Agent IP-адреса буде встановлена і використовуватися. Десятина система запису не підтримується. Наприклад, IP-адреса має бути надана у форматі int32. Наприклад, 192.168.1.2 призначена як -1062731518; 127.0.0.1 призначена як 2130706433.</translation>
     </message>
   </context>
   <context>
