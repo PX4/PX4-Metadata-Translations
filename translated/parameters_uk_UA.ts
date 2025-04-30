@@ -12836,7 +12836,7 @@
     <name>/parameters/EKF2_HGT_REF/longDesc</name>
     <message>
       <source>When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level. If GPS is set as reference but altitude fusion is disabled in EKF2_GPS_CTRL, the GPS altitude is still used to initiaize the bias of the other height sensors.</source>
-      <translation>Якщо одночасно ввімкнути декілька джерел даних про висоту, визначення висоти завжди буде близьке до джерела відносної висоти, обраної цим параметром. Датчик радіусу та параметри камери мають використовуватися тільки при роботі над плоскою поверхнею, оскільки точка відліку локального NED буде рухатися вгору і вниз разом з рівнем поверхні. Якщо GPS встановлено відносно, але підрахунок висоти вимкнено в EKF2_GPS_CTRL, висота за GPS все одно використовується, щоб внести дані про зміщення інших датчиків висоти.</translation>
+      <translation>Якщо одночасно ввімкнути декілька джерел даних про висоту, визначення висоти завжди буде близьке до джерела відносної висоти, обраної цим параметром. Датчик радіусу та параметри камери мають використовуватися тільки при роботі над плоскою поверхнею, оскільки точка відліку локального NED буде рухатися вгору і вниз разом з рівнем поверхні. Якщо GPS встановлено відносно, але підрахунок висоти вимкнено в EKF2_GPS_CTRL, висота за GPS все одно використовується, щоб внести дані про похибки інших датчиків висоти.</translation>
     </message>
   </context>
   <context>
@@ -21635,7 +21635,7 @@
     <name>/parameters/HTE_VZ_THR/longDesc</name>
     <message>
       <source>Above this speed, the measurement noise is linearly increased to reduce the sensitivity of the estimator from biased measurement. Set to a low value on vehicles affected by air drag when climbing or descending.</source>
-      <translation>Над цією швидкістю, вимірювання шуму рівномірно збільшується, щоб зменшити чутливість оцінювача від упередженого вимірювання. Встановіть низьке значення на апаратах, що зазнають опору повітря при підйомі або зниженні.</translation>
+      <translation>Над цією швидкістю, вимірювання шуму рівномірно збільшується, щоб зменшити чутливість оцінювача від похибки вимірювання. Встановіть низьке значення на апаратах, що зазнають опору повітря при підйомі або зниженні.</translation>
     </message>
   </context>
   <context>
@@ -41487,7 +41487,7 @@
     <name>/parameters/SIM_AGP_FAIL/longDesc</name>
     <message>
       <source>Stuck: freeze the measurement to the current location Drift: add a linearly growing bias to the sensor data</source>
-      <translation type="unfinished">Stuck: freeze the measurement to the current location Drift: add a linearly growing bias to the sensor data</translation>
+      <translation>Застряг: заморозити вимірювання поточного місцевого зносу: додайте рівномірно зростаюче відхилення до даних датчиків</translation>
     </message>
   </context>
   <context>
