@@ -24540,7 +24540,7 @@
     <name>/parameters/MNT_RATE_PITCH/longDesc</name>
     <message>
       <source>Full stick input [-1..1] translats to [-pitch rate..pitch rate].</source>
-      <translation type="unfinished">Full stick input [-1..1] translats to [-pitch rate..pitch rate].</translation>
+      <translation>Повне керування стіками [-1..1] перехід до [-швидкість тангажу..швидкість тангажу].</translation>
     </message>
   </context>
   <context>
@@ -24554,7 +24554,7 @@
     <name>/parameters/MNT_RATE_YAW/longDesc</name>
     <message>
       <source>Full stick input [-1..1] translats to [-yaw rate..yaw rate].</source>
-      <translation type="unfinished">Full stick input [-1..1] translats to [-yaw rate..yaw rate].</translation>
+      <translation>Повне керування стіками [-1..1] перехід до [-швидкість рискання..швидкість рискання].</translation>
     </message>
   </context>
   <context>
@@ -24645,7 +24645,7 @@
     <name>/parameters/MC_ACRO_SUPEXPO/longDesc</name>
     <message>
       <source>"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</source>
-      <translation type="unfinished">"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</translation>
+      <translation>"Суперекспоненціальний" фактор для уточнення форми вхідної кривої, налаштованої за допомогою MC_ACRO_EXPO. 0 Pure Expo 0. Pure Expo function 0.7 грунтовної форми покращення для інтуїтивного відчуття стіків 0.95 дуже великий нахил викривлення кривої, має ефект лише біля максимальних значень </translation>
     </message>
   </context>
   <context>
