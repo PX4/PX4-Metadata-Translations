@@ -11576,7 +11576,7 @@
     <name>/parameters/COM_RC_STICK_OV/longDesc</name>
     <message>
       <source>If COM_RC_OVERRIDE is enabled and the joystick input is moved more than this threshold the autopilot the pilot takes over control.</source>
-      <translation type="unfinished">If COM_RC_OVERRIDE is enabled and the joystick input is moved more than this threshold the autopilot the pilot takes over control.</translation>
+      <translation>Якщо COM_RC_OVERRIDE увімкнено, та керування джойстиком зміщено за цей поріг, пілот/автопілот переймає контроль.</translation>
     </message>
   </context>
   <context>
