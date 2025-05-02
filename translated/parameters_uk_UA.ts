@@ -14327,7 +14327,7 @@
     <name>/parameters/FW_LND_NUDGE/shortDesc</name>
     <message>
       <source>Landing touchdown nudging option</source>
-      <translation type="unfinished">Landing touchdown nudging option</translation>
+      <translation>Опція поштовху при торканні поверхні в процесі приземлення</translation>
     </message>
   </context>
   <context>
@@ -32996,7 +32996,7 @@
     <name>/parameters/RM_COURSE_CTL_TH/longDesc</name>
     <message>
       <source>Threshold for the angle between the active cruise direction and the cruise direction given by the stick inputs. This can be understood as a deadzone for the combined stick inputs for forward/backwards and lateral speed which defines a course direction.</source>
-      <translation type="unfinished">Threshold for the angle between the active cruise direction and the cruise direction given by the stick inputs. This can be understood as a deadzone for the combined stick inputs for forward/backwards and lateral speed which defines a course direction.</translation>
+      <translation>Поріг для кута між активним крейсерським напрямком та крейсерським напрямком, який отримано від руху стіками. Це може бути зрозуміло як мертва зона для комбінованих рухів стіками для передньої/задньої та бічної швидкості, яка визначає напрямок курсу.</translation>
     </message>
   </context>
   <context>
@@ -33353,7 +33353,7 @@
     <name>/parameters/RO_YAW_STICK_DZ/longDesc</name>
     <message>
       <source>Percentage of stick input range that will be interpreted as zero around the stick centered value.</source>
-      <translation type="unfinished">Percentage of stick input range that will be interpreted as zero around the stick centered value.</translation>
+      <translation>Процент рівня руху стіками, що буде інтерпретований як нульовий навколо значення стіка по центру.</translation>
     </message>
   </context>
   <context>
