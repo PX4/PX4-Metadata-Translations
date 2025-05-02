@@ -25639,7 +25639,7 @@
     <name>/parameters/MPC_YAW_EXPO/longDesc</name>
     <message>
       <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
-      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</translation>
+      <translation>Чим вище значення, тим менше чутливості стік має навколо нуля, одночасно досягаючи максимального значення з повною зміною напрямку стіка. 0 Чисто пряма вхідна крива 1 Чисто кубічна вхідна крива</translation>
     </message>
   </context>
   <context>
@@ -25653,7 +25653,7 @@
     <name>/parameters/MPC_Z_MAN_EXPO/longDesc</name>
     <message>
       <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
-      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</translation>
+      <translation>Чим вище значення, тим менше чутливості стік має навколо нуля, одночасно досягаючи максимального значення з повною зміною напрямку стіка. 0 Чисто пряма вхідна крива 1 Чисто кубічна вхідна крива</translation>
     </message>
   </context>
   <context>
