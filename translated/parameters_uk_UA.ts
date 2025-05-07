@@ -14271,7 +14271,7 @@
     <name>/parameters/FW_LND_FLALT/longDesc</name>
     <message>
       <source>NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * |z-velocity|) is taken as the flare altitude</source>
-      <translation type="unfinished">NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * |z-velocity|) is taken as the flare altitude</translation>
+      <translation>Примітка: max(FW_LND_FLALT, FW_LND_FL_TIME * |z-velocity|) береться як висота посадкового приземлення</translation>
     </message>
   </context>
   <context>
