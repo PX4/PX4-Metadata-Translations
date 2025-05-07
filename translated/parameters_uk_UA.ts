@@ -14278,21 +14278,21 @@
     <name>/parameters/FW_LND_FL_PMAX/shortDesc</name>
     <message>
       <source>Flare, maximum pitch</source>
-      <translation type="unfinished">Flare, maximum pitch</translation>
+      <translation>Посадкове вирівнювання, максимальний тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_PMAX/longDesc</name>
     <message>
       <source>Maximum pitch during landing flare.</source>
-      <translation type="unfinished">Maximum pitch during landing flare.</translation>
+      <translation>Максимальний тангаж під час посадкового вирівнювання.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_PMIN/shortDesc</name>
     <message>
       <source>Flare, minimum pitch</source>
-      <translation type="unfinished">Flare, minimum pitch</translation>
+      <translation>Посадкове вирівнювання, мінімальний тангаж</translation>
     </message>
   </context>
   <context>
