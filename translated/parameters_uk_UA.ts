@@ -14264,7 +14264,7 @@
     <name>/parameters/FW_LND_FLALT/shortDesc</name>
     <message>
       <source>Landing flare altitude (relative to landing altitude)</source>
-      <translation type="unfinished">Landing flare altitude (relative to landing altitude)</translation>
+      <translation>Висота посадкового вирівнювання (відносно висоти посадки)</translation>
     </message>
   </context>
   <context>
