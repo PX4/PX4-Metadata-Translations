@@ -14306,28 +14306,28 @@
     <name>/parameters/FW_LND_FL_SINK/shortDesc</name>
     <message>
       <source>Landing flare sink rate</source>
-      <translation>Рівень зниження при посадковому вирівнюванні</translation>
+      <translation>Рівень занурення при посадковому вирівнюванні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_SINK/longDesc</name>
     <message>
       <source>TECS will attempt to control the aircraft to this sink rate via pitch angle (throttle killed during flare)</source>
-      <translation type="unfinished">TECS will attempt to control the aircraft to this sink rate via pitch angle (throttle killed during flare)</translation>
+      <translation>TECS спробує контролювати апарат до цього рівня занурення через кут тангажу (дросель вимкнено під час посадкового вирівнювання)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_TIME/shortDesc</name>
     <message>
       <source>Landing flare time</source>
-      <translation type="unfinished">Landing flare time</translation>
+      <translation>Час посадкового вирівнювання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_TIME/longDesc</name>
     <message>
       <source>Multiplied by the descent rate to calculate a dynamic altitude at which to trigger the flare. NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * descent rate) is taken as the flare altitude</source>
-      <translation type="unfinished">Multiplied by the descent rate to calculate a dynamic altitude at which to trigger the flare. NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * descent rate) is taken as the flare altitude</translation>
+      <translation>Помножено на рівень зниження для обчислення динамічної висоти при якій спрацьовує посадкове вирівнювання. ПРИМІТКА: max(FW_LND_FLALT, FLND_FL_TIME) приймається як висота посадкового зниження</translation>
     </message>
   </context>
   <context>
@@ -14376,7 +14376,7 @@
     <name>/parameters/FW_LND_TD_TIME/shortDesc</name>
     <message>
       <source>Landing touchdown time (since flare start)</source>
-      <translation type="unfinished">Landing touchdown time (since flare start)</translation>
+      <translation>Час торкання поверхні при приземленні (з часу початку посадкового вирівнювання)</translation>
     </message>
   </context>
   <context>
@@ -14425,7 +14425,7 @@
     <name>/parameters/FW_LND_USETER/values/1/description</name>
     <message>
       <source>Use the terrain estimate to trigger the flare (only)</source>
-      <translation type="unfinished">Use the terrain estimate to trigger the flare (only)</translation>
+      <translation>Використовувати оцінювання поверхні тільки для запуску посадкового вирівнювання</translation>
     </message>
   </context>
   <context>
@@ -14936,14 +14936,14 @@
     <name>/parameters/FW_T_SINK_MIN/shortDesc</name>
     <message>
       <source>Minimum descent rate</source>
-      <translation type="unfinished">Minimum descent rate</translation>
+      <translation>Мінімальний рівень зниження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_SINK_MIN/longDesc</name>
     <message>
       <source>This is the minimum calibrated sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</source>
-      <translation type="unfinished">This is the minimum calibrated sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</translation>
+      <translation>Це мінімально відкалібрований рівень занурення апарату при дроселі встановленому на THR_MIN і керованому на тій же швидкості польоту, що використовується для вимірювання FW_T_CLMB_MAX.</translation>
     </message>
   </context>
   <context>
@@ -15643,21 +15643,21 @@
     <name>/parameters/FW_T_SINK_MAX/shortDesc</name>
     <message>
       <source>Maximum descent rate</source>
-      <translation type="unfinished">Maximum descent rate</translation>
+      <translation>Мінімальний рівень зниження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_SINK_R_SP/shortDesc</name>
     <message>
       <source>Default target sinkrate</source>
-      <translation type="unfinished">Default target sinkrate</translation>
+      <translation>Цільовий рівень занурення за замовчуванням</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_SINK_R_SP/longDesc</name>
     <message>
       <source>In auto modes: default sink rate output by controller to achieve altitude setpoints. In manual modes: maximum sink rate setpoint.</source>
-      <translation type="unfinished">In auto modes: default sink rate output by controller to achieve altitude setpoints. In manual modes: maximum sink rate setpoint.</translation>
+      <translation>В автоматичних режимах: вихідний рівень занурення за замовчуванням через контролер для досягнення висоти заданих значень. У ручних режимах: максимальне задане значення рівня занурення.</translation>
     </message>
   </context>
   <context>
