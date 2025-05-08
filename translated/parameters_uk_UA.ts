@@ -11275,7 +11275,7 @@
     <name>/parameters/COM_POS_LOW_ACT/longDesc</name>
     <message>
       <source>Action the system takes when the estimated position has an accuracy below the specified threshold. See COM_POS_LOW_EPH to set the failsafe threshold. The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode, otherwise it is only a warning.</source>
-      <translation>Дія, яку система виконує коли точність визначеної позиції є нижчою за визначений поріг. Див. COM_P_LOW_EPH для встановлення порогу аварійного режиму. Дія аварійного режиму виконується лише у випадку, якщо апарат знаходиться режимі автоматичної місії або у режимі автоматичного утримання, інакше це лише попередження.</translation>
+      <translation>Дія, яку система виконує коли точність визначеної позиції є нижчою за визначений поріг. Див. COM_P_LOW_EPH для встановлення порогу аварійного режиму. Дія аварійного режиму виконується лише у випадку, якщо апарат знаходиться режимі автоматичної місії або у режимі автоматичного кружляння, інакше це лише попередження.</translation>
     </message>
   </context>
   <context>
@@ -14243,7 +14243,7 @@
     <name>/parameters/FW_LND_EARLYCFG/longDesc</name>
     <message>
       <source>Allows to deploy the landing configuration (flaps, landing airspeed, etc.) already in the loiter-down waypoint before the final approach. Otherwise is enabled only in the final approach.</source>
-      <translation>Дозволяє розгорнути конфігурацію приземлення (закрилки, швидкість польоту при приземленні тощо) вже у нижній точці утримання на маршруті перед кінцевим наближенням. Інакше увімкнено лише при фінальному заході.</translation>
+      <translation>Дозволяє розгорнути конфігурацію приземлення (закрилки, швидкість польоту при приземленні тощо) вже у нижній точці кружляння на маршруті перед кінцевим наближенням. Інакше увімкнено лише при фінальному заході.</translation>
     </message>
   </context>
   <context>
@@ -16749,7 +16749,7 @@
     <name>/parameters/GF_PREDICT/longDesc</name>
     <message>
       <source>WARNING: This experimental feature may cause flyaways. Use at your own risk. Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</source>
-      <translation>ПОПЕРЕДЖЕННЯ: Ця експериментальна функція може призвести до втрати борта. Використовуйте (цю функцію) на власний ризик. Передбачайте рух апарату та викликайте порушення, якщо це передбачено, що поточна траєкторія призведе до порушення, яке станеться до того, як апарат зможе зробити маневр ухилення. Потім апарат перенаправляється у безпечну позицію утримання (зупинка для мультиротора, утримання для фіксованого крила).</translation>
+      <translation>ПОПЕРЕДЖЕННЯ: Ця експериментальна функція може призвести до втрати борта. Використовуйте (цю функцію) на власний ризик. Передбачайте рух апарату та викликайте порушення, якщо це визначено, що поточна траєкторія призведе до порушення, яке станеться до того, як апарат зможе зробити маневр ухилення. Потім апарат перенаправляється у безпечну позицію утримання (зупинка для мультиротора, кружляння для фіксованого крила).</translation>
     </message>
   </context>
   <context>
@@ -32681,7 +32681,7 @@
     <name>/parameters/RTL_LOITER_RAD/longDesc</name>
     <message>
       <source>Set the radius for loitering to a safe altitude for VTOL transition.</source>
-      <translation type="unfinished">Set the radius for loitering to a safe altitude for VTOL transition.</translation>
+      <translation>Встановіть радіус для кружляння до безпечної висоти для переходу до вертикального зльоту/посадки.</translation>
     </message>
   </context>
   <context>
