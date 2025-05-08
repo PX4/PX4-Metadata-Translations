@@ -14243,7 +14243,7 @@
     <name>/parameters/FW_LND_EARLYCFG/longDesc</name>
     <message>
       <source>Allows to deploy the landing configuration (flaps, landing airspeed, etc.) already in the loiter-down waypoint before the final approach. Otherwise is enabled only in the final approach.</source>
-      <translation type="unfinished">Allows to deploy the landing configuration (flaps, landing airspeed, etc.) already in the loiter-down waypoint before the final approach. Otherwise is enabled only in the final approach.</translation>
+      <translation>Дозволяє розгорнути конфігурацію приземлення (закрилки, швидкість польоту при приземленні тощо) вже у нижній точці утримання на маршруті перед кінцевим наближенням. Інакше увімкнено лише при фінальному заході.</translation>
     </message>
   </context>
   <context>
@@ -16749,7 +16749,7 @@
     <name>/parameters/GF_PREDICT/longDesc</name>
     <message>
       <source>WARNING: This experimental feature may cause flyaways. Use at your own risk. Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</source>
-      <translation type="unfinished">WARNING: This experimental feature may cause flyaways. Use at your own risk. Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</translation>
+      <translation>ПОПЕРЕДЖЕННЯ: Ця експериментальна функція може призвести до втрати борта. Використовуйте (цю функцію) на власний ризик. Передбачайте рух апарату та викликайте порушення, якщо це передбачено, що поточна траєкторія призведе до порушення, яке станеться до того, як апарат зможе зробити маневр ухилення. Потім апарат перенаправляється у безпечну позицію утримання (зупинка для мультиротора, утримання для фіксованого крила).</translation>
     </message>
   </context>
   <context>
