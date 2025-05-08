@@ -11275,7 +11275,7 @@
     <name>/parameters/COM_POS_LOW_ACT/longDesc</name>
     <message>
       <source>Action the system takes when the estimated position has an accuracy below the specified threshold. See COM_POS_LOW_EPH to set the failsafe threshold. The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode, otherwise it is only a warning.</source>
-      <translation type="unfinished">Action the system takes when the estimated position has an accuracy below the specified threshold. See COM_POS_LOW_EPH to set the failsafe threshold. The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode, otherwise it is only a warning.</translation>
+      <translation>Дія, яку система виконує коли точність визначеної позиції є нижчою за визначений поріг. Див. COM_P_LOW_EPH для встановлення порогу аварійного режиму. Дія аварійного режиму виконується лише у випадку, якщо апарат знаходиться режимі автоматичної місії або у режимі автоматичного утримання, інакше це лише попередження.</translation>
     </message>
   </context>
   <context>
