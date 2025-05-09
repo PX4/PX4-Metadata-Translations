@@ -3525,7 +3525,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3390156/message</name>
     <message>
       <source>No valid mission available, loitering</source>
-      <translation>Немає доступної місії, триває кружляння</translation>
+      <translation>Немає доступної місії, баражування</translation>
     </message>
   </context>
   <context>
@@ -3639,7 +3639,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4163547/message</name>
     <message>
       <source>Start loiter with fixed bank angle</source>
-      <translation>Почніть кружляти з фіксованого кута крену</translation>
+      <translation>Почніть баражувати з фіксованого кута крену</translation>
     </message>
   </context>
   <context>
@@ -3706,7 +3706,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4678390/message</name>
     <message>
       <source>Mission finished, loitering</source>
-      <translation>Місія завершена, кружляння</translation>
+      <translation>Місія завершена, баражування</translation>
     </message>
   </context>
   <context>
