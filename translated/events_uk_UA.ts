@@ -866,7 +866,7 @@
     <name>/components/1/enums/navigation_mode_group_t/entries/16/description</name>
     <message>
       <source>Loiter</source>
-      <translation>Кружляти</translation>
+      <translation>Баражувати</translation>
     </message>
   </context>
   <context>
@@ -3318,7 +3318,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/16725343/message</name>
     <message>
       <source>RTL: completed, loitering</source>
-      <translation>RTL (повернення на точку злету): завершено, кружляння</translation>
+      <translation>RTL (повернення на точку злету): завершено, баражування</translation>
     </message>
   </context>
   <context>
