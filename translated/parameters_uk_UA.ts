@@ -11275,7 +11275,7 @@
     <name>/parameters/COM_POS_LOW_ACT/longDesc</name>
     <message>
       <source>Action the system takes when the estimated position has an accuracy below the specified threshold. See COM_POS_LOW_EPH to set the failsafe threshold. The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode, otherwise it is only a warning.</source>
-      <translation>Дія, яку система виконує коли точність визначеної позиції є нижчою за визначений поріг. Див. COM_P_LOW_EPH для встановлення порогу аварійного режиму. Дія аварійного режиму виконується лише у випадку, якщо апарат знаходиться режимі автоматичної місії або у режимі автоматичного кружляння, інакше це лише попередження.</translation>
+      <translation>Дія, яку система виконує коли точність визначеної позиції є нижчою за визначений поріг. Див. COM_P_LOW_EPH для встановлення порогу аварійного режиму. Дія аварійного режиму виконується лише у випадку, якщо апарат знаходиться режимі автоматичної місії або у режимі автоматичного баражування, інакше це лише попередження.</translation>
     </message>
   </context>
   <context>
@@ -14187,7 +14187,7 @@
     <name>/parameters/FW_LND_ABORT/longDesc</name>
     <message>
       <source>Terrain estimation: bit 0: Abort if terrain is not found bit 1: Abort if terrain times out (after a first successful measurement) The last estimate is always used as ground, whether the last valid measurement or the land waypoint, depending on the selected abort criteria, until an abort condition is entered. If FW_LND_USETER == 0, these bits are ignored. TODO: Extend automatic abort conditions e.g. glide slope tracking error (horizontal and vertical)</source>
-      <translation type="unfinished">Terrain estimation: bit 0: Abort if terrain is not found bit 1: Abort if terrain times out (after a first successful measurement) The last estimate is always used as ground, whether the last valid measurement or the land waypoint, depending on the selected abort criteria, until an abort condition is entered. If FW_LND_USETER == 0, these bits are ignored. TODO: Extend automatic abort conditions e.g. glide slope tracking error (horizontal and vertical)</translation>
+      <translation>Оцінка місцевості: bit 0: Скасування, якщо місцевість не знайдена bit 1: Скасування, якщо (оцінка) місцевості перевищує час (після першого успішного вимірювання) Остання оцінка завжди використовується в якості землі, чи то є останнє допустиме вимірювання, або точка поверхні, залежно від обраних критеріїв скасування, поки не буде введено умова скасування. Якщо FW_LND_USETER == 0, ці біти ігноруються. TODO: Розширюйте автоматичні умови скасування, наприклад, помилка відстеження нахилу глісади (горизонтально і вертикально)</translation>
     </message>
   </context>
   <context>
@@ -14243,7 +14243,7 @@
     <name>/parameters/FW_LND_EARLYCFG/longDesc</name>
     <message>
       <source>Allows to deploy the landing configuration (flaps, landing airspeed, etc.) already in the loiter-down waypoint before the final approach. Otherwise is enabled only in the final approach.</source>
-      <translation>Дозволяє розгорнути конфігурацію приземлення (закрилки, швидкість польоту при приземленні тощо) вже у нижній точці кружляння на маршруті перед кінцевим наближенням. Інакше увімкнено лише при фінальному заході.</translation>
+      <translation>Дозволяє розгорнути конфігурацію приземлення (закрилки, швидкість польоту при приземленні тощо) вже у нижній точці баражування на маршруті перед кінцевим наближенням. Інакше увімкнено лише при фінальному заході.</translation>
     </message>
   </context>
   <context>
@@ -14432,7 +14432,7 @@
     <name>/parameters/FW_LND_USETER/values/2/description</name>
     <message>
       <source>Calculate landing glide slope relative to the terrain estimate</source>
-      <translation type="unfinished">Calculate landing glide slope relative to the terrain estimate</translation>
+      <translation>Розрахувати посадковий нахил глісади відносно оцінки місцевості</translation>
     </message>
   </context>
   <context>
@@ -16749,7 +16749,7 @@
     <name>/parameters/GF_PREDICT/longDesc</name>
     <message>
       <source>WARNING: This experimental feature may cause flyaways. Use at your own risk. Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</source>
-      <translation>ПОПЕРЕДЖЕННЯ: Ця експериментальна функція може призвести до втрати борта. Використовуйте (цю функцію) на власний ризик. Передбачайте рух апарату та викликайте порушення, якщо це визначено, що поточна траєкторія призведе до порушення, яке станеться до того, як апарат зможе зробити маневр ухилення. Потім апарат перенаправляється у безпечну позицію утримання (зупинка для мультиротора, кружляння для фіксованого крила).</translation>
+      <translation>ПОПЕРЕДЖЕННЯ: Ця експериментальна функція може призвести до втрати борта. Використовуйте (цю функцію) на власний ризик. Передбачайте рух апарату та викликайте порушення, якщо це визначено, що поточна траєкторія призведе до порушення, яке станеться до того, як апарат зможе зробити маневр ухилення. Потім апарат перенаправляється у безпечну позицію утримання (зупинка для мультиротора, баражування для фіксованого крила).</translation>
     </message>
   </context>
   <context>
