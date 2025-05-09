@@ -47,7 +47,7 @@
     <name>/components/0/enums/calibration_result_t/entries/2/description</name>
     <message>
       <source>Aborted</source>
-      <translation type="unfinished">Aborted</translation>
+      <translation>已终止</translation>
     </message>
   </context>
   <context>
