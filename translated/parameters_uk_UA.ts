@@ -30826,7 +30826,7 @@
     <name>/parameters/RC_LOITER_TH/longDesc</name>
     <message>
       <source>0-1 indicate where in the full channel range the threshold sits 0 : min 1 : max sign indicates polarity of comparison positive : true when channel&gt;th negative : true when channel&lt;th</source>
-      <translation type="unfinished">0-1 indicate where in the full channel range the threshold sits 0 : min 1 : max sign indicates polarity of comparison positive : true when channel&gt;th negative : true when channel&lt;th</translation>
+      <translation>0-1 вказує де в повному каналі діапазону порога 0 : min 1: max знак вказує на полярність порівняння позитивне: true коли channel&gt;th від'ємне: true коли channel&lt;th</translation>
     </message>
   </context>
   <context>
@@ -31687,140 +31687,140 @@
     <name>/parameters/RC_MAP_LOITER_SW/shortDesc</name>
     <message>
       <source>Loiter switch channel</source>
-      <translation type="unfinished">Loiter switch channel</translation>
+      <translation>Канал перемикання баражування</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/0/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/1/description</name>
     <message>
       <source>Channel 1</source>
-      <translation type="unfinished">Channel 1</translation>
+      <translation>Канал 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/2/description</name>
     <message>
       <source>Channel 2</source>
-      <translation type="unfinished">Channel 2</translation>
+      <translation>Канал 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/3/description</name>
     <message>
       <source>Channel 3</source>
-      <translation type="unfinished">Channel 3</translation>
+      <translation>Канал 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/4/description</name>
     <message>
       <source>Channel 4</source>
-      <translation type="unfinished">Channel 4</translation>
+      <translation>Канал 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/5/description</name>
     <message>
       <source>Channel 5</source>
-      <translation type="unfinished">Channel 5</translation>
+      <translation>Канал 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/6/description</name>
     <message>
       <source>Channel 6</source>
-      <translation type="unfinished">Channel 6</translation>
+      <translation>Канал 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/7/description</name>
     <message>
       <source>Channel 7</source>
-      <translation type="unfinished">Channel 7</translation>
+      <translation>Канал 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/8/description</name>
     <message>
       <source>Channel 8</source>
-      <translation type="unfinished">Channel 8</translation>
+      <translation>Канал 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/9/description</name>
     <message>
       <source>Channel 9</source>
-      <translation type="unfinished">Channel 9</translation>
+      <translation>Канал 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/10/description</name>
     <message>
       <source>Channel 10</source>
-      <translation type="unfinished">Channel 10</translation>
+      <translation>Канал 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/11/description</name>
     <message>
       <source>Channel 11</source>
-      <translation type="unfinished">Channel 11</translation>
+      <translation>Канал 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/12/description</name>
     <message>
       <source>Channel 12</source>
-      <translation type="unfinished">Channel 12</translation>
+      <translation>Канал 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/13/description</name>
     <message>
       <source>Channel 13</source>
-      <translation type="unfinished">Channel 13</translation>
+      <translation>Канал 13</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/14/description</name>
     <message>
       <source>Channel 14</source>
-      <translation type="unfinished">Channel 14</translation>
+      <translation>Канал 14</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/15/description</name>
     <message>
       <source>Channel 15</source>
-      <translation type="unfinished">Channel 15</translation>
+      <translation>Канал 15</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/16/description</name>
     <message>
       <source>Channel 16</source>
-      <translation type="unfinished">Channel 16</translation>
+      <translation>Канал 16</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/17/description</name>
     <message>
       <source>Channel 17</source>
-      <translation type="unfinished">Channel 17</translation>
+      <translation>Канал 17</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/18/description</name>
     <message>
       <source>Channel 18</source>
-      <translation type="unfinished">Channel 18</translation>
+      <translation>Канал 18</translation>
     </message>
   </context>
   <context>
@@ -32646,7 +32646,7 @@
     <name>/parameters/RTL_DESCEND_ALT/shortDesc</name>
     <message>
       <source>Return mode loiter altitude</source>
-      <translation type="unfinished">Return mode loiter altitude</translation>
+      <translation>Режим Повернення висота баражування</translation>
     </message>
   </context>
   <context>
@@ -32667,14 +32667,14 @@
     <name>/parameters/RTL_LAND_DELAY/longDesc</name>
     <message>
       <source>Delay before landing (after initial descent) in Return mode. If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.</source>
-      <translation type="unfinished">Delay before landing (after initial descent) in Return mode. If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.</translation>
+      <translation>Затримка перед приземленням (після початкового зниження) у режимі Повернення. Якщо встановлено на -1, то система не буде знижуватися, але баражуватиме на RTL_DESCEND_ALT.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RTL_LOITER_RAD/shortDesc</name>
     <message>
       <source>Loiter radius for rtl descend</source>
-      <translation type="unfinished">Loiter radius for rtl descend</translation>
+      <translation>Радіус баражування для rtl (повернення на точку приземлення) при зниженні</translation>
     </message>
   </context>
   <context>
@@ -44721,14 +44721,14 @@
     <name>/parameters/VTO_LOITER_ALT/shortDesc</name>
     <message>
       <source>VTOL Takeoff relative loiter altitude</source>
-      <translation type="unfinished">VTOL Takeoff relative loiter altitude</translation>
+      <translation>Зліт при вертикальному зльоті/посадці відносно висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VTO_LOITER_ALT/longDesc</name>
     <message>
       <source>Altitude relative to home at which vehicle will loiter after front transition.</source>
-      <translation type="unfinished">Altitude relative to home at which vehicle will loiter after front transition.</translation>
+      <translation>Висота відносно точки зльоту на якій апарат буде кружляти фронтального переходу.</translation>
     </message>
   </context>
   <context>
