@@ -23987,14 +23987,14 @@
     <name>/parameters/NAV_LOITER_RAD/shortDesc</name>
     <message>
       <source>Loiter radius (FW only)</source>
-      <translation type="unfinished">Loiter radius (FW only)</translation>
+      <translation>Радіус баражування (тільки фіксоване крило)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_LOITER_RAD/longDesc</name>
     <message>
       <source>Default value of loiter radius in FW mode (e.g. for Loiter mode).</source>
-      <translation type="unfinished">Default value of loiter radius in FW mode (e.g. for Loiter mode).</translation>
+      <translation>Значення за замовчуванням радіусу баражування в режимі фіксованого крила (напр. для режиму Баражувати).</translation>
     </message>
   </context>
   <context>
@@ -24029,14 +24029,14 @@
     <name>/parameters/NAV_MIN_LTR_ALT/shortDesc</name>
     <message>
       <source>Minimum Loiter altitude</source>
-      <translation type="unfinished">Minimum Loiter altitude</translation>
+      <translation>Мінімальна висота баражування</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_MIN_LTR_ALT/longDesc</name>
     <message>
       <source>This is the minimum altitude above Home the system will always obey in Loiter (Hold) mode if switched into this mode without specifying an altitude (e.g. through Loiter switch on RC). Doesn't affect Loiters that are part of Missions or that are entered through a reposition setpoint ("Go to"). Set to a negative value to disable.</source>
-      <translation type="unfinished">This is the minimum altitude above Home the system will always obey in Loiter (Hold) mode if switched into this mode without specifying an altitude (e.g. through Loiter switch on RC). Doesn't affect Loiters that are part of Missions or that are entered through a reposition setpoint ("Go to"). Set to a negative value to disable.</translation>
+      <translation>Це мінімальна висота над точкою зльоту, яку системи завжди буде сприймати у режимі Баражування (Утримання), якщо увімкнено цей режим без зазначення висоти (наприклад, через вмикання Баражування на пульті(RC)). Це не впливає на баражуючі апарати, які є частиною Місій, або які введені через перевстановлену точку ("Перейти до"). Встановіть від'ємне значення для відключення.</translation>
     </message>
   </context>
   <context>
@@ -30819,7 +30819,7 @@
     <name>/parameters/RC_LOITER_TH/shortDesc</name>
     <message>
       <source>Threshold for selecting loiter mode</source>
-      <translation type="unfinished">Threshold for selecting loiter mode</translation>
+      <translation>Поріг для вибору режиму баражування</translation>
     </message>
   </context>
   <context>
