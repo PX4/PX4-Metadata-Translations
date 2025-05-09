@@ -14432,7 +14432,7 @@
     <name>/parameters/FW_LND_USETER/values/2/description</name>
     <message>
       <source>Calculate landing glide slope relative to the terrain estimate</source>
-      <translation>Розрахувати посадковий нахил глісади відносно оцінки місцевості</translation>
+      <translation>Розрахувати посадковий нахил глісади відповідно до оцінки місцевості</translation>
     </message>
   </context>
   <context>
@@ -15671,7 +15671,7 @@
     <name>/parameters/FW_T_SPDWEIGHT/longDesc</name>
     <message>
       <source>Adjusts the amount of weighting that the pitch control applies to speed vs height errors. 0 -&gt; control height only 2 -&gt; control speed only (gliders)</source>
-      <translation type="unfinished">Adjusts the amount of weighting that the pitch control applies to speed vs height errors. 0 -&gt; control height only 2 -&gt; control speed only (gliders)</translation>
+      <translation>Регулює кількість зважувань, які контроль тангажу застосовує до помилок швидкості vs висоти. 0 -&gt; контроль висоти тільки 2 -&gt; контроль швидкості тільки (планери)</translation>
     </message>
   </context>
   <context>
