@@ -25730,7 +25730,7 @@
     <name>/parameters/MPC_Z_VEL_MAX_DN/longDesc</name>
     <message>
       <source>Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
-      <translation type="unfinished">Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</translation>
+      <translation>Абсолютний максимум для всіх керованих режимів набору висоти. В ручних пілотованих режимах вижим стіка до упору керує швидкістю. Для автономної швидкості за замовчуванням дивіться MPC_Z_V_AUTO_UP</translation>
     </message>
   </context>
   <context>
