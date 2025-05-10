@@ -3253,7 +3253,7 @@
     <name>/parameters/PWM_MAIN_FUNC14/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -3519,7 +3519,7 @@
     <name>/parameters/PWM_MAIN_FUNC15/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -3624,7 +3624,7 @@
     <name>/parameters/PWM_MAIN_FUNC15/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -3890,7 +3890,7 @@
     <name>/parameters/PWM_MAIN_FUNC16/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -3995,7 +3995,7 @@
     <name>/parameters/PWM_MAIN_FUNC16/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -4261,7 +4261,7 @@
     <name>/parameters/PWM_MAIN_FUNC2/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -4366,7 +4366,7 @@
     <name>/parameters/PWM_MAIN_FUNC2/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -4632,7 +4632,7 @@
     <name>/parameters/PWM_MAIN_FUNC3/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -4737,7 +4737,7 @@
     <name>/parameters/PWM_MAIN_FUNC3/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -5003,7 +5003,7 @@
     <name>/parameters/PWM_MAIN_FUNC4/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -5108,7 +5108,7 @@
     <name>/parameters/PWM_MAIN_FUNC4/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -5374,7 +5374,7 @@
     <name>/parameters/PWM_MAIN_FUNC5/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -5479,7 +5479,7 @@
     <name>/parameters/PWM_MAIN_FUNC5/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -5745,7 +5745,7 @@
     <name>/parameters/PWM_MAIN_FUNC6/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -5850,7 +5850,7 @@
     <name>/parameters/PWM_MAIN_FUNC6/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -6116,7 +6116,7 @@
     <name>/parameters/PWM_MAIN_FUNC7/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -6221,7 +6221,7 @@
     <name>/parameters/PWM_MAIN_FUNC7/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -6487,7 +6487,7 @@
     <name>/parameters/PWM_MAIN_FUNC8/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -6592,7 +6592,7 @@
     <name>/parameters/PWM_MAIN_FUNC8/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -6858,7 +6858,7 @@
     <name>/parameters/PWM_MAIN_FUNC9/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -6963,7 +6963,7 @@
     <name>/parameters/PWM_MAIN_FUNC9/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -7180,7 +7180,7 @@
     <name>/parameters/ASPD_DO_CHECKS/bitmask/4/description</name>
     <message>
       <source>First principle check (airspeed change vs. throttle and pitch)</source>
-      <translation type="unfinished">First principle check (airspeed change vs. throttle and pitch)</translation>
+      <translation>Перевірка першого принципу (зміна швидкості польоту проти тяги і тангажу)</translation>
     </message>
   </context>
   <context>
@@ -25744,7 +25744,7 @@
     <name>/parameters/MPC_Z_VEL_MAX_UP/longDesc</name>
     <message>
       <source>Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
-      <translation type="unfinished">Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</translation>
+      <translation>Абсолютний максимум для всіх керованих режимів набору висоти. В ручних пілотованих режимах вижим стіка до упору керує швидкістю. Для автономної швидкості за замовчуванням дивіться MPC_Z_V_AUTO_UP</translation>
     </message>
   </context>
   <context>
@@ -26801,7 +26801,7 @@
     <name>/parameters/PLD_SRCH_ALT/longDesc</name>
     <message>
       <source>Altitude above home to which to climb when searching for the landing target.</source>
-      <translation type="unfinished">Altitude above home to which to climb when searching for the landing target.</translation>
+      <translation>Висота над точкою повернення до якої треба піднятися при пошуку цільового приземлення.</translation>
     </message>
   </context>
   <context>
@@ -32604,7 +32604,7 @@
     <name>/parameters/RTL_CONE_ANG/values/0/description</name>
     <message>
       <source>No cone, always climb to RTL_RETURN_ALT above destination.</source>
-      <translation type="unfinished">No cone, always climb to RTL_RETURN_ALT above destination.</translation>
+      <translation>Без конуса, завжди підійматися до RTL_RETURN_ALT над напрямком.</translation>
     </message>
   </context>
   <context>
@@ -32639,7 +32639,7 @@
     <name>/parameters/RTL_CONE_ANG/values/90/description</name>
     <message>
       <source>Only climb to at least RTL_DESCEND_ALT above destination.</source>
-      <translation type="unfinished">Only climb to at least RTL_DESCEND_ALT above destination.</translation>
+      <translation>Лише піднятися на принаймні RTL_DESCEND_ALT над пунктом призначення.</translation>
     </message>
   </context>
   <context>
@@ -32744,7 +32744,7 @@
     <name>/parameters/RTL_RETURN_ALT/longDesc</name>
     <message>
       <source>Default minimum altitude above destination (e.g. home, safe point, landing pattern) for return flight. The vehicle will climb to this altitude when Return mode is enganged, unless it currently is flying higher already. This is affected by RTL_MIN_DIST and RTL_CONE_ANG.</source>
-      <translation type="unfinished">Default minimum altitude above destination (e.g. home, safe point, landing pattern) for return flight. The vehicle will climb to this altitude when Return mode is enganged, unless it currently is flying higher already. This is affected by RTL_MIN_DIST and RTL_CONE_ANG.</translation>
+      <translation>Мінімальна висота за замовчуванням вище місця призначення (напр. точка повернення, безпечна точка, шаблон приземлення) для польоту повернення. Апарат буде набирати цю висоту, коли режим Повернення задіяно, якщо на даний час апарат вже не літає вище. На це впливає RTL_MIN-DIST та RTL_CONE_ANG.</translation>
     </message>
   </context>
   <context>
