@@ -24022,7 +24022,7 @@
     <name>/parameters/NAV_MIN_GND_DIST/longDesc</name>
     <message>
       <source>Minimum height above ground the vehicle is allowed to descend to during Mission and RTL, excluding landing commands. Requires a distance sensor to be set up. Note: only prevents the vehicle from descending further, but does not force it to climb. Set to a negative value to disable.</source>
-      <translation type="unfinished">Minimum height above ground the vehicle is allowed to descend to during Mission and RTL, excluding landing commands. Requires a distance sensor to be set up. Note: only prevents the vehicle from descending further, but does not force it to climb. Set to a negative value to disable.</translation>
+      <translation>Мінімальна висота над землею з якої апарату дозволено знизитися під час Місії та при Поверненні на точку злету (RTL), виключаючи команди про зниження. Це потребує встановлення датчика відстані. Примітка: запобігає лише подальшому зниженню апарата, але не змушує апарат набирати висоту. Встановіть від'ємне значення для відключення.</translation>
     </message>
   </context>
   <context>
@@ -24918,7 +24918,7 @@
     <name>/parameters/MPC_ACC_DOWN_MAX/shortDesc</name>
     <message>
       <source>Maximum downwards acceleration in climb rate controlled modes</source>
-      <translation type="unfinished">Maximum downwards acceleration in climb rate controlled modes</translation>
+      <translation>Максимальне прискорення донизу у режимі контрольованого набору висоти</translation>
     </message>
   </context>
   <context>
@@ -24953,7 +24953,7 @@
     <name>/parameters/MPC_ACC_UP_MAX/shortDesc</name>
     <message>
       <source>Maximum upwards acceleration in climb rate controlled modes</source>
-      <translation type="unfinished">Maximum upwards acceleration in climb rate controlled modes</translation>
+      <translation>Максимальне прискорення доверху у режимі контрольованого набору висоти</translation>
     </message>
   </context>
   <context>
