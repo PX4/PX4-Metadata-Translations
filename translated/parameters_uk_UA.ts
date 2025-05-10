@@ -9483,7 +9483,7 @@
     <name>/parameters/COM_DISARM_MAN/longDesc</name>
     <message>
       <source>0: Disallow disarming when not landed 1: Allow disarming in multicopter flight in modes where the thrust is directly controlled by thr throttle stick e.g. Stabilized, Acro</source>
-      <translation type="unfinished">0: Disallow disarming when not landed 1: Allow disarming in multicopter flight in modes where the thrust is directly controlled by thr throttle stick e.g. Stabilized, Acro</translation>
+      <translation>0: Заборонити охолощення коли не приземлений 1: Дозволити охолощєння при польоті мультикоптера в режимах, де тяга безпосередньо контролюється стіком дроселя, напр. режим Стабілізація, Акро</translation>
     </message>
   </context>
   <context>
@@ -14775,7 +14775,7 @@
     <name>/parameters/FW_POS_STK_CONF/bitmask/0/description</name>
     <message>
       <source>Alternative stick configuration (height rate on throttle stick, airspeed on pitch stick)</source>
-      <translation type="unfinished">Alternative stick configuration (height rate on throttle stick, airspeed on pitch stick)</translation>
+      <translation>Альтернативна конфігурація стіків (рівень висоти на стіку тяги, повітряна швидкість на стіку тангажу)</translation>
     </message>
   </context>
   <context>
@@ -14880,42 +14880,42 @@
     <name>/parameters/FW_THR_ASPD_MAX/shortDesc</name>
     <message>
       <source>Throttle at max airspeed</source>
-      <translation type="unfinished">Throttle at max airspeed</translation>
+      <translation>Тяга на максимальній швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_ASPD_MAX/longDesc</name>
     <message>
       <source>Required throttle (at sea level, standard atmosphere) for level flight at maximum airspeed FW_AIRSPD_MAX Set to 0 to disable mapping of airspeed to trim throttle.</source>
-      <translation type="unfinished">Required throttle (at sea level, standard atmosphere) for level flight at maximum airspeed FW_AIRSPD_MAX Set to 0 to disable mapping of airspeed to trim throttle.</translation>
+      <translation>Необхідна тяга (на рівні моря, стандартна атмосфера) для рівних польотів на максимальній швидкості FW_AIRSPD_MAX Встановлено на 0, щоб відключити відображення швидкості польоту для корекції тяги.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_ASPD_MIN/shortDesc</name>
     <message>
       <source>Throttle at min airspeed</source>
-      <translation type="unfinished">Throttle at min airspeed</translation>
+      <translation>Тяга на мінімальній швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_ASPD_MIN/longDesc</name>
     <message>
       <source>Required throttle (at sea level, standard atmosphere) for level flight at minimum airspeed FW_AIRSPD_MIN Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</source>
-      <translation type="unfinished">Required throttle (at sea level, standard atmosphere) for level flight at minimum airspeed FW_AIRSPD_MIN Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</translation>
+      <translation>Необхідна тяга (на рівні моря, стандартна атмосфера) для рівних польотів на мінімальній швидкості FW_AIRSPD_MIN Встановлено на 0, щоб відключити відображення швидкості польоту для корекції тяги нижче FW_AIRSPD_TRIM.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_TRIM/shortDesc</name>
     <message>
       <source>Trim throttle</source>
-      <translation type="unfinished">Trim throttle</translation>
+      <translation>Трім тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_TRIM/longDesc</name>
     <message>
       <source>Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM</source>
-      <translation type="unfinished">Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM</translation>
+      <translation>Необхідна тяга (на рівні моря, стандартна атмосфера) для рівних польотів на FW_AIRSPD_TRIM</translation>
     </message>
   </context>
   <context>
