@@ -15573,7 +15573,7 @@
     <name>/parameters/FW_T_CLMB_R_SP/longDesc</name>
     <message>
       <source>In auto modes: default climb rate output by controller to achieve altitude setpoints. In manual modes: maximum climb rate setpoint.</source>
-      <translation type="unfinished">In auto modes: default climb rate output by controller to achieve altitude setpoints. In manual modes: maximum climb rate setpoint.</translation>
+      <translation>В автоматичних режимах: вихідна швидкість набору висоти через контролер за замовчуванням має досягнути установлених точок висоти. У ручних режимах: максимальна встановлена точка набору висоти.</translation>
     </message>
   </context>
   <context>
@@ -25289,7 +25289,7 @@
     <name>/parameters/MPC_THR_MAX/shortDesc</name>
     <message>
       <source>Maximum collective thrust in climb rate controlled modes</source>
-      <translation type="unfinished">Maximum collective thrust in climb rate controlled modes</translation>
+      <translation>Максимальна сукупна тяга при наборі висоти у контрольованих режимах</translation>
     </message>
   </context>
   <context>
@@ -25303,7 +25303,7 @@
     <name>/parameters/MPC_THR_MIN/shortDesc</name>
     <message>
       <source>Minimum collective thrust in climb rate controlled modes</source>
-      <translation type="unfinished">Minimum collective thrust in climb rate controlled modes</translation>
+      <translation>Мінімальна сукупна тяга при наборі висоти у контрольованих режимах</translation>
     </message>
   </context>
   <context>
@@ -25366,14 +25366,14 @@
     <name>/parameters/MPC_TKO_RAMP_T/longDesc</name>
     <message>
       <source>Increasing this value will make climb rate controlled takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</source>
-      <translation type="unfinished">Increasing this value will make climb rate controlled takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</translation>
+      <translation>Збільшення цього значення сповільнить швидкість набору висоти при контрольованому зльоті. Якщо швидкість занадто повільна, то дрон може дертися об землю та перекинутися. Константа часу 0 вимикає рампу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_TKO_SPEED/shortDesc</name>
     <message>
       <source>Takeoff climb rate</source>
-      <translation type="unfinished">Takeoff climb rate</translation>
+      <translation>Швидкість підйому при злеті</translation>
     </message>
   </context>
   <context>
