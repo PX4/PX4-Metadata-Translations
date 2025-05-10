@@ -7222,7 +7222,7 @@
     <name>/parameters/ASPD_FP_T_WINDOW/longDesc</name>
     <message>
       <source>Window for comparing airspeed change to throttle and pitch change. Triggers when the airspeed change within this window is negative while throttle increases and the vehicle pitches down. Is meant to catch degrading airspeed blockages as can happen when flying through icing conditions. Relies on  FW_THR_TRIM being set accurately.</source>
-      <translation>Вікно для порівняння зміни швидкості польоту відносно зміни тяги та тангажу. Спрацьовує коли зміна швидкості польоту в межах цього вікна є від'ємним; в той час, як тяга збільшується та апарат пікірує. </translation>
+      <translation>Вікно для порівняння зміни швидкості польоту відносно зміни тяги та тангажу. Спрацьовує коли зміна швидкості польоту в межах цього вікна є від'ємним; в той час, як тяга збільшується та апарат пікірує. Призначено для підхоплення блокад спадаючої швидкості польоту, яке може статися при польоті в умовах обледеніння. Залежить від FW_THR_TRIM точно встановленого.</translation>
     </message>
   </context>
   <context>
