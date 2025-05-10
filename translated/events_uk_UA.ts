@@ -866,7 +866,7 @@
     <name>/components/1/enums/navigation_mode_group_t/entries/16/description</name>
     <message>
       <source>Loiter</source>
-      <translation>Утримання положення</translation>
+      <translation>Баражувати</translation>
     </message>
   </context>
   <context>
@@ -3318,7 +3318,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/16725343/message</name>
     <message>
       <source>RTL: completed, loitering</source>
-      <translation>RTL (повернення на точку злету): завершено, утримання</translation>
+      <translation>RTL (повернення на точку злету): завершено, баражування</translation>
     </message>
   </context>
   <context>
@@ -3525,7 +3525,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3390156/message</name>
     <message>
       <source>No valid mission available, loitering</source>
-      <translation>Немає доступної місії, триває утримання</translation>
+      <translation>Немає доступної місії, баражування</translation>
     </message>
   </context>
   <context>
@@ -3639,7 +3639,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4163547/message</name>
     <message>
       <source>Start loiter with fixed bank angle</source>
-      <translation>Почніть утримання з фіксованого кута крену</translation>
+      <translation>Почніть баражувати з фіксованого кута крену</translation>
     </message>
   </context>
   <context>
@@ -3706,7 +3706,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4678390/message</name>
     <message>
       <source>Mission finished, loitering</source>
-      <translation>Місія завершена, утримання</translation>
+      <translation>Місія завершена, баражування</translation>
     </message>
   </context>
   <context>

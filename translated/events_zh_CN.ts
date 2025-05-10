@@ -5,49 +5,49 @@
     <name>/components/0/enums/calibration_action_t/entries/0/description</name>
     <message>
       <source>Side already completed, switch to one of the remaining sides</source>
-      <translation type="unfinished">Side already completed, switch to one of the remaining sides</translation>
+      <translation>侧边已完成，切换到剩余侧面</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_action_t/entries/1/description</name>
     <message>
       <source>Switch to next orientation</source>
-      <translation type="unfinished">Switch to next orientation</translation>
+      <translation>切换到下一个方向</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_action_t/entries/2/description</name>
     <message>
       <source>Rotate as shown</source>
-      <translation type="unfinished">Rotate as shown</translation>
+      <translation>按显示旋转</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_action_t/entries/3/description</name>
     <message>
       <source>Hold still</source>
-      <translation type="unfinished">Hold still</translation>
+      <translation>保持静止</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_result_t/entries/0/description</name>
     <message>
       <source>Success</source>
-      <translation type="unfinished">Success</translation>
+      <translation>操作成功</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_result_t/entries/1/description</name>
     <message>
       <source>Failed</source>
-      <translation type="unfinished">Failed</translation>
+      <translation>操作失败</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_result_t/entries/2/description</name>
     <message>
       <source>Aborted</source>
-      <translation type="unfinished">Aborted</translation>
+      <translation>已终止</translation>
     </message>
   </context>
   <context>
@@ -75,273 +75,273 @@
     <name>/components/0/enums/calibration_sides_t/entries/32/description</name>
     <message>
       <source>Down</source>
-      <translation type="unfinished">Down</translation>
+      <translation>下移</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/4/description</name>
     <message>
       <source>Left Side Down</source>
-      <translation type="unfinished">Left Side Down</translation>
+      <translation>左侧下移</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/8/description</name>
     <message>
       <source>Right Side Down</source>
-      <translation type="unfinished">Right Side Down</translation>
+      <translation>右侧下移</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/1/description</name>
     <message>
       <source>Accelerometer</source>
-      <translation type="unfinished">Accelerometer</translation>
+      <translation>加速度计</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/16/description</name>
     <message>
       <source>Airspeed</source>
-      <translation type="unfinished">Airspeed</translation>
+      <translation>空速</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/2/description</name>
     <message>
       <source>Magnetometer</source>
-      <translation type="unfinished">Magnetometer</translation>
+      <translation>磁力计</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/32/description</name>
     <message>
       <source>RC</source>
-      <translation type="unfinished">RC</translation>
+      <translation>遥控器</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/4/description</name>
     <message>
       <source>Gyroscope</source>
-      <translation type="unfinished">Gyroscope</translation>
+      <translation>陀螺仪</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_type_t/entries/8/description</name>
     <message>
       <source>Level</source>
-      <translation type="unfinished">Level</translation>
+      <translation>级别</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1100/message</name>
     <message>
       <source>Calibration progress: {2}%</source>
-      <translation type="unfinished">Calibration progress: {2}%</translation>
+      <translation>校准进度： {2}%</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1101/message</name>
     <message>
       <source>Orientation detected: {1}</source>
-      <translation type="unfinished">Orientation detected: {1}</translation>
+      <translation>已检测到方向: {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1102/message</name>
     <message>
       <source>Orientation Complete: {1}, next step: {2}</source>
-      <translation type="unfinished">Orientation Complete: {1}, next step: {2}</translation>
+      <translation>方向完整： {1}，下一步： {2}</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1103/message</name>
     <message>
       <source>Calibration Complete: {1}</source>
-      <translation type="unfinished">Calibration Complete: {1}</translation>
+      <translation>校准完成︰ {1}</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/0/description</name>
     <message>
       <source>Transition to standby</source>
-      <translation type="unfinished">Transition to standby</translation>
+      <translation>过渡到待命状态</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/1/description</name>
     <message>
       <source>RC</source>
-      <translation type="unfinished">RC</translation>
+      <translation>遥控器</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/10/description</name>
     <message>
       <source>failure detector</source>
-      <translation type="unfinished">failure detector</translation>
+      <translation>故障检测器</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/11/description</name>
     <message>
       <source>shutdown request</source>
-      <translation type="unfinished">shutdown request</translation>
+      <translation>关机请求</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/12/description</name>
     <message>
       <source>unit tests</source>
-      <translation type="unfinished">unit tests</translation>
+      <translation>单元测试</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/13/description</name>
     <message>
       <source>RC (button)</source>
-      <translation type="unfinished">RC (button)</translation>
+      <translation>遥控器 (按钮)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/14/description</name>
     <message>
       <source>failsafe</source>
-      <translation type="unfinished">failsafe</translation>
+      <translation>故障安全</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/2/description</name>
     <message>
       <source>RC (switch)</source>
-      <translation type="unfinished">RC (switch)</translation>
+      <translation>遥控器 (切换)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/3/description</name>
     <message>
       <source>internal command</source>
-      <translation type="unfinished">internal command</translation>
+      <translation>内部指令</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/4/description</name>
     <message>
       <source>external command</source>
-      <translation type="unfinished">external command</translation>
+      <translation>外部指令</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/5/description</name>
     <message>
       <source>mission start</source>
-      <translation type="unfinished">mission start</translation>
+      <translation>任务开始</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/6/description</name>
     <message>
       <source>landing</source>
-      <translation type="unfinished">landing</translation>
+      <translation>降落</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/7/description</name>
     <message>
       <source>auto preflight disarming</source>
-      <translation type="unfinished">auto preflight disarming</translation>
+      <translation>预解锁</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/8/description</name>
     <message>
       <source>kill switch</source>
-      <translation type="unfinished">kill switch</translation>
+      <translation>应急开关</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arm_disarm_reason_t/entries/9/description</name>
     <message>
       <source>lockdown</source>
-      <translation type="unfinished">lockdown</translation>
+      <translation>锁定</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/0/description</name>
     <message>
       <source>Init</source>
-      <translation type="unfinished">Init</translation>
+      <translation>初始化</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/1/description</name>
     <message>
       <source>Standby</source>
-      <translation type="unfinished">Standby</translation>
+      <translation>待机</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/2/description</name>
     <message>
       <source>Armed</source>
-      <translation type="unfinished">Armed</translation>
+      <translation>装备</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/3/description</name>
     <message>
       <source>Standby Error</source>
-      <translation type="unfinished">Standby Error</translation>
+      <translation>待机错误</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/4/description</name>
     <message>
       <source>Shutdown</source>
-      <translation type="unfinished">Shutdown</translation>
+      <translation>关机</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/5/description</name>
     <message>
       <source>In-air Restore</source>
-      <translation type="unfinished">In-air Restore</translation>
+      <translation>空中恢复</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/0/description</name>
     <message>
       <source>Battery has deep discharged</source>
-      <translation type="unfinished">Battery has deep discharged</translation>
+      <translation>电池已过度放电</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/1/description</name>
     <message>
       <source>Battery detected voltage spikes</source>
-      <translation type="unfinished">Battery detected voltage spikes</translation>
+      <translation>电池检测到电压跃位</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/10/description</name>
     <message>
       <source>Battery is over-heating</source>
-      <translation type="unfinished">Battery is over-heating</translation>
+      <translation>电池过热</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/2/description</name>
     <message>
       <source>One or more battery cells have failed</source>
-      <translation type="unfinished">One or more battery cells have failed</translation>
+      <translation>一个或多个电池已失败</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/3/description</name>
     <message>
       <source>Battery reported over-current</source>
-      <translation type="unfinished">Battery reported over-current</translation>
+      <translation>电池过载</translation>
     </message>
   </context>
   <context>
@@ -656,7 +656,7 @@
     <name>/components/1/enums/health_component_t/entries/16/description</name>
     <message>
       <source>Optical flow</source>
-      <translation type="unfinished">Optical flow</translation>
+      <translation>光流</translation>
     </message>
   </context>
   <context>
@@ -2812,7 +2812,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/122461/message</name>
     <message>
       <source>Landing aborted: terrain measurement not found</source>
-      <translation type="unfinished">Landing aborted: terrain measurement not found</translation>
+      <translation>降落中断：无地形测量结果</translation>
     </message>
   </context>
   <context>
@@ -3036,7 +3036,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/14535820/message</name>
     <message>
       <source>Landing aborted: terrain estimate timed out</source>
-      <translation type="unfinished">Landing aborted: terrain estimate timed out</translation>
+      <translation>降落中断：地形估算超时</translation>
     </message>
   </context>
   <context>
@@ -3092,7 +3092,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/1525547/message</name>
     <message>
       <source>Landing aborted: unknown criterion</source>
-      <translation type="unfinished">Landing aborted: unknown criterion</translation>
+      <translation>着陆中止：原因不明</translation>
     </message>
   </context>
   <context>
@@ -3255,7 +3255,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/16223078/message</name>
     <message>
       <source>Landing aborted by operator</source>
-      <translation type="unfinished">Landing aborted by operator</translation>
+      <translation>操作员终止着陆</translation>
     </message>
   </context>
   <context>
@@ -3811,7 +3811,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/5371654/message</name>
     <message>
       <source>Magnetometer sensor #{1} failure: {2}</source>
-      <translation type="unfinished">Magnetometer sensor #{1} failure: {2}</translation>
+      <translation>磁力计传感器 #{1} 失败： {2}</translation>
     </message>
   </context>
   <context>
