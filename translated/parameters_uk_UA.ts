@@ -14873,7 +14873,7 @@
     <name>/parameters/FW_SERVICE_CEIL/longDesc</name>
     <message>
       <source>Altitude in standard atmosphere at which the vehicle in normal configuration (WEIGHT_BASE) is still able to achieve a maximum climb rate of 0.5m/s at maximum throttle (FW_THR_MAX). Used to compensate for air density in FW_T_CLMB_MAX. Set negative to disable.</source>
-      <translation type="unfinished">Altitude in standard atmosphere at which the vehicle in normal configuration (WEIGHT_BASE) is still able to achieve a maximum climb rate of 0.5m/s at maximum throttle (FW_THR_MAX). Used to compensate for air density in FW_T_CLMB_MAX. Set negative to disable.</translation>
+      <translation>Висота в стандартній атмосфері, при якій апарат у нормальній конфігурації (WIGHT_BASE) все ще може досягти максимальної швидкості підйому при 0.5 м/с при максимальному дроселі (FW_THR_MAX). Використовується для компенсації щільності повітря у FW_T_CLMB_MAX. Встановіть від'ємне значення для відключення.</translation>
     </message>
   </context>
   <context>
@@ -14922,7 +14922,7 @@
     <name>/parameters/FW_T_CLMB_MAX/shortDesc</name>
     <message>
       <source>Maximum climb rate</source>
-      <translation type="unfinished">Maximum climb rate</translation>
+      <translation>Максимальна швидкість набору висоти</translation>
     </message>
   </context>
   <context>
