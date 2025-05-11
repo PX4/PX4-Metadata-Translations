@@ -3253,7 +3253,7 @@
     <name>/parameters/PWM_MAIN_FUNC14/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -3519,7 +3519,7 @@
     <name>/parameters/PWM_MAIN_FUNC15/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -3624,7 +3624,7 @@
     <name>/parameters/PWM_MAIN_FUNC15/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -3890,7 +3890,7 @@
     <name>/parameters/PWM_MAIN_FUNC16/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -3995,7 +3995,7 @@
     <name>/parameters/PWM_MAIN_FUNC16/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -4261,7 +4261,7 @@
     <name>/parameters/PWM_MAIN_FUNC2/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -4366,7 +4366,7 @@
     <name>/parameters/PWM_MAIN_FUNC2/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -4632,7 +4632,7 @@
     <name>/parameters/PWM_MAIN_FUNC3/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -4737,7 +4737,7 @@
     <name>/parameters/PWM_MAIN_FUNC3/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -5003,7 +5003,7 @@
     <name>/parameters/PWM_MAIN_FUNC4/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -5108,7 +5108,7 @@
     <name>/parameters/PWM_MAIN_FUNC4/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -5374,7 +5374,7 @@
     <name>/parameters/PWM_MAIN_FUNC5/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -5479,7 +5479,7 @@
     <name>/parameters/PWM_MAIN_FUNC5/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -5745,7 +5745,7 @@
     <name>/parameters/PWM_MAIN_FUNC6/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -5850,7 +5850,7 @@
     <name>/parameters/PWM_MAIN_FUNC6/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -6116,7 +6116,7 @@
     <name>/parameters/PWM_MAIN_FUNC7/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -6221,7 +6221,7 @@
     <name>/parameters/PWM_MAIN_FUNC7/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -6487,7 +6487,7 @@
     <name>/parameters/PWM_MAIN_FUNC8/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -6592,7 +6592,7 @@
     <name>/parameters/PWM_MAIN_FUNC8/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -6858,7 +6858,7 @@
     <name>/parameters/PWM_MAIN_FUNC9/values/404/description</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>Пульт(RC) Тяга</translation>
     </message>
   </context>
   <context>
@@ -6963,7 +6963,7 @@
     <name>/parameters/PWM_MAIN_FUNC9/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
@@ -7180,35 +7180,35 @@
     <name>/parameters/ASPD_DO_CHECKS/bitmask/4/description</name>
     <message>
       <source>First principle check (airspeed change vs. throttle and pitch)</source>
-      <translation type="unfinished">First principle check (airspeed change vs. throttle and pitch)</translation>
+      <translation>Перевірка першого принципу (зміна швидкості польоту проти тяги і тангажу)</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/ASPD_FALLBACK_GW/shortDesc</name>
+    <name>/parameters/ASPD_FALLBACK/shortDesc</name>
     <message>
-      <source>Enable fallback to sensor-less airspeed estimation</source>
-      <translation type="unfinished">Enable fallback to sensor-less airspeed estimation</translation>
+      <source>Fallback options</source>
+      <translation type="unfinished">Fallback options</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/ASPD_FALLBACK_GW/longDesc</name>
+    <name>/parameters/ASPD_FALLBACK/values/0/description</name>
     <message>
-      <source>If set to true and airspeed checks are enabled, it will use a sensor-less airspeed estimation based on groundspeed minus windspeed if no other airspeed sensor available to fall back to.</source>
-      <translation type="unfinished">If set to true and airspeed checks are enabled, it will use a sensor-less airspeed estimation based on groundspeed minus windspeed if no other airspeed sensor available to fall back to.</translation>
+      <source>Fallback only to other airspeed sensors</source>
+      <translation type="unfinished">Fallback only to other airspeed sensors</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/ASPD_FALLBACK_GW/values/0/description</name>
+    <name>/parameters/ASPD_FALLBACK/values/1/description</name>
     <message>
-      <source>Disable fallback to sensor-less estimation</source>
-      <translation type="unfinished">Disable fallback to sensor-less estimation</translation>
+      <source>Fallback to groundspeed-minus-windspeed airspeed estimation</source>
+      <translation type="unfinished">Fallback to groundspeed-minus-windspeed airspeed estimation</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/ASPD_FALLBACK_GW/values/1/description</name>
+    <name>/parameters/ASPD_FALLBACK/values/2/description</name>
     <message>
-      <source>Enable fallback to sensor-less estimation</source>
-      <translation type="unfinished">Enable fallback to sensor-less estimation</translation>
+      <source>Fallback to thrust based airspeed estimation</source>
+      <translation type="unfinished">Fallback to thrust based airspeed estimation</translation>
     </message>
   </context>
   <context>
@@ -7222,7 +7222,7 @@
     <name>/parameters/ASPD_FP_T_WINDOW/longDesc</name>
     <message>
       <source>Window for comparing airspeed change to throttle and pitch change. Triggers when the airspeed change within this window is negative while throttle increases and the vehicle pitches down. Is meant to catch degrading airspeed blockages as can happen when flying through icing conditions. Relies on  FW_THR_TRIM being set accurately.</source>
-      <translation type="unfinished">Window for comparing airspeed change to throttle and pitch change. Triggers when the airspeed change within this window is negative while throttle increases and the vehicle pitches down. Is meant to catch degrading airspeed blockages as can happen when flying through icing conditions. Relies on  FW_THR_TRIM being set accurately.</translation>
+      <translation>Вікно для порівняння зміни швидкості польоту відносно зміни тяги та тангажу. Спрацьовує коли зміна швидкості польоту в межах цього вікна є від'ємним; в той час, як тяга збільшується та апарат пікірує. Призначено для підхоплення блокад спадаючої швидкості польоту, яке може статися при польоті в умовах обледеніння. Залежить від FW_THR_TRIM точно встановленого.</translation>
     </message>
   </context>
   <context>
@@ -7314,6 +7314,13 @@
     <message>
       <source>Third airspeed sensor</source>
       <translation type="unfinished">Third airspeed sensor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/ASPD_PRIMARY/values/4/description</name>
+    <message>
+      <source>Thrust based airspeed</source>
+      <translation type="unfinished">Thrust based airspeed</translation>
     </message>
   </context>
   <context>
@@ -9476,7 +9483,7 @@
     <name>/parameters/COM_DISARM_MAN/longDesc</name>
     <message>
       <source>0: Disallow disarming when not landed 1: Allow disarming in multicopter flight in modes where the thrust is directly controlled by thr throttle stick e.g. Stabilized, Acro</source>
-      <translation type="unfinished">0: Disallow disarming when not landed 1: Allow disarming in multicopter flight in modes where the thrust is directly controlled by thr throttle stick e.g. Stabilized, Acro</translation>
+      <translation>0: Заборонити охолощення коли не приземлений 1: Дозволити охолощєння при польоті мультикоптера в режимах, де тяга безпосередньо контролюється стіком дроселя, напр. режим Стабілізація, Акро</translation>
     </message>
   </context>
   <context>
@@ -11268,7 +11275,7 @@
     <name>/parameters/COM_POS_LOW_ACT/longDesc</name>
     <message>
       <source>Action the system takes when the estimated position has an accuracy below the specified threshold. See COM_POS_LOW_EPH to set the failsafe threshold. The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode, otherwise it is only a warning.</source>
-      <translation type="unfinished">Action the system takes when the estimated position has an accuracy below the specified threshold. See COM_POS_LOW_EPH to set the failsafe threshold. The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode, otherwise it is only a warning.</translation>
+      <translation>Дія, яку система виконує коли точність визначеної позиції є нижчою за визначений поріг. Див. COM_P_LOW_EPH для встановлення порогу аварійного режиму. Дія аварійного режиму виконується лише у випадку, якщо апарат знаходиться режимі автоматичної місії або у режимі автоматичного баражування, інакше це лише попередження.</translation>
     </message>
   </context>
   <context>
@@ -14180,7 +14187,7 @@
     <name>/parameters/FW_LND_ABORT/longDesc</name>
     <message>
       <source>Terrain estimation: bit 0: Abort if terrain is not found bit 1: Abort if terrain times out (after a first successful measurement) The last estimate is always used as ground, whether the last valid measurement or the land waypoint, depending on the selected abort criteria, until an abort condition is entered. If FW_LND_USETER == 0, these bits are ignored. TODO: Extend automatic abort conditions e.g. glide slope tracking error (horizontal and vertical)</source>
-      <translation type="unfinished">Terrain estimation: bit 0: Abort if terrain is not found bit 1: Abort if terrain times out (after a first successful measurement) The last estimate is always used as ground, whether the last valid measurement or the land waypoint, depending on the selected abort criteria, until an abort condition is entered. If FW_LND_USETER == 0, these bits are ignored. TODO: Extend automatic abort conditions e.g. glide slope tracking error (horizontal and vertical)</translation>
+      <translation>Оцінка місцевості: bit 0: Скасування, якщо місцевість не знайдена bit 1: Скасування, якщо (оцінка) місцевості перевищує час (після першого успішного вимірювання) Остання оцінка завжди використовується в якості землі, чи то є останнє допустиме вимірювання, або точка поверхні, залежно від обраних критеріїв скасування, поки не буде введено умова скасування. Якщо FW_LND_USETER == 0, ці біти ігноруються. TODO: Розширюйте автоматичні умови скасування, наприклад, помилка відстеження нахилу глісади (горизонтально і вертикально)</translation>
     </message>
   </context>
   <context>
@@ -14236,7 +14243,7 @@
     <name>/parameters/FW_LND_EARLYCFG/longDesc</name>
     <message>
       <source>Allows to deploy the landing configuration (flaps, landing airspeed, etc.) already in the loiter-down waypoint before the final approach. Otherwise is enabled only in the final approach.</source>
-      <translation type="unfinished">Allows to deploy the landing configuration (flaps, landing airspeed, etc.) already in the loiter-down waypoint before the final approach. Otherwise is enabled only in the final approach.</translation>
+      <translation>Дозволяє розгорнути конфігурацію приземлення (закрилки, швидкість польоту при приземленні тощо) вже у нижній точці баражування на маршруті перед кінцевим наближенням. Інакше увімкнено лише при фінальному заході.</translation>
     </message>
   </context>
   <context>
@@ -14257,77 +14264,77 @@
     <name>/parameters/FW_LND_FLALT/shortDesc</name>
     <message>
       <source>Landing flare altitude (relative to landing altitude)</source>
-      <translation type="unfinished">Landing flare altitude (relative to landing altitude)</translation>
+      <translation>Висота посадкового вирівнювання (відносно висоти посадки)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FLALT/longDesc</name>
     <message>
       <source>NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * |z-velocity|) is taken as the flare altitude</source>
-      <translation type="unfinished">NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * |z-velocity|) is taken as the flare altitude</translation>
+      <translation>Примітка: max(FW_LND_FLALT, FW_LND_FL_TIME * |z-velocity|) береться як висота посадкового приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_PMAX/shortDesc</name>
     <message>
       <source>Flare, maximum pitch</source>
-      <translation type="unfinished">Flare, maximum pitch</translation>
+      <translation>Посадкове вирівнювання, максимальний тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_PMAX/longDesc</name>
     <message>
       <source>Maximum pitch during landing flare.</source>
-      <translation type="unfinished">Maximum pitch during landing flare.</translation>
+      <translation>Максимальний тангаж під час посадкового вирівнювання.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_PMIN/shortDesc</name>
     <message>
       <source>Flare, minimum pitch</source>
-      <translation type="unfinished">Flare, minimum pitch</translation>
+      <translation>Посадкове вирівнювання, мінімальний тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_PMIN/longDesc</name>
     <message>
       <source>Minimum pitch during landing flare.</source>
-      <translation type="unfinished">Minimum pitch during landing flare.</translation>
+      <translation>Мінімальний тангаж під час посадкового вирівнювання.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_SINK/shortDesc</name>
     <message>
       <source>Landing flare sink rate</source>
-      <translation type="unfinished">Landing flare sink rate</translation>
+      <translation>Рівень занурення при посадковому вирівнюванні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_SINK/longDesc</name>
     <message>
       <source>TECS will attempt to control the aircraft to this sink rate via pitch angle (throttle killed during flare)</source>
-      <translation type="unfinished">TECS will attempt to control the aircraft to this sink rate via pitch angle (throttle killed during flare)</translation>
+      <translation>TECS спробує контролювати апарат до цього рівня занурення через кут тангажу (дросель вимкнено під час посадкового вирівнювання)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_TIME/shortDesc</name>
     <message>
       <source>Landing flare time</source>
-      <translation type="unfinished">Landing flare time</translation>
+      <translation>Час посадкового вирівнювання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_FL_TIME/longDesc</name>
     <message>
       <source>Multiplied by the descent rate to calculate a dynamic altitude at which to trigger the flare. NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * descent rate) is taken as the flare altitude</source>
-      <translation type="unfinished">Multiplied by the descent rate to calculate a dynamic altitude at which to trigger the flare. NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * descent rate) is taken as the flare altitude</translation>
+      <translation>Помножено на рівень зниження для обчислення динамічної висоти при якій спрацьовує посадкове вирівнювання. ПРИМІТКА: max(FW_LND_FLALT, FLND_FL_TIME) приймається як висота посадкового зниження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_NUDGE/shortDesc</name>
     <message>
       <source>Landing touchdown nudging option</source>
-      <translation type="unfinished">Landing touchdown nudging option</translation>
+      <translation>Опція поштовху при торканні поверхні в процесі приземлення</translation>
     </message>
   </context>
   <context>
@@ -14369,14 +14376,14 @@
     <name>/parameters/FW_LND_TD_TIME/shortDesc</name>
     <message>
       <source>Landing touchdown time (since flare start)</source>
-      <translation type="unfinished">Landing touchdown time (since flare start)</translation>
+      <translation>Час торкання поверхні при приземленні (з часу початку посадкового вирівнювання)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_TD_TIME/longDesc</name>
     <message>
       <source>This is the time after the start of flaring that we expect the vehicle to touch the runway. At this time, a 0.5s clamp down ramp will engage, constraining the pitch setpoint to RWTO_PSP. If enabled, ensure that RWTO_PSP is configured appropriately for full gear contact on ground roll. Set to -1.0 to disable touchdown clamping. E.g. it may not be desirable to clamp on belly landings. The touchdown time will be constrained to be greater than or equal to the flare time (FW_LND_FL_TIME).</source>
-      <translation type="unfinished">This is the time after the start of flaring that we expect the vehicle to touch the runway. At this time, a 0.5s clamp down ramp will engage, constraining the pitch setpoint to RWTO_PSP. If enabled, ensure that RWTO_PSP is configured appropriately for full gear contact on ground roll. Set to -1.0 to disable touchdown clamping. E.g. it may not be desirable to clamp on belly landings. The touchdown time will be constrained to be greater than or equal to the flare time (FW_LND_FL_TIME).</translation>
+      <translation>Це є час після початку посадкового вирівнювання, коли ми очікуємо, що апарат торкнеться посадкової смуги. У цей час 0.5 секундне блокування рампи буде впроваджено, обмежуючи задане значення тангажу до RWTO_PSP. Якщо це увімкнено, то переконайтеся, що RWTO_PSP належно налаштовано для повного контакту апарату при пробігу літака. Встановіть на -1.0, щоб вимкнути блокування при торкані землі. Наприклад, блокування при посадці на фюзеляж може бути небажаним. Час торкання землі буде обмежений, щоб бути більшим або рівним часу посадкового вирівнювання (FW_LND_FL_TIME).</translation>
     </message>
   </context>
   <context>
@@ -14418,14 +14425,14 @@
     <name>/parameters/FW_LND_USETER/values/1/description</name>
     <message>
       <source>Use the terrain estimate to trigger the flare (only)</source>
-      <translation type="unfinished">Use the terrain estimate to trigger the flare (only)</translation>
+      <translation>Використовувати оцінювання поверхні тільки для запуску посадкового вирівнювання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_LND_USETER/values/2/description</name>
     <message>
       <source>Calculate landing glide slope relative to the terrain estimate</source>
-      <translation type="unfinished">Calculate landing glide slope relative to the terrain estimate</translation>
+      <translation>Розрахувати посадковий нахил глісади відповідно до оцінки місцевості</translation>
     </message>
   </context>
   <context>
@@ -14768,7 +14775,7 @@
     <name>/parameters/FW_POS_STK_CONF/bitmask/0/description</name>
     <message>
       <source>Alternative stick configuration (height rate on throttle stick, airspeed on pitch stick)</source>
-      <translation type="unfinished">Alternative stick configuration (height rate on throttle stick, airspeed on pitch stick)</translation>
+      <translation>Альтернативна конфігурація стіків (рівень висоти на стіку тяги, повітряна швидкість на стіку тангажу)</translation>
     </message>
   </context>
   <context>
@@ -14866,77 +14873,77 @@
     <name>/parameters/FW_SERVICE_CEIL/longDesc</name>
     <message>
       <source>Altitude in standard atmosphere at which the vehicle in normal configuration (WEIGHT_BASE) is still able to achieve a maximum climb rate of 0.5m/s at maximum throttle (FW_THR_MAX). Used to compensate for air density in FW_T_CLMB_MAX. Set negative to disable.</source>
-      <translation type="unfinished">Altitude in standard atmosphere at which the vehicle in normal configuration (WEIGHT_BASE) is still able to achieve a maximum climb rate of 0.5m/s at maximum throttle (FW_THR_MAX). Used to compensate for air density in FW_T_CLMB_MAX. Set negative to disable.</translation>
+      <translation>Висота в стандартній атмосфері, при якій апарат у нормальній конфігурації (WIGHT_BASE) все ще може досягти максимальної швидкості підйому при 0.5 м/с при максимальному дроселі (FW_THR_MAX). Використовується для компенсації щільності повітря у FW_T_CLMB_MAX. Встановіть від'ємне значення для відключення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_ASPD_MAX/shortDesc</name>
     <message>
       <source>Throttle at max airspeed</source>
-      <translation type="unfinished">Throttle at max airspeed</translation>
+      <translation>Тяга на максимальній швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_ASPD_MAX/longDesc</name>
     <message>
       <source>Required throttle (at sea level, standard atmosphere) for level flight at maximum airspeed FW_AIRSPD_MAX Set to 0 to disable mapping of airspeed to trim throttle.</source>
-      <translation type="unfinished">Required throttle (at sea level, standard atmosphere) for level flight at maximum airspeed FW_AIRSPD_MAX Set to 0 to disable mapping of airspeed to trim throttle.</translation>
+      <translation>Необхідна тяга (на рівні моря, стандартна атмосфера) для рівних польотів на максимальній швидкості FW_AIRSPD_MAX Встановлено на 0, щоб відключити відображення швидкості польоту для корекції тяги.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_ASPD_MIN/shortDesc</name>
     <message>
       <source>Throttle at min airspeed</source>
-      <translation type="unfinished">Throttle at min airspeed</translation>
+      <translation>Тяга на мінімальній швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_ASPD_MIN/longDesc</name>
     <message>
       <source>Required throttle (at sea level, standard atmosphere) for level flight at minimum airspeed FW_AIRSPD_MIN Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</source>
-      <translation type="unfinished">Required throttle (at sea level, standard atmosphere) for level flight at minimum airspeed FW_AIRSPD_MIN Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</translation>
+      <translation>Необхідна тяга (на рівні моря, стандартна атмосфера) для рівних польотів на мінімальній швидкості FW_AIRSPD_MIN Встановлено на 0, щоб відключити відображення швидкості польоту для корекції тяги нижче FW_AIRSPD_TRIM.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_TRIM/shortDesc</name>
     <message>
       <source>Trim throttle</source>
-      <translation type="unfinished">Trim throttle</translation>
+      <translation>Трім тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_TRIM/longDesc</name>
     <message>
       <source>Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM</source>
-      <translation type="unfinished">Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM</translation>
+      <translation>Необхідна тяга (на рівні моря, стандартна атмосфера) для рівних польотів на FW_AIRSPD_TRIM</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_CLMB_MAX/shortDesc</name>
     <message>
       <source>Maximum climb rate</source>
-      <translation type="unfinished">Maximum climb rate</translation>
+      <translation>Максимальна швидкість набору висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_CLMB_MAX/longDesc</name>
     <message>
       <source>This is the maximum calibrated climb rate that the aircraft can achieve with the throttle set to FW_THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</source>
-      <translation type="unfinished">This is the maximum calibrated climb rate that the aircraft can achieve with the throttle set to FW_THR_MAX and the airspeed set to the trim value. For electric aircraft make sure this number can be achieved towards the end of flight when the battery voltage has reduced.</translation>
+      <translation>Це максимальна відкалібрована швидкість набору висоти, яку апарат може досягти з дроселем встановленим на FW_THR_MAX та швидкості польоту встановлену на значення корекції. Для електричного літака переконайтеся, що це число може бути досягнуто в кінці польоту, коли напруга акумулятора зменшиться.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_SINK_MIN/shortDesc</name>
     <message>
       <source>Minimum descent rate</source>
-      <translation type="unfinished">Minimum descent rate</translation>
+      <translation>Мінімальний рівень зниження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_SINK_MIN/longDesc</name>
     <message>
       <source>This is the minimum calibrated sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</source>
-      <translation type="unfinished">This is the minimum calibrated sink rate of the aircraft with the throttle set to THR_MIN and flown at the same airspeed as used to measure FW_T_CLMB_MAX.</translation>
+      <translation>Це мінімально відкалібрований рівень занурення апарату при дроселі встановленому на THR_MIN і керованому на тій же швидкості польоту, що використовується для вимірювання FW_T_CLMB_MAX.</translation>
     </message>
   </context>
   <context>
@@ -14950,7 +14957,7 @@
     <name>/parameters/WEIGHT_BASE/longDesc</name>
     <message>
       <source>This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
-      <translation type="unfinished">This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</translation>
+      <translation>Це є вага апарату, при якій були запозичені обмеження його характеристик. Нульове або негативне значення вимикають корекцію дроселя та мінімальну компенсацію швидкості польоту основаної на вазі.</translation>
     </message>
   </context>
   <context>
@@ -14964,7 +14971,7 @@
     <name>/parameters/WEIGHT_GROSS/longDesc</name>
     <message>
       <source>This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
-      <translation type="unfinished">This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</translation>
+      <translation>Це є актуальна вага апарату повсякчас. Це значення буде відрізнятися від WEIGHT_BASE у випадку коли вага була додана або прибрана від базової ваги. Прикладами є додавання боєкомплекту або більших батарей. Нульове або негативне значення вимикають корекцію дроселя та мінімальну компенсацію швидкості польоту основаної на вазі.</translation>
     </message>
   </context>
   <context>
@@ -15048,7 +15055,7 @@
     <name>/parameters/FW_BAT_SCALE_EN/shortDesc</name>
     <message>
       <source>Enable throttle scale by battery level</source>
-      <translation type="unfinished">Enable throttle scale by battery level</translation>
+      <translation>Вимкнути шкалу тяги від рівня батареї</translation>
     </message>
   </context>
   <context>
@@ -15482,7 +15489,7 @@
     <name>/parameters/FW_THR_IDLE/shortDesc</name>
     <message>
       <source>Idle throttle</source>
-      <translation type="unfinished">Idle throttle</translation>
+      <translation>Бездієвий дросель</translation>
     </message>
   </context>
   <context>
@@ -15496,7 +15503,7 @@
     <name>/parameters/FW_THR_MAX/shortDesc</name>
     <message>
       <source>Throttle limit max</source>
-      <translation type="unfinished">Throttle limit max</translation>
+      <translation>Максимальний ліміт дроселя</translation>
     </message>
   </context>
   <context>
@@ -15510,7 +15517,7 @@
     <name>/parameters/FW_THR_MIN/shortDesc</name>
     <message>
       <source>Throttle limit min</source>
-      <translation type="unfinished">Throttle limit min</translation>
+      <translation>Мінімальний ліміт дроселя</translation>
     </message>
   </context>
   <context>
@@ -15524,14 +15531,14 @@
     <name>/parameters/FW_THR_SLEW_MAX/shortDesc</name>
     <message>
       <source>Throttle max slew rate</source>
-      <translation type="unfinished">Throttle max slew rate</translation>
+      <translation>Максимальна швидкість зростання тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_SLEW_MAX/longDesc</name>
     <message>
       <source>Maximum slew rate for the commanded throttle</source>
-      <translation type="unfinished">Maximum slew rate for the commanded throttle</translation>
+      <translation>Максимальна швидкість зростання для керованої тяги</translation>
     </message>
   </context>
   <context>
@@ -15545,7 +15552,7 @@
     <name>/parameters/FW_TKO_AIRSPD/longDesc</name>
     <message>
       <source>The calibrated airspeed setpoint during the takeoff climbout. If set &lt;= 0, FW_AIRSPD_MIN will be set by default.</source>
-      <translation type="unfinished">The calibrated airspeed setpoint during the takeoff climbout. If set &lt;= 0, FW_AIRSPD_MIN will be set by default.</translation>
+      <translation>Відкалібрована встановлена точка швидкості польоту під час набору висоти при зльоті. Якщо встановлено &lt;= 0, тоді FW_AIRSPD_MIN буде встановлено за замовчуванням.</translation>
     </message>
   </context>
   <context>
@@ -15559,14 +15566,14 @@
     <name>/parameters/FW_T_CLMB_R_SP/shortDesc</name>
     <message>
       <source>Default target climbrate</source>
-      <translation type="unfinished">Default target climbrate</translation>
+      <translation>Цільова швидкість набору висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_CLMB_R_SP/longDesc</name>
     <message>
       <source>In auto modes: default climb rate output by controller to achieve altitude setpoints. In manual modes: maximum climb rate setpoint.</source>
-      <translation type="unfinished">In auto modes: default climb rate output by controller to achieve altitude setpoints. In manual modes: maximum climb rate setpoint.</translation>
+      <translation>В автоматичних режимах: вихідна швидкість набору висоти через контролер за замовчуванням має досягнути установлених точок висоти. У ручних режимах: максимальна встановлена точка набору висоти.</translation>
     </message>
   </context>
   <context>
@@ -15580,7 +15587,7 @@
     <name>/parameters/FW_T_F_ALT_ERR/longDesc</name>
     <message>
       <source>Minimum altitude error needed to descend with max airspeed and minimal throttle. A negative value disables fast descend.</source>
-      <translation type="unfinished">Minimum altitude error needed to descend with max airspeed and minimal throttle. A negative value disables fast descend.</translation>
+      <translation>Мінімальна помилка висоти необхідна для зниження при максимальній швидкості польоту та мінімальній тязі. Від'ємне значення вимикає швидке зниження.</translation>
     </message>
   </context>
   <context>
@@ -15615,7 +15622,7 @@
     <name>/parameters/FW_T_RLL2THR/shortDesc</name>
     <message>
       <source>Roll -&gt; Throttle feedforward</source>
-      <translation type="unfinished">Roll -&gt; Throttle feedforward</translation>
+      <translation>Крен -&gt; Тяга прямого зв'язку</translation>
     </message>
   </context>
   <context>
@@ -15636,21 +15643,21 @@
     <name>/parameters/FW_T_SINK_MAX/shortDesc</name>
     <message>
       <source>Maximum descent rate</source>
-      <translation type="unfinished">Maximum descent rate</translation>
+      <translation>Мінімальний рівень зниження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_SINK_R_SP/shortDesc</name>
     <message>
       <source>Default target sinkrate</source>
-      <translation type="unfinished">Default target sinkrate</translation>
+      <translation>Цільовий рівень занурення за замовчуванням</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_SINK_R_SP/longDesc</name>
     <message>
       <source>In auto modes: default sink rate output by controller to achieve altitude setpoints. In manual modes: maximum sink rate setpoint.</source>
-      <translation type="unfinished">In auto modes: default sink rate output by controller to achieve altitude setpoints. In manual modes: maximum sink rate setpoint.</translation>
+      <translation>В автоматичних режимах: вихідний рівень занурення за замовчуванням через контролер для досягнення висоти заданих значень. У ручних режимах: максимальне задане значення рівня занурення.</translation>
     </message>
   </context>
   <context>
@@ -15664,7 +15671,7 @@
     <name>/parameters/FW_T_SPDWEIGHT/longDesc</name>
     <message>
       <source>Adjusts the amount of weighting that the pitch control applies to speed vs height errors. 0 -&gt; control height only 2 -&gt; control speed only (gliders)</source>
-      <translation type="unfinished">Adjusts the amount of weighting that the pitch control applies to speed vs height errors. 0 -&gt; control height only 2 -&gt; control speed only (gliders)</translation>
+      <translation>Регулює кількість зважувань, які контроль тангажу застосовує до помилок швидкості vs висоти. 0 -&gt; контроль висоти тільки 2 -&gt; контроль швидкості тільки (планери)</translation>
     </message>
   </context>
   <context>
@@ -15720,7 +15727,7 @@
     <name>/parameters/FW_T_STE_R_TC/longDesc</name>
     <message>
       <source>This filter is applied to the specific total energy rate used for throttle damping.</source>
-      <translation type="unfinished">This filter is applied to the specific total energy rate used for throttle damping.</translation>
+      <translation>Цей фільтр застосовується до певного загального рівня енергії, який використовується для демпфування тяги.</translation>
     </message>
   </context>
   <context>
@@ -15734,21 +15741,21 @@
     <name>/parameters/FW_T_THR_DAMPING/shortDesc</name>
     <message>
       <source>Throttle damping factor</source>
-      <translation type="unfinished">Throttle damping factor</translation>
+      <translation>Фактор демпфування тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_THR_DAMPING/longDesc</name>
     <message>
       <source>This is the damping gain for the throttle demand loop.</source>
-      <translation type="unfinished">This is the damping gain for the throttle demand loop.</translation>
+      <translation>Це є отримання згасання для петлі вимоги тяги.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_THR_INTEG/shortDesc</name>
     <message>
       <source>Integrator gain throttle</source>
-      <translation type="unfinished">Integrator gain throttle</translation>
+      <translation>Інегратор отримання тяги</translation>
     </message>
   </context>
   <context>
@@ -15811,7 +15818,7 @@
     <name>/parameters/FD_ACT_EN/longDesc</name>
     <message>
       <source>If enabled, failure detector will verify that for motors, a minimum amount of ESC current per throttle level is being consumed. Otherwise this indicates an motor failure.</source>
-      <translation type="unfinished">If enabled, failure detector will verify that for motors, a minimum amount of ESC current per throttle level is being consumed. Otherwise this indicates an motor failure.</translation>
+      <translation>Якщо увімкнено, то детектор помилок підтвердить це для моторів, споживається мінімальна кількість ESC струму на рівень тяги. Інакше це означає відмову мотора.</translation>
     </message>
   </context>
   <context>
@@ -16742,7 +16749,7 @@
     <name>/parameters/GF_PREDICT/longDesc</name>
     <message>
       <source>WARNING: This experimental feature may cause flyaways. Use at your own risk. Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</source>
-      <translation type="unfinished">WARNING: This experimental feature may cause flyaways. Use at your own risk. Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory would result in a breach happening before the vehicle can make evasive maneuvers. The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</translation>
+      <translation>ПОПЕРЕДЖЕННЯ: Ця експериментальна функція може призвести до втрати борта. Використовуйте (цю функцію) на власний ризик. Передбачайте рух апарату та викликайте порушення, якщо це визначено, що поточна траєкторія призведе до порушення, яке станеться до того, як апарат зможе зробити маневр ухилення. Потім апарат перенаправляється у безпечну позицію утримання (зупинка для мультиротора, баражування для фіксованого крила).</translation>
     </message>
   </context>
   <context>
@@ -23679,14 +23686,14 @@
     <name>/parameters/FW_GPSF_LT/shortDesc</name>
     <message>
       <source>GPS failure loiter time</source>
-      <translation type="unfinished">GPS failure loiter time</translation>
+      <translation>Втрата GPS під час баражування</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_GPSF_LT/longDesc</name>
     <message>
       <source>The time the system should do open loop loiter and wait for GPS recovery before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R. Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</source>
-      <translation type="unfinished">The time the system should do open loop loiter and wait for GPS recovery before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R. Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</translation>
+      <translation>Час, коли система має виконувати баражування з відкритою петлею та чекати відновлення GPS перед початком зниження. Встановіть 0, щоб вимкнути. Кут крену налаштований на FW_GPSF_R. Застосовується лише апаратами з фіксованим крилом або апаратами з вертикальним зльотом/посадкою з NAV_FORCE_VT встановлених на 0.</translation>
     </message>
   </context>
   <context>
@@ -23700,7 +23707,7 @@
     <name>/parameters/FW_GPSF_R/longDesc</name>
     <message>
       <source>Roll angle in GPS failure loiter mode.</source>
-      <translation type="unfinished">Roll angle in GPS failure loiter mode.</translation>
+      <translation>Кут крену при втраті GPS у режимі баражування.</translation>
     </message>
   </context>
   <context>
@@ -23742,7 +23749,7 @@
     <name>/parameters/MIS_LND_ABRT_ALT/longDesc</name>
     <message>
       <source>Minimum altitude above landing point that the vehicle will climb to after an aborted landing. Then vehicle will loiter in this altitude until further command is received. Only applies to fixed-wing vehicles.</source>
-      <translation type="unfinished">Minimum altitude above landing point that the vehicle will climb to after an aborted landing. Then vehicle will loiter in this altitude until further command is received. Only applies to fixed-wing vehicles.</translation>
+      <translation>Мінімальна висота над точкою приземлення, яку пристрій набере після скасування приземлення. Тоді апарат буде баражувати на цій висоті до отримання подальших команд. Застосовується тільки на апаратах з фіксованим крилом.</translation>
     </message>
   </context>
   <context>
@@ -23980,14 +23987,14 @@
     <name>/parameters/NAV_LOITER_RAD/shortDesc</name>
     <message>
       <source>Loiter radius (FW only)</source>
-      <translation type="unfinished">Loiter radius (FW only)</translation>
+      <translation>Радіус баражування (тільки фіксоване крило)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_LOITER_RAD/longDesc</name>
     <message>
       <source>Default value of loiter radius in FW mode (e.g. for Loiter mode).</source>
-      <translation type="unfinished">Default value of loiter radius in FW mode (e.g. for Loiter mode).</translation>
+      <translation>Значення за замовчуванням радіусу баражування в режимі фіксованого крила (напр. для режиму Баражувати).</translation>
     </message>
   </context>
   <context>
@@ -24015,21 +24022,21 @@
     <name>/parameters/NAV_MIN_GND_DIST/longDesc</name>
     <message>
       <source>Minimum height above ground the vehicle is allowed to descend to during Mission and RTL, excluding landing commands. Requires a distance sensor to be set up. Note: only prevents the vehicle from descending further, but does not force it to climb. Set to a negative value to disable.</source>
-      <translation type="unfinished">Minimum height above ground the vehicle is allowed to descend to during Mission and RTL, excluding landing commands. Requires a distance sensor to be set up. Note: only prevents the vehicle from descending further, but does not force it to climb. Set to a negative value to disable.</translation>
+      <translation>Мінімальна висота над землею з якої апарату дозволено знизитися під час Місії та при Поверненні на точку злету (RTL), виключаючи команди про зниження. Це потребує встановлення датчика відстані. Примітка: запобігає лише подальшому зниженню апарата, але не змушує апарат набирати висоту. Встановіть від'ємне значення для відключення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_MIN_LTR_ALT/shortDesc</name>
     <message>
       <source>Minimum Loiter altitude</source>
-      <translation type="unfinished">Minimum Loiter altitude</translation>
+      <translation>Мінімальна висота баражування</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_MIN_LTR_ALT/longDesc</name>
     <message>
       <source>This is the minimum altitude above Home the system will always obey in Loiter (Hold) mode if switched into this mode without specifying an altitude (e.g. through Loiter switch on RC). Doesn't affect Loiters that are part of Missions or that are entered through a reposition setpoint ("Go to"). Set to a negative value to disable.</source>
-      <translation type="unfinished">This is the minimum altitude above Home the system will always obey in Loiter (Hold) mode if switched into this mode without specifying an altitude (e.g. through Loiter switch on RC). Doesn't affect Loiters that are part of Missions or that are entered through a reposition setpoint ("Go to"). Set to a negative value to disable.</translation>
+      <translation>Це мінімальна висота над точкою зльоту, яку системи завжди буде сприймати у режимі Баражування (Утримання), якщо увімкнено цей режим без зазначення висоти (наприклад, через вмикання Баражування на пульті(RC)). Це не впливає на баражуючі апарати, які є частиною Місій, або які введені через перевстановлену точку ("Перейти до"). Встановіть від'ємне значення для відключення.</translation>
     </message>
   </context>
   <context>
@@ -24645,7 +24652,7 @@
     <name>/parameters/MC_ACRO_SUPEXPO/longDesc</name>
     <message>
       <source>"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</source>
-      <translation>"Суперекспоненціальний" фактор для уточнення форми вхідної кривої, налаштованої за допомогою MC_ACRO_EXPO. 0 Pure Expo 0. Pure Expo function 0.7 грунтовної форми покращення для інтуїтивного відчуття стіків 0.95 дуже великий нахил викривлення кривої, має ефект лише біля максимальних значень </translation>
+      <translation>"Суперекспоненціальний" фактор для уточнення форми вхідної кривої, налаштованої за допомогою MC_ACRO_EXPO. 0 Pure Expo 0. Pure Expo function 0.7 доречна форма покращення для інтуїтивного відчуття стіків 0.95 дуже великий згин викривлення кривої, має ефект лише біля максимального значення</translation>
     </message>
   </context>
   <context>
@@ -24659,7 +24666,7 @@
     <name>/parameters/MC_ACRO_SUPEXPOY/longDesc</name>
     <message>
       <source>"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO_Y. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</source>
-      <translation type="unfinished">"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO_Y. 0 Pure Expo function 0.7 reasonable shape enhancement for intuitive stick feel 0.95 very strong bent input curve only near maxima have effect</translation>
+      <translation>"Суперекспоненціальний" фактор для уточнення форми вхідної кривої, налаштованої за допомогою MC_ACRO_EXPO_Y. 0 Pure Expo function 0.7 доречна форма покращення для інтуїтивного відчуття стіків 0.95 дуже великий згин викривлення кривої, має ефект лише біля максимального значення</translation>
     </message>
   </context>
   <context>
@@ -24911,7 +24918,7 @@
     <name>/parameters/MPC_ACC_DOWN_MAX/shortDesc</name>
     <message>
       <source>Maximum downwards acceleration in climb rate controlled modes</source>
-      <translation type="unfinished">Maximum downwards acceleration in climb rate controlled modes</translation>
+      <translation>Максимальне прискорення донизу у режимі контрольованого набору висоти</translation>
     </message>
   </context>
   <context>
@@ -24946,7 +24953,7 @@
     <name>/parameters/MPC_ACC_UP_MAX/shortDesc</name>
     <message>
       <source>Maximum upwards acceleration in climb rate controlled modes</source>
-      <translation type="unfinished">Maximum upwards acceleration in climb rate controlled modes</translation>
+      <translation>Максимальне прискорення доверху у режимі контрольованого набору висоти</translation>
     </message>
   </context>
   <context>
@@ -25282,7 +25289,7 @@
     <name>/parameters/MPC_THR_MAX/shortDesc</name>
     <message>
       <source>Maximum collective thrust in climb rate controlled modes</source>
-      <translation type="unfinished">Maximum collective thrust in climb rate controlled modes</translation>
+      <translation>Максимальна сукупна тяга при наборі висоти у контрольованих режимах</translation>
     </message>
   </context>
   <context>
@@ -25296,7 +25303,7 @@
     <name>/parameters/MPC_THR_MIN/shortDesc</name>
     <message>
       <source>Minimum collective thrust in climb rate controlled modes</source>
-      <translation type="unfinished">Minimum collective thrust in climb rate controlled modes</translation>
+      <translation>Мінімальна сукупна тяга при наборі висоти у контрольованих режимах</translation>
     </message>
   </context>
   <context>
@@ -25359,14 +25366,14 @@
     <name>/parameters/MPC_TKO_RAMP_T/longDesc</name>
     <message>
       <source>Increasing this value will make climb rate controlled takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</source>
-      <translation type="unfinished">Increasing this value will make climb rate controlled takeoff slower. If it's too slow the drone might scratch the ground and tip over. A time constant of 0 disables the ramp</translation>
+      <translation>Збільшення цього значення сповільнить швидкість набору висоти при контрольованому зльоті. Якщо швидкість занадто повільна, то дрон може дертися об землю та перекинутися. Константа часу 0 вимикає рампу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MPC_TKO_SPEED/shortDesc</name>
     <message>
       <source>Takeoff climb rate</source>
-      <translation type="unfinished">Takeoff climb rate</translation>
+      <translation>Швидкість підйому при злеті</translation>
     </message>
   </context>
   <context>
@@ -25639,7 +25646,7 @@
     <name>/parameters/MPC_YAW_EXPO/longDesc</name>
     <message>
       <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
-      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</translation>
+      <translation>Чим вище значення, тим менше чутливості стік має навколо нуля, одночасно досягаючи максимального значення з повною зміною напрямку стіка. 0 Чисто пряма вхідна крива 1 Чисто кубічна вхідна крива</translation>
     </message>
   </context>
   <context>
@@ -25653,7 +25660,7 @@
     <name>/parameters/MPC_Z_MAN_EXPO/longDesc</name>
     <message>
       <source>The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</source>
-      <translation type="unfinished">The higher the value the less sensitivity the stick has around zero while still reaching the maximum value with full stick deflection. 0 Purely linear input curve 1 Purely cubic input curve</translation>
+      <translation>Чим вище значення, тим менше чутливості стік має навколо нуля, одночасно досягаючи максимального значення з повною зміною напрямку стіка. 0 Чисто пряма вхідна крива 1 Чисто кубічна вхідна крива</translation>
     </message>
   </context>
   <context>
@@ -25723,7 +25730,7 @@
     <name>/parameters/MPC_Z_VEL_MAX_DN/longDesc</name>
     <message>
       <source>Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
-      <translation type="unfinished">Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</translation>
+      <translation>Абсолютний максимум для всіх керованих режимів набору висоти. В ручних пілотованих режимах вижим стіка до упору керує швидкістю. Для автономної швидкості за замовчуванням дивіться MPC_Z_V_AUTO_UP</translation>
     </message>
   </context>
   <context>
@@ -25737,7 +25744,7 @@
     <name>/parameters/MPC_Z_VEL_MAX_UP/longDesc</name>
     <message>
       <source>Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
-      <translation type="unfinished">Absolute maximum for all climb rate controlled modes. In manually piloted modes full stick deflection commands this velocity. For default autonomous velocity see MPC_Z_V_AUTO_UP</translation>
+      <translation>Абсолютний максимум для всіх керованих режимів набору висоти. В ручних пілотованих режимах вижим стіка до упору керує швидкістю. Для автономної швидкості за замовчуванням дивіться MPC_Z_V_AUTO_UP</translation>
     </message>
   </context>
   <context>
@@ -26794,7 +26801,7 @@
     <name>/parameters/PLD_SRCH_ALT/longDesc</name>
     <message>
       <source>Altitude above home to which to climb when searching for the landing target.</source>
-      <translation type="unfinished">Altitude above home to which to climb when searching for the landing target.</translation>
+      <translation>Висота над точкою повернення до якої треба піднятися при пошуку цільового приземлення.</translation>
     </message>
   </context>
   <context>
@@ -30812,14 +30819,14 @@
     <name>/parameters/RC_LOITER_TH/shortDesc</name>
     <message>
       <source>Threshold for selecting loiter mode</source>
-      <translation type="unfinished">Threshold for selecting loiter mode</translation>
+      <translation>Поріг для вибору режиму баражування</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_LOITER_TH/longDesc</name>
     <message>
       <source>0-1 indicate where in the full channel range the threshold sits 0 : min 1 : max sign indicates polarity of comparison positive : true when channel&gt;th negative : true when channel&lt;th</source>
-      <translation type="unfinished">0-1 indicate where in the full channel range the threshold sits 0 : min 1 : max sign indicates polarity of comparison positive : true when channel&gt;th negative : true when channel&lt;th</translation>
+      <translation>0-1 вказує де в повному каналі діапазону порога 0 : min 1: max знак вказує на полярність порівняння позитивне: true коли channel&gt;th від'ємне: true коли channel&lt;th</translation>
     </message>
   </context>
   <context>
@@ -31680,140 +31687,140 @@
     <name>/parameters/RC_MAP_LOITER_SW/shortDesc</name>
     <message>
       <source>Loiter switch channel</source>
-      <translation type="unfinished">Loiter switch channel</translation>
+      <translation>Канал перемикання баражування</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/0/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/1/description</name>
     <message>
       <source>Channel 1</source>
-      <translation type="unfinished">Channel 1</translation>
+      <translation>Канал 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/2/description</name>
     <message>
       <source>Channel 2</source>
-      <translation type="unfinished">Channel 2</translation>
+      <translation>Канал 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/3/description</name>
     <message>
       <source>Channel 3</source>
-      <translation type="unfinished">Channel 3</translation>
+      <translation>Канал 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/4/description</name>
     <message>
       <source>Channel 4</source>
-      <translation type="unfinished">Channel 4</translation>
+      <translation>Канал 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/5/description</name>
     <message>
       <source>Channel 5</source>
-      <translation type="unfinished">Channel 5</translation>
+      <translation>Канал 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/6/description</name>
     <message>
       <source>Channel 6</source>
-      <translation type="unfinished">Channel 6</translation>
+      <translation>Канал 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/7/description</name>
     <message>
       <source>Channel 7</source>
-      <translation type="unfinished">Channel 7</translation>
+      <translation>Канал 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/8/description</name>
     <message>
       <source>Channel 8</source>
-      <translation type="unfinished">Channel 8</translation>
+      <translation>Канал 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/9/description</name>
     <message>
       <source>Channel 9</source>
-      <translation type="unfinished">Channel 9</translation>
+      <translation>Канал 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/10/description</name>
     <message>
       <source>Channel 10</source>
-      <translation type="unfinished">Channel 10</translation>
+      <translation>Канал 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/11/description</name>
     <message>
       <source>Channel 11</source>
-      <translation type="unfinished">Channel 11</translation>
+      <translation>Канал 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/12/description</name>
     <message>
       <source>Channel 12</source>
-      <translation type="unfinished">Channel 12</translation>
+      <translation>Канал 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/13/description</name>
     <message>
       <source>Channel 13</source>
-      <translation type="unfinished">Channel 13</translation>
+      <translation>Канал 13</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/14/description</name>
     <message>
       <source>Channel 14</source>
-      <translation type="unfinished">Channel 14</translation>
+      <translation>Канал 14</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/15/description</name>
     <message>
       <source>Channel 15</source>
-      <translation type="unfinished">Channel 15</translation>
+      <translation>Канал 15</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/16/description</name>
     <message>
       <source>Channel 16</source>
-      <translation type="unfinished">Channel 16</translation>
+      <translation>Канал 16</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/17/description</name>
     <message>
       <source>Channel 17</source>
-      <translation type="unfinished">Channel 17</translation>
+      <translation>Канал 17</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_LOITER_SW/values/18/description</name>
     <message>
       <source>Channel 18</source>
-      <translation type="unfinished">Channel 18</translation>
+      <translation>Канал 18</translation>
     </message>
   </context>
   <context>
@@ -32597,7 +32604,7 @@
     <name>/parameters/RTL_CONE_ANG/values/0/description</name>
     <message>
       <source>No cone, always climb to RTL_RETURN_ALT above destination.</source>
-      <translation type="unfinished">No cone, always climb to RTL_RETURN_ALT above destination.</translation>
+      <translation>Без конуса, завжди підійматися до RTL_RETURN_ALT над напрямком.</translation>
     </message>
   </context>
   <context>
@@ -32632,14 +32639,14 @@
     <name>/parameters/RTL_CONE_ANG/values/90/description</name>
     <message>
       <source>Only climb to at least RTL_DESCEND_ALT above destination.</source>
-      <translation type="unfinished">Only climb to at least RTL_DESCEND_ALT above destination.</translation>
+      <translation>Лише піднятися на принаймні RTL_DESCEND_ALT над пунктом призначення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RTL_DESCEND_ALT/shortDesc</name>
     <message>
       <source>Return mode loiter altitude</source>
-      <translation type="unfinished">Return mode loiter altitude</translation>
+      <translation>Режим Повернення висота баражування</translation>
     </message>
   </context>
   <context>
@@ -32660,21 +32667,21 @@
     <name>/parameters/RTL_LAND_DELAY/longDesc</name>
     <message>
       <source>Delay before landing (after initial descent) in Return mode. If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.</source>
-      <translation type="unfinished">Delay before landing (after initial descent) in Return mode. If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.</translation>
+      <translation>Затримка перед приземленням (після початкового зниження) у режимі Повернення. Якщо встановлено на -1, то система не буде знижуватися, але баражуватиме на RTL_DESCEND_ALT.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RTL_LOITER_RAD/shortDesc</name>
     <message>
       <source>Loiter radius for rtl descend</source>
-      <translation type="unfinished">Loiter radius for rtl descend</translation>
+      <translation>Радіус баражування для rtl (повернення на точку приземлення) при зниженні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RTL_LOITER_RAD/longDesc</name>
     <message>
       <source>Set the radius for loitering to a safe altitude for VTOL transition.</source>
-      <translation type="unfinished">Set the radius for loitering to a safe altitude for VTOL transition.</translation>
+      <translation>Встановіть радіус для кружляння до безпечної висоти для переходу до вертикального зльоту/посадки.</translation>
     </message>
   </context>
   <context>
@@ -32737,7 +32744,7 @@
     <name>/parameters/RTL_RETURN_ALT/longDesc</name>
     <message>
       <source>Default minimum altitude above destination (e.g. home, safe point, landing pattern) for return flight. The vehicle will climb to this altitude when Return mode is enganged, unless it currently is flying higher already. This is affected by RTL_MIN_DIST and RTL_CONE_ANG.</source>
-      <translation type="unfinished">Default minimum altitude above destination (e.g. home, safe point, landing pattern) for return flight. The vehicle will climb to this altitude when Return mode is enganged, unless it currently is flying higher already. This is affected by RTL_MIN_DIST and RTL_CONE_ANG.</translation>
+      <translation>Мінімальна висота за замовчуванням вище місця призначення (напр. точка повернення, безпечна точка, шаблон приземлення) для польоту повернення. Апарат буде набирати цю висоту, коли режим Повернення задіяно, якщо на даний час апарат вже не літає вище. На це впливає RTL_MIN-DIST та RTL_CONE_ANG.</translation>
     </message>
   </context>
   <context>
@@ -32996,7 +33003,7 @@
     <name>/parameters/RM_COURSE_CTL_TH/longDesc</name>
     <message>
       <source>Threshold for the angle between the active cruise direction and the cruise direction given by the stick inputs. This can be understood as a deadzone for the combined stick inputs for forward/backwards and lateral speed which defines a course direction.</source>
-      <translation type="unfinished">Threshold for the angle between the active cruise direction and the cruise direction given by the stick inputs. This can be understood as a deadzone for the combined stick inputs for forward/backwards and lateral speed which defines a course direction.</translation>
+      <translation>Поріг для кута між активним крейсерським напрямком та крейсерським напрямком, який отримано від руху стіками. Це може бути зрозуміло як мертва зона для комбінованих рухів стіками для передньої/задньої та бічної швидкості, яка визначає напрямок курсу.</translation>
     </message>
   </context>
   <context>
@@ -33353,7 +33360,7 @@
     <name>/parameters/RO_YAW_STICK_DZ/longDesc</name>
     <message>
       <source>Percentage of stick input range that will be interpreted as zero around the stick centered value.</source>
-      <translation type="unfinished">Percentage of stick input range that will be interpreted as zero around the stick centered value.</translation>
+      <translation>Процент рівня руху стіками, що буде інтерпретований як нульовий навколо значення стіка по центру.</translation>
     </message>
   </context>
   <context>
@@ -44714,14 +44721,14 @@
     <name>/parameters/VTO_LOITER_ALT/shortDesc</name>
     <message>
       <source>VTOL Takeoff relative loiter altitude</source>
-      <translation type="unfinished">VTOL Takeoff relative loiter altitude</translation>
+      <translation>Зліт при вертикальному зльоті/посадці відносно висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VTO_LOITER_ALT/longDesc</name>
     <message>
       <source>Altitude relative to home at which vehicle will loiter after front transition.</source>
-      <translation type="unfinished">Altitude relative to home at which vehicle will loiter after front transition.</translation>
+      <translation>Висота відносно точки зльоту на якій апарат буде кружляти фронтального переходу.</translation>
     </message>
   </context>
   <context>
@@ -44767,31 +44774,45 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/MAVLink</name>
+    <name>$globals/group/UAVCAN Motor Parameters</name>
     <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
+      <source>UAVCAN Motor Parameters</source>
+      <translation type="unfinished">UAVCAN Motor Parameters</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW NPFG Control</name>
+    <name>$globals/group/Hover Thrust Estimator</name>
     <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/EKF2</name>
+    <name>$globals/group/Mission</name>
     <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Geometry</name>
+    <name>$globals/group/Failure Detector</name>
     <message>
-      <source>FW Geometry</source>
-      <translation type="unfinished">FW Geometry</translation>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
     </message>
   </context>
   <context>
@@ -44802,45 +44823,31 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Precision Land</name>
+    <name>$globals/group/Sensors</name>
     <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Geofence</name>
+    <name>$globals/group/PWM Outputs</name>
     <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
+    <name>$globals/group/FW Path Control</name>
     <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
+      <source>FW Path Control</source>
+      <translation type="unfinished">FW Path Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Simulator</name>
+    <name>$globals/group/Attitude Q estimator</name>
     <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
     </message>
   </context>
   <context>
@@ -44858,31 +44865,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Mixer Output</name>
+    <name>$globals/group/Multicopter Position Control</name>
     <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Attitude Control</name>
-    <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
     </message>
   </context>
   <context>
@@ -44893,132 +44879,6 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Position Control (Deprecated)</name>
-    <message>
-      <source>Rover Position Control (Deprecated)</source>
-      <translation type="unfinished">Rover Position Control (Deprecated)</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Path Control</name>
-    <message>
-      <source>FW Path Control</source>
-      <translation type="unfinished">FW Path Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Thermal Compensation</name>
-    <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN GNSS</name>
-    <message>
-      <source>UAVCAN GNSS</source>
-      <translation type="unfinished">UAVCAN GNSS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Calibration</name>
-    <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SD Logging</name>
-    <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/FW Auto Landing</name>
     <message>
       <source>FW Auto Landing</source>
@@ -45026,143 +44886,17 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Return Mode</name>
+    <name>$globals/group/System</name>
     <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
+    <name>$globals/group/Rover Position Control (Deprecated)</name>
     <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Autotune</name>
-    <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
-    <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Attitude Q estimator</name>
-    <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Mecanum</name>
-    <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN Motor Parameters</name>
-    <message>
-      <source>UAVCAN Motor Parameters</source>
-      <translation type="unfinished">UAVCAN Motor Parameters</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Actuator Outputs</name>
-    <message>
-      <source>Actuator Outputs</source>
-      <translation type="unfinished">Actuator Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Miscellaneous</name>
-    <message>
-      <source>Miscellaneous</source>
-      <translation type="unfinished">Miscellaneous</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
+      <source>Rover Position Control (Deprecated)</source>
+      <translation type="unfinished">Rover Position Control (Deprecated)</translation>
     </message>
   </context>
   <context>
@@ -45173,10 +44907,31 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Launch detection</name>
+    <name>$globals/group/Land Detector</name>
     <message>
-      <source>FW Launch detection</source>
-      <translation type="unfinished">FW Launch detection</translation>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Attitude Control</name>
+    <message>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
     </message>
   </context>
   <context>
@@ -45187,10 +44942,220 @@
     </message>
   </context>
   <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Miscellaneous</name>
+    <message>
+      <source>Miscellaneous</source>
+      <translation type="unfinished">Miscellaneous</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Actuator Outputs</name>
+    <message>
+      <source>Actuator Outputs</source>
+      <translation type="unfinished">Actuator Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulator</name>
+    <message>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <message>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Camera trigger</name>
+    <message>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN GNSS</name>
+    <message>
+      <source>UAVCAN GNSS</source>
+      <translation type="unfinished">UAVCAN GNSS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Geometry</name>
+    <message>
+      <source>FW Geometry</source>
+      <translation type="unfinished">FW Geometry</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Events</name>
     <message>
       <source>Events</source>
       <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
     </message>
   </context>
   <context>
@@ -45208,38 +45173,73 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Circuit Breaker</name>
+    <name>$globals/group/Thermal Compensation</name>
     <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
     <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Radio Switches</name>
+    <name>$globals/group/OSD</name>
     <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Differential</name>
+    <name>$globals/group/Runway Takeoff</name>
     <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Landing Target Estimator</name>
+    <name>$globals/group/EKF2</name>
     <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
     </message>
   </context>
   <context>
@@ -45257,10 +45257,24 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
+    <name>$globals/group/Multicopter Attitude Control</name>
     <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Launch detection</name>
+    <message>
+      <source>FW Launch detection</source>
+      <translation type="unfinished">FW Launch detection</translation>
     </message>
   </context>
   <context>
@@ -45271,10 +45285,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/System</name>
+    <name>$globals/group/Radio Calibration</name>
     <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
     </message>
   </context>
   <context>
@@ -45282,13 +45296,6 @@
     <message>
       <source>Geometry</source>
       <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
     </message>
   </context>
 </TS>
