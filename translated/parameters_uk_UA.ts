@@ -15055,7 +15055,7 @@
     <name>/parameters/FW_BAT_SCALE_EN/shortDesc</name>
     <message>
       <source>Enable throttle scale by battery level</source>
-      <translation type="unfinished">Enable throttle scale by battery level</translation>
+      <translation>Вимкнути шкалу тяги від рівня батареї</translation>
     </message>
   </context>
   <context>
@@ -15489,7 +15489,7 @@
     <name>/parameters/FW_THR_IDLE/shortDesc</name>
     <message>
       <source>Idle throttle</source>
-      <translation type="unfinished">Idle throttle</translation>
+      <translation>Бездієвий дросель</translation>
     </message>
   </context>
   <context>
@@ -15503,7 +15503,7 @@
     <name>/parameters/FW_THR_MAX/shortDesc</name>
     <message>
       <source>Throttle limit max</source>
-      <translation type="unfinished">Throttle limit max</translation>
+      <translation>Максимальний ліміт дроселя</translation>
     </message>
   </context>
   <context>
@@ -15517,7 +15517,7 @@
     <name>/parameters/FW_THR_MIN/shortDesc</name>
     <message>
       <source>Throttle limit min</source>
-      <translation type="unfinished">Throttle limit min</translation>
+      <translation>Мінімальний ліміт дроселя</translation>
     </message>
   </context>
   <context>
@@ -15531,14 +15531,14 @@
     <name>/parameters/FW_THR_SLEW_MAX/shortDesc</name>
     <message>
       <source>Throttle max slew rate</source>
-      <translation type="unfinished">Throttle max slew rate</translation>
+      <translation>Максимальна швидкість зростання тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_THR_SLEW_MAX/longDesc</name>
     <message>
       <source>Maximum slew rate for the commanded throttle</source>
-      <translation type="unfinished">Maximum slew rate for the commanded throttle</translation>
+      <translation>Максимальна швидкість зростання для керованої тяги</translation>
     </message>
   </context>
   <context>
@@ -15587,7 +15587,7 @@
     <name>/parameters/FW_T_F_ALT_ERR/longDesc</name>
     <message>
       <source>Minimum altitude error needed to descend with max airspeed and minimal throttle. A negative value disables fast descend.</source>
-      <translation type="unfinished">Minimum altitude error needed to descend with max airspeed and minimal throttle. A negative value disables fast descend.</translation>
+      <translation>Мінімальна помилка висоти необхідна для зниження при максимальній швидкості польоту та мінімальній тязі. Від'ємне значення вимикає швидке зниження.</translation>
     </message>
   </context>
   <context>
@@ -15622,7 +15622,7 @@
     <name>/parameters/FW_T_RLL2THR/shortDesc</name>
     <message>
       <source>Roll -&gt; Throttle feedforward</source>
-      <translation type="unfinished">Roll -&gt; Throttle feedforward</translation>
+      <translation>Крен -&gt; Тяга прямого зв'язку</translation>
     </message>
   </context>
   <context>
@@ -15727,7 +15727,7 @@
     <name>/parameters/FW_T_STE_R_TC/longDesc</name>
     <message>
       <source>This filter is applied to the specific total energy rate used for throttle damping.</source>
-      <translation type="unfinished">This filter is applied to the specific total energy rate used for throttle damping.</translation>
+      <translation>Цей фільтр застосовується до певного загального рівня енергії, який використовується для демпфування тяги.</translation>
     </message>
   </context>
   <context>
