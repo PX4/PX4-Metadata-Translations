@@ -14957,7 +14957,7 @@
     <name>/parameters/WEIGHT_BASE/longDesc</name>
     <message>
       <source>This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</source>
-      <translation type="unfinished">This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value disables trim throttle and minimum airspeed compensation based on weight.</translation>
+      <translation>Це є вага апарату, при якій були запозичені обмеження його характеристик. Нульове або негативне значення вимикають корекцію дроселя та мінімальну компенсацію швидкості польоту основаної на вазі.</translation>
     </message>
   </context>
   <context>
