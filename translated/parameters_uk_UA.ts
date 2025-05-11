@@ -15741,21 +15741,21 @@
     <name>/parameters/FW_T_THR_DAMPING/shortDesc</name>
     <message>
       <source>Throttle damping factor</source>
-      <translation type="unfinished">Throttle damping factor</translation>
+      <translation>Фактор демпфування тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_THR_DAMPING/longDesc</name>
     <message>
       <source>This is the damping gain for the throttle demand loop.</source>
-      <translation type="unfinished">This is the damping gain for the throttle demand loop.</translation>
+      <translation>Це є отримання згасання для петлі вимоги тяги.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_T_THR_INTEG/shortDesc</name>
     <message>
       <source>Integrator gain throttle</source>
-      <translation type="unfinished">Integrator gain throttle</translation>
+      <translation>Інегратор отримання тяги</translation>
     </message>
   </context>
   <context>
