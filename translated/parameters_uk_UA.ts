@@ -15818,7 +15818,7 @@
     <name>/parameters/FD_ACT_EN/longDesc</name>
     <message>
       <source>If enabled, failure detector will verify that for motors, a minimum amount of ESC current per throttle level is being consumed. Otherwise this indicates an motor failure.</source>
-      <translation type="unfinished">If enabled, failure detector will verify that for motors, a minimum amount of ESC current per throttle level is being consumed. Otherwise this indicates an motor failure.</translation>
+      <translation>Якщо увімкнено, то детектор помилок підтвердить це для моторів, споживається мінімальна кількість ESC струму на рівень тяги. Інакше це означає відмову мотора.</translation>
     </message>
   </context>
   <context>
