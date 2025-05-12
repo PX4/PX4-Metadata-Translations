@@ -33234,35 +33234,35 @@
     <name>/parameters/GND_THR_CRUISE/longDesc</name>
     <message>
       <source>This is the throttle setting required to achieve the desired cruise speed. 10% is ok for a traxxas stampede vxl with ESC set to training mode</source>
-      <translation>Це є налаштування тяги необхідні для досягнення бажаної крейсерської швидкості. 10% є добре для traxxas stampede vxl з ESC (електронним контролем швидкості)</translation>
+      <translation>Це є налаштування тяги необхідні для досягнення бажаної крейсерської швидкості. 10% є добре для traxxas stampede vxl з ESC (електронним контролем швидкості) встановленому у тренувальному режимі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GND_THR_MAX/shortDesc</name>
     <message>
       <source>Throttle limit max</source>
-      <translation type="unfinished">Throttle limit max</translation>
+      <translation>Максимальний ліміт дроселя</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GND_THR_MAX/longDesc</name>
     <message>
       <source>This is the maximum throttle % that can be used by the controller. For a Traxxas stampede vxl with the ESC set to training, 30 % is enough</source>
-      <translation type="unfinished">This is the maximum throttle % that can be used by the controller. For a Traxxas stampede vxl with the ESC set to training, 30 % is enough</translation>
+      <translation>Це максимальний % дроселя, який може бути використаний датчиком. Для Traxxas stampede vxl з ESC (електронним контролем швидкості) встановленому на трейнінг, 30 % достатньо</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GND_THR_MIN/shortDesc</name>
     <message>
       <source>Throttle limit min</source>
-      <translation type="unfinished">Throttle limit min</translation>
+      <translation>Мінімальний ліміт дроселя</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GND_THR_MIN/longDesc</name>
     <message>
       <source>This is the minimum throttle % that can be used by the controller. Set to 0 for rover</source>
-      <translation type="unfinished">This is the minimum throttle % that can be used by the controller. Set to 0 for rover</translation>
+      <translation>Це мінімальний % дроселя, який може бути використаний контролером. Встановити в 0 для ровера</translation>
     </message>
   </context>
   <context>
@@ -33409,7 +33409,7 @@
     <name>/parameters/RO_MAX_THR_SPEED/shortDesc</name>
     <message>
       <source>Speed the rover drives at maximum throttle</source>
-      <translation type="unfinished">Speed the rover drives at maximum throttle</translation>
+      <translation>Швидкість, з якою їде ровер при максимальному дроселі</translation>
     </message>
   </context>
   <context>
@@ -33493,7 +33493,7 @@
     <name>/parameters/RWTO_MAX_THR/shortDesc</name>
     <message>
       <source>Max throttle during runway takeoff</source>
-      <translation type="unfinished">Max throttle during runway takeoff</translation>
+      <translation>Максимальна тяга під час злету зі злітної смуги</translation>
     </message>
   </context>
   <context>
@@ -33549,7 +33549,7 @@
     <name>/parameters/RWTO_RAMP_TIME/shortDesc</name>
     <message>
       <source>Throttle ramp up time for runway takeoff</source>
-      <translation type="unfinished">Throttle ramp up time for runway takeoff</translation>
+      <translation>Час наростання тяги для злету зі злітної смуги</translation>
     </message>
   </context>
   <context>
@@ -37973,7 +37973,7 @@
     <name>/parameters/CAL_MAG0_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 0 X Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 0 X Axis throttle compensation</translation>
+      <translation>Магнітометр 0 вісі X компенсація тяги</translation>
     </message>
   </context>
   <context>
