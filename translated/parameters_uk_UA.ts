@@ -33234,7 +33234,7 @@
     <name>/parameters/GND_THR_CRUISE/longDesc</name>
     <message>
       <source>This is the throttle setting required to achieve the desired cruise speed. 10% is ok for a traxxas stampede vxl with ESC set to training mode</source>
-      <translation type="unfinished">This is the throttle setting required to achieve the desired cruise speed. 10% is ok for a traxxas stampede vxl with ESC set to training mode</translation>
+      <translation>Це є налаштування тяги необхідні для досягнення бажаної крейсерської швидкості. 10% є добре для traxxas stampede vxl з ESC (електронним контролем швидкості)</translation>
     </message>
   </context>
   <context>
