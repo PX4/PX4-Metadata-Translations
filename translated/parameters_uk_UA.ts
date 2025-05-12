@@ -15496,7 +15496,7 @@
     <name>/parameters/FW_THR_IDLE/longDesc</name>
     <message>
       <source>This is the minimum throttle while on the ground ("landed") in auto modes.</source>
-      <translation type="unfinished">This is the minimum throttle while on the ground ("landed") in auto modes.</translation>
+      <translation>Це мінімальна тяга при перебуванні на землі ("приземлений") в автоматичному режимі.</translation>
     </message>
   </context>
   <context>
@@ -15839,7 +15839,7 @@
     <name>/parameters/FD_ACT_MOT_C2T/shortDesc</name>
     <message>
       <source>Motor Failure Current/Throttle Threshold</source>
-      <translation type="unfinished">Motor Failure Current/Throttle Threshold</translation>
+      <translation>Відмова струму мотора/Поріг Дроселя</translation>
     </message>
   </context>
   <context>
@@ -15853,14 +15853,14 @@
     <name>/parameters/FD_ACT_MOT_THR/shortDesc</name>
     <message>
       <source>Motor Failure Throttle Threshold</source>
-      <translation type="unfinished">Motor Failure Throttle Threshold</translation>
+      <translation>Відмова Мотору Поріг Дроселя</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FD_ACT_MOT_THR/longDesc</name>
     <message>
       <source>Motor failure triggers only above this throttle value.</source>
-      <translation type="unfinished">Motor failure triggers only above this throttle value.</translation>
+      <translation>Відмова мотору вмикається тільки вище цього значення дроселя.</translation>
     </message>
   </context>
   <context>
@@ -15874,7 +15874,7 @@
     <name>/parameters/FD_ACT_MOT_TOUT/longDesc</name>
     <message>
       <source>Motor failure triggers only if the throttle threshold and the current to throttle threshold are violated for this time.</source>
-      <translation type="unfinished">Motor failure triggers only if the throttle threshold and the current to throttle threshold are violated for this time.</translation>
+      <translation>Відмова мотору вмикається тільки якщо поріг дроселя та струм до порогу дроселя порушені у цей час.</translation>
     </message>
   </context>
   <context>
