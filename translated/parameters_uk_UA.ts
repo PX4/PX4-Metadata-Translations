@@ -37980,7 +37980,7 @@
     <name>/parameters/CAL_MAG0_XCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між X компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38022,14 +38022,14 @@
     <name>/parameters/CAL_MAG0_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 0 Y Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 0 Y Axis throttle compensation</translation>
+      <translation>Магнітометр 0 вісі Y компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG0_YCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Y компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38057,14 +38057,14 @@
     <name>/parameters/CAL_MAG0_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 0 Z Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 0 Z Axis throttle compensation</translation>
+      <translation>Магнітометр 0 вісі Z компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG0_ZCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Z компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38505,14 +38505,14 @@
     <name>/parameters/CAL_MAG1_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 1 X Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 1 X Axis throttle compensation</translation>
+      <translation>Магнітометр 1 вісі X компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG1_XCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між X компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38554,14 +38554,14 @@
     <name>/parameters/CAL_MAG1_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 1 Y Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 1 Y Axis throttle compensation</translation>
+      <translation>Магнітометр 1 вісі Y компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG1_YCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Y компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38589,14 +38589,14 @@
     <name>/parameters/CAL_MAG1_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 1 Z Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 1 Z Axis throttle compensation</translation>
+      <translation>Магнітометр 1 вісі Z компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG1_ZCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Z компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39037,14 +39037,14 @@
     <name>/parameters/CAL_MAG2_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 2 X Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 2 X Axis throttle compensation</translation>
+      <translation>Магнітометр 2 вісі X компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG2_XCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між X компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39086,14 +39086,14 @@
     <name>/parameters/CAL_MAG2_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 2 Y Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 2 Y Axis throttle compensation</translation>
+      <translation>Магнітометр 2 вісі Y компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG2_YCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Y компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39121,14 +39121,14 @@
     <name>/parameters/CAL_MAG2_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 2 Z Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 2 Z Axis throttle compensation</translation>
+      <translation>Магнітометр 2 вісі Z компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG2_ZCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Z компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39569,14 +39569,14 @@
     <name>/parameters/CAL_MAG3_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 3 X Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 3 X Axis throttle compensation</translation>
+      <translation>Магнітометр 3 вісі X компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG3_XCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між X компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39618,14 +39618,14 @@
     <name>/parameters/CAL_MAG3_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 3 Y Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 3 Y Axis throttle compensation</translation>
+      <translation>Магнітометр 3 вісі Y компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG3_YCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Y компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39653,14 +39653,14 @@
     <name>/parameters/CAL_MAG3_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 3 Z Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 3 Z Axis throttle compensation</translation>
+      <translation>Магнітометр 3 вісі Z компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG3_ZCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Z компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39702,7 +39702,7 @@
     <name>/parameters/CAL_MAG_COMP_TYP/values/1/description</name>
     <message>
       <source>Throttle-based compensation</source>
-      <translation type="unfinished">Throttle-based compensation</translation>
+      <translation>Компенсаці базована на тязі</translation>
     </message>
   </context>
   <context>
@@ -44518,7 +44518,7 @@
     <name>/parameters/VT_F_TRANS_THR/shortDesc</name>
     <message>
       <source>Target throttle value for the transition to fixed-wing flight</source>
-      <translation type="unfinished">Target throttle value for the transition to fixed-wing flight</translation>
+      <translation>Націлитися на значення тяги для переходу до польоту з фіксованим крилом</translation>
     </message>
   </context>
   <context>
@@ -44567,7 +44567,7 @@
     <name>/parameters/VT_PSHER_SLEW/shortDesc</name>
     <message>
       <source>Pusher throttle ramp up slew rate</source>
-      <translation type="unfinished">Pusher throttle ramp up slew rate</translation>
+      <translation>Штовхач тяги підвищує швидкість зростання</translation>
     </message>
   </context>
   <context>
