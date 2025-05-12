@@ -44574,7 +44574,7 @@
     <name>/parameters/VT_PSHER_SLEW/longDesc</name>
     <message>
       <source>Defines the slew rate of the puller/pusher throttle during transitions. Zero will deactivate the slew rate limiting and thus produce an instant throttle rise to the transition throttle VT_F_TRANS_THR.</source>
-      <translation type="unfinished">Defines the slew rate of the puller/pusher throttle during transitions. Zero will deactivate the slew rate limiting and thus produce an instant throttle rise to the transition throttle VT_F_TRANS_THR.</translation>
+      <translation>Визначає швидкість зростання натягувача/штовхача дроселя під час переходів. Нуль деактивуватиме лімітування швидкості зростання і таким чином виробляє миттєве збільшення тяги до переходу тяги VT_F_TRANS_THR.</translation>
     </message>
   </context>
   <context>
