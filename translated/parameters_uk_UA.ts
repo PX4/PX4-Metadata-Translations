@@ -22664,7 +22664,7 @@
     <name>/parameters/MAV_0_RADIO_CTL/longDesc</name>
     <message>
       <source>If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</source>
-      <translation type="unfinished">If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</translation>
+      <translation>Якщо увімкнено, то MAVLink повідомлення буде придушуватися відповідно до поля `txbuf`, про яке повідомляє radio_status. Потребує радіо для відправки mavlink повідомлення RADIO_STATUS.</translation>
     </message>
   </context>
   <context>
@@ -22944,7 +22944,7 @@
     <name>/parameters/MAV_1_RADIO_CTL/longDesc</name>
     <message>
       <source>If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</source>
-      <translation type="unfinished">If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</translation>
+      <translation>Якщо увімкнено, то MAVLink повідомлення буде придушуватися відповідно до поля `txbuf`, про яке повідомляє radio_status. Потребує радіо для відправки mavlink повідомлення RADIO_STATUS.</translation>
     </message>
   </context>
   <context>
@@ -23224,7 +23224,7 @@
     <name>/parameters/MAV_2_RADIO_CTL/longDesc</name>
     <message>
       <source>If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</source>
-      <translation type="unfinished">If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</translation>
+      <translation>Якщо увімкнено, то MAVLink повідомлення буде придушуватися відповідно до поля `txbuf`, про яке повідомляє radio_status. Потребує радіо для відправки mavlink повідомлення RADIO_STATUS.</translation>
     </message>
   </context>
   <context>
@@ -25002,7 +25002,7 @@
     <name>/parameters/MPC_HOLD_DZ/longDesc</name>
     <message>
       <source>Does not apply to manual throttle and direct attitude piloting by stick.</source>
-      <translation type="unfinished">Does not apply to manual throttle and direct attitude piloting by stick.</translation>
+      <translation>Не застосовується для ручної тяги та прямого пілотування стану орієнтації через стіки.</translation>
     </message>
   </context>
   <context>
@@ -25387,7 +25387,7 @@
     <name>/parameters/MPC_USE_HTE/longDesc</name>
     <message>
       <source>Disable to use the fixed parameter MPC_THR_HOVER instead of the hover thrust estimate in the position controller. This parameter does not influence Stabilized mode throttle curve (see MPC_THR_CURVE).</source>
-      <translation type="unfinished">Disable to use the fixed parameter MPC_THR_HOVER instead of the hover thrust estimate in the position controller. This parameter does not influence Stabilized mode throttle curve (see MPC_THR_CURVE).</translation>
+      <translation>Вимкніть для використання фіксованих параметрів MPC_THR_HOVER замість оцінювання тяги зависання у позиції контролера. Цей параметр не впливає на режим Stabilized кривої тяги (див. MPC_THR_CURVE).</translation>
     </message>
   </context>
   <context>
@@ -26157,7 +26157,7 @@
     <name>/parameters/MC_BAT_SCALE_EN/longDesc</name>
     <message>
       <source>This compensates for voltage drop of the battery over time by attempting to normalize performance across the operating range of the battery. The copter should constantly behave as if it was fully charged with reduced max acceleration at lower battery percentages. i.e. if hover is at 0.5 throttle at 100% battery, it will still be 0.5 at 60% battery.</source>
-      <translation type="unfinished">This compensates for voltage drop of the battery over time by attempting to normalize performance across the operating range of the battery. The copter should constantly behave as if it was fully charged with reduced max acceleration at lower battery percentages. i.e. if hover is at 0.5 throttle at 100% battery, it will still be 0.5 at 60% battery.</translation>
+      <translation>Це компенсує зниження вольтажу батареї через певний час, намагаючись нормалізувати роботу на всьому робочому діапазоні батареї. Коптер має постійно поводитися, наче як повністю заряджений зі зменшеним максимальним прискоренням на низьких відсотках батареї, тобто якщо зависання на тязі 0.5 при 100% заряді, то це все ще буде 0.5 при 60% батареї.</translation>
     </message>
   </context>
   <context>
@@ -28383,7 +28383,7 @@
     <name>/parameters/RC_FAILS_THR/longDesc</name>
     <message>
       <source>Use RC_MAP_FAILSAFE to specify which channel is used to indicate RC loss via this threshold. By default this is the throttle channel. Set to a PWM value slightly above the PWM value for the channel (e.g. throttle) in a failsafe event, but below the minimum PWM value for the channel during normal operation. Note: The default value of 0 disables the feature (it is below the expected range).</source>
-      <translation type="unfinished">Use RC_MAP_FAILSAFE to specify which channel is used to indicate RC loss via this threshold. By default this is the throttle channel. Set to a PWM value slightly above the PWM value for the channel (e.g. throttle) in a failsafe event, but below the minimum PWM value for the channel during normal operation. Note: The default value of 0 disables the feature (it is below the expected range).</translation>
+      <translation>Використовуйте RC_MAP_FAILSAFE для уточнення, який канал використовується для індикації втрати RC (пульта) через цей поріг. За замовчуванням це канал тяги. Встановіть значення PWM трохи вище значення PWM для каналу (напр. тяги) у випадку відмови, але нижче мінімального PWM значення для каналу під час нормальної роботи. Примітка: Значення за замовчуванням 0 вимикає дану функцію (це є нижче очікуваного рівня).</translation>
     </message>
   </context>
   <context>
@@ -30252,147 +30252,147 @@
     <name>/parameters/RC_MAP_THROTTLE/shortDesc</name>
     <message>
       <source>Throttle control channel mapping</source>
-      <translation type="unfinished">Throttle control channel mapping</translation>
+      <translation>Позначення каналу контролю тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/longDesc</name>
     <message>
       <source>The channel index (starting from 1 for channel 1) indicates which channel should be used for reading throttle inputs from. A value of zero indicates the switch is not assigned.</source>
-      <translation type="unfinished">The channel index (starting from 1 for channel 1) indicates which channel should be used for reading throttle inputs from. A value of zero indicates the switch is not assigned.</translation>
+      <translation>Індекс каналу (починаючи з 1 для каналу 1) вказує, який канал слід використовувати для зчитування вхідних команд тяги. Нульове значення вказує, що перемикач не призначено.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/0/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/1/description</name>
     <message>
       <source>Channel 1</source>
-      <translation type="unfinished">Channel 1</translation>
+      <translation>Канал 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/2/description</name>
     <message>
       <source>Channel 2</source>
-      <translation type="unfinished">Channel 2</translation>
+      <translation>Канал 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/3/description</name>
     <message>
       <source>Channel 3</source>
-      <translation type="unfinished">Channel 3</translation>
+      <translation>Канал 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/4/description</name>
     <message>
       <source>Channel 4</source>
-      <translation type="unfinished">Channel 4</translation>
+      <translation>Канал 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/5/description</name>
     <message>
       <source>Channel 5</source>
-      <translation type="unfinished">Channel 5</translation>
+      <translation>Канал 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/6/description</name>
     <message>
       <source>Channel 6</source>
-      <translation type="unfinished">Channel 6</translation>
+      <translation>Канал 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/7/description</name>
     <message>
       <source>Channel 7</source>
-      <translation type="unfinished">Channel 7</translation>
+      <translation>Канал 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/8/description</name>
     <message>
       <source>Channel 8</source>
-      <translation type="unfinished">Channel 8</translation>
+      <translation>Канал 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/9/description</name>
     <message>
       <source>Channel 9</source>
-      <translation type="unfinished">Channel 9</translation>
+      <translation>Канал 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/10/description</name>
     <message>
       <source>Channel 10</source>
-      <translation type="unfinished">Channel 10</translation>
+      <translation>Канал 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/11/description</name>
     <message>
       <source>Channel 11</source>
-      <translation type="unfinished">Channel 11</translation>
+      <translation>Канал 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/12/description</name>
     <message>
       <source>Channel 12</source>
-      <translation type="unfinished">Channel 12</translation>
+      <translation>Канал 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/13/description</name>
     <message>
       <source>Channel 13</source>
-      <translation type="unfinished">Channel 13</translation>
+      <translation>Канал 13</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/14/description</name>
     <message>
       <source>Channel 14</source>
-      <translation type="unfinished">Channel 14</translation>
+      <translation>Канал 14</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/15/description</name>
     <message>
       <source>Channel 15</source>
-      <translation type="unfinished">Channel 15</translation>
+      <translation>Канал 15</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/16/description</name>
     <message>
       <source>Channel 16</source>
-      <translation type="unfinished">Channel 16</translation>
+      <translation>Канал 16</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/17/description</name>
     <message>
       <source>Channel 17</source>
-      <translation type="unfinished">Channel 17</translation>
+      <translation>Канал 17</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/18/description</name>
     <message>
       <source>Channel 18</source>
-      <translation type="unfinished">Channel 18</translation>
+      <translation>Канал 18</translation>
     </message>
   </context>
   <context>
@@ -33178,7 +33178,7 @@
     <name>/parameters/GND_SPEED_THR_SC/shortDesc</name>
     <message>
       <source>Speed to throttle scaler</source>
-      <translation type="unfinished">Speed to throttle scaler</translation>
+      <translation>Швидкість для придушення множника</translation>
     </message>
   </context>
   <context>
@@ -33206,7 +33206,7 @@
     <name>/parameters/GND_SP_CTRL_MODE/longDesc</name>
     <message>
       <source>This allows the user to choose between closed loop gps speed or open loop cruise throttle speed</source>
-      <translation type="unfinished">This allows the user to choose between closed loop gps speed or open loop cruise throttle speed</translation>
+      <translation>Це дозволяє користувачу обрати між закритою петлевою швидкістю GPS або відкритою петлевою крейсерською тяговою швидкістю</translation>
     </message>
   </context>
   <context>
@@ -33227,7 +33227,7 @@
     <name>/parameters/GND_THR_CRUISE/shortDesc</name>
     <message>
       <source>Cruise throttle</source>
-      <translation type="unfinished">Cruise throttle</translation>
+      <translation>Крейсерська тяга</translation>
     </message>
   </context>
   <context>
