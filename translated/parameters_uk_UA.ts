@@ -32947,7 +32947,7 @@
     <name>/parameters/RD_MISS_SPD_GAIN/longDesc</name>
     <message>
       <source>The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.</source>
-      <translation type="unfinished">The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.</translation>
+      <translation>Швидкість переходу точки маршруту розраховується як: Швидкість_переходу= Максимальна_швидкість * (1 - нормалізований_перехід_кута * RM_MISS_VEL_GAIN) Кутом нормалізованого переходу є кут між лінійним сегментом від prev-curr WP(минула-поточна точка) і curr-next WP (поточна-наступна точка) інтерпольована з [0, 180] -&gt; [0, 1]. Більш високе значення -&gt; Більше зменшення швидкості під час переходу точок. Встановіть -1, щоб вимкнути будь-яке зменшення швидкості під час переходу точки маршруту.</translation>
     </message>
   </context>
   <context>
@@ -32961,7 +32961,8 @@
     <name>/parameters/RD_TRANS_DRV_TRN/longDesc</name>
     <message>
       <source>This threshold is used for the state machine to switch from driving to turning based on the error between the desired and actual yaw. It is also used as the threshold whether the rover should come to a smooth stop at the next waypoint. This slow down effect is active if the angle between the line segments from prevWP-currWP and currWP-nextWP is smaller then 180 - RD_TRANS_DRV_TRN.</source>
-      <translation type="unfinished">This threshold is used for the state machine to switch from driving to turning based on the error between the desired and actual yaw. It is also used as the threshold whether the rover should come to a smooth stop at the next waypoint. This slow down effect is active if the angle between the line segments from prevWP-currWP and currWP-nextWP is smaller then 180 - RD_TRANS_DRV_TRN.</translation>
+      <translation>Це є рівень який використовується для перемикання станів машини від водіння до розвантажені, базуючись на помилці між бажаним та фактичним повертанням
+вбік. Він також використовується як рівень для визначення, чи має ровер підійти до плавної зупинки в наступній точці маршруту. Цей ефект сповільнення є активним, якщо кут між сегментами лінії від prevWP-currWP (минула-поточна точка) і currWP-nextWP (поточна-наступна точка) є меншим за 180 - RD_TRANS_DRV_TRN.</translation>
     </message>
   </context>
   <context>
