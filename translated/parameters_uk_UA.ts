@@ -33025,14 +33025,14 @@
     <name>/parameters/RM_MISS_SPD_GAIN/shortDesc</name>
     <message>
       <source>Tuning parameter for the speed reduction during waypoint transition</source>
-      <translation type="unfinished">Tuning parameter for the speed reduction during waypoint transition</translation>
+      <translation>Параметри повороту для зниження швидкості при переході точки маршруту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RM_MISS_SPD_GAIN/longDesc</name>
     <message>
       <source>The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr waypoint and curr-next waypoint interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.</source>
-      <translation type="unfinished">The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr waypoint and curr-next waypoint interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.</translation>
+      <translation>Швидкість переходу точки маршруту розраховується як: Швидкість_переходу= Максимальна_швидкість * (1 - нормалізований_перехід_кута * RM_MISS_VEL_GAIN) Кутом нормалізованого переходу є кут між лінійним сегментом від prev-curr WP(минула-поточна точка) і curr-next WP (поточна-наступна точка) інтерпольована з [0, 180] -&gt; [0, 1]. Більш високе значення -&gt; Більше зменшення швидкості під час переходу точок. Встановіть -1, щоб вимкнути будь-яке зменшення швидкості під час переходу точки маршруту.</translation>
     </message>
   </context>
   <context>
@@ -33074,7 +33074,7 @@
     <name>/parameters/GND_L1_DIST/longDesc</name>
     <message>
       <source>This is the distance at which the next waypoint is activated. This should be set to about 2-4x of GND_WHEEL_BASE and not smaller than one meter (due to GPS accuracy).</source>
-      <translation type="unfinished">This is the distance at which the next waypoint is activated. This should be set to about 2-4x of GND_WHEEL_BASE and not smaller than one meter (due to GPS accuracy).</translation>
+      <translation>Це відстань, на якій активується наступна точка. Значення має бути визначено приблизно 2-4x від GND_WHEEL_BASE та не меншим за один метр (через точність GPS).</translation>
     </message>
   </context>
   <context>
