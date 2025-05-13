@@ -15454,7 +15454,7 @@
     <name>/parameters/FW_GND_SPD_MIN/longDesc</name>
     <message>
       <source>The controller will increase the commanded airspeed to maintain this minimum groundspeed to the next waypoint.</source>
-      <translation type="unfinished">The controller will increase the commanded airspeed to maintain this minimum groundspeed to the next waypoint.</translation>
+      <translation>Контролер збільшить задану швидкість польоту для підтримки цієї мінімальної швидкості відносно землі до наступної точки маршруту.</translation>
     </message>
   </context>
   <context>
@@ -23728,14 +23728,14 @@
     <name>/parameters/MIS_DIST_1WP/shortDesc</name>
     <message>
       <source>Maximal horizontal distance from Home to first waypoint</source>
-      <translation type="unfinished">Maximal horizontal distance from Home to first waypoint</translation>
+      <translation>Максимальна горизонтальна відстань від точки повернення до першої точки маршруту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MIS_DIST_1WP/longDesc</name>
     <message>
       <source>There will be a warning message if the current waypoint is more distant than MIS_DIST_1WP from Home. Has no effect on mission validity. Set a value of zero or less to disable.</source>
-      <translation type="unfinished">There will be a warning message if the current waypoint is more distant than MIS_DIST_1WP from Home. Has no effect on mission validity. Set a value of zero or less to disable.</translation>
+      <translation>Буде попередження, якщо поточна точка маршруту буде далі, ніж MIS_DIST_1WP від точки повернення. Не впливає на придатність місії. Встановіть нульове значення нуля або менше для вимкнення.</translation>
     </message>
   </context>
   <context>
@@ -23854,7 +23854,7 @@
     <name>/parameters/MIS_YAW_ERR/shortDesc</name>
     <message>
       <source>Max yaw error in degrees needed for waypoint heading acceptance</source>
-      <translation type="unfinished">Max yaw error in degrees needed for waypoint heading acceptance</translation>
+      <translation>Максимальна помилка рискання в градусах, необхідних для приймання напрямку точки маршруту</translation>
     </message>
   </context>
   <context>
