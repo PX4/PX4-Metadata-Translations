@@ -23966,7 +23966,7 @@
     <name>/parameters/NAV_FW_ALTL_RAD/longDesc</name>
     <message>
       <source>Altitude acceptance used for the last waypoint before a fixed-wing landing. This is usually smaller than the standard vertical acceptance because close to the ground higher accuracy is required.</source>
-      <translation type="unfinished">Altitude acceptance used for the last waypoint before a fixed-wing landing. This is usually smaller than the standard vertical acceptance because close to the ground higher accuracy is required.</translation>
+      <translation>Прийняття висоти використовується для останньої точки маршруту перед посадкою фіксованого крила. Ця висота зазвичай менша за стандартну висоту, прийняту вертикально, бо чим ближче до землі, тим більше потрібна висока точність.</translation>
     </message>
   </context>
   <context>
@@ -25513,7 +25513,7 @@
     <name>/parameters/MPC_XY_CRUISE/longDesc</name>
     <message>
       <source>e.g. in Missions, RTL, Goto if the waypoint does not specify differently</source>
-      <translation type="unfinished">e.g. in Missions, RTL, Goto if the waypoint does not specify differently</translation>
+      <translation>наприклад, в Місіях, RTL (повернення на точку злету), Goto (перейти на...) якщо точка маршруту не вказана інакше</translation>
     </message>
   </context>
   <context>
@@ -32695,7 +32695,7 @@
     <name>/parameters/RTL_MIN_DIST/longDesc</name>
     <message>
       <source>The return altitude will be calculated based on RTL_CONE_ANG parameter. The yaw setpoint will switch to the one defined by corresponding waypoint.</source>
-      <translation type="unfinished">The return altitude will be calculated based on RTL_CONE_ANG parameter. The yaw setpoint will switch to the one defined by corresponding waypoint.</translation>
+      <translation>Висота повернення буде розрахована базуючись на параметрі RTL_CONE_ANG. Точка рискання буде замінена на одну з визначених точок шляхом надсилання точки маршруту.</translation>
     </message>
   </context>
   <context>
@@ -32793,7 +32793,7 @@
     <name>/parameters/RTL_TYPE/values/4/description</name>
     <message>
       <source>Return to the planned mission landing, or to home via the reverse mission path, whichever is closer by counting waypoints. Do not consider rally points.</source>
-      <translation type="unfinished">Return to the planned mission landing, or to home via the reverse mission path, whichever is closer by counting waypoints. Do not consider rally points.</translation>
+      <translation>Поверніться до приземлення запланованої місії, або на точку повернення через той зворотний шлях місії, який знаходиться ближче, шляхом підрахунку точок маршруту. Не розглядайте точки згуртування.</translation>
     </message>
   </context>
   <context>
