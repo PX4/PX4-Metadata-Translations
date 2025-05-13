@@ -32870,14 +32870,14 @@
     <name>/parameters/RA_ACC_RAD_MAX/shortDesc</name>
     <message>
       <source>Maximum acceptance radius for the waypoints</source>
-      <translation type="unfinished">Maximum acceptance radius for the waypoints</translation>
+      <translation>Максимальне прийняття радіусу точок маршруту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RA_ACC_RAD_MAX/longDesc</name>
     <message>
       <source>The controller scales the acceptance radius based on the angle between the previous, current and next waypoint. Higher value -&gt; smoother trajectory at the cost of how close the rover gets to the waypoint (Set to -1 to disable corner cutting).</source>
-      <translation type="unfinished">The controller scales the acceptance radius based on the angle between the previous, current and next waypoint. Higher value -&gt; smoother trajectory at the cost of how close the rover gets to the waypoint (Set to -1 to disable corner cutting).</translation>
+      <translation>Контролер масштабує радіус прийняття оснований на куті між попередньою, поточною та наступною точкою маршруту. Чим вище значення -&gt;, тим гладкіше траєкторія, в залежності від того, наскільки близько ровер наближається до точки маршруту (Встановіть на -1, щоб вимкнути зрізання кутів).</translation>
     </message>
   </context>
   <context>
@@ -32940,7 +32940,7 @@
     <name>/parameters/RD_MISS_SPD_GAIN/shortDesc</name>
     <message>
       <source>Tuning parameter for the speed reduction during waypoint transition</source>
-      <translation type="unfinished">Tuning parameter for the speed reduction during waypoint transition</translation>
+      <translation>Параметр повороту для зниження швидкості під час переходу точки маршруту</translation>
     </message>
   </context>
   <context>
