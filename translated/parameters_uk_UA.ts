@@ -23861,7 +23861,7 @@
     <name>/parameters/MIS_YAW_TMT/shortDesc</name>
     <message>
       <source>Time in seconds we wait on reaching target heading at a waypoint if it is forced</source>
-      <translation type="unfinished">Time in seconds we wait on reaching target heading at a waypoint if it is forced</translation>
+      <translation>Час в секундах, який ми перечікуємо при досягненні цільового напрямку в точці маршруту, якщо це вимагається</translation>
     </message>
   </context>
   <context>
@@ -23882,7 +23882,7 @@
     <name>/parameters/MPC_YAW_MODE/values/0/description</name>
     <message>
       <source>towards waypoint</source>
-      <translation type="unfinished">towards waypoint</translation>
+      <translation>до точки маршруту</translation>
     </message>
   </context>
   <context>
@@ -23910,7 +23910,7 @@
     <name>/parameters/MPC_YAW_MODE/values/4/description</name>
     <message>
       <source>towards waypoint (yaw first)</source>
-      <translation type="unfinished">towards waypoint (yaw first)</translation>
+      <translation>до точки маршруту (спочатку рискання)</translation>
     </message>
   </context>
   <context>
@@ -23931,7 +23931,7 @@
     <name>/parameters/NAV_ACC_RAD/longDesc</name>
     <message>
       <source>Default acceptance radius, overridden by acceptance radius of waypoint if set. For fixed wing the npfg switch distance is used for horizontal acceptance.</source>
-      <translation type="unfinished">Default acceptance radius, overridden by acceptance radius of waypoint if set. For fixed wing the npfg switch distance is used for horizontal acceptance.</translation>
+      <translation>Прийняття радіусу за замовчуванням, який відхилено радіусом точки маршрут, якщо її встановлено. Для фіксованого крила перемикач відстані npfg використовується для горизонтального прийняття.</translation>
     </message>
   </context>
   <context>
