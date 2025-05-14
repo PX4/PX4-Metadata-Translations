@@ -9238,21 +9238,21 @@
     <name>/parameters/COM_ARM_MAG_ANG/shortDesc</name>
     <message>
       <source>Maximum magnetic field inconsistency between units that will allow arming</source>
-      <translation type="unfinished">Maximum magnetic field inconsistency between units that will allow arming</translation>
+      <translation>Максимальна розбіжність магнітного поля між пристроями IMU (інерційний вимірювальний пристрій), які дозволяють взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MAG_ANG/longDesc</name>
     <message>
       <source>Set -1 to disable the check.</source>
-      <translation type="unfinished">Set -1 to disable the check.</translation>
+      <translation>Встановіть -1 для дезактивації перевірки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MAG_STR/shortDesc</name>
     <message>
       <source>Enable mag strength preflight check</source>
-      <translation type="unfinished">Enable mag strength preflight check</translation>
+      <translation>Активувати передпольотну перевірку сили магнітометра</translation>
     </message>
   </context>
   <context>
