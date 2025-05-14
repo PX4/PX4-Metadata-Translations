@@ -9385,14 +9385,14 @@
     <name>/parameters/COM_ARM_SWISBTN/shortDesc</name>
     <message>
       <source>Arm switch is a momentary button</source>
-      <translation type="unfinished">Arm switch is a momentary button</translation>
+      <translation>Перемикач взведення є моментальною кнопкою</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_SWISBTN/longDesc</name>
     <message>
       <source>0: Arming/disarming triggers on switch transition. 1: Arming/disarming triggers when holding the momentary button down for COM_RC_ARM_HYST like the stick gesture.</source>
-      <translation type="unfinished">0: Arming/disarming triggers on switch transition. 1: Arming/disarming triggers when holding the momentary button down for COM_RC_ARM_HYST like the stick gesture.</translation>
+      <translation>0: Взведення/охолощення вмикає перемикач переходу. 1: Взведення/охолощення вмикається при натисканні та утриманні миттєвої кнопки COM_RC_ARM_HYST як рух стіком.</translation>
     </message>
   </context>
   <context>
@@ -9406,35 +9406,35 @@
     <name>/parameters/COM_ARM_SWISBTN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/shortDesc</name>
     <message>
       <source>GPS preflight check</source>
-      <translation type="unfinished">GPS preflight check</translation>
+      <translation>GPS передполітна перевірка</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/longDesc</name>
     <message>
       <source>Measures taken when a check defined by EKF2_GPS_CHECK is failing.</source>
-      <translation type="unfinished">Measures taken when a check defined by EKF2_GPS_CHECK is failing.</translation>
+      <translation>Міри прийняті коли перевірка визначена EKF2_GPS_CHECK не працює.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/0/description</name>
     <message>
       <source>Deny arming</source>
-      <translation type="unfinished">Deny arming</translation>
+      <translation>Відхилити взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
@@ -9448,7 +9448,7 @@
     <name>/parameters/COM_CPU_MAX/shortDesc</name>
     <message>
       <source>Maximum allowed CPU load to still arm</source>
-      <translation type="unfinished">Maximum allowed CPU load to still arm</translation>
+      <translation>Максимально допустиме навантаження на процесор для нерухомого взведення</translation>
     </message>
   </context>
   <context>
@@ -9462,7 +9462,7 @@
     <name>/parameters/COM_DISARM_LAND/shortDesc</name>
     <message>
       <source>Time-out for auto disarm after landing</source>
-      <translation type="unfinished">Time-out for auto disarm after landing</translation>
+      <translation>Таймаут для автоматичного охолощення після приземлення</translation>
     </message>
   </context>
   <context>
@@ -9476,7 +9476,7 @@
     <name>/parameters/COM_DISARM_MAN/shortDesc</name>
     <message>
       <source>Allow disarming via switch/stick/button on multicopters in manual thrust modes</source>
-      <translation type="unfinished">Allow disarming via switch/stick/button on multicopters in manual thrust modes</translation>
+      <translation>Дозволити охолощєння за допомогою перемикача/стіка/кнопки на мультикоптері у ручному режимі тяги</translation>
     </message>
   </context>
   <context>
@@ -9497,14 +9497,14 @@
     <name>/parameters/COM_DISARM_MAN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DISARM_PRFLT/shortDesc</name>
     <message>
       <source>Time-out for auto disarm if not taking off</source>
-      <translation type="unfinished">Time-out for auto disarm if not taking off</translation>
+      <translation>Таймаут для автоматичного охолощення, якщо немає зльоту</translation>
     </message>
   </context>
   <context>
