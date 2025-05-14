@@ -9238,7 +9238,7 @@
     <name>/parameters/COM_ARM_MAG_ANG/shortDesc</name>
     <message>
       <source>Maximum magnetic field inconsistency between units that will allow arming</source>
-      <translation>Максимальна розбіжність магнітного поля між пристроями IMU (інерційний вимірювальний пристрій), які дозволяють взведення</translation>
+      <translation>Максимальна розбіжність магнітного поля між пристроями, які дозволяють взведення</translation>
     </message>
   </context>
   <context>
@@ -9259,7 +9259,7 @@
     <name>/parameters/COM_ARM_MAG_STR/longDesc</name>
     <message>
       <source>Check if the estimator detects a strong magnetic disturbance (check enabled by EKF2_MAG_CHECK)</source>
-      <translation type="unfinished">Check if the estimator detects a strong magnetic disturbance (check enabled by EKF2_MAG_CHECK)</translation>
+      <translation>Перевірте чи оцінювач виявляє сильне магнітне коливання (перевірка вмикається EKF2_MAG_CHECK)</translation>
     </message>
   </context>
   <context>
@@ -9273,28 +9273,28 @@
     <name>/parameters/COM_ARM_MAG_STR/values/1/description</name>
     <message>
       <source>Deny arming</source>
-      <translation type="unfinished">Deny arming</translation>
+      <translation>Відхилити взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MAG_STR/values/2/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MIS_REQ/shortDesc</name>
     <message>
       <source>Require valid mission to arm</source>
-      <translation type="unfinished">Require valid mission to arm</translation>
+      <translation>Потребує придатної місії для взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MIS_REQ/longDesc</name>
     <message>
       <source>The default allows to arm the vehicle without a valid mission.</source>
-      <translation type="unfinished">The default allows to arm the vehicle without a valid mission.</translation>
+      <translation>За замовчуванням можна взвести апарат без придатної місії.</translation>
     </message>
   </context>
   <context>
@@ -9308,7 +9308,7 @@
     <name>/parameters/COM_ARM_MIS_REQ/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
