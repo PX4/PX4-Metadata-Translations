@@ -9315,7 +9315,7 @@
     <name>/parameters/COM_ARM_ODID/shortDesc</name>
     <message>
       <source>Enable Drone ID system detection and health check</source>
-      <translation type="unfinished">Enable Drone ID system detection and health check</translation>
+      <translation>Увімкнути систему детекції Drone ID та перевірку працездатності</translation>
     </message>
   </context>
   <context>
@@ -9336,21 +9336,21 @@
     <name>/parameters/COM_ARM_ODID/values/1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_ODID/values/2/description</name>
     <message>
       <source>Enforce Open Drone ID system presence</source>
-      <translation type="unfinished">Enforce Open Drone ID system presence</translation>
+      <translation>Запровадити присутність системи Open Drone ID</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_SDCARD/shortDesc</name>
     <message>
       <source>Enable FMU SD card detection check</source>
-      <translation type="unfinished">Enable FMU SD card detection check</translation>
+      <translation>Увімкнути перевірку детекції SD карти FMU (політного контролера)</translation>
     </message>
   </context>
   <context>
@@ -9371,14 +9371,14 @@
     <name>/parameters/COM_ARM_SDCARD/values/1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_SDCARD/values/2/description</name>
     <message>
       <source>Enforce SD card presence</source>
-      <translation type="unfinished">Enforce SD card presence</translation>
+      <translation>Запровадити присутність SD карти</translation>
     </message>
   </context>
   <context>
