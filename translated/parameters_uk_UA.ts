@@ -9098,28 +9098,28 @@
     <name>/parameters/COM_ARM_AUTH_MET/values/0/description</name>
     <message>
       <source>one arm</source>
-      <translation type="unfinished">one arm</translation>
+      <translation>одне взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_MET/values/1/description</name>
     <message>
       <source>two step arm</source>
-      <translation type="unfinished">two step arm</translation>
+      <translation>двокрокове взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_REQ/shortDesc</name>
     <message>
       <source>Require arm authorization to arm</source>
-      <translation type="unfinished">Require arm authorization to arm</translation>
+      <translation>Запитати авторизацію взведення для взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_REQ/longDesc</name>
     <message>
       <source>By default off. The default allows to arm the vehicle without a arm authorization.</source>
-      <translation type="unfinished">By default off. The default allows to arm the vehicle without a arm authorization.</translation>
+      <translation>За замовчуванням вимкнено. Налаштування за замовчуванням дозволяє взвести апарат без авторизації на взведення.</translation>
     </message>
   </context>
   <context>
@@ -9133,49 +9133,49 @@
     <name>/parameters/COM_ARM_AUTH_REQ/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_TO/shortDesc</name>
     <message>
       <source>Arm authorization timeout</source>
-      <translation type="unfinished">Arm authorization timeout</translation>
+      <translation>Таймаут авторизації взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_TO/longDesc</name>
     <message>
       <source>Timeout for authorizer answer. Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
-      <translation type="unfinished">Timeout for authorizer answer. Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
+      <translation>Таймаут відповіді авторизатора. Використовується, якщо авторизація запитується через COM_ARM_AUTH_REQ.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_BAT_MIN/shortDesc</name>
     <message>
       <source>Minimum battery level for arming</source>
-      <translation type="unfinished">Minimum battery level for arming</translation>
+      <translation>Мінімальний рівень заряду батареї для взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_BAT_MIN/longDesc</name>
     <message>
       <source>Threshold for battery percentage below arming is prohibited. A negative value means BAT_CRIT_THR is the threshold.</source>
-      <translation type="unfinished">Threshold for battery percentage below arming is prohibited. A negative value means BAT_CRIT_THR is the threshold.</translation>
+      <translation>Для відсотка заряду акумулятора граничне значення нижче відсотка взведення є забороненим. Від'ємне значення означає, що BAT_CRIT_THR є граничним значенням.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_CHK_ESCS/shortDesc</name>
     <message>
       <source>Enable checks on ESCs that report telemetry</source>
-      <translation type="unfinished">Enable checks on ESCs that report telemetry</translation>
+      <translation>Увімкнути перевірки ESC (електронними контролерами швидкості), які повідомляють про телеметрію</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_CHK_ESCS/longDesc</name>
     <message>
       <source>If this parameter is set, the system will check ESC's online status and failures. This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.</source>
-      <translation type="unfinished">If this parameter is set, the system will check ESC's online status and failures. This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.</translation>
+      <translation>Якщо цей параметр встановлений, система перевіряє онлайн-статус ESC (електронного контролю швидкості) та помилки. Цей параметр є специфічний для статусу репортажу ESCs. Він використовуватиметься лише при підтримці телеметрії.</translation>
     </message>
   </context>
   <context>
@@ -9189,21 +9189,21 @@
     <name>/parameters/COM_ARM_CHK_ESCS/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_HFLT_CHK/shortDesc</name>
     <message>
       <source>Enable FMU SD card hardfault detection check</source>
-      <translation type="unfinished">Enable FMU SD card hardfault detection check</translation>
+      <translation>Увімкнути детекцію перевірки апаратних збоїв SD карти FMU (політного контролера)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_HFLT_CHK/longDesc</name>
     <message>
       <source>This check detects if there are hardfault files present on the SD card. If so, and the parameter is enabled, arming is prevented.</source>
-      <translation type="unfinished">This check detects if there are hardfault files present on the SD card. If so, and the parameter is enabled, arming is prevented.</translation>
+      <translation>Ця перевірка виявляє чи є файли апаратних збоїв присутні на SD карті. Якщо так, та параметр увімкнено, то взведення призупинено.</translation>
     </message>
   </context>
   <context>
@@ -9217,21 +9217,21 @@
     <name>/parameters/COM_ARM_HFLT_CHK/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_IMU_ACC/shortDesc</name>
     <message>
       <source>Maximum accelerometer inconsistency between IMU units that will allow arming</source>
-      <translation type="unfinished">Maximum accelerometer inconsistency between IMU units that will allow arming</translation>
+      <translation>Максимальна розбіжність акселерометра між пристроями IMU (інерційний вимірювальний пристрій), які дозволяють взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_IMU_GYR/shortDesc</name>
     <message>
       <source>Maximum rate gyro inconsistency between IMU units that will allow arming</source>
-      <translation type="unfinished">Maximum rate gyro inconsistency between IMU units that will allow arming</translation>
+      <translation>Максимальний рівень розбіжності гіроскопа між пристроями IMU (інерційний вимірювальний пристрій), які дозволяють взведення</translation>
     </message>
   </context>
   <context>
