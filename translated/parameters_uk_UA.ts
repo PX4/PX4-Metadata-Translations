@@ -3281,7 +3281,7 @@
     <name>/parameters/PWM_MAIN_FUNC15/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 15. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 15. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 15. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -3652,7 +3652,7 @@
     <name>/parameters/PWM_MAIN_FUNC16/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 16. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 16. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 16. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -4023,7 +4023,7 @@
     <name>/parameters/PWM_MAIN_FUNC2/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 2. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -4394,7 +4394,7 @@
     <name>/parameters/PWM_MAIN_FUNC3/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 3. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -4765,7 +4765,7 @@
     <name>/parameters/PWM_MAIN_FUNC4/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 4. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -5136,7 +5136,7 @@
     <name>/parameters/PWM_MAIN_FUNC5/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 5. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -5507,7 +5507,7 @@
     <name>/parameters/PWM_MAIN_FUNC6/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 6. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -5878,7 +5878,7 @@
     <name>/parameters/PWM_MAIN_FUNC7/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 7. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -6249,7 +6249,7 @@
     <name>/parameters/PWM_MAIN_FUNC8/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 8. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -6620,7 +6620,7 @@
     <name>/parameters/PWM_MAIN_FUNC9/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 9. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 9. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 9. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -7383,7 +7383,7 @@
     <name>/parameters/ASPD_SCALE_APPLY/values/1/description</name>
     <message>
       <source>Apply the estimated scale after disarm</source>
-      <translation type="unfinished">Apply the estimated scale after disarm</translation>
+      <translation>Застосувати визначені масштаби після охолощення</translation>
     </message>
   </context>
   <context>
