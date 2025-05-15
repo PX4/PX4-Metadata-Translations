@@ -12171,7 +12171,7 @@
     <name>/parameters/EKF2_DECL_TYPE/longDesc</name>
     <message>
       <source>Set bits in the following positions to enable functions. 0 : Set to true to use the declination from the geo_lookup library when the GPS position becomes available, set to false to always use the EKF2_MAG_DECL value. 1 : Set to true to save the EKF2_MAG_DECL parameter to the value returned by the EKF when the vehicle disarms.</source>
-      <translation type="unfinished">Set bits in the following positions to enable functions. 0 : Set to true to use the declination from the geo_lookup library when the GPS position becomes available, set to false to always use the EKF2_MAG_DECL value. 1 : Set to true to save the EKF2_MAG_DECL parameter to the value returned by the EKF when the vehicle disarms.</translation>
+      <translation>Встановіть біти в наступні положення для увімкнення функцій. 0 : Встановіть на true для виконання відхилення від geo_lookup бібліотеки, коли положення GPS стає доступним; встановіть на false щоб завжди використовувати EKF2_MAG_DECL значення. 1 : Встановіть на true для збереження EKF2_MAG_DECL параметра до значення, яке надходить від EKF, коли апарат охолощується.</translation>
     </message>
   </context>
   <context>
@@ -12185,7 +12185,7 @@
     <name>/parameters/EKF2_DECL_TYPE/bitmask/1/description</name>
     <message>
       <source>save EKF2_MAG_DECL on disarm</source>
-      <translation type="unfinished">save EKF2_MAG_DECL on disarm</translation>
+      <translation>зберегти EKF2_MAG_DECL на охолощення</translation>
     </message>
   </context>
   <context>
@@ -13921,14 +13921,15 @@
     <name>/parameters/EV_TSK_RC_LOSS/shortDesc</name>
     <message>
       <source>RC Loss Alarm</source>
-      <translation type="unfinished">RC Loss Alarm</translation>
+      <translation>Тривога про втрату пульта(RC)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EV_TSK_RC_LOSS/longDesc</name>
     <message>
       <source>Enable/disable event task for RC Loss. When enabled, an alarm tune will be played via buzzer or ESCs, if supported. The alarm will sound after a disarm, if the vehicle was previously armed and only if the vehicle had RC signal at some point. Particularly useful for locating crashed drones without a GPS sensor.</source>
-      <translation type="unfinished">Enable/disable event task for RC Loss. When enabled, an alarm tune will be played via buzzer or ESCs, if supported. The alarm will sound after a disarm, if the vehicle was previously armed and only if the vehicle had RC signal at some point. Particularly useful for locating crashed drones without a GPS sensor.</translation>
+      <translation>Увімкнути/вимкнути завдання в залежності від події втрати пульта(RC). Якщо це увімкнено, то мелодія тривоги будильника буде відтворюватися через зумер або ESCs, якщо це підтримується. Сигналізація лунатиме після охолощення, якщо апарат був попередньо взведений і тільки, якщо апарат мав сигнал пульта(RC) в певній точці. Особливо це є корисним при пошуку впавших безпілотників без датчика GPS.
+</translation>
     </message>
   </context>
   <context>
@@ -13956,7 +13957,7 @@
     <name>/parameters/EV_TSK_STAT_DIS/longDesc</name>
     <message>
       <source>Enable/disable event task for displaying the vehicle status using arm-mounted LEDs. When enabled and if the vehicle supports it, LEDs will flash indicating various vehicle status changes. Currently PX4 has not implemented any specific status events. -</source>
-      <translation type="unfinished">Enable/disable event task for displaying the vehicle status using arm-mounted LEDs. When enabled and if the vehicle supports it, LEDs will flash indicating various vehicle status changes. Currently PX4 has not implemented any specific status events. -</translation>
+      <translation>Увімкнути/вимкнути завдання в залежності від події для відображення статусу апарату за використовуючи світлодіоди на променях. Коли це завдання увімкнено та апарат це підтримує, тоді світлодіоди будуть блимати, вказуючи на зміни статусів апарату. Наразі PX4 не запровадив жодних особливих подій залежно від статусу.</translation>
     </message>
   </context>
   <context>
