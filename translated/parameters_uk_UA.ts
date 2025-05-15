@@ -10890,7 +10890,7 @@
     <name>/parameters/COM_KILL_DISARM/shortDesc</name>
     <message>
       <source>Timeout value for disarming when kill switch is engaged</source>
-      <translation type="unfinished">Timeout value for disarming when kill switch is engaged</translation>
+      <translation>Значення тайм-ауту для охолощення коли ліквідування перемикача залучено</translation>
     </message>
   </context>
   <context>
@@ -11058,7 +11058,7 @@
     <name>/parameters/COM_MODE_ARM_CHK/shortDesc</name>
     <message>
       <source>Allow external mode registration while armed</source>
-      <translation type="unfinished">Allow external mode registration while armed</translation>
+      <translation>Дозволити зовнішній режим реєстрації коли апарат взведений</translation>
     </message>
   </context>
   <context>
@@ -11079,7 +11079,7 @@
     <name>/parameters/COM_MODE_ARM_CHK/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
@@ -11184,7 +11184,7 @@
     <name>/parameters/COM_OBL_RC_ACT/values/7/description</name>
     <message>
       <source>Disarm</source>
-      <translation type="unfinished">Disarm</translation>
+      <translation>Охолостити</translation>
     </message>
   </context>
   <context>
@@ -11352,14 +11352,14 @@
     <name>/parameters/COM_PREARM_MODE/shortDesc</name>
     <message>
       <source>Condition to enter prearmed mode</source>
-      <translation type="unfinished">Condition to enter prearmed mode</translation>
+      <translation>Умови для входу у режим перед взведенням</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_PREARM_MODE/longDesc</name>
     <message>
       <source>Condition to enter the prearmed state, an intermediate state between disarmed and armed in which non-throttling actuators are active.</source>
-      <translation type="unfinished">Condition to enter the prearmed state, an intermediate state between disarmed and armed in which non-throttling actuators are active.</translation>
+      <translation>Умови для входу у стан перед взведенням; це є посередній стан між охолощений та взведений в якому недросельні актуатори є активними.</translation>
     </message>
   </context>
   <context>
@@ -11373,14 +11373,14 @@
     <name>/parameters/COM_PREARM_MODE/values/1/description</name>
     <message>
       <source>Safety button</source>
-      <translation type="unfinished">Safety button</translation>
+      <translation>Кнопка безпеки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_PREARM_MODE/values/2/description</name>
     <message>
       <source>Always</source>
-      <translation type="unfinished">Always</translation>
+      <translation>Завжди</translation>
     </message>
   </context>
   <context>
@@ -11471,14 +11471,14 @@
     <name>/parameters/COM_RC_ARM_HYST/shortDesc</name>
     <message>
       <source>RC input arm/disarm command duration</source>
-      <translation type="unfinished">RC input arm/disarm command duration</translation>
+      <translation>Тривалість вхідної команди на взведення/охолощення від пульта (RC)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_ARM_HYST/longDesc</name>
     <message>
       <source>The default value of 1000 requires the stick to be held in the arm or disarm position for 1 second.</source>
-      <translation type="unfinished">The default value of 1000 requires the stick to be held in the arm or disarm position for 1 second.</translation>
+      <translation>Значення за замовчуванням 1000 потребує утримання стіків у положенні взведення або охолощення протягом 1 секунди.</translation>
     </message>
   </context>
   <context>
@@ -11590,7 +11590,7 @@
     <name>/parameters/COM_SPOOLUP_TIME/shortDesc</name>
     <message>
       <source>Enforced delay between arming and further navigation</source>
-      <translation type="unfinished">Enforced delay between arming and further navigation</translation>
+      <translation>Примусова затримка між взведенням та подальшою навігацією</translation>
     </message>
   </context>
   <context>
