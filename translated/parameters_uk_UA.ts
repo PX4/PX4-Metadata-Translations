@@ -11597,7 +11597,7 @@
     <name>/parameters/COM_SPOOLUP_TIME/longDesc</name>
     <message>
       <source>The minimal time from arming the motors until moving the vehicle is possible is COM_SPOOLUP_TIME seconds. Goal: - Motors and propellers spool up to idle speed before getting commanded to spin faster - Timeout for ESCs and smart batteries to successfulyy do failure checks e.g. for stuck rotors before the vehicle is off the ground</source>
-      <translation type="unfinished">The minimal time from arming the motors until moving the vehicle is possible is COM_SPOOLUP_TIME seconds. Goal: - Motors and propellers spool up to idle speed before getting commanded to spin faster - Timeout for ESCs and smart batteries to successfulyy do failure checks e.g. for stuck rotors before the vehicle is off the ground</translation>
+      <translation>Мінімальний час від взведення моторів і допоки рух апарату є можливим COM_SPOOP_TIME секунд. Мета: - Мотори і пропелери обертаються до швидкості холостого ходу перед отриманням команди обертатися швидше - Таймаут для ESCs (електронних контролерів швидкості) і розумних акумуляторів для успішної перевірки збоїв, напр. для заклиневших роторів перед тим, як апарат відірветься від землі</translation>
     </message>
   </context>
   <context>
@@ -11821,7 +11821,7 @@
     <name>/parameters/NAV_DLL_ACT/values/6/description</name>
     <message>
       <source>Disarm</source>
-      <translation type="unfinished">Disarm</translation>
+      <translation>Охолостити</translation>
     </message>
   </context>
   <context>
@@ -11870,7 +11870,7 @@
     <name>/parameters/NAV_RCL_ACT/values/6/description</name>
     <message>
       <source>Disarm</source>
-      <translation type="unfinished">Disarm</translation>
+      <translation>Охолостити</translation>
     </message>
   </context>
   <context>
