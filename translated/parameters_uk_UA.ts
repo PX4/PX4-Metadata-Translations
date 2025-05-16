@@ -15889,7 +15889,7 @@
     <name>/parameters/FD_ESCS_EN/longDesc</name>
     <message>
       <source>If enabled, failure detector will verify that all the ESCs have successfully armed when the vehicle has transitioned to the armed state. Timeout for receiving an acknowledgement from the ESCs is 0.3s, if no feedback is received the failure detector will auto disarm the vehicle.</source>
-      <translation type="unfinished">If enabled, failure detector will verify that all the ESCs have successfully armed when the vehicle has transitioned to the armed state. Timeout for receiving an acknowledgement from the ESCs is 0.3s, if no feedback is received the failure detector will auto disarm the vehicle.</translation>
+      <translation>Якщо увімкнуто, то детектор помилки перевірить, що усі ESCs (електронні контролери швидкості) успішно взведені при переході апарату до стану взведення. Тайм-аут для отримання підтвердження від ESCs становить 0,3с, якщо немає зворотного зв'язку, то детектор помилки автоматично охолостить апарат.</translation>
     </message>
   </context>
   <context>
@@ -15959,7 +15959,7 @@
     <name>/parameters/FD_FAIL_P/longDesc</name>
     <message>
       <source>Maximum pitch angle before FailureDetector triggers the attitude_failure flag. The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0), which sets outputs to their failsafe values. On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM), which disarms motors but does not set outputs to failsafe values. Setting this parameter to 0 disables the check</source>
-      <translation type="unfinished">Maximum pitch angle before FailureDetector triggers the attitude_failure flag. The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0), which sets outputs to their failsafe values. On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM), which disarms motors but does not set outputs to failsafe values. Setting this parameter to 0 disables the check</translation>
+      <translation>Максимальний кут тангажу перед тим, як ДетекторПомилок підніме прапорець помилка_висоти. Прапорець викликає закінчення польоту (якщо @CBRK_FLIGHTTERM = 0), який встановлює вихідні данні у їх безпечні значення. Після злету прапорець викликає локдаун (незважаючи на @CBRK_FLIGHTTERM), які охолощують мотори, але не встановлюють вихідні данні на безпечні значення. Встановлення цього параметра на 0 вимикає перевірку</translation>
     </message>
   </context>
   <context>
@@ -15987,7 +15987,7 @@
     <name>/parameters/FD_FAIL_R/longDesc</name>
     <message>
       <source>Maximum roll angle before FailureDetector triggers the attitude_failure flag. The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0), which sets outputs to their failsafe values. On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM), which disarms motors but does not set outputs to failsafe values. Setting this parameter to 0 disables the check</source>
-      <translation type="unfinished">Maximum roll angle before FailureDetector triggers the attitude_failure flag. The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0), which sets outputs to their failsafe values. On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM), which disarms motors but does not set outputs to failsafe values. Setting this parameter to 0 disables the check</translation>
+      <translation>Максимальний кут крену перед тим, як ДетекторПомилок підніме прапорець помилка_висоти. Прапорець викликає закінчення польоту (якщо @CBRK_FLIGHTTERM = 0), який встановлює вихідні данні у їх безпечні значення. Після злету прапорець викликає локдаун (незважаючи на @CBRK_FLIGHTTERM), які охолощують мотори, але не встановлюють вихідні данні на безпечні значення. Встановлення цього параметра на 0 вимикає перевірку</translation>
     </message>
   </context>
   <context>
@@ -19354,56 +19354,56 @@
     <name>/parameters/CA_SP0_ARM_L0/shortDesc</name>
     <message>
       <source>Arm length for swash plate servo 0</source>
-      <translation type="unfinished">Arm length for swash plate servo 0</translation>
+      <translation>Довжина променю для шайбового механізму сервопривода 0</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L0/longDesc</name>
     <message>
       <source>This is relative to the other arm lengths.</source>
-      <translation type="unfinished">This is relative to the other arm lengths.</translation>
+      <translation>Це відносно інших довжин променів.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L1/shortDesc</name>
     <message>
       <source>Arm length for swash plate servo 1</source>
-      <translation type="unfinished">Arm length for swash plate servo 1</translation>
+      <translation>Довжина променю для шайбового механізму сервопривода 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L1/longDesc</name>
     <message>
       <source>This is relative to the other arm lengths.</source>
-      <translation type="unfinished">This is relative to the other arm lengths.</translation>
+      <translation>Це відносно інших довжин променів.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L2/shortDesc</name>
     <message>
       <source>Arm length for swash plate servo 2</source>
-      <translation type="unfinished">Arm length for swash plate servo 2</translation>
+      <translation>Довжина променю для шайбового механізму сервопривода 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L2/longDesc</name>
     <message>
       <source>This is relative to the other arm lengths.</source>
-      <translation type="unfinished">This is relative to the other arm lengths.</translation>
+      <translation>Це відносно інших довжин променів.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L3/shortDesc</name>
     <message>
       <source>Arm length for swash plate servo 3</source>
-      <translation type="unfinished">Arm length for swash plate servo 3</translation>
+      <translation>Довжина променю для шайбового механізму сервопривода 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L3/longDesc</name>
     <message>
       <source>This is relative to the other arm lengths.</source>
-      <translation type="unfinished">This is relative to the other arm lengths.</translation>
+      <translation>Це відносно інших довжин променів.</translation>
     </message>
   </context>
   <context>
@@ -23645,14 +23645,14 @@
     <name>/parameters/MAN_ARM_GESTURE/shortDesc</name>
     <message>
       <source>Enable arm/disarm stick gesture</source>
-      <translation type="unfinished">Enable arm/disarm stick gesture</translation>
+      <translation>Увімкнути рух стіку взведення/охолощення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MAN_ARM_GESTURE/longDesc</name>
     <message>
       <source>This determines if moving the left stick to the lower right arms and to the lower left disarms the vehicle.</source>
-      <translation type="unfinished">This determines if moving the left stick to the lower right arms and to the lower left disarms the vehicle.</translation>
+      <translation>Це визначає, чи рух лівого стіку донизу праворуч взводить, та чи рух донизу ліворуч охолощує апарат.</translation>
     </message>
   </context>
   <context>
@@ -23666,7 +23666,7 @@
     <name>/parameters/MAN_ARM_GESTURE/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
