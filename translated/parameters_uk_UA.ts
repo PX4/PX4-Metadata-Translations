@@ -39998,7 +39998,7 @@
     <name>/parameters/IMU_GYRO_DNF_HMC/shortDesc</name>
     <message>
       <source>IMU gyro dynamic notch filter harmonics</source>
-      <translation type="unfinished">IMU gyro dynamic notch filter harmonics</translation>
+      <translation>IMU (інерційно-вимірювальний пристрій) гіроскопа динамічного рівня фільтра гармоніки</translation>
     </message>
   </context>
   <context>
