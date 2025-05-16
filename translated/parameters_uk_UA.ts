@@ -26522,7 +26522,7 @@
     <name>/parameters/OSD_SYMBOLS/bitmask/1/description</name>
     <message>
       <source>DISARMED</source>
-      <translation type="unfinished">DISARMED</translation>
+      <translation>ОХОЛОЩЕНИЙ</translation>
     </message>
   </context>
   <context>
@@ -30764,14 +30764,14 @@
     <name>/parameters/RC_ARMSWITCH_TH/shortDesc</name>
     <message>
       <source>Threshold for the arm switch</source>
-      <translation type="unfinished">Threshold for the arm switch</translation>
+      <translation>Граничне значення для перемикача взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_ARMSWITCH_TH/longDesc</name>
     <message>
       <source>0-1 indicate where in the full channel range the threshold sits 0 : min 1 : max sign indicates polarity of comparison positive : true when channel&gt;th negative : true when channel&lt;th</source>
-      <translation type="unfinished">0-1 indicate where in the full channel range the threshold sits 0 : min 1 : max sign indicates polarity of comparison positive : true when channel&gt;th negative : true when channel&lt;th</translation>
+      <translation>0-1 вказує де в повному діапазоні каналу граничне значення має 0 : min 1: max знак вказує на позитивне порівняння полярності : true коли channel&gt;th від'ємне: true коли channel&lt;th</translation>
     </message>
   </context>
   <context>
@@ -30834,7 +30834,7 @@
     <name>/parameters/RC_MAP_ARM_SW/shortDesc</name>
     <message>
       <source>Arm switch channel</source>
-      <translation type="unfinished">Arm switch channel</translation>
+      <translation>Канал перемикання взведення</translation>
     </message>
   </context>
   <context>
@@ -30848,77 +30848,77 @@
     <name>/parameters/RC_MAP_ARM_SW/values/0/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/1/description</name>
     <message>
       <source>Channel 1</source>
-      <translation type="unfinished">Channel 1</translation>
+      <translation>Канал 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/2/description</name>
     <message>
       <source>Channel 2</source>
-      <translation type="unfinished">Channel 2</translation>
+      <translation>Канал 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/3/description</name>
     <message>
       <source>Channel 3</source>
-      <translation type="unfinished">Channel 3</translation>
+      <translation>Канал 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/4/description</name>
     <message>
       <source>Channel 4</source>
-      <translation type="unfinished">Channel 4</translation>
+      <translation>Канал 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/5/description</name>
     <message>
       <source>Channel 5</source>
-      <translation type="unfinished">Channel 5</translation>
+      <translation>Канал 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/6/description</name>
     <message>
       <source>Channel 6</source>
-      <translation type="unfinished">Channel 6</translation>
+      <translation>Канал 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/7/description</name>
     <message>
       <source>Channel 7</source>
-      <translation type="unfinished">Channel 7</translation>
+      <translation>Канал 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/8/description</name>
     <message>
       <source>Channel 8</source>
-      <translation type="unfinished">Channel 8</translation>
+      <translation>Канал 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/9/description</name>
     <message>
       <source>Channel 9</source>
-      <translation type="unfinished">Channel 9</translation>
+      <translation>Канал 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/10/description</name>
     <message>
       <source>Channel 10</source>
-      <translation type="unfinished">Channel 10</translation>
+      <translation>Канал 10</translation>
     </message>
   </context>
   <context>
