@@ -30925,56 +30925,56 @@
     <name>/parameters/RC_MAP_ARM_SW/values/11/description</name>
     <message>
       <source>Channel 11</source>
-      <translation type="unfinished">Channel 11</translation>
+      <translation>Канал 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/12/description</name>
     <message>
       <source>Channel 12</source>
-      <translation type="unfinished">Channel 12</translation>
+      <translation>Канал 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/13/description</name>
     <message>
       <source>Channel 13</source>
-      <translation type="unfinished">Channel 13</translation>
+      <translation>Канал 13</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/14/description</name>
     <message>
       <source>Channel 14</source>
-      <translation type="unfinished">Channel 14</translation>
+      <translation>Канал 14</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/15/description</name>
     <message>
       <source>Channel 15</source>
-      <translation type="unfinished">Channel 15</translation>
+      <translation>Канал 15</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/16/description</name>
     <message>
       <source>Channel 16</source>
-      <translation type="unfinished">Channel 16</translation>
+      <translation>Канал 16</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/17/description</name>
     <message>
       <source>Channel 17</source>
-      <translation type="unfinished">Channel 17</translation>
+      <translation>Канал 17</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/18/description</name>
     <message>
       <source>Channel 18</source>
-      <translation type="unfinished">Channel 18</translation>
+      <translation>Канал 18</translation>
     </message>
   </context>
   <context>
