@@ -3281,7 +3281,7 @@
     <name>/parameters/PWM_MAIN_FUNC15/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 15. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 15. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 15. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -3652,7 +3652,7 @@
     <name>/parameters/PWM_MAIN_FUNC16/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 16. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 16. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 16. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -4023,7 +4023,7 @@
     <name>/parameters/PWM_MAIN_FUNC2/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 2. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 2. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -4394,7 +4394,7 @@
     <name>/parameters/PWM_MAIN_FUNC3/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 3. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 3. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -4765,7 +4765,7 @@
     <name>/parameters/PWM_MAIN_FUNC4/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 4. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 4. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -5136,7 +5136,7 @@
     <name>/parameters/PWM_MAIN_FUNC5/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 5. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 5. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -5507,7 +5507,7 @@
     <name>/parameters/PWM_MAIN_FUNC6/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 6. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 6. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -5878,7 +5878,7 @@
     <name>/parameters/PWM_MAIN_FUNC7/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 7. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 7. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -6249,7 +6249,7 @@
     <name>/parameters/PWM_MAIN_FUNC8/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 8. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 8. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -6620,7 +6620,7 @@
     <name>/parameters/PWM_MAIN_FUNC9/longDesc</name>
     <message>
       <source>Select what should be output on SIM Channel 9. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 9. The default failsafe value is set according to the selected function: - 'Min' for ConstantMin - 'Max' for ConstantMax - 'Max' for Parachute - ('Max'+'Min')/2 for Servos - 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 9. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: - 'Min' для ConstantMin - 'Max' для ConstantMax -'Max' для Парашута - ('Max'+'Min')/2 для Сервоприводів - 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -7383,7 +7383,7 @@
     <name>/parameters/ASPD_SCALE_APPLY/values/1/description</name>
     <message>
       <source>Apply the estimated scale after disarm</source>
-      <translation type="unfinished">Apply the estimated scale after disarm</translation>
+      <translation>Застосувати визначені масштаби після охолощення</translation>
     </message>
   </context>
   <context>
@@ -7649,7 +7649,7 @@
     <name>/parameters/FW_AT_APPLY/values/1/description</name>
     <message>
       <source>Apply the new gains after disarm</source>
-      <translation type="unfinished">Apply the new gains after disarm</translation>
+      <translation>Застосувати нові значення після охолощення</translation>
     </message>
   </context>
   <context>
@@ -7901,7 +7901,7 @@
     <name>/parameters/MC_AT_APPLY/values/1/description</name>
     <message>
       <source>Apply the new gains after disarm</source>
-      <translation type="unfinished">Apply the new gains after disarm</translation>
+      <translation>Застосувати нові значення після охолощення</translation>
     </message>
   </context>
   <context>
@@ -8979,14 +8979,14 @@
     <name>/parameters/CBRK_VTOLARMING/shortDesc</name>
     <message>
       <source>Circuit breaker for arming in fixed-wing mode check</source>
-      <translation type="unfinished">Circuit breaker for arming in fixed-wing mode check</translation>
+      <translation>Автоматичний вимикач для взведення в режимі перевірки фіксованого крила</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_VTOLARMING/longDesc</name>
     <message>
       <source>Setting this parameter to 159753 will enable arming in fixed-wing mode for VTOLs. WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
-      <translation type="unfinished">Setting this parameter to 159753 will enable arming in fixed-wing mode for VTOLs. WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
+      <translation>Встановлення цього параметра в 159753 увімкне взведення в режимі фіксованого крила для ВЗІПів. УВАГА: ВМИКАННЯ АВТОМАТИЧНОГО ВИМИКАЧА Є ВАШИМ ВЛАСНИМ РИЗИКОМ</translation>
     </message>
   </context>
   <context>
@@ -9042,84 +9042,84 @@
     <name>/parameters/COM_ARMABLE/shortDesc</name>
     <message>
       <source>Flag to allow arming</source>
-      <translation type="unfinished">Flag to allow arming</translation>
+      <translation>Поставити прапорець щоб дозволити взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARMABLE/longDesc</name>
     <message>
       <source>Set 0 to prevent accidental use of the vehicle e.g. for safety or maintenance reasons.</source>
-      <translation type="unfinished">Set 0 to prevent accidental use of the vehicle e.g. for safety or maintenance reasons.</translation>
+      <translation>Встановіть 0, щоб запобігти випадковому використанню апарату, наприклад, з міркувань безпеки чи обслуговування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARMABLE/values/0/description</name>
     <message>
       <source>Disallow arming</source>
-      <translation type="unfinished">Disallow arming</translation>
+      <translation>Заборонити взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARMABLE/values/1/description</name>
     <message>
       <source>Allow arming</source>
-      <translation type="unfinished">Allow arming</translation>
+      <translation>Дозволити взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_ID/shortDesc</name>
     <message>
       <source>Arm authorizer system id</source>
-      <translation type="unfinished">Arm authorizer system id</translation>
+      <translation>Взвести авторизатора id системи</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_ID/longDesc</name>
     <message>
       <source>Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
-      <translation type="unfinished">Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
+      <translation>Використовується, якщо авторизація запитується через COM_ARM_AUTH_REQ.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_MET/shortDesc</name>
     <message>
       <source>Arm authorization method</source>
-      <translation type="unfinished">Arm authorization method</translation>
+      <translation>Метод авторизації взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_MET/longDesc</name>
     <message>
       <source>Methods: - one arm: request authorization and arm when authorization is received - two step arm: 1st arm command request an authorization and 2nd arm command arm the drone if authorized Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
-      <translation type="unfinished">Methods: - one arm: request authorization and arm when authorization is received - two step arm: 1st arm command request an authorization and 2nd arm command arm the drone if authorized Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
+      <translation>Методи: - одне взведення: запит на авторизацію та взведення коли отримано авторизацію - двокрокове взведення: перша команда взведення запитує авторизацію та друга команда взведення взводить дрон, якщо авторизовано. Використовується, якщо авторизація запитується через COM_ARM_AUTH_REQ.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_MET/values/0/description</name>
     <message>
       <source>one arm</source>
-      <translation type="unfinished">one arm</translation>
+      <translation>одне взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_MET/values/1/description</name>
     <message>
       <source>two step arm</source>
-      <translation type="unfinished">two step arm</translation>
+      <translation>двокрокове взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_REQ/shortDesc</name>
     <message>
       <source>Require arm authorization to arm</source>
-      <translation type="unfinished">Require arm authorization to arm</translation>
+      <translation>Запитати авторизацію взведення для взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_REQ/longDesc</name>
     <message>
       <source>By default off. The default allows to arm the vehicle without a arm authorization.</source>
-      <translation type="unfinished">By default off. The default allows to arm the vehicle without a arm authorization.</translation>
+      <translation>За замовчуванням вимкнено. Налаштування за замовчуванням дозволяє взвести апарат без авторизації на взведення.</translation>
     </message>
   </context>
   <context>
@@ -9133,49 +9133,49 @@
     <name>/parameters/COM_ARM_AUTH_REQ/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_TO/shortDesc</name>
     <message>
       <source>Arm authorization timeout</source>
-      <translation type="unfinished">Arm authorization timeout</translation>
+      <translation>Таймаут авторизації взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_AUTH_TO/longDesc</name>
     <message>
       <source>Timeout for authorizer answer. Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
-      <translation type="unfinished">Timeout for authorizer answer. Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
+      <translation>Таймаут відповіді авторизатора. Використовується, якщо авторизація запитується через COM_ARM_AUTH_REQ.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_BAT_MIN/shortDesc</name>
     <message>
       <source>Minimum battery level for arming</source>
-      <translation type="unfinished">Minimum battery level for arming</translation>
+      <translation>Мінімальний рівень заряду батареї для взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_BAT_MIN/longDesc</name>
     <message>
       <source>Threshold for battery percentage below arming is prohibited. A negative value means BAT_CRIT_THR is the threshold.</source>
-      <translation type="unfinished">Threshold for battery percentage below arming is prohibited. A negative value means BAT_CRIT_THR is the threshold.</translation>
+      <translation>Для відсотка заряду акумулятора граничне значення нижче відсотка взведення є забороненим. Від'ємне значення означає, що BAT_CRIT_THR є граничним значенням.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_CHK_ESCS/shortDesc</name>
     <message>
       <source>Enable checks on ESCs that report telemetry</source>
-      <translation type="unfinished">Enable checks on ESCs that report telemetry</translation>
+      <translation>Увімкнути перевірки ESC (електронними контролерами швидкості), які повідомляють про телеметрію</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_CHK_ESCS/longDesc</name>
     <message>
       <source>If this parameter is set, the system will check ESC's online status and failures. This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.</source>
-      <translation type="unfinished">If this parameter is set, the system will check ESC's online status and failures. This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.</translation>
+      <translation>Якщо цей параметр встановлений, система перевіряє онлайн-статус ESC (електронного контролю швидкості) та помилки. Цей параметр є специфічний для статусу репортажу ESCs. Він використовуватиметься лише при підтримці телеметрії.</translation>
     </message>
   </context>
   <context>
@@ -9189,21 +9189,21 @@
     <name>/parameters/COM_ARM_CHK_ESCS/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_HFLT_CHK/shortDesc</name>
     <message>
       <source>Enable FMU SD card hardfault detection check</source>
-      <translation type="unfinished">Enable FMU SD card hardfault detection check</translation>
+      <translation>Увімкнути детекцію перевірки апаратних збоїв SD карти FMU (політного контролера)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_HFLT_CHK/longDesc</name>
     <message>
       <source>This check detects if there are hardfault files present on the SD card. If so, and the parameter is enabled, arming is prevented.</source>
-      <translation type="unfinished">This check detects if there are hardfault files present on the SD card. If so, and the parameter is enabled, arming is prevented.</translation>
+      <translation>Ця перевірка виявляє чи є файли апаратних збоїв присутні на SD карті. Якщо так, та параметр увімкнено, то взведення призупинено.</translation>
     </message>
   </context>
   <context>
@@ -9217,49 +9217,49 @@
     <name>/parameters/COM_ARM_HFLT_CHK/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_IMU_ACC/shortDesc</name>
     <message>
       <source>Maximum accelerometer inconsistency between IMU units that will allow arming</source>
-      <translation type="unfinished">Maximum accelerometer inconsistency between IMU units that will allow arming</translation>
+      <translation>Максимальна розбіжність акселерометра між пристроями IMU (інерційний вимірювальний пристрій), які дозволяють взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_IMU_GYR/shortDesc</name>
     <message>
       <source>Maximum rate gyro inconsistency between IMU units that will allow arming</source>
-      <translation type="unfinished">Maximum rate gyro inconsistency between IMU units that will allow arming</translation>
+      <translation>Максимальний рівень розбіжності гіроскопа між пристроями IMU (інерційний вимірювальний пристрій), які дозволяють взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MAG_ANG/shortDesc</name>
     <message>
       <source>Maximum magnetic field inconsistency between units that will allow arming</source>
-      <translation type="unfinished">Maximum magnetic field inconsistency between units that will allow arming</translation>
+      <translation>Максимальна розбіжність магнітного поля між пристроями, які дозволяють взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MAG_ANG/longDesc</name>
     <message>
       <source>Set -1 to disable the check.</source>
-      <translation type="unfinished">Set -1 to disable the check.</translation>
+      <translation>Встановіть -1 для дезактивації перевірки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MAG_STR/shortDesc</name>
     <message>
       <source>Enable mag strength preflight check</source>
-      <translation type="unfinished">Enable mag strength preflight check</translation>
+      <translation>Активувати передпольотну перевірку сили магнітометра</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MAG_STR/longDesc</name>
     <message>
       <source>Check if the estimator detects a strong magnetic disturbance (check enabled by EKF2_MAG_CHECK)</source>
-      <translation type="unfinished">Check if the estimator detects a strong magnetic disturbance (check enabled by EKF2_MAG_CHECK)</translation>
+      <translation>Перевірте чи оцінювач виявляє сильне магнітне коливання (перевірка вмикається EKF2_MAG_CHECK)</translation>
     </message>
   </context>
   <context>
@@ -9273,28 +9273,28 @@
     <name>/parameters/COM_ARM_MAG_STR/values/1/description</name>
     <message>
       <source>Deny arming</source>
-      <translation type="unfinished">Deny arming</translation>
+      <translation>Відхилити взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MAG_STR/values/2/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MIS_REQ/shortDesc</name>
     <message>
       <source>Require valid mission to arm</source>
-      <translation type="unfinished">Require valid mission to arm</translation>
+      <translation>Потребує придатної місії для взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_MIS_REQ/longDesc</name>
     <message>
       <source>The default allows to arm the vehicle without a valid mission.</source>
-      <translation type="unfinished">The default allows to arm the vehicle without a valid mission.</translation>
+      <translation>За замовчуванням можна взвести апарат без придатної місії.</translation>
     </message>
   </context>
   <context>
@@ -9308,14 +9308,14 @@
     <name>/parameters/COM_ARM_MIS_REQ/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_ODID/shortDesc</name>
     <message>
       <source>Enable Drone ID system detection and health check</source>
-      <translation type="unfinished">Enable Drone ID system detection and health check</translation>
+      <translation>Увімкнути систему детекції Drone ID та перевірку працездатності</translation>
     </message>
   </context>
   <context>
@@ -9336,21 +9336,21 @@
     <name>/parameters/COM_ARM_ODID/values/1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_ODID/values/2/description</name>
     <message>
       <source>Enforce Open Drone ID system presence</source>
-      <translation type="unfinished">Enforce Open Drone ID system presence</translation>
+      <translation>Запровадити присутність системи Open Drone ID</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_SDCARD/shortDesc</name>
     <message>
       <source>Enable FMU SD card detection check</source>
-      <translation type="unfinished">Enable FMU SD card detection check</translation>
+      <translation>Увімкнути перевірку детекції SD карти FMU (політного контролера)</translation>
     </message>
   </context>
   <context>
@@ -9371,28 +9371,28 @@
     <name>/parameters/COM_ARM_SDCARD/values/1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_SDCARD/values/2/description</name>
     <message>
       <source>Enforce SD card presence</source>
-      <translation type="unfinished">Enforce SD card presence</translation>
+      <translation>Запровадити присутність SD карти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_SWISBTN/shortDesc</name>
     <message>
       <source>Arm switch is a momentary button</source>
-      <translation type="unfinished">Arm switch is a momentary button</translation>
+      <translation>Перемикач взведення є моментальною кнопкою</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_SWISBTN/longDesc</name>
     <message>
       <source>0: Arming/disarming triggers on switch transition. 1: Arming/disarming triggers when holding the momentary button down for COM_RC_ARM_HYST like the stick gesture.</source>
-      <translation type="unfinished">0: Arming/disarming triggers on switch transition. 1: Arming/disarming triggers when holding the momentary button down for COM_RC_ARM_HYST like the stick gesture.</translation>
+      <translation>0: Взведення/охолощення вмикає перемикач переходу. 1: Взведення/охолощення вмикається при натисканні та утриманні миттєвої кнопки COM_RC_ARM_HYST як рух стіком.</translation>
     </message>
   </context>
   <context>
@@ -9406,35 +9406,35 @@
     <name>/parameters/COM_ARM_SWISBTN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/shortDesc</name>
     <message>
       <source>GPS preflight check</source>
-      <translation type="unfinished">GPS preflight check</translation>
+      <translation>GPS передполітна перевірка</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/longDesc</name>
     <message>
       <source>Measures taken when a check defined by EKF2_GPS_CHECK is failing.</source>
-      <translation type="unfinished">Measures taken when a check defined by EKF2_GPS_CHECK is failing.</translation>
+      <translation>Міри прийняті коли перевірка визначена EKF2_GPS_CHECK не працює.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/0/description</name>
     <message>
       <source>Deny arming</source>
-      <translation type="unfinished">Deny arming</translation>
+      <translation>Відхилити взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
@@ -9448,7 +9448,7 @@
     <name>/parameters/COM_CPU_MAX/shortDesc</name>
     <message>
       <source>Maximum allowed CPU load to still arm</source>
-      <translation type="unfinished">Maximum allowed CPU load to still arm</translation>
+      <translation>Максимально допустиме навантаження на процесор для нерухомого взведення</translation>
     </message>
   </context>
   <context>
@@ -9462,7 +9462,7 @@
     <name>/parameters/COM_DISARM_LAND/shortDesc</name>
     <message>
       <source>Time-out for auto disarm after landing</source>
-      <translation type="unfinished">Time-out for auto disarm after landing</translation>
+      <translation>Таймаут для автоматичного охолощення після приземлення</translation>
     </message>
   </context>
   <context>
@@ -9476,7 +9476,7 @@
     <name>/parameters/COM_DISARM_MAN/shortDesc</name>
     <message>
       <source>Allow disarming via switch/stick/button on multicopters in manual thrust modes</source>
-      <translation type="unfinished">Allow disarming via switch/stick/button on multicopters in manual thrust modes</translation>
+      <translation>Дозволити охолощєння за допомогою перемикача/стіка/кнопки на мультикоптері у ручному режимі тяги</translation>
     </message>
   </context>
   <context>
@@ -9497,21 +9497,21 @@
     <name>/parameters/COM_DISARM_MAN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DISARM_PRFLT/shortDesc</name>
     <message>
       <source>Time-out for auto disarm if not taking off</source>
-      <translation type="unfinished">Time-out for auto disarm if not taking off</translation>
+      <translation>Таймаут для автоматичного охолощення, якщо немає зльоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DISARM_PRFLT/longDesc</name>
     <message>
       <source>A non-zero, positive value specifies the time in seconds, within which the vehicle is expected to take off after arming. In case the vehicle didn't takeoff within the timeout it disarms again. A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the time in seconds, within which the vehicle is expected to take off after arming. In case the vehicle didn't takeoff within the timeout it disarms again. A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.</translation>
+      <translation>Ненульове позитивне значення визначає час у секундах, протягом якого апарат має злетіти після взведення. Якщо апарат не злетів в межах тайм-ауту, він охолощується знову. Це від'ємне значення вимикає автоматичне охолощєння, викликане передзлітним тайм-аутом.</translation>
     </message>
   </context>
   <context>
@@ -9588,7 +9588,7 @@
     <name>/parameters/COM_FLIGHT_UUID/longDesc</name>
     <message>
       <source>This number is incremented automatically after every flight on disarming in order to remember the next flight UUID. The first flight is 0.</source>
-      <translation type="unfinished">This number is incremented automatically after every flight on disarming in order to remember the next flight UUID. The first flight is 0.</translation>
+      <translation>Це число збільшується автоматично після кожного польоту при охолощенні, щоб пам'ятати UUID наступного польоту. Перший політ дорівнює 0.</translation>
     </message>
   </context>
   <context>
@@ -10743,7 +10743,7 @@
     <name>/parameters/COM_FORCE_SAFETY/longDesc</name>
     <message>
       <source>Force safety when the vehicle disarms</source>
-      <translation type="unfinished">Force safety when the vehicle disarms</translation>
+      <translation>Примусові заходи безпеки коли апарат охолощується</translation>
     </message>
   </context>
   <context>
@@ -10890,7 +10890,7 @@
     <name>/parameters/COM_KILL_DISARM/shortDesc</name>
     <message>
       <source>Timeout value for disarming when kill switch is engaged</source>
-      <translation type="unfinished">Timeout value for disarming when kill switch is engaged</translation>
+      <translation>Значення тайм-ауту для охолощення коли ліквідування перемикача залучено</translation>
     </message>
   </context>
   <context>
@@ -11058,7 +11058,7 @@
     <name>/parameters/COM_MODE_ARM_CHK/shortDesc</name>
     <message>
       <source>Allow external mode registration while armed</source>
-      <translation type="unfinished">Allow external mode registration while armed</translation>
+      <translation>Дозволити зовнішній режим реєстрації коли апарат взведений</translation>
     </message>
   </context>
   <context>
@@ -11079,7 +11079,7 @@
     <name>/parameters/COM_MODE_ARM_CHK/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
@@ -11184,7 +11184,7 @@
     <name>/parameters/COM_OBL_RC_ACT/values/7/description</name>
     <message>
       <source>Disarm</source>
-      <translation type="unfinished">Disarm</translation>
+      <translation>Охолостити</translation>
     </message>
   </context>
   <context>
@@ -11352,14 +11352,14 @@
     <name>/parameters/COM_PREARM_MODE/shortDesc</name>
     <message>
       <source>Condition to enter prearmed mode</source>
-      <translation type="unfinished">Condition to enter prearmed mode</translation>
+      <translation>Умови для входу у режим перед взведенням</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_PREARM_MODE/longDesc</name>
     <message>
       <source>Condition to enter the prearmed state, an intermediate state between disarmed and armed in which non-throttling actuators are active.</source>
-      <translation type="unfinished">Condition to enter the prearmed state, an intermediate state between disarmed and armed in which non-throttling actuators are active.</translation>
+      <translation>Умови для входу у стан перед взведенням; це є посередній стан між охолощений та взведений в якому недросельні актуатори є активними.</translation>
     </message>
   </context>
   <context>
@@ -11373,14 +11373,14 @@
     <name>/parameters/COM_PREARM_MODE/values/1/description</name>
     <message>
       <source>Safety button</source>
-      <translation type="unfinished">Safety button</translation>
+      <translation>Кнопка безпеки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_PREARM_MODE/values/2/description</name>
     <message>
       <source>Always</source>
-      <translation type="unfinished">Always</translation>
+      <translation>Завжди</translation>
     </message>
   </context>
   <context>
@@ -11471,14 +11471,14 @@
     <name>/parameters/COM_RC_ARM_HYST/shortDesc</name>
     <message>
       <source>RC input arm/disarm command duration</source>
-      <translation type="unfinished">RC input arm/disarm command duration</translation>
+      <translation>Тривалість вхідної команди на взведення/охолощення від пульта (RC)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_ARM_HYST/longDesc</name>
     <message>
       <source>The default value of 1000 requires the stick to be held in the arm or disarm position for 1 second.</source>
-      <translation type="unfinished">The default value of 1000 requires the stick to be held in the arm or disarm position for 1 second.</translation>
+      <translation>Значення за замовчуванням 1000 потребує утримання стіків у положенні взведення або охолощення протягом 1 секунди.</translation>
     </message>
   </context>
   <context>
@@ -11590,14 +11590,14 @@
     <name>/parameters/COM_SPOOLUP_TIME/shortDesc</name>
     <message>
       <source>Enforced delay between arming and further navigation</source>
-      <translation type="unfinished">Enforced delay between arming and further navigation</translation>
+      <translation>Примусова затримка між взведенням та подальшою навігацією</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_SPOOLUP_TIME/longDesc</name>
     <message>
       <source>The minimal time from arming the motors until moving the vehicle is possible is COM_SPOOLUP_TIME seconds. Goal: - Motors and propellers spool up to idle speed before getting commanded to spin faster - Timeout for ESCs and smart batteries to successfulyy do failure checks e.g. for stuck rotors before the vehicle is off the ground</source>
-      <translation type="unfinished">The minimal time from arming the motors until moving the vehicle is possible is COM_SPOOLUP_TIME seconds. Goal: - Motors and propellers spool up to idle speed before getting commanded to spin faster - Timeout for ESCs and smart batteries to successfulyy do failure checks e.g. for stuck rotors before the vehicle is off the ground</translation>
+      <translation>Мінімальний час від взведення моторів і допоки рух апарату є можливим COM_SPOOP_TIME секунд. Мета: - Мотори і пропелери обертаються до швидкості холостого ходу перед отриманням команди обертатися швидше - Таймаут для ESCs (електронних контролерів швидкості) і розумних акумуляторів для успішної перевірки збоїв, напр. для заклиневших роторів перед тим, як апарат відірветься від землі</translation>
     </message>
   </context>
   <context>
@@ -11821,7 +11821,7 @@
     <name>/parameters/NAV_DLL_ACT/values/6/description</name>
     <message>
       <source>Disarm</source>
-      <translation type="unfinished">Disarm</translation>
+      <translation>Охолостити</translation>
     </message>
   </context>
   <context>
@@ -11870,7 +11870,7 @@
     <name>/parameters/NAV_RCL_ACT/values/6/description</name>
     <message>
       <source>Disarm</source>
-      <translation type="unfinished">Disarm</translation>
+      <translation>Охолостити</translation>
     </message>
   </context>
   <context>
@@ -12171,7 +12171,7 @@
     <name>/parameters/EKF2_DECL_TYPE/longDesc</name>
     <message>
       <source>Set bits in the following positions to enable functions. 0 : Set to true to use the declination from the geo_lookup library when the GPS position becomes available, set to false to always use the EKF2_MAG_DECL value. 1 : Set to true to save the EKF2_MAG_DECL parameter to the value returned by the EKF when the vehicle disarms.</source>
-      <translation type="unfinished">Set bits in the following positions to enable functions. 0 : Set to true to use the declination from the geo_lookup library when the GPS position becomes available, set to false to always use the EKF2_MAG_DECL value. 1 : Set to true to save the EKF2_MAG_DECL parameter to the value returned by the EKF when the vehicle disarms.</translation>
+      <translation>Встановіть біти в наступні положення для увімкнення функцій. 0 : Встановіть на true для виконання відхилення від geo_lookup бібліотеки, коли положення GPS стає доступним; встановіть на false щоб завжди використовувати EKF2_MAG_DECL значення. 1 : Встановіть на true для збереження EKF2_MAG_DECL параметра до значення, яке надходить від EKF, коли апарат охолощується.</translation>
     </message>
   </context>
   <context>
@@ -12185,7 +12185,7 @@
     <name>/parameters/EKF2_DECL_TYPE/bitmask/1/description</name>
     <message>
       <source>save EKF2_MAG_DECL on disarm</source>
-      <translation type="unfinished">save EKF2_MAG_DECL on disarm</translation>
+      <translation>зберегти EKF2_MAG_DECL на охолощення</translation>
     </message>
   </context>
   <context>
@@ -13921,14 +13921,15 @@
     <name>/parameters/EV_TSK_RC_LOSS/shortDesc</name>
     <message>
       <source>RC Loss Alarm</source>
-      <translation type="unfinished">RC Loss Alarm</translation>
+      <translation>Тривога про втрату пульта(RC)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EV_TSK_RC_LOSS/longDesc</name>
     <message>
       <source>Enable/disable event task for RC Loss. When enabled, an alarm tune will be played via buzzer or ESCs, if supported. The alarm will sound after a disarm, if the vehicle was previously armed and only if the vehicle had RC signal at some point. Particularly useful for locating crashed drones without a GPS sensor.</source>
-      <translation type="unfinished">Enable/disable event task for RC Loss. When enabled, an alarm tune will be played via buzzer or ESCs, if supported. The alarm will sound after a disarm, if the vehicle was previously armed and only if the vehicle had RC signal at some point. Particularly useful for locating crashed drones without a GPS sensor.</translation>
+      <translation>Увімкнути/вимкнути завдання в залежності від події втрати пульта(RC). Якщо це увімкнено, то мелодія тривоги будильника буде відтворюватися через зумер або ESCs, якщо це підтримується. Сигналізація лунатиме після охолощення, якщо апарат був попередньо взведений і тільки, якщо апарат мав сигнал пульта(RC) в певній точці. Особливо це є корисним при пошуку впавших безпілотників без датчика GPS.
+</translation>
     </message>
   </context>
   <context>
@@ -13956,7 +13957,7 @@
     <name>/parameters/EV_TSK_STAT_DIS/longDesc</name>
     <message>
       <source>Enable/disable event task for displaying the vehicle status using arm-mounted LEDs. When enabled and if the vehicle supports it, LEDs will flash indicating various vehicle status changes. Currently PX4 has not implemented any specific status events. -</source>
-      <translation type="unfinished">Enable/disable event task for displaying the vehicle status using arm-mounted LEDs. When enabled and if the vehicle supports it, LEDs will flash indicating various vehicle status changes. Currently PX4 has not implemented any specific status events. -</translation>
+      <translation>Увімкнути/вимкнути завдання в залежності від події для відображення статусу апарату за використовуючи світлодіоди на променях. Коли це завдання увімкнено та апарат це підтримує, тоді світлодіоди будуть блимати, вказуючи на зміни статусів апарату. Наразі PX4 не запровадив жодних особливих подій залежно від статусу.</translation>
     </message>
   </context>
   <context>
@@ -14663,7 +14664,7 @@
     <name>/parameters/NPFG_SW_DST_MLT/longDesc</name>
     <message>
       <source>Multiplied by the track error boundary to determine when the aircraft switches to the next waypoint and/or path segment. Should be less than 1.</source>
-      <translation type="unfinished">Multiplied by the track error boundary to determine when the aircraft switches to the next waypoint and/or path segment. Should be less than 1.</translation>
+      <translation>Помножується на межову помилку треку, щоб визначити, коли апарат перемикається на наступну точку маршруту і/або сегмент шляху. Має бути менше 1.</translation>
     </message>
   </context>
   <context>
@@ -15454,7 +15455,7 @@
     <name>/parameters/FW_GND_SPD_MIN/longDesc</name>
     <message>
       <source>The controller will increase the commanded airspeed to maintain this minimum groundspeed to the next waypoint.</source>
-      <translation type="unfinished">The controller will increase the commanded airspeed to maintain this minimum groundspeed to the next waypoint.</translation>
+      <translation>Контролер збільшить задану швидкість польоту для підтримки цієї мінімальної швидкості відносно землі до наступної точки маршруту.</translation>
     </message>
   </context>
   <context>
@@ -15496,7 +15497,7 @@
     <name>/parameters/FW_THR_IDLE/longDesc</name>
     <message>
       <source>This is the minimum throttle while on the ground ("landed") in auto modes.</source>
-      <translation type="unfinished">This is the minimum throttle while on the ground ("landed") in auto modes.</translation>
+      <translation>Це мінімальна тяга при перебуванні на землі ("приземлений") в автоматичному режимі.</translation>
     </message>
   </context>
   <context>
@@ -15839,7 +15840,7 @@
     <name>/parameters/FD_ACT_MOT_C2T/shortDesc</name>
     <message>
       <source>Motor Failure Current/Throttle Threshold</source>
-      <translation type="unfinished">Motor Failure Current/Throttle Threshold</translation>
+      <translation>Відмова струму мотора/Поріг Дроселя</translation>
     </message>
   </context>
   <context>
@@ -15853,14 +15854,14 @@
     <name>/parameters/FD_ACT_MOT_THR/shortDesc</name>
     <message>
       <source>Motor Failure Throttle Threshold</source>
-      <translation type="unfinished">Motor Failure Throttle Threshold</translation>
+      <translation>Відмова Мотору Поріг Дроселя</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FD_ACT_MOT_THR/longDesc</name>
     <message>
       <source>Motor failure triggers only above this throttle value.</source>
-      <translation type="unfinished">Motor failure triggers only above this throttle value.</translation>
+      <translation>Відмова мотору вмикається тільки вище цього значення дроселя.</translation>
     </message>
   </context>
   <context>
@@ -15874,21 +15875,21 @@
     <name>/parameters/FD_ACT_MOT_TOUT/longDesc</name>
     <message>
       <source>Motor failure triggers only if the throttle threshold and the current to throttle threshold are violated for this time.</source>
-      <translation type="unfinished">Motor failure triggers only if the throttle threshold and the current to throttle threshold are violated for this time.</translation>
+      <translation>Відмова мотору вмикається тільки якщо поріг дроселя та струм до порогу дроселя порушені у цей час.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FD_ESCS_EN/shortDesc</name>
     <message>
       <source>Enable checks on ESCs that report their arming state</source>
-      <translation type="unfinished">Enable checks on ESCs that report their arming state</translation>
+      <translation>Увімкнути перевірки ESCs (електронних контролерів швидкості), які повідомляють про їх стан взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FD_ESCS_EN/longDesc</name>
     <message>
       <source>If enabled, failure detector will verify that all the ESCs have successfully armed when the vehicle has transitioned to the armed state. Timeout for receiving an acknowledgement from the ESCs is 0.3s, if no feedback is received the failure detector will auto disarm the vehicle.</source>
-      <translation type="unfinished">If enabled, failure detector will verify that all the ESCs have successfully armed when the vehicle has transitioned to the armed state. Timeout for receiving an acknowledgement from the ESCs is 0.3s, if no feedback is received the failure detector will auto disarm the vehicle.</translation>
+      <translation>Якщо увімкнуто, то детектор помилки перевірить, що усі ESCs (електронні контролери швидкості) успішно взведені при переході апарату до стану взведення. Тайм-аут для отримання підтвердження від ESCs становить 0,3с, якщо немає зворотного зв'язку, то детектор помилки автоматично охолостить апарат.</translation>
     </message>
   </context>
   <context>
@@ -15958,7 +15959,7 @@
     <name>/parameters/FD_FAIL_P/longDesc</name>
     <message>
       <source>Maximum pitch angle before FailureDetector triggers the attitude_failure flag. The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0), which sets outputs to their failsafe values. On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM), which disarms motors but does not set outputs to failsafe values. Setting this parameter to 0 disables the check</source>
-      <translation type="unfinished">Maximum pitch angle before FailureDetector triggers the attitude_failure flag. The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0), which sets outputs to their failsafe values. On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM), which disarms motors but does not set outputs to failsafe values. Setting this parameter to 0 disables the check</translation>
+      <translation>Максимальний кут тангажу перед тим, як ДетекторПомилок підніме прапорець помилка_висоти. Прапорець викликає закінчення польоту (якщо @CBRK_FLIGHTTERM = 0), який встановлює вихідні данні у їх безпечні значення. Після злету прапорець викликає локдаун (незважаючи на @CBRK_FLIGHTTERM), які охолощують мотори, але не встановлюють вихідні данні на безпечні значення. Встановлення цього параметра на 0 вимикає перевірку</translation>
     </message>
   </context>
   <context>
@@ -15986,7 +15987,7 @@
     <name>/parameters/FD_FAIL_R/longDesc</name>
     <message>
       <source>Maximum roll angle before FailureDetector triggers the attitude_failure flag. The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0), which sets outputs to their failsafe values. On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM), which disarms motors but does not set outputs to failsafe values. Setting this parameter to 0 disables the check</source>
-      <translation type="unfinished">Maximum roll angle before FailureDetector triggers the attitude_failure flag. The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0), which sets outputs to their failsafe values. On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM), which disarms motors but does not set outputs to failsafe values. Setting this parameter to 0 disables the check</translation>
+      <translation>Максимальний кут крену перед тим, як ДетекторПомилок підніме прапорець помилка_висоти. Прапорець викликає закінчення польоту (якщо @CBRK_FLIGHTTERM = 0), який встановлює вихідні данні у їх безпечні значення. Після злету прапорець викликає локдаун (незважаючи на @CBRK_FLIGHTTERM), які охолощують мотори, але не встановлюють вихідні данні на безпечні значення. Встановлення цього параметра на 0 вимикає перевірку</translation>
     </message>
   </context>
   <context>
@@ -16945,7 +16946,7 @@
     <name>/parameters/CA_FAILURE_MODE/values/1/description</name>
     <message>
       <source>Remove first failed motor from effectiveness</source>
-      <translation type="unfinished">Remove first failed motor from effectiveness</translation>
+      <translation>Видалити перший зламаний мотор з ефективності</translation>
     </message>
   </context>
   <context>
@@ -17043,7 +17044,7 @@
     <name>/parameters/CA_HELI_RPM_P/longDesc</name>
     <message>
       <source>Ratio between rpm error devided by 1000 to how much normalized output gets added to correct for it. motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement) / 1000</source>
-      <translation type="unfinished">Ratio between rpm error devided by 1000 to how much normalized output gets added to correct for it. motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement) / 1000</translation>
+      <translation>Співвідношення між помилкою у обертах на хвилину поділеними на 1000 до того на скільки нормалізована видача додається для його корегування. мотор_команда = дросель_крива + CA_HELI_RPM_P * (оберти на хвилину_встановлені - оберти на хвилину_вимірювання) / 1000</translation>
     </message>
   </context>
   <context>
@@ -17064,70 +17065,70 @@
     <name>/parameters/CA_HELI_THR_C0/shortDesc</name>
     <message>
       <source>Throttle curve at position 0</source>
-      <translation type="unfinished">Throttle curve at position 0</translation>
+      <translation>Крива дроселя в позиції 0</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_THR_C0/longDesc</name>
     <message>
       <source>Defines the output throttle at the interval position 0.</source>
-      <translation type="unfinished">Defines the output throttle at the interval position 0.</translation>
+      <translation>Визначає видану тягу в інтервальній позиції 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_THR_C1/shortDesc</name>
     <message>
       <source>Throttle curve at position 1</source>
-      <translation type="unfinished">Throttle curve at position 1</translation>
+      <translation>Крива дроселя в позиції 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_THR_C1/longDesc</name>
     <message>
       <source>Defines the output throttle at the interval position 1.</source>
-      <translation type="unfinished">Defines the output throttle at the interval position 1.</translation>
+      <translation>Визначає видану тягу в інтервальній позиції 1.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_THR_C2/shortDesc</name>
     <message>
       <source>Throttle curve at position 2</source>
-      <translation type="unfinished">Throttle curve at position 2</translation>
+      <translation>Крива дроселя в позиції 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_THR_C2/longDesc</name>
     <message>
       <source>Defines the output throttle at the interval position 2.</source>
-      <translation type="unfinished">Defines the output throttle at the interval position 2.</translation>
+      <translation>Визначає видану тягу в інтервальній позиції 2.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_THR_C3/shortDesc</name>
     <message>
       <source>Throttle curve at position 3</source>
-      <translation type="unfinished">Throttle curve at position 3</translation>
+      <translation>Крива дроселя в позиції 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_THR_C3/longDesc</name>
     <message>
       <source>Defines the output throttle at the interval position 3.</source>
-      <translation type="unfinished">Defines the output throttle at the interval position 3.</translation>
+      <translation>Визначає видану тягу в інтервальній позиції 3.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_THR_C4/shortDesc</name>
     <message>
       <source>Throttle curve at position 4</source>
-      <translation type="unfinished">Throttle curve at position 4</translation>
+      <translation>Крива дроселя в позиції 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_THR_C4/longDesc</name>
     <message>
       <source>Defines the output throttle at the interval position 4.</source>
-      <translation type="unfinished">Defines the output throttle at the interval position 4.</translation>
+      <translation>Визначає видану тягу в інтервальній позиції 4.</translation>
     </message>
   </context>
   <context>
@@ -17190,14 +17191,14 @@
     <name>/parameters/CA_HELI_YAW_TH_S/shortDesc</name>
     <message>
       <source>Scale for yaw compensation based on throttle</source>
-      <translation type="unfinished">Scale for yaw compensation based on throttle</translation>
+      <translation>Масштаб для компенсації рискання базованої на тязі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_HELI_YAW_TH_S/longDesc</name>
     <message>
       <source>This allows to add a proportional factor of the throttle command to the yaw command. A negative value is needed when positive thrust of the tail rotor rotates the vehicle opposite to the main rotor turn direction. tail_output += CA_HELI_YAW_TH_S * throttle</source>
-      <translation type="unfinished">This allows to add a proportional factor of the throttle command to the yaw command. A negative value is needed when positive thrust of the tail rotor rotates the vehicle opposite to the main rotor turn direction. tail_output += CA_HELI_YAW_TH_S * throttle</translation>
+      <translation>Це дозволяє додати пропорційний фактор управлінню тягою для управління рисканням. Необхідне від'ємне значення, коли позитивна тяга хвостового ротору обертає апарат на противагу напрямку головного ротора. хвостова_видача += CA_HELI_YAW_TH_S * тяга</translation>
     </message>
   </context>
   <context>
@@ -19353,56 +19354,56 @@
     <name>/parameters/CA_SP0_ARM_L0/shortDesc</name>
     <message>
       <source>Arm length for swash plate servo 0</source>
-      <translation type="unfinished">Arm length for swash plate servo 0</translation>
+      <translation>Довжина променю для шайбового механізму сервопривода 0</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L0/longDesc</name>
     <message>
       <source>This is relative to the other arm lengths.</source>
-      <translation type="unfinished">This is relative to the other arm lengths.</translation>
+      <translation>Це відносно інших довжин променів.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L1/shortDesc</name>
     <message>
       <source>Arm length for swash plate servo 1</source>
-      <translation type="unfinished">Arm length for swash plate servo 1</translation>
+      <translation>Довжина променю для шайбового механізму сервопривода 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L1/longDesc</name>
     <message>
       <source>This is relative to the other arm lengths.</source>
-      <translation type="unfinished">This is relative to the other arm lengths.</translation>
+      <translation>Це відносно інших довжин променів.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L2/shortDesc</name>
     <message>
       <source>Arm length for swash plate servo 2</source>
-      <translation type="unfinished">Arm length for swash plate servo 2</translation>
+      <translation>Довжина променю для шайбового механізму сервопривода 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L2/longDesc</name>
     <message>
       <source>This is relative to the other arm lengths.</source>
-      <translation type="unfinished">This is relative to the other arm lengths.</translation>
+      <translation>Це відносно інших довжин променів.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L3/shortDesc</name>
     <message>
       <source>Arm length for swash plate servo 3</source>
-      <translation type="unfinished">Arm length for swash plate servo 3</translation>
+      <translation>Довжина променю для шайбового механізму сервопривода 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CA_SP0_ARM_L3/longDesc</name>
     <message>
       <source>This is relative to the other arm lengths.</source>
-      <translation type="unfinished">This is relative to the other arm lengths.</translation>
+      <translation>Це відносно інших довжин променів.</translation>
     </message>
   </context>
   <context>
@@ -22664,7 +22665,7 @@
     <name>/parameters/MAV_0_RADIO_CTL/longDesc</name>
     <message>
       <source>If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</source>
-      <translation type="unfinished">If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</translation>
+      <translation>Якщо увімкнено, то MAVLink повідомлення буде придушуватися відповідно до поля `txbuf`, про яке повідомляє radio_status. Потребує радіо для відправки mavlink повідомлення RADIO_STATUS.</translation>
     </message>
   </context>
   <context>
@@ -22944,7 +22945,7 @@
     <name>/parameters/MAV_1_RADIO_CTL/longDesc</name>
     <message>
       <source>If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</source>
-      <translation type="unfinished">If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</translation>
+      <translation>Якщо увімкнено, то MAVLink повідомлення буде придушуватися відповідно до поля `txbuf`, про яке повідомляє radio_status. Потребує радіо для відправки mavlink повідомлення RADIO_STATUS.</translation>
     </message>
   </context>
   <context>
@@ -23224,7 +23225,7 @@
     <name>/parameters/MAV_2_RADIO_CTL/longDesc</name>
     <message>
       <source>If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</source>
-      <translation type="unfinished">If enabled, MAVLink messages will be throttled according to `txbuf` field reported by radio_status. Requires a radio to send the mavlink message RADIO_STATUS.</translation>
+      <translation>Якщо увімкнено, то MAVLink повідомлення буде придушуватися відповідно до поля `txbuf`, про яке повідомляє radio_status. Потребує радіо для відправки mavlink повідомлення RADIO_STATUS.</translation>
     </message>
   </context>
   <context>
@@ -23644,14 +23645,14 @@
     <name>/parameters/MAN_ARM_GESTURE/shortDesc</name>
     <message>
       <source>Enable arm/disarm stick gesture</source>
-      <translation type="unfinished">Enable arm/disarm stick gesture</translation>
+      <translation>Увімкнути рух стіку взведення/охолощення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MAN_ARM_GESTURE/longDesc</name>
     <message>
       <source>This determines if moving the left stick to the lower right arms and to the lower left disarms the vehicle.</source>
-      <translation type="unfinished">This determines if moving the left stick to the lower right arms and to the lower left disarms the vehicle.</translation>
+      <translation>Це визначає, чи рух лівого стіку донизу праворуч взводить, та чи рух донизу ліворуч охолощує апарат.</translation>
     </message>
   </context>
   <context>
@@ -23665,7 +23666,7 @@
     <name>/parameters/MAN_ARM_GESTURE/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
@@ -23728,14 +23729,14 @@
     <name>/parameters/MIS_DIST_1WP/shortDesc</name>
     <message>
       <source>Maximal horizontal distance from Home to first waypoint</source>
-      <translation type="unfinished">Maximal horizontal distance from Home to first waypoint</translation>
+      <translation>Максимальна горизонтальна відстань від точки повернення до першої точки маршруту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MIS_DIST_1WP/longDesc</name>
     <message>
       <source>There will be a warning message if the current waypoint is more distant than MIS_DIST_1WP from Home. Has no effect on mission validity. Set a value of zero or less to disable.</source>
-      <translation type="unfinished">There will be a warning message if the current waypoint is more distant than MIS_DIST_1WP from Home. Has no effect on mission validity. Set a value of zero or less to disable.</translation>
+      <translation>Буде попередження, якщо поточна точка маршруту буде далі, ніж MIS_DIST_1WP від точки повернення. Не впливає на придатність місії. Встановіть нульове значення нуля або менше для вимкнення.</translation>
     </message>
   </context>
   <context>
@@ -23854,14 +23855,14 @@
     <name>/parameters/MIS_YAW_ERR/shortDesc</name>
     <message>
       <source>Max yaw error in degrees needed for waypoint heading acceptance</source>
-      <translation type="unfinished">Max yaw error in degrees needed for waypoint heading acceptance</translation>
+      <translation>Максимальна помилка рискання в градусах, необхідних для приймання напрямку точки маршруту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MIS_YAW_TMT/shortDesc</name>
     <message>
       <source>Time in seconds we wait on reaching target heading at a waypoint if it is forced</source>
-      <translation type="unfinished">Time in seconds we wait on reaching target heading at a waypoint if it is forced</translation>
+      <translation>Час в секундах, який ми перечікуємо при досягненні цільового напрямку в точці маршруту, якщо це вимагається</translation>
     </message>
   </context>
   <context>
@@ -23882,7 +23883,7 @@
     <name>/parameters/MPC_YAW_MODE/values/0/description</name>
     <message>
       <source>towards waypoint</source>
-      <translation type="unfinished">towards waypoint</translation>
+      <translation>до точки маршруту</translation>
     </message>
   </context>
   <context>
@@ -23910,7 +23911,7 @@
     <name>/parameters/MPC_YAW_MODE/values/4/description</name>
     <message>
       <source>towards waypoint (yaw first)</source>
-      <translation type="unfinished">towards waypoint (yaw first)</translation>
+      <translation>до точки маршруту (спочатку рискання)</translation>
     </message>
   </context>
   <context>
@@ -23931,7 +23932,7 @@
     <name>/parameters/NAV_ACC_RAD/longDesc</name>
     <message>
       <source>Default acceptance radius, overridden by acceptance radius of waypoint if set. For fixed wing the npfg switch distance is used for horizontal acceptance.</source>
-      <translation type="unfinished">Default acceptance radius, overridden by acceptance radius of waypoint if set. For fixed wing the npfg switch distance is used for horizontal acceptance.</translation>
+      <translation>Прийняття радіусу за замовчуванням, який відхилено радіусом точки маршрут, якщо її встановлено. Для фіксованого крила перемикач відстані npfg використовується для горизонтального прийняття.</translation>
     </message>
   </context>
   <context>
@@ -23966,7 +23967,7 @@
     <name>/parameters/NAV_FW_ALTL_RAD/longDesc</name>
     <message>
       <source>Altitude acceptance used for the last waypoint before a fixed-wing landing. This is usually smaller than the standard vertical acceptance because close to the ground higher accuracy is required.</source>
-      <translation type="unfinished">Altitude acceptance used for the last waypoint before a fixed-wing landing. This is usually smaller than the standard vertical acceptance because close to the ground higher accuracy is required.</translation>
+      <translation>Прийняття висоти використовується для останньої точки маршруту перед посадкою фіксованого крила. Ця висота зазвичай менша за стандартну висоту, прийняту вертикально, бо чим ближче до землі, тим більше потрібна висока точність.</translation>
     </message>
   </context>
   <context>
@@ -25002,7 +25003,7 @@
     <name>/parameters/MPC_HOLD_DZ/longDesc</name>
     <message>
       <source>Does not apply to manual throttle and direct attitude piloting by stick.</source>
-      <translation type="unfinished">Does not apply to manual throttle and direct attitude piloting by stick.</translation>
+      <translation>Не застосовується для ручної тяги та прямого пілотування стану орієнтації через стіки.</translation>
     </message>
   </context>
   <context>
@@ -25387,7 +25388,7 @@
     <name>/parameters/MPC_USE_HTE/longDesc</name>
     <message>
       <source>Disable to use the fixed parameter MPC_THR_HOVER instead of the hover thrust estimate in the position controller. This parameter does not influence Stabilized mode throttle curve (see MPC_THR_CURVE).</source>
-      <translation type="unfinished">Disable to use the fixed parameter MPC_THR_HOVER instead of the hover thrust estimate in the position controller. This parameter does not influence Stabilized mode throttle curve (see MPC_THR_CURVE).</translation>
+      <translation>Вимкніть для використання фіксованих параметрів MPC_THR_HOVER замість оцінювання тяги зависання у позиції контролера. Цей параметр не впливає на режим Stabilized кривої тяги (див. MPC_THR_CURVE).</translation>
     </message>
   </context>
   <context>
@@ -25513,7 +25514,7 @@
     <name>/parameters/MPC_XY_CRUISE/longDesc</name>
     <message>
       <source>e.g. in Missions, RTL, Goto if the waypoint does not specify differently</source>
-      <translation type="unfinished">e.g. in Missions, RTL, Goto if the waypoint does not specify differently</translation>
+      <translation>наприклад, в Місіях, RTL (повернення на точку злету), Goto (перейти на...) якщо точка маршруту не вказана інакше</translation>
     </message>
   </context>
   <context>
@@ -26157,7 +26158,7 @@
     <name>/parameters/MC_BAT_SCALE_EN/longDesc</name>
     <message>
       <source>This compensates for voltage drop of the battery over time by attempting to normalize performance across the operating range of the battery. The copter should constantly behave as if it was fully charged with reduced max acceleration at lower battery percentages. i.e. if hover is at 0.5 throttle at 100% battery, it will still be 0.5 at 60% battery.</source>
-      <translation type="unfinished">This compensates for voltage drop of the battery over time by attempting to normalize performance across the operating range of the battery. The copter should constantly behave as if it was fully charged with reduced max acceleration at lower battery percentages. i.e. if hover is at 0.5 throttle at 100% battery, it will still be 0.5 at 60% battery.</translation>
+      <translation>Це компенсує зниження вольтажу батареї через певний час, намагаючись нормалізувати роботу на всьому робочому діапазоні батареї. Коптер має постійно поводитися, наче як повністю заряджений зі зменшеним максимальним прискоренням на низьких відсотках батареї, тобто якщо зависання на тязі 0.5 при 100% заряді, то це все ще буде 0.5 при 60% батареї.</translation>
     </message>
   </context>
   <context>
@@ -26521,7 +26522,7 @@
     <name>/parameters/OSD_SYMBOLS/bitmask/1/description</name>
     <message>
       <source>DISARMED</source>
-      <translation type="unfinished">DISARMED</translation>
+      <translation>ОХОЛОЩЕНИЙ</translation>
     </message>
   </context>
   <context>
@@ -28383,7 +28384,7 @@
     <name>/parameters/RC_FAILS_THR/longDesc</name>
     <message>
       <source>Use RC_MAP_FAILSAFE to specify which channel is used to indicate RC loss via this threshold. By default this is the throttle channel. Set to a PWM value slightly above the PWM value for the channel (e.g. throttle) in a failsafe event, but below the minimum PWM value for the channel during normal operation. Note: The default value of 0 disables the feature (it is below the expected range).</source>
-      <translation type="unfinished">Use RC_MAP_FAILSAFE to specify which channel is used to indicate RC loss via this threshold. By default this is the throttle channel. Set to a PWM value slightly above the PWM value for the channel (e.g. throttle) in a failsafe event, but below the minimum PWM value for the channel during normal operation. Note: The default value of 0 disables the feature (it is below the expected range).</translation>
+      <translation>Використовуйте RC_MAP_FAILSAFE для уточнення, який канал використовується для індикації втрати RC (пульта) через цей поріг. За замовчуванням це канал тяги. Встановіть значення PWM трохи вище значення PWM для каналу (напр. тяги) у випадку відмови, але нижче мінімального PWM значення для каналу під час нормальної роботи. Примітка: Значення за замовчуванням 0 вимикає дану функцію (це є нижче очікуваного рівня).</translation>
     </message>
   </context>
   <context>
@@ -30252,147 +30253,147 @@
     <name>/parameters/RC_MAP_THROTTLE/shortDesc</name>
     <message>
       <source>Throttle control channel mapping</source>
-      <translation type="unfinished">Throttle control channel mapping</translation>
+      <translation>Позначення каналу контролю тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/longDesc</name>
     <message>
       <source>The channel index (starting from 1 for channel 1) indicates which channel should be used for reading throttle inputs from. A value of zero indicates the switch is not assigned.</source>
-      <translation type="unfinished">The channel index (starting from 1 for channel 1) indicates which channel should be used for reading throttle inputs from. A value of zero indicates the switch is not assigned.</translation>
+      <translation>Індекс каналу (починаючи з 1 для каналу 1) вказує, який канал слід використовувати для зчитування вхідних команд тяги. Нульове значення вказує, що перемикач не призначено.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/0/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/1/description</name>
     <message>
       <source>Channel 1</source>
-      <translation type="unfinished">Channel 1</translation>
+      <translation>Канал 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/2/description</name>
     <message>
       <source>Channel 2</source>
-      <translation type="unfinished">Channel 2</translation>
+      <translation>Канал 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/3/description</name>
     <message>
       <source>Channel 3</source>
-      <translation type="unfinished">Channel 3</translation>
+      <translation>Канал 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/4/description</name>
     <message>
       <source>Channel 4</source>
-      <translation type="unfinished">Channel 4</translation>
+      <translation>Канал 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/5/description</name>
     <message>
       <source>Channel 5</source>
-      <translation type="unfinished">Channel 5</translation>
+      <translation>Канал 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/6/description</name>
     <message>
       <source>Channel 6</source>
-      <translation type="unfinished">Channel 6</translation>
+      <translation>Канал 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/7/description</name>
     <message>
       <source>Channel 7</source>
-      <translation type="unfinished">Channel 7</translation>
+      <translation>Канал 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/8/description</name>
     <message>
       <source>Channel 8</source>
-      <translation type="unfinished">Channel 8</translation>
+      <translation>Канал 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/9/description</name>
     <message>
       <source>Channel 9</source>
-      <translation type="unfinished">Channel 9</translation>
+      <translation>Канал 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/10/description</name>
     <message>
       <source>Channel 10</source>
-      <translation type="unfinished">Channel 10</translation>
+      <translation>Канал 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/11/description</name>
     <message>
       <source>Channel 11</source>
-      <translation type="unfinished">Channel 11</translation>
+      <translation>Канал 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/12/description</name>
     <message>
       <source>Channel 12</source>
-      <translation type="unfinished">Channel 12</translation>
+      <translation>Канал 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/13/description</name>
     <message>
       <source>Channel 13</source>
-      <translation type="unfinished">Channel 13</translation>
+      <translation>Канал 13</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/14/description</name>
     <message>
       <source>Channel 14</source>
-      <translation type="unfinished">Channel 14</translation>
+      <translation>Канал 14</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/15/description</name>
     <message>
       <source>Channel 15</source>
-      <translation type="unfinished">Channel 15</translation>
+      <translation>Канал 15</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/16/description</name>
     <message>
       <source>Channel 16</source>
-      <translation type="unfinished">Channel 16</translation>
+      <translation>Канал 16</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/17/description</name>
     <message>
       <source>Channel 17</source>
-      <translation type="unfinished">Channel 17</translation>
+      <translation>Канал 17</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_THROTTLE/values/18/description</name>
     <message>
       <source>Channel 18</source>
-      <translation type="unfinished">Channel 18</translation>
+      <translation>Канал 18</translation>
     </message>
   </context>
   <context>
@@ -30763,14 +30764,14 @@
     <name>/parameters/RC_ARMSWITCH_TH/shortDesc</name>
     <message>
       <source>Threshold for the arm switch</source>
-      <translation type="unfinished">Threshold for the arm switch</translation>
+      <translation>Граничне значення для перемикача взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_ARMSWITCH_TH/longDesc</name>
     <message>
       <source>0-1 indicate where in the full channel range the threshold sits 0 : min 1 : max sign indicates polarity of comparison positive : true when channel&gt;th negative : true when channel&lt;th</source>
-      <translation type="unfinished">0-1 indicate where in the full channel range the threshold sits 0 : min 1 : max sign indicates polarity of comparison positive : true when channel&gt;th negative : true when channel&lt;th</translation>
+      <translation>0-1 вказує де в повному діапазоні каналу граничне значення має 0 : min 1: max знак вказує на позитивне порівняння полярності : true коли channel&gt;th від'ємне: true коли channel&lt;th</translation>
     </message>
   </context>
   <context>
@@ -30833,7 +30834,7 @@
     <name>/parameters/RC_MAP_ARM_SW/shortDesc</name>
     <message>
       <source>Arm switch channel</source>
-      <translation type="unfinished">Arm switch channel</translation>
+      <translation>Канал перемикання взведення</translation>
     </message>
   </context>
   <context>
@@ -30847,133 +30848,133 @@
     <name>/parameters/RC_MAP_ARM_SW/values/0/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/1/description</name>
     <message>
       <source>Channel 1</source>
-      <translation type="unfinished">Channel 1</translation>
+      <translation>Канал 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/2/description</name>
     <message>
       <source>Channel 2</source>
-      <translation type="unfinished">Channel 2</translation>
+      <translation>Канал 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/3/description</name>
     <message>
       <source>Channel 3</source>
-      <translation type="unfinished">Channel 3</translation>
+      <translation>Канал 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/4/description</name>
     <message>
       <source>Channel 4</source>
-      <translation type="unfinished">Channel 4</translation>
+      <translation>Канал 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/5/description</name>
     <message>
       <source>Channel 5</source>
-      <translation type="unfinished">Channel 5</translation>
+      <translation>Канал 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/6/description</name>
     <message>
       <source>Channel 6</source>
-      <translation type="unfinished">Channel 6</translation>
+      <translation>Канал 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/7/description</name>
     <message>
       <source>Channel 7</source>
-      <translation type="unfinished">Channel 7</translation>
+      <translation>Канал 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/8/description</name>
     <message>
       <source>Channel 8</source>
-      <translation type="unfinished">Channel 8</translation>
+      <translation>Канал 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/9/description</name>
     <message>
       <source>Channel 9</source>
-      <translation type="unfinished">Channel 9</translation>
+      <translation>Канал 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/10/description</name>
     <message>
       <source>Channel 10</source>
-      <translation type="unfinished">Channel 10</translation>
+      <translation>Канал 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/11/description</name>
     <message>
       <source>Channel 11</source>
-      <translation type="unfinished">Channel 11</translation>
+      <translation>Канал 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/12/description</name>
     <message>
       <source>Channel 12</source>
-      <translation type="unfinished">Channel 12</translation>
+      <translation>Канал 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/13/description</name>
     <message>
       <source>Channel 13</source>
-      <translation type="unfinished">Channel 13</translation>
+      <translation>Канал 13</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/14/description</name>
     <message>
       <source>Channel 14</source>
-      <translation type="unfinished">Channel 14</translation>
+      <translation>Канал 14</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/15/description</name>
     <message>
       <source>Channel 15</source>
-      <translation type="unfinished">Channel 15</translation>
+      <translation>Канал 15</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/16/description</name>
     <message>
       <source>Channel 16</source>
-      <translation type="unfinished">Channel 16</translation>
+      <translation>Канал 16</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/17/description</name>
     <message>
       <source>Channel 17</source>
-      <translation type="unfinished">Channel 17</translation>
+      <translation>Канал 17</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RC_MAP_ARM_SW/values/18/description</name>
     <message>
       <source>Channel 18</source>
-      <translation type="unfinished">Channel 18</translation>
+      <translation>Канал 18</translation>
     </message>
   </context>
   <context>
@@ -32695,7 +32696,7 @@
     <name>/parameters/RTL_MIN_DIST/longDesc</name>
     <message>
       <source>The return altitude will be calculated based on RTL_CONE_ANG parameter. The yaw setpoint will switch to the one defined by corresponding waypoint.</source>
-      <translation type="unfinished">The return altitude will be calculated based on RTL_CONE_ANG parameter. The yaw setpoint will switch to the one defined by corresponding waypoint.</translation>
+      <translation>Висота повернення буде розрахована базуючись на параметрі RTL_CONE_ANG. Точка рискання буде замінена на одну з визначених точок шляхом надсилання точки маршруту.</translation>
     </message>
   </context>
   <context>
@@ -32793,7 +32794,7 @@
     <name>/parameters/RTL_TYPE/values/4/description</name>
     <message>
       <source>Return to the planned mission landing, or to home via the reverse mission path, whichever is closer by counting waypoints. Do not consider rally points.</source>
-      <translation type="unfinished">Return to the planned mission landing, or to home via the reverse mission path, whichever is closer by counting waypoints. Do not consider rally points.</translation>
+      <translation>Поверніться до приземлення запланованої місії, або на точку повернення через той зворотний шлях місії, який знаходиться ближче, шляхом підрахунку точок маршруту. Не розглядайте точки згуртування.</translation>
     </message>
   </context>
   <context>
@@ -32870,14 +32871,14 @@
     <name>/parameters/RA_ACC_RAD_MAX/shortDesc</name>
     <message>
       <source>Maximum acceptance radius for the waypoints</source>
-      <translation type="unfinished">Maximum acceptance radius for the waypoints</translation>
+      <translation>Максимальне прийняття радіусу точок маршруту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RA_ACC_RAD_MAX/longDesc</name>
     <message>
       <source>The controller scales the acceptance radius based on the angle between the previous, current and next waypoint. Higher value -&gt; smoother trajectory at the cost of how close the rover gets to the waypoint (Set to -1 to disable corner cutting).</source>
-      <translation type="unfinished">The controller scales the acceptance radius based on the angle between the previous, current and next waypoint. Higher value -&gt; smoother trajectory at the cost of how close the rover gets to the waypoint (Set to -1 to disable corner cutting).</translation>
+      <translation>Контролер масштабує радіус прийняття оснований на куті між попередньою, поточною та наступною точкою маршруту. Чим вище значення -&gt;, тим гладкіше траєкторія, в залежності від того, наскільки близько ровер наближається до точки маршруту (Встановіть на -1, щоб вимкнути зрізання кутів).</translation>
     </message>
   </context>
   <context>
@@ -32940,14 +32941,14 @@
     <name>/parameters/RD_MISS_SPD_GAIN/shortDesc</name>
     <message>
       <source>Tuning parameter for the speed reduction during waypoint transition</source>
-      <translation type="unfinished">Tuning parameter for the speed reduction during waypoint transition</translation>
+      <translation>Параметр повороту для зниження швидкості під час переходу точки маршруту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RD_MISS_SPD_GAIN/longDesc</name>
     <message>
       <source>The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.</source>
-      <translation type="unfinished">The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr WP and curr-next WP interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.</translation>
+      <translation>Швидкість переходу точки маршруту розраховується як: Швидкість_переходу= Максимальна_швидкість * (1 - нормалізований_перехід_кута * RM_MISS_VEL_GAIN) Кутом нормалізованого переходу є кут між лінійним сегментом від prev-curr WP(минула-поточна точка) і curr-next WP (поточна-наступна точка) інтерпольована з [0, 180] -&gt; [0, 1]. Більш високе значення -&gt; Більше зменшення швидкості під час переходу точок. Встановіть -1, щоб вимкнути будь-яке зменшення швидкості під час переходу точки маршруту.</translation>
     </message>
   </context>
   <context>
@@ -32961,7 +32962,8 @@
     <name>/parameters/RD_TRANS_DRV_TRN/longDesc</name>
     <message>
       <source>This threshold is used for the state machine to switch from driving to turning based on the error between the desired and actual yaw. It is also used as the threshold whether the rover should come to a smooth stop at the next waypoint. This slow down effect is active if the angle between the line segments from prevWP-currWP and currWP-nextWP is smaller then 180 - RD_TRANS_DRV_TRN.</source>
-      <translation type="unfinished">This threshold is used for the state machine to switch from driving to turning based on the error between the desired and actual yaw. It is also used as the threshold whether the rover should come to a smooth stop at the next waypoint. This slow down effect is active if the angle between the line segments from prevWP-currWP and currWP-nextWP is smaller then 180 - RD_TRANS_DRV_TRN.</translation>
+      <translation>Це є рівень який використовується для перемикання станів машини від водіння до розвантажені, базуючись на помилці між бажаним та фактичним повертанням
+вбік. Він також використовується як рівень для визначення, чи має ровер підійти до плавної зупинки в наступній точці маршруту. Цей ефект сповільнення є активним, якщо кут між сегментами лінії від prevWP-currWP (минула-поточна точка) і currWP-nextWP (поточна-наступна точка) є меншим за 180 - RD_TRANS_DRV_TRN.</translation>
     </message>
   </context>
   <context>
@@ -33024,14 +33026,14 @@
     <name>/parameters/RM_MISS_SPD_GAIN/shortDesc</name>
     <message>
       <source>Tuning parameter for the speed reduction during waypoint transition</source>
-      <translation type="unfinished">Tuning parameter for the speed reduction during waypoint transition</translation>
+      <translation>Параметри повороту для зниження швидкості при переході точки маршруту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/RM_MISS_SPD_GAIN/longDesc</name>
     <message>
       <source>The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr waypoint and curr-next waypoint interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.</source>
-      <translation type="unfinished">The waypoint transition speed is calculated as: Transition_speed = Maximum_speed * (1 - normalized_transition_angle * RM_MISS_VEL_GAIN) The normalized transition angle is the angle between the line segment from prev-curr waypoint and curr-next waypoint interpolated from [0, 180] -&gt; [0, 1]. Higher value -&gt; More speed reduction during waypoint transitions. Set to -1 to disable any speed reduction during waypoint transition.</translation>
+      <translation>Швидкість переходу точки маршруту розраховується як: Швидкість_переходу= Максимальна_швидкість * (1 - нормалізований_перехід_кута * RM_MISS_VEL_GAIN) Кутом нормалізованого переходу є кут між лінійним сегментом від prev-curr WP(минула-поточна точка) і curr-next WP (поточна-наступна точка) інтерпольована з [0, 180] -&gt; [0, 1]. Більш високе значення -&gt; Більше зменшення швидкості під час переходу точок. Встановіть -1, щоб вимкнути будь-яке зменшення швидкості під час переходу точки маршруту.</translation>
     </message>
   </context>
   <context>
@@ -33073,7 +33075,7 @@
     <name>/parameters/GND_L1_DIST/longDesc</name>
     <message>
       <source>This is the distance at which the next waypoint is activated. This should be set to about 2-4x of GND_WHEEL_BASE and not smaller than one meter (due to GPS accuracy).</source>
-      <translation type="unfinished">This is the distance at which the next waypoint is activated. This should be set to about 2-4x of GND_WHEEL_BASE and not smaller than one meter (due to GPS accuracy).</translation>
+      <translation>Це відстань, на якій активується наступна точка. Значення має бути визначено приблизно 2-4x від GND_WHEEL_BASE та не меншим за один метр (через точність GPS).</translation>
     </message>
   </context>
   <context>
@@ -33178,7 +33180,7 @@
     <name>/parameters/GND_SPEED_THR_SC/shortDesc</name>
     <message>
       <source>Speed to throttle scaler</source>
-      <translation type="unfinished">Speed to throttle scaler</translation>
+      <translation>Швидкість для придушення множника</translation>
     </message>
   </context>
   <context>
@@ -33206,7 +33208,7 @@
     <name>/parameters/GND_SP_CTRL_MODE/longDesc</name>
     <message>
       <source>This allows the user to choose between closed loop gps speed or open loop cruise throttle speed</source>
-      <translation type="unfinished">This allows the user to choose between closed loop gps speed or open loop cruise throttle speed</translation>
+      <translation>Це дозволяє користувачу обрати між закритою петлевою швидкістю GPS або відкритою петлевою крейсерською тяговою швидкістю</translation>
     </message>
   </context>
   <context>
@@ -33227,42 +33229,42 @@
     <name>/parameters/GND_THR_CRUISE/shortDesc</name>
     <message>
       <source>Cruise throttle</source>
-      <translation type="unfinished">Cruise throttle</translation>
+      <translation>Крейсерська тяга</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GND_THR_CRUISE/longDesc</name>
     <message>
       <source>This is the throttle setting required to achieve the desired cruise speed. 10% is ok for a traxxas stampede vxl with ESC set to training mode</source>
-      <translation type="unfinished">This is the throttle setting required to achieve the desired cruise speed. 10% is ok for a traxxas stampede vxl with ESC set to training mode</translation>
+      <translation>Це є налаштування тяги необхідні для досягнення бажаної крейсерської швидкості. 10% є добре для traxxas stampede vxl з ESC (електронним контролем швидкості) встановленому у тренувальному режимі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GND_THR_MAX/shortDesc</name>
     <message>
       <source>Throttle limit max</source>
-      <translation type="unfinished">Throttle limit max</translation>
+      <translation>Максимальний ліміт дроселя</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GND_THR_MAX/longDesc</name>
     <message>
       <source>This is the maximum throttle % that can be used by the controller. For a Traxxas stampede vxl with the ESC set to training, 30 % is enough</source>
-      <translation type="unfinished">This is the maximum throttle % that can be used by the controller. For a Traxxas stampede vxl with the ESC set to training, 30 % is enough</translation>
+      <translation>Це максимальний % дроселя, який може бути використаний датчиком. Для Traxxas stampede vxl з ESC (електронним контролем швидкості) встановленому на трейнінг, 30 % достатньо</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GND_THR_MIN/shortDesc</name>
     <message>
       <source>Throttle limit min</source>
-      <translation type="unfinished">Throttle limit min</translation>
+      <translation>Мінімальний ліміт дроселя</translation>
     </message>
   </context>
   <context>
     <name>/parameters/GND_THR_MIN/longDesc</name>
     <message>
       <source>This is the minimum throttle % that can be used by the controller. Set to 0 for rover</source>
-      <translation type="unfinished">This is the minimum throttle % that can be used by the controller. Set to 0 for rover</translation>
+      <translation>Це мінімальний % дроселя, який може бути використаний контролером. Встановити в 0 для ровера</translation>
     </message>
   </context>
   <context>
@@ -33409,7 +33411,7 @@
     <name>/parameters/RO_MAX_THR_SPEED/shortDesc</name>
     <message>
       <source>Speed the rover drives at maximum throttle</source>
-      <translation type="unfinished">Speed the rover drives at maximum throttle</translation>
+      <translation>Швидкість, з якою їде ровер при максимальному дроселі</translation>
     </message>
   </context>
   <context>
@@ -33493,7 +33495,7 @@
     <name>/parameters/RWTO_MAX_THR/shortDesc</name>
     <message>
       <source>Max throttle during runway takeoff</source>
-      <translation type="unfinished">Max throttle during runway takeoff</translation>
+      <translation>Максимальна тяга під час злету зі злітної смуги</translation>
     </message>
   </context>
   <context>
@@ -33549,7 +33551,7 @@
     <name>/parameters/RWTO_RAMP_TIME/shortDesc</name>
     <message>
       <source>Throttle ramp up time for runway takeoff</source>
-      <translation type="unfinished">Throttle ramp up time for runway takeoff</translation>
+      <translation>Час наростання тяги для злету зі злітної смуги</translation>
     </message>
   </context>
   <context>
@@ -33640,7 +33642,7 @@
     <name>/parameters/SDLOG_BOOT_BAT/longDesc</name>
     <message>
       <source>When enabled, logging will not start from boot if battery power is not detected (e.g. powered via USB on a test bench). This prevents extraneous flight logs from being created during bench testing. Note that this only applies to log-from-boot modes. This has no effect on arm-based modes.</source>
-      <translation type="unfinished">When enabled, logging will not start from boot if battery power is not detected (e.g. powered via USB on a test bench). This prevents extraneous flight logs from being created during bench testing. Note that this only applies to log-from-boot modes. This has no effect on arm-based modes.</translation>
+      <translation>Коли ця опція включена, ведення записів не почнеться з завантаження, якщо заряду акумулятора не виявлено (напр. заживлений через USB на тестовому стенді). Це унеможливлює створення сторонніх записів журналу польотів під час стендових тестуваннь. Зверніть увагу, що це стосується тільки режимів 'журнал від завантаження. Це не впливає на режими на основі взведення.</translation>
     </message>
   </context>
   <context>
@@ -33745,7 +33747,7 @@
     <name>/parameters/SDLOG_MODE/longDesc</name>
     <message>
       <source>Determines when to start and stop logging. By default, logging is started when arming the system, and stopped when disarming.</source>
-      <translation type="unfinished">Determines when to start and stop logging. By default, logging is started when arming the system, and stopped when disarming.</translation>
+      <translation>Визначає коли почнеться та зупиниться журналювання. За замовчуванням журналювання починається при взведенні системи та зупиняється при охолощенні.</translation>
     </message>
   </context>
   <context>
@@ -33759,14 +33761,14 @@
     <name>/parameters/SDLOG_MODE/values/0/description</name>
     <message>
       <source>when armed until disarm (default)</source>
-      <translation type="unfinished">when armed until disarm (default)</translation>
+      <translation>коли взведено і до охолощення (за замовчуванням)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/SDLOG_MODE/values/1/description</name>
     <message>
       <source>from boot until disarm</source>
-      <translation type="unfinished">from boot until disarm</translation>
+      <translation>від завантаження і до охолощення</translation>
     </message>
   </context>
   <context>
@@ -33787,7 +33789,7 @@
     <name>/parameters/SDLOG_MODE/values/4/description</name>
     <message>
       <source>from 1st armed until shutdown</source>
-      <translation type="unfinished">from 1st armed until shutdown</translation>
+      <translation>від першого взведеного і до закриття</translation>
     </message>
   </context>
   <context>
@@ -37973,14 +37975,14 @@
     <name>/parameters/CAL_MAG0_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 0 X Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 0 X Axis throttle compensation</translation>
+      <translation>Магнітометр 0 вісі X компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG0_XCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між X компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38022,14 +38024,14 @@
     <name>/parameters/CAL_MAG0_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 0 Y Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 0 Y Axis throttle compensation</translation>
+      <translation>Магнітометр 0 вісі Y компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG0_YCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Y компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38057,14 +38059,14 @@
     <name>/parameters/CAL_MAG0_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 0 Z Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 0 Z Axis throttle compensation</translation>
+      <translation>Магнітометр 0 вісі Z компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG0_ZCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Z компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38505,14 +38507,14 @@
     <name>/parameters/CAL_MAG1_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 1 X Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 1 X Axis throttle compensation</translation>
+      <translation>Магнітометр 1 вісі X компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG1_XCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між X компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38554,14 +38556,14 @@
     <name>/parameters/CAL_MAG1_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 1 Y Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 1 Y Axis throttle compensation</translation>
+      <translation>Магнітометр 1 вісі Y компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG1_YCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Y компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -38589,14 +38591,14 @@
     <name>/parameters/CAL_MAG1_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 1 Z Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 1 Z Axis throttle compensation</translation>
+      <translation>Магнітометр 1 вісі Z компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG1_ZCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Z компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39037,14 +39039,14 @@
     <name>/parameters/CAL_MAG2_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 2 X Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 2 X Axis throttle compensation</translation>
+      <translation>Магнітометр 2 вісі X компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG2_XCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між X компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39086,14 +39088,14 @@
     <name>/parameters/CAL_MAG2_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 2 Y Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 2 Y Axis throttle compensation</translation>
+      <translation>Магнітометр 2 вісі Y компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG2_YCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Y компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39121,14 +39123,14 @@
     <name>/parameters/CAL_MAG2_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 2 Z Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 2 Z Axis throttle compensation</translation>
+      <translation>Магнітометр 2 вісі Z компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG2_ZCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Z компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39569,14 +39571,14 @@
     <name>/parameters/CAL_MAG3_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 3 X Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 3 X Axis throttle compensation</translation>
+      <translation>Магнітометр 3 вісі X компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG3_XCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between X component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між X компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39618,14 +39620,14 @@
     <name>/parameters/CAL_MAG3_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 3 Y Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 3 Y Axis throttle compensation</translation>
+      <translation>Магнітометр 3 вісі Y компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG3_YCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Y component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Y компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39653,14 +39655,14 @@
     <name>/parameters/CAL_MAG3_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 3 Z Axis throttle compensation</source>
-      <translation type="unfinished">Magnetometer 3 Z Axis throttle compensation</translation>
+      <translation>Магнітометр 3 вісі Z компенсація тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CAL_MAG3_ZCOMP/longDesc</name>
     <message>
       <source>Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</source>
-      <translation type="unfinished">Coefficient describing linear relationship between Z component of magnetometer in body frame axis and either current or throttle depending on value of CAL_MAG_COMP_TYP. Unit for throttle-based compensation is [G] and for current-based compensation [G/kA]</translation>
+      <translation>Коефіцієнт, що описує пряму залежність між Z компонентом магнетометру у вісі рами, та або струму або дроселя в залежності від значення CAL_MAG_COMP_TYP. Одиниця для компенсації базованої на тязі є [G] та для компенсації базованої на струмі [G/kA]</translation>
     </message>
   </context>
   <context>
@@ -39702,7 +39704,7 @@
     <name>/parameters/CAL_MAG_COMP_TYP/values/1/description</name>
     <message>
       <source>Throttle-based compensation</source>
-      <translation type="unfinished">Throttle-based compensation</translation>
+      <translation>Компенсаці базована на тязі</translation>
     </message>
   </context>
   <context>
@@ -39996,14 +39998,14 @@
     <name>/parameters/IMU_GYRO_DNF_HMC/shortDesc</name>
     <message>
       <source>IMU gyro dynamic notch filter harmonics</source>
-      <translation type="unfinished">IMU gyro dynamic notch filter harmonics</translation>
+      <translation>IMU (інерційно-вимірювальний пристрій) гіроскопа динамічного рівня фільтра гармоніки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/IMU_GYRO_DNF_HMC/longDesc</name>
     <message>
       <source>ESC RPM number of harmonics (multiples of RPM) for ESC RPM dynamic notch filtering.</source>
-      <translation type="unfinished">ESC RPM number of harmonics (multiples of RPM) for ESC RPM dynamic notch filtering.</translation>
+      <translation>ESC RPM кількість гармонік (кратних RPM) для ESC RPM динамічного рівня фільтрації.</translation>
     </message>
   </context>
   <context>
@@ -41368,7 +41370,7 @@
     <name>/parameters/SIH_L_PITCH/shortDesc</name>
     <message>
       <source>Pitch arm length</source>
-      <translation type="unfinished">Pitch arm length</translation>
+      <translation>Тангаж по довжині променя</translation>
     </message>
   </context>
   <context>
@@ -44518,7 +44520,7 @@
     <name>/parameters/VT_F_TRANS_THR/shortDesc</name>
     <message>
       <source>Target throttle value for the transition to fixed-wing flight</source>
-      <translation type="unfinished">Target throttle value for the transition to fixed-wing flight</translation>
+      <translation>Націлитися на значення тяги для переходу до польоту з фіксованим крилом</translation>
     </message>
   </context>
   <context>
@@ -44567,14 +44569,14 @@
     <name>/parameters/VT_PSHER_SLEW/shortDesc</name>
     <message>
       <source>Pusher throttle ramp up slew rate</source>
-      <translation type="unfinished">Pusher throttle ramp up slew rate</translation>
+      <translation>Штовхач тяги підвищує швидкість зростання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/VT_PSHER_SLEW/longDesc</name>
     <message>
       <source>Defines the slew rate of the puller/pusher throttle during transitions. Zero will deactivate the slew rate limiting and thus produce an instant throttle rise to the transition throttle VT_F_TRANS_THR.</source>
-      <translation type="unfinished">Defines the slew rate of the puller/pusher throttle during transitions. Zero will deactivate the slew rate limiting and thus produce an instant throttle rise to the transition throttle VT_F_TRANS_THR.</translation>
+      <translation>Визначає швидкість зростання натягувача/штовхача дроселя під час переходів. Нуль деактивуватиме лімітування швидкості зростання і таким чином виробляє миттєве збільшення тяги до переходу тяги VT_F_TRANS_THR.</translation>
     </message>
   </context>
   <context>
@@ -44774,199 +44776,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/UAVCAN Motor Parameters</name>
+    <name>$globals/group/FW Performance</name>
     <message>
-      <source>UAVCAN Motor Parameters</source>
-      <translation type="unfinished">UAVCAN Motor Parameters</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Ackermann</name>
-    <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Path Control</name>
-    <message>
-      <source>FW Path Control</source>
-      <translation type="unfinished">FW Path Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Attitude Q estimator</name>
-    <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW TECS</name>
-    <message>
-      <source>FW TECS</source>
-      <translation type="unfinished">FW TECS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulation In Hardware</name>
-    <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Position Control (Deprecated)</name>
-    <message>
-      <source>Rover Position Control (Deprecated)</source>
-      <translation type="unfinished">Rover Position Control (Deprecated)</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mount</name>
-    <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Manual Control</name>
-    <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Autotune</name>
-    <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SD Logging</name>
-    <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
     </message>
   </context>
   <context>
@@ -44977,17 +44790,164 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Miscellaneous</name>
+    <name>$globals/group/Failure Detector</name>
     <message>
-      <source>Miscellaneous</source>
-      <translation type="unfinished">Miscellaneous</translation>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Actuator Outputs</name>
+    <name>$globals/group/Sensor Calibration</name>
     <message>
-      <source>Actuator Outputs</source>
-      <translation type="unfinished">Actuator Outputs</translation>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW TECS</name>
+    <message>
+      <source>FW TECS</source>
+      <translation type="unfinished">FW TECS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Path Control</name>
+    <message>
+      <source>FW Path Control</source>
+      <translation type="unfinished">FW Path Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN GNSS</name>
+    <message>
+      <source>UAVCAN GNSS</source>
+      <translation type="unfinished">UAVCAN GNSS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Events</name>
+    <message>
+      <source>Events</source>
+      <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN Motor Parameters</name>
+    <message>
+      <source>UAVCAN Motor Parameters</source>
+      <translation type="unfinished">UAVCAN Motor Parameters</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/GPS</name>
+    <message>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
     </message>
   </context>
   <context>
@@ -45005,45 +44965,24 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <name>$globals/group/Multicopter Attitude Control</name>
     <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Precision Land</name>
+    <name>$globals/group/Flight Task Orbit</name>
     <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
+    <name>$globals/group/PWM Outputs</name>
     <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Differential</name>
-    <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
     </message>
   </context>
   <context>
@@ -45054,38 +44993,17 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Mecanum</name>
+    <name>$globals/group/Circuit Breaker</name>
     <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Local Position Estimator</name>
+    <name>$globals/group/Rover Differential</name>
     <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN GNSS</name>
-    <message>
-      <source>UAVCAN GNSS</source>
-      <translation type="unfinished">UAVCAN GNSS</translation>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
     </message>
   </context>
   <context>
@@ -45096,17 +45014,10 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Radio Switches</name>
+    <name>$globals/group/Mission</name>
     <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return Mode</name>
-    <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
     </message>
   </context>
   <context>
@@ -45117,62 +45028,6 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MAVLink</name>
-    <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Geometry</name>
-    <message>
-      <source>FW Geometry</source>
-      <translation type="unfinished">FW Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Events</name>
-    <message>
-      <source>Events</source>
-      <translation type="unfinished">Events</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Attitude Control</name>
-    <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/GPS</name>
-    <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Thermal Compensation</name>
     <message>
       <source>Thermal Compensation</source>
@@ -45180,52 +45035,17 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <name>$globals/group/Landing Target Estimator</name>
     <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/OSD</name>
+    <name>$globals/group/Commander</name>
     <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/EKF2</name>
-    <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
     </message>
   </context>
   <context>
@@ -45236,10 +45056,31 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Airspeed Validator</name>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
     <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Attitude Q estimator</name>
+    <message>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
     </message>
   </context>
   <context>
@@ -45250,24 +45091,17 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Payload Deliverer</name>
+    <name>$globals/group/Multicopter Acro Mode</name>
     <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
+    <name>$globals/group/UXRCE-DDS Client</name>
     <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
     </message>
   </context>
   <context>
@@ -45278,10 +45112,101 @@
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Rate Control</name>
+    <name>$globals/group/Camera trigger</name>
     <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Geometry</name>
+    <message>
+      <source>FW Geometry</source>
+      <translation type="unfinished">FW Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Actuator Outputs</name>
+    <message>
+      <source>Actuator Outputs</source>
+      <translation type="unfinished">Actuator Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulation In Hardware</name>
+    <message>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Position Control (Deprecated)</name>
+    <message>
+      <source>Rover Position Control (Deprecated)</source>
+      <translation type="unfinished">Rover Position Control (Deprecated)</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Attitude Control</name>
+    <message>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
     </message>
   </context>
   <context>
@@ -45292,10 +45217,87 @@
     </message>
   </context>
   <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <message>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Geometry</name>
     <message>
       <source>Geometry</source>
       <translation type="unfinished">Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Miscellaneous</name>
+    <message>
+      <source>Miscellaneous</source>
+      <translation type="unfinished">Miscellaneous</translation>
     </message>
   </context>
 </TS>
