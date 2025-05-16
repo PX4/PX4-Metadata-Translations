@@ -33642,7 +33642,7 @@
     <name>/parameters/SDLOG_BOOT_BAT/longDesc</name>
     <message>
       <source>When enabled, logging will not start from boot if battery power is not detected (e.g. powered via USB on a test bench). This prevents extraneous flight logs from being created during bench testing. Note that this only applies to log-from-boot modes. This has no effect on arm-based modes.</source>
-      <translation type="unfinished">When enabled, logging will not start from boot if battery power is not detected (e.g. powered via USB on a test bench). This prevents extraneous flight logs from being created during bench testing. Note that this only applies to log-from-boot modes. This has no effect on arm-based modes.</translation>
+      <translation>Коли ця опція включена, ведення записів не почнеться з завантаження, якщо заряду акумулятора не виявлено (напр. заживлений через USB на тестовому стенді). Це унеможливлює створення сторонніх записів журналу польотів під час стендових тестуваннь. Зверніть увагу, що це стосується тільки режимів 'журнал від завантаження. Це не впливає на режими на основі взведення.</translation>
     </message>
   </context>
   <context>
@@ -33747,7 +33747,7 @@
     <name>/parameters/SDLOG_MODE/longDesc</name>
     <message>
       <source>Determines when to start and stop logging. By default, logging is started when arming the system, and stopped when disarming.</source>
-      <translation type="unfinished">Determines when to start and stop logging. By default, logging is started when arming the system, and stopped when disarming.</translation>
+      <translation>Визначає коли почнеться та зупиниться журналювання. За замовчуванням журналювання починається при взведенні системи та зупиняється при охолощенні.</translation>
     </message>
   </context>
   <context>
@@ -33761,14 +33761,14 @@
     <name>/parameters/SDLOG_MODE/values/0/description</name>
     <message>
       <source>when armed until disarm (default)</source>
-      <translation type="unfinished">when armed until disarm (default)</translation>
+      <translation>коли взведено і до охолощення (за замовчуванням)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/SDLOG_MODE/values/1/description</name>
     <message>
       <source>from boot until disarm</source>
-      <translation type="unfinished">from boot until disarm</translation>
+      <translation>від завантаження і до охолощення</translation>
     </message>
   </context>
   <context>
@@ -33789,7 +33789,7 @@
     <name>/parameters/SDLOG_MODE/values/4/description</name>
     <message>
       <source>from 1st armed until shutdown</source>
-      <translation type="unfinished">from 1st armed until shutdown</translation>
+      <translation>від першого взведеного і до закриття</translation>
     </message>
   </context>
   <context>
