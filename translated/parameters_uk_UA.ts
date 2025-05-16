@@ -40005,7 +40005,7 @@
     <name>/parameters/IMU_GYRO_DNF_HMC/longDesc</name>
     <message>
       <source>ESC RPM number of harmonics (multiples of RPM) for ESC RPM dynamic notch filtering.</source>
-      <translation type="unfinished">ESC RPM number of harmonics (multiples of RPM) for ESC RPM dynamic notch filtering.</translation>
+      <translation>ESC RPM кількість гармонік (кратних RPM) для ESC RPM динамічного рівня фільтрації.</translation>
     </message>
   </context>
   <context>
@@ -41370,7 +41370,7 @@
     <name>/parameters/SIH_L_PITCH/shortDesc</name>
     <message>
       <source>Pitch arm length</source>
-      <translation type="unfinished">Pitch arm length</translation>
+      <translation>Тангаж по довжині променя</translation>
     </message>
   </context>
   <context>
