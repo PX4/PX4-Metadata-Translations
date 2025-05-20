@@ -3169,84 +3169,84 @@
     <name>/parameters/PWM_MAIN_FUNC14/values/407/description</name>
     <message>
       <source>RC AUX 1</source>
-      <translation type="unfinished">RC AUX 1</translation>
+      <translation>Пульт(RC) AUX 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/408/description</name>
     <message>
       <source>RC AUX 2</source>
-      <translation type="unfinished">RC AUX 2</translation>
+      <translation>Пульт(RC) AUX 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/409/description</name>
     <message>
       <source>RC AUX 3</source>
-      <translation type="unfinished">RC AUX 3</translation>
+      <translation>Пульт(RC) AUX 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/410/description</name>
     <message>
       <source>RC AUX 4</source>
-      <translation type="unfinished">RC AUX 4</translation>
+      <translation>Пульт(RC) AUX 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/411/description</name>
     <message>
       <source>RC AUX 5</source>
-      <translation type="unfinished">RC AUX 5</translation>
+      <translation>Пульт(RC) AUX 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/412/description</name>
     <message>
       <source>RC AUX 6</source>
-      <translation type="unfinished">RC AUX 6</translation>
+      <translation>Пульт(RC) AUX 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/420/description</name>
     <message>
       <source>Gimbal Roll</source>
-      <translation type="unfinished">Gimbal Roll</translation>
+      <translation>Крен підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation type="unfinished">Gimbal Pitch</translation>
+      <translation>Тангаж підвісу для камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation type="unfinished">Gimbal Yaw</translation>
+      <translation>Рискання підвісом камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/430/description</name>
     <message>
       <source>Gripper</source>
-      <translation type="unfinished">Gripper</translation>
+      <translation>Захват</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation type="unfinished">Landing Gear Wheel</translation>
+      <translation>Колесо блоку приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC запалювання мотору</translation>
     </message>
   </context>
   <context>
@@ -3260,21 +3260,21 @@
     <name>/parameters/PWM_MAIN_FUNC14/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/shortDesc</name>
     <message>
       <source>SIM Channel 15 Output Function</source>
-      <translation type="unfinished">SIM Channel 15 Output Function</translation>
+      <translation>Функція виводу SIM Каналу 15</translation>
     </message>
   </context>
   <context>
@@ -3295,140 +3295,140 @@
     <name>/parameters/PWM_MAIN_FUNC15/values/1/description</name>
     <message>
       <source>Constant Min</source>
-      <translation type="unfinished">Constant Min</translation>
+      <translation>Константа Min</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/2/description</name>
     <message>
       <source>Constant Max</source>
-      <translation type="unfinished">Constant Max</translation>
+      <translation>Константа Max</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/101/description</name>
     <message>
       <source>Motor 1</source>
-      <translation type="unfinished">Motor 1</translation>
+      <translation>Мотор 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/102/description</name>
     <message>
       <source>Motor 2</source>
-      <translation type="unfinished">Motor 2</translation>
+      <translation>Мотор 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/103/description</name>
     <message>
       <source>Motor 3</source>
-      <translation type="unfinished">Motor 3</translation>
+      <translation>Мотор 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/104/description</name>
     <message>
       <source>Motor 4</source>
-      <translation type="unfinished">Motor 4</translation>
+      <translation>Мотор 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/105/description</name>
     <message>
       <source>Motor 5</source>
-      <translation type="unfinished">Motor 5</translation>
+      <translation>Мотор 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/106/description</name>
     <message>
       <source>Motor 6</source>
-      <translation type="unfinished">Motor 6</translation>
+      <translation>Мотор 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/107/description</name>
     <message>
       <source>Motor 7</source>
-      <translation type="unfinished">Motor 7</translation>
+      <translation>Мотор 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/108/description</name>
     <message>
       <source>Motor 8</source>
-      <translation type="unfinished">Motor 8</translation>
+      <translation>Мотор 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/109/description</name>
     <message>
       <source>Motor 9</source>
-      <translation type="unfinished">Motor 9</translation>
+      <translation>Мотор 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/110/description</name>
     <message>
       <source>Motor 10</source>
-      <translation type="unfinished">Motor 10</translation>
+      <translation>Мотор 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/111/description</name>
     <message>
       <source>Motor 11</source>
-      <translation type="unfinished">Motor 11</translation>
+      <translation>Мотор 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/112/description</name>
     <message>
       <source>Motor 12</source>
-      <translation type="unfinished">Motor 12</translation>
+      <translation>Мотор 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/201/description</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>Сервопривід 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/202/description</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>Сервопривід 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/203/description</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>Сервопривід 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/204/description</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>Сервопривід 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/205/description</name>
     <message>
       <source>Servo 5</source>
-      <translation type="unfinished">Servo 5</translation>
+      <translation>Сервопривід 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/206/description</name>
     <message>
       <source>Servo 6</source>
-      <translation type="unfinished">Servo 6</translation>
+      <translation>Сервопривід 6</translation>
     </message>
   </context>
   <context>
@@ -3533,21 +3533,21 @@
     <name>/parameters/PWM_MAIN_FUNC15/values/406/description</name>
     <message>
       <source>RC Flaps</source>
-      <translation type="unfinished">RC Flaps</translation>
+      <translation>Пульт(RC) Закрилки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/407/description</name>
     <message>
       <source>RC AUX 1</source>
-      <translation type="unfinished">RC AUX 1</translation>
+      <translation>Пульт(RC) AUX 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/408/description</name>
     <message>
       <source>RC AUX 2</source>
-      <translation type="unfinished">RC AUX 2</translation>
+      <translation>Пульт(RC) AUX 2</translation>
     </message>
   </context>
   <context>
@@ -41377,7 +41377,7 @@
     <name>/parameters/SIH_L_PITCH/longDesc</name>
     <message>
       <source>This is the arm length generating the pitching moment This value can be measured with a ruler. This corresponds to half the distance between the front and rear motors.</source>
-      <translation>Це і є довжина променю, що генерує момент тангажу. Цей параметр можна виміряти лінійкою. Це відповідає половині відстані між передніми і задніми моторами.</translation>
+      <translation>Це і є довжина променю, що генерує момент тангажу. Цей значення можна виміряти лінійкою. Це відповідає половині відстані між передніми і задніми моторами.</translation>
     </message>
   </context>
   <context>
@@ -41391,7 +41391,7 @@
     <name>/parameters/SIH_L_ROLL/longDesc</name>
     <message>
       <source>This is the arm length generating the rolling moment This value can be measured with a ruler. This corresponds to half the distance between the left and right motors.</source>
-      <translation type="unfinished">This is the arm length generating the rolling moment This value can be measured with a ruler. This corresponds to half the distance between the left and right motors.</translation>
+      <translation>Це є довжина променю, що генерує момент крену. Цей значення можна виміряти лінійкою. Це відповідає половині відстані між лівими та правими моторами.</translation>
     </message>
   </context>
   <context>
@@ -44275,7 +44275,7 @@
     <name>/parameters/VT_ELEV_MC_LOCK/longDesc</name>
     <message>
       <source>If set to 1 the control surfaces are locked at the disarmed value in multicopter mode.</source>
-      <translation type="unfinished">If set to 1 the control surfaces are locked at the disarmed value in multicopter mode.</translation>
+      <translation>Якщо встановлено на 1, то контроль поверхонь закритий при значенні охолощений в режимі мультікоптер.</translation>
     </message>
   </context>
   <context>
