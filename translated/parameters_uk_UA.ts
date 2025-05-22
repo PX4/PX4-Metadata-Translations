@@ -3827,56 +3827,56 @@
     <name>/parameters/PWM_MAIN_FUNC16/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation type="unfinished">Peripheral via Actuator Set 2</translation>
+      <translation>Периферія через Набір Актюатора 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation type="unfinished">Peripheral via Actuator Set 3</translation>
+      <translation>Периферія через Набір Актюатора 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation type="unfinished">Peripheral via Actuator Set 4</translation>
+      <translation>Периферія через Набір Актюатора 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation type="unfinished">Peripheral via Actuator Set 5</translation>
+      <translation>Периферія через Набір Актюатора 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation type="unfinished">Peripheral via Actuator Set 6</translation>
+      <translation>Периферія через Набір Актюатора 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation type="unfinished">Landing Gear</translation>
+      <translation>Блок приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/401/description</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/402/description</name>
     <message>
       <source>RC Roll</source>
-      <translation type="unfinished">RC Roll</translation>
+      <translation>Пульт(RC) Крен</translation>
     </message>
   </context>
   <context>
