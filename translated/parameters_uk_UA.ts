@@ -3883,7 +3883,7 @@
     <name>/parameters/PWM_MAIN_FUNC16/values/403/description</name>
     <message>
       <source>RC Pitch</source>
-      <translation type="unfinished">RC Pitch</translation>
+      <translation>Пульт(RC) Тангаж</translation>
     </message>
   </context>
   <context>
@@ -3897,7 +3897,7 @@
     <name>/parameters/PWM_MAIN_FUNC16/values/405/description</name>
     <message>
       <source>RC Yaw</source>
-      <translation type="unfinished">RC Yaw</translation>
+      <translation>Пульт(RC) Рискання</translation>
     </message>
   </context>
   <context>
