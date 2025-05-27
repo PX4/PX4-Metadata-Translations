@@ -12045,12 +12045,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_SPOILERS_LND/shortDesc</name>
-  <message>
-  <source>Spoiler landing setting</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_WR_FF/shortDesc</name>
   <message>
   <source>Wheel steering rate feed forward</source>
@@ -12126,6 +12120,18 @@
   <name>/parameters/FW_Y_RMAX/shortDesc</name>
   <message>
   <source>Maximum yaw rate setpoint</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_FLAPS_LND_SCL/shortDesc</name>
+  <message>
+  <source>Flaps setting during landing</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_FLAPS_LND_SCL/longDesc</name>
+  <message>
+  <source>Sets a fraction of full flaps during landing. Also applies to flaperons if enabled in the mixer/allocation.</source>
   </message>
 </context>
 <context>
@@ -12351,27 +12357,21 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_WING_HEIGHT/shortDesc</name>
+  <name>/parameters/FW_SPOILERS_LND/shortDesc</name>
   <message>
-  <source>Height (AGL) of the wings when the aircraft is on the ground</source>
+  <source>Spoiler landing setting</source>
   </message>
 </context>
 <context>
-  <name>/parameters/FW_WING_HEIGHT/longDesc</name>
+  <name>/parameters/FW_FLAPS_TO_SCL/shortDesc</name>
   <message>
-  <source>This is used to constrain a minimum altitude below which we keep wings level to avoid wing tip strike. It's safer to give a slight margin here (&gt; 0m)</source>
+  <source>Flaps setting during take-off</source>
   </message>
 </context>
 <context>
-  <name>/parameters/FW_WING_SPAN/shortDesc</name>
+  <name>/parameters/FW_FLAPS_TO_SCL/longDesc</name>
   <message>
-  <source>The aircraft's wing span (length from tip to tip)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_WING_SPAN/longDesc</name>
-  <message>
-  <source>This is used for limiting the roll setpoint near the ground. (if multiple wings, take the longest span)</source>
+  <source>Sets a fraction of full flaps during take-off. Also applies to flaperons if enabled in the mixer/allocation.</source>
   </message>
 </context>
 <context>
@@ -12435,6 +12435,420 @@
   </message>
 </context>
 <context>
+  <name>/parameters/FW_TKO_AIRSPD/shortDesc</name>
+  <message>
+  <source>Takeoff Airspeed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_TKO_AIRSPD/longDesc</name>
+  <message>
+  <source>The calibrated airspeed setpoint during the takeoff climbout. If set &lt;= 0, FW_AIRSPD_MIN will be set by default.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_TKO_PITCH_MIN/shortDesc</name>
+  <message>
+  <source>Minimum pitch during takeoff</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_GPSF_LT/shortDesc</name>
+  <message>
+  <source>GPS failure loiter time</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_GPSF_LT/longDesc</name>
+  <message>
+  <source>The time the system should do open loop loiter and wait for GPS recovery before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R. Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_GPSF_R/shortDesc</name>
+  <message>
+  <source>GPS failure fixed roll angle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_GPSF_R/longDesc</name>
+  <message>
+  <source>Roll angle in GPS failure loiter mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_POS_STK_CONF/shortDesc</name>
+  <message>
+  <source>Custom stick configuration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_POS_STK_CONF/longDesc</name>
+  <message>
+  <source>Applies in manual Position and Altitude flight modes.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_POS_STK_CONF/bitmask/0/description</name>
+  <message>
+  <source>Alternative stick configuration (height rate on throttle stick, airspeed on pitch stick)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_POS_STK_CONF/bitmask/1/description</name>
+  <message>
+  <source>Enable airspeed setpoint via sticks in altitude and position flight mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_P_LIM_MAX/shortDesc</name>
+  <message>
+  <source>Maximum pitch angle setpoint</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_P_LIM_MAX/longDesc</name>
+  <message>
+  <source>Applies in any altitude controlled flight mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_P_LIM_MIN/shortDesc</name>
+  <message>
+  <source>Minimum pitch angle setpoint</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_P_LIM_MIN/longDesc</name>
+  <message>
+  <source>Applies in any altitude controlled flight mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_R_LIM/shortDesc</name>
+  <message>
+  <source>Maximum roll angle setpoint</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_R_LIM/longDesc</name>
+  <message>
+  <source>Applies in any altitude controlled flight mode.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_IDLE/shortDesc</name>
+  <message>
+  <source>Idle throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_IDLE/longDesc</name>
+  <message>
+  <source>This is the minimum throttle while on the ground ("landed") in auto modes.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_MAX/shortDesc</name>
+  <message>
+  <source>Throttle limit max</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_MAX/longDesc</name>
+  <message>
+  <source>Applies in any altitude controlled flight mode. Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_MIN/shortDesc</name>
+  <message>
+  <source>Throttle limit min</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_MIN/longDesc</name>
+  <message>
+  <source>Applies in any altitude controlled flight mode. Usually set to 0 but can be increased to prevent the motor from stopping when descending, which can increase achievable descent rates.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_CLMB_R_SP/shortDesc</name>
+  <message>
+  <source>Default target climbrate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_CLMB_R_SP/longDesc</name>
+  <message>
+  <source>In auto modes: default climb rate output by controller to achieve altitude setpoints. In manual modes: maximum climb rate setpoint.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SINK_R_SP/shortDesc</name>
+  <message>
+  <source>Default target sinkrate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SINK_R_SP/longDesc</name>
+  <message>
+  <source>In auto modes: default sink rate output by controller to achieve altitude setpoints. In manual modes: maximum sink rate setpoint.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SPDWEIGHT/shortDesc</name>
+  <message>
+  <source>Speed &lt;--&gt; Altitude weight</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SPDWEIGHT/longDesc</name>
+  <message>
+  <source>Adjusts the amount of weighting that the pitch control applies to speed vs height errors. 0 -&gt; control height only 2 -&gt; control speed only (gliders)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_WING_HEIGHT/shortDesc</name>
+  <message>
+  <source>Height (AGL) of the wings when the aircraft is on the ground</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_WING_HEIGHT/longDesc</name>
+  <message>
+  <source>This is used to constrain a minimum altitude below which we keep wings level to avoid wing tip strike. It's safer to give a slight margin here (&gt; 0m)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_WING_SPAN/shortDesc</name>
+  <message>
+  <source>The aircraft's wing span (length from tip to tip)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_WING_SPAN/longDesc</name>
+  <message>
+  <source>This is used for limiting the roll setpoint near the ground. (if multiple wings, take the longest span)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_PN_R_SLEW_MAX/shortDesc</name>
+  <message>
+  <source>Path navigation roll slew rate limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_PN_R_SLEW_MAX/longDesc</name>
+  <message>
+  <source>Maximum change in roll angle setpoint per second. Applied in all Auto modes, plus manual Position &amp; Altitude modes.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_GND_SPD_MIN/shortDesc</name>
+  <message>
+  <source>Minimum groundspeed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_GND_SPD_MIN/longDesc</name>
+  <message>
+  <source>The controller will increase the commanded airspeed to maintain this minimum groundspeed to the next waypoint.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_SLEW_MAX/shortDesc</name>
+  <message>
+  <source>Throttle max slew rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_THR_SLEW_MAX/longDesc</name>
+  <message>
+  <source>Maximum slew rate for the commanded throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_ALT_TC/shortDesc</name>
+  <message>
+  <source>Altitude error time constant</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_F_ALT_ERR/shortDesc</name>
+  <message>
+  <source>Fast descend: minimum altitude error</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_F_ALT_ERR/longDesc</name>
+  <message>
+  <source>Minimum altitude error needed to descend with max airspeed and minimal throttle. A negative value disables fast descend.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_HRATE_FF/shortDesc</name>
+  <message>
+  <source>Height rate feed forward</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_I_GAIN_PIT/shortDesc</name>
+  <message>
+  <source>Integrator gain pitch</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_I_GAIN_PIT/longDesc</name>
+  <message>
+  <source>Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_PTCH_DAMP/shortDesc</name>
+  <message>
+  <source>Pitch damping gain</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_RLL2THR/shortDesc</name>
+  <message>
+  <source>Roll -&gt; Throttle feedforward</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_RLL2THR/longDesc</name>
+  <message>
+  <source>Is used to compensate for the additional drag created by turning. Increase this gain if the aircraft initially loses energy in turns and reduce if the aircraft initially gains energy in turns.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SEB_R_FF/shortDesc</name>
+  <message>
+  <source>Specific total energy balance rate feedforward gain</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SINK_MAX/shortDesc</name>
+  <message>
+  <source>Maximum descent rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SPD_DEV_STD/shortDesc</name>
+  <message>
+  <source>Airspeed rate measurement standard deviation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SPD_DEV_STD/longDesc</name>
+  <message>
+  <source>For the airspeed filter in TECS.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SPD_PRC_STD/shortDesc</name>
+  <message>
+  <source>Process noise standard deviation for the airspeed rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SPD_PRC_STD/longDesc</name>
+  <message>
+  <source>This is defining the noise in the airspeed rate for the constant airspeed rate model of the TECS airspeed filter.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SPD_STD/shortDesc</name>
+  <message>
+  <source>Airspeed measurement standard deviation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_SPD_STD/longDesc</name>
+  <message>
+  <source>For the airspeed filter in TECS.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_STE_R_TC/shortDesc</name>
+  <message>
+  <source>Specific total energy rate first order filter time constant</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_STE_R_TC/longDesc</name>
+  <message>
+  <source>This filter is applied to the specific total energy rate used for throttle damping.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_TAS_TC/shortDesc</name>
+  <message>
+  <source>True airspeed error time constant</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_THR_DAMPING/shortDesc</name>
+  <message>
+  <source>Throttle damping factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_THR_DAMPING/longDesc</name>
+  <message>
+  <source>This is the damping gain for the throttle demand loop.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_THR_INTEG/shortDesc</name>
+  <message>
+  <source>Integrator gain throttle</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_THR_INTEG/longDesc</name>
+  <message>
+  <source>Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_THR_LOW_HGT/shortDesc</name>
+  <message>
+  <source>Low-height threshold for tighter altitude tracking</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_THR_LOW_HGT/longDesc</name>
+  <message>
+  <source>Height above ground threshold below which tighter altitude tracking gets enabled (see FW_LND_THRTC_SC). Below this height, TECS smoothly (1 sec / sec) transitions the altitude tracking time constant from FW_T_ALT_TC to FW_LND_THRTC_SC*FW_T_ALT_TC. -1 to disable.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_VERT_ACC/shortDesc</name>
+  <message>
+  <source>Maximum vertical acceleration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_T_VERT_ACC/longDesc</name>
+  <message>
+  <source>This is the maximum vertical acceleration either up or down that the controller will use to correct speed or height errors.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_WIND_ARSP_SC/shortDesc</name>
+  <message>
+  <source>Wind-based airspeed scaling factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_WIND_ARSP_SC/longDesc</name>
+  <message>
+  <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/NPFG_DAMPING/shortDesc</name>
   <message>
   <source>NPFG damping ratio</source>
@@ -12444,36 +12858,6 @@
   <name>/parameters/NPFG_DAMPING/longDesc</name>
   <message>
   <source>Damping ratio of NPFG control law.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NPFG_EN_MIN_GSP/shortDesc</name>
-  <message>
-  <source>Enable minimum forward ground speed maintaining excess wind handling logic</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NPFG_EN_MIN_GSP/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NPFG_EN_MIN_GSP/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NPFG_GSP_MAX_TK/shortDesc</name>
-  <message>
-  <source>Maximum, minimum forward ground speed for track keeping in excess wind</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NPFG_GSP_MAX_TK/longDesc</name>
-  <message>
-  <source>The maximum value of the minimum forward ground speed that may be commanded by the track keeping excess wind handling logic. Commanded in full at the normalized track error fraction of the track error boundary and reduced to zero on track.</source>
   </message>
 </context>
 <context>
@@ -12549,24 +12933,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/NPFG_TRACK_KEEP/shortDesc</name>
-  <message>
-  <source>Enable track keeping excess wind handling logic</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NPFG_TRACK_KEEP/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NPFG_TRACK_KEEP/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/NPFG_UB_PERIOD/shortDesc</name>
   <message>
   <source>Enable automatic upper bound on the NPFG period</source>
@@ -12591,81 +12957,15 @@
   </message>
 </context>
 <context>
-  <name>/parameters/NPFG_WIND_REG/shortDesc</name>
+  <name>/parameters/FW_AIRSPD_FLP_SC/shortDesc</name>
   <message>
-  <source>Enable wind excess regulation</source>
+  <source>Airspeed scale with full flaps</source>
   </message>
 </context>
 <context>
-  <name>/parameters/NPFG_WIND_REG/longDesc</name>
+  <name>/parameters/FW_AIRSPD_FLP_SC/longDesc</name>
   <message>
-  <source>Disabling this parameter further disables all other airspeed incrementation options.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NPFG_WIND_REG/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NPFG_WIND_REG/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PN_R_SLEW_MAX/shortDesc</name>
-  <message>
-  <source>Path navigation roll slew rate limit</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_PN_R_SLEW_MAX/longDesc</name>
-  <message>
-  <source>Maximum change in roll angle setpoint per second. Applied in all Auto modes, plus manual Position &amp; Altitude modes.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_POS_STK_CONF/shortDesc</name>
-  <message>
-  <source>Custom stick configuration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_POS_STK_CONF/longDesc</name>
-  <message>
-  <source>Applies in manual Position and Altitude flight modes.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_POS_STK_CONF/bitmask/0/description</name>
-  <message>
-  <source>Alternative stick configuration (height rate on throttle stick, airspeed on pitch stick)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_POS_STK_CONF/bitmask/1/description</name>
-  <message>
-  <source>Enable airspeed setpoint via sticks in altitude and position flight mode</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_R_LIM/shortDesc</name>
-  <message>
-  <source>Maximum roll angle setpoint</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_R_LIM/longDesc</name>
-  <message>
-  <source>Applies in any altitude controlled flight mode.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_TKO_PITCH_MIN/shortDesc</name>
-  <message>
-  <source>Minimum pitch during takeoff</source>
+  <source>Factor applied to the minimum and stall airspeed when flaps are fully deployed.</source>
   </message>
 </context>
 <context>
@@ -12975,30 +13275,6 @@
   </message>
 </context>
 <context>
-  <name>/parameters/FW_FLAPS_LND_SCL/shortDesc</name>
-  <message>
-  <source>Flaps setting during landing</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_FLAPS_LND_SCL/longDesc</name>
-  <message>
-  <source>Sets a fraction of full flaps during landing. Also applies to flaperons if enabled in the mixer/allocation.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_FLAPS_TO_SCL/shortDesc</name>
-  <message>
-  <source>Flaps setting during take-off</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_FLAPS_TO_SCL/longDesc</name>
-  <message>
-  <source>Sets a fraction of full flaps during take-off. Also applies to flaperons if enabled in the mixer/allocation.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FW_MAN_P_SC/shortDesc</name>
   <message>
   <source>Manual pitch scale</source>
@@ -13212,318 +13488,6 @@
   <name>/parameters/FW_YR_P/shortDesc</name>
   <message>
   <source>Yaw rate proportional gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_GND_SPD_MIN/shortDesc</name>
-  <message>
-  <source>Minimum groundspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_GND_SPD_MIN/longDesc</name>
-  <message>
-  <source>The controller will increase the commanded airspeed to maintain this minimum groundspeed to the next waypoint.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_P_LIM_MAX/shortDesc</name>
-  <message>
-  <source>Maximum pitch angle setpoint</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_P_LIM_MAX/longDesc</name>
-  <message>
-  <source>Applies in any altitude controlled flight mode.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_P_LIM_MIN/shortDesc</name>
-  <message>
-  <source>Minimum pitch angle setpoint</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_P_LIM_MIN/longDesc</name>
-  <message>
-  <source>Applies in any altitude controlled flight mode.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_IDLE/shortDesc</name>
-  <message>
-  <source>Idle throttle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_IDLE/longDesc</name>
-  <message>
-  <source>This is the minimum throttle while on the ground ("landed") in auto modes.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_MAX/shortDesc</name>
-  <message>
-  <source>Throttle limit max</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_MAX/longDesc</name>
-  <message>
-  <source>Applies in any altitude controlled flight mode. Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_MIN/shortDesc</name>
-  <message>
-  <source>Throttle limit min</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_MIN/longDesc</name>
-  <message>
-  <source>Applies in any altitude controlled flight mode. Usually set to 0 but can be increased to prevent the motor from stopping when descending, which can increase achievable descent rates.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_SLEW_MAX/shortDesc</name>
-  <message>
-  <source>Throttle max slew rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_THR_SLEW_MAX/longDesc</name>
-  <message>
-  <source>Maximum slew rate for the commanded throttle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_TKO_AIRSPD/shortDesc</name>
-  <message>
-  <source>Takeoff Airspeed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_TKO_AIRSPD/longDesc</name>
-  <message>
-  <source>The calibrated airspeed setpoint during the takeoff climbout. If set &lt;= 0, FW_AIRSPD_MIN will be set by default.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_ALT_TC/shortDesc</name>
-  <message>
-  <source>Altitude error time constant</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_CLMB_R_SP/shortDesc</name>
-  <message>
-  <source>Default target climbrate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_CLMB_R_SP/longDesc</name>
-  <message>
-  <source>In auto modes: default climb rate output by controller to achieve altitude setpoints. In manual modes: maximum climb rate setpoint.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_F_ALT_ERR/shortDesc</name>
-  <message>
-  <source>Fast descend: minimum altitude error</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_F_ALT_ERR/longDesc</name>
-  <message>
-  <source>Minimum altitude error needed to descend with max airspeed and minimal throttle. A negative value disables fast descend.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_HRATE_FF/shortDesc</name>
-  <message>
-  <source>Height rate feed forward</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_I_GAIN_PIT/shortDesc</name>
-  <message>
-  <source>Integrator gain pitch</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_I_GAIN_PIT/longDesc</name>
-  <message>
-  <source>Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_PTCH_DAMP/shortDesc</name>
-  <message>
-  <source>Pitch damping gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_RLL2THR/shortDesc</name>
-  <message>
-  <source>Roll -&gt; Throttle feedforward</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_RLL2THR/longDesc</name>
-  <message>
-  <source>Is used to compensate for the additional drag created by turning. Increase this gain if the aircraft initially loses energy in turns and reduce if the aircraft initially gains energy in turns.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SEB_R_FF/shortDesc</name>
-  <message>
-  <source>Specific total energy balance rate feedforward gain</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SINK_MAX/shortDesc</name>
-  <message>
-  <source>Maximum descent rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SINK_R_SP/shortDesc</name>
-  <message>
-  <source>Default target sinkrate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SINK_R_SP/longDesc</name>
-  <message>
-  <source>In auto modes: default sink rate output by controller to achieve altitude setpoints. In manual modes: maximum sink rate setpoint.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SPDWEIGHT/shortDesc</name>
-  <message>
-  <source>Speed &lt;--&gt; Altitude weight</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SPDWEIGHT/longDesc</name>
-  <message>
-  <source>Adjusts the amount of weighting that the pitch control applies to speed vs height errors. 0 -&gt; control height only 2 -&gt; control speed only (gliders)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SPD_DEV_STD/shortDesc</name>
-  <message>
-  <source>Airspeed rate measurement standard deviation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SPD_DEV_STD/longDesc</name>
-  <message>
-  <source>For the airspeed filter in TECS.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SPD_PRC_STD/shortDesc</name>
-  <message>
-  <source>Process noise standard deviation for the airspeed rate</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SPD_PRC_STD/longDesc</name>
-  <message>
-  <source>This is defining the noise in the airspeed rate for the constant airspeed rate model of the TECS airspeed filter.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SPD_STD/shortDesc</name>
-  <message>
-  <source>Airspeed measurement standard deviation</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_SPD_STD/longDesc</name>
-  <message>
-  <source>For the airspeed filter in TECS.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_STE_R_TC/shortDesc</name>
-  <message>
-  <source>Specific total energy rate first order filter time constant</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_STE_R_TC/longDesc</name>
-  <message>
-  <source>This filter is applied to the specific total energy rate used for throttle damping.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_TAS_TC/shortDesc</name>
-  <message>
-  <source>True airspeed error time constant</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_THR_DAMPING/shortDesc</name>
-  <message>
-  <source>Throttle damping factor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_THR_DAMPING/longDesc</name>
-  <message>
-  <source>This is the damping gain for the throttle demand loop.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_THR_INTEG/shortDesc</name>
-  <message>
-  <source>Integrator gain throttle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_THR_INTEG/longDesc</name>
-  <message>
-  <source>Increase it to trim out speed and height offsets faster, with the downside of possible overshoots and oscillations.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_THR_LOW_HGT/shortDesc</name>
-  <message>
-  <source>Low-height threshold for tighter altitude tracking</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_THR_LOW_HGT/longDesc</name>
-  <message>
-  <source>Height above ground threshold below which tighter altitude tracking gets enabled (see FW_LND_THRTC_SC). Below this height, TECS smoothly (1 sec / sec) transitions the altitude tracking time constant from FW_T_ALT_TC to FW_LND_THRTC_SC*FW_T_ALT_TC. -1 to disable.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_VERT_ACC/shortDesc</name>
-  <message>
-  <source>Maximum vertical acceleration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_T_VERT_ACC/longDesc</name>
-  <message>
-  <source>This is the maximum vertical acceleration either up or down that the controller will use to correct speed or height errors.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_WIND_ARSP_SC/shortDesc</name>
-  <message>
-  <source>Wind-based airspeed scaling factor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_WIND_ARSP_SC/longDesc</name>
-  <message>
-  <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset added to the minimum airspeed setpoint limit. This helps to make the system more robust against disturbances (turbulence) in high wind.</source>
   </message>
 </context>
 <context>
@@ -20274,30 +20238,6 @@
   <name>/parameters/MAN_KILL_GEST_T/longDesc</name>
   <message>
   <source>The timeout for holding the left stick to the lower left and the right stick to the lower right at the same time until the gesture kills the actuators one-way. A negative value disables the feature.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_GPSF_LT/shortDesc</name>
-  <message>
-  <source>GPS failure loiter time</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_GPSF_LT/longDesc</name>
-  <message>
-  <source>The time the system should do open loop loiter and wait for GPS recovery before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R. Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_GPSF_R/shortDesc</name>
-  <message>
-  <source>GPS failure fixed roll angle</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FW_GPSF_R/longDesc</name>
-  <message>
-  <source>Roll angle in GPS failure loiter mode.</source>
   </message>
 </context>
 <context>
@@ -28659,39 +28599,9 @@
   </message>
 </context>
 <context>
-  <name>/parameters/RWTO_HDG/shortDesc</name>
-  <message>
-  <source>Specifies which heading should be held during the runway takeoff ground roll</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RWTO_HDG/longDesc</name>
-  <message>
-  <source>0: airframe heading when takeoff is initiated 1: position control along runway direction (bearing defined from vehicle position on takeoff initiation to MAV_CMD_TAKEOFF position defined by operator)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RWTO_HDG/values/0/description</name>
-  <message>
-  <source>Airframe</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RWTO_HDG/values/1/description</name>
-  <message>
-  <source>Runway</source>
-  </message>
-</context>
-<context>
   <name>/parameters/RWTO_MAX_THR/shortDesc</name>
   <message>
-  <source>Max throttle during runway takeoff</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RWTO_NPFG_PERIOD/shortDesc</name>
-  <message>
-  <source>NPFG period while steering on runway</source>
+  <source>Throttle during runway takeoff</source>
   </message>
 </context>
 <context>
@@ -38349,213 +38259,15 @@
   </message>
 </context>
 <context>
-  <name>$globals/category/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
   <name>$globals/category/Standard</name>
   <message>
   <source>Standard</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW NPFG Control</name>
+  <name>$globals/category/System</name>
   <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
-  <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW TECS</name>
-  <message>
-  <source>FW TECS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Flight Task Orbit</name>
-  <message>
-  <source>Flight Task Orbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Attitude Control</name>
-  <message>
-  <source>Rover Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Path Control</name>
-  <message>
-  <source>FW Path Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Pure Pursuit</name>
-  <message>
-  <source>Pure Pursuit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Position Control (Deprecated)</name>
-  <message>
-  <source>Rover Position Control (Deprecated)</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
+  <source>System</source>
   </message>
 </context>
 <context>
@@ -38565,9 +38277,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Attitude Q estimator</name>
+  <name>$globals/group/Rover Rate Control</name>
   <message>
-  <source>Attitude Q estimator</source>
+  <source>Rover Rate Control</source>
   </message>
 </context>
 <context>
@@ -38577,51 +38289,9 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Camera trigger</name>
+  <name>$globals/group/Runway Takeoff</name>
   <message>
-  <source>Camera trigger</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Ackermann</name>
-  <message>
-  <source>Rover Ackermann</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/PWM Outputs</name>
-  <message>
-  <source>PWM Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Velocity Control</name>
-  <message>
-  <source>Rover Velocity Control</source>
+  <source>Runway Takeoff</source>
   </message>
 </context>
 <context>
@@ -38631,63 +38301,105 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Thermal Compensation</name>
+  <name>$globals/group/Commander</name>
   <message>
-  <source>Thermal Compensation</source>
+  <source>Commander</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Mixer Output</name>
+  <name>$globals/group/Airspeed Validator</name>
   <message>
-  <source>Mixer Output</source>
+  <source>Airspeed Validator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UXRCE-DDS Client</name>
+  <name>$globals/group/MAVLink</name>
   <message>
-  <source>UXRCE-DDS Client</source>
+  <source>MAVLink</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Mecanum</name>
+  <name>$globals/group/Rover Position Control (Deprecated)</name>
   <message>
-  <source>Rover Mecanum</source>
+  <source>Rover Position Control (Deprecated)</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Actuator Outputs</name>
+  <name>$globals/group/FW NPFG Control</name>
   <message>
-  <source>Actuator Outputs</source>
+  <source>FW NPFG Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/SD Logging</name>
+  <name>$globals/group/Multicopter Position Control</name>
   <message>
-  <source>SD Logging</source>
+  <source>Multicopter Position Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Rate Control</name>
+  <name>$globals/group/Failure Detector</name>
   <message>
-  <source>FW Rate Control</source>
+  <source>Failure Detector</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Geometry</name>
+  <name>$globals/group/Follow target</name>
   <message>
-  <source>FW Geometry</source>
+  <source>Follow target</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Launch detection</name>
+  <name>$globals/group/Radio Switches</name>
   <message>
-  <source>FW Launch detection</source>
+  <source>Radio Switches</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/GPS</name>
+  <name>$globals/group/FW Auto Takeoff</name>
   <message>
-  <source>GPS</source>
+  <source>FW Auto Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Differential</name>
+  <message>
+  <source>Rover Differential</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Attitude Control</name>
+  <message>
+  <source>Rover Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
   </message>
 </context>
 <context>
@@ -38697,39 +38409,45 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Land Detector</name>
+  <name>$globals/group/Camera trigger</name>
   <message>
-  <source>Land Detector</source>
+  <source>Camera trigger</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Attitude Control</name>
+  <name>$globals/group/Circuit Breaker</name>
   <message>
-  <source>VTOL Attitude Control</source>
+  <source>Circuit Breaker</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Battery Calibration</name>
+  <name>$globals/group/Mixer Output</name>
   <message>
-  <source>Battery Calibration</source>
+  <source>Mixer Output</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Commander</name>
+  <name>$globals/group/System</name>
   <message>
-  <source>Commander</source>
+  <source>System</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Rate Control</name>
+  <name>$globals/group/Return Mode</name>
   <message>
-  <source>Rover Rate Control</source>
+  <source>Return Mode</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Mission</name>
+  <name>$globals/group/Rover Velocity Control</name>
   <message>
-  <source>Mission</source>
+  <source>Rover Velocity Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
   </message>
 </context>
 <context>
@@ -38745,45 +38463,45 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Local Position Estimator</name>
+  <name>$globals/group/Actuator Outputs</name>
   <message>
-  <source>Local Position Estimator</source>
+  <source>Actuator Outputs</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Acro Mode</name>
+  <name>$globals/group/Pure Pursuit</name>
   <message>
-  <source>Multicopter Acro Mode</source>
+  <source>Pure Pursuit</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Follow target</name>
+  <name>$globals/group/Simulator</name>
   <message>
-  <source>Follow target</source>
+  <source>Simulator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Return To Land</name>
+  <name>$globals/group/Rover Mecanum</name>
   <message>
-  <source>Return To Land</source>
+  <source>Rover Mecanum</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Differential</name>
+  <name>$globals/group/FW Lateral Control</name>
   <message>
-  <source>Rover Differential</source>
+  <source>FW Lateral Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Sensor Calibration</name>
+  <name>$globals/group/FW Performance</name>
   <message>
-  <source>Sensor Calibration</source>
+  <source>FW Performance</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Auto Landing</name>
+  <name>$globals/group/Radio Calibration</name>
   <message>
-  <source>FW Auto Landing</source>
+  <source>Radio Calibration</source>
   </message>
 </context>
 <context>
@@ -38793,21 +38511,213 @@
   </message>
 </context>
 <context>
-  <name>$globals/group/Failure Detector</name>
+  <name>$globals/group/FW Auto Landing</name>
   <message>
-  <source>Failure Detector</source>
+  <source>FW Auto Landing</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/MAVLink</name>
+  <name>$globals/group/FW Rate Control</name>
   <message>
-  <source>MAVLink</source>
+  <source>FW Rate Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <name>$globals/group/UUV Position Control</name>
   <message>
-  <source>Magnetometer Bias Estimator</source>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Flight Task Orbit</name>
+  <message>
+  <source>Flight Task Orbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Events</name>
+  <message>
+  <source>Events</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <message>
+  <source>Multicopter Position Slow Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Land Detector</name>
+  <message>
+  <source>Land Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Longitudinal Control</name>
+  <message>
+  <source>FW Longitudinal Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulation In Hardware</name>
+  <message>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Ackermann</name>
+  <message>
+  <source>Rover Ackermann</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW General</name>
+  <message>
+  <source>FW General</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UXRCE-DDS Client</name>
+  <message>
+  <source>UXRCE-DDS Client</source>
   </message>
 </context>
 </TS>
