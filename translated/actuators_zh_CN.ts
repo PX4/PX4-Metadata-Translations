@@ -5,7 +5,7 @@
     <name>/outputs_v1/SIM/subgroups/0/per-channel-parameters/PWM_MAIN_FUNC${i}/label</name>
     <message>
       <source>Function</source>
-      <translation type="unfinished">Function</translation>
+      <translation>功能</translation>
     </message>
   </context>
   <context>
@@ -13,344 +13,344 @@
     <message>
       <source>Rev Range
 (for Servos)</source>
-      <translation type="unfinished">Rev Range
-(for Servos)</translation>
+      <translation>Rev 范围
+(适合服务)</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/1/label</name>
     <message>
       <source>Channel 1</source>
-      <translation type="unfinished">Channel 1</translation>
+      <translation>频道 1</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/2/label</name>
     <message>
       <source>Channel 2</source>
-      <translation type="unfinished">Channel 2</translation>
+      <translation>频道 2</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/3/label</name>
     <message>
       <source>Channel 3</source>
-      <translation type="unfinished">Channel 3</translation>
+      <translation>频道 3</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/4/label</name>
     <message>
       <source>Channel 4</source>
-      <translation type="unfinished">Channel 4</translation>
+      <translation>频道 4</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/5/label</name>
     <message>
       <source>Channel 5</source>
-      <translation type="unfinished">Channel 5</translation>
+      <translation>频道 5</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/6/label</name>
     <message>
       <source>Channel 6</source>
-      <translation type="unfinished">Channel 6</translation>
+      <translation>频道 6</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/7/label</name>
     <message>
       <source>Channel 7</source>
-      <translation type="unfinished">Channel 7</translation>
+      <translation>频道 7</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/8/label</name>
     <message>
       <source>Channel 8</source>
-      <translation type="unfinished">Channel 8</translation>
+      <translation>频道 8</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/9/label</name>
     <message>
       <source>Channel 9</source>
-      <translation type="unfinished">Channel 9</translation>
+      <translation>频道 9</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/10/label</name>
     <message>
       <source>Channel 10</source>
-      <translation type="unfinished">Channel 10</translation>
+      <translation>频道 10</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/11/label</name>
     <message>
       <source>Channel 11</source>
-      <translation type="unfinished">Channel 11</translation>
+      <translation>频道 11</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/12/label</name>
     <message>
       <source>Channel 12</source>
-      <translation type="unfinished">Channel 12</translation>
+      <translation>频道 12</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/13/label</name>
     <message>
       <source>Channel 13</source>
-      <translation type="unfinished">Channel 13</translation>
+      <translation>频道 13</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/14/label</name>
     <message>
       <source>Channel 14</source>
-      <translation type="unfinished">Channel 14</translation>
+      <translation>频道 14</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/15/label</name>
     <message>
       <source>Channel 15</source>
-      <translation type="unfinished">Channel 15</translation>
+      <translation>频道 15</translation>
     </message>
   </context>
   <context>
     <name>/outputs_v1/SIM/subgroups/0/channels/16/label</name>
     <message>
       <source>Channel 16</source>
-      <translation type="unfinished">Channel 16</translation>
+      <translation>频道 16</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/0/label</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>禁用</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/1/label</name>
     <message>
       <source>Constant Min</source>
-      <translation type="unfinished">Constant Min</translation>
+      <translation>固定最小值</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/2/label</name>
     <message>
       <source>Constant Max</source>
-      <translation type="unfinished">Constant Max</translation>
+      <translation>固定最大值</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/101/label</name>
     <message>
       <source>Motor 1</source>
-      <translation type="unfinished">Motor 1</translation>
+      <translation>电机 1</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/102/label</name>
     <message>
       <source>Motor 2</source>
-      <translation type="unfinished">Motor 2</translation>
+      <translation>电机 2</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/103/label</name>
     <message>
       <source>Motor 3</source>
-      <translation type="unfinished">Motor 3</translation>
+      <translation>电机 3</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/104/label</name>
     <message>
       <source>Motor 4</source>
-      <translation type="unfinished">Motor 4</translation>
+      <translation>电机 4</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/105/label</name>
     <message>
       <source>Motor 5</source>
-      <translation type="unfinished">Motor 5</translation>
+      <translation>电机 5</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/106/label</name>
     <message>
       <source>Motor 6</source>
-      <translation type="unfinished">Motor 6</translation>
+      <translation>电机 6</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/107/label</name>
     <message>
       <source>Motor 7</source>
-      <translation type="unfinished">Motor 7</translation>
+      <translation>电机 7</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/108/label</name>
     <message>
       <source>Motor 8</source>
-      <translation type="unfinished">Motor 8</translation>
+      <translation>电机 8</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/201/label</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>舵机 1</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/202/label</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>舵机 2</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/203/label</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>舵机 3</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/204/label</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>舵机 4</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/205/label</name>
     <message>
       <source>Servo 5</source>
-      <translation type="unfinished">Servo 5</translation>
+      <translation>舵机 5</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/206/label</name>
     <message>
       <source>Servo 6</source>
-      <translation type="unfinished">Servo 6</translation>
+      <translation>舵机 6</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/207/label</name>
     <message>
       <source>Servo 7</source>
-      <translation type="unfinished">Servo 7</translation>
+      <translation>舵机 7</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/208/label</name>
     <message>
       <source>Servo 8</source>
-      <translation type="unfinished">Servo 8</translation>
+      <translation>舵机 8</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/301/label</name>
     <message>
       <source>Offboard Actuator Set 1</source>
-      <translation type="unfinished">Offboard Actuator Set 1</translation>
+      <translation>机外执行器组 1</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/302/label</name>
     <message>
       <source>Offboard Actuator Set 2</source>
-      <translation type="unfinished">Offboard Actuator Set 2</translation>
+      <translation>机外执行器组 2</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/303/label</name>
     <message>
       <source>Offboard Actuator Set 3</source>
-      <translation type="unfinished">Offboard Actuator Set 3</translation>
+      <translation>机外执行器组 3</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/304/label</name>
     <message>
       <source>Offboard Actuator Set 4</source>
-      <translation type="unfinished">Offboard Actuator Set 4</translation>
+      <translation>机外执行器组 4</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/305/label</name>
     <message>
       <source>Offboard Actuator Set 5</source>
-      <translation type="unfinished">Offboard Actuator Set 5</translation>
+      <translation>机外执行器组 5</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/306/label</name>
     <message>
       <source>Offboard Actuator Set 6</source>
-      <translation type="unfinished">Offboard Actuator Set 6</translation>
+      <translation>机外执行器组 6</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/400/label</name>
     <message>
       <source>Landing Gear</source>
-      <translation type="unfinished">Landing Gear</translation>
+      <translation>起落架</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/401/label</name>
     <message>
       <source>Parachute</source>
-      <translation type="unfinished">Parachute</translation>
+      <translation>降落伞</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/402/label</name>
     <message>
       <source>RC Roll</source>
-      <translation type="unfinished">RC Roll</translation>
+      <translation>遥控横滚</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/403/label</name>
     <message>
       <source>RC Pitch</source>
-      <translation type="unfinished">RC Pitch</translation>
+      <translation>遥控俯仰</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/404/label</name>
     <message>
       <source>RC Throttle</source>
-      <translation type="unfinished">RC Throttle</translation>
+      <translation>遥控油门</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/405/label</name>
     <message>
       <source>RC Yaw</source>
-      <translation type="unfinished">RC Yaw</translation>
+      <translation>遥控偏航</translation>
     </message>
   </context>
   <context>
     <name>/functions_v1/406/label</name>
     <message>
       <source>RC Flaps</source>
-      <translation type="unfinished">RC Flaps</translation>
+      <translation>RC Flaps</translation>
     </message>
   </context>
   <context>
