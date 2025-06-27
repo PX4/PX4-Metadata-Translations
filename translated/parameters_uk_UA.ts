@@ -7060,14 +7060,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC9/values/408/description</name>
     <message>
       <source>RC AUX 2</source>
-      <translation type="unfinished">RC AUX 2</translation>
+      <translation>Пульт(RC) AUX 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/409/description</name>
     <message>
       <source>RC AUX 3</source>
-      <translation type="unfinished">RC AUX 3</translation>
+      <translation>Пульт(RC) AUX 3</translation>
     </message>
   </context>
   <context>
@@ -7095,42 +7095,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC9/values/420/description</name>
     <message>
       <source>Gimbal Roll</source>
-      <translation type="unfinished">Gimbal Roll</translation>
+      <translation>Крен підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation type="unfinished">Gimbal Pitch</translation>
+      <translation>Тангаж підвісу для камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation type="unfinished">Gimbal Yaw</translation>
+      <translation>Рискання підвісом камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/430/description</name>
     <message>
       <source>Gripper</source>
-      <translation type="unfinished">Gripper</translation>
+      <translation>Захоплювач</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation type="unfinished">Landing Gear Wheel</translation>
+      <translation>Колесо блоку приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC запалювання мотору</translation>
     </message>
   </context>
   <context>
@@ -7144,21 +7144,21 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC9/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/shortDesc</name>
     <message>
       <source>Reverse Output Range for SIM</source>
-      <translation type="unfinished">Reverse Output Range for SIM</translation>
+      <translation>Зворотній діапазон виводу для SIM</translation>
     </message>
   </context>
   <context>
@@ -7166,127 +7166,127 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Allows to reverse the output range for each channel.
 Note: this is only useful for servos.</source>
-      <translation type="unfinished">Allows to reverse the output range for each channel.
-Note: this is only useful for servos.</translation>
+      <translation>Дозволяє реверсевувати вихідний діапазон для кожного каналу.
+Увага: це лише підходить для сервоприводів.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/0/description</name>
     <message>
       <source>SIM Channel 1</source>
-      <translation type="unfinished">SIM Channel 1</translation>
+      <translation>SIM канал 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/1/description</name>
     <message>
       <source>SIM Channel 2</source>
-      <translation type="unfinished">SIM Channel 2</translation>
+      <translation>SIM канал 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/2/description</name>
     <message>
       <source>SIM Channel 3</source>
-      <translation type="unfinished">SIM Channel 3</translation>
+      <translation>SIM канал 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/3/description</name>
     <message>
       <source>SIM Channel 4</source>
-      <translation type="unfinished">SIM Channel 4</translation>
+      <translation>SIM канал 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/4/description</name>
     <message>
       <source>SIM Channel 5</source>
-      <translation type="unfinished">SIM Channel 5</translation>
+      <translation>SIM канал 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/5/description</name>
     <message>
       <source>SIM Channel 6</source>
-      <translation type="unfinished">SIM Channel 6</translation>
+      <translation>SIM канал 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/6/description</name>
     <message>
       <source>SIM Channel 7</source>
-      <translation type="unfinished">SIM Channel 7</translation>
+      <translation>SIM канал 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/7/description</name>
     <message>
       <source>SIM Channel 8</source>
-      <translation type="unfinished">SIM Channel 8</translation>
+      <translation>SIM канал 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/8/description</name>
     <message>
       <source>SIM Channel 9</source>
-      <translation type="unfinished">SIM Channel 9</translation>
+      <translation>SIM канал 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/9/description</name>
     <message>
       <source>SIM Channel 10</source>
-      <translation type="unfinished">SIM Channel 10</translation>
+      <translation>SIM канал 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/10/description</name>
     <message>
       <source>SIM Channel 11</source>
-      <translation type="unfinished">SIM Channel 11</translation>
+      <translation>SIM канал 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/11/description</name>
     <message>
       <source>SIM Channel 12</source>
-      <translation type="unfinished">SIM Channel 12</translation>
+      <translation>SIM канал 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/12/description</name>
     <message>
       <source>SIM Channel 13</source>
-      <translation type="unfinished">SIM Channel 13</translation>
+      <translation>SIM канал 13</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/13/description</name>
     <message>
       <source>SIM Channel 14</source>
-      <translation type="unfinished">SIM Channel 14</translation>
+      <translation>SIM канал 14</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/14/description</name>
     <message>
       <source>SIM Channel 15</source>
-      <translation type="unfinished">SIM Channel 15</translation>
+      <translation>SIM канал 15</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/15/description</name>
     <message>
       <source>SIM Channel 16</source>
-      <translation type="unfinished">SIM Channel 16</translation>
+      <translation>SIM канал 16</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_BETA_GATE/shortDesc</name>
     <message>
       <source>Gate size for sideslip angle fusion</source>
-      <translation type="unfinished">Gate size for sideslip angle fusion</translation>
+      <translation>Розмір шлюза для збору даних бічного ковзання</translation>
     </message>
   </context>
   <context>
