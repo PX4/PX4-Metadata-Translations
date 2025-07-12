@@ -36225,6 +36225,395 @@ ORIENTATION_RIGHTSIDE_UP = 32</source>
   </message>
 </context>
 <context>
+  <name>/parameters/SEP_AUTO_CONFIG/shortDesc</name>
+  <message>
+  <source>Toggle automatic receiver configuration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_AUTO_CONFIG/longDesc</name>
+  <message>
+  <source>By default, the receiver is automatically configured. Sometimes it may be used for multiple purposes.
+If the offered parameters aren't sufficient, this parameter can be disabled to have full control of the receiver configuration.
+A good way to use this is to enable automatic configuration, let the receiver be configured, and then disable it to make manual adjustments.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_AUTO_CONFIG/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_AUTO_CONFIG/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_CONST_USAGE/shortDesc</name>
+  <message>
+  <source>Usage of different constellations</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_CONST_USAGE/longDesc</name>
+  <message>
+  <source>Choice of which constellations the receiver should use for PVT computation.
+When this is 0, the constellation usage isn't changed.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_CONST_USAGE/bitmask/0/description</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_CONST_USAGE/bitmask/1/description</name>
+  <message>
+  <source>GLONASS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_CONST_USAGE/bitmask/2/description</name>
+  <message>
+  <source>Galileo</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_CONST_USAGE/bitmask/3/description</name>
+  <message>
+  <source>SBAS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_CONST_USAGE/bitmask/4/description</name>
+  <message>
+  <source>BeiDou</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_DUMP_COMM/shortDesc</name>
+  <message>
+  <source>Log GPS communication data</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_DUMP_COMM/longDesc</name>
+  <message>
+  <source>Log raw communication between the driver and connected receivers.
+For example, "To receiver" will log all commands and corrections sent by the driver to the receiver.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_DUMP_COMM/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_DUMP_COMM/values/1/description</name>
+  <message>
+  <source>From receiver</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_DUMP_COMM/values/2/description</name>
+  <message>
+  <source>To receiver</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_DUMP_COMM/values/3/description</name>
+  <message>
+  <source>Both</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_HARDW_SETUP/shortDesc</name>
+  <message>
+  <source>Setup and expected use of the hardware</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_HARDW_SETUP/longDesc</name>
+  <message>
+  <source>Setup and expected use of the hardware.
+- Default: Use two receivers as completely separate instances.
+- Moving base: Use two receivers in a rover &amp; moving base setup for heading.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_HARDW_SETUP/values/0/description</name>
+  <message>
+  <source>Default</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_HARDW_SETUP/values/1/description</name>
+  <message>
+  <source>Moving base</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_FORCE/shortDesc</name>
+  <message>
+  <source>Whether to overwrite or add to existing logging</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_FORCE/longDesc</name>
+  <message>
+  <source>When the receiver is already set up to log data, this decides whether extra logged data should be added or overwrite existing data.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_FORCE/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_FORCE/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/shortDesc</name>
+  <message>
+  <source>Logging frequency for the receiver</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/longDesc</name>
+  <message>
+  <source>Select the frequency at which the connected receiver should log data to its internal storage.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/1/description</name>
+  <message>
+  <source>0.1 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/2/description</name>
+  <message>
+  <source>0.2 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/3/description</name>
+  <message>
+  <source>0.5 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/4/description</name>
+  <message>
+  <source>1 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/5/description</name>
+  <message>
+  <source>2 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/6/description</name>
+  <message>
+  <source>5 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/7/description</name>
+  <message>
+  <source>10 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/8/description</name>
+  <message>
+  <source>20 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/9/description</name>
+  <message>
+  <source>25 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_HZ/values/10/description</name>
+  <message>
+  <source>50 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_LEVEL/shortDesc</name>
+  <message>
+  <source>Logging level for the receiver</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_LEVEL/longDesc</name>
+  <message>
+  <source>Select the level of detail that needs to be logged by the receiver.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_LEVEL/values/0/description</name>
+  <message>
+  <source>Lite</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_LEVEL/values/1/description</name>
+  <message>
+  <source>Basic</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_LEVEL/values/2/description</name>
+  <message>
+  <source>Default</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_LOG_LEVEL/values/3/description</name>
+  <message>
+  <source>Full</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_OUTP_HZ/shortDesc</name>
+  <message>
+  <source>Output frequency of main SBF blocks</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_OUTP_HZ/longDesc</name>
+  <message>
+  <source>The output frequency of the main SBF blocks needed for PVT information.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_OUTP_HZ/values/0/description</name>
+  <message>
+  <source>5 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_OUTP_HZ/values/1/description</name>
+  <message>
+  <source>10 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_OUTP_HZ/values/2/description</name>
+  <message>
+  <source>20 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_OUTP_HZ/values/3/description</name>
+  <message>
+  <source>25 Hz</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_PITCH_OFFS/shortDesc</name>
+  <message>
+  <source>Pitch offset for dual antenna GPS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_PITCH_OFFS/longDesc</name>
+  <message>
+  <source>Vertical offsets can be compensated for by adjusting the Pitch offset.
+Note that this can be interpreted as the "roll" angle in case the antennas are aligned along the perpendicular axis.
+This occurs in situations where the two antenna ARPs may not be exactly at the same height in the vehicle reference frame.
+Since pitch is defined as the right-handed rotation about the vehicle Y axis,
+a situation where the main antenna is mounted lower than the aux antenna (assuming the default antenna setup) will result in a positive pitch.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_SAT_INFO/shortDesc</name>
+  <message>
+  <source>Enable sat info</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_SAT_INFO/longDesc</name>
+  <message>
+  <source>Enable publication of satellite info (ORB_ID(satellite_info)) if possible.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_SAT_INFO/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_SAT_INFO/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_STREAM_LOG/shortDesc</name>
+  <message>
+  <source>Logging stream used during automatic configuration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_STREAM_LOG/longDesc</name>
+  <message>
+  <source>The stream the autopilot sets up on the receiver to output the logging data.
+Set this to another value if the default stream is already used for another purpose.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_STREAM_MAIN/shortDesc</name>
+  <message>
+  <source>Main stream used during automatic configuration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_STREAM_MAIN/longDesc</name>
+  <message>
+  <source>The stream the autopilot sets up on the receiver to output the main data.
+Set this to another value if the default stream is already used for another purpose.</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_YAW_OFFS/shortDesc</name>
+  <message>
+  <source>Heading/Yaw offset for dual antenna GPS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SEP_YAW_OFFS/longDesc</name>
+  <message>
+  <source>Heading offset angle for dual antenna GPS setups that support heading estimation.
+Set this to 0 if the antennas are parallel to the forward-facing direction
+of the vehicle and the rover antenna is in front.
+The offset angle increases clockwise.
+Set this to 90 if the rover antenna is placed on the
+right side of the vehicle and the moving base antenna is on the left side.</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SIH_DISTSNSR_MAX/shortDesc</name>
   <message>
   <source>distance sensor maximum range</source>
@@ -39408,6 +39797,12 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
+  <name>$globals/category/Developer</name>
+  <message>
+  <source>Developer</source>
+  </message>
+</context>
+<context>
   <name>$globals/category/System</name>
   <message>
   <source>System</source>
@@ -39420,57 +39815,9 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/category/Developer</name>
+  <name>$globals/group/System</name>
   <message>
-  <source>Developer</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
+  <source>System</source>
   </message>
 </context>
 <context>
@@ -39480,297 +39827,9 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Flight Task Orbit</name>
-  <message>
-  <source>Flight Task Orbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Landing Target Estimator</name>
-  <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Ackermann</name>
-  <message>
-  <source>Rover Ackermann</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Lateral Control</name>
-  <message>
-  <source>FW Lateral Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UXRCE-DDS Client</name>
-  <message>
-  <source>UXRCE-DDS Client</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN GNSS</name>
-  <message>
-  <source>UAVCAN GNSS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Camera trigger</name>
   <message>
   <source>Camera trigger</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Attitude Control</name>
-  <message>
-  <source>Rover Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Mecanum</name>
-  <message>
-  <source>Rover Mecanum</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Actuator Outputs</name>
-  <message>
-  <source>Actuator Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Rate Control</name>
-  <message>
-  <source>Rover Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Velocity Control</name>
-  <message>
-  <source>Rover Velocity Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Takeoff</name>
-  <message>
-  <source>FW Auto Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Miscellaneous</name>
-  <message>
-  <source>Miscellaneous</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Attitude Control</name>
-  <message>
-  <source>FW Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Payload Deliverer</name>
-  <message>
-  <source>Payload Deliverer</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Differential</name>
-  <message>
-  <source>Rover Differential</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UAVCAN Motor Parameters</name>
-  <message>
-  <source>UAVCAN Motor Parameters</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
   </message>
 </context>
 <context>
@@ -39780,15 +39839,69 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Pure Pursuit</name>
+  <name>$globals/group/Sensor Calibration</name>
   <message>
-  <source>Pure Pursuit</source>
+  <source>Sensor Calibration</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Sensors</name>
+  <name>$globals/group/Local Position Estimator</name>
   <message>
-  <source>Sensors</source>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Performance</name>
+  <message>
+  <source>FW Performance</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Land Detector</name>
+  <message>
+  <source>Land Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Differential</name>
+  <message>
+  <source>Rover Differential</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Attitude Control</name>
+  <message>
+  <source>Rover Attitude Control</source>
   </message>
 </context>
 <context>
@@ -39798,39 +39911,39 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Longitudinal Control</name>
+  <name>$globals/group/Pure Pursuit</name>
   <message>
-  <source>FW Longitudinal Control</source>
+  <source>Pure Pursuit</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Attitude Control</name>
+  <name>$globals/group/Battery Calibration</name>
   <message>
-  <source>VTOL Attitude Control</source>
+  <source>Battery Calibration</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Acro Mode</name>
+  <name>$globals/group/Rover Velocity Control</name>
   <message>
-  <source>Multicopter Acro Mode</source>
+  <source>Rover Velocity Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/PWM Outputs</name>
+  <name>$globals/group/Return Mode</name>
   <message>
-  <source>PWM Outputs</source>
+  <source>Return Mode</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/OSD</name>
+  <name>$globals/group/GPS</name>
   <message>
-  <source>OSD</source>
+  <source>GPS</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Takeoff</name>
+  <name>$globals/group/Geometry</name>
   <message>
-  <source>VTOL Takeoff</source>
+  <source>Geometry</source>
   </message>
 </context>
 <context>
@@ -39840,9 +39953,21 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW General</name>
+  <name>$globals/group/Simulation In Hardware</name>
   <message>
-  <source>FW General</source>
+  <source>Simulation In Hardware</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
   </message>
 </context>
 <context>
@@ -39852,21 +39977,291 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Actuator Outputs</name>
+  <message>
+  <source>Actuator Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Lateral Control</name>
+  <message>
+  <source>FW Lateral Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Flight Task Orbit</name>
+  <message>
+  <source>Flight Task Orbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW General</name>
+  <message>
+  <source>FW General</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN GNSS</name>
+  <message>
+  <source>UAVCAN GNSS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Testing</name>
+  <message>
+  <source>Testing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Attitude Control</name>
+  <message>
+  <source>FW Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Takeoff</name>
+  <message>
+  <source>FW Auto Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Septentrio</name>
+  <message>
+  <source>Septentrio</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Rate Control</name>
+  <message>
+  <source>Rover Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/PWM Outputs</name>
+  <message>
+  <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Ackermann</name>
+  <message>
+  <source>Rover Ackermann</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UAVCAN Motor Parameters</name>
+  <message>
+  <source>UAVCAN Motor Parameters</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Simulator</name>
   <message>
   <source>Simulator</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Geofence</name>
+  <name>$globals/group/Circuit Breaker</name>
   <message>
-  <source>Geofence</source>
+  <source>Circuit Breaker</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Failure Detector</name>
+  <name>$globals/group/Precision Land</name>
   <message>
-  <source>Failure Detector</source>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Mecanum</name>
+  <message>
+  <source>Rover Mecanum</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Longitudinal Control</name>
+  <message>
+  <source>FW Longitudinal Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UXRCE-DDS Client</name>
+  <message>
+  <source>UXRCE-DDS Client</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Payload Deliverer</name>
+  <message>
+  <source>Payload Deliverer</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
   </message>
 </context>
 </TS>
