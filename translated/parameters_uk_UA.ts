@@ -440,8 +440,8 @@
     <message>
       <source>Sets first 4 characters of a total of 8. Valid characters are A-Z, 0-9, " ". Example "PX4 " -&gt; 1347957792
 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</source>
-      <translation type="unfinished">Sets first 4 characters of a total of 8. Valid characters are A-Z, 0-9, " ". Example "PX4 " -&gt; 1347957792
-For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</translation>
+      <translation>Встановлює перші 4 символи з загальних 8. Допустимими символами є A-Z, 0-9, " ". Приклад "PX4" -&gt; 1347957792
+Для CALLSIGN коротше за 8 символів використовуйте null закінчення наприкінці '\0'.</translation>
     </message>
   </context>
   <context>
@@ -456,8 +456,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
     <message>
       <source>Sets second 4 characters of a total of 8. Valid characters are A-Z, 0-9, " " only. Example "TEST" -&gt; 1413829460
 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</source>
-      <translation type="unfinished">Sets second 4 characters of a total of 8. Valid characters are A-Z, 0-9, " " only. Example "TEST" -&gt; 1413829460
-For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</translation>
+      <translation>Встановлює другі 4 символи з 8 загальних. Допустимими символами є лише A-Z, 0-9, " ". Приклад "TEST" -&gt; 1413829460 Для CALLSIGN коротше за 8 символів використовують null закінчення наприкінці '\0'.</translation>
     </message>
   </context>
   <context>
@@ -1052,7 +1051,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
     <name>/parameters/PWM_MAIN_FUNC1/shortDesc</name>
     <message>
       <source>SIM Channel 1 Output Function</source>
-      <translation type="unfinished">SIM Channel 1 Output Function</translation>
+      <translation>Функції виводу SIM Каналу 1</translation>
     </message>
   </context>
   <context>
@@ -1065,13 +1064,12 @@ The default failsafe value is set according to the selected function:
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
 - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 1.
-The default failsafe value is set according to the selected function:
-- 'Min' for ConstantMin
-- 'Max' for ConstantMax
-- 'Max' for Parachute
-- ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 1. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: 
+- 'Min' для ConstantMin 
+- 'Max' для ConstantMax 
+-'Max' для Парашута 
+- ('Max'+'Min')/2 для Сервоприводів 
+- 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -1407,14 +1405,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC запалювання мотору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Тяга Двигуна</translation>
     </message>
   </context>
   <context>
