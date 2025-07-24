@@ -1419,21 +1419,21 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC Стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/shortDesc</name>
     <message>
       <source>SIM Channel 10 Output Function</source>
-      <translation type="unfinished">SIM Channel 10 Output Function</translation>
+      <translation/>
     </message>
   </context>
   <context>
@@ -7313,7 +7313,7 @@ Note: this is only useful for servos.</translation>
     <name>/parameters/ASPD_BETA_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, який використовується тестом інноваційної послідовності.</translation>
     </message>
   </context>
   <context>
@@ -7461,8 +7461,8 @@ The time required to detect a fault when the threshold is exceeded depends on th
     <message>
       <source>This sets the time integral of airspeed innovation exceedance above ASPD_FS_INNOV required to trigger a failsafe.
 Larger values make the check less sensitive, smaller positive values make it more sensitive.</source>
-      <translation type="unfinished">This sets the time integral of airspeed innovation exceedance above ASPD_FS_INNOV required to trigger a failsafe.
-Larger values make the check less sensitive, smaller positive values make it more sensitive.</translation>
+      <translation>Це встановлює час перевищення інноваційної інтеграції повітряної швидкості понад ASPD_FS_INNOV, необхідний для виклику аварійного режиму.
+Більші значення роблять перевірку менш чутливою, менші позитивні значення роблять її більш чутливою.</translation>
     </message>
   </context>
   <context>
