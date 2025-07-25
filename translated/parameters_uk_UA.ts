@@ -2681,56 +2681,56 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC13/values/109/description</name>
     <message>
       <source>Motor 9</source>
-      <translation type="unfinished">Motor 9</translation>
+      <translation>Мотор 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/110/description</name>
     <message>
       <source>Motor 10</source>
-      <translation type="unfinished">Motor 10</translation>
+      <translation>Мотор 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/111/description</name>
     <message>
       <source>Motor 11</source>
-      <translation type="unfinished">Motor 11</translation>
+      <translation>Мотор 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/112/description</name>
     <message>
       <source>Motor 12</source>
-      <translation type="unfinished">Motor 12</translation>
+      <translation>Мотор 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/201/description</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>Сервопривід 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/202/description</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>Сервопривід 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/203/description</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>Сервопривід 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/204/description</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>Сервопривід 4</translation>
     </message>
   </context>
   <context>
