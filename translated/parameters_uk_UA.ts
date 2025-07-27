@@ -5225,35 +5225,35 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC4/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC запалювання мотору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/shortDesc</name>
     <message>
       <source>SIM Channel 5 Output Function</source>
-      <translation type="unfinished">SIM Channel 5 Output Function</translation>
+      <translation>Функція виводу SIM Каналу 5</translation>
     </message>
   </context>
   <context>
@@ -5266,13 +5266,12 @@ The default failsafe value is set according to the selected function:
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
 - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 5.
-The default failsafe value is set according to the selected function:
-- 'Min' for ConstantMin
-- 'Max' for ConstantMax
-- 'Max' for Parachute
-- ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 5. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: 
+- 'Min' для ConstantMin 
+- 'Max' для ConstantMax 
+- 'Max' для Парашута 
+- ('Max'+'Min')/2 для Сервоприводів 
+- 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -5608,35 +5607,35 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC5/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC запалювання мотору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/shortDesc</name>
     <message>
       <source>SIM Channel 6 Output Function</source>
-      <translation type="unfinished">SIM Channel 6 Output Function</translation>
+      <translation>Функція виводу SIM Каналу 6</translation>
     </message>
   </context>
   <context>
@@ -5649,13 +5648,12 @@ The default failsafe value is set according to the selected function:
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
 - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 6.
-The default failsafe value is set according to the selected function:
-- 'Min' for ConstantMin
-- 'Max' for ConstantMax
-- 'Max' for Parachute
-- ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 6. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: 
+- 'Min' для ConstantMin 
+- 'Max' для ConstantMax 
+- 'Max' для Парашута 
+- ('Max'+'Min')/2 для Сервоприводів 
+- 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
@@ -5991,35 +5989,35 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC6/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation type="unfinished">IC Engine Ignition</translation>
+      <translation>IC запалювання мотору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation type="unfinished">IC Engine Throttle</translation>
+      <translation>IC Дросель Двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation type="unfinished">IC Engine Choke</translation>
+      <translation>IC заслінка двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/shortDesc</name>
     <message>
       <source>SIM Channel 7 Output Function</source>
-      <translation type="unfinished">SIM Channel 7 Output Function</translation>
+      <translation>Функція виводу SIM Каналу 7</translation>
     </message>
   </context>
   <context>
