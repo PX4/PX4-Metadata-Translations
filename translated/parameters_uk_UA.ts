@@ -4864,14 +4864,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC3/values/453/description</name>
     <message>
       <source>IC Engine Starter</source>
-      <translation type="unfinished">IC Engine Starter</translation>
+      <translation>IC стартер двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/shortDesc</name>
     <message>
       <source>SIM Channel 4 Output Function</source>
-      <translation type="unfinished">SIM Channel 4 Output Function</translation>
+      <translation>Функція виводу SIM Каналу 4</translation>
     </message>
   </context>
   <context>
@@ -4884,13 +4884,12 @@ The default failsafe value is set according to the selected function:
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
 - 'Disarmed' for the rest</source>
-      <translation type="unfinished">Select what should be output on SIM Channel 4.
-The default failsafe value is set according to the selected function:
-- 'Min' for ConstantMin
-- 'Max' for ConstantMax
-- 'Max' for Parachute
-- ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</translation>
+      <translation>Виберіть, що має видавати SIM Канал 4. Значення аварійного режиму за замовчуванням встановлено згідно з обраною функцією: 
+- 'Min' для ConstantMin 
+- 'Max' для ConstantMax 
+- 'Max' для Парашута 
+- ('Max'+'Min')/2 для Сервоприводів 
+- 'Охолощений' для решти</translation>
     </message>
   </context>
   <context>
