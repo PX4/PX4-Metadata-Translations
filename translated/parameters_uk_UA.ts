@@ -3473,98 +3473,98 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC15/values/201/description</name>
     <message>
       <source>Servo 1</source>
-      <translation type="unfinished">Servo 1</translation>
+      <translation>Сервопривід 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/202/description</name>
     <message>
       <source>Servo 2</source>
-      <translation type="unfinished">Servo 2</translation>
+      <translation>Сервопривід 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/203/description</name>
     <message>
       <source>Servo 3</source>
-      <translation type="unfinished">Servo 3</translation>
+      <translation>Сервопривід 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/204/description</name>
     <message>
       <source>Servo 4</source>
-      <translation type="unfinished">Servo 4</translation>
+      <translation>Сервопривід 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/205/description</name>
     <message>
       <source>Servo 5</source>
-      <translation type="unfinished">Servo 5</translation>
+      <translation>Сервопривід 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/206/description</name>
     <message>
       <source>Servo 6</source>
-      <translation type="unfinished">Servo 6</translation>
+      <translation>Сервопривід 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/207/description</name>
     <message>
       <source>Servo 7</source>
-      <translation type="unfinished">Servo 7</translation>
+      <translation>Сервопривід 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/208/description</name>
     <message>
       <source>Servo 8</source>
-      <translation type="unfinished">Servo 8</translation>
+      <translation>Сервопривід 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation type="unfinished">Peripheral via Actuator Set 1</translation>
+      <translation>Периферія через Актюатора Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation type="unfinished">Peripheral via Actuator Set 2</translation>
+      <translation>Периферія через Актюатора Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation type="unfinished">Peripheral via Actuator Set 3</translation>
+      <translation>Периферія через Актюатора Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation type="unfinished">Peripheral via Actuator Set 4</translation>
+      <translation>Периферія через Актюатора Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation type="unfinished">Peripheral via Actuator Set 5</translation>
+      <translation>Периферія через Актюатора Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation type="unfinished">Peripheral via Actuator Set 6</translation>
+      <translation>Периферія через Актюатора Набір 6</translation>
     </message>
   </context>
   <context>
