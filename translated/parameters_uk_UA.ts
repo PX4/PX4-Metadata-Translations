@@ -7326,28 +7326,28 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_DO_CHECKS/longDesc</name>
     <message>
       <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.</source>
-      <translation type="unfinished">Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.</translation>
+      <translation>Контролює, які перевірки запущено для перевірки інформації про швидкість польоту для валідації. Застосовується тільки, якщо ASPD_PRIMARY &gt; 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_DO_CHECKS/bitmask/0/description</name>
     <message>
       <source>Only data missing check (triggers if more than 1s no data)</source>
-      <translation type="unfinished">Only data missing check (triggers if more than 1s no data)</translation>
+      <translation>Тільки дані про нестачу перевірки (викликається, якщо більше ніж 1 секунду дані відсутні)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_DO_CHECKS/bitmask/1/description</name>
     <message>
       <source>Data stuck (triggers if data is exactly constant for 2s in FW mode)</source>
-      <translation type="unfinished">Data stuck (triggers if data is exactly constant for 2s in FW mode)</translation>
+      <translation>Дані застрягли (викликається, якщо дані є постійними впродовж 2s у режимі FW)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_DO_CHECKS/bitmask/2/description</name>
     <message>
       <source>Innovation check (see ASPD_FS_INNOV)</source>
-      <translation type="unfinished">Innovation check (see ASPD_FS_INNOV)</translation>
+      <translation>Перевірка інновації (див. ASPD_FS_INNOV)</translation>
     </message>
   </context>
   <context>
