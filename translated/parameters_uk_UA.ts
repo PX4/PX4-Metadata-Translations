@@ -7163,7 +7163,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_REV/shortDesc</name>
     <message>
       <source>Reverse Output Range for SIM</source>
-      <translation type="unfinished">Reverse Output Range for SIM</translation>
+      <translation>Зворотній діапазон виводу для SIM</translation>
     </message>
   </context>
   <context>
@@ -7171,120 +7171,120 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Allows to reverse the output range for each channel.
 Note: this is only useful for servos.</source>
-      <translation type="unfinished">Allows to reverse the output range for each channel.
-Note: this is only useful for servos.</translation>
+      <translation>Дозволяє реверсевувати вихідний діапазон для кожного каналу.
+Увага: це лише підходить для сервоприводів.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/0/description</name>
     <message>
       <source>SIM Channel 1</source>
-      <translation type="unfinished">SIM Channel 1</translation>
+      <translation>SIM канал 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/1/description</name>
     <message>
       <source>SIM Channel 2</source>
-      <translation type="unfinished">SIM Channel 2</translation>
+      <translation>SIM канал 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/2/description</name>
     <message>
       <source>SIM Channel 3</source>
-      <translation type="unfinished">SIM Channel 3</translation>
+      <translation>SIM канал 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/3/description</name>
     <message>
       <source>SIM Channel 4</source>
-      <translation type="unfinished">SIM Channel 4</translation>
+      <translation>SIM канал 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/4/description</name>
     <message>
       <source>SIM Channel 5</source>
-      <translation type="unfinished">SIM Channel 5</translation>
+      <translation>SIM канал 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/5/description</name>
     <message>
       <source>SIM Channel 6</source>
-      <translation type="unfinished">SIM Channel 6</translation>
+      <translation>SIM канал 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/6/description</name>
     <message>
       <source>SIM Channel 7</source>
-      <translation type="unfinished">SIM Channel 7</translation>
+      <translation>SIM канал 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/7/description</name>
     <message>
       <source>SIM Channel 8</source>
-      <translation type="unfinished">SIM Channel 8</translation>
+      <translation>SIM канал 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/8/description</name>
     <message>
       <source>SIM Channel 9</source>
-      <translation type="unfinished">SIM Channel 9</translation>
+      <translation>SIM канал 9</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/9/description</name>
     <message>
       <source>SIM Channel 10</source>
-      <translation type="unfinished">SIM Channel 10</translation>
+      <translation>SIM канал 10</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/10/description</name>
     <message>
       <source>SIM Channel 11</source>
-      <translation type="unfinished">SIM Channel 11</translation>
+      <translation>SIM канал 11</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/11/description</name>
     <message>
       <source>SIM Channel 12</source>
-      <translation type="unfinished">SIM Channel 12</translation>
+      <translation>SIM канал 12</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/12/description</name>
     <message>
       <source>SIM Channel 13</source>
-      <translation type="unfinished">SIM Channel 13</translation>
+      <translation>SIM канал 13</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/13/description</name>
     <message>
       <source>SIM Channel 14</source>
-      <translation type="unfinished">SIM Channel 14</translation>
+      <translation>SIM канал 14</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/14/description</name>
     <message>
       <source>SIM Channel 15</source>
-      <translation type="unfinished">SIM Channel 15</translation>
+      <translation>SIM канал 15</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_REV/bitmask/15/description</name>
     <message>
       <source>SIM Channel 16</source>
-      <translation type="unfinished">SIM Channel 16</translation>
+      <translation>SIM канал 16</translation>
     </message>
   </context>
   <context>
@@ -7305,7 +7305,7 @@ Note: this is only useful for servos.</translation>
     <name>/parameters/ASPD_BETA_NOISE/shortDesc</name>
     <message>
       <source>Wind estimator sideslip measurement noise</source>
-      <translation type="unfinished">Wind estimator sideslip measurement noise</translation>
+      <translation>Вимірювач вітру викривлює вимірювання шуму</translation>
     </message>
   </context>
   <context>
@@ -7319,7 +7319,7 @@ Note: this is only useful for servos.</translation>
     <name>/parameters/ASPD_DO_CHECKS/shortDesc</name>
     <message>
       <source>Enable checks on airspeed sensors</source>
-      <translation type="unfinished">Enable checks on airspeed sensors</translation>
+      <translation>Активуйте перевірки сенсорів швидкості польоту</translation>
     </message>
   </context>
   <context>
