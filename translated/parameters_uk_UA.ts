@@ -7361,7 +7361,7 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_DO_CHECKS/bitmask/4/description</name>
     <message>
       <source>First principle check (airspeed change vs. throttle and pitch)</source>
-      <translation>Перший базова перевірка (зміна швидкості польоту проти тяги та тангажу)</translation>
+      <translation>Перша базова перевірка (зміна швидкості польоту проти тяги та тангажу)</translation>
     </message>
   </context>
   <context>
@@ -7396,7 +7396,7 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_FP_T_WINDOW/shortDesc</name>
     <message>
       <source>First principle airspeed check time window</source>
-      <translation type="unfinished">First principle airspeed check time window</translation>
+      <translation>Часовий інтервал першої базової перевірки швидкості польоту</translation>
     </message>
   </context>
   <context>
@@ -7407,18 +7407,14 @@ Triggers when the airspeed change within this window is negative while throttle 
 and the vehicle pitches down.
 Is meant to catch degrading airspeed blockages as can happen when flying through icing conditions.
 Relies on  FW_THR_TRIM being set accurately.</source>
-      <translation type="unfinished">Window for comparing airspeed change to throttle and pitch change.
-Triggers when the airspeed change within this window is negative while throttle increases
-and the vehicle pitches down.
-Is meant to catch degrading airspeed blockages as can happen when flying through icing conditions.
-Relies on  FW_THR_TRIM being set accurately.</translation>
+      <translation>Вікно для порівняння зміни швидкості польоту відносно зміни тяги та тангажу. Спрацьовує коли зміна швидкості польоту в межах цього вікна є від'ємною; в той час, як тяга збільшується та апарат пікірує. Призначено для підхоплення блокад спадаючої швидкості польоту, яке може статися при польоті в умовах обледеніння. Залежить від точності встановлення FW_THR_TRIM.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FS_INNOV/shortDesc</name>
     <message>
       <source>Airspeed failure innovation threshold</source>
-      <translation type="unfinished">Airspeed failure innovation threshold</translation>
+      <translation>Неспрацювання інноваційного порогу швидкості польоту</translation>
     </message>
   </context>
   <context>
