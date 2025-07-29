@@ -7354,14 +7354,14 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_DO_CHECKS/bitmask/3/description</name>
     <message>
       <source>Load factor check (triggers if measurement is below stall speed)</source>
-      <translation type="unfinished">Load factor check (triggers if measurement is below stall speed)</translation>
+      <translation>Перевірка фактора заряджання (викликається, якщо вимірювання є нижче швидкості звалювання)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_DO_CHECKS/bitmask/4/description</name>
     <message>
       <source>First principle check (airspeed change vs. throttle and pitch)</source>
-      <translation type="unfinished">First principle check (airspeed change vs. throttle and pitch)</translation>
+      <translation>Перший базова перевірка (зміна швидкості польоту проти тяги та тангажу)</translation>
     </message>
   </context>
   <context>
