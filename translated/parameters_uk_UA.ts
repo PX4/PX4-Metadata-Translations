@@ -7312,7 +7312,7 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_BETA_NOISE/longDesc</name>
     <message>
       <source>Sideslip measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
-      <translation type="unfinished">Sideslip measurement noise of the internal wind estimator(s) of the airspeed selector.</translation>
+      <translation>Викривлення вимірювання шуму внутрішнього вимірювача вітру селектора швидкості польоту.</translation>
     </message>
   </context>
   <context>
