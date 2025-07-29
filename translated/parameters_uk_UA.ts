@@ -7368,28 +7368,28 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_FALLBACK/shortDesc</name>
     <message>
       <source>Fallback options</source>
-      <translation type="unfinished">Fallback options</translation>
+      <translation>Опції запасного плану</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FALLBACK/values/0/description</name>
     <message>
       <source>Fallback only to other airspeed sensors</source>
-      <translation type="unfinished">Fallback only to other airspeed sensors</translation>
+      <translation>Резервний варіант лише для інших сенсорів швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FALLBACK/values/1/description</name>
     <message>
       <source>Fallback to groundspeed-minus-windspeed airspeed estimation</source>
-      <translation type="unfinished">Fallback to groundspeed-minus-windspeed airspeed estimation</translation>
+      <translation>Відступити до визначення швидкості польоту через швидкість відносно землі мінус швидкість вітру</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FALLBACK/values/2/description</name>
     <message>
       <source>Fallback to thrust based airspeed estimation</source>
-      <translation type="unfinished">Fallback to thrust based airspeed estimation</translation>
+      <translation>Відступити до визначення швидкості польоту на основі тяги</translation>
     </message>
   </context>
   <context>
