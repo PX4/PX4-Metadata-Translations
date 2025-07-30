@@ -7424,17 +7424,14 @@ Relies on  FW_THR_TRIM being set accurately.</source>
 smaller values make it more sensitive. Large innovations indicate an inconsistency between predicted (groundspeed - windspeeed)
 and measured airspeed.
 The time required to detect a fault when the threshold is exceeded depends on the size of the exceedance and is controlled by the ASPD_FS_INTEG parameter.</source>
-      <translation type="unfinished">This specifies the minimum airspeed innovation required to trigger a failsafe. Larger values make the check less sensitive,
-smaller values make it more sensitive. Large innovations indicate an inconsistency between predicted (groundspeed - windspeeed)
-and measured airspeed.
-The time required to detect a fault when the threshold is exceeded depends on the size of the exceedance and is controlled by the ASPD_FS_INTEG parameter.</translation>
+      <translation>Це визначає мінімальну інноваційну швидкість польоту необхідну для виклику аварійного режиму. Великі інновації вказують на незбіг між очікуваною (швидкість відносно землі мінус швидкість вітру) та виміряна швидкість польоту. Час необхідний для визначення помилки, коли поріг перевищено, залежить від розміру перевищення та контролюється ASPD_FS_INTEG параметр.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FS_INTEG/shortDesc</name>
     <message>
       <source>Airspeed failure innovation integral threshold</source>
-      <translation type="unfinished">Airspeed failure innovation integral threshold</translation>
+      <translation>Неспрацювання інноваційного інтегрального порогу швидкості польоту</translation>
     </message>
   </context>
   <context>
@@ -7450,7 +7447,7 @@ Larger values make the check less sensitive, smaller positive values make it mor
     <name>/parameters/ASPD_FS_T_START/shortDesc</name>
     <message>
       <source>Airspeed failsafe start delay</source>
-      <translation type="unfinished">Airspeed failsafe start delay</translation>
+      <translation>Затримка старту аварійного режиму швидкості польоту</translation>
     </message>
   </context>
   <context>
@@ -7458,36 +7455,36 @@ Larger values make the check less sensitive, smaller positive values make it mor
     <message>
       <source>Delay before switching back to using airspeed sensor if checks indicate sensor is good.
 Set to a negative value to disable the re-enabling in flight.</source>
-      <translation type="unfinished">Delay before switching back to using airspeed sensor if checks indicate sensor is good.
-Set to a negative value to disable the re-enabling in flight.</translation>
+      <translation>Затримка перед перемиканням назад до використання датчика швидкості польоту, якщо перевіки вказують, що сенсор в нормі.
+Встановити від'ємне значення, щоб вимкнути повторне увімкнення в польоті.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FS_T_STOP/shortDesc</name>
     <message>
       <source>Airspeed failsafe stop delay</source>
-      <translation type="unfinished">Airspeed failsafe stop delay</translation>
+      <translation>Затримка припинення аварійного режиму швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FS_T_STOP/longDesc</name>
     <message>
       <source>Delay before stopping use of airspeed sensor if checks indicate sensor is bad.</source>
-      <translation type="unfinished">Delay before stopping use of airspeed sensor if checks indicate sensor is bad.</translation>
+      <translation>Затримка перед припиненням використання датчика швидкості польоту, якщо перевірки вказують, що сенсор в не працює.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/shortDesc</name>
     <message>
       <source>Index or primary airspeed measurement source</source>
-      <translation type="unfinished">Index or primary airspeed measurement source</translation>
+      <translation>Індекс або первинне джерело вимірювання швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/0/description</name>
     <message>
       <source>Groundspeed minus windspeed</source>
-      <translation type="unfinished">Groundspeed minus windspeed</translation>
+      <translation>Швидкість відносно землі мінус швидкість польоту</translation>
     </message>
   </context>
   <context>
