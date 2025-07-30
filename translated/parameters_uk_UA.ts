@@ -7561,14 +7561,14 @@ Set to a negative value to disable the re-enabling in flight.</source>
     <name>/parameters/ASPD_SCALE_APPLY/shortDesc</name>
     <message>
       <source>Controls when to apply the new estimated airspeed scale(s)</source>
-      <translation type="unfinished">Controls when to apply the new estimated airspeed scale(s)</translation>
+      <translation>Контролює при застосуванні нового вимірювання шкал швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_APPLY/values/0/description</name>
     <message>
       <source>Do not automatically apply the estimated scale</source>
-      <translation type="unfinished">Do not automatically apply the estimated scale</translation>
+      <translation>Не застосовується автоматично до вимірювальної шкали</translation>
     </message>
   </context>
   <context>
@@ -7582,14 +7582,14 @@ Set to a negative value to disable the re-enabling in flight.</source>
     <name>/parameters/ASPD_SCALE_APPLY/values/2/description</name>
     <message>
       <source>Apply the estimated scale in air</source>
-      <translation type="unfinished">Apply the estimated scale in air</translation>
+      <translation>Застосувати до вимірювальної шкали в повітрі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_NSD/shortDesc</name>
     <message>
       <source>Wind estimator true airspeed scale process noise spectral density</source>
-      <translation type="unfinished">Wind estimator true airspeed scale process noise spectral density</translation>
+      <translation>Вимірювач вітру справжньої шкали швидкості польоту обробляє шум спектральної щільності</translation>
     </message>
   </context>
   <context>
