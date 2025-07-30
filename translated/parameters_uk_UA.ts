@@ -7597,43 +7597,42 @@ Set to a negative value to disable the re-enabling in flight.</source>
     <message>
       <source>Airspeed scale process noise of the internal wind estimator(s) of the airspeed selector.
 When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount every second.</source>
-      <translation type="unfinished">Airspeed scale process noise of the internal wind estimator(s) of the airspeed selector.
-When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount every second.</translation>
+      <translation>Шум шкали швидкості польоту вимірювача (вимірювачів) внутрішнього вітру селектора швидкості польоту. При відсутності обслуговування шкала невизначеності (1-sigma, безрозмірна) збільшується на цю кількість щосекунди.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_GATE/shortDesc</name>
     <message>
       <source>Gate size for true airspeed fusion</source>
-      <translation type="unfinished">Gate size for true airspeed fusion</translation>
+      <translation>Розмір брами для синтезу справжньої швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, який використовується тестом інноваційної послідовності.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_NOISE/shortDesc</name>
     <message>
       <source>Wind estimator true airspeed measurement noise</source>
-      <translation type="unfinished">Wind estimator true airspeed measurement noise</translation>
+      <translation>Вітровий вимірювач справжньої швидкості польоту вимірювання шуму</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_NOISE/longDesc</name>
     <message>
       <source>True airspeed measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
-      <translation type="unfinished">True airspeed measurement noise of the internal wind estimator(s) of the airspeed selector.</translation>
+      <translation>Вимірювання шуму справжньої швидкості польоту внутрішнього вимірювача вітру селектора швидкості польоту.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_WERR_THR/shortDesc</name>
     <message>
       <source>Horizontal wind uncertainty threshold for synthetic airspeed</source>
-      <translation type="unfinished">Horizontal wind uncertainty threshold for synthetic airspeed</translation>
+      <translation>Поріг похибки горизонтального вітру для синтетичної швидкості польоту</translation>
     </message>
   </context>
   <context>
