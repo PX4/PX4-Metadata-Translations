@@ -7491,70 +7491,70 @@ Set to a negative value to disable the re-enabling in flight.</source>
     <name>/parameters/ASPD_PRIMARY/values/1/description</name>
     <message>
       <source>First airspeed sensor</source>
-      <translation type="unfinished">First airspeed sensor</translation>
+      <translation>Перший датчик швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/2/description</name>
     <message>
       <source>Second airspeed sensor</source>
-      <translation type="unfinished">Second airspeed sensor</translation>
+      <translation>Другий датчик швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/3/description</name>
     <message>
       <source>Third airspeed sensor</source>
-      <translation type="unfinished">Third airspeed sensor</translation>
+      <translation>Третій датчик швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/4/description</name>
     <message>
       <source>Thrust based airspeed</source>
-      <translation type="unfinished">Thrust based airspeed</translation>
+      <translation>Швидкість польоту на основі тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_1/shortDesc</name>
     <message>
       <source>Scale of airspeed sensor 1</source>
-      <translation type="unfinished">Scale of airspeed sensor 1</translation>
+      <translation>Шкала швидкості польоту сенсора 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_1/longDesc</name>
     <message>
       <source>This is the scale IAS --&gt; CAS of the first airspeed sensor instance</source>
-      <translation type="unfinished">This is the scale IAS --&gt; CAS of the first airspeed sensor instance</translation>
+      <translation>Це шкала IAS --&gt; CAS першого датчика моменту швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_2/shortDesc</name>
     <message>
       <source>Scale of airspeed sensor 2</source>
-      <translation type="unfinished">Scale of airspeed sensor 2</translation>
+      <translation>Шкала швидкості польоту сенсора 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_2/longDesc</name>
     <message>
       <source>This is the scale IAS --&gt; CAS of the second airspeed sensor instance</source>
-      <translation type="unfinished">This is the scale IAS --&gt; CAS of the second airspeed sensor instance</translation>
+      <translation>Це шкала IAS --&gt; CAS першого датчика моменту швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_3/shortDesc</name>
     <message>
       <source>Scale of airspeed sensor 3</source>
-      <translation type="unfinished">Scale of airspeed sensor 3</translation>
+      <translation>Шкала швидкості польоту сенсора 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_3/longDesc</name>
     <message>
       <source>This is the scale IAS --&gt; CAS of the third airspeed sensor instance</source>
-      <translation type="unfinished">This is the scale IAS --&gt; CAS of the third airspeed sensor instance</translation>
+      <translation>Це шкала IAS --&gt; CAS третього датчика моменту швидкості польоту</translation>
     </message>
   </context>
   <context>
