@@ -7640,8 +7640,7 @@ When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount
     <message>
       <source>The synthetic airspeed estimate (from groundspeed and heading) will be declared valid
 as soon and as long the horizontal wind uncertainty is below this value.</source>
-      <translation type="unfinished">The synthetic airspeed estimate (from groundspeed and heading) will be declared valid
-as soon and as long the horizontal wind uncertainty is below this value.</translation>
+      <translation>Синтетично визначена швидкість польоту (зі швидкості відносно землі та напрямку) буде зафіксована, як належна, за умови що невизначеність горизонтального вітру є нижче цього значення.</translation>
     </message>
   </context>
   <context>
