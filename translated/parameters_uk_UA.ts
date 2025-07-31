@@ -7655,15 +7655,14 @@ as soon and as long the horizontal wind uncertainty is below this value.</source
     <message>
       <source>Wind process noise of the internal wind estimator(s) of the airspeed selector.
 When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.</source>
-      <translation type="unfinished">Wind process noise of the internal wind estimator(s) of the airspeed selector.
-When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.</translation>
+      <translation>Шум вітрового процесу внутрішнього вимірювача вітру селектора швидкості польоту. При відсутності обслуговування оцінка невизначеності вітру (1-sigma, метрів секунду) збільшується на цю кількість щосекунди.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_ACC_COMP/shortDesc</name>
     <message>
       <source>Acceleration compensation based on GPS velocity</source>
-      <translation type="unfinished">Acceleration compensation based on GPS velocity</translation>
+      <translation>Компенсація прискорення основана на швидкості GPS</translation>
     </message>
   </context>
   <context>
@@ -7677,28 +7676,28 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
     <name>/parameters/ATT_ACC_COMP/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_BIAS_MAX/shortDesc</name>
     <message>
       <source>Gyro bias limit</source>
-      <translation type="unfinished">Gyro bias limit</translation>
+      <translation>Ліміт зміщення гірокомпаса</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EN/shortDesc</name>
     <message>
       <source>standalone attitude estimator enable (unsupported)</source>
-      <translation type="unfinished">standalone attitude estimator enable (unsupported)</translation>
+      <translation>автономна оцінка позиції вмикається (не підтримується)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EN/longDesc</name>
     <message>
       <source>Enable standalone quaternion based attitude estimator.</source>
-      <translation type="unfinished">Enable standalone quaternion based attitude estimator.</translation>
+      <translation>Активує автономний кватерніон оснований на визначенні стану орієнтації.</translation>
     </message>
   </context>
   <context>
