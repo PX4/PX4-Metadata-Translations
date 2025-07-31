@@ -7647,7 +7647,7 @@ as soon and as long the horizontal wind uncertainty is below this value.</source
     <name>/parameters/ASPD_WIND_NSD/shortDesc</name>
     <message>
       <source>Wind estimator wind process noise spectral density</source>
-      <translation type="unfinished">Wind estimator wind process noise spectral density</translation>
+      <translation>Вимірювач вітру обробляє шум спектральної щільності</translation>
     </message>
   </context>
   <context>
