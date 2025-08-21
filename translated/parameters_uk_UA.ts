@@ -7756,7 +7756,7 @@ Set to 2 to use heading from motion capture.</source>
     <name>/parameters/ATT_MAG_DECL/shortDesc</name>
     <message>
       <source>Magnetic declination, in degrees</source>
-      <translation type="unfinished">Magnetic declination, in degrees</translation>
+      <translation>Магнітне відхилення, в градусах</translation>
     </message>
   </context>
   <context>
@@ -7765,16 +7765,16 @@ Set to 2 to use heading from motion capture.</source>
       <source>This parameter is not used in normal operation,
 as the declination is looked up based on the
 GPS coordinates of the vehicle.</source>
-      <translation type="unfinished">This parameter is not used in normal operation,
-as the declination is looked up based on the
-GPS coordinates of the vehicle.</translation>
+      <translation>Цей параметр не використовується при звичайній роботі,
+оскільки відхилення вираховується на основі координат
+GPS апарату.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_MAG_DECL_A/shortDesc</name>
     <message>
       <source>Automatic GPS based declination compensation</source>
-      <translation type="unfinished">Automatic GPS based declination compensation</translation>
+      <translation>Автоматична GPS-компенсація відхилення</translation>
     </message>
   </context>
   <context>
@@ -7788,49 +7788,49 @@ GPS coordinates of the vehicle.</translation>
     <name>/parameters/ATT_MAG_DECL_A/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_ACC/shortDesc</name>
     <message>
       <source>Complimentary filter accelerometer weight</source>
-      <translation type="unfinished">Complimentary filter accelerometer weight</translation>
+      <translation>Додаткова маса акселерометра фільтрів</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_EXT_HDG/shortDesc</name>
     <message>
       <source>Complimentary filter external heading weight</source>
-      <translation type="unfinished">Complimentary filter external heading weight</translation>
+      <translation>Додаткова зовнішня спрямована вага фільтрів</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_GYRO_BIAS/shortDesc</name>
     <message>
       <source>Complimentary filter gyroscope bias weight</source>
-      <translation type="unfinished">Complimentary filter gyroscope bias weight</translation>
+      <translation>Додаткова фільтрована зміщена вага гіроскопа</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_MAG/shortDesc</name>
     <message>
       <source>Complimentary filter magnetometer weight</source>
-      <translation type="unfinished">Complimentary filter magnetometer weight</translation>
+      <translation>Додаткова фільтрована маса магнетометра</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_MAG/longDesc</name>
     <message>
       <source>Set to 0 to avoid using the magnetometer.</source>
-      <translation type="unfinished">Set to 0 to avoid using the magnetometer.</translation>
+      <translation>Встановити на 0, щоб запобігти використання магнетометра.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_APPLY/shortDesc</name>
     <message>
       <source>Controls when to apply the new gains</source>
-      <translation type="unfinished">Controls when to apply the new gains</translation>
+      <translation>Контролює, коли застосовуються нові надбавки</translation>
     </message>
   </context>
   <context>
@@ -7839,16 +7839,16 @@ GPS coordinates of the vehicle.</translation>
       <source>After the auto-tuning sequence is completed,
 a new set of gains is available and can be applied
 immediately or after landing.</source>
-      <translation type="unfinished">After the auto-tuning sequence is completed,
-a new set of gains is available and can be applied
-immediately or after landing.</translation>
+      <translation>Після завершення послідовності автоматичного настроювання,
+доступно новий набір надбавок і може бути застосований
+відразу або після посадки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_APPLY/values/0/description</name>
     <message>
       <source>Do not apply the new gains (logging only)</source>
-      <translation type="unfinished">Do not apply the new gains (logging only)</translation>
+      <translation>Не застосовувати нові надбавки (тільки вхід в систему)</translation>
     </message>
   </context>
   <context>
@@ -7862,7 +7862,7 @@ immediately or after landing.</translation>
     <name>/parameters/FW_AT_APPLY/values/2/description</name>
     <message>
       <source>Apply the new gains in air</source>
-      <translation type="unfinished">Apply the new gains in air</translation>
+      <translation>Застосувати нові значення після охолощення</translation>
     </message>
   </context>
   <context>
