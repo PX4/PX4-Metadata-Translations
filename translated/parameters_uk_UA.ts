@@ -7720,7 +7720,7 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
     <name>/parameters/ATT_EXT_HDG_M/shortDesc</name>
     <message>
       <source>External heading usage mode (from Motion capture/Vision)</source>
-      <translation type="unfinished">External heading usage mode (from Motion capture/Vision)</translation>
+      <translation>Режим використання зовнішнього напрямку (від захоплення руху/спостереження)</translation>
     </message>
   </context>
   <context>
@@ -7728,29 +7728,28 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
     <message>
       <source>Set to 1 to use heading estimate from vision.
 Set to 2 to use heading from motion capture.</source>
-      <translation type="unfinished">Set to 1 to use heading estimate from vision.
-Set to 2 to use heading from motion capture.</translation>
+      <translation>Встановіть на 1 для використання напрямку вирахуваного від спостереження. Встановіть на 2 для використання напрямку від захоплення руху.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EXT_HDG_M/values/0/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>Нічого</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EXT_HDG_M/values/1/description</name>
     <message>
       <source>Vision</source>
-      <translation type="unfinished">Vision</translation>
+      <translation>Бачення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EXT_HDG_M/values/2/description</name>
     <message>
       <source>Motion Capture</source>
-      <translation type="unfinished">Motion Capture</translation>
+      <translation>Захоплення руху</translation>
     </message>
   </context>
   <context>
