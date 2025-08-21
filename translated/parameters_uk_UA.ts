@@ -7919,28 +7919,28 @@ Set bits in the following positions to enable:
     <name>/parameters/FW_AT_MAN_AUX/longDesc</name>
     <message>
       <source>Defines which RC_MAP_AUXn parameter maps the manual control channel used to enable/disable auto tuning.</source>
-      <translation type="unfinished">Defines which RC_MAP_AUXn parameter maps the manual control channel used to enable/disable auto tuning.</translation>
+      <translation>Визначає, які параметри RC_MAP_AUXn мапи канал ручного контролю використовує для увімкнення/вимкнення автоматичного налаштування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/0/description</name>
     <message>
       <source>Disable</source>
-      <translation type="unfinished">Disable</translation>
+      <translation>Вимкнути</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/1/description</name>
     <message>
       <source>Aux1</source>
-      <translation type="unfinished">Aux1</translation>
+      <translation>Aux1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/2/description</name>
     <message>
       <source>Aux2</source>
-      <translation type="unfinished">Aux2</translation>
+      <translation>Aux2</translation>
     </message>
   </context>
   <context>
