@@ -7830,7 +7830,7 @@ GPS апарату.</translation>
     <name>/parameters/FW_AT_APPLY/shortDesc</name>
     <message>
       <source>Controls when to apply the new gains</source>
-      <translation>Контролює, коли застосовуються нові надбавки</translation>
+      <translation>Контролює, коли застосовуються нові значення</translation>
     </message>
   </context>
   <context>
@@ -7869,7 +7869,7 @@ immediately or after landing.</source>
     <name>/parameters/FW_AT_AXES/shortDesc</name>
     <message>
       <source>Tuning axes selection</source>
-      <translation type="unfinished">Tuning axes selection</translation>
+      <translation>Вибір осей з тюнінгу</translation>
     </message>
   </context>
   <context>
@@ -7880,39 +7880,39 @@ Set bits in the following positions to enable:
 0 : Roll
 1 : Pitch
 2 : Yaw</source>
-      <translation type="unfinished">Defines which axes will be tuned during the auto-tuning sequence
-Set bits in the following positions to enable:
-0 : Roll
-1 : Pitch
-2 : Yaw</translation>
+      <translation>Визначає яка з осей буде налаштована впродовж черги автоматичного тюнінгу
+Встановіть діти у наступні положення для ввімкнення:
+0 : Крен
+1 : Тангаж
+2 : Рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_AXES/bitmask/0/description</name>
     <message>
       <source>roll</source>
-      <translation type="unfinished">roll</translation>
+      <translation>крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_AXES/bitmask/1/description</name>
     <message>
       <source>pitch</source>
-      <translation type="unfinished">pitch</translation>
+      <translation>тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_AXES/bitmask/2/description</name>
     <message>
       <source>yaw</source>
-      <translation type="unfinished">yaw</translation>
+      <translation>рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/shortDesc</name>
     <message>
       <source>Enable/disable auto tuning using a manual control AUX input</source>
-      <translation type="unfinished">Enable/disable auto tuning using a manual control AUX input</translation>
+      <translation>Увімкнути/вимкнути автоматичне налаштування використання ручного контролю AUX входу</translation>
     </message>
   </context>
   <context>
