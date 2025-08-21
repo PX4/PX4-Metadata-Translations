@@ -7599,7 +7599,7 @@ Set to a negative value to disable the re-enabling in flight.</source>
     <message>
       <source>Airspeed scale process noise of the internal wind estimator(s) of the airspeed selector.
 When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount every second.</source>
-      <translation>Шум шкали швидкості польоту вимірювача (вимірювачів) внутрішнього вітру селектора швидкості польоту. При відсутності обслуговування шкала невизначеності (1-sigma, безрозмірна) збільшується на цю кількість щосекунди.</translation>
+      <translation>Шум шкали швидкості польоту вимірювача (вимірювачів) внутрішнього вітру селектора швидкості польоту. Без зовнішніх датчиків шкала невизначеності (1-sigma, безрозмірна) збільшується на цю кількість щосекунди.</translation>
     </message>
   </context>
   <context>
@@ -7634,7 +7634,7 @@ When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount
     <name>/parameters/ASPD_WERR_THR/shortDesc</name>
     <message>
       <source>Horizontal wind uncertainty threshold for valid ground-minus-wind</source>
-      <translation type="unfinished">Horizontal wind uncertainty threshold for valid ground-minus-wind</translation>
+      <translation>Поріг невизначеності горизонтального вітру для припустимого відносно землі-мінус-вітер</translation>
     </message>
   </context>
   <context>
@@ -7642,8 +7642,7 @@ When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount
     <message>
       <source>The airspeed alternative derived from groundspeed and heading will be declared valid
 as soon and as long the horizontal wind uncertainty is below this value.</source>
-      <translation type="unfinished">The airspeed alternative derived from groundspeed and heading will be declared valid
-as soon and as long the horizontal wind uncertainty is below this value.</translation>
+      <translation>Швидкість польоту альтернативно визначена зі швидкості відносно землі та напрямку буде зафіксована, як належна, за умови що невизначеність горизонтального вітру є нижче цього значення.</translation>
     </message>
   </context>
   <context>
@@ -7714,7 +7713,7 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
     <name>/parameters/ATT_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
