@@ -8248,140 +8248,140 @@ MC_AT_SYSID_AMP for more signal/noise ratio</source>
     <name>/parameters/BAT1_N_CELLS/values/0/description</name>
     <message>
       <source>Unknown</source>
-      <translation type="unfinished">Unknown</translation>
+      <translation>Невідомий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/1/description</name>
     <message>
       <source>1S Battery</source>
-      <translation type="unfinished">1S Battery</translation>
+      <translation>Батарея 1S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/2/description</name>
     <message>
       <source>2S Battery</source>
-      <translation type="unfinished">2S Battery</translation>
+      <translation>Батарея 2S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/3/description</name>
     <message>
       <source>3S Battery</source>
-      <translation type="unfinished">3S Battery</translation>
+      <translation>Батарея 3S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/4/description</name>
     <message>
       <source>4S Battery</source>
-      <translation type="unfinished">4S Battery</translation>
+      <translation>Батарея 4S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/5/description</name>
     <message>
       <source>5S Battery</source>
-      <translation type="unfinished">5S Battery</translation>
+      <translation>Батарея 5S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/6/description</name>
     <message>
       <source>6S Battery</source>
-      <translation type="unfinished">6S Battery</translation>
+      <translation>Батарея 6S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/7/description</name>
     <message>
       <source>7S Battery</source>
-      <translation type="unfinished">7S Battery</translation>
+      <translation>Батарея 7S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/8/description</name>
     <message>
       <source>8S Battery</source>
-      <translation type="unfinished">8S Battery</translation>
+      <translation>Батарея 8S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/9/description</name>
     <message>
       <source>9S Battery</source>
-      <translation type="unfinished">9S Battery</translation>
+      <translation>Батарея 9S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/10/description</name>
     <message>
       <source>10S Battery</source>
-      <translation type="unfinished">10S Battery</translation>
+      <translation>Батарея 10S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/11/description</name>
     <message>
       <source>11S Battery</source>
-      <translation type="unfinished">11S Battery</translation>
+      <translation>Батарея 11S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/12/description</name>
     <message>
       <source>12S Battery</source>
-      <translation type="unfinished">12S Battery</translation>
+      <translation>Батарея 12S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/13/description</name>
     <message>
       <source>13S Battery</source>
-      <translation type="unfinished">13S Battery</translation>
+      <translation>Батарея 13S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/14/description</name>
     <message>
       <source>14S Battery</source>
-      <translation type="unfinished">14S Battery</translation>
+      <translation>Батарея 14S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/15/description</name>
     <message>
       <source>15S Battery</source>
-      <translation type="unfinished">15S Battery</translation>
+      <translation>Батарея 15S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/16/description</name>
     <message>
       <source>16S Battery</source>
-      <translation type="unfinished">16S Battery</translation>
+      <translation>Батарея 16S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_R_INTERNAL/shortDesc</name>
     <message>
       <source>Explicitly defines the per cell internal resistance for battery 1</source>
-      <translation type="unfinished">Explicitly defines the per cell internal resistance for battery 1</translation>
+      <translation>Наявно визначає для кожної комірки внутрішній супротив для батареї 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_R_INTERNAL/longDesc</name>
     <message>
       <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
-      <translation type="unfinished">If non-negative, then this will be used instead of the online estimated internal resistance.</translation>
+      <translation>Якщо не є негативним, то це буде використано замість онлайн-визначеного внутрішнього опору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_SOURCE/shortDesc</name>
     <message>
       <source>Battery 1 monitoring source</source>
-      <translation type="unfinished">Battery 1 monitoring source</translation>
+      <translation>Батарея 1 джерело моніторингу</translation>
     </message>
   </context>
   <context>
@@ -8392,11 +8392,11 @@ means that measurements are expected to come from a power module. If the value i
 'External' then the system expects to receive mavlink battery status messages.
 If the value is set to 'ESCs', the battery information are taken from the esc_status message.
 This requires the ESC to provide both voltage as well as current.</source>
-      <translation type="unfinished">This parameter controls the source of battery data. The value 'Power Module'
-means that measurements are expected to come from a power module. If the value is set to
-'External' then the system expects to receive mavlink battery status messages.
-If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current.</translation>
+      <translation>Цей параметр контролює джерело даних батареї. Значення 'Модуль живлення'
+означає, що очікується вимірювання, які надійдуть з модуля живлення. Якщо значення встановлено в
+"Зовнішній", то система очікує на отримання mavlink повідомлення про статус батареї.
+Якщо значення встановлено в "ESCs", інформація про батарею береться з повідомлення esc_status.
+Це вимагає ESC забезпечити як напругу, так і струм.</translation>
     </message>
   </context>
   <context>
@@ -8410,7 +8410,7 @@ This requires the ESC to provide both voltage as well as current.</translation>
     <name>/parameters/BAT1_SOURCE/values/0/description</name>
     <message>
       <source>Power Module</source>
-      <translation type="unfinished">Power Module</translation>
+      <translation>Модуль живлення</translation>
     </message>
   </context>
   <context>
