@@ -7848,7 +7848,7 @@ immediately or after landing.</source>
     <name>/parameters/FW_AT_APPLY/values/0/description</name>
     <message>
       <source>Do not apply the new gains (logging only)</source>
-      <translation>Не застосовувати нові надбавки (тільки вхід в систему)</translation>
+      <translation>Не застосовувати нові надбавки (тільки ведення записів)</translation>
     </message>
   </context>
   <context>
@@ -8076,35 +8076,35 @@ rate controller during system identification.</source>
     <name>/parameters/FW_AT_SYSID_TYPE/longDesc</name>
     <message>
       <source>Type of signal used during system identification to excite the system.</source>
-      <translation type="unfinished">Type of signal used during system identification to excite the system.</translation>
+      <translation>Тип сигналу, який використовується впродовж системної ідентифікації для збудження системи.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/values/0/description</name>
     <message>
       <source>Step</source>
-      <translation type="unfinished">Step</translation>
+      <translation>Крок</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/values/1/description</name>
     <message>
       <source>Linear sine sweep</source>
-      <translation type="unfinished">Linear sine sweep</translation>
+      <translation>Лінійний синусоїдальний сигнал</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/values/2/description</name>
     <message>
       <source>Logarithmic sine sweep</source>
-      <translation type="unfinished">Logarithmic sine sweep</translation>
+      <translation>Логарифмічний синусоїдальний сигнал</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_APPLY/shortDesc</name>
     <message>
       <source>Controls when to apply the new gains</source>
-      <translation type="unfinished">Controls when to apply the new gains</translation>
+      <translation>Контролює, коли застосовуються нові значення</translation>
     </message>
   </context>
   <context>
@@ -8116,19 +8116,18 @@ immediately or after landing.
 WARNING Applying the gains in air is dangerous as there is no
 guarantee that those new gains will be able to stabilize
 the drone properly.</source>
-      <translation type="unfinished">After the auto-tuning sequence is completed,
-a new set of gains is available and can be applied
-immediately or after landing.
-WARNING Applying the gains in air is dangerous as there is no
-guarantee that those new gains will be able to stabilize
-the drone properly.</translation>
+      <translation>Після завершення послідовності автоматичного налаштування,
+доступно новий набір значень і може бути застосований
+відразу або після посадки.
+УВАГА: Застосування значень у повітрі є небезпечним, тому що немає
+гарантії, що ці нові значення зможуть стабілізувати правильно дрон.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_APPLY/values/0/description</name>
     <message>
       <source>Do not apply the new gains (logging only)</source>
-      <translation type="unfinished">Do not apply the new gains (logging only)</translation>
+      <translation>Не застосовувати нові значення (тільки для ведення записів)</translation>
     </message>
   </context>
   <context>
@@ -8142,14 +8141,14 @@ the drone properly.</translation>
     <name>/parameters/MC_AT_APPLY/values/2/description</name>
     <message>
       <source>WARNING Apply the new gains in air</source>
-      <translation type="unfinished">WARNING Apply the new gains in air</translation>
+      <translation>УВАГА: Застосуйте нові дані в повітрі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_EN/shortDesc</name>
     <message>
       <source>Multicopter autotune module enable</source>
-      <translation type="unfinished">Multicopter autotune module enable</translation>
+      <translation>Увімкнути модуль автоматичного налаштування мультикоптера</translation>
     </message>
   </context>
   <context>
@@ -8163,21 +8162,21 @@ the drone properly.</translation>
     <name>/parameters/MC_AT_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_RISE_TIME/shortDesc</name>
     <message>
       <source>Desired angular rate closed-loop rise time</source>
-      <translation type="unfinished">Desired angular rate closed-loop rise time</translation>
+      <translation>Бажаний кутовий коефіцієнт часу підйому закритої петлі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_START/shortDesc</name>
     <message>
       <source>Start the autotuning sequence</source>
-      <translation type="unfinished">Start the autotuning sequence</translation>
+      <translation>Запустити послідовність автотюнінгу</translation>
     </message>
   </context>
   <context>
@@ -8192,15 +8191,8 @@ Best is to perform the identification in position or
 hold mode.
 Increase the amplitude of the injected signal using
 MC_AT_SYSID_AMP for more signal/noise ratio</source>
-      <translation type="unfinished">WARNING: this will inject steps to the rate controller
-and can be dangerous. Only activate if you know what you
-are doing, and in a safe environment.
-Any motion of the remote stick will abort the signal
-injection and reset this parameter
-Best is to perform the identification in position or
-hold mode.
-Increase the amplitude of the injected signal using
-MC_AT_SYSID_AMP for more signal/noise ratio</translation>
+      <translation>УВАГА: це втисне кроки до контролера рівня та може бути небезпечним. Активуйте лише, якщо ви знаєте що робите, та в безпечних умовах. Будь-який рух стіком вимикає сигнальне втискання та перезавантажує цей параметр. Це найкраще працює для визначення в позиції або режимі утримання.
+Збільшіть амплітуду втиснутого сигналу, використовуючи FW_AT_SYSID_AMP для більшого співвідношення сигнал/шум</translation>
     </message>
   </context>
   <context>
@@ -8214,42 +8206,42 @@ MC_AT_SYSID_AMP for more signal/noise ratio</translation>
     <name>/parameters/MC_AT_START/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_SYSID_AMP/shortDesc</name>
     <message>
       <source>Amplitude of the injected signal</source>
-      <translation type="unfinished">Amplitude of the injected signal</translation>
+      <translation>Амплітуда втиснутого сигналу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_CAPACITY/shortDesc</name>
     <message>
       <source>Battery 1 capacity</source>
-      <translation type="unfinished">Battery 1 capacity</translation>
+      <translation>Місткість батареї 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_CAPACITY/longDesc</name>
     <message>
       <source>Defines the capacity of battery 1 in mAh.</source>
-      <translation type="unfinished">Defines the capacity of battery 1 in mAh.</translation>
+      <translation>Визначає місткість батареї 1 в mAh.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/shortDesc</name>
     <message>
       <source>Number of cells for battery 1</source>
-      <translation type="unfinished">Number of cells for battery 1</translation>
+      <translation>Кількість комірок для батареї 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/longDesc</name>
     <message>
       <source>Defines the number of cells the attached battery consists of.</source>
-      <translation type="unfinished">Defines the number of cells the attached battery consists of.</translation>
+      <translation>Визначає кількість приєднаних комірок, з яких складається батарея.</translation>
     </message>
   </context>
   <context>
