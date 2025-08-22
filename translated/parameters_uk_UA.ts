@@ -8012,7 +8012,7 @@ FW_AT_SYSID_AMP for more signal/noise ratio</source>
     <name>/parameters/FW_AT_SYSID_AMP/shortDesc</name>
     <message>
       <source>Amplitude of the injected signal</source>
-      <translation type="unfinished">Amplitude of the injected signal</translation>
+      <translation>Амплітуда втиснутого сигналу</translation>
     </message>
   </context>
   <context>
@@ -8020,57 +8020,56 @@ FW_AT_SYSID_AMP for more signal/noise ratio</source>
     <message>
       <source>This parameter scales the signal sent to the
 rate controller during system identification.</source>
-      <translation type="unfinished">This parameter scales the signal sent to the
-rate controller during system identification.</translation>
+      <translation>Цей параметр вимірює сигнал надісланий на контролер рівня впродовж ідентифікації системи.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_F0/shortDesc</name>
     <message>
       <source>Start frequency of the injected signal</source>
-      <translation type="unfinished">Start frequency of the injected signal</translation>
+      <translation>Початкова частота втиснутого сигналу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_F0/longDesc</name>
     <message>
       <source>Can be set lower or higher than the end frequency</source>
-      <translation type="unfinished">Can be set lower or higher than the end frequency</translation>
+      <translation>Може бути встановлений нижче або вище ніж кінцева частота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_F1/shortDesc</name>
     <message>
       <source>End frequency of the injected signal</source>
-      <translation type="unfinished">End frequency of the injected signal</translation>
+      <translation>Кінець частоти втиснутого сигналу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_F1/longDesc</name>
     <message>
       <source>Can be set lower or higher than the start frequency</source>
-      <translation type="unfinished">Can be set lower or higher than the start frequency</translation>
+      <translation>Може бути встановлений нижче або вище ніж початкова частота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TIME/shortDesc</name>
     <message>
       <source>Maneuver time for each axis</source>
-      <translation type="unfinished">Maneuver time for each axis</translation>
+      <translation>Час маневру на кожну вісь</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TIME/longDesc</name>
     <message>
       <source>Duration of the input signal sent on each axis during system identification</source>
-      <translation type="unfinished">Duration of the input signal sent on each axis during system identification</translation>
+      <translation>Тривалість вхідного сигналу надісланого на кожній осі під час ідентифікації системи</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/shortDesc</name>
     <message>
       <source>Input signal type</source>
-      <translation type="unfinished">Input signal type</translation>
+      <translation>Тип вхідного сигналу</translation>
     </message>
   </context>
   <context>
