@@ -7947,35 +7947,35 @@ Set bits in the following positions to enable:
     <name>/parameters/FW_AT_MAN_AUX/values/3/description</name>
     <message>
       <source>Aux3</source>
-      <translation type="unfinished">Aux3</translation>
+      <translation>Aux3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/4/description</name>
     <message>
       <source>Aux4</source>
-      <translation type="unfinished">Aux4</translation>
+      <translation>Aux4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/5/description</name>
     <message>
       <source>Aux5</source>
-      <translation type="unfinished">Aux5</translation>
+      <translation>Aux5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/6/description</name>
     <message>
       <source>Aux6</source>
-      <translation type="unfinished">Aux6</translation>
+      <translation>Aux6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_START/shortDesc</name>
     <message>
       <source>Start the autotuning sequence</source>
-      <translation type="unfinished">Start the autotuning sequence</translation>
+      <translation>Запустити послідовність автотюнінгу</translation>
     </message>
   </context>
   <context>
@@ -7990,15 +7990,8 @@ Best is to perform the identification in position or
 hold mode.
 Increase the amplitude of the injected signal using
 FW_AT_SYSID_AMP for more signal/noise ratio</source>
-      <translation type="unfinished">WARNING: this will inject steps to the rate controller
-and can be dangerous. Only activate if you know what you
-are doing, and in a safe environment.
-Any motion of the remote stick will abort the signal
-injection and reset this parameter
-Best is to perform the identification in position or
-hold mode.
-Increase the amplitude of the injected signal using
-FW_AT_SYSID_AMP for more signal/noise ratio</translation>
+      <translation>УВАГА: це втисне кроки до контролера рівня та може бути небезпечним. Активуйте лише, якщо ви знаєте що робите, та в безпечних умовах. Будь-який рух стіком вимикає сигнальне втискання та перезавантажує цей параметр. Це найкраще працює визначенням в позиції або режимі утримання.
+Збільшіть амплітуду втиснутого сигналу, використовуючи FW_AT_SYSID_AMP для більшого співвідношення сигнал/шум</translation>
     </message>
   </context>
   <context>
@@ -8012,7 +8005,7 @@ FW_AT_SYSID_AMP for more signal/noise ratio</translation>
     <name>/parameters/FW_AT_START/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
