@@ -8743,133 +8743,133 @@ it drops off to a voltage level damaging the cells.</source>
     <name>/parameters/BAT3_N_CELLS/values/1/description</name>
     <message>
       <source>1S Battery</source>
-      <translation type="unfinished">1S Battery</translation>
+      <translation>Батарея 1S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/2/description</name>
     <message>
       <source>2S Battery</source>
-      <translation type="unfinished">2S Battery</translation>
+      <translation>Батарея 2S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/3/description</name>
     <message>
       <source>3S Battery</source>
-      <translation type="unfinished">3S Battery</translation>
+      <translation>Батарея 3S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/4/description</name>
     <message>
       <source>4S Battery</source>
-      <translation type="unfinished">4S Battery</translation>
+      <translation>Батарея 4S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/5/description</name>
     <message>
       <source>5S Battery</source>
-      <translation type="unfinished">5S Battery</translation>
+      <translation>Батарея 5S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/6/description</name>
     <message>
       <source>6S Battery</source>
-      <translation type="unfinished">6S Battery</translation>
+      <translation>Батарея 6S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/7/description</name>
     <message>
       <source>7S Battery</source>
-      <translation type="unfinished">7S Battery</translation>
+      <translation>Батарея 7S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/8/description</name>
     <message>
       <source>8S Battery</source>
-      <translation type="unfinished">8S Battery</translation>
+      <translation>Батарея 8S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/9/description</name>
     <message>
       <source>9S Battery</source>
-      <translation type="unfinished">9S Battery</translation>
+      <translation>Батарея 9S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/10/description</name>
     <message>
       <source>10S Battery</source>
-      <translation type="unfinished">10S Battery</translation>
+      <translation>Батарея 10S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/11/description</name>
     <message>
       <source>11S Battery</source>
-      <translation type="unfinished">11S Battery</translation>
+      <translation>Батарея 11S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/12/description</name>
     <message>
       <source>12S Battery</source>
-      <translation type="unfinished">12S Battery</translation>
+      <translation>Батарея 12S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/13/description</name>
     <message>
       <source>13S Battery</source>
-      <translation type="unfinished">13S Battery</translation>
+      <translation>Батарея 13S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/14/description</name>
     <message>
       <source>14S Battery</source>
-      <translation type="unfinished">14S Battery</translation>
+      <translation>Батарея 14S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/15/description</name>
     <message>
       <source>15S Battery</source>
-      <translation type="unfinished">15S Battery</translation>
+      <translation>Батарея 15S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/16/description</name>
     <message>
       <source>16S Battery</source>
-      <translation type="unfinished">16S Battery</translation>
+      <translation>Батарея 16S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_R_INTERNAL/shortDesc</name>
     <message>
       <source>Explicitly defines the per cell internal resistance for battery 3</source>
-      <translation type="unfinished">Explicitly defines the per cell internal resistance for battery 3</translation>
+      <translation>Наявно визначає для кожної комірки внутрішній супротив для батареї 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_R_INTERNAL/longDesc</name>
     <message>
       <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
-      <translation type="unfinished">If non-negative, then this will be used instead of the online estimated internal resistance.</translation>
+      <translation>Якщо не є негативним, то це буде використано замість онлайн-визначеного внутрішнього опору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_SOURCE/shortDesc</name>
     <message>
       <source>Battery 3 monitoring source</source>
-      <translation type="unfinished">Battery 3 monitoring source</translation>
+      <translation>Джерело монітору батареї 3</translation>
     </message>
   </context>
   <context>
@@ -8880,11 +8880,11 @@ means that measurements are expected to come from a power module. If the value i
 'External' then the system expects to receive mavlink battery status messages.
 If the value is set to 'ESCs', the battery information are taken from the esc_status message.
 This requires the ESC to provide both voltage as well as current.</source>
-      <translation type="unfinished">This parameter controls the source of battery data. The value 'Power Module'
-means that measurements are expected to come from a power module. If the value is set to
-'External' then the system expects to receive mavlink battery status messages.
-If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current.</translation>
+      <translation>Цей параметр контролює джерело даних батареї. Значення 'Модуль живлення'
+означає, що очікується вимірювання, які надійдуть з модуля живлення. Якщо значення встановлено в
+"Зовнішній", то система очікує на отримання mavlink повідомлення про статус батареї.
+Якщо значення встановлено в "ESCs", інформація про батарею береться з повідомлення esc_status.
+Це вимагає ESC забезпечити як напругу, так і струм.</translation>
     </message>
   </context>
   <context>
@@ -8898,28 +8898,28 @@ This requires the ESC to provide both voltage as well as current.</translation>
     <name>/parameters/BAT3_SOURCE/values/0/description</name>
     <message>
       <source>Power Module</source>
-      <translation type="unfinished">Power Module</translation>
+      <translation>Модуль живлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_SOURCE/values/1/description</name>
     <message>
       <source>External</source>
-      <translation type="unfinished">External</translation>
+      <translation>Зовнішній</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_SOURCE/values/2/description</name>
     <message>
       <source>ESCs</source>
-      <translation type="unfinished">ESCs</translation>
+      <translation>ESCs</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_V_CHARGED/shortDesc</name>
     <message>
       <source>Full cell voltage</source>
-      <translation type="unfinished">Full cell voltage</translation>
+      <translation>Повна напруга комірки</translation>
     </message>
   </context>
   <context>
@@ -8927,15 +8927,15 @@ This requires the ESC to provide both voltage as well as current.</translation>
     <message>
       <source>Defines the voltage where a single cell of the battery is considered full.
 For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</source>
-      <translation type="unfinished">Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</translation>
+      <translation>Визначає напругу, де одна комірка батареї буде вважатися повною.
+Для більш точної оцінки встановіть значення нижче номінальної напруги, наприклад 4.2V</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_V_EMPTY/shortDesc</name>
     <message>
       <source>Empty cell voltage</source>
-      <translation type="unfinished">Empty cell voltage</translation>
+      <translation>Напруга пустої комірки</translation>
     </message>
   </context>
   <context>
@@ -8945,17 +8945,14 @@ For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</tr
 The voltage should be chosen above the steep dropoff at 3.5V. A typical
 lithium battery can only be discharged under high load down to 10% before
 it drops off to a voltage level damaging the cells.</source>
-      <translation type="unfinished">Defines the voltage where a single cell of the battery is considered empty.
-The voltage should be chosen above the steep dropoff at 3.5V. A typical
-lithium battery can only be discharged under high load down to 10% before
-it drops off to a voltage level damaging the cells.</translation>
+      <translation>Визначає напругу, де єдина комірка батареї вважається пустою. Напруга має бути обрана вище різкого падіння при значенні 3.5V. Типова літієва батарея може бути розміщена під високим навантаженням до 10% перед тим, як воно впаде до рівня вольтажу, який руйнує комірки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT_AVRG_CURRENT/shortDesc</name>
     <message>
       <source>Expected battery current in flight</source>
-      <translation type="unfinished">Expected battery current in flight</translation>
+      <translation>Очікуваний струм батареї в польоті</translation>
     </message>
   </context>
   <context>
@@ -8963,15 +8960,14 @@ it drops off to a voltage level damaging the cells.</translation>
     <message>
       <source>This value is used to initialize the in-flight average current estimation,
 which in turn is used for estimating remaining flight time and RTL triggering.</source>
-      <translation type="unfinished">This value is used to initialize the in-flight average current estimation,
-which in turn is used for estimating remaining flight time and RTL triggering.</translation>
+      <translation>Це значення використовується для ініціалізації визначення середнього струму в польоті, яке в свою чергу використовується для визначення решти часу польоту та RTL тригерування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT_CRIT_THR/shortDesc</name>
     <message>
       <source>Critical threshold</source>
-      <translation type="unfinished">Critical threshold</translation>
+      <translation>Критичний поріг</translation>
     </message>
   </context>
   <context>
@@ -8980,16 +8976,15 @@ which in turn is used for estimating remaining flight time and RTL triggering.</
       <source>Sets the threshold when the battery will be reported as critically low.
 This has to be lower than the low threshold. This threshold commonly
 will trigger RTL.</source>
-      <translation type="unfinished">Sets the threshold when the battery will be reported as critically low.
-This has to be lower than the low threshold. This threshold commonly
-will trigger RTL.</translation>
+      <translation>Встановлює поріг, коли заряд батареї визначається як критично низький.
+Це значення має бути нижчим за низький поріг. Цей поріг зазвичай буде викликати RTL.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT_EMERGEN_THR/shortDesc</name>
     <message>
       <source>Emergency threshold</source>
-      <translation type="unfinished">Emergency threshold</translation>
+      <translation>Поріг екстреної ситуації</translation>
     </message>
   </context>
   <context>
