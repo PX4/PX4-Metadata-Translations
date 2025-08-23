@@ -8424,14 +8424,14 @@ This requires the ESC to provide both voltage as well as current.</source>
     <name>/parameters/BAT1_SOURCE/values/2/description</name>
     <message>
       <source>ESCs</source>
-      <translation type="unfinished">ESCs</translation>
+      <translation>ESCs</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_V_CHARGED/shortDesc</name>
     <message>
       <source>Full cell voltage</source>
-      <translation type="unfinished">Full cell voltage</translation>
+      <translation>Повна напруга комірки</translation>
     </message>
   </context>
   <context>
@@ -8439,15 +8439,15 @@ This requires the ESC to provide both voltage as well as current.</source>
     <message>
       <source>Defines the voltage where a single cell of the battery is considered full.
 For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</source>
-      <translation type="unfinished">Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</translation>
+      <translation>Визначає напругу, де одна клітина батареї буде заповнена.
+Для більш точної оцінки встановіть значення нижче номінальної напруги, наприклад 4.2V</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_V_EMPTY/shortDesc</name>
     <message>
       <source>Empty cell voltage</source>
-      <translation type="unfinished">Empty cell voltage</translation>
+      <translation>Повна напруга комірки</translation>
     </message>
   </context>
   <context>
