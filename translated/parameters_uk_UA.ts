@@ -9210,16 +9210,16 @@ the specific camera setup is supporting.</source>
       <source>Setting this parameter to 782097 will disable the buzzer audio notification.
 Setting this parameter to 782090 will disable the startup tune, while keeping
 all others enabled.</source>
-      <translation type="unfinished">Setting this parameter to 782097 will disable the buzzer audio notification.
-Setting this parameter to 782090 will disable the startup tune, while keeping
-all others enabled.</translation>
+      <translation>Встановлення цього параметра в 782097 вимкне звукове сповіщення зумера.
+Встановлення цього параметра в 782090 вимкне початкову мелодію, залишаючи
+всі інші увімкнені.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_FLIGHTTERM/shortDesc</name>
     <message>
       <source>Circuit breaker for flight termination</source>
-      <translation type="unfinished">Circuit breaker for flight termination</translation>
+      <translation>Автоматичний вимикач для зупинки польоту</translation>
     </message>
   </context>
   <context>
@@ -9229,17 +9229,14 @@ all others enabled.</translation>
 by the FailureDetector logic or if FMU is lost.
 This circuit breaker does not affect the RC loss, data link loss, geofence,
 and takeoff failure detection safety logic.</source>
-      <translation type="unfinished">Setting this parameter to 121212 will disable the flight termination action if triggered
-by the FailureDetector logic or if FMU is lost.
-This circuit breaker does not affect the RC loss, data link loss, geofence,
-and takeoff failure detection safety logic.</translation>
+      <translation>Встановлення цього параметра на 121212 вимкне дію для припинення польоту, якщо викликається за логікою Детектора Збоїв або якщо FMU втрачено. Автоматичний вимикач не впливає втрату пульта (RC), втрати з'єднання передачі даних, гео-огорожі та     логіці детекції безпеки помилки зльоту.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_IO_SAFETY/shortDesc</name>
     <message>
       <source>Circuit breaker for IO safety</source>
-      <translation type="unfinished">Circuit breaker for IO safety</translation>
+      <translation>Автоматичний вимикач для IO безпеки</translation>
     </message>
   </context>
   <context>
@@ -9247,15 +9244,15 @@ and takeoff failure detection safety logic.</translation>
     <message>
       <source>Setting this parameter to 22027 will disable IO safety.
 WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
-      <translation type="unfinished">Setting this parameter to 22027 will disable IO safety.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
+      <translation>Встановлення цього параметра на 22027 вимкне IO безпеку. 
+УВАГА: ВМИКАННЯ АВТОМАТИЧНОГО ВИМИКАЧА Є ВАШИМ ВЛАСНИМ РИЗИКОМ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_SUPPLY_CHK/shortDesc</name>
     <message>
       <source>Circuit breaker for power supply check</source>
-      <translation type="unfinished">Circuit breaker for power supply check</translation>
+      <translation>Автоматичний вимикач для перевірки електропостачання</translation>
     </message>
   </context>
   <context>
@@ -9264,9 +9261,8 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
       <source>Setting this parameter to 894281 will disable the power valid
 checks in the commander.
 WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
-      <translation type="unfinished">Setting this parameter to 894281 will disable the power valid
-checks in the commander.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
+      <translation>Встановлення цього параметра на 894281 вимкне перевірки придатності живлення в блоці керування.
+УВАГА: ВМИКАННЯ АВТОМАТИЧНОГО ВИМИКАЧА Є ВАШИМ ВЛАСНИМ РИЗИКОМ</translation>
     </message>
   </context>
   <context>
