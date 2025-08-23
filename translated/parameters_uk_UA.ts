@@ -9269,7 +9269,7 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
     <name>/parameters/CBRK_USB_CHK/shortDesc</name>
     <message>
       <source>Circuit breaker for USB link check</source>
-      <translation type="unfinished">Circuit breaker for USB link check</translation>
+      <translation>Автоматичний вимикач для перевірки USB з'єднання</translation>
     </message>
   </context>
   <context>
@@ -9281,12 +9281,7 @@ We are generally recommending to not fly with the USB link
 connected and production vehicles should set this parameter to
 zero to prevent users from flying USB powered. However, for R&amp;D purposes
 it has proven over the years to work just fine.</source>
-      <translation type="unfinished">Setting this parameter to 197848 will disable the USB connected
-checks in the commander, setting it to 0 keeps them enabled (recommended).
-We are generally recommending to not fly with the USB link
-connected and production vehicles should set this parameter to
-zero to prevent users from flying USB powered. However, for R&amp;D purposes
-it has proven over the years to work just fine.</translation>
+      <translation>Встановлення цього параметра на 197848 вимкне перевірки USB з'єднання в блоці управління, встановлення цього параметра на 0 залишає перевірки увімкненими (рекомендовано). Взагалі ми не рекомендуємо літати з підключеним USB з'єднанням; також виробництво апаратів має встановити цей параметр на нуль для запобігання польотів з увімкненим USB. Проте за роки доведено, що для R&amp;D цілей це працює нормально.</translation>
     </message>
   </context>
   <context>
@@ -9302,16 +9297,14 @@ it has proven over the years to work just fine.</translation>
       <source>Setting this parameter to 159753 will enable arming in fixed-wing
 mode for VTOLs.
 WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
-      <translation type="unfinished">Setting this parameter to 159753 will enable arming in fixed-wing
-mode for VTOLs.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
+      <translation>Встановлення цього параметра в 159753 увімкне взведення в режимі фіксованого крила для ВЗІПів. УВАГА: ВМИКАННЯ АВТОМАТИЧНОГО ВИМИКАЧА Є ВАШИМ ВЛАСНИМ РИЗИКОМ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ACT_FAIL_ACT/shortDesc</name>
     <message>
       <source>Set the actuator failure failsafe mode</source>
-      <translation type="unfinished">Set the actuator failure failsafe mode</translation>
+      <translation>Встановити збій актюатора в безпечний режим</translation>
     </message>
   </context>
   <context>
@@ -9319,15 +9312,14 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
     <message>
       <source>Note: actuator failure needs to be enabled and configured via FD_ACT_*
 parameters.</source>
-      <translation type="unfinished">Note: actuator failure needs to be enabled and configured via FD_ACT_*
-parameters.</translation>
+      <translation>Примітка: збій актуатора повинен бути увімкнений та налаштований через параметри FD_ACT_*.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ACT_FAIL_ACT/values/0/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
