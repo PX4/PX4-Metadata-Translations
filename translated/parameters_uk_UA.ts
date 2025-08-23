@@ -8993,16 +8993,15 @@ will trigger RTL.</source>
       <source>Sets the threshold when the battery will be reported as dangerously low.
 This has to be lower than the critical threshold. This threshold commonly
 will trigger landing.</source>
-      <translation type="unfinished">Sets the threshold when the battery will be reported as dangerously low.
-This has to be lower than the critical threshold. This threshold commonly
-will trigger landing.</translation>
+      <translation>Встановлює поріг, коли заряд батареї визначається як критично низький.
+Це значення має бути нижчим за критичний поріг. Цей поріг зазвичай буде викликати приземлення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT_LOW_THR/shortDesc</name>
     <message>
       <source>Low threshold</source>
-      <translation type="unfinished">Low threshold</translation>
+      <translation>Низький поріг</translation>
     </message>
   </context>
   <context>
@@ -9010,99 +9009,99 @@ will trigger landing.</translation>
     <message>
       <source>Sets the threshold when the battery will be reported as low.
 This has to be higher than the critical threshold.</source>
-      <translation type="unfinished">Sets the threshold when the battery will be reported as low.
-This has to be higher than the critical threshold.</translation>
+      <translation>Встановлює поріг при низькому значенні заряду батареї.
+Заряд має бути більше за критичний поріг.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_ACT_TIME/shortDesc</name>
     <message>
       <source>Camera trigger activation time</source>
-      <translation type="unfinished">Camera trigger activation time</translation>
+      <translation>Час активації тригера камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_ACT_TIME/longDesc</name>
     <message>
       <source>This parameter sets the time the trigger needs to pulled high or low.</source>
-      <translation type="unfinished">This parameter sets the time the trigger needs to pulled high or low.</translation>
+      <translation>Цей параметр встановлює час тригеру необхідного для високого або низького витягування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_DISTANCE/shortDesc</name>
     <message>
       <source>Camera trigger distance</source>
-      <translation type="unfinished">Camera trigger distance</translation>
+      <translation>Дистанція тригеру камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_DISTANCE/longDesc</name>
     <message>
       <source>Sets the distance at which to trigger the camera.</source>
-      <translation type="unfinished">Sets the distance at which to trigger the camera.</translation>
+      <translation>Встановлює відстань для запуску камери.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/shortDesc</name>
     <message>
       <source>Camera trigger Interface</source>
-      <translation type="unfinished">Camera trigger Interface</translation>
+      <translation>Інтерфейс тригера камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/longDesc</name>
     <message>
       <source>Selects the trigger interface</source>
-      <translation type="unfinished">Selects the trigger interface</translation>
+      <translation>Вибирає інтерфейс тригера</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/values/1/description</name>
     <message>
       <source>GPIO</source>
-      <translation type="unfinished">GPIO</translation>
+      <translation>GPIO</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/values/2/description</name>
     <message>
       <source>Seagull MAP2 (over PWM)</source>
-      <translation type="unfinished">Seagull MAP2 (over PWM)</translation>
+      <translation>Seagull MAP2 (через PWM)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/values/3/description</name>
     <message>
       <source>MAVLink (Camera Protocol v1)</source>
-      <translation type="unfinished">MAVLink (Camera Protocol v1)</translation>
+      <translation>MAVLink (Camera Protocol v1)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/values/4/description</name>
     <message>
       <source>Generic PWM (IR trigger, servo)</source>
-      <translation type="unfinished">Generic PWM (IR trigger, servo)</translation>
+      <translation>Generic PWM (IR trigger, servo)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERVAL/shortDesc</name>
     <message>
       <source>Camera trigger interval</source>
-      <translation type="unfinished">Camera trigger interval</translation>
+      <translation>Інтервал тригера камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERVAL/longDesc</name>
     <message>
       <source>This parameter sets the time between two consecutive trigger events</source>
-      <translation type="unfinished">This parameter sets the time between two consecutive trigger events</translation>
+      <translation>Цей параметр встановлює час між двома послідовними тригерними подіями</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MIN_INTERVA/shortDesc</name>
     <message>
       <source>Minimum camera trigger interval</source>
-      <translation type="unfinished">Minimum camera trigger interval</translation>
+      <translation>Мінімальний інтервал тригеру камери</translation>
     </message>
   </context>
   <context>
@@ -9110,99 +9109,99 @@ This has to be higher than the critical threshold.</translation>
     <message>
       <source>This parameter sets the minimum time between two consecutive trigger events
 the specific camera setup is supporting.</source>
-      <translation type="unfinished">This parameter sets the minimum time between two consecutive trigger events
-the specific camera setup is supporting.</translation>
+      <translation>Цей параметр встановлює мінімальний час між двома послідовними тригерними подіями,
+підтримує особливу настройку камери.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/shortDesc</name>
     <message>
       <source>Camera trigger mode</source>
-      <translation type="unfinished">Camera trigger mode</translation>
+      <translation>Режим тригера камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/0/description</name>
     <message>
       <source>Disable</source>
-      <translation type="unfinished">Disable</translation>
+      <translation>Вимкнути</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/1/description</name>
     <message>
       <source>Time based, on command</source>
-      <translation type="unfinished">Time based, on command</translation>
+      <translation>Час на основі, за командою</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/2/description</name>
     <message>
       <source>Time based, always on</source>
-      <translation type="unfinished">Time based, always on</translation>
+      <translation>Час на основі, завжди увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/3/description</name>
     <message>
       <source>Distance based, always on</source>
-      <translation type="unfinished">Distance based, always on</translation>
+      <translation>Відстань на основі, завжди увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/4/description</name>
     <message>
       <source>Distance based, on command (Survey mode)</source>
-      <translation type="unfinished">Distance based, on command (Survey mode)</translation>
+      <translation>Відстань на основі, за командою (режим Дослідження)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_POLARITY/shortDesc</name>
     <message>
       <source>Camera trigger polarity</source>
-      <translation type="unfinished">Camera trigger polarity</translation>
+      <translation>Тригер полярності камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_POLARITY/longDesc</name>
     <message>
       <source>This parameter sets the polarity of the trigger (0 = active low, 1 = active high )</source>
-      <translation type="unfinished">This parameter sets the polarity of the trigger (0 = active low, 1 = active high )</translation>
+      <translation>Цей параметр встановлює полярність тригера (0 = активне низьке, 1 = активне високе)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_POLARITY/values/0/description</name>
     <message>
       <source>Active low</source>
-      <translation type="unfinished">Active low</translation>
+      <translation>Активний низький</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_POLARITY/values/1/description</name>
     <message>
       <source>Active high</source>
-      <translation type="unfinished">Active high</translation>
+      <translation>Активний високий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_PWM_NEUTRAL/shortDesc</name>
     <message>
       <source>PWM neutral output on trigger pin</source>
-      <translation type="unfinished">PWM neutral output on trigger pin</translation>
+      <translation>PWM нейтрального виводу на тригерному контакті</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_PWM_SHOOT/shortDesc</name>
     <message>
       <source>PWM output to trigger shot</source>
-      <translation type="unfinished">PWM output to trigger shot</translation>
+      <translation>PWM вивід до тригерного знімка</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_BUZZER/shortDesc</name>
     <message>
       <source>Circuit breaker for disabling buzzer</source>
-      <translation type="unfinished">Circuit breaker for disabling buzzer</translation>
+      <translation>Автоматичний вимикач для вимкнення зумера</translation>
     </message>
   </context>
   <context>
