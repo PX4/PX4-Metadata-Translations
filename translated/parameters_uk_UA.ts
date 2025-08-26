@@ -9347,7 +9347,7 @@ parameters.</source>
     <name>/parameters/COM_ACT_FAIL_ACT/values/4/description</name>
     <message>
       <source>Terminate</source>
-      <translation type="unfinished">Terminate</translation>
+      <translation>Завершити</translation>
     </message>
   </context>
   <context>
