@@ -9407,11 +9407,9 @@ parameters.</source>
 - two step arm: 1st arm command request an authorization and
 2nd arm command arm the drone if authorized
 Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
-      <translation type="unfinished">Methods:
-- one arm: request authorization and arm when authorization is received
-- two step arm: 1st arm command request an authorization and
-2nd arm command arm the drone if authorized
-Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
+      <translation>Методи: 
+- одне взведення: запит на авторизацію та взведення коли отримано авторизацію 
+- двокрокове взведення: перша команда взведення запитує авторизацію та друга команда взводить дрон, якщо авторизовано. Використовується, якщо авторизація запитується через COM_ARM_AUTH_REQ.</translation>
     </message>
   </context>
   <context>
@@ -9468,8 +9466,7 @@ Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
     <message>
       <source>Timeout for authorizer answer.
 Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
-      <translation type="unfinished">Timeout for authorizer answer.
-Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
+      <translation>Таймаут відповіді авторизатора. Використовується, якщо авторизація запитується через COM_ARM_AUTH_REQ.</translation>
     </message>
   </context>
   <context>
@@ -9484,8 +9481,8 @@ Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
     <message>
       <source>Threshold for battery percentage below arming is prohibited.
 A negative value means BAT_CRIT_THR is the threshold.</source>
-      <translation type="unfinished">Threshold for battery percentage below arming is prohibited.
-A negative value means BAT_CRIT_THR is the threshold.</translation>
+      <translation>Поріг для відсотка заряду акумулятора нижче відсотка взведення не дозволяється. 
+Від'ємне значення означає BAT_CRIT_THR є порогом.</translation>
     </message>
   </context>
   <context>
@@ -9500,8 +9497,8 @@ A negative value means BAT_CRIT_THR is the threshold.</translation>
     <message>
       <source>If this parameter is set, the system will check ESC's online status and failures.
 This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.</source>
-      <translation type="unfinished">If this parameter is set, the system will check ESC's online status and failures.
-This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.</translation>
+      <translation>Якщо цей параметр встановлено, то система буде перевіряти ESC's онлайн статус та помилки.
+Цей параметр є специфічним для ESC статуса звіту. Він буде використовуватися тільки, якщо ESC підтримують телеметрію.</translation>
     </message>
   </context>
   <context>
