@@ -9687,9 +9687,7 @@ disabled, warn only or deny arming.</source>
       <source>This check detects if the FMU SD card is missing.
 Depending on the value of the parameter, the check can be
 disabled, warn only or deny arming.</source>
-      <translation type="unfinished">This check detects if the FMU SD card is missing.
-Depending on the value of the parameter, the check can be
-disabled, warn only or deny arming.</translation>
+      <translation>Ця перевірка визначить, чи відсутня FMU SD картка. Залежно від значення параметру, перевірка може бути відключена, працюватиме тільки попередження або відхилення взведення.</translation>
     </message>
   </context>
   <context>
@@ -9726,9 +9724,7 @@ disabled, warn only or deny arming.</translation>
       <source>0: Arming/disarming triggers on switch transition.
 1: Arming/disarming triggers when holding the momentary button down
 for COM_RC_ARM_HYST like the stick gesture.</source>
-      <translation type="unfinished">0: Arming/disarming triggers on switch transition.
-1: Arming/disarming triggers when holding the momentary button down
-for COM_RC_ARM_HYST like the stick gesture.</translation>
+      <translation>0: Взведення/охолощення вмикає перемикач переходу. 1: Взведення/охолощення вмикається при натисканні та утриманні миттєвої кнопки COM_RC_ARM_HYST як рух стіком.</translation>
     </message>
   </context>
   <context>
@@ -9749,35 +9745,35 @@ for COM_RC_ARM_HYST like the stick gesture.</translation>
     <name>/parameters/COM_ARM_WO_GPS/shortDesc</name>
     <message>
       <source>GPS preflight check</source>
-      <translation type="unfinished">GPS preflight check</translation>
+      <translation>GPS передполітна перевірка</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/longDesc</name>
     <message>
       <source>Measures taken when a check defined by EKF2_GPS_CHECK is failing.</source>
-      <translation type="unfinished">Measures taken when a check defined by EKF2_GPS_CHECK is failing.</translation>
+      <translation>Міри прийняті коли перевірка визначена EKF2_GPS_CHECK не працює.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/0/description</name>
     <message>
       <source>Deny arming</source>
-      <translation type="unfinished">Deny arming</translation>
+      <translation>Відхилити взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/2/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -9792,8 +9788,8 @@ for COM_RC_ARM_HYST like the stick gesture.</translation>
     <message>
       <source>The check fails if the CPU load is above this threshold for 2s.
 A negative value disables the check.</source>
-      <translation type="unfinished">The check fails if the CPU load is above this threshold for 2s.
-A negative value disables the check.</translation>
+      <translation>Перевірка не вдається, якщо завантаження ЦП вище цього порогу впродовж 2s.
+Від'ємне значення вимикає перевірку.</translation>
     </message>
   </context>
   <context>
@@ -9809,9 +9805,7 @@ A negative value disables the check.</translation>
       <source>A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be
 automatically disarmed in case a landing situation has been detected during this period.
 A zero or negative value means that automatic disarming triggered by landing detection is disabled.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be
-automatically disarmed in case a landing situation has been detected during this period.
-A zero or negative value means that automatic disarming triggered by landing detection is disabled.</translation>
+      <translation>Не нульове позитивне значення уточнює час перерви у секундах, після якої апарат буде автоматично охолощений у випадку, якщо було виявлено ситуацію приземлення протягом цього часу. Нульове або від'ємне значення означає, що автоматичне охолощення, яке викликане детекцією приземлення, є вимкнене.</translation>
     </message>
   </context>
   <context>
@@ -9828,10 +9822,8 @@ A zero or negative value means that automatic disarming triggered by landing det
 1: Allow disarming in multicopter flight in modes where
 the thrust is directly controlled by thr throttle stick
 e.g. Stabilized, Acro</source>
-      <translation type="unfinished">0: Disallow disarming when not landed
-1: Allow disarming in multicopter flight in modes where
-the thrust is directly controlled by thr throttle stick
-e.g. Stabilized, Acro</translation>
+      <translation>0: Заборонити охолощення коли не приземлений 
+1: Дозволити охолощєння при польоті мультикоптера в режимах, де тяга безпосередньо контролюється стіком дроселя, напр. режим Стабілізація, Акро</translation>
     </message>
   </context>
   <context>
@@ -9862,10 +9854,7 @@ e.g. Stabilized, Acro</translation>
 vehicle is expected to take off after arming. In case the vehicle didn't takeoff
 within the timeout it disarms again.
 A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the time in seconds, within which the
-vehicle is expected to take off after arming. In case the vehicle didn't takeoff
-within the timeout it disarms again.
-A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.</translation>
+      <translation>Ненульове позитивне значення визначає час у секундах, протягом якого апарат має злетіти після взведення. Якщо апарат не злетів в межах тайм-ауту, він охолощується знову. Від'ємне значення вимикає автоматичне охолощєння, викликане передзлітним тайм-аутом.</translation>
     </message>
   </context>
   <context>
