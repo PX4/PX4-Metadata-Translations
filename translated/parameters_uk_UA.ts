@@ -9861,56 +9861,56 @@ A negative value disables autmoatic disarming triggered by a pre-takeoff timeout
     <name>/parameters/COM_DLL_EXCEPT/shortDesc</name>
     <message>
       <source>Datalink loss exceptions</source>
-      <translation type="unfinished">Datalink loss exceptions</translation>
+      <translation>Винятки втрати Datalink</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DLL_EXCEPT/longDesc</name>
     <message>
       <source>Specify modes in which datalink loss is ignored and the failsafe action not triggered.</source>
-      <translation type="unfinished">Specify modes in which datalink loss is ignored and the failsafe action not triggered.</translation>
+      <translation>Вкажіть режими, в яких втрата передачі даних ігнорується, а дія режиму безпеки не виконується.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DLL_EXCEPT/bitmask/0/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DLL_EXCEPT/bitmask/1/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DLL_EXCEPT/bitmask/2/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DL_LOSS_T/shortDesc</name>
     <message>
       <source>GCS connection loss time threshold</source>
-      <translation type="unfinished">GCS connection loss time threshold</translation>
+      <translation>Поріг часу втрати з'єднання GCS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DL_LOSS_T/longDesc</name>
     <message>
       <source>After this amount of seconds without datalink, the GCS connection lost mode triggers</source>
-      <translation type="unfinished">After this amount of seconds without datalink, the GCS connection lost mode triggers</translation>
+      <translation>Після цієї кількості секунд без передачі даних з'єднання GCS втрачає режимні тригери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FAIL_ACT_T/shortDesc</name>
     <message>
       <source>Delay between failsafe condition triggered and failsafe reaction</source>
-      <translation type="unfinished">Delay between failsafe condition triggered and failsafe reaction</translation>
+      <translation>Затримка між викликаним безпечним режимом та реакцією на безпечний режим</translation>
     </message>
   </context>
   <context>
@@ -9921,18 +9921,15 @@ for the user to realize.
 During that time the user can switch modes, but cannot take over control via the stick override feature (see COM_RC_OVERRIDE).
 Afterwards the configured failsafe action is triggered and the user may use stick override.
 A zero value disables the delay.</source>
-      <translation type="unfinished">Before entering failsafe (RTL, Land, Hold), wait COM_FAIL_ACT_T seconds in Hold mode
-for the user to realize.
-During that time the user can switch modes, but cannot take over control via the stick override feature (see COM_RC_OVERRIDE).
-Afterwards the configured failsafe action is triggered and the user may use stick override.
-A zero value disables the delay.</translation>
+      <translation>Перед входом в безпечний режим (Повернення на точку запуску (RTL), Приземлення, Утримання), чекайте на COM_FAIL_ACT_T секунд в режимі Утримання для розуміння користувачем.
+Впродовж цього часу користувач може перемикати режими, але не може взяти контроль через функцію перезапису стіком. Нульове значення відключає затримку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLIGHT_UUID/shortDesc</name>
     <message>
       <source>Next flight UUID</source>
-      <translation type="unfinished">Next flight UUID</translation>
+      <translation>Ідентифікатор наступного польоту UUID</translation>
     </message>
   </context>
   <context>
@@ -9941,16 +9938,14 @@ A zero value disables the delay.</translation>
       <source>This number is incremented automatically after every flight on
 disarming in order to remember the next flight UUID.
 The first flight is 0.</source>
-      <translation type="unfinished">This number is incremented automatically after every flight on
-disarming in order to remember the next flight UUID.
-The first flight is 0.</translation>
+      <translation>Це число збільшується автоматично після кожного польоту при охолощенні, щоб пам'ятати UUID наступного польоту. Перший політ дорівнює 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/shortDesc</name>
     <message>
       <source>Mode slot 1</source>
-      <translation type="unfinished">Mode slot 1</translation>
+      <translation>Режим слота 1</translation>
     </message>
   </context>
   <context>
@@ -9958,36 +9953,36 @@ The first flight is 0.</translation>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
