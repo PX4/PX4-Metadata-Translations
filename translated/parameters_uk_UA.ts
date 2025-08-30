@@ -9996,70 +9996,70 @@ selected flight mode will be applied.</source>
     <name>/parameters/COM_FLTMODE1/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
