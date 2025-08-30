@@ -10066,63 +10066,63 @@ selected flight mode will be applied.</source>
     <name>/parameters/COM_FLTMODE1/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/104/description</name>
     <message>
       <source>External Mode 5</source>
-      <translation type="unfinished">External Mode 5</translation>
+      <translation>Зовнішній Режим 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/105/description</name>
     <message>
       <source>External Mode 6</source>
-      <translation type="unfinished">External Mode 6</translation>
+      <translation>Зовнішній Режим 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/106/description</name>
     <message>
       <source>External Mode 7</source>
-      <translation type="unfinished">External Mode 7</translation>
+      <translation>Зовнішній Режим 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/107/description</name>
     <message>
       <source>External Mode 8</source>
-      <translation type="unfinished">External Mode 8</translation>
+      <translation>Зовнішній Режим 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/shortDesc</name>
     <message>
       <source>Mode slot 2</source>
-      <translation type="unfinished">Mode slot 2</translation>
+      <translation>Режим слота 2</translation>
     </message>
   </context>
   <context>
@@ -10130,176 +10130,176 @@ selected flight mode will be applied.</source>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/104/description</name>
     <message>
       <source>External Mode 5</source>
-      <translation type="unfinished">External Mode 5</translation>
+      <translation>Зовнішній Режим 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/105/description</name>
     <message>
       <source>External Mode 6</source>
-      <translation type="unfinished">External Mode 6</translation>
+      <translation>Зовнішній Режим 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/106/description</name>
     <message>
       <source>External Mode 7</source>
-      <translation type="unfinished">External Mode 7</translation>
+      <translation>Зовнішній Режим 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/107/description</name>
     <message>
       <source>External Mode 8</source>
-      <translation type="unfinished">External Mode 8</translation>
+      <translation>Зовнішній Режим 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/shortDesc</name>
     <message>
       <source>Mode slot 3</source>
-      <translation type="unfinished">Mode slot 3</translation>
+      <translation>Режим слота 3</translation>
     </message>
   </context>
   <context>
@@ -10307,176 +10307,176 @@ selected flight mode will be applied.</translation>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/104/description</name>
     <message>
       <source>External Mode 5</source>
-      <translation type="unfinished">External Mode 5</translation>
+      <translation>Зовнішній Режим 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/105/description</name>
     <message>
       <source>External Mode 6</source>
-      <translation type="unfinished">External Mode 6</translation>
+      <translation>Зовнішній Режим 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/106/description</name>
     <message>
       <source>External Mode 7</source>
-      <translation type="unfinished">External Mode 7</translation>
+      <translation>Зовнішній Режим 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/107/description</name>
     <message>
       <source>External Mode 8</source>
-      <translation type="unfinished">External Mode 8</translation>
+      <translation>Зовнішній Режим 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/shortDesc</name>
     <message>
       <source>Mode slot 4</source>
-      <translation type="unfinished">Mode slot 4</translation>
+      <translation>Режим слота 4</translation>
     </message>
   </context>
   <context>
@@ -10484,120 +10484,120 @@ selected flight mode will be applied.</translation>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
@@ -10958,21 +10958,21 @@ selected flight mode will be applied.</translation>
     <name>/parameters/COM_FLTMODE6/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
