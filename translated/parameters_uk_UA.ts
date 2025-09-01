@@ -11102,20 +11102,15 @@ mode is still possible.
 Starting from 90% of the maximum flight time, a warning message will be sent
 every 1 minute with the remaining time until automatic RTL.
 Set to -1 to disable.</source>
-      <translation type="unfinished">The vehicle aborts the current operation and returns to launch when
-the time since takeoff is above this value. It is not possible to resume the
-mission or switch to any auto mode other than RTL or Land. Taking over in any manual
-mode is still possible.
-Starting from 90% of the maximum flight time, a warning message will be sent
-every 1 minute with the remaining time until automatic RTL.
-Set to -1 to disable.</translation>
+      <translation>Апарат перериває поточну операцію та повертається до запуску коли час від злету перевищує це значення. Неможливо повернутися до місії або перекинутися на будь-який автоматичний режим окрім RTL (повернення на точку злету) або Приземлення. Переймання контролю у будь-якому ручному режимі є досі можливим. Починаючи від 90% максимального часу польоту, попереджувальне повідомлення буде надіслане щохвилини з залишком часу до автоматичного RTL (повернення на точку злету)
+Встановіть на 1 для вимкнення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FORCE_SAFETY/shortDesc</name>
     <message>
       <source>Enable force safety</source>
-      <translation type="unfinished">Enable force safety</translation>
+      <translation>Увімкнути примусовий режим безпеки</translation>
     </message>
   </context>
   <context>
@@ -11136,14 +11131,14 @@ Set to -1 to disable.</translation>
     <name>/parameters/COM_FORCE_SAFETY/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_HLDL_LOSS_T/shortDesc</name>
     <message>
       <source>High Latency Datalink loss time threshold</source>
-      <translation type="unfinished">High Latency Datalink loss time threshold</translation>
+      <translation>Висока затримка посилання даних втрачає часовий поріг</translation>
     </message>
   </context>
   <context>
