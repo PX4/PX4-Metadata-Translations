@@ -11145,14 +11145,14 @@ Set to -1 to disable.</source>
     <name>/parameters/COM_HLDL_LOSS_T/longDesc</name>
     <message>
       <source>After this amount of seconds without datalink the data link lost mode triggers</source>
-      <translation type="unfinished">After this amount of seconds without datalink the data link lost mode triggers</translation>
+      <translation>Після цієї кількості секунд без передачі даних з'єднання втрачає режимні тригери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_HLDL_REG_T/shortDesc</name>
     <message>
       <source>High Latency Datalink regain time threshold</source>
-      <translation type="unfinished">High Latency Datalink regain time threshold</translation>
+      <translation>Висока затримка посилання даних повертає часовий поріг</translation>
     </message>
   </context>
   <context>
