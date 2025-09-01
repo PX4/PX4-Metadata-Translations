@@ -11160,15 +11160,16 @@ Set to -1 to disable.</source>
     <message>
       <source>After a data link loss: after this number of seconds with a healthy datalink the 'datalink loss'
 flag is set back to false</source>
-      <translation type="unfinished">After a data link loss: after this number of seconds with a healthy datalink the 'datalink loss'
-flag is set back to false</translation>
+      <translation>Після втрати посилання даних: через вказану кількість секунд з робочим посиланням даних 
+прапорець 'втрата посилання даних'
+ повертається до false</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_HOME_EN/shortDesc</name>
     <message>
       <source>Home position enabled</source>
-      <translation type="unfinished">Home position enabled</translation>
+      <translation>Точка повернення активована</translation>
     </message>
   </context>
   <context>
@@ -11178,10 +11179,9 @@ flag is set back to false</translation>
 During missions, the latitude/longitude of the home position is locked and will not reset during intermediate landings.
 It will only update once the mission is complete or landed outside of a mission.
 However, the altitude is still being adjusted to correct for GNSS vertical drift in the first 2 minutes after takeoff.</source>
-      <translation type="unfinished">Set home position automatically if possible.
-During missions, the latitude/longitude of the home position is locked and will not reset during intermediate landings.
-It will only update once the mission is complete or landed outside of a mission.
-However, the altitude is still being adjusted to correct for GNSS vertical drift in the first 2 minutes after takeoff.</translation>
+      <translation>Встановіть автоматично точку повернення якщо це можливо. Впродовж місій, широта/довгота точки повернення закріплена та не перевстановлюється впродовж проміжних приземлень.
+Воно оновлюється як тільки місія завершена або при приземленні поза місією.
+Проте, висота все одно встановлюється до коректної для GNSS вертикального дріфту впродовж перших 2 хвилин після злету.</translation>
     </message>
   </context>
   <context>
@@ -11195,14 +11195,14 @@ However, the altitude is still being adjusted to correct for GNSS vertical drift
     <name>/parameters/COM_HOME_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_HOME_IN_AIR/shortDesc</name>
     <message>
       <source>Allows setting the home position after takeoff</source>
-      <translation type="unfinished">Allows setting the home position after takeoff</translation>
+      <translation>Дозволяє встановити початкову позицію після зльоту</translation>
     </message>
   </context>
   <context>
@@ -11211,9 +11211,8 @@ However, the altitude is still being adjusted to correct for GNSS vertical drift
       <source>If set to true, the autopilot is allowed to set its home position after takeoff
 The true home position is back-computed if a local position is estimate if available.
 If no local position is available, home is set to the current position.</source>
-      <translation type="unfinished">If set to true, the autopilot is allowed to set its home position after takeoff
-The true home position is back-computed if a local position is estimate if available.
-If no local position is available, home is set to the current position.</translation>
+      <translation>Якщо встановлено на true, автопілоту дозволено встановити власну точку повернення після злету. Справжня точка повернення знову вираховується, якщо визначення місцевої позиції доступне. 
+Якщо немає доступної місцевої позиції, тоді точка повернення встановлюється як поточна позиція.</translation>
     </message>
   </context>
   <context>
@@ -11227,14 +11226,14 @@ If no local position is available, home is set to the current position.</transla
     <name>/parameters/COM_HOME_IN_AIR/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_IMB_PROP_ACT/shortDesc</name>
     <message>
       <source>Imbalanced propeller failsafe mode</source>
-      <translation type="unfinished">Imbalanced propeller failsafe mode</translation>
+      <translation>Аварійний режим неврівноваженого пропелера</translation>
     </message>
   </context>
   <context>
@@ -11242,8 +11241,7 @@ If no local position is available, home is set to the current position.</transla
     <message>
       <source>Action the system takes when an imbalanced propeller is detected by the failure detector.
 See also FD_IMB_PROP_THR to set the failure threshold.</source>
-      <translation type="unfinished">Action the system takes when an imbalanced propeller is detected by the failure detector.
-See also FD_IMB_PROP_THR to set the failure threshold.</translation>
+      <translation>Дія системи відбувається коли незбалансований пропелер знайдено детектором помилок. Дивіться також FD_IMB_PROP_THR для встановлення порогу помилок.</translation>
     </message>
   </context>
   <context>
@@ -11257,21 +11255,21 @@ See also FD_IMB_PROP_THR to set the failure threshold.</translation>
     <name>/parameters/COM_IMB_PROP_ACT/values/0/description</name>
     <message>
       <source>Warning</source>
-      <translation type="unfinished">Warning</translation>
+      <translation>Попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_IMB_PROP_ACT/values/1/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_IMB_PROP_ACT/values/2/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
@@ -11285,7 +11283,7 @@ See also FD_IMB_PROP_THR to set the failure threshold.</translation>
     <name>/parameters/COM_KILL_DISARM/longDesc</name>
     <message>
       <source>Use RC_MAP_KILL_SW to map a kill switch.</source>
-      <translation type="unfinished">Use RC_MAP_KILL_SW to map a kill switch.</translation>
+      <translation>Використовуйте RC_MAP_KILL_SW щоб позначити кнопку екстреного вимкнення.</translation>
     </message>
   </context>
   <context>
