@@ -1619,42 +1619,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC10/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актуатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -2001,42 +2001,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC11/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -2383,42 +2383,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC12/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -2765,42 +2765,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC13/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -3147,14 +3147,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC14/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
@@ -3168,21 +3168,21 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC14/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -3529,42 +3529,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC15/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -3911,42 +3911,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC16/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актуатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -4293,42 +4293,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC2/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -4675,42 +4675,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC3/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -5057,42 +5057,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC4/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -5439,42 +5439,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC5/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -5821,42 +5821,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC6/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -6203,42 +6203,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC7/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -6585,42 +6585,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC8/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -6967,42 +6967,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC9/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -9304,7 +9304,7 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
     <name>/parameters/COM_ACT_FAIL_ACT/shortDesc</name>
     <message>
       <source>Set the actuator failure failsafe mode</source>
-      <translation>Встановити збій актюатора в безпечний режим</translation>
+      <translation>Встановити збій привода в безпечний режим</translation>
     </message>
   </context>
   <context>
@@ -9312,7 +9312,7 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
     <message>
       <source>Note: actuator failure needs to be enabled and configured via FD_ACT_*
 parameters.</source>
-      <translation>Примітка: збій актуатора повинен бути увімкнений та налаштований через параметри FD_ACT_*.</translation>
+      <translation>Примітка: режим збою привода повинен бути увімкнений та налаштований через параметри FD_ACT_*.</translation>
     </message>
   </context>
   <context>
@@ -11500,7 +11500,7 @@ which is required when mapping an external mode to an RC switch.</source>
     <name>/parameters/COM_MOT_TEST_EN/shortDesc</name>
     <message>
       <source>Enable Actuator Testing</source>
-      <translation>Увімкнути тестування актуатора</translation>
+      <translation>Увімкнути тестування привода</translation>
     </message>
   </context>
   <context>
@@ -11523,21 +11523,21 @@ allows spinning the motors and moving the servos for testing purposes.</source>
     <name>/parameters/COM_MOT_TEST_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBC_LOSS_T/shortDesc</name>
     <message>
       <source>Time-out to wait when onboard computer connection is lost before warning about loss connection</source>
-      <translation type="unfinished">Time-out to wait when onboard computer connection is lost before warning about loss connection</translation>
+      <translation>Чекати тайм-аут, коли на борту втрачається з'єднання з комп'ютером, перед попередженням про втрату з'єднання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/shortDesc</name>
     <message>
       <source>Set offboard loss failsafe mode</source>
-      <translation type="unfinished">Set offboard loss failsafe mode</translation>
+      <translation>Встановити режим втрати безпеки поза бортом</translation>
     </message>
   </context>
   <context>
@@ -11545,36 +11545,36 @@ allows spinning the motors and moving the servos for testing purposes.</source>
     <message>
       <source>The offboard loss failsafe will only be entered after a timeout,
 set by COM_OF_LOSS_T in seconds.</source>
-      <translation type="unfinished">The offboard loss failsafe will only be entered after a timeout,
-set by COM_OF_LOSS_T in seconds.</translation>
+      <translation>Втрата безпеки поза бортом буде введено лише після закінчення часу,
+встановленого через COM_OF_LOSS_T в секундах.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/0/description</name>
     <message>
       <source>Position mode</source>
-      <translation type="unfinished">Position mode</translation>
+      <translation>Позиційний режим</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/1/description</name>
     <message>
       <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
+      <translation>Режим висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/2/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/3/description</name>
     <message>
       <source>Return mode</source>
-      <translation type="unfinished">Return mode</translation>
+      <translation>Режим повернення</translation>
     </message>
   </context>
   <context>
@@ -11588,14 +11588,14 @@ set by COM_OF_LOSS_T in seconds.</translation>
     <name>/parameters/COM_OBL_RC_ACT/values/5/description</name>
     <message>
       <source>Hold mode</source>
-      <translation type="unfinished">Hold mode</translation>
+      <translation>Режим утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/6/description</name>
     <message>
       <source>Terminate</source>
-      <translation type="unfinished">Terminate</translation>
+      <translation>Завершити</translation>
     </message>
   </context>
   <context>
@@ -11609,21 +11609,21 @@ set by COM_OF_LOSS_T in seconds.</translation>
     <name>/parameters/COM_OF_LOSS_T/shortDesc</name>
     <message>
       <source>Time-out to wait when offboard connection is lost before triggering offboard lost action</source>
-      <translation type="unfinished">Time-out to wait when offboard connection is lost before triggering offboard lost action</translation>
+      <translation>Чекати на тайм-аут, коли втрачено з'єднання поза бортом та перед викликом дії при втраті поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OF_LOSS_T/longDesc</name>
     <message>
       <source>See COM_OBL_RC_ACT to configure action.</source>
-      <translation type="unfinished">See COM_OBL_RC_ACT to configure action.</translation>
+      <translation>Перегляньте COM_OBL_RC_ACT для налаштування дії.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_PARACHUTE/shortDesc</name>
     <message>
       <source>Expect and require a healthy MAVLink parachute system</source>
-      <translation type="unfinished">Expect and require a healthy MAVLink parachute system</translation>
+      <translation>Вимагати та сподіватися на добру роботу системи парашутів MAVLink</translation>
     </message>
   </context>
   <context>
@@ -11637,28 +11637,28 @@ set by COM_OF_LOSS_T in seconds.</translation>
     <name>/parameters/COM_PARACHUTE/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POSCTL_NAVL/shortDesc</name>
     <message>
       <source>Position mode navigation loss response</source>
-      <translation type="unfinished">Position mode navigation loss response</translation>
+      <translation>Позиція режиму втрати відповіді навігації</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POSCTL_NAVL/longDesc</name>
     <message>
       <source>This sets the flight mode that will be used if navigation accuracy is no longer adequate for position control in manual Position mode.</source>
-      <translation type="unfinished">This sets the flight mode that will be used if navigation accuracy is no longer adequate for position control in manual Position mode.</translation>
+      <translation>Це налаштовує режим польоту, який буде використовуватися, якщо точність навігації більше не є адекватною для контролю позиції в ручному режимі розташування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POSCTL_NAVL/values/0/description</name>
     <message>
       <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
+      <translation>Режим висоти</translation>
     </message>
   </context>
   <context>
@@ -11672,7 +11672,7 @@ set by COM_OF_LOSS_T in seconds.</translation>
     <name>/parameters/COM_POS_FS_EPH/shortDesc</name>
     <message>
       <source>Horizontal position error threshold for hovering systems</source>
-      <translation type="unfinished">Horizontal position error threshold for hovering systems</translation>
+      <translation>Поріг помилки горизонтального положення для систем зависання в повітрі</translation>
     </message>
   </context>
   <context>
