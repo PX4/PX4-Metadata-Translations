@@ -1237,21 +1237,21 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
@@ -1265,14 +1265,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -1619,7 +1619,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC10/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Актуатора Набір 1</translation>
     </message>
   </context>
   <context>
@@ -3946,7 +3946,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC16/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Набір Актуатора 6</translation>
     </message>
   </context>
   <context>
@@ -11344,7 +11344,7 @@ for definition of battery states.</source>
     <name>/parameters/COM_MODE0_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 0</source>
-      <translation type="unfinished">External mode identifier 0</translation>
+      <translation>Ідентифікатор 0 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11353,16 +11353,14 @@ for definition of battery states.</source>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE1_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 1</source>
-      <translation type="unfinished">External mode identifier 1</translation>
+      <translation>Ідентифікатор 1 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11371,16 +11369,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE2_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 2</source>
-      <translation type="unfinished">External mode identifier 2</translation>
+      <translation>Ідентифікатор 2 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11389,16 +11385,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE3_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 3</source>
-      <translation type="unfinished">External mode identifier 3</translation>
+      <translation>Ідентифікатор 3 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11407,16 +11401,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE4_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 4</source>
-      <translation type="unfinished">External mode identifier 4</translation>
+      <translation>Ідентифікатор 4 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11425,16 +11417,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE5_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 5</source>
-      <translation type="unfinished">External mode identifier 5</translation>
+      <translation>Ідентифікатор 5 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11443,16 +11433,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE6_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 6</source>
-      <translation type="unfinished">External mode identifier 6</translation>
+      <translation>Ідентифікатор 6 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11461,16 +11449,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE7_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 7</source>
-      <translation type="unfinished">External mode identifier 7</translation>
+      <translation>Ідентифікатор 7 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11479,16 +11465,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE_ARM_CHK/shortDesc</name>
     <message>
       <source>Allow external mode registration while armed</source>
-      <translation type="unfinished">Allow external mode registration while armed</translation>
+      <translation>Дозволити реєстрацію зовнішнього режиму під час стану взведення</translation>
     </message>
   </context>
   <context>
@@ -11516,7 +11500,7 @@ which is required when mapping an external mode to an RC switch.</translation>
     <name>/parameters/COM_MOT_TEST_EN/shortDesc</name>
     <message>
       <source>Enable Actuator Testing</source>
-      <translation type="unfinished">Enable Actuator Testing</translation>
+      <translation>Увімкнути тестування актуатора</translation>
     </message>
   </context>
   <context>
@@ -11524,8 +11508,8 @@ which is required when mapping an external mode to an RC switch.</translation>
     <message>
       <source>If set, enables the actuator test interface via MAVLink (ACTUATOR_TEST), that
 allows spinning the motors and moving the servos for testing purposes.</source>
-      <translation type="unfinished">If set, enables the actuator test interface via MAVLink (ACTUATOR_TEST), that
-allows spinning the motors and moving the servos for testing purposes.</translation>
+      <translation>Якщо вказано, то дозволяє використовувати інтерфейс для запуску тестування привода за допомогою MAVLink (ACTUATOR_TEST),
+дозволяє здійснювати обертання двигуна та при переміщенні сервоприводів для тестів.</translation>
     </message>
   </context>
   <context>
