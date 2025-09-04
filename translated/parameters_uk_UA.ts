@@ -11685,14 +11685,15 @@ Only used for multicopters and VTOLs in hover mode.
 Independent from estimator positioning data timeout threshold (see EKF2_NOAID_TOUT).
 Set to -1 to disable.</source>
       <translation>Це поріг помилки горизонтальної позиції (EPH), який викликає режим безпеки. Якщо помилка попередньої була нижче цього порогу, тоді є додатковий фактор 2.5 застосування ( поріг для невалідації відрізняється в 2.5 разів від порогу валідації). 
-Застосовується лише для мультикоптерів та </translation>
+Застосовується лише для мультикоптерів та ВЗІПів в режимі зависання.
+Не залежить від порога часу тайм-ауту ВАЗ начальника даних позиціонування (дивіться EKF2_NOAID_TOUT). Встановити на -1 для припинення роботи.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/shortDesc</name>
     <message>
       <source>Low position accuracy action</source>
-      <translation type="unfinished">Low position accuracy action</translation>
+      <translation>Дія низької точності розташування</translation>
     </message>
   </context>
   <context>
@@ -11702,24 +11703,22 @@ Set to -1 to disable.</source>
 See COM_POS_LOW_EPH to set the failsafe threshold.
 The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode,
 otherwise it is only a warning.</source>
-      <translation type="unfinished">Action the system takes when the estimated position has an accuracy below the specified threshold.
-See COM_POS_LOW_EPH to set the failsafe threshold.
-The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode,
-otherwise it is only a warning.</translation>
+      <translation>Дія, яку система виконує коли точність визначеної позиції є нижчою за визначений поріг. 
+Дивіться COM_P_LOW_EPH для встановлення порогу аварійного режиму. Дія аварійного режиму виконується лише у випадку, якщо апарат знаходиться режимі автоматичної місії або у режимі автоматичного баражування, інакше це лише попередження.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/0/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>Нічого</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/1/description</name>
     <message>
       <source>Warning</source>
-      <translation type="unfinished">Warning</translation>
+      <translation>Попередження</translation>
     </message>
   </context>
   <context>
