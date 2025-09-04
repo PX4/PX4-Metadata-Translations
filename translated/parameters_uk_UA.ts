@@ -11725,35 +11725,35 @@ otherwise it is only a warning.</source>
     <name>/parameters/COM_POS_LOW_ACT/values/2/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/3/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/4/description</name>
     <message>
       <source>Terminate</source>
-      <translation type="unfinished">Terminate</translation>
+      <translation>Завершити</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/5/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_EPH/shortDesc</name>
     <message>
       <source>Low position accuracy failsafe threshold</source>
-      <translation type="unfinished">Low position accuracy failsafe threshold</translation>
+      <translation>Низька точність порогу безпечного режиму позиціювання</translation>
     </message>
   </context>
   <context>
@@ -11763,10 +11763,10 @@ otherwise it is only a warning.</source>
 Local position has to be still declared valid, which requires some kind of velocity aiding or large dead-reckoning time (EKF2_NOAID_TOUT),
 and a high failsafe threshold (COM_POS_FS_EPH).
 Set to -1 to disable.</source>
-      <translation type="unfinished">This triggers the action specified in COM_POS_LOW_ACT if the estimated position accuracy is below this threshold.
-Local position has to be still declared valid, which requires some kind of velocity aiding or large dead-reckoning time (EKF2_NOAID_TOUT),
-and a high failsafe threshold (COM_POS_FS_EPH).
-Set to -1 to disable.</translation>
+      <translation>Це тригерує дію, зазначену в COM_POS_LOW_ACT, якщо передбачувана точність позиції нижче цього порогу.
+Місцева позиція повинна все ще оголошена, як дійсна, що вимагає якогось роду підтримки швидкості або великого часу визначення позиції через дед-реконінг (EKF2_NOAID_TOUT),
+і високий поріг режиму безпеки (COM_POS_FS_EPH). Встановіть значення
+-1 для вимкнення.</translation>
     </message>
   </context>
   <context>
