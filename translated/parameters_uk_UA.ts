@@ -11781,8 +11781,8 @@ Set to -1 to disable.</source>
     <message>
       <source>This configures a check to verify the expected number of 5V rail power supplies are present. By default only one is expected.
 Note: CBRK_SUPPLY_CHK disables all power checks including this one.</source>
-      <translation type="unfinished">This configures a check to verify the expected number of 5V rail power supplies are present. By default only one is expected.
-Note: CBRK_SUPPLY_CHK disables all power checks including this one.</translation>
+      <translation>Це налаштовує перевірку для контролю присутності очікуваного числа 5V рейкових джерел живлення. За замовчуванням очікується лише одна.
+Примітка: CBRK_SUPPLY_CHK вимикає всі перевірки живлення, включаючи цю.</translation>
     </message>
   </context>
   <context>
