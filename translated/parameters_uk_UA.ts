@@ -11797,8 +11797,7 @@ Note: CBRK_SUPPLY_CHK disables all power checks including this one.</source>
     <message>
       <source>Condition to enter the prearmed state, an intermediate state between disarmed and armed
 in which non-throttling actuators are active.</source>
-      <translation type="unfinished">Condition to enter the prearmed state, an intermediate state between disarmed and armed
-in which non-throttling actuators are active.</translation>
+      <translation>Умова для входу у стан перед взведенням; це є посередній стан між охолощений та взведений в якому недросельні актуатори є активними.</translation>
     </message>
   </context>
   <context>
@@ -11826,21 +11825,21 @@ in which non-throttling actuators are active.</translation>
     <name>/parameters/COM_QC_ACT/shortDesc</name>
     <message>
       <source>Set action after a quadchute</source>
-      <translation type="unfinished">Set action after a quadchute</translation>
+      <translation>Встановити дію після чотирикутника</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_QC_ACT/values/-1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_QC_ACT/values/0/description</name>
     <message>
       <source>Return mode</source>
-      <translation type="unfinished">Return mode</translation>
+      <translation>Режим повернення</translation>
     </message>
   </context>
   <context>
@@ -11854,14 +11853,14 @@ in which non-throttling actuators are active.</translation>
     <name>/parameters/COM_QC_ACT/values/2/description</name>
     <message>
       <source>Hold mode</source>
-      <translation type="unfinished">Hold mode</translation>
+      <translation>Режим утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RAM_MAX/shortDesc</name>
     <message>
       <source>Maximum allowed RAM usage to pass checks</source>
-      <translation type="unfinished">Maximum allowed RAM usage to pass checks</translation>
+      <translation>Максимально допустиме число використання оперативної пам'яті (RAM) для проходження перевірок</translation>
     </message>
   </context>
   <context>
@@ -11869,15 +11868,15 @@ in which non-throttling actuators are active.</translation>
     <message>
       <source>The check fails if the RAM usage is above this threshold.
 A negative value disables the check.</source>
-      <translation type="unfinished">The check fails if the RAM usage is above this threshold.
-A negative value disables the check.</translation>
+      <translation>Перевірка не вдається, якщо завантаження оперативної пам'яті (RAM) вище цього порогу.
+Від'ємне значення вимикає перевірку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RCL_EXCEPT/shortDesc</name>
     <message>
       <source>Manual control loss exceptions</source>
-      <translation type="unfinished">Manual control loss exceptions</translation>
+      <translation>Винятки втрати ручного контролю</translation>
     </message>
   </context>
   <context>
@@ -11885,8 +11884,7 @@ A negative value disables the check.</translation>
     <message>
       <source>Specify modes where manual control loss is ignored and no failsafe is triggered.
 External modes requiring stick input will still failsafe.</source>
-      <translation type="unfinished">Specify modes where manual control loss is ignored and no failsafe is triggered.
-External modes requiring stick input will still failsafe.</translation>
+      <translation>Визначте режими де втрата ручного контролю ігнорується та не викликається режим безпеки. Зовнішні режими, які вимагають введення за допомогою стіків,    будуть працювати в режимі безпеки.</translation>
     </message>
   </context>
   <context>
