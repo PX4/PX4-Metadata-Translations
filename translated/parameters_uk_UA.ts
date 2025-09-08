@@ -11912,14 +11912,14 @@ External modes requiring stick input will still failsafe.</source>
     <name>/parameters/COM_RCL_EXCEPT/bitmask/3/description</name>
     <message>
       <source>External Mode</source>
-      <translation type="unfinished">External Mode</translation>
+      <translation>Зовнішній режим</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_ARM_HYST/shortDesc</name>
     <message>
       <source>Manual control input arm/disarm command duration</source>
-      <translation type="unfinished">Manual control input arm/disarm command duration</translation>
+      <translation>Ручний контроль тривалості вхідної команди на взведення/охолощення</translation>
     </message>
   </context>
   <context>
@@ -11933,7 +11933,7 @@ External modes requiring stick input will still failsafe.</source>
     <name>/parameters/COM_RC_IN_MODE/shortDesc</name>
     <message>
       <source>RC control input mode</source>
-      <translation type="unfinished">RC control input mode</translation>
+      <translation>Режим вводу даних з керуванням пультом (RC)</translation>
     </message>
   </context>
   <context>
@@ -11946,13 +11946,11 @@ A value of 3 allows either input from RC or joystick. The first available source
 A value of 4 ignores any stick input.
 A value of 5 allows either RC Transmitter or Joystick input. But RC has priority and whenever avaiable is immedietely used.
 A value of 6 allows either RC Transmitter or Joystick input. But Joystick has priority and whenever avaiable is immedietely used.</source>
-      <translation type="unfinished">A value of 0 enables RC transmitter control (only). A valid RC transmitter calibration is required.
-A value of 1 allows joystick control only. RC input handling and the associated checks are disabled.
-A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid.
-A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot.
-A value of 4 ignores any stick input.
-A value of 5 allows either RC Transmitter or Joystick input. But RC has priority and whenever avaiable is immedietely used.
-A value of 6 allows either RC Transmitter or Joystick input. But Joystick has priority and whenever avaiable is immedietely used.</translation>
+      <translation>Значення 0 вмикає лише контроль передавача пульта (RC). Необхідно належне калібрування передавача пульта (RC).
+Значення 1 дозволяє лише контроль джойстиком. Управління з пульта та асоційовані з цим перевірки вімкнено. Значення 2 дозволяє функціонування або передавача пульта (RC) або джойстика. Використовується перше припустиме введення даних, та повернеться до інших джерел, якщо поток введення даних стане неприпустимим.
+Значення 3 дозволяє введення даних з пульта або з джойстика. Перше доступне джерело обирається та використовується до перезавантаження.
+Значення 4 ігнорує будь-яке введення стінками.
+Значення 5 дозволяє введення даних з передавача пульта (RC)</translation>
     </message>
   </context>
   <context>
