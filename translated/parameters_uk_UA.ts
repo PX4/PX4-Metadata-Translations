@@ -12055,53 +12055,51 @@ Goal:
 - Motors and propellers spool up to idle speed before getting commanded to spin faster
 - Timeout for ESCs and smart batteries to successfulyy do failure checks
 e.g. for stuck rotors before the vehicle is off the ground</source>
-      <translation type="unfinished">The minimal time from arming the motors until moving the vehicle is possible is COM_SPOOLUP_TIME seconds.
-Goal:
-- Motors and propellers spool up to idle speed before getting commanded to spin faster
-- Timeout for ESCs and smart batteries to successfulyy do failure checks
-e.g. for stuck rotors before the vehicle is off the ground</translation>
+      <translation>Мінімальний час від взведення моторів і до руху апарату є можливим COM_SPOOP_TIME секунд. 
+Мета: 
+- Мотори і пропелери роскручуються до швидкості холостого ходу перед отриманням команди обертатися швидше - Таймаут для ESCs (електронних контролерів швидкості) і розумних акумуляторів для успішних виконань перевірок збоїв, напр. для заклиневших роторів перед тим, як апарат відірветься від землі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_TAKEOFF_ACT/shortDesc</name>
     <message>
       <source>Action after TAKEOFF has been accepted</source>
-      <translation type="unfinished">Action after TAKEOFF has been accepted</translation>
+      <translation>Дія після злету (TAKEOFF) прийнята</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_TAKEOFF_ACT/longDesc</name>
     <message>
       <source>The mode transition after TAKEOFF has completed successfully.</source>
-      <translation type="unfinished">The mode transition after TAKEOFF has completed successfully.</translation>
+      <translation>Перехід до режиму після злету (TAKEOFF) успішно завершений.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_TAKEOFF_ACT/values/0/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_TAKEOFF_ACT/values/1/description</name>
     <message>
       <source>Mission (if valid)</source>
-      <translation type="unfinished">Mission (if valid)</translation>
+      <translation>Місія (якщо прийнятна)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_THROW_EN/shortDesc</name>
     <message>
       <source>Enable throw-start</source>
-      <translation type="unfinished">Enable throw-start</translation>
+      <translation>Увімкнути запуск з кидка</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_THROW_EN/longDesc</name>
     <message>
       <source>Allows to start the vehicle by throwing it into the air.</source>
-      <translation type="unfinished">Allows to start the vehicle by throwing it into the air.</translation>
+      <translation>Дозволяє запускати апарат шляхом викидання його в повітря.</translation>
     </message>
   </context>
   <context>
@@ -12115,14 +12113,14 @@ e.g. for stuck rotors before the vehicle is off the ground</translation>
     <name>/parameters/COM_THROW_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_THROW_SPEED/shortDesc</name>
     <message>
       <source>Minimum speed for the throw start</source>
-      <translation type="unfinished">Minimum speed for the throw start</translation>
+      <translation>Мінімальна швидкість для запуску з кидка</translation>
     </message>
   </context>
   <context>
@@ -12132,17 +12130,15 @@ e.g. for stuck rotors before the vehicle is off the ground</translation>
 is exceeded before detecting the freefall. This is a safety feature to ensure the drone does
 not turn on after accidental drop or a rapid movement before the throw.
 Set to 0 to disable.</source>
-      <translation type="unfinished">When the throw launch is enabled, the drone will only allow motors to spin after this speed
-is exceeded before detecting the freefall. This is a safety feature to ensure the drone does
-not turn on after accidental drop or a rapid movement before the throw.
-Set to 0 to disable.</translation>
+      <translation>Коли запуск з кидка активований, то дрон дозволить обертання моторів лише після того, як ця швидкість буде перевищена до виявлення вільного падіння. Це є елемент безпеки для запобігання вмикання дрона при випадковому падінні або швидкому русі перед підкиданням.
+Встановити на 0 для вимкнення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_VEL_FS_EVH/shortDesc</name>
     <message>
       <source>Horizontal velocity error threshold</source>
-      <translation type="unfinished">Horizontal velocity error threshold</translation>
+      <translation>Поріг помилки горизонтальної швидкості</translation>
     </message>
   </context>
   <context>
@@ -12152,10 +12148,8 @@ Set to 0 to disable.</translation>
 The default is appropriate for a multicopter. Can be increased for a fixed-wing.
 If the previous velocity error was below this threshold, there is an additional
 factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).</source>
-      <translation type="unfinished">This is the horizontal velocity error (EVH) threshold that will trigger a failsafe.
-The default is appropriate for a multicopter. Can be increased for a fixed-wing.
-If the previous velocity error was below this threshold, there is an additional
-factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).</translation>
+      <translation>Це є поріг помилки горизонтальної швидкості (EVH) що запускає безпечний режим. Значення за замовчуванням підходить для мультикоптера. Може бути збільшене для апаратів з фіксованим крилом.
+Якщо попередня помилка швидкості була нижче цього порогу, то є додатковий фактор 2,5 що застосовуються (поріг для неприйняття це є 2,5 рази від порога валідації).</translation>
     </message>
   </context>
   <context>
