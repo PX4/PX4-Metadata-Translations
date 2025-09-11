@@ -7309,8 +7309,10 @@ Note: this is only useful for servos.</translation>
   <context>
     <name>/parameters/ASPD_DO_CHECKS/longDesc</name>
     <message>
-      <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.</source>
-      <translation type="unfinished">Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.</translation>
+      <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.
+Note: The missing data check (bit 0) is implicitly always enabled when ASPD_DO_CHECKS &gt; 0, even if bit 0 is not explicitly set.</source>
+      <translation type="unfinished">Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.
+Note: The missing data check (bit 0) is implicitly always enabled when ASPD_DO_CHECKS &gt; 0, even if bit 0 is not explicitly set.</translation>
     </message>
   </context>
   <context>
@@ -7623,16 +7625,16 @@ When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount
   <context>
     <name>/parameters/ASPD_WERR_THR/shortDesc</name>
     <message>
-      <source>Horizontal wind uncertainty threshold for synthetic airspeed</source>
-      <translation type="unfinished">Horizontal wind uncertainty threshold for synthetic airspeed</translation>
+      <source>Horizontal wind uncertainty threshold for valid ground-minus-wind</source>
+      <translation type="unfinished">Horizontal wind uncertainty threshold for valid ground-minus-wind</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_WERR_THR/longDesc</name>
     <message>
-      <source>The synthetic airspeed estimate (from groundspeed and heading) will be declared valid
+      <source>The airspeed alternative derived from groundspeed and heading will be declared valid
 as soon and as long the horizontal wind uncertainty is below this value.</source>
-      <translation type="unfinished">The synthetic airspeed estimate (from groundspeed and heading) will be declared valid
+      <translation type="unfinished">The airspeed alternative derived from groundspeed and heading will be declared valid
 as soon and as long the horizontal wind uncertainty is below this value.</translation>
     </message>
   </context>
@@ -7904,15 +7906,15 @@ Set bits in the following positions to enable:
   <context>
     <name>/parameters/FW_AT_MAN_AUX/shortDesc</name>
     <message>
-      <source>Enable/disable auto tuning using an RC AUX input</source>
-      <translation type="unfinished">Enable/disable auto tuning using an RC AUX input</translation>
+      <source>Enable/disable auto tuning using a manual control AUX input</source>
+      <translation type="unfinished">Enable/disable auto tuning using a manual control AUX input</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/longDesc</name>
     <message>
-      <source>Defines which RC_MAP_AUXn parameter maps the RC channel used to enable/disable auto tuning.</source>
-      <translation type="unfinished">Defines which RC_MAP_AUXn parameter maps the RC channel used to enable/disable auto tuning.</translation>
+      <source>Defines which RC_MAP_AUXn parameter maps the manual control channel used to enable/disable auto tuning.</source>
+      <translation type="unfinished">Defines which RC_MAP_AUXn parameter maps the manual control channel used to enable/disable auto tuning.</translation>
     </message>
   </context>
   <context>
@@ -11723,34 +11725,6 @@ set by COM_OF_LOSS_T in seconds.</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/COM_POSCTL_NAVL/shortDesc</name>
-    <message>
-      <source>Position mode navigation loss response</source>
-      <translation type="unfinished">Position mode navigation loss response</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_POSCTL_NAVL/longDesc</name>
-    <message>
-      <source>This sets the flight mode that will be used if navigation accuracy is no longer adequate for position control in manual Position mode.</source>
-      <translation type="unfinished">This sets the flight mode that will be used if navigation accuracy is no longer adequate for position control in manual Position mode.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_POSCTL_NAVL/values/0/description</name>
-    <message>
-      <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_POSCTL_NAVL/values/1/description</name>
-    <message>
-      <source>Land mode (descend)</source>
-      <translation type="unfinished">Land mode (descend)</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/COM_POS_FS_EPH/shortDesc</name>
     <message>
       <source>Horizontal position error threshold for hovering systems</source>
@@ -11963,8 +11937,8 @@ A negative value disables the check.</translation>
   <context>
     <name>/parameters/COM_RCL_EXCEPT/shortDesc</name>
     <message>
-      <source>RC loss exceptions</source>
-      <translation type="unfinished">RC loss exceptions</translation>
+      <source>Manual control loss exceptions</source>
+      <translation type="unfinished">Manual control loss exceptions</translation>
     </message>
   </context>
   <context>
@@ -12007,8 +11981,8 @@ External modes requiring stick input will still failsafe.</translation>
   <context>
     <name>/parameters/COM_RC_ARM_HYST/shortDesc</name>
     <message>
-      <source>RC input arm/disarm command duration</source>
-      <translation type="unfinished">RC input arm/disarm command duration</translation>
+      <source>Manual control input arm/disarm command duration</source>
+      <translation type="unfinished">Manual control input arm/disarm command duration</translation>
     </message>
   </context>
   <context>
@@ -12032,12 +12006,16 @@ External modes requiring stick input will still failsafe.</translation>
 A value of 1 allows joystick control only. RC input handling and the associated checks are disabled.
 A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid.
 A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot.
-A value of 4 ignores any stick input.</source>
+A value of 4 ignores any stick input.
+A value of 5 allows either RC Transmitter or Joystick input. But RC has priority and whenever avaiable is immedietely used.
+A value of 6 allows either RC Transmitter or Joystick input. But Joystick has priority and whenever avaiable is immedietely used.</source>
       <translation type="unfinished">A value of 0 enables RC transmitter control (only). A valid RC transmitter calibration is required.
 A value of 1 allows joystick control only. RC input handling and the associated checks are disabled.
 A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid.
 A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot.
-A value of 4 ignores any stick input.</translation>
+A value of 4 ignores any stick input.
+A value of 5 allows either RC Transmitter or Joystick input. But RC has priority and whenever avaiable is immedietely used.
+A value of 6 allows either RC Transmitter or Joystick input. But Joystick has priority and whenever avaiable is immedietely used.</translation>
     </message>
   </context>
   <context>
@@ -12076,6 +12054,20 @@ A value of 4 ignores any stick input.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/COM_RC_IN_MODE/values/5/description</name>
+    <message>
+      <source>RC priority, Joystick fallback</source>
+      <translation type="unfinished">RC priority, Joystick fallback</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_RC_IN_MODE/values/6/description</name>
+    <message>
+      <source>Joystick priority, RC fallback</source>
+      <translation type="unfinished">Joystick priority, RC fallback</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/COM_RC_LOSS_T/shortDesc</name>
     <message>
       <source>Manual control loss timeout</source>
@@ -12096,18 +12088,18 @@ Ensure the value is not set lower than the update interval of the RC or Joystick
   <context>
     <name>/parameters/COM_RC_OVERRIDE/shortDesc</name>
     <message>
-      <source>Enable RC stick override of auto and/or offboard modes</source>
-      <translation type="unfinished">Enable RC stick override of auto and/or offboard modes</translation>
+      <source>Enable manual control stick override</source>
+      <translation type="unfinished">Enable manual control stick override</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_OVERRIDE/longDesc</name>
     <message>
-      <source>When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV
+      <source>When enabled, moving the sticks more than COM_RC_STICK_OV
 immediately gives control back to the pilot by switching to Position mode and
 if position is unavailable Altitude mode.
 Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</source>
-      <translation type="unfinished">When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV
+      <translation type="unfinished">When enabled, moving the sticks more than COM_RC_STICK_OV
 immediately gives control back to the pilot by switching to Position mode and
 if position is unavailable Altitude mode.
 Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</translation>
@@ -12130,8 +12122,8 @@ Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</transl
   <context>
     <name>/parameters/COM_RC_STICK_OV/shortDesc</name>
     <message>
-      <source>RC stick override threshold</source>
-      <translation type="unfinished">RC stick override threshold</translation>
+      <source>Stick override threshold</source>
+      <translation type="unfinished">Stick override threshold</translation>
     </message>
   </context>
   <context>
@@ -12422,19 +12414,17 @@ action will be executed.</translation>
   <context>
     <name>/parameters/NAV_RCL_ACT/shortDesc</name>
     <message>
-      <source>Set RC loss failsafe mode</source>
-      <translation type="unfinished">Set RC loss failsafe mode</translation>
+      <source>Set manual control loss failsafe mode</source>
+      <translation type="unfinished">Set manual control loss failsafe mode</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_RCL_ACT/longDesc</name>
     <message>
-      <source>The RC loss failsafe will only be entered after a timeout,
-set by COM_RC_LOSS_T in seconds. If RC input checks have been disabled
-by setting the COM_RC_IN_MODE param it will not be triggered.</source>
-      <translation type="unfinished">The RC loss failsafe will only be entered after a timeout,
-set by COM_RC_LOSS_T in seconds. If RC input checks have been disabled
-by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
+      <source>The manual control loss failsafe will only be entered after a timeout,
+set by COM_RC_LOSS_T in seconds.</source>
+      <translation type="unfinished">The manual control loss failsafe will only be entered after a timeout,
+set by COM_RC_LOSS_T in seconds.</translation>
     </message>
   </context>
   <context>
@@ -12596,6 +12586,34 @@ by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
       <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP_MODE/shortDesc</name>
+    <message>
+      <source>Fusion reset mode</source>
+      <translation type="unfinished">Fusion reset mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP_MODE/longDesc</name>
+    <message>
+      <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP_MODE/values/0/description</name>
+    <message>
+      <source>Automatic</source>
+      <translation type="unfinished">Automatic</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP_MODE/values/1/description</name>
+    <message>
+      <source>Dead-reckoning</source>
+      <translation type="unfinished">Dead-reckoning</translation>
     </message>
   </context>
   <context>
@@ -13222,6 +13240,13 @@ by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/EKF2_GPS_CHECK/bitmask/10/description</name>
+    <message>
+      <source>GPS fix type (EKF2_REQ_FIX)</source>
+      <translation type="unfinished">GPS fix type (EKF2_REQ_FIX)</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/EKF2_GPS_CTRL/shortDesc</name>
     <message>
       <source>GNSS sensor aiding</source>
@@ -13268,6 +13293,34 @@ by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
     <message>
       <source>GPS measurement delay relative to IMU measurements</source>
       <translation type="unfinished">GPS measurement delay relative to IMU measurements</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_GPS_MODE/shortDesc</name>
+    <message>
+      <source>Fusion reset mode</source>
+      <translation type="unfinished">Fusion reset mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_GPS_MODE/longDesc</name>
+    <message>
+      <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_GPS_MODE/values/0/description</name>
+    <message>
+      <source>Automatic</source>
+      <translation type="unfinished">Automatic</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_GPS_MODE/values/1/description</name>
+    <message>
+      <source>Dead-reckoning</source>
+      <translation type="unfinished">Dead-reckoning</translation>
     </message>
   </context>
   <context>
@@ -14087,6 +14140,69 @@ by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
     <message>
       <source>Required EPV to use GPS</source>
       <translation type="unfinished">Required EPV to use GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/shortDesc</name>
+    <message>
+      <source>Required GPS fix</source>
+      <translation type="unfinished">Required GPS fix</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/longDesc</name>
+    <message>
+      <source>Minimum GPS fix type required for GPS usage.</source>
+      <translation type="unfinished">Minimum GPS fix type required for GPS usage.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/0/description</name>
+    <message>
+      <source>No fix required</source>
+      <translation type="unfinished">No fix required</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/2/description</name>
+    <message>
+      <source>2D fix</source>
+      <translation type="unfinished">2D fix</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/3/description</name>
+    <message>
+      <source>3D fix</source>
+      <translation type="unfinished">3D fix</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/4/description</name>
+    <message>
+      <source>RTCM code differential</source>
+      <translation type="unfinished">RTCM code differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/5/description</name>
+    <message>
+      <source>RTK float</source>
+      <translation type="unfinished">RTK float</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/6/description</name>
+    <message>
+      <source>RTK fixed</source>
+      <translation type="unfinished">RTK fixed</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/8/description</name>
+    <message>
+      <source>Extrapolated</source>
+      <translation type="unfinished">Extrapolated</translation>
     </message>
   </context>
   <context>
@@ -16867,8 +16983,8 @@ Setting this value to 0 disables the feature.</translation>
   <context>
     <name>/parameters/MC_ORBIT_YAW_MOD/values/4/description</name>
     <message>
-      <source>RC Controlled</source>
-      <translation type="unfinished">RC Controlled</translation>
+      <source>Manually (yaw stick) Controlled</source>
+      <translation type="unfinished">Manually (yaw stick) Controlled</translation>
     </message>
   </context>
   <context>
@@ -17517,7 +17633,8 @@ heading information, whereas the secondary will act as moving base.
 Modes 1 and 2 require each F9P UART1 to be connected to the Autopilot. In addition, UART2 on the
 F9P units are connected to each other.
 Modes 3 and 4 only require UART1 on each F9P connected to the Autopilot or Can Node. UART RX DMA is required.
-RTK is still possible with this setup.</source>
+RTK is still possible with this setup.
+Mode 6 is intended for use with a ground control station (not necessarily an RTK correction base).</source>
       <translation type="unfinished">Select the u-blox configuration setup. Most setups will use the default, including RTK and
 dual GPS without heading.
 If rover has RTCM corrections from a static base (or other static correction source) coming in on UART2, then select Mode 5.
@@ -17526,7 +17643,8 @@ heading information, whereas the secondary will act as moving base.
 Modes 1 and 2 require each F9P UART1 to be connected to the Autopilot. In addition, UART2 on the
 F9P units are connected to each other.
 Modes 3 and 4 only require UART1 on each F9P connected to the Autopilot or Can Node. UART RX DMA is required.
-RTK is still possible with this setup.</translation>
+RTK is still possible with this setup.
+Mode 6 is intended for use with a ground control station (not necessarily an RTK correction base).</translation>
     </message>
   </context>
   <context>
@@ -17569,6 +17687,13 @@ RTK is still possible with this setup.</translation>
     <message>
       <source>Rover with Static Base on UART2 (similar to Default, except coming in on UART2)</source>
       <translation type="unfinished">Rover with Static Base on UART2 (similar to Default, except coming in on UART2)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/GPS_UBX_MODE/values/6/description</name>
+    <message>
+      <source>Ground Control Station (UART2 outputs NMEA)</source>
+      <translation type="unfinished">Ground Control Station (UART2 outputs NMEA)</translation>
     </message>
   </context>
   <context>
@@ -35113,6 +35238,20 @@ error between the desired and actual yaw.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/RD_YAW_STK_GAIN/shortDesc</name>
+    <message>
+      <source>Yaw stick gain for Manual mode</source>
+      <translation type="unfinished">Yaw stick gain for Manual mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RD_YAW_STK_GAIN/longDesc</name>
+    <message>
+      <source>Assign value &lt;1.0 to decrease stick response for yaw control.</source>
+      <translation type="unfinished">Assign value &lt;1.0 to decrease stick response for yaw control.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/RM_COURSE_CTL_TH/shortDesc</name>
     <message>
       <source>Threshold to update course control in manual position mode</source>
@@ -35147,6 +35286,20 @@ and lateral speed which defines a course direction.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/RM_YAW_STK_GAIN/shortDesc</name>
+    <message>
+      <source>Yaw stick gain for Manual mode</source>
+      <translation type="unfinished">Yaw stick gain for Manual mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RM_YAW_STK_GAIN/longDesc</name>
+    <message>
+      <source>Assign value &lt;1.0 to decrease stick response for yaw control.</source>
+      <translation type="unfinished">Assign value &lt;1.0 to decrease stick response for yaw control.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/RO_YAW_ACCEL_LIM/shortDesc</name>
     <message>
       <source>Yaw acceleration limit</source>
@@ -35176,6 +35329,24 @@ Set to -1 to disable.</translation>
 Set to -1 to disable.</source>
       <translation type="unfinished">Used to cap how quickly the magnitude of yaw rate setpoints can decrease.
 Set to -1 to disable.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RO_YAW_EXPO/shortDesc</name>
+    <message>
+      <source>Yaw rate expo factor</source>
+      <translation type="unfinished">Yaw rate expo factor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RO_YAW_EXPO/longDesc</name>
+    <message>
+      <source>Exponential factor for tuning the input curve shape.
+0 Purely linear input curve
+1 Purely cubic input curve</source>
+      <translation type="unfinished">Exponential factor for tuning the input curve shape.
+0 Purely linear input curve
+1 Purely cubic input curve</translation>
     </message>
   </context>
   <context>
@@ -35254,6 +35425,26 @@ in Acro, Stabilized and Position mode.</translation>
     <message>
       <source>Percentage of stick input range that will be interpreted as zero around the stick centered value.</source>
       <translation type="unfinished">Percentage of stick input range that will be interpreted as zero around the stick centered value.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RO_YAW_SUPEXPO/shortDesc</name>
+    <message>
+      <source>Yaw rate super expo factor</source>
+      <translation type="unfinished">Yaw rate super expo factor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RO_YAW_SUPEXPO/longDesc</name>
+    <message>
+      <source>"Superexponential" factor for refining the input curve shape tuned using RO_YAW_EXPO.
+0 Pure Expo function
+0.7 reasonable shape enhancement for intuitive stick feel
+0.95 very strong bent input curve only near maxima have effect</source>
+      <translation type="unfinished">"Superexponential" factor for refining the input curve shape tuned using RO_YAW_EXPO.
+0 Pure Expo function
+0.7 reasonable shape enhancement for intuitive stick feel
+0.95 very strong bent input curve only near maxima have effect</translation>
     </message>
   </context>
   <context>
@@ -35534,6 +35725,40 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</transl
     </message>
   </context>
   <context>
+    <name>/parameters/SDLOG_BACKEND/shortDesc</name>
+    <message>
+      <source>Logging Backend (integer bitmask)</source>
+      <translation type="unfinished">Logging Backend (integer bitmask)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SDLOG_BACKEND/longDesc</name>
+    <message>
+      <source>If no logging is set the logger will not be started.
+Set bits true to enable:
+0: SD card logging
+1: Mavlink logging</source>
+      <translation type="unfinished">If no logging is set the logger will not be started.
+Set bits true to enable:
+0: SD card logging
+1: Mavlink logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SDLOG_BACKEND/bitmask/0/description</name>
+    <message>
+      <source>SD card logging</source>
+      <translation type="unfinished">SD card logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SDLOG_BACKEND/bitmask/1/description</name>
+    <message>
+      <source>Mavlink logging</source>
+      <translation type="unfinished">Mavlink logging</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/SDLOG_BOOT_BAT/shortDesc</name>
     <message>
       <source>Battery-only Logging</source>
@@ -35697,16 +35922,15 @@ the data in the mission log (and more).</translation>
     <name>/parameters/SDLOG_MODE/longDesc</name>
     <message>
       <source>Determines when to start and stop logging. By default, logging is started
-when arming the system, and stopped when disarming.</source>
+when arming the system, and stopped when disarming.
+Note: The logging start/end points that can be configured here only apply to
+SD logging. The mavlink backend is started/stopped independently
+of these points.</source>
       <translation type="unfinished">Determines when to start and stop logging. By default, logging is started
-when arming the system, and stopped when disarming.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SDLOG_MODE/values/-1/description</name>
-    <message>
-      <source>disabled</source>
-      <translation type="unfinished">disabled</translation>
+when arming the system, and stopped when disarming.
+Note: The logging start/end points that can be configured here only apply to
+SD logging. The mavlink backend is started/stopped independently
+of these points.</translation>
     </message>
   </context>
   <context>
@@ -47826,13 +48050,6 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/category/Developer</name>
-    <message>
-      <source>Developer</source>
-      <translation type="unfinished">Developer</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/category/Standard</name>
     <message>
       <source>Standard</source>
@@ -47847,101 +48064,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Autotune</name>
+    <name>$globals/category/Developer</name>
     <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
+      <source>Developer</source>
+      <translation type="unfinished">Developer</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/SITL</name>
+    <name>$globals/group/Flight Task Orbit</name>
     <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Longitudinal Control</name>
-    <message>
-      <source>FW Longitudinal Control</source>
-      <translation type="unfinished">FW Longitudinal Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/EKF2</name>
-    <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Lateral Control</name>
-    <message>
-      <source>FW Lateral Control</source>
-      <translation type="unfinished">FW Lateral Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Attitude Q estimator</name>
-    <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN GNSS</name>
-    <message>
-      <source>UAVCAN GNSS</source>
-      <translation type="unfinished">UAVCAN GNSS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Septentrio</name>
-    <message>
-      <source>Septentrio</source>
-      <translation type="unfinished">Septentrio</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
     </message>
   </context>
   <context>
@@ -47952,31 +48085,24 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Ackermann</name>
+    <name>$globals/group/Simulator</name>
     <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW General</name>
+    <name>$globals/group/FW Attitude Control</name>
     <message>
-      <source>FW General</source>
-      <translation type="unfinished">FW General</translation>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Actuator Outputs</name>
+    <name>$globals/group/Radio Calibration</name>
     <message>
-      <source>Actuator Outputs</source>
-      <translation type="unfinished">Actuator Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Precision Land</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
     </message>
   </context>
   <context>
@@ -47987,10 +48113,108 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Mount</name>
     <message>
       <source>Mount</source>
       <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Attitude Q estimator</name>
+    <message>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Actuator Outputs</name>
+    <message>
+      <source>Actuator Outputs</source>
+      <translation type="unfinished">Actuator Outputs</translation>
     </message>
   </context>
   <context>
@@ -48001,10 +48225,73 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Simulation In Hardware</name>
+    <name>$globals/group/Autotune</name>
     <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
     </message>
   </context>
   <context>
@@ -48012,6 +48299,111 @@ Set to 0 do disable this threshold.</translation>
     <message>
       <source>VTOL Attitude Control</source>
       <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN GNSS</name>
+    <message>
+      <source>UAVCAN GNSS</source>
+      <translation type="unfinished">UAVCAN GNSS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN Motor Parameters</name>
+    <message>
+      <source>UAVCAN Motor Parameters</source>
+      <translation type="unfinished">UAVCAN Motor Parameters</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulation In Hardware</name>
+    <message>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <message>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Takeoff</name>
+    <message>
+      <source>FW Auto Takeoff</source>
+      <translation type="unfinished">FW Auto Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geometry</name>
+    <message>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
     </message>
   </context>
   <context>
@@ -48029,178 +48421,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Payload Deliverer</name>
-    <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Thermal Compensation</name>
-    <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Rate Control</name>
-    <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Mecanum</name>
-    <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Calibration</name>
-    <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN Motor Parameters</name>
-    <message>
-      <source>UAVCAN Motor Parameters</source>
-      <translation type="unfinished">UAVCAN Motor Parameters</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Events</name>
     <message>
       <source>Events</source>
       <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Lateral Control</name>
+    <message>
+      <source>FW Lateral Control</source>
+      <translation type="unfinished">FW Lateral Control</translation>
     </message>
   </context>
   <context>
@@ -48211,10 +48442,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Manual Control</name>
+    <name>$globals/group/Runway Takeoff</name>
     <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
     </message>
   </context>
   <context>
@@ -48225,17 +48463,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Camera trigger</name>
     <message>
       <source>Camera trigger</source>
       <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
     </message>
   </context>
   <context>
@@ -48246,101 +48484,24 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Attitude Control</name>
+    <name>$globals/group/Geofence</name>
     <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <name>$globals/group/Septentrio</name>
     <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+      <source>Septentrio</source>
+      <translation type="unfinished">Septentrio</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Testing</name>
+    <name>$globals/group/FW Longitudinal Control</name>
     <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MAVLink</name>
-    <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulator</name>
-    <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Differential</name>
-    <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
+      <source>FW Longitudinal Control</source>
+      <translation type="unfinished">FW Longitudinal Control</translation>
     </message>
   </context>
   <context>
@@ -48351,17 +48512,80 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Auto Takeoff</name>
+    <name>$globals/group/Battery Calibration</name>
     <message>
-      <source>FW Auto Takeoff</source>
-      <translation type="unfinished">FW Auto Takeoff</translation>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Return Mode</name>
+    <name>$globals/group/FW General</name>
     <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
+      <source>FW General</source>
+      <translation type="unfinished">FW General</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
     </message>
   </context>
 </TS>

@@ -1237,21 +1237,21 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
@@ -1265,14 +1265,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -1619,42 +1619,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC10/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -2001,42 +2001,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC11/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -2383,42 +2383,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC12/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -2765,42 +2765,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC13/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -3147,14 +3147,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC14/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
@@ -3168,21 +3168,21 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC14/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -3529,42 +3529,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC15/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -3911,42 +3911,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC16/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -4293,42 +4293,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC2/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Актюатора Набір 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Актюатора Набір 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Актюатора Набір 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Актюатора Набір 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -4675,42 +4675,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC3/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -5057,42 +5057,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC4/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -5439,42 +5439,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC5/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -5821,42 +5821,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC6/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -6203,42 +6203,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC7/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -6585,42 +6585,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC8/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -6967,42 +6967,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC9/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Набір Актюатора 1</translation>
+      <translation>Периферія через Привід Набір 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Набір Актюатора 2</translation>
+      <translation>Периферія через Привід Набір 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Набір Актюатора 3</translation>
+      <translation>Периферія через Привід Набір 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Набір Актюатора 4</translation>
+      <translation>Периферія через Привід Набір 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Набір Актюатора 5</translation>
+      <translation>Периферія через Привід Набір 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Набір Актюатора 6</translation>
+      <translation>Периферія через Привід Набір 6</translation>
     </message>
   </context>
   <context>
@@ -7325,8 +7325,10 @@ Note: this is only useful for servos.</source>
   <context>
     <name>/parameters/ASPD_DO_CHECKS/longDesc</name>
     <message>
-      <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.</source>
-      <translation>Контролює, які перевірки запущено для перевірки інформації про швидкість польоту для валідації. Застосовується тільки, якщо ASPD_PRIMARY &gt; 0.</translation>
+      <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.
+Note: The missing data check (bit 0) is implicitly always enabled when ASPD_DO_CHECKS &gt; 0, even if bit 0 is not explicitly set.</source>
+      <translation>Керує, які перевірки виконуються для перевірки даних швидкості польоту для валідації. Застосовуються лише якщо ASPD_PRIMARY &gt; 0.
+Примітка: відсутні дані перевірки (bit 0) будуть неявно ввімкнені при ASPD_DO_CHECKS &gt; 0, навіть якщо bit 0 явно не встановлено.</translation>
     </message>
   </context>
   <context>
@@ -7424,17 +7426,14 @@ Relies on  FW_THR_TRIM being set accurately.</source>
 smaller values make it more sensitive. Large innovations indicate an inconsistency between predicted (groundspeed - windspeeed)
 and measured airspeed.
 The time required to detect a fault when the threshold is exceeded depends on the size of the exceedance and is controlled by the ASPD_FS_INTEG parameter.</source>
-      <translation type="unfinished">This specifies the minimum airspeed innovation required to trigger a failsafe. Larger values make the check less sensitive,
-smaller values make it more sensitive. Large innovations indicate an inconsistency between predicted (groundspeed - windspeeed)
-and measured airspeed.
-The time required to detect a fault when the threshold is exceeded depends on the size of the exceedance and is controlled by the ASPD_FS_INTEG parameter.</translation>
+      <translation>Це визначає мінімальну інноваційну швидкість польоту необхідну для виклику аварійного режиму. Великі інновації вказують на незбіг між очікуваною (швидкість відносно землі мінус швидкість вітру) та виміряна швидкість польоту. Час необхідний для визначення помилки, коли поріг перевищено, залежить від розміру перевищення та контролюється ASPD_FS_INTEG параметр.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FS_INTEG/shortDesc</name>
     <message>
       <source>Airspeed failure innovation integral threshold</source>
-      <translation type="unfinished">Airspeed failure innovation integral threshold</translation>
+      <translation>Неспрацювання інноваційного інтегрального порогу швидкості польоту</translation>
     </message>
   </context>
   <context>
@@ -7450,7 +7449,7 @@ Larger values make the check less sensitive, smaller positive values make it mor
     <name>/parameters/ASPD_FS_T_START/shortDesc</name>
     <message>
       <source>Airspeed failsafe start delay</source>
-      <translation type="unfinished">Airspeed failsafe start delay</translation>
+      <translation>Затримка старту аварійного режиму швидкості польоту</translation>
     </message>
   </context>
   <context>
@@ -7458,120 +7457,120 @@ Larger values make the check less sensitive, smaller positive values make it mor
     <message>
       <source>Delay before switching back to using airspeed sensor if checks indicate sensor is good.
 Set to a negative value to disable the re-enabling in flight.</source>
-      <translation type="unfinished">Delay before switching back to using airspeed sensor if checks indicate sensor is good.
-Set to a negative value to disable the re-enabling in flight.</translation>
+      <translation>Затримка перед перемиканням назад до використання датчика швидкості польоту, якщо перевіки вказують, що сенсор в нормі.
+Встановити від'ємне значення, щоб вимкнути повторне увімкнення в польоті.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FS_T_STOP/shortDesc</name>
     <message>
       <source>Airspeed failsafe stop delay</source>
-      <translation type="unfinished">Airspeed failsafe stop delay</translation>
+      <translation>Затримка припинення аварійного режиму швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FS_T_STOP/longDesc</name>
     <message>
       <source>Delay before stopping use of airspeed sensor if checks indicate sensor is bad.</source>
-      <translation type="unfinished">Delay before stopping use of airspeed sensor if checks indicate sensor is bad.</translation>
+      <translation>Затримка перед припиненням використання датчика швидкості польоту, якщо перевірки вказують, що сенсор в не працює.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/shortDesc</name>
     <message>
       <source>Index or primary airspeed measurement source</source>
-      <translation type="unfinished">Index or primary airspeed measurement source</translation>
+      <translation>Індекс або первинне джерело вимірювання швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/0/description</name>
     <message>
       <source>Groundspeed minus windspeed</source>
-      <translation type="unfinished">Groundspeed minus windspeed</translation>
+      <translation>Швидкість відносно землі мінус швидкість польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/1/description</name>
     <message>
       <source>First airspeed sensor</source>
-      <translation type="unfinished">First airspeed sensor</translation>
+      <translation>Перший датчик швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/2/description</name>
     <message>
       <source>Second airspeed sensor</source>
-      <translation type="unfinished">Second airspeed sensor</translation>
+      <translation>Другий датчик швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/3/description</name>
     <message>
       <source>Third airspeed sensor</source>
-      <translation type="unfinished">Third airspeed sensor</translation>
+      <translation>Третій датчик швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/4/description</name>
     <message>
       <source>Thrust based airspeed</source>
-      <translation type="unfinished">Thrust based airspeed</translation>
+      <translation>Швидкість польоту на основі тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_1/shortDesc</name>
     <message>
       <source>Scale of airspeed sensor 1</source>
-      <translation type="unfinished">Scale of airspeed sensor 1</translation>
+      <translation>Шкала швидкості польоту сенсора 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_1/longDesc</name>
     <message>
       <source>This is the scale IAS --&gt; CAS of the first airspeed sensor instance</source>
-      <translation type="unfinished">This is the scale IAS --&gt; CAS of the first airspeed sensor instance</translation>
+      <translation>Це шкала IAS --&gt; CAS першого датчика моменту швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_2/shortDesc</name>
     <message>
       <source>Scale of airspeed sensor 2</source>
-      <translation type="unfinished">Scale of airspeed sensor 2</translation>
+      <translation>Шкала швидкості польоту сенсора 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_2/longDesc</name>
     <message>
       <source>This is the scale IAS --&gt; CAS of the second airspeed sensor instance</source>
-      <translation type="unfinished">This is the scale IAS --&gt; CAS of the second airspeed sensor instance</translation>
+      <translation>Це шкала IAS --&gt; CAS першого датчика моменту швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_3/shortDesc</name>
     <message>
       <source>Scale of airspeed sensor 3</source>
-      <translation type="unfinished">Scale of airspeed sensor 3</translation>
+      <translation>Шкала швидкості польоту сенсора 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_3/longDesc</name>
     <message>
       <source>This is the scale IAS --&gt; CAS of the third airspeed sensor instance</source>
-      <translation type="unfinished">This is the scale IAS --&gt; CAS of the third airspeed sensor instance</translation>
+      <translation>Це шкала IAS --&gt; CAS третього датчика моменту швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_APPLY/shortDesc</name>
     <message>
       <source>Controls when to apply the new estimated airspeed scale(s)</source>
-      <translation type="unfinished">Controls when to apply the new estimated airspeed scale(s)</translation>
+      <translation>Контролює при застосуванні нового вимірювання шкал швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_APPLY/values/0/description</name>
     <message>
       <source>Do not automatically apply the estimated scale</source>
-      <translation type="unfinished">Do not automatically apply the estimated scale</translation>
+      <translation>Не застосовується автоматично до вимірювальної шкали</translation>
     </message>
   </context>
   <context>
@@ -7585,14 +7584,14 @@ Set to a negative value to disable the re-enabling in flight.</translation>
     <name>/parameters/ASPD_SCALE_APPLY/values/2/description</name>
     <message>
       <source>Apply the estimated scale in air</source>
-      <translation type="unfinished">Apply the estimated scale in air</translation>
+      <translation>Застосувати до вимірювальної шкали в повітрі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_NSD/shortDesc</name>
     <message>
       <source>Wind estimator true airspeed scale process noise spectral density</source>
-      <translation type="unfinished">Wind estimator true airspeed scale process noise spectral density</translation>
+      <translation>Вимірювач вітру справжньої шкали швидкості польоту обробляє шум спектральної щільності</translation>
     </message>
   </context>
   <context>
@@ -7600,59 +7599,57 @@ Set to a negative value to disable the re-enabling in flight.</translation>
     <message>
       <source>Airspeed scale process noise of the internal wind estimator(s) of the airspeed selector.
 When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount every second.</source>
-      <translation type="unfinished">Airspeed scale process noise of the internal wind estimator(s) of the airspeed selector.
-When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount every second.</translation>
+      <translation>Шум шкали швидкості польоту вимірювача (вимірювачів) внутрішнього вітру селектора швидкості польоту. Без зовнішніх датчиків шкала невизначеності (1-sigma, безрозмірна) збільшується на цю кількість щосекунди.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_GATE/shortDesc</name>
     <message>
       <source>Gate size for true airspeed fusion</source>
-      <translation type="unfinished">Gate size for true airspeed fusion</translation>
+      <translation>Розмір брами для синтезу справжньої швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, який використовується тестом інноваційної послідовності.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_NOISE/shortDesc</name>
     <message>
       <source>Wind estimator true airspeed measurement noise</source>
-      <translation type="unfinished">Wind estimator true airspeed measurement noise</translation>
+      <translation>Вітровий вимірювач справжньої швидкості польоту вимірювання шуму</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_NOISE/longDesc</name>
     <message>
       <source>True airspeed measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
-      <translation type="unfinished">True airspeed measurement noise of the internal wind estimator(s) of the airspeed selector.</translation>
+      <translation>Вимірювання шуму справжньої швидкості польоту внутрішнього вимірювача вітру селектора швидкості польоту.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_WERR_THR/shortDesc</name>
     <message>
-      <source>Horizontal wind uncertainty threshold for synthetic airspeed</source>
-      <translation type="unfinished">Horizontal wind uncertainty threshold for synthetic airspeed</translation>
+      <source>Horizontal wind uncertainty threshold for valid ground-minus-wind</source>
+      <translation>Поріг невизначеності горизонтального вітру для припустимого відносно землі-мінус-вітер</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_WERR_THR/longDesc</name>
     <message>
-      <source>The synthetic airspeed estimate (from groundspeed and heading) will be declared valid
+      <source>The airspeed alternative derived from groundspeed and heading will be declared valid
 as soon and as long the horizontal wind uncertainty is below this value.</source>
-      <translation type="unfinished">The synthetic airspeed estimate (from groundspeed and heading) will be declared valid
-as soon and as long the horizontal wind uncertainty is below this value.</translation>
+      <translation>Швидкість польоту альтернативно визначена зі швидкості відносно землі та напрямку буде зафіксована, як належна, за умови що невизначеність горизонтального вітру є нижче цього значення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_WIND_NSD/shortDesc</name>
     <message>
       <source>Wind estimator wind process noise spectral density</source>
-      <translation type="unfinished">Wind estimator wind process noise spectral density</translation>
+      <translation>Вимірювач вітру обробляє шум спектральної щільності</translation>
     </message>
   </context>
   <context>
@@ -7660,15 +7657,14 @@ as soon and as long the horizontal wind uncertainty is below this value.</transl
     <message>
       <source>Wind process noise of the internal wind estimator(s) of the airspeed selector.
 When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.</source>
-      <translation type="unfinished">Wind process noise of the internal wind estimator(s) of the airspeed selector.
-When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.</translation>
+      <translation>Шум вітрового процесу внутрішнього вимірювача вітру селектора швидкості польоту. При відсутності обслуговування оцінка невизначеності вітру (1-sigma, метрів секунду) збільшується на цю кількість щосекунди.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_ACC_COMP/shortDesc</name>
     <message>
       <source>Acceleration compensation based on GPS velocity</source>
-      <translation type="unfinished">Acceleration compensation based on GPS velocity</translation>
+      <translation>Компенсація прискорення основана на швидкості GPS</translation>
     </message>
   </context>
   <context>
@@ -7682,28 +7678,28 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
     <name>/parameters/ATT_ACC_COMP/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_BIAS_MAX/shortDesc</name>
     <message>
       <source>Gyro bias limit</source>
-      <translation type="unfinished">Gyro bias limit</translation>
+      <translation>Ліміт зміщення гірокомпаса</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EN/shortDesc</name>
     <message>
       <source>standalone attitude estimator enable (unsupported)</source>
-      <translation type="unfinished">standalone attitude estimator enable (unsupported)</translation>
+      <translation>автономна оцінка позиції вмикається (не підтримується)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EN/longDesc</name>
     <message>
       <source>Enable standalone quaternion based attitude estimator.</source>
-      <translation type="unfinished">Enable standalone quaternion based attitude estimator.</translation>
+      <translation>Активує автономний кватерніон оснований на визначенні стану орієнтації.</translation>
     </message>
   </context>
   <context>
@@ -7717,14 +7713,14 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
     <name>/parameters/ATT_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EXT_HDG_M/shortDesc</name>
     <message>
       <source>External heading usage mode (from Motion capture/Vision)</source>
-      <translation type="unfinished">External heading usage mode (from Motion capture/Vision)</translation>
+      <translation>Режим використання зовнішнього напрямку (від захоплення руху/спостереження)</translation>
     </message>
   </context>
   <context>
@@ -7732,36 +7728,35 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
     <message>
       <source>Set to 1 to use heading estimate from vision.
 Set to 2 to use heading from motion capture.</source>
-      <translation type="unfinished">Set to 1 to use heading estimate from vision.
-Set to 2 to use heading from motion capture.</translation>
+      <translation>Встановіть на 1 для використання напрямку вирахуваного від спостереження. Встановіть на 2 для використання напрямку від захоплення руху.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EXT_HDG_M/values/0/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>Нічого</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EXT_HDG_M/values/1/description</name>
     <message>
       <source>Vision</source>
-      <translation type="unfinished">Vision</translation>
+      <translation>Бачення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EXT_HDG_M/values/2/description</name>
     <message>
       <source>Motion Capture</source>
-      <translation type="unfinished">Motion Capture</translation>
+      <translation>Захоплення руху</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_MAG_DECL/shortDesc</name>
     <message>
       <source>Magnetic declination, in degrees</source>
-      <translation type="unfinished">Magnetic declination, in degrees</translation>
+      <translation>Магнітне відхилення, в градусах</translation>
     </message>
   </context>
   <context>
@@ -7770,16 +7765,16 @@ Set to 2 to use heading from motion capture.</translation>
       <source>This parameter is not used in normal operation,
 as the declination is looked up based on the
 GPS coordinates of the vehicle.</source>
-      <translation type="unfinished">This parameter is not used in normal operation,
-as the declination is looked up based on the
-GPS coordinates of the vehicle.</translation>
+      <translation>Цей параметр не використовується при звичайній роботі,
+оскільки відхилення вираховується на основі координат
+GPS апарату.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_MAG_DECL_A/shortDesc</name>
     <message>
       <source>Automatic GPS based declination compensation</source>
-      <translation type="unfinished">Automatic GPS based declination compensation</translation>
+      <translation>Автоматична GPS-компенсація відхилення</translation>
     </message>
   </context>
   <context>
@@ -7793,49 +7788,49 @@ GPS coordinates of the vehicle.</translation>
     <name>/parameters/ATT_MAG_DECL_A/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_ACC/shortDesc</name>
     <message>
       <source>Complimentary filter accelerometer weight</source>
-      <translation type="unfinished">Complimentary filter accelerometer weight</translation>
+      <translation>Додаткова маса акселерометра фільтрів</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_EXT_HDG/shortDesc</name>
     <message>
       <source>Complimentary filter external heading weight</source>
-      <translation type="unfinished">Complimentary filter external heading weight</translation>
+      <translation>Додаткова зовнішня спрямована вага фільтрів</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_GYRO_BIAS/shortDesc</name>
     <message>
       <source>Complimentary filter gyroscope bias weight</source>
-      <translation type="unfinished">Complimentary filter gyroscope bias weight</translation>
+      <translation>Додаткова фільтрована зміщена вага гіроскопа</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_MAG/shortDesc</name>
     <message>
       <source>Complimentary filter magnetometer weight</source>
-      <translation type="unfinished">Complimentary filter magnetometer weight</translation>
+      <translation>Додаткова фільтрована маса магнетометра</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_W_MAG/longDesc</name>
     <message>
       <source>Set to 0 to avoid using the magnetometer.</source>
-      <translation type="unfinished">Set to 0 to avoid using the magnetometer.</translation>
+      <translation>Встановити на 0, щоб запобігти використання магнетометра.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_APPLY/shortDesc</name>
     <message>
       <source>Controls when to apply the new gains</source>
-      <translation type="unfinished">Controls when to apply the new gains</translation>
+      <translation>Контролює, коли застосовуються нові значення</translation>
     </message>
   </context>
   <context>
@@ -7844,16 +7839,16 @@ GPS coordinates of the vehicle.</translation>
       <source>After the auto-tuning sequence is completed,
 a new set of gains is available and can be applied
 immediately or after landing.</source>
-      <translation type="unfinished">After the auto-tuning sequence is completed,
-a new set of gains is available and can be applied
-immediately or after landing.</translation>
+      <translation>Після завершення послідовності автоматичного настроювання,
+доступно новий набір надбавок і може бути застосований
+відразу або після посадки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_APPLY/values/0/description</name>
     <message>
       <source>Do not apply the new gains (logging only)</source>
-      <translation type="unfinished">Do not apply the new gains (logging only)</translation>
+      <translation>Не застосовувати нові надбавки (тільки ведення записів)</translation>
     </message>
   </context>
   <context>
@@ -7867,14 +7862,14 @@ immediately or after landing.</translation>
     <name>/parameters/FW_AT_APPLY/values/2/description</name>
     <message>
       <source>Apply the new gains in air</source>
-      <translation type="unfinished">Apply the new gains in air</translation>
+      <translation>Застосувати нові значення після охолощення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_AXES/shortDesc</name>
     <message>
       <source>Tuning axes selection</source>
-      <translation type="unfinished">Tuning axes selection</translation>
+      <translation>Вибір осей з тюнінгу</translation>
     </message>
   </context>
   <context>
@@ -7885,102 +7880,102 @@ Set bits in the following positions to enable:
 0 : Roll
 1 : Pitch
 2 : Yaw</source>
-      <translation type="unfinished">Defines which axes will be tuned during the auto-tuning sequence
-Set bits in the following positions to enable:
-0 : Roll
-1 : Pitch
-2 : Yaw</translation>
+      <translation>Визначає яка з осей буде налаштована впродовж черги автоматичного тюнінгу
+Встановіть діти у наступні положення для ввімкнення:
+0 : Крен
+1 : Тангаж
+2 : Рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_AXES/bitmask/0/description</name>
     <message>
       <source>roll</source>
-      <translation type="unfinished">roll</translation>
+      <translation>крен</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_AXES/bitmask/1/description</name>
     <message>
       <source>pitch</source>
-      <translation type="unfinished">pitch</translation>
+      <translation>тангаж</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_AXES/bitmask/2/description</name>
     <message>
       <source>yaw</source>
-      <translation type="unfinished">yaw</translation>
+      <translation>рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/shortDesc</name>
     <message>
-      <source>Enable/disable auto tuning using an RC AUX input</source>
-      <translation type="unfinished">Enable/disable auto tuning using an RC AUX input</translation>
+      <source>Enable/disable auto tuning using a manual control AUX input</source>
+      <translation>Увімкнути/вимкнути автоматичне налаштування використання ручного контролю AUX входу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/longDesc</name>
     <message>
-      <source>Defines which RC_MAP_AUXn parameter maps the RC channel used to enable/disable auto tuning.</source>
-      <translation type="unfinished">Defines which RC_MAP_AUXn parameter maps the RC channel used to enable/disable auto tuning.</translation>
+      <source>Defines which RC_MAP_AUXn parameter maps the manual control channel used to enable/disable auto tuning.</source>
+      <translation>Визначає, які параметри RC_MAP_AUXn мапи канал ручного контролю використовує для увімкнення/вимкнення автоматичного налаштування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/0/description</name>
     <message>
       <source>Disable</source>
-      <translation type="unfinished">Disable</translation>
+      <translation>Вимкнути</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/1/description</name>
     <message>
       <source>Aux1</source>
-      <translation type="unfinished">Aux1</translation>
+      <translation>Aux1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/2/description</name>
     <message>
       <source>Aux2</source>
-      <translation type="unfinished">Aux2</translation>
+      <translation>Aux2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/3/description</name>
     <message>
       <source>Aux3</source>
-      <translation type="unfinished">Aux3</translation>
+      <translation>Aux3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/4/description</name>
     <message>
       <source>Aux4</source>
-      <translation type="unfinished">Aux4</translation>
+      <translation>Aux4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/5/description</name>
     <message>
       <source>Aux5</source>
-      <translation type="unfinished">Aux5</translation>
+      <translation>Aux5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_MAN_AUX/values/6/description</name>
     <message>
       <source>Aux6</source>
-      <translation type="unfinished">Aux6</translation>
+      <translation>Aux6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_START/shortDesc</name>
     <message>
       <source>Start the autotuning sequence</source>
-      <translation type="unfinished">Start the autotuning sequence</translation>
+      <translation>Запустити послідовність автотюнінгу</translation>
     </message>
   </context>
   <context>
@@ -7995,15 +7990,8 @@ Best is to perform the identification in position or
 hold mode.
 Increase the amplitude of the injected signal using
 FW_AT_SYSID_AMP for more signal/noise ratio</source>
-      <translation type="unfinished">WARNING: this will inject steps to the rate controller
-and can be dangerous. Only activate if you know what you
-are doing, and in a safe environment.
-Any motion of the remote stick will abort the signal
-injection and reset this parameter
-Best is to perform the identification in position or
-hold mode.
-Increase the amplitude of the injected signal using
-FW_AT_SYSID_AMP for more signal/noise ratio</translation>
+      <translation>УВАГА: це втисне кроки до контролера рівня та може бути небезпечним. Активуйте лише, якщо ви знаєте що робите, та в безпечних умовах. Будь-який рух стіком вимикає сигнальне втискання та перезавантажує цей параметр. Це найкраще працює визначенням в позиції або режимі утримання.
+Збільшіть амплітуду втиснутого сигналу, використовуючи FW_AT_SYSID_AMP для більшого співвідношення сигнал/шум</translation>
     </message>
   </context>
   <context>
@@ -8017,14 +8005,14 @@ FW_AT_SYSID_AMP for more signal/noise ratio</translation>
     <name>/parameters/FW_AT_START/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_AMP/shortDesc</name>
     <message>
       <source>Amplitude of the injected signal</source>
-      <translation type="unfinished">Amplitude of the injected signal</translation>
+      <translation>Амплітуда втиснутого сигналу</translation>
     </message>
   </context>
   <context>
@@ -8032,92 +8020,91 @@ FW_AT_SYSID_AMP for more signal/noise ratio</translation>
     <message>
       <source>This parameter scales the signal sent to the
 rate controller during system identification.</source>
-      <translation type="unfinished">This parameter scales the signal sent to the
-rate controller during system identification.</translation>
+      <translation>Цей параметр вимірює сигнал надісланий на контролер рівня впродовж ідентифікації системи.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_F0/shortDesc</name>
     <message>
       <source>Start frequency of the injected signal</source>
-      <translation type="unfinished">Start frequency of the injected signal</translation>
+      <translation>Початкова частота втиснутого сигналу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_F0/longDesc</name>
     <message>
       <source>Can be set lower or higher than the end frequency</source>
-      <translation type="unfinished">Can be set lower or higher than the end frequency</translation>
+      <translation>Може бути встановлений нижче або вище ніж кінцева частота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_F1/shortDesc</name>
     <message>
       <source>End frequency of the injected signal</source>
-      <translation type="unfinished">End frequency of the injected signal</translation>
+      <translation>Кінець частоти втиснутого сигналу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_F1/longDesc</name>
     <message>
       <source>Can be set lower or higher than the start frequency</source>
-      <translation type="unfinished">Can be set lower or higher than the start frequency</translation>
+      <translation>Може бути встановлений нижче або вище ніж початкова частота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TIME/shortDesc</name>
     <message>
       <source>Maneuver time for each axis</source>
-      <translation type="unfinished">Maneuver time for each axis</translation>
+      <translation>Час маневру на кожну вісь</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TIME/longDesc</name>
     <message>
       <source>Duration of the input signal sent on each axis during system identification</source>
-      <translation type="unfinished">Duration of the input signal sent on each axis during system identification</translation>
+      <translation>Тривалість вхідного сигналу надісланого на кожній осі під час ідентифікації системи</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/shortDesc</name>
     <message>
       <source>Input signal type</source>
-      <translation type="unfinished">Input signal type</translation>
+      <translation>Тип вхідного сигналу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/longDesc</name>
     <message>
       <source>Type of signal used during system identification to excite the system.</source>
-      <translation type="unfinished">Type of signal used during system identification to excite the system.</translation>
+      <translation>Тип сигналу, який використовується впродовж системної ідентифікації для збудження системи.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/values/0/description</name>
     <message>
       <source>Step</source>
-      <translation type="unfinished">Step</translation>
+      <translation>Крок</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/values/1/description</name>
     <message>
       <source>Linear sine sweep</source>
-      <translation type="unfinished">Linear sine sweep</translation>
+      <translation>Лінійний синусоїдальний сигнал</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/values/2/description</name>
     <message>
       <source>Logarithmic sine sweep</source>
-      <translation type="unfinished">Logarithmic sine sweep</translation>
+      <translation>Логарифмічний синусоїдальний сигнал</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_APPLY/shortDesc</name>
     <message>
       <source>Controls when to apply the new gains</source>
-      <translation type="unfinished">Controls when to apply the new gains</translation>
+      <translation>Контролює, коли застосовуються нові значення</translation>
     </message>
   </context>
   <context>
@@ -8129,19 +8116,18 @@ immediately or after landing.
 WARNING Applying the gains in air is dangerous as there is no
 guarantee that those new gains will be able to stabilize
 the drone properly.</source>
-      <translation type="unfinished">After the auto-tuning sequence is completed,
-a new set of gains is available and can be applied
-immediately or after landing.
-WARNING Applying the gains in air is dangerous as there is no
-guarantee that those new gains will be able to stabilize
-the drone properly.</translation>
+      <translation>Після завершення послідовності автоматичного налаштування,
+доступно новий набір значень і може бути застосований
+відразу або після посадки.
+УВАГА: Застосування значень у повітрі є небезпечним, тому що немає
+гарантії, що ці нові значення зможуть стабілізувати правильно дрон.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_APPLY/values/0/description</name>
     <message>
       <source>Do not apply the new gains (logging only)</source>
-      <translation type="unfinished">Do not apply the new gains (logging only)</translation>
+      <translation>Не застосовувати нові значення (тільки для ведення записів)</translation>
     </message>
   </context>
   <context>
@@ -8155,14 +8141,14 @@ the drone properly.</translation>
     <name>/parameters/MC_AT_APPLY/values/2/description</name>
     <message>
       <source>WARNING Apply the new gains in air</source>
-      <translation type="unfinished">WARNING Apply the new gains in air</translation>
+      <translation>УВАГА: Застосуйте нові дані в повітрі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_EN/shortDesc</name>
     <message>
       <source>Multicopter autotune module enable</source>
-      <translation type="unfinished">Multicopter autotune module enable</translation>
+      <translation>Увімкнути модуль автоматичного налаштування мультикоптера</translation>
     </message>
   </context>
   <context>
@@ -8176,21 +8162,21 @@ the drone properly.</translation>
     <name>/parameters/MC_AT_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_RISE_TIME/shortDesc</name>
     <message>
       <source>Desired angular rate closed-loop rise time</source>
-      <translation type="unfinished">Desired angular rate closed-loop rise time</translation>
+      <translation>Бажаний кутовий коефіцієнт часу підйому закритої петлі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_START/shortDesc</name>
     <message>
       <source>Start the autotuning sequence</source>
-      <translation type="unfinished">Start the autotuning sequence</translation>
+      <translation>Запустити послідовність автотюнінгу</translation>
     </message>
   </context>
   <context>
@@ -8205,15 +8191,8 @@ Best is to perform the identification in position or
 hold mode.
 Increase the amplitude of the injected signal using
 MC_AT_SYSID_AMP for more signal/noise ratio</source>
-      <translation type="unfinished">WARNING: this will inject steps to the rate controller
-and can be dangerous. Only activate if you know what you
-are doing, and in a safe environment.
-Any motion of the remote stick will abort the signal
-injection and reset this parameter
-Best is to perform the identification in position or
-hold mode.
-Increase the amplitude of the injected signal using
-MC_AT_SYSID_AMP for more signal/noise ratio</translation>
+      <translation>УВАГА: це втисне кроки до контролера рівня та може бути небезпечним. Активуйте лише, якщо ви знаєте що робите, та в безпечних умовах. Будь-який рух стіком вимикає сигнальне втискання та перезавантажує цей параметр. Це найкраще працює для визначення в позиції або режимі утримання.
+Збільшіть амплітуду втиснутого сигналу, використовуючи FW_AT_SYSID_AMP для більшого співвідношення сигнал/шум</translation>
     </message>
   </context>
   <context>
@@ -8227,182 +8206,182 @@ MC_AT_SYSID_AMP for more signal/noise ratio</translation>
     <name>/parameters/MC_AT_START/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_SYSID_AMP/shortDesc</name>
     <message>
       <source>Amplitude of the injected signal</source>
-      <translation type="unfinished">Amplitude of the injected signal</translation>
+      <translation>Амплітуда втиснутого сигналу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_CAPACITY/shortDesc</name>
     <message>
       <source>Battery 1 capacity</source>
-      <translation type="unfinished">Battery 1 capacity</translation>
+      <translation>Місткість батареї 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_CAPACITY/longDesc</name>
     <message>
       <source>Defines the capacity of battery 1 in mAh.</source>
-      <translation type="unfinished">Defines the capacity of battery 1 in mAh.</translation>
+      <translation>Визначає місткість батареї 1 в mAh.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/shortDesc</name>
     <message>
       <source>Number of cells for battery 1</source>
-      <translation type="unfinished">Number of cells for battery 1</translation>
+      <translation>Кількість комірок для батареї 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/longDesc</name>
     <message>
       <source>Defines the number of cells the attached battery consists of.</source>
-      <translation type="unfinished">Defines the number of cells the attached battery consists of.</translation>
+      <translation>Визначає кількість приєднаних комірок, з яких складається батарея.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/0/description</name>
     <message>
       <source>Unknown</source>
-      <translation type="unfinished">Unknown</translation>
+      <translation>Невідомий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/1/description</name>
     <message>
       <source>1S Battery</source>
-      <translation type="unfinished">1S Battery</translation>
+      <translation>Батарея 1S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/2/description</name>
     <message>
       <source>2S Battery</source>
-      <translation type="unfinished">2S Battery</translation>
+      <translation>Батарея 2S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/3/description</name>
     <message>
       <source>3S Battery</source>
-      <translation type="unfinished">3S Battery</translation>
+      <translation>Батарея 3S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/4/description</name>
     <message>
       <source>4S Battery</source>
-      <translation type="unfinished">4S Battery</translation>
+      <translation>Батарея 4S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/5/description</name>
     <message>
       <source>5S Battery</source>
-      <translation type="unfinished">5S Battery</translation>
+      <translation>Батарея 5S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/6/description</name>
     <message>
       <source>6S Battery</source>
-      <translation type="unfinished">6S Battery</translation>
+      <translation>Батарея 6S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/7/description</name>
     <message>
       <source>7S Battery</source>
-      <translation type="unfinished">7S Battery</translation>
+      <translation>Батарея 7S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/8/description</name>
     <message>
       <source>8S Battery</source>
-      <translation type="unfinished">8S Battery</translation>
+      <translation>Батарея 8S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/9/description</name>
     <message>
       <source>9S Battery</source>
-      <translation type="unfinished">9S Battery</translation>
+      <translation>Батарея 9S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/10/description</name>
     <message>
       <source>10S Battery</source>
-      <translation type="unfinished">10S Battery</translation>
+      <translation>Батарея 10S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/11/description</name>
     <message>
       <source>11S Battery</source>
-      <translation type="unfinished">11S Battery</translation>
+      <translation>Батарея 11S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/12/description</name>
     <message>
       <source>12S Battery</source>
-      <translation type="unfinished">12S Battery</translation>
+      <translation>Батарея 12S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/13/description</name>
     <message>
       <source>13S Battery</source>
-      <translation type="unfinished">13S Battery</translation>
+      <translation>Батарея 13S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/14/description</name>
     <message>
       <source>14S Battery</source>
-      <translation type="unfinished">14S Battery</translation>
+      <translation>Батарея 14S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/15/description</name>
     <message>
       <source>15S Battery</source>
-      <translation type="unfinished">15S Battery</translation>
+      <translation>Батарея 15S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_N_CELLS/values/16/description</name>
     <message>
       <source>16S Battery</source>
-      <translation type="unfinished">16S Battery</translation>
+      <translation>Батарея 16S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_R_INTERNAL/shortDesc</name>
     <message>
       <source>Explicitly defines the per cell internal resistance for battery 1</source>
-      <translation type="unfinished">Explicitly defines the per cell internal resistance for battery 1</translation>
+      <translation>Наявно визначає для кожної комірки внутрішній супротив для батареї 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_R_INTERNAL/longDesc</name>
     <message>
       <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
-      <translation type="unfinished">If non-negative, then this will be used instead of the online estimated internal resistance.</translation>
+      <translation>Якщо не є негативним, то це буде використано замість онлайн-визначеного внутрішнього опору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_SOURCE/shortDesc</name>
     <message>
       <source>Battery 1 monitoring source</source>
-      <translation type="unfinished">Battery 1 monitoring source</translation>
+      <translation>Батарея 1 джерело моніторингу</translation>
     </message>
   </context>
   <context>
@@ -8413,11 +8392,11 @@ means that measurements are expected to come from a power module. If the value i
 'External' then the system expects to receive mavlink battery status messages.
 If the value is set to 'ESCs', the battery information are taken from the esc_status message.
 This requires the ESC to provide both voltage as well as current.</source>
-      <translation type="unfinished">This parameter controls the source of battery data. The value 'Power Module'
-means that measurements are expected to come from a power module. If the value is set to
-'External' then the system expects to receive mavlink battery status messages.
-If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current.</translation>
+      <translation>Цей параметр контролює джерело даних батареї. Значення 'Модуль живлення'
+означає, що очікується вимірювання, які надійдуть з модуля живлення. Якщо значення встановлено в
+"Зовнішній", то система очікує на отримання mavlink повідомлення про статус батареї.
+Якщо значення встановлено в "ESCs", інформація про батарею береться з повідомлення esc_status.
+Це вимагає ESC забезпечити як напругу, так і струм.</translation>
     </message>
   </context>
   <context>
@@ -8431,28 +8410,28 @@ This requires the ESC to provide both voltage as well as current.</translation>
     <name>/parameters/BAT1_SOURCE/values/0/description</name>
     <message>
       <source>Power Module</source>
-      <translation type="unfinished">Power Module</translation>
+      <translation>Модуль живлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_SOURCE/values/1/description</name>
     <message>
       <source>External</source>
-      <translation type="unfinished">External</translation>
+      <translation>Зовнішній</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_SOURCE/values/2/description</name>
     <message>
       <source>ESCs</source>
-      <translation type="unfinished">ESCs</translation>
+      <translation>ESCs</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_V_CHARGED/shortDesc</name>
     <message>
       <source>Full cell voltage</source>
-      <translation type="unfinished">Full cell voltage</translation>
+      <translation>Повна напруга комірки</translation>
     </message>
   </context>
   <context>
@@ -8460,15 +8439,15 @@ This requires the ESC to provide both voltage as well as current.</translation>
     <message>
       <source>Defines the voltage where a single cell of the battery is considered full.
 For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</source>
-      <translation type="unfinished">Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</translation>
+      <translation>Визначає напругу, де одна клітина батареї буде заповнена.
+Для більш точної оцінки встановіть значення нижче номінальної напруги, наприклад 4.2V</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT1_V_EMPTY/shortDesc</name>
     <message>
       <source>Empty cell voltage</source>
-      <translation type="unfinished">Empty cell voltage</translation>
+      <translation>Повна напруга комірки</translation>
     </message>
   </context>
   <context>
@@ -8478,178 +8457,175 @@ For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</tr
 The voltage should be chosen above the steep dropoff at 3.5V. A typical
 lithium battery can only be discharged under high load down to 10% before
 it drops off to a voltage level damaging the cells.</source>
-      <translation type="unfinished">Defines the voltage where a single cell of the battery is considered empty.
-The voltage should be chosen above the steep dropoff at 3.5V. A typical
-lithium battery can only be discharged under high load down to 10% before
-it drops off to a voltage level damaging the cells.</translation>
+      <translation>Визначає напругу, де єдина комірка батареї вважається пустою. Напруга має бути обрана вище різкого падіння при значенні 3.5V. Типова літієва батарея може бути розміщена під високим навантаженням до 10% перед тим, як воно впаде до рівня вольтажу, який руйнує комірки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_CAPACITY/shortDesc</name>
     <message>
       <source>Battery 2 capacity</source>
-      <translation type="unfinished">Battery 2 capacity</translation>
+      <translation>Місткість батареї 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_CAPACITY/longDesc</name>
     <message>
       <source>Defines the capacity of battery 2 in mAh.</source>
-      <translation type="unfinished">Defines the capacity of battery 2 in mAh.</translation>
+      <translation>Визначає місткість батареї 2 в mAh.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/shortDesc</name>
     <message>
       <source>Number of cells for battery 2</source>
-      <translation type="unfinished">Number of cells for battery 2</translation>
+      <translation>Кількість комірок для батареї 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/longDesc</name>
     <message>
       <source>Defines the number of cells the attached battery consists of.</source>
-      <translation type="unfinished">Defines the number of cells the attached battery consists of.</translation>
+      <translation>Визначає кількість комірок, з яких складається приєднана батарея.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/0/description</name>
     <message>
       <source>Unknown</source>
-      <translation type="unfinished">Unknown</translation>
+      <translation>Невідомий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/1/description</name>
     <message>
       <source>1S Battery</source>
-      <translation type="unfinished">1S Battery</translation>
+      <translation>Батарея 1S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/2/description</name>
     <message>
       <source>2S Battery</source>
-      <translation type="unfinished">2S Battery</translation>
+      <translation>Батарея 2S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/3/description</name>
     <message>
       <source>3S Battery</source>
-      <translation type="unfinished">3S Battery</translation>
+      <translation>Батарея 3S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/4/description</name>
     <message>
       <source>4S Battery</source>
-      <translation type="unfinished">4S Battery</translation>
+      <translation>Батарея 4S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/5/description</name>
     <message>
       <source>5S Battery</source>
-      <translation type="unfinished">5S Battery</translation>
+      <translation>Батарея 5S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/6/description</name>
     <message>
       <source>6S Battery</source>
-      <translation type="unfinished">6S Battery</translation>
+      <translation>Батарея 6S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/7/description</name>
     <message>
       <source>7S Battery</source>
-      <translation type="unfinished">7S Battery</translation>
+      <translation>Батарея 7S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/8/description</name>
     <message>
       <source>8S Battery</source>
-      <translation type="unfinished">8S Battery</translation>
+      <translation>Батарея 8S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/9/description</name>
     <message>
       <source>9S Battery</source>
-      <translation type="unfinished">9S Battery</translation>
+      <translation>Батарея 9S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/10/description</name>
     <message>
       <source>10S Battery</source>
-      <translation type="unfinished">10S Battery</translation>
+      <translation>Батарея 10S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/11/description</name>
     <message>
       <source>11S Battery</source>
-      <translation type="unfinished">11S Battery</translation>
+      <translation>Батарея 11S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/12/description</name>
     <message>
       <source>12S Battery</source>
-      <translation type="unfinished">12S Battery</translation>
+      <translation>Батарея 12S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/13/description</name>
     <message>
       <source>13S Battery</source>
-      <translation type="unfinished">13S Battery</translation>
+      <translation>Батарея 13S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/14/description</name>
     <message>
       <source>14S Battery</source>
-      <translation type="unfinished">14S Battery</translation>
+      <translation>Батарея 14S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/15/description</name>
     <message>
       <source>15S Battery</source>
-      <translation type="unfinished">15S Battery</translation>
+      <translation>Батарея 15S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_N_CELLS/values/16/description</name>
     <message>
       <source>16S Battery</source>
-      <translation type="unfinished">16S Battery</translation>
+      <translation>Батарея 16S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_R_INTERNAL/shortDesc</name>
     <message>
       <source>Explicitly defines the per cell internal resistance for battery 2</source>
-      <translation type="unfinished">Explicitly defines the per cell internal resistance for battery 2</translation>
+      <translation>Наявно визначає для кожної комірки внутрішній супротив для батареї 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_R_INTERNAL/longDesc</name>
     <message>
       <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
-      <translation type="unfinished">If non-negative, then this will be used instead of the online estimated internal resistance.</translation>
+      <translation>Якщо не є негативним, то це буде використано замість онлайн-визначеного внутрішнього опору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_SOURCE/shortDesc</name>
     <message>
       <source>Battery 2 monitoring source</source>
-      <translation type="unfinished">Battery 2 monitoring source</translation>
+      <translation>Джерело монітору батареї 2</translation>
     </message>
   </context>
   <context>
@@ -8660,11 +8636,11 @@ means that measurements are expected to come from a power module. If the value i
 'External' then the system expects to receive mavlink battery status messages.
 If the value is set to 'ESCs', the battery information are taken from the esc_status message.
 This requires the ESC to provide both voltage as well as current.</source>
-      <translation type="unfinished">This parameter controls the source of battery data. The value 'Power Module'
-means that measurements are expected to come from a power module. If the value is set to
-'External' then the system expects to receive mavlink battery status messages.
-If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current.</translation>
+      <translation>Цей параметр контролює джерело даних батареї. Значення 'Модуль живлення'
+означає, що очікується вимірювання, які надійдуть з модуля живлення. Якщо значення встановлено в
+"Зовнішній", то система очікує на отримання mavlink повідомлення про статус батареї.
+Якщо значення встановлено в "ESCs", інформація про батарею береться з повідомлення esc_status.
+Це вимагає ESC забезпечити як напругу, так і струм.</translation>
     </message>
   </context>
   <context>
@@ -8678,28 +8654,28 @@ This requires the ESC to provide both voltage as well as current.</translation>
     <name>/parameters/BAT2_SOURCE/values/0/description</name>
     <message>
       <source>Power Module</source>
-      <translation type="unfinished">Power Module</translation>
+      <translation>Модуль живлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_SOURCE/values/1/description</name>
     <message>
       <source>External</source>
-      <translation type="unfinished">External</translation>
+      <translation>Зовнішній</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_SOURCE/values/2/description</name>
     <message>
       <source>ESCs</source>
-      <translation type="unfinished">ESCs</translation>
+      <translation>ESCs</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_V_CHARGED/shortDesc</name>
     <message>
       <source>Full cell voltage</source>
-      <translation type="unfinished">Full cell voltage</translation>
+      <translation>Повна напруга комірки</translation>
     </message>
   </context>
   <context>
@@ -8707,15 +8683,15 @@ This requires the ESC to provide both voltage as well as current.</translation>
     <message>
       <source>Defines the voltage where a single cell of the battery is considered full.
 For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</source>
-      <translation type="unfinished">Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</translation>
+      <translation>Визначає напругу, де одна комірка батареї буде вважатися повною.
+Для більш точної оцінки встановіть значення нижче номінальної напруги, наприклад 4.2V</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT2_V_EMPTY/shortDesc</name>
     <message>
       <source>Empty cell voltage</source>
-      <translation type="unfinished">Empty cell voltage</translation>
+      <translation>Напруга пустої комірки</translation>
     </message>
   </context>
   <context>
@@ -8725,178 +8701,175 @@ For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</tr
 The voltage should be chosen above the steep dropoff at 3.5V. A typical
 lithium battery can only be discharged under high load down to 10% before
 it drops off to a voltage level damaging the cells.</source>
-      <translation type="unfinished">Defines the voltage where a single cell of the battery is considered empty.
-The voltage should be chosen above the steep dropoff at 3.5V. A typical
-lithium battery can only be discharged under high load down to 10% before
-it drops off to a voltage level damaging the cells.</translation>
+      <translation>Визначає напругу, де єдина комірка батареї вважається пустою. Напруга має бути обрана вище різкого падіння при значенні 3.5V. Типова літієва батарея може бути розміщена під високим навантаженням до 10% перед тим, як воно впаде до рівня вольтажу, який руйнує комірки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_CAPACITY/shortDesc</name>
     <message>
       <source>Battery 3 capacity</source>
-      <translation type="unfinished">Battery 3 capacity</translation>
+      <translation>Місткість батареї 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_CAPACITY/longDesc</name>
     <message>
       <source>Defines the capacity of battery 3 in mAh.</source>
-      <translation type="unfinished">Defines the capacity of battery 3 in mAh.</translation>
+      <translation>Визначає місткість батареї 3 в mAh.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/shortDesc</name>
     <message>
       <source>Number of cells for battery 3</source>
-      <translation type="unfinished">Number of cells for battery 3</translation>
+      <translation>Кількість комірок для батареї 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/longDesc</name>
     <message>
       <source>Defines the number of cells the attached battery consists of.</source>
-      <translation type="unfinished">Defines the number of cells the attached battery consists of.</translation>
+      <translation>Визначає кількість комірок, з яких складається приєднана батарея.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/0/description</name>
     <message>
       <source>Unknown</source>
-      <translation type="unfinished">Unknown</translation>
+      <translation>Невідомий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/1/description</name>
     <message>
       <source>1S Battery</source>
-      <translation type="unfinished">1S Battery</translation>
+      <translation>Батарея 1S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/2/description</name>
     <message>
       <source>2S Battery</source>
-      <translation type="unfinished">2S Battery</translation>
+      <translation>Батарея 2S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/3/description</name>
     <message>
       <source>3S Battery</source>
-      <translation type="unfinished">3S Battery</translation>
+      <translation>Батарея 3S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/4/description</name>
     <message>
       <source>4S Battery</source>
-      <translation type="unfinished">4S Battery</translation>
+      <translation>Батарея 4S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/5/description</name>
     <message>
       <source>5S Battery</source>
-      <translation type="unfinished">5S Battery</translation>
+      <translation>Батарея 5S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/6/description</name>
     <message>
       <source>6S Battery</source>
-      <translation type="unfinished">6S Battery</translation>
+      <translation>Батарея 6S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/7/description</name>
     <message>
       <source>7S Battery</source>
-      <translation type="unfinished">7S Battery</translation>
+      <translation>Батарея 7S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/8/description</name>
     <message>
       <source>8S Battery</source>
-      <translation type="unfinished">8S Battery</translation>
+      <translation>Батарея 8S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/9/description</name>
     <message>
       <source>9S Battery</source>
-      <translation type="unfinished">9S Battery</translation>
+      <translation>Батарея 9S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/10/description</name>
     <message>
       <source>10S Battery</source>
-      <translation type="unfinished">10S Battery</translation>
+      <translation>Батарея 10S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/11/description</name>
     <message>
       <source>11S Battery</source>
-      <translation type="unfinished">11S Battery</translation>
+      <translation>Батарея 11S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/12/description</name>
     <message>
       <source>12S Battery</source>
-      <translation type="unfinished">12S Battery</translation>
+      <translation>Батарея 12S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/13/description</name>
     <message>
       <source>13S Battery</source>
-      <translation type="unfinished">13S Battery</translation>
+      <translation>Батарея 13S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/14/description</name>
     <message>
       <source>14S Battery</source>
-      <translation type="unfinished">14S Battery</translation>
+      <translation>Батарея 14S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/15/description</name>
     <message>
       <source>15S Battery</source>
-      <translation type="unfinished">15S Battery</translation>
+      <translation>Батарея 15S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_N_CELLS/values/16/description</name>
     <message>
       <source>16S Battery</source>
-      <translation type="unfinished">16S Battery</translation>
+      <translation>Батарея 16S</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_R_INTERNAL/shortDesc</name>
     <message>
       <source>Explicitly defines the per cell internal resistance for battery 3</source>
-      <translation type="unfinished">Explicitly defines the per cell internal resistance for battery 3</translation>
+      <translation>Наявно визначає для кожної комірки внутрішній супротив для батареї 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_R_INTERNAL/longDesc</name>
     <message>
       <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
-      <translation type="unfinished">If non-negative, then this will be used instead of the online estimated internal resistance.</translation>
+      <translation>Якщо не є негативним, то це буде використано замість онлайн-визначеного внутрішнього опору.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_SOURCE/shortDesc</name>
     <message>
       <source>Battery 3 monitoring source</source>
-      <translation type="unfinished">Battery 3 monitoring source</translation>
+      <translation>Джерело монітору батареї 3</translation>
     </message>
   </context>
   <context>
@@ -8907,11 +8880,11 @@ means that measurements are expected to come from a power module. If the value i
 'External' then the system expects to receive mavlink battery status messages.
 If the value is set to 'ESCs', the battery information are taken from the esc_status message.
 This requires the ESC to provide both voltage as well as current.</source>
-      <translation type="unfinished">This parameter controls the source of battery data. The value 'Power Module'
-means that measurements are expected to come from a power module. If the value is set to
-'External' then the system expects to receive mavlink battery status messages.
-If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current.</translation>
+      <translation>Цей параметр контролює джерело даних батареї. Значення 'Модуль живлення'
+означає, що очікується вимірювання, які надійдуть з модуля живлення. Якщо значення встановлено в
+"Зовнішній", то система очікує на отримання mavlink повідомлення про статус батареї.
+Якщо значення встановлено в "ESCs", інформація про батарею береться з повідомлення esc_status.
+Це вимагає ESC забезпечити як напругу, так і струм.</translation>
     </message>
   </context>
   <context>
@@ -8925,28 +8898,28 @@ This requires the ESC to provide both voltage as well as current.</translation>
     <name>/parameters/BAT3_SOURCE/values/0/description</name>
     <message>
       <source>Power Module</source>
-      <translation type="unfinished">Power Module</translation>
+      <translation>Модуль живлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_SOURCE/values/1/description</name>
     <message>
       <source>External</source>
-      <translation type="unfinished">External</translation>
+      <translation>Зовнішній</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_SOURCE/values/2/description</name>
     <message>
       <source>ESCs</source>
-      <translation type="unfinished">ESCs</translation>
+      <translation>ESCs</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_V_CHARGED/shortDesc</name>
     <message>
       <source>Full cell voltage</source>
-      <translation type="unfinished">Full cell voltage</translation>
+      <translation>Повна напруга комірки</translation>
     </message>
   </context>
   <context>
@@ -8954,15 +8927,15 @@ This requires the ESC to provide both voltage as well as current.</translation>
     <message>
       <source>Defines the voltage where a single cell of the battery is considered full.
 For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</source>
-      <translation type="unfinished">Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</translation>
+      <translation>Визначає напругу, де одна комірка батареї буде вважатися повною.
+Для більш точної оцінки встановіть значення нижче номінальної напруги, наприклад 4.2V</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT3_V_EMPTY/shortDesc</name>
     <message>
       <source>Empty cell voltage</source>
-      <translation type="unfinished">Empty cell voltage</translation>
+      <translation>Напруга пустої комірки</translation>
     </message>
   </context>
   <context>
@@ -8972,17 +8945,14 @@ For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</tr
 The voltage should be chosen above the steep dropoff at 3.5V. A typical
 lithium battery can only be discharged under high load down to 10% before
 it drops off to a voltage level damaging the cells.</source>
-      <translation type="unfinished">Defines the voltage where a single cell of the battery is considered empty.
-The voltage should be chosen above the steep dropoff at 3.5V. A typical
-lithium battery can only be discharged under high load down to 10% before
-it drops off to a voltage level damaging the cells.</translation>
+      <translation>Визначає напругу, де єдина комірка батареї вважається пустою. Напруга має бути обрана вище різкого падіння при значенні 3.5V. Типова літієва батарея може бути розміщена під високим навантаженням до 10% перед тим, як воно впаде до рівня вольтажу, який руйнує комірки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT_AVRG_CURRENT/shortDesc</name>
     <message>
       <source>Expected battery current in flight</source>
-      <translation type="unfinished">Expected battery current in flight</translation>
+      <translation>Очікуваний струм батареї в польоті</translation>
     </message>
   </context>
   <context>
@@ -8990,15 +8960,14 @@ it drops off to a voltage level damaging the cells.</translation>
     <message>
       <source>This value is used to initialize the in-flight average current estimation,
 which in turn is used for estimating remaining flight time and RTL triggering.</source>
-      <translation type="unfinished">This value is used to initialize the in-flight average current estimation,
-which in turn is used for estimating remaining flight time and RTL triggering.</translation>
+      <translation>Це значення використовується для ініціалізації визначення середнього струму в польоті, яке в свою чергу використовується для визначення решти часу польоту та RTL тригерування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT_CRIT_THR/shortDesc</name>
     <message>
       <source>Critical threshold</source>
-      <translation type="unfinished">Critical threshold</translation>
+      <translation>Критичний поріг</translation>
     </message>
   </context>
   <context>
@@ -9007,16 +8976,15 @@ which in turn is used for estimating remaining flight time and RTL triggering.</
       <source>Sets the threshold when the battery will be reported as critically low.
 This has to be lower than the low threshold. This threshold commonly
 will trigger RTL.</source>
-      <translation type="unfinished">Sets the threshold when the battery will be reported as critically low.
-This has to be lower than the low threshold. This threshold commonly
-will trigger RTL.</translation>
+      <translation>Встановлює поріг, коли заряд батареї визначається як критично низький.
+Це значення має бути нижчим за низький поріг. Цей поріг зазвичай буде викликати RTL.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT_EMERGEN_THR/shortDesc</name>
     <message>
       <source>Emergency threshold</source>
-      <translation type="unfinished">Emergency threshold</translation>
+      <translation>Поріг екстреної ситуації</translation>
     </message>
   </context>
   <context>
@@ -9025,16 +8993,15 @@ will trigger RTL.</translation>
       <source>Sets the threshold when the battery will be reported as dangerously low.
 This has to be lower than the critical threshold. This threshold commonly
 will trigger landing.</source>
-      <translation type="unfinished">Sets the threshold when the battery will be reported as dangerously low.
-This has to be lower than the critical threshold. This threshold commonly
-will trigger landing.</translation>
+      <translation>Встановлює поріг, коли заряд батареї визначається як критично низький.
+Це значення має бути нижчим за критичний поріг. Цей поріг зазвичай буде викликати приземлення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/BAT_LOW_THR/shortDesc</name>
     <message>
       <source>Low threshold</source>
-      <translation type="unfinished">Low threshold</translation>
+      <translation>Низький поріг</translation>
     </message>
   </context>
   <context>
@@ -9042,99 +9009,99 @@ will trigger landing.</translation>
     <message>
       <source>Sets the threshold when the battery will be reported as low.
 This has to be higher than the critical threshold.</source>
-      <translation type="unfinished">Sets the threshold when the battery will be reported as low.
-This has to be higher than the critical threshold.</translation>
+      <translation>Встановлює поріг при низькому значенні заряду батареї.
+Заряд має бути більше за критичний поріг.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_ACT_TIME/shortDesc</name>
     <message>
       <source>Camera trigger activation time</source>
-      <translation type="unfinished">Camera trigger activation time</translation>
+      <translation>Час активації тригера камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_ACT_TIME/longDesc</name>
     <message>
       <source>This parameter sets the time the trigger needs to pulled high or low.</source>
-      <translation type="unfinished">This parameter sets the time the trigger needs to pulled high or low.</translation>
+      <translation>Цей параметр встановлює час тригеру необхідного для високого або низького витягування.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_DISTANCE/shortDesc</name>
     <message>
       <source>Camera trigger distance</source>
-      <translation type="unfinished">Camera trigger distance</translation>
+      <translation>Дистанція тригеру камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_DISTANCE/longDesc</name>
     <message>
       <source>Sets the distance at which to trigger the camera.</source>
-      <translation type="unfinished">Sets the distance at which to trigger the camera.</translation>
+      <translation>Встановлює відстань для запуску камери.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/shortDesc</name>
     <message>
       <source>Camera trigger Interface</source>
-      <translation type="unfinished">Camera trigger Interface</translation>
+      <translation>Інтерфейс тригера камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/longDesc</name>
     <message>
       <source>Selects the trigger interface</source>
-      <translation type="unfinished">Selects the trigger interface</translation>
+      <translation>Вибирає інтерфейс тригера</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/values/1/description</name>
     <message>
       <source>GPIO</source>
-      <translation type="unfinished">GPIO</translation>
+      <translation>GPIO</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/values/2/description</name>
     <message>
       <source>Seagull MAP2 (over PWM)</source>
-      <translation type="unfinished">Seagull MAP2 (over PWM)</translation>
+      <translation>Seagull MAP2 (через PWM)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/values/3/description</name>
     <message>
       <source>MAVLink (Camera Protocol v1)</source>
-      <translation type="unfinished">MAVLink (Camera Protocol v1)</translation>
+      <translation>MAVLink (Camera Protocol v1)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERFACE/values/4/description</name>
     <message>
       <source>Generic PWM (IR trigger, servo)</source>
-      <translation type="unfinished">Generic PWM (IR trigger, servo)</translation>
+      <translation>Generic PWM (IR trigger, servo)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERVAL/shortDesc</name>
     <message>
       <source>Camera trigger interval</source>
-      <translation type="unfinished">Camera trigger interval</translation>
+      <translation>Інтервал тригера камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_INTERVAL/longDesc</name>
     <message>
       <source>This parameter sets the time between two consecutive trigger events</source>
-      <translation type="unfinished">This parameter sets the time between two consecutive trigger events</translation>
+      <translation>Цей параметр встановлює час між двома послідовними тригерними подіями</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MIN_INTERVA/shortDesc</name>
     <message>
       <source>Minimum camera trigger interval</source>
-      <translation type="unfinished">Minimum camera trigger interval</translation>
+      <translation>Мінімальний інтервал тригеру камери</translation>
     </message>
   </context>
   <context>
@@ -9142,99 +9109,99 @@ This has to be higher than the critical threshold.</translation>
     <message>
       <source>This parameter sets the minimum time between two consecutive trigger events
 the specific camera setup is supporting.</source>
-      <translation type="unfinished">This parameter sets the minimum time between two consecutive trigger events
-the specific camera setup is supporting.</translation>
+      <translation>Цей параметр встановлює мінімальний час між двома послідовними тригерними подіями,
+підтримує особливу настройку камери.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/shortDesc</name>
     <message>
       <source>Camera trigger mode</source>
-      <translation type="unfinished">Camera trigger mode</translation>
+      <translation>Режим тригера камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/0/description</name>
     <message>
       <source>Disable</source>
-      <translation type="unfinished">Disable</translation>
+      <translation>Вимкнути</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/1/description</name>
     <message>
       <source>Time based, on command</source>
-      <translation type="unfinished">Time based, on command</translation>
+      <translation>Час на основі, за командою</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/2/description</name>
     <message>
       <source>Time based, always on</source>
-      <translation type="unfinished">Time based, always on</translation>
+      <translation>Час на основі, завжди увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/3/description</name>
     <message>
       <source>Distance based, always on</source>
-      <translation type="unfinished">Distance based, always on</translation>
+      <translation>Відстань на основі, завжди увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/4/description</name>
     <message>
       <source>Distance based, on command (Survey mode)</source>
-      <translation type="unfinished">Distance based, on command (Survey mode)</translation>
+      <translation>Відстань на основі, за командою (режим Дослідження)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_POLARITY/shortDesc</name>
     <message>
       <source>Camera trigger polarity</source>
-      <translation type="unfinished">Camera trigger polarity</translation>
+      <translation>Тригер полярності камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_POLARITY/longDesc</name>
     <message>
       <source>This parameter sets the polarity of the trigger (0 = active low, 1 = active high )</source>
-      <translation type="unfinished">This parameter sets the polarity of the trigger (0 = active low, 1 = active high )</translation>
+      <translation>Цей параметр встановлює полярність тригера (0 = активне низьке, 1 = активне високе)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_POLARITY/values/0/description</name>
     <message>
       <source>Active low</source>
-      <translation type="unfinished">Active low</translation>
+      <translation>Активний низький</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_POLARITY/values/1/description</name>
     <message>
       <source>Active high</source>
-      <translation type="unfinished">Active high</translation>
+      <translation>Активний високий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_PWM_NEUTRAL/shortDesc</name>
     <message>
       <source>PWM neutral output on trigger pin</source>
-      <translation type="unfinished">PWM neutral output on trigger pin</translation>
+      <translation>PWM нейтрального виводу на тригерному контакті</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_PWM_SHOOT/shortDesc</name>
     <message>
       <source>PWM output to trigger shot</source>
-      <translation type="unfinished">PWM output to trigger shot</translation>
+      <translation>PWM вивід до тригерного знімка</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_BUZZER/shortDesc</name>
     <message>
       <source>Circuit breaker for disabling buzzer</source>
-      <translation type="unfinished">Circuit breaker for disabling buzzer</translation>
+      <translation>Автоматичний вимикач для вимкнення зумера</translation>
     </message>
   </context>
   <context>
@@ -9243,16 +9210,16 @@ the specific camera setup is supporting.</translation>
       <source>Setting this parameter to 782097 will disable the buzzer audio notification.
 Setting this parameter to 782090 will disable the startup tune, while keeping
 all others enabled.</source>
-      <translation type="unfinished">Setting this parameter to 782097 will disable the buzzer audio notification.
-Setting this parameter to 782090 will disable the startup tune, while keeping
-all others enabled.</translation>
+      <translation>Встановлення цього параметра в 782097 вимкне звукове сповіщення зумера.
+Встановлення цього параметра в 782090 вимкне початкову мелодію, залишаючи
+всі інші увімкнені.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_FLIGHTTERM/shortDesc</name>
     <message>
       <source>Circuit breaker for flight termination</source>
-      <translation type="unfinished">Circuit breaker for flight termination</translation>
+      <translation>Автоматичний вимикач для зупинки польоту</translation>
     </message>
   </context>
   <context>
@@ -9262,17 +9229,14 @@ all others enabled.</translation>
 by the FailureDetector logic or if FMU is lost.
 This circuit breaker does not affect the RC loss, data link loss, geofence,
 and takeoff failure detection safety logic.</source>
-      <translation type="unfinished">Setting this parameter to 121212 will disable the flight termination action if triggered
-by the FailureDetector logic or if FMU is lost.
-This circuit breaker does not affect the RC loss, data link loss, geofence,
-and takeoff failure detection safety logic.</translation>
+      <translation>Встановлення цього параметра на 121212 вимкне дію для припинення польоту, якщо викликається за логікою Детектора Збоїв або якщо FMU втрачено. Автоматичний вимикач не впливає втрату пульта (RC), втрати з'єднання передачі даних, гео-огорожі та     логіці детекції безпеки помилки зльоту.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_IO_SAFETY/shortDesc</name>
     <message>
       <source>Circuit breaker for IO safety</source>
-      <translation type="unfinished">Circuit breaker for IO safety</translation>
+      <translation>Автоматичний вимикач для IO безпеки</translation>
     </message>
   </context>
   <context>
@@ -9280,15 +9244,15 @@ and takeoff failure detection safety logic.</translation>
     <message>
       <source>Setting this parameter to 22027 will disable IO safety.
 WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
-      <translation type="unfinished">Setting this parameter to 22027 will disable IO safety.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
+      <translation>Встановлення цього параметра на 22027 вимкне IO безпеку. 
+УВАГА: ВМИКАННЯ АВТОМАТИЧНОГО ВИМИКАЧА Є ВАШИМ ВЛАСНИМ РИЗИКОМ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_SUPPLY_CHK/shortDesc</name>
     <message>
       <source>Circuit breaker for power supply check</source>
-      <translation type="unfinished">Circuit breaker for power supply check</translation>
+      <translation>Автоматичний вимикач для перевірки електропостачання</translation>
     </message>
   </context>
   <context>
@@ -9297,16 +9261,15 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
       <source>Setting this parameter to 894281 will disable the power valid
 checks in the commander.
 WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
-      <translation type="unfinished">Setting this parameter to 894281 will disable the power valid
-checks in the commander.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
+      <translation>Встановлення цього параметра на 894281 вимкне перевірки придатності живлення в блоці керування.
+УВАГА: ВМИКАННЯ АВТОМАТИЧНОГО ВИМИКАЧА Є ВАШИМ ВЛАСНИМ РИЗИКОМ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/CBRK_USB_CHK/shortDesc</name>
     <message>
       <source>Circuit breaker for USB link check</source>
-      <translation type="unfinished">Circuit breaker for USB link check</translation>
+      <translation>Автоматичний вимикач для перевірки USB з'єднання</translation>
     </message>
   </context>
   <context>
@@ -9318,12 +9281,7 @@ We are generally recommending to not fly with the USB link
 connected and production vehicles should set this parameter to
 zero to prevent users from flying USB powered. However, for R&amp;D purposes
 it has proven over the years to work just fine.</source>
-      <translation type="unfinished">Setting this parameter to 197848 will disable the USB connected
-checks in the commander, setting it to 0 keeps them enabled (recommended).
-We are generally recommending to not fly with the USB link
-connected and production vehicles should set this parameter to
-zero to prevent users from flying USB powered. However, for R&amp;D purposes
-it has proven over the years to work just fine.</translation>
+      <translation>Встановлення цього параметра на 197848 вимкне перевірки USB з'єднання в блоці управління, встановлення цього параметра на 0 залишає перевірки увімкненими (рекомендовано). Взагалі ми не рекомендуємо літати з підключеним USB з'єднанням; також виробництво апаратів має встановити цей параметр на нуль для запобігання польотів з увімкненим USB. Проте за роки доведено, що для R&amp;D цілей це працює нормально.</translation>
     </message>
   </context>
   <context>
@@ -9339,16 +9297,14 @@ it has proven over the years to work just fine.</translation>
       <source>Setting this parameter to 159753 will enable arming in fixed-wing
 mode for VTOLs.
 WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
-      <translation type="unfinished">Setting this parameter to 159753 will enable arming in fixed-wing
-mode for VTOLs.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
+      <translation>Встановлення цього параметра в 159753 увімкне взведення в режимі фіксованого крила для ВЗІПів. УВАГА: ВМИКАННЯ АВТОМАТИЧНОГО ВИМИКАЧА Є ВАШИМ ВЛАСНИМ РИЗИКОМ</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ACT_FAIL_ACT/shortDesc</name>
     <message>
       <source>Set the actuator failure failsafe mode</source>
-      <translation type="unfinished">Set the actuator failure failsafe mode</translation>
+      <translation>Встановити збій привода в безпечний режим</translation>
     </message>
   </context>
   <context>
@@ -9356,43 +9312,42 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</translation>
     <message>
       <source>Note: actuator failure needs to be enabled and configured via FD_ACT_*
 parameters.</source>
-      <translation type="unfinished">Note: actuator failure needs to be enabled and configured via FD_ACT_*
-parameters.</translation>
+      <translation>Примітка: режим збою привода повинен бути увімкнений та налаштований через параметри FD_ACT_*.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ACT_FAIL_ACT/values/0/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ACT_FAIL_ACT/values/1/description</name>
     <message>
       <source>Hold mode</source>
-      <translation type="unfinished">Hold mode</translation>
+      <translation>Режим утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ACT_FAIL_ACT/values/2/description</name>
     <message>
       <source>Land mode</source>
-      <translation type="unfinished">Land mode</translation>
+      <translation>Режим посадки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ACT_FAIL_ACT/values/3/description</name>
     <message>
       <source>Return mode</source>
-      <translation type="unfinished">Return mode</translation>
+      <translation>Режим повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ACT_FAIL_ACT/values/4/description</name>
     <message>
       <source>Terminate</source>
-      <translation type="unfinished">Terminate</translation>
+      <translation>Завершити</translation>
     </message>
   </context>
   <context>
@@ -9452,11 +9407,9 @@ parameters.</translation>
 - two step arm: 1st arm command request an authorization and
 2nd arm command arm the drone if authorized
 Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
-      <translation type="unfinished">Methods:
-- one arm: request authorization and arm when authorization is received
-- two step arm: 1st arm command request an authorization and
-2nd arm command arm the drone if authorized
-Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
+      <translation>Методи: 
+- одне взведення: запит на авторизацію та взведення коли отримано авторизацію 
+- двокрокове взведення: перша команда взведення запитує авторизацію та друга команда взводить дрон, якщо авторизовано. Використовується, якщо авторизація запитується через COM_ARM_AUTH_REQ.</translation>
     </message>
   </context>
   <context>
@@ -9513,8 +9466,7 @@ Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
     <message>
       <source>Timeout for authorizer answer.
 Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
-      <translation type="unfinished">Timeout for authorizer answer.
-Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
+      <translation>Таймаут відповіді авторизатора. Використовується, якщо авторизація запитується через COM_ARM_AUTH_REQ.</translation>
     </message>
   </context>
   <context>
@@ -9529,8 +9481,8 @@ Used if arm authorization is requested by COM_ARM_AUTH_REQ.</translation>
     <message>
       <source>Threshold for battery percentage below arming is prohibited.
 A negative value means BAT_CRIT_THR is the threshold.</source>
-      <translation type="unfinished">Threshold for battery percentage below arming is prohibited.
-A negative value means BAT_CRIT_THR is the threshold.</translation>
+      <translation>Поріг для відсотка заряду акумулятора нижче відсотка взведення не дозволяється. 
+Від'ємне значення означає BAT_CRIT_THR є порогом.</translation>
     </message>
   </context>
   <context>
@@ -9545,8 +9497,8 @@ A negative value means BAT_CRIT_THR is the threshold.</translation>
     <message>
       <source>If this parameter is set, the system will check ESC's online status and failures.
 This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.</source>
-      <translation type="unfinished">If this parameter is set, the system will check ESC's online status and failures.
-This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.</translation>
+      <translation>Якщо цей параметр встановлено, то система буде перевіряти ESC's онлайн статус та помилки.
+Цей параметр є специфічним для ESC статуса звіту. Він буде використовуватися тільки, якщо ESC підтримують телеметрію.</translation>
     </message>
   </context>
   <context>
@@ -9575,8 +9527,7 @@ This param is specific for ESCs reporting status. It shall be used only if ESCs 
     <message>
       <source>This check detects if there are hardfault files present on the
 SD card. If so, and the parameter is enabled, arming is prevented.</source>
-      <translation type="unfinished">This check detects if there are hardfault files present on the
-SD card. If so, and the parameter is enabled, arming is prevented.</translation>
+      <translation>Ця перевірка виявляє чи є файли апаратних збоїв присутні на SD карті. Якщо так, та параметр увімкнено, то взведення призупинено.</translation>
     </message>
   </context>
   <context>
@@ -9633,8 +9584,7 @@ SD card. If so, and the parameter is enabled, arming is prevented.</translation>
     <message>
       <source>Check if the estimator detects a strong magnetic
 disturbance (check enabled by EKF2_MAG_CHECK)</source>
-      <translation type="unfinished">Check if the estimator detects a strong magnetic
-disturbance (check enabled by EKF2_MAG_CHECK)</translation>
+      <translation>Перевірте чи оцінювач виявляє сильне магнітне коливання (перевірка вмикається EKF2_MAG_CHECK)</translation>
     </message>
   </context>
   <context>
@@ -9699,9 +9649,8 @@ disturbance (check enabled by EKF2_MAG_CHECK)</translation>
       <source>This check detects if the Open Drone ID system is missing.
 Depending on the value of the parameter, the check can be
 disabled, warn only or deny arming.</source>
-      <translation type="unfinished">This check detects if the Open Drone ID system is missing.
-Depending on the value of the parameter, the check can be
-disabled, warn only or deny arming.</translation>
+      <translation>Ця перевірка визначить, чи відсутня система Open Drone ID.
+Залежно від значення параметру, перевірка може бути відключена, працюватиме тільки попередження або відхилення взведення.</translation>
     </message>
   </context>
   <context>
@@ -9738,9 +9687,7 @@ disabled, warn only or deny arming.</translation>
       <source>This check detects if the FMU SD card is missing.
 Depending on the value of the parameter, the check can be
 disabled, warn only or deny arming.</source>
-      <translation type="unfinished">This check detects if the FMU SD card is missing.
-Depending on the value of the parameter, the check can be
-disabled, warn only or deny arming.</translation>
+      <translation>Ця перевірка визначить, чи відсутня FMU SD картка. Залежно від значення параметру, перевірка може бути відключена, працюватиме тільки попередження або відхилення взведення.</translation>
     </message>
   </context>
   <context>
@@ -9777,9 +9724,7 @@ disabled, warn only or deny arming.</translation>
       <source>0: Arming/disarming triggers on switch transition.
 1: Arming/disarming triggers when holding the momentary button down
 for COM_RC_ARM_HYST like the stick gesture.</source>
-      <translation type="unfinished">0: Arming/disarming triggers on switch transition.
-1: Arming/disarming triggers when holding the momentary button down
-for COM_RC_ARM_HYST like the stick gesture.</translation>
+      <translation>0: Взведення/охолощення вмикає перемикач переходу. 1: Взведення/охолощення вмикається при натисканні та утриманні миттєвої кнопки COM_RC_ARM_HYST як рух стіком.</translation>
     </message>
   </context>
   <context>
@@ -9800,35 +9745,35 @@ for COM_RC_ARM_HYST like the stick gesture.</translation>
     <name>/parameters/COM_ARM_WO_GPS/shortDesc</name>
     <message>
       <source>GPS preflight check</source>
-      <translation type="unfinished">GPS preflight check</translation>
+      <translation>GPS передполітна перевірка</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/longDesc</name>
     <message>
       <source>Measures taken when a check defined by EKF2_GPS_CHECK is failing.</source>
-      <translation type="unfinished">Measures taken when a check defined by EKF2_GPS_CHECK is failing.</translation>
+      <translation>Міри прийняті коли перевірка визначена EKF2_GPS_CHECK не працює.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/0/description</name>
     <message>
       <source>Deny arming</source>
-      <translation type="unfinished">Deny arming</translation>
+      <translation>Відхилити взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_ARM_WO_GPS/values/2/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
@@ -9843,8 +9788,8 @@ for COM_RC_ARM_HYST like the stick gesture.</translation>
     <message>
       <source>The check fails if the CPU load is above this threshold for 2s.
 A negative value disables the check.</source>
-      <translation type="unfinished">The check fails if the CPU load is above this threshold for 2s.
-A negative value disables the check.</translation>
+      <translation>Перевірка не вдається, якщо завантаження ЦП вище цього порогу впродовж 2s.
+Від'ємне значення вимикає перевірку.</translation>
     </message>
   </context>
   <context>
@@ -9860,9 +9805,7 @@ A negative value disables the check.</translation>
       <source>A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be
 automatically disarmed in case a landing situation has been detected during this period.
 A zero or negative value means that automatic disarming triggered by landing detection is disabled.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be
-automatically disarmed in case a landing situation has been detected during this period.
-A zero or negative value means that automatic disarming triggered by landing detection is disabled.</translation>
+      <translation>Не нульове позитивне значення уточнює час перерви у секундах, після якої апарат буде автоматично охолощений у випадку, якщо було виявлено ситуацію приземлення протягом цього часу. Нульове або від'ємне значення означає, що автоматичне охолощення, яке викликане детекцією приземлення, є вимкнене.</translation>
     </message>
   </context>
   <context>
@@ -9879,10 +9822,8 @@ A zero or negative value means that automatic disarming triggered by landing det
 1: Allow disarming in multicopter flight in modes where
 the thrust is directly controlled by thr throttle stick
 e.g. Stabilized, Acro</source>
-      <translation type="unfinished">0: Disallow disarming when not landed
-1: Allow disarming in multicopter flight in modes where
-the thrust is directly controlled by thr throttle stick
-e.g. Stabilized, Acro</translation>
+      <translation>0: Заборонити охолощення коли не приземлений 
+1: Дозволити охолощєння при польоті мультикоптера в режимах, де тяга безпосередньо контролюється стіком дроселя, напр. режим Стабілізація, Акро</translation>
     </message>
   </context>
   <context>
@@ -9913,66 +9854,63 @@ e.g. Stabilized, Acro</translation>
 vehicle is expected to take off after arming. In case the vehicle didn't takeoff
 within the timeout it disarms again.
 A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the time in seconds, within which the
-vehicle is expected to take off after arming. In case the vehicle didn't takeoff
-within the timeout it disarms again.
-A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.</translation>
+      <translation>Ненульове позитивне значення визначає час у секундах, протягом якого апарат має злетіти після взведення. Якщо апарат не злетів в межах тайм-ауту, він охолощується знову. Від'ємне значення вимикає автоматичне охолощєння, викликане передзлітним тайм-аутом.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DLL_EXCEPT/shortDesc</name>
     <message>
       <source>Datalink loss exceptions</source>
-      <translation type="unfinished">Datalink loss exceptions</translation>
+      <translation>Винятки втрати Datalink</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DLL_EXCEPT/longDesc</name>
     <message>
       <source>Specify modes in which datalink loss is ignored and the failsafe action not triggered.</source>
-      <translation type="unfinished">Specify modes in which datalink loss is ignored and the failsafe action not triggered.</translation>
+      <translation>Вкажіть режими, в яких втрата передачі даних ігнорується, а дія режиму безпеки не виконується.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DLL_EXCEPT/bitmask/0/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DLL_EXCEPT/bitmask/1/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DLL_EXCEPT/bitmask/2/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DL_LOSS_T/shortDesc</name>
     <message>
       <source>GCS connection loss time threshold</source>
-      <translation type="unfinished">GCS connection loss time threshold</translation>
+      <translation>Поріг часу втрати з'єднання GCS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_DL_LOSS_T/longDesc</name>
     <message>
       <source>After this amount of seconds without datalink, the GCS connection lost mode triggers</source>
-      <translation type="unfinished">After this amount of seconds without datalink, the GCS connection lost mode triggers</translation>
+      <translation>Після цієї кількості секунд без передачі даних з'єднання GCS втрачає режимні тригери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FAIL_ACT_T/shortDesc</name>
     <message>
       <source>Delay between failsafe condition triggered and failsafe reaction</source>
-      <translation type="unfinished">Delay between failsafe condition triggered and failsafe reaction</translation>
+      <translation>Затримка між викликаним безпечним режимом та реакцією на безпечний режим</translation>
     </message>
   </context>
   <context>
@@ -9983,18 +9921,15 @@ for the user to realize.
 During that time the user can switch modes, but cannot take over control via the stick override feature (see COM_RC_OVERRIDE).
 Afterwards the configured failsafe action is triggered and the user may use stick override.
 A zero value disables the delay.</source>
-      <translation type="unfinished">Before entering failsafe (RTL, Land, Hold), wait COM_FAIL_ACT_T seconds in Hold mode
-for the user to realize.
-During that time the user can switch modes, but cannot take over control via the stick override feature (see COM_RC_OVERRIDE).
-Afterwards the configured failsafe action is triggered and the user may use stick override.
-A zero value disables the delay.</translation>
+      <translation>Перед входом в безпечний режим (Повернення на точку запуску (RTL), Приземлення, Утримання), чекайте на COM_FAIL_ACT_T секунд в режимі Утримання для розуміння користувачем.
+Впродовж цього часу користувач може перемикати режими, але не може взяти контроль через функцію перезапису стіком. Нульове значення відключає затримку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLIGHT_UUID/shortDesc</name>
     <message>
       <source>Next flight UUID</source>
-      <translation type="unfinished">Next flight UUID</translation>
+      <translation>Ідентифікатор наступного польоту UUID</translation>
     </message>
   </context>
   <context>
@@ -10003,16 +9938,14 @@ A zero value disables the delay.</translation>
       <source>This number is incremented automatically after every flight on
 disarming in order to remember the next flight UUID.
 The first flight is 0.</source>
-      <translation type="unfinished">This number is incremented automatically after every flight on
-disarming in order to remember the next flight UUID.
-The first flight is 0.</translation>
+      <translation>Це число збільшується автоматично після кожного польоту при охолощенні, щоб пам'ятати UUID наступного польоту. Перший політ дорівнює 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/shortDesc</name>
     <message>
       <source>Mode slot 1</source>
-      <translation type="unfinished">Mode slot 1</translation>
+      <translation>Режим слота 1</translation>
     </message>
   </context>
   <context>
@@ -10020,176 +9953,176 @@ The first flight is 0.</translation>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/104/description</name>
     <message>
       <source>External Mode 5</source>
-      <translation type="unfinished">External Mode 5</translation>
+      <translation>Зовнішній Режим 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/105/description</name>
     <message>
       <source>External Mode 6</source>
-      <translation type="unfinished">External Mode 6</translation>
+      <translation>Зовнішній Режим 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/106/description</name>
     <message>
       <source>External Mode 7</source>
-      <translation type="unfinished">External Mode 7</translation>
+      <translation>Зовнішній Режим 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/107/description</name>
     <message>
       <source>External Mode 8</source>
-      <translation type="unfinished">External Mode 8</translation>
+      <translation>Зовнішній Режим 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/shortDesc</name>
     <message>
       <source>Mode slot 2</source>
-      <translation type="unfinished">Mode slot 2</translation>
+      <translation>Режим слота 2</translation>
     </message>
   </context>
   <context>
@@ -10197,176 +10130,176 @@ selected flight mode will be applied.</translation>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/104/description</name>
     <message>
       <source>External Mode 5</source>
-      <translation type="unfinished">External Mode 5</translation>
+      <translation>Зовнішній Режим 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/105/description</name>
     <message>
       <source>External Mode 6</source>
-      <translation type="unfinished">External Mode 6</translation>
+      <translation>Зовнішній Режим 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/106/description</name>
     <message>
       <source>External Mode 7</source>
-      <translation type="unfinished">External Mode 7</translation>
+      <translation>Зовнішній Режим 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/107/description</name>
     <message>
       <source>External Mode 8</source>
-      <translation type="unfinished">External Mode 8</translation>
+      <translation>Зовнішній Режим 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/shortDesc</name>
     <message>
       <source>Mode slot 3</source>
-      <translation type="unfinished">Mode slot 3</translation>
+      <translation>Режим слота 3</translation>
     </message>
   </context>
   <context>
@@ -10374,176 +10307,176 @@ selected flight mode will be applied.</translation>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/104/description</name>
     <message>
       <source>External Mode 5</source>
-      <translation type="unfinished">External Mode 5</translation>
+      <translation>Зовнішній Режим 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/105/description</name>
     <message>
       <source>External Mode 6</source>
-      <translation type="unfinished">External Mode 6</translation>
+      <translation>Зовнішній Режим 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/106/description</name>
     <message>
       <source>External Mode 7</source>
-      <translation type="unfinished">External Mode 7</translation>
+      <translation>Зовнішній Режим 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/107/description</name>
     <message>
       <source>External Mode 8</source>
-      <translation type="unfinished">External Mode 8</translation>
+      <translation>Зовнішній Режим 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/shortDesc</name>
     <message>
       <source>Mode slot 4</source>
-      <translation type="unfinished">Mode slot 4</translation>
+      <translation>Режим слота 4</translation>
     </message>
   </context>
   <context>
@@ -10551,176 +10484,176 @@ selected flight mode will be applied.</translation>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/104/description</name>
     <message>
       <source>External Mode 5</source>
-      <translation type="unfinished">External Mode 5</translation>
+      <translation>Зовнішній Режим 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/105/description</name>
     <message>
       <source>External Mode 6</source>
-      <translation type="unfinished">External Mode 6</translation>
+      <translation>Зовнішній Режим 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/106/description</name>
     <message>
       <source>External Mode 7</source>
-      <translation type="unfinished">External Mode 7</translation>
+      <translation>Зовнішній Режим 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/107/description</name>
     <message>
       <source>External Mode 8</source>
-      <translation type="unfinished">External Mode 8</translation>
+      <translation>Зовнішній Режим 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/shortDesc</name>
     <message>
       <source>Mode slot 5</source>
-      <translation type="unfinished">Mode slot 5</translation>
+      <translation>Режим слота 5</translation>
     </message>
   </context>
   <context>
@@ -10728,176 +10661,176 @@ selected flight mode will be applied.</translation>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/104/description</name>
     <message>
       <source>External Mode 5</source>
-      <translation type="unfinished">External Mode 5</translation>
+      <translation>Зовнішній Режим 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/105/description</name>
     <message>
       <source>External Mode 6</source>
-      <translation type="unfinished">External Mode 6</translation>
+      <translation>Зовнішній Режим 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/106/description</name>
     <message>
       <source>External Mode 7</source>
-      <translation type="unfinished">External Mode 7</translation>
+      <translation>Зовнішній Режим 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/107/description</name>
     <message>
       <source>External Mode 8</source>
-      <translation type="unfinished">External Mode 8</translation>
+      <translation>Зовнішній Режим 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/shortDesc</name>
     <message>
       <source>Mode slot 6</source>
-      <translation type="unfinished">Mode slot 6</translation>
+      <translation>Режим слота 6</translation>
     </message>
   </context>
   <context>
@@ -10905,176 +10838,176 @@ selected flight mode will be applied.</translation>
     <message>
       <source>If the main switch channel is in this range the
 selected flight mode will be applied.</source>
-      <translation type="unfinished">If the main switch channel is in this range the
-selected flight mode will be applied.</translation>
+      <translation>Якщо основний канал перемикання знаходиться у цьому діапазоні, то
+вибраний режим польоту буде застосовано.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/-1/description</name>
     <message>
       <source>Unassigned</source>
-      <translation type="unfinished">Unassigned</translation>
+      <translation>Непризначений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/0/description</name>
     <message>
       <source>Manual</source>
-      <translation type="unfinished">Manual</translation>
+      <translation>Ручний</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/2/description</name>
     <message>
       <source>Position</source>
-      <translation type="unfinished">Position</translation>
+      <translation>Позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/3/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/4/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/5/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/6/description</name>
     <message>
       <source>Acro</source>
-      <translation type="unfinished">Acro</translation>
+      <translation>Режим Acro</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/8/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation type="unfinished">Position Slow</translation>
+      <translation>Повільне положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/10/description</name>
     <message>
       <source>Takeoff</source>
-      <translation type="unfinished">Takeoff</translation>
+      <translation>Зліт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/11/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/12/description</name>
     <message>
       <source>Follow Me</source>
-      <translation type="unfinished">Follow Me</translation>
+      <translation>Слідуй за Мною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <translation>Точність приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/100/description</name>
     <message>
       <source>External Mode 1</source>
-      <translation type="unfinished">External Mode 1</translation>
+      <translation>Зовнішній Режим 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/101/description</name>
     <message>
       <source>External Mode 2</source>
-      <translation type="unfinished">External Mode 2</translation>
+      <translation>Зовнішній Режим 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/102/description</name>
     <message>
       <source>External Mode 3</source>
-      <translation type="unfinished">External Mode 3</translation>
+      <translation>Зовнішній Режим 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/103/description</name>
     <message>
       <source>External Mode 4</source>
-      <translation type="unfinished">External Mode 4</translation>
+      <translation>Зовнішній Режим 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/104/description</name>
     <message>
       <source>External Mode 5</source>
-      <translation type="unfinished">External Mode 5</translation>
+      <translation>Зовнішній Режим 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/105/description</name>
     <message>
       <source>External Mode 6</source>
-      <translation type="unfinished">External Mode 6</translation>
+      <translation>Зовнішній Режим 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/106/description</name>
     <message>
       <source>External Mode 7</source>
-      <translation type="unfinished">External Mode 7</translation>
+      <translation>Зовнішній Режим 7</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/107/description</name>
     <message>
       <source>External Mode 8</source>
-      <translation type="unfinished">External Mode 8</translation>
+      <translation>Зовнішній Режим 8</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTT_LOW_ACT/shortDesc</name>
     <message>
       <source>Remaining flight time low failsafe</source>
-      <translation type="unfinished">Remaining flight time low failsafe</translation>
+      <translation>Низький залишок політного часу</translation>
     </message>
   </context>
   <context>
@@ -11082,36 +11015,36 @@ selected flight mode will be applied.</translation>
     <message>
       <source>Action the system takes when the remaining flight time is below
 the estimated time it takes to reach the RTL destination.</source>
-      <translation type="unfinished">Action the system takes when the remaining flight time is below
-the estimated time it takes to reach the RTL destination.</translation>
+      <translation>Система виконує дію, коли час залишку польоту є нижче за
+орієнтований час необхідний для досягнення пункту запуску "RTL".</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTT_LOW_ACT/values/0/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>Нічого</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTT_LOW_ACT/values/1/description</name>
     <message>
       <source>Warning</source>
-      <translation type="unfinished">Warning</translation>
+      <translation>Попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTT_LOW_ACT/values/3/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLT_PROFILE/shortDesc</name>
     <message>
       <source>User Flight Profile</source>
-      <translation type="unfinished">User Flight Profile</translation>
+      <translation>Польотний профіль користувача</translation>
     </message>
   </context>
   <context>
@@ -11120,44 +11053,43 @@ the estimated time it takes to reach the RTL destination.</translation>
       <source>Describes the intended use of the vehicle.
 Can be used by ground control software or log post processing.
 This param does not influence the behavior within the firmware. This means for example the control logic is independent of the setting of this param (but depends on other params).</source>
-      <translation type="unfinished">Describes the intended use of the vehicle.
-Can be used by ground control software or log post processing.
-This param does not influence the behavior within the firmware. This means for example the control logic is independent of the setting of this param (but depends on other params).</translation>
+      <translation>Описує намір застосування апарату. Може бути використана програмним застосунком неземного контролю або вести післяопераційний журнал записів.
+Цей параметр не впливає на поводження всередині прошивки. Це означає, що наприклад контроль логіки є незалежним для встановлення цього параметра (але залежить від інших параметрів).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLT_PROFILE/values/0/description</name>
     <message>
       <source>Default</source>
-      <translation type="unfinished">Default</translation>
+      <translation>За замовчуванням</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLT_PROFILE/values/100/description</name>
     <message>
       <source>Pro User</source>
-      <translation type="unfinished">Pro User</translation>
+      <translation>Pro-користувач</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLT_PROFILE/values/200/description</name>
     <message>
       <source>Flight Tester</source>
-      <translation type="unfinished">Flight Tester</translation>
+      <translation>Тестер польотів</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLT_PROFILE/values/300/description</name>
     <message>
       <source>Developer</source>
-      <translation type="unfinished">Developer</translation>
+      <translation>Розробник</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLT_TIME_MAX/shortDesc</name>
     <message>
       <source>Maximum allowed flight time</source>
-      <translation type="unfinished">Maximum allowed flight time</translation>
+      <translation>Максимально дозволений час польоту</translation>
     </message>
   </context>
   <context>
@@ -11170,20 +11102,15 @@ mode is still possible.
 Starting from 90% of the maximum flight time, a warning message will be sent
 every 1 minute with the remaining time until automatic RTL.
 Set to -1 to disable.</source>
-      <translation type="unfinished">The vehicle aborts the current operation and returns to launch when
-the time since takeoff is above this value. It is not possible to resume the
-mission or switch to any auto mode other than RTL or Land. Taking over in any manual
-mode is still possible.
-Starting from 90% of the maximum flight time, a warning message will be sent
-every 1 minute with the remaining time until automatic RTL.
-Set to -1 to disable.</translation>
+      <translation>Апарат перериває поточну операцію та повертається до запуску коли час від злету перевищує це значення. Неможливо повернутися до місії або перекинутися на будь-який автоматичний режим окрім RTL (повернення на точку злету) або Приземлення. Переймання контролю у будь-якому ручному режимі є досі можливим. Починаючи від 90% максимального часу польоту, попереджувальне повідомлення буде надіслане щохвилини з залишком часу до автоматичного RTL (повернення на точку злету)
+Встановіть на 1 для вимкнення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FORCE_SAFETY/shortDesc</name>
     <message>
       <source>Enable force safety</source>
-      <translation type="unfinished">Enable force safety</translation>
+      <translation>Увімкнути примусовий режим безпеки</translation>
     </message>
   </context>
   <context>
@@ -11204,28 +11131,28 @@ Set to -1 to disable.</translation>
     <name>/parameters/COM_FORCE_SAFETY/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_HLDL_LOSS_T/shortDesc</name>
     <message>
       <source>High Latency Datalink loss time threshold</source>
-      <translation type="unfinished">High Latency Datalink loss time threshold</translation>
+      <translation>Висока затримка посилання даних втрачає часовий поріг</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_HLDL_LOSS_T/longDesc</name>
     <message>
       <source>After this amount of seconds without datalink the data link lost mode triggers</source>
-      <translation type="unfinished">After this amount of seconds without datalink the data link lost mode triggers</translation>
+      <translation>Після цієї кількості секунд без передачі даних з'єднання втрачає режимні тригери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_HLDL_REG_T/shortDesc</name>
     <message>
       <source>High Latency Datalink regain time threshold</source>
-      <translation type="unfinished">High Latency Datalink regain time threshold</translation>
+      <translation>Висока затримка посилання даних повертає часовий поріг</translation>
     </message>
   </context>
   <context>
@@ -11233,15 +11160,16 @@ Set to -1 to disable.</translation>
     <message>
       <source>After a data link loss: after this number of seconds with a healthy datalink the 'datalink loss'
 flag is set back to false</source>
-      <translation type="unfinished">After a data link loss: after this number of seconds with a healthy datalink the 'datalink loss'
-flag is set back to false</translation>
+      <translation>Після втрати посилання даних: через вказану кількість секунд з робочим посиланням даних 
+прапорець 'втрата посилання даних'
+ повертається до false</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_HOME_EN/shortDesc</name>
     <message>
       <source>Home position enabled</source>
-      <translation type="unfinished">Home position enabled</translation>
+      <translation>Точка повернення активована</translation>
     </message>
   </context>
   <context>
@@ -11251,10 +11179,9 @@ flag is set back to false</translation>
 During missions, the latitude/longitude of the home position is locked and will not reset during intermediate landings.
 It will only update once the mission is complete or landed outside of a mission.
 However, the altitude is still being adjusted to correct for GNSS vertical drift in the first 2 minutes after takeoff.</source>
-      <translation type="unfinished">Set home position automatically if possible.
-During missions, the latitude/longitude of the home position is locked and will not reset during intermediate landings.
-It will only update once the mission is complete or landed outside of a mission.
-However, the altitude is still being adjusted to correct for GNSS vertical drift in the first 2 minutes after takeoff.</translation>
+      <translation>Встановіть автоматично точку повернення якщо це можливо. Впродовж місій, широта/довгота точки повернення закріплена та не перевстановлюється впродовж проміжних приземлень.
+Воно оновлюється як тільки місія завершена або при приземленні поза місією.
+Проте, висота все одно встановлюється до коректної для GNSS вертикального дріфту впродовж перших 2 хвилин після злету.</translation>
     </message>
   </context>
   <context>
@@ -11268,14 +11195,14 @@ However, the altitude is still being adjusted to correct for GNSS vertical drift
     <name>/parameters/COM_HOME_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_HOME_IN_AIR/shortDesc</name>
     <message>
       <source>Allows setting the home position after takeoff</source>
-      <translation type="unfinished">Allows setting the home position after takeoff</translation>
+      <translation>Дозволяє встановити початкову позицію після зльоту</translation>
     </message>
   </context>
   <context>
@@ -11284,9 +11211,8 @@ However, the altitude is still being adjusted to correct for GNSS vertical drift
       <source>If set to true, the autopilot is allowed to set its home position after takeoff
 The true home position is back-computed if a local position is estimate if available.
 If no local position is available, home is set to the current position.</source>
-      <translation type="unfinished">If set to true, the autopilot is allowed to set its home position after takeoff
-The true home position is back-computed if a local position is estimate if available.
-If no local position is available, home is set to the current position.</translation>
+      <translation>Якщо встановлено на true, автопілоту дозволено встановити власну точку повернення після злету. Справжня точка повернення знову вираховується, якщо визначення місцевої позиції доступне. 
+Якщо немає доступної місцевої позиції, тоді точка повернення встановлюється як поточна позиція.</translation>
     </message>
   </context>
   <context>
@@ -11300,14 +11226,14 @@ If no local position is available, home is set to the current position.</transla
     <name>/parameters/COM_HOME_IN_AIR/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_IMB_PROP_ACT/shortDesc</name>
     <message>
       <source>Imbalanced propeller failsafe mode</source>
-      <translation type="unfinished">Imbalanced propeller failsafe mode</translation>
+      <translation>Аварійний режим неврівноваженого пропелера</translation>
     </message>
   </context>
   <context>
@@ -11315,8 +11241,7 @@ If no local position is available, home is set to the current position.</transla
     <message>
       <source>Action the system takes when an imbalanced propeller is detected by the failure detector.
 See also FD_IMB_PROP_THR to set the failure threshold.</source>
-      <translation type="unfinished">Action the system takes when an imbalanced propeller is detected by the failure detector.
-See also FD_IMB_PROP_THR to set the failure threshold.</translation>
+      <translation>Дія системи відбувається коли незбалансований пропелер знайдено детектором помилок. Дивіться також FD_IMB_PROP_THR для встановлення порогу помилок.</translation>
     </message>
   </context>
   <context>
@@ -11330,21 +11255,21 @@ See also FD_IMB_PROP_THR to set the failure threshold.</translation>
     <name>/parameters/COM_IMB_PROP_ACT/values/0/description</name>
     <message>
       <source>Warning</source>
-      <translation type="unfinished">Warning</translation>
+      <translation>Попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_IMB_PROP_ACT/values/1/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_IMB_PROP_ACT/values/2/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
@@ -11358,14 +11283,14 @@ See also FD_IMB_PROP_THR to set the failure threshold.</translation>
     <name>/parameters/COM_KILL_DISARM/longDesc</name>
     <message>
       <source>Use RC_MAP_KILL_SW to map a kill switch.</source>
-      <translation type="unfinished">Use RC_MAP_KILL_SW to map a kill switch.</translation>
+      <translation>Використовуйте RC_MAP_KILL_SW щоб позначити кнопку екстреного вимкнення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_LKDOWN_TKO/shortDesc</name>
     <message>
       <source>Timeout for detecting a failure after takeoff</source>
-      <translation type="unfinished">Timeout for detecting a failure after takeoff</translation>
+      <translation>Тайм-аут для виявлення відмови після зльоту</translation>
     </message>
   </context>
   <context>
@@ -11375,17 +11300,14 @@ See also FD_IMB_PROP_THR to set the failure threshold.</translation>
 if attitude exceeds the limits defined in FD_FAIL_P and FD_FAIL_R.
 The check is not executed for flight modes that do support acrobatic maneuvers, e.g: Acro (MC/FW) and Manual (FW).
 A zero or negative value means that the check is disabled.</source>
-      <translation type="unfinished">A non-zero, positive value specifies the timeframe in seconds within failure detector is allowed to disarm the vehicle
-if attitude exceeds the limits defined in FD_FAIL_P and FD_FAIL_R.
-The check is not executed for flight modes that do support acrobatic maneuvers, e.g: Acro (MC/FW) and Manual (FW).
-A zero or negative value means that the check is disabled.</translation>
+      <translation>Не нульове, позитивне значення уточнює часові рамки в секундах у детекторі збоїв, якому дозволяється охолостити апарат, якщо стан орієнтації перевищує межі, визначені в FD_FAIL_P і FD_FAIL_R. Ця перевірка не виконується для режимів польоту, які підтримують акробатичні маневри, наприклад: Acro (MC/FW) та Ручний (FW). Нульове або від'ємне значення означає, що перевірка відключена.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_LOW_BAT_ACT/shortDesc</name>
     <message>
       <source>Battery failsafe mode</source>
-      <translation type="unfinished">Battery failsafe mode</translation>
+      <translation>Безпечний режим батареї</translation>
     </message>
   </context>
   <context>
@@ -11393,36 +11315,36 @@ A zero or negative value means that the check is disabled.</translation>
     <message>
       <source>Action the system takes at critical battery. See also BAT_CRIT_THR and BAT_EMERGEN_THR
 for definition of battery states.</source>
-      <translation type="unfinished">Action the system takes at critical battery. See also BAT_CRIT_THR and BAT_EMERGEN_THR
-for definition of battery states.</translation>
+      <translation>Дія, яку виконує система при критичному стані батареї. Дивіться також BAT_CRIT_THR і BAT_EMERGEN_THR
+для визначення станів батареї.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_LOW_BAT_ACT/values/0/description</name>
     <message>
       <source>Warning</source>
-      <translation type="unfinished">Warning</translation>
+      <translation>Попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_LOW_BAT_ACT/values/2/description</name>
     <message>
       <source>Land mode</source>
-      <translation type="unfinished">Land mode</translation>
+      <translation>Наземний режим</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_LOW_BAT_ACT/values/3/description</name>
     <message>
       <source>Return at critical level, land at emergency level</source>
-      <translation type="unfinished">Return at critical level, land at emergency level</translation>
+      <translation>Повернення при критичному рівні, посадка при надзвичайному рівні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE0_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 0</source>
-      <translation type="unfinished">External mode identifier 0</translation>
+      <translation>Ідентифікатор 0 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11431,16 +11353,14 @@ for definition of battery states.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE1_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 1</source>
-      <translation type="unfinished">External mode identifier 1</translation>
+      <translation>Ідентифікатор 1 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11449,16 +11369,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE2_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 2</source>
-      <translation type="unfinished">External mode identifier 2</translation>
+      <translation>Ідентифікатор 2 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11467,16 +11385,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE3_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 3</source>
-      <translation type="unfinished">External mode identifier 3</translation>
+      <translation>Ідентифікатор 3 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11485,16 +11401,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE4_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 4</source>
-      <translation type="unfinished">External mode identifier 4</translation>
+      <translation>Ідентифікатор 4 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11503,16 +11417,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE5_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 5</source>
-      <translation type="unfinished">External mode identifier 5</translation>
+      <translation>Ідентифікатор 5 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11521,16 +11433,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE6_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 6</source>
-      <translation type="unfinished">External mode identifier 6</translation>
+      <translation>Ідентифікатор 6 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11539,16 +11449,14 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE7_HASH/shortDesc</name>
     <message>
       <source>External mode identifier 7</source>
-      <translation type="unfinished">External mode identifier 7</translation>
+      <translation>Ідентифікатор 7 зовнішнього режиму</translation>
     </message>
   </context>
   <context>
@@ -11557,44 +11465,42 @@ which is required when mapping an external mode to an RC switch.</translation>
       <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
 which is required when mapping an external mode to an RC switch.</source>
-      <translation type="unfinished">This parameter is automatically set to identify external modes. It ensures that modes
-get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</translation>
+      <translation>Цей параметр автоматично встановлений для ідентифікації зовнішніх режимів. Це забезпечує призначення режимам того ж самого індексу, незалежно від їх початкового порядку, який є необхідним, коли призначається зовнішній режим для перемикача пульта (RC).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE_ARM_CHK/shortDesc</name>
     <message>
       <source>Allow external mode registration while armed</source>
-      <translation type="unfinished">Allow external mode registration while armed</translation>
+      <translation>Дозволити реєстрацію зовнішнього режиму під час стану взведення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE_ARM_CHK/longDesc</name>
     <message>
       <source>By default disabled for safety reasons</source>
-      <translation type="unfinished">By default disabled for safety reasons</translation>
+      <translation>За замовчуванням вимкнено з міркувань безпеки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE_ARM_CHK/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MODE_ARM_CHK/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_MOT_TEST_EN/shortDesc</name>
     <message>
       <source>Enable Actuator Testing</source>
-      <translation type="unfinished">Enable Actuator Testing</translation>
+      <translation>Увімкнути тестування привода</translation>
     </message>
   </context>
   <context>
@@ -11602,8 +11508,8 @@ which is required when mapping an external mode to an RC switch.</translation>
     <message>
       <source>If set, enables the actuator test interface via MAVLink (ACTUATOR_TEST), that
 allows spinning the motors and moving the servos for testing purposes.</source>
-      <translation type="unfinished">If set, enables the actuator test interface via MAVLink (ACTUATOR_TEST), that
-allows spinning the motors and moving the servos for testing purposes.</translation>
+      <translation>Якщо вказано, то дозволяє використовувати інтерфейс для запуску тестування привода за допомогою MAVLink (ACTUATOR_TEST),
+дозволяє здійснювати обертання двигуна та при переміщенні сервоприводів для тестів.</translation>
     </message>
   </context>
   <context>
@@ -11617,21 +11523,21 @@ allows spinning the motors and moving the servos for testing purposes.</translat
     <name>/parameters/COM_MOT_TEST_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBC_LOSS_T/shortDesc</name>
     <message>
       <source>Time-out to wait when onboard computer connection is lost before warning about loss connection</source>
-      <translation type="unfinished">Time-out to wait when onboard computer connection is lost before warning about loss connection</translation>
+      <translation>Чекати тайм-аут, коли на борту втрачається з'єднання з комп'ютером, перед попередженням про втрату з'єднання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/shortDesc</name>
     <message>
       <source>Set offboard loss failsafe mode</source>
-      <translation type="unfinished">Set offboard loss failsafe mode</translation>
+      <translation>Встановити режим втрати безпеки поза бортом</translation>
     </message>
   </context>
   <context>
@@ -11639,57 +11545,57 @@ allows spinning the motors and moving the servos for testing purposes.</translat
     <message>
       <source>The offboard loss failsafe will only be entered after a timeout,
 set by COM_OF_LOSS_T in seconds.</source>
-      <translation type="unfinished">The offboard loss failsafe will only be entered after a timeout,
-set by COM_OF_LOSS_T in seconds.</translation>
+      <translation>Втрата безпеки поза бортом буде введено лише після закінчення часу,
+встановленого через COM_OF_LOSS_T в секундах.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/0/description</name>
     <message>
       <source>Position mode</source>
-      <translation type="unfinished">Position mode</translation>
+      <translation>Позиційний режим</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/1/description</name>
     <message>
       <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
+      <translation>Режим висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/2/description</name>
     <message>
       <source>Stabilized</source>
-      <translation type="unfinished">Stabilized</translation>
+      <translation>Стабілізований</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/3/description</name>
     <message>
       <source>Return mode</source>
-      <translation type="unfinished">Return mode</translation>
+      <translation>Режим повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/4/description</name>
     <message>
       <source>Land mode</source>
-      <translation type="unfinished">Land mode</translation>
+      <translation>Режим посадки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/5/description</name>
     <message>
       <source>Hold mode</source>
-      <translation type="unfinished">Hold mode</translation>
+      <translation>Режим утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OBL_RC_ACT/values/6/description</name>
     <message>
       <source>Terminate</source>
-      <translation type="unfinished">Terminate</translation>
+      <translation>Завершити</translation>
     </message>
   </context>
   <context>
@@ -11703,21 +11609,21 @@ set by COM_OF_LOSS_T in seconds.</translation>
     <name>/parameters/COM_OF_LOSS_T/shortDesc</name>
     <message>
       <source>Time-out to wait when offboard connection is lost before triggering offboard lost action</source>
-      <translation type="unfinished">Time-out to wait when offboard connection is lost before triggering offboard lost action</translation>
+      <translation>Чекати на тайм-аут, коли втрачено з'єднання поза бортом та перед викликом дії при втраті поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_OF_LOSS_T/longDesc</name>
     <message>
       <source>See COM_OBL_RC_ACT to configure action.</source>
-      <translation type="unfinished">See COM_OBL_RC_ACT to configure action.</translation>
+      <translation>Перегляньте COM_OBL_RC_ACT для налаштування дії.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_PARACHUTE/shortDesc</name>
     <message>
       <source>Expect and require a healthy MAVLink parachute system</source>
-      <translation type="unfinished">Expect and require a healthy MAVLink parachute system</translation>
+      <translation>Вимагати та сподіватися на добру роботу системи парашутів MAVLink</translation>
     </message>
   </context>
   <context>
@@ -11731,42 +11637,14 @@ set by COM_OF_LOSS_T in seconds.</translation>
     <name>/parameters/COM_PARACHUTE/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_POSCTL_NAVL/shortDesc</name>
-    <message>
-      <source>Position mode navigation loss response</source>
-      <translation type="unfinished">Position mode navigation loss response</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_POSCTL_NAVL/longDesc</name>
-    <message>
-      <source>This sets the flight mode that will be used if navigation accuracy is no longer adequate for position control in manual Position mode.</source>
-      <translation type="unfinished">This sets the flight mode that will be used if navigation accuracy is no longer adequate for position control in manual Position mode.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_POSCTL_NAVL/values/0/description</name>
-    <message>
-      <source>Altitude mode</source>
-      <translation type="unfinished">Altitude mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/COM_POSCTL_NAVL/values/1/description</name>
-    <message>
-      <source>Land mode (descend)</source>
-      <translation type="unfinished">Land mode (descend)</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_FS_EPH/shortDesc</name>
     <message>
       <source>Horizontal position error threshold for hovering systems</source>
-      <translation type="unfinished">Horizontal position error threshold for hovering systems</translation>
+      <translation>Поріг помилки горизонтального положення для систем зависання в повітрі</translation>
     </message>
   </context>
   <context>
@@ -11778,19 +11656,16 @@ factor of 2.5 applied (threshold for invalidation 2.5 times the one for validati
 Only used for multicopters and VTOLs in hover mode.
 Independent from estimator positioning data timeout threshold (see EKF2_NOAID_TOUT).
 Set to -1 to disable.</source>
-      <translation type="unfinished">This is the horizontal position error (EPH) threshold that will trigger a failsafe.
-If the previous position error was below this threshold, there is an additional
-factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).
-Only used for multicopters and VTOLs in hover mode.
-Independent from estimator positioning data timeout threshold (see EKF2_NOAID_TOUT).
-Set to -1 to disable.</translation>
+      <translation>Це поріг помилки горизонтальної позиції (EPH), який викликає режим безпеки. Якщо помилка попередньої була нижче цього порогу, тоді є додатковий фактор 2.5 застосування ( поріг для невалідації відрізняється в 2.5 разів від порогу валідації). 
+Застосовується лише для мультикоптерів та ВЗІПів в режимі зависання.
+Не залежить від порога часу тайм-ауту ВАЗ начальника даних позиціонування (дивіться EKF2_NOAID_TOUT). Встановити на -1 для припинення роботи.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/shortDesc</name>
     <message>
       <source>Low position accuracy action</source>
-      <translation type="unfinished">Low position accuracy action</translation>
+      <translation>Дія низької точності розташування</translation>
     </message>
   </context>
   <context>
@@ -11800,59 +11675,57 @@ Set to -1 to disable.</translation>
 See COM_POS_LOW_EPH to set the failsafe threshold.
 The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode,
 otherwise it is only a warning.</source>
-      <translation type="unfinished">Action the system takes when the estimated position has an accuracy below the specified threshold.
-See COM_POS_LOW_EPH to set the failsafe threshold.
-The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode,
-otherwise it is only a warning.</translation>
+      <translation>Дія, яку система виконує коли точність визначеної позиції є нижчою за визначений поріг. 
+Дивіться COM_P_LOW_EPH для встановлення порогу аварійного режиму. Дія аварійного режиму виконується лише у випадку, якщо апарат знаходиться режимі автоматичної місії або у режимі автоматичного баражування, інакше це лише попередження.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/0/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>Нічого</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/1/description</name>
     <message>
       <source>Warning</source>
-      <translation type="unfinished">Warning</translation>
+      <translation>Попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/2/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/3/description</name>
     <message>
       <source>Return</source>
-      <translation type="unfinished">Return</translation>
+      <translation>Повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/4/description</name>
     <message>
       <source>Terminate</source>
-      <translation type="unfinished">Terminate</translation>
+      <translation>Завершити</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_ACT/values/5/description</name>
     <message>
       <source>Land</source>
-      <translation type="unfinished">Land</translation>
+      <translation>Приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POS_LOW_EPH/shortDesc</name>
     <message>
       <source>Low position accuracy failsafe threshold</source>
-      <translation type="unfinished">Low position accuracy failsafe threshold</translation>
+      <translation>Низька точність порогу безпечного режиму позиціювання</translation>
     </message>
   </context>
   <context>
@@ -11862,17 +11735,17 @@ otherwise it is only a warning.</translation>
 Local position has to be still declared valid, which requires some kind of velocity aiding or large dead-reckoning time (EKF2_NOAID_TOUT),
 and a high failsafe threshold (COM_POS_FS_EPH).
 Set to -1 to disable.</source>
-      <translation type="unfinished">This triggers the action specified in COM_POS_LOW_ACT if the estimated position accuracy is below this threshold.
-Local position has to be still declared valid, which requires some kind of velocity aiding or large dead-reckoning time (EKF2_NOAID_TOUT),
-and a high failsafe threshold (COM_POS_FS_EPH).
-Set to -1 to disable.</translation>
+      <translation>Це тригерує дію, зазначену в COM_POS_LOW_ACT, якщо передбачувана точність позиції нижче цього порогу.
+Місцева позиція повинна все ще оголошена, як дійсна, що вимагає якогось роду підтримки швидкості або великого часу визначення позиції через дед-реконінг (EKF2_NOAID_TOUT),
+і високий поріг режиму безпеки (COM_POS_FS_EPH). Встановіть значення
+-1 для вимкнення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_POWER_COUNT/shortDesc</name>
     <message>
       <source>Required number of redundant power modules</source>
-      <translation type="unfinished">Required number of redundant power modules</translation>
+      <translation>Необхідна кількість модулів надлишкової енергії</translation>
     </message>
   </context>
   <context>
@@ -11880,8 +11753,8 @@ Set to -1 to disable.</translation>
     <message>
       <source>This configures a check to verify the expected number of 5V rail power supplies are present. By default only one is expected.
 Note: CBRK_SUPPLY_CHK disables all power checks including this one.</source>
-      <translation type="unfinished">This configures a check to verify the expected number of 5V rail power supplies are present. By default only one is expected.
-Note: CBRK_SUPPLY_CHK disables all power checks including this one.</translation>
+      <translation>Це налаштовує перевірку для контролю присутності очікуваного числа 5V рейкових джерел живлення. За замовчуванням очікується лише одна.
+Примітка: CBRK_SUPPLY_CHK вимикає всі перевірки живлення, включаючи цю.</translation>
     </message>
   </context>
   <context>
@@ -11896,8 +11769,7 @@ Note: CBRK_SUPPLY_CHK disables all power checks including this one.</translation
     <message>
       <source>Condition to enter the prearmed state, an intermediate state between disarmed and armed
 in which non-throttling actuators are active.</source>
-      <translation type="unfinished">Condition to enter the prearmed state, an intermediate state between disarmed and armed
-in which non-throttling actuators are active.</translation>
+      <translation>Умова для входу у стан перед взведенням; це є посередній стан між охолощений та взведений в якому недросельні актуатори є активними.</translation>
     </message>
   </context>
   <context>
@@ -11925,42 +11797,42 @@ in which non-throttling actuators are active.</translation>
     <name>/parameters/COM_QC_ACT/shortDesc</name>
     <message>
       <source>Set action after a quadchute</source>
-      <translation type="unfinished">Set action after a quadchute</translation>
+      <translation>Встановити дію після чотирикутника</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_QC_ACT/values/-1/description</name>
     <message>
       <source>Warning only</source>
-      <translation type="unfinished">Warning only</translation>
+      <translation>Лише попередження</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_QC_ACT/values/0/description</name>
     <message>
       <source>Return mode</source>
-      <translation type="unfinished">Return mode</translation>
+      <translation>Режим повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_QC_ACT/values/1/description</name>
     <message>
       <source>Land mode</source>
-      <translation type="unfinished">Land mode</translation>
+      <translation>Режим посадки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_QC_ACT/values/2/description</name>
     <message>
       <source>Hold mode</source>
-      <translation type="unfinished">Hold mode</translation>
+      <translation>Режим утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RAM_MAX/shortDesc</name>
     <message>
       <source>Maximum allowed RAM usage to pass checks</source>
-      <translation type="unfinished">Maximum allowed RAM usage to pass checks</translation>
+      <translation>Максимально допустиме число використання оперативної пам'яті (RAM) для проходження перевірок</translation>
     </message>
   </context>
   <context>
@@ -11968,15 +11840,15 @@ in which non-throttling actuators are active.</translation>
     <message>
       <source>The check fails if the RAM usage is above this threshold.
 A negative value disables the check.</source>
-      <translation type="unfinished">The check fails if the RAM usage is above this threshold.
-A negative value disables the check.</translation>
+      <translation>Перевірка не вдається, якщо завантаження оперативної пам'яті (RAM) вище цього порогу.
+Від'ємне значення вимикає перевірку.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RCL_EXCEPT/shortDesc</name>
     <message>
-      <source>RC loss exceptions</source>
-      <translation type="unfinished">RC loss exceptions</translation>
+      <source>Manual control loss exceptions</source>
+      <translation>Винятки втрати ручного контролю</translation>
     </message>
   </context>
   <context>
@@ -11984,43 +11856,42 @@ A negative value disables the check.</translation>
     <message>
       <source>Specify modes where manual control loss is ignored and no failsafe is triggered.
 External modes requiring stick input will still failsafe.</source>
-      <translation type="unfinished">Specify modes where manual control loss is ignored and no failsafe is triggered.
-External modes requiring stick input will still failsafe.</translation>
+      <translation>Визначте режими де втрата ручного контролю ігнорується та не викликається режим безпеки. Зовнішні режими, які вимагають введення за допомогою стіків,    будуть працювати в режимі безпеки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RCL_EXCEPT/bitmask/0/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>Місія</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RCL_EXCEPT/bitmask/1/description</name>
     <message>
       <source>Hold</source>
-      <translation type="unfinished">Hold</translation>
+      <translation>Утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RCL_EXCEPT/bitmask/2/description</name>
     <message>
       <source>Offboard</source>
-      <translation type="unfinished">Offboard</translation>
+      <translation>Поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RCL_EXCEPT/bitmask/3/description</name>
     <message>
       <source>External Mode</source>
-      <translation type="unfinished">External Mode</translation>
+      <translation>Зовнішній режим</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_ARM_HYST/shortDesc</name>
     <message>
-      <source>RC input arm/disarm command duration</source>
-      <translation>Тривалість вхідної команди на взведення/охолощення від пульта (RC)</translation>
+      <source>Manual control input arm/disarm command duration</source>
+      <translation>Ручний контроль тривалості вхідної команди на взведення/охолощення</translation>
     </message>
   </context>
   <context>
@@ -12034,7 +11905,7 @@ External modes requiring stick input will still failsafe.</translation>
     <name>/parameters/COM_RC_IN_MODE/shortDesc</name>
     <message>
       <source>RC control input mode</source>
-      <translation type="unfinished">RC control input mode</translation>
+      <translation>Режим вводу даних з керуванням пультом (RC)</translation>
     </message>
   </context>
   <context>
@@ -12044,19 +11915,22 @@ External modes requiring stick input will still failsafe.</translation>
 A value of 1 allows joystick control only. RC input handling and the associated checks are disabled.
 A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid.
 A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot.
-A value of 4 ignores any stick input.</source>
-      <translation type="unfinished">A value of 0 enables RC transmitter control (only). A valid RC transmitter calibration is required.
-A value of 1 allows joystick control only. RC input handling and the associated checks are disabled.
-A value of 2 allows either RC Transmitter or Joystick input. The first valid input is used, will fallback to other sources if the input stream becomes invalid.
-A value of 3 allows either input from RC or joystick. The first available source is selected and used until reboot.
-A value of 4 ignores any stick input.</translation>
+A value of 4 ignores any stick input.
+A value of 5 allows either RC Transmitter or Joystick input. But RC has priority and whenever avaiable is immedietely used.
+A value of 6 allows either RC Transmitter or Joystick input. But Joystick has priority and whenever avaiable is immedietely used.</source>
+      <translation>Значення 0 вмикає лише контроль передавача пульта (RC). Необхідно належне калібрування передавача пульта (RC).
+Значення 1 дозволяє лише контроль джойстиком. Управління з пульта та асоційовані з цим перевірки вімкнено. Значення 2 дозволяє функціонування або передавача пульта (RC) або джойстика. Використовується перше припустиме введення даних, та повернеться до інших джерел, якщо поток введення даних стане неприпустимим.
+Значення 3 дозволяє введення даних з пульта або з джойстика. Перше доступне джерело обирається та використовується до перезавантаження.
+Значення 4 ігнорує будь-яке введення стінками.
+Значення 5 дозволяє введення даних або з передавача пульта (RC), або з джойстика. Але пульт (RC) має приорітет і одразу використовується при наявності.
+Значення 6 дозволяє введення даних або з передавача пульта (RC) або з джойстика. Але джойстик має приорітет і одразу використовується при наявності.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/0/description</name>
     <message>
       <source>RC Transmitter only</source>
-      <translation type="unfinished">RC Transmitter only</translation>
+      <translation>Тільки передавач пульта (RC)</translation>
     </message>
   </context>
   <context>
@@ -12088,6 +11962,20 @@ A value of 4 ignores any stick input.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/COM_RC_IN_MODE/values/5/description</name>
+    <message>
+      <source>RC priority, Joystick fallback</source>
+      <translation type="unfinished">RC priority, Joystick fallback</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_RC_IN_MODE/values/6/description</name>
+    <message>
+      <source>Joystick priority, RC fallback</source>
+      <translation type="unfinished">Joystick priority, RC fallback</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/COM_RC_LOSS_T/shortDesc</name>
     <message>
       <source>Manual control loss timeout</source>
@@ -12108,18 +11996,18 @@ Ensure the value is not set lower than the update interval of the RC or Joystick
   <context>
     <name>/parameters/COM_RC_OVERRIDE/shortDesc</name>
     <message>
-      <source>Enable RC stick override of auto and/or offboard modes</source>
-      <translation type="unfinished">Enable RC stick override of auto and/or offboard modes</translation>
+      <source>Enable manual control stick override</source>
+      <translation type="unfinished">Enable manual control stick override</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_OVERRIDE/longDesc</name>
     <message>
-      <source>When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV
+      <source>When enabled, moving the sticks more than COM_RC_STICK_OV
 immediately gives control back to the pilot by switching to Position mode and
 if position is unavailable Altitude mode.
 Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</source>
-      <translation type="unfinished">When RC stick override is enabled, moving the RC sticks more than COM_RC_STICK_OV
+      <translation type="unfinished">When enabled, moving the sticks more than COM_RC_STICK_OV
 immediately gives control back to the pilot by switching to Position mode and
 if position is unavailable Altitude mode.
 Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</translation>
@@ -12142,8 +12030,8 @@ Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</transl
   <context>
     <name>/parameters/COM_RC_STICK_OV/shortDesc</name>
     <message>
-      <source>RC stick override threshold</source>
-      <translation type="unfinished">RC stick override threshold</translation>
+      <source>Stick override threshold</source>
+      <translation type="unfinished">Stick override threshold</translation>
     </message>
   </context>
   <context>
@@ -12434,19 +12322,17 @@ action will be executed.</translation>
   <context>
     <name>/parameters/NAV_RCL_ACT/shortDesc</name>
     <message>
-      <source>Set RC loss failsafe mode</source>
-      <translation type="unfinished">Set RC loss failsafe mode</translation>
+      <source>Set manual control loss failsafe mode</source>
+      <translation type="unfinished">Set manual control loss failsafe mode</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_RCL_ACT/longDesc</name>
     <message>
-      <source>The RC loss failsafe will only be entered after a timeout,
-set by COM_RC_LOSS_T in seconds. If RC input checks have been disabled
-by setting the COM_RC_IN_MODE param it will not be triggered.</source>
-      <translation type="unfinished">The RC loss failsafe will only be entered after a timeout,
-set by COM_RC_LOSS_T in seconds. If RC input checks have been disabled
-by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
+      <source>The manual control loss failsafe will only be entered after a timeout,
+set by COM_RC_LOSS_T in seconds.</source>
+      <translation type="unfinished">The manual control loss failsafe will only be entered after a timeout,
+set by COM_RC_LOSS_T in seconds.</translation>
     </message>
   </context>
   <context>
@@ -12608,6 +12494,34 @@ by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
       <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP_MODE/shortDesc</name>
+    <message>
+      <source>Fusion reset mode</source>
+      <translation type="unfinished">Fusion reset mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP_MODE/longDesc</name>
+    <message>
+      <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP_MODE/values/0/description</name>
+    <message>
+      <source>Automatic</source>
+      <translation type="unfinished">Automatic</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP_MODE/values/1/description</name>
+    <message>
+      <source>Dead-reckoning</source>
+      <translation type="unfinished">Dead-reckoning</translation>
     </message>
   </context>
   <context>
@@ -13234,6 +13148,13 @@ by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/EKF2_GPS_CHECK/bitmask/10/description</name>
+    <message>
+      <source>GPS fix type (EKF2_REQ_FIX)</source>
+      <translation type="unfinished">GPS fix type (EKF2_REQ_FIX)</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/EKF2_GPS_CTRL/shortDesc</name>
     <message>
       <source>GNSS sensor aiding</source>
@@ -13280,6 +13201,34 @@ by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
     <message>
       <source>GPS measurement delay relative to IMU measurements</source>
       <translation type="unfinished">GPS measurement delay relative to IMU measurements</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_GPS_MODE/shortDesc</name>
+    <message>
+      <source>Fusion reset mode</source>
+      <translation type="unfinished">Fusion reset mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_GPS_MODE/longDesc</name>
+    <message>
+      <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_GPS_MODE/values/0/description</name>
+    <message>
+      <source>Automatic</source>
+      <translation type="unfinished">Automatic</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_GPS_MODE/values/1/description</name>
+    <message>
+      <source>Dead-reckoning</source>
+      <translation type="unfinished">Dead-reckoning</translation>
     </message>
   </context>
   <context>
@@ -14099,6 +14048,69 @@ by setting the COM_RC_IN_MODE param it will not be triggered.</translation>
     <message>
       <source>Required EPV to use GPS</source>
       <translation type="unfinished">Required EPV to use GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/shortDesc</name>
+    <message>
+      <source>Required GPS fix</source>
+      <translation type="unfinished">Required GPS fix</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/longDesc</name>
+    <message>
+      <source>Minimum GPS fix type required for GPS usage.</source>
+      <translation type="unfinished">Minimum GPS fix type required for GPS usage.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/0/description</name>
+    <message>
+      <source>No fix required</source>
+      <translation type="unfinished">No fix required</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/2/description</name>
+    <message>
+      <source>2D fix</source>
+      <translation type="unfinished">2D fix</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/3/description</name>
+    <message>
+      <source>3D fix</source>
+      <translation type="unfinished">3D fix</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/4/description</name>
+    <message>
+      <source>RTCM code differential</source>
+      <translation type="unfinished">RTCM code differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/5/description</name>
+    <message>
+      <source>RTK float</source>
+      <translation type="unfinished">RTK float</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/6/description</name>
+    <message>
+      <source>RTK fixed</source>
+      <translation type="unfinished">RTK fixed</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_REQ_FIX/values/8/description</name>
+    <message>
+      <source>Extrapolated</source>
+      <translation type="unfinished">Extrapolated</translation>
     </message>
   </context>
   <context>
@@ -16879,8 +16891,8 @@ Setting this value to 0 disables the feature.</translation>
   <context>
     <name>/parameters/MC_ORBIT_YAW_MOD/values/4/description</name>
     <message>
-      <source>RC Controlled</source>
-      <translation type="unfinished">RC Controlled</translation>
+      <source>Manually (yaw stick) Controlled</source>
+      <translation type="unfinished">Manually (yaw stick) Controlled</translation>
     </message>
   </context>
   <context>
@@ -17529,7 +17541,8 @@ heading information, whereas the secondary will act as moving base.
 Modes 1 and 2 require each F9P UART1 to be connected to the Autopilot. In addition, UART2 on the
 F9P units are connected to each other.
 Modes 3 and 4 only require UART1 on each F9P connected to the Autopilot or Can Node. UART RX DMA is required.
-RTK is still possible with this setup.</source>
+RTK is still possible with this setup.
+Mode 6 is intended for use with a ground control station (not necessarily an RTK correction base).</source>
       <translation type="unfinished">Select the u-blox configuration setup. Most setups will use the default, including RTK and
 dual GPS without heading.
 If rover has RTCM corrections from a static base (or other static correction source) coming in on UART2, then select Mode 5.
@@ -17538,7 +17551,8 @@ heading information, whereas the secondary will act as moving base.
 Modes 1 and 2 require each F9P UART1 to be connected to the Autopilot. In addition, UART2 on the
 F9P units are connected to each other.
 Modes 3 and 4 only require UART1 on each F9P connected to the Autopilot or Can Node. UART RX DMA is required.
-RTK is still possible with this setup.</translation>
+RTK is still possible with this setup.
+Mode 6 is intended for use with a ground control station (not necessarily an RTK correction base).</translation>
     </message>
   </context>
   <context>
@@ -17581,6 +17595,13 @@ RTK is still possible with this setup.</translation>
     <message>
       <source>Rover with Static Base on UART2 (similar to Default, except coming in on UART2)</source>
       <translation type="unfinished">Rover with Static Base on UART2 (similar to Default, except coming in on UART2)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/GPS_UBX_MODE/values/6/description</name>
+    <message>
+      <source>Ground Control Station (UART2 outputs NMEA)</source>
+      <translation type="unfinished">Ground Control Station (UART2 outputs NMEA)</translation>
     </message>
   </context>
   <context>
@@ -35125,6 +35146,20 @@ error between the desired and actual yaw.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/RD_YAW_STK_GAIN/shortDesc</name>
+    <message>
+      <source>Yaw stick gain for Manual mode</source>
+      <translation type="unfinished">Yaw stick gain for Manual mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RD_YAW_STK_GAIN/longDesc</name>
+    <message>
+      <source>Assign value &lt;1.0 to decrease stick response for yaw control.</source>
+      <translation type="unfinished">Assign value &lt;1.0 to decrease stick response for yaw control.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/RM_COURSE_CTL_TH/shortDesc</name>
     <message>
       <source>Threshold to update course control in manual position mode</source>
@@ -35159,6 +35194,20 @@ and lateral speed which defines a course direction.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/RM_YAW_STK_GAIN/shortDesc</name>
+    <message>
+      <source>Yaw stick gain for Manual mode</source>
+      <translation type="unfinished">Yaw stick gain for Manual mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RM_YAW_STK_GAIN/longDesc</name>
+    <message>
+      <source>Assign value &lt;1.0 to decrease stick response for yaw control.</source>
+      <translation type="unfinished">Assign value &lt;1.0 to decrease stick response for yaw control.</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/RO_YAW_ACCEL_LIM/shortDesc</name>
     <message>
       <source>Yaw acceleration limit</source>
@@ -35188,6 +35237,24 @@ Set to -1 to disable.</translation>
 Set to -1 to disable.</source>
       <translation type="unfinished">Used to cap how quickly the magnitude of yaw rate setpoints can decrease.
 Set to -1 to disable.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RO_YAW_EXPO/shortDesc</name>
+    <message>
+      <source>Yaw rate expo factor</source>
+      <translation type="unfinished">Yaw rate expo factor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RO_YAW_EXPO/longDesc</name>
+    <message>
+      <source>Exponential factor for tuning the input curve shape.
+0 Purely linear input curve
+1 Purely cubic input curve</source>
+      <translation type="unfinished">Exponential factor for tuning the input curve shape.
+0 Purely linear input curve
+1 Purely cubic input curve</translation>
     </message>
   </context>
   <context>
@@ -35266,6 +35333,26 @@ in Acro, Stabilized and Position mode.</translation>
     <message>
       <source>Percentage of stick input range that will be interpreted as zero around the stick centered value.</source>
       <translation type="unfinished">Percentage of stick input range that will be interpreted as zero around the stick centered value.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RO_YAW_SUPEXPO/shortDesc</name>
+    <message>
+      <source>Yaw rate super expo factor</source>
+      <translation type="unfinished">Yaw rate super expo factor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/RO_YAW_SUPEXPO/longDesc</name>
+    <message>
+      <source>"Superexponential" factor for refining the input curve shape tuned using RO_YAW_EXPO.
+0 Pure Expo function
+0.7 reasonable shape enhancement for intuitive stick feel
+0.95 very strong bent input curve only near maxima have effect</source>
+      <translation type="unfinished">"Superexponential" factor for refining the input curve shape tuned using RO_YAW_EXPO.
+0 Pure Expo function
+0.7 reasonable shape enhancement for intuitive stick feel
+0.95 very strong bent input curve only near maxima have effect</translation>
     </message>
   </context>
   <context>
@@ -35546,6 +35633,40 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</transl
     </message>
   </context>
   <context>
+    <name>/parameters/SDLOG_BACKEND/shortDesc</name>
+    <message>
+      <source>Logging Backend (integer bitmask)</source>
+      <translation type="unfinished">Logging Backend (integer bitmask)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SDLOG_BACKEND/longDesc</name>
+    <message>
+      <source>If no logging is set the logger will not be started.
+Set bits true to enable:
+0: SD card logging
+1: Mavlink logging</source>
+      <translation type="unfinished">If no logging is set the logger will not be started.
+Set bits true to enable:
+0: SD card logging
+1: Mavlink logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SDLOG_BACKEND/bitmask/0/description</name>
+    <message>
+      <source>SD card logging</source>
+      <translation type="unfinished">SD card logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/SDLOG_BACKEND/bitmask/1/description</name>
+    <message>
+      <source>Mavlink logging</source>
+      <translation type="unfinished">Mavlink logging</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/SDLOG_BOOT_BAT/shortDesc</name>
     <message>
       <source>Battery-only Logging</source>
@@ -35709,16 +35830,15 @@ the data in the mission log (and more).</translation>
     <name>/parameters/SDLOG_MODE/longDesc</name>
     <message>
       <source>Determines when to start and stop logging. By default, logging is started
-when arming the system, and stopped when disarming.</source>
+when arming the system, and stopped when disarming.
+Note: The logging start/end points that can be configured here only apply to
+SD logging. The mavlink backend is started/stopped independently
+of these points.</source>
       <translation type="unfinished">Determines when to start and stop logging. By default, logging is started
-when arming the system, and stopped when disarming.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SDLOG_MODE/values/-1/description</name>
-    <message>
-      <source>disabled</source>
-      <translation>відключено</translation>
+when arming the system, and stopped when disarming.
+Note: The logging start/end points that can be configured here only apply to
+SD logging. The mavlink backend is started/stopped independently
+of these points.</translation>
     </message>
   </context>
   <context>
@@ -47838,13 +47958,6 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/category/Developer</name>
-    <message>
-      <source>Developer</source>
-      <translation type="unfinished">Developer</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/category/Standard</name>
     <message>
       <source>Standard</source>
@@ -47859,101 +47972,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Autotune</name>
+    <name>$globals/category/Developer</name>
     <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
+      <source>Developer</source>
+      <translation type="unfinished">Developer</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/SITL</name>
+    <name>$globals/group/Flight Task Orbit</name>
     <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Longitudinal Control</name>
-    <message>
-      <source>FW Longitudinal Control</source>
-      <translation type="unfinished">FW Longitudinal Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/EKF2</name>
-    <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Lateral Control</name>
-    <message>
-      <source>FW Lateral Control</source>
-      <translation type="unfinished">FW Lateral Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Attitude Q estimator</name>
-    <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN GNSS</name>
-    <message>
-      <source>UAVCAN GNSS</source>
-      <translation type="unfinished">UAVCAN GNSS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Septentrio</name>
-    <message>
-      <source>Septentrio</source>
-      <translation type="unfinished">Septentrio</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
     </message>
   </context>
   <context>
@@ -47964,31 +47993,24 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Ackermann</name>
+    <name>$globals/group/Simulator</name>
     <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW General</name>
+    <name>$globals/group/FW Attitude Control</name>
     <message>
-      <source>FW General</source>
-      <translation type="unfinished">FW General</translation>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Actuator Outputs</name>
+    <name>$globals/group/Radio Calibration</name>
     <message>
-      <source>Actuator Outputs</source>
-      <translation type="unfinished">Actuator Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Precision Land</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
     </message>
   </context>
   <context>
@@ -47999,10 +48021,108 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Mount</name>
     <message>
       <source>Mount</source>
       <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Attitude Q estimator</name>
+    <message>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Actuator Outputs</name>
+    <message>
+      <source>Actuator Outputs</source>
+      <translation type="unfinished">Actuator Outputs</translation>
     </message>
   </context>
   <context>
@@ -48013,10 +48133,73 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Simulation In Hardware</name>
+    <name>$globals/group/Autotune</name>
     <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
     </message>
   </context>
   <context>
@@ -48024,6 +48207,111 @@ Set to 0 do disable this threshold.</translation>
     <message>
       <source>VTOL Attitude Control</source>
       <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN GNSS</name>
+    <message>
+      <source>UAVCAN GNSS</source>
+      <translation type="unfinished">UAVCAN GNSS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UAVCAN Motor Parameters</name>
+    <message>
+      <source>UAVCAN Motor Parameters</source>
+      <translation type="unfinished">UAVCAN Motor Parameters</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulation In Hardware</name>
+    <message>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <message>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Takeoff</name>
+    <message>
+      <source>FW Auto Takeoff</source>
+      <translation type="unfinished">FW Auto Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geometry</name>
+    <message>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
     </message>
   </context>
   <context>
@@ -48041,178 +48329,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Payload Deliverer</name>
-    <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Thermal Compensation</name>
-    <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Rate Control</name>
-    <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Mecanum</name>
-    <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Calibration</name>
-    <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN Motor Parameters</name>
-    <message>
-      <source>UAVCAN Motor Parameters</source>
-      <translation type="unfinished">UAVCAN Motor Parameters</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Events</name>
     <message>
       <source>Events</source>
       <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Lateral Control</name>
+    <message>
+      <source>FW Lateral Control</source>
+      <translation type="unfinished">FW Lateral Control</translation>
     </message>
   </context>
   <context>
@@ -48223,10 +48350,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Manual Control</name>
+    <name>$globals/group/Runway Takeoff</name>
     <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
     </message>
   </context>
   <context>
@@ -48237,17 +48371,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Camera trigger</name>
     <message>
       <source>Camera trigger</source>
       <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
     </message>
   </context>
   <context>
@@ -48258,101 +48392,24 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Attitude Control</name>
+    <name>$globals/group/Geofence</name>
     <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <name>$globals/group/Septentrio</name>
     <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+      <source>Septentrio</source>
+      <translation type="unfinished">Septentrio</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Testing</name>
+    <name>$globals/group/FW Longitudinal Control</name>
     <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MAVLink</name>
-    <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulator</name>
-    <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Differential</name>
-    <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
+      <source>FW Longitudinal Control</source>
+      <translation type="unfinished">FW Longitudinal Control</translation>
     </message>
   </context>
   <context>
@@ -48363,17 +48420,80 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Auto Takeoff</name>
+    <name>$globals/group/Battery Calibration</name>
     <message>
-      <source>FW Auto Takeoff</source>
-      <translation type="unfinished">FW Auto Takeoff</translation>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Return Mode</name>
+    <name>$globals/group/FW General</name>
     <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
+      <source>FW General</source>
+      <translation type="unfinished">FW General</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
     </message>
   </context>
 </TS>
