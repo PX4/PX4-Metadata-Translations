@@ -12007,31 +12007,29 @@ Ensure the value is not set lower than the update interval of the RC or Joystick
 immediately gives control back to the pilot by switching to Position mode and
 if position is unavailable Altitude mode.
 Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</source>
-      <translation type="unfinished">When enabled, moving the sticks more than COM_RC_STICK_OV
-immediately gives control back to the pilot by switching to Position mode and
-if position is unavailable Altitude mode.
-Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</translation>
+      <translation>Коли активоване, то рухи стіками більше ніж COM_RC_STICK_OV миттєво повертають контроль пілоту за допомогою перемикання на режим Положення та якщо положення недосяжне, тоді режим Висоти.
+Увага: Це розповсюджується лише на мультикоптери, та ВЗІПів в режимі мультикоптера.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_OVERRIDE/bitmask/0/description</name>
     <message>
       <source>Enable override during auto modes (except for in critical battery reaction)</source>
-      <translation type="unfinished">Enable override during auto modes (except for in critical battery reaction)</translation>
+      <translation>Увімкнути перевизначення під час автоматичних режимів (крім критичної реакції акумулятора)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_OVERRIDE/bitmask/1/description</name>
     <message>
       <source>Enable override during offboard mode</source>
-      <translation type="unfinished">Enable override during offboard mode</translation>
+      <translation>Дозволити перевизначення під час режиму поза бортом</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_STICK_OV/shortDesc</name>
     <message>
       <source>Stick override threshold</source>
-      <translation type="unfinished">Stick override threshold</translation>
+      <translation>Поріг перевизначення стіків</translation>
     </message>
   </context>
   <context>
@@ -12039,8 +12037,7 @@ Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</transl
     <message>
       <source>If COM_RC_OVERRIDE is enabled and the joystick input is moved more than this threshold
 the autopilot the pilot takes over control.</source>
-      <translation type="unfinished">If COM_RC_OVERRIDE is enabled and the joystick input is moved more than this threshold
-the autopilot the pilot takes over control.</translation>
+      <translation>Якщо COM_RC_OVERRIDE увімкнено, та передача даних джойстиком зміщено за цей поріг, то пілот/автопілот переймає контроль.</translation>
     </message>
   </context>
   <context>
