@@ -11988,16 +11988,16 @@ A value of 6 allows either RC Transmitter or Joystick input. But Joystick has pr
       <source>The time in seconds without a new setpoint from RC or Joystick, after which the connection is considered lost.
 This must be kept short as the vehicle will use the last supplied setpoint until the timeout triggers.
 Ensure the value is not set lower than the update interval of the RC or Joystick.</source>
-      <translation type="unfinished">The time in seconds without a new setpoint from RC or Joystick, after which the connection is considered lost.
-This must be kept short as the vehicle will use the last supplied setpoint until the timeout triggers.
-Ensure the value is not set lower than the update interval of the RC or Joystick.</translation>
+      <translation>Час в секундах без нового заданого значення від пульта (RC) або джойстика, після якого з'єднання буде вважатись втраченим.
+Цей час має залишатися коротким, оскільки транспортний засіб буде використовувати останню отримане задане значення до тригеру тайм-ауту.
+Переконайтеся, що значення не задано нижче, ніж інтервал оновлення пульта (RC) або джойстика.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_OVERRIDE/shortDesc</name>
     <message>
       <source>Enable manual control stick override</source>
-      <translation type="unfinished">Enable manual control stick override</translation>
+      <translation>Увімкнути ручний контроль перевизначення стіків</translation>
     </message>
   </context>
   <context>
