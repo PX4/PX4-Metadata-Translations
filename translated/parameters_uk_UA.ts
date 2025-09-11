@@ -11944,14 +11944,14 @@ A value of 6 allows either RC Transmitter or Joystick input. But Joystick has pr
     <name>/parameters/COM_RC_IN_MODE/values/2/description</name>
     <message>
       <source>RC and Joystick with fallback</source>
-      <translation type="unfinished">RC and Joystick with fallback</translation>
+      <translation>Пульт (RC) та джойстик, як запасний варіант</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/3/description</name>
     <message>
       <source>RC or Joystick keep first</source>
-      <translation type="unfinished">RC or Joystick keep first</translation>
+      <translation>Спочатку пульт (RC) або джойстик</translation>
     </message>
   </context>
   <context>
@@ -11965,21 +11965,21 @@ A value of 6 allows either RC Transmitter or Joystick input. But Joystick has pr
     <name>/parameters/COM_RC_IN_MODE/values/5/description</name>
     <message>
       <source>RC priority, Joystick fallback</source>
-      <translation type="unfinished">RC priority, Joystick fallback</translation>
+      <translation>Пульт (RC) в пріоритеті, джойстик, як запасний варіант</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/6/description</name>
     <message>
       <source>Joystick priority, RC fallback</source>
-      <translation type="unfinished">Joystick priority, RC fallback</translation>
+      <translation>Джойстик в пріоритеті, пульт (RC), як запасний варіант</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_LOSS_T/shortDesc</name>
     <message>
       <source>Manual control loss timeout</source>
-      <translation type="unfinished">Manual control loss timeout</translation>
+      <translation>Тайм-ауту втрати ручного контролю</translation>
     </message>
   </context>
   <context>
