@@ -11729,7 +11729,7 @@ factor of 2.5 applied (threshold for invalidation 2.5 times the one for validati
     <name>/parameters/COM_WIND_MAX/shortDesc</name>
     <message>
       <source>High wind speed failsafe threshold</source>
-      <translation>Високий поріг безпеки швидкості вітру</translation>
+      <translation>Аварійний поріг швидкості сильного вітру</translation>
     </message>
   </context>
   <context>
@@ -11737,15 +11737,15 @@ factor of 2.5 applied (threshold for invalidation 2.5 times the one for validati
     <message>
       <source>Wind speed threshold above which an automatic failsafe action is triggered.
 Failsafe action can be specified with COM_WIND_MAX_ACT.</source>
-      <translation type="unfinished">Wind speed threshold above which an automatic failsafe action is triggered.
-Failsafe action can be specified with COM_WIND_MAX_ACT.</translation>
+      <translation>Поріг швидкості вітру, вище якого автоматично вмикається дія аварійного режиму.
+Дія аварійного режиму може бути вказана за допомогою COM_WIND_MAX_ACT.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_WIND_MAX_ACT/shortDesc</name>
     <message>
       <source>High wind failsafe mode</source>
-      <translation type="unfinished">High wind failsafe mode</translation>
+      <translation>Аварійний режим сильного вітру</translation>
     </message>
   </context>
   <context>
