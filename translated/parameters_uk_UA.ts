@@ -11729,7 +11729,7 @@ factor of 2.5 applied (threshold for invalidation 2.5 times the one for validati
     <name>/parameters/COM_WIND_MAX/shortDesc</name>
     <message>
       <source>High wind speed failsafe threshold</source>
-      <translation type="unfinished">High wind speed failsafe threshold</translation>
+      <translation>Високий поріг безпеки швидкості вітру</translation>
     </message>
   </context>
   <context>
