@@ -11833,9 +11833,7 @@ Set to -1 to disable.</source>
       <source>The GCS connection loss failsafe will only be entered after a timeout,
 set by COM_DL_LOSS_T in seconds. Once the timeout occurs the selected
 action will be executed.</source>
-      <translation type="unfinished">The GCS connection loss failsafe will only be entered after a timeout,
-set by COM_DL_LOSS_T in seconds. Once the timeout occurs the selected
-action will be executed.</translation>
+      <translation>Вхід у безпечний режим втрати з'єднання з GCS буде здійснено після тайм-аут, який становлено COM_DL_LOSS_T в секундах. Як тільки тайм-аут трапляється, обрана дія буде виконана.</translation>
     </message>
   </context>
   <context>
@@ -11849,28 +11847,28 @@ action will be executed.</translation>
     <name>/parameters/NAV_DLL_ACT/values/1/description</name>
     <message>
       <source>Hold mode</source>
-      <translation type="unfinished">Hold mode</translation>
+      <translation>Режим утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_DLL_ACT/values/2/description</name>
     <message>
       <source>Return mode</source>
-      <translation type="unfinished">Return mode</translation>
+      <translation>Режим повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_DLL_ACT/values/3/description</name>
     <message>
       <source>Land mode</source>
-      <translation type="unfinished">Land mode</translation>
+      <translation>Режим посадки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_DLL_ACT/values/5/description</name>
     <message>
       <source>Terminate</source>
-      <translation type="unfinished">Terminate</translation>
+      <translation>Завершити</translation>
     </message>
   </context>
   <context>
@@ -11884,7 +11882,7 @@ action will be executed.</translation>
     <name>/parameters/NAV_RCL_ACT/shortDesc</name>
     <message>
       <source>Set manual control loss failsafe mode</source>
-      <translation type="unfinished">Set manual control loss failsafe mode</translation>
+      <translation>Встановити ручний контроль втрати безпечного режиму</translation>
     </message>
   </context>
   <context>
@@ -11892,36 +11890,36 @@ action will be executed.</translation>
     <message>
       <source>The manual control loss failsafe will only be entered after a timeout,
 set by COM_RC_LOSS_T in seconds.</source>
-      <translation type="unfinished">The manual control loss failsafe will only be entered after a timeout,
-set by COM_RC_LOSS_T in seconds.</translation>
+      <translation>Вхід до ручного контролю втрати безпечного режиму буде здійснено лише після тайм-ауту,
+встановленого через COM_OF_LOSS_T в секундах.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_RCL_ACT/values/1/description</name>
     <message>
       <source>Hold mode</source>
-      <translation type="unfinished">Hold mode</translation>
+      <translation>Режим утримання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_RCL_ACT/values/2/description</name>
     <message>
       <source>Return mode</source>
-      <translation type="unfinished">Return mode</translation>
+      <translation>Режим повернення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_RCL_ACT/values/3/description</name>
     <message>
       <source>Land mode</source>
-      <translation type="unfinished">Land mode</translation>
+      <translation>Режим посадки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_RCL_ACT/values/5/description</name>
     <message>
       <source>Terminate</source>
-      <translation type="unfinished">Terminate</translation>
+      <translation>Завершити</translation>
     </message>
   </context>
   <context>
@@ -11935,7 +11933,7 @@ set by COM_RC_LOSS_T in seconds.</translation>
     <name>/parameters/EKF2_ABIAS_INIT/shortDesc</name>
     <message>
       <source>1-sigma IMU accelerometer switch-on bias</source>
-      <translation type="unfinished">1-sigma IMU accelerometer switch-on bias</translation>
+      <translation>1-sigma IMU увімкнення зміщення акселерометра</translation>
     </message>
   </context>
   <context>
