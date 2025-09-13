@@ -11989,35 +11989,35 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_ABL_TAU/longDesc</name>
     <message>
       <source>The vector magnitude of angular rate and acceleration used to check if learning should be inhibited has a peak hold filter applied to it with an exponential decay. This parameter controls the time constant of the decay.</source>
-      <translation type="unfinished">The vector magnitude of angular rate and acceleration used to check if learning should be inhibited has a peak hold filter applied to it with an exponential decay. This parameter controls the time constant of the decay.</translation>
+      <translation>Величина вектора кутового рівня та прискорення, яка використовується для перевірки, якщо вивчення слід загальмувати. Воно має піковий фільтр утримання, що застосований до нього з експоненціальним розпадом. Цей параметр контролює константу часу розпаду.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ACC_B_NOISE/shortDesc</name>
     <message>
       <source>Process noise for IMU accelerometer bias prediction</source>
-      <translation type="unfinished">Process noise for IMU accelerometer bias prediction</translation>
+      <translation>Обробити шум для прогнозування зміщення IMU прискорення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ACC_NOISE/shortDesc</name>
     <message>
       <source>Accelerometer noise for covariance prediction</source>
-      <translation type="unfinished">Accelerometer noise for covariance prediction</translation>
+      <translation>Шум акселерометра для передбачення коваріації</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AGP_CTRL/shortDesc</name>
     <message>
       <source>Aux global position (AGP) sensor aiding</source>
-      <translation type="unfinished">Aux global position (AGP) sensor aiding</translation>
+      <translation>AUX глобальне положення (AGP) зовнішнього допоміжного датчика</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AGP_CTRL/longDesc</name>
     <message>
       <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
-      <translation type="unfinished">Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</translation>
+      <translation>Встановити біти в наступні положення, щоб увімкнути: 0 : Горизонтальне злиття положення 1 : Вертикальне злиття положення</translation>
     </message>
   </context>
   <context>
