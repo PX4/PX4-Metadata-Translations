@@ -11947,42 +11947,42 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_ABL_ACCLIM/longDesc</name>
     <message>
       <source>If the magnitude of the IMU accelerometer vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the accel bias estimates.</source>
-      <translation>Якщо величина IMU вектора векотра перевищує це значення, то дані про стан фокусу EKF будуть відшкодовані. Це зменшує несприятливий вплив високих маневрних прискорень та нелінійність МВФ та масштаб помилок при оцінці упередженості акценту.</translation>
+      <translation>Якщо величина IMU (ІВП - інерційно-вимірювальний пристрій) вектора акселерометра перевищує це значення, то визначення стану EKF (розширеного фільтра Калмана) зміщення прискорення буде загальмоване. Це зменшує несприятливий вплив високих маневрових прискорень та нелінійність ІВП та масштаб факторних помилок при визначенні зміщення прискорення.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ABL_GYRLIM/shortDesc</name>
     <message>
       <source>Maximum IMU gyro angular rate magnitude that allows IMU bias learning</source>
-      <translation type="unfinished">Maximum IMU gyro angular rate magnitude that allows IMU bias learning</translation>
+      <translation>Максимальний IMU (ІВП - інерційно-вимірювальний пристрій) гіроскопічний кутовий рівень величини, яка дозволяє вивчення зміщення IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ABL_GYRLIM/longDesc</name>
     <message>
       <source>If the magnitude of the IMU angular rate vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the accel bias estimates.</source>
-      <translation type="unfinished">If the magnitude of the IMU angular rate vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the accel bias estimates.</translation>
+      <translation>Якщо величина IMU (ІВП - інерційно-вимірювальний пристрій) кутового рівня вектора перевищує це значення, то визначення зміщення стану EKF (розширеного фільтра Калмана) буде загальмоване. Це зменшує несприятливий вплив швидких рівнів обертів та пов'язаних з цим помилок при визначенні зміщень прискорень.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ABL_LIM/shortDesc</name>
     <message>
       <source>Accelerometer bias learning limit</source>
-      <translation type="unfinished">Accelerometer bias learning limit</translation>
+      <translation>Ліміт зміщення вивчення акселерометра</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ABL_LIM/longDesc</name>
     <message>
       <source>The ekf accel bias states will be limited to within a range equivalent to +- of this value.</source>
-      <translation type="unfinished">The ekf accel bias states will be limited to within a range equivalent to +- of this value.</translation>
+      <translation>Зміщення станів ekf прискорення буде обмежено в межах діапазону, еквівалентного +- від цієї величини.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ABL_TAU/shortDesc</name>
     <message>
       <source>Accel bias learning inhibit time constant</source>
-      <translation type="unfinished">Accel bias learning inhibit time constant</translation>
+      <translation>Зміщення вивчення прискорення гальмує часову константу</translation>
     </message>
   </context>
   <context>
