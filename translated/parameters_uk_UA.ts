@@ -11940,14 +11940,14 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_ABL_ACCLIM/shortDesc</name>
     <message>
       <source>Maximum IMU accel magnitude that allows IMU bias learning</source>
-      <translation type="unfinished">Maximum IMU accel magnitude that allows IMU bias learning</translation>
+      <translation>Максимальна величина IMU прискорення, яка дозволяє вивчення відхилення IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ABL_ACCLIM/longDesc</name>
     <message>
       <source>If the magnitude of the IMU accelerometer vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the accel bias estimates.</source>
-      <translation type="unfinished">If the magnitude of the IMU accelerometer vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the accel bias estimates.</translation>
+      <translation>Якщо величина IMU вектора векотра перевищує це значення, то дані про стан фокусу EKF будуть відшкодовані. Це зменшує несприятливий вплив високих маневрних прискорень та нелінійність МВФ та масштаб помилок при оцінці упередженості акценту.</translation>
     </message>
   </context>
   <context>
