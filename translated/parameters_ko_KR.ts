@@ -2,400 +2,6 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="ko" sourcelanguage="en">
   <context>
-    <name>/parameters/ctl_bw/shortDesc</name>
-    <message>
-      <source>Speed controller bandwidth</source>
-      <translation>속도 조종 장치 대역폭</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/ctl_bw/longDesc</name>
-    <message>
-      <source>Speed controller bandwidth, in Hz. Higher values result in faster speed and current rise times, but may result in overshoot and higher current consumption. For fixed-wing aircraft, this value should be less than 50 Hz; for multirotors, values up to 100 Hz may provide improvements in responsiveness.</source>
-      <translation>속도 컨트롤러 대역폭 (Hz). 값이 높을수록 속도와 전류 상승 시간이 빨라지지만, 오버 슈트와 전류 소비가 많이 발생할 수 있습니다. 고정익의 값은 50Hz 미만이어야합니다. 멀티콥터는 100Hz까지는 응답성을 향상시킬 수 있습니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/ctl_dir/shortDesc</name>
-    <message>
-      <source>Reverse direction</source>
-      <translation>역방향</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/ctl_dir/longDesc</name>
-    <message>
-      <source>Motor spin direction as detected during initial enumeration. Use 0 or 1 to reverse direction.</source>
-      <translation>초기 열거자중에서 감지된 모터 회전 방향. 방향을 바꾸려면 0 또는 1을 사용합니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/ctl_gain/shortDesc</name>
-    <message>
-      <source>Speed (RPM) controller gain</source>
-      <translation>속도 (RPM) 컨트롤러 게인</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/ctl_gain/longDesc</name>
-    <message>
-      <source>Speed (RPM) controller gain. Determines controller
-            aggressiveness; units are amp-seconds per radian. Systems with
-            higher rotational inertia (large props) will need gain increased;
-            systems with low rotational inertia (small props) may need gain
-            decreased. Higher values result in faster response, but may result
-            in oscillation and excessive overshoot. Lower values result in a
-            slower, smoother response.</source>
-      <translation>속도 (RPM) 컨트롤러 게인. 컨트롤러 공격성을 결정합니다. 단위는 amp-초/라다인당 입니다. 회전 관성이 높은 시스템 (대형 소품) 은 게인 증가가 필요합니다. 회전 관성이 낮은 시스템 (작은 소품) 은 게인 감소가 필요할 수 있습니다. 값이 높을수록 응답 속도가 빨라지지만 진동과 과도한 오버 슈트가 발생할 수 있습니다. 값이 낮을수록 반응이 느려지고 부드러워집니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/ctl_hz_idle/shortDesc</name>
-    <message>
-      <source>Idle speed (e Hz)</source>
-      <translation>유휴 속도 (e Hz)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/ctl_hz_idle/longDesc</name>
-    <message>
-      <source>Idle speed (e Hz)</source>
-      <translation>유휴 속도 (e Hz)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/ctl_start_rate/shortDesc</name>
-    <message>
-      <source>Spin-up rate (e Hz/s)</source>
-      <translation>스핀업 속도 (e Hz / s)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/ctl_start_rate/longDesc</name>
-    <message>
-      <source>Spin-up rate (e Hz/s)</source>
-      <translation>스핀업 속도 (e Hz / s)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/esc_index/shortDesc</name>
-    <message>
-      <source>Index of this ESC in throttle command messages.</source>
-      <translation>스로틀 명령 메시지의 ESC 색인입니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/esc_index/longDesc</name>
-    <message>
-      <source>Index of this ESC in throttle command messages.</source>
-      <translation>스로틀 명령 메시지의 ESC 색인.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/id_ext_status/shortDesc</name>
-    <message>
-      <source>Extended status ID</source>
-      <translation>확장 상태 ID</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/id_ext_status/longDesc</name>
-    <message>
-      <source>Extended status ID</source>
-      <translation>확장 상태 ID</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/int_ext_status/shortDesc</name>
-    <message>
-      <source>Extended status interval (µs)</source>
-      <translation>확장 상태 간격 (µs)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/int_ext_status/longDesc</name>
-    <message>
-      <source>Extended status interval (µs)</source>
-      <translation>확장 상태 간격 (µs)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/int_status/shortDesc</name>
-    <message>
-      <source>ESC status interval (µs)</source>
-      <translation>ESC 상태 간격 (µs)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/int_status/longDesc</name>
-    <message>
-      <source>ESC status interval (µs)</source>
-      <translation>ESC 상태 간격 (µs)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_i_max/shortDesc</name>
-    <message>
-      <source>Motor current limit in amps</source>
-      <translation>모터 전류 제한(암페어 단위)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_i_max/longDesc</name>
-    <message>
-      <source>Motor current limit in amps. This determines the maximum
-            current controller setpoint, as well as the maximum allowable
-            current setpoint slew rate. This value should generally be set to
-            the continuous current rating listed in the motor’s specification
-            sheet, or set equal to the motor’s specified continuous power
-            divided by the motor voltage limit.</source>
-      <translation>모터 전류 제한 (암페어 단위). 최대 전류 컨트롤러 설정값과 최대 허용 전류 설정값 슬루율을 결정합니다. 이 값은 일반적으로 모터 사양서에 나열된 연속 전류 정격으로 설정하거나, 모터의 지정된 연속 전력을 모터 전압 제한으로 나눈 값과 동일하게 설정하여야 합니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_kv/shortDesc</name>
-    <message>
-      <source>Motor Kv in RPM per volt</source>
-      <translation>모터 Kv (볼트당 RPM)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_kv/longDesc</name>
-    <message>
-      <source>Motor Kv in RPM per volt. This can be taken from the motor’s
-            specification sheet; accuracy will help control performance but
-            some deviation from the specified value is acceptable.</source>
-      <translation>모터 Kv (볼트당 RPM). 이것은 모터의 사양 시트에서 가져올 수 있습니다. 정확도는 성능 제어에 도움이 되지만 지정된 값에서 약간의 편차는 허용됩니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_ls/shortDesc</name>
-    <message>
-      <source>READ ONLY: Motor inductance in henries.</source>
-      <translation>읽기 전용 : 모터 인덕턴스(단위 헨리).</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_ls/longDesc</name>
-    <message>
-      <source>READ ONLY: Motor inductance in henries. This is measured on start-up.</source>
-      <translation>읽기 전용 : 모터 인덕턴스(단위 헨리). 시작시 측정됩니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_num_poles/shortDesc</name>
-    <message>
-      <source>Number of motor poles.</source>
-      <translation>모터 극 수.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_num_poles/longDesc</name>
-    <message>
-      <source>Number of motor poles. Used to convert mechanical speeds to
-            electrical speeds. This number should be taken from the motor’s
-            specification sheet.</source>
-      <translation>모터 극 수. 기계적 속도를 전기 속도로 변환에 사용됩니다. 이 번호는 모터 사양서를 참조하여야 합니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_rs/shortDesc</name>
-    <message>
-      <source>READ ONLY: Motor resistance in ohms</source>
-      <translation>읽기 전용 : 모터 저항(단위 옴)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_rs/longDesc</name>
-    <message>
-      <source>READ ONLY: Motor resistance in ohms. This is measured on start-up. When
-            tuning a new motor, check that this value is approximately equal
-            to the value shown in the motor’s specification sheet.</source>
-      <translation>읽기 전용 : 모터 저항(단위 옴). 시작시 측정됩니다. 새 모터 튜닝시 모터 사양서에 표시된 값과 같은지 확인하십시오.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_v_accel/shortDesc</name>
-    <message>
-      <source>Acceleration limit (V)</source>
-      <translation>가속 한계 (V)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_v_accel/longDesc</name>
-    <message>
-      <source>Acceleration limit (V)</source>
-      <translation>가속 한계 (V)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_v_max/shortDesc</name>
-    <message>
-      <source>Motor voltage limit in volts</source>
-      <translation>모터 전압 제한 (단위 볼트)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/mot_v_max/longDesc</name>
-    <message>
-      <source>Motor voltage limit in volts. The current controller’s
-            commanded voltage will never exceed this value. Note that this may
-            safely be above the nominal voltage of the motor; to determine the
-            actual motor voltage limit, divide the motor’s rated power by the
-            motor current limit.</source>
-      <translation>모터 전압 제한 (볼트). 전류 컨트롤러의 명령 전압은 이 값을 초과하지 않습니다. 이것은 모터의 공칭 전압 이상일 수 있습니다. 실제 모터 전압 한계를 결정하려면 모터의 정격 전력을 모터 전류 한계로 나눕니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.dyn_model/shortDesc</name>
-    <message>
-      <source>GNSS dynamic model</source>
-      <translation>GNSS 동적 모델</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.dyn_model/longDesc</name>
-    <message>
-      <source>Dynamic model used in the GNSS positioning engine. 0 –
-        Automotive, 1 – Sea, 2 – Airborne.
-      </source>
-      <translation>GNSS 위치 엔진에서 사용되는 동적 모델. 0 – 자동차, 1 – 바다, 2 – 항공.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.dyn_model/values/0/description</name>
-    <message>
-      <source>Automotive</source>
-      <translation>자동차</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.dyn_model/values/1/description</name>
-    <message>
-      <source>Sea</source>
-      <translation>바다</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.dyn_model/values/2/description</name>
-    <message>
-      <source>Airborne</source>
-      <translation>항공</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.old_fix_msg/shortDesc</name>
-    <message>
-      <source>Broadcast old GNSS fix message</source>
-      <translation>이전 GNSS 수정 메시지 브로드 캐스트</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.old_fix_msg/longDesc</name>
-    <message>
-      <source>Broadcast the old (deprecated) GNSS fix message
-        uavcan.equipment.gnss.Fix alongside the new alternative
-        uavcan.equipment.gnss.Fix2. It is recommended to
-        disable this feature to reduce the CAN bus traffic.
-      </source>
-      <translation>새로운 대체 uavcan.equipment.gnss.Fix2와 함께 이전 (더 이상 사용되지 않는) GNSS 수정 메시지 uavcan.equipment.gnss.Fix를 브로드 캐스트합니다. CAN 버스 트래픽을 줄이려면 이 기능을 비활성화하는 것이 좋습니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.old_fix_msg/values/0/description</name>
-    <message>
-      <source>Fix2</source>
-      <translation type="unfinished">Fix2</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.old_fix_msg/values/1/description</name>
-    <message>
-      <source>Fix and Fix2</source>
-      <translation type="unfinished">Fix and Fix2</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.warn_dimens/shortDesc</name>
-    <message>
-      <source>device health warning</source>
-      <translation>장치 상태 경고</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.warn_dimens/longDesc</name>
-    <message>
-      <source>Set the device health to Warning if the dimensionality of
-              the GNSS solution is less than this value. 3 for the full (3D)
-              solution, 2 for planar (2D) solution, 1 for time-only solution,
-              0 disables the feature.
-      </source>
-      <translation>GNSS 솔루션의 차원이 이 값보다 작은 경우 장치 상태를 경고로 설정합니다. 전체 (3D) 솔루션의 경우 3, 평면 (2D) 솔루션의 경우 2, 시간 전용 솔루션의 경우 1, 0은 기능을 비활성화합니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.warn_dimens/values/0/description</name>
-    <message>
-      <source>disables the feature</source>
-      <translation>기능을 비활성화합니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.warn_dimens/values/1/description</name>
-    <message>
-      <source>time-only solution</source>
-      <translation>시간 전용 솔루션</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.warn_dimens/values/2/description</name>
-    <message>
-      <source>planar (2D) solution</source>
-      <translation>평면 (2D) 솔루션</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.warn_dimens/values/3/description</name>
-    <message>
-      <source>full (3D) solution</source>
-      <translation>전체 (3D) 솔루션</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.warn_sats/shortDesc</name>
-    <message>
-      <source/>
-      <translation type="unfinished"/>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/gnss.warn_sats/longDesc</name>
-    <message>
-      <source>Set the device health to Warning if the number of satellites
-        used in the GNSS solution is below this threshold. Zero
-        disables the feature
-      </source>
-      <translation>GNSS 솔루션에 사용되는 위성 수가 임계 값 미만인 경우 장치 상태를 경고로 설정합니다. 0은 기능을 비활성화합니다.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/uavcan.pubp-pres/shortDesc</name>
-    <message>
-      <source/>
-      <translation type="unfinished"/>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/uavcan.pubp-pres/longDesc</name>
-    <message>
-      <source>Set the device health to Warning if the number of satellites
-        used in the GNSS solution is below this threshold. Zero
-        disables the feature
-      </source>
-      <translation>GNSS 솔루션에 사용되는 위성 수가 임계 값 미만인 경우 장치 상태를 경고로 설정합니다. 0은 기능을 비활성화합니다.</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/ADSB_CALLSIGN_1/shortDesc</name>
     <message>
       <source>First 4 characters of CALLSIGN</source>
@@ -48050,13 +47656,6 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/category/Standard</name>
-    <message>
-      <source>Standard</source>
-      <translation type="unfinished">Standard</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/category/System</name>
     <message>
       <source>System</source>
@@ -48071,10 +47670,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Flight Task Orbit</name>
+    <name>$globals/category/Standard</name>
     <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
+      <source>Standard</source>
+      <translation type="unfinished">Standard</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <message>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
     </message>
   </context>
   <context>
@@ -48085,6 +47691,139 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Flight Task Orbit</name>
+    <message>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geometry</name>
+    <message>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/PWM Outputs</name>
+    <message>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Takeoff</name>
+    <message>
+      <source>FW Auto Takeoff</source>
+      <translation type="unfinished">FW Auto Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Lateral Control</name>
+    <message>
+      <source>FW Lateral Control</source>
+      <translation type="unfinished">FW Lateral Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Simulator</name>
     <message>
       <source>Simulator</source>
@@ -48092,10 +47831,332 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Longitudinal Control</name>
+    <message>
+      <source>FW Longitudinal Control</source>
+      <translation type="unfinished">FW Longitudinal Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Pure Pursuit</name>
+    <message>
+      <source>Pure Pursuit</source>
+      <translation type="unfinished">Pure Pursuit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <message>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Septentrio</name>
+    <message>
+      <source>Septentrio</source>
+      <translation type="unfinished">Septentrio</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW General</name>
+    <message>
+      <source>FW General</source>
+      <translation type="unfinished">FW General</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/FW Attitude Control</name>
     <message>
       <source>FW Attitude Control</source>
       <translation type="unfinished">FW Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Events</name>
+    <message>
+      <source>Events</source>
+      <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Actuator Outputs</name>
+    <message>
+      <source>Actuator Outputs</source>
+      <translation type="unfinished">Actuator Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mission</name>
+    <message>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulation In Hardware</name>
+    <message>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Camera trigger</name>
+    <message>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
     </message>
   </context>
   <context>
@@ -48113,479 +48174,10 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mount</name>
-    <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Payload Deliverer</name>
-    <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Attitude Q estimator</name>
     <message>
       <source>Attitude Q estimator</source>
       <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Manual Control</name>
-    <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Actuator Outputs</name>
-    <message>
-      <source>Actuator Outputs</source>
-      <translation type="unfinished">Actuator Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
-    <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Autotune</name>
-    <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MAVLink</name>
-    <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/EKF2</name>
-    <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Rate Control</name>
-    <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Attitude Control</name>
-    <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Thermal Compensation</name>
-    <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN GNSS</name>
-    <message>
-      <source>UAVCAN GNSS</source>
-      <translation type="unfinished">UAVCAN GNSS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UAVCAN Motor Parameters</name>
-    <message>
-      <source>UAVCAN Motor Parameters</source>
-      <translation type="unfinished">UAVCAN Motor Parameters</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Mecanum</name>
-    <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulation In Hardware</name>
-    <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
-    <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Precision Land</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Takeoff</name>
-    <message>
-      <source>FW Auto Takeoff</source>
-      <translation type="unfinished">FW Auto Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Events</name>
-    <message>
-      <source>Events</source>
-      <translation type="unfinished">Events</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Lateral Control</name>
-    <message>
-      <source>FW Lateral Control</source>
-      <translation type="unfinished">FW Lateral Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Pure Pursuit</name>
-    <message>
-      <source>Pure Pursuit</source>
-      <translation type="unfinished">Pure Pursuit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return Mode</name>
-    <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Ackermann</name>
-    <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Septentrio</name>
-    <message>
-      <source>Septentrio</source>
-      <translation type="unfinished">Septentrio</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Longitudinal Control</name>
-    <message>
-      <source>FW Longitudinal Control</source>
-      <translation type="unfinished">FW Longitudinal Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW General</name>
-    <message>
-      <source>FW General</source>
-      <translation type="unfinished">FW General</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Differential</name>
-    <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
     </message>
   </context>
 </TS>
