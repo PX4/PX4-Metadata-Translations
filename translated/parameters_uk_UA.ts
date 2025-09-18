@@ -11309,7 +11309,7 @@ Local position has to be still declared valid, which requires some kind of veloc
 and a high failsafe threshold (COM_POS_FS_EPH).
 Set to -1 to disable.</source>
       <translation>Це тригерує дію, зазначену в COM_POS_LOW_ACT, якщо передбачувана точність позиції нижче цього порогу.
-Місцева позиція повинна все ще оголошена, як дійсна, що вимагає якогось роду підтримки швидкості або великого часу визначення позиції через дед-реконінг (EKF2_NOAID_TOUT),
+Місцева позиція повинна все ще оголошена, як дійсна, що вимагає якогось роду підтримки швидкості або великого часу dead-reckoning (EKF2_NOAID_TOUT),
 і високий поріг режиму безпеки (COM_POS_FS_EPH). Встановіть значення
 -1 для вимкнення.</translation>
     </message>
@@ -12052,35 +12052,35 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_AGP_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AGP_MODE/shortDesc</name>
     <message>
       <source>Fusion reset mode</source>
-      <translation type="unfinished">Fusion reset mode</translation>
+      <translation>Режим перезавантаження об'єднання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AGP_MODE/longDesc</name>
     <message>
       <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
-      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+      <translation>Автоматично: перезавантаження при тайм-ауті об'єднання, якщо відсутнє інше джерело. Dead-reckoning: скидається за тайм-аутом об'єднання, якщо немає присутнього джерела швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AGP_MODE/values/0/description</name>
     <message>
       <source>Automatic</source>
-      <translation type="unfinished">Automatic</translation>
+      <translation>Автоматично</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AGP_MODE/values/1/description</name>
     <message>
       <source>Dead-reckoning</source>
-      <translation type="unfinished">Dead-reckoning</translation>
+      <translation>Dead-reckoning</translation>
     </message>
   </context>
   <context>
