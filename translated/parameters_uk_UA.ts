@@ -12206,7 +12206,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_BCOEF_X/longDesc</name>
     <message>
       <source>This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
-      <translation type="unfinished">This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</translation>
+      <translation>Параметр контролює передбачення тяжіння, яке спричинено псевдо-тягою апарату вздовж прямої/зворотньої вісі, коли летить мультикоптер, який дозволяє оцінити вітровий дрейф при увімкненому параметрі EKF2_DRAG_CTRL. Тяга, що створюється за допомогою цього ефекту, масштабується зі швидкістю в квадраті. Передбачувана тяга від роторів визначається окремо за параметром EKF2_MCOEF. Встановіть цей параметр в нуль, щоб вимкнути модель псевдо-тяги тіла для цієї вісі.</translation>
     </message>
   </context>
   <context>
