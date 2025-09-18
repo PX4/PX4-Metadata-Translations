@@ -12087,70 +12087,70 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_AGP_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for aux global position measurements</source>
-      <translation type="unfinished">Measurement noise for aux global position measurements</translation>
+      <translation>Вимірювання шуму для aux вимірювань глобальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AGP_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+      <translation>Використовується для зменшення вірогідності або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ANGERR_INIT/shortDesc</name>
     <message>
       <source>1-sigma tilt angle uncertainty after gravity vector alignment</source>
-      <translation type="unfinished">1-sigma tilt angle uncertainty after gravity vector alignment</translation>
+      <translation>1-sigma нахил кута невизначеності після вирівнювання вектора тяжіння </translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ARSP_THR/shortDesc</name>
     <message>
       <source>Airspeed fusion threshold</source>
-      <translation type="unfinished">Airspeed fusion threshold</translation>
+      <translation>Поріг об'єднання швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ARSP_THR/longDesc</name>
     <message>
       <source>Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).</source>
-      <translation type="unfinished">Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).</translation>
+      <translation>Дані про швидкість польоту об'єднуються для оцінки вітру, якщо цей поріг перевищено. Встановіть 0, щоб вимкнути об'єднання даних про повітряну швидкість. Для надійної оцінки вітру, мають бути увімкнені, як бічний занос (див. EKF2_FUSE_BETA), так і об'єднання даних про швидкість польоту. Застосовується лише для апаратів з фіксованим крилом (або для ВЗІПів в режимі з фіксованого крила).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ASPD_MAX/shortDesc</name>
     <message>
       <source>Maximum airspeed used for baro static pressure compensation</source>
-      <translation type="unfinished">Maximum airspeed used for baro static pressure compensation</translation>
+      <translation>Максимальна швидкість польоту застосовуються для компенсації баростатичного тиску</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ASP_DELAY/shortDesc</name>
     <message>
       <source>Airspeed measurement delay relative to IMU measurements</source>
-      <translation type="unfinished">Airspeed measurement delay relative to IMU measurements</translation>
+      <translation>Затримка вимірювання швидкості відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AVEL_DELAY/shortDesc</name>
     <message>
       <source>Auxiliary Velocity Estimate delay relative to IMU measurements</source>
-      <translation type="unfinished">Auxiliary Velocity Estimate delay relative to IMU measurements</translation>
+      <translation>Додатковий вимірювач затримки швидкості відносно IMU вимірювань</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BARO_CTRL/shortDesc</name>
     <message>
       <source>Barometric sensor height aiding</source>
-      <translation type="unfinished">Barometric sensor height aiding</translation>
+      <translation>Зовнішній барометричний датчик висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BARO_CTRL/longDesc</name>
     <message>
       <source>If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate its height in addition to other height sources (if activated).</source>
-      <translation type="unfinished">If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate its height in addition to other height sources (if activated).</translation>
+      <translation>Якщо цей параметр увімкнено, тоді оцінювач буде використовувати барометричні вимірювання висоти для оцінки його висоти на додачу до інших джерел висоти (якщо активовано).</translation>
     </message>
   </context>
   <context>
@@ -12164,42 +12164,42 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_BARO_CTRL/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BARO_DELAY/shortDesc</name>
     <message>
       <source>Barometer measurement delay relative to IMU measurements</source>
-      <translation type="unfinished">Barometer measurement delay relative to IMU measurements</translation>
+      <translation>Затримка вимірювання барометром швидкості відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BARO_GATE/shortDesc</name>
     <message>
       <source>Gate size for barometric and GPS height fusion</source>
-      <translation type="unfinished">Gate size for barometric and GPS height fusion</translation>
+      <translation>Розмір шлюзу для об'єднання барометричних та GPS даних висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BARO_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BARO_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for barometric altitude</source>
-      <translation type="unfinished">Measurement noise for barometric altitude</translation>
+      <translation>Вимірювання шуму для барометричної висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BCOEF_X/shortDesc</name>
     <message>
       <source>X-axis ballistic coefficient used for multi-rotor wind estimation</source>
-      <translation type="unfinished">X-axis ballistic coefficient used for multi-rotor wind estimation</translation>
+      <translation>Балістичний коефіцієнт осі x, що використовується для мультироторної оцінки вітру</translation>
     </message>
   </context>
   <context>
