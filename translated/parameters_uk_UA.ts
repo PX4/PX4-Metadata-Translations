@@ -12038,14 +12038,14 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_AGP_DELAY/shortDesc</name>
     <message>
       <source>Aux global position estimator delay relative to IMU measurements</source>
-      <translation type="unfinished">Aux global position estimator delay relative to IMU measurements</translation>
+      <translation>AUX вимірювач затримки глобальної позиції відносно до IMU вимірювань</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AGP_GATE/shortDesc</name>
     <message>
       <source>Gate size for aux global position fusion</source>
-      <translation type="unfinished">Gate size for aux global position fusion</translation>
+      <translation>Розмір шлюзу для AUX об'єднання глобальної позиції </translation>
     </message>
   </context>
   <context>
