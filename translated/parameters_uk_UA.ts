@@ -6864,7 +6864,7 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_BETA_GATE/shortDesc</name>
     <message>
       <source>Gate size for sideslip angle fusion</source>
-      <translation>Розмір шлюза для збору даних бічного ковзання</translation>
+      <translation>Розмір шлюза для об'єднання даних про бічний знос апарату</translation>
     </message>
   </context>
   <context>
@@ -12276,21 +12276,21 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_BETA_GATE/shortDesc</name>
     <message>
       <source>Gate size for synthetic sideslip fusion</source>
-      <translation>Розмір брами для синтетичного об'єднання даних про знос апарату</translation>
+      <translation>Розмір брами для синтетичного об'єднання даних про бічний знос апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BETA_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BETA_NOISE/shortDesc</name>
     <message>
       <source>Noise for synthetic sideslip fusion</source>
-      <translation type="unfinished">Noise for synthetic sideslip fusion</translation>
+      <translation>Шум для синтетичного збору даних про бічний знос апарату</translation>
     </message>
   </context>
   <context>
