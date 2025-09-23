@@ -12297,7 +12297,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_DECL_TYPE/shortDesc</name>
     <message>
       <source>Integer bitmask controlling handling of magnetic declination</source>
-      <translation type="unfinished">Integer bitmask controlling handling of magnetic declination</translation>
+      <translation>Бітмаск цілих чисел, що контролює керування магнітного згасання</translation>
     </message>
   </context>
   <context>
