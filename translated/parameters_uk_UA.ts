@@ -9823,7 +9823,7 @@ selected flight mode will be applied.</source>
     <name>/parameters/COM_FLTMODE2/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation type="unfinished">Altitude Cruise</translation>
+      <translation>Висота Круїзу</translation>
     </message>
   </context>
   <context>
@@ -10007,7 +10007,7 @@ selected flight mode will be applied.</source>
     <name>/parameters/COM_FLTMODE3/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation type="unfinished">Altitude Cruise</translation>
+      <translation>Висота Круїзу</translation>
     </message>
   </context>
   <context>
@@ -10191,7 +10191,7 @@ selected flight mode will be applied.</source>
     <name>/parameters/COM_FLTMODE4/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation type="unfinished">Altitude Cruise</translation>
+      <translation>Висота Круїзу</translation>
     </message>
   </context>
   <context>
@@ -10375,7 +10375,7 @@ selected flight mode will be applied.</source>
     <name>/parameters/COM_FLTMODE5/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation type="unfinished">Altitude Cruise</translation>
+      <translation>Висота Круїзу</translation>
     </message>
   </context>
   <context>
@@ -10559,7 +10559,7 @@ selected flight mode will be applied.</source>
     <name>/parameters/COM_FLTMODE6/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation type="unfinished">Altitude Cruise</translation>
+      <translation>Висота Круїзу</translation>
     </message>
   </context>
   <context>
@@ -11506,7 +11506,7 @@ External modes requiring stick input will still failsafe.</source>
     <name>/parameters/COM_RCL_EXCEPT/bitmask/4/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation type="unfinished">Altitude Cruise</translation>
+      <translation>Висота Круїзу</translation>
     </message>
   </context>
   <context>
@@ -12262,21 +12262,21 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_BCOEF_Y/shortDesc</name>
     <message>
       <source>Y-axis ballistic coefficient used for multi-rotor wind estimation</source>
-      <translation type="unfinished">Y-axis ballistic coefficient used for multi-rotor wind estimation</translation>
+      <translation>Балістичний коефіцієнт осі Y, що використовується для мультироторної оцінки вітру</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BCOEF_Y/longDesc</name>
     <message>
       <source>This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
-      <translation type="unfinished">This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</translation>
+      <translation>Параметр контролює передбачення тяжіння, яке спричинено псевдо-тягою апарату вздовж вісі ліворуч/праворуч, коли летить мультикоптер, який дозволяє оцінити вітровий дрейф при увімкненому параметрі EKF2_DRAG_CTRL. Тяга, спричинена цим ефектом, масштабується зі швидкістю в квадраті. Передбачувана тяга від роторів визначається окремо за параметром EKF2_MCOEF. Встановіть цей параметр в нуль, щоб вимкнути модель псевдо-тяги тіла для цієї вісі.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_BETA_GATE/shortDesc</name>
     <message>
       <source>Gate size for synthetic sideslip fusion</source>
-      <translation type="unfinished">Gate size for synthetic sideslip fusion</translation>
+      <translation>Розмір брами для синтетичного об'єднання даних про знос апарату</translation>
     </message>
   </context>
   <context>
