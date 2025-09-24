@@ -12143,7 +12143,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_AGP_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation>Використовується для зменшення вірогідності або заміни невизначеності, включеної у повідомленні</translation>
+      <translation>Використовується для зменшення межі або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
@@ -12416,7 +12416,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EVA_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation>Використовується для зменшення обмеження або заміни невизначеності, включеної у повідомленні</translation>
+      <translation>Використовується для зменшення межі або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
@@ -12444,98 +12444,98 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EVP_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation>Використовується для зменшення обмеження або заміни невизначеності, включеної у повідомленні</translation>
+      <translation>Використовується для зменшення межі або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVV_GATE/shortDesc</name>
     <message>
       <source>Gate size for vision velocity estimate fusion</source>
-      <translation type="unfinished">Gate size for vision velocity estimate fusion</translation>
+      <translation>Розмір шлюзу для визначення об'єднання даних візуальної швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVV_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVV_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision velocity measurements</source>
-      <translation type="unfinished">Measurement noise for vision velocity measurements</translation>
+      <translation>Вимірювання шуму для вимірювань швидкості зору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVV_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+      <translation>Використовується для зменшення обмеження або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/shortDesc</name>
     <message>
       <source>External vision (EV) sensor aiding</source>
-      <translation type="unfinished">External vision (EV) sensor aiding</translation>
+      <translation>Зовнішнє бачення (EV) допоміжного датчика</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/longDesc</name>
     <message>
       <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion 2 : 3D velocity fusion 3 : Yaw</source>
-      <translation type="unfinished">Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion 2 : 3D velocity fusion 3 : Yaw</translation>
+      <translation>Встановити біти в наступні положення, щоб увімкнути: 0 : Горизонтальне об'єднання положення 1 : Вертикальне об'єднання положення 2 : 3D швидкість об'єднання 3 : Рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/bitmask/0/description</name>
     <message>
       <source>Horizontal position</source>
-      <translation type="unfinished">Horizontal position</translation>
+      <translation>Горизонтальна позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/bitmask/1/description</name>
     <message>
       <source>Vertical position</source>
-      <translation type="unfinished">Vertical position</translation>
+      <translation>Вертикальна позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/bitmask/2/description</name>
     <message>
       <source>3D velocity</source>
-      <translation type="unfinished">3D velocity</translation>
+      <translation>3D швидкість</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/bitmask/3/description</name>
     <message>
       <source>Yaw</source>
-      <translation type="unfinished">Yaw</translation>
+      <translation>Рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_DELAY/shortDesc</name>
     <message>
       <source>Vision Position Estimator delay relative to IMU measurements</source>
-      <translation type="unfinished">Vision Position Estimator delay relative to IMU measurements</translation>
+      <translation>Візуальний оцінювач позиції затримки відносно IMU вимірювань</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_NOISE_MD/shortDesc</name>
     <message>
       <source>External vision (EV) noise mode</source>
-      <translation type="unfinished">External vision (EV) noise mode</translation>
+      <translation>Зовнішнє бачення (EV) режиму шуму</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_NOISE_MD/longDesc</name>
     <message>
       <source>If set to 0 (default) the measurement noise is taken from the vision message and the EV noise parameters are used as a lower bound. If set to 1 the observation noise is set from the parameters directly,</source>
-      <translation type="unfinished">If set to 0 (default) the measurement noise is taken from the vision message and the EV noise parameters are used as a lower bound. If set to 1 the observation noise is set from the parameters directly,</translation>
+      <translation>Якщо встановлено 0 (за замовчуванням) шум вимірювання береться з зорового повідомлення та параметри EV шуму використовуються як нижня межа. Якщо встановлено значення 1, то рівень шуму спостереження задається безпосередньо з параметрів,</translation>
     </message>
   </context>
   <context>
