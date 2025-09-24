@@ -12381,14 +12381,14 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EAS_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for airspeed fusion</source>
-      <translation type="unfinished">Measurement noise for airspeed fusion</translation>
+      <translation>Вимірювання для об'єднання даних швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EN/shortDesc</name>
     <message>
       <source>EKF2 enable</source>
-      <translation type="unfinished">EKF2 enable</translation>
+      <translation>Увімкнути EKF2</translation>
     </message>
   </context>
   <context>
@@ -12402,49 +12402,49 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVA_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision angle measurements</source>
-      <translation type="unfinished">Measurement noise for vision angle measurements</translation>
+      <translation>Вимірювання шуму для вимірювань кутів зору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVA_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+      <translation>Використовується для зменшення обмеження або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVP_GATE/shortDesc</name>
     <message>
       <source>Gate size for vision position fusion</source>
-      <translation type="unfinished">Gate size for vision position fusion</translation>
+      <translation>Розмір шлюзу для об'єднання даних візуальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVP_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVP_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision position measurements</source>
-      <translation type="unfinished">Measurement noise for vision position measurements</translation>
+      <translation>Вимірювання шуму для вимірювань кутів зору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVP_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+      <translation>Використовується для зменшення обмеження або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
