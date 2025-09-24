@@ -12367,14 +12367,14 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_DRAG_NOISE/shortDesc</name>
     <message>
       <source>Specific drag force observation noise variance</source>
-      <translation type="unfinished">Specific drag force observation noise variance</translation>
+      <translation>Шумова розбіжність спостереження специфічної сили опору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_DRAG_NOISE/longDesc</name>
     <message>
       <source>Used by the multi-rotor specific drag force model. Increasing this makes the multi-rotor wind estimates adjust more slowly.</source>
-      <translation type="unfinished">Used by the multi-rotor specific drag force model. Increasing this makes the multi-rotor wind estimates adjust more slowly.</translation>
+      <translation>Використовується мультироторною специфічною моделлю сили опору повітрю. Її збільшення змушує виміри вітру для мультиротора пристосовуватися повільніше.</translation>
     </message>
   </context>
   <context>
