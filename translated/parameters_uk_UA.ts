@@ -12598,14 +12598,14 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EV_QMIN/shortDesc</name>
     <message>
       <source>External vision (EV) minimum quality (optional)</source>
-      <translation type="unfinished">External vision (EV) minimum quality (optional)</translation>
+      <translation>Мінімальна якість зовнішнього бачення (EV) (опціонально)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_QMIN/longDesc</name>
     <message>
       <source>External vision will only be started and fused if the quality metric is above this threshold. The quality metric is a completely optional field provided by some VIO systems.</source>
-      <translation type="unfinished">External vision will only be started and fused if the quality metric is above this threshold. The quality metric is a completely optional field provided by some VIO systems.</translation>
+      <translation>Зовнішнє бачення лише увімкнеться та вимкнеться запобіжником, якщо якість вимірювання перевищує цей поріг. Якість вимірювання - це повністю опціональне середовище надане деякими системами VIO.</translation>
     </message>
   </context>
   <context>
