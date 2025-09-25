@@ -6878,14 +6878,14 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_BETA_NOISE/shortDesc</name>
     <message>
       <source>Wind estimator sideslip measurement noise</source>
-      <translation>Вимірювач вітру викривлює вимірювання шуму</translation>
+      <translation>Вимірювання шуму оцінювання вітру бічного зносу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_BETA_NOISE/longDesc</name>
     <message>
       <source>Sideslip measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
-      <translation>Викривлення вимірювання шуму внутрішнього вимірювача вітру селектора швидкості польоту.</translation>
+      <translation>Вимірювання шуму бічного зносу внутрішнього вимірювача вітру селектора швидкості польоту.</translation>
     </message>
   </context>
   <context>
@@ -12164,7 +12164,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_ARSP_THR/longDesc</name>
     <message>
       <source>Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).</source>
-      <translation>Дані про швидкість польоту об'єднуються для оцінки вітру, якщо цей поріг перевищено. Встановіть 0, щоб вимкнути об'єднання даних про повітряну швидкість. Для надійної оцінки вітру, мають бути увімкнені, як бічний занос (див. EKF2_FUSE_BETA), так і об'єднання даних про швидкість польоту. Застосовується лише для апаратів з фіксованим крилом (або для ВЗІПів в режимі з фіксованого крила).</translation>
+      <translation>Дані про швидкість польоту об'єднуються для оцінки вітру, якщо цей поріг перевищено. Встановіть 0, щоб вимкнути об'єднання даних про повітряну швидкість. Для надійної оцінки вітру, мають бути увімкнені, як бічний знос (див. EKF2_FUSE_BETA), так і об'єднання даних про швидкість польоту. Застосовується лише для апаратів з фіксованим крилом (або для ВЗІПів в режимі з фіксованого крила).</translation>
     </message>
   </context>
   <context>
@@ -12612,14 +12612,14 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_FUSE_BETA/shortDesc</name>
     <message>
       <source>Enable synthetic sideslip fusion</source>
-      <translation type="unfinished">Enable synthetic sideslip fusion</translation>
+      <translation>Увімкнути синтетичний збір даних про бічний знос</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_FUSE_BETA/longDesc</name>
     <message>
       <source>For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to vehicles in fixed-wing mode or with airspeed fusion active. Note: side slip fusion is currently not supported for tailsitters.</source>
-      <translation type="unfinished">For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to vehicles in fixed-wing mode or with airspeed fusion active. Note: side slip fusion is currently not supported for tailsitters.</translation>
+      <translation>Для надійної оцінки вітру, як при бічному зносі, так і при об'єднанні даних про швидкість польоту (див. увімкнено EKF2_ARSP_THR). Застосовується тільки для апарату в режимі фіксованого крила або з активним об'єднанні даних про швидкість польоту. Примітка: в даний час об'єднання даних про бічний знос не підтримується для тейлсіттера.</translation>
     </message>
   </context>
   <context>
@@ -12633,35 +12633,35 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_FUSE_BETA/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GBIAS_INIT/shortDesc</name>
     <message>
       <source>1-sigma IMU gyro switch-on bias</source>
-      <translation type="unfinished">1-sigma IMU gyro switch-on bias</translation>
+      <translation>1-sigma IMU увімкнення зміщення гіроскопа</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GND_EFF_DZ/shortDesc</name>
     <message>
       <source>Baro deadzone range for height fusion</source>
-      <translation type="unfinished">Baro deadzone range for height fusion</translation>
+      <translation>Діапазон мертвої зони барометра для об'єднання даних висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GND_EFF_DZ/longDesc</name>
     <message>
       <source>Sets the value of deadzone applied to negative baro innovations. Deadzone is enabled when EKF2_GND_EFF_DZ &gt; 0.</source>
-      <translation type="unfinished">Sets the value of deadzone applied to negative baro innovations. Deadzone is enabled when EKF2_GND_EFF_DZ &gt; 0.</translation>
+      <translation>Встановлює значення мертвої зони, що застосовується до негативних інновацій барометра. Мертва зона активована, коли EKF2_GND_EFF_DZ &gt; 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GND_MAX_HGT/shortDesc</name>
     <message>
       <source>Height above ground level for ground effect zone</source>
-      <translation type="unfinished">Height above ground level for ground effect zone</translation>
+      <translation>Висота над рівнем землі для земної зони впливу</translation>
     </message>
   </context>
   <context>
