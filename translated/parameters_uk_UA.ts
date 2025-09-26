@@ -6878,14 +6878,14 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_BETA_NOISE/shortDesc</name>
     <message>
       <source>Wind estimator sideslip measurement noise</source>
-      <translation>Вимірювання шуму оцінювання вітру бічного зносу</translation>
+      <translation>Шум у вимірі оцінювача бічного вітру</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_BETA_NOISE/longDesc</name>
     <message>
       <source>Sideslip measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
-      <translation>Вимірювання шуму бічного зносу внутрішнього вимірювача вітру селектора швидкості польоту.</translation>
+      <translation>Шум у вимірі бічного вітру у внутрішніх оцінювачах вітру селектора швидкості польоту.</translation>
     </message>
   </context>
   <context>
@@ -7193,14 +7193,14 @@ When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount
     <name>/parameters/ASPD_TAS_NOISE/shortDesc</name>
     <message>
       <source>Wind estimator true airspeed measurement noise</source>
-      <translation>Вітровий вимірювач справжньої швидкості польоту вимірювання шуму</translation>
+      <translation>Шум у вимірі оцінювача вітру справжньої швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_NOISE/longDesc</name>
     <message>
       <source>True airspeed measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
-      <translation>Вимірювання шуму справжньої швидкості польоту внутрішнього вимірювача вітру селектора швидкості польоту.</translation>
+      <translation>Шум у вимірюванні справжньої швидкості польоту внутрішніх оцінювачів вітру селектора швидкості польоту.</translation>
     </message>
   </context>
   <context>
@@ -12136,7 +12136,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_AGP_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for aux global position measurements</source>
-      <translation>Вимірювання шуму для aux вимірювань глобальної позиції</translation>
+      <translation>Шум вимірювання для aux вимірювань глобальної позиції</translation>
     </message>
   </context>
   <context>
@@ -12241,7 +12241,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_BARO_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for barometric altitude</source>
-      <translation>Вимірювання шуму для барометричної висоти</translation>
+      <translation>Шум вимірювання для барометричної висоти</translation>
     </message>
   </context>
   <context>
@@ -12381,7 +12381,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EAS_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for airspeed fusion</source>
-      <translation>Вимірювання для об'єднання даних швидкості польоту</translation>
+      <translation>Шум вимірювання об'єднання даних швидкості польоту</translation>
     </message>
   </context>
   <context>
@@ -12409,7 +12409,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EVA_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision angle measurements</source>
-      <translation>Вимірювання шуму для вимірювань кутів зору</translation>
+      <translation>Шум вимірювання для вимірювань кутів зору</translation>
     </message>
   </context>
   <context>
@@ -12465,7 +12465,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EVV_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision velocity measurements</source>
-      <translation>Вимірювання шуму для вимірювань швидкості зору</translation>
+      <translation>Шум вимірювання для вимірювань швидкості зору</translation>
     </message>
   </context>
   <context>
@@ -12535,7 +12535,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EV_NOISE_MD/longDesc</name>
     <message>
       <source>If set to 0 (default) the measurement noise is taken from the vision message and the EV noise parameters are used as a lower bound. If set to 1 the observation noise is set from the parameters directly,</source>
-      <translation>Якщо встановлено 0 (за замовчуванням) шум вимірювання береться з зорового повідомлення та параметри EV шуму використовуються як нижня межа. Якщо встановлено значення 1, то рівень шуму спостереження задається безпосередньо з параметрів,</translation>
+      <translation>Якщо встановлено 0 (за замовчуванням) вимірювання шуму береться з зорового повідомлення та параметри EV шуму використовуються як нижня межа. Якщо встановлено значення 1, то рівень шуму спостереження задається безпосередньо з параметрів,</translation>
     </message>
   </context>
   <context>
@@ -12668,7 +12668,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_GND_MAX_HGT/longDesc</name>
     <message>
       <source>Sets the maximum distance to the ground level where negative baro innovations are expected.</source>
-      <translation type="unfinished">Sets the maximum distance to the ground level where negative baro innovations are expected.</translation>
+      <translation>Встановлює максимальну відстань до рівня землі, де очікуються негативні інновації барометра.</translation>
     </message>
   </context>
   <context>
