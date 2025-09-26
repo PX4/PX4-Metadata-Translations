@@ -12864,140 +12864,140 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_GPS_POS_Y/longDesc</name>
     <message>
       <source>Right (pitch) axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Right (pitch) axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Права вісь (вісь тангажу), що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_Z/shortDesc</name>
     <message>
       <source>Z position of GPS antenna in body frame</source>
-      <translation type="unfinished">Z position of GPS antenna in body frame</translation>
+      <translation>Z позиція GPS антени на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_Z/longDesc</name>
     <message>
       <source>Down (yaw) axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Down (yaw) axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Нижня вісь (вісь рискання), що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_P_GATE/shortDesc</name>
     <message>
       <source>Gate size for GNSS position fusion</source>
-      <translation type="unfinished">Gate size for GNSS position fusion</translation>
+      <translation>Розмір шлюзу для GNSS позиції об'єднання даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_P_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_P_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for GNSS position</source>
-      <translation type="unfinished">Measurement noise for GNSS position</translation>
+      <translation>Шум вимірювання для GNSS положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_V_GATE/shortDesc</name>
     <message>
       <source>Gate size for GNSS velocity fusion</source>
-      <translation type="unfinished">Gate size for GNSS velocity fusion</translation>
+      <translation>Розмір шлюзу для GNSS швидкості об'єднання даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_V_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_V_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for GNSS velocity</source>
-      <translation type="unfinished">Measurement noise for GNSS velocity</translation>
+      <translation>Шум вимірювання для GNSS швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_YAW_OFF/shortDesc</name>
     <message>
       <source>Heading/Yaw offset for dual antenna GPS</source>
-      <translation type="unfinished">Heading/Yaw offset for dual antenna GPS</translation>
+      <translation>Зсув напрямку/рискання для подвійної GPS антени</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GRAV_NOISE/shortDesc</name>
     <message>
       <source>Accelerometer measurement noise for gravity based observations</source>
-      <translation type="unfinished">Accelerometer measurement noise for gravity based observations</translation>
+      <translation>Шум вимірювання гравітації основаної на спостереженнях</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GSF_TAS/shortDesc</name>
     <message>
       <source>Default value of true airspeed used in EKF-GSF AHRS calculation</source>
-      <translation type="unfinished">Default value of true airspeed used in EKF-GSF AHRS calculation</translation>
+      <translation>Значення за замовчуванням справжньої швидкості польоту, що використовується в розрахунку EKF-GSF AHRS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GSF_TAS/longDesc</name>
     <message>
       <source>If no airspeed measurements are available, the EKF-GSF AHRS calculation will assume this value of true airspeed when compensating for centripetal acceleration during turns. Set to zero to disable centripetal acceleration compensation during fixed wing flight modes.</source>
-      <translation type="unfinished">If no airspeed measurements are available, the EKF-GSF AHRS calculation will assume this value of true airspeed when compensating for centripetal acceleration during turns. Set to zero to disable centripetal acceleration compensation during fixed wing flight modes.</translation>
+      <translation>Якщо немає доступних вимірювань швидкості польоту, обчислення EKF-GSF AHRS припустить це значення справжньої швидкості польоту при компенсуванні доцентрового прискорення при поворотах. Встановіть нуль, щоб вимкнути компенсацію доцентрового прискорення під час режимів польоту фіксованого крила.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GYR_B_LIM/shortDesc</name>
     <message>
       <source>Gyro bias learning limit</source>
-      <translation type="unfinished">Gyro bias learning limit</translation>
+      <translation>Ліміт вивчення зміщення гіроскопа</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GYR_B_LIM/longDesc</name>
     <message>
       <source>The ekf gyro bias states will be limited to within a range equivalent to +- of this value.</source>
-      <translation type="unfinished">The ekf gyro bias states will be limited to within a range equivalent to +- of this value.</translation>
+      <translation>Зміщення станів ekf гіроскопа буде обмежено в межах діапазону, еквівалентного +- від цієї величини.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GYR_B_NOISE/shortDesc</name>
     <message>
       <source>Process noise for IMU rate gyro bias prediction</source>
-      <translation type="unfinished">Process noise for IMU rate gyro bias prediction</translation>
+      <translation>Обробити шум для прогнозування зміщення IMU рівня прискорення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GYR_NOISE/shortDesc</name>
     <message>
       <source>Rate gyro noise for covariance prediction</source>
-      <translation type="unfinished">Rate gyro noise for covariance prediction</translation>
+      <translation>Рівень шуму акселерометра для передбачення коваріації</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HDG_GATE/shortDesc</name>
     <message>
       <source>Gate size for heading fusion</source>
-      <translation type="unfinished">Gate size for heading fusion</translation>
+      <translation>Розмір шлюза для об'єднання даних про напрямок</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HDG_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HEAD_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for magnetic heading fusion</source>
-      <translation type="unfinished">Measurement noise for magnetic heading fusion</translation>
+      <translation>Шум у вимірюванні об'єднання даних магнітного напрямку</translation>
     </message>
   </context>
   <context>
