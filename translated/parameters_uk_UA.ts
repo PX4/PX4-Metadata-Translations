@@ -13004,21 +13004,21 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_HGT_REF/shortDesc</name>
     <message>
       <source>Determines the reference source of height data used by the EKF</source>
-      <translation type="unfinished">Determines the reference source of height data used by the EKF</translation>
+      <translation>Визначає джерело посилання на дані про висоту, що використовується EKF</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HGT_REF/longDesc</name>
     <message>
       <source>When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level. If GPS is set as reference but altitude fusion is disabled in EKF2_GPS_CTRL, the GPS altitude is still used to initiaize the bias of the other height sensors.</source>
-      <translation type="unfinished">When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level. If GPS is set as reference but altitude fusion is disabled in EKF2_GPS_CTRL, the GPS altitude is still used to initiaize the bias of the other height sensors.</translation>
+      <translation>Коли одночасно активовані декілька джерел даних про висоту, визначенна висота завжди буде наближатися до посилання на джерело висоти, обраної цим параметром. Датчик діапазону та параметри камери мають використовуватися тільки при роботі над плоскою поверхнею, оскільки точка відліку локального походження NED буде рухатися вгору і вниз разом з рівнем поверхні. Якщо GPS встановлено як посилання, але об'єднання даних про висоту вимкнено в EKF2_GPS_CTRL, висота за GPS все одно використовується, щоб почати відхилення інших датчиків висоти.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HGT_REF/values/0/description</name>
     <message>
       <source>Barometric pressure</source>
-      <translation type="unfinished">Barometric pressure</translation>
+      <translation>Барометричний тиск</translation>
     </message>
   </context>
   <context>
