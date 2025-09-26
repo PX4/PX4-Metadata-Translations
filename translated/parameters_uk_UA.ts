@@ -12675,189 +12675,189 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_GPS_CHECK/shortDesc</name>
     <message>
       <source>Integer bitmask controlling GPS checks</source>
-      <translation type="unfinished">Integer bitmask controlling GPS checks</translation>
+      <translation>Ціле число bitmask, яке контролює GPS перевірки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/longDesc</name>
     <message>
       <source>Each threshold value is defined by the parameter indicated next to the check. Drift and offset checks only run when the vehicle is on ground and stationary.</source>
-      <translation type="unfinished">Each threshold value is defined by the parameter indicated next to the check. Drift and offset checks only run when the vehicle is on ground and stationary.</translation>
+      <translation>Кожне порогове значення визначається параметром, який вказує поруч з перевіркою. Перевірки дрейфу і зсуву виконуються лише тоді, коли апарат знаходиться на землі та нерухомий.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/0/description</name>
     <message>
       <source>Sat count (EKF2_REQ_NSATS)</source>
-      <translation type="unfinished">Sat count (EKF2_REQ_NSATS)</translation>
+      <translation>Лічильник супутників (EKF2_REQ_NSATS)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/1/description</name>
     <message>
       <source>PDOP (EKF2_REQ_PDOP)</source>
-      <translation type="unfinished">PDOP (EKF2_REQ_PDOP)</translation>
+      <translation>PDOP (EKF2_REQ_PDOP)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/2/description</name>
     <message>
       <source>EPH (EKF2_REQ_EPH)</source>
-      <translation type="unfinished">EPH (EKF2_REQ_EPH)</translation>
+      <translation>EPH (оцінка похибки у горизонтальній площині) (EKF2_REQ_EPH)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/3/description</name>
     <message>
       <source>EPV (EKF2_REQ_EPV)</source>
-      <translation type="unfinished">EPV (EKF2_REQ_EPV)</translation>
+      <translation>EPV (оцінка похибки у вертикальній площині) (EKF2_REQ_EPV)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/4/description</name>
     <message>
       <source>Speed accuracy (EKF2_REQ_SACC)</source>
-      <translation type="unfinished">Speed accuracy (EKF2_REQ_SACC)</translation>
+      <translation>Точність швидкості (EKF2_REQ_SACC)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/5/description</name>
     <message>
       <source>Horizontal position drift (EKF2_REQ_HDRIFT)</source>
-      <translation type="unfinished">Horizontal position drift (EKF2_REQ_HDRIFT)</translation>
+      <translation>Дрейф горизонтальної позиції (EKF2_REQ_HDRIFT)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/6/description</name>
     <message>
       <source>Vertical position drift (EKF2_REQ_VDRIFT)</source>
-      <translation type="unfinished">Vertical position drift (EKF2_REQ_VDRIFT)</translation>
+      <translation>Дрейф вертикальної позиції (EKF2_REQ_HDRIFT)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/7/description</name>
     <message>
       <source>Horizontal speed offset (EKF2_REQ_HDRIFT)</source>
-      <translation type="unfinished">Horizontal speed offset (EKF2_REQ_HDRIFT)</translation>
+      <translation>Зсув горизонтальної швидкості (EKF2_REQ_HDRIFT)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/8/description</name>
     <message>
       <source>Vertical speed offset (EKF2_REQ_VDRIFT)</source>
-      <translation type="unfinished">Vertical speed offset (EKF2_REQ_VDRIFT)</translation>
+      <translation>Зсув вертикальної швидкості (EKF2_REQ_HDRIFT)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/9/description</name>
     <message>
       <source>Spoofing</source>
-      <translation type="unfinished">Spoofing</translation>
+      <translation>Спуфінг</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/10/description</name>
     <message>
       <source>GPS fix type (EKF2_REQ_FIX)</source>
-      <translation type="unfinished">GPS fix type (EKF2_REQ_FIX)</translation>
+      <translation>GPS типу fix (EKF2_REQ_FIX)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/shortDesc</name>
     <message>
       <source>GNSS sensor aiding</source>
-      <translation type="unfinished">GNSS sensor aiding</translation>
+      <translation>GNSS допоміжний сенсор</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/longDesc</name>
     <message>
       <source>Set bits in the following positions to enable: 0 : Longitude and latitude fusion 1 : Altitude fusion 2 : 3D velocity fusion 3 : Dual antenna heading fusion</source>
-      <translation type="unfinished">Set bits in the following positions to enable: 0 : Longitude and latitude fusion 1 : Altitude fusion 2 : 3D velocity fusion 3 : Dual antenna heading fusion</translation>
+      <translation>Встановіть біти на наступних позиціях, щоб увімкнути: 0: довгота та широта об'єднання 1 : висота об'єднання 2 : 3D-швидкість об'єднання 3: Напрямок об'єднання подвійної антени</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/bitmask/0/description</name>
     <message>
       <source>Lon/lat</source>
-      <translation type="unfinished">Lon/lat</translation>
+      <translation>Широта/долгота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/bitmask/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/bitmask/2/description</name>
     <message>
       <source>3D velocity</source>
-      <translation type="unfinished">3D velocity</translation>
+      <translation>3D швидкість</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/bitmask/3/description</name>
     <message>
       <source>Dual antenna heading</source>
-      <translation type="unfinished">Dual antenna heading</translation>
+      <translation>Двонаправленість антени</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_DELAY/shortDesc</name>
     <message>
       <source>GPS measurement delay relative to IMU measurements</source>
-      <translation type="unfinished">GPS measurement delay relative to IMU measurements</translation>
+      <translation>Вимірювання затримки GPS відносно IMU вимірювань</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_MODE/shortDesc</name>
     <message>
       <source>Fusion reset mode</source>
-      <translation type="unfinished">Fusion reset mode</translation>
+      <translation>Режим перезавантаження об'єднання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_MODE/longDesc</name>
     <message>
       <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
-      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+      <translation>Автоматично: перезавантаження при тайм-ауті об'єднання, якщо відсутнє інше джерело. Dead-reckoning: скидається за тайм-аутом об'єднання, якщо немає джерела швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_MODE/values/0/description</name>
     <message>
       <source>Automatic</source>
-      <translation type="unfinished">Automatic</translation>
+      <translation>Автоматично</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_MODE/values/1/description</name>
     <message>
       <source>Dead-reckoning</source>
-      <translation type="unfinished">Dead-reckoning</translation>
+      <translation>Dead-reckoning</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_X/shortDesc</name>
     <message>
       <source>X position of GPS antenna in body frame</source>
-      <translation type="unfinished">X position of GPS antenna in body frame</translation>
+      <translation>X розташування GPS антени на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_X/longDesc</name>
     <message>
       <source>Forward (roll) axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward (roll) axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Пряма вісь (вісь крену), що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_Y/shortDesc</name>
     <message>
       <source>Y position of GPS antenna in body frame</source>
-      <translation type="unfinished">Y position of GPS antenna in body frame</translation>
+      <translation>Y розташування антени GPS на корпусі</translation>
     </message>
   </context>
   <context>
