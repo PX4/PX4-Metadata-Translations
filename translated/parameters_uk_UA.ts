@@ -13088,21 +13088,21 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_IMU_POS_Y/shortDesc</name>
     <message>
       <source>Y position of IMU in body frame</source>
-      <translation type="unfinished">Y position of IMU in body frame</translation>
+      <translation>Y позиція IMU на рамі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_POS_Y/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_POS_Z/shortDesc</name>
     <message>
       <source>Z position of IMU in body frame</source>
-      <translation type="unfinished">Z position of IMU in body frame</translation>
+      <translation>Z позиція IMU на рамі</translation>
     </message>
   </context>
   <context>
@@ -13116,56 +13116,56 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_LOG_VERBOSE/shortDesc</name>
     <message>
       <source>Verbose logging</source>
-      <translation type="unfinished">Verbose logging</translation>
+      <translation>Детальне журналювання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_LOG_VERBOSE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_LOG_VERBOSE/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_ACCLIM/shortDesc</name>
     <message>
       <source>Horizontal acceleration threshold used for heading observability check</source>
-      <translation type="unfinished">Horizontal acceleration threshold used for heading observability check</translation>
+      <translation>Горизонтальний поріг пришвидшення, що використовується для перевірки напрямку спостережуваності</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_ACCLIM/longDesc</name>
     <message>
       <source>The heading is assumed to be observable when the body acceleration is greater than this parameter when a global position/velocity aiding source is active.</source>
-      <translation type="unfinished">The heading is assumed to be observable when the body acceleration is greater than this parameter when a global position/velocity aiding source is active.</translation>
+      <translation>Напрямок вважається видимим, коли прискорення тіла більше за цей параметр, коли зовнішнє джерело глобальної позиції / швидкості є активним.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_B_NOISE/shortDesc</name>
     <message>
       <source>Process noise for body magnetic field prediction</source>
-      <translation type="unfinished">Process noise for body magnetic field prediction</translation>
+      <translation>Обробка шуму для прогнозування магнітного поля тіла</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHECK/shortDesc</name>
     <message>
       <source>Magnetic field strength test selection</source>
-      <translation type="unfinished">Magnetic field strength test selection</translation>
+      <translation>Тест вибору сили магнітного поля</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHECK/longDesc</name>
     <message>
       <source>Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM</source>
-      <translation type="unfinished">Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM</translation>
+      <translation>Bitmask налаштовує перевірку, яка використовується для визначення якості даних магнітометра. Якщо дані GNSS отримуються, магнітне поле порівнюється зі світовою магнітною моделлю (WMM), інакше буде використане середнє значення. Ця перевірка корисна для відхилення випадкових перешкод магнітного поля, викликаних металевими предметами. Встановіть біти в 1, щоб увімкнути перевірки. Перевірка увімкнена при наступних позиціях біта 0 : Сила магнітного поля. Встановіть толерантність, використовуючи EKF2_MAG_CHK_STR 1: Магнітне схилення. Встановіть толерантність використовуючи EKF2_MAG_CHK_INC 2: Зачекайте поки GNSS знайде теоретичну силу та схилення за допомогою WMM</translation>
     </message>
   </context>
   <context>
