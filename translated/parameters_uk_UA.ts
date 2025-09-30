@@ -13228,42 +13228,42 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_MAG_DELAY/shortDesc</name>
     <message>
       <source>Magnetometer measurement delay relative to IMU measurements</source>
-      <translation type="unfinished">Magnetometer measurement delay relative to IMU measurements</translation>
+      <translation>Затримка вимірювання магнітометром відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_E_NOISE/shortDesc</name>
     <message>
       <source>Process noise for earth magnetic field prediction</source>
-      <translation type="unfinished">Process noise for earth magnetic field prediction</translation>
+      <translation>Обробка шуму для прогнозування магнітного поля землі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_GATE/shortDesc</name>
     <message>
       <source>Gate size for magnetometer XYZ component fusion</source>
-      <translation type="unfinished">Gate size for magnetometer XYZ component fusion</translation>
+      <translation>Розмір шлюзу для XYZ компонента об'єднання даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної послідовності.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for magnetometer 3-axis fusion</source>
-      <translation type="unfinished">Measurement noise for magnetometer 3-axis fusion</translation>
+      <translation>Шум у вимірюванні для магнітометра у трьох площинах об'єднання даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_TYPE/shortDesc</name>
     <message>
       <source>Type of magnetometer fusion</source>
-      <translation type="unfinished">Type of magnetometer fusion</translation>
+      <translation>Тип об'єднання даних магнітометра</translation>
     </message>
   </context>
   <context>
