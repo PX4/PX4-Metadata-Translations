@@ -13295,35 +13295,37 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_MAG_TYPE/longDesc</name>
     <message>
       <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GNSS velocity measurements to align the yaw angle. If set to 'Init' the magnetometer is only used to initalize the heading.</source>
-      <translation>Ціле число, яке контролює тип об'єднання даних магнітометра, використовуючи магнітний напрямок або 3-компонентний вектор. Об' єднання даних магнітометра, як трьох компонентного вектора дозволяє вивчити виправлені помилки твердого корпусу, але вимагає стабільного земного поля. Якщо встановлено значення "Автоматично", то   об'єднання даних магнітного напрямку використовується. Якщо немає завнішнього джерела рискання, то можна використовувати після-злітний горизонтальний рух паркану синтезу використовується коли політ на землі і 3-ох пунктних магнітних полів в середині. Магнітний синтез використовується у Магнітні заголовки. Якщо встановлено значення "Ні", магніт не буде використаний за будь-яких обставин. Якщо зовнішнє джерело щелепи відсутнє, можна використов .увати пост-злітний горизонтальний рух у поєднанні з вимірюванням швидкості GNSS для вирівнювання кута "я". Якщо встановлено значення "Init", магнітометр використовується лише для забезпечення заголовка.</translation>
+      <translation>Ціле число, яке контролює тип об'єднання даних магнітометра, використовуючи магнітний напрямок або 3-компонентний вектор. Об' єднання даних магнітометра, як трьох компонентного вектора дозволяє вивчити виправлені перешкоди магнітного поля від металевих об'єктів, але вимагає стабільного земного поля. 
+Якщо встановлено значення "Автоматично", то об'єднання даних магнітного напрямку використовується, при наземному та трьохвісьовому магнітному полі об'єднання даних в польоті. Якщо встановлено на 'Магнітний напрямок', то завжди використовується об'єднання даних магнітного напрямку. 
+Якщо встановлено значення 'Нічого', то магнітометр не буде використаний за будь-яких обставин. Якщо зовнішнє джерело рискання відсутнє, то можна використовувати пост-злітний горизонтальний рух у поєднанні з вимірюванням швидкості GNSS для вирівнювання кута рискання. Якщо встановлено значення "Init", магнітометр використовується лише для ініціаналізації напрямка.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_TYPE/values/0/description</name>
     <message>
       <source>Automatic</source>
-      <translation type="unfinished">Automatic</translation>
+      <translation>Автоматично</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_TYPE/values/1/description</name>
     <message>
       <source>Magnetic heading</source>
-      <translation type="unfinished">Magnetic heading</translation>
+      <translation>Магнітний напрямок</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_TYPE/values/5/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>Нічого</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_TYPE/values/6/description</name>
     <message>
       <source>Init</source>
-      <translation type="unfinished">Init</translation>
+      <translation>Init</translation>
     </message>
   </context>
   <context>
