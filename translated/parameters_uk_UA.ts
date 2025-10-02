@@ -11545,81 +11545,81 @@ Priority sources are immediately switched to whenever they get valid.
 6 MAVLink priority (lower instance before higher), then RC
 7 RC priority, then MAVLink (higher instance before lower)
 8 MAVLink priority (higher instance before lower), then RC</source>
-      <translation type="unfinished">Selects stick input selection behavior:
-either a traditional remote control receiver (RC) or a MAVLink joystick (MANUAL_CONTROL message)
-Priority sources are immediately switched to whenever they get valid.
-0 RC only. Requires valid RC calibration.
-1 MAVLink only. RC and related checks are disabled.
-2 Switches only if current source becomes invalid.
-3 Locks to the first valid source until reboot.
-4 Ignores all sources.
-5 RC priority, then MAVLink (lower instance before higher)
-6 MAVLink priority (lower instance before higher), then RC
-7 RC priority, then MAVLink (higher instance before lower)
-8 MAVLink priority (higher instance before lower), then RC</translation>
+      <translation>Вибирає поведінку типу обрання керування стіками:
+або традиційний віддалений керуючи приймач (RC), або джойстик MAVLink (MANUAL_CONTROL повідомлення) Пріоритетні джерела відразу переключаються, коли вони стають дійсними.
+0 лише пульт (RC). Потребує дійсного калібрування пульта (RC). 
+1 лише MVLink. Пульт (RC) і пов’язані перевірки вимкнуто.
+2 Перемикається лише у випадку, якщо поточне джерело стає недійсним.
+3 Блокує до першого дійсного джерела до перезавантаження.
+4 Ігнорує всі джерела.
+5 Пріоритет для пульта (RC), потім MAVLink (нижчий примірник перед вищім)
+6 Пріоритет MAVLink (нижчий примірник перед вищим), потім пульт (RC)
+7 Пріоритет пульта (RC), потім
+MAVLink (вищий примірник перед нижчим)
+8 Пріоритет MAVLink (вищий примірник перед нижчим), потім пульт (RC)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/0/description</name>
     <message>
       <source>RC only</source>
-      <translation type="unfinished">RC only</translation>
+      <translation>Тільки пульт (RC)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/1/description</name>
     <message>
       <source>MAVLink only</source>
-      <translation type="unfinished">MAVLink only</translation>
+      <translation>Тільки для MAVLink</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/2/description</name>
     <message>
       <source>RC or MAVLink with fallback</source>
-      <translation type="unfinished">RC or MAVLink with fallback</translation>
+      <translation>Пульт (RC) або MAVLink з резервним варіантом</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/3/description</name>
     <message>
       <source>RC or MAVLink keep first</source>
-      <translation type="unfinished">RC or MAVLink keep first</translation>
+      <translation>Залишити спочатку пульт (RC) або MAVLink</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/4/description</name>
     <message>
       <source>Disable manual control</source>
-      <translation type="unfinished">Disable manual control</translation>
+      <translation>Вимкнути ручне керування</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/5/description</name>
     <message>
       <source>Prio: RC &gt; MAVL 1 &gt; MAVL 2</source>
-      <translation type="unfinished">Prio: RC &gt; MAVL 1 &gt; MAVL 2</translation>
+      <translation>Перед: RC &gt; MAVL 1 &gt; MAVL 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/6/description</name>
     <message>
       <source>Prio: MAVL 1 &gt; MAVL 2 &gt; RC</source>
-      <translation type="unfinished">Prio: MAVL 1 &gt; MAVL 2 &gt; RC</translation>
+      <translation>Перед: MAVL 1 &gt; MAVL 2 &gt; RC</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/7/description</name>
     <message>
       <source>Prio: RC &gt; MAVL 2 &gt; MAVL 1</source>
-      <translation type="unfinished">Prio: RC &gt; MAVL 2 &gt; MAVL 1</translation>
+      <translation>Перед: RC &gt; MAVL 2 &gt; MAVL 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/8/description</name>
     <message>
       <source>Prio: MAVL 2 &gt; MAVL 1 &gt; RC</source>
-      <translation type="unfinished">Prio: MAVL 2 &gt; MAVL 1 &gt; RC</translation>
+      <translation>Перед: MAVL 2 &gt; MAVL 1 &gt; RC</translation>
     </message>
   </context>
   <context>
