@@ -11527,7 +11527,7 @@ External modes requiring stick input will still failsafe.</source>
     <name>/parameters/COM_RC_IN_MODE/shortDesc</name>
     <message>
       <source>Manual control input source configuration</source>
-      <translation type="unfinished">Manual control input source configuration</translation>
+      <translation>Ручне керування конфігурацією джерела введення</translation>
     </message>
   </context>
   <context>
