@@ -6878,14 +6878,14 @@ Note: this is only useful for servos.</source>
     <name>/parameters/ASPD_BETA_NOISE/shortDesc</name>
     <message>
       <source>Wind estimator sideslip measurement noise</source>
-      <translation>Вимірювач вітру викривлює вимірювання шуму</translation>
+      <translation>Шум у вимірі оцінювача бічного вітру</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_BETA_NOISE/longDesc</name>
     <message>
       <source>Sideslip measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
-      <translation>Викривлення вимірювання шуму внутрішнього вимірювача вітру селектора швидкості польоту.</translation>
+      <translation>Шум у вимірі бічного вітру у внутрішніх оцінювачах вітру селектора швидкості польоту.</translation>
     </message>
   </context>
   <context>
@@ -7193,14 +7193,14 @@ When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount
     <name>/parameters/ASPD_TAS_NOISE/shortDesc</name>
     <message>
       <source>Wind estimator true airspeed measurement noise</source>
-      <translation>Вітровий вимірювач справжньої швидкості польоту вимірювання шуму</translation>
+      <translation>Шум у вимірі оцінювача вітру справжньої швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_NOISE/longDesc</name>
     <message>
       <source>True airspeed measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
-      <translation>Вимірювання шуму справжньої швидкості польоту внутрішнього вимірювача вітру селектора швидкості польоту.</translation>
+      <translation>Шум у вимірюванні справжньої швидкості польоту внутрішніх оцінювачів вітру селектора швидкості польоту.</translation>
     </message>
   </context>
   <context>
@@ -12136,14 +12136,14 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_AGP_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for aux global position measurements</source>
-      <translation>Вимірювання шуму для aux вимірювань глобальної позиції</translation>
+      <translation>Шум вимірювання для aux вимірювань глобальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AGP_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation>Використовується для зменшення вірогідності або заміни невизначеності, включеної у повідомленні</translation>
+      <translation>Використовується для зменшення межі або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
@@ -12164,7 +12164,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_ARSP_THR/longDesc</name>
     <message>
       <source>Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).</source>
-      <translation>Дані про швидкість польоту об'єднуються для оцінки вітру, якщо цей поріг перевищено. Встановіть 0, щоб вимкнути об'єднання даних про повітряну швидкість. Для надійної оцінки вітру, мають бути увімкнені, як бічний занос (див. EKF2_FUSE_BETA), так і об'єднання даних про швидкість польоту. Застосовується лише для апаратів з фіксованим крилом (або для ВЗІПів в режимі з фіксованого крила).</translation>
+      <translation>Дані про швидкість польоту об'єднуються для оцінки вітру, якщо цей поріг перевищено. Встановіть 0, щоб вимкнути об'єднання даних про повітряну швидкість. Для надійної оцінки вітру, мають бути увімкнені, як бічний знос (див. EKF2_FUSE_BETA), так і об'єднання даних про швидкість польоту. Застосовується лише для апаратів з фіксованим крилом (або для ВЗІПів в режимі з фіксованого крила).</translation>
     </message>
   </context>
   <context>
@@ -12241,7 +12241,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_BARO_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for barometric altitude</source>
-      <translation>Вимірювання шуму для барометричної висоти</translation>
+      <translation>Шум вимірювання для барометричної висоти</translation>
     </message>
   </context>
   <context>
@@ -12311,7 +12311,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_DECL_TYPE/bitmask/0/description</name>
     <message>
       <source>use geo_lookup declination</source>
-      <translation type="unfinished">use geo_lookup declination</translation>
+      <translation>використовувати geo_lookup відхилення</translation>
     </message>
   </context>
   <context>
@@ -12325,28 +12325,28 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_DELAY_MAX/shortDesc</name>
     <message>
       <source>Maximum delay of all the aiding sensors</source>
-      <translation type="unfinished">Maximum delay of all the aiding sensors</translation>
+      <translation>Максимальна затримка всіх допоміжних сенсорів</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_DELAY_MAX/longDesc</name>
     <message>
       <source>Defines the delay between the current time and the delayed-time horizon. This value should be at least as large as the largest EKF2_XXX_DELAY parameter.</source>
-      <translation type="unfinished">Defines the delay between the current time and the delayed-time horizon. This value should be at least as large as the largest EKF2_XXX_DELAY parameter.</translation>
+      <translation>Визначає затримку між поточним часом і часом затримки горизонту. Це значення має бути щонайменше настільки ж великим, як і найбільший параметр EKF2_XXX_DELAY.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_DRAG_CTRL/shortDesc</name>
     <message>
       <source>Multirotor wind estimation selection</source>
-      <translation type="unfinished">Multirotor wind estimation selection</translation>
+      <translation>Обрання визначення вітру для мультиротора</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_DRAG_CTRL/longDesc</name>
     <message>
       <source>Activate wind speed estimation using specific-force measurements and a drag model defined by EKF2_BCOEF_[XY] and EKF2_MCOEF. Only use on vehicles that have their thrust aligned with the Z axis and no thrust in the XY plane.</source>
-      <translation type="unfinished">Activate wind speed estimation using specific-force measurements and a drag model defined by EKF2_BCOEF_[XY] and EKF2_MCOEF. Only use on vehicles that have their thrust aligned with the Z axis and no thrust in the XY plane.</translation>
+      <translation>Активує визначення швидкості вітру, використовуючи специфічні силові вимірювання та модель опору повітрю, визначену через EKF2_BCOEF_[XY] та EKF2_MCOEF. Використовуйте лише на апаратах, які мають тягу вздовж осі Z і не мають тяги в площині XY.</translation>
     </message>
   </context>
   <context>
@@ -12360,35 +12360,35 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_DRAG_CTRL/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_DRAG_NOISE/shortDesc</name>
     <message>
       <source>Specific drag force observation noise variance</source>
-      <translation type="unfinished">Specific drag force observation noise variance</translation>
+      <translation>Шумова розбіжність спостереження специфічної сили опору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_DRAG_NOISE/longDesc</name>
     <message>
       <source>Used by the multi-rotor specific drag force model. Increasing this makes the multi-rotor wind estimates adjust more slowly.</source>
-      <translation type="unfinished">Used by the multi-rotor specific drag force model. Increasing this makes the multi-rotor wind estimates adjust more slowly.</translation>
+      <translation>Використовується мультироторною специфічною моделлю сили опору повітрю. Її збільшення змушує виміри вітру для мультиротора пристосовуватися повільніше.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EAS_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for airspeed fusion</source>
-      <translation type="unfinished">Measurement noise for airspeed fusion</translation>
+      <translation>Шум вимірювання об'єднання даних швидкості польоту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EN/shortDesc</name>
     <message>
       <source>EKF2 enable</source>
-      <translation type="unfinished">EKF2 enable</translation>
+      <translation>Увімкнути EKF2</translation>
     </message>
   </context>
   <context>
@@ -12402,224 +12402,224 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_EN/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVA_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision angle measurements</source>
-      <translation type="unfinished">Measurement noise for vision angle measurements</translation>
+      <translation>Шум вимірювання для вимірювань кутів зору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVA_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+      <translation>Використовується для зменшення межі або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVP_GATE/shortDesc</name>
     <message>
       <source>Gate size for vision position fusion</source>
-      <translation type="unfinished">Gate size for vision position fusion</translation>
+      <translation>Розмір шлюзу для об'єднання даних візуальної позиції</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVP_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVP_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision position measurements</source>
-      <translation type="unfinished">Measurement noise for vision position measurements</translation>
+      <translation>Вимірювання шуму для вимірювань кутів зору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVP_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+      <translation>Використовується для зменшення межі або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVV_GATE/shortDesc</name>
     <message>
       <source>Gate size for vision velocity estimate fusion</source>
-      <translation type="unfinished">Gate size for vision velocity estimate fusion</translation>
+      <translation>Розмір шлюзу для визначення об'єднання даних візуальної швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVV_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVV_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision velocity measurements</source>
-      <translation type="unfinished">Measurement noise for vision velocity measurements</translation>
+      <translation>Шум вимірювання для вимірювань швидкості зору</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EVV_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
-      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+      <translation>Використовується для зменшення обмеження або заміни невизначеності, включеної у повідомленні</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/shortDesc</name>
     <message>
       <source>External vision (EV) sensor aiding</source>
-      <translation type="unfinished">External vision (EV) sensor aiding</translation>
+      <translation>Зовнішнє бачення (EV) допоміжного датчика</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/longDesc</name>
     <message>
       <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion 2 : 3D velocity fusion 3 : Yaw</source>
-      <translation type="unfinished">Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion 2 : 3D velocity fusion 3 : Yaw</translation>
+      <translation>Встановити біти в наступні положення, щоб увімкнути: 0 : Горизонтальне об'єднання положення 1 : Вертикальне об'єднання положення 2 : 3D швидкість об'єднання 3 : Рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/bitmask/0/description</name>
     <message>
       <source>Horizontal position</source>
-      <translation type="unfinished">Horizontal position</translation>
+      <translation>Горизонтальна позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/bitmask/1/description</name>
     <message>
       <source>Vertical position</source>
-      <translation type="unfinished">Vertical position</translation>
+      <translation>Вертикальна позиція</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/bitmask/2/description</name>
     <message>
       <source>3D velocity</source>
-      <translation type="unfinished">3D velocity</translation>
+      <translation>3D швидкість</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_CTRL/bitmask/3/description</name>
     <message>
       <source>Yaw</source>
-      <translation type="unfinished">Yaw</translation>
+      <translation>Рискання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_DELAY/shortDesc</name>
     <message>
       <source>Vision Position Estimator delay relative to IMU measurements</source>
-      <translation type="unfinished">Vision Position Estimator delay relative to IMU measurements</translation>
+      <translation>Візуальний оцінювач позиції затримки відносно IMU вимірювань</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_NOISE_MD/shortDesc</name>
     <message>
       <source>External vision (EV) noise mode</source>
-      <translation type="unfinished">External vision (EV) noise mode</translation>
+      <translation>Зовнішнє бачення (EV) режиму шуму</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_NOISE_MD/longDesc</name>
     <message>
       <source>If set to 0 (default) the measurement noise is taken from the vision message and the EV noise parameters are used as a lower bound. If set to 1 the observation noise is set from the parameters directly,</source>
-      <translation type="unfinished">If set to 0 (default) the measurement noise is taken from the vision message and the EV noise parameters are used as a lower bound. If set to 1 the observation noise is set from the parameters directly,</translation>
+      <translation>Якщо встановлено 0 (за замовчуванням) вимірювання шуму береться з зорового повідомлення та параметри EV шуму використовуються як нижня межа. Якщо встановлено значення 1, то рівень шуму спостереження задається безпосередньо з параметрів,</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_NOISE_MD/values/0/description</name>
     <message>
       <source>EV reported variance (parameter lower bound)</source>
-      <translation type="unfinished">EV reported variance (parameter lower bound)</translation>
+      <translation>EV повідомлена розбіжність (параметр нижня границя)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_NOISE_MD/values/1/description</name>
     <message>
       <source>EV noise parameters</source>
-      <translation type="unfinished">EV noise parameters</translation>
+      <translation>EV параметри шуму</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_POS_X/shortDesc</name>
     <message>
       <source>X position of VI sensor focal point in body frame</source>
-      <translation type="unfinished">X position of VI sensor focal point in body frame</translation>
+      <translation>X положення датчика VI центральної точки корпуса</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_POS_X/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Пряма вісь, що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_POS_Y/shortDesc</name>
     <message>
       <source>Y position of VI sensor focal point in body frame</source>
-      <translation type="unfinished">Y position of VI sensor focal point in body frame</translation>
+      <translation>Y положення VI датчика центральної точки корпуса</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_POS_Y/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Пряма вісь, що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_POS_Z/shortDesc</name>
     <message>
       <source>Z position of VI sensor focal point in body frame</source>
-      <translation type="unfinished">Z position of VI sensor focal point in body frame</translation>
+      <translation>Z позиція позиції датчика VI центральної точки на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_POS_Z/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Пряма вісь, що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_QMIN/shortDesc</name>
     <message>
       <source>External vision (EV) minimum quality (optional)</source>
-      <translation type="unfinished">External vision (EV) minimum quality (optional)</translation>
+      <translation>Мінімальна якість зовнішнього бачення (EV) (опціонально)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_QMIN/longDesc</name>
     <message>
       <source>External vision will only be started and fused if the quality metric is above this threshold. The quality metric is a completely optional field provided by some VIO systems.</source>
-      <translation type="unfinished">External vision will only be started and fused if the quality metric is above this threshold. The quality metric is a completely optional field provided by some VIO systems.</translation>
+      <translation>Зовнішнє бачення лише увімкнеться та вимкнеться запобіжником, якщо якість вимірювання перевищує цей поріг. Якість вимірювання - це повністю опціональне середовище надане деякими системами VIO.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_FUSE_BETA/shortDesc</name>
     <message>
       <source>Enable synthetic sideslip fusion</source>
-      <translation type="unfinished">Enable synthetic sideslip fusion</translation>
+      <translation>Увімкнути синтетичний збір даних про бічний знос</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_FUSE_BETA/longDesc</name>
     <message>
       <source>For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to vehicles in fixed-wing mode or with airspeed fusion active. Note: side slip fusion is currently not supported for tailsitters.</source>
-      <translation type="unfinished">For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to vehicles in fixed-wing mode or with airspeed fusion active. Note: side slip fusion is currently not supported for tailsitters.</translation>
+      <translation>Для надійної оцінки вітру, як при бічному зносі, так і при об'єднанні даних про швидкість польоту (див. увімкнено EKF2_ARSP_THR). Застосовується тільки для апарату в режимі фіксованого крила або з активним об'єднанні даних про швидкість польоту. Примітка: в даний час об'єднання даних про бічний знос не підтримується для тейлсіттера.</translation>
     </message>
   </context>
   <context>
@@ -12633,637 +12633,637 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_FUSE_BETA/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GBIAS_INIT/shortDesc</name>
     <message>
       <source>1-sigma IMU gyro switch-on bias</source>
-      <translation type="unfinished">1-sigma IMU gyro switch-on bias</translation>
+      <translation>1-sigma IMU увімкнення зміщення гіроскопа</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GND_EFF_DZ/shortDesc</name>
     <message>
       <source>Baro deadzone range for height fusion</source>
-      <translation type="unfinished">Baro deadzone range for height fusion</translation>
+      <translation>Діапазон мертвої зони барометра для об'єднання даних висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GND_EFF_DZ/longDesc</name>
     <message>
       <source>Sets the value of deadzone applied to negative baro innovations. Deadzone is enabled when EKF2_GND_EFF_DZ &gt; 0.</source>
-      <translation type="unfinished">Sets the value of deadzone applied to negative baro innovations. Deadzone is enabled when EKF2_GND_EFF_DZ &gt; 0.</translation>
+      <translation>Встановлює значення мертвої зони, що застосовується до негативних інновацій барометра. Мертва зона активована, коли EKF2_GND_EFF_DZ &gt; 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GND_MAX_HGT/shortDesc</name>
     <message>
       <source>Height above ground level for ground effect zone</source>
-      <translation type="unfinished">Height above ground level for ground effect zone</translation>
+      <translation>Висота над рівнем землі для земної зони впливу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GND_MAX_HGT/longDesc</name>
     <message>
       <source>Sets the maximum distance to the ground level where negative baro innovations are expected.</source>
-      <translation type="unfinished">Sets the maximum distance to the ground level where negative baro innovations are expected.</translation>
+      <translation>Встановлює максимальну відстань до рівня землі, де очікуються негативні інновації барометра.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/shortDesc</name>
     <message>
       <source>Integer bitmask controlling GPS checks</source>
-      <translation type="unfinished">Integer bitmask controlling GPS checks</translation>
+      <translation>Ціле число bitmask, яке контролює GPS перевірки</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/longDesc</name>
     <message>
       <source>Each threshold value is defined by the parameter indicated next to the check. Drift and offset checks only run when the vehicle is on ground and stationary.</source>
-      <translation type="unfinished">Each threshold value is defined by the parameter indicated next to the check. Drift and offset checks only run when the vehicle is on ground and stationary.</translation>
+      <translation>Кожне порогове значення визначається параметром, який вказує поруч з перевіркою. Перевірки дрейфу і зсуву виконуються лише тоді, коли апарат знаходиться на землі та нерухомий.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/0/description</name>
     <message>
       <source>Sat count (EKF2_REQ_NSATS)</source>
-      <translation type="unfinished">Sat count (EKF2_REQ_NSATS)</translation>
+      <translation>Лічильник супутників (EKF2_REQ_NSATS)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/1/description</name>
     <message>
       <source>PDOP (EKF2_REQ_PDOP)</source>
-      <translation type="unfinished">PDOP (EKF2_REQ_PDOP)</translation>
+      <translation>PDOP (EKF2_REQ_PDOP)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/2/description</name>
     <message>
       <source>EPH (EKF2_REQ_EPH)</source>
-      <translation type="unfinished">EPH (EKF2_REQ_EPH)</translation>
+      <translation>EPH (оцінка похибки у горизонтальній площині) (EKF2_REQ_EPH)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/3/description</name>
     <message>
       <source>EPV (EKF2_REQ_EPV)</source>
-      <translation type="unfinished">EPV (EKF2_REQ_EPV)</translation>
+      <translation>EPV (оцінка похибки у вертикальній площині) (EKF2_REQ_EPV)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/4/description</name>
     <message>
       <source>Speed accuracy (EKF2_REQ_SACC)</source>
-      <translation type="unfinished">Speed accuracy (EKF2_REQ_SACC)</translation>
+      <translation>Точність швидкості (EKF2_REQ_SACC)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/5/description</name>
     <message>
       <source>Horizontal position drift (EKF2_REQ_HDRIFT)</source>
-      <translation type="unfinished">Horizontal position drift (EKF2_REQ_HDRIFT)</translation>
+      <translation>Дрейф горизонтальної позиції (EKF2_REQ_HDRIFT)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/6/description</name>
     <message>
       <source>Vertical position drift (EKF2_REQ_VDRIFT)</source>
-      <translation type="unfinished">Vertical position drift (EKF2_REQ_VDRIFT)</translation>
+      <translation>Дрейф вертикальної позиції (EKF2_REQ_HDRIFT)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/7/description</name>
     <message>
       <source>Horizontal speed offset (EKF2_REQ_HDRIFT)</source>
-      <translation type="unfinished">Horizontal speed offset (EKF2_REQ_HDRIFT)</translation>
+      <translation>Зсув горизонтальної швидкості (EKF2_REQ_HDRIFT)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/8/description</name>
     <message>
       <source>Vertical speed offset (EKF2_REQ_VDRIFT)</source>
-      <translation type="unfinished">Vertical speed offset (EKF2_REQ_VDRIFT)</translation>
+      <translation>Зсув вертикальної швидкості (EKF2_REQ_HDRIFT)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/9/description</name>
     <message>
       <source>Spoofing</source>
-      <translation type="unfinished">Spoofing</translation>
+      <translation>Спуфінг</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CHECK/bitmask/10/description</name>
     <message>
       <source>GPS fix type (EKF2_REQ_FIX)</source>
-      <translation type="unfinished">GPS fix type (EKF2_REQ_FIX)</translation>
+      <translation>GPS типу fix (EKF2_REQ_FIX)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/shortDesc</name>
     <message>
       <source>GNSS sensor aiding</source>
-      <translation type="unfinished">GNSS sensor aiding</translation>
+      <translation>GNSS допоміжний сенсор</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/longDesc</name>
     <message>
       <source>Set bits in the following positions to enable: 0 : Longitude and latitude fusion 1 : Altitude fusion 2 : 3D velocity fusion 3 : Dual antenna heading fusion</source>
-      <translation type="unfinished">Set bits in the following positions to enable: 0 : Longitude and latitude fusion 1 : Altitude fusion 2 : 3D velocity fusion 3 : Dual antenna heading fusion</translation>
+      <translation>Встановіть біти на наступних позиціях, щоб увімкнути: 0: довгота та широта об'єднання 1 : висота об'єднання 2 : 3D-швидкість об'єднання 3: Напрямок об'єднання подвійної антени</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/bitmask/0/description</name>
     <message>
       <source>Lon/lat</source>
-      <translation type="unfinished">Lon/lat</translation>
+      <translation>Широта/долгота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/bitmask/1/description</name>
     <message>
       <source>Altitude</source>
-      <translation type="unfinished">Altitude</translation>
+      <translation>Висота</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/bitmask/2/description</name>
     <message>
       <source>3D velocity</source>
-      <translation type="unfinished">3D velocity</translation>
+      <translation>3D швидкість</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_CTRL/bitmask/3/description</name>
     <message>
       <source>Dual antenna heading</source>
-      <translation type="unfinished">Dual antenna heading</translation>
+      <translation>Двонаправленість антени</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_DELAY/shortDesc</name>
     <message>
       <source>GPS measurement delay relative to IMU measurements</source>
-      <translation type="unfinished">GPS measurement delay relative to IMU measurements</translation>
+      <translation>Вимірювання затримки GPS відносно IMU вимірювань</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_MODE/shortDesc</name>
     <message>
       <source>Fusion reset mode</source>
-      <translation type="unfinished">Fusion reset mode</translation>
+      <translation>Режим перезавантаження об'єднання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_MODE/longDesc</name>
     <message>
       <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
-      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+      <translation>Автоматично: перезавантаження при тайм-ауті об'єднання, якщо відсутнє інше джерело. Dead-reckoning: скидається за тайм-аутом об'єднання, якщо немає джерела швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_MODE/values/0/description</name>
     <message>
       <source>Automatic</source>
-      <translation type="unfinished">Automatic</translation>
+      <translation>Автоматично</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_MODE/values/1/description</name>
     <message>
       <source>Dead-reckoning</source>
-      <translation type="unfinished">Dead-reckoning</translation>
+      <translation>Dead-reckoning</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_X/shortDesc</name>
     <message>
       <source>X position of GPS antenna in body frame</source>
-      <translation type="unfinished">X position of GPS antenna in body frame</translation>
+      <translation>X розташування GPS антени на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_X/longDesc</name>
     <message>
       <source>Forward (roll) axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward (roll) axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Пряма вісь (вісь крену), що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_Y/shortDesc</name>
     <message>
       <source>Y position of GPS antenna in body frame</source>
-      <translation type="unfinished">Y position of GPS antenna in body frame</translation>
+      <translation>Y розташування антени GPS на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_Y/longDesc</name>
     <message>
       <source>Right (pitch) axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Right (pitch) axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Права вісь (вісь тангажу), що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_Z/shortDesc</name>
     <message>
       <source>Z position of GPS antenna in body frame</source>
-      <translation type="unfinished">Z position of GPS antenna in body frame</translation>
+      <translation>Z позиція GPS антени на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_POS_Z/longDesc</name>
     <message>
       <source>Down (yaw) axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Down (yaw) axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Нижня вісь (вісь рискання), що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_P_GATE/shortDesc</name>
     <message>
       <source>Gate size for GNSS position fusion</source>
-      <translation type="unfinished">Gate size for GNSS position fusion</translation>
+      <translation>Розмір шлюзу для GNSS позиції об'єднання даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_P_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_P_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for GNSS position</source>
-      <translation type="unfinished">Measurement noise for GNSS position</translation>
+      <translation>Шум вимірювання для GNSS положення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_V_GATE/shortDesc</name>
     <message>
       <source>Gate size for GNSS velocity fusion</source>
-      <translation type="unfinished">Gate size for GNSS velocity fusion</translation>
+      <translation>Розмір шлюзу для GNSS швидкості об'єднання даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_V_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_V_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for GNSS velocity</source>
-      <translation type="unfinished">Measurement noise for GNSS velocity</translation>
+      <translation>Шум вимірювання для GNSS швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_YAW_OFF/shortDesc</name>
     <message>
       <source>Heading/Yaw offset for dual antenna GPS</source>
-      <translation type="unfinished">Heading/Yaw offset for dual antenna GPS</translation>
+      <translation>Зсув напрямку/рискання для подвійної GPS антени</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GRAV_NOISE/shortDesc</name>
     <message>
       <source>Accelerometer measurement noise for gravity based observations</source>
-      <translation type="unfinished">Accelerometer measurement noise for gravity based observations</translation>
+      <translation>Шум вимірювання гравітації основаної на спостереженнях</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GSF_TAS/shortDesc</name>
     <message>
       <source>Default value of true airspeed used in EKF-GSF AHRS calculation</source>
-      <translation type="unfinished">Default value of true airspeed used in EKF-GSF AHRS calculation</translation>
+      <translation>Значення за замовчуванням справжньої швидкості польоту, що використовується в розрахунку EKF-GSF AHRS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GSF_TAS/longDesc</name>
     <message>
       <source>If no airspeed measurements are available, the EKF-GSF AHRS calculation will assume this value of true airspeed when compensating for centripetal acceleration during turns. Set to zero to disable centripetal acceleration compensation during fixed wing flight modes.</source>
-      <translation type="unfinished">If no airspeed measurements are available, the EKF-GSF AHRS calculation will assume this value of true airspeed when compensating for centripetal acceleration during turns. Set to zero to disable centripetal acceleration compensation during fixed wing flight modes.</translation>
+      <translation>Якщо немає доступних вимірювань швидкості польоту, обчислення EKF-GSF AHRS припустить це значення справжньої швидкості польоту при компенсуванні доцентрового прискорення при поворотах. Встановіть нуль, щоб вимкнути компенсацію доцентрового прискорення під час режимів польоту фіксованого крила.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GYR_B_LIM/shortDesc</name>
     <message>
       <source>Gyro bias learning limit</source>
-      <translation type="unfinished">Gyro bias learning limit</translation>
+      <translation>Ліміт вивчення зміщення гіроскопа</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GYR_B_LIM/longDesc</name>
     <message>
       <source>The ekf gyro bias states will be limited to within a range equivalent to +- of this value.</source>
-      <translation type="unfinished">The ekf gyro bias states will be limited to within a range equivalent to +- of this value.</translation>
+      <translation>Зміщення станів ekf гіроскопа буде обмежено в межах діапазону, еквівалентного +- від цієї величини.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GYR_B_NOISE/shortDesc</name>
     <message>
       <source>Process noise for IMU rate gyro bias prediction</source>
-      <translation type="unfinished">Process noise for IMU rate gyro bias prediction</translation>
+      <translation>Обробити шум для прогнозування зміщення IMU рівня прискорення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GYR_NOISE/shortDesc</name>
     <message>
       <source>Rate gyro noise for covariance prediction</source>
-      <translation type="unfinished">Rate gyro noise for covariance prediction</translation>
+      <translation>Рівень шуму акселерометра для передбачення коваріації</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HDG_GATE/shortDesc</name>
     <message>
       <source>Gate size for heading fusion</source>
-      <translation type="unfinished">Gate size for heading fusion</translation>
+      <translation>Розмір шлюза для об'єднання даних про напрямок</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HDG_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної узгодженості.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HEAD_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for magnetic heading fusion</source>
-      <translation type="unfinished">Measurement noise for magnetic heading fusion</translation>
+      <translation>Шум у вимірюванні об'єднання даних магнітного напрямку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HGT_REF/shortDesc</name>
     <message>
       <source>Determines the reference source of height data used by the EKF</source>
-      <translation type="unfinished">Determines the reference source of height data used by the EKF</translation>
+      <translation>Визначає джерело посилання на дані про висоту, що використовується EKF</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HGT_REF/longDesc</name>
     <message>
       <source>When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level. If GPS is set as reference but altitude fusion is disabled in EKF2_GPS_CTRL, the GPS altitude is still used to initiaize the bias of the other height sensors.</source>
-      <translation type="unfinished">When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level. If GPS is set as reference but altitude fusion is disabled in EKF2_GPS_CTRL, the GPS altitude is still used to initiaize the bias of the other height sensors.</translation>
+      <translation>Коли одночасно активовані декілька джерел даних про висоту, визначенна висота завжди буде наближатися до посилання на джерело висоти, обраної цим параметром. Датчик діапазону та параметри камери мають використовуватися тільки при роботі над плоскою поверхнею, оскільки точка відліку локального походження NED буде рухатися вгору і вниз разом з рівнем поверхні. Якщо GPS встановлено як посилання, але об'єднання даних про висоту вимкнено в EKF2_GPS_CTRL, висота за GPS все одно використовується, щоб почати відхилення інших датчиків висоти.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HGT_REF/values/0/description</name>
     <message>
       <source>Barometric pressure</source>
-      <translation type="unfinished">Barometric pressure</translation>
+      <translation>Барометричний тиск</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HGT_REF/values/1/description</name>
     <message>
       <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
+      <translation>GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HGT_REF/values/2/description</name>
     <message>
       <source>Range sensor</source>
-      <translation type="unfinished">Range sensor</translation>
+      <translation>Діапазон сенсора</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_HGT_REF/values/3/description</name>
     <message>
       <source>Vision</source>
-      <translation type="unfinished">Vision</translation>
+      <translation>Бачення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_CTRL/shortDesc</name>
     <message>
       <source>IMU control</source>
-      <translation type="unfinished">IMU control</translation>
+      <translation>Контроль IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_CTRL/bitmask/0/description</name>
     <message>
       <source>Gyro Bias</source>
-      <translation type="unfinished">Gyro Bias</translation>
+      <translation>Відхилення гіроскопа</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_CTRL/bitmask/1/description</name>
     <message>
       <source>Accel Bias</source>
-      <translation type="unfinished">Accel Bias</translation>
+      <translation>Відхилення акселерометра</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_CTRL/bitmask/2/description</name>
     <message>
       <source>Gravity vector fusion</source>
-      <translation type="unfinished">Gravity vector fusion</translation>
+      <translation>Об'єднання даних вектора гравітації</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_POS_X/shortDesc</name>
     <message>
       <source>X position of IMU in body frame</source>
-      <translation type="unfinished">X position of IMU in body frame</translation>
+      <translation>Положення IMU по вісі X на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_POS_X/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, що починається відносно центру тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_POS_Y/shortDesc</name>
     <message>
       <source>Y position of IMU in body frame</source>
-      <translation type="unfinished">Y position of IMU in body frame</translation>
+      <translation>Y позиція IMU на рамі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_POS_Y/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_POS_Z/shortDesc</name>
     <message>
       <source>Z position of IMU in body frame</source>
-      <translation type="unfinished">Z position of IMU in body frame</translation>
+      <translation>Z позиція IMU на рамі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_IMU_POS_Z/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_LOG_VERBOSE/shortDesc</name>
     <message>
       <source>Verbose logging</source>
-      <translation type="unfinished">Verbose logging</translation>
+      <translation>Детальне журналювання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_LOG_VERBOSE/values/0/description</name>
     <message>
       <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
+      <translation>Відключений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_LOG_VERBOSE/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_ACCLIM/shortDesc</name>
     <message>
       <source>Horizontal acceleration threshold used for heading observability check</source>
-      <translation type="unfinished">Horizontal acceleration threshold used for heading observability check</translation>
+      <translation>Горизонтальний поріг пришвидшення, що використовується для перевірки напрямку спостережуваності</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_ACCLIM/longDesc</name>
     <message>
       <source>The heading is assumed to be observable when the body acceleration is greater than this parameter when a global position/velocity aiding source is active.</source>
-      <translation type="unfinished">The heading is assumed to be observable when the body acceleration is greater than this parameter when a global position/velocity aiding source is active.</translation>
+      <translation>Напрямок вважається видимим, коли прискорення тіла більше за цей параметр, коли зовнішнє джерело глобальної позиції / швидкості є активним.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_B_NOISE/shortDesc</name>
     <message>
       <source>Process noise for body magnetic field prediction</source>
-      <translation type="unfinished">Process noise for body magnetic field prediction</translation>
+      <translation>Обробка шуму для прогнозування магнітного поля тіла</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHECK/shortDesc</name>
     <message>
       <source>Magnetic field strength test selection</source>
-      <translation type="unfinished">Magnetic field strength test selection</translation>
+      <translation>Тест вибору сили магнітного поля</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHECK/longDesc</name>
     <message>
       <source>Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM</source>
-      <translation type="unfinished">Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM</translation>
+      <translation>Bitmask налаштовує перевірку, яка використовується для визначення якості даних магнітометра. Якщо дані GNSS отримуються, магнітне поле порівнюється зі світовою магнітною моделлю (WMM), інакше буде використане середнє значення. Ця перевірка корисна для відхилення випадкових перешкод магнітного поля, викликаних металевими предметами. Встановіть біти в 1, щоб увімкнути перевірки. Перевірка увімкнена при наступних позиціях біта 0 : Сила магнітного поля. Встановіть толерантність, використовуючи EKF2_MAG_CHK_STR 1: Магнітне схилення. Встановіть толерантність використовуючи EKF2_MAG_CHK_INC 2: Зачекайте поки GNSS знайде теоретичну силу та схилення за допомогою WMM</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHECK/bitmask/0/description</name>
     <message>
       <source>Strength (EKF2_MAG_CHK_STR)</source>
-      <translation type="unfinished">Strength (EKF2_MAG_CHK_STR)</translation>
+      <translation>Сила (EKF2_MAG_CHK_STR)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHECK/bitmask/1/description</name>
     <message>
       <source>Inclination (EKF2_MAG_CHK_INC)</source>
-      <translation type="unfinished">Inclination (EKF2_MAG_CHK_INC)</translation>
+      <translation>Схилення (EKF2_MAG_CHK_INC)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHECK/bitmask/2/description</name>
     <message>
       <source>Wait for WMM</source>
-      <translation type="unfinished">Wait for WMM</translation>
+      <translation>Чекайте на WMM</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHK_INC/shortDesc</name>
     <message>
       <source>Magnetic field inclination check tolerance</source>
-      <translation type="unfinished">Magnetic field inclination check tolerance</translation>
+      <translation>Перевірка толерантності схилення магнітного поля</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHK_INC/longDesc</name>
     <message>
       <source>Maximum allowed deviation from the expected magnetic field inclination to pass the check.</source>
-      <translation type="unfinished">Maximum allowed deviation from the expected magnetic field inclination to pass the check.</translation>
+      <translation>Максимально дозволене відхилення від очікуваного магнітного схилення для проходження перевірки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHK_STR/shortDesc</name>
     <message>
       <source>Magnetic field strength check tolerance</source>
-      <translation type="unfinished">Magnetic field strength check tolerance</translation>
+      <translation>Перевірка толерантності схилення магнітного поля</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHK_STR/longDesc</name>
     <message>
       <source>Maximum allowed deviation from the expected magnetic field strength to pass the check.</source>
-      <translation type="unfinished">Maximum allowed deviation from the expected magnetic field strength to pass the check.</translation>
+      <translation>Максимально дозволене відхилення від очікуваної сили магнітного поля для проходження перевірки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_DECL/shortDesc</name>
     <message>
       <source>Magnetic declination</source>
-      <translation type="unfinished">Magnetic declination</translation>
+      <translation>Магнітне схилення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_DELAY/shortDesc</name>
     <message>
       <source>Magnetometer measurement delay relative to IMU measurements</source>
-      <translation type="unfinished">Magnetometer measurement delay relative to IMU measurements</translation>
+      <translation>Затримка вимірювання магнітометром відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_E_NOISE/shortDesc</name>
     <message>
       <source>Process noise for earth magnetic field prediction</source>
-      <translation type="unfinished">Process noise for earth magnetic field prediction</translation>
+      <translation>Обробка шуму для прогнозування магнітного поля землі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_GATE/shortDesc</name>
     <message>
       <source>Gate size for magnetometer XYZ component fusion</source>
-      <translation type="unfinished">Gate size for magnetometer XYZ component fusion</translation>
+      <translation>Розмір шлюзу для XYZ компонента об'єднання даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної послідовності.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for magnetometer 3-axis fusion</source>
-      <translation type="unfinished">Measurement noise for magnetometer 3-axis fusion</translation>
+      <translation>Шум у вимірюванні для магнітометра у трьох площинах об'єднання даних</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_TYPE/shortDesc</name>
     <message>
       <source>Type of magnetometer fusion</source>
-      <translation type="unfinished">Type of magnetometer fusion</translation>
+      <translation>Тип об'єднання даних магнітометра</translation>
     </message>
   </context>
   <context>
@@ -35159,34 +35159,6 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</transl
     </message>
   </context>
   <context>
-    <name>/parameters/SDLOG_ALGORITHM/shortDesc</name>
-    <message>
-      <source>Logfile Encryption algorithm</source>
-      <translation type="unfinished">Logfile Encryption algorithm</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SDLOG_ALGORITHM/longDesc</name>
-    <message>
-      <source>Selects the algorithm used for logfile encryption</source>
-      <translation type="unfinished">Selects the algorithm used for logfile encryption</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SDLOG_ALGORITHM/values/0/description</name>
-    <message>
-      <source>Disabled</source>
-      <translation>Відключено</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SDLOG_ALGORITHM/values/2/description</name>
-    <message>
-      <source>XChaCha20</source>
-      <translation type="unfinished">XChaCha20</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/SDLOG_BACKEND/shortDesc</name>
     <message>
       <source>Logging Backend (integer bitmask)</source>
@@ -35196,14 +35168,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</transl
   <context>
     <name>/parameters/SDLOG_BACKEND/longDesc</name>
     <message>
-      <source>If no logging is set the logger will not be started.
-Set bits true to enable:
-0: SD card logging
-1: Mavlink logging</source>
-      <translation type="unfinished">If no logging is set the logger will not be started.
-Set bits true to enable:
-0: SD card logging
-1: Mavlink logging</translation>
+      <source>If no logging is set the logger will not be started. Set bits true to enable: 0: SD card logging 1: Mavlink logging</source>
+      <translation type="unfinished">If no logging is set the logger will not be started. Set bits true to enable: 0: SD card logging 1: Mavlink logging</translation>
     </message>
   </context>
   <context>
@@ -35230,16 +35196,8 @@ Set bits true to enable:
   <context>
     <name>/parameters/SDLOG_BOOT_BAT/longDesc</name>
     <message>
-      <source>When enabled, logging will not start from boot if battery power is not detected
-(e.g. powered via USB on a test bench). This prevents extraneous flight logs from
-being created during bench testing.
-Note that this only applies to log-from-boot modes. This has no effect on arm-based
-modes.</source>
-      <translation type="unfinished">When enabled, logging will not start from boot if battery power is not detected
-(e.g. powered via USB on a test bench). This prevents extraneous flight logs from
-being created during bench testing.
-Note that this only applies to log-from-boot modes. This has no effect on arm-based
-modes.</translation>
+      <source>When enabled, logging will not start from boot if battery power is not detected (e.g. powered via USB on a test bench). This prevents extraneous flight logs from being created during bench testing. Note that this only applies to log-from-boot modes. This has no effect on arm-based modes.</source>
+      <translation type="unfinished">When enabled, logging will not start from boot if battery power is not detected (e.g. powered via USB on a test bench). This prevents extraneous flight logs from being created during bench testing. Note that this only applies to log-from-boot modes. This has no effect on arm-based modes.</translation>
     </message>
   </context>
   <context>
@@ -35266,62 +35224,8 @@ modes.</translation>
   <context>
     <name>/parameters/SDLOG_DIRS_MAX/longDesc</name>
     <message>
-      <source>If there are more log directories than this value,
-the system will delete the oldest directories during startup.
-In addition, the system will delete old logs if there is not enough free space left.
-The minimum amount is 300 MB.
-If this is set to 0, old directories will only be removed if the free space falls below
-the minimum.
-Note: this does not apply to mission log files.</source>
-      <translation type="unfinished">If there are more log directories than this value,
-the system will delete the oldest directories during startup.
-In addition, the system will delete old logs if there is not enough free space left.
-The minimum amount is 300 MB.
-If this is set to 0, old directories will only be removed if the free space falls below
-the minimum.
-Note: this does not apply to mission log files.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SDLOG_EXCH_KEY/shortDesc</name>
-    <message>
-      <source>Logfile Encryption key exchange key</source>
-      <translation type="unfinished">Logfile Encryption key exchange key</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SDLOG_EXCH_KEY/longDesc</name>
-    <message>
-      <source>If the logfile is encrypted using a symmetric key algorithm,
-the used encryption key is generated at logging start and stored
-on the sdcard RSA2048 encrypted using this key.</source>
-      <translation type="unfinished">If the logfile is encrypted using a symmetric key algorithm,
-the used encryption key is generated at logging start and stored
-on the sdcard RSA2048 encrypted using this key.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SDLOG_KEY/shortDesc</name>
-    <message>
-      <source>Logfile Encryption key index</source>
-      <translation type="unfinished">Logfile Encryption key index</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/SDLOG_KEY/longDesc</name>
-    <message>
-      <source>Selects the key in keystore, used for encrypting the log. When using
-a symmetric encryption algorithm, the key is generated at logging start
-and kept stored in this index. For symmetric algorithms, the key is
-volatile and valid only for the duration of logging. The key is stored
-in encrypted format on the sdcard alongside the logfile, using an RSA2048
-key defined by the SDLOG_EXCHANGE_KEY</source>
-      <translation type="unfinished">Selects the key in keystore, used for encrypting the log. When using
-a symmetric encryption algorithm, the key is generated at logging start
-and kept stored in this index. For symmetric algorithms, the key is
-volatile and valid only for the duration of logging. The key is stored
-in encrypted format on the sdcard alongside the logfile, using an RSA2048
-key defined by the SDLOG_EXCHANGE_KEY</translation>
+      <source>If there are more log directories than this value, the system will delete the oldest directories during startup. In addition, the system will delete old logs if there is not enough free space left. The minimum amount is 300 MB. If this is set to 0, old directories will only be removed if the free space falls below the minimum. Note: this does not apply to mission log files.</source>
+      <translation type="unfinished">If there are more log directories than this value, the system will delete the oldest directories during startup. In addition, the system will delete old logs if there is not enough free space left. The minimum amount is 300 MB. If this is set to 0, old directories will only be removed if the free space falls below the minimum. Note: this does not apply to mission log files.</translation>
     </message>
   </context>
   <context>
@@ -35334,22 +35238,8 @@ key defined by the SDLOG_EXCHANGE_KEY</translation>
   <context>
     <name>/parameters/SDLOG_MISSION/longDesc</name>
     <message>
-      <source>If enabled, a small additional "mission" log file will be written to the SD card.
-The log contains just those messages that are useful for tasks like
-generating flight statistics and geotagging.
-The different modes can be used to further reduce the logged data
-(and thus the log file size). For example, choose geotagging mode to
-only log data required for geotagging.
-Note that the normal/full log is still created, and contains all
-the data in the mission log (and more).</source>
-      <translation type="unfinished">If enabled, a small additional "mission" log file will be written to the SD card.
-The log contains just those messages that are useful for tasks like
-generating flight statistics and geotagging.
-The different modes can be used to further reduce the logged data
-(and thus the log file size). For example, choose geotagging mode to
-only log data required for geotagging.
-Note that the normal/full log is still created, and contains all
-the data in the mission log (and more).</translation>
+      <source>If enabled, a small additional "mission" log file will be written to the SD card. The log contains just those messages that are useful for tasks like generating flight statistics and geotagging. The different modes can be used to further reduce the logged data (and thus the log file size). For example, choose geotagging mode to only log data required for geotagging. Note that the normal/full log is still created, and contains all the data in the mission log (and more).</source>
+      <translation type="unfinished">If enabled, a small additional "mission" log file will be written to the SD card. The log contains just those messages that are useful for tasks like generating flight statistics and geotagging. The different modes can be used to further reduce the logged data (and thus the log file size). For example, choose geotagging mode to only log data required for geotagging. Note that the normal/full log is still created, and contains all the data in the mission log (and more).</translation>
     </message>
   </context>
   <context>
@@ -35383,16 +35273,8 @@ the data in the mission log (and more).</translation>
   <context>
     <name>/parameters/SDLOG_MODE/longDesc</name>
     <message>
-      <source>Determines when to start and stop logging. By default, logging is started
-when arming the system, and stopped when disarming.
-Note: The logging start/end points that can be configured here only apply to
-SD logging. The mavlink backend is started/stopped independently
-of these points.</source>
-      <translation type="unfinished">Determines when to start and stop logging. By default, logging is started
-when arming the system, and stopped when disarming.
-Note: The logging start/end points that can be configured here only apply to
-SD logging. The mavlink backend is started/stopped independently
-of these points.</translation>
+      <source>Determines when to start and stop logging. By default, logging is started when arming the system, and stopped when disarming. Note: The logging start/end points that can be configured here only apply to SD logging. The mavlink backend is started/stopped independently of these points.</source>
+      <translation type="unfinished">Determines when to start and stop logging. By default, logging is started when arming the system, and stopped when disarming. Note: The logging start/end points that can be configured here only apply to SD logging. The mavlink backend is started/stopped independently of these points.</translation>
     </message>
   </context>
   <context>
@@ -35440,40 +35322,8 @@ of these points.</translation>
   <context>
     <name>/parameters/SDLOG_PROFILE/longDesc</name>
     <message>
-      <source>This integer bitmask controls the set and rates of logged topics.
-The default allows for general log analysis while keeping the
-log file size reasonably small.
-Enabling multiple sets leads to higher bandwidth requirements and larger log
-files.
-Set bits true to enable:
-0 : Default set (used for general log analysis)
-1 : Full rate estimator (EKF2) replay topics
-2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data)
-3 : Topics for system identification (high rate actuator control and IMU data)
-4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators)
-5 : Debugging topics (debug_*.msg topics, for custom code)
-6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data)
-7 : Topics for computer vision and collision prevention
-8 : Raw FIFO high-rate IMU (Gyro)
-9 : Raw FIFO high-rate IMU (Accel)
-10: Logging of mavlink tunnel message (useful for payload communication debugging)</source>
-      <translation type="unfinished">This integer bitmask controls the set and rates of logged topics.
-The default allows for general log analysis while keeping the
-log file size reasonably small.
-Enabling multiple sets leads to higher bandwidth requirements and larger log
-files.
-Set bits true to enable:
-0 : Default set (used for general log analysis)
-1 : Full rate estimator (EKF2) replay topics
-2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data)
-3 : Topics for system identification (high rate actuator control and IMU data)
-4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators)
-5 : Debugging topics (debug_*.msg topics, for custom code)
-6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data)
-7 : Topics for computer vision and collision prevention
-8 : Raw FIFO high-rate IMU (Gyro)
-9 : Raw FIFO high-rate IMU (Accel)
-10: Logging of mavlink tunnel message (useful for payload communication debugging)</translation>
+      <source>This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data) 7 : Topics for computer vision and collision prevention 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)</source>
+      <translation type="unfinished">This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data) 7 : Topics for computer vision and collision prevention 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)</translation>
     </message>
   </context>
   <context>
@@ -35570,16 +35420,8 @@ Set bits true to enable:
   <context>
     <name>/parameters/SDLOG_UTC_OFFSET/longDesc</name>
     <message>
-      <source>the difference in hours and minutes from Coordinated
-Universal Time (UTC) for a your place and date.
-for example, In case of South Korea(UTC+09:00),
-UTC offset is 540 min (9*60)
-refer to https://en.wikipedia.org/wiki/List_of_UTC_time_offsets</source>
-      <translation type="unfinished">the difference in hours and minutes from Coordinated
-Universal Time (UTC) for a your place and date.
-for example, In case of South Korea(UTC+09:00),
-UTC offset is 540 min (9*60)
-refer to https://en.wikipedia.org/wiki/List_of_UTC_time_offsets</translation>
+      <source>the difference in hours and minutes from Coordinated Universal Time (UTC) for a your place and date. for example, In case of South Korea(UTC+09:00), UTC offset is 540 min (9*60) refer to https://en.wikipedia.org/wiki/List_of_UTC_time_offsets</source>
+      <translation type="unfinished">the difference in hours and minutes from Coordinated Universal Time (UTC) for a your place and date. for example, In case of South Korea(UTC+09:00), UTC offset is 540 min (9*60) refer to https://en.wikipedia.org/wiki/List_of_UTC_time_offsets</translation>
     </message>
   </context>
   <context>
@@ -47528,10 +47370,10 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/category/Developer</name>
+    <name>$globals/category/Standard</name>
     <message>
-      <source>Developer</source>
-      <translation type="unfinished">Developer</translation>
+      <source>Standard</source>
+      <translation type="unfinished">Standard</translation>
     </message>
   </context>
   <context>
@@ -47542,129 +47384,10 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/category/Standard</name>
+    <name>$globals/category/Developer</name>
     <message>
-      <source>Standard</source>
-      <translation type="unfinished">Standard</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW General</name>
-    <message>
-      <source>FW General</source>
-      <translation type="unfinished">FW General</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MAVLink</name>
-    <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Attitude Control</name>
-    <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Autotune</name>
-    <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Calibration</name>
-    <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
+      <source>Developer</source>
+      <translation type="unfinished">Developer</translation>
     </message>
   </context>
   <context>
@@ -47675,192 +47398,10 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Septentrio</name>
-    <message>
-      <source>Septentrio</source>
-      <translation type="unfinished">Septentrio</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Rate Control</name>
-    <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/FW Auto Landing</name>
     <message>
       <source>FW Auto Landing</source>
       <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Longitudinal Control</name>
-    <message>
-      <source>FW Longitudinal Control</source>
-      <translation type="unfinished">FW Longitudinal Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Pure Pursuit</name>
-    <message>
-      <source>Pure Pursuit</source>
-      <translation type="unfinished">Pure Pursuit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Events</name>
-    <message>
-      <source>Events</source>
-      <translation type="unfinished">Events</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Mecanum</name>
-    <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
     </message>
   </context>
   <context>
@@ -47871,17 +47412,80 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Flight Task Orbit</name>
+    <name>$globals/group/Simulation In Hardware</name>
     <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Payload Deliverer</name>
+    <name>$globals/group/Septentrio</name>
     <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
+      <source>Septentrio</source>
+      <translation type="unfinished">Septentrio</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/PWM Outputs</name>
+    <message>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Calibration</name>
+    <message>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Pure Pursuit</name>
+    <message>
+      <source>Pure Pursuit</source>
+      <translation type="unfinished">Pure Pursuit</translation>
     </message>
   </context>
   <context>
@@ -47892,10 +47496,94 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <name>$globals/group/Circuit Breaker</name>
     <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Flight Task Orbit</name>
+    <message>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Events</name>
+    <message>
+      <source>Events</source>
+      <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
     </message>
   </context>
   <context>
@@ -47906,10 +47594,164 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mission</name>
+    <message>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Camera trigger</name>
+    <message>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW General</name>
+    <message>
+      <source>FW General</source>
+      <translation type="unfinished">FW General</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <message>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Rover Ackermann</name>
     <message>
       <source>Rover Ackermann</source>
       <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
     </message>
   </context>
   <context>
@@ -47920,10 +47762,38 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Return Mode</name>
+    <name>$globals/group/Follow target</name>
     <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Lateral Control</name>
+    <message>
+      <source>FW Lateral Control</source>
+      <translation type="unfinished">FW Lateral Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
     </message>
   </context>
   <context>
@@ -47941,45 +47811,45 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/EKF2</name>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
     <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <name>$globals/group/Multicopter Rate Control</name>
     <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Simulation In Hardware</name>
+    <name>$globals/group/FW Attitude Control</name>
     <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Thermal Compensation</name>
+    <name>$globals/group/FW Longitudinal Control</name>
     <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
+      <source>FW Longitudinal Control</source>
+      <translation type="unfinished">FW Longitudinal Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Commander</name>
+    <name>$globals/group/Rover Rate Control</name>
     <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Precision Land</name>
+    <name>$globals/group/Geometry</name>
     <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
     </message>
   </context>
   <context>
@@ -47990,24 +47860,24 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/FW Performance</name>
     <message>
       <source>FW Performance</source>
       <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/GPS</name>
-    <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mount</name>
-    <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
     </message>
   </context>
   <context>
@@ -48018,38 +47888,10 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Lateral Control</name>
+    <name>$globals/group/GPS</name>
     <message>
-      <source>FW Lateral Control</source>
-      <translation type="unfinished">FW Lateral Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Differential</name>
-    <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
     </message>
   </context>
 </TS>
