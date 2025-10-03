@@ -7561,13 +7561,7 @@ Any motion of the remote stick will abort the signal
 injection and reset this parameter
 Best is to perform the identification in position or
 hold mode.</source>
-      <translation type="unfinished">WARNING: this will inject steps to the rate controller
-and can be dangerous. Only activate if you know what you
-are doing, and in a safe environment.
-Any motion of the remote stick will abort the signal
-injection and reset this parameter
-Best is to perform the identification in position or
-hold mode.</translation>
+      <translation>УВАГА: це втисне кроки для визначення рівня контролера та може бути небезпечним. Активуйте лише, якщо ви знаєте що робите, та в безпечних умовах. Будь-який рух стіком пульта вимикає сигнальне втискання та перезавантажує цей параметр. Це найкраще працює для визначення в позиції або режимі утримання.</translation>
     </message>
   </context>
   <context>
@@ -13320,7 +13314,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_MCOEF/shortDesc</name>
     <message>
       <source>Propeller momentum drag coefficient for multi-rotor wind estimation</source>
-      <translation type="unfinished">Propeller momentum drag coefficient for multi-rotor wind estimation</translation>
+      <translation>Коефіцієнт імпульса опору повітря пропелеру для оцінки вітру для мультиротора</translation>
     </message>
   </context>
   <context>
