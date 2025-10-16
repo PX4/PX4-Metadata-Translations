@@ -13335,7 +13335,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_MIN_RNG/longDesc</name>
     <message>
       <source>If the vehicle is on ground, is not moving as determined by the motion test and the range finder is returning invalid or no data, then an assumed range value of EKF2_MIN_RNG will be used by the terrain estimator so that a terrain height estimate is available at the start of flight in situations where the range finder may be inside its minimum measurements distance when on ground.</source>
-      <translation type="unfinished">If the vehicle is on ground, is not moving as determined by the motion test and the range finder is returning invalid or no data, then an assumed range value of EKF2_MIN_RNG will be used by the terrain estimator so that a terrain height estimate is available at the start of flight in situations where the range finder may be inside its minimum measurements distance when on ground.</translation>
+      <translation>Якщо при знаходженні на землі апарат не рухається, як визначається тестом руху і шукач діапазону не повертає дані, або дані недійсні, тоді припустиме значення діапазону EKF2_MIN_RNG буде використовуватися оцінювачем місцевості, щоб оцінка висоти місцевості була доступною на початку польоту в ситуаціях, коли пошук діапазону буде у його мінімальних вимірюваннях відстані, при перебуванні на землі.</translation>
     </message>
   </context>
   <context>
