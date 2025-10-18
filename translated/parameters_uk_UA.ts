@@ -7617,7 +7617,7 @@ hold mode.</source>
     <name>/parameters/FW_AT_SYSID_TIME/longDesc</name>
     <message>
       <source>Duration of the input signal sent on each axis during system identification</source>
-      <translation>Тривалість вхідного сигналу надісланого на кожній осі під час ідентифікації системи</translation>
+      <translation>Тривалість вхідного сигналу надісланого на кожній вісі під час ідентифікації системи</translation>
     </message>
   </context>
   <context>
@@ -12255,7 +12255,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_BCOEF_X/shortDesc</name>
     <message>
       <source>X-axis ballistic coefficient used for multi-rotor wind estimation</source>
-      <translation>Балістичний коефіцієнт осі x, що використовується для мультироторної оцінки вітру</translation>
+      <translation>Балістичний коефіцієнт вісі x, що використовується для мультироторної оцінки вітру</translation>
     </message>
   </context>
   <context>
@@ -12269,7 +12269,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_BCOEF_Y/shortDesc</name>
     <message>
       <source>Y-axis ballistic coefficient used for multi-rotor wind estimation</source>
-      <translation>Балістичний коефіцієнт осі Y, що використовується для мультироторної оцінки вітру</translation>
+      <translation>Балістичний коефіцієнт вісі Y, що використовується для мультироторної оцінки вітру</translation>
     </message>
   </context>
   <context>
@@ -12353,7 +12353,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_DRAG_CTRL/longDesc</name>
     <message>
       <source>Activate wind speed estimation using specific-force measurements and a drag model defined by EKF2_BCOEF_[XY] and EKF2_MCOEF. Only use on vehicles that have their thrust aligned with the Z axis and no thrust in the XY plane.</source>
-      <translation>Активує визначення швидкості вітру, використовуючи специфічні силові вимірювання та модель опору повітрю, визначену через EKF2_BCOEF_[XY] та EKF2_MCOEF. Використовуйте лише на апаратах, які мають тягу вздовж осі Z і не мають тяги в площині XY.</translation>
+      <translation>Активує визначення швидкості вітру, використовуючи специфічні силові вимірювання та модель опору повітрю, визначену через EKF2_BCOEF_[XY] та EKF2_MCOEF. Використовуйте лише на апаратах, які мають тягу вздовж вісі Z і не мають тяги в площині XY.</translation>
     </message>
   </context>
   <context>
@@ -13342,63 +13342,63 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_MULTI_IMU/shortDesc</name>
     <message>
       <source>Multi-EKF IMUs</source>
-      <translation type="unfinished">Multi-EKF IMUs</translation>
+      <translation>Multi-EKF IMUs</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MULTI_IMU/longDesc</name>
     <message>
       <source>Maximum number of IMUs to use for Multi-EKF. Set 0 to disable. Requires SENS_IMU_MODE 0.</source>
-      <translation type="unfinished">Maximum number of IMUs to use for Multi-EKF. Set 0 to disable. Requires SENS_IMU_MODE 0.</translation>
+      <translation>Максимальна кількість IMU для використання Multi-EKF. Встановіть 0 для вимкнення. Потребує SENS_IMU_MODE 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MULTI_MAG/shortDesc</name>
     <message>
       <source>Multi-EKF Magnetometers</source>
-      <translation type="unfinished">Multi-EKF Magnetometers</translation>
+      <translation>Multi-EKF магнетометри</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MULTI_MAG/longDesc</name>
     <message>
       <source>Maximum number of magnetometers to use for Multi-EKF. Set 0 to disable. Requires SENS_MAG_MODE 0.</source>
-      <translation type="unfinished">Maximum number of magnetometers to use for Multi-EKF. Set 0 to disable. Requires SENS_MAG_MODE 0.</translation>
+      <translation>Максимальна кількість магнітометрів для використання Multi-EKF. Встановіть 0 для вимкнення. Потребує SENS_IMU_MODE 0.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_NOAID_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for non-aiding position hold</source>
-      <translation type="unfinished">Measurement noise for non-aiding position hold</translation>
+      <translation>Вимір шуму для утримання позиції, яке не підтримується</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_NOAID_TOUT/shortDesc</name>
     <message>
       <source>Maximum inertial dead-reckoning time</source>
-      <translation type="unfinished">Maximum inertial dead-reckoning time</translation>
+      <translation>Максимальний інерційний час сліпої навігації</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_NOAID_TOUT/longDesc</name>
     <message>
       <source>Maximum lapsed time from last fusion of measurements that constrain velocity drift before the EKF will report the horizontal nav solution as invalid</source>
-      <translation type="unfinished">Maximum lapsed time from last fusion of measurements that constrain velocity drift before the EKF will report the horizontal nav solution as invalid</translation>
+      <translation>Максимальний сплинувший час від останніх вимірів, які обмежують швидкісний дрифт перед тим, як EKF буде звітувати про горизонтальне навігаційне рішення, як про неприйнятне</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_CTRL/shortDesc</name>
     <message>
       <source>Optical flow aiding</source>
-      <translation type="unfinished">Optical flow aiding</translation>
+      <translation>Допомога оптичному потоку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_CTRL/longDesc</name>
     <message>
       <source>Enable optical flow fusion.</source>
-      <translation type="unfinished">Enable optical flow fusion.</translation>
+      <translation>Увімкнути об'єднання даних оптичного потоку.</translation>
     </message>
   </context>
   <context>
@@ -13412,266 +13412,266 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_OF_CTRL/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_DELAY/shortDesc</name>
     <message>
       <source>Optical flow measurement delay relative to IMU measurements</source>
-      <translation type="unfinished">Optical flow measurement delay relative to IMU measurements</translation>
+      <translation>Затримка вимірювання оптичного потоку відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_DELAY/longDesc</name>
     <message>
       <source>Assumes measurement is timestamped at trailing edge of integration period</source>
-      <translation type="unfinished">Assumes measurement is timestamped at trailing edge of integration period</translation>
+      <translation>Припускає, що вимірювання зазначається часом у крайній точці шляху періоду інтеграції</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GATE/shortDesc</name>
     <message>
       <source>Gate size for optical flow fusion</source>
-      <translation type="unfinished">Gate size for optical flow fusion</translation>
+      <translation>Розмір брами для об'єднання даних оптичного потоку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної послідовності.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GYR_SRC/shortDesc</name>
     <message>
       <source>Optical flow angular rate compensation source</source>
-      <translation type="unfinished">Optical flow angular rate compensation source</translation>
+      <translation>Джерело компенсації кутової швидкості оптичного потоку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GYR_SRC/longDesc</name>
     <message>
       <source>Auto: use gyro from optical flow message if available, internal gyro otherwise. Internal: always use internal gyro</source>
-      <translation type="unfinished">Auto: use gyro from optical flow message if available, internal gyro otherwise. Internal: always use internal gyro</translation>
+      <translation>Автоматично: при наявності використовувати повідомлення гіроскопа від оптичного потоку; в іншому випадку використовувати внутрішній гіроскоп. Внутрішній: завжди використовуйте внутрішній гіроскоп</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GYR_SRC/values/0/description</name>
     <message>
       <source>Auto</source>
-      <translation type="unfinished">Auto</translation>
+      <translation>Автоматично</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GYR_SRC/values/1/description</name>
     <message>
       <source>Internal</source>
-      <translation type="unfinished">Internal</translation>
+      <translation>Внутрішній</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_N_MAX/shortDesc</name>
     <message>
       <source>Optical flow maximum noise</source>
-      <translation type="unfinished">Optical flow maximum noise</translation>
+      <translation>Максимальний шум оптичного потоку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_N_MAX/longDesc</name>
     <message>
       <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the minimum</source>
-      <translation type="unfinished">Measurement noise for the optical flow sensor when it's reported quality metric is at the minimum</translation>
+      <translation>Вимірювання шуму для датчика оптичного потоку, коли повідомляється, що метрика якості є мінімальною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_N_MIN/shortDesc</name>
     <message>
       <source>Optical flow minimum noise</source>
-      <translation type="unfinished">Optical flow minimum noise</translation>
+      <translation>Мінімальний шум оптичного потоку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_N_MIN/longDesc</name>
     <message>
       <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum</source>
-      <translation type="unfinished">Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum</translation>
+      <translation>Вимірювання шуму для датчика оптичного потоку, коли повідомляється, що метрика якості є максимальною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_X/shortDesc</name>
     <message>
       <source>X position of optical flow focal point in body frame</source>
-      <translation type="unfinished">X position of optical flow focal point in body frame</translation>
+      <translation>X положення фокусної точки оптичного потоку на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_X/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_Y/shortDesc</name>
     <message>
       <source>Y position of optical flow focal point in body frame</source>
-      <translation type="unfinished">Y position of optical flow focal point in body frame</translation>
+      <translation>Y положення фокусної точки оптичного потоку на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_Y/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_Z/shortDesc</name>
     <message>
       <source>Z position of optical flow focal point in body frame</source>
-      <translation type="unfinished">Z position of optical flow focal point in body frame</translation>
+      <translation>Z положення фокусної точки оптичного потоку на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_Z/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_QMIN/shortDesc</name>
     <message>
       <source>In air optical flow minimum quality</source>
-      <translation type="unfinished">In air optical flow minimum quality</translation>
+      <translation>Мінімальна якість оптичного потоку у повітрі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_QMIN/longDesc</name>
     <message>
       <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</source>
-      <translation type="unfinished">Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</translation>
+      <translation>Дані Оптичного Потоку будуть використані лише в повітрі, якщо датчик передає якість вимірів &gt;= EKF2_OF_QMIN</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_QMIN_GND/shortDesc</name>
     <message>
       <source>On ground optical flow minimum quality</source>
-      <translation type="unfinished">On ground optical flow minimum quality</translation>
+      <translation>Мінімальна якість оптичного потоку на землі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_QMIN_GND/longDesc</name>
     <message>
       <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND</source>
-      <translation type="unfinished">Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND</translation>
+      <translation>Дані Оптичного Потоку будуть використані лише на землі, якщо датчик передає якість вимірів &gt;= EKF2_OF_QMIN_GND</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_XN/shortDesc</name>
     <message>
       <source>Static pressure position error coefficient for the negative X axis</source>
-      <translation type="unfinished">Static pressure position error coefficient for the negative X axis</translation>
+      <translation>Позиційний коефіцієнт помилки статичного тиску для від'ємної вісі X</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_XN/longDesc</name>
     <message>
       <source>This is the ratio of static pressure error to dynamic pressure generated by a negative wind relative velocity along the X body axis. If the baro height estimate rises during backwards flight, then this will be a negative number.</source>
-      <translation type="unfinished">This is the ratio of static pressure error to dynamic pressure generated by a negative wind relative velocity along the X body axis. If the baro height estimate rises during backwards flight, then this will be a negative number.</translation>
+      <translation>Це співвідношення помилки статичного тиску до динамічного тиску, викликаного негативною відносною швидкістю вітру вздовж вісі корпуса X. Якщо визначена висота барометра зростає під час польоту 'назад', то це буде від'ємне число.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_XP/shortDesc</name>
     <message>
       <source>Static pressure position error coefficient for the positive X axis</source>
-      <translation type="unfinished">Static pressure position error coefficient for the positive X axis</translation>
+      <translation>Позиційна помилка статичного тиску для позитивної вісі X</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_XP/longDesc</name>
     <message>
       <source>This is the ratio of static pressure error to dynamic pressure generated by a positive wind relative velocity along the X body axis. If the baro height estimate rises during forward flight, then this will be a negative number.</source>
-      <translation type="unfinished">This is the ratio of static pressure error to dynamic pressure generated by a positive wind relative velocity along the X body axis. If the baro height estimate rises during forward flight, then this will be a negative number.</translation>
+      <translation>Це співвідношення помилки статичного тиску до динамічного тиску, викликаного позитивною відносною швидкістю вітру вздовж вісі корпуса X. Якщо визначена висота барометра зростає під час зворотного польоту, то це буде від'ємне число.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_YN/shortDesc</name>
     <message>
       <source>Pressure position error coefficient for the negative Y axis</source>
-      <translation type="unfinished">Pressure position error coefficient for the negative Y axis</translation>
+      <translation>Позиційний коефіцієнт помилки статичного тиску для від'ємної вісі Y</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_YN/longDesc</name>
     <message>
       <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the negative Y (LH) body axis. If the baro height estimate rises during sideways flight to the left, then this will be a negative number.</source>
-      <translation type="unfinished">This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the negative Y (LH) body axis. If the baro height estimate rises during sideways flight to the left, then this will be a negative number.</translation>
+      <translation>Це співвідношення помилки статичного тиску до динамічного тиску, викликаного відносною швидкістю вітру вздовж від'ємної вісі корпуса Y (LH). Якщо визначена висота барометра зростає під час бокового польоту ліворуч, то це буде від'ємне число.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_YP/shortDesc</name>
     <message>
       <source>Pressure position error coefficient for the positive Y axis</source>
-      <translation type="unfinished">Pressure position error coefficient for the positive Y axis</translation>
+      <translation>Коефіцієнт помилки позиційного тиску для позитивної вісі Y</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_YP/longDesc</name>
     <message>
       <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the positive Y (RH) body axis. If the baro height estimate rises during sideways flight to the right, then this will be a negative number.</source>
-      <translation type="unfinished">This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the positive Y (RH) body axis. If the baro height estimate rises during sideways flight to the right, then this will be a negative number.</translation>
+      <translation>Це співвідношення помилки статичного тиску до динамічного тиску, викликаного відносною швидкістю вітру вздовж позитивної вісі корпуса Y (RH). Якщо визначена висота барометра зростає під час бокового польоту праворуч, то це буде від'ємне число.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_Z/shortDesc</name>
     <message>
       <source>Static pressure position error coefficient for the Z axis</source>
-      <translation type="unfinished">Static pressure position error coefficient for the Z axis</translation>
+      <translation>Коефіцієнт помилки статичного позиційного тиску для вісі Z</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_Z/longDesc</name>
     <message>
       <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the Z body axis.</source>
-      <translation type="unfinished">This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the Z body axis.</translation>
+      <translation>Це є відношення помилки статичного тиску до динамічного тиску, викликаного відносною швидкістю вітру вздовж корпуса за віссю Z.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PREDICT_US/shortDesc</name>
     <message>
       <source>EKF prediction period</source>
-      <translation type="unfinished">EKF prediction period</translation>
+      <translation>Період передбачення EKF</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PREDICT_US/longDesc</name>
     <message>
       <source>EKF prediction period in microseconds. This should ideally be an integer multiple of the IMU time delta. Actual filter update will be an integer multiple of IMU update.</source>
-      <translation type="unfinished">EKF prediction period in microseconds. This should ideally be an integer multiple of the IMU time delta. Actual filter update will be an integer multiple of IMU update.</translation>
+      <translation>Період прогнозування EKF у мікросекундах. В ідеалі має бути цілим кратним IMU часу дельта. Фактичне оновлення фільтра буде цілим кратним оновлення IMU.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_REQ_EPH/shortDesc</name>
     <message>
       <source>Required EPH to use GPS</source>
-      <translation type="unfinished">Required EPH to use GPS</translation>
+      <translation>Необхідно EPH для використання GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_REQ_EPV/shortDesc</name>
     <message>
       <source>Required EPV to use GPS</source>
-      <translation type="unfinished">Required EPV to use GPS</translation>
+      <translation>Потрібно EPV для використання GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_REQ_FIX/shortDesc</name>
     <message>
       <source>Required GPS fix</source>
-      <translation type="unfinished">Required GPS fix</translation>
+      <translation>Необхідно GPS fix</translation>
     </message>
   </context>
   <context>
@@ -47206,17 +47206,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/category/Standard</name>
-    <message>
-      <source>Standard</source>
-      <translation type="unfinished">Standard</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/category/Developer</name>
     <message>
       <source>Developer</source>
       <translation type="unfinished">Developer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/category/Standard</name>
+    <message>
+      <source>Standard</source>
+      <translation type="unfinished">Standard</translation>
     </message>
   </context>
   <context>
@@ -47227,367 +47227,10 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Lateral Control</name>
-    <message>
-      <source>FW Lateral Control</source>
-      <translation type="unfinished">FW Lateral Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW General</name>
-    <message>
-      <source>FW General</source>
-      <translation type="unfinished">FW General</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Events</name>
-    <message>
-      <source>Events</source>
-      <translation type="unfinished">Events</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Differential</name>
-    <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MAVLink</name>
-    <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
-    <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Septentrio</name>
-    <message>
-      <source>Septentrio</source>
-      <translation type="unfinished">Septentrio</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulation In Hardware</name>
-    <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Calibration</name>
-    <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SD Logging</name>
-    <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Longitudinal Control</name>
-    <message>
-      <source>FW Longitudinal Control</source>
-      <translation type="unfinished">FW Longitudinal Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Ackermann</name>
-    <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Pure Pursuit</name>
-    <message>
-      <source>Pure Pursuit</source>
-      <translation type="unfinished">Pure Pursuit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Thermal Compensation</name>
-    <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Mecanum</name>
-    <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulator</name>
-    <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Takeoff</name>
-    <message>
-      <source>FW Auto Takeoff</source>
-      <translation type="unfinished">FW Auto Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/GPS</name>
-    <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Actuator Outputs</name>
     <message>
       <source>Actuator Outputs</source>
       <translation type="unfinished">Actuator Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Attitude Control</name>
-    <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Attitude Q estimator</name>
-    <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return Mode</name>
-    <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
     </message>
   </context>
   <context>
@@ -47598,108 +47241,24 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Autotune</name>
+    <name>$globals/group/FW Auto Landing</name>
     <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Manual Control</name>
+    <name>$globals/group/ADSB</name>
     <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Precision Land</name>
+    <name>$globals/group/Simulator</name>
     <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/EKF2</name>
-    <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Rate Control</name>
-    <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mount</name>
-    <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
     </message>
   </context>
   <context>
@@ -47710,10 +47269,192 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Attitude Control</name>
+    <name>$globals/group/FW Performance</name>
     <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/GPS</name>
+    <message>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Flight Task Orbit</name>
+    <message>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Attitude Q estimator</name>
+    <message>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/PWM Outputs</name>
+    <message>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Pure Pursuit</name>
+    <message>
+      <source>Pure Pursuit</source>
+      <translation type="unfinished">Pure Pursuit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW General</name>
+    <message>
+      <source>FW General</source>
+      <translation type="unfinished">FW General</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Lateral Control</name>
+    <message>
+      <source>FW Lateral Control</source>
+      <translation type="unfinished">FW Lateral Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geometry</name>
+    <message>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <message>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Longitudinal Control</name>
+    <message>
+      <source>FW Longitudinal Control</source>
+      <translation type="unfinished">FW Longitudinal Control</translation>
     </message>
   </context>
   <context>
@@ -47724,10 +47465,269 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/Radio Calibration</name>
+    <message>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Hover Thrust Estimator</name>
     <message>
       <source>Hover Thrust Estimator</source>
       <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulation In Hardware</name>
+    <message>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mission</name>
+    <message>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Landing Target Estimator</name>
+    <message>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Takeoff</name>
+    <message>
+      <source>FW Auto Takeoff</source>
+      <translation type="unfinished">FW Auto Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Attitude Control</name>
+    <message>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Septentrio</name>
+    <message>
+      <source>Septentrio</source>
+      <translation type="unfinished">Septentrio</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Events</name>
+    <message>
+      <source>Events</source>
+      <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Camera trigger</name>
+    <message>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
     </message>
   </context>
 </TS>
