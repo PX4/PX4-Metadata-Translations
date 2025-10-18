@@ -13482,98 +13482,98 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_OF_N_MAX/longDesc</name>
     <message>
       <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the minimum</source>
-      <translation type="unfinished">Measurement noise for the optical flow sensor when it's reported quality metric is at the minimum</translation>
+      <translation>Вимірювання шуму для датчика оптичного потоку, коли повідомляється, що метрика якості є мінімальною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_N_MIN/shortDesc</name>
     <message>
       <source>Optical flow minimum noise</source>
-      <translation type="unfinished">Optical flow minimum noise</translation>
+      <translation>Мінімальний шум оптичного потоку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_N_MIN/longDesc</name>
     <message>
       <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum</source>
-      <translation type="unfinished">Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum</translation>
+      <translation>Вимірювання шуму для датчика оптичного потоку, коли повідомляється, що метрика якості є максимальною</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_X/shortDesc</name>
     <message>
       <source>X position of optical flow focal point in body frame</source>
-      <translation type="unfinished">X position of optical flow focal point in body frame</translation>
+      <translation>X положення фокусної точки оптичного потоку на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_X/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_Y/shortDesc</name>
     <message>
       <source>Y position of optical flow focal point in body frame</source>
-      <translation type="unfinished">Y position of optical flow focal point in body frame</translation>
+      <translation>Y положення фокусної точки оптичного потоку на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_Y/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_Z/shortDesc</name>
     <message>
       <source>Z position of optical flow focal point in body frame</source>
-      <translation type="unfinished">Z position of optical flow focal point in body frame</translation>
+      <translation>Z положення фокусної точки оптичного потоку на корпусі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_POS_Z/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_QMIN/shortDesc</name>
     <message>
       <source>In air optical flow minimum quality</source>
-      <translation type="unfinished">In air optical flow minimum quality</translation>
+      <translation>Мінімальна якість оптичного потоку у повітрі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_QMIN/longDesc</name>
     <message>
       <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</source>
-      <translation type="unfinished">Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</translation>
+      <translation>Дані Оптичного Потоку будуть використані лише в повітрі, якщо датчик передає якість вимірів &gt;= EKF2_OF_QMIN</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_QMIN_GND/shortDesc</name>
     <message>
       <source>On ground optical flow minimum quality</source>
-      <translation type="unfinished">On ground optical flow minimum quality</translation>
+      <translation>Мінімальна якість оптичного потоку на землі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_QMIN_GND/longDesc</name>
     <message>
       <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND</source>
-      <translation type="unfinished">Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND</translation>
+      <translation>Дані Оптичного Потоку будуть використані лише на землі, якщо датчик передає якість вимірів &gt;= EKF2_OF_QMIN_GND</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_PCOEF_XN/shortDesc</name>
     <message>
       <source>Static pressure position error coefficient for the negative X axis</source>
-      <translation type="unfinished">Static pressure position error coefficient for the negative X axis</translation>
+      <translation>Позиційний коефіцієнт помилки статичного тиску для від'ємної осі X</translation>
     </message>
   </context>
   <context>
