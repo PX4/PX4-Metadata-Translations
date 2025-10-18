@@ -13398,7 +13398,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_OF_CTRL/longDesc</name>
     <message>
       <source>Enable optical flow fusion.</source>
-      <translation type="unfinished">Enable optical flow fusion.</translation>
+      <translation>Увімкнути об'єднання даних оптичного потоку.</translation>
     </message>
   </context>
   <context>
@@ -13412,70 +13412,70 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_OF_CTRL/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_DELAY/shortDesc</name>
     <message>
       <source>Optical flow measurement delay relative to IMU measurements</source>
-      <translation type="unfinished">Optical flow measurement delay relative to IMU measurements</translation>
+      <translation>Затримка вимірювання оптичного потоку відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_DELAY/longDesc</name>
     <message>
       <source>Assumes measurement is timestamped at trailing edge of integration period</source>
-      <translation type="unfinished">Assumes measurement is timestamped at trailing edge of integration period</translation>
+      <translation>Припускає, що вимірювання зазначається часом у крайній точці шляху періоду інтеграції</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GATE/shortDesc</name>
     <message>
       <source>Gate size for optical flow fusion</source>
-      <translation type="unfinished">Gate size for optical flow fusion</translation>
+      <translation>Розмір брами для об'єднання даних оптичного потоку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної послідовності.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GYR_SRC/shortDesc</name>
     <message>
       <source>Optical flow angular rate compensation source</source>
-      <translation type="unfinished">Optical flow angular rate compensation source</translation>
+      <translation>Джерело компенсації кутової швидкості оптичного потоку</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GYR_SRC/longDesc</name>
     <message>
       <source>Auto: use gyro from optical flow message if available, internal gyro otherwise. Internal: always use internal gyro</source>
-      <translation type="unfinished">Auto: use gyro from optical flow message if available, internal gyro otherwise. Internal: always use internal gyro</translation>
+      <translation>Автоматично: при наявності використовувати повідомлення гіроскопа від оптичного потоку; в іншому випадку використовувати внутрішній гіроскоп. Внутрішній: завжди використовуйте внутрішній гіроскоп</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GYR_SRC/values/0/description</name>
     <message>
       <source>Auto</source>
-      <translation type="unfinished">Auto</translation>
+      <translation>Автоматично</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_GYR_SRC/values/1/description</name>
     <message>
       <source>Internal</source>
-      <translation type="unfinished">Internal</translation>
+      <translation>Внутрішній</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_OF_N_MAX/shortDesc</name>
     <message>
       <source>Optical flow maximum noise</source>
-      <translation type="unfinished">Optical flow maximum noise</translation>
+      <translation>Максимальний шум оптичного потоку</translation>
     </message>
   </context>
   <context>
