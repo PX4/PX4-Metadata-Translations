@@ -13888,42 +13888,42 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_RNG_K_GATE/longDesc</name>
     <message>
       <source>To be used, the time derivative of the distance sensor measurements projected on the vertical axis needs to be statistically consistent with the estimated vertical velocity of the drone. Decrease this value to make the filter more robust against range finder faulty data (stuck, reflections, ...). Note: tune the range finder noise parameters (EKF2_RNG_NOISE and EKF2_RNG_SFE) before tuning this gate.</source>
-      <translation type="unfinished">To be used, the time derivative of the distance sensor measurements projected on the vertical axis needs to be statistically consistent with the estimated vertical velocity of the drone. Decrease this value to make the filter more robust against range finder faulty data (stuck, reflections, ...). Note: tune the range finder noise parameters (EKF2_RNG_NOISE and EKF2_RNG_SFE) before tuning this gate.</translation>
+      <translation>Необхідно використовувати похідну часу вимірювань датчику дистанції спроектованого но вертикальній вісі, та має бути статистично відповідним до визначеної вертикальної швидкості дрону. Зменшіть це значення, щоб зробити фільтр більш стійким до помилок даних вимірювача дальності (застрягання, розрахування, ...). Примітка: Налаштуйте параметри шуму вимірювача дальності (EKF2_RNG_NOISE та EKF2_RNG_SFE) перед налаштуванням цієї брами.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for range finder fusion</source>
-      <translation type="unfinished">Measurement noise for range finder fusion</translation>
+      <translation>Шум вимірювання об'єднання даних вимірювача дальності</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_PITCH/shortDesc</name>
     <message>
       <source>Range sensor pitch offset</source>
-      <translation type="unfinished">Range sensor pitch offset</translation>
+      <translation>Зсув відстані для датчика тангажу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_POS_X/shortDesc</name>
     <message>
       <source>X position of range finder origin in body frame</source>
-      <translation type="unfinished">X position of range finder origin in body frame</translation>
+      <translation>Позиція X вимірювача дальності, який працює з корпусу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_POS_X/longDesc</name>
     <message>
       <source>Forward axis with origin relative to vehicle centre of gravity</source>
-      <translation type="unfinished">Forward axis with origin relative to vehicle centre of gravity</translation>
+      <translation>Вісь напрямку, яка починається відносно центра тяжіння апарату</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_POS_Y/shortDesc</name>
     <message>
       <source>Y position of range finder origin in body frame</source>
-      <translation type="unfinished">Y position of range finder origin in body frame</translation>
+      <translation>Позиція Y вимірювача дальності, який працює з корпусу</translation>
     </message>
   </context>
   <context>
