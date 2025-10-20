@@ -13335,7 +13335,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_MIN_RNG/longDesc</name>
     <message>
       <source>If the vehicle is on ground, is not moving as determined by the motion test and the range finder is returning invalid or no data, then an assumed range value of EKF2_MIN_RNG will be used by the terrain estimator so that a terrain height estimate is available at the start of flight in situations where the range finder may be inside its minimum measurements distance when on ground.</source>
-      <translation>Якщо при знаходженні на землі апарат не рухається, як визначається тестом руху і вимірювач дальності не повертає дані, або дані недійсні, тоді припустиме значення дальності EKF2_MIN_RNG буде використовуватися оцінювачем місцевості, щоб оцінка висоти місцевості була доступною на початку польоту в ситуаціях, коли пошук діапазону буде у його мінімальних вимірюваннях відстані, при перебуванні на землі.</translation>
+      <translation>Якщо при знаходженні на землі апарат не рухається, як визначається тестом руху і вимірювач дальності не повертає дані, або дані недійсні, тоді припустиме значення дальності EKF2_MIN_RNG буде використовуватися оцінювачем місцевості, щоб оцінка висоти місцевості була доступною на початку польоту в ситуаціях, коли вимірювач дальності буде у його мінімальних вимірюваннях відстані, при перебуванні на землі.</translation>
     </message>
   </context>
   <context>
@@ -13818,7 +13818,7 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_RNG_CTRL/longDesc</name>
     <message>
       <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
-      <translation>УВАГА: вимірювання пошукача рівня є менш надійними та можуть спричиняти несподівані помилки. З цих причин, при необхідності точного контролю висоти відносно землі, рекомендується натомість використовувати параметр MPC_ALT_MODE , за виключенням випадків коли помилки барометра достатньо серйозні щоб спричинити проблеми зі злетом та посадкою. Якщо цей параметр є увімкнений, то оцінювач буде використовувати вимірювання пошуку діапазону для визначення його висоти додатково до інших джерел висоти (якщо це активовано). Діапазон допоміжного сенсор може бути активований (напр., завжди працює) або встановлений в 'умовному' режимі. Умовний режим: Це вмикає пошукач діапазону під час роботи на низькії швидкості (&lt; EKF2_RNG_A_VMAX) та низькій висоті (&lt; EKF2_RNG_A_HMAX), напр. зліт та посадка, де вплив вихорю повітря на барометр є надлишковим та може викривити стан вимірів EKF. Воно розраховано на використання при виконанні вертикального зльоту та посадки, та горизонтальний політ не починається до перевищення EKF2_RNG_A_HMAX.</translation>
+      <translation>УВАГА: вимірювання дальності є менш надійними та можуть спричиняти несподівані помилки. З цих причин, при необхідності точного контролю висоти відносно землі, рекомендується натомість використовувати параметр MPC_ALT_MODE , за виключенням випадків коли помилки барометра достатньо серйозні щоб спричинити проблеми зі злетом та посадкою. Якщо цей параметр є увімкнений, то оцінювач буде використовувати вимірювання дальності для визначення його висоти додатково до інших джерел висоти (якщо це активовано). Допоміжний сенсор дальності може бути активований (напр., завжди працює) або встановлений в 'умовному' режимі. Умовний режим: Це вмикає вимірювач дальності під час роботи на низькії швидкості (&lt; EKF2_RNG_A_VMAX) та низькій висоті (&lt; EKF2_RNG_A_HMAX), напр. зліт та посадка, де вплив вихорю повітря на барометр є надлишковим та може викривити стан вимірів EKF. Воно розраховано на використання при виконанні вертикального зльоту та посадки, та горизонтальний політ не починається до перевищення EKF2_RNG_A_HMAX.</translation>
     </message>
   </context>
   <context>
@@ -13846,14 +13846,14 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_RNG_DELAY/shortDesc</name>
     <message>
       <source>Range finder measurement delay relative to IMU measurements</source>
-      <translation>Затримка вимірювання пошукача діапазону відносно вимірювань IMU</translation>
+      <translation>Затримка вимірювання дальності відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_FOG/shortDesc</name>
     <message>
       <source>Maximum distance at which the range finder could detect fog (m)</source>
-      <translation>Максимальна відстань на якій пошукач діапазону може виявити туман (м)</translation>
+      <translation>Максимальна відстань на якій вимірювач дальності може виявити туман (м)</translation>
     </message>
   </context>
   <context>
@@ -13867,21 +13867,21 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_RNG_GATE/shortDesc</name>
     <message>
       <source>Gate size for range finder fusion</source>
-      <translation type="unfinished">Gate size for range finder fusion</translation>
+      <translation>Розмір шлюза для об'єднання даних вимірювача дальності</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної послідовності.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_K_GATE/shortDesc</name>
     <message>
       <source>Gate size used for range finder kinematic consistency check</source>
-      <translation type="unfinished">Gate size used for range finder kinematic consistency check</translation>
+      <translation>Розмір брами для перевірки послідовності кінематичного вимірювача дальності</translation>
     </message>
   </context>
   <context>
