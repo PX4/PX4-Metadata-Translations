@@ -13328,14 +13328,14 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_MIN_RNG/shortDesc</name>
     <message>
       <source>Expected range finder reading when on ground</source>
-      <translation>Зчитування очікуваного пошукача діапазону при перебуванні на землі</translation>
+      <translation>Зчитування очікуваного вимірювача дальності при перебуванні на землі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MIN_RNG/longDesc</name>
     <message>
       <source>If the vehicle is on ground, is not moving as determined by the motion test and the range finder is returning invalid or no data, then an assumed range value of EKF2_MIN_RNG will be used by the terrain estimator so that a terrain height estimate is available at the start of flight in situations where the range finder may be inside its minimum measurements distance when on ground.</source>
-      <translation>Якщо при знаходженні на землі апарат не рухається, як визначається тестом руху і шукач діапазону не повертає дані, або дані недійсні, тоді припустиме значення діапазону EKF2_MIN_RNG буде використовуватися оцінювачем місцевості, щоб оцінка висоти місцевості була доступною на початку польоту в ситуаціях, коли пошук діапазону буде у його мінімальних вимірюваннях відстані, при перебуванні на землі.</translation>
+      <translation>Якщо при знаходженні на землі апарат не рухається, як визначається тестом руху і вимірювач дальності не повертає дані, або дані недійсні, тоді припустиме значення дальності EKF2_MIN_RNG буде використовуватися оцінювачем місцевості, щоб оцінка висоти місцевості була доступною на початку польоту в ситуаціях, коли пошук діапазону буде у його мінімальних вимірюваннях відстані, при перебуванні на землі.</translation>
     </message>
   </context>
   <context>
@@ -13748,119 +13748,119 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_REQ_HDRIFT/shortDesc</name>
     <message>
       <source>Maximum horizontal drift speed to use GPS</source>
-      <translation type="unfinished">Maximum horizontal drift speed to use GPS</translation>
+      <translation>Максимальна горизонтальна швидкість дрифту для використання GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_REQ_NSATS/shortDesc</name>
     <message>
       <source>Required satellite count to use GPS</source>
-      <translation type="unfinished">Required satellite count to use GPS</translation>
+      <translation>Необхідно лічильник супутників для використання GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_REQ_PDOP/shortDesc</name>
     <message>
       <source>Maximum PDOP to use GPS</source>
-      <translation type="unfinished">Maximum PDOP to use GPS</translation>
+      <translation>Максимальний PDOP для використання GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_REQ_SACC/shortDesc</name>
     <message>
       <source>Required speed accuracy to use GPS</source>
-      <translation type="unfinished">Required speed accuracy to use GPS</translation>
+      <translation>Необхідна точність швидкості для використання GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_REQ_VDRIFT/shortDesc</name>
     <message>
       <source>Maximum vertical drift speed to use GPS</source>
-      <translation type="unfinished">Maximum vertical drift speed to use GPS</translation>
+      <translation>Максимальна вертикальна швидкість дрифту для використання GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_A_HMAX/shortDesc</name>
     <message>
       <source>Maximum height above ground allowed for conditional range aid mode</source>
-      <translation type="unfinished">Maximum height above ground allowed for conditional range aid mode</translation>
+      <translation>Максимальна висота над землею дозволена для умовного рівня допоміжного режиму</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_A_HMAX/longDesc</name>
     <message>
       <source>If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
-      <translation type="unfinished">If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</translation>
+      <translation>Якщо абсолютна висота апарату перевищує це значення, то оцінювач не буде вмикати рівневі вимірювання для оцінки висоти апарату. Це застосовується лише коли умовний рівень допоміжного режиму активовано (EKF2_RNG_CTRL = 1).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_A_VMAX/shortDesc</name>
     <message>
       <source>Maximum horizontal velocity allowed for conditional range aid mode</source>
-      <translation type="unfinished">Maximum horizontal velocity allowed for conditional range aid mode</translation>
+      <translation>Максимальна горизонтальна швидкість дозволена для умовного рівня допоміжного режиму</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_A_VMAX/longDesc</name>
     <message>
       <source>If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
-      <translation type="unfinished">If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</translation>
+      <translation>Якщо горизонтальна швидкість апарату перевищує це значення, то оцінювач не буде вмикати рівневі вимірювання для оцінки висоти апарату. Це застосовується лише коли умовний рівень допоміжного режиму активовано (EKF2_RNG_CTRL = 1).</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_CTRL/shortDesc</name>
     <message>
       <source>Range sensor height aiding</source>
-      <translation type="unfinished">Range sensor height aiding</translation>
+      <translation>Допоміжний рівневий сенсор висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_CTRL/longDesc</name>
     <message>
       <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
-      <translation type="unfinished">WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</translation>
+      <translation>УВАГА: вимірювання пошукача рівня є менш надійними та можуть спричиняти несподівані помилки. З цих причин, при необхідності точного контролю висоти відносно землі, рекомендується натомість використовувати параметр MPC_ALT_MODE , за виключенням випадків коли помилки барометра достатньо серйозні щоб спричинити проблеми зі злетом та посадкою. Якщо цей параметр є увімкнений, то оцінювач буде використовувати вимірювання пошуку діапазону для визначення його висоти додатково до інших джерел висоти (якщо це активовано). Діапазон допоміжного сенсор може бути активований (напр., завжди працює) або встановлений в 'умовному' режимі. Умовний режим: Це вмикає пошукач діапазону під час роботи на низькії швидкості (&lt; EKF2_RNG_A_VMAX) та низькій висоті (&lt; EKF2_RNG_A_HMAX), напр. зліт та посадка, де вплив вихорю повітря на барометр є надлишковим та може викривити стан вимірів EKF. Воно розраховано на використання при виконанні вертикального зльоту та посадки, та горизонтальний політ не починається до перевищення EKF2_RNG_A_HMAX.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_CTRL/values/0/description</name>
     <message>
       <source>Disable range fusion</source>
-      <translation type="unfinished">Disable range fusion</translation>
+      <translation>Вимкнути об'єднання даних діапазону</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_CTRL/values/1/description</name>
     <message>
       <source>Enabled (conditional mode)</source>
-      <translation type="unfinished">Enabled (conditional mode)</translation>
+      <translation>Увімкнено (умовний режим)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_CTRL/values/2/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_DELAY/shortDesc</name>
     <message>
       <source>Range finder measurement delay relative to IMU measurements</source>
-      <translation type="unfinished">Range finder measurement delay relative to IMU measurements</translation>
+      <translation>Затримка вимірювання пошукача діапазону відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_FOG/shortDesc</name>
     <message>
       <source>Maximum distance at which the range finder could detect fog (m)</source>
-      <translation type="unfinished">Maximum distance at which the range finder could detect fog (m)</translation>
+      <translation>Максимальна відстань на якій пошукач діапазону може виявити туман (м)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_FOG/longDesc</name>
     <message>
       <source>Limit for fog detection. If the range finder measures a distance greater than this value, the measurement is considered to not be blocked by fog or rain. If there's a jump from larger than RNG_FOG to smaller than EKF2_RNG_FOG, the measurement may gets rejected. 0 - disabled</source>
-      <translation type="unfinished">Limit for fog detection. If the range finder measures a distance greater than this value, the measurement is considered to not be blocked by fog or rain. If there's a jump from larger than RNG_FOG to smaller than EKF2_RNG_FOG, the measurement may gets rejected. 0 - disabled</translation>
+      <translation>Ліміт для виявлення туману. Якщо вимірювач дальності визначає дистанцію, що перевищує це значення, то вважається що вимірювання не блокується туманом або дощем. Якщо існує стрибок від більшого за RNG_FOG до меншого за EKF2_RNG_FOG, тоді вимірювання може бути відхилено. 0 - вимкнуто</translation>
     </message>
   </context>
   <context>
