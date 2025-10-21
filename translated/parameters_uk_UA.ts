@@ -14098,49 +14098,49 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_TAU_POS/longDesc</name>
     <message>
       <source>Controls how tightly the output track the EKF states</source>
-      <translation type="unfinished">Controls how tightly the output track the EKF states</translation>
+      <translation>Контролює наскільки щільний вихідний трек та стан EKF</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_TAU_VEL/shortDesc</name>
     <message>
       <source>Time constant of the velocity output prediction and smoothing filter</source>
-      <translation type="unfinished">Time constant of the velocity output prediction and smoothing filter</translation>
+      <translation>Константа часу прогнозування вихідної швидкості та злагоджувального фільтру</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_TERR_GRAD/shortDesc</name>
     <message>
       <source>Magnitude of terrain gradient</source>
-      <translation type="unfinished">Magnitude of terrain gradient</translation>
+      <translation>Розмір градієнта ландшафту</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_TERR_NOISE/shortDesc</name>
     <message>
       <source>Terrain altitude process noise</source>
-      <translation type="unfinished">Terrain altitude process noise</translation>
+      <translation>Шум обробки висоти рельєфу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_VEL_LIM/shortDesc</name>
     <message>
       <source>Velocity limit</source>
-      <translation type="unfinished">Velocity limit</translation>
+      <translation>Ліміт швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_WIND_NSD/shortDesc</name>
     <message>
       <source>Process noise spectral density for wind velocity prediction</source>
-      <translation type="unfinished">Process noise spectral density for wind velocity prediction</translation>
+      <translation>Шум обробки спектральної щільності для прогнозування швидкості вітру</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_WIND_NSD/longDesc</name>
     <message>
       <source>When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.</source>
-      <translation type="unfinished">When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.</translation>
+      <translation>Коли немає даних з допоміжних джерел, то неточність визначеності вітру (1-sigma, в м/с) збільшується на цю кількість кожну секунду.</translation>
     </message>
   </context>
   <context>
