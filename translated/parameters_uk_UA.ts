@@ -14070,28 +14070,28 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_SYNT_MAG_Z/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_TAS_GATE/shortDesc</name>
     <message>
       <source>Gate size for TAS fusion</source>
-      <translation type="unfinished">Gate size for TAS fusion</translation>
+      <translation>Розмір шлюза для об'єднання даних TAS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_TAS_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
-      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+      <translation>Встановлює кількість стандартних відхилень, які використовуються тестом інноваційної послідовності.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_TAU_POS/shortDesc</name>
     <message>
       <source>Output predictor position time constant</source>
-      <translation type="unfinished">Output predictor position time constant</translation>
+      <translation>Константа часу вихідного прогнозувача позиції</translation>
     </message>
   </context>
   <context>
