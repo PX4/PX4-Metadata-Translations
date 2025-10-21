@@ -14028,35 +14028,35 @@ set by COM_RC_LOSS_T in seconds.</source>
     <name>/parameters/EKF2_SEL_IMU_RAT/longDesc</name>
     <message>
       <source>EKF2 selector angular rate error threshold for comparing gyros. Angular rate vector differences larger than this will result in accumulated angular error.</source>
-      <translation type="unfinished">EKF2 selector angular rate error threshold for comparing gyros. Angular rate vector differences larger than this will result in accumulated angular error.</translation>
+      <translation>Кутовий поріг рівня помилки EKF2 селектора для порівняння гірокомпасів. Різниці вектору кутового рівня більші за це призводить до накопиченої кутової помилки.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_SEL_IMU_VEL/shortDesc</name>
     <message>
       <source>Selector angular threshold</source>
-      <translation type="unfinished">Selector angular threshold</translation>
+      <translation>Поріг кутового селектора</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_SEL_IMU_VEL/longDesc</name>
     <message>
       <source>EKF2 selector maximum accumulated velocity threshold for comparing accelerometers. Accumulated velocity error larger than this will result in the sensor being declared faulty.</source>
-      <translation type="unfinished">EKF2 selector maximum accumulated velocity threshold for comparing accelerometers. Accumulated velocity error larger than this will result in the sensor being declared faulty.</translation>
+      <translation>Максимально накопичений швидкісний поріг EKF2 селектора для порівняння акселерометрів. Накопичена швидкісна помилка більша за цю призводить до того, що датчик оголошується помилковим.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_SYNT_MAG_Z/shortDesc</name>
     <message>
       <source>Enable synthetic magnetometer Z component measurement</source>
-      <translation type="unfinished">Enable synthetic magnetometer Z component measurement</translation>
+      <translation>Увімкнути компонентне вимірювання синтетичного магнітометра Z</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_SYNT_MAG_Z/longDesc</name>
     <message>
       <source>Use for vehicles where the measured body Z magnetic field is subject to strong magnetic interference. For magnetic heading fusion the magnetometer Z measurement will be replaced by a synthetic value calculated using the knowledge of the 3D magnetic field vector at the location of the drone. Therefore, this parameter will only have an effect if the global position of the drone is known. For 3D mag fusion the magnetometer Z measurement will simply be ignored instead of fusing the synthetic value.</source>
-      <translation type="unfinished">Use for vehicles where the measured body Z magnetic field is subject to strong magnetic interference. For magnetic heading fusion the magnetometer Z measurement will be replaced by a synthetic value calculated using the knowledge of the 3D magnetic field vector at the location of the drone. Therefore, this parameter will only have an effect if the global position of the drone is known. For 3D mag fusion the magnetometer Z measurement will simply be ignored instead of fusing the synthetic value.</translation>
+      <translation>Використовуйте для апаратів де виміряне корпусу Z магнітне поле є предметом сильного магнітного впливу. Для об'єднаних даних магнітного напрямку магнітометра Z вимірювання буде замінено на синтетичне значення, що обчислюється, використовуючи знання вектора 3D магнітного поля в місці знаходження безпілотника. Тому цей параметр матиме вплив лише тоді, коли відомо глобальне положення (GPS) дрона. Для 3D mag об'єднання даних магнітометра Z вимірювання буде ігноруватися, замість об'єднання синтетичних даних.</translation>
     </message>
   </context>
   <context>
