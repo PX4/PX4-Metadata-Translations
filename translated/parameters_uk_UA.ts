@@ -14158,11 +14158,7 @@ played via buzzer or ESCs, if supported. The alarm will sound after a disarm,
 if the vehicle was previously armed and only if the vehicle had RC signal at
 some point. Particularly useful for locating crashed drones without a GPS
 sensor.</source>
-      <translation type="unfinished">Enable/disable event task for RC Loss. When enabled, an alarm tune will be
-played via buzzer or ESCs, if supported. The alarm will sound after a disarm,
-if the vehicle was previously armed and only if the vehicle had RC signal at
-some point. Particularly useful for locating crashed drones without a GPS
-sensor.</translation>
+      <translation>Увімкнути/вимкнути завдання в залежності від події при втраті пульта(RC). Якщо це увімкнено, то мелодія тривоги будильника буде відтворюватися через зумер або ESCs, якщо це підтримується. Сигналізація лунатиме після охолощення, якщо апарат був попередньо взведений і тільки, якщо апарат мав сигнал пульта(RC) в певній точці. Особливо це є корисним при пошуку впавших безпілотників без датчика GPS.</translation>
     </message>
   </context>
   <context>
@@ -14176,14 +14172,14 @@ sensor.</translation>
     <name>/parameters/EV_TSK_RC_LOSS/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнений</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EV_TSK_STAT_DIS/shortDesc</name>
     <message>
       <source>Status Display</source>
-      <translation type="unfinished">Status Display</translation>
+      <translation>Відображення стану</translation>
     </message>
   </context>
   <context>
@@ -14194,11 +14190,7 @@ LEDs. When enabled and if the vehicle supports it, LEDs will flash
 indicating various vehicle status changes. Currently PX4 has not implemented
 any specific status events.
 -</source>
-      <translation type="unfinished">Enable/disable event task for displaying the vehicle status using arm-mounted
-LEDs. When enabled and if the vehicle supports it, LEDs will flash
-indicating various vehicle status changes. Currently PX4 has not implemented
-any specific status events.
--</translation>
+      <translation>Увімкнути/вимкнути завдання в залежності від події для відображення статусу апарату за використовуючи світлодіоди вмонтовані на променях. Коли це завдання увімкнено та апарат це підтримує, тоді світлодіоди будуть блимати, вказуючи на зміни статусів апарату. Наразі PX4 не запровадив жодних особливих подій залежно від статусу.</translation>
     </message>
   </context>
   <context>
@@ -14212,42 +14204,42 @@ any specific status events.
     <name>/parameters/EV_TSK_STAT_DIS/values/1/description</name>
     <message>
       <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
+      <translation>Увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_MAN_P_MAX/shortDesc</name>
     <message>
       <source>Maximum manual pitch angle</source>
-      <translation type="unfinished">Maximum manual pitch angle</translation>
+      <translation>Максимальний кут ручного тангажу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_MAN_P_MAX/longDesc</name>
     <message>
       <source>Applies to both directions in all manual modes with attitude stabilization but without altitude control</source>
-      <translation type="unfinished">Applies to both directions in all manual modes with attitude stabilization but without altitude control</translation>
+      <translation>Застосовується до обох напрямків у всіх ручних режимах зі стабілізацією позиції, але без контролю висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_MAN_R_MAX/shortDesc</name>
     <message>
       <source>Maximum manual roll angle</source>
-      <translation type="unfinished">Maximum manual roll angle</translation>
+      <translation>Максимальний кут ручного крену</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_MAN_R_MAX/longDesc</name>
     <message>
       <source>Applies to both directions in all manual modes with attitude stabilization</source>
-      <translation type="unfinished">Applies to both directions in all manual modes with attitude stabilization</translation>
+      <translation>Застосовується до обох напрямків у всіх ручних режимах зі стабілізацією позиції</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_MAN_YR_MAX/shortDesc</name>
     <message>
       <source>Maximum manually added yaw rate</source>
-      <translation type="unfinished">Maximum manually added yaw rate</translation>
+      <translation>Максимальний рівень рискання доданий вручну</translation>
     </message>
   </context>
   <context>
@@ -14255,15 +14247,15 @@ any specific status events.
     <message>
       <source>This is the maximally added yaw rate setpoint from the yaw stick in any attitude controlled flight mode.
 It is added to the yaw rate setpoint generated by the controller for turn coordination.</source>
-      <translation type="unfinished">This is the maximally added yaw rate setpoint from the yaw stick in any attitude controlled flight mode.
-It is added to the yaw rate setpoint generated by the controller for turn coordination.</translation>
+      <translation>Це максимальний доданий рівень рискання з точки, де стік рискання в будь-який позиції контролює режим польоту.
+Він додається до точки рівня рискання, згенерованої контролером для координації повороту.</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_PSP_OFF/shortDesc</name>
     <message>
       <source>Pitch setpoint offset (pitch at level flight)</source>
-      <translation type="unfinished">Pitch setpoint offset (pitch at level flight)</translation>
+      <translation>Зсув точки тангажу (тангаж при рівному польоті)</translation>
     </message>
   </context>
   <context>
