@@ -7873,8 +7873,7 @@ disabled, warn only or deny arming.</source>
   <name>/parameters/COM_ARM_SWISBTN/longDesc</name>
   <message>
   <source>0: Arming/disarming triggers on switch transition.
-1: Arming/disarming triggers when holding the momentary button down
-for COM_RC_ARM_HYST like the stick gesture.</source>
+1: Arming/disarming triggers when holding the momentary button down like the stick gesture.</source>
   </message>
 </context>
 <context>
@@ -7892,13 +7891,15 @@ for COM_RC_ARM_HYST like the stick gesture.</source>
 <context>
   <name>/parameters/COM_ARM_WO_GPS/shortDesc</name>
   <message>
-  <source>GPS preflight check</source>
+  <source>Arming without GNSS configuration</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_ARM_WO_GPS/longDesc</name>
   <message>
-  <source>Measures taken when a check defined by EKF2_GPS_CHECK is failing.</source>
+  <source>Configures whether arming is allowed without GNSS, for modes that require a global position
+(specifically, in those modes when a check defined by EKF2_GPS_CHECK fails).
+The settings deny arming and warn, allow arming and warn, or silently allow arming.</source>
   </message>
 </context>
 <context>
@@ -7910,13 +7911,13 @@ for COM_RC_ARM_HYST like the stick gesture.</source>
 <context>
   <name>/parameters/COM_ARM_WO_GPS/values/1/description</name>
   <message>
-  <source>Warning only</source>
+  <source>Allow arming (with warning)</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_ARM_WO_GPS/values/2/description</name>
   <message>
-  <source>Disabled</source>
+  <source>Allow arming (no warning)</source>
   </message>
 </context>
 <context>
@@ -9758,18 +9759,6 @@ External modes requiring stick input will still failsafe.</source>
   </message>
 </context>
 <context>
-  <name>/parameters/COM_RC_ARM_HYST/shortDesc</name>
-  <message>
-  <source>Manual control input arm/disarm command duration</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_RC_ARM_HYST/longDesc</name>
-  <message>
-  <source>The default value of 1000 requires the stick to be held in the arm or disarm position for 1 second.</source>
-  </message>
-</context>
-<context>
   <name>/parameters/COM_RC_IN_MODE/shortDesc</name>
   <message>
   <source>Manual control input source configuration</source>
@@ -10895,7 +10884,7 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_MODE/longDesc</name>
   <message>
-  <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+  <source>Automatic: reset on fusion timeout if no other source of position is available. Dead-reckoning: reset on fusion timeout if no source of velocity is available.</source>
   </message>
 </context>
 <context>
@@ -17168,7 +17157,9 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_SV_CS0_TRIM/longDesc</name>
   <message>
-  <source>Can be used to add an offset to the servo control.</source>
+  <source>Can be used to add an offset to the servo control.
+NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
+This parameter can only be set if all PWM Center parameters are set to default.</source>
   </message>
 </context>
 <context>
@@ -17330,7 +17321,9 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_SV_CS1_TRIM/longDesc</name>
   <message>
-  <source>Can be used to add an offset to the servo control.</source>
+  <source>Can be used to add an offset to the servo control.
+NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
+This parameter can only be set if all PWM Center parameters are set to default.</source>
   </message>
 </context>
 <context>
@@ -17492,7 +17485,9 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_SV_CS2_TRIM/longDesc</name>
   <message>
-  <source>Can be used to add an offset to the servo control.</source>
+  <source>Can be used to add an offset to the servo control.
+NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
+This parameter can only be set if all PWM Center parameters are set to default.</source>
   </message>
 </context>
 <context>
@@ -17654,7 +17649,9 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_SV_CS3_TRIM/longDesc</name>
   <message>
-  <source>Can be used to add an offset to the servo control.</source>
+  <source>Can be used to add an offset to the servo control.
+NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
+This parameter can only be set if all PWM Center parameters are set to default.</source>
   </message>
 </context>
 <context>
@@ -17816,7 +17813,9 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_SV_CS4_TRIM/longDesc</name>
   <message>
-  <source>Can be used to add an offset to the servo control.</source>
+  <source>Can be used to add an offset to the servo control.
+NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
+This parameter can only be set if all PWM Center parameters are set to default.</source>
   </message>
 </context>
 <context>
@@ -17978,7 +17977,9 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_SV_CS5_TRIM/longDesc</name>
   <message>
-  <source>Can be used to add an offset to the servo control.</source>
+  <source>Can be used to add an offset to the servo control.
+NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
+This parameter can only be set if all PWM Center parameters are set to default.</source>
   </message>
 </context>
 <context>
@@ -18140,7 +18141,9 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_SV_CS6_TRIM/longDesc</name>
   <message>
-  <source>Can be used to add an offset to the servo control.</source>
+  <source>Can be used to add an offset to the servo control.
+NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
+This parameter can only be set if all PWM Center parameters are set to default.</source>
   </message>
 </context>
 <context>
@@ -18302,7 +18305,9 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_SV_CS7_TRIM/longDesc</name>
   <message>
-  <source>Can be used to add an offset to the servo control.</source>
+  <source>Can be used to add an offset to the servo control.
+NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
+This parameter can only be set if all PWM Center parameters are set to default.</source>
   </message>
 </context>
 <context>
@@ -39646,6 +39651,12 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
+  <name>$globals/category/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
   <name>$globals/category/Developer</name>
   <message>
   <source>Developer</source>
@@ -39658,75 +39669,9 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/category/System</name>
+  <name>$globals/group/Actuator Outputs</name>
   <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return Mode</name>
-  <message>
-  <source>Return Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Septentrio</name>
-  <message>
-  <source>Septentrio</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Runway Takeoff</name>
-  <message>
-  <source>Runway Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Precision Land</name>
-  <message>
-  <source>Precision Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Differential</name>
-  <message>
-  <source>Rover Differential</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Lateral Control</name>
-  <message>
-  <source>FW Lateral Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Camera trigger</name>
-  <message>
-  <source>Camera trigger</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Control</name>
-  <message>
-  <source>Multicopter Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Airspeed Validator</name>
-  <message>
-  <source>Airspeed Validator</source>
+  <source>Actuator Outputs</source>
   </message>
 </context>
 <context>
@@ -39736,177 +39681,9 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Pure Pursuit</name>
-  <message>
-  <source>Pure Pursuit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Takeoff</name>
-  <message>
-  <source>FW Auto Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
-  <message>
-  <source>Multicopter Position Slow Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Takeoff</name>
-  <message>
-  <source>VTOL Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Multicopter Acro Mode</name>
   <message>
   <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UXRCE-DDS Client</name>
-  <message>
-  <source>UXRCE-DDS Client</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Mecanum</name>
-  <message>
-  <source>Rover Mecanum</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SITL</name>
-  <message>
-  <source>SITL</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Attitude Control</name>
-  <message>
-  <source>Rover Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Longitudinal Control</name>
-  <message>
-  <source>FW Longitudinal Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Local Position Estimator</name>
-  <message>
-  <source>Local Position Estimator</source>
   </message>
 </context>
 <context>
@@ -39916,159 +39693,9 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Rate Control</name>
+  <name>$globals/group/Rover Attitude Control</name>
   <message>
-  <source>Rover Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Performance</name>
-  <message>
-  <source>FW Performance</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Calibration</name>
-  <message>
-  <source>Radio Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Landing</name>
-  <message>
-  <source>FW Auto Landing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW General</name>
-  <message>
-  <source>FW General</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mixer Output</name>
-  <message>
-  <source>Mixer Output</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Flight Task Orbit</name>
-  <message>
-  <source>Flight Task Orbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Autotune</name>
-  <message>
-  <source>Autotune</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Commander</name>
-  <message>
-  <source>Commander</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Velocity Control</name>
-  <message>
-  <source>Rover Velocity Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mount</name>
-  <message>
-  <source>Mount</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Actuator Outputs</name>
-  <message>
-  <source>Actuator Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Rate Control</name>
-  <message>
-  <source>FW Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Payload Deliverer</name>
-  <message>
-  <source>Payload Deliverer</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Mission</name>
-  <message>
-  <source>Mission</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
+  <source>Rover Attitude Control</source>
   </message>
 </context>
 <context>
@@ -40078,9 +39705,117 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
+  <name>$globals/group/Multicopter Rate Control</name>
+  <message>
+  <source>Multicopter Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Testing</name>
+  <message>
+  <source>Testing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Autotune</name>
+  <message>
+  <source>Autotune</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Attitude Control</name>
+  <message>
+  <source>VTOL Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Landing Target Estimator</name>
   <message>
   <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Differential</name>
+  <message>
+  <source>Rover Differential</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/MAVLink</name>
+  <message>
+  <source>MAVLink</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Commander</name>
+  <message>
+  <source>Commander</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <message>
+  <source>Multicopter Position Slow Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Velocity Control</name>
+  <message>
+  <source>Rover Velocity Control</source>
   </message>
 </context>
 <context>
@@ -40090,9 +39825,279 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
+  <name>$globals/group/Return Mode</name>
+  <message>
+  <source>Return Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UXRCE-DDS Client</name>
+  <message>
+  <source>UXRCE-DDS Client</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Performance</name>
+  <message>
+  <source>FW Performance</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Precision Land</name>
+  <message>
+  <source>Precision Land</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Events</name>
+  <message>
+  <source>Events</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Takeoff</name>
+  <message>
+  <source>FW Auto Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geofence</name>
+  <message>
+  <source>Geofence</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Mecanum</name>
+  <message>
+  <source>Rover Mecanum</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mount</name>
+  <message>
+  <source>Mount</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Land Detector</name>
+  <message>
+  <source>Land Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SD Logging</name>
+  <message>
+  <source>SD Logging</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Calibration</name>
+  <message>
+  <source>Radio Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Lateral Control</name>
+  <message>
+  <source>FW Lateral Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Septentrio</name>
+  <message>
+  <source>Septentrio</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Rate Control</name>
+  <message>
+  <source>Rover Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Return To Land</name>
+  <message>
+  <source>Return To Land</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/PWM Outputs</name>
   <message>
   <source>PWM Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW General</name>
+  <message>
+  <source>FW General</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/GPS</name>
+  <message>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mission</name>
+  <message>
+  <source>Mission</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Longitudinal Control</name>
+  <message>
+  <source>FW Longitudinal Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Camera trigger</name>
+  <message>
+  <source>Camera trigger</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulator</name>
+  <message>
+  <source>Simulator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Payload Deliverer</name>
+  <message>
+  <source>Payload Deliverer</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/OSD</name>
+  <message>
+  <source>OSD</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Flight Task Orbit</name>
+  <message>
+  <source>Flight Task Orbit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Position Control</name>
+  <message>
+  <source>Multicopter Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Pure Pursuit</name>
+  <message>
+  <source>Pure Pursuit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
   </message>
 </context>
 </TS>
