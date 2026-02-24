@@ -9317,6 +9317,52 @@ disabled, warn only or deny arming.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/COM_ARM_TRAFF/shortDesc</name>
+    <message>
+      <source>Enable Traffic Avoidance system detection check</source>
+      <translation type="unfinished">Enable Traffic Avoidance system detection check</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_TRAFF/longDesc</name>
+    <message>
+      <source>This check detects if a traffic avoidance system (ADSB/FLARM transponder)
+is missing. Depending on the value of the parameter, the check can be
+disabled, warn only, or deny arming.</source>
+      <translation type="unfinished">This check detects if a traffic avoidance system (ADSB/FLARM transponder)
+is missing. Depending on the value of the parameter, the check can be
+disabled, warn only, or deny arming.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_TRAFF/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_TRAFF/values/1/description</name>
+    <message>
+      <source>Warning only</source>
+      <translation type="unfinished">Warning only</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_TRAFF/values/2/description</name>
+    <message>
+      <source>Enforce for all modes</source>
+      <translation type="unfinished">Enforce for all modes</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/COM_ARM_TRAFF/values/3/description</name>
+    <message>
+      <source>Enforce for mission modes only</source>
+      <translation type="unfinished">Enforce for mission modes only</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/COM_ARM_WO_GPS/shortDesc</name>
     <message>
       <source>Arming without GNSS configuration</source>
@@ -12151,91 +12197,420 @@ set by COM_RC_LOSS_T in seconds.</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_CTRL/shortDesc</name>
+    <name>/parameters/EKF2_AGP0_CTRL/shortDesc</name>
     <message>
-      <source>Aux global position (AGP) sensor aiding</source>
-      <translation type="unfinished">Aux global position (AGP) sensor aiding</translation>
+      <source>Auxiliary global position sensor 0 aiding</source>
+      <translation type="unfinished">Auxiliary global position sensor 0 aiding</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_CTRL/longDesc</name>
+    <name>/parameters/EKF2_AGP0_CTRL/longDesc</name>
     <message>
       <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
       <translation type="unfinished">Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_CTRL/bitmask/0/description</name>
+    <name>/parameters/EKF2_AGP0_CTRL/bitmask/0/description</name>
     <message>
       <source>Horizontal position</source>
       <translation type="unfinished">Horizontal position</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_CTRL/bitmask/1/description</name>
+    <name>/parameters/EKF2_AGP0_CTRL/bitmask/1/description</name>
     <message>
       <source>Vertical position</source>
       <translation type="unfinished">Vertical position</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_DELAY/shortDesc</name>
+    <name>/parameters/EKF2_AGP0_DELAY/shortDesc</name>
     <message>
-      <source>Aux global position estimator delay relative to IMU measurements</source>
-      <translation type="unfinished">Aux global position estimator delay relative to IMU measurements</translation>
+      <source>Auxiliary global position sensor 0 delay (to IMU)</source>
+      <translation type="unfinished">Auxiliary global position sensor 0 delay (to IMU)</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_GATE/shortDesc</name>
+    <name>/parameters/EKF2_AGP0_GATE/shortDesc</name>
     <message>
-      <source>Gate size for aux global position fusion</source>
-      <translation type="unfinished">Gate size for aux global position fusion</translation>
+      <source>Gate size for auxiliary global position sensor 0 fusion</source>
+      <translation type="unfinished">Gate size for auxiliary global position sensor 0 fusion</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_GATE/longDesc</name>
+    <name>/parameters/EKF2_AGP0_GATE/longDesc</name>
     <message>
       <source>Sets the number of standard deviations used by the innovation consistency test.</source>
       <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_MODE/shortDesc</name>
+    <name>/parameters/EKF2_AGP0_ID/shortDesc</name>
     <message>
-      <source>Fusion reset mode</source>
-      <translation type="unfinished">Fusion reset mode</translation>
+      <source>Auxiliary global position sensor 0 ID</source>
+      <translation type="unfinished">Auxiliary global position sensor 0 ID</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_MODE/longDesc</name>
+    <name>/parameters/EKF2_AGP0_ID/longDesc</name>
+    <message>
+      <source>Sensor ID for slot 0. Set to 0 to disable this slot.</source>
+      <translation type="unfinished">Sensor ID for slot 0. Set to 0 to disable this slot.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP0_MODE/shortDesc</name>
+    <message>
+      <source>Fusion reset mode for sensor 0</source>
+      <translation type="unfinished">Fusion reset mode for sensor 0</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP0_MODE/longDesc</name>
     <message>
       <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
       <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_MODE/values/0/description</name>
+    <name>/parameters/EKF2_AGP0_MODE/values/0/description</name>
     <message>
       <source>Automatic</source>
       <translation type="unfinished">Automatic</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_MODE/values/1/description</name>
+    <name>/parameters/EKF2_AGP0_MODE/values/1/description</name>
     <message>
       <source>Dead-reckoning</source>
       <translation type="unfinished">Dead-reckoning</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_NOISE/shortDesc</name>
+    <name>/parameters/EKF2_AGP0_NOISE/shortDesc</name>
     <message>
-      <source>Measurement noise for aux global position measurements</source>
-      <translation type="unfinished">Measurement noise for aux global position measurements</translation>
+      <source>Measurement noise for auxiliary global position sensor 0</source>
+      <translation type="unfinished">Measurement noise for auxiliary global position sensor 0</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/EKF2_AGP_NOISE/longDesc</name>
+    <name>/parameters/EKF2_AGP0_NOISE/longDesc</name>
+    <message>
+      <source>Used to lower bound or replace the uncertainty included in the message</source>
+      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_CTRL/shortDesc</name>
+    <message>
+      <source>Auxiliary global position sensor 1 aiding</source>
+      <translation type="unfinished">Auxiliary global position sensor 1 aiding</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_CTRL/longDesc</name>
+    <message>
+      <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
+      <translation type="unfinished">Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_CTRL/bitmask/0/description</name>
+    <message>
+      <source>Horizontal position</source>
+      <translation type="unfinished">Horizontal position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_CTRL/bitmask/1/description</name>
+    <message>
+      <source>Vertical position</source>
+      <translation type="unfinished">Vertical position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_DELAY/shortDesc</name>
+    <message>
+      <source>Auxiliary global position sensor 1 delay (to IMU)</source>
+      <translation type="unfinished">Auxiliary global position sensor 1 delay (to IMU)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_GATE/shortDesc</name>
+    <message>
+      <source>Gate size for auxiliary global position sensor 1 fusion</source>
+      <translation type="unfinished">Gate size for auxiliary global position sensor 1 fusion</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_GATE/longDesc</name>
+    <message>
+      <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_ID/shortDesc</name>
+    <message>
+      <source>Auxiliary global position sensor 1 ID</source>
+      <translation type="unfinished">Auxiliary global position sensor 1 ID</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_ID/longDesc</name>
+    <message>
+      <source>Sensor ID for slot 1. Set to 0 to disable this slot.</source>
+      <translation type="unfinished">Sensor ID for slot 1. Set to 0 to disable this slot.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_MODE/shortDesc</name>
+    <message>
+      <source>Fusion reset mode for sensor 1</source>
+      <translation type="unfinished">Fusion reset mode for sensor 1</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_MODE/longDesc</name>
+    <message>
+      <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_MODE/values/0/description</name>
+    <message>
+      <source>Automatic</source>
+      <translation type="unfinished">Automatic</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_MODE/values/1/description</name>
+    <message>
+      <source>Dead-reckoning</source>
+      <translation type="unfinished">Dead-reckoning</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_NOISE/shortDesc</name>
+    <message>
+      <source>Measurement noise for auxiliary global position sensor 1</source>
+      <translation type="unfinished">Measurement noise for auxiliary global position sensor 1</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP1_NOISE/longDesc</name>
+    <message>
+      <source>Used to lower bound or replace the uncertainty included in the message</source>
+      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_CTRL/shortDesc</name>
+    <message>
+      <source>Auxiliary global position sensor 2 aiding</source>
+      <translation type="unfinished">Auxiliary global position sensor 2 aiding</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_CTRL/longDesc</name>
+    <message>
+      <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
+      <translation type="unfinished">Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_CTRL/bitmask/0/description</name>
+    <message>
+      <source>Horizontal position</source>
+      <translation type="unfinished">Horizontal position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_CTRL/bitmask/1/description</name>
+    <message>
+      <source>Vertical position</source>
+      <translation type="unfinished">Vertical position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_DELAY/shortDesc</name>
+    <message>
+      <source>Auxiliary global position sensor 2 delay (to IMU)</source>
+      <translation type="unfinished">Auxiliary global position sensor 2 delay (to IMU)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_GATE/shortDesc</name>
+    <message>
+      <source>Gate size for auxiliary global position sensor 2 fusion</source>
+      <translation type="unfinished">Gate size for auxiliary global position sensor 2 fusion</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_GATE/longDesc</name>
+    <message>
+      <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_ID/shortDesc</name>
+    <message>
+      <source>Auxiliary global position sensor 2 ID</source>
+      <translation type="unfinished">Auxiliary global position sensor 2 ID</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_ID/longDesc</name>
+    <message>
+      <source>Sensor ID for slot 2. Set to 0 to disable this slot.</source>
+      <translation type="unfinished">Sensor ID for slot 2. Set to 0 to disable this slot.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_MODE/shortDesc</name>
+    <message>
+      <source>Fusion reset mode for sensor 2</source>
+      <translation type="unfinished">Fusion reset mode for sensor 2</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_MODE/longDesc</name>
+    <message>
+      <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_MODE/values/0/description</name>
+    <message>
+      <source>Automatic</source>
+      <translation type="unfinished">Automatic</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_MODE/values/1/description</name>
+    <message>
+      <source>Dead-reckoning</source>
+      <translation type="unfinished">Dead-reckoning</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_NOISE/shortDesc</name>
+    <message>
+      <source>Measurement noise for auxiliary global position sensor 2</source>
+      <translation type="unfinished">Measurement noise for auxiliary global position sensor 2</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP2_NOISE/longDesc</name>
+    <message>
+      <source>Used to lower bound or replace the uncertainty included in the message</source>
+      <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_CTRL/shortDesc</name>
+    <message>
+      <source>Auxiliary global position sensor 3 aiding</source>
+      <translation type="unfinished">Auxiliary global position sensor 3 aiding</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_CTRL/longDesc</name>
+    <message>
+      <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
+      <translation type="unfinished">Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_CTRL/bitmask/0/description</name>
+    <message>
+      <source>Horizontal position</source>
+      <translation type="unfinished">Horizontal position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_CTRL/bitmask/1/description</name>
+    <message>
+      <source>Vertical position</source>
+      <translation type="unfinished">Vertical position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_DELAY/shortDesc</name>
+    <message>
+      <source>Auxiliary global position sensor 3 delay (to IMU)</source>
+      <translation type="unfinished">Auxiliary global position sensor 3 delay (to IMU)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_GATE/shortDesc</name>
+    <message>
+      <source>Gate size for auxiliary global position sensor 3 fusion</source>
+      <translation type="unfinished">Gate size for auxiliary global position sensor 3 fusion</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_GATE/longDesc</name>
+    <message>
+      <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+      <translation type="unfinished">Sets the number of standard deviations used by the innovation consistency test.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_ID/shortDesc</name>
+    <message>
+      <source>Auxiliary global position sensor 3 ID</source>
+      <translation type="unfinished">Auxiliary global position sensor 3 ID</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_ID/longDesc</name>
+    <message>
+      <source>Sensor ID for slot 3. Set to 0 to disable this slot.</source>
+      <translation type="unfinished">Sensor ID for slot 3. Set to 0 to disable this slot.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_MODE/shortDesc</name>
+    <message>
+      <source>Fusion reset mode for sensor 3</source>
+      <translation type="unfinished">Fusion reset mode for sensor 3</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_MODE/longDesc</name>
+    <message>
+      <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+      <translation type="unfinished">Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_MODE/values/0/description</name>
+    <message>
+      <source>Automatic</source>
+      <translation type="unfinished">Automatic</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_MODE/values/1/description</name>
+    <message>
+      <source>Dead-reckoning</source>
+      <translation type="unfinished">Dead-reckoning</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_NOISE/shortDesc</name>
+    <message>
+      <source>Measurement noise for auxiliary global position sensor 3</source>
+      <translation type="unfinished">Measurement noise for auxiliary global position sensor 3</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AGP3_NOISE/longDesc</name>
     <message>
       <source>Used to lower bound or replace the uncertainty included in the message</source>
       <translation type="unfinished">Used to lower bound or replace the uncertainty included in the message</translation>
@@ -23122,24 +23497,6 @@ A negative value indicates no ground effect.</translation>
     </message>
   </context>
   <context>
-    <name>/parameters/LNDMC_TRIG_TIME/shortDesc</name>
-    <message>
-      <source>Multicopter land detection trigger time</source>
-      <translation type="unfinished">Multicopter land detection trigger time</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LNDMC_TRIG_TIME/longDesc</name>
-    <message>
-      <source>Total time it takes to go through all three land detection stages:
-ground contact, maybe landed, landed
-when all necessary conditions are constantly met.</source>
-      <translation type="unfinished">Total time it takes to go through all three land detection stages:
-ground contact, maybe landed, landed
-when all necessary conditions are constantly met.</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/LNDMC_XY_VEL_MAX/shortDesc</name>
     <message>
       <source>Multicopter max horizontal velocity</source>
@@ -27132,11 +27489,11 @@ With MPC_THR_HOVER 0.5 it's equivalent to No rescale.</translation>
     <name>/parameters/MPC_THR_HOVER/longDesc</name>
     <message>
       <source>Mapped to center throttle stick in Stabilized mode (see MPC_THR_CURVE).
-Used for initialization of the hover thrust estimator (see MPC_USE_HTE).
+Used for initialization of the hover thrust estimator.
 The estimated hover thrust is used as base for zero vertical acceleration in altitude control.
 The hover thrust is important for land detection to work correctly.</source>
       <translation type="unfinished">Mapped to center throttle stick in Stabilized mode (see MPC_THR_CURVE).
-Used for initialization of the hover thrust estimator (see MPC_USE_HTE).
+Used for initialization of the hover thrust estimator.
 The estimated hover thrust is used as base for zero vertical acceleration in altitude control.
 The hover thrust is important for land detection to work correctly.</translation>
     </message>
@@ -27242,36 +27599,6 @@ A time constant of 0 disables the ramp</translation>
     <message>
       <source>Takeoff climb rate</source>
       <translation type="unfinished">Takeoff climb rate</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MPC_USE_HTE/shortDesc</name>
-    <message>
-      <source>Use hover thrust estimate for altitude control</source>
-      <translation type="unfinished">Use hover thrust estimate for altitude control</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MPC_USE_HTE/longDesc</name>
-    <message>
-      <source>Disable to use the fixed parameter MPC_THR_HOVER instead of the hover thrust estimate in the position controller.
-This parameter does not influence Stabilized mode throttle curve (see MPC_THR_CURVE).</source>
-      <translation type="unfinished">Disable to use the fixed parameter MPC_THR_HOVER instead of the hover thrust estimate in the position controller.
-This parameter does not influence Stabilized mode throttle curve (see MPC_THR_CURVE).</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MPC_USE_HTE/values/0/description</name>
-    <message>
-      <source>Disabled</source>
-      <translation type="unfinished">Disabled</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/MPC_USE_HTE/values/1/description</name>
-    <message>
-      <source>Enabled</source>
-      <translation type="unfinished">Enabled</translation>
     </message>
   </context>
   <context>
@@ -46643,6 +46970,62 @@ reloaded from the airframe configuration.</translation>
     </message>
   </context>
   <context>
+    <name>/parameters/UUV_HGT_B_DOWN/shortDesc</name>
+    <message>
+      <source>Height rc-button down</source>
+      <translation type="unfinished">Height rc-button down</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/UUV_HGT_B_UP/shortDesc</name>
+    <message>
+      <source>Height rc-button up</source>
+      <translation type="unfinished">Height rc-button up</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/UUV_HGT_D/shortDesc</name>
+    <message>
+      <source>Height differential gain</source>
+      <translation type="unfinished">Height differential gain</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/UUV_HGT_I/shortDesc</name>
+    <message>
+      <source>Height integrational gain</source>
+      <translation type="unfinished">Height integrational gain</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/UUV_HGT_I_SPD/shortDesc</name>
+    <message>
+      <source>sum speed of error for integrational gain</source>
+      <translation type="unfinished">sum speed of error for integrational gain</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/UUV_HGT_MAX_DIFF/shortDesc</name>
+    <message>
+      <source>maximum Height distance controlled by manual input. Diff between actual and desired Height cant be higher than that</source>
+      <translation type="unfinished">maximum Height distance controlled by manual input. Diff between actual and desired Height cant be higher than that</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/UUV_HGT_P/shortDesc</name>
+    <message>
+      <source>Height proportional gain</source>
+      <translation type="unfinished">Height proportional gain</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/UUV_HGT_STR/shortDesc</name>
+    <message>
+      <source>Height change strength from manual input</source>
+      <translation type="unfinished">Height change strength from manual input</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/UUV_MGM_PITCH/shortDesc</name>
     <message>
       <source>Pitch gain for manual inputs in manual control mode</source>
@@ -47787,6 +48170,34 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Flight Task Orbit</name>
+    <message>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Local Position Estimator</name>
     <message>
       <source>Local Position Estimator</source>
@@ -47794,10 +48205,10 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/SD Logging</name>
+    <name>$globals/group/Autotune</name>
     <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
     </message>
   </context>
   <context>
@@ -47808,24 +48219,80 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/MAVLink</name>
+    <name>$globals/group/Rover Velocity Control</name>
     <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Landing Target Estimator</name>
+    <name>$globals/group/Testing</name>
     <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Sensors</name>
+    <name>$globals/group/UXRCE-DDS Client</name>
     <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Actuator Outputs</name>
+    <message>
+      <source>Actuator Outputs</source>
+      <translation type="unfinished">Actuator Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Calibration</name>
+    <message>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <message>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
     </message>
   </context>
   <context>
@@ -47843,115 +48310,24 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <name>$globals/group/Multicopter Position Control</name>
     <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/OSD</name>
+    <name>$globals/group/Landing Target Estimator</name>
     <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
+      <source>Landing Target Estimator</source>
+      <translation type="unfinished">Landing Target Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Failure Detector</name>
+    <name>$globals/group/Camera trigger</name>
     <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Pure Pursuit</name>
-    <message>
-      <source>Pure Pursuit</source>
-      <translation type="unfinished">Pure Pursuit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Thermal Compensation</name>
-    <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Longitudinal Control</name>
-    <message>
-      <source>FW Longitudinal Control</source>
-      <translation type="unfinished">FW Longitudinal Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
     </message>
   </context>
   <context>
@@ -47962,80 +48338,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Auto Takeoff</name>
+    <name>$globals/group/Septentrio</name>
     <message>
-      <source>FW Auto Takeoff</source>
-      <translation type="unfinished">FW Auto Takeoff</translation>
+      <source>Septentrio</source>
+      <translation type="unfinished">Septentrio</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Actuator Outputs</name>
+    <name>$globals/group/Runway Takeoff</name>
     <message>
-      <source>Actuator Outputs</source>
-      <translation type="unfinished">Actuator Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return Mode</name>
-    <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulation In Hardware</name>
-    <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
     </message>
   </context>
   <context>
@@ -48046,10 +48359,17 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Airspeed Validator</name>
+    <name>$globals/group/FW Auto Takeoff</name>
     <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
+      <source>FW Auto Takeoff</source>
+      <translation type="unfinished">FW Auto Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
     </message>
   </context>
   <context>
@@ -48060,6 +48380,69 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <message>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Switches</name>
+    <message>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Longitudinal Control</name>
+    <message>
+      <source>FW Longitudinal Control</source>
+      <translation type="unfinished">FW Longitudinal Control</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Events</name>
     <message>
       <source>Events</source>
@@ -48067,17 +48450,164 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
+    <name>$globals/group/ADSB</name>
     <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/FW Auto Landing</name>
+    <name>$globals/group/Mission</name>
     <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/GPS</name>
+    <message>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Attitude Q estimator</name>
+    <message>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Pure Pursuit</name>
+    <message>
+      <source>Pure Pursuit</source>
+      <translation type="unfinished">Pure Pursuit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulation In Hardware</name>
+    <message>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/PWM Outputs</name>
+    <message>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
     </message>
   </context>
   <context>
@@ -48095,66 +48625,24 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Attitude Q estimator</name>
+    <name>$globals/group/Geometry</name>
     <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Rate Control</name>
+    <name>$globals/group/OSD</name>
     <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Return To Land</name>
+    <name>$globals/group/Commander</name>
     <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Autotune</name>
-    <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
-    <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mount</name>
-    <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
     </message>
   </context>
   <context>
@@ -48165,24 +48653,10 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Radio Calibration</name>
+    <name>$globals/group/Thermal Compensation</name>
     <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
     </message>
   </context>
   <context>
@@ -48193,101 +48667,10 @@ Set to 0 do disable this threshold.</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/GPS</name>
+    <name>$globals/group/Return To Land</name>
     <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/EKF2</name>
-    <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Payload Deliverer</name>
-    <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Ackermann</name>
-    <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Septentrio</name>
-    <message>
-      <source>Septentrio</source>
-      <translation type="unfinished">Septentrio</translation>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
     </message>
   </context>
 </TS>
