@@ -11,7 +11,8 @@
   <name>/parameters/ADSB_CALLSIGN_1/longDesc</name>
   <message>
   <source>Sets first 4 characters of a total of 8. Valid characters are A-Z, 0-9, " ". Example "PX4 " -&gt; 1347957792
-For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</source>
+For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
+</source>
   </message>
 </context>
 <context>
@@ -24,7 +25,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
   <name>/parameters/ADSB_CALLSIGN_2/longDesc</name>
   <message>
   <source>Sets second 4 characters of a total of 8. Valid characters are A-Z, 0-9, " " only. Example "TEST" -&gt; 1413829460
-For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.</source>
+For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
+</source>
   </message>
 </context>
 <context>
@@ -36,7 +38,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_EMERGC/longDesc</name>
   <message>
-  <source>Sets the vehicle emergency state</source>
+  <source>Sets the vehicle emergency state
+</source>
   </message>
 </context>
 <context>
@@ -90,7 +93,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_EMIT_TYPE/longDesc</name>
   <message>
-  <source>Configure the emitter type of the vehicle.</source>
+  <source>Configure the emitter type of the vehicle.
+</source>
   </message>
 </context>
 <context>
@@ -222,7 +226,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_GPS_OFF_LAT/longDesc</name>
   <message>
-  <source>Sets GPS lataral offset encoding</source>
+  <source>Sets GPS lataral offset encoding
+</source>
   </message>
 </context>
 <context>
@@ -282,7 +287,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_GPS_OFF_LON/longDesc</name>
   <message>
-  <source>Sets GPS longitudinal offset encoding</source>
+  <source>Sets GPS longitudinal offset encoding
+</source>
   </message>
 </context>
 <context>
@@ -306,7 +312,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_ICAO_ID/longDesc</name>
   <message>
-  <source>Defines the ICAO ID of the vehicle</source>
+  <source>Defines the ICAO ID of the vehicle
+</source>
   </message>
 </context>
 <context>
@@ -318,7 +325,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_ICAO_SPECL/longDesc</name>
   <message>
-  <source>This vehicle is always tracked. Use 0 to disable.</source>
+  <source>This vehicle is always tracked. Use 0 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -330,7 +338,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_IDENT/longDesc</name>
   <message>
-  <source>Enable Identification of Position feature</source>
+  <source>Enable Identification of Position feature
+</source>
   </message>
 </context>
 <context>
@@ -354,7 +363,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_LEN_WIDTH/longDesc</name>
   <message>
-  <source>Report the length and width of the vehicle in meters. In most cases, use '1' for the smallest vehicle size.</source>
+  <source>Report the length and width of the vehicle in meters. In most cases, use '1' for the smallest vehicle size.
+</source>
   </message>
 </context>
 <context>
@@ -462,7 +472,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_LIST_MAX/longDesc</name>
   <message>
-  <source>Change number of targets to track</source>
+  <source>Change number of targets to track
+</source>
   </message>
 </context>
 <context>
@@ -474,7 +485,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_MAX_SPEED/longDesc</name>
   <message>
-  <source>Informs ADSB vehicles of this vehicle's max speed capability</source>
+  <source>Informs ADSB vehicles of this vehicle's max speed capability
+</source>
   </message>
 </context>
 <context>
@@ -528,7 +540,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
 <context>
   <name>/parameters/ADSB_SQUAWK/longDesc</name>
   <message>
-  <source>This parameter defines the squawk code. Value should be between 0000 and 7777.</source>
+  <source>This parameter defines the squawk code. Value should be between 0000 and 7777.
+</source>
   </message>
 </context>
 <context>
@@ -541,12 +554,15 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.<
   <name>/parameters/PWM_MAIN_FUNC1/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 1.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -865,12 +881,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC10/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 10.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -1189,12 +1208,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC11/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 11.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -1513,12 +1535,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC12/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 12.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -1837,12 +1862,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC13/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 13.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -2161,12 +2189,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC14/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 14.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -2485,12 +2516,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC15/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 15.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -2809,12 +2843,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC16/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 16.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -3133,12 +3170,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC2/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 2.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -3457,12 +3497,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC3/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 3.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -3781,12 +3824,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC4/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 4.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -4105,12 +4151,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC5/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 5.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -4429,12 +4478,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC6/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 6.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -4753,12 +4805,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC7/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 7.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -5077,12 +5132,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC8/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 8.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -5401,12 +5459,15 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_FUNC9/longDesc</name>
   <message>
   <source>Select what should be output on SIM Channel 9.
+
 The default failsafe value is set according to the selected function:
 - 'Min' for ConstantMin
 - 'Max' for ConstantMax
 - 'Max' for Parachute
 - ('Max'+'Min')/2 for Servos
-- 'Disarmed' for the rest</source>
+- 'Disarmed' for the rest
+
+</source>
   </message>
 </context>
 <context>
@@ -5725,7 +5786,9 @@ The default failsafe value is set according to the selected function:
   <name>/parameters/PWM_MAIN_REV/longDesc</name>
   <message>
   <source>Allows to reverse the output range for each channel.
-Note: this is only useful for servos.</source>
+Note: this is only useful for servos.
+
+</source>
   </message>
 </context>
 <context>
@@ -5833,7 +5896,8 @@ Note: this is only useful for servos.</source>
 <context>
   <name>/parameters/ASPD_BETA_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -5845,7 +5909,8 @@ Note: this is only useful for servos.</source>
 <context>
   <name>/parameters/ASPD_BETA_NOISE/longDesc</name>
   <message>
-  <source>Sideslip measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
+  <source>Sideslip measurement noise of the internal wind estimator(s) of the airspeed selector.
+</source>
   </message>
 </context>
 <context>
@@ -5858,7 +5923,9 @@ Note: this is only useful for servos.</source>
   <name>/parameters/ASPD_DO_CHECKS/longDesc</name>
   <message>
   <source>Controls which checks are run to check airspeed data for validity. Only applied if ASPD_PRIMARY &gt; 0.
-Note: The missing data check (bit 0) is implicitly always enabled when ASPD_DO_CHECKS &gt; 0, even if bit 0 is not explicitly set.</source>
+
+Note: The missing data check (bit 0) is implicitly always enabled when ASPD_DO_CHECKS &gt; 0, even if bit 0 is not explicitly set.
+</source>
   </message>
 </context>
 <context>
@@ -5928,7 +5995,8 @@ Note: The missing data check (bit 0) is implicitly always enabled when ASPD_DO_C
 Triggers when the airspeed change within this window is negative while throttle increases
 and the vehicle pitches down.
 Is meant to catch degrading airspeed blockages as can happen when flying through icing conditions.
-Relies on  FW_THR_TRIM being set accurately.</source>
+Relies on  FW_THR_TRIM being set accurately.
+</source>
   </message>
 </context>
 <context>
@@ -5943,7 +6011,8 @@ Relies on  FW_THR_TRIM being set accurately.</source>
   <source>This specifies the minimum airspeed innovation required to trigger a failsafe. Larger values make the check less sensitive,
 smaller values make it more sensitive. Large innovations indicate an inconsistency between predicted (groundspeed - windspeeed)
 and measured airspeed.
-The time required to detect a fault when the threshold is exceeded depends on the size of the exceedance and is controlled by the ASPD_FS_INTEG parameter.</source>
+The time required to detect a fault when the threshold is exceeded depends on the size of the exceedance and is controlled by the ASPD_FS_INTEG parameter.
+</source>
   </message>
 </context>
 <context>
@@ -5956,7 +6025,8 @@ The time required to detect a fault when the threshold is exceeded depends on th
   <name>/parameters/ASPD_FS_INTEG/longDesc</name>
   <message>
   <source>This sets the time integral of airspeed innovation exceedance above ASPD_FS_INNOV required to trigger a failsafe.
-Larger values make the check less sensitive, smaller positive values make it more sensitive.</source>
+Larger values make the check less sensitive, smaller positive values make it more sensitive.
+</source>
   </message>
 </context>
 <context>
@@ -5969,7 +6039,8 @@ Larger values make the check less sensitive, smaller positive values make it mor
   <name>/parameters/ASPD_FS_T_START/longDesc</name>
   <message>
   <source>Delay before switching back to using airspeed sensor if checks indicate sensor is good.
-Set to a negative value to disable the re-enabling in flight.</source>
+Set to a negative value to disable the re-enabling in flight.
+</source>
   </message>
 </context>
 <context>
@@ -5981,7 +6052,8 @@ Set to a negative value to disable the re-enabling in flight.</source>
 <context>
   <name>/parameters/ASPD_FS_T_STOP/longDesc</name>
   <message>
-  <source>Delay before stopping use of airspeed sensor if checks indicate sensor is bad.</source>
+  <source>Delay before stopping use of airspeed sensor if checks indicate sensor is bad.
+</source>
   </message>
 </context>
 <context>
@@ -6029,7 +6101,8 @@ Set to a negative value to disable the re-enabling in flight.</source>
 <context>
   <name>/parameters/ASPD_SCALE_1/longDesc</name>
   <message>
-  <source>This is the scale IAS --&gt; CAS of the first airspeed sensor instance</source>
+  <source>This is the scale IAS --&gt; CAS of the first airspeed sensor instance
+</source>
   </message>
 </context>
 <context>
@@ -6041,7 +6114,8 @@ Set to a negative value to disable the re-enabling in flight.</source>
 <context>
   <name>/parameters/ASPD_SCALE_2/longDesc</name>
   <message>
-  <source>This is the scale IAS --&gt; CAS of the second airspeed sensor instance</source>
+  <source>This is the scale IAS --&gt; CAS of the second airspeed sensor instance
+</source>
   </message>
 </context>
 <context>
@@ -6053,7 +6127,8 @@ Set to a negative value to disable the re-enabling in flight.</source>
 <context>
   <name>/parameters/ASPD_SCALE_3/longDesc</name>
   <message>
-  <source>This is the scale IAS --&gt; CAS of the third airspeed sensor instance</source>
+  <source>This is the scale IAS --&gt; CAS of the third airspeed sensor instance
+</source>
   </message>
 </context>
 <context>
@@ -6090,7 +6165,8 @@ Set to a negative value to disable the re-enabling in flight.</source>
   <name>/parameters/ASPD_SCALE_NSD/longDesc</name>
   <message>
   <source>Airspeed scale process noise of the internal wind estimator(s) of the airspeed selector.
-When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount every second.</source>
+When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount every second.
+</source>
   </message>
 </context>
 <context>
@@ -6102,7 +6178,8 @@ When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount
 <context>
   <name>/parameters/ASPD_TAS_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -6114,7 +6191,8 @@ When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount
 <context>
   <name>/parameters/ASPD_TAS_NOISE/longDesc</name>
   <message>
-  <source>True airspeed measurement noise of the internal wind estimator(s) of the airspeed selector.</source>
+  <source>True airspeed measurement noise of the internal wind estimator(s) of the airspeed selector.
+</source>
   </message>
 </context>
 <context>
@@ -6127,7 +6205,8 @@ When unaided, the scale uncertainty (1-sigma, unitless) increases by this amount
   <name>/parameters/ASPD_WERR_THR/longDesc</name>
   <message>
   <source>The airspeed alternative derived from groundspeed and heading will be declared valid
-as soon and as long the horizontal wind uncertainty is below this value.</source>
+as soon and as long the horizontal wind uncertainty is below this value.
+</source>
   </message>
 </context>
 <context>
@@ -6140,7 +6219,8 @@ as soon and as long the horizontal wind uncertainty is below this value.</source
   <name>/parameters/ASPD_WIND_NSD/longDesc</name>
   <message>
   <source>Wind process noise of the internal wind estimator(s) of the airspeed selector.
-When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.</source>
+When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.
+</source>
   </message>
 </context>
 <context>
@@ -6176,7 +6256,8 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
 <context>
   <name>/parameters/ATT_EN/longDesc</name>
   <message>
-  <source>Enable standalone quaternion based attitude estimator.</source>
+  <source>Enable standalone quaternion based attitude estimator.
+</source>
   </message>
 </context>
 <context>
@@ -6201,7 +6282,8 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
   <name>/parameters/ATT_EXT_HDG_M/longDesc</name>
   <message>
   <source>Set to 1 to use heading estimate from vision.
-Set to 2 to use heading from motion capture.</source>
+Set to 2 to use heading from motion capture.
+</source>
   </message>
 </context>
 <context>
@@ -6233,7 +6315,8 @@ Set to 2 to use heading from motion capture.</source>
   <message>
   <source>This parameter is not used in normal operation,
 as the declination is looked up based on the
-GPS coordinates of the vehicle.</source>
+GPS coordinates of the vehicle.
+</source>
   </message>
 </context>
 <context>
@@ -6281,7 +6364,8 @@ GPS coordinates of the vehicle.</source>
 <context>
   <name>/parameters/ATT_W_MAG/longDesc</name>
   <message>
-  <source>Set to 0 to avoid using the magnetometer.</source>
+  <source>Set to 0 to avoid using the magnetometer.
+</source>
   </message>
 </context>
 <context>
@@ -6295,7 +6379,8 @@ GPS coordinates of the vehicle.</source>
   <message>
   <source>After the auto-tuning sequence is completed,
 a new set of gains is available and can be applied
-immediately or after landing.</source>
+immediately or after landing.
+</source>
   </message>
 </context>
 <context>
@@ -6326,10 +6411,12 @@ immediately or after landing.</source>
   <name>/parameters/FW_AT_AXES/longDesc</name>
   <message>
   <source>Defines which axes will be tuned during the auto-tuning sequence
+
 Set bits in the following positions to enable:
 0 : Roll
 1 : Pitch
-2 : Yaw</source>
+2 : Yaw
+</source>
   </message>
 </context>
 <context>
@@ -6359,7 +6446,8 @@ Set bits in the following positions to enable:
 <context>
   <name>/parameters/FW_AT_MAN_AUX/longDesc</name>
   <message>
-  <source>Defines which RC_MAP_AUXn parameter maps the manual control channel used to enable/disable auto tuning.</source>
+  <source>Defines which RC_MAP_AUXn parameter maps the manual control channel used to enable/disable auto tuning.
+</source>
   </message>
 </context>
 <context>
@@ -6413,7 +6501,8 @@ Set bits in the following positions to enable:
 <context>
   <name>/parameters/FW_AT_SYSID_F0/longDesc</name>
   <message>
-  <source>Can be set lower or higher than the end frequency</source>
+  <source>Can be set lower or higher than the end frequency
+</source>
   </message>
 </context>
 <context>
@@ -6425,7 +6514,8 @@ Set bits in the following positions to enable:
 <context>
   <name>/parameters/FW_AT_SYSID_F1/longDesc</name>
   <message>
-  <source>Can be set lower or higher than the start frequency</source>
+  <source>Can be set lower or higher than the start frequency
+</source>
   </message>
 </context>
 <context>
@@ -6437,7 +6527,8 @@ Set bits in the following positions to enable:
 <context>
   <name>/parameters/FW_AT_SYSID_TIME/longDesc</name>
   <message>
-  <source>Duration of the input signal sent on each axis during system identification</source>
+  <source>Duration of the input signal sent on each axis during system identification
+</source>
   </message>
 </context>
 <context>
@@ -6449,7 +6540,8 @@ Set bits in the following positions to enable:
 <context>
   <name>/parameters/FW_AT_SYSID_TYPE/longDesc</name>
   <message>
-  <source>Type of signal used during system identification to excite the system.</source>
+  <source>Type of signal used during system identification to excite the system.
+</source>
   </message>
 </context>
 <context>
@@ -6482,9 +6574,11 @@ Set bits in the following positions to enable:
   <source>After the auto-tuning sequence is completed,
 a new set of gains is available and can be applied
 immediately or after landing.
+
 WARNING Applying the gains in air is dangerous as there is no
 guarantee that those new gains will be able to stabilize
-the drone properly.</source>
+the drone properly.
+</source>
   </message>
 </context>
 <context>
@@ -6544,7 +6638,9 @@ the drone properly.</source>
 <context>
   <name>/parameters/BAT1_CAPACITY/longDesc</name>
   <message>
-  <source>Defines the capacity of battery 1 in mAh.</source>
+  <source>Defines the capacity of battery 1 in mAh.
+
+</source>
   </message>
 </context>
 <context>
@@ -6556,7 +6652,9 @@ the drone properly.</source>
 <context>
   <name>/parameters/BAT1_N_CELLS/longDesc</name>
   <message>
-  <source>Defines the number of cells the attached battery consists of.</source>
+  <source>Defines the number of cells the attached battery consists of.
+
+</source>
   </message>
 </context>
 <context>
@@ -6670,7 +6768,9 @@ the drone properly.</source>
 <context>
   <name>/parameters/BAT1_R_INTERNAL/longDesc</name>
   <message>
-  <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
+  <source>If non-negative, then this will be used instead of the online estimated internal resistance.
+
+</source>
   </message>
 </context>
 <context>
@@ -6691,7 +6791,9 @@ I2C power monitors are digital sensors on the I2C bus.
 If the value is set to 'External' then the system expects to receive MAVLink
 or CAN battery status messages, or the battery data is published by an external driver.
 If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current (via ESC telemetry).</source>
+This requires the ESC to provide both voltage as well as current (via ESC telemetry).
+
+</source>
   </message>
 </context>
 <context>
@@ -6728,7 +6830,9 @@ This requires the ESC to provide both voltage as well as current (via ESC teleme
   <name>/parameters/BAT1_V_CHARGED/longDesc</name>
   <message>
   <source>Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</source>
+For a more accurate estimate set this below the nominal voltage of e.g. 4.2V
+
+</source>
   </message>
 </context>
 <context>
@@ -6743,7 +6847,9 @@ For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</so
   <source>Defines the voltage where a single cell of the battery is considered empty.
 The voltage should be chosen above the steep dropoff at 3.5V. A typical
 lithium battery can only be discharged under high load down to 10% before
-it drops off to a voltage level damaging the cells.</source>
+it drops off to a voltage level damaging the cells.
+
+</source>
   </message>
 </context>
 <context>
@@ -6755,7 +6861,9 @@ it drops off to a voltage level damaging the cells.</source>
 <context>
   <name>/parameters/BAT2_CAPACITY/longDesc</name>
   <message>
-  <source>Defines the capacity of battery 2 in mAh.</source>
+  <source>Defines the capacity of battery 2 in mAh.
+
+</source>
   </message>
 </context>
 <context>
@@ -6767,7 +6875,9 @@ it drops off to a voltage level damaging the cells.</source>
 <context>
   <name>/parameters/BAT2_N_CELLS/longDesc</name>
   <message>
-  <source>Defines the number of cells the attached battery consists of.</source>
+  <source>Defines the number of cells the attached battery consists of.
+
+</source>
   </message>
 </context>
 <context>
@@ -6881,7 +6991,9 @@ it drops off to a voltage level damaging the cells.</source>
 <context>
   <name>/parameters/BAT2_R_INTERNAL/longDesc</name>
   <message>
-  <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
+  <source>If non-negative, then this will be used instead of the online estimated internal resistance.
+
+</source>
   </message>
 </context>
 <context>
@@ -6902,7 +7014,9 @@ I2C power monitors are digital sensors on the I2C bus.
 If the value is set to 'External' then the system expects to receive MAVLink
 or CAN battery status messages, or the battery data is published by an external driver.
 If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current (via ESC telemetry).</source>
+This requires the ESC to provide both voltage as well as current (via ESC telemetry).
+
+</source>
   </message>
 </context>
 <context>
@@ -6939,7 +7053,9 @@ This requires the ESC to provide both voltage as well as current (via ESC teleme
   <name>/parameters/BAT2_V_CHARGED/longDesc</name>
   <message>
   <source>Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</source>
+For a more accurate estimate set this below the nominal voltage of e.g. 4.2V
+
+</source>
   </message>
 </context>
 <context>
@@ -6954,7 +7070,9 @@ For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</so
   <source>Defines the voltage where a single cell of the battery is considered empty.
 The voltage should be chosen above the steep dropoff at 3.5V. A typical
 lithium battery can only be discharged under high load down to 10% before
-it drops off to a voltage level damaging the cells.</source>
+it drops off to a voltage level damaging the cells.
+
+</source>
   </message>
 </context>
 <context>
@@ -6966,7 +7084,9 @@ it drops off to a voltage level damaging the cells.</source>
 <context>
   <name>/parameters/BAT3_CAPACITY/longDesc</name>
   <message>
-  <source>Defines the capacity of battery 3 in mAh.</source>
+  <source>Defines the capacity of battery 3 in mAh.
+
+</source>
   </message>
 </context>
 <context>
@@ -6978,7 +7098,9 @@ it drops off to a voltage level damaging the cells.</source>
 <context>
   <name>/parameters/BAT3_N_CELLS/longDesc</name>
   <message>
-  <source>Defines the number of cells the attached battery consists of.</source>
+  <source>Defines the number of cells the attached battery consists of.
+
+</source>
   </message>
 </context>
 <context>
@@ -7092,7 +7214,9 @@ it drops off to a voltage level damaging the cells.</source>
 <context>
   <name>/parameters/BAT3_R_INTERNAL/longDesc</name>
   <message>
-  <source>If non-negative, then this will be used instead of the online estimated internal resistance.</source>
+  <source>If non-negative, then this will be used instead of the online estimated internal resistance.
+
+</source>
   </message>
 </context>
 <context>
@@ -7113,7 +7237,9 @@ I2C power monitors are digital sensors on the I2C bus.
 If the value is set to 'External' then the system expects to receive MAVLink
 or CAN battery status messages, or the battery data is published by an external driver.
 If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current (via ESC telemetry).</source>
+This requires the ESC to provide both voltage as well as current (via ESC telemetry).
+
+</source>
   </message>
 </context>
 <context>
@@ -7150,7 +7276,9 @@ This requires the ESC to provide both voltage as well as current (via ESC teleme
   <name>/parameters/BAT3_V_CHARGED/longDesc</name>
   <message>
   <source>Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</source>
+For a more accurate estimate set this below the nominal voltage of e.g. 4.2V
+
+</source>
   </message>
 </context>
 <context>
@@ -7165,7 +7293,9 @@ For a more accurate estimate set this below the nominal voltage of e.g. 4.2V</so
   <source>Defines the voltage where a single cell of the battery is considered empty.
 The voltage should be chosen above the steep dropoff at 3.5V. A typical
 lithium battery can only be discharged under high load down to 10% before
-it drops off to a voltage level damaging the cells.</source>
+it drops off to a voltage level damaging the cells.
+
+</source>
   </message>
 </context>
 <context>
@@ -7178,7 +7308,9 @@ it drops off to a voltage level damaging the cells.</source>
   <name>/parameters/BAT_AVRG_CURRENT/longDesc</name>
   <message>
   <source>This value is used to initialize the in-flight average current estimation,
-which in turn is used for estimating remaining flight time and RTL triggering.</source>
+which in turn is used for estimating remaining flight time and RTL triggering.
+
+</source>
   </message>
 </context>
 <context>
@@ -7192,7 +7324,9 @@ which in turn is used for estimating remaining flight time and RTL triggering.</
   <message>
   <source>Sets the threshold when the battery will be reported as critically low.
 This has to be lower than the low threshold. This threshold commonly
-will trigger RTL.</source>
+will trigger RTL.
+
+</source>
   </message>
 </context>
 <context>
@@ -7206,7 +7340,9 @@ will trigger RTL.</source>
   <message>
   <source>Sets the threshold when the battery will be reported as dangerously low.
 This has to be lower than the critical threshold. This threshold commonly
-will trigger landing.</source>
+will trigger landing.
+
+</source>
   </message>
 </context>
 <context>
@@ -7219,7 +7355,9 @@ will trigger landing.</source>
   <name>/parameters/BAT_LOW_THR/longDesc</name>
   <message>
   <source>Sets the threshold when the battery will be reported as low.
-This has to be higher than the critical threshold.</source>
+This has to be higher than the critical threshold.
+
+</source>
   </message>
 </context>
 <context>
@@ -7231,7 +7369,8 @@ This has to be higher than the critical threshold.</source>
 <context>
   <name>/parameters/TRIG_ACT_TIME/longDesc</name>
   <message>
-  <source>This parameter sets the time the trigger needs to pulled high or low.</source>
+  <source>This parameter sets the time the trigger needs to pulled high or low.
+</source>
   </message>
 </context>
 <context>
@@ -7243,7 +7382,8 @@ This has to be higher than the critical threshold.</source>
 <context>
   <name>/parameters/TRIG_DISTANCE/longDesc</name>
   <message>
-  <source>Sets the distance at which to trigger the camera.</source>
+  <source>Sets the distance at which to trigger the camera.
+</source>
   </message>
 </context>
 <context>
@@ -7255,7 +7395,8 @@ This has to be higher than the critical threshold.</source>
 <context>
   <name>/parameters/TRIG_INTERFACE/longDesc</name>
   <message>
-  <source>Selects the trigger interface</source>
+  <source>Selects the trigger interface
+</source>
   </message>
 </context>
 <context>
@@ -7291,7 +7432,8 @@ This has to be higher than the critical threshold.</source>
 <context>
   <name>/parameters/TRIG_INTERVAL/longDesc</name>
   <message>
-  <source>This parameter sets the time between two consecutive trigger events</source>
+  <source>This parameter sets the time between two consecutive trigger events
+</source>
   </message>
 </context>
 <context>
@@ -7304,7 +7446,8 @@ This has to be higher than the critical threshold.</source>
   <name>/parameters/TRIG_MIN_INTERVA/longDesc</name>
   <message>
   <source>This parameter sets the minimum time between two consecutive trigger events
-the specific camera setup is supporting.</source>
+the specific camera setup is supporting.
+</source>
   </message>
 </context>
 <context>
@@ -7352,7 +7495,8 @@ the specific camera setup is supporting.</source>
 <context>
   <name>/parameters/TRIG_POLARITY/longDesc</name>
   <message>
-  <source>This parameter sets the polarity of the trigger (0 = active low, 1 = active high )</source>
+  <source>This parameter sets the polarity of the trigger (0 = active low, 1 = active high )
+</source>
   </message>
 </context>
 <context>
@@ -7389,8 +7533,10 @@ the specific camera setup is supporting.</source>
   <name>/parameters/CBRK_BUZZER/longDesc</name>
   <message>
   <source>Setting this parameter to 782097 will disable the buzzer audio notification.
+
 Setting this parameter to 782090 will disable the startup tune, while keeping
-all others enabled.</source>
+all others enabled.
+</source>
   </message>
 </context>
 <context>
@@ -7405,7 +7551,8 @@ all others enabled.</source>
   <source>Setting this parameter to 121212 will disable the flight termination action if triggered
 by the FailureDetector logic or if FMU is lost.
 This circuit breaker does not affect the RC loss, data link loss, geofence,
-and takeoff failure detection safety logic.</source>
+and takeoff failure detection safety logic.
+</source>
   </message>
 </context>
 <context>
@@ -7418,7 +7565,8 @@ and takeoff failure detection safety logic.</source>
   <name>/parameters/CBRK_IO_SAFETY/longDesc</name>
   <message>
   <source>Setting this parameter to 22027 will disable IO safety.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
+WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK
+</source>
   </message>
 </context>
 <context>
@@ -7432,7 +7580,8 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
   <message>
   <source>Setting this parameter to 894281 will disable the power valid
 checks in the commander.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
+WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK
+</source>
   </message>
 </context>
 <context>
@@ -7446,10 +7595,12 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
   <message>
   <source>Setting this parameter to 197848 will disable the USB connected
 checks in the commander, setting it to 0 keeps them enabled (recommended).
+
 We are generally recommending to not fly with the USB link
 connected and production vehicles should set this parameter to
 zero to prevent users from flying USB powered. However, for R&amp;D purposes
-it has proven over the years to work just fine.</source>
+it has proven over the years to work just fine.
+</source>
   </message>
 </context>
 <context>
@@ -7463,7 +7614,8 @@ it has proven over the years to work just fine.</source>
   <message>
   <source>Setting this parameter to 159753 will enable arming in fixed-wing
 mode for VTOLs.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
+WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK
+</source>
   </message>
 </context>
 <context>
@@ -7476,7 +7628,8 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK</source>
   <name>/parameters/COM_ACT_FAIL_ACT/longDesc</name>
   <message>
   <source>Note: actuator failure needs to be enabled and configured via FD_ACT_*
-parameters.</source>
+parameters.
+</source>
   </message>
 </context>
 <context>
@@ -7518,7 +7671,8 @@ parameters.</source>
 <context>
   <name>/parameters/COM_ARMABLE/longDesc</name>
   <message>
-  <source>Set 0 to prevent accidental use of the vehicle e.g. for safety or maintenance reasons.</source>
+  <source>Set 0 to prevent accidental use of the vehicle e.g. for safety or maintenance reasons.
+</source>
   </message>
 </context>
 <context>
@@ -7542,7 +7696,8 @@ parameters.</source>
 <context>
   <name>/parameters/COM_ARM_AUTH_ID/longDesc</name>
   <message>
-  <source>Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
+  <source>Used if arm authorization is requested by COM_ARM_AUTH_REQ.
+</source>
   </message>
 </context>
 <context>
@@ -7558,7 +7713,9 @@ parameters.</source>
 - one arm: request authorization and arm when authorization is received
 - two step arm: 1st arm command request an authorization and
 2nd arm command arm the drone if authorized
-Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
+
+Used if arm authorization is requested by COM_ARM_AUTH_REQ.
+</source>
   </message>
 </context>
 <context>
@@ -7582,7 +7739,8 @@ Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
 <context>
   <name>/parameters/COM_ARM_AUTH_REQ/longDesc</name>
   <message>
-  <source>By default off. The default allows to arm the vehicle without a arm authorization.</source>
+  <source>By default off. The default allows to arm the vehicle without a arm authorization.
+</source>
   </message>
 </context>
 <context>
@@ -7607,7 +7765,8 @@ Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
   <name>/parameters/COM_ARM_AUTH_TO/longDesc</name>
   <message>
   <source>Timeout for authorizer answer.
-Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
+Used if arm authorization is requested by COM_ARM_AUTH_REQ.
+</source>
   </message>
 </context>
 <context>
@@ -7620,7 +7779,9 @@ Used if arm authorization is requested by COM_ARM_AUTH_REQ.</source>
   <name>/parameters/COM_ARM_BAT_MIN/longDesc</name>
   <message>
   <source>Threshold for battery percentage below arming is prohibited.
-A negative value means BAT_CRIT_THR is the threshold.</source>
+
+A negative value means BAT_CRIT_THR is the threshold.
+</source>
   </message>
 </context>
 <context>
@@ -7633,7 +7794,8 @@ A negative value means BAT_CRIT_THR is the threshold.</source>
   <name>/parameters/COM_ARM_CHK_ESCS/longDesc</name>
   <message>
   <source>If this parameter is set, the system will check ESC's online status and failures.
-This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.</source>
+This param is specific for ESCs reporting status. It shall be used only if ESCs support telemetry.
+</source>
   </message>
 </context>
 <context>
@@ -7658,7 +7820,8 @@ This param is specific for ESCs reporting status. It shall be used only if ESCs 
   <name>/parameters/COM_ARM_HFLT_CHK/longDesc</name>
   <message>
   <source>This check detects if there are hardfault / watchdog files present on the
-SD card. If so, and the parameter is enabled, arming is prevented.</source>
+SD card. If so, and the parameter is enabled, arming is prevented.
+</source>
   </message>
 </context>
 <context>
@@ -7694,7 +7857,8 @@ SD card. If so, and the parameter is enabled, arming is prevented.</source>
 <context>
   <name>/parameters/COM_ARM_MAG_ANG/longDesc</name>
   <message>
-  <source>Set -1 to disable the check.</source>
+  <source>Set -1 to disable the check.
+</source>
   </message>
 </context>
 <context>
@@ -7707,7 +7871,8 @@ SD card. If so, and the parameter is enabled, arming is prevented.</source>
   <name>/parameters/COM_ARM_MAG_STR/longDesc</name>
   <message>
   <source>Check if the estimator detects a strong magnetic
-disturbance (check enabled by EKF2_MAG_CHECK)</source>
+disturbance (check enabled by EKF2_MAG_CHECK)
+</source>
   </message>
 </context>
 <context>
@@ -7737,7 +7902,8 @@ disturbance (check enabled by EKF2_MAG_CHECK)</source>
 <context>
   <name>/parameters/COM_ARM_MIS_REQ/longDesc</name>
   <message>
-  <source>The default allows to arm the vehicle without a valid mission.</source>
+  <source>The default allows to arm the vehicle without a valid mission.
+</source>
   </message>
 </context>
 <context>
@@ -7763,7 +7929,8 @@ disturbance (check enabled by EKF2_MAG_CHECK)</source>
   <message>
   <source>This check detects if the Open Drone ID system is missing.
 Depending on the value of the parameter, the check can be
-disabled, warn only or deny arming.</source>
+disabled, warn only or deny arming.
+</source>
   </message>
 </context>
 <context>
@@ -7795,7 +7962,8 @@ disabled, warn only or deny arming.</source>
   <message>
   <source>This check detects if the FMU SD card is missing.
 Depending on the value of the parameter, the check can be
-disabled, warn only or deny arming.</source>
+disabled, warn only or deny arming.
+</source>
   </message>
 </context>
 <context>
@@ -7826,7 +7994,8 @@ disabled, warn only or deny arming.</source>
   <name>/parameters/COM_ARM_SWISBTN/longDesc</name>
   <message>
   <source>0: Arming/disarming triggers on switch transition.
-1: Arming/disarming triggers when holding the momentary button down like the stick gesture.</source>
+1: Arming/disarming triggers when holding the momentary button down like the stick gesture.
+</source>
   </message>
 </context>
 <context>
@@ -7852,7 +8021,8 @@ disabled, warn only or deny arming.</source>
   <message>
   <source>This check detects if a traffic avoidance system (ADSB/FLARM transponder)
 is missing. Depending on the value of the parameter, the check can be
-disabled, warn only, or deny arming.</source>
+disabled, warn only, or deny arming.
+</source>
   </message>
 </context>
 <context>
@@ -7890,7 +8060,8 @@ disabled, warn only, or deny arming.</source>
   <message>
   <source>Configures whether arming is allowed without GNSS, for modes that require a global position
 (specifically, in those modes when a check defined by EKF2_GPS_CHECK fails).
-The settings deny arming and warn, allow arming and warn, or silently allow arming.</source>
+The settings deny arming and warn, allow arming and warn, or silently allow arming.
+</source>
   </message>
 </context>
 <context>
@@ -7921,7 +8092,9 @@ The settings deny arming and warn, allow arming and warn, or silently allow armi
   <name>/parameters/COM_CPU_MAX/longDesc</name>
   <message>
   <source>The check fails if the CPU load is above this threshold for 2s.
-A negative value disables the check.</source>
+
+A negative value disables the check.
+</source>
   </message>
 </context>
 <context>
@@ -7935,7 +8108,9 @@ A negative value disables the check.</source>
   <message>
   <source>A non-zero, positive value specifies the time-out period in seconds after which the vehicle will be
 automatically disarmed in case a landing situation has been detected during this period.
-A zero or negative value means that automatic disarming triggered by landing detection is disabled.</source>
+
+A zero or negative value means that automatic disarming triggered by landing detection is disabled.
+</source>
   </message>
 </context>
 <context>
@@ -7950,7 +8125,8 @@ A zero or negative value means that automatic disarming triggered by landing det
   <source>0: Disallow disarming when not landed
 1: Allow disarming in multicopter flight in modes where
 the thrust is directly controlled by thr throttle stick
-e.g. Stabilized, Acro</source>
+e.g. Stabilized, Acro
+</source>
   </message>
 </context>
 <context>
@@ -7977,7 +8153,9 @@ e.g. Stabilized, Acro</source>
   <source>A non-zero, positive value specifies the time in seconds, within which the
 vehicle is expected to take off after arming. In case the vehicle didn't takeoff
 within the timeout it disarms again.
-A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.</source>
+
+A negative value disables autmoatic disarming triggered by a pre-takeoff timeout.
+</source>
   </message>
 </context>
 <context>
@@ -7990,7 +8168,8 @@ A negative value disables autmoatic disarming triggered by a pre-takeoff timeout
   <name>/parameters/COM_DLL_EXCEPT/longDesc</name>
   <message>
   <source>Specify modes in which ground control station connection loss is ignored and no failsafe action is triggered.
-See also COM_RCL_EXCEPT.</source>
+See also COM_RCL_EXCEPT.
+</source>
   </message>
 </context>
 <context>
@@ -8032,7 +8211,8 @@ See also COM_RCL_EXCEPT.</source>
 <context>
   <name>/parameters/COM_DL_LOSS_T/longDesc</name>
   <message>
-  <source>After this amount of seconds without datalink, the GCS connection lost mode triggers</source>
+  <source>After this amount of seconds without datalink, the GCS connection lost mode triggers
+</source>
   </message>
 </context>
 <context>
@@ -8048,7 +8228,9 @@ See also COM_RCL_EXCEPT.</source>
 for the user to realize.
 During that time the user can switch modes, but cannot take over control via the stick override feature (see COM_RC_OVERRIDE).
 Afterwards the configured failsafe action is triggered and the user may use stick override.
-A zero value disables the delay.</source>
+
+A zero value disables the delay.
+</source>
   </message>
 </context>
 <context>
@@ -8062,7 +8244,8 @@ A zero value disables the delay.</source>
   <message>
   <source>This number is incremented automatically after every flight on
 disarming in order to remember the next flight UUID.
-The first flight is 0.</source>
+The first flight is 0.
+</source>
   </message>
 </context>
 <context>
@@ -8075,7 +8258,9 @@ The first flight is 0.</source>
   <name>/parameters/COM_FLTMODE1/longDesc</name>
   <message>
   <source>If the main switch channel is in this range the
-selected flight mode will be applied.</source>
+selected flight mode will be applied.
+
+</source>
   </message>
 </context>
 <context>
@@ -8232,7 +8417,9 @@ selected flight mode will be applied.</source>
   <name>/parameters/COM_FLTMODE2/longDesc</name>
   <message>
   <source>If the main switch channel is in this range the
-selected flight mode will be applied.</source>
+selected flight mode will be applied.
+
+</source>
   </message>
 </context>
 <context>
@@ -8389,7 +8576,9 @@ selected flight mode will be applied.</source>
   <name>/parameters/COM_FLTMODE3/longDesc</name>
   <message>
   <source>If the main switch channel is in this range the
-selected flight mode will be applied.</source>
+selected flight mode will be applied.
+
+</source>
   </message>
 </context>
 <context>
@@ -8546,7 +8735,9 @@ selected flight mode will be applied.</source>
   <name>/parameters/COM_FLTMODE4/longDesc</name>
   <message>
   <source>If the main switch channel is in this range the
-selected flight mode will be applied.</source>
+selected flight mode will be applied.
+
+</source>
   </message>
 </context>
 <context>
@@ -8703,7 +8894,9 @@ selected flight mode will be applied.</source>
   <name>/parameters/COM_FLTMODE5/longDesc</name>
   <message>
   <source>If the main switch channel is in this range the
-selected flight mode will be applied.</source>
+selected flight mode will be applied.
+
+</source>
   </message>
 </context>
 <context>
@@ -8860,7 +9053,9 @@ selected flight mode will be applied.</source>
   <name>/parameters/COM_FLTMODE6/longDesc</name>
   <message>
   <source>If the main switch channel is in this range the
-selected flight mode will be applied.</source>
+selected flight mode will be applied.
+
+</source>
   </message>
 </context>
 <context>
@@ -9017,7 +9212,8 @@ selected flight mode will be applied.</source>
   <name>/parameters/COM_FLTT_LOW_ACT/longDesc</name>
   <message>
   <source>Action the system takes when the remaining flight time is below
-the estimated time it takes to reach the RTL destination.</source>
+the estimated time it takes to reach the RTL destination.
+</source>
   </message>
 </context>
 <context>
@@ -9049,7 +9245,8 @@ the estimated time it takes to reach the RTL destination.</source>
   <message>
   <source>Describes the intended use of the vehicle.
 Can be used by ground control software or log post processing.
-This param does not influence the behavior within the firmware. This means for example the control logic is independent of the setting of this param (but depends on other params).</source>
+This param does not influence the behavior within the firmware. This means for example the control logic is independent of the setting of this param (but depends on other params).
+</source>
   </message>
 </context>
 <context>
@@ -9089,9 +9286,12 @@ This param does not influence the behavior within the firmware. This means for e
 the time since takeoff is above this value. It is not possible to resume the
 mission or switch to any auto mode other than RTL or Land. Taking over in any manual
 mode is still possible.
+
 Starting from 90% of the maximum flight time, a warning message will be sent
 every 1 minute with the remaining time until automatic RTL.
-Set to -1 to disable.</source>
+
+Set to -1 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -9103,7 +9303,8 @@ Set to -1 to disable.</source>
 <context>
   <name>/parameters/COM_FORCE_SAFETY/longDesc</name>
   <message>
-  <source>Force safety when the vehicle disarms</source>
+  <source>Force safety when the vehicle disarms
+</source>
   </message>
 </context>
 <context>
@@ -9127,7 +9328,8 @@ Set to -1 to disable.</source>
 <context>
   <name>/parameters/COM_HLDL_LOSS_T/longDesc</name>
   <message>
-  <source>After this amount of seconds without datalink the data link lost mode triggers</source>
+  <source>After this amount of seconds without datalink the data link lost mode triggers
+</source>
   </message>
 </context>
 <context>
@@ -9140,7 +9342,8 @@ Set to -1 to disable.</source>
   <name>/parameters/COM_HLDL_REG_T/longDesc</name>
   <message>
   <source>After a data link loss: after this number of seconds with a healthy datalink the 'datalink loss'
-flag is set back to false</source>
+flag is set back to false
+</source>
   </message>
 </context>
 <context>
@@ -9153,9 +9356,11 @@ flag is set back to false</source>
   <name>/parameters/COM_HOME_EN/longDesc</name>
   <message>
   <source>Set home position automatically if possible.
+
 During missions, the latitude/longitude of the home position is locked and will not reset during intermediate landings.
 It will only update once the mission is complete or landed outside of a mission.
-However, the altitude is still being adjusted to correct for GNSS vertical drift in the first 2 minutes after takeoff.</source>
+However, the altitude is still being adjusted to correct for GNSS vertical drift in the first 2 minutes after takeoff.
+</source>
   </message>
 </context>
 <context>
@@ -9181,7 +9386,8 @@ However, the altitude is still being adjusted to correct for GNSS vertical drift
   <message>
   <source>If set to true, the autopilot is allowed to set its home position after takeoff
 The true home position is back-computed if a local position is estimate if available.
-If no local position is available, home is set to the current position.</source>
+If no local position is available, home is set to the current position.
+</source>
   </message>
 </context>
 <context>
@@ -9206,7 +9412,8 @@ If no local position is available, home is set to the current position.</source>
   <name>/parameters/COM_IMB_PROP_ACT/longDesc</name>
   <message>
   <source>Action the system takes when an imbalanced propeller is detected by the failure detector.
-See also FD_IMB_PROP_THR to set the failure threshold.</source>
+See also FD_IMB_PROP_THR to set the failure threshold.
+</source>
   </message>
 </context>
 <context>
@@ -9242,7 +9449,8 @@ See also FD_IMB_PROP_THR to set the failure threshold.</source>
 <context>
   <name>/parameters/COM_KILL_DISARM/longDesc</name>
   <message>
-  <source>Use RC_MAP_KILL_SW to map a kill switch.</source>
+  <source>Use RC_MAP_KILL_SW to map a kill switch.
+</source>
   </message>
 </context>
 <context>
@@ -9257,7 +9465,8 @@ See also FD_IMB_PROP_THR to set the failure threshold.</source>
   <source>A non-zero, positive value specifies the timeframe in seconds within failure detector is allowed to disarm the vehicle
 if attitude exceeds the limits defined in FD_FAIL_P and FD_FAIL_R.
 The check is not executed for flight modes that do support acrobatic maneuvers, e.g: Acro (MC/FW) and Manual (FW).
-A zero or negative value means that the check is disabled.</source>
+A zero or negative value means that the check is disabled.
+</source>
   </message>
 </context>
 <context>
@@ -9270,7 +9479,8 @@ A zero or negative value means that the check is disabled.</source>
   <name>/parameters/COM_LOW_BAT_ACT/longDesc</name>
   <message>
   <source>Action the system takes at critical battery. See also BAT_CRIT_THR and BAT_EMERGEN_THR
-for definition of battery states.</source>
+for definition of battery states.
+</source>
   </message>
 </context>
 <context>
@@ -9302,7 +9512,9 @@ for definition of battery states.</source>
   <message>
   <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</source>
+which is required when mapping an external mode to an RC switch.
+
+</source>
   </message>
 </context>
 <context>
@@ -9316,7 +9528,9 @@ which is required when mapping an external mode to an RC switch.</source>
   <message>
   <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</source>
+which is required when mapping an external mode to an RC switch.
+
+</source>
   </message>
 </context>
 <context>
@@ -9330,7 +9544,9 @@ which is required when mapping an external mode to an RC switch.</source>
   <message>
   <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</source>
+which is required when mapping an external mode to an RC switch.
+
+</source>
   </message>
 </context>
 <context>
@@ -9344,7 +9560,9 @@ which is required when mapping an external mode to an RC switch.</source>
   <message>
   <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</source>
+which is required when mapping an external mode to an RC switch.
+
+</source>
   </message>
 </context>
 <context>
@@ -9358,7 +9576,9 @@ which is required when mapping an external mode to an RC switch.</source>
   <message>
   <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</source>
+which is required when mapping an external mode to an RC switch.
+
+</source>
   </message>
 </context>
 <context>
@@ -9372,7 +9592,9 @@ which is required when mapping an external mode to an RC switch.</source>
   <message>
   <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</source>
+which is required when mapping an external mode to an RC switch.
+
+</source>
   </message>
 </context>
 <context>
@@ -9386,7 +9608,9 @@ which is required when mapping an external mode to an RC switch.</source>
   <message>
   <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</source>
+which is required when mapping an external mode to an RC switch.
+
+</source>
   </message>
 </context>
 <context>
@@ -9400,7 +9624,9 @@ which is required when mapping an external mode to an RC switch.</source>
   <message>
   <source>This parameter is automatically set to identify external modes. It ensures that modes
 get assigned to the same index independent from their startup order,
-which is required when mapping an external mode to an RC switch.</source>
+which is required when mapping an external mode to an RC switch.
+
+</source>
   </message>
 </context>
 <context>
@@ -9412,7 +9638,8 @@ which is required when mapping an external mode to an RC switch.</source>
 <context>
   <name>/parameters/COM_MODE_ARM_CHK/longDesc</name>
   <message>
-  <source>By default disabled for safety reasons</source>
+  <source>By default disabled for safety reasons
+</source>
   </message>
 </context>
 <context>
@@ -9437,7 +9664,8 @@ which is required when mapping an external mode to an RC switch.</source>
   <name>/parameters/COM_MOT_TEST_EN/longDesc</name>
   <message>
   <source>If set, enables the actuator test interface via MAVLink (ACTUATOR_TEST), that
-allows spinning the motors and moving the servos for testing purposes.</source>
+allows spinning the motors and moving the servos for testing purposes.
+</source>
   </message>
 </context>
 <context>
@@ -9468,7 +9696,8 @@ allows spinning the motors and moving the servos for testing purposes.</source>
   <name>/parameters/COM_OBL_RC_ACT/longDesc</name>
   <message>
   <source>The offboard loss failsafe will only be entered after a timeout,
-set by COM_OF_LOSS_T in seconds.</source>
+set by COM_OF_LOSS_T in seconds.
+</source>
   </message>
 </context>
 <context>
@@ -9528,7 +9757,8 @@ set by COM_OF_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/COM_OF_LOSS_T/longDesc</name>
   <message>
-  <source>See COM_OBL_RC_ACT to configure action.</source>
+  <source>See COM_OBL_RC_ACT to configure action.
+</source>
   </message>
 </context>
 <context>
@@ -9563,7 +9793,9 @@ If the previous position error was below this threshold, there is an additional
 factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).
 Only used for multicopters and VTOLs in hover mode.
 Independent from estimator positioning data timeout threshold (see EKF2_NOAID_TOUT).
-Set to -1 to disable.</source>
+
+Set to -1 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -9578,7 +9810,8 @@ Set to -1 to disable.</source>
   <source>Action the system takes when the estimated position has an accuracy below the specified threshold.
 See COM_POS_LOW_EPH to set the failsafe threshold.
 The failsafe action is only executed if the vehicle is in auto mission or auto loiter mode,
-otherwise it is only a warning.</source>
+otherwise it is only a warning.
+</source>
   </message>
 </context>
 <context>
@@ -9629,7 +9862,9 @@ otherwise it is only a warning.</source>
   <source>This triggers the action specified in COM_POS_LOW_ACT if the estimated position accuracy is below this threshold.
 Local position has to be still declared valid, which requires some kind of velocity aiding or large dead-reckoning time (EKF2_NOAID_TOUT),
 and a high failsafe threshold (COM_POS_FS_EPH).
-Set to -1 to disable.</source>
+
+Set to -1 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -9642,7 +9877,8 @@ Set to -1 to disable.</source>
   <name>/parameters/COM_POWER_COUNT/longDesc</name>
   <message>
   <source>This configures a check to verify the expected number of 5V rail power supplies are present. By default only one is expected.
-Note: CBRK_SUPPLY_CHK disables all power checks including this one.</source>
+Note: CBRK_SUPPLY_CHK disables all power checks including this one.
+</source>
   </message>
 </context>
 <context>
@@ -9655,7 +9891,8 @@ Note: CBRK_SUPPLY_CHK disables all power checks including this one.</source>
   <name>/parameters/COM_PREARM_MODE/longDesc</name>
   <message>
   <source>Condition to enter the prearmed state, an intermediate state between disarmed and armed
-in which non-throttling actuators are active.</source>
+in which non-throttling actuators are active.
+</source>
   </message>
 </context>
 <context>
@@ -9716,7 +9953,9 @@ in which non-throttling actuators are active.</source>
   <name>/parameters/COM_RAM_MAX/longDesc</name>
   <message>
   <source>The check fails if the RAM usage is above this threshold.
-A negative value disables the check.</source>
+
+A negative value disables the check.
+</source>
   </message>
 </context>
 <context>
@@ -9730,7 +9969,8 @@ A negative value disables the check.</source>
   <message>
   <source>Specify modes in which stick input is ignored and no failsafe action is triggered.
 External modes requiring stick input will still failsafe.
-Auto modes are: Hold, Takeoff, Land, RTL, Descend, Follow Target, Precland, Orbit.</source>
+Auto modes are: Hold, Takeoff, Land, RTL, Descend, Follow Target, Precland, Orbit.
+</source>
   </message>
 </context>
 <context>
@@ -9774,7 +10014,9 @@ Auto modes are: Hold, Takeoff, Land, RTL, Descend, Follow Target, Precland, Orbi
   <message>
   <source>Selects stick input selection behavior:
 either a traditional remote control receiver (RC) or a MAVLink joystick (MANUAL_CONTROL message)
+
 Priority sources are immediately switched to whenever they get valid.
+
 0 RC only. Requires valid RC calibration.
 1 MAVLink only. RC and related checks are disabled.
 2 Switches only if current source becomes invalid.
@@ -9783,7 +10025,8 @@ Priority sources are immediately switched to whenever they get valid.
 5 RC priority, then MAVLink (lower instance before higher)
 6 MAVLink priority (lower instance before higher), then RC
 7 RC priority, then MAVLink (higher instance before lower)
-8 MAVLink priority (higher instance before lower), then RC</source>
+8 MAVLink priority (higher instance before lower), then RC
+</source>
   </message>
 </context>
 <context>
@@ -9851,7 +10094,8 @@ Priority sources are immediately switched to whenever they get valid.
   <message>
   <source>The time in seconds without a new setpoint from RC or Joystick, after which the connection is considered lost.
 This must be kept short as the vehicle will use the last supplied setpoint until the timeout triggers.
-Ensure the value is not set lower than the update interval of the RC or Joystick.</source>
+Ensure the value is not set lower than the update interval of the RC or Joystick.
+</source>
   </message>
 </context>
 <context>
@@ -9866,7 +10110,8 @@ Ensure the value is not set lower than the update interval of the RC or Joystick
   <source>When enabled, moving the sticks more than COM_RC_STICK_OV
 immediately gives control back to the pilot by switching to Position mode and
 if position is unavailable Altitude mode.
-Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</source>
+Note: Only has an effect on multicopters, and VTOLs in multicopter mode.
+</source>
   </message>
 </context>
 <context>
@@ -9891,7 +10136,8 @@ Note: Only has an effect on multicopters, and VTOLs in multicopter mode.</source
   <name>/parameters/COM_RC_STICK_OV/longDesc</name>
   <message>
   <source>If COM_RC_OVERRIDE is enabled and the joystick input is moved more than this threshold
-the autopilot the pilot takes over control.</source>
+the autopilot the pilot takes over control.
+</source>
   </message>
 </context>
 <context>
@@ -9907,7 +10153,8 @@ the autopilot the pilot takes over control.</source>
 Goal:
 - Motors and propellers spool up to idle speed before getting commanded to spin faster
 - Timeout for ESCs and smart batteries to successfulyy do failure checks
-e.g. for stuck rotors before the vehicle is off the ground</source>
+e.g. for stuck rotors before the vehicle is off the ground
+</source>
   </message>
 </context>
 <context>
@@ -9919,7 +10166,8 @@ e.g. for stuck rotors before the vehicle is off the ground</source>
 <context>
   <name>/parameters/COM_TAKEOFF_ACT/longDesc</name>
   <message>
-  <source>The mode transition after TAKEOFF has completed successfully.</source>
+  <source>The mode transition after TAKEOFF has completed successfully.
+</source>
   </message>
 </context>
 <context>
@@ -9943,7 +10191,8 @@ e.g. for stuck rotors before the vehicle is off the ground</source>
 <context>
   <name>/parameters/COM_THROW_EN/longDesc</name>
   <message>
-  <source>Allows to start the vehicle by throwing it into the air.</source>
+  <source>Allows to start the vehicle by throwing it into the air.
+</source>
   </message>
 </context>
 <context>
@@ -9970,7 +10219,9 @@ e.g. for stuck rotors before the vehicle is off the ground</source>
   <source>When the throw launch is enabled, the drone will only allow motors to spin after this speed
 is exceeded before detecting the freefall. This is a safety feature to ensure the drone does
 not turn on after accidental drop or a rapid movement before the throw.
-Set to 0 to disable.</source>
+
+Set to 0 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -9985,7 +10236,8 @@ Set to 0 to disable.</source>
   <source>This is the horizontal velocity error (EVH) threshold that will trigger a failsafe.
 The default is appropriate for a multicopter. Can be increased for a fixed-wing.
 If the previous velocity error was below this threshold, there is an additional
-factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).</source>
+factor of 2.5 applied (threshold for invalidation 2.5 times the one for validation).
+</source>
   </message>
 </context>
 <context>
@@ -9998,7 +10250,8 @@ factor of 2.5 applied (threshold for invalidation 2.5 times the one for validati
   <name>/parameters/COM_WIND_MAX/longDesc</name>
   <message>
   <source>Wind speed threshold above which an automatic failsafe action is triggered.
-Failsafe action can be specified with COM_WIND_MAX_ACT.</source>
+Failsafe action can be specified with COM_WIND_MAX_ACT.
+</source>
   </message>
 </context>
 <context>
@@ -10014,7 +10267,8 @@ Failsafe action can be specified with COM_WIND_MAX_ACT.</source>
 See COM_WIND_MAX to set the failsafe threshold.
 If enabled, it is not possible to resume the mission or switch to any auto mode other than
 RTL or Land if this threshold is exceeded. Taking over in any manual
-mode is still possible.</source>
+mode is still possible.
+</source>
   </message>
 </context>
 <context>
@@ -10064,7 +10318,9 @@ mode is still possible.</source>
   <message>
   <source>A warning is triggered if the currently estimated wind speed is above this value.
 Warning is sent periodically (every 1 minute).
-Set to -1 to disable.</source>
+
+Set to -1 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -10078,7 +10334,8 @@ Set to -1 to disable.</source>
   <message>
   <source>The GCS connection loss failsafe will only be entered after a timeout,
 set by COM_DL_LOSS_T in seconds. Once the timeout occurs the selected
-action will be executed.</source>
+action will be executed.
+</source>
   </message>
 </context>
 <context>
@@ -10127,7 +10384,8 @@ action will be executed.</source>
   <name>/parameters/NAV_RCL_ACT/longDesc</name>
   <message>
   <source>The manual control loss failsafe will only be entered after a timeout,
-set by COM_RC_LOSS_T in seconds.</source>
+set by COM_RC_LOSS_T in seconds.
+</source>
   </message>
 </context>
 <context>
@@ -10175,7 +10433,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_ABL_ACCLIM/longDesc</name>
   <message>
-  <source>If the magnitude of the IMU accelerometer vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the accel bias estimates.</source>
+  <source>If the magnitude of the IMU accelerometer vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of high manoeuvre accelerations and IMU nonlinerity and scale factor errors on the accel bias estimates.
+</source>
   </message>
 </context>
 <context>
@@ -10187,7 +10446,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_ABL_GYRLIM/longDesc</name>
   <message>
-  <source>If the magnitude of the IMU angular rate vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the accel bias estimates.</source>
+  <source>If the magnitude of the IMU angular rate vector exceeds this value, the EKF accel bias state estimation will be inhibited. This reduces the adverse effect of rapid rotation rates and associated errors on the accel bias estimates.
+</source>
   </message>
 </context>
 <context>
@@ -10199,7 +10459,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_ABL_LIM/longDesc</name>
   <message>
-  <source>The ekf accel bias states will be limited to within a range equivalent to +- of this value.</source>
+  <source>The ekf accel bias states will be limited to within a range equivalent to +- of this value.
+</source>
   </message>
 </context>
 <context>
@@ -10211,7 +10472,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_ABL_TAU/longDesc</name>
   <message>
-  <source>The vector magnitude of angular rate and acceleration used to check if learning should be inhibited has a peak hold filter applied to it with an exponential decay. This parameter controls the time constant of the decay.</source>
+  <source>The vector magnitude of angular rate and acceleration used to check if learning should be inhibited has a peak hold filter applied to it with an exponential decay. This parameter controls the time constant of the decay.
+</source>
   </message>
 </context>
 <context>
@@ -10235,7 +10497,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP0_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
+  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion
+</source>
   </message>
 </context>
 <context>
@@ -10265,7 +10528,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP0_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -10277,7 +10541,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP0_ID/longDesc</name>
   <message>
-  <source>Sensor ID for slot 0. Set to 0 to disable this slot.</source>
+  <source>Sensor ID for slot 0. Set to 0 to disable this slot.
+</source>
   </message>
 </context>
 <context>
@@ -10289,7 +10554,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP0_MODE/longDesc</name>
   <message>
-  <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+  <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available
+</source>
   </message>
 </context>
 <context>
@@ -10313,7 +10579,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP0_NOISE/longDesc</name>
   <message>
-  <source>Used to lower bound or replace the uncertainty included in the message</source>
+  <source>Used to lower bound or replace the uncertainty included in the message
+</source>
   </message>
 </context>
 <context>
@@ -10325,7 +10592,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP1_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
+  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion
+</source>
   </message>
 </context>
 <context>
@@ -10355,7 +10623,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP1_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -10367,7 +10636,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP1_ID/longDesc</name>
   <message>
-  <source>Sensor ID for slot 1. Set to 0 to disable this slot.</source>
+  <source>Sensor ID for slot 1. Set to 0 to disable this slot.
+</source>
   </message>
 </context>
 <context>
@@ -10379,7 +10649,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP1_MODE/longDesc</name>
   <message>
-  <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+  <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available
+</source>
   </message>
 </context>
 <context>
@@ -10403,7 +10674,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP1_NOISE/longDesc</name>
   <message>
-  <source>Used to lower bound or replace the uncertainty included in the message</source>
+  <source>Used to lower bound or replace the uncertainty included in the message
+</source>
   </message>
 </context>
 <context>
@@ -10415,7 +10687,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP2_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
+  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion
+</source>
   </message>
 </context>
 <context>
@@ -10445,7 +10718,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP2_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -10457,7 +10731,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP2_ID/longDesc</name>
   <message>
-  <source>Sensor ID for slot 2. Set to 0 to disable this slot.</source>
+  <source>Sensor ID for slot 2. Set to 0 to disable this slot.
+</source>
   </message>
 </context>
 <context>
@@ -10469,7 +10744,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP2_MODE/longDesc</name>
   <message>
-  <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+  <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available
+</source>
   </message>
 </context>
 <context>
@@ -10493,7 +10769,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP2_NOISE/longDesc</name>
   <message>
-  <source>Used to lower bound or replace the uncertainty included in the message</source>
+  <source>Used to lower bound or replace the uncertainty included in the message
+</source>
   </message>
 </context>
 <context>
@@ -10505,7 +10782,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP3_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion</source>
+  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion
+</source>
   </message>
 </context>
 <context>
@@ -10535,7 +10813,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP3_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -10547,7 +10826,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP3_ID/longDesc</name>
   <message>
-  <source>Sensor ID for slot 3. Set to 0 to disable this slot.</source>
+  <source>Sensor ID for slot 3. Set to 0 to disable this slot.
+</source>
   </message>
 </context>
 <context>
@@ -10559,7 +10839,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP3_MODE/longDesc</name>
   <message>
-  <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available</source>
+  <source>Automatic: reset on fusion timeout if no other source of position is available Dead-reckoning: reset on fusion timeout if no source of velocity is available
+</source>
   </message>
 </context>
 <context>
@@ -10583,7 +10864,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_AGP3_NOISE/longDesc</name>
   <message>
-  <source>Used to lower bound or replace the uncertainty included in the message</source>
+  <source>Used to lower bound or replace the uncertainty included in the message
+</source>
   </message>
 </context>
 <context>
@@ -10601,7 +10883,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_ARSP_THR/longDesc</name>
   <message>
-  <source>Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).</source>
+  <source>Airspeed data is fused for wind estimation if above this threshold. Set to 0 to disable airspeed fusion. For reliable wind estimation both sideslip (see EKF2_FUSE_BETA) and airspeed fusion should be enabled. Only applies to fixed-wing vehicles (or VTOLs in fixed-wing mode).
+</source>
   </message>
 </context>
 <context>
@@ -10631,7 +10914,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_BARO_CTRL/longDesc</name>
   <message>
-  <source>If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate its height in addition to other height sources (if activated).</source>
+  <source>If this parameter is enabled then the estimator will make use of the barometric height measurements to estimate its height in addition to other height sources (if activated).
+</source>
   </message>
 </context>
 <context>
@@ -10661,7 +10945,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_BARO_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -10679,7 +10964,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_BCOEF_X/longDesc</name>
   <message>
-  <source>This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
+  <source>This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.
+</source>
   </message>
 </context>
 <context>
@@ -10691,7 +10977,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_BCOEF_Y/longDesc</name>
   <message>
-  <source>This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.</source>
+  <source>This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.
+</source>
   </message>
 </context>
 <context>
@@ -10703,7 +10990,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_BETA_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -10721,7 +11009,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_DECL_TYPE/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable functions. 0 : Set to true to use the declination from the geo_lookup library when the GPS position becomes available, set to false to always use the EKF2_MAG_DECL value. 1 : Set to true to save the EKF2_MAG_DECL parameter to the value returned by the EKF when the vehicle disarms.</source>
+  <source>Set bits in the following positions to enable functions. 0 : Set to true to use the declination from the geo_lookup library when the GPS position becomes available, set to false to always use the EKF2_MAG_DECL value. 1 : Set to true to save the EKF2_MAG_DECL parameter to the value returned by the EKF when the vehicle disarms.
+</source>
   </message>
 </context>
 <context>
@@ -10745,7 +11034,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_DELAY_MAX/longDesc</name>
   <message>
-  <source>Defines the delay between the current time and the delayed-time horizon. This value should be at least as large as the largest EKF2_XXX_DELAY parameter.</source>
+  <source>Defines the delay between the current time and the delayed-time horizon. This value should be at least as large as the largest EKF2_XXX_DELAY parameter.
+</source>
   </message>
 </context>
 <context>
@@ -10757,7 +11047,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_DRAG_CTRL/longDesc</name>
   <message>
-  <source>Activate wind speed estimation using specific-force measurements and a drag model defined by EKF2_BCOEF_[XY] and EKF2_MCOEF. Only use on vehicles that have their thrust aligned with the Z axis and no thrust in the XY plane.</source>
+  <source>Activate wind speed estimation using specific-force measurements and a drag model defined by EKF2_BCOEF_[XY] and EKF2_MCOEF. Only use on vehicles that have their thrust aligned with the Z axis and no thrust in the XY plane.
+</source>
   </message>
 </context>
 <context>
@@ -10781,7 +11072,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_DRAG_NOISE/longDesc</name>
   <message>
-  <source>Used by the multi-rotor specific drag force model. Increasing this makes the multi-rotor wind estimates adjust more slowly.</source>
+  <source>Used by the multi-rotor specific drag force model. Increasing this makes the multi-rotor wind estimates adjust more slowly.
+</source>
   </message>
 </context>
 <context>
@@ -10817,7 +11109,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_ENGINE_WRM/longDesc</name>
   <message>
-  <source>When enabled, constant position fusion is enabled when the vehicle is landed and armed. This is intended for IC engine warmup (e.g., fuel engines on catapult) to allow mode transitions to auto/takeoff despite vibrations from running engines.</source>
+  <source>When enabled, constant position fusion is enabled when the vehicle is landed and armed. This is intended for IC engine warmup (e.g., fuel engines on catapult) to allow mode transitions to auto/takeoff despite vibrations from running engines.
+</source>
   </message>
 </context>
 <context>
@@ -10841,7 +11134,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EVA_NOISE/longDesc</name>
   <message>
-  <source>Used to lower bound or replace the uncertainty included in the message</source>
+  <source>Used to lower bound or replace the uncertainty included in the message
+</source>
   </message>
 </context>
 <context>
@@ -10853,7 +11147,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EVP_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -10865,7 +11160,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EVP_NOISE/longDesc</name>
   <message>
-  <source>Used to lower bound or replace the uncertainty included in the message</source>
+  <source>Used to lower bound or replace the uncertainty included in the message
+</source>
   </message>
 </context>
 <context>
@@ -10877,7 +11173,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EVV_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -10889,7 +11186,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EVV_NOISE/longDesc</name>
   <message>
-  <source>Used to lower bound or replace the uncertainty included in the message</source>
+  <source>Used to lower bound or replace the uncertainty included in the message
+</source>
   </message>
 </context>
 <context>
@@ -10901,7 +11199,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EV_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion 2 : 3D velocity fusion 3 : Yaw</source>
+  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion 2 : 3D velocity fusion 3 : Yaw
+</source>
   </message>
 </context>
 <context>
@@ -10943,7 +11242,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EV_NOISE_MD/longDesc</name>
   <message>
-  <source>If set to 0 (default) the measurement noise is taken from the vision message and the EV noise parameters are used as a lower bound. If set to 1 the observation noise is set from the parameters directly,</source>
+  <source>If set to 0 (default) the measurement noise is taken from the vision message and the EV noise parameters are used as a lower bound. If set to 1 the observation noise is set from the parameters directly,
+</source>
   </message>
 </context>
 <context>
@@ -10967,7 +11267,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EV_POS_X/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -10979,7 +11280,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EV_POS_Y/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -10991,7 +11293,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EV_POS_Z/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11003,7 +11306,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_EV_QMIN/longDesc</name>
   <message>
-  <source>External vision will only be started and fused if the quality metric is above this threshold. The quality metric is a completely optional field provided by some VIO systems.</source>
+  <source>External vision will only be started and fused if the quality metric is above this threshold. The quality metric is a completely optional field provided by some VIO systems.
+</source>
   </message>
 </context>
 <context>
@@ -11015,7 +11319,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_FUSE_BETA/longDesc</name>
   <message>
-  <source>For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to vehicles in fixed-wing mode or with airspeed fusion active. Note: side slip fusion is currently not supported for tailsitters.</source>
+  <source>For reliable wind estimation both sideslip and airspeed fusion (see EKF2_ARSP_THR) should be enabled. Only applies to vehicles in fixed-wing mode or with airspeed fusion active. Note: side slip fusion is currently not supported for tailsitters.
+</source>
   </message>
 </context>
 <context>
@@ -11045,7 +11350,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GND_EFF_DZ/longDesc</name>
   <message>
-  <source>Sets the value of deadzone applied to negative baro innovations. Deadzone is enabled when EKF2_GND_EFF_DZ &gt; 0.</source>
+  <source>Sets the value of deadzone applied to negative baro innovations. Deadzone is enabled when EKF2_GND_EFF_DZ &gt; 0.
+</source>
   </message>
 </context>
 <context>
@@ -11057,7 +11363,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GND_MAX_HGT/longDesc</name>
   <message>
-  <source>Sets the maximum distance to the ground level where negative baro innovations are expected.</source>
+  <source>Sets the maximum distance to the ground level where negative baro innovations are expected.
+</source>
   </message>
 </context>
 <context>
@@ -11069,7 +11376,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_CHECK/longDesc</name>
   <message>
-  <source>Each threshold value is defined by the parameter indicated next to the check. Drift and offset checks only run when the vehicle is on ground and stationary.</source>
+  <source>Each threshold value is defined by the parameter indicated next to the check. Drift and offset checks only run when the vehicle is on ground and stationary.
+</source>
   </message>
 </context>
 <context>
@@ -11153,7 +11461,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Longitude and latitude fusion 1 : Altitude fusion 2 : 3D velocity fusion 3 : Dual antenna heading fusion</source>
+  <source>Set bits in the following positions to enable: 0 : Longitude and latitude fusion 1 : Altitude fusion 2 : 3D velocity fusion 3 : Dual antenna heading fusion
+</source>
   </message>
 </context>
 <context>
@@ -11189,7 +11498,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_DELAY/longDesc</name>
   <message>
-  <source>GPS measurement delay relative to IMU measurement if PPS time correction is not available/enabled (PPS_CAP_ENABLE).</source>
+  <source>GPS measurement delay relative to IMU measurement if PPS time correction is not available/enabled (PPS_CAP_ENABLE).
+</source>
   </message>
 </context>
 <context>
@@ -11201,7 +11511,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_MODE/longDesc</name>
   <message>
-  <source>Automatic: reset on fusion timeout if no other source of position is available. Dead-reckoning: reset on fusion timeout if no source of velocity is available.</source>
+  <source>Automatic: reset on fusion timeout if no other source of position is available. Dead-reckoning: reset on fusion timeout if no source of velocity is available.
+</source>
   </message>
 </context>
 <context>
@@ -11225,7 +11536,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_POS_X/longDesc</name>
   <message>
-  <source>Forward (roll) axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward (roll) axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11237,7 +11549,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_POS_Y/longDesc</name>
   <message>
-  <source>Right (pitch) axis with origin relative to vehicle centre of gravity</source>
+  <source>Right (pitch) axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11249,7 +11562,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_POS_Z/longDesc</name>
   <message>
-  <source>Down (yaw) axis with origin relative to vehicle centre of gravity</source>
+  <source>Down (yaw) axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11261,7 +11575,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_P_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -11279,7 +11594,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GPS_V_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -11309,7 +11625,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GSF_TAS/longDesc</name>
   <message>
-  <source>If no airspeed measurements are available, the EKF-GSF AHRS calculation will assume this value of true airspeed when compensating for centripetal acceleration during turns. Set to zero to disable centripetal acceleration compensation during fixed wing flight modes.</source>
+  <source>If no airspeed measurements are available, the EKF-GSF AHRS calculation will assume this value of true airspeed when compensating for centripetal acceleration during turns. Set to zero to disable centripetal acceleration compensation during fixed wing flight modes.
+</source>
   </message>
 </context>
 <context>
@@ -11321,7 +11638,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_GYR_B_LIM/longDesc</name>
   <message>
-  <source>The ekf gyro bias states will be limited to within a range equivalent to +- of this value.</source>
+  <source>The ekf gyro bias states will be limited to within a range equivalent to +- of this value.
+</source>
   </message>
 </context>
 <context>
@@ -11345,7 +11663,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_HDG_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -11363,7 +11682,9 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_HGT_REF/longDesc</name>
   <message>
-  <source>When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level. If GPS is set as reference but altitude fusion is disabled in EKF2_GPS_CTRL, the GPS altitude is still used to initiaize the bias of the other height sensors.</source>
+  <source>When multiple height sources are enabled at the same time, the height estimate will always converge towards the reference height source selected by this parameter. The range sensor and vision options should only be used when for operation over a flat surface as the local NED origin will move up and down with ground level.
+If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still used to initiaize the bias of the other height sensors, regardless of the altitude fusion bit in EKF2_GPS_CTRL.
+</source>
   </message>
 </context>
 <context>
@@ -11423,7 +11744,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_IMU_POS_X/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11435,7 +11757,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_IMU_POS_Y/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11447,7 +11770,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_IMU_POS_Z/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11477,7 +11801,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MAG_ACCLIM/longDesc</name>
   <message>
-  <source>The heading is assumed to be observable when the body acceleration is greater than this parameter when a global position/velocity aiding source is active.</source>
+  <source>The heading is assumed to be observable when the body acceleration is greater than this parameter when a global position/velocity aiding source is active.
+</source>
   </message>
 </context>
 <context>
@@ -11495,7 +11820,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MAG_CHECK/longDesc</name>
   <message>
-  <source>Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM</source>
+  <source>Bitmask to set which check is used to decide whether the magnetometer data is valid. If GNSS data is received, the magnetic field is compared to a World Magnetic Model (WMM), otherwise an average value is used. This check is useful to reject occasional hard iron disturbance. Set bits to 1 to enable checks. Checks enabled by the following bit positions 0 : Magnetic field strength. Set tolerance using EKF2_MAG_CHK_STR 1 : Magnetic field inclination. Set tolerance using EKF2_MAG_CHK_INC 2 : Wait for GNSS to find the theoretical strength and inclination using the WMM
+</source>
   </message>
 </context>
 <context>
@@ -11525,7 +11851,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MAG_CHK_INC/longDesc</name>
   <message>
-  <source>Maximum allowed deviation from the expected magnetic field inclination to pass the check.</source>
+  <source>Maximum allowed deviation from the expected magnetic field inclination to pass the check.
+</source>
   </message>
 </context>
 <context>
@@ -11537,7 +11864,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MAG_CHK_STR/longDesc</name>
   <message>
-  <source>Maximum allowed deviation from the expected magnetic field strength to pass the check.</source>
+  <source>Maximum allowed deviation from the expected magnetic field strength to pass the check.
+</source>
   </message>
 </context>
 <context>
@@ -11567,7 +11895,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MAG_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -11585,7 +11914,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MAG_TYPE/longDesc</name>
   <message>
-  <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GNSS velocity measurements to align the yaw angle. If set to 'Init' the magnetometer is only used to initalize the heading.</source>
+  <source>Integer controlling the type of magnetometer fusion used - magnetic heading or 3-component vector. The fusion of magnetometer data as a three component vector enables vehicle body fixed hard iron errors to be learned, but requires a stable earth field. If set to 'Automatic' magnetic heading fusion is used when on-ground and 3-axis magnetic field fusion in-flight. If set to 'Magnetic heading' magnetic heading fusion is used at all times. If set to 'None' the magnetometer will not be used under any circumstance. If no external source of yaw is available, it is possible to use post-takeoff horizontal movement combined with GNSS velocity measurements to align the yaw angle. If set to 'Init' the magnetometer is only used to initalize the heading.
+</source>
   </message>
 </context>
 <context>
@@ -11621,7 +11951,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MCOEF/longDesc</name>
   <message>
-  <source>This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.</source>
+  <source>This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.
+</source>
   </message>
 </context>
 <context>
@@ -11633,7 +11964,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MIN_RNG/longDesc</name>
   <message>
-  <source>If the vehicle is on ground, is not moving as determined by the motion test and the range finder is returning invalid or no data, then an assumed range value of EKF2_MIN_RNG will be used by the terrain estimator so that a terrain height estimate is available at the start of flight in situations where the range finder may be inside its minimum measurements distance when on ground.</source>
+  <source>If the vehicle is on ground, is not moving as determined by the motion test and the range finder is returning invalid or no data, then an assumed range value of EKF2_MIN_RNG will be used by the terrain estimator so that a terrain height estimate is available at the start of flight in situations where the range finder may be inside its minimum measurements distance when on ground.
+</source>
   </message>
 </context>
 <context>
@@ -11645,7 +11977,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MULTI_IMU/longDesc</name>
   <message>
-  <source>Maximum number of IMUs to use for Multi-EKF. Set 0 to disable. Requires SENS_IMU_MODE 0.</source>
+  <source>Maximum number of IMUs to use for Multi-EKF. Set 0 to disable. Requires SENS_IMU_MODE 0.
+</source>
   </message>
 </context>
 <context>
@@ -11657,7 +11990,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_MULTI_MAG/longDesc</name>
   <message>
-  <source>Maximum number of magnetometers to use for Multi-EKF. Set 0 to disable. Requires SENS_MAG_MODE 0.</source>
+  <source>Maximum number of magnetometers to use for Multi-EKF. Set 0 to disable. Requires SENS_MAG_MODE 0.
+</source>
   </message>
 </context>
 <context>
@@ -11675,7 +12009,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_NOAID_TOUT/longDesc</name>
   <message>
-  <source>Maximum lapsed time from last fusion of measurements that constrain velocity drift before the EKF will report the horizontal nav solution as invalid</source>
+  <source>Maximum lapsed time from last fusion of measurements that constrain velocity drift before the EKF will report the horizontal nav solution as invalid
+</source>
   </message>
 </context>
 <context>
@@ -11687,7 +12022,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_CTRL/longDesc</name>
   <message>
-  <source>Enable optical flow fusion.</source>
+  <source>Enable optical flow fusion.
+</source>
   </message>
 </context>
 <context>
@@ -11711,7 +12047,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_DELAY/longDesc</name>
   <message>
-  <source>Assumes measurement is timestamped at trailing edge of integration period</source>
+  <source>Assumes measurement is timestamped at trailing edge of integration period
+</source>
   </message>
 </context>
 <context>
@@ -11723,7 +12060,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -11735,7 +12073,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_GYR_SRC/longDesc</name>
   <message>
-  <source>Auto: use gyro from optical flow message if available, internal gyro otherwise. Internal: always use internal gyro</source>
+  <source>Auto: use gyro from optical flow message if available, internal gyro otherwise. Internal: always use internal gyro
+</source>
   </message>
 </context>
 <context>
@@ -11759,7 +12098,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_N_MAX/longDesc</name>
   <message>
-  <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the minimum</source>
+  <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the minimum
+</source>
   </message>
 </context>
 <context>
@@ -11771,7 +12111,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_N_MIN/longDesc</name>
   <message>
-  <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum</source>
+  <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum
+</source>
   </message>
 </context>
 <context>
@@ -11783,7 +12124,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_POS_X/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11795,7 +12137,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_POS_Y/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11807,7 +12150,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_POS_Z/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -11819,7 +12163,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_QMIN/longDesc</name>
   <message>
-  <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN</source>
+  <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN
+</source>
   </message>
 </context>
 <context>
@@ -11831,7 +12176,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_OF_QMIN_GND/longDesc</name>
   <message>
-  <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND</source>
+  <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND
+</source>
   </message>
 </context>
 <context>
@@ -11843,7 +12189,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_PCOEF_XN/longDesc</name>
   <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a negative wind relative velocity along the X body axis. If the baro height estimate rises during backwards flight, then this will be a negative number.</source>
+  <source>This is the ratio of static pressure error to dynamic pressure generated by a negative wind relative velocity along the X body axis. If the baro height estimate rises during backwards flight, then this will be a negative number.
+</source>
   </message>
 </context>
 <context>
@@ -11855,7 +12202,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_PCOEF_XP/longDesc</name>
   <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a positive wind relative velocity along the X body axis. If the baro height estimate rises during forward flight, then this will be a negative number.</source>
+  <source>This is the ratio of static pressure error to dynamic pressure generated by a positive wind relative velocity along the X body axis. If the baro height estimate rises during forward flight, then this will be a negative number.
+</source>
   </message>
 </context>
 <context>
@@ -11867,7 +12215,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_PCOEF_YN/longDesc</name>
   <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the negative Y (LH) body axis. If the baro height estimate rises during sideways flight to the left, then this will be a negative number.</source>
+  <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the negative Y (LH) body axis. If the baro height estimate rises during sideways flight to the left, then this will be a negative number.
+</source>
   </message>
 </context>
 <context>
@@ -11879,7 +12228,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_PCOEF_YP/longDesc</name>
   <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the positive Y (RH) body axis. If the baro height estimate rises during sideways flight to the right, then this will be a negative number.</source>
+  <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the positive Y (RH) body axis. If the baro height estimate rises during sideways flight to the right, then this will be a negative number.
+</source>
   </message>
 </context>
 <context>
@@ -11891,7 +12241,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_PCOEF_Z/longDesc</name>
   <message>
-  <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the Z body axis.</source>
+  <source>This is the ratio of static pressure error to dynamic pressure generated by a wind relative velocity along the Z body axis.
+</source>
   </message>
 </context>
 <context>
@@ -11903,7 +12254,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_PREDICT_US/longDesc</name>
   <message>
-  <source>EKF prediction period in microseconds. This should ideally be an integer multiple of the IMU time delta. Actual filter update will be an integer multiple of IMU update.</source>
+  <source>EKF prediction period in microseconds. This should ideally be an integer multiple of the IMU time delta. Actual filter update will be an integer multiple of IMU update.
+</source>
   </message>
 </context>
 <context>
@@ -11927,7 +12279,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_REQ_FIX/longDesc</name>
   <message>
-  <source>Minimum GPS fix type required for GPS usage.</source>
+  <source>Minimum GPS fix type required for GPS usage.
+</source>
   </message>
 </context>
 <context>
@@ -11981,7 +12334,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_REQ_GPS_H/longDesc</name>
   <message>
-  <source>Minimum continuous period without GPS failure required to mark a healthy GPS status. It can be reduced to speed up initialization, but it's recommended to keep this unchanged for a vehicle.</source>
+  <source>Minimum continuous period without GPS failure required to mark a healthy GPS status. It can be reduced to speed up initialization, but it's recommended to keep this unchanged for a vehicle.
+</source>
   </message>
 </context>
 <context>
@@ -12023,7 +12377,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_A_HMAX/longDesc</name>
   <message>
-  <source>If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
+  <source>If the vehicle absolute altitude exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).
+</source>
   </message>
 </context>
 <context>
@@ -12035,7 +12390,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_A_VMAX/longDesc</name>
   <message>
-  <source>If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).</source>
+  <source>If the vehicle horizontal speed exceeds this value then the estimator will not fuse range measurements to estimate its height. This only applies when conditional range aid mode is activated (EKF2_RNG_CTRL = 1).
+</source>
   </message>
 </context>
 <context>
@@ -12047,7 +12403,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_CTRL/longDesc</name>
   <message>
-  <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.</source>
+  <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.
+</source>
   </message>
 </context>
 <context>
@@ -12083,7 +12440,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_FOG/longDesc</name>
   <message>
-  <source>Limit for fog detection. If the range finder measures a distance greater than this value, the measurement is considered to not be blocked by fog or rain. If there's a jump from larger than RNG_FOG to smaller than EKF2_RNG_FOG, the measurement may gets rejected. 0 - disabled</source>
+  <source>Limit for fog detection. If the range finder measures a distance greater than this value, the measurement is considered to not be blocked by fog or rain. If there's a jump from larger than RNG_FOG to smaller than EKF2_RNG_FOG, the measurement may gets rejected. 0 - disabled
+</source>
   </message>
 </context>
 <context>
@@ -12095,7 +12453,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -12107,7 +12466,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_K_GATE/longDesc</name>
   <message>
-  <source>To be used, the time derivative of the distance sensor measurements projected on the vertical axis needs to be statistically consistent with the estimated vertical velocity of the drone. Decrease this value to make the filter more robust against range finder faulty data (stuck, reflections, ...). Note: tune the range finder noise parameters (EKF2_RNG_NOISE and EKF2_RNG_SFE) before tuning this gate.</source>
+  <source>To be used, the time derivative of the distance sensor measurements projected on the vertical axis needs to be statistically consistent with the estimated vertical velocity of the drone. Decrease this value to make the filter more robust against range finder faulty data (stuck, reflections, ...). Note: tune the range finder noise parameters (EKF2_RNG_NOISE and EKF2_RNG_SFE) before tuning this gate.
+</source>
   </message>
 </context>
 <context>
@@ -12131,7 +12491,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_POS_X/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -12143,7 +12504,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_POS_Y/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -12155,7 +12517,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_POS_Z/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity</source>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
   </message>
 </context>
 <context>
@@ -12167,7 +12530,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_QLTY_T/longDesc</name>
   <message>
-  <source>Minimum duration during which the reported range finder signal quality needs to be non-zero in order to be declared valid (s)</source>
+  <source>Minimum duration during which the reported range finder signal quality needs to be non-zero in order to be declared valid (s)
+</source>
   </message>
 </context>
 <context>
@@ -12179,7 +12543,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_RNG_SFE/longDesc</name>
   <message>
-  <source>Specifies the increase in range finder noise with range.</source>
+  <source>Specifies the increase in range finder noise with range.
+</source>
   </message>
 </context>
 <context>
@@ -12191,7 +12556,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_SEL_ERR_RED/longDesc</name>
   <message>
-  <source>EKF2 instances have to be better than the selected by at least this amount before their relative score can be reduced.</source>
+  <source>EKF2 instances have to be better than the selected by at least this amount before their relative score can be reduced.
+</source>
   </message>
 </context>
 <context>
@@ -12203,7 +12569,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_SEL_IMU_ACC/longDesc</name>
   <message>
-  <source>EKF2 selector acceleration error threshold for comparing accelerometers. Acceleration vector differences larger than this will result in accumulated velocity error.</source>
+  <source>EKF2 selector acceleration error threshold for comparing accelerometers. Acceleration vector differences larger than this will result in accumulated velocity error.
+</source>
   </message>
 </context>
 <context>
@@ -12215,7 +12582,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_SEL_IMU_ANG/longDesc</name>
   <message>
-  <source>EKF2 selector maximum accumulated angular error threshold for comparing gyros. Accumulated angular error larger than this will result in the sensor being declared faulty.</source>
+  <source>EKF2 selector maximum accumulated angular error threshold for comparing gyros. Accumulated angular error larger than this will result in the sensor being declared faulty.
+</source>
   </message>
 </context>
 <context>
@@ -12227,7 +12595,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_SEL_IMU_RAT/longDesc</name>
   <message>
-  <source>EKF2 selector angular rate error threshold for comparing gyros. Angular rate vector differences larger than this will result in accumulated angular error.</source>
+  <source>EKF2 selector angular rate error threshold for comparing gyros. Angular rate vector differences larger than this will result in accumulated angular error.
+</source>
   </message>
 </context>
 <context>
@@ -12239,7 +12608,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_SEL_IMU_VEL/longDesc</name>
   <message>
-  <source>EKF2 selector maximum accumulated velocity threshold for comparing accelerometers. Accumulated velocity error larger than this will result in the sensor being declared faulty.</source>
+  <source>EKF2 selector maximum accumulated velocity threshold for comparing accelerometers. Accumulated velocity error larger than this will result in the sensor being declared faulty.
+</source>
   </message>
 </context>
 <context>
@@ -12251,7 +12621,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_SYNT_MAG_Z/longDesc</name>
   <message>
-  <source>Use for vehicles where the measured body Z magnetic field is subject to strong magnetic interference. For magnetic heading fusion the magnetometer Z measurement will be replaced by a synthetic value calculated using the knowledge of the 3D magnetic field vector at the location of the drone. Therefore, this parameter will only have an effect if the global position of the drone is known. For 3D mag fusion the magnetometer Z measurement will simply be ignored instead of fusing the synthetic value.</source>
+  <source>Use for vehicles where the measured body Z magnetic field is subject to strong magnetic interference. For magnetic heading fusion the magnetometer Z measurement will be replaced by a synthetic value calculated using the knowledge of the 3D magnetic field vector at the location of the drone. Therefore, this parameter will only have an effect if the global position of the drone is known. For 3D mag fusion the magnetometer Z measurement will simply be ignored instead of fusing the synthetic value.
+</source>
   </message>
 </context>
 <context>
@@ -12275,7 +12646,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_TAS_GATE/longDesc</name>
   <message>
-  <source>Sets the number of standard deviations used by the innovation consistency test.</source>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -12287,7 +12659,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_TAU_POS/longDesc</name>
   <message>
-  <source>Controls how tightly the output track the EKF states</source>
+  <source>Controls how tightly the output track the EKF states
+</source>
   </message>
 </context>
 <context>
@@ -12323,7 +12696,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 <context>
   <name>/parameters/EKF2_WIND_NSD/longDesc</name>
   <message>
-  <source>When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.</source>
+  <source>When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this amount every second.
+</source>
   </message>
 </context>
 <context>
@@ -12339,7 +12713,8 @@ set by COM_RC_LOSS_T in seconds.</source>
 played via buzzer or ESCs, if supported. The alarm will sound after a disarm,
 if the vehicle was previously armed and only if the vehicle had RC signal at
 some point. Particularly useful for locating crashed drones without a GPS
-sensor.</source>
+sensor.
+</source>
   </message>
 </context>
 <context>
@@ -12367,7 +12742,8 @@ sensor.</source>
 LEDs. When enabled and if the vehicle supports it, LEDs will flash
 indicating various vehicle status changes. Currently PX4 has not implemented
 any specific status events.
--</source>
+-
+</source>
   </message>
 </context>
 <context>
@@ -12391,7 +12767,8 @@ any specific status events.
 <context>
   <name>/parameters/FW_MAN_P_MAX/longDesc</name>
   <message>
-  <source>Applies to both directions in all manual modes with attitude stabilization but without altitude control</source>
+  <source>Applies to both directions in all manual modes with attitude stabilization but without altitude control
+</source>
   </message>
 </context>
 <context>
@@ -12403,7 +12780,8 @@ any specific status events.
 <context>
   <name>/parameters/FW_MAN_R_MAX/longDesc</name>
   <message>
-  <source>Applies to both directions in all manual modes with attitude stabilization</source>
+  <source>Applies to both directions in all manual modes with attitude stabilization
+</source>
   </message>
 </context>
 <context>
@@ -12416,7 +12794,8 @@ any specific status events.
   <name>/parameters/FW_MAN_YR_MAX/longDesc</name>
   <message>
   <source>This is the maximally added yaw rate setpoint from the yaw stick in any attitude controlled flight mode.
-It is added to the yaw rate setpoint generated by the controller for turn coordination.</source>
+It is added to the yaw rate setpoint generated by the controller for turn coordination.
+</source>
   </message>
 </context>
 <context>
@@ -12430,7 +12809,8 @@ It is added to the yaw rate setpoint generated by the controller for turn coordi
   <message>
   <source>An airframe specific offset of the pitch setpoint in degrees, the value is
 added to the pitch setpoint and should correspond to the pitch at
-typical cruise speed of the airframe.</source>
+typical cruise speed of the airframe.
+</source>
   </message>
 </context>
 <context>
@@ -12455,7 +12835,8 @@ typical cruise speed of the airframe.</source>
   <name>/parameters/FW_P_TC/longDesc</name>
   <message>
   <source>This defines the latency between a pitch step input and the achieved setpoint
-(inverse to a P gain). Smaller systems may require smaller values.</source>
+(inverse to a P gain). Smaller systems may require smaller values.
+</source>
   </message>
 </context>
 <context>
@@ -12474,7 +12855,8 @@ typical cruise speed of the airframe.</source>
   <name>/parameters/FW_R_TC/longDesc</name>
   <message>
   <source>This defines the latency between a roll step input and the achieved setpoint
-(inverse to a P gain). Smaller systems may require smaller values.</source>
+(inverse to a P gain). Smaller systems may require smaller values.
+</source>
   </message>
 </context>
 <context>
@@ -12493,7 +12875,8 @@ typical cruise speed of the airframe.</source>
   <name>/parameters/FW_WR_I/longDesc</name>
   <message>
   <source>This gain defines how much control response will result out of a steady
-state error. It trims any constant error.</source>
+state error. It trims any constant error.
+</source>
   </message>
 </context>
 <context>
@@ -12512,7 +12895,8 @@ state error. It trims any constant error.</source>
   <name>/parameters/FW_WR_P/longDesc</name>
   <message>
   <source>This defines how much the wheel steering input will be commanded depending on the
-current body angular rate error.</source>
+current body angular rate error.
+</source>
   </message>
 </context>
 <context>
@@ -12525,7 +12909,8 @@ current body angular rate error.</source>
   <name>/parameters/FW_W_EN/longDesc</name>
   <message>
   <source>Only enabled during automatic runway takeoff and landing.
-In all manual modes the wheel is directly controlled with yaw stick.</source>
+In all manual modes the wheel is directly controlled with yaw stick.
+</source>
   </message>
 </context>
 <context>
@@ -12550,7 +12935,8 @@ In all manual modes the wheel is directly controlled with yaw stick.</source>
   <name>/parameters/FW_W_RMAX/longDesc</name>
   <message>
   <source>This limits the maximum wheel steering rate the controller will output (in degrees per
-second).</source>
+second).
+</source>
   </message>
 </context>
 <context>
@@ -12569,7 +12955,8 @@ second).</source>
   <name>/parameters/FW_FLAPS_LND_SCL/longDesc</name>
   <message>
   <source>Sets a fraction of full flaps during landing.
-Also applies to flaperons if enabled in the mixer/allocation.</source>
+Also applies to flaperons if enabled in the mixer/allocation.
+</source>
   </message>
 </context>
 <context>
@@ -12584,10 +12971,13 @@ Also applies to flaperons if enabled in the mixer/allocation.</source>
   <source>Terrain estimation:
 bit 0: Abort if terrain is not found
 bit 1: Abort if terrain times out (after a first successful measurement)
+
 The last estimate is always used as ground, whether the last valid measurement or the land waypoint, depending on the
 selected abort criteria, until an abort condition is entered. If FW_LND_USETER == 0, these bits are ignored.
+
 TODO: Extend automatic abort conditions
-e.g. glide slope tracking error (horizontal and vertical)</source>
+e.g. glide slope tracking error (horizontal and vertical)
+</source>
   </message>
 </context>
 <context>
@@ -12612,7 +13002,9 @@ e.g. glide slope tracking error (horizontal and vertical)</source>
   <name>/parameters/FW_LND_AIRSPD/longDesc</name>
   <message>
   <source>The calibrated airspeed setpoint during landing.
-If set &lt;= 0, landing airspeed = FW_AIRSPD_MIN by default.</source>
+
+If set &lt;= 0, landing airspeed = FW_AIRSPD_MIN by default.
+</source>
   </message>
 </context>
 <context>
@@ -12625,7 +13017,8 @@ If set &lt;= 0, landing airspeed = FW_AIRSPD_MIN by default.</source>
   <name>/parameters/FW_LND_ANG/longDesc</name>
   <message>
   <source>Typically the desired landing slope angle when landing configuration (flaps, airspeed) is enabled.
-Set this value within the vehicle's performance limits.</source>
+Set this value within the vehicle's performance limits.
+</source>
   </message>
 </context>
 <context>
@@ -12639,7 +13032,8 @@ Set this value within the vehicle's performance limits.</source>
   <message>
   <source>Allows to deploy the landing configuration (flaps, landing airspeed, etc.) already in
 the loiter-down waypoint before the final approach.
-Otherwise is enabled only in the final approach.</source>
+Otherwise is enabled only in the final approach.
+</source>
   </message>
 </context>
 <context>
@@ -12663,7 +13057,8 @@ Otherwise is enabled only in the final approach.</source>
 <context>
   <name>/parameters/FW_LND_FLALT/longDesc</name>
   <message>
-  <source>NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * |z-velocity|) is taken as the flare altitude</source>
+  <source>NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * |z-velocity|) is taken as the flare altitude
+</source>
   </message>
 </context>
 <context>
@@ -12675,7 +13070,8 @@ Otherwise is enabled only in the final approach.</source>
 <context>
   <name>/parameters/FW_LND_FL_PMAX/longDesc</name>
   <message>
-  <source>Maximum pitch during landing flare.</source>
+  <source>Maximum pitch during landing flare.
+</source>
   </message>
 </context>
 <context>
@@ -12687,7 +13083,8 @@ Otherwise is enabled only in the final approach.</source>
 <context>
   <name>/parameters/FW_LND_FL_PMIN/longDesc</name>
   <message>
-  <source>Minimum pitch during landing flare.</source>
+  <source>Minimum pitch during landing flare.
+</source>
   </message>
 </context>
 <context>
@@ -12699,7 +13096,8 @@ Otherwise is enabled only in the final approach.</source>
 <context>
   <name>/parameters/FW_LND_FL_SINK/longDesc</name>
   <message>
-  <source>TECS will attempt to control the aircraft to this sink rate via pitch angle (throttle killed during flare)</source>
+  <source>TECS will attempt to control the aircraft to this sink rate via pitch angle (throttle killed during flare)
+</source>
   </message>
 </context>
 <context>
@@ -12713,7 +13111,9 @@ Otherwise is enabled only in the final approach.</source>
   <message>
   <source>Multiplied by the descent rate to calculate a dynamic altitude at which
 to trigger the flare.
-NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * descent rate) is taken as the flare altitude</source>
+
+NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * descent rate) is taken as the flare altitude
+</source>
   </message>
 </context>
 <context>
@@ -12727,9 +13127,11 @@ NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * descent rate) is taken as the flare alt
   <message>
   <source>Approach angle nudging: shifts the touchdown point laterally while keeping the approach entrance point constant
 Approach path nudging: shifts the touchdown point laterally along with the entire approach path
+
 This is useful for manually adjusting the landing point in real time when map or GNSS errors cause an offset from the
 desired landing vector. Nudging is done with yaw stick, constrained to FW_LND_TD_OFF (in meters) and the direction is
-relative to the vehicle heading (stick deflection to the right = land point moves to the right as seen by the vehicle).</source>
+relative to the vehicle heading (stick deflection to the right = land point moves to the right as seen by the vehicle).
+</source>
   </message>
 </context>
 <context>
@@ -12768,8 +13170,11 @@ relative to the vehicle heading (stick deflection to the right = land point move
   <source>This is the time after the start of flaring that we expect the vehicle to touch the runway.
 At this time, a 0.5s clamp down ramp will engage, constraining the pitch setpoint to RWTO_PSP.
 If enabled, ensure that RWTO_PSP is configured appropriately for full gear contact on ground roll.
+
 Set to -1.0 to disable touchdown clamping. E.g. it may not be desirable to clamp on belly landings.
-The touchdown time will be constrained to be greater than or equal to the flare time (FW_LND_FL_TIME).</source>
+
+The touchdown time will be constrained to be greater than or equal to the flare time (FW_LND_FL_TIME).
+</source>
   </message>
 </context>
 <context>
@@ -12781,7 +13186,8 @@ The touchdown time will be constrained to be greater than or equal to the flare 
 <context>
   <name>/parameters/FW_LND_THRTC_SC/longDesc</name>
   <message>
-  <source>The TECS altitude time constant (FW_T_ALT_TC) is multiplied by this value.</source>
+  <source>The TECS altitude time constant (FW_T_ALT_TC) is multiplied by this value.
+</source>
   </message>
 </context>
 <context>
@@ -12794,9 +13200,12 @@ The touchdown time will be constrained to be greater than or equal to the flare 
   <name>/parameters/FW_LND_USETER/longDesc</name>
   <message>
   <source>This is critical for detecting when to flare, and should be enabled if possible.
+
 If enabled and no measurement is found within a given timeout, the landing waypoint altitude will be used OR the landing
 will be aborted, depending on the criteria set in FW_LND_ABORT.
-If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
+
+If disabled, FW_LND_ABORT terrain based criteria are ignored.
+</source>
   </message>
 </context>
 <context>
@@ -12833,7 +13242,8 @@ If disabled, FW_LND_ABORT terrain based criteria are ignored.</source>
   <name>/parameters/FW_FLAPS_TO_SCL/longDesc</name>
   <message>
   <source>Sets a fraction of full flaps during take-off.
-Also applies to flaperons if enabled in the mixer/allocation.</source>
+Also applies to flaperons if enabled in the mixer/allocation.
+</source>
   </message>
 </context>
 <context>
@@ -12845,7 +13255,8 @@ Also applies to flaperons if enabled in the mixer/allocation.</source>
 <context>
   <name>/parameters/FW_LAUN_AC_T/longDesc</name>
   <message>
-  <source>Launch is detected when acceleration in body forward direction is above FW_LAUN_AC_THLD for FW_LAUN_AC_T seconds.</source>
+  <source>Launch is detected when acceleration in body forward direction is above FW_LAUN_AC_THLD for FW_LAUN_AC_T seconds.
+</source>
   </message>
 </context>
 <context>
@@ -12857,7 +13268,8 @@ Also applies to flaperons if enabled in the mixer/allocation.</source>
 <context>
   <name>/parameters/FW_LAUN_AC_THLD/longDesc</name>
   <message>
-  <source>Launch is detected when acceleration in body forward direction is above FW_LAUN_AC_THLD for FW_LAUN_AC_T seconds.</source>
+  <source>Launch is detected when acceleration in body forward direction is above FW_LAUN_AC_THLD for FW_LAUN_AC_T seconds.
+</source>
   </message>
 </context>
 <context>
@@ -12871,7 +13283,8 @@ Also applies to flaperons if enabled in the mixer/allocation.</source>
   <message>
   <source>Locks control surfaces during pre-launch (armed) and until this time since launch has passed.
 Only affects control surfaces that have corresponding flag set, and not active for runway takeoff.
-Set to 0 to disable any surface locking after arming.</source>
+Set to 0 to disable any surface locking after arming.
+</source>
   </message>
 </context>
 <context>
@@ -12884,7 +13297,8 @@ Set to 0 to disable any surface locking after arming.</source>
   <name>/parameters/FW_LAUN_DETCN_ON/longDesc</name>
   <message>
   <source>Enables automatic launch detection based on measured acceleration. Use for hand- or catapult-launched vehicles.
-Not compatible with runway takeoff.</source>
+Not compatible with runway takeoff.
+</source>
   </message>
 </context>
 <context>
@@ -12908,7 +13322,8 @@ Not compatible with runway takeoff.</source>
 <context>
   <name>/parameters/FW_LAUN_MOT_DEL/longDesc</name>
   <message>
-  <source>Start the motor(s) this amount of seconds after launch is detected.</source>
+  <source>Start the motor(s) this amount of seconds after launch is detected.
+</source>
   </message>
 </context>
 <context>
@@ -12921,7 +13336,9 @@ Not compatible with runway takeoff.</source>
   <name>/parameters/FW_TKO_AIRSPD/longDesc</name>
   <message>
   <source>The calibrated airspeed setpoint during the takeoff climbout.
-If set &lt;= 0, FW_AIRSPD_MIN will be set by default.</source>
+
+If set &lt;= 0, FW_AIRSPD_MIN will be set by default.
+</source>
   </message>
 </context>
 <context>
@@ -12941,7 +13358,8 @@ If set &lt;= 0, FW_AIRSPD_MIN will be set by default.</source>
   <message>
   <source>The time the system should do open loop loiter and wait for GPS recovery
 before it starts descending. Set to 0 to disable. Roll angle is set to FW_GPSF_R.
-Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</source>
+Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.
+</source>
   </message>
 </context>
 <context>
@@ -12953,7 +13371,8 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</so
 <context>
   <name>/parameters/FW_GPSF_R/longDesc</name>
   <message>
-  <source>Roll angle in GPS failure loiter mode.</source>
+  <source>Roll angle in GPS failure loiter mode.
+</source>
   </message>
 </context>
 <context>
@@ -12965,7 +13384,8 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</so
 <context>
   <name>/parameters/FW_POS_STK_CONF/longDesc</name>
   <message>
-  <source>Applies in manual Position and Altitude flight modes.</source>
+  <source>Applies in manual Position and Altitude flight modes.
+</source>
   </message>
 </context>
 <context>
@@ -12989,7 +13409,8 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</so
 <context>
   <name>/parameters/FW_P_LIM_MAX/longDesc</name>
   <message>
-  <source>Applies in any altitude controlled flight mode.</source>
+  <source>Applies in any altitude controlled flight mode.
+</source>
   </message>
 </context>
 <context>
@@ -13001,7 +13422,8 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</so
 <context>
   <name>/parameters/FW_P_LIM_MIN/longDesc</name>
   <message>
-  <source>Applies in any altitude controlled flight mode.</source>
+  <source>Applies in any altitude controlled flight mode.
+</source>
   </message>
 </context>
 <context>
@@ -13013,7 +13435,8 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</so
 <context>
   <name>/parameters/FW_R_LIM/longDesc</name>
   <message>
-  <source>Applies in any altitude controlled flight mode.</source>
+  <source>Applies in any altitude controlled flight mode.
+</source>
   </message>
 </context>
 <context>
@@ -13025,7 +13448,8 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</so
 <context>
   <name>/parameters/FW_THR_IDLE/longDesc</name>
   <message>
-  <source>This is the minimum throttle while on the ground ("landed") in auto modes.</source>
+  <source>This is the minimum throttle while on the ground ("landed") in auto modes.
+</source>
   </message>
 </context>
 <context>
@@ -13038,7 +13462,8 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.</so
   <name>/parameters/FW_THR_MAX/longDesc</name>
   <message>
   <source>Applies in any altitude controlled flight mode.
-Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
+Should be set accordingly to achieve FW_T_CLMB_MAX.
+</source>
   </message>
 </context>
 <context>
@@ -13052,7 +13477,8 @@ Should be set accordingly to achieve FW_T_CLMB_MAX.</source>
   <message>
   <source>Applies in any altitude controlled flight mode.
 Usually set to 0 but can be increased to prevent the motor from stopping when
-descending, which can increase achievable descent rates.</source>
+descending, which can increase achievable descent rates.
+</source>
   </message>
 </context>
 <context>
@@ -13065,7 +13491,8 @@ descending, which can increase achievable descent rates.</source>
   <name>/parameters/FW_T_CLMB_R_SP/longDesc</name>
   <message>
   <source>In auto modes: default climb rate output by controller to achieve altitude setpoints.
-In manual modes: maximum climb rate setpoint.</source>
+In manual modes: maximum climb rate setpoint.
+</source>
   </message>
 </context>
 <context>
@@ -13078,7 +13505,8 @@ In manual modes: maximum climb rate setpoint.</source>
   <name>/parameters/FW_T_SINK_R_SP/longDesc</name>
   <message>
   <source>In auto modes: default sink rate output by controller to achieve altitude setpoints.
-In manual modes: maximum sink rate setpoint.</source>
+In manual modes: maximum sink rate setpoint.
+</source>
   </message>
 </context>
 <context>
@@ -13093,7 +13521,8 @@ In manual modes: maximum sink rate setpoint.</source>
   <source>Adjusts the amount of weighting that the pitch control
 applies to speed vs height errors.
 0 -&gt; control height only
-2 -&gt; control speed only (gliders)</source>
+2 -&gt; control speed only (gliders)
+</source>
   </message>
 </context>
 <context>
@@ -13106,7 +13535,8 @@ applies to speed vs height errors.
   <name>/parameters/FW_WING_HEIGHT/longDesc</name>
   <message>
   <source>This is used to constrain a minimum altitude below which we keep wings level to avoid wing tip strike. It's safer
-to give a slight margin here (&gt; 0m)</source>
+to give a slight margin here (&gt; 0m)
+</source>
   </message>
 </context>
 <context>
@@ -13118,7 +13548,8 @@ to give a slight margin here (&gt; 0m)</source>
 <context>
   <name>/parameters/FW_WING_SPAN/longDesc</name>
   <message>
-  <source>This is used for limiting the roll setpoint near the ground. (if multiple wings, take the longest span)</source>
+  <source>This is used for limiting the roll setpoint near the ground. (if multiple wings, take the longest span)
+</source>
   </message>
 </context>
 <context>
@@ -13131,7 +13562,8 @@ to give a slight margin here (&gt; 0m)</source>
   <name>/parameters/FW_PN_R_SLEW_MAX/longDesc</name>
   <message>
   <source>Maximum change in roll angle setpoint per second.
-Applied in all Auto modes, plus manual Position &amp; Altitude modes.</source>
+Applied in all Auto modes, plus manual Position &amp; Altitude modes.
+</source>
   </message>
 </context>
 <context>
@@ -13144,7 +13576,8 @@ Applied in all Auto modes, plus manual Position &amp; Altitude modes.</source>
   <name>/parameters/FW_GND_SPD_MIN/longDesc</name>
   <message>
   <source>The controller will increase the commanded airspeed to maintain
-this minimum groundspeed to the next waypoint.</source>
+this minimum groundspeed to the next waypoint.
+</source>
   </message>
 </context>
 <context>
@@ -13156,7 +13589,8 @@ this minimum groundspeed to the next waypoint.</source>
 <context>
   <name>/parameters/FW_THR_SLEW_MAX/longDesc</name>
   <message>
-  <source>Maximum slew rate for the commanded throttle</source>
+  <source>Maximum slew rate for the commanded throttle
+</source>
   </message>
 </context>
 <context>
@@ -13175,7 +13609,8 @@ this minimum groundspeed to the next waypoint.</source>
   <name>/parameters/FW_T_F_ALT_ERR/longDesc</name>
   <message>
   <source>Minimum altitude error needed to descend with max airspeed and minimal throttle.
-A negative value disables fast descend.</source>
+A negative value disables fast descend.
+</source>
   </message>
 </context>
 <context>
@@ -13194,7 +13629,8 @@ A negative value disables fast descend.</source>
   <name>/parameters/FW_T_I_GAIN_PIT/longDesc</name>
   <message>
   <source>Increase it to trim out speed and height offsets faster,
-with the downside of possible overshoots and oscillations.</source>
+with the downside of possible overshoots and oscillations.
+</source>
   </message>
 </context>
 <context>
@@ -13214,7 +13650,8 @@ with the downside of possible overshoots and oscillations.</source>
   <message>
   <source>Is used to compensate for the additional drag created by turning.
 Increase this gain if the aircraft initially loses energy in turns
-and reduce if the aircraft initially gains energy in turns.</source>
+and reduce if the aircraft initially gains energy in turns.
+</source>
   </message>
 </context>
 <context>
@@ -13238,7 +13675,8 @@ and reduce if the aircraft initially gains energy in turns.</source>
 <context>
   <name>/parameters/FW_T_SPD_DEV_STD/longDesc</name>
   <message>
-  <source>For the airspeed filter in TECS.</source>
+  <source>For the airspeed filter in TECS.
+</source>
   </message>
 </context>
 <context>
@@ -13251,7 +13689,8 @@ and reduce if the aircraft initially gains energy in turns.</source>
   <name>/parameters/FW_T_SPD_PRC_STD/longDesc</name>
   <message>
   <source>This is defining the noise in the airspeed rate for the constant airspeed rate model
-of the TECS airspeed filter.</source>
+of the TECS airspeed filter.
+</source>
   </message>
 </context>
 <context>
@@ -13263,7 +13702,8 @@ of the TECS airspeed filter.</source>
 <context>
   <name>/parameters/FW_T_SPD_STD/longDesc</name>
   <message>
-  <source>For the airspeed filter in TECS.</source>
+  <source>For the airspeed filter in TECS.
+</source>
   </message>
 </context>
 <context>
@@ -13275,7 +13715,8 @@ of the TECS airspeed filter.</source>
 <context>
   <name>/parameters/FW_T_STE_R_TC/longDesc</name>
   <message>
-  <source>This filter is applied to the specific total energy rate used for throttle damping.</source>
+  <source>This filter is applied to the specific total energy rate used for throttle damping.
+</source>
   </message>
 </context>
 <context>
@@ -13293,7 +13734,8 @@ of the TECS airspeed filter.</source>
 <context>
   <name>/parameters/FW_T_THR_DAMPING/longDesc</name>
   <message>
-  <source>This is the damping gain for the throttle demand loop.</source>
+  <source>This is the damping gain for the throttle demand loop.
+</source>
   </message>
 </context>
 <context>
@@ -13306,7 +13748,8 @@ of the TECS airspeed filter.</source>
   <name>/parameters/FW_T_THR_INTEG/longDesc</name>
   <message>
   <source>Increase it to trim out speed and height offsets faster,
-with the downside of possible overshoots and oscillations.</source>
+with the downside of possible overshoots and oscillations.
+</source>
   </message>
 </context>
 <context>
@@ -13322,7 +13765,9 @@ with the downside of possible overshoots and oscillations.</source>
 tracking gets enabled (see FW_LND_THRTC_SC). Below this height, TECS smoothly
 (1 sec / sec) transitions the altitude tracking time constant from FW_T_ALT_TC
 to FW_LND_THRTC_SC*FW_T_ALT_TC.
--1 to disable.</source>
+
+-1 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -13336,7 +13781,8 @@ to FW_LND_THRTC_SC*FW_T_ALT_TC.
   <message>
   <source>This is the maximum vertical acceleration
 either up or down that the controller will use to correct speed
-or height errors.</source>
+or height errors.
+</source>
   </message>
 </context>
 <context>
@@ -13350,7 +13796,8 @@ or height errors.</source>
   <message>
   <source>Multiplying this factor with the current absolute wind estimate gives the airspeed offset
 added to the minimum airspeed setpoint limit. This helps to make the
-system more robust against disturbances (turbulence) in high wind.</source>
+system more robust against disturbances (turbulence) in high wind.
+</source>
   </message>
 </context>
 <context>
@@ -13362,7 +13809,8 @@ system more robust against disturbances (turbulence) in high wind.</source>
 <context>
   <name>/parameters/NPFG_DAMPING/longDesc</name>
   <message>
-  <source>Damping ratio of NPFG control law.</source>
+  <source>Damping ratio of NPFG control law.
+</source>
   </message>
 </context>
 <context>
@@ -13375,7 +13823,8 @@ system more robust against disturbances (turbulence) in high wind.</source>
   <name>/parameters/NPFG_LB_PERIOD/longDesc</name>
   <message>
   <source>Avoids limit cycling from a too aggressively tuned period/damping combination.
-If false, also disables upper bound NPFG_PERIOD_UB.</source>
+If false, also disables upper bound NPFG_PERIOD_UB.
+</source>
   </message>
 </context>
 <context>
@@ -13399,7 +13848,8 @@ If false, also disables upper bound NPFG_PERIOD_UB.</source>
 <context>
   <name>/parameters/NPFG_PERIOD/longDesc</name>
   <message>
-  <source>Period of NPFG control law.</source>
+  <source>Period of NPFG control law.
+</source>
   </message>
 </context>
 <context>
@@ -13412,7 +13862,8 @@ If false, also disables upper bound NPFG_PERIOD_UB.</source>
   <name>/parameters/NPFG_PERIOD_SF/longDesc</name>
   <message>
   <source>Multiplied by period for conservative minimum period bounding (when period lower
-bounding is enabled). 1.0 bounds at marginal stability.</source>
+bounding is enabled). 1.0 bounds at marginal stability.
+</source>
   </message>
 </context>
 <context>
@@ -13425,7 +13876,8 @@ bounding is enabled). 1.0 bounds at marginal stability.</source>
   <name>/parameters/NPFG_ROLL_TC/longDesc</name>
   <message>
   <source>Time constant of roll controller command / response, modeled as first order delay.
-Used to determine lower period bound. Setting zero disables automatic period bounding.</source>
+Used to determine lower period bound. Setting zero disables automatic period bounding.
+</source>
   </message>
 </context>
 <context>
@@ -13438,7 +13890,8 @@ Used to determine lower period bound. Setting zero disables automatic period bou
   <name>/parameters/NPFG_SW_DST_MLT/longDesc</name>
   <message>
   <source>Multiplied by the track error boundary to determine when the aircraft switches
-to the next waypoint and/or path segment. Should be less than 1.</source>
+to the next waypoint and/or path segment. Should be less than 1.
+</source>
   </message>
 </context>
 <context>
@@ -13450,7 +13903,8 @@ to the next waypoint and/or path segment. Should be less than 1.</source>
 <context>
   <name>/parameters/NPFG_UB_PERIOD/longDesc</name>
   <message>
-  <source>Adapts period to maintain track keeping in variable winds and path curvature.</source>
+  <source>Adapts period to maintain track keeping in variable winds and path curvature.
+</source>
   </message>
 </context>
 <context>
@@ -13474,7 +13928,8 @@ to the next waypoint and/or path segment. Should be less than 1.</source>
 <context>
   <name>/parameters/FW_AIRSPD_FLP_SC/longDesc</name>
   <message>
-  <source>Factor applied to the minimum and stall airspeed when flaps are fully deployed.</source>
+  <source>Factor applied to the minimum and stall airspeed when flaps are fully deployed.
+</source>
   </message>
 </context>
 <context>
@@ -13486,7 +13941,8 @@ to the next waypoint and/or path segment. Should be less than 1.</source>
 <context>
   <name>/parameters/FW_AIRSPD_MAX/longDesc</name>
   <message>
-  <source>The maximal airspeed (calibrated airspeed) the user is able to command.</source>
+  <source>The maximal airspeed (calibrated airspeed) the user is able to command.
+</source>
   </message>
 </context>
 <context>
@@ -13504,7 +13960,8 @@ increase airspeed more aggressively.
 Has to be set according to the vehicle's stall speed (which should be set in FW_AIRSPD_STALL),
 with some margin between the stall speed and minimum airspeed.
 This value corresponds to the desired minimum speed with the default load factor (level flight, default weight),
-and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).</source>
+and is automatically adpated to the current load factor (calculated from roll setpoint and WEIGHT_GROSS/WEIGHT_BASE).
+</source>
   </message>
 </context>
 <context>
@@ -13518,7 +13975,8 @@ and is automatically adpated to the current load factor (calculated from roll se
   <message>
   <source>The stall airspeed (calibrated airspeed) of the vehicle.
 It is used for airspeed sensor failure detection and for the control
-surface scaling airspeed limits.</source>
+surface scaling airspeed limits.
+</source>
   </message>
 </context>
 <context>
@@ -13532,7 +13990,8 @@ surface scaling airspeed limits.</source>
   <message>
   <source>The trim CAS (calibrated airspeed) of the vehicle. If an airspeed controller is active,
 this is the default airspeed setpoint that the controller will try to achieve.
-This value corresponds to the trim airspeed with the default load factor (level flight, default weight).</source>
+This value corresponds to the trim airspeed with the default load factor (level flight, default weight).
+</source>
   </message>
 </context>
 <context>
@@ -13546,7 +14005,8 @@ This value corresponds to the trim airspeed with the default load factor (level 
   <message>
   <source>Altitude in standard atmosphere at which the vehicle in normal configuration (WEIGHT_BASE) is still able to achieve a maximum climb rate of
 0.5m/s at maximum throttle (FW_THR_MAX). Used to compensate for air density in FW_T_CLMB_MAX.
-Set negative to disable.</source>
+Set negative to disable.
+</source>
   </message>
 </context>
 <context>
@@ -13559,7 +14019,9 @@ Set negative to disable.</source>
   <name>/parameters/FW_THR_ASPD_MAX/longDesc</name>
   <message>
   <source>Required throttle (at sea level, standard atmosphere) for level flight at maximum airspeed FW_AIRSPD_MAX
-Set to 0 to disable mapping of airspeed to trim throttle.</source>
+
+Set to 0 to disable mapping of airspeed to trim throttle.
+</source>
   </message>
 </context>
 <context>
@@ -13572,7 +14034,9 @@ Set to 0 to disable mapping of airspeed to trim throttle.</source>
   <name>/parameters/FW_THR_ASPD_MIN/longDesc</name>
   <message>
   <source>Required throttle (at sea level, standard atmosphere) for level flight at minimum airspeed FW_AIRSPD_MIN
-Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</source>
+
+Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.
+</source>
   </message>
 </context>
 <context>
@@ -13584,7 +14048,8 @@ Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</
 <context>
   <name>/parameters/FW_THR_TRIM/longDesc</name>
   <message>
-  <source>Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM</source>
+  <source>Required throttle (at sea level, standard atmosphere) for level flight at FW_AIRSPD_TRIM
+</source>
   </message>
 </context>
 <context>
@@ -13599,7 +14064,8 @@ Set to 0 to disable mapping of airspeed to trim throttle below FW_AIRSPD_TRIM.</
   <source>This is the maximum calibrated climb rate that the aircraft can achieve with
 the throttle set to FW_THR_MAX and the airspeed set to the
 trim value. For electric aircraft make sure this number can be
-achieved towards the end of flight when the battery voltage has reduced.</source>
+achieved towards the end of flight when the battery voltage has reduced.
+</source>
   </message>
 </context>
 <context>
@@ -13613,7 +14079,8 @@ achieved towards the end of flight when the battery voltage has reduced.</source
   <message>
   <source>This is the minimum calibrated sink rate of the aircraft with the throttle
 set to THR_MIN and flown at the same airspeed as used
-to measure FW_T_CLMB_MAX.</source>
+to measure FW_T_CLMB_MAX.
+</source>
   </message>
 </context>
 <context>
@@ -13626,7 +14093,8 @@ to measure FW_T_CLMB_MAX.</source>
   <name>/parameters/WEIGHT_BASE/longDesc</name>
   <message>
   <source>This is the weight of the vehicle at which it's performance limits were derived. A zero or negative value
-disables trim throttle and minimum airspeed compensation based on weight.</source>
+disables trim throttle and minimum airspeed compensation based on weight.
+</source>
   </message>
 </context>
 <context>
@@ -13640,7 +14108,8 @@ disables trim throttle and minimum airspeed compensation based on weight.</sourc
   <message>
   <source>This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added
 or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value
-disables trim throttle and minimum airspeed compensation based on weight.</source>
+disables trim throttle and minimum airspeed compensation based on weight.
+</source>
   </message>
 </context>
 <context>
@@ -13661,7 +14130,8 @@ disables trim throttle and minimum airspeed compensation based on weight.</sourc
   <source>If this parameter is set to 1, the yaw rate controller is enabled in Fixed-wing Acro mode.
 Otherwise the pilot commands directly the yaw actuator.
 It is disabled by default because an active yaw rate controller will fight against the
-natural turn coordination of the plane.</source>
+natural turn coordination of the plane.
+</source>
   </message>
 </context>
 <context>
@@ -13700,8 +14170,10 @@ natural turn coordination of the plane.</source>
   <source>This enables a logic that automatically adjusts the output of the rate controller to take
 into account the real torque produced by an aerodynamic control surface given
 the current deviation from the trim airspeed (FW_AIRSPD_TRIM).
+
 Enable when using aerodynamic control surfaces (e.g.: plane)
-Disable when using rotor wings (e.g.: autogyro)</source>
+Disable when using rotor wings (e.g.: autogyro)
+</source>
   </message>
 </context>
 <context>
@@ -13726,7 +14198,8 @@ Disable when using rotor wings (e.g.: autogyro)</source>
   <name>/parameters/FW_BAT_SCALE_EN/longDesc</name>
   <message>
   <source>This compensates for voltage drop of the battery over time by attempting to
-normalize performance across the operating range of the battery.</source>
+normalize performance across the operating range of the battery.
+</source>
   </message>
 </context>
 <context>
@@ -13750,7 +14223,8 @@ normalize performance across the operating range of the battery.</source>
 <context>
   <name>/parameters/FW_DTRIM_P_VMAX/longDesc</name>
   <message>
-  <source>This increment is added to TRIM_PITCH when airspeed is FW_AIRSPD_MAX.</source>
+  <source>This increment is added to TRIM_PITCH when airspeed is FW_AIRSPD_MAX.
+</source>
   </message>
 </context>
 <context>
@@ -13762,7 +14236,8 @@ normalize performance across the operating range of the battery.</source>
 <context>
   <name>/parameters/FW_DTRIM_P_VMIN/longDesc</name>
   <message>
-  <source>This increment is added to TRIM_PITCH when airspeed is FW_AIRSPD_MIN.</source>
+  <source>This increment is added to TRIM_PITCH when airspeed is FW_AIRSPD_MIN.
+</source>
   </message>
 </context>
 <context>
@@ -13774,7 +14249,8 @@ normalize performance across the operating range of the battery.</source>
 <context>
   <name>/parameters/FW_DTRIM_R_VMAX/longDesc</name>
   <message>
-  <source>This increment is added to TRIM_ROLL when airspeed is FW_AIRSPD_MAX.</source>
+  <source>This increment is added to TRIM_ROLL when airspeed is FW_AIRSPD_MAX.
+</source>
   </message>
 </context>
 <context>
@@ -13786,7 +14262,8 @@ normalize performance across the operating range of the battery.</source>
 <context>
   <name>/parameters/FW_DTRIM_R_VMIN/longDesc</name>
   <message>
-  <source>This increment is added to TRIM_ROLL when airspeed is FW_AIRSPD_MIN.</source>
+  <source>This increment is added to TRIM_ROLL when airspeed is FW_AIRSPD_MIN.
+</source>
   </message>
 </context>
 <context>
@@ -13798,7 +14275,8 @@ normalize performance across the operating range of the battery.</source>
 <context>
   <name>/parameters/FW_DTRIM_Y_VMAX/longDesc</name>
   <message>
-  <source>This increment is added to TRIM_YAW when airspeed is FW_AIRSPD_MAX.</source>
+  <source>This increment is added to TRIM_YAW when airspeed is FW_AIRSPD_MAX.
+</source>
   </message>
 </context>
 <context>
@@ -13810,7 +14288,8 @@ normalize performance across the operating range of the battery.</source>
 <context>
   <name>/parameters/FW_DTRIM_Y_VMIN/longDesc</name>
   <message>
-  <source>This increment is added to TRIM_YAW when airspeed is FW_AIRSPD_MIN.</source>
+  <source>This increment is added to TRIM_YAW when airspeed is FW_AIRSPD_MIN.
+</source>
   </message>
 </context>
 <context>
@@ -13840,7 +14319,8 @@ normalize performance across the operating range of the battery.</source>
 <context>
   <name>/parameters/FW_GC_GAIN_MIN/longDesc</name>
   <message>
-  <source>The range of the compression gain is between this parameter and 1.0</source>
+  <source>The range of the compression gain is between this parameter and 1.0
+</source>
   </message>
 </context>
 <context>
@@ -13853,7 +14333,8 @@ normalize performance across the operating range of the battery.</source>
   <name>/parameters/FW_MAN_P_SC/longDesc</name>
   <message>
   <source>Scale factor applied to the desired pitch actuator command in full manual mode. This parameter allows
-to adjust the throws of the control surfaces.</source>
+to adjust the throws of the control surfaces.
+</source>
   </message>
 </context>
 <context>
@@ -13866,7 +14347,8 @@ to adjust the throws of the control surfaces.</source>
   <name>/parameters/FW_MAN_R_SC/longDesc</name>
   <message>
   <source>Scale factor applied to the desired roll actuator command in full manual mode. This parameter allows
-to adjust the throws of the control surfaces.</source>
+to adjust the throws of the control surfaces.
+</source>
   </message>
 </context>
 <context>
@@ -13879,7 +14361,8 @@ to adjust the throws of the control surfaces.</source>
   <name>/parameters/FW_MAN_Y_SC/longDesc</name>
   <message>
   <source>Scale factor applied to the desired yaw actuator command in full manual mode. This parameter allows
-to adjust the throws of the control surfaces.</source>
+to adjust the throws of the control surfaces.
+</source>
   </message>
 </context>
 <context>
@@ -13891,7 +14374,8 @@ to adjust the throws of the control surfaces.</source>
 <context>
   <name>/parameters/FW_PR_D/longDesc</name>
   <message>
-  <source>Pitch rate differential gain.</source>
+  <source>Pitch rate differential gain.
+</source>
   </message>
 </context>
 <context>
@@ -13903,7 +14387,8 @@ to adjust the throws of the control surfaces.</source>
 <context>
   <name>/parameters/FW_PR_FF/longDesc</name>
   <message>
-  <source>Direct feed forward from rate setpoint to control surface output</source>
+  <source>Direct feed forward from rate setpoint to control surface output
+</source>
   </message>
 </context>
 <context>
@@ -13935,7 +14420,8 @@ to adjust the throws of the control surfaces.</source>
   <message>
   <source>This gain can be used to counteract the "adverse yaw" effect for fixed wings.
 When the plane enters a roll it will tend to yaw the nose out of the turn.
-This gain enables the use of a yaw actuator to counteract this effect.</source>
+This gain enables the use of a yaw actuator to counteract this effect.
+</source>
   </message>
 </context>
 <context>
@@ -13953,7 +14439,8 @@ This gain enables the use of a yaw actuator to counteract this effect.</source>
 <context>
   <name>/parameters/FW_RR_FF/longDesc</name>
   <message>
-  <source>Direct feed forward from rate setpoint to control surface output.</source>
+  <source>Direct feed forward from rate setpoint to control surface output.
+</source>
   </message>
 </context>
 <context>
@@ -13983,7 +14470,8 @@ This gain enables the use of a yaw actuator to counteract this effect.</source>
 <context>
   <name>/parameters/FW_SPOILERS_MAN/longDesc</name>
   <message>
-  <source>Chose source for manual setting of spoilers in manual flight modes.</source>
+  <source>Chose source for manual setting of spoilers in manual flight modes.
+</source>
   </message>
 </context>
 <context>
@@ -14017,7 +14505,8 @@ This gain enables the use of a yaw actuator to counteract this effect.</source>
 - Rate controller: output scaling
 - Attitude controller: coordinated turn controller
 - Position controller: airspeed setpoint tracking, takeoff logic
-- VTOL: transition logic</source>
+- VTOL: transition logic
+</source>
   </message>
 </context>
 <context>
@@ -14047,7 +14536,8 @@ This gain enables the use of a yaw actuator to counteract this effect.</source>
 <context>
   <name>/parameters/FW_YR_FF/longDesc</name>
   <message>
-  <source>Direct feed forward from rate setpoint to control surface output</source>
+  <source>Direct feed forward from rate setpoint to control surface output
+</source>
   </message>
 </context>
 <context>
@@ -14069,120 +14559,6 @@ This gain enables the use of a yaw actuator to counteract this effect.</source>
   </message>
 </context>
 <context>
-  <name>/parameters/FD_ACT_EN/shortDesc</name>
-  <message>
-  <source>Enable Actuator Failure check</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_EN/longDesc</name>
-  <message>
-  <source>If enabled, failure detector will verify that for motors, a minimum amount of ESC current per throttle
-level is being consumed.
-Otherwise this indicates an motor failure.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_HIGH_OFF/shortDesc</name>
-  <message>
-  <source>Overcurrent motor failure limit offset</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_HIGH_OFF/longDesc</name>
-  <message>
-  <source>threshold = FD_ACT_MOT_C2T * thrust + FD_ACT_HIGH_OFF</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_LOW_OFF/shortDesc</name>
-  <message>
-  <source>Undercurrent motor failure limit offset</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_LOW_OFF/longDesc</name>
-  <message>
-  <source>threshold = FD_ACT_MOT_C2T * thrust - FD_ACT_LOW_OFF</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_MOT_C2T/shortDesc</name>
-  <message>
-  <source>Motor Failure Current/Throttle Scale</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_MOT_C2T/longDesc</name>
-  <message>
-  <source>Determines the slope between expected steady state current and linearized, normalized thrust command.
-E.g. FD_ACT_MOT_C2T A represents the expected steady state current at 100%.
-FD_ACT_LOW_OFF and FD_ACT_HIGH_OFF offset the threshold from that slope.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_MOT_THR/shortDesc</name>
-  <message>
-  <source>Motor Failure Thrust Threshold</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_MOT_THR/longDesc</name>
-  <message>
-  <source>Failure detection per motor only triggers above this thrust value.
-Set to 1 to disable the detection.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_MOT_TOUT/shortDesc</name>
-  <message>
-  <source>Motor Failure Hysteresis Time</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ACT_MOT_TOUT/longDesc</name>
-  <message>
-  <source>Motor failure only triggers after current thresholds are exceeded for this time.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ESCS_EN/shortDesc</name>
-  <message>
-  <source>Enable checks on ESCs that report their arming state</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ESCS_EN/longDesc</name>
-  <message>
-  <source>If enabled, failure detector will verify that all the ESCs have successfully armed when the vehicle has transitioned to the armed state.
-Timeout for receiving an acknowledgement from the ESCs is 0.3s, if no feedback is received the failure detector will auto disarm the vehicle.</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ESCS_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_ESCS_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FD_EXT_ATS_EN/shortDesc</name>
   <message>
   <source>Enable PWM input on for engaging failsafe from an external automatic trigger system (ATS)</source>
@@ -14192,7 +14568,8 @@ Timeout for receiving an acknowledgement from the ESCs is 0.3s, if no feedback i
   <name>/parameters/FD_EXT_ATS_EN/longDesc</name>
   <message>
   <source>Enabled on either AUX5 or MAIN5 depending on board.
-External ATS is required by ASTM F3322-18.</source>
+External ATS is required by ASTM F3322-18.
+</source>
   </message>
 </context>
 <context>
@@ -14216,7 +14593,8 @@ External ATS is required by ASTM F3322-18.</source>
 <context>
   <name>/parameters/FD_EXT_ATS_TRIG/longDesc</name>
   <message>
-  <source>External ATS is required by ASTM F3322-18.</source>
+  <source>External ATS is required by ASTM F3322-18.
+</source>
   </message>
 </context>
 <context>
@@ -14233,7 +14611,9 @@ The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0),
 which sets outputs to their failsafe values.
 On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM),
 which disarms motors but does not set outputs to failsafe values.
-Setting this parameter to 0 disables the check</source>
+
+Setting this parameter to 0 disables the check
+</source>
   </message>
 </context>
 <context>
@@ -14245,7 +14625,8 @@ Setting this parameter to 0 disables the check</source>
 <context>
   <name>/parameters/FD_FAIL_P_TTRI/longDesc</name>
   <message>
-  <source>Seconds (decimal) that pitch has to exceed FD_FAIL_P before being considered as a failure.</source>
+  <source>Seconds (decimal) that pitch has to exceed FD_FAIL_P before being considered as a failure.
+</source>
   </message>
 </context>
 <context>
@@ -14262,7 +14643,9 @@ The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0),
 which sets outputs to their failsafe values.
 On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM),
 which disarms motors but does not set outputs to failsafe values.
-Setting this parameter to 0 disables the check</source>
+
+Setting this parameter to 0 disables the check
+</source>
   </message>
 </context>
 <context>
@@ -14274,7 +14657,8 @@ Setting this parameter to 0 disables the check</source>
 <context>
   <name>/parameters/FD_FAIL_R_TTRI/longDesc</name>
   <message>
-  <source>Seconds (decimal) that roll has to exceed FD_FAIL_R before being considered as a failure.</source>
+  <source>Seconds (decimal) that roll has to exceed FD_FAIL_R before being considered as a failure.
+</source>
   </message>
 </context>
 <context>
@@ -14288,7 +14672,9 @@ Setting this parameter to 0 disables the check</source>
   <message>
   <source>Value at which the imbalanced propeller metric (based on horizontal and
 vertical acceleration variance) triggers a failure
-Setting this value to 0 disables the feature.</source>
+
+Setting this value to 0 disables the feature.
+</source>
   </message>
 </context>
 <context>
@@ -14345,7 +14731,8 @@ Setting this value to 0 disables the feature.</source>
   <source>Maintain altitude or track target's altitude. When maintaining the altitude,
 the drone can crash into terrain when the target moves uphill. When tracking
 the target's altitude, the follow altitude FLW_TGT_HT should be high enough
-to prevent terrain collisions due to GPS inaccuracies of the target.</source>
+to prevent terrain collisions due to GPS inaccuracies of the target.
+</source>
   </message>
 </context>
 <context>
@@ -14375,7 +14762,8 @@ to prevent terrain collisions due to GPS inaccuracies of the target.</source>
 <context>
   <name>/parameters/FLW_TGT_DST/longDesc</name>
   <message>
-  <source>The distance in meters to follow the target at</source>
+  <source>The distance in meters to follow the target at
+</source>
   </message>
 </context>
 <context>
@@ -14390,8 +14778,10 @@ to prevent terrain collisions due to GPS inaccuracies of the target.</source>
   <source>Angle to follow the target from. 0.0 Equals straight in front of the target's
 course (direction of motion) and the angle increases in clockwise direction,
 meaning Right-side would be 90.0 degrees while Left-side is -90.0 degrees
+
 Note: When the user force sets the angle out of the min/max range, it will be
-wrapped (e.g. 480 -&gt; 120) in the range to gracefully handle the out of range.</source>
+wrapped (e.g. 480 -&gt; 120) in the range to gracefully handle the out of range.
+</source>
   </message>
 </context>
 <context>
@@ -14403,7 +14793,8 @@ wrapped (e.g. 480 -&gt; 120) in the range to gracefully handle the out of range.
 <context>
   <name>/parameters/FLW_TGT_HT/longDesc</name>
   <message>
-  <source>Following height above the target</source>
+  <source>Following height above the target
+</source>
   </message>
 </context>
 <context>
@@ -14416,7 +14807,8 @@ wrapped (e.g. 480 -&gt; 120) in the range to gracefully handle the out of range.
   <name>/parameters/FLW_TGT_MAX_VEL/longDesc</name>
   <message>
   <source>This is the maximum tangential velocity the drone will circle around the target whenever
-an orbit angle setpoint changes. Higher value means more aggressive follow behavior.</source>
+an orbit angle setpoint changes. Higher value means more aggressive follow behavior.
+</source>
   </message>
 </context>
 <context>
@@ -14428,7 +14820,8 @@ an orbit angle setpoint changes. Higher value means more aggressive follow behav
 <context>
   <name>/parameters/FLW_TGT_RS/longDesc</name>
   <message>
-  <source>lower values increase the responsiveness to changing position, but also ignore less noise</source>
+  <source>lower values increase the responsiveness to changing position, but also ignore less noise
+</source>
   </message>
 </context>
 <context>
@@ -14442,15 +14835,19 @@ an orbit angle setpoint changes. Higher value means more aggressive follow behav
   <message>
   <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your
 receiver's documentation on how many systems are supported to be used in parallel.
+
 Currently this functionality is just implemented for u-blox receivers.
+
 When no bits are set, the receiver's default configuration should be used.
+
 Set bits true to enable:
 0 : Use GPS (with QZSS)
 1 : Use SBAS (multiple GPS augmentation systems)
 2 : Use Galileo
 3 : Use BeiDou
 4 : Use GLONASS
-5 : Use NAVIC</source>
+5 : Use NAVIC
+</source>
   </message>
 </context>
 <context>
@@ -14499,7 +14896,9 @@ Set bits true to enable:
   <name>/parameters/GPS_1_PROTOCOL/longDesc</name>
   <message>
   <source>Select the GPS protocol over serial.
-Auto-detection will probe all protocols, and thus is a bit slower.</source>
+
+Auto-detection will probe all protocols, and thus is a bit slower.
+</source>
   </message>
 </context>
 <context>
@@ -14555,15 +14954,19 @@ Auto-detection will probe all protocols, and thus is a bit slower.</source>
   <message>
   <source>This integer bitmask controls the set of GNSS systems used by the receiver. Check your
 receiver's documentation on how many systems are supported to be used in parallel.
+
 Currently this functionality is just implemented for u-blox receivers.
+
 When no bits are set, the receiver's default configuration should be used.
+
 Set bits true to enable:
 0 : Use GPS (with QZSS)
 1 : Use SBAS (multiple GPS augmentation systems)
 2 : Use Galileo
 3 : Use BeiDou
 4 : Use GLONASS
-5 : Use NAVIC</source>
+5 : Use NAVIC
+</source>
   </message>
 </context>
 <context>
@@ -14612,7 +15015,9 @@ Set bits true to enable:
   <name>/parameters/GPS_2_PROTOCOL/longDesc</name>
   <message>
   <source>Select the GPS protocol over serial.
-Auto-detection will probe all protocols, and thus is a bit slower.</source>
+
+Auto-detection will probe all protocols, and thus is a bit slower.
+</source>
   </message>
 </context>
 <context>
@@ -14670,7 +15075,9 @@ Auto-detection will probe all protocols, and thus is a bit slower.</source>
 PX4 does override all configuration parameters it needs in RAM, which takes precedence over the values in FLASH.
 However, configuration parameters that are not overriden by PX4 can still cause unexpected problems during flight.
 To avoid these kind of problems a clean config can be reached by wiping the FLASH on boot.
-Note: Currently only supported on UBX.</source>
+
+Note: Currently only supported on UBX.
+</source>
   </message>
 </context>
 <context>
@@ -14696,8 +15103,10 @@ Note: Currently only supported on UBX.</source>
   <message>
   <source>If this is set to 1, all GPS communication data will be published via uORB,
 and written to the log file as gps_dump message.
+
 If this is set to 2, the main GPS is configured to output RTCM data,
-which is then logged as gps_dump and can be used for PPK.</source>
+which is then logged as gps_dump and can be used for PPK.
+</source>
   </message>
 </context>
 <context>
@@ -14728,7 +15137,8 @@ which is then logged as gps_dump and can be used for PPK.</source>
   <name>/parameters/GPS_SAT_INFO/longDesc</name>
   <message>
   <source>Enable publication of satellite info (ORB_ID(satellite_info)) if possible.
-Not available on MTK.</source>
+Not available on MTK.
+</source>
   </message>
 </context>
 <context>
@@ -14754,7 +15164,8 @@ Not available on MTK.</source>
   <message>
   <source>Select a baudrate for the F9P's UART2 port.
 In GPS_UBX_MODE 1, 2, and 3, the F9P's UART2 port is configured to send/receive RTCM corrections.
-Set this to 57600 if you want to attach a telemetry radio on UART2.</source>
+Set this to 57600 if you want to attach a telemetry radio on UART2.
+</source>
   </message>
 </context>
 <context>
@@ -14808,7 +15219,8 @@ Set this to 57600 if you want to attach a telemetry radio on UART2.</source>
 <context>
   <name>/parameters/GPS_UBX_DGNSS_TO/longDesc</name>
   <message>
-  <source>When set to 0 (default), default DGNSS timeout set by u-blox will be used.</source>
+  <source>When set to 0 (default), default DGNSS timeout set by u-blox will be used.
+</source>
   </message>
 </context>
 <context>
@@ -14821,7 +15233,8 @@ Set this to 57600 if you want to attach a telemetry radio on UART2.</source>
   <name>/parameters/GPS_UBX_DYNMODEL/longDesc</name>
   <message>
   <source>u-blox receivers support different dynamic platform models to adjust the navigation engine to
-the expected application environment.</source>
+the expected application environment.
+</source>
   </message>
 </context>
 <context>
@@ -14866,7 +15279,8 @@ the expected application environment.</source>
   <source>Enables or disables the high sensitivity mode for the u-blox jamming detection
 (CFG-SEC-JAMDET_SENSITIVITY_HI). When enabled, the receiver uses a
 more sensitive algorithm to detect jamming. Disabling this may reduce false
-positives in electrically noisy environments.</source>
+positives in electrically noisy environments.
+</source>
   </message>
 </context>
 <context>
@@ -14890,7 +15304,8 @@ positives in electrically noisy environments.</source>
 <context>
   <name>/parameters/GPS_UBX_MIN_CNO/longDesc</name>
   <message>
-  <source>When set to 0 (default), default minimum satellite signal level set by u-blox wll be used.</source>
+  <source>When set to 0 (default), default minimum satellite signal level set by u-blox wll be used.
+</source>
   </message>
 </context>
 <context>
@@ -14902,7 +15317,8 @@ positives in electrically noisy environments.</source>
 <context>
   <name>/parameters/GPS_UBX_MIN_ELEV/longDesc</name>
   <message>
-  <source>When set to 0 (default), default minimum elevation set by u-blox will be used.</source>
+  <source>When set to 0 (default), default minimum elevation set by u-blox will be used.
+</source>
   </message>
 </context>
 <context>
@@ -14916,6 +15332,7 @@ positives in electrically noisy environments.</source>
   <message>
   <source>Select the u-blox configuration setup. Most setups will use the default, including RTK and
 dual GPS without heading.
+
 If rover has RTCM corrections from a static base (or other static correction source) coming in on UART2, then select Mode 5.
 The Heading mode requires 2 F9P devices to be attached. The main GPS will act as rover and output
 heading information, whereas the secondary will act as moving base.
@@ -14923,7 +15340,8 @@ Modes 1 and 2 require each F9P UART1 to be connected to the Autopilot. In additi
 F9P units are connected to each other.
 Modes 3 and 4 only require UART1 on each F9P connected to the Autopilot or Can Node. UART RX DMA is required.
 RTK is still possible with this setup.
-Mode 6 is intended for use with a ground control station (not necessarily an RTK correction base).</source>
+Mode 6 is intended for use with a ground control station (not necessarily an RTK correction base).
+</source>
   </message>
 </context>
 <context>
@@ -14998,9 +15416,11 @@ Mode 6 is intended for use with a ground control station (not necessarily an RTK
   <source>Configure the output rate of u-blox GPS receivers (protocol v27+).
 When set to 0, automatic rate selection is used based on the receiver model.
 Default rates: M9N=8Hz, F9P L1L2=5Hz, F9P L1L5=5Hz, Others=10Hz.
+
 Note: Higher rates reduce satellite count (e.g., &gt;8Hz limits to 16 SVs on M9N).
 Max rates vary by model and RTK mode: F9P L1L2=5-7Hz, F9P L1L5=7-8Hz, X20=25Hz.
-High rates at 115200 baud may cause dropouts.</source>
+High rates at 115200 baud may cause dropouts.
+</source>
   </message>
 </context>
 <context>
@@ -15013,14 +15433,19 @@ High rates at 115200 baud may cause dropouts.</source>
   <name>/parameters/GPS_YAW_OFFSET/longDesc</name>
   <message>
   <source>Heading offset angle for dual antenna GPS setups that support heading estimation.
+
 Set this to 0 if the antennas are parallel to the forward-facing direction
 of the vehicle and the rover (or Unicore primary) antenna is in front.
+
 The offset angle increases clockwise.
+
 Set this to 90 if the rover (or Unicore primary, or Septentrio Mosaic Aux)
 antenna is placed on the right side of the vehicle and the moving base
 antenna is on the left side.
+
 (Note: the Unicore primary antenna is the one connected on the right as seen
-from the top).</source>
+from the top).
+</source>
   </message>
 </context>
 <context>
@@ -15033,7 +15458,8 @@ from the top).</source>
   <name>/parameters/GF_ACTION/longDesc</name>
   <message>
   <source>Note: Setting this value to 4 enables flight termination,
-which will kill the vehicle on violation of the fence.</source>
+which will kill the vehicle on violation of the fence.
+</source>
   </message>
 </context>
 <context>
@@ -15082,7 +15508,8 @@ which will kill the vehicle on violation of the fence.</source>
   <name>/parameters/GF_MAX_HOR_DIST/longDesc</name>
   <message>
   <source>Maximum horizontal distance in meters the vehicle can be from Home before triggering a geofence action.
-Disabled if 0.</source>
+Disabled if 0.
+</source>
   </message>
 </context>
 <context>
@@ -15095,7 +15522,8 @@ Disabled if 0.</source>
   <name>/parameters/GF_MAX_VER_DIST/longDesc</name>
   <message>
   <source>Maximum vertical distance in meters the vehicle can be from Home before triggering a geofence action.
-Disabled if 0.</source>
+Disabled if 0.
+</source>
   </message>
 </context>
 <context>
@@ -15108,9 +15536,11 @@ Disabled if 0.</source>
   <name>/parameters/GF_PREDICT/longDesc</name>
   <message>
   <source>WARNING: This experimental feature may cause flyaways. Use at your own risk.
+
 Predict the motion of the vehicle and trigger the breach if it is determined that the current trajectory
 would result in a breach happening before the vehicle can make evasive maneuvers.
-The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).</source>
+The vehicle is then re-routed to a safe hold position (stop for multirotor, loiter for fixed wing).
+</source>
   </message>
 </context>
 <context>
@@ -15136,7 +15566,8 @@ The vehicle is then re-routed to a safe hold position (stop for multirotor, loit
   <message>
   <source>Select which position source should be used. Selecting GPS instead of global position makes sure that there is
 no dependence on the position estimator
-0 = global position, 1 = GPS</source>
+0 = global position, 1 = GPS
+</source>
   </message>
 </context>
 <context>
@@ -15162,7 +15593,10 @@ no dependence on the position estimator
   <message>
   <source>Defines which mixer implementation to use.
 Some are generic, while others are specifically fit to a certain vehicle with a fixed set of actuators.
-'Custom' should only be used if noting else can be used.</source>
+
+'Custom' should only be used if noting else can be used.
+
+</source>
   </message>
 </context>
 <context>
@@ -15270,7 +15704,8 @@ Some are generic, while others are specifically fit to a certain vehicle with a 
 <context>
   <name>/parameters/CA_CS_LAUN_LK/longDesc</name>
   <message>
-  <source>If actuator launch lock is enabled, this surface is kept at the disarmed value.</source>
+  <source>If actuator launch lock is enabled, this surface is kept at the disarmed value.
+</source>
   </message>
 </context>
 <context>
@@ -15331,7 +15766,9 @@ Some are generic, while others are specifically fit to a certain vehicle with a 
   <name>/parameters/CA_FAILURE_MODE/longDesc</name>
   <message>
   <source>This is used to specify how to handle motor failures
-reported by failure detector.</source>
+reported by failure detector.
+
+</source>
   </message>
 </context>
 <context>
@@ -15356,7 +15793,10 @@ reported by failure detector.</source>
   <name>/parameters/CA_HELI_PITCH_C0/longDesc</name>
   <message>
   <source>Defines the collective pitch at the interval position 0 for a given thrust setpoint.
-Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+
+Use negative values if the swash plate needs to move down to provide upwards thrust.
+
+</source>
   </message>
 </context>
 <context>
@@ -15369,7 +15809,10 @@ Use negative values if the swash plate needs to move down to provide upwards thr
   <name>/parameters/CA_HELI_PITCH_C1/longDesc</name>
   <message>
   <source>Defines the collective pitch at the interval position 1 for a given thrust setpoint.
-Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+
+Use negative values if the swash plate needs to move down to provide upwards thrust.
+
+</source>
   </message>
 </context>
 <context>
@@ -15382,7 +15825,10 @@ Use negative values if the swash plate needs to move down to provide upwards thr
   <name>/parameters/CA_HELI_PITCH_C2/longDesc</name>
   <message>
   <source>Defines the collective pitch at the interval position 2 for a given thrust setpoint.
-Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+
+Use negative values if the swash plate needs to move down to provide upwards thrust.
+
+</source>
   </message>
 </context>
 <context>
@@ -15395,7 +15841,10 @@ Use negative values if the swash plate needs to move down to provide upwards thr
   <name>/parameters/CA_HELI_PITCH_C3/longDesc</name>
   <message>
   <source>Defines the collective pitch at the interval position 3 for a given thrust setpoint.
-Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+
+Use negative values if the swash plate needs to move down to provide upwards thrust.
+
+</source>
   </message>
 </context>
 <context>
@@ -15408,7 +15857,10 @@ Use negative values if the swash plate needs to move down to provide upwards thr
   <name>/parameters/CA_HELI_PITCH_C4/longDesc</name>
   <message>
   <source>Defines the collective pitch at the interval position 4 for a given thrust setpoint.
-Use negative values if the swash plate needs to move down to provide upwards thrust.</source>
+
+Use negative values if the swash plate needs to move down to provide upwards thrust.
+
+</source>
   </message>
 </context>
 <context>
@@ -15420,7 +15872,9 @@ Use negative values if the swash plate needs to move down to provide upwards thr
 <context>
   <name>/parameters/CA_HELI_RPM_I/longDesc</name>
   <message>
-  <source>Same definition as the proportional gain but for integral.</source>
+  <source>Same definition as the proportional gain but for integral.
+
+</source>
   </message>
 </context>
 <context>
@@ -15433,7 +15887,10 @@ Use negative values if the swash plate needs to move down to provide upwards thr
   <name>/parameters/CA_HELI_RPM_P/longDesc</name>
   <message>
   <source>Ratio between rpm error devided by 1000 to how much normalized output gets added to correct for it.
-motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement) / 1000</source>
+
+motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement) / 1000
+
+</source>
   </message>
 </context>
 <context>
@@ -15445,7 +15902,9 @@ motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement
 <context>
   <name>/parameters/CA_HELI_RPM_SP/longDesc</name>
   <message>
-  <source>Requires rpm feedback for the controller.</source>
+  <source>Requires rpm feedback for the controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -15457,7 +15916,9 @@ motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement
 <context>
   <name>/parameters/CA_HELI_THR_C0/longDesc</name>
   <message>
-  <source>Defines the output throttle at the interval position 0.</source>
+  <source>Defines the output throttle at the interval position 0.
+
+</source>
   </message>
 </context>
 <context>
@@ -15469,7 +15930,9 @@ motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement
 <context>
   <name>/parameters/CA_HELI_THR_C1/longDesc</name>
   <message>
-  <source>Defines the output throttle at the interval position 1.</source>
+  <source>Defines the output throttle at the interval position 1.
+
+</source>
   </message>
 </context>
 <context>
@@ -15481,7 +15944,9 @@ motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement
 <context>
   <name>/parameters/CA_HELI_THR_C2/longDesc</name>
   <message>
-  <source>Defines the output throttle at the interval position 2.</source>
+  <source>Defines the output throttle at the interval position 2.
+
+</source>
   </message>
 </context>
 <context>
@@ -15493,7 +15958,9 @@ motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement
 <context>
   <name>/parameters/CA_HELI_THR_C3/longDesc</name>
   <message>
-  <source>Defines the output throttle at the interval position 3.</source>
+  <source>Defines the output throttle at the interval position 3.
+
+</source>
   </message>
 </context>
 <context>
@@ -15505,7 +15972,9 @@ motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement
 <context>
   <name>/parameters/CA_HELI_THR_C4/longDesc</name>
   <message>
-  <source>Defines the output throttle at the interval position 4.</source>
+  <source>Defines the output throttle at the interval position 4.
+
+</source>
   </message>
 </context>
 <context>
@@ -15520,7 +15989,9 @@ motor_command = throttle_curve + CA_HELI_RPM_P * (rpm_setpoint - rpm_measurement
   <source>Default configuration is for a clockwise turning main rotor and
 positive thrust of the tail rotor is expected to rotate the vehicle clockwise.
 Set this parameter to true if the tail rotor provides thrust in counter-clockwise direction
-which is mostly the case when the main rotor turns counter-clockwise.</source>
+which is mostly the case when the main rotor turns counter-clockwise.
+
+</source>
   </message>
 </context>
 <context>
@@ -15549,7 +16020,10 @@ This is used to increase the accuracy of the yaw drag torque compensation based 
 by aligning the lowest rotor drag with zero compensation.
 For symmetric profile blades this is the command that results in exactly 0° collective blade angle.
 For lift profile blades this is typically a command resulting in slightly negative collective blade angle.
-tail_output += CA_HELI_YAW_CP_S * abs(collective_pitch - CA_HELI_YAW_CP_O)</source>
+
+tail_output += CA_HELI_YAW_CP_S * abs(collective_pitch - CA_HELI_YAW_CP_O)
+
+</source>
   </message>
 </context>
 <context>
@@ -15563,7 +16037,10 @@ tail_output += CA_HELI_YAW_CP_S * abs(collective_pitch - CA_HELI_YAW_CP_O)</sour
   <message>
   <source>This allows to add a proportional factor of the collective pitch command to the yaw command.
 A negative value is needed when positive thrust of the tail rotor rotates the vehicle opposite to the main rotor turn direction.
-tail_output += CA_HELI_YAW_CP_S * abs(collective_pitch - CA_HELI_YAW_CP_O)</source>
+
+tail_output += CA_HELI_YAW_CP_S * abs(collective_pitch - CA_HELI_YAW_CP_O)
+
+</source>
   </message>
 </context>
 <context>
@@ -15577,7 +16054,10 @@ tail_output += CA_HELI_YAW_CP_S * abs(collective_pitch - CA_HELI_YAW_CP_O)</sour
   <message>
   <source>This allows to add a proportional factor of the throttle command to the yaw command.
 A negative value is needed when positive thrust of the tail rotor rotates the vehicle opposite to the main rotor turn direction.
-tail_output += CA_HELI_YAW_TH_S * throttle</source>
+
+tail_output += CA_HELI_YAW_TH_S * throttle
+
+</source>
   </message>
 </context>
 <context>
@@ -15591,7 +16071,9 @@ tail_output += CA_HELI_YAW_TH_S * throttle</source>
   <message>
   <source>Ice shedding prevents ice buildup in VTOL aircraft motors by periodically spinning inactive rotors.
 When enabled (period &gt; 0), every cycle lasts for the defined period and includes a 2-second spin at 0.01 motor output.
-If period &lt;= 0, the feature is disabled.</source>
+If period &lt;= 0, the feature is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15605,7 +16087,9 @@ If period &lt;= 0, the feature is disabled.</source>
   <message>
   <source>Used to linearize mechanical output of swashplate servos to avoid axis coupling and binding with 4 servo redundancy.
 This requires a symmetric setup where the servo horn is exactly centered with a 0 command.
-Setting to zero disables feature.</source>
+Setting to zero disables feature.
+
+</source>
   </message>
 </context>
 <context>
@@ -15618,7 +16102,9 @@ Setting to zero disables feature.</source>
   <name>/parameters/CA_METHOD/longDesc</name>
   <message>
   <source>Selects the algorithm and desaturation method.
-If set to Automatic, the selection is based on the airframe (CA_AIRFRAME).</source>
+If set to Automatic, the selection is based on the airframe (CA_AIRFRAME).
+
+</source>
   </message>
 </context>
 <context>
@@ -15650,7 +16136,10 @@ If set to Automatic, the selection is based on the airframe (CA_AIRFRAME).</sour
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15664,7 +16153,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15678,7 +16170,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15692,7 +16187,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15706,7 +16204,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15720,7 +16221,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15734,7 +16238,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15748,7 +16255,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15762,7 +16272,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15776,7 +16289,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15790,7 +16306,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15804,7 +16323,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the motor output signal to take at least the configured time (in seconds)
 to traverse its full range (normally [0, 1], or if reversible [-1, 1]).
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -15816,7 +16338,8 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_ROTOR0_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -15828,7 +16351,8 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_ROTOR0_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -15840,7 +16364,8 @@ Zero means that slew rate limiting is disabled.</source>
 <context>
   <name>/parameters/CA_ROTOR0_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -15854,7 +16379,9 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -15867,8 +16394,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR0_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -15898,7 +16428,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR0_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -15940,7 +16471,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR10_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -15952,7 +16484,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR10_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -15964,7 +16497,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR10_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -15978,7 +16512,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -15991,8 +16527,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR10_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -16022,7 +16561,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR10_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -16064,7 +16604,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR11_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16076,7 +16617,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR11_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16088,7 +16630,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR11_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16102,7 +16645,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -16115,8 +16660,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR11_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -16146,7 +16694,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR11_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -16188,7 +16737,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR1_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16200,7 +16750,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR1_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16212,7 +16763,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR1_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16226,7 +16778,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -16239,8 +16793,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR1_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -16270,7 +16827,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR1_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -16312,7 +16870,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR2_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16324,7 +16883,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR2_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16336,7 +16896,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR2_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16350,7 +16911,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -16363,8 +16926,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR2_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -16394,7 +16960,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR2_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -16436,7 +17003,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR3_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16448,7 +17016,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR3_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16460,7 +17029,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR3_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16474,7 +17044,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -16487,8 +17059,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR3_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -16518,7 +17093,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR3_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -16560,7 +17136,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR4_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16572,7 +17149,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR4_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16584,7 +17162,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR4_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16598,7 +17177,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -16611,8 +17192,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR4_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -16642,7 +17226,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR4_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -16684,7 +17269,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR5_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16696,7 +17282,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR5_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16708,7 +17295,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR5_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16722,7 +17310,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -16735,8 +17325,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR5_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -16766,7 +17359,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR5_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -16808,7 +17402,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR6_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16820,7 +17415,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR6_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16832,7 +17428,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR6_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16846,7 +17443,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -16859,8 +17458,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR6_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -16890,7 +17492,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR6_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -16932,7 +17535,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR7_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16944,7 +17548,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR7_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16956,7 +17561,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR7_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -16970,7 +17576,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -16983,8 +17591,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR7_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -17014,7 +17625,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR7_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -17056,7 +17668,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR8_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -17068,7 +17681,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR8_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -17080,7 +17694,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR8_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -17094,7 +17709,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -17107,8 +17724,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR8_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -17138,7 +17758,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR8_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -17180,7 +17801,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR9_AX/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -17192,7 +17814,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR9_AY/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -17204,7 +17827,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR9_AZ/longDesc</name>
   <message>
-  <source>Only the direction is considered (the vector is normalized).</source>
+  <source>Only the direction is considered (the vector is normalized).
+</source>
   </message>
 </context>
 <context>
@@ -17218,7 +17842,9 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>The thrust coefficient if defined as Thrust = CT * u^2,
 where u (with value between actuator minimum and maximum)
-is the output signal sent to the motor controller.</source>
+is the output signal sent to the motor controller.
+
+</source>
   </message>
 </context>
 <context>
@@ -17231,8 +17857,11 @@ is the output signal sent to the motor controller.</source>
   <name>/parameters/CA_ROTOR9_KM/longDesc</name>
   <message>
   <source>The moment coefficient if defined as Torque = KM * Thrust.
+
 Use a positive value for a rotor with CCW rotation.
-Use a negative value for a rotor with CW rotation.</source>
+Use a negative value for a rotor with CW rotation.
+
+</source>
   </message>
 </context>
 <context>
@@ -17262,7 +17891,8 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_ROTOR9_TILT/longDesc</name>
   <message>
-  <source>If not set to None, this motor is tilted by the configured tilt servo.</source>
+  <source>If not set to None, this motor is tilted by the configured tilt servo.
+</source>
   </message>
 </context>
 <context>
@@ -17388,7 +18018,9 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_R_REV/longDesc</name>
   <message>
-  <source>Configure motors to be bidirectional/reversible. Note that the output driver needs to support this as well.</source>
+  <source>Configure motors to be bidirectional/reversible. Note that the output driver needs to support this as well.
+
+</source>
   </message>
 </context>
 <context>
@@ -17472,7 +18104,9 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_SP0_ANG0/longDesc</name>
   <message>
-  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).</source>
+  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).
+
+</source>
   </message>
 </context>
 <context>
@@ -17484,7 +18118,9 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_SP0_ANG1/longDesc</name>
   <message>
-  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).</source>
+  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).
+
+</source>
   </message>
 </context>
 <context>
@@ -17496,7 +18132,9 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_SP0_ANG2/longDesc</name>
   <message>
-  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).</source>
+  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).
+
+</source>
   </message>
 </context>
 <context>
@@ -17508,7 +18146,9 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_SP0_ANG3/longDesc</name>
   <message>
-  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).</source>
+  <source>The angle is measured clockwise (as seen from top), with 0 pointing forwards (X axis).
+
+</source>
   </message>
 </context>
 <context>
@@ -17520,7 +18160,9 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_SP0_ARM_L0/longDesc</name>
   <message>
-  <source>This is relative to the other arm lengths.</source>
+  <source>This is relative to the other arm lengths.
+
+</source>
   </message>
 </context>
 <context>
@@ -17532,7 +18174,9 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_SP0_ARM_L1/longDesc</name>
   <message>
-  <source>This is relative to the other arm lengths.</source>
+  <source>This is relative to the other arm lengths.
+
+</source>
   </message>
 </context>
 <context>
@@ -17544,7 +18188,9 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_SP0_ARM_L2/longDesc</name>
   <message>
-  <source>This is relative to the other arm lengths.</source>
+  <source>This is relative to the other arm lengths.
+
+</source>
   </message>
 </context>
 <context>
@@ -17556,7 +18202,9 @@ Use a negative value for a rotor with CW rotation.</source>
 <context>
   <name>/parameters/CA_SP0_ARM_L3/longDesc</name>
   <message>
-  <source>This is relative to the other arm lengths.</source>
+  <source>This is relative to the other arm lengths.
+
+</source>
   </message>
 </context>
 <context>
@@ -17594,7 +18242,10 @@ Use a negative value for a rotor with CW rotation.</source>
   <message>
   <source>Forces the servo output signal to take at least the configured time (in seconds)
 to traverse its full range [-100%, 100%].
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -17608,7 +18259,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the servo output signal to take at least the configured time (in seconds)
 to traverse its full range [-100%, 100%].
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -17622,7 +18276,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the servo output signal to take at least the configured time (in seconds)
 to traverse its full range [-100%, 100%].
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -17636,7 +18293,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the servo output signal to take at least the configured time (in seconds)
 to traverse its full range [-100%, 100%].
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -17650,7 +18310,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the servo output signal to take at least the configured time (in seconds)
 to traverse its full range [-100%, 100%].
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -17664,7 +18327,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the servo output signal to take at least the configured time (in seconds)
 to traverse its full range [-100%, 100%].
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -17678,7 +18344,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the servo output signal to take at least the configured time (in seconds)
 to traverse its full range [-100%, 100%].
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -17692,7 +18361,10 @@ Zero means that slew rate limiting is disabled.</source>
   <message>
   <source>Forces the servo output signal to take at least the configured time (in seconds)
 to traverse its full range [-100%, 100%].
-Zero means that slew rate limiting is disabled.</source>
+
+Zero means that slew rate limiting is disabled.
+
+</source>
   </message>
 </context>
 <context>
@@ -17717,8 +18389,11 @@ Zero means that slew rate limiting is disabled.</source>
   <name>/parameters/CA_SV_CS0_TRIM/longDesc</name>
   <message>
   <source>Can be used to add an offset to the servo control.
+
 NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
-This parameter can only be set if all PWM Center parameters are set to default.</source>
+This parameter can only be set if all PWM Center parameters are set to default.
+
+</source>
   </message>
 </context>
 <context>
@@ -17881,8 +18556,11 @@ This parameter can only be set if all PWM Center parameters are set to default.<
   <name>/parameters/CA_SV_CS1_TRIM/longDesc</name>
   <message>
   <source>Can be used to add an offset to the servo control.
+
 NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
-This parameter can only be set if all PWM Center parameters are set to default.</source>
+This parameter can only be set if all PWM Center parameters are set to default.
+
+</source>
   </message>
 </context>
 <context>
@@ -18045,8 +18723,11 @@ This parameter can only be set if all PWM Center parameters are set to default.<
   <name>/parameters/CA_SV_CS2_TRIM/longDesc</name>
   <message>
   <source>Can be used to add an offset to the servo control.
+
 NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
-This parameter can only be set if all PWM Center parameters are set to default.</source>
+This parameter can only be set if all PWM Center parameters are set to default.
+
+</source>
   </message>
 </context>
 <context>
@@ -18209,8 +18890,11 @@ This parameter can only be set if all PWM Center parameters are set to default.<
   <name>/parameters/CA_SV_CS3_TRIM/longDesc</name>
   <message>
   <source>Can be used to add an offset to the servo control.
+
 NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
-This parameter can only be set if all PWM Center parameters are set to default.</source>
+This parameter can only be set if all PWM Center parameters are set to default.
+
+</source>
   </message>
 </context>
 <context>
@@ -18373,8 +19057,11 @@ This parameter can only be set if all PWM Center parameters are set to default.<
   <name>/parameters/CA_SV_CS4_TRIM/longDesc</name>
   <message>
   <source>Can be used to add an offset to the servo control.
+
 NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
-This parameter can only be set if all PWM Center parameters are set to default.</source>
+This parameter can only be set if all PWM Center parameters are set to default.
+
+</source>
   </message>
 </context>
 <context>
@@ -18537,8 +19224,11 @@ This parameter can only be set if all PWM Center parameters are set to default.<
   <name>/parameters/CA_SV_CS5_TRIM/longDesc</name>
   <message>
   <source>Can be used to add an offset to the servo control.
+
 NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
-This parameter can only be set if all PWM Center parameters are set to default.</source>
+This parameter can only be set if all PWM Center parameters are set to default.
+
+</source>
   </message>
 </context>
 <context>
@@ -18701,8 +19391,11 @@ This parameter can only be set if all PWM Center parameters are set to default.<
   <name>/parameters/CA_SV_CS6_TRIM/longDesc</name>
   <message>
   <source>Can be used to add an offset to the servo control.
+
 NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
-This parameter can only be set if all PWM Center parameters are set to default.</source>
+This parameter can only be set if all PWM Center parameters are set to default.
+
+</source>
   </message>
 </context>
 <context>
@@ -18865,8 +19558,11 @@ This parameter can only be set if all PWM Center parameters are set to default.<
   <name>/parameters/CA_SV_CS7_TRIM/longDesc</name>
   <message>
   <source>Can be used to add an offset to the servo control.
+
 NOTE: Do not use for PWM servos. Use the PWM CENTER parameters instead (e.g., PWM_MAIN_CENT, PWM_AUX_CENT) instead.
-This parameter can only be set if all PWM Center parameters are set to default.</source>
+This parameter can only be set if all PWM Center parameters are set to default.
+
+</source>
   </message>
 </context>
 <context>
@@ -19082,7 +19778,8 @@ This parameter can only be set if all PWM Center parameters are set to default.<
 <context>
   <name>/parameters/CA_SV_TL0_CT/longDesc</name>
   <message>
-  <source>Define if this servo is used for additional control.</source>
+  <source>Define if this servo is used for additional control.
+</source>
   </message>
 </context>
 <context>
@@ -19119,7 +19816,9 @@ This parameter can only be set if all PWM Center parameters are set to default.<
   <name>/parameters/CA_SV_TL0_MAXA/longDesc</name>
   <message>
   <source>Defines the tilt angle when the servo is at the maximum.
-An angle of zero means upwards.</source>
+An angle of zero means upwards.
+
+</source>
   </message>
 </context>
 <context>
@@ -19132,7 +19831,9 @@ An angle of zero means upwards.</source>
   <name>/parameters/CA_SV_TL0_MINA/longDesc</name>
   <message>
   <source>Defines the tilt angle when the servo is at the minimum.
-An angle of zero means upwards.</source>
+An angle of zero means upwards.
+
+</source>
   </message>
 </context>
 <context>
@@ -19146,7 +19847,9 @@ An angle of zero means upwards.</source>
   <message>
   <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle.
 For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front',
-the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.
+
+</source>
   </message>
 </context>
 <context>
@@ -19170,7 +19873,8 @@ the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X
 <context>
   <name>/parameters/CA_SV_TL1_CT/longDesc</name>
   <message>
-  <source>Define if this servo is used for additional control.</source>
+  <source>Define if this servo is used for additional control.
+</source>
   </message>
 </context>
 <context>
@@ -19207,7 +19911,9 @@ the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X
   <name>/parameters/CA_SV_TL1_MAXA/longDesc</name>
   <message>
   <source>Defines the tilt angle when the servo is at the maximum.
-An angle of zero means upwards.</source>
+An angle of zero means upwards.
+
+</source>
   </message>
 </context>
 <context>
@@ -19220,7 +19926,9 @@ An angle of zero means upwards.</source>
   <name>/parameters/CA_SV_TL1_MINA/longDesc</name>
   <message>
   <source>Defines the tilt angle when the servo is at the minimum.
-An angle of zero means upwards.</source>
+An angle of zero means upwards.
+
+</source>
   </message>
 </context>
 <context>
@@ -19234,7 +19942,9 @@ An angle of zero means upwards.</source>
   <message>
   <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle.
 For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front',
-the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.
+
+</source>
   </message>
 </context>
 <context>
@@ -19258,7 +19968,8 @@ the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X
 <context>
   <name>/parameters/CA_SV_TL2_CT/longDesc</name>
   <message>
-  <source>Define if this servo is used for additional control.</source>
+  <source>Define if this servo is used for additional control.
+</source>
   </message>
 </context>
 <context>
@@ -19295,7 +20006,9 @@ the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X
   <name>/parameters/CA_SV_TL2_MAXA/longDesc</name>
   <message>
   <source>Defines the tilt angle when the servo is at the maximum.
-An angle of zero means upwards.</source>
+An angle of zero means upwards.
+
+</source>
   </message>
 </context>
 <context>
@@ -19308,7 +20021,9 @@ An angle of zero means upwards.</source>
   <name>/parameters/CA_SV_TL2_MINA/longDesc</name>
   <message>
   <source>Defines the tilt angle when the servo is at the minimum.
-An angle of zero means upwards.</source>
+An angle of zero means upwards.
+
+</source>
   </message>
 </context>
 <context>
@@ -19322,7 +20037,9 @@ An angle of zero means upwards.</source>
   <message>
   <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle.
 For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front',
-the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.
+
+</source>
   </message>
 </context>
 <context>
@@ -19346,7 +20063,8 @@ the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X
 <context>
   <name>/parameters/CA_SV_TL3_CT/longDesc</name>
   <message>
-  <source>Define if this servo is used for additional control.</source>
+  <source>Define if this servo is used for additional control.
+</source>
   </message>
 </context>
 <context>
@@ -19383,7 +20101,9 @@ the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X
   <name>/parameters/CA_SV_TL3_MAXA/longDesc</name>
   <message>
   <source>Defines the tilt angle when the servo is at the maximum.
-An angle of zero means upwards.</source>
+An angle of zero means upwards.
+
+</source>
   </message>
 </context>
 <context>
@@ -19396,7 +20116,9 @@ An angle of zero means upwards.</source>
   <name>/parameters/CA_SV_TL3_MINA/longDesc</name>
   <message>
   <source>Defines the tilt angle when the servo is at the minimum.
-An angle of zero means upwards.</source>
+An angle of zero means upwards.
+
+</source>
   </message>
 </context>
 <context>
@@ -19410,7 +20132,9 @@ An angle of zero means upwards.</source>
   <message>
   <source>Defines the direction the servo tilts towards when moving towards the maximum tilt angle.
 For example if the minimum tilt angle is -90, the maximum 90, and the direction 'Towards Front',
-the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.</source>
+the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X at the maximum tilt.
+
+</source>
   </message>
 </context>
 <context>
@@ -19471,7 +20195,8 @@ the motor axis aligns with the XZ-plane, points towards -X at the minimum and +X
   <name>/parameters/HTE_ACC_GATE/longDesc</name>
   <message>
   <source>Sets the number of standard deviations used
-by the innovation consistency test.</source>
+by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -19484,7 +20209,8 @@ by the innovation consistency test.</source>
   <name>/parameters/HTE_HT_ERR_INIT/longDesc</name>
   <message>
   <source>Sets the number of standard deviations used
-by the innovation consistency test.</source>
+by the innovation consistency test.
+</source>
   </message>
 </context>
 <context>
@@ -19498,7 +20224,8 @@ by the innovation consistency test.</source>
   <message>
   <source>Reduce to make the hover thrust estimate
 more stable, increase if the real hover thrust
-is expected to change quickly over time.</source>
+is expected to change quickly over time.
+</source>
   </message>
 </context>
 <context>
@@ -19512,8 +20239,10 @@ is expected to change quickly over time.</source>
   <message>
   <source>Defines the range of the hover thrust estimate around MPC_THR_HOVER.
 A value of 0.2 with MPC_THR_HOVER at 0.5 results in a range of [0.3, 0.7].
+
 Set to a large value if the vehicle operates in varying physical conditions that
-affect the required hover thrust strongly (e.g. differently sized payloads).</source>
+affect the required hover thrust strongly (e.g. differently sized payloads).
+</source>
   </message>
 </context>
 <context>
@@ -19527,7 +20256,9 @@ affect the required hover thrust strongly (e.g. differently sized payloads).</so
   <message>
   <source>Above this speed, the measurement noise is linearly increased
 to reduce the sensitivity of the estimator from biased measurement.
-Set to a low value on vehicles with large lifting surfaces.</source>
+
+Set to a low value on vehicles with large lifting surfaces.
+</source>
   </message>
 </context>
 <context>
@@ -19541,7 +20272,9 @@ Set to a low value on vehicles with large lifting surfaces.</source>
   <message>
   <source>Above this speed, the measurement noise is linearly increased
 to reduce the sensitivity of the estimator from biased measurement.
-Set to a low value on vehicles affected by air drag when climbing or descending.</source>
+
+Set to a low value on vehicles affected by air drag when climbing or descending.
+</source>
   </message>
 </context>
 <context>
@@ -19553,7 +20286,8 @@ Set to a low value on vehicles affected by air drag when climbing or descending.
 <context>
   <name>/parameters/LNDFW_AIRSPD_MAX/longDesc</name>
   <message>
-  <source>Maximum airspeed allowed in the landed state</source>
+  <source>Maximum airspeed allowed in the landed state
+</source>
   </message>
 </context>
 <context>
@@ -19566,7 +20300,8 @@ Set to a low value on vehicles affected by air drag when climbing or descending.
   <name>/parameters/LNDFW_ROT_MAX/longDesc</name>
   <message>
   <source>Maximum allowed norm of the angular velocity in the landed state.
-Only used if neither airspeed nor groundspeed can be used for landing detection.</source>
+Only used if neither airspeed nor groundspeed can be used for landing detection.
+</source>
   </message>
 </context>
 <context>
@@ -19578,7 +20313,8 @@ Only used if neither airspeed nor groundspeed can be used for landing detection.
 <context>
   <name>/parameters/LNDFW_TRIG_TIME/longDesc</name>
   <message>
-  <source>Time the land conditions (speeds and acceleration) have to be satisfied to detect a landing.</source>
+  <source>Time the land conditions (speeds and acceleration) have to be satisfied to detect a landing.
+</source>
   </message>
 </context>
 <context>
@@ -19592,7 +20328,8 @@ Only used if neither airspeed nor groundspeed can be used for landing detection.
   <message>
   <source>Maximum horizontal velocity allowed in the landed state.
 A factor of 0.7 is applied in case of airspeed-less flying
-(either because no sensor is present or sensor data got invalid in flight).</source>
+(either because no sensor is present or sensor data got invalid in flight).
+</source>
   </message>
 </context>
 <context>
@@ -19604,7 +20341,8 @@ A factor of 0.7 is applied in case of airspeed-less flying
 <context>
   <name>/parameters/LNDFW_VEL_Z_MAX/longDesc</name>
   <message>
-  <source>Maximum vertical velocity allowed in the landed state.</source>
+  <source>Maximum vertical velocity allowed in the landed state.
+</source>
   </message>
 </context>
 <context>
@@ -19616,7 +20354,8 @@ A factor of 0.7 is applied in case of airspeed-less flying
 <context>
   <name>/parameters/LNDFW_XYACC_MAX/longDesc</name>
   <message>
-  <source>Maximum horizontal (x,y body axes) acceleration allowed in the landed state</source>
+  <source>Maximum horizontal (x,y body axes) acceleration allowed in the landed state
+</source>
   </message>
 </context>
 <context>
@@ -19629,7 +20368,8 @@ A factor of 0.7 is applied in case of airspeed-less flying
   <name>/parameters/LNDMC_ALT_GND/longDesc</name>
   <message>
   <source>The height above ground below which ground effect creates barometric altitude errors.
-A negative value indicates no ground effect.</source>
+A negative value indicates no ground effect.
+</source>
   </message>
 </context>
 <context>
@@ -19641,7 +20381,8 @@ A negative value indicates no ground effect.</source>
 <context>
   <name>/parameters/LNDMC_ROT_MAX/longDesc</name>
   <message>
-  <source>Maximum allowed norm of the angular velocity (roll, pitch) in the landed state.</source>
+  <source>Maximum allowed norm of the angular velocity (roll, pitch) in the landed state.
+</source>
   </message>
 </context>
 <context>
@@ -19653,7 +20394,8 @@ A negative value indicates no ground effect.</source>
 <context>
   <name>/parameters/LNDMC_XY_VEL_MAX/longDesc</name>
   <message>
-  <source>Maximum horizontal velocity allowed in the landed state</source>
+  <source>Maximum horizontal velocity allowed in the landed state
+</source>
   </message>
 </context>
 <context>
@@ -19668,7 +20410,8 @@ A negative value indicates no ground effect.</source>
   <source>Vertical velocity threshold to detect landing.
 Has to be set lower than the expected minimal speed for landing,
 which is either MPC_LAND_SPEED or MPC_LAND_CRWL.
-This is enforced by an automatic check.</source>
+This is enforced by an automatic check.
+</source>
   </message>
 </context>
 <context>
@@ -19681,7 +20424,8 @@ This is enforced by an automatic check.</source>
   <name>/parameters/LND_FLIGHT_T_HI/longDesc</name>
   <message>
   <source>Total flight time of this autopilot. Higher 32 bits of the value.
-Flight time in microseconds = (LND_FLIGHT_T_HI &lt;&lt; 32) | LND_FLIGHT_T_LO.</source>
+Flight time in microseconds = (LND_FLIGHT_T_HI &lt;&lt; 32) | LND_FLIGHT_T_LO.
+</source>
   </message>
 </context>
 <context>
@@ -19694,7 +20438,8 @@ Flight time in microseconds = (LND_FLIGHT_T_HI &lt;&lt; 32) | LND_FLIGHT_T_LO.</
   <name>/parameters/LND_FLIGHT_T_LO/longDesc</name>
   <message>
   <source>Total flight time of this autopilot. Lower 32 bits of the value.
-Flight time in microseconds = (LND_FLIGHT_T_HI &lt;&lt; 32) | LND_FLIGHT_T_LO.</source>
+Flight time in microseconds = (LND_FLIGHT_T_HI &lt;&lt; 32) | LND_FLIGHT_T_LO.
+</source>
   </message>
 </context>
 <context>
@@ -19707,7 +20452,8 @@ Flight time in microseconds = (LND_FLIGHT_T_HI &lt;&lt; 32) | LND_FLIGHT_T_LO.</
   <name>/parameters/LTEST_ACC_UNC/longDesc</name>
   <message>
   <source>Variance of acceleration measurement used for landing target position prediction.
-Higher values results in tighter following of the measurements and more lenient outlier rejection</source>
+Higher values results in tighter following of the measurements and more lenient outlier rejection
+</source>
   </message>
 </context>
 <context>
@@ -19720,7 +20466,8 @@ Higher values results in tighter following of the measurements and more lenient 
   <name>/parameters/LTEST_MEAS_UNC/longDesc</name>
   <message>
   <source>Variance of the landing target measurement from the driver.
-Higher values result in less aggressive following of the measurement and a smoother output as well as fewer rejected measurements.</source>
+Higher values result in less aggressive following of the measurement and a smoother output as well as fewer rejected measurements.
+</source>
   </message>
 </context>
 <context>
@@ -19733,8 +20480,10 @@ Higher values result in less aggressive following of the measurement and a smoot
   <name>/parameters/LTEST_MODE/longDesc</name>
   <message>
   <source>Configure the mode of the landing target. Depending on the mode, the landing target observations are used differently to aid position estimation.
+
 Mode Moving:     The landing target may be moving around while in the field of view of the vehicle. Landing target measurements are not used to aid positioning.
-Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the landing target is used to aid velocity estimation.</source>
+Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the landing target is used to aid velocity estimation.
+</source>
   </message>
 </context>
 <context>
@@ -19758,7 +20507,8 @@ Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the 
 <context>
   <name>/parameters/LTEST_POS_UNC_IN/longDesc</name>
   <message>
-  <source>Initial variance of the relative landing target position in x and y direction</source>
+  <source>Initial variance of the relative landing target position in x and y direction
+</source>
   </message>
 </context>
 <context>
@@ -19770,7 +20520,8 @@ Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the 
 <context>
   <name>/parameters/LTEST_SCALE_X/longDesc</name>
   <message>
-  <source>Landing target x measurements are scaled by this factor before being used</source>
+  <source>Landing target x measurements are scaled by this factor before being used
+</source>
   </message>
 </context>
 <context>
@@ -19782,7 +20533,8 @@ Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the 
 <context>
   <name>/parameters/LTEST_SCALE_Y/longDesc</name>
   <message>
-  <source>Landing target y measurements are scaled by this factor before being used</source>
+  <source>Landing target y measurements are scaled by this factor before being used
+</source>
   </message>
 </context>
 <context>
@@ -19812,7 +20564,8 @@ Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the 
 <context>
   <name>/parameters/LTEST_SENS_ROT/longDesc</name>
   <message>
-  <source>Default orientation of Yaw 90°</source>
+  <source>Default orientation of Yaw 90°
+</source>
   </message>
 </context>
 <context>
@@ -19872,7 +20625,8 @@ Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the 
 <context>
   <name>/parameters/LTEST_VEL_UNC_IN/longDesc</name>
   <message>
-  <source>Initial variance of the relative landing target velocity in x and y directions</source>
+  <source>Initial variance of the relative landing target velocity in x and y directions
+</source>
   </message>
 </context>
 <context>
@@ -19885,7 +20639,9 @@ Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the 
   <name>/parameters/LPE_ACC_XY/longDesc</name>
   <message>
   <source>Data sheet noise density = 150ug/sqrt(Hz) = 0.0015 m/s^2/sqrt(Hz)
-Larger than data sheet to account for tilt error.</source>
+
+Larger than data sheet to account for tilt error.
+</source>
   </message>
 </context>
 <context>
@@ -19897,7 +20653,8 @@ Larger than data sheet to account for tilt error.</source>
 <context>
   <name>/parameters/LPE_ACC_Z/longDesc</name>
   <message>
-  <source>Data sheet noise density = 150ug/sqrt(Hz) = 0.0015 m/s^2/sqrt(Hz)</source>
+  <source>Data sheet noise density = 150ug/sqrt(Hz) = 0.0015 m/s^2/sqrt(Hz)
+</source>
   </message>
 </context>
 <context>
@@ -19945,7 +20702,8 @@ Larger than data sheet to account for tilt error.</source>
 <context>
   <name>/parameters/LPE_FAKE_ORIGIN/longDesc</name>
   <message>
-  <source>By initializing the estimator to the LPE_LAT/LON parameters when global information is unavailable</source>
+  <source>By initializing the estimator to the LPE_LAT/LON parameters when global information is unavailable
+</source>
   </message>
 </context>
 <context>
@@ -20002,7 +20760,9 @@ Larger than data sheet to account for tilt error.</source>
 5 : Set to true to publish AGL as local position down component
 6 : Set to true to enable flow gyro compensation
 7 : Set to true to enable baro fusion
-default (145 - GPS, baro, land detector)</source>
+
+default (145 - GPS, baro, land detector)
+</source>
   </message>
 </context>
 <context>
@@ -20068,7 +20828,8 @@ default (145 - GPS, baro, land detector)</source>
 <context>
   <name>/parameters/LPE_GPS_VXY/longDesc</name>
   <message>
-  <source>EPV used if greater than this value.</source>
+  <source>EPV used if greater than this value.
+</source>
   </message>
 </context>
 <context>
@@ -20147,7 +20908,8 @@ default (145 - GPS, baro, land detector)</source>
   <name>/parameters/LPE_PN_P/longDesc</name>
   <message>
   <source>Increase to trust measurements more.
-Decrease to trust model more.</source>
+Decrease to trust model more.
+</source>
   </message>
 </context>
 <context>
@@ -20166,7 +20928,8 @@ Decrease to trust model more.</source>
   <name>/parameters/LPE_PN_V/longDesc</name>
   <message>
   <source>Increase to trust measurements more.
-Decrease to trust model more.</source>
+Decrease to trust model more.
+</source>
   </message>
 </context>
 <context>
@@ -20190,7 +20953,8 @@ Decrease to trust model more.</source>
 <context>
   <name>/parameters/LPE_T_MAX_GRADE/longDesc</name>
   <message>
-  <source>Used to calculate increased terrain random walk nosie due to movement.</source>
+  <source>Used to calculate increased terrain random walk nosie due to movement.
+</source>
   </message>
 </context>
 <context>
@@ -20208,7 +20972,8 @@ Decrease to trust model more.</source>
 <context>
   <name>/parameters/LPE_VIS_DELAY/longDesc</name>
   <message>
-  <source>Set to zero to enable automatic compensation from measurement timestamps</source>
+  <source>Set to zero to enable automatic compensation from measurement timestamps
+</source>
   </message>
 </context>
 <context>
@@ -20251,7 +21016,9 @@ Decrease to trust model more.</source>
   <name>/parameters/MAV_0_BROADCAST/longDesc</name>
   <message>
   <source>This allows a ground control station to automatically find the drone
-on the local network.</source>
+on the local network.
+
+</source>
   </message>
 </context>
 <context>
@@ -20282,7 +21049,9 @@ on the local network.</source>
   <name>/parameters/MAV_0_FLOW_CTRL/longDesc</name>
   <message>
   <source>This is used to force flow control on or off for the the mavlink
-instance. By default it is auto detected. Use when auto detection fails.</source>
+instance. By default it is auto detected. Use when auto detection fails.
+
+</source>
   </message>
 </context>
 <context>
@@ -20314,8 +21083,11 @@ instance. By default it is auto detected. Use when auto detection fails.</source
   <message>
   <source>If enabled, forward incoming MAVLink messages to other MAVLink ports if the
 message is either broadcast or the target is not the autopilot.
+
 This allows for example a GCS to talk to a camera that is connected to the
-autopilot via MAVLink (on a different link than the GCS).</source>
+autopilot via MAVLink (on a different link than the GCS).
+
+</source>
   </message>
 </context>
 <context>
@@ -20341,7 +21113,9 @@ autopilot via MAVLink (on a different link than the GCS).</source>
   <message>
   <source>Positive real value that configures the transmission frequency of the
 HIGH_LATENCY2 stream for instance 0, configured in iridium mode.
-This parameter has no effect if the instance mode is different from iridium.</source>
+This parameter has no effect if the instance mode is different from iridium.
+
+</source>
   </message>
 </context>
 <context>
@@ -20354,7 +21128,9 @@ This parameter has no effect if the instance mode is different from iridium.</so
   <name>/parameters/MAV_0_MODE/longDesc</name>
   <message>
   <source>The MAVLink Mode defines the set of streamed messages (for example the
-vehicle's attitude) and their sending rates.</source>
+vehicle's attitude) and their sending rates.
+
+</source>
   </message>
 </context>
 <context>
@@ -20440,7 +21216,10 @@ vehicle's attitude) and their sending rates.</source>
   <message>
   <source>If enabled, MAVLink messages will be throttled according to
 `txbuf` field reported by radio_status.
-Requires a radio to send the mavlink message RADIO_STATUS.</source>
+
+Requires a radio to send the mavlink message RADIO_STATUS.
+
+</source>
   </message>
 </context>
 <context>
@@ -20467,9 +21246,12 @@ Requires a radio to send the mavlink message RADIO_STATUS.</source>
   <source>Configure the maximum sending rate for the MAVLink streams in Bytes/sec.
 If the configured streams exceed the maximum rate, the sending rate of
 each stream is automatically decreased.
+
 If this is set to 0 a value of half of the theoretical maximum bandwidth is used.
 This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on
-8N1-configured links).</source>
+8N1-configured links).
+
+</source>
   </message>
 </context>
 <context>
@@ -20482,7 +21264,9 @@ This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on
   <name>/parameters/MAV_0_REMOTE_PRT/longDesc</name>
   <message>
   <source>If ethernet enabled and selected as configuration for MAVLink instance 0,
-selected remote port will be set and used in MAVLink instance 0.</source>
+selected remote port will be set and used in MAVLink instance 0.
+
+</source>
   </message>
 </context>
 <context>
@@ -20495,7 +21279,9 @@ selected remote port will be set and used in MAVLink instance 0.</source>
   <name>/parameters/MAV_0_UDP_PRT/longDesc</name>
   <message>
   <source>If ethernet enabled and selected as configuration for MAVLink instance 0,
-selected udp port will be set and used in MAVLink instance 0.</source>
+selected udp port will be set and used in MAVLink instance 0.
+
+</source>
   </message>
 </context>
 <context>
@@ -20508,7 +21294,9 @@ selected udp port will be set and used in MAVLink instance 0.</source>
   <name>/parameters/MAV_1_BROADCAST/longDesc</name>
   <message>
   <source>This allows a ground control station to automatically find the drone
-on the local network.</source>
+on the local network.
+
+</source>
   </message>
 </context>
 <context>
@@ -20539,7 +21327,9 @@ on the local network.</source>
   <name>/parameters/MAV_1_FLOW_CTRL/longDesc</name>
   <message>
   <source>This is used to force flow control on or off for the the mavlink
-instance. By default it is auto detected. Use when auto detection fails.</source>
+instance. By default it is auto detected. Use when auto detection fails.
+
+</source>
   </message>
 </context>
 <context>
@@ -20571,8 +21361,11 @@ instance. By default it is auto detected. Use when auto detection fails.</source
   <message>
   <source>If enabled, forward incoming MAVLink messages to other MAVLink ports if the
 message is either broadcast or the target is not the autopilot.
+
 This allows for example a GCS to talk to a camera that is connected to the
-autopilot via MAVLink (on a different link than the GCS).</source>
+autopilot via MAVLink (on a different link than the GCS).
+
+</source>
   </message>
 </context>
 <context>
@@ -20598,7 +21391,9 @@ autopilot via MAVLink (on a different link than the GCS).</source>
   <message>
   <source>Positive real value that configures the transmission frequency of the
 HIGH_LATENCY2 stream for instance 1, configured in iridium mode.
-This parameter has no effect if the instance mode is different from iridium.</source>
+This parameter has no effect if the instance mode is different from iridium.
+
+</source>
   </message>
 </context>
 <context>
@@ -20611,7 +21406,9 @@ This parameter has no effect if the instance mode is different from iridium.</so
   <name>/parameters/MAV_1_MODE/longDesc</name>
   <message>
   <source>The MAVLink Mode defines the set of streamed messages (for example the
-vehicle's attitude) and their sending rates.</source>
+vehicle's attitude) and their sending rates.
+
+</source>
   </message>
 </context>
 <context>
@@ -20697,7 +21494,10 @@ vehicle's attitude) and their sending rates.</source>
   <message>
   <source>If enabled, MAVLink messages will be throttled according to
 `txbuf` field reported by radio_status.
-Requires a radio to send the mavlink message RADIO_STATUS.</source>
+
+Requires a radio to send the mavlink message RADIO_STATUS.
+
+</source>
   </message>
 </context>
 <context>
@@ -20724,9 +21524,12 @@ Requires a radio to send the mavlink message RADIO_STATUS.</source>
   <source>Configure the maximum sending rate for the MAVLink streams in Bytes/sec.
 If the configured streams exceed the maximum rate, the sending rate of
 each stream is automatically decreased.
+
 If this is set to 0 a value of half of the theoretical maximum bandwidth is used.
 This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on
-8N1-configured links).</source>
+8N1-configured links).
+
+</source>
   </message>
 </context>
 <context>
@@ -20739,7 +21542,9 @@ This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on
   <name>/parameters/MAV_1_REMOTE_PRT/longDesc</name>
   <message>
   <source>If ethernet enabled and selected as configuration for MAVLink instance 1,
-selected remote port will be set and used in MAVLink instance 1.</source>
+selected remote port will be set and used in MAVLink instance 1.
+
+</source>
   </message>
 </context>
 <context>
@@ -20752,7 +21557,9 @@ selected remote port will be set and used in MAVLink instance 1.</source>
   <name>/parameters/MAV_1_UDP_PRT/longDesc</name>
   <message>
   <source>If ethernet enabled and selected as configuration for MAVLink instance 1,
-selected udp port will be set and used in MAVLink instance 1.</source>
+selected udp port will be set and used in MAVLink instance 1.
+
+</source>
   </message>
 </context>
 <context>
@@ -20765,7 +21572,9 @@ selected udp port will be set and used in MAVLink instance 1.</source>
   <name>/parameters/MAV_2_BROADCAST/longDesc</name>
   <message>
   <source>This allows a ground control station to automatically find the drone
-on the local network.</source>
+on the local network.
+
+</source>
   </message>
 </context>
 <context>
@@ -20796,7 +21605,9 @@ on the local network.</source>
   <name>/parameters/MAV_2_FLOW_CTRL/longDesc</name>
   <message>
   <source>This is used to force flow control on or off for the the mavlink
-instance. By default it is auto detected. Use when auto detection fails.</source>
+instance. By default it is auto detected. Use when auto detection fails.
+
+</source>
   </message>
 </context>
 <context>
@@ -20828,8 +21639,11 @@ instance. By default it is auto detected. Use when auto detection fails.</source
   <message>
   <source>If enabled, forward incoming MAVLink messages to other MAVLink ports if the
 message is either broadcast or the target is not the autopilot.
+
 This allows for example a GCS to talk to a camera that is connected to the
-autopilot via MAVLink (on a different link than the GCS).</source>
+autopilot via MAVLink (on a different link than the GCS).
+
+</source>
   </message>
 </context>
 <context>
@@ -20855,7 +21669,9 @@ autopilot via MAVLink (on a different link than the GCS).</source>
   <message>
   <source>Positive real value that configures the transmission frequency of the
 HIGH_LATENCY2 stream for instance 2, configured in iridium mode.
-This parameter has no effect if the instance mode is different from iridium.</source>
+This parameter has no effect if the instance mode is different from iridium.
+
+</source>
   </message>
 </context>
 <context>
@@ -20868,7 +21684,9 @@ This parameter has no effect if the instance mode is different from iridium.</so
   <name>/parameters/MAV_2_MODE/longDesc</name>
   <message>
   <source>The MAVLink Mode defines the set of streamed messages (for example the
-vehicle's attitude) and their sending rates.</source>
+vehicle's attitude) and their sending rates.
+
+</source>
   </message>
 </context>
 <context>
@@ -20954,7 +21772,10 @@ vehicle's attitude) and their sending rates.</source>
   <message>
   <source>If enabled, MAVLink messages will be throttled according to
 `txbuf` field reported by radio_status.
-Requires a radio to send the mavlink message RADIO_STATUS.</source>
+
+Requires a radio to send the mavlink message RADIO_STATUS.
+
+</source>
   </message>
 </context>
 <context>
@@ -20981,9 +21802,12 @@ Requires a radio to send the mavlink message RADIO_STATUS.</source>
   <source>Configure the maximum sending rate for the MAVLink streams in Bytes/sec.
 If the configured streams exceed the maximum rate, the sending rate of
 each stream is automatically decreased.
+
 If this is set to 0 a value of half of the theoretical maximum bandwidth is used.
 This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on
-8N1-configured links).</source>
+8N1-configured links).
+
+</source>
   </message>
 </context>
 <context>
@@ -20996,7 +21820,9 @@ This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on
   <name>/parameters/MAV_2_REMOTE_PRT/longDesc</name>
   <message>
   <source>If ethernet enabled and selected as configuration for MAVLink instance 2,
-selected remote port will be set and used in MAVLink instance 2.</source>
+selected remote port will be set and used in MAVLink instance 2.
+
+</source>
   </message>
 </context>
 <context>
@@ -21009,7 +21835,9 @@ selected remote port will be set and used in MAVLink instance 2.</source>
   <name>/parameters/MAV_2_UDP_PRT/longDesc</name>
   <message>
   <source>If ethernet enabled and selected as configuration for MAVLink instance 2,
-selected udp port will be set and used in MAVLink instance 2.</source>
+selected udp port will be set and used in MAVLink instance 2.
+
+</source>
   </message>
 </context>
 <context>
@@ -21028,7 +21856,8 @@ selected udp port will be set and used in MAVLink instance 2.</source>
   <name>/parameters/MAV_FWDEXTSP/longDesc</name>
   <message>
   <source>If set to 1 incoming external setpoint messages will be directly forwarded
-to the controllers if in offboard control mode</source>
+to the controllers if in offboard control mode
+</source>
   </message>
 </context>
 <context>
@@ -21053,7 +21882,8 @@ to the controllers if in offboard control mode</source>
   <name>/parameters/MAV_HASH_CHK_EN/longDesc</name>
   <message>
   <source>Disabling the parameter hash check functionality will make the mavlink instance
-stream parameters continuously.</source>
+stream parameters continuously.
+</source>
   </message>
 </context>
 <context>
@@ -21078,7 +21908,8 @@ stream parameters continuously.</source>
   <name>/parameters/MAV_HB_FORW_EN/longDesc</name>
   <message>
   <source>The mavlink heartbeat message will not be forwarded if this parameter is set to 'disabled'.
-The main reason for disabling heartbeats to be forwarded is because they confuse dronekit.</source>
+The main reason for disabling heartbeats to be forwarded is because they confuse dronekit.
+</source>
   </message>
 </context>
 <context>
@@ -21122,7 +21953,8 @@ The main reason for disabling heartbeats to be forwarded is because they confuse
   <message>
   <source>If the connected radio stops reporting RADIO_STATUS for a certain time,
 a warning is triggered and, if MAV_X_RADIO_CTL is enabled, the software-flow
-control is reset.</source>
+control is reset.
+</source>
   </message>
 </context>
 <context>
@@ -21161,7 +21993,8 @@ control is reset.</source>
   <source>When non-zero the MAVLink app will attempt to configure the
 SiK radio to this ID and re-set the parameter to 0. If the value
 is negative it will reset the complete radio config to
-factory defaults. Only applies if this mavlink instance is going through a SiK radio</source>
+factory defaults. Only applies if this mavlink instance is going through a SiK radio
+</source>
   </message>
 </context>
 <context>
@@ -21179,7 +22012,9 @@ factory defaults. Only applies if this mavlink instance is going through a SiK r
 <context>
   <name>/parameters/MAV_S_FORWARD/longDesc</name>
   <message>
-  <source>TELEM2 on Skynode only.</source>
+  <source>TELEM2 on Skynode only.
+
+</source>
   </message>
 </context>
 <context>
@@ -21204,7 +22039,9 @@ factory defaults. Only applies if this mavlink instance is going through a SiK r
   <name>/parameters/MAV_S_MODE/longDesc</name>
   <message>
   <source>The MAVLink Mode defines the set of streamed messages (for example the
-vehicle's attitude) and their sending rates.</source>
+vehicle's attitude) and their sending rates.
+
+</source>
   </message>
 </context>
 <context>
@@ -21366,7 +22203,8 @@ vehicle's attitude) and their sending rates.</source>
 <context>
   <name>/parameters/MAV_USEHILGPS/longDesc</name>
   <message>
-  <source>If set to 1 incoming HIL GPS messages are parsed.</source>
+  <source>If set to 1 incoming HIL GPS messages are parsed.
+</source>
   </message>
 </context>
 <context>
@@ -21391,7 +22229,8 @@ vehicle's attitude) and their sending rates.</source>
   <name>/parameters/MBE_ENABLE/longDesc</name>
   <message>
   <source>This enables continuous calibration of the magnetometers
-before takeoff using gyro data.</source>
+before takeoff using gyro data.
+</source>
   </message>
 </context>
 <context>
@@ -21416,7 +22255,8 @@ before takeoff using gyro data.</source>
   <name>/parameters/MBE_LEARN_GAIN/longDesc</name>
   <message>
   <source>Increase to make the estimator more responsive
-Decrease to make the estimator more robust to noise</source>
+Decrease to make the estimator more robust to noise
+</source>
   </message>
 </context>
 <context>
@@ -21429,7 +22269,8 @@ Decrease to make the estimator more robust to noise</source>
   <name>/parameters/MAN_ARM_GESTURE/longDesc</name>
   <message>
   <source>This determines if moving the left stick to the lower right
-arms and to the lower left disarms the vehicle.</source>
+arms and to the lower left disarms the vehicle.
+</source>
   </message>
 </context>
 <context>
@@ -21455,8 +22296,10 @@ arms and to the lower left disarms the vehicle.</source>
   <message>
   <source>Range around stick center ignored to prevent
 vehicle drift from stick hardware inaccuracy.
+
 Does not apply to any precise constant input like
-throttle and attitude or rate piloting.</source>
+throttle and attitude or rate piloting.
+</source>
   </message>
 </context>
 <context>
@@ -21471,7 +22314,9 @@ throttle and attitude or rate piloting.</source>
   <source>The timeout for holding the left stick to the lower left
 and the right stick to the lower right at the same time until the gesture
 kills the actuators one-way.
-A negative value disables the feature.</source>
+
+A negative value disables the feature.
+</source>
   </message>
 </context>
 <context>
@@ -21489,7 +22334,8 @@ has released before continuing mission.
 winch: CMD_DO_WINCH
 has delivered before continuing mission.
 gimbal: CMD_DO_GIMBAL_MANAGER_PITCHYAW
-has reached the commanded orientation before beginning to take pictures.</source>
+has reached the commanded orientation before beginning to take pictures.
+</source>
   </message>
 </context>
 <context>
@@ -21503,7 +22349,8 @@ has reached the commanded orientation before beginning to take pictures.</source
   <message>
   <source>There will be a warning message if the current waypoint is more distant than MIS_DIST_1WP from Home.
 Has no effect on mission validity.
-Set a value of zero or less to disable.</source>
+Set a value of zero or less to disable.
+</source>
   </message>
 </context>
 <context>
@@ -21517,7 +22364,8 @@ Set a value of zero or less to disable.</source>
   <message>
   <source>Minimum altitude above landing point that the vehicle will climb to after an aborted landing.
 Then vehicle will loiter in this altitude until further command is received.
-Only applies to fixed-wing vehicles.</source>
+Only applies to fixed-wing vehicles.
+</source>
   </message>
 </context>
 <context>
@@ -21530,7 +22378,8 @@ Only applies to fixed-wing vehicles.</source>
   <name>/parameters/MIS_MNT_YAW_CTL/longDesc</name>
   <message>
   <source>If enabled, yaw commands will be sent to the mount and the vehicle will follow its heading towards the flight direction.
-If disabled, the vehicle will yaw towards the ROI.</source>
+If disabled, the vehicle will yaw towards the ROI.
+</source>
   </message>
 </context>
 <context>
@@ -21555,7 +22404,8 @@ If disabled, the vehicle will yaw towards the ROI.</source>
   <name>/parameters/MIS_TAKEOFF_ALT/longDesc</name>
   <message>
   <source>This is the relative altitude the system will take off to
-if not otherwise specified.</source>
+if not otherwise specified.
+</source>
   </message>
 </context>
 <context>
@@ -21568,7 +22418,8 @@ if not otherwise specified.</source>
   <name>/parameters/MIS_TKO_LAND_REQ/longDesc</name>
   <message>
   <source>Specifies if a mission has to contain a takeoff and/or mission landing.
-Validity of configured takeoffs/landings is checked independently of the setting here.</source>
+Validity of configured takeoffs/landings is checked independently of the setting here.
+</source>
   </message>
 </context>
 <context>
@@ -21625,7 +22476,8 @@ Validity of configured takeoffs/landings is checked independently of the setting
   <source>If set &gt; 0 it will ignore the target heading for normal waypoint acceptance. If the
 waypoint forces the heading the timeout will matter. For example on VTOL forwards transition.
 Mainly useful for VTOLs that have less yaw authority and might not reach target
-yaw in wind. Disabled by default.</source>
+yaw in wind. Disabled by default.
+</source>
   </message>
 </context>
 <context>
@@ -21680,7 +22532,8 @@ yaw in wind. Disabled by default.</source>
   <name>/parameters/NAV_ACC_RAD/longDesc</name>
   <message>
   <source>Default acceptance radius, overridden by acceptance radius of waypoint if set.
-For fixed wing the npfg switch distance is used for horizontal acceptance.</source>
+For fixed wing the npfg switch distance is used for horizontal acceptance.
+</source>
   </message>
 </context>
 <context>
@@ -21711,7 +22564,8 @@ For fixed wing the npfg switch distance is used for horizontal acceptance.</sour
   <name>/parameters/NAV_FW_ALTL_RAD/longDesc</name>
   <message>
   <source>Altitude acceptance used for the last waypoint before a fixed-wing landing. This is usually smaller
-than the standard vertical acceptance because close to the ground higher accuracy is required.</source>
+than the standard vertical acceptance because close to the ground higher accuracy is required.
+</source>
   </message>
 </context>
 <context>
@@ -21723,7 +22577,8 @@ than the standard vertical acceptance because close to the ground higher accurac
 <context>
   <name>/parameters/NAV_FW_ALT_RAD/longDesc</name>
   <message>
-  <source>Acceptance radius for fixedwing altitude.</source>
+  <source>Acceptance radius for fixedwing altitude.
+</source>
   </message>
 </context>
 <context>
@@ -21736,8 +22591,10 @@ than the standard vertical acceptance because close to the ground higher accurac
   <name>/parameters/NAV_LOITER_RAD/longDesc</name>
   <message>
   <source>Default value of loiter radius in fixed-wing mode (e.g. for Loiter mode).
+
 The direction of the loiter can be set via the sign: A positive value for
-clockwise, negative for counter-clockwise.</source>
+clockwise, negative for counter-clockwise.
+</source>
   </message>
 </context>
 <context>
@@ -21749,7 +22606,8 @@ clockwise, negative for counter-clockwise.</source>
 <context>
   <name>/parameters/NAV_MC_ALT_RAD/longDesc</name>
   <message>
-  <source>Acceptance radius for multicopter altitude.</source>
+  <source>Acceptance radius for multicopter altitude.
+</source>
   </message>
 </context>
 <context>
@@ -21765,7 +22623,9 @@ clockwise, negative for counter-clockwise.</source>
 excluding landing commands.
 Requires a distance sensor to be set up.
 Note: only prevents the vehicle from descending further, but does not force it to climb.
-Set to a negative value to disable.</source>
+
+Set to a negative value to disable.
+</source>
   </message>
 </context>
 <context>
@@ -21780,7 +22640,8 @@ Set to a negative value to disable.</source>
   <source>This is the minimum altitude above Home the system will always obey in Loiter (Hold) mode if switched into this
 mode without specifying an altitude (e.g. through Loiter switch on RC).
 Doesn't affect Loiters that are part of Missions or that are entered through a reposition setpoint ("Go to").
-Set to a negative value to disable.</source>
+Set to a negative value to disable.
+</source>
   </message>
 </context>
 <context>
@@ -21793,7 +22654,8 @@ Set to a negative value to disable.</source>
   <name>/parameters/NAV_TRAFF_AVOID/longDesc</name>
   <message>
   <source>Enabling this will allow the system to respond
-to transponder data from e.g. ADSB transponders</source>
+to transponder data from e.g. ADSB transponders
+</source>
   </message>
 </context>
 <context>
@@ -21835,7 +22697,8 @@ to transponder data from e.g. ADSB transponders</source>
 <context>
   <name>/parameters/NAV_TRAFF_A_HOR/longDesc</name>
   <message>
-  <source>Defines a crosstrack horizontal distance</source>
+  <source>Defines a crosstrack horizontal distance
+</source>
   </message>
 </context>
 <context>
@@ -21854,7 +22717,8 @@ to transponder data from e.g. ADSB transponders</source>
   <name>/parameters/NAV_TRAFF_COLL_T/longDesc</name>
   <message>
   <source>Minimum acceptable time until collsion.
-Assumes constant speed over 3d distance.</source>
+Assumes constant speed over 3d distance.
+</source>
   </message>
 </context>
 <context>
@@ -21868,9 +22732,12 @@ Assumes constant speed over 3d distance.</source>
   <message>
   <source>The air-mode enables the mixer to increase the total thrust of the multirotor
 in order to keep attitude and rate control even at low and high throttle.
+
 This function should be disabled during tuning as it will help the controller
 to diverge if the closed-loop is unstable (i.e. the vehicle is not tuned yet).
-Enabling air-mode for yaw requires the use of an arming switch.</source>
+
+Enabling air-mode for yaw requires the use of an arming switch.
+</source>
   </message>
 </context>
 <context>
@@ -21892,6 +22759,88 @@ Enabling air-mode for yaw requires the use of an arming switch.</source>
   </message>
 </context>
 <context>
+  <name>/parameters/FD_ACT_EN/shortDesc</name>
+  <message>
+  <source>Enable Actuator Failure check</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FD_ACT_EN/longDesc</name>
+  <message>
+  <source>If enabled, the HealthAndArmingChecks will verify that for motors, a minimum amount of ESC current per throttle
+level is being consumed.
+Otherwise this indicates an motor failure.
+This check only works for ESCs that report current consumption.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FD_ACT_EN/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FD_ACT_EN/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_C2T/shortDesc</name>
+  <message>
+  <source>Motor Failure Current/Throttle Scale</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_C2T/longDesc</name>
+  <message>
+  <source>Determines the slope between expected steady state current and linearized, normalized thrust command.
+E.g. FD_ACT_MOT_C2T A represents the expected steady state current at 100%.
+FD_ACT_LOW_OFF and FD_ACT_HIGH_OFF offset the threshold from that slope.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_HIGH_OFF/shortDesc</name>
+  <message>
+  <source>Overcurrent motor failure limit offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_HIGH_OFF/longDesc</name>
+  <message>
+  <source>threshold = FD_ACT_MOT_C2T * thrust + FD_ACT_HIGH_OFF
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_LOW_OFF/shortDesc</name>
+  <message>
+  <source>Undercurrent motor failure limit offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_LOW_OFF/longDesc</name>
+  <message>
+  <source>threshold = FD_ACT_MOT_C2T * thrust - FD_ACT_LOW_OFF
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_TIME/shortDesc</name>
+  <message>
+  <source>Motor Failure Hysteresis Time</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_TIME/longDesc</name>
+  <message>
+  <source>Motor failure only triggers after current thresholds are exceeded for this time.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/MNT_DO_STAB/shortDesc</name>
   <message>
   <source>Stabilize the mount</source>
@@ -21902,7 +22851,8 @@ Enabling air-mode for yaw requires the use of an arming switch.</source>
   <message>
   <source>Set to true for servo gimbal, false for passthrough.
 This is required for a gimbal which is not capable of stabilizing itself
-and relies on the IMU's attitude estimation.</source>
+and relies on the IMU's attitude estimation.
+</source>
   </message>
 </context>
 <context>
@@ -22094,7 +23044,8 @@ and relies on the IMU's attitude estimation.</source>
 <context>
   <name>/parameters/MNT_MAV_COMPID/longDesc</name>
   <message>
-  <source>If MNT_MODE_OUT is MAVLink protocol v2, mount configure/control commands will be sent with this component ID.</source>
+  <source>If MNT_MODE_OUT is MAVLink protocol v2, mount configure/control commands will be sent with this component ID.
+</source>
   </message>
 </context>
 <context>
@@ -22106,7 +23057,8 @@ and relies on the IMU's attitude estimation.</source>
 <context>
   <name>/parameters/MNT_MAV_SYSID/longDesc</name>
   <message>
-  <source>If MNT_MODE_OUT is MAVLink gimbal protocol v1, mount configure/control commands will be sent with this target ID.</source>
+  <source>If MNT_MODE_OUT is MAVLink gimbal protocol v1, mount configure/control commands will be sent with this target ID.
+</source>
   </message>
 </context>
 <context>
@@ -22118,7 +23070,8 @@ and relies on the IMU's attitude estimation.</source>
 <context>
   <name>/parameters/MNT_MAX_PITCH/longDesc</name>
   <message>
-  <source>Use output driver settings to calibrate (e.g. PWM_CENT/_MIN/_MAX).</source>
+  <source>Use output driver settings to calibrate (e.g. PWM_CENT/_MIN/_MAX).
+</source>
   </message>
 </context>
 <context>
@@ -22130,7 +23083,8 @@ and relies on the IMU's attitude estimation.</source>
 <context>
   <name>/parameters/MNT_MIN_PITCH/longDesc</name>
   <message>
-  <source>Use output driver settings to calibrate (e.g. PWM_CENT/_MIN/_MAX).</source>
+  <source>Use output driver settings to calibrate (e.g. PWM_CENT/_MIN/_MAX).
+</source>
   </message>
 </context>
 <context>
@@ -22143,8 +23097,10 @@ and relies on the IMU's attitude estimation.</source>
   <name>/parameters/MNT_MODE_IN/longDesc</name>
   <message>
   <source>This is the protocol used between the ground station and the autopilot.
+
 Recommended is Auto, RC only or MAVLink gimbal protocol v2.
-The rest will be deprecated.</source>
+The rest will be deprecated.
+</source>
   </message>
 </context>
 <context>
@@ -22193,7 +23149,9 @@ The rest will be deprecated.</source>
   <name>/parameters/MNT_MODE_OUT/longDesc</name>
   <message>
   <source>This is the protocol used between the autopilot and a connected gimbal.
-Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.</source>
+
+Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.
+</source>
   </message>
 </context>
 <context>
@@ -22223,7 +23181,8 @@ Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.</source
 <context>
   <name>/parameters/MNT_RANGE_ROLL/longDesc</name>
   <message>
-  <source>Use output driver settings to calibrate (e.g. PWM_CENT/_MIN/_MAX). Note that only symmetric angular ranges are supported.</source>
+  <source>Use output driver settings to calibrate (e.g. PWM_CENT/_MIN/_MAX). Note that only symmetric angular ranges are supported.
+</source>
   </message>
 </context>
 <context>
@@ -22235,7 +23194,8 @@ Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.</source
 <context>
   <name>/parameters/MNT_RANGE_YAW/longDesc</name>
   <message>
-  <source>Use output driver settings to calibrate (e.g. PWM_CENT/_MIN/_MAX). Note that only symmetric angular ranges are supported.</source>
+  <source>Use output driver settings to calibrate (e.g. PWM_CENT/_MIN/_MAX). Note that only symmetric angular ranges are supported.
+</source>
   </message>
 </context>
 <context>
@@ -22247,7 +23207,8 @@ Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.</source
 <context>
   <name>/parameters/MNT_RATE_PITCH/longDesc</name>
   <message>
-  <source>Full stick input [-1..1] translats to [-pitch rate..pitch rate].</source>
+  <source>Full stick input [-1..1] translats to [-pitch rate..pitch rate].
+</source>
   </message>
 </context>
 <context>
@@ -22259,7 +23220,8 @@ Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.</source
 <context>
   <name>/parameters/MNT_RATE_YAW/longDesc</name>
   <message>
-  <source>Full stick input [-1..1] translats to [-yaw rate..yaw rate].</source>
+  <source>Full stick input [-1..1] translats to [-yaw rate..yaw rate].
+</source>
   </message>
 </context>
 <context>
@@ -22291,7 +23253,8 @@ Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.</source
   <message>
   <source>Use when no angular position feedback is available.
 With MNT_MODE_OUT set to AUX, the mount operates in open-loop and directly commands the servo output.
-Parameters must be tuned for the specific servo to approximate its speed and response.</source>
+Parameters must be tuned for the specific servo to approximate its speed and response.
+</source>
   </message>
 </context>
 <context>
@@ -22304,8 +23267,10 @@ Parameters must be tuned for the specific servo to approximate its speed and res
   <name>/parameters/MC_ACRO_EXPO/longDesc</name>
   <message>
   <source>Exponential factor for tuning the input curve shape.
+
 0 Purely linear input curve
-1 Purely cubic input curve</source>
+1 Purely cubic input curve
+</source>
   </message>
 </context>
 <context>
@@ -22318,8 +23283,10 @@ Parameters must be tuned for the specific servo to approximate its speed and res
   <name>/parameters/MC_ACRO_EXPO_Y/longDesc</name>
   <message>
   <source>Exponential factor for tuning the input curve shape.
+
 0 Purely linear input curve
-1 Purely cubic input curve</source>
+1 Purely cubic input curve
+</source>
   </message>
 </context>
 <context>
@@ -22331,7 +23298,8 @@ Parameters must be tuned for the specific servo to approximate its speed and res
 <context>
   <name>/parameters/MC_ACRO_P_MAX/longDesc</name>
   <message>
-  <source>Full stick deflection leads to this rate.</source>
+  <source>Full stick deflection leads to this rate.
+</source>
   </message>
 </context>
 <context>
@@ -22343,7 +23311,8 @@ Parameters must be tuned for the specific servo to approximate its speed and res
 <context>
   <name>/parameters/MC_ACRO_R_MAX/longDesc</name>
   <message>
-  <source>Full stick deflection leads to this rate.</source>
+  <source>Full stick deflection leads to this rate.
+</source>
   </message>
 </context>
 <context>
@@ -22356,9 +23325,11 @@ Parameters must be tuned for the specific servo to approximate its speed and res
   <name>/parameters/MC_ACRO_SUPEXPO/longDesc</name>
   <message>
   <source>"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO.
+
 0 Pure Expo function
 0.7 reasonable shape enhancement for intuitive stick feel
-0.95 very strong bent input curve only near maxima have effect</source>
+0.95 very strong bent input curve only near maxima have effect
+</source>
   </message>
 </context>
 <context>
@@ -22371,9 +23342,11 @@ Parameters must be tuned for the specific servo to approximate its speed and res
   <name>/parameters/MC_ACRO_SUPEXPOY/longDesc</name>
   <message>
   <source>"Superexponential" factor for refining the input curve shape tuned using MC_ACRO_EXPO_Y.
+
 0 Pure Expo function
 0.7 reasonable shape enhancement for intuitive stick feel
-0.95 very strong bent input curve only near maxima have effect</source>
+0.95 very strong bent input curve only near maxima have effect
+</source>
   </message>
 </context>
 <context>
@@ -22385,7 +23358,8 @@ Parameters must be tuned for the specific servo to approximate its speed and res
 <context>
   <name>/parameters/MC_ACRO_Y_MAX/longDesc</name>
   <message>
-  <source>Full stick deflection leads to this rate.</source>
+  <source>Full stick deflection leads to this rate.
+</source>
   </message>
 </context>
 <context>
@@ -22400,8 +23374,10 @@ Parameters must be tuned for the specific servo to approximate its speed and res
   <source>Limit for pitch rate in manual and auto modes (except acro).
 Has effect for large rotations in autonomous mode, to avoid large control
 output and mixer saturation.
+
 This is not only limited by the vehicle's properties, but also by the maximum
-measurement rate of the gyro.</source>
+measurement rate of the gyro.
+</source>
   </message>
 </context>
 <context>
@@ -22413,7 +23389,8 @@ measurement rate of the gyro.</source>
 <context>
   <name>/parameters/MC_PITCH_P/longDesc</name>
   <message>
-  <source>Pitch proportional gain, i.e. desired angular speed in rad/s for error 1 rad.</source>
+  <source>Pitch proportional gain, i.e. desired angular speed in rad/s for error 1 rad.
+</source>
   </message>
 </context>
 <context>
@@ -22428,8 +23405,10 @@ measurement rate of the gyro.</source>
   <source>Limit for roll rate in manual and auto modes (except acro).
 Has effect for large rotations in autonomous mode, to avoid large control
 output and mixer saturation.
+
 This is not only limited by the vehicle's properties, but also by the maximum
-measurement rate of the gyro.</source>
+measurement rate of the gyro.
+</source>
   </message>
 </context>
 <context>
@@ -22441,7 +23420,8 @@ measurement rate of the gyro.</source>
 <context>
   <name>/parameters/MC_ROLL_P/longDesc</name>
   <message>
-  <source>Roll proportional gain, i.e. desired angular speed in rad/s for error 1 rad.</source>
+  <source>Roll proportional gain, i.e. desired angular speed in rad/s for error 1 rad.
+</source>
   </message>
 </context>
 <context>
@@ -22459,7 +23439,8 @@ measurement rate of the gyro.</source>
 <context>
   <name>/parameters/MC_YAW_P/longDesc</name>
   <message>
-  <source>Yaw proportional gain, i.e. desired angular speed in rad/s for error 1 rad.</source>
+  <source>Yaw proportional gain, i.e. desired angular speed in rad/s for error 1 rad.
+</source>
   </message>
 </context>
 <context>
@@ -22475,7 +23456,9 @@ measurement rate of the gyro.</source>
 Deprioritizing yaw is necessary because multicopters have much less control authority
 in yaw compared to the other axes and it makes sense because yaw is not critical for
 stable hovering or 3D navigation.
-For yaw control tuning use MC_YAW_P. This ratio has no impact on the yaw gain.</source>
+
+For yaw control tuning use MC_YAW_P. This ratio has no impact on the yaw gain.
+</source>
   </message>
 </context>
 <context>
@@ -22488,7 +23471,8 @@ For yaw control tuning use MC_YAW_P. This ratio has no impact on the yaw gain.</
   <name>/parameters/MPC_YAWRAUTO_ACC/longDesc</name>
   <message>
   <source>Limits the acceleration of the yaw setpoint to avoid large
-control output and mixer saturation.</source>
+control output and mixer saturation.
+</source>
   </message>
 </context>
 <context>
@@ -22501,7 +23485,8 @@ control output and mixer saturation.</source>
   <name>/parameters/MPC_YAWRAUTO_MAX/longDesc</name>
   <message>
   <source>Limits the rate of change of the yaw setpoint to avoid large
-control output and mixer saturation.</source>
+control output and mixer saturation.
+</source>
   </message>
 </context>
 <context>
@@ -22513,7 +23498,8 @@ control output and mixer saturation.</source>
 <context>
   <name>/parameters/CP_DELAY/longDesc</name>
   <message>
-  <source>Only used in Position mode.</source>
+  <source>Only used in Position mode.
+</source>
   </message>
 </context>
 <context>
@@ -22525,7 +23511,8 @@ control output and mixer saturation.</source>
 <context>
   <name>/parameters/CP_DIST/longDesc</name>
   <message>
-  <source>Only used in Position mode. Collision avoidance is disabled by setting this parameter to a negative value</source>
+  <source>Only used in Position mode. Collision avoidance is disabled by setting this parameter to a negative value
+</source>
   </message>
 </context>
 <context>
@@ -22537,7 +23524,8 @@ control output and mixer saturation.</source>
 <context>
   <name>/parameters/CP_GO_NO_DATA/longDesc</name>
   <message>
-  <source>Only used in Position mode.</source>
+  <source>Only used in Position mode.
+</source>
   </message>
 </context>
 <context>
@@ -22561,7 +23549,8 @@ control output and mixer saturation.</source>
 <context>
   <name>/parameters/CP_GUIDE_ANG/longDesc</name>
   <message>
-  <source>Only used in Position mode.</source>
+  <source>Only used in Position mode.
+</source>
   </message>
 </context>
 <context>
@@ -22573,7 +23562,8 @@ control output and mixer saturation.</source>
 <context>
   <name>/parameters/MC_MAN_TILT_TAU/longDesc</name>
   <message>
-  <source>Setting this parameter to 0 disables the filter</source>
+  <source>Setting this parameter to 0 disables the filter
+</source>
   </message>
 </context>
 <context>
@@ -22587,7 +23577,8 @@ control output and mixer saturation.</source>
   <message>
   <source>Set to decouple tilt from vertical acceleration.
 This provides smoother flight but slightly worse tracking in position and auto modes.
-Unset if accurate position tracking during dynamic maneuvers is more important than a smooth flight.</source>
+Unset if accurate position tracking during dynamic maneuvers is more important than a smooth flight.
+</source>
   </message>
 </context>
 <context>
@@ -22617,7 +23608,8 @@ Unset if accurate position tracking during dynamic maneuvers is more important t
 <context>
   <name>/parameters/MPC_ACC_HOR/longDesc</name>
   <message>
-  <source>When piloting manually, this parameter is only used in MPC_POS_MODE Acceleration based.</source>
+  <source>When piloting manually, this parameter is only used in MPC_POS_MODE Acceleration based.
+</source>
   </message>
 </context>
 <context>
@@ -22631,7 +23623,8 @@ Unset if accurate position tracking during dynamic maneuvers is more important t
   <message>
   <source>MPC_POS_MODE
 1 just deceleration
-4 not used, use MPC_ACC_HOR instead</source>
+4 not used, use MPC_ACC_HOR instead
+</source>
   </message>
 </context>
 <context>
@@ -22655,7 +23648,8 @@ Unset if accurate position tracking during dynamic maneuvers is more important t
 It will revert to relative earth frame if the distance to ground estimate becomes invalid.
 2: relative to ground (requires distance sensor) when stationary
 and relative to earth frame when moving horizontally.
-The speed threshold is MPC_HOLD_MAX_XY</source>
+The speed threshold is MPC_HOLD_MAX_XY
+</source>
   </message>
 </context>
 <context>
@@ -22685,7 +23679,8 @@ The speed threshold is MPC_HOLD_MAX_XY</source>
 <context>
   <name>/parameters/MPC_HOLD_MAX_XY/longDesc</name>
   <message>
-  <source>Only used with MPC_POS_MODE Direct velocity or MPC_ALT_MODE 2</source>
+  <source>Only used with MPC_POS_MODE Direct velocity or MPC_ALT_MODE 2
+</source>
   </message>
 </context>
 <context>
@@ -22697,7 +23692,8 @@ The speed threshold is MPC_HOLD_MAX_XY</source>
 <context>
   <name>/parameters/MPC_HOLD_MAX_Z/longDesc</name>
   <message>
-  <source>Only used with MPC_ALT_MODE 1</source>
+  <source>Only used with MPC_ALT_MODE 1
+</source>
   </message>
 </context>
 <context>
@@ -22710,7 +23706,8 @@ The speed threshold is MPC_HOLD_MAX_XY</source>
   <name>/parameters/MPC_JERK_AUTO/longDesc</name>
   <message>
   <source>Limit the maximum jerk of the vehicle (how fast the acceleration can change).
-A lower value leads to smoother vehicle motions but also limited agility.</source>
+A lower value leads to smoother vehicle motions but also limited agility.
+</source>
   </message>
 </context>
 <context>
@@ -22724,8 +23721,11 @@ A lower value leads to smoother vehicle motions but also limited agility.</sourc
   <message>
   <source>Limit the maximum jerk (acceleration change) of the vehicle.
 A lower value leads to smoother motions but limits agility.
+
 Setting this to the maximum value essentially disables the limit.
-Only used with MPC_POS_MODE Acceleration based.</source>
+
+Only used with MPC_POS_MODE Acceleration based.
+</source>
   </message>
 </context>
 <context>
@@ -22739,7 +23739,8 @@ Only used with MPC_POS_MODE Acceleration based.</source>
   <message>
   <source>Below this altitude descending velocity gets limited to a value
 between "MPC_Z_VEL_MAX_DN" (or "MPC_Z_V_AUTO_DN") and "MPC_LAND_SPEED"
-Value needs to be higher than "MPC_LAND_ALT2"</source>
+Value needs to be higher than "MPC_LAND_ALT2"
+</source>
   </message>
 </context>
 <context>
@@ -22753,7 +23754,8 @@ Value needs to be higher than "MPC_LAND_ALT2"</source>
   <message>
   <source>Below this altitude descending velocity gets
 limited to "MPC_LAND_SPEED"
-Value needs to be lower than "MPC_LAND_ALT1"</source>
+Value needs to be lower than "MPC_LAND_ALT1"
+</source>
   </message>
 </context>
 <context>
@@ -22766,7 +23768,8 @@ Value needs to be lower than "MPC_LAND_ALT1"</source>
   <name>/parameters/MPC_LAND_ALT3/longDesc</name>
   <message>
   <source>If a valid distance sensor measurement to the ground is available,
-limit descending velocity to "MPC_LAND_CRWL" below this altitude.</source>
+limit descending velocity to "MPC_LAND_CRWL" below this altitude.
+</source>
   </message>
 </context>
 <context>
@@ -22778,7 +23781,8 @@ limit descending velocity to "MPC_LAND_CRWL" below this altitude.</source>
 <context>
   <name>/parameters/MPC_LAND_CRWL/longDesc</name>
   <message>
-  <source>Used below MPC_LAND_ALT3 if distance sensor data is availabe.</source>
+  <source>Used below MPC_LAND_ALT3 if distance sensor data is availabe.
+</source>
   </message>
 </context>
 <context>
@@ -22794,7 +23798,9 @@ limit descending velocity to "MPC_LAND_CRWL" below this altitude.</source>
 allowed horizontal displacement from the original landing point.
 - If inside of the radius, only allow nudging inputs that do not move the vehicle outside of it.
 - If outside of the radius, only allow nudging inputs that move the vehicle back towards it.
-Set it to -1 for infinite radius.</source>
+
+Set it to -1 for infinite radius.
+</source>
   </message>
 </context>
 <context>
@@ -22811,7 +23817,9 @@ The descend speed is amended:
 stick full up - 0
 stick centered - MPC_LAND_SPEED
 stick full down - 2 * MPC_LAND_SPEED
-Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).</source>
+
+Manual override during auto modes has to be disabled to use this feature (see COM_RC_OVERRIDE).
+</source>
   </message>
 </context>
 <context>
@@ -22842,8 +23850,10 @@ Manual override during auto modes has to be disabled to use this feature (see CO
   <name>/parameters/MPC_MANTHR_MIN/longDesc</name>
   <message>
   <source>The value is mapped to the lowest throttle stick position in Stabilized mode.
+
 Too low collective thrust leads to loss of roll/pitch/yaw torque control authority.
-Airmode is used to keep torque authority with zero thrust (see MC_AIRMODE).</source>
+Airmode is used to keep torque authority with zero thrust (see MC_AIRMODE).
+</source>
   </message>
 </context>
 <context>
@@ -22868,7 +23878,8 @@ Airmode is used to keep torque authority with zero thrust (see MC_AIRMODE).</sou
   <name>/parameters/MPC_MAN_Y_TAU/longDesc</name>
   <message>
   <source>Not used in Stabilized mode
-Setting this parameter to 0 disables the filter</source>
+Setting this parameter to 0 disables the filter
+</source>
   </message>
 </context>
 <context>
@@ -22886,7 +23897,8 @@ Sticks directly map to velocity setpoints without smoothing.
 Also applies to vertical direction and Altitude mode.
 Useful for velocity control tuning.
 Acceleration based:
-Sticks map to acceleration and there's a virtual brake drag</source>
+Sticks map to acceleration and there's a virtual brake drag
+</source>
   </message>
 </context>
 <context>
@@ -22911,14 +23923,18 @@ Sticks map to acceleration and there's a virtual brake drag</source>
   <name>/parameters/MPC_THR_CURVE/longDesc</name>
   <message>
   <source>Defines how the throttle stick is mapped to collective thrust in Stabilized mode.
+
 Rescale to hover thrust estimate:
 Stick input is linearly rescaled, such that a centered throttle stick corresponds to the hover thrust estimator's output.
+
 No rescale:
 Directly map the stick 1:1 to the output.
 Can be useful with very low hover thrust which leads to much distortion and the upper half getting sensitive.
+
 Rescale to hover thrust parameter:
 Similar to rescaling to the hover thrust estimate, but it uses the hover thrust parameter value (see MPC_THR_HOVER) instead of estimated value.
-With MPC_THR_HOVER 0.5 it's equivalent to No rescale.</source>
+With MPC_THR_HOVER 0.5 it's equivalent to No rescale.
+</source>
   </message>
 </context>
 <context>
@@ -22951,7 +23967,8 @@ With MPC_THR_HOVER 0.5 it's equivalent to No rescale.</source>
   <source>Mapped to center throttle stick in Stabilized mode (see MPC_THR_CURVE).
 Used for initialization of the hover thrust estimator.
 The estimated hover thrust is used as base for zero vertical acceleration in altitude control.
-The hover thrust is important for land detection to work correctly.</source>
+The hover thrust is important for land detection to work correctly.
+</source>
   </message>
 </context>
 <context>
@@ -22963,7 +23980,8 @@ The hover thrust is important for land detection to work correctly.</source>
 <context>
   <name>/parameters/MPC_THR_MAX/longDesc</name>
   <message>
-  <source>Limit allowed thrust e.g. for indoor test of overpowered vehicle.</source>
+  <source>Limit allowed thrust e.g. for indoor test of overpowered vehicle.
+</source>
   </message>
 </context>
 <context>
@@ -22977,7 +23995,8 @@ The hover thrust is important for land detection to work correctly.</source>
   <message>
   <source>Too low thrust leads to loss of roll/pitch/yaw torque control authority.
 With airmode enabled this parameters can be set to 0
-while still keeping torque authority (see MC_AIRMODE).</source>
+while still keeping torque authority (see MC_AIRMODE).
+</source>
   </message>
 </context>
 <context>
@@ -22990,7 +24009,8 @@ while still keeping torque authority (see MC_AIRMODE).</source>
   <name>/parameters/MPC_THR_XY_MARG/longDesc</name>
   <message>
   <source>Margin that is kept for horizontal control when higher priority vertical thrust is saturated.
-To avoid completely starving horizontal control with high vertical error.</source>
+To avoid completely starving horizontal control with high vertical error.
+</source>
   </message>
 </context>
 <context>
@@ -23003,7 +24023,8 @@ To avoid completely starving horizontal control with high vertical error.</sourc
   <name>/parameters/MPC_TILTMAX_AIR/longDesc</name>
   <message>
   <source>Absolute maximum for all velocity or acceleration controlled modes.
-Any higher value is truncated.</source>
+Any higher value is truncated.
+</source>
   </message>
 </context>
 <context>
@@ -23015,7 +24036,8 @@ Any higher value is truncated.</source>
 <context>
   <name>/parameters/MPC_TILTMAX_LND/longDesc</name>
   <message>
-  <source>Tighter tilt limit during takeoff to avoid tip over.</source>
+  <source>Tighter tilt limit during takeoff to avoid tip over.
+</source>
   </message>
 </context>
 <context>
@@ -23029,7 +24051,8 @@ Any higher value is truncated.</source>
   <message>
   <source>Increasing this value will make climb rate controlled takeoff slower.
 If it's too slow the drone might scratch the ground and tip over.
-A time constant of 0 disables the ramp</source>
+A time constant of 0 disables the ramp
+</source>
   </message>
 </context>
 <context>
@@ -23047,7 +24070,8 @@ A time constant of 0 disables the ramp</source>
 <context>
   <name>/parameters/MPC_VELD_LP/longDesc</name>
   <message>
-  <source>A value of 0 disables the filter.</source>
+  <source>A value of 0 disables the filter.
+</source>
   </message>
 </context>
 <context>
@@ -23059,7 +24083,8 @@ A time constant of 0 disables the ramp</source>
 <context>
   <name>/parameters/MPC_VEL_LP/longDesc</name>
   <message>
-  <source>A value of 0 disables the filter.</source>
+  <source>A value of 0 disables the filter.
+</source>
   </message>
 </context>
 <context>
@@ -23072,8 +24097,10 @@ A time constant of 0 disables the ramp</source>
   <name>/parameters/MPC_VEL_MANUAL/longDesc</name>
   <message>
   <source>Must be smaller than MPC_XY_VEL_MAX.
+
 The maximum sideways and backward speed can be set differently
-using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.</source>
+using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.
+</source>
   </message>
 </context>
 <context>
@@ -23086,7 +24113,8 @@ using MPC_VEL_MAN_SIDE and MPC_VEL_MAN_BACK, respectively.</source>
   <name>/parameters/MPC_VEL_MAN_BACK/longDesc</name>
   <message>
   <source>If set to a negative value or larger than
-MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.</source>
+MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.
+</source>
   </message>
 </context>
 <context>
@@ -23099,7 +24127,8 @@ MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.</source>
   <name>/parameters/MPC_VEL_MAN_SIDE/longDesc</name>
   <message>
   <source>If set to a negative value or larger than
-MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.</source>
+MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.
+</source>
   </message>
 </context>
 <context>
@@ -23111,7 +24140,8 @@ MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.</source>
 <context>
   <name>/parameters/MPC_VEL_NF_BW/longDesc</name>
   <message>
-  <source>A value of 0 disables the filter.</source>
+  <source>A value of 0 disables the filter.
+</source>
   </message>
 </context>
 <context>
@@ -23124,7 +24154,8 @@ MPC_VEL_MANUAL then MPC_VEL_MANUAL is used.</source>
   <name>/parameters/MPC_VEL_NF_FRQ/longDesc</name>
   <message>
   <source>The center frequency for the 2nd order notch filter on the velocity.
-A value of 0 disables the filter.</source>
+A value of 0 disables the filter.
+</source>
   </message>
 </context>
 <context>
@@ -23136,7 +24167,8 @@ A value of 0 disables the filter.</source>
 <context>
   <name>/parameters/MPC_XY_CRUISE/longDesc</name>
   <message>
-  <source>e.g. in Missions, RTL, Goto if the waypoint does not specify differently</source>
+  <source>e.g. in Missions, RTL, Goto if the waypoint does not specify differently
+</source>
   </message>
 </context>
 <context>
@@ -23152,8 +24184,10 @@ A value of 0 disables the filter.</source>
 reduced with the horizontal position tracking error. When the
 error is above this parameter, the integration of the
 trajectory is stopped to wait for the drone.
+
 This value can be adjusted depending on the tracking
-capabilities of the vehicle.</source>
+capabilities of the vehicle.
+</source>
   </message>
 </context>
 <context>
@@ -23165,7 +24199,8 @@ capabilities of the vehicle.</source>
 <context>
   <name>/parameters/MPC_XY_P/longDesc</name>
   <message>
-  <source>Defined as corrective velocity in m/s per m position error</source>
+  <source>Defined as corrective velocity in m/s per m position error
+</source>
   </message>
 </context>
 <context>
@@ -23185,7 +24220,8 @@ capabilities of the vehicle.</source>
   <message>
   <source>If set to a value greater than zero, other parameters are automatically set (such as
 MPC_XY_VEL_MAX or MPC_VEL_MANUAL).
-If set to a negative value, the existing individual parameters are used.</source>
+If set to a negative value, the existing individual parameters are used.
+</source>
   </message>
 </context>
 <context>
@@ -23197,7 +24233,8 @@ If set to a negative value, the existing individual parameters are used.</source
 <context>
   <name>/parameters/MPC_XY_VEL_D_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative</source>
+  <source>Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative
+</source>
   </message>
 </context>
 <context>
@@ -23210,7 +24247,8 @@ If set to a negative value, the existing individual parameters are used.</source
   <name>/parameters/MPC_XY_VEL_I_ACC/longDesc</name>
   <message>
   <source>Defined as correction acceleration in m/s^2 per m velocity integral
-Allows to eliminate steady state errors in disturbances like wind.</source>
+Allows to eliminate steady state errors in disturbances like wind.
+</source>
   </message>
 </context>
 <context>
@@ -23223,7 +24261,8 @@ Allows to eliminate steady state errors in disturbances like wind.</source>
   <name>/parameters/MPC_XY_VEL_MAX/longDesc</name>
   <message>
   <source>Absolute maximum for all velocity controlled modes.
-Any higher value is truncated.</source>
+Any higher value is truncated.
+</source>
   </message>
 </context>
 <context>
@@ -23235,7 +24274,8 @@ Any higher value is truncated.</source>
 <context>
   <name>/parameters/MPC_XY_VEL_P_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m/s velocity error</source>
+  <source>Defined as corrective acceleration in m/s^2 per m/s velocity error
+</source>
   </message>
 </context>
 <context>
@@ -23247,7 +24287,8 @@ Any higher value is truncated.</source>
 <context>
   <name>/parameters/MPC_Z_P/longDesc</name>
   <message>
-  <source>Defined as corrective velocity in m/s per m position error</source>
+  <source>Defined as corrective velocity in m/s per m position error
+</source>
   </message>
 </context>
 <context>
@@ -23261,7 +24302,8 @@ Any higher value is truncated.</source>
   <message>
   <source>If set to a value greater than zero, other parameters are automatically set (such as
 MPC_Z_VEL_MAX_UP or MPC_LAND_SPEED).
-If set to a negative value, the existing individual parameters are used.</source>
+If set to a negative value, the existing individual parameters are used.
+</source>
   </message>
 </context>
 <context>
@@ -23273,7 +24315,8 @@ If set to a negative value, the existing individual parameters are used.</source
 <context>
   <name>/parameters/MPC_Z_VEL_D_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative</source>
+  <source>Defined as corrective acceleration in m/s^2 per m/s^2 velocity derivative
+</source>
   </message>
 </context>
 <context>
@@ -23285,7 +24328,8 @@ If set to a negative value, the existing individual parameters are used.</source
 <context>
   <name>/parameters/MPC_Z_VEL_I_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m velocity integral</source>
+  <source>Defined as corrective acceleration in m/s^2 per m velocity integral
+</source>
   </message>
 </context>
 <context>
@@ -23299,7 +24343,9 @@ If set to a negative value, the existing individual parameters are used.</source
   <message>
   <source>Absolute maximum for all climb rate controlled modes.
 In manually piloted modes full stick deflection commands this velocity.
-For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
+
+For default autonomous velocity see MPC_Z_V_AUTO_UP
+</source>
   </message>
 </context>
 <context>
@@ -23313,7 +24359,9 @@ For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
   <message>
   <source>Absolute maximum for all climb rate controlled modes.
 In manually piloted modes full stick deflection commands this velocity.
-For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
+
+For default autonomous velocity see MPC_Z_V_AUTO_UP
+</source>
   </message>
 </context>
 <context>
@@ -23325,7 +24373,8 @@ For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
 <context>
   <name>/parameters/MPC_Z_VEL_P_ACC/longDesc</name>
   <message>
-  <source>Defined as corrective acceleration in m/s^2 per m/s velocity error</source>
+  <source>Defined as corrective acceleration in m/s^2 per m/s velocity error
+</source>
   </message>
 </context>
 <context>
@@ -23337,7 +24386,8 @@ For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
 <context>
   <name>/parameters/MPC_Z_V_AUTO_DN/longDesc</name>
   <message>
-  <source>For manual modes and offboard, see MPC_Z_VEL_MAX_DN</source>
+  <source>For manual modes and offboard, see MPC_Z_VEL_MAX_DN
+</source>
   </message>
 </context>
 <context>
@@ -23349,7 +24399,8 @@ For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
 <context>
   <name>/parameters/MPC_Z_V_AUTO_UP/longDesc</name>
   <message>
-  <source>For manually controlled modes and offboard see MPC_Z_VEL_MAX_UP</source>
+  <source>For manually controlled modes and offboard see MPC_Z_VEL_MAX_UP
+</source>
   </message>
 </context>
 <context>
@@ -23363,9 +24414,11 @@ For default autonomous velocity see MPC_Z_V_AUTO_UP</source>
   <message>
   <source>Changes the overall responsiveness of the vehicle.
 The higher the value, the faster the vehicle will react.
+
 If set to a value greater than zero, other parameters are automatically set (such as
 the acceleration or jerk limits).
-If set to a negative value, the existing individual parameters are used.</source>
+If set to a negative value, the existing individual parameters are used.
+</source>
   </message>
 </context>
 <context>
@@ -23409,7 +24462,8 @@ If set to a negative value, the existing individual parameters are used.</source
   <message>
   <source>This value is used in slow mode if
 no aux channel is mapped and
-no limit is commanded through MAVLink.</source>
+no limit is commanded through MAVLink.
+</source>
   </message>
 </context>
 <context>
@@ -23423,7 +24477,8 @@ no limit is commanded through MAVLink.</source>
   <message>
   <source>This value is used in slow mode if
 no aux channel is mapped and
-no limit is commanded through MAVLink.</source>
+no limit is commanded through MAVLink.
+</source>
   </message>
 </context>
 <context>
@@ -23437,7 +24492,8 @@ no limit is commanded through MAVLink.</source>
   <message>
   <source>This value is used in slow mode if
 no aux channel is mapped and
-no limit is commanded through MAVLink.</source>
+no limit is commanded through MAVLink.
+</source>
   </message>
 </context>
 <context>
@@ -23641,7 +24697,8 @@ no limit is commanded through MAVLink.</source>
 <context>
   <name>/parameters/MC_SLOW_MIN_HVEL/longDesc</name>
   <message>
-  <source>The lowest input maps and is clamped to this velocity.</source>
+  <source>The lowest input maps and is clamped to this velocity.
+</source>
   </message>
 </context>
 <context>
@@ -23653,7 +24710,8 @@ no limit is commanded through MAVLink.</source>
 <context>
   <name>/parameters/MC_SLOW_MIN_VVEL/longDesc</name>
   <message>
-  <source>The lowest input maps and is clamped to this velocity.</source>
+  <source>The lowest input maps and is clamped to this velocity.
+</source>
   </message>
 </context>
 <context>
@@ -23665,7 +24723,8 @@ no limit is commanded through MAVLink.</source>
 <context>
   <name>/parameters/MC_SLOW_MIN_YAWR/longDesc</name>
   <message>
-  <source>The lowest input maps and is clamped to this rate.</source>
+  <source>The lowest input maps and is clamped to this rate.
+</source>
   </message>
 </context>
 <context>
@@ -23681,7 +24740,8 @@ no limit is commanded through MAVLink.</source>
 normalize performance across the operating range of the battery. The copter
 should constantly behave as if it was fully charged with reduced max acceleration
 at lower battery percentages. i.e. if hover is at 0.5 throttle at 100% battery,
-it will still be 0.5 at 60% battery.</source>
+it will still be 0.5 at 60% battery.
+</source>
   </message>
 </context>
 <context>
@@ -23705,7 +24765,8 @@ it will still be 0.5 at 60% battery.</source>
 <context>
   <name>/parameters/MC_PITCHRATE_D/longDesc</name>
   <message>
-  <source>Pitch rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
+  <source>Pitch rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.
+</source>
   </message>
 </context>
 <context>
@@ -23717,7 +24778,8 @@ it will still be 0.5 at 60% battery.</source>
 <context>
   <name>/parameters/MC_PITCHRATE_FF/longDesc</name>
   <message>
-  <source>Improves tracking performance.</source>
+  <source>Improves tracking performance.
+</source>
   </message>
 </context>
 <context>
@@ -23729,7 +24791,8 @@ it will still be 0.5 at 60% battery.</source>
 <context>
   <name>/parameters/MC_PITCHRATE_I/longDesc</name>
   <message>
-  <source>Pitch rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</source>
+  <source>Pitch rate integral gain. Can be set to compensate static thrust difference or gravity center offset.
+</source>
   </message>
 </context>
 <context>
@@ -23742,12 +24805,14 @@ it will still be 0.5 at 60% battery.</source>
   <name>/parameters/MC_PITCHRATE_K/longDesc</name>
   <message>
   <source>Global gain of the controller.
+
 This gain scales the P, I and D terms of the controller:
 output = MC_PITCHRATE_K * (MC_PITCHRATE_P * error
 + MC_PITCHRATE_I * error_integral
 + MC_PITCHRATE_D * error_derivative)
 Set MC_PITCHRATE_P=1 to implement a PID in the ideal form.
-Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.</source>
+Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.
+</source>
   </message>
 </context>
 <context>
@@ -23759,7 +24824,8 @@ Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_PITCHRATE_P/longDesc</name>
   <message>
-  <source>Pitch rate proportional gain, i.e. control output for angular speed error 1 rad/s.</source>
+  <source>Pitch rate proportional gain, i.e. control output for angular speed error 1 rad/s.
+</source>
   </message>
 </context>
 <context>
@@ -23771,7 +24837,8 @@ Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_PR_INT_LIM/longDesc</name>
   <message>
-  <source>Pitch rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large pitch moment trim changes.</source>
+  <source>Pitch rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large pitch moment trim changes.
+</source>
   </message>
 </context>
 <context>
@@ -23783,7 +24850,8 @@ Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_ROLLRATE_D/longDesc</name>
   <message>
-  <source>Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
+  <source>Roll rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.
+</source>
   </message>
 </context>
 <context>
@@ -23795,7 +24863,8 @@ Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_ROLLRATE_FF/longDesc</name>
   <message>
-  <source>Improves tracking performance.</source>
+  <source>Improves tracking performance.
+</source>
   </message>
 </context>
 <context>
@@ -23807,7 +24876,8 @@ Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_ROLLRATE_I/longDesc</name>
   <message>
-  <source>Roll rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</source>
+  <source>Roll rate integral gain. Can be set to compensate static thrust difference or gravity center offset.
+</source>
   </message>
 </context>
 <context>
@@ -23820,12 +24890,14 @@ Set MC_PITCHRATE_K=1 to implement a PID in the parallel form.</source>
   <name>/parameters/MC_ROLLRATE_K/longDesc</name>
   <message>
   <source>Global gain of the controller.
+
 This gain scales the P, I and D terms of the controller:
 output = MC_ROLLRATE_K * (MC_ROLLRATE_P * error
 + MC_ROLLRATE_I * error_integral
 + MC_ROLLRATE_D * error_derivative)
 Set MC_ROLLRATE_P=1 to implement a PID in the ideal form.
-Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.</source>
+Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.
+</source>
   </message>
 </context>
 <context>
@@ -23837,7 +24909,8 @@ Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_ROLLRATE_P/longDesc</name>
   <message>
-  <source>Roll rate proportional gain, i.e. control output for angular speed error 1 rad/s.</source>
+  <source>Roll rate proportional gain, i.e. control output for angular speed error 1 rad/s.
+</source>
   </message>
 </context>
 <context>
@@ -23849,7 +24922,8 @@ Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_RR_INT_LIM/longDesc</name>
   <message>
-  <source>Roll rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large roll moment trim changes.</source>
+  <source>Roll rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large roll moment trim changes.
+</source>
   </message>
 </context>
 <context>
@@ -23861,7 +24935,8 @@ Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_YAWRATE_D/longDesc</name>
   <message>
-  <source>Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.</source>
+  <source>Yaw rate differential gain. Small values help reduce fast oscillations. If value is too big oscillations will appear again.
+</source>
   </message>
 </context>
 <context>
@@ -23873,7 +24948,8 @@ Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_YAWRATE_FF/longDesc</name>
   <message>
-  <source>Improves tracking performance.</source>
+  <source>Improves tracking performance.
+</source>
   </message>
 </context>
 <context>
@@ -23885,7 +24961,8 @@ Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_YAWRATE_I/longDesc</name>
   <message>
-  <source>Yaw rate integral gain. Can be set to compensate static thrust difference or gravity center offset.</source>
+  <source>Yaw rate integral gain. Can be set to compensate static thrust difference or gravity center offset.
+</source>
   </message>
 </context>
 <context>
@@ -23898,12 +24975,14 @@ Set MC_ROLLRATE_K=1 to implement a PID in the parallel form.</source>
   <name>/parameters/MC_YAWRATE_K/longDesc</name>
   <message>
   <source>Global gain of the controller.
+
 This gain scales the P, I and D terms of the controller:
 output = MC_YAWRATE_K * (MC_YAWRATE_P * error
 + MC_YAWRATE_I * error_integral
 + MC_YAWRATE_D * error_derivative)
 Set MC_YAWRATE_P=1 to implement a PID in the ideal form.
-Set MC_YAWRATE_K=1 to implement a PID in the parallel form.</source>
+Set MC_YAWRATE_K=1 to implement a PID in the parallel form.
+</source>
   </message>
 </context>
 <context>
@@ -23915,7 +24994,8 @@ Set MC_YAWRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_YAWRATE_P/longDesc</name>
   <message>
-  <source>Yaw rate proportional gain, i.e. control output for angular speed error 1 rad/s.</source>
+  <source>Yaw rate proportional gain, i.e. control output for angular speed error 1 rad/s.
+</source>
   </message>
 </context>
 <context>
@@ -23928,7 +25008,8 @@ Set MC_YAWRATE_K=1 to implement a PID in the parallel form.</source>
   <name>/parameters/MC_YAW_TQ_CUTOFF/longDesc</name>
   <message>
   <source>Reduces vibrations by lowering high frequency torque caused by rotor acceleration.
-0 disables the filter</source>
+0 disables the filter
+</source>
   </message>
 </context>
 <context>
@@ -23940,7 +25021,8 @@ Set MC_YAWRATE_K=1 to implement a PID in the parallel form.</source>
 <context>
   <name>/parameters/MC_YR_INT_LIM/longDesc</name>
   <message>
-  <source>Yaw rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large yaw moment trim changes.</source>
+  <source>Yaw rate integrator limit. Can be set to increase the amount of integrator available to counteract disturbances or reduced to improve settling time after large yaw moment trim changes.
+</source>
   </message>
 </context>
 <context>
@@ -23954,7 +25036,9 @@ Set MC_YAWRATE_K=1 to implement a PID in the parallel form.</source>
   <message>
   <source>Controls the vertical position of the crosshair display.
 Resolution is limited by OSD to 15 discrete values. Negative
-values will display the crosshairs below the horizon</source>
+values will display the crosshairs below the horizon
+
+</source>
   </message>
 </context>
 <context>
@@ -23966,7 +25050,9 @@ values will display the crosshairs below the horizon</source>
 <context>
   <name>/parameters/OSD_DWELL_TIME/longDesc</name>
   <message>
-  <source>Amount of time in milliseconds to dwell at the beginning of the display, when scrolling.</source>
+  <source>Amount of time in milliseconds to dwell at the beginning of the display, when scrolling.
+
+</source>
   </message>
 </context>
 <context>
@@ -23978,7 +25064,9 @@ values will display the crosshairs below the horizon</source>
 <context>
   <name>/parameters/OSD_LOG_LEVEL/longDesc</name>
   <message>
-  <source>Minimum security of log level to display on the OSD.</source>
+  <source>Minimum security of log level to display on the OSD.
+
+</source>
   </message>
 </context>
 <context>
@@ -23990,7 +25078,9 @@ values will display the crosshairs below the horizon</source>
 <context>
   <name>/parameters/OSD_RC_STICK/longDesc</name>
   <message>
-  <source>Forward RC stick input to VTX when disarmed</source>
+  <source>Forward RC stick input to VTX when disarmed
+
+</source>
   </message>
 </context>
 <context>
@@ -24003,7 +25093,9 @@ values will display the crosshairs below the horizon</source>
   <name>/parameters/OSD_SCROLL_RATE/longDesc</name>
   <message>
   <source>Scroll rate in milliseconds for OSD messages longer than available character width.
-This is lower-bounded by the nominal loop rate of this module.</source>
+This is lower-bounded by the nominal loop rate of this module.
+
+</source>
   </message>
 </context>
 <context>
@@ -24015,7 +25107,9 @@ This is lower-bounded by the nominal loop rate of this module.</source>
 <context>
   <name>/parameters/OSD_SYMBOLS/longDesc</name>
   <message>
-  <source>Configure / toggle support display options.</source>
+  <source>Configure / toggle support display options.
+
+</source>
   </message>
 </context>
 <context>
@@ -24161,9 +25255,11 @@ This is lower-bounded by the nominal loop rate of this module.</source>
   <message>
   <source>Parameter used to model the nonlinear relationship between
 motor control signal (e.g. PWM) and static thrust.
+
 The model is: rel_thrust = factor * rel_signal^2 + (1-factor) * rel_signal,
 where rel_thrust is the normalized thrust between 0 and 1, and
-rel_signal is the relative motor control signal between 0 and 1.</source>
+rel_signal is the relative motor control signal between 0 and 1.
+</source>
   </message>
 </context>
 <context>
@@ -24178,7 +25274,9 @@ rel_signal is the relative motor control signal between 0 and 1.</source>
   <source>Maximum time Gripper will wait while the successful griper actuation isn't recognised.
 If the gripper has no feedback sensor, it will simply wait for
 this time before considering gripper actuation successful and publish a
-'VehicleCommandAck' signaling successful gripper action</source>
+'VehicleCommandAck' signaling successful gripper action
+
+</source>
   </message>
 </context>
 <context>
@@ -24208,7 +25306,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/PLD_BTOUT/longDesc</name>
   <message>
-  <source>Time after which the landing target is considered lost without any new measurements.</source>
+  <source>Time after which the landing target is considered lost without any new measurements.
+</source>
   </message>
 </context>
 <context>
@@ -24220,7 +25319,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/PLD_FAPPR_ALT/longDesc</name>
   <message>
-  <source>Allow final approach (without horizontal positioning) if losing landing target closer than this to the ground.</source>
+  <source>Allow final approach (without horizontal positioning) if losing landing target closer than this to the ground.
+</source>
   </message>
 </context>
 <context>
@@ -24232,7 +25332,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/PLD_HACC_RAD/longDesc</name>
   <message>
-  <source>Start descending if closer above landing target than this.</source>
+  <source>Start descending if closer above landing target than this.
+</source>
   </message>
 </context>
 <context>
@@ -24244,7 +25345,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/PLD_MAX_SRCH/longDesc</name>
   <message>
-  <source>Maximum number of times to search for the landing target if it is lost during the precision landing.</source>
+  <source>Maximum number of times to search for the landing target if it is lost during the precision landing.
+</source>
   </message>
 </context>
 <context>
@@ -24256,7 +25358,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/PLD_SRCH_ALT/longDesc</name>
   <message>
-  <source>Altitude above home to which to climb when searching for the landing target.</source>
+  <source>Altitude above home to which to climb when searching for the landing target.
+</source>
   </message>
 </context>
 <context>
@@ -24268,7 +25371,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/PLD_SRCH_TOUT/longDesc</name>
   <message>
-  <source>Time allowed to search for the landing target before falling back to normal landing.</source>
+  <source>Time allowed to search for the landing target before falling back to normal landing.
+</source>
   </message>
 </context>
 <context>
@@ -24280,7 +25384,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/PP_LOOKAHD_GAIN/longDesc</name>
   <message>
-  <source>Lower value -&gt; More aggressive controller (beware overshoot/oscillations)</source>
+  <source>Lower value -&gt; More aggressive controller (beware overshoot/oscillations)
+</source>
   </message>
 </context>
 <context>
@@ -24304,7 +25409,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC10_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24316,7 +25422,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC10_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24328,7 +25435,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC10_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24352,7 +25460,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC10_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24364,7 +25473,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC11_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24376,7 +25486,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC11_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24388,7 +25499,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC11_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24412,7 +25524,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC11_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24424,7 +25537,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC12_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24436,7 +25550,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC12_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24448,7 +25563,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC12_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24472,7 +25588,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC12_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24484,7 +25601,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC13_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24496,7 +25614,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC13_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24508,7 +25627,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC13_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24532,7 +25652,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC13_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24544,7 +25665,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC14_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24556,7 +25678,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC14_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24568,7 +25691,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC14_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24592,7 +25716,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC14_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24604,7 +25729,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC15_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24616,7 +25742,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC15_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24628,7 +25755,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC15_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24652,7 +25780,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC15_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24664,7 +25793,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC16_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24676,7 +25806,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC16_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24688,7 +25819,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC16_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24712,7 +25844,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC16_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24724,7 +25857,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC17_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24736,7 +25870,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC17_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24748,7 +25883,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC17_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24772,7 +25908,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC17_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24784,7 +25921,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC18_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24796,7 +25934,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC18_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24808,7 +25947,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC18_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24832,7 +25972,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC18_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24844,7 +25985,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC1_MAX/longDesc</name>
   <message>
-  <source>Maximum value for RC channel 1</source>
+  <source>Maximum value for RC channel 1
+</source>
   </message>
 </context>
 <context>
@@ -24856,7 +25998,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC1_MIN/longDesc</name>
   <message>
-  <source>Minimum value for RC channel 1</source>
+  <source>Minimum value for RC channel 1
+</source>
   </message>
 </context>
 <context>
@@ -24868,7 +26011,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC1_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24892,7 +26036,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC1_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24904,7 +26049,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC2_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24916,7 +26062,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC2_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24928,7 +26075,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC2_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -24952,7 +26100,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC2_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -24964,7 +26113,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC3_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24976,7 +26126,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC3_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -24988,7 +26139,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC3_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -25012,7 +26164,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC3_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -25024,7 +26177,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC4_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25036,7 +26190,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC4_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25048,7 +26203,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC4_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -25072,7 +26228,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC4_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -25084,7 +26241,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC5_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25096,7 +26254,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC5_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25108,7 +26267,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC5_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -25132,7 +26292,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC5_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -25144,7 +26305,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC6_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25156,7 +26318,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC6_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25168,7 +26331,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC6_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -25192,7 +26356,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC6_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -25204,7 +26369,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC7_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25216,7 +26382,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC7_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25228,7 +26395,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC7_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -25252,7 +26420,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC7_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -25264,7 +26433,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC8_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25276,7 +26446,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC8_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25288,7 +26459,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC8_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -25312,7 +26484,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC8_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -25324,7 +26497,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC9_MAX/longDesc</name>
   <message>
-  <source>Maximum value for this channel.</source>
+  <source>Maximum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25336,7 +26510,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC9_MIN/longDesc</name>
   <message>
-  <source>Minimum value for this channel.</source>
+  <source>Minimum value for this channel.
+</source>
   </message>
 </context>
 <context>
@@ -25348,7 +26523,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC9_REV/longDesc</name>
   <message>
-  <source>Set to -1 to reverse channel.</source>
+  <source>Set to -1 to reverse channel.
+</source>
   </message>
 </context>
 <context>
@@ -25372,7 +26548,8 @@ this time before considering gripper actuation successful and publish a
 <context>
   <name>/parameters/RC9_TRIM/longDesc</name>
   <message>
-  <source>Mid point value</source>
+  <source>Mid point value
+</source>
   </message>
 </context>
 <context>
@@ -25386,7 +26563,8 @@ this time before considering gripper actuation successful and publish a
   <message>
   <source>This parameter is used by Ground Station software to save the number
 of channels which were used during RC calibration. It is only meant
-for ground station use.</source>
+for ground station use.
+</source>
   </message>
 </context>
 <context>
@@ -25400,9 +26578,12 @@ for ground station use.</source>
   <message>
   <source>Use RC_MAP_FAILSAFE to specify which channel is used to indicate RC loss via this threshold.
 By default this is the throttle channel.
+
 Set to a PWM value slightly above the PWM value for the channel (e.g. throttle) in a failsafe event,
 but below the minimum PWM value for the channel during normal operation.
-Note: The default value of 0 disables the feature (it is below the expected range).</source>
+
+Note: The default value of 0 disables the feature (it is below the expected range).
+</source>
   </message>
 </context>
 <context>
@@ -26257,8 +27438,10 @@ Note: The default value of 0 disables the feature (it is below the expected rang
   <source>Configures which RC channel is used by the receiver to indicate the signal was lost
 (on receivers that use output a fixed signal value to report lost signal).
 If set to 0, the channel mapped to throttle is used.
+
 Use RC_FAILS_THR to set the threshold indicating lost signal. By default it's below
-the expected range and hence disabled.</source>
+the expected range and hence disabled.
+</source>
   </message>
 </context>
 <context>
@@ -26385,7 +27568,8 @@ the expected range and hence disabled.</source>
   <name>/parameters/RC_MAP_PARAM1/longDesc</name>
   <message>
   <source>Can be used for parameter tuning with the RC. This one is further referenced as the 1st parameter channel.
-Set to 0 to deactivate *</source>
+Set to 0 to deactivate *
+</source>
   </message>
 </context>
 <context>
@@ -26512,7 +27696,8 @@ Set to 0 to deactivate *</source>
   <name>/parameters/RC_MAP_PARAM2/longDesc</name>
   <message>
   <source>Can be used for parameter tuning with the RC. This one is further referenced as the 2nd parameter channel.
-Set to 0 to deactivate *</source>
+Set to 0 to deactivate *
+</source>
   </message>
 </context>
 <context>
@@ -26639,7 +27824,8 @@ Set to 0 to deactivate *</source>
   <name>/parameters/RC_MAP_PARAM3/longDesc</name>
   <message>
   <source>Can be used for parameter tuning with the RC. This one is further referenced as the 3th parameter channel.
-Set to 0 to deactivate *</source>
+Set to 0 to deactivate *
+</source>
   </message>
 </context>
 <context>
@@ -26767,7 +27953,8 @@ Set to 0 to deactivate *</source>
   <message>
   <source>The channel index (starting from 1 for channel 1) indicates
 which channel should be used for reading pitch inputs from.
-A value of zero indicates the switch is not assigned.</source>
+A value of zero indicates the switch is not assigned.
+</source>
   </message>
 </context>
 <context>
@@ -26895,7 +28082,8 @@ A value of zero indicates the switch is not assigned.</source>
   <message>
   <source>The channel index (starting from 1 for channel 1) indicates
 which channel should be used for reading roll inputs from.
-A value of zero indicates the switch is not assigned.</source>
+A value of zero indicates the switch is not assigned.
+</source>
   </message>
 </context>
 <context>
@@ -27023,7 +28211,8 @@ A value of zero indicates the switch is not assigned.</source>
   <message>
   <source>The channel index (starting from 1 for channel 1) indicates
 which channel should be used for reading throttle inputs from.
-A value of zero indicates the switch is not assigned.</source>
+A value of zero indicates the switch is not assigned.
+</source>
   </message>
 </context>
 <context>
@@ -27151,7 +28340,8 @@ A value of zero indicates the switch is not assigned.</source>
   <message>
   <source>The channel index (starting from 1 for channel 1) indicates
 which channel should be used for reading yaw inputs from.
-A value of zero indicates the switch is not assigned.</source>
+A value of zero indicates the switch is not assigned.
+</source>
   </message>
 </context>
 <context>
@@ -27279,7 +28469,9 @@ A value of zero indicates the switch is not assigned.</source>
   <message>
   <source>0: do not read RSSI from input channel
 1-18: read RSSI from specified input channel
-Specify the range for RSSI input with RC_RSSI_PWM_MIN and RC_RSSI_PWM_MAX parameters.</source>
+
+Specify the range for RSSI input with RC_RSSI_PWM_MIN and RC_RSSI_PWM_MAX parameters.
+</source>
   </message>
 </context>
 <context>
@@ -27405,7 +28597,8 @@ Specify the range for RSSI input with RC_RSSI_PWM_MIN and RC_RSSI_PWM_MAX parame
 <context>
   <name>/parameters/RC_RSSI_PWM_MAX/longDesc</name>
   <message>
-  <source>Only used if RC_RSSI_PWM_CHAN &gt; 0</source>
+  <source>Only used if RC_RSSI_PWM_CHAN &gt; 0
+</source>
   </message>
 </context>
 <context>
@@ -27417,7 +28610,8 @@ Specify the range for RSSI input with RC_RSSI_PWM_MIN and RC_RSSI_PWM_MAX parame
 <context>
   <name>/parameters/RC_RSSI_PWM_MIN/longDesc</name>
   <message>
-  <source>Only used if RC_RSSI_PWM_CHAN &gt; 0</source>
+  <source>Only used if RC_RSSI_PWM_CHAN &gt; 0
+</source>
   </message>
 </context>
 <context>
@@ -27430,7 +28624,8 @@ Specify the range for RSSI input with RC_RSSI_PWM_MIN and RC_RSSI_PWM_MAX parame
   <name>/parameters/TRIM_PITCH/longDesc</name>
   <message>
   <source>The trim value is the actuator control value the system needs
-for straight and level flight.</source>
+for straight and level flight.
+</source>
   </message>
 </context>
 <context>
@@ -27443,7 +28638,8 @@ for straight and level flight.</source>
   <name>/parameters/TRIM_ROLL/longDesc</name>
   <message>
   <source>The trim value is the actuator control value the system needs
-for straight and level flight.</source>
+for straight and level flight.
+</source>
   </message>
 </context>
 <context>
@@ -27456,7 +28652,8 @@ for straight and level flight.</source>
   <name>/parameters/TRIM_YAW/longDesc</name>
   <message>
   <source>The trim value is the actuator control value the system needs
-for straight and level flight.</source>
+for straight and level flight.
+</source>
   </message>
 </context>
 <context>
@@ -27473,7 +28670,8 @@ for straight and level flight.</source>
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -27490,7 +28688,8 @@ negative : true when channel&lt;th</source>
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -27507,7 +28706,8 @@ negative : true when channel&lt;th</source>
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -27524,7 +28724,8 @@ negative : true when channel&lt;th</source>
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -27541,7 +28742,8 @@ negative : true when channel&lt;th</source>
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -27554,7 +28756,8 @@ negative : true when channel&lt;th</source>
   <name>/parameters/RC_MAP_ARM_SW/longDesc</name>
   <message>
   <source>Use it to arm/disarm via switch instead of default throttle stick. If this is
-assigned, arming and disarming via stick is disabled.</source>
+assigned, arming and disarming via stick is disabled.
+</source>
   </message>
 </context>
 <context>
@@ -27801,7 +29004,8 @@ assigned, arming and disarming via stick is disabled.</source>
   <name>/parameters/RC_MAP_FLTMODE/longDesc</name>
   <message>
   <source>If this parameter is non-zero, flight modes are only selected
-by this channel and are assigned to six slots.</source>
+by this channel and are assigned to six slots.
+</source>
   </message>
 </context>
 <context>
@@ -27931,6 +29135,7 @@ by this channel and are assigned to six slots.</source>
 momentary buttons. Each channel is assigned to a mode slot ((lowest channel = slot 1).
 The resulting modes for each slot X is defined by the COM_FLTMODEX parameters.
 The functionality can be used only if RC_MAP_FLTMODE is disabled.
+
 The maximum number of available slots and hence bits set in the mask is 6.</source>
   </message>
 </context>
@@ -28173,7 +29378,8 @@ The maximum number of available slots and hence bits set in the mask is 6.</sour
   <message>
   <source>This channel immediately sets all outputs to their disarmed values, parachutes are NOT deployed.
 Unlike termination this can be undone. Quickly flipping the switch back restores control.
-System auto-disarms after COM_KILL_DISARM seconds, preflight checks and re-arming are then required.</source>
+System auto-disarms after COM_KILL_DISARM seconds, preflight checks and re-arming are then required.
+</source>
   </message>
 </context>
 <context>
@@ -28422,7 +29628,8 @@ System auto-disarms after COM_KILL_DISARM seconds, preflight checks and re-armin
   <source>This is the main flight mode selector.
 The channel index (starting from 1 for channel 1) indicates
 which channel should be used for deciding about the main mode.
-A value of zero indicates the switch is not assigned.</source>
+A value of zero indicates the switch is not assigned.
+</source>
   </message>
 </context>
 <context>
@@ -28911,7 +30118,9 @@ A value of zero indicates the switch is not assigned.</source>
   <source>This channel triggers irreversible flight termination:
 All outputs are disabled and set to their failsafe values (disarmed by default)
 and MAVLink parachutes are triggered.
-Unlike a kill switch, this cannot be undone until system reboot. Use with caution.</source>
+
+Unlike a kill switch, this cannot be undone until system reboot. Use with caution.
+</source>
   </message>
 </context>
 <context>
@@ -29162,7 +30371,8 @@ Unlike a kill switch, this cannot be undone until system reboot. Use with cautio
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -29179,7 +30389,8 @@ negative : true when channel&lt;th</source>
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -29196,7 +30407,8 @@ negative : true when channel&lt;th</source>
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -29213,7 +30425,8 @@ negative : true when channel&lt;th</source>
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -29230,7 +30443,8 @@ negative : true when channel&lt;th</source>
 1 : max
 sign indicates polarity of comparison
 positive : true when channel&gt;th
-negative : true when channel&lt;th</source>
+negative : true when channel&lt;th
+</source>
   </message>
 </context>
 <context>
@@ -29243,7 +30457,8 @@ negative : true when channel&lt;th</source>
   <name>/parameters/RTL_CONE_ANG/longDesc</name>
   <message>
   <source>Defines the half-angle of a cone centered around the destination position that
-affects the altitude at which the vehicle returns.</source>
+affects the altitude at which the vehicle returns.
+</source>
   </message>
 </context>
 <context>
@@ -29293,7 +30508,8 @@ affects the altitude at which the vehicle returns.</source>
   <message>
   <source>Descend to this altitude (above destination position) after return, and wait for time defined in RTL_LAND_DELAY.
 Land (i.e. slowly descend) from this altitude if autolanding allowed.
-VTOLs do transition to hover in this altitdue above the landing point.</source>
+VTOLs do transition to hover in this altitdue above the landing point.
+</source>
   </message>
 </context>
 <context>
@@ -29306,7 +30522,8 @@ VTOLs do transition to hover in this altitdue above the landing point.</source>
   <name>/parameters/RTL_LAND_DELAY/longDesc</name>
   <message>
   <source>Delay before landing (after initial descent) in Return mode.
-If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.</source>
+If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.
+</source>
   </message>
 </context>
 <context>
@@ -29318,7 +30535,8 @@ If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.</source>
 <context>
   <name>/parameters/RTL_LOITER_RAD/longDesc</name>
   <message>
-  <source>Set the radius for loitering to a safe altitude for VTOL transition.</source>
+  <source>Set the radius for loitering to a safe altitude for VTOL transition.
+</source>
   </message>
 </context>
 <context>
@@ -29331,7 +30549,9 @@ If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.</source>
   <name>/parameters/RTL_MIN_DIST/longDesc</name>
   <message>
   <source>The return altitude will be calculated based on RTL_CONE_ANG parameter.
-The yaw setpoint will switch to the one defined by corresponding waypoint.</source>
+The yaw setpoint will switch to the one defined by corresponding waypoint.
+
+</source>
   </message>
 </context>
 <context>
@@ -29344,7 +30564,8 @@ The yaw setpoint will switch to the one defined by corresponding waypoint.</sour
   <name>/parameters/RTL_PLD_MD/longDesc</name>
   <message>
   <source>Use precision landing when doing an RTL landing phase.
-This setting does not apply for RTL destinations planned as part of a mission.</source>
+This setting does not apply for RTL destinations planned as part of a mission.
+</source>
   </message>
 </context>
 <context>
@@ -29376,7 +30597,8 @@ This setting does not apply for RTL destinations planned as part of a mission.</
   <message>
   <source>Default minimum altitude above destination (e.g. home, safe point, landing pattern) for return flight.
 The vehicle will climb to this altitude when Return mode is enganged, unless it currently is flying higher already.
-This is affected by RTL_MIN_DIST and RTL_CONE_ANG.</source>
+This is affected by RTL_MIN_DIST and RTL_CONE_ANG.
+</source>
   </message>
 </context>
 <context>
@@ -29388,7 +30610,8 @@ This is affected by RTL_MIN_DIST and RTL_CONE_ANG.</source>
 <context>
   <name>/parameters/RTL_TYPE/longDesc</name>
   <message>
-  <source>Return mode destination and flight path (home location, rally point, mission landing pattern, reverse mission)</source>
+  <source>Return mode destination and flight path (home location, rally point, mission landing pattern, reverse mission)
+</source>
   </message>
 </context>
 <context>
@@ -29436,7 +30659,8 @@ This is affected by RTL_MIN_DIST and RTL_CONE_ANG.</source>
 <context>
   <name>/parameters/RTL_APPR_FORCE/longDesc</name>
   <message>
-  <source>Only consider RTL point, if it has an approach defined.</source>
+  <source>Only consider RTL point, if it has an approach defined.
+</source>
   </message>
 </context>
 <context>
@@ -29461,7 +30685,8 @@ This is affected by RTL_MIN_DIST and RTL_CONE_ANG.</source>
   <name>/parameters/RTL_TIME_FACTOR/longDesc</name>
   <message>
   <source>Safety factor that is used to scale the actual RTL time estimate.
-Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN</source>
+Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN
+</source>
   </message>
 </context>
 <context>
@@ -29474,7 +30699,8 @@ Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN</source>
   <name>/parameters/RTL_TIME_MARGIN/longDesc</name>
   <message>
   <source>Margin that is added to the time estimate, after it has already been scaled
-Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN</source>
+Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN
+</source>
   </message>
 </context>
 <context>
@@ -29488,7 +30714,9 @@ Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN</source>
   <message>
   <source>The geometric ideal acceptance radius is multiplied by this factor
 to account for kinematic and dynamic effects.
-Higher value -&gt; The rover starts to cut the corner earlier.</source>
+Higher value -&gt; The rover starts to cut the corner earlier.
+
+</source>
   </message>
 </context>
 <context>
@@ -29503,7 +30731,9 @@ Higher value -&gt; The rover starts to cut the corner earlier.</source>
   <source>The controller scales the acceptance radius based on the angle between
 the previous, current and next waypoint.
 Higher value -&gt; smoother trajectory at the cost of how close the rover gets
-to the waypoint (Set to -1 to disable corner cutting).</source>
+to the waypoint (Set to -1 to disable corner cutting).
+
+</source>
   </message>
 </context>
 <context>
@@ -29521,7 +30751,8 @@ to the waypoint (Set to -1 to disable corner cutting).</source>
 <context>
   <name>/parameters/RA_STR_RATE_LIM/longDesc</name>
   <message>
-  <source>Set to -1 to disable.</source>
+  <source>Set to -1 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -29533,7 +30764,8 @@ to the waypoint (Set to -1 to disable corner cutting).</source>
 <context>
   <name>/parameters/RA_WHEEL_BASE/longDesc</name>
   <message>
-  <source>Distance from the front to the rear axle.</source>
+  <source>Distance from the front to the rear axle.
+</source>
   </message>
 </context>
 <context>
@@ -29554,7 +30786,9 @@ to the waypoint (Set to -1 to disable corner cutting).</source>
   <source>This threshold is used for the state machine to switch from driving to turning based on the
 error between the desired and actual yaw. It is also used as the threshold whether the rover should come
 to a smooth stop at the next waypoint. This slow down effect is active if the angle between the
-line segments from prevWP-currWP and currWP-nextWP is smaller then 180 - RD_TRANS_DRV_TRN.</source>
+line segments from prevWP-currWP and currWP-nextWP is smaller then 180 - RD_TRANS_DRV_TRN.
+
+</source>
   </message>
 </context>
 <context>
@@ -29567,7 +30801,9 @@ line segments from prevWP-currWP and currWP-nextWP is smaller then 180 - RD_TRAN
   <name>/parameters/RD_TRANS_TRN_DRV/longDesc</name>
   <message>
   <source>This threshold is used for the state machine to switch from turning to driving based on the
-error between the desired and actual yaw.</source>
+error between the desired and actual yaw.
+
+</source>
   </message>
 </context>
 <context>
@@ -29579,7 +30815,8 @@ error between the desired and actual yaw.</source>
 <context>
   <name>/parameters/RD_WHEEL_TRACK/longDesc</name>
   <message>
-  <source>Distance from the center of the right wheel to the center of the left wheel.</source>
+  <source>Distance from the center of the right wheel to the center of the left wheel.
+</source>
   </message>
 </context>
 <context>
@@ -29591,7 +30828,8 @@ error between the desired and actual yaw.</source>
 <context>
   <name>/parameters/RD_YAW_STK_GAIN/longDesc</name>
   <message>
-  <source>Assign value &lt;1.0 to decrease stick response for yaw control.</source>
+  <source>Assign value &lt;1.0 to decrease stick response for yaw control.
+</source>
   </message>
 </context>
 <context>
@@ -29606,7 +30844,9 @@ error between the desired and actual yaw.</source>
   <source>Threshold for the angle between the active cruise direction and the cruise direction given
 by the stick inputs.
 This can be understood as a deadzone for the combined stick inputs for forward/backwards
-and lateral speed which defines a course direction.</source>
+and lateral speed which defines a course direction.
+
+</source>
   </message>
 </context>
 <context>
@@ -29618,7 +30858,8 @@ and lateral speed which defines a course direction.</source>
 <context>
   <name>/parameters/RM_WHEEL_TRACK/longDesc</name>
   <message>
-  <source>Distance from the center of the right wheel to the center of the left wheel.</source>
+  <source>Distance from the center of the right wheel to the center of the left wheel.
+</source>
   </message>
 </context>
 <context>
@@ -29630,7 +30871,8 @@ and lateral speed which defines a course direction.</source>
 <context>
   <name>/parameters/RM_YAW_STK_GAIN/longDesc</name>
   <message>
-  <source>Assign value &lt;1.0 to decrease stick response for yaw control.</source>
+  <source>Assign value &lt;1.0 to decrease stick response for yaw control.
+</source>
   </message>
 </context>
 <context>
@@ -29643,7 +30885,8 @@ and lateral speed which defines a course direction.</source>
   <name>/parameters/RO_YAW_ACCEL_LIM/longDesc</name>
   <message>
   <source>Used to cap how quickly the magnitude of yaw rate setpoints can increase.
-Set to -1 to disable.</source>
+Set to -1 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -29656,7 +30899,8 @@ Set to -1 to disable.</source>
   <name>/parameters/RO_YAW_DECEL_LIM/longDesc</name>
   <message>
   <source>Used to cap how quickly the magnitude of yaw rate setpoints can decrease.
-Set to -1 to disable.</source>
+Set to -1 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -29669,8 +30913,10 @@ Set to -1 to disable.</source>
   <name>/parameters/RO_YAW_EXPO/longDesc</name>
   <message>
   <source>Exponential factor for tuning the input curve shape.
+
 0 Purely linear input curve
-1 Purely cubic input curve</source>
+1 Purely cubic input curve
+</source>
   </message>
 </context>
 <context>
@@ -29685,7 +30931,8 @@ Set to -1 to disable.</source>
   <source>Multiplicative correction factor for the feedforward mapping of the yaw rate controller.
 Increase this value (x &gt; 1) if the measured yaw rate is lower than the setpoint, decrease (0 &lt; x &lt; 1) otherwise.
 Note: Tuning this is particularly useful for skid-steered rovers, or rovers with misaligned wheels/steering axes
-that cause a lot of friction when turning.</source>
+that cause a lot of friction when turning.
+</source>
   </message>
 </context>
 <context>
@@ -29704,7 +30951,8 @@ that cause a lot of friction when turning.</source>
   <name>/parameters/RO_YAW_RATE_LIM/longDesc</name>
   <message>
   <source>Used to cap yaw rate setpoints and map controller inputs to yaw rate setpoints
-in Acro, Stabilized and Position mode.</source>
+in Acro, Stabilized and Position mode.
+</source>
   </message>
 </context>
 <context>
@@ -29722,7 +30970,8 @@ in Acro, Stabilized and Position mode.</source>
 <context>
   <name>/parameters/RO_YAW_RATE_TH/longDesc</name>
   <message>
-  <source>The minimum threshold for the yaw rate measurement not to be interpreted as zero.</source>
+  <source>The minimum threshold for the yaw rate measurement not to be interpreted as zero.
+</source>
   </message>
 </context>
 <context>
@@ -29734,7 +30983,8 @@ in Acro, Stabilized and Position mode.</source>
 <context>
   <name>/parameters/RO_YAW_STICK_DZ/longDesc</name>
   <message>
-  <source>Percentage of stick input range that will be interpreted as zero around the stick centered value.</source>
+  <source>Percentage of stick input range that will be interpreted as zero around the stick centered value.
+</source>
   </message>
 </context>
 <context>
@@ -29747,9 +30997,11 @@ in Acro, Stabilized and Position mode.</source>
   <name>/parameters/RO_YAW_SUPEXPO/longDesc</name>
   <message>
   <source>"Superexponential" factor for refining the input curve shape tuned using RO_YAW_EXPO.
+
 0 Pure Expo function
 0.7 reasonable shape enhancement for intuitive stick feel
-0.95 very strong bent input curve only near maxima have effect</source>
+0.95 very strong bent input curve only near maxima have effect
+</source>
   </message>
 </context>
 <context>
@@ -29762,7 +31014,8 @@ in Acro, Stabilized and Position mode.</source>
   <name>/parameters/RO_ACCEL_LIM/longDesc</name>
   <message>
   <source>Set to -1 to disable.
-For mecanum rovers this limit is used for longitudinal and lateral acceleration.</source>
+For mecanum rovers this limit is used for longitudinal and lateral acceleration.
+</source>
   </message>
 </context>
 <context>
@@ -29776,7 +31029,8 @@ For mecanum rovers this limit is used for longitudinal and lateral acceleration.
   <message>
   <source>Set to -1 to disable.
 Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes.
-For mecanum rovers this limit is used for longitudinal and lateral deceleration.</source>
+For mecanum rovers this limit is used for longitudinal and lateral deceleration.
+</source>
   </message>
 </context>
 <context>
@@ -29790,7 +31044,8 @@ For mecanum rovers this limit is used for longitudinal and lateral deceleration.
   <message>
   <source>Set to -1 to disable.
 Note that if it is disabled the rover will not slow down when approaching waypoints in auto modes.
-For mecanum rovers this limit is used for longitudinal and lateral jerk.</source>
+For mecanum rovers this limit is used for longitudinal and lateral jerk.
+</source>
   </message>
 </context>
 <context>
@@ -29802,7 +31057,8 @@ For mecanum rovers this limit is used for longitudinal and lateral jerk.</source
 <context>
   <name>/parameters/RO_MAX_THR_SPEED/longDesc</name>
   <message>
-  <source>Used to linearly map speeds [m/s] to throttle values [-1. 1].</source>
+  <source>Used to linearly map speeds [m/s] to throttle values [-1. 1].
+</source>
   </message>
 </context>
 <context>
@@ -29820,7 +31076,8 @@ For mecanum rovers this limit is used for longitudinal and lateral jerk.</source
 <context>
   <name>/parameters/RO_SPEED_LIM/longDesc</name>
   <message>
-  <source>Used to cap speed setpoints and map controller inputs to speed setpoints in Position mode.</source>
+  <source>Used to cap speed setpoints and map controller inputs to speed setpoints in Position mode.
+</source>
   </message>
 </context>
 <context>
@@ -29843,7 +31100,8 @@ The normalized course error is the angle between the current course and the bear
 interpolated from [0, 180] -&gt; [0, 1].
 Higher value -&gt; More speed reduction.
 Note: This is also used to calculate the speed at which the vehicle arrives at a waypoint in auto modes.
-Set to -1 to disable bearing error based speed reduction.</source>
+Set to -1 to disable bearing error based speed reduction.
+</source>
   </message>
 </context>
 <context>
@@ -29856,7 +31114,8 @@ Set to -1 to disable bearing error based speed reduction.</source>
   <name>/parameters/RO_SPEED_TH/longDesc</name>
   <message>
   <source>Set to -1 to disable.
-The minimum threshold for the speed measurement not to be interpreted as zero.</source>
+The minimum threshold for the speed measurement not to be interpreted as zero.
+</source>
   </message>
 </context>
 <context>
@@ -29875,7 +31134,8 @@ The minimum threshold for the speed measurement not to be interpreted as zero.</
   <name>/parameters/RWTO_NUDGE/longDesc</name>
   <message>
   <source>This is useful when map, GNSS, or yaw errors on ground are misaligned with what the operator intends for takeoff course.
-Particularly useful for skinny runways or if the wheel servo is a bit off trim.</source>
+Particularly useful for skinny runways or if the wheel servo is a bit off trim.
+</source>
   </message>
 </context>
 <context>
@@ -29901,7 +31161,8 @@ Particularly useful for skinny runways or if the wheel servo is a bit off trim.<
   <message>
   <source>A taildragger with steerable wheel might need to pitch up
 a little to keep its wheel on the ground before airspeed
-to takeoff is reached.</source>
+to takeoff is reached.
+</source>
   </message>
 </context>
 <context>
@@ -29921,7 +31182,9 @@ to takeoff is reached.</source>
   <message>
   <source>The calibrated airspeed threshold during the takeoff ground roll when the plane should start rotating (pitching up).
 Must be less than the takeoff airspeed, will otherwise be capped at the takeoff airpeed (see FW_TKO_AIRSPD).
-If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source>
+
+If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
+</source>
   </message>
 </context>
 <context>
@@ -29933,7 +31196,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
 <context>
   <name>/parameters/RWTO_ROT_TIME/longDesc</name>
   <message>
-  <source>This is the time desired to linearly ramp in takeoff pitch constraints during the takeoff rotation</source>
+  <source>This is the time desired to linearly ramp in takeoff pitch constraints during the takeoff rotation
+</source>
   </message>
 </context>
 <context>
@@ -29963,7 +31227,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
 <context>
   <name>/parameters/SDLOG_BACKEND/longDesc</name>
   <message>
-  <source>If no logging is set the logger will not be started. Set bits true to enable: 0: SD card logging 1: Mavlink logging</source>
+  <source>If no logging is set the logger will not be started. Set bits true to enable: 0: SD card logging 1: Mavlink logging
+</source>
   </message>
 </context>
 <context>
@@ -29987,7 +31252,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
 <context>
   <name>/parameters/SDLOG_BOOT_BAT/longDesc</name>
   <message>
-  <source>When enabled, logging will not start from boot if battery power is not detected (e.g. powered via USB on a test bench). This prevents extraneous flight logs from being created during bench testing. Note that this only applies to log-from-boot modes. This has no effect on arm-based modes.</source>
+  <source>When enabled, logging will not start from boot if battery power is not detected (e.g. powered via USB on a test bench). This prevents extraneous flight logs from being created during bench testing. Note that this only applies to log-from-boot modes. This has no effect on arm-based modes.
+</source>
   </message>
 </context>
 <context>
@@ -30011,7 +31277,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
 <context>
   <name>/parameters/SDLOG_DIRS_MAX/longDesc</name>
   <message>
-  <source>If there are more log directories than this value, the system will delete the oldest directories during startup. In addition, the system will delete old logs if there is not enough free space left. The minimum amount is 300 MB. If this is set to 0, old directories will only be removed if the free space falls below the minimum. Note: this does not apply to mission log files.</source>
+  <source>If there are more log directories than this value, the system will delete the oldest directories during startup. In addition, the system will delete old logs if there is not enough free space left. The minimum amount is 300 MB. If this is set to 0, old directories will only be removed if the free space falls below the minimum. Note: this does not apply to mission log files.
+</source>
   </message>
 </context>
 <context>
@@ -30023,7 +31290,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
 <context>
   <name>/parameters/SDLOG_MISSION/longDesc</name>
   <message>
-  <source>If enabled, a small additional "mission" log file will be written to the SD card. The log contains just those messages that are useful for tasks like generating flight statistics and geotagging. The different modes can be used to further reduce the logged data (and thus the log file size). For example, choose geotagging mode to only log data required for geotagging. Note that the normal/full log is still created, and contains all the data in the mission log (and more).</source>
+  <source>If enabled, a small additional "mission" log file will be written to the SD card. The log contains just those messages that are useful for tasks like generating flight statistics and geotagging. The different modes can be used to further reduce the logged data (and thus the log file size). For example, choose geotagging mode to only log data required for geotagging. Note that the normal/full log is still created, and contains all the data in the mission log (and more).
+</source>
   </message>
 </context>
 <context>
@@ -30053,7 +31321,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
 <context>
   <name>/parameters/SDLOG_MODE/longDesc</name>
   <message>
-  <source>Determines when to start and stop logging. By default, logging is started when arming the system, and stopped when disarming. Note: The logging start/end points that can be configured here only apply to SD logging. The mavlink backend is started/stopped independently of these points.</source>
+  <source>Determines when to start and stop logging. By default, logging is started when arming the system, and stopped when disarming. Note: The logging start/end points that can be configured here only apply to SD logging. The mavlink backend is started/stopped independently of these points.
+</source>
   </message>
 </context>
 <context>
@@ -30095,7 +31364,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
 <context>
   <name>/parameters/SDLOG_PROFILE/longDesc</name>
   <message>
-  <source>This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data) 7 : Topics for computer vision and collision prevention 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)</source>
+  <source>This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data) 7 : Topics for computer vision and collision prevention 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)
+</source>
   </message>
 </context>
 <context>
@@ -30179,7 +31449,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
 <context>
   <name>/parameters/SDLOG_UTC_OFFSET/longDesc</name>
   <message>
-  <source>the difference in hours and minutes from Coordinated Universal Time (UTC) for a your place and date. for example, In case of South Korea(UTC+09:00), UTC offset is 540 min (9*60) refer to https://en.wikipedia.org/wiki/List_of_UTC_time_offsets</source>
+  <source>the difference in hours and minutes from Coordinated Universal Time (UTC) for a your place and date. for example, In case of South Korea(UTC+09:00), UTC offset is 540 min (9*60) refer to https://en.wikipedia.org/wiki/List_of_UTC_time_offsets
+</source>
   </message>
 </context>
 <context>
@@ -30191,7 +31462,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
 <context>
   <name>/parameters/SDLOG_UUID/longDesc</name>
   <message>
-  <source>If set to 1, add an ID to the log, which uniquely identifies the vehicle</source>
+  <source>If set to 1, add an ID to the log, which uniquely identifies the vehicle
+</source>
   </message>
 </context>
 <context>
@@ -30223,7 +31495,8 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)</source
   <message>
   <source>Enable or disable the internal battery simulation. This is useful
 when the battery is simulated externally and interfaced with PX4
-through MAVLink for example.</source>
+through MAVLink for example.
+</source>
   </message>
 </context>
 <context>
@@ -30248,7 +31521,8 @@ through MAVLink for example.</source>
   <name>/parameters/SIM_BAT_MIN_PCT/longDesc</name>
   <message>
   <source>Can be used to alter the battery level during SITL- or HITL-simulation on the fly.
-Particularly useful for testing different low-battery behaviour.</source>
+Particularly useful for testing different low-battery behaviour.
+</source>
   </message>
 </context>
 <context>
@@ -30260,7 +31534,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_ACC0_ID/longDesc</name>
   <message>
-  <source>Device ID of the accelerometer this calibration applies to.</source>
+  <source>Device ID of the accelerometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -30320,7 +31595,9 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_ACC0_ROT/longDesc</name>
   <message>
-  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
+
+</source>
   </message>
 </context>
 <context>
@@ -30620,7 +31897,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_ACC1_ID/longDesc</name>
   <message>
-  <source>Device ID of the accelerometer this calibration applies to.</source>
+  <source>Device ID of the accelerometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -30680,7 +31958,9 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_ACC1_ROT/longDesc</name>
   <message>
-  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
+
+</source>
   </message>
 </context>
 <context>
@@ -30980,7 +32260,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_ACC2_ID/longDesc</name>
   <message>
-  <source>Device ID of the accelerometer this calibration applies to.</source>
+  <source>Device ID of the accelerometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -31040,7 +32321,9 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_ACC2_ROT/longDesc</name>
   <message>
-  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
+
+</source>
   </message>
 </context>
 <context>
@@ -31340,7 +32623,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_ACC3_ID/longDesc</name>
   <message>
-  <source>Device ID of the accelerometer this calibration applies to.</source>
+  <source>Device ID of the accelerometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -31400,7 +32684,9 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_ACC3_ROT/longDesc</name>
   <message>
-  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
+
+</source>
   </message>
 </context>
 <context>
@@ -31700,7 +32986,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_BARO0_ID/longDesc</name>
   <message>
-  <source>Device ID of the barometer this calibration applies to.</source>
+  <source>Device ID of the barometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -31766,7 +33053,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_BARO1_ID/longDesc</name>
   <message>
-  <source>Device ID of the barometer this calibration applies to.</source>
+  <source>Device ID of the barometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -31832,7 +33120,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_BARO2_ID/longDesc</name>
   <message>
-  <source>Device ID of the barometer this calibration applies to.</source>
+  <source>Device ID of the barometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -31898,7 +33187,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_BARO3_ID/longDesc</name>
   <message>
-  <source>Device ID of the barometer this calibration applies to.</source>
+  <source>Device ID of the barometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -31964,7 +33254,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_GYRO0_ID/longDesc</name>
   <message>
-  <source>Device ID of the gyroscope this calibration applies to.</source>
+  <source>Device ID of the gyroscope this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -32024,7 +33315,9 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_GYRO0_ROT/longDesc</name>
   <message>
-  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
+
+</source>
   </message>
 </context>
 <context>
@@ -32306,7 +33599,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_GYRO1_ID/longDesc</name>
   <message>
-  <source>Device ID of the gyroscope this calibration applies to.</source>
+  <source>Device ID of the gyroscope this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -32366,7 +33660,9 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_GYRO1_ROT/longDesc</name>
   <message>
-  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
+
+</source>
   </message>
 </context>
 <context>
@@ -32648,7 +33944,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_GYRO2_ID/longDesc</name>
   <message>
-  <source>Device ID of the gyroscope this calibration applies to.</source>
+  <source>Device ID of the gyroscope this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -32708,7 +34005,9 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_GYRO2_ROT/longDesc</name>
   <message>
-  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
+
+</source>
   </message>
 </context>
 <context>
@@ -32990,7 +34289,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_GYRO3_ID/longDesc</name>
   <message>
-  <source>Device ID of the gyroscope this calibration applies to.</source>
+  <source>Device ID of the gyroscope this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -33050,7 +34350,9 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_GYRO3_ROT/longDesc</name>
   <message>
-  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.</source>
+  <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
+
+</source>
   </message>
 </context>
 <context>
@@ -33332,7 +34634,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_MAG0_ID/longDesc</name>
   <message>
-  <source>Device ID of the magnetometer this calibration applies to.</source>
+  <source>Device ID of the magnetometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -33344,7 +34647,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_MAG0_PITCH/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG0_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG0_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -33404,7 +34708,8 @@ Particularly useful for testing different low-battery behaviour.</source>
 <context>
   <name>/parameters/CAL_MAG0_ROLL/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG0_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG0_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -33417,7 +34722,9 @@ Particularly useful for testing different low-battery behaviour.</source>
   <name>/parameters/CAL_MAG0_ROT/longDesc</name>
   <message>
   <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
-Set to "Custom Euler Angle" to define the rotation using CAL_MAG0_ROLL, CAL_MAG0_PITCH and CAL_MAG0_YAW.</source>
+Set to "Custom Euler Angle" to define the rotation using CAL_MAG0_ROLL, CAL_MAG0_PITCH and CAL_MAG0_YAW.
+
+</source>
   </message>
 </context>
 <context>
@@ -33691,7 +34998,9 @@ Set to "Custom Euler Angle" to define the rotation using CAL_MAG0_ROLL, CAL_MAG0
 X component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -33721,7 +35030,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG0_YAW/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG0_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG0_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -33737,7 +35047,9 @@ for current-based compensation [G/kA]</source>
 Y component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -33771,7 +35083,9 @@ for current-based compensation [G/kA]</source>
 Z component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -33801,7 +35115,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG1_ID/longDesc</name>
   <message>
-  <source>Device ID of the magnetometer this calibration applies to.</source>
+  <source>Device ID of the magnetometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -33813,7 +35128,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG1_PITCH/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG1_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG1_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -33873,7 +35189,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG1_ROLL/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG1_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG1_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -33886,7 +35203,9 @@ for current-based compensation [G/kA]</source>
   <name>/parameters/CAL_MAG1_ROT/longDesc</name>
   <message>
   <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
-Set to "Custom Euler Angle" to define the rotation using CAL_MAG1_ROLL, CAL_MAG1_PITCH and CAL_MAG1_YAW.</source>
+Set to "Custom Euler Angle" to define the rotation using CAL_MAG1_ROLL, CAL_MAG1_PITCH and CAL_MAG1_YAW.
+
+</source>
   </message>
 </context>
 <context>
@@ -34160,7 +35479,9 @@ Set to "Custom Euler Angle" to define the rotation using CAL_MAG1_ROLL, CAL_MAG1
 X component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -34190,7 +35511,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG1_YAW/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG1_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG1_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -34206,7 +35528,9 @@ for current-based compensation [G/kA]</source>
 Y component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -34240,7 +35564,9 @@ for current-based compensation [G/kA]</source>
 Z component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -34270,7 +35596,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG2_ID/longDesc</name>
   <message>
-  <source>Device ID of the magnetometer this calibration applies to.</source>
+  <source>Device ID of the magnetometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -34282,7 +35609,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG2_PITCH/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG2_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG2_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -34342,7 +35670,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG2_ROLL/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG2_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG2_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -34355,7 +35684,9 @@ for current-based compensation [G/kA]</source>
   <name>/parameters/CAL_MAG2_ROT/longDesc</name>
   <message>
   <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
-Set to "Custom Euler Angle" to define the rotation using CAL_MAG2_ROLL, CAL_MAG2_PITCH and CAL_MAG2_YAW.</source>
+Set to "Custom Euler Angle" to define the rotation using CAL_MAG2_ROLL, CAL_MAG2_PITCH and CAL_MAG2_YAW.
+
+</source>
   </message>
 </context>
 <context>
@@ -34629,7 +35960,9 @@ Set to "Custom Euler Angle" to define the rotation using CAL_MAG2_ROLL, CAL_MAG2
 X component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -34659,7 +35992,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG2_YAW/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG2_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG2_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -34675,7 +36009,9 @@ for current-based compensation [G/kA]</source>
 Y component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -34709,7 +36045,9 @@ for current-based compensation [G/kA]</source>
 Z component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -34739,7 +36077,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG3_ID/longDesc</name>
   <message>
-  <source>Device ID of the magnetometer this calibration applies to.</source>
+  <source>Device ID of the magnetometer this calibration applies to.
+</source>
   </message>
 </context>
 <context>
@@ -34751,7 +36090,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG3_PITCH/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG3_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG3_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -34811,7 +36151,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG3_ROLL/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG3_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG3_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -34824,7 +36165,9 @@ for current-based compensation [G/kA]</source>
   <name>/parameters/CAL_MAG3_ROT/longDesc</name>
   <message>
   <source>An internal sensor will force a value of -1, so a GCS should only attempt to configure the rotation if the value is greater than or equal to zero.
-Set to "Custom Euler Angle" to define the rotation using CAL_MAG3_ROLL, CAL_MAG3_PITCH and CAL_MAG3_YAW.</source>
+Set to "Custom Euler Angle" to define the rotation using CAL_MAG3_ROLL, CAL_MAG3_PITCH and CAL_MAG3_YAW.
+
+</source>
   </message>
 </context>
 <context>
@@ -35098,7 +36441,9 @@ Set to "Custom Euler Angle" to define the rotation using CAL_MAG3_ROLL, CAL_MAG3
 X component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -35128,7 +36473,8 @@ for current-based compensation [G/kA]</source>
 <context>
   <name>/parameters/CAL_MAG3_YAW/longDesc</name>
   <message>
-  <source>Setting this parameter changes CAL_MAG3_ROT to "Custom Euler Angle"</source>
+  <source>Setting this parameter changes CAL_MAG3_ROT to "Custom Euler Angle"
+</source>
   </message>
 </context>
 <context>
@@ -35144,7 +36490,9 @@ for current-based compensation [G/kA]</source>
 Y component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -35178,7 +36526,9 @@ for current-based compensation [G/kA]</source>
 Z component of magnetometer in body frame axis
 and either current or throttle depending on value of CAL_MAG_COMP_TYP.
 Unit for throttle-based compensation is [G] and
-for current-based compensation [G/kA]</source>
+for current-based compensation [G/kA]
+
+</source>
   </message>
 </context>
 <context>
@@ -35241,8 +36591,10 @@ for current-based compensation [G/kA]</source>
   <source>Pick the appropriate scaling from the datasheet.
 this number defines the (linear) conversion from voltage
 to Pascal (pa). For the MPXV7002DP this is 1000.
+
 NOTE: If the sensor always registers zero, try switching
-the static and dynamic tubes.</source>
+the static and dynamic tubes.
+</source>
   </message>
 </context>
 <context>
@@ -35254,7 +36606,8 @@ the static and dynamic tubes.</source>
 <context>
   <name>/parameters/SENS_DPRES_OFF/longDesc</name>
   <message>
-  <source>The offset (zero-reading) in Pascal</source>
+  <source>The offset (zero-reading) in Pascal
+</source>
   </message>
 </context>
 <context>
@@ -35267,7 +36620,8 @@ the static and dynamic tubes.</source>
   <name>/parameters/SENS_DPRES_REV/longDesc</name>
   <message>
   <source>Reverse the raw measurements of all differential pressure sensors.
-This can be enabled if the sensors have static and dynamic ports swapped.</source>
+This can be enabled if the sensors have static and dynamic ports swapped.
+</source>
   </message>
 </context>
 <context>
@@ -35294,7 +36648,8 @@ This can be enabled if the sensors have static and dynamic ports swapped.</sourc
   <source>This parameter defines the maximum distance from ground at which the optical flow sensor operates reliably.
 The height setpoint will be limited to be no greater than this value when the navigation system
 is completely reliant on optical flow data and the height above ground estimate is valid.
-The sensor may be usable above this height, but accuracy will progressively degrade.</source>
+The sensor may be usable above this height, but accuracy will progressively degrade.
+</source>
   </message>
 </context>
 <context>
@@ -35308,7 +36663,8 @@ The sensor may be usable above this height, but accuracy will progressively degr
   <message>
   <source>Optical flow data will not fused by the estimators if the magnitude of the flow rate exceeds this value and
 control loops will be instructed to limit ground speed such that the flow rate produced by movement over ground
-is less than 50% of this value.</source>
+is less than 50% of this value.
+</source>
   </message>
 </context>
 <context>
@@ -35321,7 +36677,8 @@ is less than 50% of this value.</source>
   <name>/parameters/SENS_FLOW_MINHGT/longDesc</name>
   <message>
   <source>This parameter defines the minimum distance from ground at which the optical flow sensor operates reliably.
-The sensor may be usable below this height, but accuracy will progressively reduce to loss of focus.</source>
+The sensor may be usable below this height, but accuracy will progressively reduce to loss of focus.
+</source>
   </message>
 </context>
 <context>
@@ -35341,7 +36698,8 @@ CAL_AIR_TUBED_MM: Not used, 1.5 mm tubes assumed.
 CAL_AIR_TUBELEN: Length of the tubes connecting the pitot to the sensor.
 Tube Pressure Drop
 CAL_AIR_TUBED_MM: Diameter in mm of the pitot and tubes, must have the same diameter.
-CAL_AIR_TUBELEN: Length of the tubes connecting the pitot to the sensor and the static + dynamic port length of the pitot.</source>
+CAL_AIR_TUBELEN: Length of the tubes connecting the pitot to the sensor and the static + dynamic port length of the pitot.
+</source>
   </message>
 </context>
 <context>
@@ -35377,7 +36735,8 @@ CAL_AIR_TUBELEN: Length of the tubes connecting the pitot to the sensor and the 
 <context>
   <name>/parameters/CAL_AIR_TUBELEN/longDesc</name>
   <message>
-  <source>See the CAL_AIR_CMODEL explanation on how this parameter should be set.</source>
+  <source>See the CAL_AIR_CMODEL explanation on how this parameter should be set.
+</source>
   </message>
 </context>
 <context>
@@ -35389,7 +36748,8 @@ CAL_AIR_TUBELEN: Length of the tubes connecting the pitot to the sensor and the 
 <context>
   <name>/parameters/CAL_MAG_SIDES/longDesc</name>
   <message>
-  <source>Use SENS_MAG_SIDES instead</source>
+  <source>Use SENS_MAG_SIDES instead
+</source>
   </message>
 </context>
 <context>
@@ -35402,7 +36762,8 @@ CAL_AIR_TUBELEN: Length of the tubes connecting the pitot to the sensor and the 
   <name>/parameters/IMU_ACCEL_CUTOFF/longDesc</name>
   <message>
   <source>The cutoff frequency for the 2nd order butterworth filter on the primary accelerometer.
-This only affects the signal sent to the controllers, not the estimators. 0 disables the filter.</source>
+This only affects the signal sent to the controllers, not the estimators. 0 disables the filter.
+</source>
   </message>
 </context>
 <context>
@@ -35420,7 +36781,9 @@ the D-term filter in the rate controller. The D-term uses the derivative of
 the rate and thus is the most susceptible to noise. Therefore, using
 a D-term filter allows to increase IMU_GYRO_CUTOFF, which
 leads to reduced control latency and permits to increase the P gains.
-A value of 0 disables the filter.</source>
+
+A value of 0 disables the filter.
+</source>
   </message>
 </context>
 <context>
@@ -35453,7 +36816,9 @@ A value of 0 disables the filter.</source>
   <source>The cutoff frequency for the 2nd order butterworth filter on the primary gyro.
 This only affects the angular velocity sent to the controllers, not the estimators.
 It applies also to the angular acceleration (D-Term filter), see IMU_DGYRO_CUTOFF.
-A value of 0 disables the filter.</source>
+
+A value of 0 disables the filter.
+</source>
   </message>
 </context>
 <context>
@@ -35465,7 +36830,8 @@ A value of 0 disables the filter.</source>
 <context>
   <name>/parameters/IMU_GYRO_DNF_BW/longDesc</name>
   <message>
-  <source>Bandwidth per notch filter when using dynamic notch filtering with ESC RPM.</source>
+  <source>Bandwidth per notch filter when using dynamic notch filtering with ESC RPM.
+</source>
   </message>
 </context>
 <context>
@@ -35502,7 +36868,8 @@ Requires ESC RPM feedback or onboard FFT (IMU_GYRO_FFT_EN).</source>
 <context>
   <name>/parameters/IMU_GYRO_DNF_HMC/longDesc</name>
   <message>
-  <source>ESC RPM number of harmonics (multiples of RPM) for ESC RPM dynamic notch filtering.</source>
+  <source>ESC RPM number of harmonics (multiples of RPM) for ESC RPM dynamic notch filtering.
+</source>
   </message>
 </context>
 <context>
@@ -35514,7 +36881,8 @@ Requires ESC RPM feedback or onboard FFT (IMU_GYRO_FFT_EN).</source>
 <context>
   <name>/parameters/IMU_GYRO_DNF_MIN/longDesc</name>
   <message>
-  <source>Minimum notch filter frequency in Hz.</source>
+  <source>Minimum notch filter frequency in Hz.
+</source>
   </message>
 </context>
 <context>
@@ -35594,7 +36962,8 @@ Requires ESC RPM feedback or onboard FFT (IMU_GYRO_FFT_EN).</source>
   <message>
   <source>The frequency width of the stop band for the 2nd order notch filter on the primary gyro.
 See "IMU_GYRO_NF0_FRQ" to activate the filter and to set the notch frequency.
-Applies to both angular velocity and angular acceleration sent to the controllers.</source>
+Applies to both angular velocity and angular acceleration sent to the controllers.
+</source>
   </message>
 </context>
 <context>
@@ -35611,7 +36980,9 @@ This filter can be enabled to avoid feedback amplification of structural resonan
 This only affects the signal sent to the controllers, not the estimators.
 Applies to both angular velocity and angular acceleration sent to the controllers.
 See "IMU_GYRO_NF0_BW" to set the bandwidth of the filter.
-A value of 0 disables the filter.</source>
+
+A value of 0 disables the filter.
+</source>
   </message>
 </context>
 <context>
@@ -35625,7 +36996,8 @@ A value of 0 disables the filter.</source>
   <message>
   <source>The frequency width of the stop band for the 2nd order notch filter on the primary gyro.
 See "IMU_GYRO_NF1_FRQ" to activate the filter and to set the notch frequency.
-Applies to both angular velocity and angular acceleration sent to the controllers.</source>
+Applies to both angular velocity and angular acceleration sent to the controllers.
+</source>
   </message>
 </context>
 <context>
@@ -35642,7 +37014,9 @@ This filter can be enabled to avoid feedback amplification of structural resonan
 This only affects the signal sent to the controllers, not the estimators.
 Applies to both angular velocity and angular acceleration sent to the controllers.
 See "IMU_GYRO_NF1_BW" to set the bandwidth of the filter.
-A value of 0 disables the filter.</source>
+
+A value of 0 disables the filter.
+</source>
   </message>
 </context>
 <context>
@@ -35656,7 +37030,9 @@ A value of 0 disables the filter.</source>
   <message>
   <source>The maximum rate the gyro control data (vehicle_angular_velocity) will be
 allowed to publish at. This is the loop rate for the rate controller and outputs.
-Note: sensor data is always read and filtered at the full raw rate (eg commonly 8 kHz) regardless of this setting.</source>
+
+Note: sensor data is always read and filtered at the full raw rate (eg commonly 8 kHz) regardless of this setting.
+</source>
   </message>
 </context>
 <context>
@@ -35705,7 +37081,8 @@ Note: sensor data is always read and filtered at the full raw rate (eg commonly 
   <name>/parameters/IMU_INTEG_RATE/longDesc</name>
   <message>
   <source>The rate at which raw IMU data is integrated to produce delta angles and delta velocities.
-Recommended to set this to a multiple of the estimator update period (currently 10 ms for ekf2).</source>
+Recommended to set this to a multiple of the estimator update period (currently 10 ms for ekf2).
+</source>
   </message>
 </context>
 <context>
@@ -35748,7 +37125,8 @@ Recommended to set this to a multiple of the estimator update period (currently 
   <name>/parameters/SENS_BARO_RATE/longDesc</name>
   <message>
   <source>Barometric air data maximum publication rate. This is an upper bound,
-actual barometric data rate is still dependent on the sensor.</source>
+actual barometric data rate is still dependent on the sensor.
+</source>
   </message>
 </context>
 <context>
@@ -35760,7 +37138,8 @@ actual barometric data rate is still dependent on the sensor.</source>
 <context>
   <name>/parameters/SENS_BAR_AUTOCAL/longDesc</name>
   <message>
-  <source>Automatically calibrate barometer based on the GNSS height</source>
+  <source>Automatically calibrate barometer based on the GNSS height
+</source>
   </message>
 </context>
 <context>
@@ -35784,7 +37163,8 @@ actual barometric data rate is still dependent on the sensor.</source>
 <context>
   <name>/parameters/SENS_BOARD_ROT/longDesc</name>
   <message>
-  <source>This parameter defines the rotation of the FMU board relative to the platform.</source>
+  <source>This parameter defines the rotation of the FMU board relative to the platform.
+</source>
   </message>
 </context>
 <context>
@@ -36044,7 +37424,8 @@ actual barometric data rate is still dependent on the sensor.</source>
   <message>
   <source>Rotation from flight controller board to vehicle body frame.
 This parameter gets set during the "level horizon" calibration or can be
-set manually.</source>
+set manually.
+</source>
   </message>
 </context>
 <context>
@@ -36058,7 +37439,8 @@ set manually.</source>
   <message>
   <source>Rotation from flight controller board to vehicle body frame.
 This parameter gets set during the "level horizon" calibration or can be
-set manually.</source>
+set manually.
+</source>
   </message>
 </context>
 <context>
@@ -36071,7 +37453,8 @@ set manually.</source>
   <name>/parameters/SENS_BOARD_Z_OFF/longDesc</name>
   <message>
   <source>Rotation from flight controller board to vehicle body frame.
-Has to be set manually (not set by any calibration).</source>
+Has to be set manually (not set by any calibration).
+</source>
   </message>
 </context>
 <context>
@@ -36197,7 +37580,8 @@ Has to be set manually (not set by any calibration).</source>
 <context>
   <name>/parameters/SENS_EXT_I2C_PRB/longDesc</name>
   <message>
-  <source>Probe for optional external I2C devices.</source>
+  <source>Probe for optional external I2C devices.
+</source>
   </message>
 </context>
 <context>
@@ -36222,7 +37606,8 @@ Has to be set manually (not set by any calibration).</source>
   <name>/parameters/SENS_FLOW_RATE/longDesc</name>
   <message>
   <source>Optical flow data maximum publication rate. This is an upper bound,
-actual optical flow data rate is still dependent on the sensor.</source>
+actual optical flow data rate is still dependent on the sensor.
+</source>
   </message>
 </context>
 <context>
@@ -36235,7 +37620,8 @@ actual optical flow data rate is still dependent on the sensor.</source>
   <name>/parameters/SENS_FLOW_ROT/longDesc</name>
   <message>
   <source>This parameter defines the yaw rotation of the optical flow relative to the vehicle body frame.
-Zero rotation is defined as X on flow board pointing towards front of vehicle.</source>
+Zero rotation is defined as X on flow board pointing towards front of vehicle.
+</source>
   </message>
 </context>
 <context>
@@ -36304,7 +37690,8 @@ Zero rotation is defined as X on flow board pointing towards front of vehicle.</
   <source>Set bits in the following positions to set which GPS accuracy metrics will be used to calculate the blending weight. Set to zero to disable and always used first GPS instance.
 0 : Set to true to use speed accuracy
 1 : Set to true to use horizontal position accuracy
-2 : Set to true to use vertical position accuracy</source>
+2 : Set to true to use vertical position accuracy
+</source>
   </message>
 </context>
 <context>
@@ -36338,12 +37725,15 @@ Zero rotation is defined as X on flow board pointing towards front of vehicle.</
 The GPS selection logic waits until the primary receiver is available to
 send data to the EKF even if a secondary instance is already available.
 The secondary instance is then only used if the primary one times out.
+
 Accepted values:
 -1 : Auto (equal priority for all instances)
 0 : Main serial GPS instance
 1 : Secondary serial GPS instance
 2-127 : UAVCAN module node ID
-This parameter has no effect if blending is active.</source>
+
+This parameter has no effect if blending is active.
+</source>
   </message>
 </context>
 <context>
@@ -36355,7 +37745,9 @@ This parameter has no effect if blending is active.</source>
 <context>
   <name>/parameters/SENS_GPS_TAU/longDesc</name>
   <message>
-  <source>Sets the longest time constant that will be applied to the calculation of GPS position and height offsets used to correct data from multiple GPS data for steady state position differences.</source>
+  <source>Sets the longest time constant that will be applied to the calculation of GPS position and height offsets used to correct data from multiple GPS data for steady state position differences.
+
+</source>
   </message>
 </context>
 <context>
@@ -36367,7 +37759,8 @@ This parameter has no effect if blending is active.</source>
 <context>
   <name>/parameters/SENS_IMU_AUTOCAL/longDesc</name>
   <message>
-  <source>Automatically initialize IMU (accel/gyro) calibration from bias estimates if available.</source>
+  <source>Automatically initialize IMU (accel/gyro) calibration from bias estimates if available.
+</source>
   </message>
 </context>
 <context>
@@ -36391,7 +37784,8 @@ This parameter has no effect if blending is active.</source>
 <context>
   <name>/parameters/SENS_IMU_CLPNOTI/longDesc</name>
   <message>
-  <source>Notify the user if the IMU is clipping</source>
+  <source>Notify the user if the IMU is clipping
+</source>
   </message>
 </context>
 <context>
@@ -36433,7 +37827,8 @@ This parameter has no effect if blending is active.</source>
 <context>
   <name>/parameters/SENS_INT_BARO_EN/longDesc</name>
   <message>
-  <source>For systems with an external barometer, this should be set to false to make sure that the external is used.</source>
+  <source>For systems with an external barometer, this should be set to false to make sure that the external is used.
+</source>
   </message>
 </context>
 <context>
@@ -36457,7 +37852,8 @@ This parameter has no effect if blending is active.</source>
 <context>
   <name>/parameters/SENS_MAG_AUTOCAL/longDesc</name>
   <message>
-  <source>Automatically initialize magnetometer calibration from bias estimate if available.</source>
+  <source>Automatically initialize magnetometer calibration from bias estimate if available.
+</source>
   </message>
 </context>
 <context>
@@ -36481,7 +37877,8 @@ This parameter has no effect if blending is active.</source>
 <context>
   <name>/parameters/SENS_MAG_AUTOROT/longDesc</name>
   <message>
-  <source>During calibration attempt to automatically determine the rotation of external magnetometers.</source>
+  <source>During calibration attempt to automatically determine the rotation of external magnetometers.
+</source>
   </message>
 </context>
 <context>
@@ -36524,7 +37921,8 @@ This parameter has no effect if blending is active.</source>
   <name>/parameters/SENS_MAG_RATE/longDesc</name>
   <message>
   <source>Magnetometer data maximum publication rate. This is an upper bound,
-actual magnetometer data rate is still dependent on the sensor.</source>
+actual magnetometer data rate is still dependent on the sensor.
+</source>
   </message>
 </context>
 <context>
@@ -36539,13 +37937,15 @@ actual magnetometer data rate is still dependent on the sensor.</source>
   <source>If set to two side calibration, only the offsets are estimated, the scale
 calibration is left unchanged. Thus an initial six side calibration is
 recommended.
+
 Bits:
 ORIENTATION_TAIL_DOWN = 1
 ORIENTATION_NOSE_DOWN = 2
 ORIENTATION_LEFT = 4
 ORIENTATION_RIGHT = 8
 ORIENTATION_UPSIDE_DOWN = 16
-ORIENTATION_RIGHTSIDE_UP = 32</source>
+ORIENTATION_RIGHTSIDE_UP = 32
+</source>
   </message>
 </context>
 <context>
@@ -36595,7 +37995,9 @@ ORIENTATION_RIGHTSIDE_UP = 32</source>
   <message>
   <source>By default, the receiver is automatically configured. Sometimes it may be used for multiple purposes.
 If the offered parameters aren't sufficient, this parameter can be disabled to have full control of the receiver configuration.
-A good way to use this is to enable automatic configuration, let the receiver be configured, and then disable it to make manual adjustments.</source>
+A good way to use this is to enable automatic configuration, let the receiver be configured, and then disable it to make manual adjustments.
+
+</source>
   </message>
 </context>
 <context>
@@ -36620,7 +38022,10 @@ A good way to use this is to enable automatic configuration, let the receiver be
   <name>/parameters/SEP_CONST_USAGE/longDesc</name>
   <message>
   <source>Choice of which constellations the receiver should use for PVT computation.
-When this is 0, the constellation usage isn't changed.</source>
+
+When this is 0, the constellation usage isn't changed.
+
+</source>
   </message>
 </context>
 <context>
@@ -36663,7 +38068,9 @@ When this is 0, the constellation usage isn't changed.</source>
   <name>/parameters/SEP_DUMP_COMM/longDesc</name>
   <message>
   <source>Log raw communication between the driver and connected receivers.
-For example, "To receiver" will log all commands and corrections sent by the driver to the receiver.</source>
+For example, "To receiver" will log all commands and corrections sent by the driver to the receiver.
+
+</source>
   </message>
 </context>
 <context>
@@ -36700,8 +38107,11 @@ For example, "To receiver" will log all commands and corrections sent by the dri
   <name>/parameters/SEP_HARDW_SETUP/longDesc</name>
   <message>
   <source>Setup and expected use of the hardware.
+
 - Default: Use two receivers as completely separate instances.
-- Moving base: Use two receivers in a rover &amp; moving base setup for heading.</source>
+- Moving base: Use two receivers in a rover &amp; moving base setup for heading.
+
+</source>
   </message>
 </context>
 <context>
@@ -36725,7 +38135,9 @@ For example, "To receiver" will log all commands and corrections sent by the dri
 <context>
   <name>/parameters/SEP_LOG_FORCE/longDesc</name>
   <message>
-  <source>When the receiver is already set up to log data, this decides whether extra logged data should be added or overwrite existing data.</source>
+  <source>When the receiver is already set up to log data, this decides whether extra logged data should be added or overwrite existing data.
+
+</source>
   </message>
 </context>
 <context>
@@ -36749,7 +38161,9 @@ For example, "To receiver" will log all commands and corrections sent by the dri
 <context>
   <name>/parameters/SEP_LOG_HZ/longDesc</name>
   <message>
-  <source>Select the frequency at which the connected receiver should log data to its internal storage.</source>
+  <source>Select the frequency at which the connected receiver should log data to its internal storage.
+
+</source>
   </message>
 </context>
 <context>
@@ -36827,7 +38241,9 @@ For example, "To receiver" will log all commands and corrections sent by the dri
 <context>
   <name>/parameters/SEP_LOG_LEVEL/longDesc</name>
   <message>
-  <source>Select the level of detail that needs to be logged by the receiver.</source>
+  <source>Select the level of detail that needs to be logged by the receiver.
+
+</source>
   </message>
 </context>
 <context>
@@ -36863,7 +38279,9 @@ For example, "To receiver" will log all commands and corrections sent by the dri
 <context>
   <name>/parameters/SEP_OUTP_HZ/longDesc</name>
   <message>
-  <source>The output frequency of the main SBF blocks needed for PVT information.</source>
+  <source>The output frequency of the main SBF blocks needed for PVT information.
+
+</source>
   </message>
 </context>
 <context>
@@ -36900,10 +38318,13 @@ For example, "To receiver" will log all commands and corrections sent by the dri
   <name>/parameters/SEP_PITCH_OFFS/longDesc</name>
   <message>
   <source>Vertical offsets can be compensated for by adjusting the Pitch offset.
+
 Note that this can be interpreted as the "roll" angle in case the antennas are aligned along the perpendicular axis.
 This occurs in situations where the two antenna ARPs may not be exactly at the same height in the vehicle reference frame.
 Since pitch is defined as the right-handed rotation about the vehicle Y axis,
-a situation where the main antenna is mounted lower than the aux antenna (assuming the default antenna setup) will result in a positive pitch.</source>
+a situation where the main antenna is mounted lower than the aux antenna (assuming the default antenna setup) will result in a positive pitch.
+
+</source>
   </message>
 </context>
 <context>
@@ -36915,7 +38336,9 @@ a situation where the main antenna is mounted lower than the aux antenna (assumi
 <context>
   <name>/parameters/SEP_SAT_INFO/longDesc</name>
   <message>
-  <source>Enable publication of satellite info (ORB_ID(satellite_info)) if possible.</source>
+  <source>Enable publication of satellite info (ORB_ID(satellite_info)) if possible.
+
+</source>
   </message>
 </context>
 <context>
@@ -36940,7 +38363,10 @@ a situation where the main antenna is mounted lower than the aux antenna (assumi
   <name>/parameters/SEP_STREAM_LOG/longDesc</name>
   <message>
   <source>The stream the autopilot sets up on the receiver to output the logging data.
-Set this to another value if the default stream is already used for another purpose.</source>
+
+Set this to another value if the default stream is already used for another purpose.
+
+</source>
   </message>
 </context>
 <context>
@@ -36953,7 +38379,10 @@ Set this to another value if the default stream is already used for another purp
   <name>/parameters/SEP_STREAM_MAIN/longDesc</name>
   <message>
   <source>The stream the autopilot sets up on the receiver to output the main data.
-Set this to another value if the default stream is already used for another purpose.</source>
+
+Set this to another value if the default stream is already used for another purpose.
+
+</source>
   </message>
 </context>
 <context>
@@ -36966,11 +38395,16 @@ Set this to another value if the default stream is already used for another purp
   <name>/parameters/SEP_YAW_OFFS/longDesc</name>
   <message>
   <source>Heading offset angle for dual antenna GPS setups that support heading estimation.
+
 Set this to 0 if the antennas are parallel to the forward-facing direction
 of the vehicle and the rover antenna is in front.
+
 The offset angle increases clockwise.
+
 Set this to 90 if the rover antenna is placed on the
-right side of the vehicle and the moving base antenna is on the left side.</source>
+right side of the vehicle and the moving base antenna is on the left side.
+
+</source>
   </message>
 </context>
 <context>
@@ -36994,7 +38428,8 @@ right side of the vehicle and the moving base antenna is on the left side.</sour
 <context>
   <name>/parameters/SIH_DISTSNSR_OVR/longDesc</name>
   <message>
-  <source>Absolute value superior to 10000 will disable distance sensor</source>
+  <source>Absolute value superior to 10000 will disable distance sensor
+</source>
   </message>
 </context>
 <context>
@@ -37007,7 +38442,8 @@ right side of the vehicle and the moving base antenna is on the left side.</sour
   <name>/parameters/SIH_IXX/longDesc</name>
   <message>
   <source>The inertia is a 3 by 3 symmetric matrix.
-It represents the difficulty of the vehicle to modify its angular rate.</source>
+It represents the difficulty of the vehicle to modify its angular rate.
+</source>
   </message>
 </context>
 <context>
@@ -37020,7 +38456,8 @@ It represents the difficulty of the vehicle to modify its angular rate.</source>
   <name>/parameters/SIH_IXY/longDesc</name>
   <message>
   <source>The inertia is a 3 by 3 symmetric matrix.
-This value can be set to 0 for a quad symmetric about its center of mass.</source>
+This value can be set to 0 for a quad symmetric about its center of mass.
+</source>
   </message>
 </context>
 <context>
@@ -37033,7 +38470,8 @@ This value can be set to 0 for a quad symmetric about its center of mass.</sourc
   <name>/parameters/SIH_IXZ/longDesc</name>
   <message>
   <source>The inertia is a 3 by 3 symmetric matrix.
-This value can be set to 0 for a quad symmetric about its center of mass.</source>
+This value can be set to 0 for a quad symmetric about its center of mass.
+</source>
   </message>
 </context>
 <context>
@@ -37046,7 +38484,8 @@ This value can be set to 0 for a quad symmetric about its center of mass.</sourc
   <name>/parameters/SIH_IYY/longDesc</name>
   <message>
   <source>The inertia is a 3 by 3 symmetric matrix.
-It represents the difficulty of the vehicle to modify its angular rate.</source>
+It represents the difficulty of the vehicle to modify its angular rate.
+</source>
   </message>
 </context>
 <context>
@@ -37059,7 +38498,8 @@ It represents the difficulty of the vehicle to modify its angular rate.</source>
   <name>/parameters/SIH_IYZ/longDesc</name>
   <message>
   <source>The inertia is a 3 by 3 symmetric matrix.
-This value can be set to 0 for a quad symmetric about its center of mass.</source>
+This value can be set to 0 for a quad symmetric about its center of mass.
+</source>
   </message>
 </context>
 <context>
@@ -37072,7 +38512,8 @@ This value can be set to 0 for a quad symmetric about its center of mass.</sourc
   <name>/parameters/SIH_IZZ/longDesc</name>
   <message>
   <source>The inertia is a 3 by 3 symmetric matrix.
-It represents the difficulty of the vehicle to modify its angular rate.</source>
+It represents the difficulty of the vehicle to modify its angular rate.
+</source>
   </message>
 </context>
 <context>
@@ -37086,8 +38527,10 @@ It represents the difficulty of the vehicle to modify its angular rate.</source>
   <message>
   <source>Physical coefficient representing the friction with air particules.
 The greater this value, the slower the quad will move.
+
 Drag force function of velocity: D=-KDV*V.
-The maximum freefall velocity can be computed as V=10*MASS/KDV [m/s]</source>
+The maximum freefall velocity can be computed as V=10*MASS/KDV [m/s]
+</source>
   </message>
 </context>
 <context>
@@ -37101,8 +38544,10 @@ The maximum freefall velocity can be computed as V=10*MASS/KDV [m/s]</source>
   <message>
   <source>Physical coefficient representing the friction with air particules during rotations.
 The greater this value, the slower the quad will rotate.
+
 Aerodynamic moment function of body rate: Ma=-KDW*W_B.
-This value can be set to 0 if unknown.</source>
+This value can be set to 0 if unknown.
+</source>
   </message>
 </context>
 <context>
@@ -37115,10 +38560,14 @@ This value can be set to 0 if unknown.</source>
   <name>/parameters/SIH_LOC_H0/longDesc</name>
   <message>
   <source>This value represents the Above Mean Sea Level (AMSL) altitude where the simulation begins.
+
 If using FlightGear as a visual animation,
 this value can be tweaked such that the vehicle lies on the ground at takeoff.
+
 LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others
-to represent a physical ground location on Earth.</source>
+to represent a physical ground location on Earth.
+
+</source>
   </message>
 </context>
 <context>
@@ -37131,8 +38580,10 @@ to represent a physical ground location on Earth.</source>
   <name>/parameters/SIH_LOC_LAT0/longDesc</name>
   <message>
   <source>This value represents the North-South location on Earth where the simulation begins.
+
 LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others
-to represent a physical ground location on Earth.</source>
+to represent a physical ground location on Earth.
+</source>
   </message>
 </context>
 <context>
@@ -37145,8 +38596,10 @@ to represent a physical ground location on Earth.</source>
   <name>/parameters/SIH_LOC_LON0/longDesc</name>
   <message>
   <source>This value represents the East-West location on Earth where the simulation begins.
+
 LAT0, LON0, H0, MU_X, MU_Y, and MU_Z should ideally be consistent among each others
-to represent a physical ground location on Earth.</source>
+to represent a physical ground location on Earth.
+</source>
   </message>
 </context>
 <context>
@@ -37159,8 +38612,10 @@ to represent a physical ground location on Earth.</source>
   <name>/parameters/SIH_L_PITCH/longDesc</name>
   <message>
   <source>This is the arm length generating the pitching moment
+
 This value can be measured with a ruler.
-This corresponds to half the distance between the front and rear motors.</source>
+This corresponds to half the distance between the front and rear motors.
+</source>
   </message>
 </context>
 <context>
@@ -37173,8 +38628,10 @@ This corresponds to half the distance between the front and rear motors.</source
   <name>/parameters/SIH_L_ROLL/longDesc</name>
   <message>
   <source>This is the arm length generating the rolling moment
+
 This value can be measured with a ruler.
-This corresponds to half the distance between the left and right motors.</source>
+This corresponds to half the distance between the left and right motors.
+</source>
   </message>
 </context>
 <context>
@@ -37186,7 +38643,8 @@ This corresponds to half the distance between the left and right motors.</source
 <context>
   <name>/parameters/SIH_MASS/longDesc</name>
   <message>
-  <source>This value can be measured by weighting the quad on a scale.</source>
+  <source>This value can be measured by weighting the quad on a scale.
+</source>
   </message>
 </context>
 <context>
@@ -37200,7 +38658,9 @@ This corresponds to half the distance between the left and right motors.</source
   <message>
   <source>This is the maximum torque delivered by one propeller
 when the motor is running at full speed.
-This value is usually about few percent of the maximum thrust force.</source>
+
+This value is usually about few percent of the maximum thrust force.
+</source>
   </message>
 </context>
 <context>
@@ -37214,7 +38674,9 @@ This value is usually about few percent of the maximum thrust force.</source>
   <message>
   <source>This is the maximum force delivered by one propeller
 when the motor is running at full speed.
-This value is usually about 5 times the mass of the quadrotor.</source>
+
+This value is usually about 5 times the mass of the quadrotor.
+</source>
   </message>
 </context>
 <context>
@@ -37226,7 +38688,8 @@ This value is usually about 5 times the mass of the quadrotor.</source>
 <context>
   <name>/parameters/SIH_T_TAU/longDesc</name>
   <message>
-  <source>the time taken for the thruster to step from 0 to 100% should be about 4 times tau</source>
+  <source>the time taken for the thruster to step from 0 to 100% should be about 4 times tau
+</source>
   </message>
 </context>
 <context>
@@ -37293,7 +38756,8 @@ This value is usually about 5 times the mass of the quadrotor.</source>
   <name>/parameters/SIM_AGP_FAIL/longDesc</name>
   <message>
   <source>Stuck: freeze the measurement to the current location
-Drift: add a linearly growing bias to the sensor data</source>
+Drift: add a linearly growing bias to the sensor data
+</source>
   </message>
 </context>
 <context>
@@ -37355,7 +38819,8 @@ Drift: add a linearly growing bias to the sensor data</source>
   <message>
   <source>Set to 1 to reset parameters on next system startup (setting defaults).
 Platform-specific values are used if available.
-RC* parameters are preserved.</source>
+RC* parameters are preserved.
+</source>
   </message>
 </context>
 <context>
@@ -37379,7 +38844,8 @@ RC* parameters are preserved.</source>
 <context>
   <name>/parameters/SYS_AUTOSTART/longDesc</name>
   <message>
-  <source>CHANGING THIS VALUE REQUIRES A RESTART. Defines the auto-start script used to bootstrap the system.</source>
+  <source>CHANGING THIS VALUE REQUIRES A RESTART. Defines the auto-start script used to bootstrap the system.
+</source>
   </message>
 </context>
 <context>
@@ -37392,14 +38858,17 @@ RC* parameters are preserved.</source>
   <name>/parameters/SYS_BL_UPDATE/longDesc</name>
   <message>
   <source>If enabled, update the bootloader on the next boot.
+
 WARNING: do not cut the power during an update process, otherwise you will
 have to recover using some alternative method (e.g. JTAG).
+
 Instructions:
 - Insert an SD card
 - Enable this parameter
 - Reboot the board (plug the power or send a reboot command)
 - Wait until the board comes back up (or at least 2 minutes)
-- If it does not come back, check the file bootlog.txt on the SD card</source>
+- If it does not come back, check the file bootlog.txt on the SD card
+</source>
   </message>
 </context>
 <context>
@@ -37426,7 +38895,9 @@ Instructions:
   <source>0 : Set to 0 to do nothing
 1 : Set to 1 to start a calibration at next boot
 This parameter is reset to zero when the temperature calibration starts.
-default (0, no calibration)</source>
+
+default (0, no calibration)
+</source>
   </message>
 </context>
 <context>
@@ -37441,7 +38912,9 @@ default (0, no calibration)</source>
   <source>0 : Set to 0 to do nothing
 1 : Set to 1 to start a calibration at next boot
 This parameter is reset to zero when the temperature calibration starts.
-default (0, no calibration)</source>
+
+default (0, no calibration)
+</source>
   </message>
 </context>
 <context>
@@ -37456,7 +38929,9 @@ default (0, no calibration)</source>
   <source>0 : Set to 0 to do nothing
 1 : Set to 1 to start a calibration at next boot
 This parameter is reset to zero when the temperature calibration starts.
-default (0, no calibration)</source>
+
+default (0, no calibration)
+</source>
   </message>
 </context>
 <context>
@@ -37470,7 +38945,8 @@ default (0, no calibration)</source>
   <message>
   <source>A temperature increase greater than this value is required during calibration.
 Calibration will complete for each sensor when the temperature increase above the starting temperature exceeds the value set by SYS_CAL_TDEL.
-If the temperature rise is insufficient, the calibration will continue indefinitely and the board will need to be repowered to exit.</source>
+If the temperature rise is insufficient, the calibration will continue indefinitely and the board will need to be repowered to exit.
+</source>
   </message>
 </context>
 <context>
@@ -37482,7 +38958,8 @@ If the temperature rise is insufficient, the calibration will continue indefinit
 <context>
   <name>/parameters/SYS_CAL_TMAX/longDesc</name>
   <message>
-  <source>Temperature calibration will not start if the temperature of any sensor is higher than the value set by SYS_CAL_TMAX.</source>
+  <source>Temperature calibration will not start if the temperature of any sensor is higher than the value set by SYS_CAL_TMAX.
+</source>
   </message>
 </context>
 <context>
@@ -37494,7 +38971,8 @@ If the temperature rise is insufficient, the calibration will continue indefinit
 <context>
   <name>/parameters/SYS_CAL_TMIN/longDesc</name>
   <message>
-  <source>Temperature calibration for each sensor will ignore data if the temperature is lower than the value set by SYS_CAL_TMIN.</source>
+  <source>Temperature calibration for each sensor will ignore data if the temperature is lower than the value set by SYS_CAL_TMIN.
+</source>
   </message>
 </context>
 <context>
@@ -37508,7 +38986,8 @@ If the temperature rise is insufficient, the calibration will continue indefinit
   <message>
   <source>If the board supports persistent storage (i.e., the KConfig variable DATAMAN_PERSISTENT_STORAGE is set),
 the 'Default storage' backend uses a file on persistent storage. If not supported, this backend uses
-non-persistent storage in RAM.</source>
+non-persistent storage in RAM.
+</source>
   </message>
 </context>
 <context>
@@ -37539,8 +39018,10 @@ non-persistent storage in RAM.</source>
   <name>/parameters/SYS_FAC_CAL_MODE/longDesc</name>
   <message>
   <source>If enabled, future sensor calibrations will be stored to /fs/mtd_caldata.
+
 Note: this is only supported on boards with a separate calibration storage
-/fs/mtd_caldata.</source>
+/fs/mtd_caldata.
+</source>
   </message>
 </context>
 <context>
@@ -37571,7 +39052,9 @@ Note: this is only supported on boards with a separate calibration storage
   <name>/parameters/SYS_FAILURE_EN/longDesc</name>
   <message>
   <source>If enabled allows MAVLink INJECT_FAILURE commands.
-WARNING: the failures can easily cause crashes and are to be used with caution!</source>
+
+WARNING: the failures can easily cause crashes and are to be used with caution!
+</source>
   </message>
 </context>
 <context>
@@ -37598,7 +39081,8 @@ WARNING: the failures can easily cause crashes and are to be used with caution!<
   <source>Disable this if the board has no barometer, such as some of the Omnibus
 F4 SD variants.
 If disabled, the preflight checks will not check for the presence of a
-barometer.</source>
+barometer.
+</source>
   </message>
 </context>
 <context>
@@ -37624,7 +39108,8 @@ barometer.</source>
   <message>
   <source>Disable this if the system has no GPS.
 If disabled, the sensors hub will not process sensor_gps,
-and GPS will not be available for the rest of the system.</source>
+and GPS will not be available for the rest of the system.
+</source>
   </message>
 </context>
 <context>
@@ -37649,7 +39134,8 @@ and GPS will not be available for the rest of the system.</source>
   <name>/parameters/SYS_HAS_MAG/longDesc</name>
   <message>
   <source>0: System has no magnetometer, preflight checks should pass without one.
-1-N: Require the presence of N magnetometer sensors for check to pass.</source>
+1-N: Require the presence of N magnetometer sensors for check to pass.
+</source>
   </message>
 </context>
 <context>
@@ -37663,7 +39149,8 @@ and GPS will not be available for the rest of the system.</source>
   <message>
   <source>Set this to 0 if the board has no airspeed sensor.
 If set to 0, the preflight checks will not check for the presence of an
-airspeed sensor.</source>
+airspeed sensor.
+</source>
   </message>
 </context>
 <context>
@@ -37676,7 +39163,9 @@ airspeed sensor.</source>
   <name>/parameters/SYS_HAS_NUM_DIST/longDesc</name>
   <message>
   <source>The preflight check will fail if fewer than this number of distance sensors with valid data is present.
-Disable the check with 0.</source>
+
+Disable the check with 0.
+</source>
   </message>
 </context>
 <context>
@@ -37688,7 +39177,8 @@ Disable the check with 0.</source>
 <context>
   <name>/parameters/SYS_HAS_NUM_OF/longDesc</name>
   <message>
-  <source>The preflight check will fail if fewer than this number of optical flow sensors with valid data are present.</source>
+  <source>The preflight check will fail if fewer than this number of optical flow sensors with valid data are present.
+</source>
   </message>
 </context>
 <context>
@@ -37703,9 +39193,11 @@ Disable the check with 0.</source>
   <source>While enabled the system will boot in Hardware-In-The-Loop (HITL)
 or Simulation-In-Hardware (SIH) mode and not enable all sensors and checks.
 When disabled the same vehicle can be flown normally.
+
 Set to 'external HITL', if the system should perform as if it were a real
 vehicle (the only difference to a real system is then only the parameter
-value, which can be used for log analysis).</source>
+value, which can be used for log analysis).
+</source>
   </message>
 </context>
 <context>
@@ -37744,7 +39236,8 @@ value, which can be used for log analysis).</source>
   <source>This is used internally only: an airframe configuration might set an expected
 parameter version value via PARAM_DEFAULTS_VER. This is checked on bootup
 against SYS_PARAM_VER, and if they do not match, parameters are reset and
-reloaded from the airframe configuration.</source>
+reloaded from the airframe configuration.
+</source>
   </message>
 </context>
 <context>
@@ -37756,7 +39249,8 @@ reloaded from the airframe configuration.</source>
 <context>
   <name>/parameters/SYS_RGB_MAXBRT/longDesc</name>
   <message>
-  <source>Set to 0 to disable, 1 for maximum brightness</source>
+  <source>Set to 0 to disable, 1 for maximum brightness
+</source>
   </message>
 </context>
 <context>
@@ -39626,7 +41120,9 @@ reloaded from the airframe configuration.</source>
 the selected Agent IP address will be set and used.
 Decimal dot notation is not supported. IP address must be provided
 in int32 format. For example, 192.168.1.2 is mapped to -1062731518;
-127.0.0.1 is mapped to 2130706433.</source>
+127.0.0.1 is mapped to 2130706433.
+
+</source>
   </message>
 </context>
 <context>
@@ -39638,7 +41134,8 @@ in int32 format. For example, 192.168.1.2 is mapped to -1062731518;
 <context>
   <name>/parameters/UXRCE_DDS_DOM_ID/longDesc</name>
   <message>
-  <source>uXRCE-DDS domain ID</source>
+  <source>uXRCE-DDS domain ID
+</source>
   </message>
 </context>
 <context>
@@ -39651,7 +41148,9 @@ in int32 format. For example, 192.168.1.2 is mapped to -1062731518;
   <name>/parameters/UXRCE_DDS_FLCTRL/longDesc</name>
   <message>
   <source>This is used to enable flow control for the serial uXRCE instance.
-Used for reliable high bandwidth communication.</source>
+Used for reliable high bandwidth communication.
+
+</source>
   </message>
 </context>
 <context>
@@ -39677,7 +41176,9 @@ Used for reliable high bandwidth communication.</source>
   <message>
   <source>uXRCE-DDS key, must be different from zero.
 In a single agent - multi client configuration, each client
-must have a unique session key.</source>
+must have a unique session key.
+
+</source>
   </message>
 </context>
 <context>
@@ -39690,7 +41191,9 @@ must have a unique session key.</source>
   <name>/parameters/UXRCE_DDS_NS_IDX/longDesc</name>
   <message>
   <source>Defines an index-based namespace for DDS messages, e.g, uav_0, uav_1, up to uav_9999
-A value less than zero leaves the namespace empty</source>
+A value less than zero leaves the namespace empty
+
+</source>
   </message>
 </context>
 <context>
@@ -39703,7 +41206,9 @@ A value less than zero leaves the namespace empty</source>
   <name>/parameters/UXRCE_DDS_PRT/longDesc</name>
   <message>
   <source>If ethernet is enabled and is the selected configuration for uXRCE-DDS,
-the selected UDP port will be set and used.</source>
+the selected UDP port will be set and used.
+
+</source>
   </message>
 </context>
 <context>
@@ -39719,7 +41224,9 @@ the selected UDP port will be set and used.</source>
 0: Use the default configuration.
 1: Restrict messages to localhost
 (use in combination with ROS_LOCALHOST_ONLY=1).
-2: Use a custom participant with the profile name "px4_participant".</source>
+2: Use a custom participant with the profile name "px4_participant".
+
+</source>
   </message>
 </context>
 <context>
@@ -39750,7 +41257,9 @@ the selected UDP port will be set and used.</source>
   <name>/parameters/UXRCE_DDS_RX_TO/longDesc</name>
   <message>
   <source>Specifies after how many seconds without receiving data the DDS connection is reestablished.
-A value less than one disables the RX rate timeout.</source>
+A value less than one disables the RX rate timeout.
+
+</source>
   </message>
 </context>
 <context>
@@ -39762,7 +41271,8 @@ A value less than one disables the RX rate timeout.</source>
 <context>
   <name>/parameters/UXRCE_DDS_SYNCC/longDesc</name>
   <message>
-  <source>When enabled along with UXRCE_DDS_SYNCT, uxrce_dds_client will set the system clock using the agents UTC timestamp.</source>
+  <source>When enabled along with UXRCE_DDS_SYNCT, uxrce_dds_client will set the system clock using the agents UTC timestamp.
+</source>
   </message>
 </context>
 <context>
@@ -39786,7 +41296,8 @@ A value less than one disables the RX rate timeout.</source>
 <context>
   <name>/parameters/UXRCE_DDS_SYNCT/longDesc</name>
   <message>
-  <source>When enabled, uxrce_dds_client will synchronize the timestamps of the incoming and outgoing messages measuring the offset between the Agent OS time and the PX4 time.</source>
+  <source>When enabled, uxrce_dds_client will synchronize the timestamps of the incoming and outgoing messages measuring the offset between the Agent OS time and the PX4 time.
+</source>
   </message>
 </context>
 <context>
@@ -39811,7 +41322,9 @@ A value less than one disables the RX rate timeout.</source>
   <name>/parameters/UXRCE_DDS_TX_TO/longDesc</name>
   <message>
   <source>Specifies after how many seconds without sending data the DDS connection is reestablished.
-A value less than one disables the TX rate timeout.</source>
+A value less than one disables the TX rate timeout.
+
+</source>
   </message>
 </context>
 <context>
@@ -39823,7 +41336,8 @@ A value less than one disables the TX rate timeout.</source>
 <context>
   <name>/parameters/VT_ARSP_BLEND/longDesc</name>
   <message>
-  <source>Airspeed at which we can start blending both fw and mc controls. Set to 0 to disable.</source>
+  <source>Airspeed at which we can start blending both fw and mc controls. Set to 0 to disable.
+</source>
   </message>
 </context>
 <context>
@@ -39835,7 +41349,8 @@ A value less than one disables the TX rate timeout.</source>
 <context>
   <name>/parameters/VT_ARSP_TRANS/longDesc</name>
   <message>
-  <source>Airspeed at which we can switch to fw mode</source>
+  <source>Airspeed at which we can switch to fw mode
+</source>
   </message>
 </context>
 <context>
@@ -39847,7 +41362,8 @@ A value less than one disables the TX rate timeout.</source>
 <context>
   <name>/parameters/VT_BT_TILT_DUR/longDesc</name>
   <message>
-  <source>Time in seconds it takes to tilt form VT_TILT_FW to VT_TILT_MC.</source>
+  <source>Time in seconds it takes to tilt form VT_TILT_FW to VT_TILT_MC.
+</source>
   </message>
 </context>
 <context>
@@ -39866,7 +41382,8 @@ A value less than one disables the TX rate timeout.</source>
   <name>/parameters/VT_B_DEC_MSS/longDesc</name>
   <message>
   <source>Used to calculate back transition distance in an auto mode.
-For standard vtol and tiltrotors a controller is used to track this value during the transition.</source>
+For standard vtol and tiltrotors a controller is used to track this value during the transition.
+</source>
   </message>
 </context>
 <context>
@@ -39878,7 +41395,8 @@ For standard vtol and tiltrotors a controller is used to track this value during
 <context>
   <name>/parameters/VT_B_TRANS_DUR/longDesc</name>
   <message>
-  <source>Transition is also declared over if the groundspeed drops below MPC_XY_CRUISE.</source>
+  <source>Transition is also declared over if the groundspeed drops below MPC_XY_CRUISE.
+</source>
   </message>
 </context>
 <context>
@@ -39890,7 +41408,8 @@ For standard vtol and tiltrotors a controller is used to track this value during
 <context>
   <name>/parameters/VT_B_TRANS_RAMP/longDesc</name>
   <message>
-  <source>This sets the duration during which the MC motors ramp up to the commanded thrust during the back transition stage.</source>
+  <source>This sets the duration during which the MC motors ramp up to the commanded thrust during the back transition stage.
+</source>
   </message>
 </context>
 <context>
@@ -39902,7 +41421,8 @@ For standard vtol and tiltrotors a controller is used to track this value during
 <context>
   <name>/parameters/VT_ELEV_MC_LOCK/longDesc</name>
   <message>
-  <source>If set to 1 the control surfaces are locked at the disarmed value in multicopter mode.</source>
+  <source>If set to 1 the control surfaces are locked at the disarmed value in multicopter mode.
+</source>
   </message>
 </context>
 <context>
@@ -39931,7 +41451,9 @@ Uses puller/pusher (standard VTOL), or forward-tilt (tiltrotor VTOL) to accelera
 Only active if demanded pitch  is below VT_PITCH_MIN.
 Use VT_FWD_THRUST_SC to tune it.
 Descend mode is treated as Landing too.
-Only active (if enabled) in height-rate controlled modes.</source>
+
+Only active (if enabled) in height-rate controlled modes.
+</source>
   </message>
 </context>
 <context>
@@ -39986,7 +41508,8 @@ Only active (if enabled) in height-rate controlled modes.</source>
   <name>/parameters/VT_FWD_THRUST_SC/longDesc</name>
   <message>
   <source>Scale applied to the demanded pitch (below VT_PITCH_MIN) to get the fixed-wing forward actuation in hover mode.
-Enabled via VT_FWD_THRUST_EN.</source>
+Enabled via VT_FWD_THRUST_EN.
+</source>
   </message>
 </context>
 <context>
@@ -40000,7 +41523,8 @@ Enabled via VT_FWD_THRUST_EN.</source>
   <message>
   <source>Enable differential thrust seperately for roll, pitch, yaw in forward (fixed-wing) mode.
 The effectiveness of differential thrust around the corresponding axis can be
-tuned by setting VT_FW_DIFTHR_S_R / VT_FW_DIFTHR_S_P / VT_FW_DIFTHR_S_Y.</source>
+tuned by setting VT_FW_DIFTHR_S_R / VT_FW_DIFTHR_S_P / VT_FW_DIFTHR_S_Y.
+</source>
   </message>
 </context>
 <context>
@@ -40030,7 +41554,8 @@ tuned by setting VT_FW_DIFTHR_S_R / VT_FW_DIFTHR_S_P / VT_FW_DIFTHR_S_Y.</source
 <context>
   <name>/parameters/VT_FW_DIFTHR_S_P/longDesc</name>
   <message>
-  <source>Differential thrust in forward flight is enabled via VT_FW_DIFTHR_EN.</source>
+  <source>Differential thrust in forward flight is enabled via VT_FW_DIFTHR_EN.
+</source>
   </message>
 </context>
 <context>
@@ -40042,7 +41567,8 @@ tuned by setting VT_FW_DIFTHR_S_R / VT_FW_DIFTHR_S_P / VT_FW_DIFTHR_S_Y.</source
 <context>
   <name>/parameters/VT_FW_DIFTHR_S_R/longDesc</name>
   <message>
-  <source>Differential thrust in forward flight is enabled via VT_FW_DIFTHR_EN.</source>
+  <source>Differential thrust in forward flight is enabled via VT_FW_DIFTHR_EN.
+</source>
   </message>
 </context>
 <context>
@@ -40054,7 +41580,8 @@ tuned by setting VT_FW_DIFTHR_S_R / VT_FW_DIFTHR_S_P / VT_FW_DIFTHR_S_Y.</source
 <context>
   <name>/parameters/VT_FW_DIFTHR_S_Y/longDesc</name>
   <message>
-  <source>Differential thrust in forward flight is enabled via VT_FW_DIFTHR_EN.</source>
+  <source>Differential thrust in forward flight is enabled via VT_FW_DIFTHR_EN.
+</source>
   </message>
 </context>
 <context>
@@ -40068,7 +41595,8 @@ tuned by setting VT_FW_DIFTHR_S_R / VT_FW_DIFTHR_S_P / VT_FW_DIFTHR_S_Y.</source
   <message>
   <source>Minimum altitude for fixed-wing flight. When the vehicle is in fixed-wing mode
 and the altitude drops below this altitude (relative altitude above local origin),
-it will instantly switch back to MC mode and execute behavior defined in COM_QC_ACT.</source>
+it will instantly switch back to MC mode and execute behavior defined in COM_QC_ACT.
+</source>
   </message>
 </context>
 <context>
@@ -40082,7 +41610,8 @@ it will instantly switch back to MC mode and execute behavior defined in COM_QC_
   <message>
   <source>Maximum height above the ground (if available, otherwise above
 Home if available, otherwise above the local origin) where triggering a quad-chute is possible.
-At high altitudes there is a big risk to deplete the battery and therefore crash if quad-chuting there.</source>
+At high altitudes there is a big risk to deplete the battery and therefore crash if quad-chuting there.
+</source>
   </message>
 </context>
 <context>
@@ -40096,7 +41625,8 @@ At high altitudes there is a big risk to deplete the battery and therefore crash
   <message>
   <source>Absolute pitch threshold for quad-chute triggering in FW mode.
 Above this the vehicle will transition back to MC mode and execute behavior defined in COM_QC_ACT.
-Set to 0 do disable this threshold.</source>
+Set to 0 do disable this threshold.
+</source>
   </message>
 </context>
 <context>
@@ -40110,7 +41640,8 @@ Set to 0 do disable this threshold.</source>
   <message>
   <source>Absolute roll threshold for quad-chute triggering in FW mode.
 Above this the vehicle will transition back to MC mode and execute behavior defined in COM_QC_ACT.
-Set to 0 do disable this threshold.</source>
+Set to 0 do disable this threshold.
+</source>
   </message>
 </context>
 <context>
@@ -40122,7 +41653,8 @@ Set to 0 do disable this threshold.</source>
 <context>
   <name>/parameters/VT_F_TRANS_DUR/longDesc</name>
   <message>
-  <source>Time in seconds used for a transition</source>
+  <source>Time in seconds used for a transition
+</source>
   </message>
 </context>
 <context>
@@ -40142,7 +41674,8 @@ Set to 0 do disable this threshold.</source>
   <message>
   <source>The duration of the front transition when there is no airspeed feedback available.
 When airspeed is used, transition timeout is declared if airspeed does not
-reach VT_ARSP_BLEND after this time.</source>
+reach VT_ARSP_BLEND after this time.
+</source>
   </message>
 </context>
 <context>
@@ -40155,7 +41688,8 @@ reach VT_ARSP_BLEND after this time.</source>
   <name>/parameters/VT_LND_PITCH_MIN/longDesc</name>
   <message>
   <source>Overrides VT_PITCH_MIN when the vehicle is in LAND mode (hovering).
-During landing it can be beneficial to reduce the pitch angle to reduce the generated lift in head wind.</source>
+During landing it can be beneficial to reduce the pitch angle to reduce the generated lift in head wind.
+</source>
   </message>
 </context>
 <context>
@@ -40168,7 +41702,8 @@ During landing it can be beneficial to reduce the pitch angle to reduce the gene
   <name>/parameters/VT_PITCH_MIN/longDesc</name>
   <message>
   <source>Any pitch setpoint below this value is translated to a forward force by the fixed-wing forward actuation if
-VT_FWD_TRHUST_EN is set.</source>
+VT_FWD_TRHUST_EN is set.
+</source>
   </message>
 </context>
 <context>
@@ -40182,7 +41717,8 @@ VT_FWD_TRHUST_EN is set.</source>
   <message>
   <source>Defines the slew rate of the puller/pusher throttle during transitions.
 Zero will deactivate the slew rate limiting and thus produce an instant throttle
-rise to the transition throttle VT_F_TRANS_THR.</source>
+rise to the transition throttle VT_F_TRANS_THR.
+</source>
   </message>
 </context>
 <context>
@@ -40198,7 +41734,9 @@ rise to the transition throttle VT_F_TRANS_THR.</source>
 The check is only active if altitude is controlled and the vehicle is below the current altitude reference.
 The altitude error is relative to the highest altitude the vehicle has achieved since it has flown below the current
 altitude reference.
-Set to 0 do disable.</source>
+
+Set to 0 do disable.
+</source>
   </message>
 </context>
 <context>
@@ -40215,7 +41753,9 @@ in altitude-controlled flight modes.
 Active until 5s after completing transition to fixed-wing.
 If the current altitude is more than this value below the altitude at the beginning of the
 transition, it will instantly switch back to MC mode and execute behavior defined in COM_QC_ACT.
-Set to 0 do disable this threshold.</source>
+
+Set to 0 do disable this threshold.
+</source>
   </message>
 </context>
 <context>
@@ -40251,7 +41791,8 @@ Set to 0 do disable this threshold.</source>
 <context>
   <name>/parameters/VT_TRANS_MIN_TM/longDesc</name>
   <message>
-  <source>Minimum time in seconds for front transition.</source>
+  <source>Minimum time in seconds for front transition.
+</source>
   </message>
 </context>
 <context>
@@ -40263,7 +41804,8 @@ Set to 0 do disable this threshold.</source>
 <context>
   <name>/parameters/VT_TRANS_P2_DUR/longDesc</name>
   <message>
-  <source>Time in seconds it takes to tilt form VT_TILT_TRANS to VT_TILT_FW.</source>
+  <source>Time in seconds it takes to tilt form VT_TILT_TRANS to VT_TILT_FW.
+</source>
   </message>
 </context>
 <context>
@@ -40275,7 +41817,8 @@ Set to 0 do disable this threshold.</source>
 <context>
   <name>/parameters/VT_TRANS_TIMEOUT/longDesc</name>
   <message>
-  <source>Time in seconds after which transition will be cancelled.</source>
+  <source>Time in seconds after which transition will be cancelled.
+</source>
   </message>
 </context>
 <context>
@@ -40311,7 +41854,8 @@ Set to 0 do disable this threshold.</source>
 <context>
   <name>/parameters/WV_GAIN/longDesc</name>
   <message>
-  <source>The desired gain to convert roll sp into yaw rate sp.</source>
+  <source>The desired gain to convert roll sp into yaw rate sp.
+</source>
   </message>
 </context>
 <context>
@@ -40323,7 +41867,14 @@ Set to 0 do disable this threshold.</source>
 <context>
   <name>/parameters/VTO_LOITER_ALT/longDesc</name>
   <message>
-  <source>Altitude relative to home at which vehicle will loiter after front transition.</source>
+  <source>Altitude relative to home at which vehicle will loiter after front transition.
+</source>
+  </message>
+</context>
+<context>
+  <name>$globals/category/Standard</name>
+  <message>
+  <source>Standard</source>
   </message>
 </context>
 <context>
@@ -40339,99 +41890,15 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/category/Standard</name>
+  <name>$globals/group/Precision Land</name>
   <message>
-  <source>Standard</source>
+  <source>Precision Land</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Airspeed Validator</name>
+  <name>$globals/group/Multicopter Position Control</name>
   <message>
-  <source>Airspeed Validator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geometry</name>
-  <message>
-  <source>Geometry</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Simulator</name>
-  <message>
-  <source>Simulator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Position Control</name>
-  <message>
-  <source>UUV Position Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Flight Task Orbit</name>
-  <message>
-  <source>Flight Task Orbit</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensors</name>
-  <message>
-  <source>Sensors</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Attitude Control</name>
-  <message>
-  <source>Multicopter Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Attitude Q estimator</name>
-  <message>
-  <source>Attitude Q estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Follow target</name>
-  <message>
-  <source>Follow target</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Payload Deliverer</name>
-  <message>
-  <source>Payload Deliverer</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW General</name>
-  <message>
-  <source>FW General</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/ADSB</name>
-  <message>
-  <source>ADSB</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Thermal Compensation</name>
-  <message>
-  <source>Thermal Compensation</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Radio Switches</name>
-  <message>
-  <source>Radio Switches</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Sensor Calibration</name>
-  <message>
-  <source>Sensor Calibration</source>
+  <source>Multicopter Position Control</source>
   </message>
 </context>
 <context>
@@ -40441,45 +41908,21 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/VTOL Takeoff</name>
+  <name>$globals/group/OSD</name>
   <message>
-  <source>VTOL Takeoff</source>
+  <source>OSD</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Position Slow Mode</name>
+  <name>$globals/group/Rover Rate Control</name>
   <message>
-  <source>Multicopter Position Slow Mode</source>
+  <source>Rover Rate Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Landing Target Estimator</name>
+  <name>$globals/group/SD Logging</name>
   <message>
-  <source>Landing Target Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Magnetometer Bias Estimator</name>
-  <message>
-  <source>Magnetometer Bias Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Velocity Control</name>
-  <message>
-  <source>Rover Velocity Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Actuator Outputs</name>
-  <message>
-  <source>Actuator Outputs</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Landing</name>
-  <message>
-  <source>FW Auto Landing</source>
+  <source>SD Logging</source>
   </message>
 </context>
 <context>
@@ -40489,27 +41932,45 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Precision Land</name>
+  <name>$globals/group/Rover Velocity Control</name>
   <message>
-  <source>Precision Land</source>
+  <source>Rover Velocity Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/UXRCE-DDS Client</name>
+  <name>$globals/group/Multicopter Rate Control</name>
   <message>
-  <source>UXRCE-DDS Client</source>
+  <source>Multicopter Rate Control</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/FW Rate Control</name>
+  <name>$globals/group/Flight Task Orbit</name>
   <message>
-  <source>FW Rate Control</source>
+  <source>Flight Task Orbit</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Multicopter Position Control</name>
+  <name>$globals/group/GPS</name>
   <message>
-  <source>Multicopter Position Control</source>
+  <source>GPS</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Runway Takeoff</name>
+  <message>
+  <source>Runway Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Mixer Output</name>
+  <message>
+  <source>Mixer Output</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW NPFG Control</name>
+  <message>
+  <source>FW NPFG Control</source>
   </message>
 </context>
 <context>
@@ -40525,129 +41986,21 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Simulation In Hardware</name>
-  <message>
-  <source>Simulation In Hardware</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/UUV Attitude Control</name>
-  <message>
-  <source>UUV Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Lateral Control</name>
-  <message>
-  <source>FW Lateral Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Longitudinal Control</name>
-  <message>
-  <source>FW Longitudinal Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/System</name>
-  <message>
-  <source>System</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/SD Logging</name>
-  <message>
-  <source>SD Logging</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Battery Calibration</name>
-  <message>
-  <source>Battery Calibration</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Hover Thrust Estimator</name>
-  <message>
-  <source>Hover Thrust Estimator</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Rate Control</name>
-  <message>
-  <source>Multicopter Rate Control</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Camera trigger</name>
   <message>
   <source>Camera trigger</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/SITL</name>
+  <name>$globals/group/MAVLink</name>
   <message>
-  <source>SITL</source>
+  <source>MAVLink</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Ackermann</name>
+  <name>$globals/group/VTOL Attitude Control</name>
   <message>
-  <source>Rover Ackermann</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Attitude Control</name>
-  <message>
-  <source>Rover Attitude Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/EKF2</name>
-  <message>
-  <source>EKF2</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Circuit Breaker</name>
-  <message>
-  <source>Circuit Breaker</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW Auto Takeoff</name>
-  <message>
-  <source>FW Auto Takeoff</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/GPS</name>
-  <message>
-  <source>GPS</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Geofence</name>
-  <message>
-  <source>Geofence</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Failure Detector</name>
-  <message>
-  <source>Failure Detector</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Manual Control</name>
-  <message>
-  <source>Manual Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Land Detector</name>
-  <message>
-  <source>Land Detector</source>
+  <source>VTOL Attitude Control</source>
   </message>
 </context>
 <context>
@@ -40657,63 +42010,69 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
+  <name>$globals/group/FW General</name>
+  <message>
+  <source>FW General</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/ADSB</name>
+  <message>
+  <source>ADSB</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Rate Control</name>
+  <message>
+  <source>FW Rate Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/VTOL Takeoff</name>
+  <message>
+  <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Attitude Control</name>
+  <message>
+  <source>UUV Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Simulator</name>
+  <message>
+  <source>Simulator</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Commander</name>
   <message>
   <source>Commander</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Mixer Output</name>
+  <name>$globals/group/Land Detector</name>
   <message>
-  <source>Mixer Output</source>
+  <source>Land Detector</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Differential</name>
+  <name>$globals/group/Simulation In Hardware</name>
   <message>
-  <source>Rover Differential</source>
+  <source>Simulation In Hardware</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Local Position Estimator</name>
+  <name>$globals/group/Events</name>
   <message>
-  <source>Local Position Estimator</source>
+  <source>Events</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Rover Rate Control</name>
+  <name>$globals/group/Geofence</name>
   <message>
-  <source>Rover Rate Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Septentrio</name>
-  <message>
-  <source>Septentrio</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Testing</name>
-  <message>
-  <source>Testing</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/FW NPFG Control</name>
-  <message>
-  <source>FW NPFG Control</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Rover Mecanum</name>
-  <message>
-  <source>Rover Mecanum</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/OSD</name>
-  <message>
-  <source>OSD</source>
+  <source>Geofence</source>
   </message>
 </context>
 <context>
@@ -40723,9 +42082,105 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Runway Takeoff</name>
+  <name>$globals/group/Multicopter Position Slow Mode</name>
   <message>
-  <source>Runway Takeoff</source>
+  <source>Multicopter Position Slow Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Battery Calibration</name>
+  <message>
+  <source>Battery Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Magnetometer Bias Estimator</name>
+  <message>
+  <source>Magnetometer Bias Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Radio Switches</name>
+  <message>
+  <source>Radio Switches</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UXRCE-DDS Client</name>
+  <message>
+  <source>UXRCE-DDS Client</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Airspeed Validator</name>
+  <message>
+  <source>Airspeed Validator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Circuit Breaker</name>
+  <message>
+  <source>Circuit Breaker</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensors</name>
+  <message>
+  <source>Sensors</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/SITL</name>
+  <message>
+  <source>SITL</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Acro Mode</name>
+  <message>
+  <source>Multicopter Acro Mode</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Septentrio</name>
+  <message>
+  <source>Septentrio</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Local Position Estimator</name>
+  <message>
+  <source>Local Position Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Geometry</name>
+  <message>
+  <source>Geometry</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Motor Failure</name>
+  <message>
+  <source>Motor Failure</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/UUV Position Control</name>
+  <message>
+  <source>UUV Position Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Follow target</name>
+  <message>
+  <source>Follow target</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Ackermann</name>
+  <message>
+  <source>Rover Ackermann</source>
   </message>
 </context>
 <context>
@@ -40741,39 +42196,135 @@ Set to 0 do disable this threshold.</source>
   </message>
 </context>
 <context>
-  <name>$globals/group/Events</name>
-  <message>
-  <source>Events</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/MAVLink</name>
-  <message>
-  <source>MAVLink</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/Multicopter Acro Mode</name>
-  <message>
-  <source>Multicopter Acro Mode</source>
-  </message>
-</context>
-<context>
-  <name>$globals/group/VTOL Attitude Control</name>
-  <message>
-  <source>VTOL Attitude Control</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Autotune</name>
   <message>
   <source>Autotune</source>
   </message>
 </context>
 <context>
+  <name>$globals/group/Attitude Q estimator</name>
+  <message>
+  <source>Attitude Q estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Multicopter Attitude Control</name>
+  <message>
+  <source>Multicopter Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Failure Detector</name>
+  <message>
+  <source>Failure Detector</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Payload Deliverer</name>
+  <message>
+  <source>Payload Deliverer</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Attitude Control</name>
+  <message>
+  <source>Rover Attitude Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Mecanum</name>
+  <message>
+  <source>Rover Mecanum</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Sensor Calibration</name>
+  <message>
+  <source>Sensor Calibration</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Differential</name>
+  <message>
+  <source>Rover Differential</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Lateral Control</name>
+  <message>
+  <source>FW Lateral Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Thermal Compensation</name>
+  <message>
+  <source>Thermal Compensation</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Actuator Outputs</name>
+  <message>
+  <source>Actuator Outputs</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Hover Thrust Estimator</name>
+  <message>
+  <source>Hover Thrust Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Manual Control</name>
+  <message>
+  <source>Manual Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Takeoff</name>
+  <message>
+  <source>FW Auto Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/EKF2</name>
+  <message>
+  <source>EKF2</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Longitudinal Control</name>
+  <message>
+  <source>FW Longitudinal Control</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Landing Target Estimator</name>
+  <message>
+  <source>Landing Target Estimator</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Pure Pursuit</name>
   <message>
   <source>Pure Pursuit</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/FW Auto Landing</name>
+  <message>
+  <source>FW Auto Landing</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/System</name>
+  <message>
+  <source>System</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Testing</name>
+  <message>
+  <source>Testing</source>
   </message>
 </context>
 </TS>

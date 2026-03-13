@@ -140,39 +140,15 @@
   </message>
 </context>
 <context>
-  <name>/components/1/enums/arm_disarm_reason_t/entries/0/description</name>
-  <message>
-  <source>Transition to standby</source>
-  </message>
-</context>
-<context>
   <name>/components/1/enums/arm_disarm_reason_t/entries/1/description</name>
   <message>
-  <source>RC</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/arm_disarm_reason_t/entries/10/description</name>
-  <message>
-  <source>failure detector</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/arm_disarm_reason_t/entries/11/description</name>
-  <message>
-  <source>shutdown request</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/arm_disarm_reason_t/entries/12/description</name>
-  <message>
-  <source>unit tests</source>
+  <source>stick gesture</source>
   </message>
 </context>
 <context>
   <name>/components/1/enums/arm_disarm_reason_t/entries/13/description</name>
   <message>
-  <source>RC (button)</source>
+  <source>RC button</source>
   </message>
 </context>
 <context>
@@ -184,7 +160,7 @@
 <context>
   <name>/components/1/enums/arm_disarm_reason_t/entries/2/description</name>
   <message>
-  <source>RC (switch)</source>
+  <source>RC switch</source>
   </message>
 </context>
 <context>
@@ -214,19 +190,13 @@
 <context>
   <name>/components/1/enums/arm_disarm_reason_t/entries/7/description</name>
   <message>
-  <source>auto preflight disarming</source>
+  <source>preflight inaction</source>
   </message>
 </context>
 <context>
   <name>/components/1/enums/arm_disarm_reason_t/entries/8/description</name>
   <message>
   <source>kill switch</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/arm_disarm_reason_t/entries/9/description</name>
-  <message>
-  <source>lockdown</source>
   </message>
 </context>
 <context>
@@ -280,7 +250,7 @@
 <context>
   <name>/components/1/enums/battery_fault_reason_t/entries/10/description</name>
   <message>
-  <source>Battery is over-heating</source>
+  <source>Battery failed to arm</source>
   </message>
 </context>
 <context>
@@ -310,7 +280,7 @@
 <context>
   <name>/components/1/enums/battery_fault_reason_t/entries/6/description</name>
   <message>
-  <source>Vehicle voltage is not compatible with battery one</source>
+  <source>Voltage mismatch, use equally charged batteries</source>
   </message>
 </context>
 <context>
@@ -329,24 +299,6 @@
   <name>/components/1/enums/battery_fault_reason_t/entries/9/description</name>
   <message>
   <source>Battery reported an hardware problem</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/battery_mode_t/entries/0/description</name>
-  <message>
-  <source>unknown</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/battery_mode_t/entries/1/description</name>
-  <message>
-  <source>auto discharging towards storage level</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/enums/battery_mode_t/entries/2/description</name>
-  <message>
-  <source>hot-swap</source>
   </message>
 </context>
 <context>
@@ -593,6 +545,12 @@
   <name>/components/1/enums/health_component_t/entries/2097152/description</name>
   <message>
   <source>Camera</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/health_component_t/entries/2147483648/description</name>
+  <message>
+  <source>Traffic Avoidance (ADSB/FLARM)</source>
   </message>
 </context>
 <context>
@@ -944,6 +902,12 @@
   </message>
 </context>
 <context>
+  <name>/components/1/enums/navigation_mode_t/entries/24/description</name>
+  <message>
+  <source>Altitude Cruise</source>
+  </message>
+</context>
+<context>
   <name>/components/1/enums/navigation_mode_t/entries/255/description</name>
   <message>
   <source>[Unknown]</source>
@@ -1060,7 +1024,13 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/10011251/message</name>
   <message>
-  <source>No valid global position estimate</source>
+  <source>Navigation error: No valid global position estimate</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/10011251/description</name>
+  <message>
+  <source>The available positioning data is not sufficient to execute the selected mode.</source>
   </message>
 </context>
 <context>
@@ -1087,7 +1057,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/10198977/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1112,7 +1082,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/1049276/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1125,7 +1095,22 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/10678671/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/10960133/message</name>
+  <message>
+  <source>Position estimate has low accuracy</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/10960133/description</name>
+  <message>
+  <source>Local position estimate valid but has low accuracy. Warn user.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POS_LOW_EPH&lt;/param&gt; and &lt;param&gt;COM_POS_LOW_ACT&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1151,6 +1136,21 @@
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/11344647/message</name>
+  <message>
+  <source>Emergency battery level</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/11344647/description</name>
+  <message>
+  <source>The lowest battery state of charge is below the emergency threshold.
+
+&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt;.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/11413600/message</name>
   <message>
   <source>Wind speed is above limit ({3:.1m/s})</source>
@@ -1172,36 +1172,21 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/11497430/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/11973889/message</name>
-  <message>
-  <source>Velocity estimate error</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/11973889/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/arming_check/events/12276004/message</name>
   <message>
-  <source>Global position required</source>
+  <source>Global position estimate required</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/arming_check/events/12276004/description</name>
   <message>
   <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
+&lt;/profile&gt; The available positioning data is not sufficient to determine the vehicle's global position.</source>
   </message>
 </context>
 <context>
@@ -1213,7 +1198,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/arming_check/events/12369553/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1233,7 +1218,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/arming_check/events/12689900/message</name>
   <message>
-  <source>No valid altitude estimate</source>
+  <source>Navigation error: No valid altitude estimate</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/12689900/description</name>
+  <message>
+  <source>The available positioning data is not sufficient to execute the selected mode.</source>
   </message>
 </context>
 <context>
@@ -1245,26 +1236,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/arming_check/events/12780289/message</name>
   <message>
-  <source>GPS reports critical jamming state</source>
+  <source>GPS jamming detected</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/arming_check/events/12805643/message</name>
   <message>
   <source>Mission cannot be completed</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/13017122/message</name>
-  <message>
-  <source>Avoidance system not ready</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/13017122/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_OBS_AVOID&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -1276,7 +1254,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/arming_check/events/13094458/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1295,7 +1273,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/arming_check/events/13835193/message</name>
   <message>
-  <source>No valid local position estimate</source>
+  <source>Navigation error: No valid position estimate</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/13835193/description</name>
+  <message>
+  <source>The available positioning data is not sufficient to execute the selected mode.</source>
   </message>
 </context>
 <context>
@@ -1363,15 +1347,22 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_VEL&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/15180799/message</name>
+  <name>/components/1/event_groups/arming_check/events/14995448/message</name>
   <message>
-  <source>VTOL fixed-wing system failure detected. Verify reason for failure, and reboot the vehicle once confirmed safe</source>
+  <source>GPS signal jammed</source>
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/15399315/message</name>
+  <name>/components/1/event_groups/arming_check/events/14995448/description</name>
   <message>
-  <source>GPS reports spoofing indicated</source>
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/15180799/message</name>
+  <message>
+  <source>VTOL fixed-wing system failure detected. Verify reason for failure, and reboot the vehicle once confirmed safe</source>
   </message>
 </context>
 <context>
@@ -1462,21 +1453,6 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/2071276/message</name>
-  <message>
-  <source>Low battery</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/2071276/description</name>
-  <message>
-  <source>The battery state of charge of the worst battery is below the preflight threshold.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/2088119/message</name>
   <message>
   <source>Poor GPS Quality</source>
@@ -1517,6 +1493,21 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
 Inconsistency value: {4}. Configured Threshold: {5}.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/2627595/message</name>
+  <message>
+  <source>Critical battery</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/2627595/description</name>
+  <message>
+  <source>The lowest battery state of charge is below the critical threshold.
+
+&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; and from when to disalow arming with &lt;param&gt;COM_ARM_BAT_MIN&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1661,7 +1652,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/4975227/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1674,9 +1665,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/5049764/description</name>
   <message>
-  <source>The battery state of charge of the worst battery is below the warning threshold.
+  <source>The lowest battery state of charge is below the low threshold.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;BAT_LOW_THR&lt;/param&gt;, &lt;param&gt;BAT_CRIT_THR&lt;/param&gt; and &lt;param&gt;BAT_EMERGEN_THR&lt;/param&gt; parameters.
+&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;BAT_LOW_THR&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1689,7 +1680,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/516062/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1729,7 +1720,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/5717196/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1788,20 +1779,8 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/6558257/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/6659180/message</name>
-  <message>
-  <source>RC calibration for channel {3} invalid: DZ greater than {4}</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/6659180/description</name>
-  <message>
-  <source>Recalibrate the RC.</source>
   </message>
 </context>
 <context>
@@ -1813,24 +1792,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/6801787/description</name>
   <message>
-  <source>To arm, at least a data link or manual control (RC) must be present.
+  <source>To arm, at least a data link or RC must be present.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/6952872/message</name>
-  <message>
-  <source>Position estimate error</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/6952872/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1901,6 +1865,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/810921/message</name>
+  <message>
+  <source>Waypoint above maximum height</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/8441780/message</name>
   <message>
   <source>Open Drone ID system not ready</source>
@@ -1943,9 +1913,16 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/8658530/message</name>
+  <name>/components/1/event_groups/arming_check/events/8713942/message</name>
   <message>
-  <source>GPS reports multiple spoofing indicated</source>
+  <source>GPS signal spoofed</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/8713942/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -1955,24 +1932,24 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_POS&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/9028597/message</name>
-  <message>
-  <source>Height estimate error</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/9028597/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_HGT&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/9077977/message</name>
   <message>
   <source>Kill switch engaged</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/9134139/message</name>
+  <message>
+  <source>Traffic avoidance system missing</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/9134139/description</name>
+  <message>
+  <source>Traffic avoidance system (ADSB/FLARM) failed to report. Make sure it is setup and connected properly.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_TRAFF&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -1999,21 +1976,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/9581033/message</name>
-  <message>
-  <source>Yaw estimate error</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/9581033/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; Test ratio: {3:.3}, limit: {4:.3}.
-
-This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/9608226/message</name>
   <message>
   <source>Estimator not using GPS</source>
@@ -2035,6 +1997,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/arming_check/events/9643369/description</name>
   <message>
   <source>Make sure the gyroscope is providing valid data.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/9697819/message</name>
+  <message>
+  <source>Horizontal position unstable</source>
   </message>
 </context>
 <context>
@@ -2074,6 +2042,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/10155243/message</name>
+  <message>
+  <source>Unsupported base mode</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/10162376/message</name>
   <message>
   <source>Mission land item could not be read</source>
@@ -2097,6 +2071,24 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <source>- ICAO Address: {1}
 - Traffic Separation Distance: {2m}
 - Heading: {3} degrees</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/10250020/message</name>
+  <message>
+  <source>CA_SV_CS{1}_TRIM ({2}) is reset to 0 as PWM CENTER is used</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/10250020/description</name>
+  <message>
+  <source>Display warning in GCS when TRIM settings were present and now CENTER are set.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/10384464/message</name>
+  <message>
+  <source>Invalid configuration for speed control: Neither feed forward (RO_MAX_THR_SPEED) nor feedback (RO_SPEED_P) is setup</source>
   </message>
 </context>
 <context>
@@ -2162,21 +2154,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/10960133/message</name>
-  <message>
-  <source>Local position estimate has low accuracy</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/10960133/description</name>
-  <message>
-  <source>Local position estimate valid but has low accuracy. Warn user.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POS_LOW_EPH&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/10962739/message</name>
   <message>
   <source>SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}</source>
@@ -2198,12 +2175,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/11123101/message</name>
   <message>
   <source>Connection to mission computer lost</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/11174541/message</name>
-  <message>
-  <source>Hardware fault: Camera capture disabled</source>
   </message>
 </context>
 <context>
@@ -2262,12 +2233,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/11675604/message</name>
-  <message>
-  <source>First waypoint too far away: {1m} (maximum: {2m})</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/11724756/message</name>
   <message>
   <source>Waypoint {1} could not be read from storage</source>
@@ -2283,12 +2248,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/1203183/message</name>
   <message>
   <source>logging: opening log file {1}-{2}-{3}/{4}_{5}_{6}.ulg</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/12117072/message</name>
-  <message>
-  <source>Transponder System Failure</source>
   </message>
 </context>
 <context>
@@ -2334,6 +2293,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/12306507/message</name>
+  <message>
+  <source>Target altitude higher than max HAGL</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/12320347/message</name>
   <message>
   <source>Primary airspeed index bigger than number connected sensors, taking last sensor</source>
@@ -2352,6 +2317,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/12472677/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RO_SPEED_LIM</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/12499622/message</name>
   <message>
   <source>Mission: Unable to write to storage</source>
@@ -2364,9 +2335,27 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/12621639/message</name>
+  <message>
+  <source>Remote ID system lost</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/12768213/message</name>
   <message>
   <source>Mission rejected: more than one land start commands</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/12770418/message</name>
+  <message>
+  <source>Failsafe activated: Autopilot disengaged, switching to {2}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/12770418/description</name>
+  <message>
+  <source>Failsafe actions that disengage the autopilot (remove position control)</source>
   </message>
 </context>
 <context>
@@ -2388,15 +2377,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/1290073/message</name>
-  <message>
-  <source>IO RC config upload failed, aborting initialization</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/12957883/message</name>
   <message>
   <source>Start descending</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/12987489/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RO_YAW_P</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/13168253/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RA_WHEEL_BASE</source>
   </message>
 </context>
 <context>
@@ -2424,6 +2419,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/13440627/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RO_MAX_THR_SPEED</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/13471314/message</name>
   <message>
   <source>Quad-chute triggered due to loss of altitude during transition</source>
@@ -2436,9 +2437,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/1351736/message</name>
+  <message>
+  <source>Traffic avoidance system regained</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/13568553/message</name>
   <message>
   <source>New mission waypoint sequence out of bounds</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/13612093/message</name>
+  <message>
+  <source>Traffic avoidance system lost</source>
   </message>
 </context>
 <context>
@@ -2514,6 +2527,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/14440680/message</name>
+  <message>
+  <source>Mission sync timeout, aborting transfer</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/14443523/message</name>
   <message>
   <source>Launch detected: enable motors</source>
@@ -2540,25 +2559,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/14605264/message</name>
   <message>
-  <source>Failsafe activated: Autopilot disengaged, switching to {2}</source>
+  <source>Failsafe activated: switching to {2}</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/default/events/14699175/message</name>
   <message>
   <source>GNSS data fusion stopped</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/15007151/message</name>
-  <message>
-  <source>Arm stick gesture disabled if arm switch in use</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/15007151/description</name>
-  <message>
-  <source>&lt;param&gt;MAN_ARM_GESTURE&lt;/param&gt; is now set to disable arm/disarm stick gesture.</source>
   </message>
 </context>
 <context>
@@ -2605,6 +2612,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/15438771/message</name>
+  <message>
+  <source>Invalid configuration for speed control: Neither feed forward (RO_MAX_THR_SPEED) nor feedback (RO_SPEED_P) is setup</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/15456613/message</name>
   <message>
   <source>Accel {1} clipping, not safe to fly!</source>
@@ -2614,6 +2627,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/15456613/description</name>
   <message>
   <source>Land now, and check the vehicle setup. Clipping can lead to fly-aways.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/15499150/message</name>
+  <message>
+  <source>Autotune axis selection not supported through Mission. Use FW_AT_AXES to set axes for fixed-wing vehicles</source>
   </message>
 </context>
 <context>
@@ -2671,12 +2690,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/15923029/message</name>
-  <message>
-  <source>IO protocol/firmware mismatch, aborting initialization</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/1593841/message</name>
   <message>
   <source>Too much traffic! Showing all messages from now on</source>
@@ -2686,6 +2699,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/16017271/message</name>
   <message>
   <source>Disarmed by {1}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/1604295/message</name>
+  <message>
+  <source>Terrain collision risk, descent is stopped</source>
   </message>
 </context>
 <context>
@@ -2701,15 +2720,15 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/16105804/message</name>
-  <message>
-  <source>OpenDroneID system lost</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/16223078/message</name>
   <message>
   <source>Landing aborted by operator</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/16329867/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RO_YAW_RATE_LIM</source>
   </message>
 </context>
 <context>
@@ -2871,6 +2890,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/2768743/message</name>
+  <message>
+  <source>Unsupported main mode</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/2769710/message</name>
   <message>
   <source>Mission rejected: Add Landing item or remove Takeoff</source>
@@ -2927,7 +2952,13 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/3329221/message</name>
   <message>
-  <source>OpenDroneID system regained</source>
+  <source>Remote ID system regained</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/3357977/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RA_MAX_STR_ANG</source>
   </message>
 </context>
 <context>
@@ -3028,6 +3059,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/4075829/message</name>
+  <message>
+  <source>Provided autotune command is not supported. To enable autotune in mission, set param1 to 1</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/4086702/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RO_YAW_P</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/4089486/message</name>
   <message>
   <source>Rejecting waypoint command, component or system ID mismatch</source>
@@ -3055,12 +3098,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/439666/message</name>
   <message>
   <source>Ignoring mission item, no transfer in progress</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/4472241/message</name>
-  <message>
-  <source>IO config read failed, aborting initialization</source>
   </message>
 </context>
 <context>
@@ -3168,15 +3205,28 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/5137632/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RO_SPEED_LIM</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/5158211/message</name>
   <message>
   <source>No airspeed sensor detected, switching to non-airspeed mode</source>
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/5334836/message</name>
+  <name>/components/1/event_groups/default/events/5314313/message</name>
   <message>
-  <source>Hardware fault: GPS PPS disabled</source>
+  <source>First waypoint far away from Home: {1m} Correct mission loaded?</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/5314313/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;MIS_DIST_1WP&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -3288,6 +3338,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/621270/message</name>
+  <message>
+  <source>Arm stick gesture disabled if arm switch in use</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/621270/description</name>
+  <message>
+  <source>&lt;param&gt;MAN_ARM_GESTURE&lt;/param&gt; is now set to disable arm/disarm stick gesture.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/6349555/message</name>
   <message>
   <source>Calibration: Restoring RC input</source>
@@ -3348,6 +3410,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/7015692/message</name>
+  <message>
+  <source>Rejecting mission item, component or system ID mismatch</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/7028282/message</name>
   <message>
   <source>Airspeed sensor failure detected. Check connection and reboot</source>
@@ -3398,6 +3466,18 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/73581/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RO_YAW_RATE_LIM</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/7364518/message</name>
+  <message>
+  <source>Invalid configuration for rate control: Neither feed forward (RO_MAX_THR_SPEED) nor feedback (RO_YAW_RATE_P) is setup</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/7714236/message</name>
   <message>
   <source>Approaching max flight time (system will RTL in {1} seconds)</source>
@@ -3434,21 +3514,27 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/7853111/message</name>
+  <message>
+  <source>Invalid configuration of necessary parameter RO_SPEED_LIM</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/7860665/message</name>
   <message>
   <source>Mission rejected: land start item before RTL item is not possible</source>
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/8208988/message</name>
+  <name>/components/1/event_groups/default/events/7939557/message</name>
   <message>
-  <source>Climb to {1:.1m_v} above home</source>
+  <source>Invalid configuration for rate control: Neither feed forward nor feedback is setup</source>
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/8275181/message</name>
+  <name>/components/1/event_groups/default/events/8208988/message</name>
   <message>
-  <source>Transponder Failure</source>
+  <source>Climb to {1:.1m_v} above home</source>
   </message>
 </context>
 <context>
@@ -3473,12 +3559,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/8459921/message</name>
   <message>
   <source>Mission rejected: Landing waypoint/pattern required</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/8520304/message</name>
-  <message>
-  <source>Operation timeout, aborting transfer</source>
   </message>
 </context>
 <context>
@@ -3542,12 +3622,6 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/8912808/message</name>
-  <message>
-  <source>Failed to communicate with IO, aborting initialization</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/8935528/message</name>
   <message>
   <source>Mission manager currently busy, ignoring new waypoint index</source>
@@ -3569,6 +3643,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/9092852/message</name>
   <message>
   <source>Unexpected waypoint index, aborting mission transfer</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/9180535/message</name>
+  <message>
+  <source>GNSS signal spoofed</source>
   </message>
 </context>
 <context>
@@ -3653,6 +3733,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/9621455/message</name>
+  <message>
+  <source>5V overcurrent detected, landing advised</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/9751178/message</name>
   <message>
   <source>{3}: switching to {2}</source>
@@ -3665,9 +3751,27 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/9828325/message</name>
+  <message>
+  <source>GNSS signal jammed</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/9844908/message</name>
   <message>
   <source>Landing detected</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/10318274/message</name>
+  <message>
+  <source>Battery {3} missing</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/10318274/description</name>
+  <message>
+  <source>Make sure all required batteries are connected.</source>
   </message>
 </context>
 <context>
@@ -3686,6 +3790,12 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/health/events/11125932/message</name>
+  <message>
+  <source>No valid data from optical flow sensor</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/health/events/11478328/message</name>
   <message>
   <source>No valid data from Gyro {3}</source>
@@ -3700,7 +3810,7 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/13344346/description</name>
   <message>
-  <source>Make sure all batteries are connected and operational.</source>
+  <source>Make sure all batteries are operational.</source>
   </message>
 </context>
 <context>
@@ -3712,9 +3822,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/13372152/description</name>
   <message>
-  <source>Parachute system reported being unhealth.
+  <source>MAVLink parachute system reports unhealthy status.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_PARACHUTE&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Enabled by &lt;param&gt;COM_PARACHUTE&lt;/param&gt;
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -3728,6 +3838,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/health/events/14221469/description</name>
   <message>
   <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;SYS_HAS_NUM_DIST&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/14421482/message</name>
+  <message>
+  <source>RAM usage too high: {3:.1}%</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/14421482/description</name>
+  <message>
+  <source>The RAM usage can be reduced for example by disabling unused modules (e.g. mavlink instances).
+
+&lt;profile name="dev"&gt; The threshold can be adjusted via &lt;param&gt;COM_RAM_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -3774,21 +3899,21 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/15602498/description</name>
   <message>
-  <source>The battery reported a failure which might be dangerous to fly with. Manufacturer error code: {6}</source>
+  <source>The battery reported a failure which might be dangerous to fly with.</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/health/events/15793174/message</name>
   <message>
-  <source>ESC failure</source>
+  <source>ESC {3}: {4}</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/health/events/15793174/description</name>
   <message>
-  <source>One or more ESCs failed to arm.
+  <source>{5}
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_ESCS_EN&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -3801,9 +3926,9 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/15965684/description</name>
   <message>
-  <source>Parachute system failed to report. Make sure it it setup and installed properly.
+  <source>No MAVLink parachute heartbeat detected. Check connection, power, configuration.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_PARACHUTE&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; Enabled by &lt;param&gt;COM_PARACHUTE&lt;/param&gt;
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -3832,6 +3957,19 @@ This check can be configured via &lt;param&gt;COM_ARM_EKF_YAW&lt;/param&gt; para
   <name>/components/1/event_groups/health/events/1914663/message</name>
   <message>
   <source>Health report summary event</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/3081997/message</name>
+  <message>
+  <source>Motor {3} overcurrent detected</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/3081997/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_ACT_EN&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -3891,9 +4029,15 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/health/events/5623109/message</name>
+  <name>/components/1/event_groups/health/events/5699115/message</name>
   <message>
-  <source>Battery {3} mode: {4}</source>
+  <source>Overcurrent detected for the peripheral 5V supply</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/5699115/description</name>
+  <message>
+  <source>Check the power supply</source>
   </message>
 </context>
 <context>
@@ -3903,31 +4047,41 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/health/events/666479/message</name>
+  <name>/components/1/event_groups/health/events/6443801/message</name>
   <message>
-  <source>Motor failure detected</source>
+  <source>Motor {3} undercurrent detected</source>
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/health/events/666479/description</name>
+  <name>/components/1/event_groups/health/events/6443801/description</name>
   <message>
   <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_ACT_EN&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/health/events/6948489/message</name>
+  <name>/components/1/event_groups/health/events/6632208/message</name>
   <message>
-  <source>ESC {3}: {4}</source>
+  <source>Not all ESCs are armed</source>
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/health/events/6948489/description</name>
+  <name>/components/1/event_groups/health/events/6632208/description</name>
   <message>
-  <source>{5}
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/6962647/message</name>
+  <message>
+  <source>Overcurrent detected for the hipower 5V supply</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/6962647/description</name>
+  <message>
+  <source>Check the power supply</source>
   </message>
 </context>
 <context>
@@ -3967,21 +4121,22 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/health/events/8274357/message</name>
-  <message>
-  <source>Navigation failure</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/8274357/description</name>
-  <message>
-  <source>Land and recalibrate the sensors.</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/health/events/8544646/message</name>
   <message>
   <source>No valid data from distance sensor {3}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/8792768/message</name>
+  <message>
+  <source>Optical flow sensor missing</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/8792768/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;SYS_HAS_NUM_OF&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -4006,13 +4161,30 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/9266821/message</name>
   <message>
-  <source>No CPU load information</source>
+  <source>No CPU and RAM load information</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/health/events/9266821/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; If the system does not provide any CPU load information, use the parameter &lt;param&gt;COM_CPU_MAX&lt;/param&gt; to disable the check.
+  <source>&lt;profile name="dev"&gt; If the system does not provide any CPU and RAM load information, use the parameters &lt;param&gt;COM_CPU_MAX&lt;/param&gt; and &lt;param&gt;COM_RAM_MAX&lt;/param&gt; to disable the checks.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/9409869/message</name>
+  <message>
+  <source>Task watchdog dumps present on SD card</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/9409869/description</name>
+  <message>
+  <source>The SD card contains task watchdog dump files from a previous task starvation event.
+
+&lt;profile name="dev"&gt; Remove the files in the 'task_watchdog' directory on the SD card after analysis.
+
+This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
