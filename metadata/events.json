@@ -1371,7 +1371,8 @@
                   "type": "uint8_t"
                 }
               ],
-              "message": "Heading estimate not stable",
+              "description": "Recalibrate compass or perform manual heading reset.",
+              "message": "Heading estimate invalid",
               "name": "check_estimator_heading_not_stable"
             },
             "16716537": {
@@ -4864,6 +4865,12 @@
           ],
           "5": [
             84148224
+          ],
+          "6": [
+            33751040
+          ],
+          "8": [
+            720896
           ]
         }
       },

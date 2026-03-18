@@ -1387,7 +1387,13 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/16642797/message</name>
   <message>
-  <source>Heading estimate not stable</source>
+  <source>Heading estimate invalid</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/16642797/description</name>
+  <message>
+  <source>Recalibrate compass or perform manual heading reset.</source>
   </message>
 </context>
 <context>
