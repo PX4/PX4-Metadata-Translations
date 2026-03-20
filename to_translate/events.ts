@@ -2122,6 +2122,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/10600202/message</name>
+  <message>
+  <source>Arming denied: throttle not in safe position</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/10658115/message</name>
   <message>
   <source>SET_POSITION_TARGET_GLOBAL_INT: FORCE is not supported</source>
@@ -2798,12 +2804,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/1749061/message</name>
-  <message>
-  <source>Arming denied: throttle above center</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/1801328/message</name>
   <message>
   <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position</source>
@@ -3311,12 +3311,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/5847165/description</name>
   <message>
   <source>Cannot shut down, most likely the system does not support it.</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/5874720/message</name>
-  <message>
-  <source>Arming denied: high throttle</source>
   </message>
 </context>
 <context>

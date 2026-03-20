@@ -2431,6 +2431,10 @@
               "name": "commander_modeswitch_not_avail",
               "type": "append_health_and_arming_messages"
             },
+            "10600202": {
+              "message": "Arming denied: throttle not in safe position",
+              "name": "commander_arm_denied_throttle_unsafe"
+            },
             "10658115": {
               "message": "SET_POSITION_TARGET_GLOBAL_INT: FORCE is not supported",
               "name": "mavlink_rcv_sp_target_gl_unsup_force"
@@ -3145,10 +3149,6 @@
               "message": "Pilot took over using sticks",
               "name": "commander_rc_override"
             },
-            "1749061": {
-              "message": "Arming denied: throttle above center",
-              "name": "commander_arm_denied_throttle_center"
-            },
             "1801328": {
               "arguments": [
                 {
@@ -3659,10 +3659,6 @@
               "description": "Cannot shut down, most likely the system does not support it.",
               "message": "Dangerously low battery! System shut down failed",
               "name": "commander_low_bat_shutdown_failed"
-            },
-            "5874720": {
-              "message": "Arming denied: high throttle",
-              "name": "commander_arm_denied_throttle_high"
             },
             "5911339": {
               "message": "Received unknown mission type, abort",
