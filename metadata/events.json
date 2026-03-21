@@ -1743,6 +1743,21 @@
               "message": "Altitude failure detected",
               "name": "check_failure_detector_alt"
             },
+            "4554738": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Upload at least one rally point before arming, or change <param>RTL_TYPE</param>.\n\n<profile name=\"dev\"> This check is active when RTL_TYPE is set to 5 (safe points only).\n</profile>",
+              "message": "No rally point available",
+              "name": "check_rally_point_missing"
+            },
             "4975227": {
               "arguments": [
                 {
