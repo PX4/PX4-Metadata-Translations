@@ -1978,6 +1978,26 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/arming_check/events/4554738/message</name>
+    <message>
+      <source>No rally point available</source>
+      <translation type="unfinished">No rally point available</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/arming_check/events/4554738/description</name>
+    <message>
+      <source>Upload at least one rally point before arming, or change &lt;param&gt;RTL_TYPE&lt;/param&gt;.
+
+&lt;profile name="dev"&gt; This check is active when RTL_TYPE is set to 5 (safe points only).
+&lt;/profile&gt;</source>
+      <translation type="unfinished">Upload at least one rally point before arming, or change &lt;param&gt;RTL_TYPE&lt;/param&gt;.
+
+&lt;profile name="dev"&gt; This check is active when RTL_TYPE is set to 5 (safe points only).
+&lt;/profile&gt;</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/arming_check/events/4975227/message</name>
     <message>
       <source>GPS Horizontal Speed Drift too high</source>
@@ -2559,6 +2579,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>Switching to mode '{2}' is currently not possible</source>
       <translation>Перемикання у режим '{2}' на цей момент неможливе</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/10600202/message</name>
+    <message>
+      <source>Arming denied: throttle not in safe position</source>
+      <translation type="unfinished">Arming denied: throttle not in safe position</translation>
     </message>
   </context>
   <context>
@@ -3354,13 +3381,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/default/events/1749061/message</name>
-    <message>
-      <source>Arming denied: throttle above center</source>
-      <translation>Активацію відхилено: тяга над центром</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/default/events/1801328/message</name>
     <message>
       <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position</source>
@@ -3958,13 +3978,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>Cannot shut down, most likely the system does not support it.</source>
       <translation>Неможливо вимкнути, швидше за все, система це не підтримує.</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/default/events/5874720/message</name>
-    <message>
-      <source>Arming denied: high throttle</source>
-      <translation>Активацію відхилено: велика тяга</translation>
     </message>
   </context>
   <context>
