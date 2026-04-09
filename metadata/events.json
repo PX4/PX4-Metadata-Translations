@@ -1032,6 +1032,21 @@
               "message": "Wind speed is above limit ({3:.1m/s})",
               "name": "check_wind_too_high"
             },
+            "11464574": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "The offboard component is not sending recent setpoints.",
+              "message": "No offboard signal",
+              "name": "check_modes_offboard_signal_lost"
+            },
             "11497430": {
               "arguments": [
                 {
@@ -1106,6 +1121,21 @@
               "description": "The available positioning data is not sufficient to execute the selected mode.",
               "message": "Navigation error: No valid altitude estimate",
               "name": "check_modes_local_alt"
+            },
+            "12712246": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Offboard velocity control requires a valid local velocity estimate.",
+              "message": "Offboard requires local velocity",
+              "name": "check_modes_offboard_no_local_velocity"
             },
             "12754954": {
               "arguments": [
@@ -1195,6 +1225,21 @@
               ],
               "message": "Vehicle is in transition state",
               "name": "check_system_vtol_in_transition"
+            },
+            "13679014": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Offboard position control requires a valid local position estimate.",
+              "message": "Offboard requires local position",
+              "name": "check_modes_offboard_no_local_position"
             },
             "13835193": {
               "arguments": [
@@ -1359,6 +1404,21 @@
               ],
               "message": "Landing gear switch set in UP position",
               "name": "check_man_control_landing_gear_up"
+            },
+            "16265915": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Offboard acceleration and attitude control require a valid attitude estimate.",
+              "message": "Offboard requires attitude estimate",
+              "name": "check_modes_offboard_no_attitude"
             },
             "16642797": {
               "arguments": [
@@ -1607,21 +1667,6 @@
               "description": "Check the calibration.\n\nInconsistency value: {4}. Configured Threshold: {5}.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_IMU_ACC</param> parameter.\n</profile>",
               "message": "Accel {3} inconsistent",
               "name": "check_imu_accel_inconsistent"
-            },
-            "3087815": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "The offboard component is not sending setpoints or the required estimate (e.g. position) is missing.",
-              "message": "No offboard signal",
-              "name": "check_modes_offboard_signal"
             },
             "3603209": {
               "arguments": [
