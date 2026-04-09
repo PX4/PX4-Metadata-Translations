@@ -1371,6 +1371,20 @@
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/arming_check/events/11464574/message</name>
+    <message>
+      <source>No offboard signal</source>
+      <translation type="unfinished">No offboard signal</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/arming_check/events/11464574/description</name>
+    <message>
+      <source>The offboard component is not sending recent setpoints.</source>
+      <translation type="unfinished">The offboard component is not sending recent setpoints.</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/arming_check/events/11497430/message</name>
     <message>
       <source>GPS Vertical Position Drift too high</source>
@@ -1449,6 +1463,20 @@
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/arming_check/events/12712246/message</name>
+    <message>
+      <source>Offboard requires local velocity</source>
+      <translation type="unfinished">Offboard requires local velocity</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/arming_check/events/12712246/description</name>
+    <message>
+      <source>Offboard velocity control requires a valid local velocity estimate.</source>
+      <translation type="unfinished">Offboard velocity control requires a valid local velocity estimate.</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/arming_check/events/12754954/message</name>
     <message>
       <source>Flight termination active</source>
@@ -1497,6 +1525,20 @@
     <message>
       <source>Vehicle is in transition state</source>
       <translation>Апарат в перехідному стані</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/arming_check/events/13679014/message</name>
+    <message>
+      <source>Offboard requires local position</source>
+      <translation type="unfinished">Offboard requires local position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/arming_check/events/13679014/description</name>
+    <message>
+      <source>Offboard position control requires a valid local position estimate.</source>
+      <translation type="unfinished">Offboard position control requires a valid local position estimate.</translation>
     </message>
   </context>
   <context>
@@ -1635,6 +1677,20 @@
     <message>
       <source>Landing gear switch set in UP position</source>
       <translation>Блок приземлення переведено у положення UP</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/arming_check/events/16265915/message</name>
+    <message>
+      <source>Offboard requires attitude estimate</source>
+      <translation type="unfinished">Offboard requires attitude estimate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/arming_check/events/16265915/description</name>
+    <message>
+      <source>Offboard acceleration and attitude control require a valid attitude estimate.</source>
+      <translation type="unfinished">Offboard acceleration and attitude control require a valid attitude estimate.</translation>
     </message>
   </context>
   <context>
@@ -1846,20 +1902,6 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 &lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; параметр.
 &lt;/profile&gt;</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/arming_check/events/3087815/message</name>
-    <message>
-      <source>No offboard signal</source>
-      <translation>Відсутній зовнішній сигнал</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/arming_check/events/3087815/description</name>
-    <message>
-      <source>The offboard component is not sending setpoints or the required estimate (e.g. position) is missing.</source>
-      <translation>Зовнішній компонент не надсилає задані значення або необхідне розраховане значення (напр. положення) відсутнє.</translation>
     </message>
   </context>
   <context>
