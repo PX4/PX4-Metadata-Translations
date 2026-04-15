@@ -2392,6 +2392,10 @@
               "message": "Calibration: Disabling RC input",
               "name": "commander_calib_rc_off"
             },
+            "1013050": {
+              "message": "Calibration denied: not supported in SIH mode",
+              "name": "commander_calib_denied_sih"
+            },
             "10155243": {
               "message": "Unsupported base mode",
               "name": "commander_unsupported_base_mode"
@@ -2629,6 +2633,10 @@
               ],
               "message": "Waypoint {1} could not be read from storage",
               "name": "mission_failed_to_read_wp"
+            },
+            "11926110": {
+              "message": "Calibration denied: not supported in SIH mode",
+              "name": "commander_mag_yaw_calib_denied_sih"
             },
             "11985219": {
               "arguments": [

@@ -2099,6 +2099,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/1013050/message</name>
+  <message>
+  <source>Calibration denied: not supported in SIH mode</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/10155243/message</name>
   <message>
   <source>Unsupported base mode</source>
@@ -2299,6 +2305,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/11724756/message</name>
   <message>
   <source>Waypoint {1} could not be read from storage</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/11926110/message</name>
+  <message>
+  <source>Calibration denied: not supported in SIH mode</source>
   </message>
 </context>
 <context>
