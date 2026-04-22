@@ -866,21 +866,6 @@
               "message": "Navigation error: No valid global position estimate",
               "name": "check_modes_global_pos"
             },
-            "10161216": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Open Drone ID system failed to report. Make sure it is setup and installed properly.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
-              "message": "Open Drone ID system missing",
-              "name": "check_open_drone_id_missing"
-            },
             "10198977": {
               "arguments": [
                 {
@@ -2132,21 +2117,6 @@
               ],
               "message": "Waypoint above maximum height",
               "name": "check_navigator_failure_hagl"
-            },
-            "8441780": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Open Drone ID system reported being unhealthy.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
-              "message": "Open Drone ID system not ready",
-              "name": "check_open_drone_id_unhealthy"
             },
             "8495477": {
               "arguments": [
@@ -4166,6 +4136,21 @@
         },
         "health": {
           "events": {
+            "10161216": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Open Drone ID system failed to report. Make sure it is setup and installed properly.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
+              "message": "Open Drone ID system missing",
+              "name": "check_open_drone_id_missing"
+            },
             "10318274": {
               "arguments": [
                 {
@@ -4743,6 +4728,21 @@
               ],
               "message": "Accelerometer sensor {3} missing",
               "name": "check_accel_missing"
+            },
+            "8441780": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Open Drone ID system reported being unhealthy.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_ODID</param> parameter.\n</profile>",
+              "message": "Open Drone ID system not ready",
+              "name": "check_open_drone_id_unhealthy"
             },
             "8544646": {
               "arguments": [

@@ -1034,21 +1034,6 @@
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/10161216/message</name>
-  <message>
-  <source>Open Drone ID system missing</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/10161216/description</name>
-  <message>
-  <source>Open Drone ID system failed to report. Make sure it is setup and installed properly.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/10198977/message</name>
   <message>
   <source>GPS PDOP too high</source>
@@ -1925,21 +1910,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   <name>/components/1/event_groups/arming_check/events/810921/message</name>
   <message>
   <source>Waypoint above maximum height</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/8441780/message</name>
-  <message>
-  <source>Open Drone ID system not ready</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/8441780/description</name>
-  <message>
-  <source>Open Drone ID system reported being unhealthy.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -3826,6 +3796,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/health/events/10161216/message</name>
+  <message>
+  <source>Open Drone ID system missing</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/10161216/description</name>
+  <message>
+  <source>Open Drone ID system failed to report. Make sure it is setup and installed properly.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/health/events/10318274/message</name>
   <message>
   <source>Battery {3} missing</source>
@@ -4181,6 +4166,21 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
   <name>/components/1/event_groups/health/events/8227839/message</name>
   <message>
   <source>Accelerometer sensor {3} missing</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/8441780/message</name>
+  <message>
+  <source>Open Drone ID system not ready</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/8441780/description</name>
+  <message>
+  <source>Open Drone ID system reported being unhealthy.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
