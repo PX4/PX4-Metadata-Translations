@@ -3301,15 +3301,17 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/16048801/message</name>
     <message>
-      <source>Not logging, storage is almost full: {1} MiB</source>
-      <translation>Немає ведення журналу записів, сховище майже заповнено: {1} MiB</translation>
+      <source>Storage full: {1} MiB free</source>
+      <translation type="unfinished">Storage full: {1} MiB free</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16048801/description</name>
     <message>
-      <source>Either manually free up some space, or enable automatic log rotation via &lt;param&gt;SDLOG_DIRS_MAX&lt;/param&gt;.</source>
-      <translation>Звільніть певний простір вручну, або увімкніть автоматичну ротацію записів журналу через &lt;param&gt;SDLOG_DIRS_MAX&lt;/param&gt;.</translation>
+      <source>Free up space manually, or lower &lt;param&gt;SDLOG_ROTATE&lt;/param&gt;
+(maximum disk usage percentage) so more headroom is kept free during writing.</source>
+      <translation type="unfinished">Free up space manually, or lower &lt;param&gt;SDLOG_ROTATE&lt;/param&gt;
+(maximum disk usage percentage) so more headroom is kept free during writing.</translation>
     </message>
   </context>
   <context>
