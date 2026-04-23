@@ -3123,8 +3123,8 @@
                   "type": "uint32_t"
                 }
               ],
-              "description": "Either manually free up some space, or enable automatic log rotation via <param>SDLOG_DIRS_MAX</param>.",
-              "message": "Not logging, storage is almost full: {1} MiB",
+              "description": "Free up space manually, or lower <param>SDLOG_ROTATE</param>\n(maximum disk usage percentage) so more headroom is kept free during writing.",
+              "message": "Storage full: {1} MiB free",
               "name": "logger_storage_full"
             },
             "16223078": {
