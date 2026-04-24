@@ -1206,26 +1206,6 @@
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/arming_check/events/10161216/message</name>
-    <message>
-      <source>Open Drone ID system missing</source>
-      <translation type="unfinished">Open Drone ID system missing</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/arming_check/events/10161216/description</name>
-    <message>
-      <source>Open Drone ID system failed to report. Make sure it is setup and installed properly.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-      <translation type="unfinished">Open Drone ID system failed to report. Make sure it is setup and installed properly.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
-&lt;/profile&gt;</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/arming_check/events/10198977/message</name>
     <message>
       <source>GPS PDOP too high</source>
@@ -2324,26 +2304,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/arming_check/events/8441780/message</name>
-    <message>
-      <source>Open Drone ID system not ready</source>
-      <translation type="unfinished">Open Drone ID system not ready</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/arming_check/events/8441780/description</name>
-    <message>
-      <source>Open Drone ID system reported being unhealthy.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-      <translation type="unfinished">Open Drone ID system reported being unhealthy.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
-&lt;/profile&gt;</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/arming_check/events/8495477/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: TRIM less than MIN ({4} less than {5})</source>
@@ -3341,15 +3301,17 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <context>
     <name>/components/1/event_groups/default/events/16048801/message</name>
     <message>
-      <source>Not logging, storage is almost full: {1} MiB</source>
-      <translation type="unfinished">Not logging, storage is almost full: {1} MiB</translation>
+      <source>Storage full: {1} MiB free</source>
+      <translation type="unfinished">Storage full: {1} MiB free</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16048801/description</name>
     <message>
-      <source>Either manually free up some space, or enable automatic log rotation via &lt;param&gt;SDLOG_DIRS_MAX&lt;/param&gt;.</source>
-      <translation type="unfinished">Either manually free up some space, or enable automatic log rotation via &lt;param&gt;SDLOG_DIRS_MAX&lt;/param&gt;.</translation>
+      <source>Free up space manually, or lower &lt;param&gt;SDLOG_ROTATE&lt;/param&gt;
+(maximum disk usage percentage) so more headroom is kept free during writing.</source>
+      <translation type="unfinished">Free up space manually, or lower &lt;param&gt;SDLOG_ROTATE&lt;/param&gt;
+(maximum disk usage percentage) so more headroom is kept free during writing.</translation>
     </message>
   </context>
   <context>
@@ -4565,6 +4527,26 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/health/events/10161216/message</name>
+    <message>
+      <source>Open Drone ID system missing</source>
+      <translation type="unfinished">Open Drone ID system missing</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/10161216/description</name>
+    <message>
+      <source>Open Drone ID system failed to report. Make sure it is setup and installed properly.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+      <translation type="unfinished">Open Drone ID system failed to report. Make sure it is setup and installed properly.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
+&lt;/profile&gt;</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/health/events/10318274/message</name>
     <message>
       <source>Battery {3} missing</source>
@@ -5013,6 +4995,26 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
     <message>
       <source>Accelerometer sensor {3} missing</source>
       <translation type="unfinished">Accelerometer sensor {3} missing</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/8441780/message</name>
+    <message>
+      <source>Open Drone ID system not ready</source>
+      <translation type="unfinished">Open Drone ID system not ready</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/8441780/description</name>
+    <message>
+      <source>Open Drone ID system reported being unhealthy.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+      <translation type="unfinished">Open Drone ID system reported being unhealthy.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_ODID&lt;/param&gt; parameter.
+&lt;/profile&gt;</translation>
     </message>
   </context>
   <context>
