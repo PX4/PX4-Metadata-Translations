@@ -952,7 +952,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "Insert an SD Card to the autopilot and reboot the system.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_SDCARD</param> parameter.\n</profile>",
+              "description": "Insert an SD Card to the autopilot and reboot the system.",
               "message": "Missing FMU SD Card",
               "name": "check_missing_fmu_sdcard"
             },
@@ -3356,6 +3356,20 @@
               "message": "Mission rejected: No home position, waypoint {1} uses relative altitude",
               "name": "navigator_mis_no_home_rel_alt"
             },
+            "3383214": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint8_t"
+                }
+              ],
+              "message": "Mission rejected: dataman read failed at item {1} (dm_id={2})",
+              "name": "navigator_mis_dm_read_fail"
+            },
             "3390156": {
               "message": "No valid mission available, loitering",
               "name": "mission_not_valid_loiter"
@@ -3390,6 +3404,10 @@
             "3645914": {
               "message": "High latency data link lost",
               "name": "commander_high_latency_lost"
+            },
+            "3647376": {
+              "message": "Mission rejected: empty",
+              "name": "navigator_mis_empty"
             },
             "3779911": {
               "arguments": [
@@ -4577,7 +4595,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "Check that all propellers are mounted correctly and are not damaged.\n\n<profile name=\"dev\"> This check can be configured via <param>FD_IMB_PROP_THR</param> and <param>COM_IMB_PROP_ACT</param> parameters.\n</profile>",
+              "description": "Check that all propellers are mounted correctly and are not damaged.\n\n<profile name=\"dev\"> This check can be configured via <param>FD_IMB_PROP_THR</param> parameter.\n</profile>",
               "message": "Imbalanced propeller detected",
               "name": "check_failure_detector_imbalanced_prop"
             },
