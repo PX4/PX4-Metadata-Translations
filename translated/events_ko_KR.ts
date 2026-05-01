@@ -1297,14 +1297,8 @@
   <context>
     <name>/components/1/event_groups/arming_check/events/10996333/description</name>
     <message>
-      <source>Insert an SD Card to the autopilot and reboot the system.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_SDCARD&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-      <translation type="unfinished">Insert an SD Card to the autopilot and reboot the system.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_SDCARD&lt;/param&gt; parameter.
-&lt;/profile&gt;</translation>
+      <source>Insert an SD Card to the autopilot and reboot the system.</source>
+      <translation type="unfinished">Insert an SD Card to the autopilot and reboot the system.</translation>
     </message>
   </context>
   <context>
@@ -3599,6 +3593,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/default/events/3383214/message</name>
+    <message>
+      <source>Mission rejected: dataman read failed at item {1} (dm_id={2})</source>
+      <translation type="unfinished">Mission rejected: dataman read failed at item {1} (dm_id={2})</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/default/events/3390156/message</name>
     <message>
       <source>No valid mission available, loitering</source>
@@ -3647,6 +3648,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>High latency data link lost</source>
       <translation type="unfinished">High latency data link lost</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/3647376/message</name>
+    <message>
+      <source>Mission rejected: empty</source>
+      <translation type="unfinished">Mission rejected: empty</translation>
     </message>
   </context>
   <context>
@@ -4868,11 +4876,11 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
     <message>
       <source>Check that all propellers are mounted correctly and are not damaged.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_IMB_PROP_THR&lt;/param&gt; and &lt;param&gt;COM_IMB_PROP_ACT&lt;/param&gt; parameters.
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_IMB_PROP_THR&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
       <translation type="unfinished">Check that all propellers are mounted correctly and are not damaged.
 
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_IMB_PROP_THR&lt;/param&gt; and &lt;param&gt;COM_IMB_PROP_ACT&lt;/param&gt; parameters.
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_IMB_PROP_THR&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
