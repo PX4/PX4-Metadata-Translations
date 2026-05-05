@@ -2699,10 +2699,6 @@
               "message": "Primary airspeed index bigger than number connected sensors, taking last sensor",
               "name": "airspeed_selector_prim_too_high"
             },
-            "12420351": {
-              "message": "Arming denied: switch to manual mode first",
-              "name": "commander_arm_denied_not_manual"
-            },
             "12464476": {
               "message": "Ready for throw launch",
               "name": "mc_throw_launch_ready"
