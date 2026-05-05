@@ -2822,13 +2822,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/default/events/12420351/message</name>
-    <message>
-      <source>Arming denied: switch to manual mode first</source>
-      <translation type="unfinished">Arming denied: switch to manual mode first</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/default/events/12464476/message</name>
     <message>
       <source>Ready for throw launch</source>
