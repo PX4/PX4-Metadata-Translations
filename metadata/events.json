@@ -1197,6 +1197,21 @@
               "message": "Gyro {3} uncalibrated",
               "name": "check_gyro_not_calibrated"
             },
+            "13426421": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "No heading source has aligned the EKF yaw",
+              "message": "No heading reference",
+              "name": "check_estimator_heading_no_source"
+            },
             "13528143": {
               "arguments": [
                 {

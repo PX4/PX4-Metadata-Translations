@@ -1271,6 +1271,18 @@
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/13426421/message</name>
+  <message>
+  <source>No heading reference</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/13426421/description</name>
+  <message>
+  <source>No heading source has aligned the EKF yaw</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/13528143/message</name>
   <message>
   <source>Vehicle is in transition state</source>
