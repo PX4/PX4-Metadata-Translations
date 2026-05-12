@@ -4603,6 +4603,22 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/health/events/1127257/message</name>
+    <message>
+      <source>GPS {3} lost fix</source>
+      <translation type="unfinished">GPS {3} lost fix</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/1127257/description</name>
+    <message>
+      <source>&lt;profile name="dev"&gt; Configure the minimum required GPS count with &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt;. Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;.
+&lt;/profile&gt;</source>
+      <translation type="unfinished">&lt;profile name="dev"&gt; Configure the minimum required GPS count with &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt;. Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;.
+&lt;/profile&gt;</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/health/events/11478328/message</name>
     <message>
       <source>No valid data from Gyro {3}</source>
@@ -4692,6 +4708,26 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
       <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
+&lt;/profile&gt;</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/1457161/message</name>
+    <message>
+      <source>GPS receivers disagree by {3:.1}m</source>
+      <translation type="unfinished">GPS receivers disagree by {3:.1}m</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/1457161/description</name>
+    <message>
+      <source>Two GNSS receivers report positions that are inconsistent with their reported accuracy.
+
+&lt;profile name="dev"&gt; Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;. The failsafe action is only triggered when &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt; is set to 2.
+&lt;/profile&gt;</source>
+      <translation type="unfinished">Two GNSS receivers report positions that are inconsistent with their reported accuracy.
+
+&lt;profile name="dev"&gt; Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;. The failsafe action is only triggered when &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt; is set to 2.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4838,6 +4874,22 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>Gyro sensor {3} missing</source>
       <translation type="unfinished">Gyro sensor {3} missing</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/4096753/message</name>
+    <message>
+      <source>GPS {3} offline</source>
+      <translation type="unfinished">GPS {3} offline</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/health/events/4096753/description</name>
+    <message>
+      <source>&lt;profile name="dev"&gt; Configure the minimum required GPS count with &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt;. Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;.
+&lt;/profile&gt;</source>
+      <translation type="unfinished">&lt;profile name="dev"&gt; Configure the minimum required GPS count with &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt;. Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;.
+&lt;/profile&gt;</translation>
     </message>
   </context>
   <context>
