@@ -4232,6 +4232,25 @@
               "message": "No valid data from optical flow sensor",
               "name": "check_optical_flow_sensor_invalid"
             },
+            "1127257": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> Configure the minimum required GPS count with <param>SYS_HAS_NUM_GNSS</param>. Configure the failsafe action with <param>COM_GNSSLOSS_ACT</param>.\n</profile>",
+              "message": "GPS {3} lost fix",
+              "name": "check_gnss_receiver_no_fix"
+            },
             "11478328": {
               "arguments": [
                 {
@@ -4336,6 +4355,25 @@
               "description": "<profile name=\"dev\"> This check can be configured via <param>COM_ARM_CHK_ESCS</param> parameter.\n</profile>",
               "message": "ESC {3} offline",
               "name": "check_escs_offline"
+            },
+            "1457161": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "description": "Two GNSS receivers report positions that are inconsistent with their reported accuracy.\n\n<profile name=\"dev\"> Configure the failsafe action with <param>COM_GNSSLOSS_ACT</param>. The failsafe action is only triggered when <param>SYS_HAS_NUM_GNSS</param> is set to 2.\n</profile>",
+              "message": "GPS receivers disagree by {3:.1}m",
+              "name": "check_gps_position_divergence"
             },
             "15289843": {
               "arguments": [
@@ -4565,6 +4603,25 @@
               ],
               "message": "Gyro sensor {3} missing",
               "name": "check_gyro_missing"
+            },
+            "4096753": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> Configure the minimum required GPS count with <param>SYS_HAS_NUM_GNSS</param>. Configure the failsafe action with <param>COM_GNSSLOSS_ACT</param>.\n</profile>",
+              "message": "GPS {3} offline",
+              "name": "check_gnss_receiver_offline"
             },
             "4448091": {
               "arguments": [
