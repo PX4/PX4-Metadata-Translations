@@ -3416,10 +3416,6 @@
               "message": "High latency data link lost",
               "name": "commander_high_latency_lost"
             },
-            "3647376": {
-              "message": "Mission rejected: empty",
-              "name": "navigator_mis_empty"
-            },
             "3779911": {
               "arguments": [
                 {
