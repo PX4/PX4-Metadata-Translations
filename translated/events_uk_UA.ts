@@ -3658,13 +3658,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/default/events/3647376/message</name>
-    <message>
-      <source>Mission rejected: empty</source>
-      <translation type="unfinished">Mission rejected: empty</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/default/events/3779911/message</name>
     <message>
       <source>Hover thrust has been constrained by min/max thrust</source>
