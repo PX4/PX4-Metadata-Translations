@@ -4291,7 +4291,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "MAVLink parachute system reports unhealthy status.\n\n<profile name=\"dev\"> Enabled by <param>COM_PARACHUTE</param>\n</profile>",
+              "description": "MAVLink parachute system reports unhealthy status.\n\n<profile name=\"dev\"> Configured by <param>COM_PARACHUTE</param>\n</profile>",
               "message": "Parachute system not ready",
               "name": "check_parachute_unhealthy"
             },
@@ -4477,7 +4477,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "No MAVLink parachute heartbeat detected. Check connection, power, configuration.\n\n<profile name=\"dev\"> Enabled by <param>COM_PARACHUTE</param>\n</profile>",
+              "description": "No MAVLink parachute heartbeat detected. Check connection, power, configuration.\n\n<profile name=\"dev\"> Configured by <param>COM_PARACHUTE</param>\n</profile>",
               "message": "Parachute system missing",
               "name": "check_parachute_missing"
             },

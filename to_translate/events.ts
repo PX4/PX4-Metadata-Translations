@@ -3895,7 +3895,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <message>
   <source>MAVLink parachute system reports unhealthy status.
 
-&lt;profile name="dev"&gt; Enabled by &lt;param&gt;COM_PARACHUTE&lt;/param&gt;
+&lt;profile name="dev"&gt; Configured by &lt;param&gt;COM_PARACHUTE&lt;/param&gt;
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -4014,7 +4014,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <message>
   <source>No MAVLink parachute heartbeat detected. Check connection, power, configuration.
 
-&lt;profile name="dev"&gt; Enabled by &lt;param&gt;COM_PARACHUTE&lt;/param&gt;
+&lt;profile name="dev"&gt; Configured by &lt;param&gt;COM_PARACHUTE&lt;/param&gt;
 &lt;/profile&gt;</source>
   </message>
 </context>
