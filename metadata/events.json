@@ -2954,6 +2954,16 @@
               "message": "Launch detected: enable motors",
               "name": "launch_detection_enable_motors"
             },
+            "14530735": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "message": "Target relative: unsupported coordinate frame {1}",
+              "name": "mavlink_rcv_target_rel_unsup_coord_frame"
+            },
             "14535820": {
               "message": "Landing aborted: terrain estimate timed out",
               "name": "fixedwing_position_control_landing_abort_status_terrain_timeout"
@@ -3108,6 +3118,16 @@
               "description": "<param>MPC_XY_CRUISE</param> is set to {1:.0}.",
               "message": "Cruise speed has been constrained by maximum speed",
               "name": "mc_pos_ctrl_cruise_set"
+            },
+            "15936531": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "message": "Target relative: unsupported coordinate frame {1} when the q_sensor is not filled",
+              "name": "mavlink_rcv_target_rel_q_sensor_not_filled"
             },
             "1593841": {
               "message": "Too much traffic! Showing all messages from now on",
@@ -3755,6 +3775,16 @@
             "6415112": {
               "message": "RC trim calibration completed",
               "name": "commander_cal_trim_done"
+            },
+            "6830556": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "message": "Target relative: unsupported type {1}",
+              "name": "mavlink_rcv_target_rel_unsup_type"
             },
             "6843301": {
               "message": "Parachute system regained",

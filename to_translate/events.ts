@@ -2587,6 +2587,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/14530735/message</name>
+  <message>
+  <source>Target relative: unsupported coordinate frame {1}</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/14535820/message</name>
   <message>
   <source>Landing aborted: terrain estimate timed out</source>
@@ -2735,6 +2741,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/15909593/description</name>
   <message>
   <source>&lt;param&gt;MPC_XY_CRUISE&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/15936531/message</name>
+  <message>
+  <source>Target relative: unsupported coordinate frame {1} when the q_sensor is not filled</source>
   </message>
 </context>
 <context>
@@ -3408,6 +3420,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/6415112/message</name>
   <message>
   <source>RC trim calibration completed</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/6830556/message</name>
+  <message>
+  <source>Target relative: unsupported type {1}</source>
   </message>
 </context>
 <context>
