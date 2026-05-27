@@ -13105,6 +13105,40 @@ set by COM_RC_LOSS_T in seconds.
     </message>
   </context>
   <context>
+    <name>/parameters/EKF2_AVEL_EN/shortDesc</name>
+    <message>
+      <source>Fuse the landing-target relative velocity as auxiliary velocity</source>
+      <translation type="unfinished">Fuse the landing-target relative velocity as auxiliary velocity</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AVEL_EN/longDesc</name>
+    <message>
+      <source>When enabled, EKF2 fuses the relative velocity published in landing_target_pose
+(vx_rel, vy_rel) as a horizontal auxiliary velocity measurement. The data is
+only fused when landing_target_pose.rel_vel_ekf2_valid is true.
+</source>
+      <translation type="unfinished">When enabled, EKF2 fuses the relative velocity published in landing_target_pose
+(vx_rel, vy_rel) as a horizontal auxiliary velocity measurement. The data is
+only fused when landing_target_pose.rel_vel_ekf2_valid is true.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AVEL_EN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/EKF2_AVEL_EN/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/EKF2_BARO_CTRL/shortDesc</name>
     <message>
       <source>Barometric sensor height aiding</source>
@@ -25220,235 +25254,6 @@ Flight time in microseconds = (LND_FLIGHT_T_HI &lt;&lt; 32) | LND_FLIGHT_T_LO.
     </message>
   </context>
   <context>
-    <name>/parameters/LTEST_ACC_UNC/shortDesc</name>
-    <message>
-      <source>Acceleration uncertainty</source>
-      <translation type="unfinished">Acceleration uncertainty</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_ACC_UNC/longDesc</name>
-    <message>
-      <source>Variance of acceleration measurement used for landing target position prediction.
-Higher values results in tighter following of the measurements and more lenient outlier rejection
-</source>
-      <translation type="unfinished">Variance of acceleration measurement used for landing target position prediction.
-Higher values results in tighter following of the measurements and more lenient outlier rejection
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_MEAS_UNC/shortDesc</name>
-    <message>
-      <source>Landing target measurement uncertainty</source>
-      <translation type="unfinished">Landing target measurement uncertainty</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_MEAS_UNC/longDesc</name>
-    <message>
-      <source>Variance of the landing target measurement from the driver.
-Higher values result in less aggressive following of the measurement and a smoother output as well as fewer rejected measurements.
-</source>
-      <translation type="unfinished">Variance of the landing target measurement from the driver.
-Higher values result in less aggressive following of the measurement and a smoother output as well as fewer rejected measurements.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_MODE/shortDesc</name>
-    <message>
-      <source>Landing target mode</source>
-      <translation type="unfinished">Landing target mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_MODE/longDesc</name>
-    <message>
-      <source>Configure the mode of the landing target. Depending on the mode, the landing target observations are used differently to aid position estimation.
-
-Mode Moving:     The landing target may be moving around while in the field of view of the vehicle. Landing target measurements are not used to aid positioning.
-Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the landing target is used to aid velocity estimation.
-</source>
-      <translation type="unfinished">Configure the mode of the landing target. Depending on the mode, the landing target observations are used differently to aid position estimation.
-
-Mode Moving:     The landing target may be moving around while in the field of view of the vehicle. Landing target measurements are not used to aid positioning.
-Mode Stationary: The landing target is stationary. Measured velocity w.r.t. the landing target is used to aid velocity estimation.
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_MODE/values/0/description</name>
-    <message>
-      <source>Moving</source>
-      <translation type="unfinished">Moving</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_MODE/values/1/description</name>
-    <message>
-      <source>Stationary</source>
-      <translation type="unfinished">Stationary</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_POS_UNC_IN/shortDesc</name>
-    <message>
-      <source>Initial landing target position uncertainty</source>
-      <translation type="unfinished">Initial landing target position uncertainty</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_POS_UNC_IN/longDesc</name>
-    <message>
-      <source>Initial variance of the relative landing target position in x and y direction
-</source>
-      <translation type="unfinished">Initial variance of the relative landing target position in x and y direction
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SCALE_X/shortDesc</name>
-    <message>
-      <source>Scale factor for sensor measurements in sensor x axis</source>
-      <translation type="unfinished">Scale factor for sensor measurements in sensor x axis</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SCALE_X/longDesc</name>
-    <message>
-      <source>Landing target x measurements are scaled by this factor before being used
-</source>
-      <translation type="unfinished">Landing target x measurements are scaled by this factor before being used
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SCALE_Y/shortDesc</name>
-    <message>
-      <source>Scale factor for sensor measurements in sensor y axis</source>
-      <translation type="unfinished">Scale factor for sensor measurements in sensor y axis</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SCALE_Y/longDesc</name>
-    <message>
-      <source>Landing target y measurements are scaled by this factor before being used
-</source>
-      <translation type="unfinished">Landing target y measurements are scaled by this factor before being used
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_POS_X/shortDesc</name>
-    <message>
-      <source>X Position of IRLOCK in body frame (forward)</source>
-      <translation type="unfinished">X Position of IRLOCK in body frame (forward)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_POS_Y/shortDesc</name>
-    <message>
-      <source>Y Position of IRLOCK in body frame (right)</source>
-      <translation type="unfinished">Y Position of IRLOCK in body frame (right)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_POS_Z/shortDesc</name>
-    <message>
-      <source>Z Position of IRLOCK in body frame (downward)</source>
-      <translation type="unfinished">Z Position of IRLOCK in body frame (downward)</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/shortDesc</name>
-    <message>
-      <source>Rotation of IRLOCK sensor relative to airframe</source>
-      <translation type="unfinished">Rotation of IRLOCK sensor relative to airframe</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/longDesc</name>
-    <message>
-      <source>Default orientation of Yaw 90°
-</source>
-      <translation type="unfinished">Default orientation of Yaw 90°
-</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/0/description</name>
-    <message>
-      <source>No rotation</source>
-      <translation type="unfinished">No rotation</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/1/description</name>
-    <message>
-      <source>Yaw 45°</source>
-      <translation type="unfinished">Yaw 45°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/2/description</name>
-    <message>
-      <source>Yaw 90°</source>
-      <translation type="unfinished">Yaw 90°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/3/description</name>
-    <message>
-      <source>Yaw 135°</source>
-      <translation type="unfinished">Yaw 135°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/4/description</name>
-    <message>
-      <source>Yaw 180°</source>
-      <translation type="unfinished">Yaw 180°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/5/description</name>
-    <message>
-      <source>Yaw 225°</source>
-      <translation type="unfinished">Yaw 225°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/6/description</name>
-    <message>
-      <source>Yaw 270°</source>
-      <translation type="unfinished">Yaw 270°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_SENS_ROT/values/7/description</name>
-    <message>
-      <source>Yaw 315°</source>
-      <translation type="unfinished">Yaw 315°</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_VEL_UNC_IN/shortDesc</name>
-    <message>
-      <source>Initial landing target velocity uncertainty</source>
-      <translation type="unfinished">Initial landing target velocity uncertainty</translation>
-    </message>
-  </context>
-  <context>
-    <name>/parameters/LTEST_VEL_UNC_IN/longDesc</name>
-    <message>
-      <source>Initial variance of the relative landing target velocity in x and y directions
-</source>
-      <translation type="unfinished">Initial variance of the relative landing target velocity in x and y directions
-</translation>
-    </message>
-  </context>
-  <context>
     <name>/parameters/LPE_ACC_XY/shortDesc</name>
     <message>
       <source>Accelerometer xy noise density</source>
@@ -31492,6 +31297,42 @@ this time before considering gripper actuation successful and publish a
     </message>
   </context>
   <context>
+    <name>/parameters/PLD_MOVING_T_MAX/shortDesc</name>
+    <message>
+      <source>Maximum moving-target prediction time</source>
+      <translation type="unfinished">Maximum moving-target prediction time</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PLD_MOVING_T_MAX/longDesc</name>
+    <message>
+      <source>When the landing target is moving, precision land aims at the estimated future
+target position after a constrained prediction time. This sets the maximum time.
+</source>
+      <translation type="unfinished">When the landing target is moving, precision land aims at the estimated future
+target position after a constrained prediction time. This sets the maximum time.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PLD_MOVING_T_MIN/shortDesc</name>
+    <message>
+      <source>Minimum moving-target prediction time</source>
+      <translation type="unfinished">Minimum moving-target prediction time</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PLD_MOVING_T_MIN/longDesc</name>
+    <message>
+      <source>When the landing target is moving, precision land aims at the estimated future
+target position after a constrained prediction time. This sets the minimum time.
+</source>
+      <translation type="unfinished">When the landing target is moving, precision land aims at the estimated future
+target position after a constrained prediction time. This sets the minimum time.
+</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/PLD_SRCH_ALT/shortDesc</name>
     <message>
       <source>Search altitude</source>
@@ -31521,6 +31362,36 @@ this time before considering gripper actuation successful and publish a
 </source>
       <translation type="unfinished">Time allowed to search for the landing target before falling back to normal landing.
 </translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PLD_YAW_EN/shortDesc</name>
+    <message>
+      <source>Set to true to control yaw while landing</source>
+      <translation type="unfinished">Set to true to control yaw while landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PLD_YAW_EN/longDesc</name>
+    <message>
+      <source>Control the orientation when landing. The orientation comes from the topic vte_orientation.
+</source>
+      <translation type="unfinished">Control the orientation when landing. The orientation comes from the topic vte_orientation.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PLD_YAW_EN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PLD_YAW_EN/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
     </message>
   </context>
   <context>
@@ -51663,17 +51534,667 @@ Set to 0 do disable this threshold.
     </message>
   </context>
   <context>
-    <name>$globals/category/Developer</name>
+    <name>/parameters/VTE_ACC_D_UNC/shortDesc</name>
     <message>
-      <source>Developer</source>
-      <translation type="unfinished">Developer</translation>
+      <source>UAV acceleration white-noise power spectral density</source>
+      <translation type="unfinished">UAV acceleration white-noise power spectral density</translation>
     </message>
   </context>
   <context>
-    <name>$globals/category/System</name>
+    <name>/parameters/VTE_ACC_D_UNC/longDesc</name>
     <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
+      <source>White-noise PSD on the UAV acceleration input. The
+1-sigma vel_uav change allowed over a time t is sqrt(VTE_ACC_D_UNC * t).
+
+This is a variance rate, not a per-step variance; the value is independent
+of the filter update rate. Higher values let the filter follow new
+measurements more tightly and reject fewer outliers.
+
+Unit: m^2/s^3.
+</source>
+      <translation type="unfinished">White-noise PSD on the UAV acceleration input. The
+1-sigma vel_uav change allowed over a time t is sqrt(VTE_ACC_D_UNC * t).
+
+This is a variance rate, not a per-step variance; the value is independent
+of the filter update rate. Higher values let the filter follow new
+measurements more tightly and reject fewer outliers.
+
+Unit: m^2/s^3.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_ACC_T_UNC/shortDesc</name>
+    <message>
+      <source>Target acceleration random-walk process noise</source>
+      <translation type="unfinished">Target acceleration random-walk process noise</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_ACC_T_UNC/longDesc</name>
+    <message>
+      <source>Process-noise spectral density of the target acceleration random walk
+(moving-target builds only). The 1-sigma target-acceleration change over a
+time t is sqrt(VTE_ACC_T_UNC * t) (e.g. for the 0.1 default, ~0.32 m/s^2
+after 1 s, ~1.0 m/s^2 after 10 s).
+
+This is a variance rate, not a linear rate of change; the value is
+independent of the filter update rate. Higher values let the filter follow
+target manoeuvres more aggressively and accept more outliers.
+
+Unit: ((m/s^2)^2)/s.
+</source>
+      <translation type="unfinished">Process-noise spectral density of the target acceleration random walk
+(moving-target builds only). The 1-sigma target-acceleration change over a
+time t is sqrt(VTE_ACC_T_UNC * t) (e.g. for the 0.1 default, ~0.32 m/s^2
+after 1 s, ~1.0 m/s^2 after 10 s).
+
+This is a variance rate, not a linear rate of change; the value is
+independent of the filter update rate. Higher values let the filter follow
+target manoeuvres more aggressively and accept more outliers.
+
+Unit: ((m/s^2)^2)/s.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_ACC_UNC_IN/shortDesc</name>
+    <message>
+      <source>Initial target absolute acceleration uncertainty</source>
+      <translation type="unfinished">Initial target absolute acceleration uncertainty</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_ACC_UNC_IN/longDesc</name>
+    <message>
+      <source>Initial variance of the relative target acceleration in x, y, and z directions
+(moving-target builds only).
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+Once the filter is running, the steady-state target-acceleration variance is
+governed by VTE_ACC_T_UNC and the measurement updates, so this parameter does
+not influence runtime behaviour.
+</source>
+      <translation type="unfinished">Initial variance of the relative target acceleration in x, y, and z directions
+(moving-target builds only).
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+Once the filter is running, the steady-state target-acceleration variance is
+governed by VTE_ACC_T_UNC and the measurement updates, so this parameter does
+not influence runtime behaviour.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_AID_MASK/shortDesc</name>
+    <message>
+      <source>Integer bitmask controlling data fusion and aiding methods</source>
+      <translation type="unfinished">Integer bitmask controlling data fusion and aiding methods</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_AID_MASK/longDesc</name>
+    <message>
+      <source>Set bits in the following positions to enable:
+0 : Set to true to use the target's GNSS position data if available. (+1)
+1 : Set to true to use the UAV GNSS velocity data if available. (+2)
+2 : Set to true to use the target relative position from vision-based data if available. (+4)
+3 : Set to true to use the mission land point. Ignored if target GNSS position enabled. (+8)
+4 : Set to true to use the target GNSS velocity if available. (+16)
+</source>
+      <translation type="unfinished">Set bits in the following positions to enable:
+0 : Set to true to use the target's GNSS position data if available. (+1)
+1 : Set to true to use the UAV GNSS velocity data if available. (+2)
+2 : Set to true to use the target relative position from vision-based data if available. (+4)
+3 : Set to true to use the mission land point. Ignored if target GNSS position enabled. (+8)
+4 : Set to true to use the target GNSS velocity if available. (+16)
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_AID_MASK/bitmask/0/description</name>
+    <message>
+      <source>target GNSS position</source>
+      <translation type="unfinished">target GNSS position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_AID_MASK/bitmask/1/description</name>
+    <message>
+      <source>UAV GNSS velocity</source>
+      <translation type="unfinished">UAV GNSS velocity</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_AID_MASK/bitmask/2/description</name>
+    <message>
+      <source>vision relative position</source>
+      <translation type="unfinished">vision relative position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_AID_MASK/bitmask/3/description</name>
+    <message>
+      <source>mission position</source>
+      <translation type="unfinished">mission position</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_AID_MASK/bitmask/4/description</name>
+    <message>
+      <source>target GNSS velocity</source>
+      <translation type="unfinished">target GNSS velocity</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BIAS_UNC/shortDesc</name>
+    <message>
+      <source>Bias random-walk process noise</source>
+      <translation type="unfinished">Bias random-walk process noise</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BIAS_UNC/longDesc</name>
+    <message>
+      <source>Process-noise spectral density of the GPS/vision bias random walk. The
+1-sigma expected bias change over a time t is sqrt(VTE_BIAS_UNC * t) (e.g.
+for the 0.001 default, ~3 cm after 1 s, ~10 cm after 10 s, ~32 cm after
+100 s).
+
+This is a variance rate, not a linear drift rate; the value is independent
+of the filter update rate. Higher values let the bias follow new
+observations more aggressively; lower values keep it stiff. Tune to match
+the realistic physical drift of the absolute reference (typically a few
+centimetres over tens of seconds for consumer GNSS, less for RTK).
+
+Unit: m^2/s.
+</source>
+      <translation type="unfinished">Process-noise spectral density of the GPS/vision bias random walk. The
+1-sigma expected bias change over a time t is sqrt(VTE_BIAS_UNC * t) (e.g.
+for the 0.001 default, ~3 cm after 1 s, ~10 cm after 10 s, ~32 cm after
+100 s).
+
+This is a variance rate, not a linear drift rate; the value is independent
+of the filter update rate. Higher values let the bias follow new
+observations more aggressively; lower values keep it stiff. Tune to match
+the realistic physical drift of the absolute reference (typically a few
+centimetres over tens of seconds for consumer GNSS, less for RTK).
+
+Unit: m^2/s.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BIA_AVG_THR/shortDesc</name>
+    <message>
+      <source>Initial GNSS/vision bias averaging threshold</source>
+      <translation type="unfinished">Initial GNSS/vision bias averaging threshold</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BIA_AVG_THR/longDesc</name>
+    <message>
+      <source>When the GNSS/vision bias first becomes observable while the estimator is still referenced to GNSS,
+VTE low-pass filters the first GNSS/vision bias samples before activating the bias estimate.
+The LPF exit requires consecutive raw bias samples to stay within this threshold and for the LPF
+to have run for at least 2 * tau, or until VTE_BIA_AVG_TOUT elapses.
+</source>
+      <translation type="unfinished">When the GNSS/vision bias first becomes observable while the estimator is still referenced to GNSS,
+VTE low-pass filters the first GNSS/vision bias samples before activating the bias estimate.
+The LPF exit requires consecutive raw bias samples to stay within this threshold and for the LPF
+to have run for at least 2 * tau, or until VTE_BIA_AVG_TOUT elapses.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BIA_AVG_TOUT/shortDesc</name>
+    <message>
+      <source>Initial GNSS/vision bias averaging timeout</source>
+      <translation type="unfinished">Initial GNSS/vision bias averaging timeout</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BIA_AVG_TOUT/longDesc</name>
+    <message>
+      <source>Maximum time spent averaging the initial GNSS bias before activating it once GNSS and vision
+are jointly observable while the estimator is still referenced to GNSS. During that phase, valid
+vision samples keep updating the LPF. While the current GNSS-relative measurement stays valid,
+it can be propagated with the UAV velocity estimate to match the vision timestamp. If that GNSS
+sample is no longer valid, averaging stops, the current vision position is used, and the current
+LPF bias is activated.
+
+Set to 0 to disable averaging and activate the bias immediately.
+</source>
+      <translation type="unfinished">Maximum time spent averaging the initial GNSS bias before activating it once GNSS and vision
+are jointly observable while the estimator is still referenced to GNSS. During that phase, valid
+vision samples keep updating the LPF. While the current GNSS-relative measurement stays valid,
+it can be propagated with the UAV velocity estimate to match the vision timestamp. If that GNSS
+sample is no longer valid, averaging stops, the current vision position is used, and the current
+LPF bias is activated.
+
+Set to 0 to disable averaging and activate the bias immediately.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BIA_UNC_IN/shortDesc</name>
+    <message>
+      <source>Initial GPS bias uncertainty</source>
+      <translation type="unfinished">Initial GPS bias uncertainty</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BIA_UNC_IN/longDesc</name>
+    <message>
+      <source>Initial variance of the bias between the GPS on the target and the GPS on the drone.
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+Once the filter is running, the steady-state bias variance is governed by VTE_BIAS_UNC
+and the measurement updates, so this parameter does not influence runtime behaviour.
+Keep it large so initialization can absorb initial misalignments.
+</source>
+      <translation type="unfinished">Initial variance of the bias between the GPS on the target and the GPS on the drone.
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+Once the filter is running, the steady-state bias variance is governed by VTE_BIAS_UNC
+and the measurement updates, so this parameter does not influence runtime behaviour.
+Keep it large so initialization can absorb initial misalignments.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BTOUT/shortDesc</name>
+    <message>
+      <source>Vision target timeout</source>
+      <translation type="unfinished">Vision target timeout</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_BTOUT/longDesc</name>
+    <message>
+      <source>Time after which the target is considered lost without any new fused measurements. When this timeout expires, the estimator is reset and can restart immediately once an enabled fusion source is available.
+</source>
+      <translation type="unfinished">Time after which the target is considered lost without any new fused measurements. When this timeout expires, the estimator is reset and can restart immediately once an enabled fusion source is available.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_EN/shortDesc</name>
+    <message>
+      <source>Vision Target Estimator module enable</source>
+      <translation type="unfinished">Vision Target Estimator module enable</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_EN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_EN/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_EVA_NOISE/shortDesc</name>
+    <message>
+      <source>Minimum standard deviation for vision yaw observations</source>
+      <translation type="unfinished">Minimum standard deviation for vision yaw observations</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_EVA_NOISE/longDesc</name>
+    <message>
+      <source>Lower bound on the standard deviation used when fusing the vision yaw
+observation. The estimator squares this value and clamps the per-sample
+observation variance to max(reported_variance, VTE_EVA_NOISE^2). The floor only
+takes effect when the sensor under-reports its own noise.
+The default of ~0.07 rad (4 deg) is a reasonable starting point for marker-based
+yaw detection. Lowering it makes the filter trust each yaw sample more, which
+can cause the controller to chase the resulting setpoint changes and oscillate.
+</source>
+      <translation type="unfinished">Lower bound on the standard deviation used when fusing the vision yaw
+observation. The estimator squares this value and clamps the per-sample
+observation variance to max(reported_variance, VTE_EVA_NOISE^2). The floor only
+takes effect when the sensor under-reports its own noise.
+The default of ~0.07 rad (4 deg) is a reasonable starting point for marker-based
+yaw detection. Lowering it makes the filter trust each yaw sample more, which
+can cause the controller to chase the resulting setpoint changes and oscillate.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_EVP_NOISE/shortDesc</name>
+    <message>
+      <source>Minimum standard deviation for vision relative-position observations</source>
+      <translation type="unfinished">Minimum standard deviation for vision relative-position observations</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_EVP_NOISE/longDesc</name>
+    <message>
+      <source>Lower bound on the standard deviation used when fusing the vision relative
+position. The estimator squares this value and clamps the per-sample
+observation variance to max(reported_variance, VTE_EVP_NOISE^2). The floor only
+takes effect when the sensor under-reports its own noise.
+</source>
+      <translation type="unfinished">Lower bound on the standard deviation used when fusing the vision relative
+position. The estimator squares this value and clamps the per-sample
+observation variance to max(reported_variance, VTE_EVP_NOISE^2). The floor only
+takes effect when the sensor under-reports its own noise.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_GPS_P_NOISE/shortDesc</name>
+    <message>
+      <source>Minimum standard deviation for GPS position observations</source>
+      <translation type="unfinished">Minimum standard deviation for GPS position observations</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_GPS_P_NOISE/longDesc</name>
+    <message>
+      <source>Lower bound on the standard deviation used when fusing GPS position (target or
+mission landing waypoint). The estimator squares this value and clamps the
+per-sample observation variance to max(reported_variance, VTE_GPS_P_NOISE^2).
+The floor only takes effect when the sensor under-reports its own noise.
+</source>
+      <translation type="unfinished">Lower bound on the standard deviation used when fusing GPS position (target or
+mission landing waypoint). The estimator squares this value and clamps the
+per-sample observation variance to max(reported_variance, VTE_GPS_P_NOISE^2).
+The floor only takes effect when the sensor under-reports its own noise.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_GPS_V_NOISE/shortDesc</name>
+    <message>
+      <source>Minimum standard deviation for GPS velocity observations</source>
+      <translation type="unfinished">Minimum standard deviation for GPS velocity observations</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_GPS_V_NOISE/longDesc</name>
+    <message>
+      <source>Lower bound on the standard deviation used when fusing GPS velocity. The
+estimator squares this value and clamps the per-sample observation variance
+to max(reported_variance, VTE_GPS_V_NOISE^2). The floor only takes effect when
+the sensor under-reports its own noise; if the reported variance is already
+above the floor, this parameter has no effect.
+</source>
+      <translation type="unfinished">Lower bound on the standard deviation used when fusing GPS velocity. The
+estimator squares this value and clamps the per-sample observation variance
+to max(reported_variance, VTE_GPS_V_NOISE^2). The floor only takes effect when
+the sensor under-reports its own noise; if the reported variance is already
+above the floor, this parameter has no effect.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_M_REC_TOUT/shortDesc</name>
+    <message>
+      <source>Measurement recent timeout</source>
+      <translation type="unfinished">Measurement recent timeout</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_M_REC_TOUT/longDesc</name>
+    <message>
+      <source>Time window for considering a raw measurement as recent and eligible for fusion.
+</source>
+      <translation type="unfinished">Time window for considering a raw measurement as recent and eligible for fusion.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_M_UPD_TOUT/shortDesc</name>
+    <message>
+      <source>Measurement updated timeout</source>
+      <translation type="unfinished">Measurement updated timeout</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_M_UPD_TOUT/longDesc</name>
+    <message>
+      <source>Maximum allowed age of a retained measurement before it is discarded from the estimator's cache.
+</source>
+      <translation type="unfinished">Maximum allowed age of a retained measurement before it is discarded from the estimator's cache.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_POS_EN/shortDesc</name>
+    <message>
+      <source>Vision Target Estimator module enable position estimation</source>
+      <translation type="unfinished">Vision Target Estimator module enable position estimation</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_POS_EN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_POS_EN/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_POS_NIS_THRE/shortDesc</name>
+    <message>
+      <source>Normalized innovation squared threshold for the position estimator</source>
+      <translation type="unfinished">Normalized innovation squared threshold for the position estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_POS_NIS_THRE/longDesc</name>
+    <message>
+      <source>Lower values mean that more measurements will be rejected. Null hypothesis H0: the innovation is
+consistent with the innovation covariance matrix. Values of 0.46, 1.64, 2.71, 3.84, 6.63, and 10.83
+correspond to 50%, 20%, 10%, 5%, 1%, and 0.1% probability respectively that H0 is incorrectly rejected.
+The confidence interval is computed from the chi-squared distribution.
+</source>
+      <translation type="unfinished">Lower values mean that more measurements will be rejected. Null hypothesis H0: the innovation is
+consistent with the innovation covariance matrix. Values of 0.46, 1.64, 2.71, 3.84, 6.63, and 10.83
+correspond to 50%, 20%, 10%, 5%, 1%, and 0.1% probability respectively that H0 is incorrectly rejected.
+The confidence interval is computed from the chi-squared distribution.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_POS_UNC_IN/shortDesc</name>
+    <message>
+      <source>Initial target and drone relative position uncertainty</source>
+      <translation type="unfinished">Initial target and drone relative position uncertainty</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_POS_UNC_IN/longDesc</name>
+    <message>
+      <source>Initial variance of the relative target position in x, y, and z direction.
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+</source>
+      <translation type="unfinished">Initial variance of the relative target position in x, y, and z direction.
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_TASK_MASK/shortDesc</name>
+    <message>
+      <source>Integer bitmask controlling the tasks of the target estimator</source>
+      <translation type="unfinished">Integer bitmask controlling the tasks of the target estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_TASK_MASK/longDesc</name>
+    <message>
+      <source>Set bits in the following positions to enable:
+0 : Set to true to use the vision target estimator for precision landing. (+1)
+1 : DEBUG, always active. (+2)
+</source>
+      <translation type="unfinished">Set bits in the following positions to enable:
+0 : Set to true to use the vision target estimator for precision landing. (+1)
+1 : DEBUG, always active. (+2)
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_TASK_MASK/bitmask/0/description</name>
+    <message>
+      <source>precision landing</source>
+      <translation type="unfinished">precision landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_TASK_MASK/bitmask/1/description</name>
+    <message>
+      <source>DEBUG, always active</source>
+      <translation type="unfinished">DEBUG, always active</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_TGT_TOUT/shortDesc</name>
+    <message>
+      <source>Target validity timeout</source>
+      <translation type="unfinished">Target validity timeout</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_TGT_TOUT/longDesc</name>
+    <message>
+      <source>Maximum time without any fused measurements before the published relative pose/yaw is flagged invalid.
+</source>
+      <translation type="unfinished">Maximum time without any fused measurements before the published relative pose/yaw is flagged invalid.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_VEL_UNC_IN/shortDesc</name>
+    <message>
+      <source>Initial target and drone relative velocity uncertainty</source>
+      <translation type="unfinished">Initial target and drone relative velocity uncertainty</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_VEL_UNC_IN/longDesc</name>
+    <message>
+      <source>Initial variance of the relative target velocity in x, y, and z directions.
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+</source>
+      <translation type="unfinished">Initial variance of the relative target velocity in x, y, and z directions.
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_YAW_ACC_UNC/shortDesc</name>
+    <message>
+      <source>Yaw acceleration white-noise power spectral density</source>
+      <translation type="unfinished">Yaw acceleration white-noise power spectral density</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_YAW_ACC_UNC/longDesc</name>
+    <message>
+      <source>White-noise PSD on the yaw acceleration driving the
+yaw-rate state. The 1-sigma yaw-rate change allowed over a time t is
+sqrt(VTE_YAW_ACC_UNC * t) (e.g. for the 0.004 default, ~3.6 deg/s after 1 s,
+~11.5 deg/s after 10 s).
+
+This is a variance rate, not a per-step variance; the value is independent
+of the filter update rate. Higher values let the filter follow rapid
+heading changes; lower values smooth the yaw estimate aggressively.
+
+Unit: rad^2/s^3.
+</source>
+      <translation type="unfinished">White-noise PSD on the yaw acceleration driving the
+yaw-rate state. The 1-sigma yaw-rate change allowed over a time t is
+sqrt(VTE_YAW_ACC_UNC * t) (e.g. for the 0.004 default, ~3.6 deg/s after 1 s,
+~11.5 deg/s after 10 s).
+
+This is a variance rate, not a per-step variance; the value is independent
+of the filter update rate. Higher values let the filter follow rapid
+heading changes; lower values smooth the yaw estimate aggressively.
+
+Unit: rad^2/s^3.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_YAW_EN/shortDesc</name>
+    <message>
+      <source>Vision Target Estimator module enable orientation estimation</source>
+      <translation type="unfinished">Vision Target Estimator module enable orientation estimation</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_YAW_EN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_YAW_EN/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_YAW_NIS_THRE/shortDesc</name>
+    <message>
+      <source>Normalized innovation squared threshold for the orientation estimator</source>
+      <translation type="unfinished">Normalized innovation squared threshold for the orientation estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_YAW_NIS_THRE/longDesc</name>
+    <message>
+      <source>Lower values mean that more measurements will be rejected. Null hypothesis H0: the innovation is
+consistent with the innovation covariance matrix. Values of 0.46, 1.64, 2.71, 3.84, 6.63, and 10.83
+correspond to 50%, 20%, 10%, 5%, 1%, and 0.1% probability respectively that H0 is incorrectly rejected.
+The confidence interval is computed from the chi-squared distribution.
+</source>
+      <translation type="unfinished">Lower values mean that more measurements will be rejected. Null hypothesis H0: the innovation is
+consistent with the innovation covariance matrix. Values of 0.46, 1.64, 2.71, 3.84, 6.63, and 10.83
+correspond to 50%, 20%, 10%, 5%, 1%, and 0.1% probability respectively that H0 is incorrectly rejected.
+The confidence interval is computed from the chi-squared distribution.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_YAW_UNC_IN/shortDesc</name>
+    <message>
+      <source>Initial orientation uncertainty</source>
+      <translation type="unfinished">Initial orientation uncertainty</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/VTE_YAW_UNC_IN/longDesc</name>
+    <message>
+      <source>Initial variance of the target orientation yaw in rad^2.
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+</source>
+      <translation type="unfinished">Initial variance of the target orientation yaw in rad^2.
+Changes while the estimator is running are picked up immediately by the module but only take effect
+the next time the estimator initializes or resets.
+</translation>
     </message>
   </context>
   <context>
@@ -51684,10 +52205,17 @@ Set to 0 do disable this threshold.
     </message>
   </context>
   <context>
-    <name>$globals/group/OSD</name>
+    <name>$globals/category/System</name>
     <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/category/Developer</name>
+    <message>
+      <source>Developer</source>
+      <translation type="unfinished">Developer</translation>
     </message>
   </context>
   <context>
@@ -51698,73 +52226,10 @@ Set to 0 do disable this threshold.
     </message>
   </context>
   <context>
-    <name>$globals/group/Local Position Estimator</name>
+    <name>$globals/group/Testing</name>
     <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Rate Control</name>
-    <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
     </message>
   </context>
   <context>
@@ -51775,52 +52240,10 @@ Set to 0 do disable this threshold.
     </message>
   </context>
   <context>
-    <name>$globals/group/ADSB</name>
+    <name>$globals/group/Airspeed Validator</name>
     <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulation In Hardware</name>
-    <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulator</name>
-    <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/EKF2</name>
-    <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Motor Failure</name>
-    <message>
-      <source>Motor Failure</source>
-      <translation type="unfinished">Motor Failure</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Septentrio</name>
-    <message>
-      <source>Septentrio</source>
-      <translation type="unfinished">Septentrio</translation>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
     </message>
   </context>
   <context>
@@ -51831,262 +52254,10 @@ Set to 0 do disable this threshold.
     </message>
   </context>
   <context>
-    <name>$globals/group/Manual Control</name>
-    <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Multicopter Attitude Control</name>
     <message>
       <source>Multicopter Attitude Control</source>
       <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Lateral Control</name>
-    <message>
-      <source>FW Lateral Control</source>
-      <translation type="unfinished">FW Lateral Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Differential</name>
-    <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MAVLink</name>
-    <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Events</name>
-    <message>
-      <source>Events</source>
-      <translation type="unfinished">Events</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
-    <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/GPS</name>
-    <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SD Logging</name>
-    <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Pure Pursuit</name>
-    <message>
-      <source>Pure Pursuit</source>
-      <translation type="unfinished">Pure Pursuit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Takeoff</name>
-    <message>
-      <source>FW Auto Takeoff</source>
-      <translation type="unfinished">FW Auto Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
-    <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Actuator Outputs</name>
-    <message>
-      <source>Actuator Outputs</source>
-      <translation type="unfinished">Actuator Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mount</name>
-    <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Landing Target Estimator</name>
-    <message>
-      <source>Landing Target Estimator</source>
-      <translation type="unfinished">Landing Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Autotune</name>
-    <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Attitude Control</name>
-    <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Precision Land</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Longitudinal Control</name>
-    <message>
-      <source>FW Longitudinal Control</source>
-      <translation type="unfinished">FW Longitudinal Control</translation>
     </message>
   </context>
   <context>
@@ -52097,80 +52268,80 @@ Set to 0 do disable this threshold.
     </message>
   </context>
   <context>
-    <name>$globals/group/Sensor Calibration</name>
+    <name>$globals/group/Radio Switches</name>
     <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Mecanum</name>
+    <name>$globals/group/Septentrio</name>
     <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
+      <source>Septentrio</source>
+      <translation type="unfinished">Septentrio</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Runway Takeoff</name>
+    <name>$globals/group/UUV Position Control</name>
     <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Sensors</name>
+    <name>$globals/group/OSD</name>
     <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Camera trigger</name>
+    <name>$globals/group/FW Attitude Control</name>
     <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Return Mode</name>
+    <name>$globals/group/Events</name>
     <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
+      <source>Events</source>
+      <translation type="unfinished">Events</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
+    <name>$globals/group/Battery Calibration</name>
     <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Radio Calibration</name>
+    <name>$globals/group/Commander</name>
     <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Thermal Compensation</name>
+    <name>$globals/group/Land Detector</name>
     <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/UUV Attitude Control</name>
+    <name>$globals/group/Pure Pursuit</name>
     <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
+      <source>Pure Pursuit</source>
+      <translation type="unfinished">Pure Pursuit</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Ackermann</name>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
     <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
     </message>
   </context>
   <context>
@@ -52181,10 +52352,101 @@ Set to 0 do disable this threshold.
     </message>
   </context>
   <context>
-    <name>$globals/group/Payload Deliverer</name>
+    <name>$globals/group/Thermal Compensation</name>
     <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Camera trigger</name>
+    <message>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Calibration</name>
+    <message>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Lateral Control</name>
+    <message>
+      <source>FW Lateral Control</source>
+      <translation type="unfinished">FW Lateral Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geometry</name>
+    <message>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Flight Task Orbit</name>
+    <message>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Vision Target Estimator</name>
+    <message>
+      <source>Vision Target Estimator</source>
+      <translation type="unfinished">Vision Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulation In Hardware</name>
+    <message>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
     </message>
   </context>
   <context>
@@ -52192,6 +52454,279 @@ Set to 0 do disable this threshold.
     <message>
       <source>Mixer Output</source>
       <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/GPS</name>
+    <message>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Longitudinal Control</name>
+    <message>
+      <source>FW Longitudinal Control</source>
+      <translation type="unfinished">FW Longitudinal Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <message>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Takeoff</name>
+    <message>
+      <source>FW Auto Takeoff</source>
+      <translation type="unfinished">FW Auto Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Motor Failure</name>
+    <message>
+      <source>Motor Failure</source>
+      <translation type="unfinished">Motor Failure</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Actuator Outputs</name>
+    <message>
+      <source>Actuator Outputs</source>
+      <translation type="unfinished">Actuator Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mission</name>
+    <message>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulator</name>
+    <message>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
     </message>
   </context>
 </TS>
