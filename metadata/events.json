@@ -749,6 +749,10 @@
               "description": "Altitude Cruise",
               "name": "altitude_cruise"
             },
+            "25": {
+              "description": "Course",
+              "name": "auto_course"
+            },
             "255": {
               "description": "[Unknown]",
               "name": "unknown"
@@ -3197,6 +3201,10 @@
             "16591495": {
               "message": "Control high latency failed! Telemetry unavailable",
               "name": "commander_ctrl_high_latency_failed"
+            },
+            "16653157": {
+              "message": "Altitude change is outside geofence",
+              "name": "navigator_course_change_altitude_outside_geofence"
             },
             "16663074": {
               "message": "Mission rejected: takeoff is not the first waypoint item",

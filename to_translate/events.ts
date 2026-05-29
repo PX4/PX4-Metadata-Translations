@@ -908,6 +908,12 @@
   </message>
 </context>
 <context>
+  <name>/components/1/enums/navigation_mode_t/entries/25/description</name>
+  <message>
+  <source>Course</source>
+  </message>
+</context>
+<context>
   <name>/components/1/enums/navigation_mode_t/entries/255/description</name>
   <message>
   <source>[Unknown]</source>
@@ -2820,6 +2826,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/16591495/message</name>
   <message>
   <source>Control high latency failed! Telemetry unavailable</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/16653157/message</name>
+  <message>
+  <source>Altitude change is outside geofence</source>
   </message>
 </context>
 <context>
