@@ -841,6 +841,55 @@ The default failsafe value is set according to the selected function:
     </message>
   </context>
   <context>
+    <name>/parameters/PWM_MAIN_FUNC1/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC1/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC1/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC1/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC1/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC1/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC1/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
@@ -1227,6 +1276,55 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Servo 8</source>
       <translation>Сервопривід 8</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC10/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC10/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC10/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC10/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC10/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC10/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC10/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
     </message>
   </context>
   <context>
@@ -1619,6 +1717,55 @@ The default failsafe value is set according to the selected function:
     </message>
   </context>
   <context>
+    <name>/parameters/PWM_MAIN_FUNC11/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC11/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC11/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC11/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC11/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC11/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC11/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
@@ -2005,6 +2152,55 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Servo 8</source>
       <translation>Сервопривід 8</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC12/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC12/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC12/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC12/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC12/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC12/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC12/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
     </message>
   </context>
   <context>
@@ -2397,6 +2593,55 @@ The default failsafe value is set according to the selected function:
     </message>
   </context>
   <context>
+    <name>/parameters/PWM_MAIN_FUNC13/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC13/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC13/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC13/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC13/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC13/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC13/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
@@ -2783,6 +3028,55 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Servo 8</source>
       <translation>Сервопривід 8</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC14/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC14/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC14/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC14/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC14/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC14/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC14/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
     </message>
   </context>
   <context>
@@ -3175,6 +3469,55 @@ The default failsafe value is set according to the selected function:
     </message>
   </context>
   <context>
+    <name>/parameters/PWM_MAIN_FUNC15/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC15/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC15/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC15/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC15/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC15/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC15/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
@@ -3561,6 +3904,55 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Servo 8</source>
       <translation>Сервопривід 8</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC16/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC16/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC16/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC16/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC16/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC16/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC16/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
     </message>
   </context>
   <context>
@@ -3953,6 +4345,55 @@ The default failsafe value is set according to the selected function:
     </message>
   </context>
   <context>
+    <name>/parameters/PWM_MAIN_FUNC2/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC2/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC2/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC2/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC2/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC2/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC2/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
@@ -4339,6 +4780,55 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Servo 8</source>
       <translation>Сервопривід 8</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC3/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC3/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC3/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC3/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC3/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC3/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC3/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
     </message>
   </context>
   <context>
@@ -4731,6 +5221,55 @@ The default failsafe value is set according to the selected function:
     </message>
   </context>
   <context>
+    <name>/parameters/PWM_MAIN_FUNC4/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC4/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC4/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC4/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC4/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC4/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC4/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
@@ -5117,6 +5656,55 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Servo 8</source>
       <translation>Сервопривід 8</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC5/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC5/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC5/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC5/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC5/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC5/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC5/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
     </message>
   </context>
   <context>
@@ -5509,6 +6097,55 @@ The default failsafe value is set according to the selected function:
     </message>
   </context>
   <context>
+    <name>/parameters/PWM_MAIN_FUNC6/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC6/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC6/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC6/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC6/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC6/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC6/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
@@ -5895,6 +6532,55 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Servo 8</source>
       <translation>Сервопривід 8</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC7/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC7/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC7/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC7/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC7/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC7/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC7/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
     </message>
   </context>
   <context>
@@ -6287,6 +6973,55 @@ The default failsafe value is set according to the selected function:
     </message>
   </context>
   <context>
+    <name>/parameters/PWM_MAIN_FUNC8/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC8/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC8/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC8/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC8/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC8/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC8/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
@@ -6673,6 +7408,55 @@ The default failsafe value is set according to the selected function:
     <message>
       <source>Servo 8</source>
       <translation>Сервопривід 8</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC9/values/209/description</name>
+    <message>
+      <source>Servo 9</source>
+      <translation type="unfinished">Servo 9</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC9/values/210/description</name>
+    <message>
+      <source>Servo 10</source>
+      <translation type="unfinished">Servo 10</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC9/values/211/description</name>
+    <message>
+      <source>Servo 11</source>
+      <translation type="unfinished">Servo 11</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC9/values/212/description</name>
+    <message>
+      <source>Servo 12</source>
+      <translation type="unfinished">Servo 12</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC9/values/213/description</name>
+    <message>
+      <source>Servo 13</source>
+      <translation type="unfinished">Servo 13</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC9/values/214/description</name>
+    <message>
+      <source>Servo 14</source>
+      <translation type="unfinished">Servo 14</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/PWM_MAIN_FUNC9/values/215/description</name>
+    <message>
+      <source>Servo 15</source>
+      <translation type="unfinished">Servo 15</translation>
     </message>
   </context>
   <context>
@@ -22561,6 +23345,126 @@ Zero means that slew rate limiting is disabled.
     </message>
   </context>
   <context>
+    <name>/parameters/CA_SV10_SLEW/shortDesc</name>
+    <message>
+      <source>Servo 10 slew rate limit</source>
+      <translation type="unfinished">Servo 10 slew rate limit</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV10_SLEW/longDesc</name>
+    <message>
+      <source>Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</source>
+      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV11_SLEW/shortDesc</name>
+    <message>
+      <source>Servo 11 slew rate limit</source>
+      <translation type="unfinished">Servo 11 slew rate limit</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV11_SLEW/longDesc</name>
+    <message>
+      <source>Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</source>
+      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV12_SLEW/shortDesc</name>
+    <message>
+      <source>Servo 12 slew rate limit</source>
+      <translation type="unfinished">Servo 12 slew rate limit</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV12_SLEW/longDesc</name>
+    <message>
+      <source>Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</source>
+      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV13_SLEW/shortDesc</name>
+    <message>
+      <source>Servo 13 slew rate limit</source>
+      <translation type="unfinished">Servo 13 slew rate limit</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV13_SLEW/longDesc</name>
+    <message>
+      <source>Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</source>
+      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV14_SLEW/shortDesc</name>
+    <message>
+      <source>Servo 14 slew rate limit</source>
+      <translation type="unfinished">Servo 14 slew rate limit</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV14_SLEW/longDesc</name>
+    <message>
+      <source>Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</source>
+      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/CA_SV1_SLEW/shortDesc</name>
     <message>
       <source>Servo 1 slew rate limit</source>
@@ -22713,6 +23617,54 @@ Zero means that slew rate limiting is disabled.
   </context>
   <context>
     <name>/parameters/CA_SV7_SLEW/longDesc</name>
+    <message>
+      <source>Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</source>
+      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV8_SLEW/shortDesc</name>
+    <message>
+      <source>Servo 8 slew rate limit</source>
+      <translation type="unfinished">Servo 8 slew rate limit</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV8_SLEW/longDesc</name>
+    <message>
+      <source>Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</source>
+      <translation type="unfinished">Forces the servo output signal to take at least the configured time (in seconds)
+to traverse its full range [-100%, 100%].
+
+Zero means that slew rate limiting is disabled.
+
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV9_SLEW/shortDesc</name>
+    <message>
+      <source>Servo 9 slew rate limit</source>
+      <translation type="unfinished">Servo 9 slew rate limit</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/CA_SV9_SLEW/longDesc</name>
     <message>
       <source>Forces the servo output signal to take at least the configured time (in seconds)
 to traverse its full range [-100%, 100%].
@@ -52198,10 +53150,10 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/category/Standard</name>
+    <name>$globals/category/Developer</name>
     <message>
-      <source>Standard</source>
-      <translation type="unfinished">Standard</translation>
+      <source>Developer</source>
+      <translation type="unfinished">Developer</translation>
     </message>
   </context>
   <context>
@@ -52212,59 +53164,24 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/category/Developer</name>
+    <name>$globals/category/Standard</name>
     <message>
-      <source>Developer</source>
-      <translation type="unfinished">Developer</translation>
+      <source>Standard</source>
+      <translation type="unfinished">Standard</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Attitude Q estimator</name>
+    <name>$globals/group/UUV Attitude Control</name>
     <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Testing</name>
+    <name>$globals/group/UXRCE-DDS Client</name>
     <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW General</name>
-    <message>
-      <source>FW General</source>
-      <translation type="unfinished">FW General</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
     </message>
   </context>
   <context>
@@ -52275,52 +53192,10 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/Septentrio</name>
+    <name>$globals/group/Simulation In Hardware</name>
     <message>
-      <source>Septentrio</source>
-      <translation type="unfinished">Septentrio</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/OSD</name>
-    <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Events</name>
-    <message>
-      <source>Events</source>
-      <translation type="unfinished">Events</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
     </message>
   </context>
   <context>
@@ -52331,122 +53206,45 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/Pure Pursuit</name>
+    <name>$globals/group/Multicopter Position Control</name>
     <message>
-      <source>Pure Pursuit</source>
-      <translation type="unfinished">Pure Pursuit</translation>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <name>$globals/group/SITL</name>
     <message>
-      <source>Multicopter Position Slow Mode</source>
-      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/PWM Outputs</name>
+    <name>$globals/group/FW Performance</name>
     <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Thermal Compensation</name>
+    <name>$globals/group/Motor Failure</name>
     <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
+      <source>Motor Failure</source>
+      <translation type="unfinished">Motor Failure</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Camera trigger</name>
+    <name>$globals/group/Mission</name>
     <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Radio Calibration</name>
+    <name>$globals/group/Testing</name>
     <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SD Logging</name>
-    <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Lateral Control</name>
-    <message>
-      <source>FW Lateral Control</source>
-      <translation type="unfinished">FW Lateral Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Vision Target Estimator</name>
-    <message>
-      <source>Vision Target Estimator</source>
-      <translation type="unfinished">Vision Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Simulation In Hardware</name>
-    <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
     </message>
   </context>
   <context>
@@ -52457,10 +53255,108 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/VTOL Attitude Control</name>
+    <name>$globals/group/Septentrio</name>
     <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
+      <source>Septentrio</source>
+      <translation type="unfinished">Septentrio</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Camera trigger</name>
+    <message>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Simulator</name>
+    <message>
+      <source>Simulator</source>
+      <translation type="unfinished">Simulator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Slow Mode</name>
+    <message>
+      <source>Multicopter Position Slow Mode</source>
+      <translation type="unfinished">Multicopter Position Slow Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Pure Pursuit</name>
+    <message>
+      <source>Pure Pursuit</source>
+      <translation type="unfinished">Pure Pursuit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Attitude Q estimator</name>
+    <message>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
     </message>
   </context>
   <context>
@@ -52478,185 +53374,10 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/Precision Land</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Longitudinal Control</name>
-    <message>
-      <source>FW Longitudinal Control</source>
-      <translation type="unfinished">FW Longitudinal Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/EKF2</name>
-    <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Detector</name>
-    <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Autotune</name>
-    <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Magnetometer Bias Estimator</name>
-    <message>
-      <source>Magnetometer Bias Estimator</source>
-      <translation type="unfinished">Magnetometer Bias Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Takeoff</name>
-    <message>
-      <source>FW Auto Takeoff</source>
-      <translation type="unfinished">FW Auto Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Motor Failure</name>
-    <message>
-      <source>Motor Failure</source>
-      <translation type="unfinished">Motor Failure</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mount</name>
-    <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return Mode</name>
-    <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Rate Control</name>
-    <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Rover Mecanum</name>
     <message>
       <source>Rover Mecanum</source>
       <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Manual Control</name>
-    <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Actuator Outputs</name>
-    <message>
-      <source>Actuator Outputs</source>
-      <translation type="unfinished">Actuator Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
     </message>
   </context>
   <context>
@@ -52667,6 +53388,13 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
+    <name>$globals/group/Flight Task Orbit</name>
+    <message>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Rover Differential</name>
     <message>
       <source>Rover Differential</source>
@@ -52674,17 +53402,10 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/Payload Deliverer</name>
+    <name>$globals/group/Rover Rate Control</name>
     <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
     </message>
   </context>
   <context>
@@ -52695,6 +53416,174 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
+    <name>$globals/group/Actuator Outputs</name>
+    <message>
+      <source>Actuator Outputs</source>
+      <translation type="unfinished">Actuator Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Longitudinal Control</name>
+    <message>
+      <source>FW Longitudinal Control</source>
+      <translation type="unfinished">FW Longitudinal Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Attitude Control</name>
+    <message>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Magnetometer Bias Estimator</name>
+    <message>
+      <source>Magnetometer Bias Estimator</source>
+      <translation type="unfinished">Magnetometer Bias Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW General</name>
+    <message>
+      <source>FW General</source>
+      <translation type="unfinished">FW General</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Vision Target Estimator</name>
+    <message>
+      <source>Vision Target Estimator</source>
+      <translation type="unfinished">Vision Target Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Manual Control</name>
+    <message>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
     <name>$globals/group/Rover Ackermann</name>
     <message>
       <source>Rover Ackermann</source>
@@ -52702,24 +53591,73 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/Multicopter Position Control</name>
+    <name>$globals/group/Events</name>
     <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
+      <source>Events</source>
+      <translation type="unfinished">Events</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/ADSB</name>
+    <name>$globals/group/FW Lateral Control</name>
     <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
+      <source>FW Lateral Control</source>
+      <translation type="unfinished">FW Lateral Control</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Simulator</name>
+    <name>$globals/group/PWM Outputs</name>
     <message>
-      <source>Simulator</source>
-      <translation type="unfinished">Simulator</translation>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Takeoff</name>
+    <message>
+      <source>FW Auto Takeoff</source>
+      <translation type="unfinished">FW Auto Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geometry</name>
+    <message>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/OSD</name>
+    <message>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Calibration</name>
+    <message>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
     </message>
   </context>
   <context>
@@ -52727,6 +53665,20 @@ the next time the estimator initializes or resets.
     <message>
       <source>Return To Land</source>
       <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
     </message>
   </context>
 </TS>
