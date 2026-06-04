@@ -4096,16 +4096,6 @@
               "message": "Reached clearance altitude",
               "name": "runway_takeoff_reached_clearance_altitude"
             },
-            "9351472": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint8_t"
-                }
-              ],
-              "message": "RTL: unsupported MAV_FRAME ({1})",
-              "name": "rtl_unsupported_mav_frame"
-            },
             "9355528": {
               "message": "Could not set mission closest to position",
               "name": "mission_failed_set_closest"

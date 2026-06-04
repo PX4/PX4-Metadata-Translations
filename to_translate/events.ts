@@ -3746,12 +3746,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/default/events/9351472/message</name>
-  <message>
-  <source>RTL: unsupported MAV_FRAME ({1})</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/default/events/9355528/message</name>
   <message>
   <source>Could not set mission closest to position</source>
