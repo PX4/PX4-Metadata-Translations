@@ -3701,6 +3701,20 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/8968453/message</name>
+  <message>
+  <source>Invalid configuration: FW_AIRSPD_MAX too low to sustain max bank angle</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/8968453/description</name>
+  <message>
+  <source>- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {1:.1}
+- &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt;: {2:.1}
+- &lt;param&gt;FW_R_LIM&lt;/param&gt;: {3:.1}</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/9013084/message</name>
   <message>
   <source>Ignoring mission request, currently busy</source>

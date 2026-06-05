@@ -4071,6 +4071,25 @@
               "message": "Mission manager currently busy, ignoring new waypoint index",
               "name": "mavlink_mission_state_busy"
             },
+            "8968453": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                },
+                {
+                  "name": "arg1",
+                  "type": "float"
+                },
+                {
+                  "name": "arg2",
+                  "type": "float"
+                }
+              ],
+              "description": "- <param>FW_AIRSPD_MIN</param>: {1:.1}\n- <param>FW_AIRSPD_MAX</param>: {2:.1}\n- <param>FW_R_LIM</param>: {3:.1}",
+              "message": "Invalid configuration: FW_AIRSPD_MAX too low to sustain max bank angle",
+              "name": "fixedwing_position_control_conf_invalid_maxbank_infeasible"
+            },
             "9013084": {
               "message": "Ignoring mission request, currently busy",
               "name": "mavlink_mission_mis_req_ignored_busy"
