@@ -3180,6 +3180,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/4502889/message</name>
+  <message>
+  <source>Blank storage, parameters reset to default</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/4519150/message</name>
   <message>
   <source>Invalid configuration: Airspeed trim out of min or max bounds</source>

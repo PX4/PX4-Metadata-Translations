@@ -3538,6 +3538,10 @@
               "name": "commander_failsafe_enter_generic_hold",
               "type": "append_health_and_arming_messages"
             },
+            "4502889": {
+              "message": "Blank storage, parameters reset to default",
+              "name": "commander_load_param_blank"
+            },
             "4519150": {
               "arguments": [
                 {
