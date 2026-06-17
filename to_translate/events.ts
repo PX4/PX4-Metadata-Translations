@@ -4228,6 +4228,19 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/health/events/7196697/message</name>
+  <message>
+  <source>ESC {3} temperature warning, {4:C}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/7196697/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; Configured by &lt;param&gt;ESC_TEMP_WARN_TH&lt;/param&gt;
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/health/events/7214714/message</name>
   <message>
   <source>System power unavailable</source>

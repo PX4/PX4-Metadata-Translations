@@ -4814,6 +4814,29 @@
               "message": "Overcurrent detected for the hipower 5V supply",
               "name": "check_power_oc_hipower"
             },
+            "7196697": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> Configured by <param>ESC_TEMP_WARN_TH</param>\n</profile>",
+              "message": "ESC {3} temperature warning, {4:C}",
+              "name": "check_esc_over_temperature"
+            },
             "7214714": {
               "arguments": [
                 {
