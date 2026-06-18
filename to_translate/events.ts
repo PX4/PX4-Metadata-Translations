@@ -4115,6 +4115,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/health/events/3713724/message</name>
+  <message>
+  <source>Companion computer temperature warning, {3} C</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/3713724/description</name>
+  <message>
+  <source>The companion computer temperature is above the warning threshold.
+
+&lt;profile name="dev"&gt; The threshold can be adjusted via &lt;param&gt;COM_CC_TEMP_WARN&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/health/events/4096753/message</name>
   <message>
   <source>GPS {3} offline</source>

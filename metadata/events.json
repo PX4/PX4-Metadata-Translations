@@ -4651,6 +4651,25 @@
               "message": "Gyro sensor {3} missing",
               "name": "check_gyro_missing"
             },
+            "3713724": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "int8_t"
+                }
+              ],
+              "description": "The companion computer temperature is above the warning threshold.\n\n<profile name=\"dev\"> The threshold can be adjusted via <param>COM_CC_TEMP_WARN</param> parameter.\n</profile>",
+              "message": "Companion computer temperature warning, {3} C",
+              "name": "check_companion_computer_temperature_high"
+            },
             "4096753": {
               "arguments": [
                 {
