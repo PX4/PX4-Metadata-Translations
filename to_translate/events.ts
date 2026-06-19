@@ -686,6 +686,12 @@
   </message>
 </context>
 <context>
+  <name>/components/1/enums/navigation_mode_group_t/entries/128/description</name>
+  <message>
+  <source>Course</source>
+  </message>
+</context>
+<context>
   <name>/components/1/enums/navigation_mode_group_t/entries/131072/description</name>
   <message>
   <source>Takeoff</source>
@@ -725,6 +731,12 @@
   <name>/components/1/enums/navigation_mode_group_t/entries/2097152/description</name>
   <message>
   <source>Orbit</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/navigation_mode_group_t/entries/256/description</name>
+  <message>
+  <source>Altitude Cruise</source>
   </message>
 </context>
 <context>
@@ -779,6 +791,12 @@
   <name>/components/1/enums/navigation_mode_group_t/entries/536870912/description</name>
   <message>
   <source>External 7</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/navigation_mode_group_t/entries/64/description</name>
+  <message>
+  <source>Position Slow</source>
   </message>
 </context>
 <context>

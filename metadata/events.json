@@ -594,6 +594,10 @@
               "description": "External 8",
               "name": "external8"
             },
+            "128": {
+              "description": "Course",
+              "name": "course"
+            },
             "131072": {
               "description": "Takeoff",
               "name": "takeoff"
@@ -621,6 +625,10 @@
             "2097152": {
               "description": "Orbit",
               "name": "orbit"
+            },
+            "256": {
+              "description": "Altitude Cruise",
+              "name": "altitude_cruise"
             },
             "262144": {
               "description": "Land",
@@ -657,6 +665,10 @@
             "536870912": {
               "description": "External 7",
               "name": "external7"
+            },
+            "64": {
+              "description": "Position Slow",
+              "name": "position_slow"
             },
             "67108864": {
               "description": "External 4",
@@ -5107,6 +5119,9 @@
           ],
           "6": [
             33751040
+          ],
+          "7": [
+            319029248
           ],
           "8": [
             720896
