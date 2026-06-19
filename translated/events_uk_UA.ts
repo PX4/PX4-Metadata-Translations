@@ -800,6 +800,13 @@
     </message>
   </context>
   <context>
+    <name>/components/1/enums/navigation_mode_group_t/entries/128/description</name>
+    <message>
+      <source>Course</source>
+      <translation type="unfinished">Course</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/131072/description</name>
     <message>
       <source>Takeoff</source>
@@ -846,6 +853,13 @@
     <message>
       <source>Orbit</source>
       <translation>Орбіта</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/enums/navigation_mode_group_t/entries/256/description</name>
+    <message>
+      <source>Altitude Cruise</source>
+      <translation type="unfinished">Altitude Cruise</translation>
     </message>
   </context>
   <context>
@@ -909,6 +923,13 @@
     <message>
       <source>External 7</source>
       <translation>Зовнішній 7</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/enums/navigation_mode_group_t/entries/64/description</name>
+    <message>
+      <source>Position Slow</source>
+      <translation type="unfinished">Position Slow</translation>
     </message>
   </context>
   <context>
