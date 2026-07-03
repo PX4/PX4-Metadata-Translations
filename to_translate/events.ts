@@ -1706,15 +1706,15 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/4554738/message</name>
   <message>
-  <source>No rally point available</source>
+  <source>No rally point configured</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/arming_check/events/4554738/description</name>
   <message>
-  <source>Upload at least one rally point before arming, or change &lt;param&gt;RTL_TYPE&lt;/param&gt;.
+  <source>No rally point is configured. Return will fall back to the current position when RTL is triggered. Upload at least one rally point, or change &lt;param&gt;RTL_TYPE&lt;/param&gt; to silence this warning.
 
-&lt;profile name="dev"&gt; This check is active when RTL_TYPE is set to 5 (safe points only).
+&lt;profile name="dev"&gt; This warning is active when RTL_TYPE is set to 5 (safe points only).
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -2266,6 +2266,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/11290563/message</name>
   <message>
   <source>Kill engaged</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/11331989/message</name>
+  <message>
+  <source>Manual control lost: switching to Hold</source>
   </message>
 </context>
 <context>

@@ -1815,8 +1815,8 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "Upload at least one rally point before arming, or change <param>RTL_TYPE</param>.\n\n<profile name=\"dev\"> This check is active when RTL_TYPE is set to 5 (safe points only).\n</profile>",
-              "message": "No rally point available",
+              "description": "No rally point is configured. Return will fall back to the current position when RTL is triggered. Upload at least one rally point, or change <param>RTL_TYPE</param> to silence this warning.\n\n<profile name=\"dev\"> This warning is active when RTL_TYPE is set to 5 (safe points only).\n</profile>",
+              "message": "No rally point configured",
               "name": "check_rally_point_missing"
             },
             "4975227": {
@@ -2581,6 +2581,10 @@
             "11290563": {
               "message": "Kill engaged",
               "name": "commander_kill_sw_engaged"
+            },
+            "11331989": {
+              "message": "Manual control lost: switching to Hold",
+              "name": "commander_rc_loss_hold_no_failsafe"
             },
             "11521721": {
               "message": "Mission rejected: Mission contains VTOL items but vehicle is not a VTOL",
