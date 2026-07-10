@@ -2966,6 +2966,10 @@
               "message": "GCS connection regained",
               "name": "commander_dl_regained"
             },
+            "14238006": {
+              "message": "RTL destination invalid, not updating",
+              "name": "rtl_destination_invalid"
+            },
             "14440680": {
               "message": "Mission sync timeout, aborting transfer",
               "name": "mavlink_mission_sync_timeout"
@@ -3178,6 +3182,16 @@
               "message": "Storage full: {1} MiB free",
               "name": "logger_storage_full"
             },
+            "16090809": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "message": "Geofence data invalid (code {1}), RTL will fly directly",
+              "name": "rtl_avoidance_build_failed"
+            },
             "16223078": {
               "message": "Landing aborted by operator",
               "name": "fixedwing_position_control_landing_abort_status_operator_abort"
@@ -3386,6 +3400,10 @@
             "3322590": {
               "message": "Landing at current position",
               "name": "commander_landing_current_pos"
+            },
+            "3327268": {
+              "message": "RTL: avoiding geofence",
+              "name": "rtl_avoiding_geofence"
             },
             "3329221": {
               "message": "Remote ID system regained",
@@ -3751,6 +3769,10 @@
               "message": "Command denied during calibration: {1}",
               "name": "commander_cal_cmd_denied"
             },
+            "5747358": {
+              "message": "RTL destination breaches geofence, will fly directly",
+              "name": "rtl_destination_breaches"
+            },
             "5795201": {
               "message": "Geofence requires a valid home position",
               "name": "navigator_mis_geofence_no_home"
@@ -4020,6 +4042,10 @@
             "8459921": {
               "message": "Mission rejected: Landing waypoint/pattern required",
               "name": "navigator_mis_land_missing"
+            },
+            "8518010": {
+              "message": "RTL: no geofence avoidance path; flying directly",
+              "name": "rtl_avoidance_runtime_fallback"
             },
             "8546752": {
               "message": "Ignoring mission item, busy",
