@@ -3123,6 +3123,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/default/events/14238006/message</name>
+    <message>
+      <source>RTL destination invalid, not updating</source>
+      <translation type="unfinished">RTL destination invalid, not updating</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/default/events/14440680/message</name>
     <message>
       <source>Mission sync timeout, aborting transfer</source>
@@ -3362,6 +3369,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 (maximum disk usage percentage) so more headroom is kept free during writing.</source>
       <translation type="unfinished">Free up space manually, or lower &lt;param&gt;SDLOG_ROTATE&lt;/param&gt;
 (maximum disk usage percentage) so more headroom is kept free during writing.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/16090809/message</name>
+    <message>
+      <source>Geofence data invalid (code {1}), RTL will fly directly</source>
+      <translation type="unfinished">Geofence data invalid (code {1}), RTL will fly directly</translation>
     </message>
   </context>
   <context>
@@ -3632,6 +3646,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>Landing at current position</source>
       <translation/>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/3327268/message</name>
+    <message>
+      <source>RTL: avoiding geofence</source>
+      <translation type="unfinished">RTL: avoiding geofence</translation>
     </message>
   </context>
   <context>
@@ -4035,6 +4056,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/default/events/5747358/message</name>
+    <message>
+      <source>RTL destination breaches geofence, will fly directly</source>
+      <translation type="unfinished">RTL destination breaches geofence, will fly directly</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/default/events/5795201/message</name>
     <message>
       <source>Geofence requires a valid home position</source>
@@ -4365,6 +4393,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>Mission rejected: Landing waypoint/pattern required</source>
       <translation>Місію відхилено: Необхідна точка приземлення/шаблону</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/8518010/message</name>
+    <message>
+      <source>RTL: no geofence avoidance path; flying directly</source>
+      <translation type="unfinished">RTL: no geofence avoidance path; flying directly</translation>
     </message>
   </context>
   <context>
