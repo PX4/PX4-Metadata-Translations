@@ -363,16 +363,32 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
   <context>
     <name>/parameters/ADSB_ICAO_ID/shortDesc</name>
     <message>
-      <source>ADSB-Out ICAO configuration</source>
-      <translation type="unfinished">ADSB-Out ICAO configuration</translation>
+      <source>ADSB-Out ICAO ID</source>
+      <translation type="unfinished">ADSB-Out ICAO ID</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_ICAO_ID/longDesc</name>
     <message>
-      <source>Defines the ICAO ID of the vehicle
+      <source>Vehicle ICAO ID. Use -1 to disable.
 </source>
-      <translation type="unfinished">Defines the ICAO ID of the vehicle
+      <translation type="unfinished">Vehicle ICAO ID. Use -1 to disable.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/ADSB_ICAO_ID_2/shortDesc</name>
+    <message>
+      <source>Secondary ownship ICAO ID</source>
+      <translation type="unfinished">Secondary ownship ICAO ID</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/ADSB_ICAO_ID_2/longDesc</name>
+    <message>
+      <source>Optional second ownship ICAO ID used to filter self-detections. Use -1 to disable.
+</source>
+      <translation type="unfinished">Optional second ownship ICAO ID used to filter self-detections. Use -1 to disable.
 </translation>
     </message>
   </context>
@@ -13436,6 +13452,449 @@ from there (Return/Land/Descend/Terminate as applicable).
     </message>
   </context>
   <context>
+    <name>/parameters/DAA_EN/shortDesc</name>
+    <message>
+      <source>Enable DAA</source>
+      <translation type="unfinished">Enable DAA</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_EN/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_EN/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_NOTIF_STATE/shortDesc</name>
+    <message>
+      <source>DAA status notification period</source>
+      <translation type="unfinished">DAA status notification period</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_NOTIF_STATE/longDesc</name>
+    <message>
+      <source>Time between notifications for the most urgent conflict. Set to 0 to disable the periodic status notification.
+</source>
+      <translation type="unfinished">Time between notifications for the most urgent conflict. Set to 0 to disable the periodic status notification.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_TRAFF_TOUT/shortDesc</name>
+    <message>
+      <source>DAA stale conflict timeout</source>
+      <translation type="unfinished">DAA stale conflict timeout</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_TRAFF_TOUT/longDesc</name>
+    <message>
+      <source>Conflict age before removal.
+</source>
+      <translation type="unfinished">Conflict age before removal.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_DFLT_VEL/shortDesc</name>
+    <message>
+      <source>Default vertical speed of other aircraft</source>
+      <translation type="unfinished">Default vertical speed of other aircraft</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_DFLT_VEL/longDesc</name>
+    <message>
+      <source>Used when DAA_EN_DFLT_VEL is enabled. Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Used when DAA_EN_DFLT_VEL is enabled. Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_EN_DFLT_VEL/shortDesc</name>
+    <message>
+      <source>Ignore reported vertical speed of other aircraft</source>
+      <translation type="unfinished">Ignore reported vertical speed of other aircraft</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_EN_DFLT_VEL/longDesc</name>
+    <message>
+      <source>Use DAA_DFLT_VEL instead of reported traffic vertical speed. Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Use DAA_DFLT_VEL instead of reported traffic vertical speed. Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_EN_DFLT_VEL/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_EN_DFLT_VEL/values/1/description</name>
+    <message>
+      <source>Enabled</source>
+      <translation type="unfinished">Enabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_ACT/shortDesc</name>
+    <message>
+      <source>Critical conflict action</source>
+      <translation type="unfinished">Critical conflict action</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_ACT/longDesc</name>
+    <message>
+      <source>Action requested when the critical conflict level is reached.
+Runtime changes apply on later conflict level transitions.
+Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Action requested when the critical conflict level is reached.
+Runtime changes apply on later conflict level transitions.
+Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_ACT/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_ACT/values/1/description</name>
+    <message>
+      <source>Warn only</source>
+      <translation type="unfinished">Warn only</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_ACT/values/2/description</name>
+    <message>
+      <source>Return mode</source>
+      <translation type="unfinished">Return mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_ACT/values/3/description</name>
+    <message>
+      <source>Land mode</source>
+      <translation type="unfinished">Land mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_ACT/values/4/description</name>
+    <message>
+      <source>Position Hold mode</source>
+      <translation type="unfinished">Position Hold mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_ACT/values/5/description</name>
+    <message>
+      <source>Terminate</source>
+      <translation type="unfinished">Terminate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_HGT/shortDesc</name>
+    <message>
+      <source>Critical conflict zone cylinder height (NMAC)</source>
+      <translation type="unfinished">Critical conflict zone cylinder height (NMAC)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_HGT/longDesc</name>
+    <message>
+      <source>Per-aircraft half-zone. Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Per-aircraft half-zone. Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_RAD/shortDesc</name>
+    <message>
+      <source>Critical conflict zone cylinder radius (NMAC)</source>
+      <translation type="unfinished">Critical conflict zone cylinder radius (NMAC)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_CRIT_RAD/longDesc</name>
+    <message>
+      <source>Per-aircraft half-zone. Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Per-aircraft half-zone. Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_ACT/shortDesc</name>
+    <message>
+      <source>High conflict action</source>
+      <translation type="unfinished">High conflict action</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_ACT/longDesc</name>
+    <message>
+      <source>Action requested when the high conflict level is reached.
+Runtime changes apply on later conflict level transitions.
+Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Action requested when the high conflict level is reached.
+Runtime changes apply on later conflict level transitions.
+Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_ACT/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_ACT/values/1/description</name>
+    <message>
+      <source>Warn only</source>
+      <translation type="unfinished">Warn only</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_ACT/values/2/description</name>
+    <message>
+      <source>Return mode</source>
+      <translation type="unfinished">Return mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_ACT/values/3/description</name>
+    <message>
+      <source>Land mode</source>
+      <translation type="unfinished">Land mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_ACT/values/4/description</name>
+    <message>
+      <source>Position Hold mode</source>
+      <translation type="unfinished">Position Hold mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_ACT/values/5/description</name>
+    <message>
+      <source>Terminate</source>
+      <translation type="unfinished">Terminate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_HGT/shortDesc</name>
+    <message>
+      <source>High conflict zone cylinder height (WC)</source>
+      <translation type="unfinished">High conflict zone cylinder height (WC)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_HGT/longDesc</name>
+    <message>
+      <source>Per-aircraft half-zone. Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Per-aircraft half-zone. Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_RAD/shortDesc</name>
+    <message>
+      <source>High conflict zone cylinder radius (WC)</source>
+      <translation type="unfinished">High conflict zone cylinder radius (WC)</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_HIGH_RAD/longDesc</name>
+    <message>
+      <source>Per-aircraft half-zone. Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Per-aircraft half-zone. Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_ACT/shortDesc</name>
+    <message>
+      <source>Low conflict action</source>
+      <translation type="unfinished">Low conflict action</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_ACT/longDesc</name>
+    <message>
+      <source>Action requested when the low conflict level is reached.
+Runtime changes apply on later conflict level transitions.
+Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Action requested when the low conflict level is reached.
+Runtime changes apply on later conflict level transitions.
+Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_ACT/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_ACT/values/1/description</name>
+    <message>
+      <source>Warn only</source>
+      <translation type="unfinished">Warn only</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_ACT/values/2/description</name>
+    <message>
+      <source>Return mode</source>
+      <translation type="unfinished">Return mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_ACT/values/3/description</name>
+    <message>
+      <source>Land mode</source>
+      <translation type="unfinished">Land mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_ACT/values/4/description</name>
+    <message>
+      <source>Position Hold mode</source>
+      <translation type="unfinished">Position Hold mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_ACT/values/5/description</name>
+    <message>
+      <source>Terminate</source>
+      <translation type="unfinished">Terminate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_TIME/shortDesc</name>
+    <message>
+      <source>Low conflict latency time</source>
+      <translation type="unfinished">Low conflict latency time</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_LOW_TIME/longDesc</name>
+    <message>
+      <source>Expands well-clear bounds by aircraft speed times this value. Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Expands well-clear bounds by aircraft speed times this value. Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_ACT/shortDesc</name>
+    <message>
+      <source>Medium conflict action</source>
+      <translation type="unfinished">Medium conflict action</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_ACT/longDesc</name>
+    <message>
+      <source>Action requested when the medium conflict level is reached.
+Runtime changes apply on later conflict level transitions.
+Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Action requested when the medium conflict level is reached.
+Runtime changes apply on later conflict level transitions.
+Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_ACT/values/0/description</name>
+    <message>
+      <source>Disabled</source>
+      <translation type="unfinished">Disabled</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_ACT/values/1/description</name>
+    <message>
+      <source>Warn only</source>
+      <translation type="unfinished">Warn only</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_ACT/values/2/description</name>
+    <message>
+      <source>Return mode</source>
+      <translation type="unfinished">Return mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_ACT/values/3/description</name>
+    <message>
+      <source>Land mode</source>
+      <translation type="unfinished">Land mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_ACT/values/4/description</name>
+    <message>
+      <source>Position Hold mode</source>
+      <translation type="unfinished">Position Hold mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_ACT/values/5/description</name>
+    <message>
+      <source>Terminate</source>
+      <translation type="unfinished">Terminate</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_TIME/shortDesc</name>
+    <message>
+      <source>Medium conflict latency time</source>
+      <translation type="unfinished">Medium conflict latency time</translation>
+    </message>
+  </context>
+  <context>
+    <name>/parameters/DAA_LVL_MED_TIME/longDesc</name>
+    <message>
+      <source>Expands NMAC bounds by aircraft speed times this value. Specific to the F3442 DAA standard.
+</source>
+      <translation type="unfinished">Expands NMAC bounds by aircraft speed times this value. Specific to the F3442 DAA standard.
+</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/EKF2_ABIAS_INIT/shortDesc</name>
     <message>
       <source>1-sigma IMU accelerometer switch-on bias</source>
@@ -26087,11 +26546,13 @@ by the innovation consistency test.
   <context>
     <name>/parameters/HTE_HT_ERR_INIT/longDesc</name>
     <message>
-      <source>Sets the number of standard deviations used
-by the innovation consistency test.
+      <source>Initial standard deviation of the hover thrust state estimate.
+Larger values allow the estimate to move farther from the initial
+hover thrust before process noise takes over.
 </source>
-      <translation type="unfinished">Sets the number of standard deviations used
-by the innovation consistency test.
+      <translation type="unfinished">Initial standard deviation of the hover thrust state estimate.
+Larger values allow the estimate to move farther from the initial
+hover thrust before process noise takes over.
 </translation>
     </message>
   </context>
@@ -28988,18 +29449,18 @@ Set to a negative value to disable.
   <context>
     <name>/parameters/NAV_TRAFF_AVOID/shortDesc</name>
     <message>
-      <source>Set traffic avoidance mode</source>
-      <translation type="unfinished">Set traffic avoidance mode</translation>
+      <source>Set traffic avoidance action</source>
+      <translation type="unfinished">Set traffic avoidance action</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_TRAFF_AVOID/longDesc</name>
     <message>
-      <source>Enabling this will allow the system to respond
-to transponder data from e.g. ADSB transponders
+      <source>Action requested for a crosstrack traffic conflict.
+Runtime changes apply on later conflict level transitions.
 </source>
-      <translation type="unfinished">Enabling this will allow the system to respond
-to transponder data from e.g. ADSB transponders
+      <translation type="unfinished">Action requested for a crosstrack traffic conflict.
+Runtime changes apply on later conflict level transitions.
 </translation>
     </message>
   </context>
@@ -29039,43 +29500,50 @@ to transponder data from e.g. ADSB transponders
     </message>
   </context>
   <context>
+    <name>/parameters/NAV_TRAFF_AVOID/values/5/description</name>
+    <message>
+      <source>Terminate</source>
+      <translation type="unfinished">Terminate</translation>
+    </message>
+  </context>
+  <context>
     <name>/parameters/NAV_TRAFF_A_HOR/shortDesc</name>
     <message>
-      <source>Set NAV TRAFFIC AVOID horizontal distance</source>
-      <translation type="unfinished">Set NAV TRAFFIC AVOID horizontal distance</translation>
+      <source>Crosstrack conflict distance threshold</source>
+      <translation type="unfinished">Crosstrack conflict distance threshold</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_TRAFF_A_HOR/longDesc</name>
     <message>
-      <source>Defines a crosstrack horizontal distance
+      <source>Maximum absolute distance from the projected traffic track.
 </source>
-      <translation type="unfinished">Defines a crosstrack horizontal distance
+      <translation type="unfinished">Maximum absolute distance from the projected traffic track.
 </translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_TRAFF_A_VER/shortDesc</name>
     <message>
-      <source>Set NAV TRAFFIC AVOID vertical distance</source>
-      <translation type="unfinished">Set NAV TRAFFIC AVOID vertical distance</translation>
+      <source>Crosstrack vertical separation threshold</source>
+      <translation type="unfinished">Crosstrack vertical separation threshold</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_TRAFF_COLL_T/shortDesc</name>
     <message>
-      <source>Estimated time until collision</source>
-      <translation type="unfinished">Estimated time until collision</translation>
+      <source>Crosstrack collision time threshold</source>
+      <translation type="unfinished">Crosstrack collision time threshold</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_TRAFF_COLL_T/longDesc</name>
     <message>
-      <source>Minimum acceptable time until collsion.
-Assumes constant speed over 3d distance.
+      <source>A conflict is raised when the time estimate is below this threshold.
+The estimate is the current 3D separation divided by the sum of the ownship and traffic speed magnitudes.
 </source>
-      <translation type="unfinished">Minimum acceptable time until collsion.
-Assumes constant speed over 3d distance.
+      <translation type="unfinished">A conflict is raised when the time estimate is below this threshold.
+The estimate is the current 3D separation divided by the sum of the ownship and traffic speed magnitudes.
 </translation>
     </message>
   </context>
@@ -29601,10 +30069,20 @@ The rest will be deprecated.
       <source>This is the protocol used between the autopilot and a connected gimbal.
 
 Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.
+
+In AUX mode, the gimbal (and hence the gimbal manager) is only made
+available if at least one output channel is assigned a gimbal
+roll/pitch/yaw output function (checked once at startup, so newly
+assigned output functions require a reboot).
 </source>
       <translation type="unfinished">This is the protocol used between the autopilot and a connected gimbal.
 
 Recommended is the MAVLink gimbal protocol v2 if the gimbal supports it.
+
+In AUX mode, the gimbal (and hence the gimbal manager) is only made
+available if at least one output channel is assigned a gimbal
+roll/pitch/yaw output function (checked once at startup, so newly
+assigned output functions require a reboot).
 </translation>
     </message>
   </context>
@@ -30272,13 +30750,11 @@ Unset if accurate position tracking during dynamic maneuvers is more important t
   <context>
     <name>/parameters/MPC_ACC_HOR_MAX/longDesc</name>
     <message>
-      <source>MPC_POS_MODE
-1 just deceleration
-4 not used, use MPC_ACC_HOR instead
+      <source>With MPC_POS_MODE=0 it limits deceleration.
+With MPC_POS_MODE=4 it is unused (see MPC_ACC_HOR).
 </source>
-      <translation type="unfinished">MPC_POS_MODE
-1 just deceleration
-4 not used, use MPC_ACC_HOR instead
+      <translation type="unfinished">With MPC_POS_MODE=0 it limits deceleration.
+With MPC_POS_MODE=4 it is unused (see MPC_ACC_HOR).
 </translation>
     </message>
   </context>
@@ -53432,10 +53908,10 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/category/System</name>
+    <name>$globals/category/Developer</name>
     <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
+      <source>Developer</source>
+      <translation type="unfinished">Developer</translation>
     </message>
   </context>
   <context>
@@ -53446,94 +53922,17 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/category/Developer</name>
+    <name>$globals/category/System</name>
     <message>
-      <source>Developer</source>
-      <translation type="unfinished">Developer</translation>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Simulation In Hardware</name>
+    <name>$globals/group/OSD</name>
     <message>
-      <source>Simulation In Hardware</source>
-      <translation type="unfinished">Simulation In Hardware</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Switches</name>
-    <message>
-      <source>Radio Switches</source>
-      <translation type="unfinished">Radio Switches</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Ackermann</name>
-    <message>
-      <source>Rover Ackermann</source>
-      <translation type="unfinished">Rover Ackermann</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Testing</name>
-    <message>
-      <source>Testing</source>
-      <translation type="unfinished">Testing</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Circuit Breaker</name>
-    <message>
-      <source>Circuit Breaker</source>
-      <translation type="unfinished">Circuit Breaker</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Position Control</name>
-    <message>
-      <source>UUV Position Control</source>
-      <translation type="unfinished">UUV Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Longitudinal Control</name>
-    <message>
-      <source>FW Longitudinal Control</source>
-      <translation type="unfinished">FW Longitudinal Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Mecanum</name>
-    <message>
-      <source>Rover Mecanum</source>
-      <translation type="unfinished">Rover Mecanum</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW General</name>
-    <message>
-      <source>FW General</source>
-      <translation type="unfinished">FW General</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Runway Takeoff</name>
-    <message>
-      <source>Runway Takeoff</source>
-      <translation type="unfinished">Runway Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/SD Logging</name>
-    <message>
-      <source>SD Logging</source>
-      <translation type="unfinished">SD Logging</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Landing</name>
-    <message>
-      <source>FW Auto Landing</source>
-      <translation type="unfinished">FW Auto Landing</translation>
+      <source>OSD</source>
+      <translation type="unfinished">OSD</translation>
     </message>
   </context>
   <context>
@@ -53544,188 +53943,6 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/SITL</name>
-    <message>
-      <source>SITL</source>
-      <translation type="unfinished">SITL</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UUV Attitude Control</name>
-    <message>
-      <source>UUV Attitude Control</source>
-      <translation type="unfinished">UUV Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Acro Mode</name>
-    <message>
-      <source>Multicopter Acro Mode</source>
-      <translation type="unfinished">Multicopter Acro Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Lateral Control</name>
-    <message>
-      <source>FW Lateral Control</source>
-      <translation type="unfinished">FW Lateral Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/GPS</name>
-    <message>
-      <source>GPS</source>
-      <translation type="unfinished">GPS</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Velocity Control</name>
-    <message>
-      <source>Rover Velocity Control</source>
-      <translation type="unfinished">Rover Velocity Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/System</name>
-    <message>
-      <source>System</source>
-      <translation type="unfinished">System</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Radio Calibration</name>
-    <message>
-      <source>Radio Calibration</source>
-      <translation type="unfinished">Radio Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Land Detector</name>
-    <message>
-      <source>Land Detector</source>
-      <translation type="unfinished">Land Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Failure Injection</name>
-    <message>
-      <source>Failure Injection</source>
-      <translation type="unfinished">Failure Injection</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mission</name>
-    <message>
-      <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Payload Deliverer</name>
-    <message>
-      <source>Payload Deliverer</source>
-      <translation type="unfinished">Payload Deliverer</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Septentrio</name>
-    <message>
-      <source>Septentrio</source>
-      <translation type="unfinished">Septentrio</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Commander</name>
-    <message>
-      <source>Commander</source>
-      <translation type="unfinished">Commander</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Manual Control</name>
-    <message>
-      <source>Manual Control</source>
-      <translation type="unfinished">Manual Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Vision Target Estimator</name>
-    <message>
-      <source>Vision Target Estimator</source>
-      <translation type="unfinished">Vision Target Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Attitude Control</name>
-    <message>
-      <source>VTOL Attitude Control</source>
-      <translation type="unfinished">VTOL Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mixer Output</name>
-    <message>
-      <source>Mixer Output</source>
-      <translation type="unfinished">Mixer Output</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensors</name>
-    <message>
-      <source>Sensors</source>
-      <translation type="unfinished">Sensors</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/VTOL Takeoff</name>
-    <message>
-      <source>VTOL Takeoff</source>
-      <translation type="unfinished">VTOL Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/MAVLink</name>
-    <message>
-      <source>MAVLink</source>
-      <translation type="unfinished">MAVLink</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/ADSB</name>
-    <message>
-      <source>ADSB</source>
-      <translation type="unfinished">ADSB</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Battery Calibration</name>
-    <message>
-      <source>Battery Calibration</source>
-      <translation type="unfinished">Battery Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geofence</name>
-    <message>
-      <source>Geofence</source>
-      <translation type="unfinished">Geofence</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Auto Takeoff</name>
-    <message>
-      <source>FW Auto Takeoff</source>
-      <translation type="unfinished">FW Auto Takeoff</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Performance</name>
-    <message>
-      <source>FW Performance</source>
-      <translation type="unfinished">FW Performance</translation>
-    </message>
-  </context>
-  <context>
     <name>$globals/group/Actuator Outputs</name>
     <message>
       <source>Actuator Outputs</source>
@@ -53733,66 +53950,10 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/Failure Detector</name>
+    <name>$globals/group/FW Longitudinal Control</name>
     <message>
-      <source>Failure Detector</source>
-      <translation type="unfinished">Failure Detector</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Sensor Calibration</name>
-    <message>
-      <source>Sensor Calibration</source>
-      <translation type="unfinished">Sensor Calibration</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Motor Failure</name>
-    <message>
-      <source>Motor Failure</source>
-      <translation type="unfinished">Motor Failure</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/UXRCE-DDS Client</name>
-    <message>
-      <source>UXRCE-DDS Client</source>
-      <translation type="unfinished">UXRCE-DDS Client</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Autotune</name>
-    <message>
-      <source>Autotune</source>
-      <translation type="unfinished">Autotune</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Rate Control</name>
-    <message>
-      <source>Rover Rate Control</source>
-      <translation type="unfinished">Rover Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Attitude Control</name>
-    <message>
-      <source>Multicopter Attitude Control</source>
-      <translation type="unfinished">Multicopter Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Position Control</name>
-    <message>
-      <source>Multicopter Position Control</source>
-      <translation type="unfinished">Multicopter Position Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Precision Land</name>
-    <message>
-      <source>Precision Land</source>
-      <translation type="unfinished">Precision Land</translation>
+      <source>FW Longitudinal Control</source>
+      <translation type="unfinished">FW Longitudinal Control</translation>
     </message>
   </context>
   <context>
@@ -53803,150 +53964,17 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/EKF2</name>
+    <name>$globals/group/Vision Target Estimator</name>
     <message>
-      <source>EKF2</source>
-      <translation type="unfinished">EKF2</translation>
+      <source>Vision Target Estimator</source>
+      <translation type="unfinished">Vision Target Estimator</translation>
     </message>
   </context>
   <context>
-    <name>$globals/group/Return Mode</name>
+    <name>$globals/group/Radio Switches</name>
     <message>
-      <source>Return Mode</source>
-      <translation type="unfinished">Return Mode</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Hover Thrust Estimator</name>
-    <message>
-      <source>Hover Thrust Estimator</source>
-      <translation type="unfinished">Hover Thrust Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Events</name>
-    <message>
-      <source>Events</source>
-      <translation type="unfinished">Events</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Multicopter Rate Control</name>
-    <message>
-      <source>Multicopter Rate Control</source>
-      <translation type="unfinished">Multicopter Rate Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Geometry</name>
-    <message>
-      <source>Geometry</source>
-      <translation type="unfinished">Geometry</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Local Position Estimator</name>
-    <message>
-      <source>Local Position Estimator</source>
-      <translation type="unfinished">Local Position Estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/PWM Outputs</name>
-    <message>
-      <source>PWM Outputs</source>
-      <translation type="unfinished">PWM Outputs</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Attitude Q estimator</name>
-    <message>
-      <source>Attitude Q estimator</source>
-      <translation type="unfinished">Attitude Q estimator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Pure Pursuit</name>
-    <message>
-      <source>Pure Pursuit</source>
-      <translation type="unfinished">Pure Pursuit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Return To Land</name>
-    <message>
-      <source>Return To Land</source>
-      <translation type="unfinished">Return To Land</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Thermal Compensation</name>
-    <message>
-      <source>Thermal Compensation</source>
-      <translation type="unfinished">Thermal Compensation</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Airspeed Validator</name>
-    <message>
-      <source>Airspeed Validator</source>
-      <translation type="unfinished">Airspeed Validator</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Rover Attitude Control</name>
-    <message>
-      <source>Rover Attitude Control</source>
-      <translation type="unfinished">Rover Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Camera trigger</name>
-    <message>
-      <source>Camera trigger</source>
-      <translation type="unfinished">Camera trigger</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Follow target</name>
-    <message>
-      <source>Follow target</source>
-      <translation type="unfinished">Follow target</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Flight Task Orbit</name>
-    <message>
-      <source>Flight Task Orbit</source>
-      <translation type="unfinished">Flight Task Orbit</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Attitude Control</name>
-    <message>
-      <source>FW Attitude Control</source>
-      <translation type="unfinished">FW Attitude Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW NPFG Control</name>
-    <message>
-      <source>FW NPFG Control</source>
-      <translation type="unfinished">FW NPFG Control</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/Mount</name>
-    <message>
-      <source>Mount</source>
-      <translation type="unfinished">Mount</translation>
-    </message>
-  </context>
-  <context>
-    <name>$globals/group/FW Rate Control</name>
-    <message>
-      <source>FW Rate Control</source>
-      <translation type="unfinished">FW Rate Control</translation>
+      <source>Radio Switches</source>
+      <translation type="unfinished">Radio Switches</translation>
     </message>
   </context>
   <context>
@@ -53957,10 +53985,136 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/Rover Differential</name>
+    <name>$globals/group/Manual Control</name>
     <message>
-      <source>Rover Differential</source>
-      <translation type="unfinished">Rover Differential</translation>
+      <source>Manual Control</source>
+      <translation type="unfinished">Manual Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Landing</name>
+    <message>
+      <source>FW Auto Landing</source>
+      <translation type="unfinished">FW Auto Landing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Attitude Control</name>
+    <message>
+      <source>UUV Attitude Control</source>
+      <translation type="unfinished">UUV Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Flight Task Orbit</name>
+    <message>
+      <source>Flight Task Orbit</source>
+      <translation type="unfinished">Flight Task Orbit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Attitude Control</name>
+    <message>
+      <source>VTOL Attitude Control</source>
+      <translation type="unfinished">VTOL Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Performance</name>
+    <message>
+      <source>FW Performance</source>
+      <translation type="unfinished">FW Performance</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mount</name>
+    <message>
+      <source>Mount</source>
+      <translation type="unfinished">Mount</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return Mode</name>
+    <message>
+      <source>Return Mode</source>
+      <translation type="unfinished">Return Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Attitude Control</name>
+    <message>
+      <source>Multicopter Attitude Control</source>
+      <translation type="unfinished">Multicopter Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Local Position Estimator</name>
+    <message>
+      <source>Local Position Estimator</source>
+      <translation type="unfinished">Local Position Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UUV Position Control</name>
+    <message>
+      <source>UUV Position Control</source>
+      <translation type="unfinished">UUV Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Return To Land</name>
+    <message>
+      <source>Return To Land</source>
+      <translation type="unfinished">Return To Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Mecanum</name>
+    <message>
+      <source>Rover Mecanum</source>
+      <translation type="unfinished">Rover Mecanum</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Radio Calibration</name>
+    <message>
+      <source>Radio Calibration</source>
+      <translation type="unfinished">Radio Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Events</name>
+    <message>
+      <source>Events</source>
+      <translation type="unfinished">Events</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Ackermann</name>
+    <message>
+      <source>Rover Ackermann</source>
+      <translation type="unfinished">Rover Ackermann</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geometry</name>
+    <message>
+      <source>Geometry</source>
+      <translation type="unfinished">Geometry</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mission</name>
+    <message>
+      <source>Mission</source>
+      <translation type="unfinished">Mission</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Detector</name>
+    <message>
+      <source>Failure Detector</source>
+      <translation type="unfinished">Failure Detector</translation>
     </message>
   </context>
   <context>
@@ -53971,10 +54125,346 @@ the next time the estimator initializes or resets.
     </message>
   </context>
   <context>
-    <name>$globals/group/OSD</name>
+    <name>$globals/group/Simulation In Hardware</name>
     <message>
-      <source>OSD</source>
-      <translation type="unfinished">OSD</translation>
+      <source>Simulation In Hardware</source>
+      <translation type="unfinished">Simulation In Hardware</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Septentrio</name>
+    <message>
+      <source>Septentrio</source>
+      <translation type="unfinished">Septentrio</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Acro Mode</name>
+    <message>
+      <source>Multicopter Acro Mode</source>
+      <translation type="unfinished">Multicopter Acro Mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/EKF2</name>
+    <message>
+      <source>EKF2</source>
+      <translation type="unfinished">EKF2</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Detect and Avoid</name>
+    <message>
+      <source>Detect and Avoid</source>
+      <translation type="unfinished">Detect and Avoid</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensors</name>
+    <message>
+      <source>Sensors</source>
+      <translation type="unfinished">Sensors</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW General</name>
+    <message>
+      <source>FW General</source>
+      <translation type="unfinished">FW General</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Geofence</name>
+    <message>
+      <source>Geofence</source>
+      <translation type="unfinished">Geofence</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Circuit Breaker</name>
+    <message>
+      <source>Circuit Breaker</source>
+      <translation type="unfinished">Circuit Breaker</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Runway Takeoff</name>
+    <message>
+      <source>Runway Takeoff</source>
+      <translation type="unfinished">Runway Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/GPS</name>
+    <message>
+      <source>GPS</source>
+      <translation type="unfinished">GPS</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Commander</name>
+    <message>
+      <source>Commander</source>
+      <translation type="unfinished">Commander</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW NPFG Control</name>
+    <message>
+      <source>FW NPFG Control</source>
+      <translation type="unfinished">FW NPFG Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/PWM Outputs</name>
+    <message>
+      <source>PWM Outputs</source>
+      <translation type="unfinished">PWM Outputs</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/System</name>
+    <message>
+      <source>System</source>
+      <translation type="unfinished">System</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Mixer Output</name>
+    <message>
+      <source>Mixer Output</source>
+      <translation type="unfinished">Mixer Output</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/MAVLink</name>
+    <message>
+      <source>MAVLink</source>
+      <translation type="unfinished">MAVLink</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Motor Failure</name>
+    <message>
+      <source>Motor Failure</source>
+      <translation type="unfinished">Motor Failure</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Attitude Q estimator</name>
+    <message>
+      <source>Attitude Q estimator</source>
+      <translation type="unfinished">Attitude Q estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/ADSB</name>
+    <message>
+      <source>ADSB</source>
+      <translation type="unfinished">ADSB</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Velocity Control</name>
+    <message>
+      <source>Rover Velocity Control</source>
+      <translation type="unfinished">Rover Velocity Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Autotune</name>
+    <message>
+      <source>Autotune</source>
+      <translation type="unfinished">Autotune</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Differential</name>
+    <message>
+      <source>Rover Differential</source>
+      <translation type="unfinished">Rover Differential</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Attitude Control</name>
+    <message>
+      <source>Rover Attitude Control</source>
+      <translation type="unfinished">Rover Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Position Control</name>
+    <message>
+      <source>Multicopter Position Control</source>
+      <translation type="unfinished">Multicopter Position Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Sensor Calibration</name>
+    <message>
+      <source>Sensor Calibration</source>
+      <translation type="unfinished">Sensor Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Camera trigger</name>
+    <message>
+      <source>Camera trigger</source>
+      <translation type="unfinished">Camera trigger</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Multicopter Rate Control</name>
+    <message>
+      <source>Multicopter Rate Control</source>
+      <translation type="unfinished">Multicopter Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Testing</name>
+    <message>
+      <source>Testing</source>
+      <translation type="unfinished">Testing</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/VTOL Takeoff</name>
+    <message>
+      <source>VTOL Takeoff</source>
+      <translation type="unfinished">VTOL Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Land Detector</name>
+    <message>
+      <source>Land Detector</source>
+      <translation type="unfinished">Land Detector</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Battery Calibration</name>
+    <message>
+      <source>Battery Calibration</source>
+      <translation type="unfinished">Battery Calibration</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Attitude Control</name>
+    <message>
+      <source>FW Attitude Control</source>
+      <translation type="unfinished">FW Attitude Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Detect and Avoid F3442 Standard</name>
+    <message>
+      <source>Detect and Avoid F3442 Standard</source>
+      <translation type="unfinished">Detect and Avoid F3442 Standard</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Lateral Control</name>
+    <message>
+      <source>FW Lateral Control</source>
+      <translation type="unfinished">FW Lateral Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Follow target</name>
+    <message>
+      <source>Follow target</source>
+      <translation type="unfinished">Follow target</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Payload Deliverer</name>
+    <message>
+      <source>Payload Deliverer</source>
+      <translation type="unfinished">Payload Deliverer</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SITL</name>
+    <message>
+      <source>SITL</source>
+      <translation type="unfinished">SITL</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Auto Takeoff</name>
+    <message>
+      <source>FW Auto Takeoff</source>
+      <translation type="unfinished">FW Auto Takeoff</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Hover Thrust Estimator</name>
+    <message>
+      <source>Hover Thrust Estimator</source>
+      <translation type="unfinished">Hover Thrust Estimator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/UXRCE-DDS Client</name>
+    <message>
+      <source>UXRCE-DDS Client</source>
+      <translation type="unfinished">UXRCE-DDS Client</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/SD Logging</name>
+    <message>
+      <source>SD Logging</source>
+      <translation type="unfinished">SD Logging</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Failure Injection</name>
+    <message>
+      <source>Failure Injection</source>
+      <translation type="unfinished">Failure Injection</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Airspeed Validator</name>
+    <message>
+      <source>Airspeed Validator</source>
+      <translation type="unfinished">Airspeed Validator</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Rover Rate Control</name>
+    <message>
+      <source>Rover Rate Control</source>
+      <translation type="unfinished">Rover Rate Control</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Thermal Compensation</name>
+    <message>
+      <source>Thermal Compensation</source>
+      <translation type="unfinished">Thermal Compensation</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Precision Land</name>
+    <message>
+      <source>Precision Land</source>
+      <translation type="unfinished">Precision Land</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/Pure Pursuit</name>
+    <message>
+      <source>Pure Pursuit</source>
+      <translation type="unfinished">Pure Pursuit</translation>
+    </message>
+  </context>
+  <context>
+    <name>$globals/group/FW Rate Control</name>
+    <message>
+      <source>FW Rate Control</source>
+      <translation type="unfinished">FW Rate Control</translation>
     </message>
   </context>
 </TS>
