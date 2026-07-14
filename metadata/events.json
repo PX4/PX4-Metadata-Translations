@@ -2054,6 +2054,21 @@
               "message": "RC calibration for channel {3} invalid: MIN less than {4}",
               "name": "check_rc_min_too_small"
             },
+            "7612029": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Resolve the reported detect-and-avoid conflict before arming.",
+              "message": "Air conflict detected",
+              "name": "check_daa_conflict"
+            },
             "7662152": {
               "arguments": [
                 {
@@ -2415,25 +2430,6 @@
               "message": "RTL Mission Land: climb to {1m_v}",
               "name": "rtl_mission_land_climb"
             },
-            "10236960": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "int32_t"
-                },
-                {
-                  "name": "arg2",
-                  "type": "int16_t"
-                }
-              ],
-              "description": "- ICAO Address: {1}\n- Traffic Separation Distance: {2m}\n- Heading: {3} degrees",
-              "message": "Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}",
-              "name": "navigator_traffic"
-            },
             "10250020": {
               "arguments": [
                 {
@@ -2503,25 +2499,6 @@
             "10658115": {
               "message": "SET_POSITION_TARGET_GLOBAL_INT: FORCE is not supported",
               "name": "mavlink_rcv_sp_target_gl_unsup_force"
-            },
-            "10664053": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "int32_t"
-                },
-                {
-                  "name": "arg2",
-                  "type": "int16_t"
-                }
-              ],
-              "description": "- ICAO Address: {1}\n- Traffic Separation Distance: {2m}\n- Heading: {3} degrees",
-              "message": "Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, returning home",
-              "name": "navigator_traffic_rtl"
             },
             "10716939": {
               "message": "Onboard controller regained",
@@ -2733,6 +2710,29 @@
             "12320347": {
               "message": "Primary airspeed index bigger than number connected sensors, taking last sensor",
               "name": "airspeed_selector_prim_too_high"
+            },
+            "12399035": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint64_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg2",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg3",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "- ID: {1}\n- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)\n- cause: {3} (0:buffer full)\n- conflict level: {4}",
+              "message": "DAA: ignored",
+              "name": "navigator_traffic_ignore"
             },
             "12464476": {
               "message": "Ready for throw launch",
@@ -3153,10 +3153,6 @@
               "message": "Target relative: unsupported coordinate frame {1} when the q_sensor is not filled",
               "name": "mavlink_rcv_target_rel_q_sensor_not_filled"
             },
-            "1593841": {
-              "message": "Too much traffic! Showing all messages from now on",
-              "name": "buffer_full"
-            },
             "16017271": {
               "arguments": [
                 {
@@ -3255,25 +3251,6 @@
             "1746622": {
               "message": "Pilot took over using sticks",
               "name": "commander_rc_override"
-            },
-            "1801328": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "int32_t"
-                },
-                {
-                  "name": "arg2",
-                  "type": "int16_t"
-                }
-              ],
-              "description": "- ICAO Address: {1}\n- Traffic Separation Distance: {2m}\n- Heading: {3} degrees",
-              "message": "Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position",
-              "name": "navigator_traffic_hold"
             },
             "185258": {
               "message": "RTL: land at destination",
@@ -3478,6 +3455,33 @@
               "message": "High latency data link lost",
               "name": "commander_high_latency_lost"
             },
+            "3721605": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint64_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg2",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg3",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg4",
+                  "type": "uint32_t"
+                }
+              ],
+              "description": "- ID: {1}\n- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)\n- cause: {3} (0:stale, 1:buffer full)\n- conflict level: {4}\n- last seen: {5} s ago",
+              "message": "DAA: removed",
+              "name": "navigator_traffic_remove"
+            },
             "3779911": {
               "arguments": [
                 {
@@ -3631,16 +3635,6 @@
               "message": "Mission rejected: the landing glide slope is steeper than the vehicle setting of {1}.{2} degrees",
               "name": "navigator_mis_glide_slope_too_steep"
             },
-            "4790285": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                }
-              ],
-              "message": "Traffic Conflict Resolved {1}!",
-              "name": "navigator_traffic_resolved"
-            },
             "4796299": {
               "message": "Mission upload busy, already receiving waypoint",
               "name": "mavlink_mission_getlist_busy"
@@ -3696,6 +3690,37 @@
             "5158211": {
               "message": "No airspeed sensor detected, switching to non-airspeed mode",
               "name": "airspeed_selector_switch"
+            },
+            "5300601": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint64_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg2",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg3",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg4",
+                  "type": "uint32_t"
+                },
+                {
+                  "name": "arg5",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "- ID: {1}\n- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)\n- conflict level: {3}\n- previous level: {4}\n- distance: {5m}\n- kind: {6} (0:main, 1:new+main, 2:secondary)",
+              "message": "DAA conflict update",
+              "name": "navigator_traffic_conflict_update"
             },
             "5314313": {
               "arguments": [
@@ -3826,6 +3851,10 @@
               "message": "RC trim calibration completed",
               "name": "commander_cal_trim_done"
             },
+            "6738881": {
+              "message": "DAA: resolve air-traffic conflict before flight",
+              "name": "navigator_traffic_ground_conflict"
+            },
             "6830556": {
               "arguments": [
                 {
@@ -3893,25 +3922,6 @@
               "message": "Manual control regained after {1:.1} s",
               "name": "commander_rc_regained"
             },
-            "7144644": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                },
-                {
-                  "name": "arg1",
-                  "type": "int32_t"
-                },
-                {
-                  "name": "arg2",
-                  "type": "int16_t"
-                }
-              ],
-              "description": "- ICAO Address: {1}\n- Traffic Separation Distance: {2m}\n- Heading: {3} degrees",
-              "message": "Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, landing",
-              "name": "navigator_traffic_land"
-            },
             "7186357": {
               "description": "<param>MC_AIRMODE</param> is now set to roll/pitch airmode.",
               "message": "Yaw Airmode requires disabling the stick arm gesture",
@@ -3975,16 +3985,6 @@
               "message": "Mission finished, landed",
               "name": "mission_finished"
             },
-            "7832778": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                }
-              ],
-              "message": "Traffic Conflict {1} Expired and removed from buffer",
-              "name": "navigator_traffic_expired"
-            },
             "7853111": {
               "arguments": [
                 {
@@ -4026,6 +4026,33 @@
               ],
               "message": "Climb to {1:.1m_v} above home",
               "name": "mission_climb_before_start"
+            },
+            "8263703": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint64_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg2",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg3",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg4",
+                  "type": "uint32_t"
+                }
+              ],
+              "description": "- ID: {1}\n- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)\n- action: {3} (2:return, 3:land, 4:hold, 5:terminate)\n- conflict level: {4}\n- distance: {5m}",
+              "message": "DAA automated action",
+              "name": "navigator_traffic_action"
             },
             "8280920": {
               "message": "Airspeed estimation invalid",
@@ -4086,6 +4113,29 @@
               "description": "<param>MPC_VEL_MAN_BACK</param> is set to {1:.0}.",
               "message": "Manual backward speed has been constrained by forward speed",
               "name": "mc_pos_ctrl_man_vel_back_set"
+            },
+            "8716557": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint64_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg2",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg3",
+                  "type": "uint32_t"
+                }
+              ],
+              "description": "- ID: {1}\n- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)\n- conflict level: {3}\n- distance: {4m}",
+              "message": "New traffic",
+              "name": "navigator_new_traffic"
             },
             "8775715": {
               "arguments": [
