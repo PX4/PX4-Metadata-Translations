@@ -2265,6 +2265,20 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/arming_check/events/7612029/message</name>
+    <message>
+      <source>Air conflict detected</source>
+      <translation type="unfinished">Air conflict detected</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/arming_check/events/7612029/description</name>
+    <message>
+      <source>Resolve the reported detect-and-avoid conflict before arming.</source>
+      <translation type="unfinished">Resolve the reported detect-and-avoid conflict before arming.</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/arming_check/events/7662152/message</name>
     <message>
       <source>USB connected</source>
@@ -2560,24 +2574,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/default/events/10236960/message</name>
-    <message>
-      <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}</source>
-      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/default/events/10236960/description</name>
-    <message>
-      <source>- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</source>
-      <translation type="unfinished">- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/default/events/10250020/message</name>
     <message>
       <source>CA_SV_CS{1}_TRIM ({2}) is reset to 0 as PWM CENTER is used</source>
@@ -2638,24 +2634,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>SET_POSITION_TARGET_GLOBAL_INT: FORCE is not supported</source>
       <translation type="unfinished">SET_POSITION_TARGET_GLOBAL_INT: FORCE is not supported</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/default/events/10664053/message</name>
-    <message>
-      <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, returning home</source>
-      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, returning home</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/default/events/10664053/description</name>
-    <message>
-      <source>- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</source>
-      <translation type="unfinished">- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</translation>
     </message>
   </context>
   <context>
@@ -2868,6 +2846,26 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>Primary airspeed index bigger than number connected sensors, taking last sensor</source>
       <translation type="unfinished">Primary airspeed index bigger than number connected sensors, taking last sensor</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/12399035/message</name>
+    <message>
+      <source>DAA: ignored</source>
+      <translation type="unfinished">DAA: ignored</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/12399035/description</name>
+    <message>
+      <source>- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- cause: {3} (0:buffer full)
+- conflict level: {4}</source>
+      <translation type="unfinished">- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- cause: {3} (0:buffer full)
+- conflict level: {4}</translation>
     </message>
   </context>
   <context>
@@ -3335,13 +3333,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/default/events/1593841/message</name>
-    <message>
-      <source>Too much traffic! Showing all messages from now on</source>
-      <translation type="unfinished">Too much traffic! Showing all messages from now on</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/default/events/16017271/message</name>
     <message>
       <source>Disarmed by {1}</source>
@@ -3467,24 +3458,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>Pilot took over using sticks</source>
       <translation type="unfinished">Pilot took over using sticks</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/default/events/1801328/message</name>
-    <message>
-      <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position</source>
-      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, holding position</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/default/events/1801328/description</name>
-    <message>
-      <source>- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</source>
-      <translation type="unfinished">- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</translation>
     </message>
   </context>
   <context>
@@ -3735,6 +3708,28 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/default/events/3721605/message</name>
+    <message>
+      <source>DAA: removed</source>
+      <translation type="unfinished">DAA: removed</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/3721605/description</name>
+    <message>
+      <source>- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- cause: {3} (0:stale, 1:buffer full)
+- conflict level: {4}
+- last seen: {5} s ago</source>
+      <translation type="unfinished">- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- cause: {3} (0:stale, 1:buffer full)
+- conflict level: {4}
+- last seen: {5} s ago</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/default/events/3779911/message</name>
     <message>
       <source>Hover thrust has been constrained by min/max thrust</source>
@@ -3900,13 +3895,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/default/events/4790285/message</name>
-    <message>
-      <source>Traffic Conflict Resolved {1}!</source>
-      <translation type="unfinished">Traffic Conflict Resolved {1}!</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/default/events/4796299/message</name>
     <message>
       <source>Mission upload busy, already receiving waypoint</source>
@@ -3981,6 +3969,30 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>No airspeed sensor detected, switching to non-airspeed mode</source>
       <translation type="unfinished">No airspeed sensor detected, switching to non-airspeed mode</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/5300601/message</name>
+    <message>
+      <source>DAA conflict update</source>
+      <translation type="unfinished">DAA conflict update</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/5300601/description</name>
+    <message>
+      <source>- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- conflict level: {3}
+- previous level: {4}
+- distance: {5m}
+- kind: {6} (0:main, 1:new+main, 2:secondary)</source>
+      <translation type="unfinished">- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- conflict level: {3}
+- previous level: {4}
+- distance: {5m}
+- kind: {6} (0:main, 1:new+main, 2:secondary)</translation>
     </message>
   </context>
   <context>
@@ -4161,6 +4173,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/default/events/6738881/message</name>
+    <message>
+      <source>DAA: resolve air-traffic conflict before flight</source>
+      <translation type="unfinished">DAA: resolve air-traffic conflict before flight</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/default/events/6830556/message</name>
     <message>
       <source>Target relative: unsupported type {1}</source>
@@ -4252,24 +4271,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/default/events/7144644/message</name>
-    <message>
-      <source>Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, landing</source>
-      <translation type="unfinished">Traffic alert - ICAO Address {1}! Separation Distance {2}, Heading {3}, landing</translation>
-    </message>
-  </context>
-  <context>
-    <name>/components/1/event_groups/default/events/7144644/description</name>
-    <message>
-      <source>- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</source>
-      <translation type="unfinished">- ICAO Address: {1}
-- Traffic Separation Distance: {2m}
-- Heading: {3} degrees</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/default/events/7186357/message</name>
     <message>
       <source>Yaw Airmode requires disabling the stick arm gesture</source>
@@ -4333,13 +4334,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
-    <name>/components/1/event_groups/default/events/7832778/message</name>
-    <message>
-      <source>Traffic Conflict {1} Expired and removed from buffer</source>
-      <translation type="unfinished">Traffic Conflict {1} Expired and removed from buffer</translation>
-    </message>
-  </context>
-  <context>
     <name>/components/1/event_groups/default/events/7853111/message</name>
     <message>
       <source>Invalid configuration of necessary parameter RO_SPEED_LIM</source>
@@ -4365,6 +4359,28 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>Climb to {1:.1m_v} above home</source>
       <translation type="unfinished">Climb to {1:.1m_v} above home</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/8263703/message</name>
+    <message>
+      <source>DAA automated action</source>
+      <translation type="unfinished">DAA automated action</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/8263703/description</name>
+    <message>
+      <source>- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- action: {3} (2:return, 3:land, 4:hold, 5:terminate)
+- conflict level: {4}
+- distance: {5m}</source>
+      <translation type="unfinished">- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- action: {3} (2:return, 3:land, 4:hold, 5:terminate)
+- conflict level: {4}
+- distance: {5m}</translation>
     </message>
   </context>
   <context>
@@ -4442,6 +4458,26 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>&lt;param&gt;MPC_VEL_MAN_BACK&lt;/param&gt; is set to {1:.0}.</source>
       <translation type="unfinished">&lt;param&gt;MPC_VEL_MAN_BACK&lt;/param&gt; is set to {1:.0}.</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/8716557/message</name>
+    <message>
+      <source>New traffic</source>
+      <translation type="unfinished">New traffic</translation>
+    </message>
+  </context>
+  <context>
+    <name>/components/1/event_groups/default/events/8716557/description</name>
+    <message>
+      <source>- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- conflict level: {3}
+- distance: {4m}</source>
+      <translation type="unfinished">- ID: {1}
+- ID encoding: {2} (0:ICAO, 1:callsign, 2:UAS ID)
+- conflict level: {3}
+- distance: {4m}</translation>
     </message>
   </context>
   <context>
