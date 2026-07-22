@@ -938,6 +938,12 @@
   </message>
 </context>
 <context>
+  <name>/components/1/enums/navigation_mode_t/entries/26/description</name>
+  <message>
+  <source>Descend</source>
+  </message>
+</context>
+<context>
   <name>/components/1/enums/navigation_mode_t/entries/3/description</name>
   <message>
   <source>Mission</source>
