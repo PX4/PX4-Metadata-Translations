@@ -2016,21 +2016,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/arming_check/events/9134139/message</name>
-  <message>
-  <source>Traffic avoidance system missing</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/9134139/description</name>
-  <message>
-  <source>Traffic avoidance system (ADSB/FLARM) failed to report. Make sure it is setup and connected properly.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_TRAFF&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/arming_check/events/9171208/message</name>
   <message>
   <source>Vertical velocity unstable</source>
@@ -4412,6 +4397,21 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
   <name>/components/1/event_groups/health/events/8799553/message</name>
   <message>
   <source>Battery {3} disconnected</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/9134139/message</name>
+  <message>
+  <source>Traffic avoidance system missing</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/9134139/description</name>
+  <message>
+  <source>Traffic avoidance system (ADSB/FLARM) failed to report. Make sure it is setup and connected properly.
+
+&lt;profile name="dev"&gt; Configured by &lt;param&gt;COM_TRAFF_AVOID&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>

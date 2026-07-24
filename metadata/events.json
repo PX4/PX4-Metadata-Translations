@@ -2253,21 +2253,6 @@
               "message": "Kill switch engaged",
               "name": "check_man_control_kill_engaged"
             },
-            "9134139": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "Traffic avoidance system (ADSB/FLARM) failed to report. Make sure it is setup and connected properly.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_TRAFF</param> parameter.\n</profile>",
-              "message": "Traffic avoidance system missing",
-              "name": "check_traffic_avoidance_missing"
-            },
             "9171208": {
               "arguments": [
                 {
@@ -5065,6 +5050,21 @@
               ],
               "message": "Battery {3} disconnected",
               "name": "check_battery_disconnected"
+            },
+            "9134139": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Traffic avoidance system (ADSB/FLARM) failed to report. Make sure it is setup and connected properly.\n\n<profile name=\"dev\"> Configured by <param>COM_TRAFF_AVOID</param> parameter.\n</profile>",
+              "message": "Traffic avoidance system missing",
+              "name": "check_traffic_avoidance_missing"
             },
             "9191449": {
               "arguments": [
