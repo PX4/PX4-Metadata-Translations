@@ -1543,6 +1543,13 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/2228586/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_FLTT_LOW_ACT&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/2229864/message</name>
   <message>
   <source>Power redundancy not met</source>

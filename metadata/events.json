@@ -1578,6 +1578,7 @@
                   "type": "uint8_t"
                 }
               ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_FLTT_LOW_ACT</param> parameter.\n</profile>",
               "message": "Remaining flight time low",
               "name": "check_battery_rem_flight_time_low"
             },
