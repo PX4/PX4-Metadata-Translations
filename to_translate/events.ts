@@ -1597,6 +1597,19 @@ Inconsistency value: {4}. Configured Threshold: {5}.
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/2734078/message</name>
+  <message>
+  <source>UAVCAN firmware update in progress</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/2734078/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_UAVCAN_FW&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/276785/message</name>
   <message>
   <source>Press safety button first</source>

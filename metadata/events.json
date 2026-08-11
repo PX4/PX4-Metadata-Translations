@@ -1647,6 +1647,21 @@
               "message": "Critical battery",
               "name": "check_battery_critical"
             },
+            "2734078": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>CBRK_UAVCAN_FW</param> parameter.\n</profile>",
+              "message": "UAVCAN firmware update in progress",
+              "name": "check_system_uavcan_fw_update_pending"
+            },
             "276785": {
               "arguments": [
                 {
