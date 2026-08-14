@@ -4528,6 +4528,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     </message>
   </context>
   <context>
+    <name>/components/1/event_groups/default/events/8960600/message</name>
+    <message>
+      <source>Mission with {1} items exceeds the route cache capacity {2}</source>
+      <translation type="unfinished">Mission with {1} items exceeds the route cache capacity {2}</translation>
+    </message>
+  </context>
+  <context>
     <name>/components/1/event_groups/default/events/8968453/message</name>
     <message>
       <source>Invalid configuration: FW_AIRSPD_MAX too low to sustain max bank angle</source>
