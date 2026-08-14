@@ -4172,6 +4172,20 @@
               "message": "Mission manager currently busy, ignoring new waypoint index",
               "name": "mavlink_mission_state_busy"
             },
+            "8960600": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "int32_t"
+                }
+              ],
+              "message": "Mission with {1} items exceeds the route cache capacity {2}",
+              "name": "navigator_route_cache_too_large"
+            },
             "8968453": {
               "arguments": [
                 {
