@@ -1,0 +1,19 @@
+# Chinese Simplified term sheet (`zh-CN`): mandatory terms for new translations
+- arm / armed -> 解锁 / 已解锁; disarm / disarmed -> 上锁 / 已上锁
+- throttle -> 油门; thrust -> 推力
+- failsafe -> 故障安全; failsafe action -> 故障安全动作
+- setpoint -> 设定值
+- loiter -> 盘旋; hold mode -> 保持模式
+- mission -> 任务; waypoint -> 航点
+- takeoff -> 起飞; land / landing -> 降落; precision landing -> 精准降落
+- RTL / Return mode -> 返航 / 返航模式; Home -> Home 点
+- Offboard -> Offboard
+- airspeed -> 空速; groundspeed -> 地速
+- attitude -> 姿态; yaw / roll / pitch -> 偏航 / 横滚 / 俯仰
+- rate (angular) -> 角速率; gain -> 增益
+- estimator -> 估计器; fusion -> 融合; innovation -> 新息; innovation gate (EKF2 *_GATE) -> 门限 (other "gate" senses: translate by meaning)
+- timeout -> 超时; threshold -> 阈值
+- transition -> 转换; hover -> 悬停; fixed-wing -> 固定翼; multicopter -> 多旋翼
+- battery cell -> 电芯; over-current -> 过流
+- kill switch -> 应急开关; calibration Level -> 水平
+- acronyms (RC, ESC, GPS, IMU, EKF, VTOL ...) stay in Latin script

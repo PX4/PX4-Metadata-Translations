@@ -62,10 +62,11 @@ All scripts are Python 3 and use only the standard library. No dependencies need
 Claude pre-translates strings and reviews existing translations. Humans approve in Crowdin. The goal is that only approved translations are exported.
 The tools talk to the Crowdin API as a dedicated bot account, so everything Claude adds can be filtered in the Crowdin Editor by *Translated by* or *Approved by*.
 
+- Term sheets in `tools/crowdin/terms/<lang>.md` record the mandatory terminology per language. Update them when a terminology decision is made.
 - Use the `crowdin-translate` skill (`.claude/skills/crowdin-translate/SKILL.md`) for a session. It runs this pipeline:
-  1. `export_strings.py`: exports the strings.
+  1. `export_strings.py`: exports the strings, and `chunks.py split` groups them into chunks.
   2. Claude works through them in chunks, following `TRANSLATION_GUIDE.md`.
-  3. `check_translations.py`: checks the results.
+  3. `chunks.py merge` combines the results, and `check_translations.py` checks them.
   4. `apply_results.py`: applies them. It's a dry run unless `--apply` is given.
 - Credentials come from `CROWDIN_PERSONAL_TOKEN` and `CROWDIN_PROJECT_ID`. Never commit or print the token.
 - `check_translations.py` is the mechanical safety net: tags, `{placeholders}`, code, URLs, identifiers, numbers and line structure. It also blocks approval of existing translations that break those rules. Tighten its rules rather than loosen them.
