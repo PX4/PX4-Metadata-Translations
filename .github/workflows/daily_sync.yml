@@ -1,4 +1,4 @@
-name: ClusterFuzzLite batch fuzzing
+name: Daily metadata sync
 on:
   schedule:
     - cron: '0 6 * * *'  # UTC 6am every day.
