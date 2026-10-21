@@ -26,8 +26,9 @@ from crowdin_api import Crowdin, CrowdinError  # noqa: E402
 MAX_WORKERS = 8
 
 
-def record_key(result):
-    return (result['stringId'], result['action'], result.get('translationId'), result.get('text'))
+def record_key(result, language):
+    # string ids are shared by all languages, so the language is part of the key
+    return (language, result['stringId'], result['action'], result.get('translationId'), result.get('text'))
 
 
 def previously_applied(log_dir):
@@ -36,7 +37,8 @@ def previously_applied(log_dir):
     if os.path.isdir(log_dir):
         for name in os.listdir(log_dir):
             if name.startswith('apply-') and name.endswith('.jsonl'):
-                done.update(record_key(r) for r in load_jsonl(os.path.join(log_dir, name)) if r.get('status') == 'ok')
+                done.update(record_key(r, r.get('lang')) for r in load_jsonl(os.path.join(log_dir, name))
+                            if r.get('status') == 'ok')
     return done
 
 
@@ -61,7 +63,7 @@ def main():
         if errors:
             skipped += 1
             print(f"skip {result.get('stringId')} ({result.get('action')}): {'; '.join(errors)}")
-        elif record_key(result) in done:
+        elif record_key(result, lang[result['stringId']]) in done:
             already_applied += 1
         else:
             valid.append(result)
@@ -79,6 +81,7 @@ def main():
     print(f"Applying as Crowdin user '{crowdin.current_user()['username']}'")
 
     def apply(result):
+        result = dict(result, lang=lang[result['stringId']])
         try:
             if result['action'] == 'approve':
                 response = crowdin.approve(result['translationId'])
