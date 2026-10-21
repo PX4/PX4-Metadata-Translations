@@ -59,7 +59,7 @@ All scripts are Python 3 and use only the standard library. No dependencies need
 
 ## Known quirks (don't "fix" without asking)
 
-- `to_translate/actuators.ts` and the `translated/actuators_*` files are left over from 2022 test data: `metadata/actuators.json` was removed in 2023. The scripts still compress them and write `actuators_summary.json`, but PX4 firmware does not reference that summary.
+- Actuator metadata is not translated here. PX4 publishes it only per board (there is no `_general/actuators.json.xz` for CI to sync), and the firmware gives actuators an empty translation URI.
 - The workflow is named `ClusterFuzzLite batch fuzzing`. This is a copy-paste leftover; the job only does the metadata sync.
 - `.gitignore` is empty, and the `.ts.xz` artifacts are committed on purpose.
 
