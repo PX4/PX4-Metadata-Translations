@@ -36,7 +36,7 @@ Translations Claude adds are **unapproved**, and only approved translations are 
    - the term sheet `tools/crowdin/terms/<lang>.md`, as mandatory terminology
    - the glossary `work/<lang>-glossary.jsonl`
    - its chunk `work/<lang>-<mode>-chunks/in-NNN.jsonl`
-   - the instruction to write exactly one result per record to `work/<lang>-<mode>-chunks/out-NNN.jsonl`, in the guide's output format, then run `check_translations.py` on that chunk until it passes
+   - the instruction to write exactly one result per record to `work/<lang>-<mode>-chunks/out-NNN.jsonl`, in the guide's output format, then run `check_translations.py` on that chunk until it passes. Tell each subagent to keep any temporary files in its own folder (for example `work/<lang>-<mode>-chunks/tmp-NNN/`): parallel subagents share the scratchpad and can overwrite each other's files
 
    **Run one pilot chunk per language first.** Spot-check its output, and add any terms it had to choose to the term sheet. Then run the rest in waves of about 9 subagents.
    - Add terms that come up between waves to the sheet, so later chunks use them.

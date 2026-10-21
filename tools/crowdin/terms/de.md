@@ -1,0 +1,54 @@
+# German term sheet (`de`): mandatory terms for new translations
+- arm / armed / arming -> scharf schalten / scharf geschaltet / Scharfschalten
+- disarm / disarmed / disarming -> entschärfen / entschärft / Entschärfen
+- prearm (check) -> Pre-Arm-Prüfung (Prüfung vor dem Scharfschalten)
+- throttle -> Gas (RC throttle -> RC-Gas; trim throttle -> Trimmgas)
+- thrust -> Schub (differential thrust -> Differenzschub)
+- failsafe -> Failsafe; failsafe action -> Failsafe-Aktion
+- setpoint -> Sollwert (yaw rate setpoint -> Gierraten-Sollwert)
+- loiter -> Kreisflug / kreisen (Loiter mode -> Loiter-Modus)
+- hold mode -> Halte-Modus (Hold)
+- mission -> Mission
+- waypoint -> Wegpunkt
+- takeoff -> Start (VTOL takeoff -> VTOL-Start)
+- land / landing -> landen / Landung (LAND mode -> LAND-Modus)
+- precision landing -> Präzisionslandung
+- RTL / Return mode -> RTL / Rückkehrmodus (Return)
+- Home -> Home (Home position -> Home-Position)
+- Offboard -> Offboard (Offboard-Modus)
+- airspeed -> Fluggeschwindigkeit
+- groundspeed -> Geschwindigkeit über Grund
+- attitude -> Fluglage
+- yaw / roll / pitch -> Gieren / Rollen / Nicken (yaw angle -> Gierwinkel, roll angle -> Rollwinkel, pitch angle -> Nickwinkel)
+- angular rate -> Drehrate (yaw rate -> Gierrate)
+- gain -> Verstärkung (I gain -> I-Verstärkung)
+- feedforward -> Vorsteuerung
+- estimator -> Schätzer
+- fusion -> Fusion (fused measurement -> fusionierte Messung)
+- innovation / innovation gate -> Innovation / Innovationsschwelle (Innovation-Gate)
+- timeout -> Timeout
+- threshold -> Schwellenwert
+- gyro / accelerometer / magnetometer -> Gyroskop / Beschleunigungssensor / Magnetometer
+- declination -> Deklination (Missweisung)
+- drift -> Drift
+- landing gear -> Fahrwerk
+- gimbal -> Gimbal
+- parachute -> Fallschirm
+- kill switch -> Not-Aus-Schalter (Kill-Switch)
+- circuit breaker -> Circuit Breaker (Sicherheitsschalter)
+- transition / front transition / back transition -> Transition / Vorwärtstransition / Rücktransition
+- hover -> Schwebeflug
+- fixed-wing (FW) -> Starrflügler (fixed-wing mode -> Starrflüglermodus)
+- multicopter (MC) -> Multikopter (MC-Modus)
+- VTOL -> VTOL (Tailsitter, Tiltrotor stay as is)
+- quad-chute -> Quad-Chute
+- RC -> RC (RC-Kanal, RC-Sender)
+- ESC -> ESC (Motorregler)
+- battery cell -> Batteriezelle
+- slew rate -> Anstiegsrate
+- weathervane -> Windfahne (Windfahnenregler)
+- control surfaces -> Steuerflächen
+
+- heading -> Steuerkurs; mount (MNT_*) -> Halterung; innovation gate size -> Innovationsschwelle
+Open questions for a German proofreader: arm/disarm (scharf schalten/entschärfen vs aktivieren/deaktivieren),
+loiter (Kreisflug vs keeping "Loiter"), airspeed (Fluggeschwindigkeit vs Eigengeschwindigkeit), throttle (Gas vs Schub).
