@@ -75,21 +75,21 @@
     <name>/components/0/enums/calibration_sides_t/entries/32/description</name>
     <message>
       <source>Down</source>
-      <translation>下移</translation>
+      <translation type="unfinished">Down</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/4/description</name>
     <message>
       <source>Left Side Down</source>
-      <translation>左侧下移</translation>
+      <translation type="unfinished">Left Side Down</translation>
     </message>
   </context>
   <context>
     <name>/components/0/enums/calibration_sides_t/entries/8/description</name>
     <message>
       <source>Right Side Down</source>
-      <translation>右侧下移</translation>
+      <translation type="unfinished">Right Side Down</translation>
     </message>
   </context>
   <context>
@@ -131,7 +131,7 @@
     <name>/components/0/enums/calibration_type_t/entries/8/description</name>
     <message>
       <source>Level</source>
-      <translation>级别</translation>
+      <translation type="unfinished">Level</translation>
     </message>
   </context>
   <context>
@@ -152,14 +152,14 @@
     <name>/components/0/event_groups/calibration/events/1102/message</name>
     <message>
       <source>Orientation Complete: {1}, next step: {2}</source>
-      <translation>方向完整： {1}，下一步： {2}</translation>
+      <translation type="unfinished">Orientation Complete: {1}, next step: {2}</translation>
     </message>
   </context>
   <context>
     <name>/components/0/event_groups/calibration/events/1103/message</name>
     <message>
       <source>Calibration Complete: {1}</source>
-      <translation>校准完成︰ {1}</translation>
+      <translation type="unfinished">Calibration Complete: {1}</translation>
     </message>
   </context>
   <context>
@@ -250,7 +250,7 @@
     <name>/components/1/enums/arming_state_t/entries/2/description</name>
     <message>
       <source>Armed</source>
-      <translation>装备</translation>
+      <translation type="unfinished">Armed</translation>
     </message>
   </context>
   <context>
@@ -285,7 +285,7 @@
     <name>/components/1/enums/battery_fault_reason_t/entries/1/description</name>
     <message>
       <source>Battery detected voltage spikes</source>
-      <translation>电池检测到电压跃位</translation>
+      <translation type="unfinished">Battery detected voltage spikes</translation>
     </message>
   </context>
   <context>
@@ -299,14 +299,14 @@
     <name>/components/1/enums/battery_fault_reason_t/entries/2/description</name>
     <message>
       <source>One or more battery cells have failed</source>
-      <translation>一个或多个电池已失败</translation>
+      <translation type="unfinished">One or more battery cells have failed</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/battery_fault_reason_t/entries/3/description</name>
     <message>
       <source>Battery reported over-current</source>
-      <translation>电池过载</translation>
+      <translation type="unfinished">Battery reported over-current</translation>
     </message>
   </context>
   <context>

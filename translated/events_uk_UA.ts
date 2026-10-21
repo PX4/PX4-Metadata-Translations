@@ -5,7 +5,7 @@
     <name>/components/0/enums/calibration_action_t/entries/0/description</name>
     <message>
       <source>Side already completed, switch to one of the remaining sides</source>
-      <translation>Сторону укомплектовано, перейдіть до однієї зі сторін що залишилися</translation>
+      <translation type="unfinished">Side already completed, switch to one of the remaining sides</translation>
     </message>
   </context>
   <context>
@@ -54,7 +54,7 @@
     <name>/components/0/enums/calibration_sides_t/entries/1/description</name>
     <message>
       <source>Tail Down</source>
-      <translation>Скласти хвіст</translation>
+      <translation type="unfinished">Tail Down</translation>
     </message>
   </context>
   <context>
@@ -103,7 +103,7 @@
     <name>/components/0/enums/calibration_type_t/entries/16/description</name>
     <message>
       <source>Airspeed</source>
-      <translation>Швидкість польоту</translation>
+      <translation type="unfinished">Airspeed</translation>
     </message>
   </context>
   <context>
@@ -229,14 +229,14 @@
     <name>/components/1/enums/arm_disarm_reason_t/entries/8/description</name>
     <message>
       <source>kill switch</source>
-      <translation>ліквідувати перемикач</translation>
+      <translation type="unfinished">kill switch</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/0/description</name>
     <message>
       <source>Init</source>
-      <translation>Init</translation>
+      <translation type="unfinished">Init</translation>
     </message>
   </context>
   <context>
@@ -264,14 +264,14 @@
     <name>/components/1/enums/arming_state_t/entries/4/description</name>
     <message>
       <source>Shutdown</source>
-      <translation>Вимкнути</translation>
+      <translation type="unfinished">Shutdown</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/arming_state_t/entries/5/description</name>
     <message>
       <source>In-air Restore</source>
-      <translation>In-air відновлення</translation>
+      <translation type="unfinished">In-air Restore</translation>
     </message>
   </context>
   <context>
@@ -306,7 +306,7 @@
     <name>/components/1/enums/battery_fault_reason_t/entries/3/description</name>
     <message>
       <source>Battery reported over-current</source>
-      <translation>Батарея повідомляє про надмірну напругу</translation>
+      <translation type="unfinished">Battery reported over-current</translation>
     </message>
   </context>
   <context>
@@ -355,7 +355,7 @@
     <name>/components/1/enums/esc_fault_reason_t/entries/0/description</name>
     <message>
       <source>detected over current</source>
-      <translation>виявлено надвисоку напругу</translation>
+      <translation type="unfinished">detected over current</translation>
     </message>
   </context>
   <context>
@@ -383,7 +383,7 @@
     <name>/components/1/enums/esc_fault_reason_t/entries/4/description</name>
     <message>
       <source>received an invalid control command</source>
-      <translation>отримано невірну контрольну команду</translation>
+      <translation type="unfinished">received an invalid control command</translation>
     </message>
   </context>
   <context>
@@ -439,7 +439,7 @@
     <name>/components/1/enums/failsafe_action_t/entries/10/description</name>
     <message>
       <source>terminate</source>
-      <translation>закінчити</translation>
+      <translation type="unfinished">terminate</translation>
     </message>
   </context>
   <context>
@@ -474,7 +474,7 @@
     <name>/components/1/enums/failsafe_action_t/entries/6/description</name>
     <message>
       <source>RTL</source>
-      <translation>режим RTL (Return to Launch - повернення до точки зльоту)</translation>
+      <translation type="unfinished">RTL</translation>
     </message>
   </context>
   <context>
@@ -509,7 +509,7 @@
     <name>/components/1/enums/failsafe_cause_t/entries/1/description</name>
     <message>
       <source>Manual control loss</source>
-      <translation>Ручний контроль втрат</translation>
+      <translation type="unfinished">Manual control loss</translation>
     </message>
   </context>
   <context>
@@ -572,7 +572,7 @@
     <name>/components/1/enums/health_component_t/entries/1073741824/description</name>
     <message>
       <source>Open Drone ID system</source>
-      <translation>Відкрити систему Drone ID</translation>
+      <translation type="unfinished">Open Drone ID system</translation>
     </message>
   </context>
   <context>
@@ -670,7 +670,7 @@
     <name>/components/1/enums/health_component_t/entries/32/description</name>
     <message>
       <source>Vision position estimate</source>
-      <translation>Оцінка огляду з позиції</translation>
+      <translation type="unfinished">Vision position estimate</translation>
     </message>
   </context>
   <context>
@@ -712,7 +712,7 @@
     <name>/components/1/enums/health_component_t/entries/512/description</name>
     <message>
       <source>UTM</source>
-      <translation>UTM (Безпілотне управління дорожнім рухом)</translation>
+      <translation type="unfinished">UTM</translation>
     </message>
   </context>
   <context>
@@ -761,14 +761,14 @@
     <name>/components/1/enums/health_component_t/entries/8192/description</name>
     <message>
       <source>Rate controller</source>
-      <translation>Коефіцієнт контролера</translation>
+      <translation type="unfinished">Rate controller</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/8388608/description</name>
     <message>
       <source>Payload</source>
-      <translation>Боєкомплект</translation>
+      <translation type="unfinished">Payload</translation>
     </message>
   </context>
   <context>
@@ -789,7 +789,7 @@
     <name>/components/1/enums/navigation_mode_group_t/entries/1048576/description</name>
     <message>
       <source>Precision Land</source>
-      <translation>Точність приземлення</translation>
+      <translation type="unfinished">Precision Land</translation>
     </message>
   </context>
   <context>
@@ -880,14 +880,14 @@
     <name>/components/1/enums/navigation_mode_group_t/entries/32/description</name>
     <message>
       <source>RTL</source>
-      <translation>RTL (Return to Launch - повернення до точки зльоту)</translation>
+      <translation type="unfinished">RTL</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/navigation_mode_group_t/entries/32768/description</name>
     <message>
       <source>Stabilized</source>
-      <translation>Стабілізувати</translation>
+      <translation type="unfinished">Stabilized</translation>
     </message>
   </context>
   <context>
@@ -992,7 +992,7 @@
     <name>/components/1/enums/navigation_mode_t/entries/13/description</name>
     <message>
       <source>Precision Landing</source>
-      <translation>Точність приземлення</translation>
+      <translation type="unfinished">Precision Landing</translation>
     </message>
   </context>
   <context>
@@ -1118,7 +1118,7 @@
     <name>/components/1/enums/navigation_mode_t/entries/5/description</name>
     <message>
       <source>RTL</source>
-      <translation>режим RTL (Return to Launch - повернення до точки зльоту)</translation>
+      <translation type="unfinished">RTL</translation>
     </message>
   </context>
   <context>
@@ -1167,7 +1167,7 @@
     <name>/components/1/enums/sensor_failover_reason_t/entries/2/description</name>
     <message>
       <source>Stale data</source>
-      <translation>Stale данні</translation>
+      <translation type="unfinished">Stale data</translation>
     </message>
   </context>
   <context>
@@ -1244,7 +1244,7 @@
     <name>/components/1/event_groups/arming_check/events/10198977/message</name>
     <message>
       <source>GPS PDOP too high</source>
-      <translation>Занадто висока GPS PDOP (погіршення точності позиції)</translation>
+      <translation type="unfinished">GPS PDOP too high</translation>
     </message>
   </context>
   <context>
@@ -1367,7 +1367,7 @@
     <name>/components/1/event_groups/arming_check/events/11413600/message</name>
     <message>
       <source>Wind speed is above limit ({3:.1m/s})</source>
-      <translation>Швидкість вітру перевищує норму ({3:.1м/с})</translation>
+      <translation type="unfinished">Wind speed is above limit ({3:.1m/s})</translation>
     </message>
   </context>
   <context>
@@ -1375,7 +1375,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_WIND_MAX&lt;/param&gt; and &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_WIND_MAX&lt;/param&gt; та &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; параметр.
+      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_WIND_MAX&lt;/param&gt; and &lt;param&gt;COM_WIND_MAX_ACT&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1397,7 +1397,7 @@
     <name>/components/1/event_groups/arming_check/events/11497430/message</name>
     <message>
       <source>GPS Vertical Position Drift too high</source>
-      <translation>Занадто високий дріфт GPS положення по вертикалі</translation>
+      <translation type="unfinished">GPS Vertical Position Drift too high</translation>
     </message>
   </context>
   <context>
@@ -1445,7 +1445,7 @@
     <name>/components/1/event_groups/arming_check/events/124285/message</name>
     <message>
       <source>Geofence RTL requires valid home</source>
-      <translation>Гео-огорожа RTL(точки повернення до зльоту) потребує належної домашньої точки)</translation>
+      <translation type="unfinished">Geofence RTL requires valid home</translation>
     </message>
   </context>
   <context>
@@ -1510,7 +1510,7 @@
     <name>/components/1/event_groups/arming_check/events/13094458/message</name>
     <message>
       <source>Not enough GPS Satellites</source>
-      <translation>Не достатньо GPS супутників</translation>
+      <translation type="unfinished">Not enough GPS Satellites</translation>
     </message>
   </context>
   <context>
@@ -1606,7 +1606,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
+      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_VTOLARMING&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1622,7 +1622,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
+      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1638,7 +1638,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
+      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_FLT_TIME_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1683,7 +1683,7 @@
     <name>/components/1/event_groups/arming_check/events/15713375/message</name>
     <message>
       <source>Strong magnetic interference</source>
-      <translation>Потужне магнітне втручання</translation>
+      <translation type="unfinished">Strong magnetic interference</translation>
     </message>
   </context>
   <context>
@@ -1691,7 +1691,7 @@
     <message>
       <source>&lt;profile name="dev"&gt; Measured strength: {3:.3}, expected: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Measured inclination: {5:.3}, expected: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Вимерена потужність: {3:.3}, очікувана: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Вимерений нахил: {5:.3}, очікуваний: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; параметри.
+      <translation type="unfinished">&lt;profile name="dev"&gt; Measured strength: {3:.3}, expected: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Measured inclination: {5:.3}, expected: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1699,7 +1699,7 @@
     <name>/components/1/event_groups/arming_check/events/16158540/message</name>
     <message>
       <source>Landing gear switch set in UP position</source>
-      <translation>Блок приземлення переведено у положення UP</translation>
+      <translation type="unfinished">Landing gear switch set in UP position</translation>
     </message>
   </context>
   <context>
@@ -1761,7 +1761,7 @@
     <name>/components/1/event_groups/arming_check/events/1802995/message</name>
     <message>
       <source>Airspeed too high</source>
-      <translation>Швидкість польоту занадто висока</translation>
+      <translation type="unfinished">Airspeed too high</translation>
     </message>
   </context>
   <context>
@@ -1773,11 +1773,11 @@
 
 This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Занадто висока поточна зчитувана швидкість польоту. Перевірте чи швидкість вітру нижче за максимальну швидкість польоту та повторіть калібрування швидкості польоту якщо виміряна швидкість польоту не відповідає умовам вітру.
+      <translation type="unfinished">Current airspeed reading too high. Check if wind is below maximum airspeed and redo airspeed calibration if the measured airspeed does not correspond to wind conditions.
 
-&lt;profile name="dev"&gt; Виміряно: {3:.1m/s}, ліміт: {4:.1m/s}.
+&lt;profile name="dev"&gt; Measured: {3:.1m/s}, limit: {4:.1m/s}.
 
-Ця перевірка може бути налаштована через &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
+This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1799,7 +1799,7 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/1917030/message</name>
     <message>
       <source>RC calibration for channel {3} invalid: TRIM greater than MAX ({4} greater than {5})</source>
-      <translation>Калібрування пульта(RC) для {3} є невдалим: TRIM більше за MAX ({4} більше за {5})</translation>
+      <translation type="unfinished">RC calibration for channel {3} invalid: TRIM greater than MAX ({4} greater than {5})</translation>
     </message>
   </context>
   <context>
@@ -1836,7 +1836,7 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/2229864/message</name>
     <message>
       <source>Power redundancy not met</source>
-      <translation>Надлишок живлення нижче норми</translation>
+      <translation type="unfinished">Power redundancy not met</translation>
     </message>
   </context>
   <context>
@@ -1846,9 +1846,9 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POWER_COUNT&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Доступні модулі живлення: {3}. Потрібні модулі живлення: {4}.
+      <translation type="unfinished">Available power modules: {3}. Required power modules: {4}.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_POWER_COUNT&lt;/param&gt; parameter.
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_POWER_COUNT&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1856,7 +1856,7 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
     <name>/components/1/event_groups/arming_check/events/2481841/message</name>
     <message>
       <source>Gyro {3} inconsistent</source>
-      <translation>Гіроскоп {3} нестабільний</translation>
+      <translation type="unfinished">Gyro {3} inconsistent</translation>
     </message>
   </context>
   <context>
@@ -1868,11 +1868,11 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Перевірте калібрування.
+      <translation type="unfinished">Check the calibration.
 
-Нестабільне значення: {4}. Налаштований поріг: {5}.
+Inconsistency value: {4}. Configured Threshold: {5}.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; параметр.
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_GYR&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1932,7 +1932,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
     <name>/components/1/event_groups/arming_check/events/3061044/message</name>
     <message>
       <source>Accel {3} inconsistent</source>
-      <translation>Прискорення {3} нестабільне</translation>
+      <translation type="unfinished">Accel {3} inconsistent</translation>
     </message>
   </context>
   <context>
@@ -1944,11 +1944,11 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Перевірте калібрування.
+      <translation type="unfinished">Check the calibration.
 
-Нестабільне значення: {4}. Налаштований поріг: {5}.
+Inconsistency value: {4}. Configured Threshold: {5}.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; параметр.
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_IMU_ACC&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -1982,11 +1982,11 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 
 This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Перекалібрування акселерометра може допомогти.
+      <translation type="unfinished">An accelerometer recalibration might help.
 
 &lt;profile name="dev"&gt; Axis {3}: |{4:.8}| \&gt; {5:.8} + {6:.8}
 
-Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; параметр.
+This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2046,7 +2046,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/453929/message</name>
     <message>
       <source>No manual control input</source>
-      <translation>Немає ручного контролю введення</translation>
+      <translation type="unfinished">No manual control input</translation>
     </message>
   </context>
   <context>
@@ -2055,8 +2055,8 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
       <source>Connect and enable stick input or use autonomous mode.
 &lt;profile name="dev"&gt; Sticks can be enabled via &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Під'єднайте та активуйте керування стіками або використовуйте автономний режим.
-&lt;profile name="dev"&gt; Стіки можуть бути активовані через &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
+      <translation type="unfinished">Connect and enable stick input or use autonomous mode.
+&lt;profile name="dev"&gt; Sticks can be enabled via &lt;param&gt;COM_RC_IN_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2091,7 +2091,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/4975227/message</name>
     <message>
       <source>GPS Horizontal Speed Drift too high</source>
-      <translation>Занадто великий горизонтальний швидкісний GPS дріфт</translation>
+      <translation type="unfinished">GPS Horizontal Speed Drift too high</translation>
     </message>
   </context>
   <context>
@@ -2143,7 +2143,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5273740/message</name>
     <message>
       <source>Compass inconsistent by {3} degrees</source>
-      <translation>Похибка компасу {3} градусів</translation>
+      <translation type="unfinished">Compass inconsistent by {3} degrees</translation>
     </message>
   </context>
   <context>
@@ -2177,7 +2177,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/5717196/message</name>
     <message>
       <source>GPS Horizontal Position Drift too high</source>
-      <translation>Занадто великий дріфт горизонтальної GPS позиції</translation>
+      <translation type="unfinished">GPS Horizontal Position Drift too high</translation>
     </message>
   </context>
   <context>
@@ -2250,7 +2250,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/6558257/message</name>
     <message>
       <source>GPS Vertical Speed Drift too high</source>
-      <translation>Занадто великий вертикальний швидкісний GPS дріфт</translation>
+      <translation type="unfinished">GPS Vertical Speed Drift too high</translation>
     </message>
   </context>
   <context>
@@ -2324,9 +2324,9 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Літати з USB небезпечно. Від'єднайте це та перезавантажте FMU (польотний контролер).
+      <translation type="unfinished">Flying with USB is not safe. Disconnect it and reboot the FMU.
 
-&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; параметр.
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_USB_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2348,14 +2348,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/7884377/message</name>
     <message>
       <source>RTL switch engaged</source>
-      <translation>Перемикач RTL (повернення на точку злету) задіяно</translation>
+      <translation type="unfinished">RTL switch engaged</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/79408/message</name>
     <message>
       <source>Home position not set</source>
-      <translation>Перемикач RTL (повернення на точку злету) задіяно</translation>
+      <translation type="unfinished">Home position not set</translation>
     </message>
   </context>
   <context>
@@ -2446,14 +2446,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
     <name>/components/1/event_groups/arming_check/events/9077977/message</name>
     <message>
       <source>Kill switch engaged</source>
-      <translation>Знешкодити залучений перемикач</translation>
+      <translation type="unfinished">Kill switch engaged</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/arming_check/events/9171208/message</name>
     <message>
       <source>Vertical velocity unstable</source>
-      <translation>Нестабільна вертикальна висота</translation>
+      <translation type="unfinished">Vertical velocity unstable</translation>
     </message>
   </context>
   <context>
@@ -2472,11 +2472,11 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 
 This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Перекалібрування гіроскопа може допомогти.
+      <translation type="unfinished">A Gyro recalibration might help.
 
 &lt;profile name="dev"&gt; Axis {3}: |{4:.8}| \&gt; {5:.8} + {6:.8}
 
-Ця перевірка може бути налаштована через &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; параметр.
+This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -2491,7 +2491,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9634798/message</name>
     <message>
       <source>Height estimate not stable</source>
-      <translation>Вимірювання висоти не стабільне</translation>
+      <translation type="unfinished">Height estimate not stable</translation>
     </message>
   </context>
   <context>
@@ -2526,7 +2526,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/arming_check/events/9815168/description</name>
     <message>
       <source>The application running the mode might have crashed or the CPU load is too high.</source>
-      <translation>Поточний режим додатка ймовірно дав збій або навантаження центрального процесора(CPU) є надто великим.</translation>
+      <translation type="unfinished">The application running the mode might have crashed or the CPU load is too high.</translation>
     </message>
   </context>
   <context>
@@ -2610,21 +2610,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/10452355/message</name>
     <message>
       <source>Takeoff airspeed reached, climbout</source>
-      <translation>Швидкості злету досягнуто, набираємо висоту</translation>
+      <translation type="unfinished">Takeoff airspeed reached, climbout</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1047676/message</name>
     <message>
       <source>Enabling transmitting with IRIDIUM mavlink on instance {1} by command</source>
-      <translation>Вмикання передавання через IRIDIUM mavlink наприклад {1} по команді</translation>
+      <translation type="unfinished">Enabling transmitting with IRIDIUM mavlink on instance {1} by command</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/10493596/message</name>
     <message>
       <source>Airspeed sensor failure detected. Return to launch (RTL) is advised</source>
-      <translation>Виявлено помилку сенсора швидкості польоту. Рекомендовано повернення на точку запуску (RTL)</translation>
+      <translation type="unfinished">Airspeed sensor failure detected. Return to launch (RTL) is advised</translation>
     </message>
   </context>
   <context>
@@ -2666,7 +2666,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/10834203/message</name>
     <message>
       <source>Enabling transmitting with IRIDIUM mavlink on instance {1}</source>
-      <translation>Вмикання передавання через IRIDIUM mavlink наприклад {1}</translation>
+      <translation type="unfinished">Enabling transmitting with IRIDIUM mavlink on instance {1}</translation>
     </message>
   </context>
   <context>
@@ -2701,7 +2701,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/1119664/message</name>
     <message>
       <source>Invalid configuration: FW_AIRSPD_STALL higher FW_AIRSPD_MIN</source>
-      <translation>Недійсний конфігуратор: FW_AIRSPD_STALL вище за FW_AIRSPD_MIN</translation>
+      <translation type="unfinished">Invalid configuration: FW_AIRSPD_STALL higher FW_AIRSPD_MIN</translation>
     </message>
   </context>
   <context>
@@ -2717,7 +2717,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/11290563/message</name>
     <message>
       <source>Kill engaged</source>
-      <translation>Знищення залучено</translation>
+      <translation type="unfinished">Kill engaged</translation>
     </message>
   </context>
   <context>
@@ -2752,7 +2752,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/11606074/message</name>
     <message>
       <source>Launch detected: enable motors (no motor delay)</source>
-      <translation>Виявлено запуск: увімкніть мотори (без затримки моторів)</translation>
+      <translation type="unfinished">Launch detected: enable motors (no motor delay)</translation>
     </message>
   </context>
   <context>
@@ -2801,7 +2801,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/12140426/message</name>
     <message>
       <source>EKF2_MAG_TYPE invalid, resetting to default</source>
-      <translation>EKF2_MAG_TYPE недійсний, перезавантаження до налаштувань за замовченням</translation>
+      <translation type="unfinished">EKF2_MAG_TYPE invalid, resetting to default</translation>
     </message>
   </context>
   <context>
@@ -2843,7 +2843,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/122461/message</name>
     <message>
       <source>Landing aborted: terrain measurement not found</source>
-      <translation>Приземлення скасовано: не знайдено розмірів ландшафту</translation>
+      <translation type="unfinished">Landing aborted: terrain measurement not found</translation>
     </message>
   </context>
   <context>
@@ -2857,7 +2857,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/12320347/message</name>
     <message>
       <source>Primary airspeed index bigger than number connected sensors, taking last sensor</source>
-      <translation>Початковий індекс швидкості польоту більше за кількість підключених сенсорів, візьміть останній сенсор</translation>
+      <translation type="unfinished">Primary airspeed index bigger than number connected sensors, taking last sensor</translation>
     </message>
   </context>
   <context>
@@ -2947,7 +2947,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/12894058/message</name>
     <message>
       <source>{1} sensor #{2} failure: {3}</source>
-      <translation>{1} сенсор #{2} невдача: {3}</translation>
+      <translation type="unfinished">{1} sensor #{2} failure: {3}</translation>
     </message>
   </context>
   <context>
@@ -2982,7 +2982,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/13277401/message</name>
     <message>
       <source>Failsafe warning:</source>
-      <translation>Попередження безаварійності:</translation>
+      <translation type="unfinished">Failsafe warning:</translation>
     </message>
   </context>
   <context>
@@ -3003,7 +3003,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/13378512/message</name>
     <message>
       <source>Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})</source>
-      <translation>Занадто мала відстань між точкою маршруту та пунктом: {1:.3m}(minimum: {2:.3m})</translation>
+      <translation type="unfinished">Distance between waypoint and gate too close: {1:.3m} (minimum: {2:.3m})</translation>
     </message>
   </context>
   <context>
@@ -3038,7 +3038,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/13568553/message</name>
     <message>
       <source>New mission waypoint sequence out of bounds</source>
-      <translation>Нова послідовність точок маршруту поза межами зони</translation>
+      <translation type="unfinished">New mission waypoint sequence out of bounds</translation>
     </message>
   </context>
   <context>
@@ -3073,7 +3073,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/13956202/message</name>
     <message>
       <source>Mission rejected: invalid land start</source>
-      <translation>Місію відхилено: неприпустимий старт з землі</translation>
+      <translation type="unfinished">Mission rejected: invalid land start</translation>
     </message>
   </context>
   <context>
@@ -3122,7 +3122,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/14153224/description</name>
     <message>
       <source>&lt;param&gt;MPC_VEL_MANUAL&lt;/param&gt; is set to {1:.0}.</source>
-      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
+      <translation type="unfinished">&lt;param&gt;MPC_VEL_MANUAL&lt;/param&gt; is set to {1:.0}.</translation>
     </message>
   </context>
   <context>
@@ -3171,14 +3171,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/14581325/message</name>
     <message>
       <source>Maximum tilt limit has been constrained to a safe value</source>
-      <translation>Максимальне ліміт нахилу обмежено до безпечного значення</translation>
+      <translation type="unfinished">Maximum tilt limit has been constrained to a safe value</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/14581325/description</name>
     <message>
       <source>&lt;param&gt;MPC_TILTMAX_AIR&lt;/param&gt; is set to {1:.0}.</source>
-      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
+      <translation type="unfinished">&lt;param&gt;MPC_TILTMAX_AIR&lt;/param&gt; is set to {1:.0}.</translation>
     </message>
   </context>
   <context>
@@ -3199,7 +3199,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15098248/message</name>
     <message>
       <source>Disabling transmitting with IRIDIUM mavlink on instance {1}</source>
-      <translation>Вимкнення передавання через IRIDIUM mavlink наприклад {1}</translation>
+      <translation type="unfinished">Disabling transmitting with IRIDIUM mavlink on instance {1}</translation>
     </message>
   </context>
   <context>
@@ -3243,7 +3243,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15373867/message</name>
     <message>
       <source>Launch detected: enablecontrol, waiting {1:.1}s until full throttle</source>
-      <translation>Виявлено запуск: увімкнення контролю, очікування {1:.1}до повної тяги</translation>
+      <translation type="unfinished">Launch detected: enablecontrol, waiting {1:.1}s until full throttle</translation>
     </message>
   </context>
   <context>
@@ -3264,7 +3264,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15456613/description</name>
     <message>
       <source>Land now, and check the vehicle setup. Clipping can lead to fly-aways.</source>
-      <translation>Приземліться зараз та перевірте налаштування апарату. Викривлення сигналу може призвести до задалеких відльотів.</translation>
+      <translation type="unfinished">Land now, and check the vehicle setup. Clipping can lead to fly-aways.</translation>
     </message>
   </context>
   <context>
@@ -3299,14 +3299,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15624514/message</name>
     <message>
       <source>Wind speed above limit ({1:.1m/s}), landing advised</source>
-      <translation>Швидкість вітру перевищує ліміт ({1:.1м/с}), рекомендуємо приземлення</translation>
+      <translation type="unfinished">Wind speed above limit ({1:.1m/s}), landing advised</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/1569033/message</name>
     <message>
       <source>parameter_rc_channel_index out of bounds</source>
-      <translation>parameter_rc_channel_index поза межами зони</translation>
+      <translation type="unfinished">parameter_rc_channel_index out of bounds</translation>
     </message>
   </context>
   <context>
@@ -3334,7 +3334,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/15909593/description</name>
     <message>
       <source>&lt;param&gt;MPC_XY_CRUISE&lt;/param&gt; is set to {1:.0}.</source>
-      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
+      <translation type="unfinished">&lt;param&gt;MPC_XY_CRUISE&lt;/param&gt; is set to {1:.0}.</translation>
     </message>
   </context>
   <context>
@@ -3399,14 +3399,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/16347639/message</name>
     <message>
       <source>Landing, flaring</source>
-      <translation>Приземлення, спалювання (flaring)</translation>
+      <translation type="unfinished">Landing, flaring</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16440365/message</name>
     <message>
       <source>ODOMETRY: unsupported estimator_type {1}</source>
-      <translation>ОДОМЕТРІЯ: непідтримуваний estimator_type {1}</translation>
+      <translation type="unfinished">ODOMETRY: unsupported estimator_type {1}</translation>
     </message>
   </context>
   <context>
@@ -3427,7 +3427,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/16591495/message</name>
     <message>
       <source>Control high latency failed! Telemetry unavailable</source>
-      <translation>Перевірка високої затримки не вдалася! Телеметрія недоступна</translation>
+      <translation type="unfinished">Control high latency failed! Telemetry unavailable</translation>
     </message>
   </context>
   <context>
@@ -3441,28 +3441,28 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/16663074/message</name>
     <message>
       <source>Mission rejected: takeoff is not the first waypoint item</source>
-      <translation>Місію відхилено: зліт не є першою точкою маршруту елемента</translation>
+      <translation type="unfinished">Mission rejected: takeoff is not the first waypoint item</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16682655/message</name>
     <message>
       <source>Kill disengaged</source>
-      <translation>Ліквідувати незалучених</translation>
+      <translation type="unfinished">Kill disengaged</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16691824/message</name>
     <message>
       <source>Ignoring mission item, invalid item</source>
-      <translation>Ігнорування предмет місії, неприпустимий предмет</translation>
+      <translation type="unfinished">Ignoring mission item, invalid item</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/16725343/message</name>
     <message>
       <source>RTL: completed, loitering</source>
-      <translation>RTL (повернення на точку злету): завершено, баражування</translation>
+      <translation type="unfinished">RTL: completed, loitering</translation>
     </message>
   </context>
   <context>
@@ -3476,7 +3476,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/185258/message</name>
     <message>
       <source>RTL: land at destination</source>
-      <translation>RTL: точка приземлення в місці призначення</translation>
+      <translation type="unfinished">RTL: land at destination</translation>
     </message>
   </context>
   <context>
@@ -3532,7 +3532,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/2440093/message</name>
     <message>
       <source>Unsupported ARM_DISARM param: {1:.3}</source>
-      <translation>Непідтримуваний ARM_DISARM param: {1:.3}</translation>
+      <translation type="unfinished">Unsupported ARM_DISARM param: {1:.3}</translation>
     </message>
   </context>
   <context>
@@ -3546,7 +3546,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/2566971/message</name>
     <message>
       <source>Disabling transmitting with IRIDIUM mavlink on instance {1} by command</source>
-      <translation>Відключення передавання через IRIDIUM mavlink наприклад {1} по команді</translation>
+      <translation type="unfinished">Disabling transmitting with IRIDIUM mavlink on instance {1} by command</translation>
     </message>
   </context>
   <context>
@@ -3560,7 +3560,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/2754873/message</name>
     <message>
       <source>Mission upload busy, ignoring MISSION_COUNT</source>
-      <translation>Довантаження місії зайняте, ігнорується MISSION_COUNT</translation>
+      <translation type="unfinished">Mission upload busy, ignoring MISSION_COUNT</translation>
     </message>
   </context>
   <context>
@@ -3574,7 +3574,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/2769710/message</name>
     <message>
       <source>Mission rejected: Add Landing item or remove Takeoff</source>
-      <translation>Місію відхилено: Додати предмет Приземлення або видалити Зліт</translation>
+      <translation type="unfinished">Mission rejected: Add Landing item or remove Takeoff</translation>
     </message>
   </context>
   <context>
@@ -3588,7 +3588,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/2842608/message</name>
     <message>
       <source>Mission rejected: Landing waypoint/pattern required</source>
-      <translation>Місію відхилено: Необхідна точка маршруту/шаблон</translation>
+      <translation type="unfinished">Mission rejected: Landing waypoint/pattern required</translation>
     </message>
   </context>
   <context>
@@ -3623,14 +3623,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3321936/message</name>
     <message>
       <source>Waypoint index out of bounds (current {1} \&gt;= total {2})</source>
-      <translation>Індекс точок vfhihene поза межами зони (поточне {1} \&gt;= всього {2})</translation>
+      <translation type="unfinished">Waypoint index out of bounds (current {1} \&gt;= total {2})</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3322590/message</name>
     <message>
       <source>Landing at current position</source>
-      <translation/>
+      <translation type="unfinished">Landing at current position</translation>
     </message>
   </context>
   <context>
@@ -3672,7 +3672,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3390156/message</name>
     <message>
       <source>No valid mission available, loitering</source>
-      <translation>Немає доступної місії, баражування</translation>
+      <translation type="unfinished">No valid mission available, loitering</translation>
     </message>
   </context>
   <context>
@@ -3693,14 +3693,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3484900/message</name>
     <message>
       <source>Returning to launch</source>
-      <translation>Повернення до запуску</translation>
+      <translation type="unfinished">Returning to launch</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3623245/message</name>
     <message>
       <source>Invalid configuration: Airspeed max smaller than min</source>
-      <translation>Некоректна конфігурація: максимальна швидкість польоту менша за мінімальну</translation>
+      <translation type="unfinished">Invalid configuration: Airspeed max smaller than min</translation>
     </message>
   </context>
   <context>
@@ -3716,7 +3716,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3645914/message</name>
     <message>
       <source>High latency data link lost</source>
-      <translation>Висока затримка втрачено з'єднання даних</translation>
+      <translation type="unfinished">High latency data link lost</translation>
     </message>
   </context>
   <context>
@@ -3752,7 +3752,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3779911/description</name>
     <message>
       <source>&lt;param&gt;MPC_THR_HOVER&lt;/param&gt; is set to {1:.0}.</source>
-      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
+      <translation type="unfinished">&lt;param&gt;MPC_THR_HOVER&lt;/param&gt; is set to {1:.0}.</translation>
     </message>
   </context>
   <context>
@@ -3766,7 +3766,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3817890/description</name>
     <message>
       <source>No mission or storage failure</source>
-      <translation>Немає місії або збїй сховища</translation>
+      <translation type="unfinished">No mission or storage failure</translation>
     </message>
   </context>
   <context>
@@ -3787,14 +3787,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/3939705/message</name>
     <message>
       <source>Land tilt limit has been constrained by maximum tilt</source>
-      <translation>Ліміт нахилу над поверхнею обмежений максимальним нахилом</translation>
+      <translation type="unfinished">Land tilt limit has been constrained by maximum tilt</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/3939705/description</name>
     <message>
       <source>&lt;param&gt;MPC_TILTMAX_LND&lt;/param&gt; is set to {1:.0}.</source>
-      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
+      <translation type="unfinished">&lt;param&gt;MPC_TILTMAX_LND&lt;/param&gt; is set to {1:.0}.</translation>
     </message>
   </context>
   <context>
@@ -3815,21 +3815,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4089486/message</name>
     <message>
       <source>Rejecting waypoint command, component or system ID mismatch</source>
-      <translation>Відхилення команд точок маршруту, компоненту чи розбіжність системного ID</translation>
+      <translation type="unfinished">Rejecting waypoint command, component or system ID mismatch</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4163547/message</name>
     <message>
       <source>Start loiter with fixed bank angle</source>
-      <translation>Почніть баражувати з фіксованого кута крену</translation>
+      <translation type="unfinished">Start loiter with fixed bank angle</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4202815/message</name>
     <message>
       <source>Ignoring mission clear command, busy</source>
-      <translation>Ігнорування команди місію завершено (mission clear), зайнято</translation>
+      <translation type="unfinished">Ignoring mission clear command, busy</translation>
     </message>
   </context>
   <context>
@@ -3843,7 +3843,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/439666/message</name>
     <message>
       <source>Ignoring mission item, no transfer in progress</source>
-      <translation>Ігнорування предмету місії, немає прогресу у трансфері</translation>
+      <translation type="unfinished">Ignoring mission item, no transfer in progress</translation>
     </message>
   </context>
   <context>
@@ -3864,7 +3864,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4519150/message</name>
     <message>
       <source>Invalid configuration: Airspeed trim out of min or max bounds</source>
-      <translation>Некоректна конфігурація: обмеження польотної швидкості поза межами min або max меж</translation>
+      <translation type="unfinished">Invalid configuration: Airspeed trim out of min or max bounds</translation>
     </message>
   </context>
   <context>
@@ -3910,14 +3910,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4796299/message</name>
     <message>
       <source>Mission upload busy, already receiving waypoint</source>
-      <translation>Завантаження місії зайняте, їде отримання точки маршруту</translation>
+      <translation type="unfinished">Mission upload busy, already receiving waypoint</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/4854315/message</name>
     <message>
       <source>No valid mission available, refusing takeoff</source>
-      <translation>Немає належних місій, відхилення зльоту</translation>
+      <translation type="unfinished">No valid mission available, refusing takeoff</translation>
     </message>
   </context>
   <context>
@@ -3931,7 +3931,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/4934924/description</name>
     <message>
       <source>Land now, and check the vehicle setup. Clipping can lead to fly-aways.</source>
-      <translation>Приземліться зараз та перевірте налаштування апарату. Обрізання даних може призвести до задалеких відльотів.</translation>
+      <translation type="unfinished">Land now, and check the vehicle setup. Clipping can lead to fly-aways.</translation>
     </message>
   </context>
   <context>
@@ -3952,14 +3952,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/5065788/description</name>
     <message>
       <source>&lt;param&gt;MPC_VEL_MAN_SIDE&lt;/param&gt; is set to {1:.0}.</source>
-      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
+      <translation type="unfinished">&lt;param&gt;MPC_VEL_MAN_SIDE&lt;/param&gt; is set to {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5108026/message</name>
     <message>
       <source>ESCs calibration denied</source>
-      <translation>ESCs калібрування відхилено</translation>
+      <translation type="unfinished">ESCs calibration denied</translation>
     </message>
   </context>
   <context>
@@ -3980,7 +3980,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/5158211/message</name>
     <message>
       <source>No airspeed sensor detected, switching to non-airspeed mode</source>
-      <translation>Не виявлено датчика швидкості польоту, перемикання на режим без швидкості польоту</translation>
+      <translation type="unfinished">No airspeed sensor detected, switching to non-airspeed mode</translation>
     </message>
   </context>
   <context>
@@ -4048,7 +4048,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/5494498/message</name>
     <message>
       <source>Mission rejected: Takeoff waypoint required</source>
-      <translation>Місію відхилено: Необхідна точка маршруту</translation>
+      <translation type="unfinished">Mission rejected: Takeoff waypoint required</translation>
     </message>
   </context>
   <context>
@@ -4069,7 +4069,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/5726704/message</name>
     <message>
       <source>High wind speed detected ({1:.1m/s}), landing advised</source>
-      <translation>Виявлено високу швидкість вітру ({1:.1м/с}), радимо приземлення</translation>
+      <translation type="unfinished">High wind speed detected ({1:.1m/s}), landing advised</translation>
     </message>
   </context>
   <context>
@@ -4097,21 +4097,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/5814991/message</name>
     <message>
       <source>Ascent speed has been constrained by max speed</source>
-      <translation>Швидкість зниження обмежена максимальною швидкістю</translation>
+      <translation type="unfinished">Ascent speed has been constrained by max speed</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5814991/description</name>
     <message>
       <source>&lt;param&gt;MPC_Z_V_AUTO_UP&lt;/param&gt; is set to {1:.0}.</source>
-      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
+      <translation type="unfinished">&lt;param&gt;MPC_Z_V_AUTO_UP&lt;/param&gt; is set to {1:.0}.</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/5847165/message</name>
     <message>
       <source>Dangerously low battery! System shut down failed</source>
-      <translation>Небезпечно низький заряд батареї! Система відключена</translation>
+      <translation type="unfinished">Dangerously low battery! System shut down failed</translation>
     </message>
   </context>
   <context>
@@ -4174,7 +4174,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/6363289/message</name>
     <message>
       <source>Airspeed estimation valid</source>
-      <translation>Дійсне вимірювання швидкості польоту</translation>
+      <translation type="unfinished">Airspeed estimation valid</translation>
     </message>
   </context>
   <context>
@@ -4258,7 +4258,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/7028282/message</name>
     <message>
       <source>Airspeed sensor failure detected. Check connection and reboot</source>
-      <translation>Виявлено помилку датчика швидкості польоту. Перевірте з'єднання та перезавантажте</translation>
+      <translation type="unfinished">Airspeed sensor failure detected. Check connection and reboot</translation>
     </message>
   </context>
   <context>
@@ -4286,14 +4286,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/7186357/message</name>
     <message>
       <source>Yaw Airmode requires disabling the stick arm gesture</source>
-      <translation>Режим рискання потребує вимкнення руху взведення стіком</translation>
+      <translation type="unfinished">Yaw Airmode requires disabling the stick arm gesture</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/7186357/description</name>
     <message>
       <source>&lt;param&gt;MC_AIRMODE&lt;/param&gt; is now set to roll/pitch airmode.</source>
-      <translation>&lt;param&gt;MC_AIRMODE&lt;/param&gt; зараз налаштовано на режим крен/тангаж.</translation>
+      <translation type="unfinished">&lt;param&gt;MC_AIRMODE&lt;/param&gt; is now set to roll/pitch airmode.</translation>
     </message>
   </context>
   <context>
@@ -4328,7 +4328,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/7791755/message</name>
     <message>
       <source>Airspeed sensor healthy, start using again</source>
-      <translation>Датчик швидкості польоту в нормі, почніть використовувати знову</translation>
+      <translation type="unfinished">Airspeed sensor healthy, start using again</translation>
     </message>
   </context>
   <context>
@@ -4342,7 +4342,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/7803396/message</name>
     <message>
       <source>Mission finished, landed</source>
-      <translation>Місія завершена, приземлення</translation>
+      <translation type="unfinished">Mission finished, landed</translation>
     </message>
   </context>
   <context>
@@ -4356,7 +4356,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/7860665/message</name>
     <message>
       <source>Mission rejected: land start item before RTL item is not possible</source>
-      <translation>Місія відхилена: елемент старту з землі перед елементом RTL неможливий</translation>
+      <translation type="unfinished">Mission rejected: land start item before RTL item is not possible</translation>
     </message>
   </context>
   <context>
@@ -4370,7 +4370,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/8208988/message</name>
     <message>
       <source>Climb to {1:.1m_v} above home</source>
-      <translation>Перейти до {1:.1m_v} вище точки повернення</translation>
+      <translation type="unfinished">Climb to {1:.1m_v} above home</translation>
     </message>
   </context>
   <context>
@@ -4399,7 +4399,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/8280920/message</name>
     <message>
       <source>Airspeed estimation invalid</source>
-      <translation>Оцінка швидкості польоту не вдала</translation>
+      <translation type="unfinished">Airspeed estimation invalid</translation>
     </message>
   </context>
   <context>
@@ -4413,14 +4413,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/8324861/message</name>
     <message>
       <source>Not yet ready for mission, no position lock</source>
-      <translation>Ще немає готовності для місії, немає замикання позиції</translation>
+      <translation type="unfinished">Not yet ready for mission, no position lock</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8459921/message</name>
     <message>
       <source>Mission rejected: Landing waypoint/pattern required</source>
-      <translation>Місію відхилено: Необхідна точка приземлення/шаблону</translation>
+      <translation type="unfinished">Mission rejected: Landing waypoint/pattern required</translation>
     </message>
   </context>
   <context>
@@ -4434,7 +4434,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/8546752/message</name>
     <message>
       <source>Ignoring mission item, busy</source>
-      <translation>Ігнорування предмету місії, зайнятий</translation>
+      <translation type="unfinished">Ignoring mission item, busy</translation>
     </message>
   </context>
   <context>
@@ -4462,14 +4462,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/8706060/message</name>
     <message>
       <source>Manual backward speed has been constrained by forward speed</source>
-      <translation>Ручна бокова швидкість була обмежена прямою швидкістю</translation>
+      <translation type="unfinished">Manual backward speed has been constrained by forward speed</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/default/events/8706060/description</name>
     <message>
       <source>&lt;param&gt;MPC_VEL_MAN_BACK&lt;/param&gt; is set to {1:.0}.</source>
-      <translation>&lt;param&gt;MPC_Z_V_AUTO_DN&lt;/param&gt; встановлено на {1:.0}.</translation>
+      <translation type="unfinished">&lt;param&gt;MPC_VEL_MAN_BACK&lt;/param&gt; is set to {1:.0}.</translation>
     </message>
   </context>
   <context>
@@ -4660,7 +4660,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/9537079/message</name>
     <message>
       <source>Obstacle message received in unsupported frame {1}</source>
-      <translation>Повідомлення про перешкоду отримано у рамці, що не підтримується {1}</translation>
+      <translation type="unfinished">Obstacle message received in unsupported frame {1}</translation>
     </message>
   </context>
   <context>
@@ -4681,7 +4681,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/default/events/9751178/message</name>
     <message>
       <source>{3}: switching to {2}</source>
-      <translation>{3}: switching to {2}</translation>
+      <translation type="unfinished">{3}: switching to {2}</translation>
     </message>
   </context>
   <context>
@@ -4753,7 +4753,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 
 &lt;profile name="dev"&gt; The threshold can be adjusted via &lt;param&gt;COM_CPU_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>Навантаження на ЦП(CPU) може бути зменшено наприклад через відключення незалучений модулей (напр. mavlink екземпляри) або зменшення частоти оновлення гірокомпаса через &lt;param&gt;IMU_GYRO_RATEMAX&lt;/param&gt;.
+      <translation type="unfinished">The CPU load can be reduced for example by disabling unused modules (e.g. mavlink instances) or reducing the gyro update rate via &lt;param&gt;IMU_GYRO_RATEMAX&lt;/param&gt;.
 
 &lt;profile name="dev"&gt; The threshold can be adjusted via &lt;param&gt;COM_CPU_MAX&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
@@ -4786,7 +4786,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/11478328/message</name>
     <message>
       <source>No valid data from Gyro {3}</source>
-      <translation>Немає належних даних від Гірокомпаса {3}</translation>
+      <translation type="unfinished">No valid data from Gyro {3}</translation>
     </message>
   </context>
   <context>
@@ -4871,7 +4871,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; параметр.
+      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -4919,7 +4919,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/15388760/message</name>
     <message>
       <source>Compass sensor {3} missing</source>
-      <translation>Сенсор відстані {3} відсутній</translation>
+      <translation type="unfinished">Compass sensor {3} missing</translation>
     </message>
   </context>
   <context>
@@ -5037,7 +5037,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <name>/components/1/event_groups/health/events/3568720/message</name>
     <message>
       <source>Gyro sensor {3} missing</source>
-      <translation>Сенсор гірокомпаса {3} відсутній</translation>
+      <translation type="unfinished">Gyro sensor {3} missing</translation>
     </message>
   </context>
   <context>
@@ -5092,11 +5092,11 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 
 This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>SD-карта містить файли аварійного вивантаження, обслужіть апарат перед продовженням польоту.
+      <translation type="unfinished">The SD card contains crash dump files, service the vehicle before continuing to fly.
 
-&lt;profile name="dev"&gt; Перевірте як виправити hard faults на &lt;a&gt;https://docs.px4.io/main/en/debug/gdb_debugging. tml#hard-fault-debugging&lt;/a&gt;. Після завершення видаліть файли 'fault_*.log' на SD-карті.
+&lt;profile name="dev"&gt; Check how to debug hardfaults on &lt;a&gt;https://docs.px4.io/main/en/debug/gdb_debugging.html#hard-fault-debugging&lt;/a&gt;. When completed, remove the files 'fault_*.log' on the SD card.
 
-Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; параметр.
+This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -5104,14 +5104,14 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
     <name>/components/1/event_groups/health/events/4643123/message</name>
     <message>
       <source>Airspeed invalid</source>
-      <translation>Неналежна швидкість польоту</translation>
+      <translation type="unfinished">Airspeed invalid</translation>
     </message>
   </context>
   <context>
     <name>/components/1/event_groups/health/events/4877352/message</name>
     <message>
       <source>Imbalanced propeller detected</source>
-      <translation>Виявлено незбалансованого пропелера</translation>
+      <translation type="unfinished">Imbalanced propeller detected</translation>
     </message>
   </context>
   <context>
@@ -5231,9 +5231,9 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
 
 This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Переконайтесь що ADC працює та заголовок живлення_системи опубліковано.
+      <translation type="unfinished">&lt;profile name="dev"&gt; Ensure the ADC is working and the system_power topic is published.
 
-Ця перевірка може бути налаштована через &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; параметр.
+This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -5346,7 +5346,7 @@ This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; para
     <message>
       <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Ця перевірка може бути налаштована через &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt; параметр.
+      <translation type="unfinished">&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
@@ -5394,7 +5394,7 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
     <name>/components/1/event_groups/health/events/9493632/message</name>
     <message>
       <source>No airspeed data</source>
-      <translation>Немає даних про швидкість польоту</translation>
+      <translation type="unfinished">No airspeed data</translation>
     </message>
   </context>
   <context>
@@ -5402,7 +5402,7 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
     <message>
       <source>&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;SYS_HAS_NUM_ASPD&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
-      <translation>&lt;profile name="dev"&gt; Вірогідно що модуль селектора швидкості польоту не працює. Ця перевірка може бути налаштована через &lt;param&gt;SYS_HAS_NUM_ASPD&lt;/param&gt; параметр.
+      <translation type="unfinished">&lt;profile name="dev"&gt; Most likely the airspeed selector module is not running. This check can be configured via &lt;param&gt;SYS_HAS_NUM_ASPD&lt;/param&gt; parameter.
 &lt;/profile&gt;</translation>
     </message>
   </context>
