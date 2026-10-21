@@ -523,14 +523,14 @@
     <name>/components/1/enums/failsafe_cause_t/entries/3/description</name>
     <message>
       <source>Low battery level</source>
-      <translation type="unfinished">Low battery level</translation>
+      <translation>电池电量低</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/failsafe_cause_t/entries/4/description</name>
     <message>
       <source>Critical battery level</source>
-      <translation type="unfinished">Critical battery level</translation>
+      <translation>危急电量水平</translation>
     </message>
   </context>
   <context>
@@ -544,56 +544,56 @@
     <name>/components/1/enums/failsafe_cause_t/entries/6/description</name>
     <message>
       <source>Remaining flight time low</source>
-      <translation type="unfinished">Remaining flight time low</translation>
+      <translation>剩余飞行时间较低</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1/description</name>
     <message>
       <source>None</source>
-      <translation type="unfinished">None</translation>
+      <translation>无</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1024/description</name>
     <message>
       <source>Logging</source>
-      <translation type="unfinished">Logging</translation>
+      <translation>日志</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1048576/description</name>
     <message>
       <source>System</source>
-      <translation type="unfinished">System</translation>
+      <translation>系统</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/1073741824/description</name>
     <message>
       <source>Open Drone ID system</source>
-      <translation type="unfinished">Open Drone ID system</translation>
+      <translation>打开 Drone ID 系统</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/128/description</name>
     <message>
       <source>Remote Control (RC or Joystick)</source>
-      <translation type="unfinished">Remote Control (RC or Joystick)</translation>
+      <translation>远程控制 (遥控器 或 操纵杆)</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/131072/description</name>
     <message>
       <source>Local position estimate</source>
-      <translation type="unfinished">Local position estimate</translation>
+      <translation>局部位置估计</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/134217728/description</name>
     <message>
       <source>Magnetometer</source>
-      <translation type="unfinished">Magnetometer</translation>
+      <translation>磁力传感器</translation>
     </message>
   </context>
   <context>
@@ -635,49 +635,49 @@
     <name>/components/1/enums/health_component_t/entries/2097152/description</name>
     <message>
       <source>Camera</source>
-      <translation type="unfinished">Camera</translation>
+      <translation>相机</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/2147483648/description</name>
     <message>
       <source>Traffic Avoidance (ADSB/FLARM)</source>
-      <translation type="unfinished">Traffic Avoidance (ADSB/FLARM)</translation>
+      <translation>交通避让（ADSB/FLARM）</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/256/description</name>
     <message>
       <source>Motors/ESCs</source>
-      <translation type="unfinished">Motors/ESCs</translation>
+      <translation>电机/ECS</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/262144/description</name>
     <message>
       <source>Mission</source>
-      <translation type="unfinished">Mission</translation>
+      <translation>任务</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/268435456/description</name>
     <message>
       <source>Accelerometer</source>
-      <translation type="unfinished">Accelerometer</translation>
+      <translation>加速度计</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/32/description</name>
     <message>
       <source>Vision position estimate</source>
-      <translation type="unfinished">Vision position estimate</translation>
+      <translation>视觉位置估计</translation>
     </message>
   </context>
   <context>
     <name>/components/1/enums/health_component_t/entries/32768/description</name>
     <message>
       <source>Position controller</source>
-      <translation type="unfinished">Position controller</translation>
+      <translation>位置控制器</translation>
     </message>
   </context>
   <context>
@@ -2709,7 +2709,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
     <message>
       <source>- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_STALL&lt;/param&gt;: {2:.1}</source>
-      <translation type="unfinished">- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {1:.1}
+      <translation>- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_STALL&lt;/param&gt;: {2:.1}</translation>
     </message>
   </context>
