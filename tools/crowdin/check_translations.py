@@ -19,7 +19,9 @@ PRESERVED = [
     ('markup tag', re.compile(r'</?[a-zA-Z][^>]*>')),
     ('placeholder', re.compile(r'\{[^{}]*\}')),
     ('code span', re.compile(r'`[^`\n]+`')),
-    ('URL', re.compile(r'https?://[^\s<>)"\']+')),
+    # ASCII URL characters only, not ending in punctuation, so that a following
+    # full stop (ASCII or CJK) is not taken as part of the URL
+    ('URL', re.compile(r'https?://[A-Za-z0-9\-._~:/?#\[\]@!$&*+,;=%]*[A-Za-z0-9\-_~/#=%]')),
     # ASCII-only boundaries: \b would not match next to CJK characters
     ('identifier', re.compile(r'(?<![A-Za-z0-9_])[A-Za-z][A-Za-z0-9]*_[A-Za-z0-9_]+(?![A-Za-z0-9_])')),
 ]
