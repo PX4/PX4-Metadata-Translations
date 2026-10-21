@@ -64,7 +64,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
     <name>/parameters/ADSB_EMERGC/values/1/description</name>
     <message>
       <source>General</source>
-      <translation>Головне</translation>
+      <translation>Загальний</translation>
     </message>
   </context>
   <context>
@@ -129,7 +129,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
     <name>/parameters/ADSB_EMIT_TYPE/values/1/description</name>
     <message>
       <source>Light</source>
-      <translation>Світлий</translation>
+      <translation>Легкий</translation>
     </message>
   </context>
   <context>
@@ -164,7 +164,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
     <name>/parameters/ADSB_EMIT_TYPE/values/6/description</name>
     <message>
       <source>Performance</source>
-      <translation>Показники</translation>
+      <translation>Високі льотні характеристики</translation>
     </message>
   </context>
   <context>
@@ -192,7 +192,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
     <name>/parameters/ADSB_EMIT_TYPE/values/10/description</name>
     <message>
       <source>LightAir</source>
-      <translation>Легкий вітер</translation>
+      <translation>Легший за повітря</translation>
     </message>
   </context>
   <context>
@@ -227,7 +227,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
     <name>/parameters/ADSB_EMIT_TYPE/values/15/description</name>
     <message>
       <source>Space</source>
-      <translation>Простір</translation>
+      <translation>Космічний апарат</translation>
     </message>
   </context>
   <context>
@@ -241,21 +241,21 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
     <name>/parameters/ADSB_EMIT_TYPE/values/17/description</name>
     <message>
       <source>EmergencySurf</source>
-      <translation>Surf надзвичайного стану</translation>
+      <translation>Наземний аварійний транспорт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/18/description</name>
     <message>
       <source>ServiceSurf</source>
-      <translation>Surf сервісу</translation>
+      <translation>Наземний службовий транспорт</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ADSB_EMIT_TYPE/values/19/description</name>
     <message>
       <source>PointObstacle</source>
-      <translation>Точка перешкоди</translation>
+      <translation>Точкова перешкода</translation>
     </message>
   </context>
   <context>
@@ -412,7 +412,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
     <name>/parameters/ADSB_IDENT/shortDesc</name>
     <message>
       <source>ADSB-Out Ident Configuration</source>
-      <translation>ADSB-Out визначальна конфігурація</translation>
+      <translation>ADSB-Out налаштування Ident</translation>
     </message>
   </context>
   <context>
@@ -458,7 +458,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
     <name>/parameters/ADSB_LEN_WIDTH/values/0/description</name>
     <message>
       <source>SizeUnknown</source>
-      <translation>Розмір невідомо</translation>
+      <translation>Розмір невідомий</translation>
     </message>
   </context>
   <context>
@@ -570,7 +570,7 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
     <name>/parameters/ADSB_LIST_MAX/shortDesc</name>
     <message>
       <source>ADSB-In Vehicle List Size</source>
-      <translation>ADSB-In список розмірів апарату</translation>
+      <translation>ADSB-In розмір списку апаратів</translation>
     </message>
   </context>
   <context>
@@ -909,49 +909,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Актюатора Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -1049,14 +1049,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation>Тангаж підвіса камери</translation>
+      <translation>Тангаж підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -1070,21 +1070,21 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC1/values/451/description</name>
     <message>
       <source>IC Engine Throttle</source>
-      <translation>IC Тяга Двигуна</translation>
+      <translation>IC Дросель двигуна</translation>
     </message>
   </context>
   <context>
@@ -1105,7 +1105,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC10/shortDesc</name>
     <message>
       <source>SIM Channel 10 Output Function</source>
-      <translation/>
+      <translation>Функція виходу каналу SIM 10</translation>
     </message>
   </context>
   <context>
@@ -1347,49 +1347,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC10/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -1487,14 +1487,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC10/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation>Тангаж підвіса для камери</translation>
+      <translation>Тангаж підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC10/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -1508,7 +1508,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC10/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
@@ -1785,49 +1785,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC11/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC11/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -1932,7 +1932,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC11/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -1946,7 +1946,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC11/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
@@ -1981,7 +1981,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC12/shortDesc</name>
     <message>
       <source>SIM Channel 12 Output Function</source>
-      <translation>Функції виводу SIM Каналу 12</translation>
+      <translation>Функція виводу SIM каналу 12</translation>
     </message>
   </context>
   <context>
@@ -2223,56 +2223,56 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC12/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC12/values/401/description</name>
     <message>
       <source>Parachute</source>
-      <translation>Блок приземлення</translation>
+      <translation>Парашут</translation>
     </message>
   </context>
   <context>
@@ -2370,7 +2370,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC12/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -2384,7 +2384,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC12/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
@@ -2661,49 +2661,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC13/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC13/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -2808,7 +2808,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC13/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -2822,7 +2822,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC13/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
@@ -3099,49 +3099,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC14/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Актюатора Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -3246,7 +3246,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC14/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -3260,14 +3260,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC14/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC14/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -3281,7 +3281,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC14/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -3537,49 +3537,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC15/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -3684,7 +3684,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC15/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -3698,14 +3698,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC15/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC15/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -3719,7 +3719,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC15/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -3975,49 +3975,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC16/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -4108,7 +4108,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC16/values/420/description</name>
     <message>
       <source>Gimbal Roll</source>
-      <translation/>
+      <translation>Крен підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -4122,7 +4122,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC16/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -4136,14 +4136,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC16/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC16/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -4157,7 +4157,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC16/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -4413,49 +4413,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC2/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -4560,7 +4560,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC2/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -4574,14 +4574,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC2/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC2/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -4595,7 +4595,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC2/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -4851,49 +4851,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC3/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -4998,7 +4998,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC3/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -5012,14 +5012,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC3/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC3/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -5033,7 +5033,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC3/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -5289,49 +5289,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC4/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -5436,7 +5436,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC4/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -5450,14 +5450,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC4/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC4/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -5471,7 +5471,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC4/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -5727,49 +5727,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC5/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -5874,7 +5874,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC5/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -5888,14 +5888,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC5/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC5/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -5909,7 +5909,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC5/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -6165,42 +6165,42 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC6/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
@@ -6270,7 +6270,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC6/values/409/description</name>
     <message>
       <source>RC AUX 3</source>
-      <translation/>
+      <translation>Пульт(RC) AUX 3</translation>
     </message>
   </context>
   <context>
@@ -6312,7 +6312,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC6/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -6326,14 +6326,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC6/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC6/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -6347,7 +6347,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC6/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -6603,49 +6603,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC7/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -6743,14 +6743,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC7/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation>Тангаж підвіса камери</translation>
+      <translation>Тангаж підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -6764,14 +6764,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC7/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC7/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -6785,7 +6785,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC7/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -7041,49 +7041,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC8/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -7181,14 +7181,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC8/values/421/description</name>
     <message>
       <source>Gimbal Pitch</source>
-      <translation>Тангаж підвіса камери</translation>
+      <translation>Тангаж підвісу камери</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -7202,14 +7202,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC8/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC8/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -7223,7 +7223,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC8/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -7479,49 +7479,49 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC9/values/301/description</name>
     <message>
       <source>Peripheral via Actuator Set 1</source>
-      <translation>Периферія через Привід Набір 1</translation>
+      <translation>Периферія через набір приводів 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/302/description</name>
     <message>
       <source>Peripheral via Actuator Set 2</source>
-      <translation>Периферія через Привід Набір 2</translation>
+      <translation>Периферія через набір приводів 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/303/description</name>
     <message>
       <source>Peripheral via Actuator Set 3</source>
-      <translation>Периферія через Привід Набір 3</translation>
+      <translation>Периферія через набір приводів 3</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/304/description</name>
     <message>
       <source>Peripheral via Actuator Set 4</source>
-      <translation>Периферія через Привід Набір 4</translation>
+      <translation>Периферія через набір приводів 4</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/305/description</name>
     <message>
       <source>Peripheral via Actuator Set 5</source>
-      <translation>Периферія через Привід Набір 5</translation>
+      <translation>Периферія через набір приводів 5</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/306/description</name>
     <message>
       <source>Peripheral via Actuator Set 6</source>
-      <translation>Периферія через Привід Набір 6</translation>
+      <translation>Периферія через набір приводів 6</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/400/description</name>
     <message>
       <source>Landing Gear</source>
-      <translation>Блок приземлення</translation>
+      <translation>Шасі</translation>
     </message>
   </context>
   <context>
@@ -7626,7 +7626,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC9/values/422/description</name>
     <message>
       <source>Gimbal Yaw</source>
-      <translation>Рискання підвісом камери</translation>
+      <translation>Рискання підвісу камери</translation>
     </message>
   </context>
   <context>
@@ -7640,14 +7640,14 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC9/values/440/description</name>
     <message>
       <source>Landing Gear Wheel</source>
-      <translation>Колесо блоку приземлення</translation>
+      <translation>Колесо шасі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/PWM_MAIN_FUNC9/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC запалювання мотору</translation>
+      <translation>IC запалювання двигуна</translation>
     </message>
   </context>
   <context>
@@ -7661,7 +7661,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC9/values/452/description</name>
     <message>
       <source>IC Engine Choke</source>
-      <translation>IC заслінка двигуна</translation>
+      <translation>IC повітряна заслінка двигуна</translation>
     </message>
   </context>
   <context>
@@ -7675,7 +7675,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_REV/shortDesc</name>
     <message>
       <source>Reverse Output Range for SIM</source>
-      <translation>Зворотній діапазон виводу для SIM</translation>
+      <translation>Зворотний діапазон виводу для SIM</translation>
     </message>
   </context>
   <context>
@@ -7807,7 +7807,7 @@ Note: this is only useful for servos.
     <name>/parameters/ASPD_DO_CHECKS/shortDesc</name>
     <message>
       <source>Enable checks on airspeed sensors</source>
-      <translation>Активуйте перевірки сенсорів швидкості польоту</translation>
+      <translation>Увімкнути перевірки датчиків повітряної швидкості</translation>
     </message>
   </context>
   <context>
@@ -7827,7 +7827,7 @@ Note: The missing data check (bit 0) is implicitly always enabled when ASPD_DO_C
     <name>/parameters/ASPD_DO_CHECKS/bitmask/0/description</name>
     <message>
       <source>Only data missing check (triggers if more than 1s no data)</source>
-      <translation>Тільки дані про нестачу перевірки (викликається, якщо більше ніж 1 секунду дані відсутні)</translation>
+      <translation>Лише перевірка відсутності даних (спрацьовує, якщо даних немає понад 1 с)</translation>
     </message>
   </context>
   <context>
@@ -7848,14 +7848,14 @@ Note: The missing data check (bit 0) is implicitly always enabled when ASPD_DO_C
     <name>/parameters/ASPD_DO_CHECKS/bitmask/3/description</name>
     <message>
       <source>Load factor check (triggers if measurement is below stall speed)</source>
-      <translation>Перевірка фактора заряджання (викликається, якщо вимірювання є нижче швидкості звалювання)</translation>
+      <translation>Перевірка коефіцієнта перевантаження (спрацьовує, якщо виміряне значення нижче швидкості звалювання)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_DO_CHECKS/bitmask/4/description</name>
     <message>
       <source>First principle check (airspeed change vs. throttle and pitch)</source>
-      <translation>Перша базова перевірка (зміна швидкості польоту проти тяги та тангажу)</translation>
+      <translation>Перевірка з перших принципів (зміна повітряної швидкості порівняно з тягою та тангажем)</translation>
     </message>
   </context>
   <context>
@@ -7869,28 +7869,28 @@ Note: The missing data check (bit 0) is implicitly always enabled when ASPD_DO_C
     <name>/parameters/ASPD_FALLBACK/values/0/description</name>
     <message>
       <source>Fallback only to other airspeed sensors</source>
-      <translation>Резервний варіант лише для інших сенсорів швидкості польоту</translation>
+      <translation>Резервний перехід лише на інші датчики повітряної швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FALLBACK/values/1/description</name>
     <message>
       <source>Fallback to groundspeed-minus-windspeed airspeed estimation</source>
-      <translation>Відступити до визначення швидкості польоту через швидкість відносно землі мінус швидкість вітру</translation>
+      <translation>Резервний перехід на оцінку повітряної швидкості як швидкості відносно землі мінус швидкість вітру</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FALLBACK/values/2/description</name>
     <message>
       <source>Fallback to thrust based airspeed estimation</source>
-      <translation>Відступити до визначення швидкості польоту на основі тяги</translation>
+      <translation>Резервний перехід на оцінку повітряної швидкості на основі тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_FP_T_WINDOW/shortDesc</name>
     <message>
       <source>First principle airspeed check time window</source>
-      <translation>Часовий інтервал першої базової перевірки швидкості польоту</translation>
+      <translation>Часове вікно перевірки повітряної швидкості з перших принципів</translation>
     </message>
   </context>
   <context>
@@ -7914,7 +7914,7 @@ Relies on  FW_THR_TRIM being set accurately.
     <name>/parameters/ASPD_FS_INNOV/shortDesc</name>
     <message>
       <source>Airspeed failure innovation threshold</source>
-      <translation>Неспрацювання інноваційного порогу швидкості польоту</translation>
+      <translation>Поріг інновації для виявлення збою повітряної швидкості</translation>
     </message>
   </context>
   <context>
@@ -7936,7 +7936,7 @@ The time required to detect a fault when the threshold is exceeded depends on th
     <name>/parameters/ASPD_FS_INTEG/shortDesc</name>
     <message>
       <source>Airspeed failure innovation integral threshold</source>
-      <translation>Неспрацювання інноваційного інтегрального порогу швидкості польоту</translation>
+      <translation>Поріг інтеграла інновації для виявлення збою повітряної швидкості</translation>
     </message>
   </context>
   <context>
@@ -7954,7 +7954,7 @@ Larger values make the check less sensitive, smaller positive values make it mor
     <name>/parameters/ASPD_FS_T_START/shortDesc</name>
     <message>
       <source>Airspeed failsafe start delay</source>
-      <translation>Затримка старту аварійного режиму швидкості польоту</translation>
+      <translation>Затримка початку аварійного режиму повітряної швидкості</translation>
     </message>
   </context>
   <context>
@@ -7972,7 +7972,7 @@ Set to a negative value to disable the re-enabling in flight.
     <name>/parameters/ASPD_FS_T_STOP/shortDesc</name>
     <message>
       <source>Airspeed failsafe stop delay</source>
-      <translation>Затримка припинення аварійного режиму швидкості польоту</translation>
+      <translation>Затримка припинення аварійного режиму повітряної швидкості</translation>
     </message>
   </context>
   <context>
@@ -7988,49 +7988,49 @@ Set to a negative value to disable the re-enabling in flight.
     <name>/parameters/ASPD_PRIMARY/shortDesc</name>
     <message>
       <source>Index or primary airspeed measurement source</source>
-      <translation>Індекс або первинне джерело вимірювання швидкості польоту</translation>
+      <translation>Індекс або основне джерело вимірювання повітряної швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/0/description</name>
     <message>
       <source>Groundspeed minus windspeed</source>
-      <translation>Швидкість відносно землі мінус швидкість польоту</translation>
+      <translation>Швидкість відносно землі мінус швидкість вітру</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/1/description</name>
     <message>
       <source>First airspeed sensor</source>
-      <translation>Перший датчик швидкості польоту</translation>
+      <translation>Перший датчик повітряної швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/2/description</name>
     <message>
       <source>Second airspeed sensor</source>
-      <translation>Другий датчик швидкості польоту</translation>
+      <translation>Другий датчик повітряної швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/3/description</name>
     <message>
       <source>Third airspeed sensor</source>
-      <translation>Третій датчик швидкості польоту</translation>
+      <translation>Третій датчик повітряної швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_PRIMARY/values/4/description</name>
     <message>
       <source>Thrust based airspeed</source>
-      <translation>Швидкість польоту на основі тяги</translation>
+      <translation>Повітряна швидкість на основі тяги</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_1/shortDesc</name>
     <message>
       <source>Scale of airspeed sensor 1</source>
-      <translation>Шкала швидкості польоту сенсора 1</translation>
+      <translation>Масштаб датчика повітряної швидкості 1</translation>
     </message>
   </context>
   <context>
@@ -8046,7 +8046,7 @@ Set to a negative value to disable the re-enabling in flight.
     <name>/parameters/ASPD_SCALE_2/shortDesc</name>
     <message>
       <source>Scale of airspeed sensor 2</source>
-      <translation>Шкала швидкості польоту сенсора 2</translation>
+      <translation>Масштаб датчика повітряної швидкості 2</translation>
     </message>
   </context>
   <context>
@@ -8062,7 +8062,7 @@ Set to a negative value to disable the re-enabling in flight.
     <name>/parameters/ASPD_SCALE_3/shortDesc</name>
     <message>
       <source>Scale of airspeed sensor 3</source>
-      <translation>Шкала швидкості польоту сенсора 3</translation>
+      <translation>Масштаб датчика повітряної швидкості 3</translation>
     </message>
   </context>
   <context>
@@ -8078,14 +8078,14 @@ Set to a negative value to disable the re-enabling in flight.
     <name>/parameters/ASPD_SCALE_APPLY/shortDesc</name>
     <message>
       <source>Controls when to apply the new estimated airspeed scale(s)</source>
-      <translation>Контролює при застосуванні нового вимірювання шкал швидкості польоту</translation>
+      <translation>Визначає, коли застосовувати нові оцінені масштаби повітряної швидкості</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_SCALE_APPLY/values/0/description</name>
     <message>
       <source>Do not automatically apply the estimated scale</source>
-      <translation>Не застосовується автоматично до вимірювальної шкали</translation>
+      <translation>Не застосовувати оцінений масштаб автоматично</translation>
     </message>
   </context>
   <context>
@@ -8099,14 +8099,14 @@ Set to a negative value to disable the re-enabling in flight.
     <name>/parameters/ASPD_SCALE_APPLY/values/2/description</name>
     <message>
       <source>Apply the estimated scale in air</source>
-      <translation>Застосувати до вимірювальної шкали в повітрі</translation>
+      <translation>Застосувати оцінений масштаб у повітрі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ASPD_TAS_NOISE/shortDesc</name>
     <message>
       <source>Wind estimator true airspeed measurement noise</source>
-      <translation>Шум у вимірі оцінювача вітру справжньої швидкості польоту</translation>
+      <translation>Шум вимірювання істинної повітряної швидкості в оцінювачі вітру</translation>
     </message>
   </context>
   <context>
@@ -8122,7 +8122,7 @@ Set to a negative value to disable the re-enabling in flight.
     <name>/parameters/ASPD_WERR_THR/shortDesc</name>
     <message>
       <source>Horizontal wind uncertainty threshold for valid ground-minus-wind</source>
-      <translation>Поріг невизначеності горизонтального вітру для припустимого відносно землі-мінус-вітер</translation>
+      <translation>Поріг невизначеності горизонтального вітру для достовірної оцінки «швидкість відносно землі мінус вітер»</translation>
     </message>
   </context>
   <context>
@@ -8140,7 +8140,7 @@ as soon and as long the horizontal wind uncertainty is below this value.
     <name>/parameters/ASPD_WIND_NSD/shortDesc</name>
     <message>
       <source>Wind estimator wind process noise spectral density</source>
-      <translation>Вимірювач вітру обробляє шум спектральної щільності</translation>
+      <translation>Спектральна щільність шуму процесу вітру в оцінювачі вітру</translation>
     </message>
   </context>
   <context>
@@ -8179,14 +8179,14 @@ When unaided, the wind estimate uncertainty (1-sigma, in m/s) increases by this 
     <name>/parameters/ATT_BIAS_MAX/shortDesc</name>
     <message>
       <source>Gyro bias limit</source>
-      <translation>Ліміт зміщення гірокомпаса</translation>
+      <translation>Ліміт зміщення гіроскопа</translation>
     </message>
   </context>
   <context>
     <name>/parameters/ATT_EN/shortDesc</name>
     <message>
       <source>standalone attitude estimator enable (unsupported)</source>
-      <translation>автономна оцінка позиції вмикається (не підтримується)</translation>
+      <translation>увімкнення автономного оцінювача орієнтації (не підтримується)</translation>
     </message>
   </context>
   <context>
@@ -8255,7 +8255,7 @@ Set to 2 to use heading from motion capture.
     <name>/parameters/ATT_MAG_DECL/shortDesc</name>
     <message>
       <source>Magnetic declination, in degrees</source>
-      <translation>Магнітне відхилення, в градусах</translation>
+      <translation>Магнітне схилення, в градусах</translation>
     </message>
   </context>
   <context>
@@ -8275,7 +8275,7 @@ GPS coordinates of the vehicle.
     <name>/parameters/ATT_MAG_DECL_A/shortDesc</name>
     <message>
       <source>Automatic GPS based declination compensation</source>
-      <translation>Автоматична GPS-компенсація відхилення</translation>
+      <translation>Автоматична GPS-компенсація схилення</translation>
     </message>
   </context>
   <context>
@@ -8353,7 +8353,7 @@ immediately or after landing.
     <name>/parameters/FW_AT_APPLY/values/0/description</name>
     <message>
       <source>Do not apply the new gains (logging only)</source>
-      <translation>Не застосовувати нові надбавки (тільки ведення записів)</translation>
+      <translation>Не застосовувати нові значення (тільки ведення записів)</translation>
     </message>
   </context>
   <context>
@@ -8367,7 +8367,7 @@ immediately or after landing.
     <name>/parameters/FW_AT_APPLY/values/2/description</name>
     <message>
       <source>Apply the new gains in air</source>
-      <translation>Застосувати нові значення після охолощення</translation>
+      <translation>Застосувати нові значення в повітрі</translation>
     </message>
   </context>
   <context>
@@ -8421,7 +8421,7 @@ Set bits in the following positions to enable:
     <name>/parameters/FW_AT_MAN_AUX/shortDesc</name>
     <message>
       <source>Enable/disable auto tuning using a manual control AUX input</source>
-      <translation>Увімкнути/вимкнути автоматичне налаштування використання ручного контролю AUX входу</translation>
+      <translation>Увімкнути/вимкнути автоматичне налаштування за допомогою входу AUX ручного керування</translation>
     </message>
   </context>
   <context>
@@ -8486,7 +8486,7 @@ Set bits in the following positions to enable:
     <name>/parameters/FW_AT_SYSID_F0/shortDesc</name>
     <message>
       <source>Start frequency of the injected signal</source>
-      <translation>Початкова частота втиснутого сигналу</translation>
+      <translation>Початкова частота введеного сигналу</translation>
     </message>
   </context>
   <context>
@@ -8502,7 +8502,7 @@ Set bits in the following positions to enable:
     <name>/parameters/FW_AT_SYSID_F1/shortDesc</name>
     <message>
       <source>End frequency of the injected signal</source>
-      <translation>Кінець частоти втиснутого сигналу</translation>
+      <translation>Кінцева частота введеного сигналу</translation>
     </message>
   </context>
   <context>
@@ -8550,21 +8550,21 @@ Set bits in the following positions to enable:
     <name>/parameters/FW_AT_SYSID_TYPE/values/0/description</name>
     <message>
       <source>Step</source>
-      <translation>Крок</translation>
+      <translation>Ступінчастий</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/values/1/description</name>
     <message>
       <source>Linear sine sweep</source>
-      <translation>Лінійний синусоїдальний сигнал</translation>
+      <translation>Лінійна синусоїдальна розгортка частоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/FW_AT_SYSID_TYPE/values/2/description</name>
     <message>
       <source>Logarithmic sine sweep</source>
-      <translation>Логарифмічний синусоїдальний сигнал</translation>
+      <translation>Логарифмічна синусоїдальна розгортка частоти</translation>
     </message>
   </context>
   <context>
@@ -8641,14 +8641,14 @@ the drone properly.
     <name>/parameters/MC_AT_RISE_TIME/shortDesc</name>
     <message>
       <source>Desired angular rate closed-loop rise time</source>
-      <translation>Бажаний кутовий коефіцієнт часу підйому закритої петлі</translation>
+      <translation>Бажаний час наростання кутової швидкості в замкненому контурі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/MC_AT_SYSID_AMP/shortDesc</name>
     <message>
       <source>Amplitude of the injected signal</source>
-      <translation>Амплітуда втиснутого сигналу</translation>
+      <translation>Амплітуда введеного сигналу</translation>
     </message>
   </context>
   <context>
@@ -8840,7 +8840,7 @@ is always used.
     <name>/parameters/BAT1_R_INTERNAL/shortDesc</name>
     <message>
       <source>Explicitly defines the per cell internal resistance for battery 1</source>
-      <translation>Наявно визначає для кожної комірки внутрішній супротив для батареї 1</translation>
+      <translation>Явно задає внутрішній опір кожної комірки для батареї 1</translation>
     </message>
   </context>
   <context>
@@ -8858,7 +8858,7 @@ is always used.
     <name>/parameters/BAT1_SOURCE/shortDesc</name>
     <message>
       <source>Battery 1 monitoring source</source>
-      <translation>Батарея 1 джерело моніторингу</translation>
+      <translation>Джерело моніторингу батареї 1</translation>
     </message>
   </context>
   <context>
@@ -8942,7 +8942,7 @@ For a more accurate estimate set this below the nominal voltage of e.g. 4.2V
     <name>/parameters/BAT1_V_EMPTY/shortDesc</name>
     <message>
       <source>Empty cell voltage</source>
-      <translation>Повна напруга комірки</translation>
+      <translation>Напруга порожньої комірки</translation>
     </message>
   </context>
   <context>
@@ -9151,7 +9151,7 @@ is always used.
     <name>/parameters/BAT2_R_INTERNAL/shortDesc</name>
     <message>
       <source>Explicitly defines the per cell internal resistance for battery 2</source>
-      <translation>Наявно визначає для кожної комірки внутрішній супротив для батареї 2</translation>
+      <translation>Явно задає внутрішній опір кожної комірки для батареї 2</translation>
     </message>
   </context>
   <context>
@@ -9169,7 +9169,7 @@ is always used.
     <name>/parameters/BAT2_SOURCE/shortDesc</name>
     <message>
       <source>Battery 2 monitoring source</source>
-      <translation>Джерело монітору батареї 2</translation>
+      <translation>Джерело моніторингу батареї 2</translation>
     </message>
   </context>
   <context>
@@ -9462,7 +9462,7 @@ is always used.
     <name>/parameters/BAT3_R_INTERNAL/shortDesc</name>
     <message>
       <source>Explicitly defines the per cell internal resistance for battery 3</source>
-      <translation>Наявно визначає для кожної комірки внутрішній супротив для батареї 3</translation>
+      <translation>Явно задає внутрішній опір кожної комірки для батареї 3</translation>
     </message>
   </context>
   <context>
@@ -9480,7 +9480,7 @@ is always used.
     <name>/parameters/BAT3_SOURCE/shortDesc</name>
     <message>
       <source>Battery 3 monitoring source</source>
-      <translation>Джерело монітору батареї 3</translation>
+      <translation>Джерело моніторингу батареї 3</translation>
     </message>
   </context>
   <context>
@@ -9785,7 +9785,7 @@ camera_capture topic and logged for geotagging regardless of this setting.
     <name>/parameters/TRIG_INTERFACE/values/4/description</name>
     <message>
       <source>Generic PWM (IR trigger, servo)</source>
-      <translation>Generic PWM (IR trigger, servo)</translation>
+      <translation>Загальний PWM (ІЧ-тригер, сервопривід)</translation>
     </message>
   </context>
   <context>
@@ -9840,35 +9840,35 @@ the specific camera setup is supporting.
     <name>/parameters/TRIG_MODE/values/1/description</name>
     <message>
       <source>Time based, on command</source>
-      <translation>Час на основі, за командою</translation>
+      <translation>За часом, за командою</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/2/description</name>
     <message>
       <source>Time based, always on</source>
-      <translation>Час на основі, завжди увімкнено</translation>
+      <translation>За часом, завжди увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/3/description</name>
     <message>
       <source>Distance based, always on</source>
-      <translation>Відстань на основі, завжди увімкнено</translation>
+      <translation>За відстанню, завжди увімкнено</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_MODE/values/4/description</name>
     <message>
       <source>Distance based, on command (Survey mode)</source>
-      <translation>Відстань на основі, за командою (режим Дослідження)</translation>
+      <translation>На основі відстані, за командою (режим зйомки місцевості)</translation>
     </message>
   </context>
   <context>
     <name>/parameters/TRIG_POLARITY/shortDesc</name>
     <message>
       <source>Camera trigger polarity</source>
-      <translation>Тригер полярності камери</translation>
+      <translation>Полярність тригера камери</translation>
     </message>
   </context>
   <context>
@@ -9905,7 +9905,7 @@ the specific camera setup is supporting.
     <name>/parameters/TRIG_PWM_SHOOT/shortDesc</name>
     <message>
       <source>PWM output to trigger shot</source>
-      <translation>PWM вивід до тригерного знімка</translation>
+      <translation>Вихід PWM для спрацювання знімка</translation>
     </message>
   </context>
   <context>
@@ -10042,7 +10042,7 @@ it has proven over the years to work just fine.
     <name>/parameters/CBRK_VTOLARMING/shortDesc</name>
     <message>
       <source>Circuit breaker for arming in fixed-wing mode check</source>
-      <translation>Автоматичний вимикач для взведення в режимі перевірки фіксованого крила</translation>
+      <translation>Автоматичний вимикач для перевірки взведення в режимі фіксованого крила</translation>
     </message>
   </context>
   <context>
@@ -10062,7 +10062,7 @@ WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK
     <name>/parameters/COM_ACT_FAIL_ACT/shortDesc</name>
     <message>
       <source>Set the actuator failure failsafe mode</source>
-      <translation>Встановити збій привода в безпечний режим</translation>
+      <translation>Встановити безпечний режим при відмові приводу</translation>
     </message>
   </context>
   <context>
@@ -10115,7 +10115,7 @@ parameters.
     <name>/parameters/COM_ARMABLE/shortDesc</name>
     <message>
       <source>Flag to allow arming</source>
-      <translation>Поставити прапорець щоб дозволити взведення</translation>
+      <translation>Прапорець дозволу взведення</translation>
     </message>
   </context>
   <context>
@@ -10145,7 +10145,7 @@ parameters.
     <name>/parameters/COM_ARM_AUTH_ID/shortDesc</name>
     <message>
       <source>Arm authorizer system id</source>
-      <translation>Взвести авторизатора id системи</translation>
+      <translation>ID системи авторизатора взведення</translation>
     </message>
   </context>
   <context>
@@ -10201,7 +10201,7 @@ Used if arm authorization is requested by COM_ARM_AUTH_REQ.
     <name>/parameters/COM_ARM_AUTH_REQ/shortDesc</name>
     <message>
       <source>Require arm authorization to arm</source>
-      <translation>Запитати авторизацію взведення для взведення</translation>
+      <translation>Вимагати авторизацію взведення для взведення</translation>
     </message>
   </context>
   <context>
@@ -10385,7 +10385,7 @@ Set -1 to disable the check.
     <name>/parameters/COM_ARM_MAG_STR/shortDesc</name>
     <message>
       <source>Enable mag strength preflight check</source>
-      <translation>Активувати передпольотну перевірку сили магнітометра</translation>
+      <translation>Увімкнути передпольотну перевірку напруженості магнітного поля</translation>
     </message>
   </context>
   <context>
@@ -10639,7 +10639,7 @@ Set to -1 to disable.
     <name>/parameters/COM_CPU_MAX/shortDesc</name>
     <message>
       <source>Maximum allowed CPU load to still arm</source>
-      <translation>Максимально допустиме навантаження на процесор для нерухомого взведення</translation>
+      <translation>Максимально допустиме навантаження на процесор, за якого ще можливе взведення</translation>
     </message>
   </context>
   <context>
@@ -10774,7 +10774,7 @@ See also COM_RCL_EXCEPT.
     <name>/parameters/COM_FAIL_ACT_T/shortDesc</name>
     <message>
       <source>Delay between failsafe condition triggered and failsafe reaction</source>
-      <translation>Затримка між викликаним безпечним режимом та реакцією на безпечний режим</translation>
+      <translation>Затримка між спрацюванням умови аварійного режиму та реакцією аварійного режиму</translation>
     </message>
   </context>
   <context>
@@ -10910,7 +10910,7 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE1/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation>Повільне положення</translation>
+      <translation>Положення (повільно)</translation>
     </message>
   </context>
   <context>
@@ -10938,14 +10938,14 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE1/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation>Точність приземлення</translation>
+      <translation>Точне приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE1/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation>Висота Круїзу</translation>
+      <translation>Круїз з утриманням висоти</translation>
     </message>
   </context>
   <context>
@@ -11098,7 +11098,7 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE2/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation>Повільне положення</translation>
+      <translation>Положення (повільно)</translation>
     </message>
   </context>
   <context>
@@ -11126,14 +11126,14 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE2/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation>Точність приземлення</translation>
+      <translation>Точне приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE2/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation>Висота Круїзу</translation>
+      <translation>Круїз з утриманням висоти</translation>
     </message>
   </context>
   <context>
@@ -11286,7 +11286,7 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE3/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation>Повільне положення</translation>
+      <translation>Положення (повільно)</translation>
     </message>
   </context>
   <context>
@@ -11314,14 +11314,14 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE3/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation>Точність приземлення</translation>
+      <translation>Точне приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE3/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation>Висота Круїзу</translation>
+      <translation>Круїз з утриманням висоти</translation>
     </message>
   </context>
   <context>
@@ -11474,7 +11474,7 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE4/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation>Повільне положення</translation>
+      <translation>Положення (повільно)</translation>
     </message>
   </context>
   <context>
@@ -11502,14 +11502,14 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE4/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation>Точність приземлення</translation>
+      <translation>Точне приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE4/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation>Висота Круїзу</translation>
+      <translation>Круїз з утриманням висоти</translation>
     </message>
   </context>
   <context>
@@ -11648,7 +11648,7 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE5/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation>Поза бортом</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
@@ -11662,7 +11662,7 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE5/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation>Повільне положення</translation>
+      <translation>Положення (повільно)</translation>
     </message>
   </context>
   <context>
@@ -11690,14 +11690,14 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE5/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation>Точність приземлення</translation>
+      <translation>Точне приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE5/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation>Висота Круїзу</translation>
+      <translation>Круїз з утриманням висоти</translation>
     </message>
   </context>
   <context>
@@ -11836,7 +11836,7 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE6/values/7/description</name>
     <message>
       <source>Offboard</source>
-      <translation>Поза бортом</translation>
+      <translation>Режим Offboard</translation>
     </message>
   </context>
   <context>
@@ -11850,7 +11850,7 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE6/values/9/description</name>
     <message>
       <source>Position Slow</source>
-      <translation>Повільне положення</translation>
+      <translation>Положення (повільно)</translation>
     </message>
   </context>
   <context>
@@ -11878,14 +11878,14 @@ selected flight mode will be applied.
     <name>/parameters/COM_FLTMODE6/values/13/description</name>
     <message>
       <source>Precision Land</source>
-      <translation>Точність приземлення</translation>
+      <translation>Точне приземлення</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_FLTMODE6/values/16/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation>Висота Круїзу</translation>
+      <translation>Круїз з утриманням висоти</translation>
     </message>
   </context>
   <context>
@@ -12099,7 +12099,7 @@ mode command is received.
     <name>/parameters/COM_FLTT_LOW_ACT/shortDesc</name>
     <message>
       <source>Remaining flight time low failsafe</source>
-      <translation>Низький залишок політного часу</translation>
+      <translation>Аварійний режим при низькому залишку часу польоту</translation>
     </message>
   </context>
   <context>
@@ -12252,7 +12252,7 @@ Any value above Warning also blocks arming.
     <name>/parameters/COM_HLDL_LOSS_T/shortDesc</name>
     <message>
       <source>High Latency Datalink loss time threshold</source>
-      <translation>Висока затримка посилання даних втрачає часовий поріг</translation>
+      <translation>Поріг часу втрати каналу даних з високою затримкою</translation>
     </message>
   </context>
   <context>
@@ -12365,7 +12365,7 @@ for definition of battery states.
     <name>/parameters/COM_LOW_BAT_ACT/values/2/description</name>
     <message>
       <source>Land mode</source>
-      <translation>Наземний режим</translation>
+      <translation>Режим посадки</translation>
     </message>
   </context>
   <context>
@@ -12592,7 +12592,7 @@ which is required when mapping an external mode to an RC switch.
     <name>/parameters/COM_OBL_RC_ACT/shortDesc</name>
     <message>
       <source>Set offboard loss failsafe mode</source>
-      <translation>Встановити режим втрати безпеки поза бортом</translation>
+      <translation>Встановити аварійний режим у разі втрати offboard-керування</translation>
     </message>
   </context>
   <context>
@@ -12659,7 +12659,7 @@ set by COM_OF_LOSS_T in seconds.
     <name>/parameters/COM_OBL_RC_ACT/values/7/description</name>
     <message>
       <source>Disarm</source>
-      <translation>Охолостити</translation>
+      <translation>Зняти зі взводу</translation>
     </message>
   </context>
   <context>
@@ -12867,7 +12867,7 @@ otherwise it is only a warning.
     <name>/parameters/COM_POS_LOW_EPH/shortDesc</name>
     <message>
       <source>Low position accuracy failsafe threshold</source>
-      <translation>Низька точність порогу безпечного режиму позиціювання</translation>
+      <translation>Поріг безпечного режиму при низькій точності положення</translation>
     </message>
   </context>
   <context>
@@ -12891,7 +12891,7 @@ Set to -1 to disable.
     <name>/parameters/COM_POWER_COUNT/shortDesc</name>
     <message>
       <source>Required number of redundant power modules</source>
-      <translation>Необхідна кількість модулів надлишкової енергії</translation>
+      <translation>Необхідна кількість резервних модулів живлення</translation>
     </message>
   </context>
   <context>
@@ -12948,7 +12948,7 @@ in which non-throttling actuators are active.
     <name>/parameters/COM_QC_ACT/shortDesc</name>
     <message>
       <source>Set action after a quadchute</source>
-      <translation>Встановити дію після чотирикутника</translation>
+      <translation>Встановити дію після quadchute</translation>
     </message>
   </context>
   <context>
@@ -13051,14 +13051,14 @@ Auto modes are: Hold, Takeoff, Land, RTL, Descend, Follow Target, Precland, Orbi
     <name>/parameters/COM_RCL_EXCEPT/bitmask/4/description</name>
     <message>
       <source>Altitude Cruise</source>
-      <translation>Висота Круїзу</translation>
+      <translation>Круїз з утриманням висоти</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/shortDesc</name>
     <message>
       <source>Manual control input source configuration</source>
-      <translation>Ручне керування конфігурацією джерела введення</translation>
+      <translation>Конфігурація джерела введення ручного керування</translation>
     </message>
   </context>
   <context>
@@ -13121,7 +13121,7 @@ Priority sources are immediately switched to whenever they get valid.
     <name>/parameters/COM_RC_IN_MODE/values/3/description</name>
     <message>
       <source>RC or MAVLink keep first</source>
-      <translation>Залишити спочатку пульт (RC) або MAVLink</translation>
+      <translation>Пульт (RC) або MAVLink, залишати перше</translation>
     </message>
   </context>
   <context>
@@ -13135,35 +13135,35 @@ Priority sources are immediately switched to whenever they get valid.
     <name>/parameters/COM_RC_IN_MODE/values/5/description</name>
     <message>
       <source>Prio: RC &gt; MAVL 1 &gt; MAVL 2</source>
-      <translation>Перед: RC &gt; MAVL 1 &gt; MAVL 2</translation>
+      <translation>Пріоритет: RC &gt; MAVL 1 &gt; MAVL 2</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/6/description</name>
     <message>
       <source>Prio: MAVL 1 &gt; MAVL 2 &gt; RC</source>
-      <translation>Перед: MAVL 1 &gt; MAVL 2 &gt; RC</translation>
+      <translation>Пріоритет: MAVL 1 &gt; MAVL 2 &gt; RC</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/7/description</name>
     <message>
       <source>Prio: RC &gt; MAVL 2 &gt; MAVL 1</source>
-      <translation>Перед: RC &gt; MAVL 2 &gt; MAVL 1</translation>
+      <translation>Пріоритет: RC &gt; MAVL 2 &gt; MAVL 1</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_IN_MODE/values/8/description</name>
     <message>
       <source>Prio: MAVL 2 &gt; MAVL 1 &gt; RC</source>
-      <translation>Перед: MAVL 2 &gt; MAVL 1 &gt; RC</translation>
+      <translation>Пріоритет: MAVL 2 &gt; MAVL 1 &gt; RC</translation>
     </message>
   </context>
   <context>
     <name>/parameters/COM_RC_LOSS_T/shortDesc</name>
     <message>
       <source>Manual control loss timeout</source>
-      <translation>Тайм-ауту втрати ручного контролю</translation>
+      <translation>Тайм-аут втрати ручного керування</translation>
     </message>
   </context>
   <context>
@@ -13499,14 +13499,14 @@ action will be executed.
     <name>/parameters/NAV_DLL_ACT/values/6/description</name>
     <message>
       <source>Disarm</source>
-      <translation>Охолостити</translation>
+      <translation>Зняти зі взводу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/NAV_RCL_ACT/shortDesc</name>
     <message>
       <source>Set manual control loss failsafe mode</source>
-      <translation>Встановити ручний контроль втрати безпечного режиму</translation>
+      <translation>Встановити безпечний режим при втраті ручного керування</translation>
     </message>
   </context>
   <context>
@@ -13564,7 +13564,7 @@ from there (Return/Land/Descend/Terminate as applicable).
     <name>/parameters/NAV_RCL_ACT/values/6/description</name>
     <message>
       <source>Disarm</source>
-      <translation>Охолостити</translation>
+      <translation>Зняти зі взводу</translation>
     </message>
   </context>
   <context>
@@ -14021,7 +14021,7 @@ Specific to the F3442 DAA standard.
     <name>/parameters/EKF2_ABIAS_INIT/shortDesc</name>
     <message>
       <source>1-sigma IMU accelerometer switch-on bias</source>
-      <translation>1-sigma IMU увімкнення зміщення акселерометра</translation>
+      <translation>1-sigma зміщення акселерометра IMU при увімкненні</translation>
     </message>
   </context>
   <context>
@@ -14044,7 +14044,7 @@ Specific to the F3442 DAA standard.
     <name>/parameters/EKF2_ABL_GYRLIM/shortDesc</name>
     <message>
       <source>Maximum IMU gyro angular rate magnitude that allows IMU bias learning</source>
-      <translation>Максимальний IMU (ІВП - інерційно-вимірювальний пристрій) гіроскопічний кутовий рівень величини, яка дозволяє вивчення зміщення IMU</translation>
+      <translation>Максимальна величина кутової швидкості гіроскопа IMU, яка дозволяє вивчення зміщення IMU</translation>
     </message>
   </context>
   <context>
@@ -14060,7 +14060,7 @@ Specific to the F3442 DAA standard.
     <name>/parameters/EKF2_ABL_LIM/shortDesc</name>
     <message>
       <source>Accelerometer bias learning limit</source>
-      <translation>Ліміт зміщення вивчення акселерометра</translation>
+      <translation>Ліміт вивчення зміщення акселерометра</translation>
     </message>
   </context>
   <context>
@@ -14076,7 +14076,7 @@ Specific to the F3442 DAA standard.
     <name>/parameters/EKF2_ABL_TAU/shortDesc</name>
     <message>
       <source>Accel bias learning inhibit time constant</source>
-      <translation>Зміщення вивчення прискорення гальмує часову константу</translation>
+      <translation>Часова константа заборони навчання зміщення акселерометра</translation>
     </message>
   </context>
   <context>
@@ -14092,7 +14092,7 @@ Specific to the F3442 DAA standard.
     <name>/parameters/EKF2_ACC_B_NOISE/shortDesc</name>
     <message>
       <source>Process noise for IMU accelerometer bias prediction</source>
-      <translation>Обробити шум для прогнозування зміщення IMU прискорення</translation>
+      <translation>Шум процесу для прогнозування зміщення акселерометра IMU</translation>
     </message>
   </context>
   <context>
@@ -14566,14 +14566,14 @@ Specific to the F3442 DAA standard.
     <name>/parameters/EKF2_ANGERR_INIT/shortDesc</name>
     <message>
       <source>1-sigma tilt angle uncertainty after gravity vector alignment</source>
-      <translation>1-sigma нахил кута невизначеності після вирівнювання вектора тяжіння </translation>
+      <translation>1-sigma невизначеність кута нахилу після вирівнювання за вектором сили тяжіння</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ARSP_THR/shortDesc</name>
     <message>
       <source>Airspeed fusion threshold</source>
-      <translation>Поріг об'єднання швидкості</translation>
+      <translation>Поріг об'єднання даних повітряної швидкості</translation>
     </message>
   </context>
   <context>
@@ -14589,21 +14589,21 @@ Specific to the F3442 DAA standard.
     <name>/parameters/EKF2_ASPD_MAX/shortDesc</name>
     <message>
       <source>Maximum airspeed used for baro static pressure compensation</source>
-      <translation>Максимальна швидкість польоту застосовуються для компенсації баростатичного тиску</translation>
+      <translation>Максимальна повітряна швидкість, що використовується для компенсації барометричного статичного тиску</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_ASP_DELAY/shortDesc</name>
     <message>
       <source>Airspeed measurement delay relative to IMU measurements</source>
-      <translation>Затримка вимірювання швидкості відносно вимірювань IMU</translation>
+      <translation>Затримка вимірювання повітряної швидкості відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_AVEL_DELAY/shortDesc</name>
     <message>
       <source>Auxiliary Velocity Estimate delay relative to IMU measurements</source>
-      <translation>Додатковий вимірювач затримки швидкості відносно IMU вимірювань</translation>
+      <translation>Затримка допоміжної оцінки швидкості відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
@@ -14644,7 +14644,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_BARO_CTRL/shortDesc</name>
     <message>
       <source>Barometric sensor height aiding</source>
-      <translation>Зовнішній барометричний датчик висоти</translation>
+      <translation>Використання барометричного датчика для оцінки висоти</translation>
     </message>
   </context>
   <context>
@@ -14674,7 +14674,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_BARO_DELAY/shortDesc</name>
     <message>
       <source>Barometer measurement delay relative to IMU measurements</source>
-      <translation>Затримка вимірювання барометром швидкості відносно вимірювань IMU</translation>
+      <translation>Затримка вимірювання барометра відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
@@ -14736,7 +14736,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_BETA_GATE/shortDesc</name>
     <message>
       <source>Gate size for synthetic sideslip fusion</source>
-      <translation>Розмір брами для синтетичного об'єднання даних про бічний знос апарату</translation>
+      <translation>Розмір шлюзу для об'єднання синтетичних даних про бічне ковзання</translation>
     </message>
   </context>
   <context>
@@ -14752,14 +14752,14 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_BETA_NOISE/shortDesc</name>
     <message>
       <source>Noise for synthetic sideslip fusion</source>
-      <translation>Шум для синтетичного збору даних про бічний знос апарату</translation>
+      <translation>Шум для об'єднання синтетичних даних про бічне ковзання</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_DECL_TYPE/shortDesc</name>
     <message>
       <source>Integer bitmask controlling handling of magnetic declination</source>
-      <translation>Бітмаск цілих чисел, що контролює керування магнітного згасання</translation>
+      <translation>Ціла бітова маска, що керує обробкою магнітного схилення</translation>
     </message>
   </context>
   <context>
@@ -14775,14 +14775,14 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_DECL_TYPE/bitmask/0/description</name>
     <message>
       <source>use geo_lookup declination</source>
-      <translation>використовувати geo_lookup відхилення</translation>
+      <translation>використовувати схилення з geo_lookup</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_DECL_TYPE/bitmask/1/description</name>
     <message>
       <source>save EKF2_MAG_DECL on disarm</source>
-      <translation>зберегти EKF2_MAG_DECL на охолощення</translation>
+      <translation>зберігати EKF2_MAG_DECL при роззброєнні</translation>
     </message>
   </context>
   <context>
@@ -14835,7 +14835,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_DRAG_NOISE/shortDesc</name>
     <message>
       <source>Specific drag force observation noise variance</source>
-      <translation>Шумова розбіжність спостереження специфічної сили опору</translation>
+      <translation>Дисперсія шуму спостереження питомої сили опору</translation>
     </message>
   </context>
   <context>
@@ -14851,7 +14851,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EAS_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for airspeed fusion</source>
-      <translation>Шум вимірювання об'єднання даних швидкості польоту</translation>
+      <translation>Шум вимірювання для об'єднання даних повітряної швидкості</translation>
     </message>
   </context>
   <context>
@@ -14879,7 +14879,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EVA_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision angle measurements</source>
-      <translation>Шум вимірювання для вимірювань кутів зору</translation>
+      <translation>Шум вимірювання для вимірювань кутів від системи зору</translation>
     </message>
   </context>
   <context>
@@ -14911,7 +14911,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EVP_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision position measurements</source>
-      <translation>Вимірювання шуму для вимірювань кутів зору</translation>
+      <translation>Шум вимірювання для вимірювань положення від системи зору</translation>
     </message>
   </context>
   <context>
@@ -14943,7 +14943,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EVV_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for vision velocity measurements</source>
-      <translation>Шум вимірювання для вимірювань швидкості зору</translation>
+      <translation>Шум вимірювання для вимірювань швидкості від системи зору</translation>
     </message>
   </context>
   <context>
@@ -14959,7 +14959,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EV_CTRL/shortDesc</name>
     <message>
       <source>External vision (EV) sensor aiding</source>
-      <translation>Зовнішнє бачення (EV) допоміжного датчика</translation>
+      <translation>Використання датчика зовнішнього бачення (EV)</translation>
     </message>
   </context>
   <context>
@@ -15003,14 +15003,14 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EV_DELAY/shortDesc</name>
     <message>
       <source>Vision Position Estimator delay relative to IMU measurements</source>
-      <translation>Візуальний оцінювач позиції затримки відносно IMU вимірювань</translation>
+      <translation>Затримка візуального оцінювача позиції відносно вимірювань IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_EV_NOISE_MD/shortDesc</name>
     <message>
       <source>External vision (EV) noise mode</source>
-      <translation>Зовнішнє бачення (EV) режиму шуму</translation>
+      <translation>Режим шуму зовнішнього бачення (EV)</translation>
     </message>
   </context>
   <context>
@@ -15026,7 +15026,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EV_NOISE_MD/values/0/description</name>
     <message>
       <source>EV reported variance (parameter lower bound)</source>
-      <translation>EV повідомлена розбіжність (параметр нижня границя)</translation>
+      <translation>Дисперсія, повідомлена EV (параметр — нижня межа)</translation>
     </message>
   </context>
   <context>
@@ -15040,7 +15040,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EV_POS_X/shortDesc</name>
     <message>
       <source>X position of VI sensor focal point in body frame</source>
-      <translation>X положення датчика VI центральної точки корпуса</translation>
+      <translation>Положення X фокусної точки датчика VI у системі координат корпусу</translation>
     </message>
   </context>
   <context>
@@ -15056,7 +15056,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EV_POS_Y/shortDesc</name>
     <message>
       <source>Y position of VI sensor focal point in body frame</source>
-      <translation>Y положення VI датчика центральної точки корпуса</translation>
+      <translation>Положення Y фокусної точки датчика VI у системі координат корпусу</translation>
     </message>
   </context>
   <context>
@@ -15072,7 +15072,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_EV_POS_Z/shortDesc</name>
     <message>
       <source>Z position of VI sensor focal point in body frame</source>
-      <translation>Z позиція позиції датчика VI центральної точки на корпусі</translation>
+      <translation>Положення Z фокусної точки датчика VI у системі координат корпусу</translation>
     </message>
   </context>
   <context>
@@ -15104,7 +15104,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_FUSE_BETA/shortDesc</name>
     <message>
       <source>Enable synthetic sideslip fusion</source>
-      <translation>Увімкнути синтетичний збір даних про бічний знос</translation>
+      <translation>Увімкнути об'єднання синтетичних даних про бічне ковзання</translation>
     </message>
   </context>
   <context>
@@ -15134,7 +15134,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GBIAS_INIT/shortDesc</name>
     <message>
       <source>1-sigma IMU gyro switch-on bias</source>
-      <translation>1-sigma IMU увімкнення зміщення гіроскопа</translation>
+      <translation>1-sigma зміщення гіроскопа IMU при увімкненні</translation>
     </message>
   </context>
   <context>
@@ -15157,7 +15157,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GND_MAX_HGT/shortDesc</name>
     <message>
       <source>Height above ground level for ground effect zone</source>
-      <translation>Висота над рівнем землі для земної зони впливу</translation>
+      <translation>Висота над рівнем землі для зони екранного ефекту</translation>
     </message>
   </context>
   <context>
@@ -15231,7 +15231,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GPS_CHECK/bitmask/6/description</name>
     <message>
       <source>Vertical position drift (EKF2_REQ_VDRIFT)</source>
-      <translation>Дрейф вертикальної позиції (EKF2_REQ_HDRIFT)</translation>
+      <translation>Дрейф вертикальної позиції (EKF2_REQ_VDRIFT)</translation>
     </message>
   </context>
   <context>
@@ -15245,7 +15245,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GPS_CHECK/bitmask/8/description</name>
     <message>
       <source>Vertical speed offset (EKF2_REQ_VDRIFT)</source>
-      <translation>Зсув вертикальної швидкості (EKF2_REQ_HDRIFT)</translation>
+      <translation>Зсув вертикальної швидкості (EKF2_REQ_VDRIFT)</translation>
     </message>
   </context>
   <context>
@@ -15259,7 +15259,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GPS_CHECK/bitmask/10/description</name>
     <message>
       <source>GPS fix type (EKF2_REQ_FIX)</source>
-      <translation>GPS типу fix (EKF2_REQ_FIX)</translation>
+      <translation>Тип фіксації GPS (EKF2_REQ_FIX)</translation>
     </message>
   </context>
   <context>
@@ -15289,7 +15289,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GPS_CTRL/bitmask/0/description</name>
     <message>
       <source>Lon/lat</source>
-      <translation>Широта/долгота</translation>
+      <translation>Довгота/широта</translation>
     </message>
   </context>
   <context>
@@ -15310,14 +15310,14 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GPS_CTRL/bitmask/3/description</name>
     <message>
       <source>Dual antenna heading</source>
-      <translation>Двонаправленість антени</translation>
+      <translation>Курс за двома антенами</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GPS_MODE/shortDesc</name>
     <message>
       <source>Fusion reset mode</source>
-      <translation>Режим перезавантаження об'єднання</translation>
+      <translation>Режим скидання злиття даних</translation>
     </message>
   </context>
   <context>
@@ -15340,7 +15340,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GPS_MODE/values/1/description</name>
     <message>
       <source>Dead-reckoning</source>
-      <translation>Dead-reckoning</translation>
+      <translation>Сліпа навігація</translation>
     </message>
   </context>
   <context>
@@ -15400,14 +15400,14 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GRAV_NOISE/shortDesc</name>
     <message>
       <source>Accelerometer measurement noise for gravity based observations</source>
-      <translation>Шум вимірювання гравітації основаної на спостереженнях</translation>
+      <translation>Шум вимірювання акселерометра для спостережень на основі гравітації</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GSF_TAS/shortDesc</name>
     <message>
       <source>Default value of true airspeed used in EKF-GSF AHRS calculation</source>
-      <translation>Значення за замовчуванням справжньої швидкості польоту, що використовується в розрахунку EKF-GSF AHRS</translation>
+      <translation>Значення за замовчуванням істинної повітряної швидкості, що використовується в розрахунку EKF-GSF AHRS</translation>
     </message>
   </context>
   <context>
@@ -15439,14 +15439,14 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_GYR_B_NOISE/shortDesc</name>
     <message>
       <source>Process noise for IMU rate gyro bias prediction</source>
-      <translation>Обробити шум для прогнозування зміщення IMU рівня прискорення</translation>
+      <translation>Шум процесу для прогнозування зміщення гіроскопа кутової швидкості IMU</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_GYR_NOISE/shortDesc</name>
     <message>
       <source>Rate gyro noise for covariance prediction</source>
-      <translation>Рівень шуму акселерометра для передбачення коваріації</translation>
+      <translation>Шум гіроскопа кутової швидкості для передбачення коваріації</translation>
     </message>
   </context>
   <context>
@@ -15476,7 +15476,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
     <name>/parameters/EKF2_HGT_REF/shortDesc</name>
     <message>
       <source>Determines the reference source of height data used by the EKF</source>
-      <translation>Визначає джерело посилання на дані про висоту, що використовується EKF</translation>
+      <translation>Визначає опорне джерело даних про висоту, що використовується EKF</translation>
     </message>
   </context>
   <context>
@@ -15508,7 +15508,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_HGT_REF/values/2/description</name>
     <message>
       <source>Range sensor</source>
-      <translation>Діапазон сенсора</translation>
+      <translation>Датчик відстані</translation>
     </message>
   </context>
   <context>
@@ -15550,7 +15550,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_IMU_POS_X/shortDesc</name>
     <message>
       <source>X position of IMU in body frame</source>
-      <translation>Положення IMU по вісі X на корпусі</translation>
+      <translation>Положення IMU по осі X на корпусі</translation>
     </message>
   </context>
   <context>
@@ -15619,7 +15619,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_MAG_ACCLIM/shortDesc</name>
     <message>
       <source>Horizontal acceleration threshold used for heading observability check</source>
-      <translation>Горизонтальний поріг пришвидшення, що використовується для перевірки напрямку спостережуваності</translation>
+      <translation>Поріг горизонтального прискорення, що використовується для перевірки спостережуваності курсу</translation>
     </message>
   </context>
   <context>
@@ -15635,14 +15635,14 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_MAG_B_NOISE/shortDesc</name>
     <message>
       <source>Process noise for body magnetic field prediction</source>
-      <translation>Обробка шуму для прогнозування магнітного поля тіла</translation>
+      <translation>Шум процесу для прогнозування магнітного поля корпусу</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_CHECK/shortDesc</name>
     <message>
       <source>Magnetic field strength test selection</source>
-      <translation>Тест вибору сили магнітного поля</translation>
+      <translation>Вибір перевірок напруженості магнітного поля</translation>
     </message>
   </context>
   <context>
@@ -15665,7 +15665,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_MAG_CHECK/bitmask/1/description</name>
     <message>
       <source>Inclination (EKF2_MAG_CHK_INC)</source>
-      <translation>Схилення (EKF2_MAG_CHK_INC)</translation>
+      <translation>Нахилення (EKF2_MAG_CHK_INC)</translation>
     </message>
   </context>
   <context>
@@ -15679,7 +15679,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_MAG_CHK_INC/shortDesc</name>
     <message>
       <source>Magnetic field inclination check tolerance</source>
-      <translation>Перевірка толерантності схилення магнітного поля</translation>
+      <translation>Допуск перевірки нахилення магнітного поля</translation>
     </message>
   </context>
   <context>
@@ -15695,7 +15695,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_MAG_CHK_STR/shortDesc</name>
     <message>
       <source>Magnetic field strength check tolerance</source>
-      <translation>Перевірка толерантності схилення магнітного поля</translation>
+      <translation>Допуск перевірки напруженості магнітного поля</translation>
     </message>
   </context>
   <context>
@@ -15725,14 +15725,14 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_MAG_E_NOISE/shortDesc</name>
     <message>
       <source>Process noise for earth magnetic field prediction</source>
-      <translation>Обробка шуму для прогнозування магнітного поля землі</translation>
+      <translation>Шум процесу для прогнозування магнітного поля Землі</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MAG_GATE/shortDesc</name>
     <message>
       <source>Gate size for magnetometer XYZ component fusion</source>
-      <translation>Розмір шлюзу для XYZ компонента об'єднання даних</translation>
+      <translation>Розмір шлюзу для об'єднання даних компонент XYZ магнітометра</translation>
     </message>
   </context>
   <context>
@@ -15748,7 +15748,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_MAG_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for magnetometer 3-axis fusion</source>
-      <translation>Шум у вимірюванні для магнітометра у трьох площинах об'єднання даних</translation>
+      <translation>Шум вимірювання для об'єднання даних 3-осьового магнітометра</translation>
     </message>
   </context>
   <context>
@@ -15792,14 +15792,14 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_MAG_TYPE/values/6/description</name>
     <message>
       <source>Init</source>
-      <translation>Init</translation>
+      <translation>Ініціалізація</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_MCOEF/shortDesc</name>
     <message>
       <source>Propeller momentum drag coefficient for multi-rotor wind estimation</source>
-      <translation>Коефіцієнт імпульса опору повітря пропелеру для оцінки вітру для мультиротора</translation>
+      <translation>Коефіцієнт імпульсного опору пропелера для оцінки вітру для мультиротора</translation>
     </message>
   </context>
   <context>
@@ -15815,7 +15815,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_MIN_RNG/shortDesc</name>
     <message>
       <source>Expected range finder reading when on ground</source>
-      <translation>Зчитування очікуваного вимірювача дальності при перебуванні на землі</translation>
+      <translation>Очікуване показання далекоміра при перебуванні на землі</translation>
     </message>
   </context>
   <context>
@@ -15863,7 +15863,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_NOAID_NOISE/shortDesc</name>
     <message>
       <source>Measurement noise for non-aiding position hold</source>
-      <translation>Вимір шуму для утримання позиції, яке не підтримується</translation>
+      <translation>Шум вимірювання для утримання позиції без допоміжних даних</translation>
     </message>
   </context>
   <context>
@@ -15886,7 +15886,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_OF_CTRL/shortDesc</name>
     <message>
       <source>Optical flow aiding</source>
-      <translation>Допомога оптичному потоку</translation>
+      <translation>Використання оптичного потоку</translation>
     </message>
   </context>
   <context>
@@ -16106,7 +16106,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_PCOEF_XP/shortDesc</name>
     <message>
       <source>Static pressure position error coefficient for the positive X axis</source>
-      <translation>Позиційна помилка статичного тиску для позитивної вісі X</translation>
+      <translation>Коефіцієнт позиційної помилки статичного тиску для додатної осі X</translation>
     </message>
   </context>
   <context>
@@ -16122,7 +16122,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_PCOEF_YN/shortDesc</name>
     <message>
       <source>Pressure position error coefficient for the negative Y axis</source>
-      <translation>Позиційний коефіцієнт помилки статичного тиску для від'ємної вісі Y</translation>
+      <translation>Коефіцієнт позиційної помилки тиску для від'ємної осі Y</translation>
     </message>
   </context>
   <context>
@@ -16138,7 +16138,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_PCOEF_YP/shortDesc</name>
     <message>
       <source>Pressure position error coefficient for the positive Y axis</source>
-      <translation>Коефіцієнт помилки позиційного тиску для позитивної вісі Y</translation>
+      <translation>Коефіцієнт позиційної помилки тиску для додатної осі Y</translation>
     </message>
   </context>
   <context>
@@ -16154,7 +16154,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_PCOEF_Z/shortDesc</name>
     <message>
       <source>Static pressure position error coefficient for the Z axis</source>
-      <translation>Коефіцієнт помилки статичного позиційного тиску для вісі Z</translation>
+      <translation>Коефіцієнт позиційної помилки статичного тиску для осі Z</translation>
     </message>
   </context>
   <context>
@@ -16216,21 +16216,21 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_REQ_EPH/shortDesc</name>
     <message>
       <source>Required EPH to use GPS</source>
-      <translation>Необхідно EPH для використання GPS</translation>
+      <translation>Необхідний EPH для використання GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_REQ_EPV/shortDesc</name>
     <message>
       <source>Required EPV to use GPS</source>
-      <translation>Потрібно EPV для використання GPS</translation>
+      <translation>Необхідний EPV для використання GPS</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_REQ_FIX/shortDesc</name>
     <message>
       <source>Required GPS fix</source>
-      <translation>Необхідно GPS fix</translation>
+      <translation>Необхідна фіксація GPS</translation>
     </message>
   </context>
   <context>
@@ -16274,7 +16274,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_REQ_FIX/values/5/description</name>
     <message>
       <source>RTK float</source>
-      <translation>RTK ширяти</translation>
+      <translation>RTK плаваюче рішення</translation>
     </message>
   </context>
   <context>
@@ -16295,7 +16295,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_REQ_GPS_H/shortDesc</name>
     <message>
       <source>Required GPS health time on startup</source>
-      <translation>Потрібен час обстеження GPS під час запуску</translation>
+      <translation>Необхідний час справності GPS під час запуску</translation>
     </message>
   </context>
   <context>
@@ -16318,7 +16318,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_REQ_NSATS/shortDesc</name>
     <message>
       <source>Required satellite count to use GPS</source>
-      <translation>Необхідно лічильник супутників для використання GPS</translation>
+      <translation>Необхідна кількість супутників для використання GPS</translation>
     </message>
   </context>
   <context>
@@ -16415,7 +16415,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_RNG_A_HMAX/shortDesc</name>
     <message>
       <source>Maximum height above ground allowed for conditional range aid mode</source>
-      <translation>Максимальна висота над землею дозволена для умовного рівня допоміжного режиму</translation>
+      <translation>Максимальна висота над землею, дозволена для режиму умовного використання далекоміра</translation>
     </message>
   </context>
   <context>
@@ -16431,7 +16431,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_RNG_A_VMAX/shortDesc</name>
     <message>
       <source>Maximum horizontal velocity allowed for conditional range aid mode</source>
-      <translation>Максимальна горизонтальна швидкість дозволена для умовного рівня допоміжного режиму</translation>
+      <translation>Максимальна горизонтальна швидкість, дозволена для умовного режиму використання далекоміра</translation>
     </message>
   </context>
   <context>
@@ -16447,7 +16447,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_RNG_CTRL/shortDesc</name>
     <message>
       <source>Range sensor height aiding</source>
-      <translation>Допоміжний рівневий сенсор висоти</translation>
+      <translation>Використання датчика відстані для оцінки висоти</translation>
     </message>
   </context>
   <context>
@@ -16463,7 +16463,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_RNG_CTRL/values/0/description</name>
     <message>
       <source>Disable range fusion</source>
-      <translation>Вимкнути об'єднання даних діапазону</translation>
+      <translation>Вимкнути об'єднання даних далекоміра</translation>
     </message>
   </context>
   <context>
@@ -16523,7 +16523,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_RNG_K_GATE/shortDesc</name>
     <message>
       <source>Gate size used for range finder kinematic consistency check</source>
-      <translation>Розмір брами для перевірки послідовності кінематичного вимірювача дальності</translation>
+      <translation>Розмір шлюзу для перевірки кінематичної узгодженості вимірювача дальності</translation>
     </message>
   </context>
   <context>
@@ -16546,14 +16546,14 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_RNG_PITCH/shortDesc</name>
     <message>
       <source>Range sensor pitch offset</source>
-      <translation>Зсув відстані для датчика тангажу</translation>
+      <translation>Зсув тангажу датчика відстані</translation>
     </message>
   </context>
   <context>
     <name>/parameters/EKF2_RNG_POS_X/shortDesc</name>
     <message>
       <source>X position of range finder origin in body frame</source>
-      <translation>Позиція X вимірювача дальності, який працює з корпусу</translation>
+      <translation>Позиція X точки відліку вимірювача дальності на корпусі</translation>
     </message>
   </context>
   <context>
@@ -16569,7 +16569,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_RNG_POS_Y/shortDesc</name>
     <message>
       <source>Y position of range finder origin in body frame</source>
-      <translation>Позиція Y вимірювача дальності, який працює з корпусу</translation>
+      <translation>Позиція Y точки відліку вимірювача дальності на корпусі</translation>
     </message>
   </context>
   <context>
@@ -16585,7 +16585,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_RNG_POS_Z/shortDesc</name>
     <message>
       <source>Z position of range finder origin in body frame</source>
-      <translation>Позиція Z вимірювача дальності, яка починається з корпусу</translation>
+      <translation>Позиція Z точки відліку вимірювача дальності на корпусі</translation>
     </message>
   </context>
   <context>
@@ -16617,7 +16617,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_RNG_SFE/shortDesc</name>
     <message>
       <source>Range finder range dependent noise scaler</source>
-      <translation>Діапазон вимірювача дальності, що залежить від вимірювача шуму</translation>
+      <translation>Коефіцієнт масштабування шуму вимірювача дальності, що залежить від відстані</translation>
     </message>
   </context>
   <context>
@@ -16681,7 +16681,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_SEL_IMU_RAT/shortDesc</name>
     <message>
       <source>Selector angular rate threshold</source>
-      <translation>Поріг кутового рівня селектора</translation>
+      <translation>Поріг кутової швидкості селектора</translation>
     </message>
   </context>
   <context>
@@ -16820,7 +16820,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_SYNT_MAG_Z/shortDesc</name>
     <message>
       <source>Enable synthetic magnetometer Z component measurement</source>
-      <translation>Увімкнути компонентне вимірювання синтетичного магнітометра Z</translation>
+      <translation>Увімкнути синтетичне вимірювання Z-компоненти магнітометра</translation>
     </message>
   </context>
   <context>
@@ -16882,7 +16882,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_TAU_VEL/shortDesc</name>
     <message>
       <source>Time constant of the velocity output prediction and smoothing filter</source>
-      <translation>Константа часу прогнозування вихідної швидкості та злагоджувального фільтру</translation>
+      <translation>Стала часу фільтра прогнозування та згладжування вихідної швидкості</translation>
     </message>
   </context>
   <context>
@@ -16896,7 +16896,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_TERR_NOISE/shortDesc</name>
     <message>
       <source>Terrain altitude process noise</source>
-      <translation>Шум обробки висоти рельєфу</translation>
+      <translation>Шум процесу висоти рельєфу</translation>
     </message>
   </context>
   <context>
@@ -16910,7 +16910,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
     <name>/parameters/EKF2_WIND_NSD/shortDesc</name>
     <message>
       <source>Process noise spectral density for wind velocity prediction</source>
-      <translation>Шум обробки спектральної щільності для прогнозування швидкості вітру</translation>
+      <translation>Спектральна щільність шуму процесу для прогнозування швидкості вітру</translation>
     </message>
   </context>
   <context>
@@ -17050,7 +17050,7 @@ any specific status events.
     <name>/parameters/FW_MAN_YR_MAX/shortDesc</name>
     <message>
       <source>Maximum manually added yaw rate</source>
-      <translation>Максимальний рівень рискання доданий вручну</translation>
+      <translation>Максимальна швидкість рискання, додана вручну</translation>
     </message>
   </context>
   <context>
@@ -17068,7 +17068,7 @@ It is added to the yaw rate setpoint generated by the controller for turn coordi
     <name>/parameters/FW_PSP_OFF/shortDesc</name>
     <message>
       <source>Pitch setpoint offset (pitch at level flight)</source>
-      <translation>Зсув точки тангажу (тангаж при рівному польоті)</translation>
+      <translation>Зсув заданого значення тангажу (тангаж при горизонтальному польоті)</translation>
     </message>
   </context>
   <context>
@@ -17436,7 +17436,7 @@ Otherwise is enabled only in the final approach.
     <name>/parameters/FW_LND_FL_SINK/shortDesc</name>
     <message>
       <source>Landing flare sink rate</source>
-      <translation>Рівень занурення при посадковому вирівнюванні</translation>
+      <translation>Швидкість зниження при посадковому вирівнюванні</translation>
     </message>
   </context>
   <context>
@@ -17771,7 +17771,7 @@ If set &lt;= 0, FW_AIRSPD_MIN will be set by default.
     <name>/parameters/FW_GPSF_LT/shortDesc</name>
     <message>
       <source>GPS failure loiter time</source>
-      <translation>Втрата GPS під час баражування</translation>
+      <translation>Час баражування при відмові GPS</translation>
     </message>
   </context>
   <context>
@@ -17823,7 +17823,7 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.
     <name>/parameters/FW_POS_STK_CONF/bitmask/0/description</name>
     <message>
       <source>Alternative stick configuration (height rate on throttle stick, airspeed on pitch stick)</source>
-      <translation>Альтернативна конфігурація стіків (рівень висоти на стіку тяги, повітряна швидкість на стіку тангажу)</translation>
+      <translation>Альтернативна конфігурація стіків (швидкість зміни висоти на стіку тяги, повітряна швидкість на стіку тангажу)</translation>
     </message>
   </context>
   <context>
@@ -17885,7 +17885,7 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.
     <name>/parameters/FW_THR_IDLE/shortDesc</name>
     <message>
       <source>Idle throttle</source>
-      <translation>Бездієвий дросель</translation>
+      <translation>Тяга холостого ходу</translation>
     </message>
   </context>
   <context>
@@ -17939,7 +17939,7 @@ descending, which can increase achievable descent rates.
     <name>/parameters/FW_T_CLMB_R_SP/shortDesc</name>
     <message>
       <source>Default target climbrate</source>
-      <translation>Цільова швидкість набору висоти</translation>
+      <translation>Цільова швидкість набору висоти за замовчуванням</translation>
     </message>
   </context>
   <context>
@@ -17957,7 +17957,7 @@ In manual modes: maximum climb rate setpoint.
     <name>/parameters/FW_T_SINK_R_SP/shortDesc</name>
     <message>
       <source>Default target sinkrate</source>
-      <translation>Цільовий рівень занурення за замовчуванням</translation>
+      <translation>Цільова швидкість зниження за замовчуванням</translation>
     </message>
   </context>
   <context>
@@ -18167,7 +18167,7 @@ and reduce if the aircraft initially gains energy in turns.
     <name>/parameters/FW_T_SINK_MAX/shortDesc</name>
     <message>
       <source>Maximum descent rate</source>
-      <translation>Мінімальний рівень зниження</translation>
+      <translation>Максимальна швидкість зниження</translation>
     </message>
   </context>
   <context>
@@ -18213,7 +18213,7 @@ and reduce if the aircraft initially gains energy in turns.
     <name>/parameters/FW_T_THR_INTEG/shortDesc</name>
     <message>
       <source>Integrator gain throttle</source>
-      <translation>Інегратор отримання тяги</translation>
+      <translation>Коефіцієнт інтегратора тяги</translation>
     </message>
   </context>
   <context>
@@ -18585,7 +18585,7 @@ Set negative to disable.
     <name>/parameters/FW_THR_ASPD_MAX/shortDesc</name>
     <message>
       <source>Throttle at max airspeed</source>
-      <translation>Тяга на максимальній швидкості польоту</translation>
+      <translation>Тяга при максимальній повітряній швидкості</translation>
     </message>
   </context>
   <context>
@@ -18605,7 +18605,7 @@ Set to 0 to disable mapping of airspeed to trim throttle.
     <name>/parameters/FW_THR_ASPD_MIN/shortDesc</name>
     <message>
       <source>Throttle at min airspeed</source>
-      <translation>Тяга на мінімальній швидкості польоту</translation>
+      <translation>Тяга при мінімальній повітряній швидкості</translation>
     </message>
   </context>
   <context>
@@ -18663,7 +18663,7 @@ achieved towards the end of flight when the battery voltage has reduced.
     <name>/parameters/FW_T_SINK_MIN/shortDesc</name>
     <message>
       <source>Minimum descent rate</source>
-      <translation>Мінімальний рівень зниження</translation>
+      <translation>Мінімальна швидкість зниження</translation>
     </message>
   </context>
   <context>
@@ -18818,7 +18818,7 @@ Disable when using rotor wings (e.g.: autogyro)
     <name>/parameters/FW_BAT_SCALE_EN/shortDesc</name>
     <message>
       <source>Enable throttle scale by battery level</source>
-      <translation>Вимкнути шкалу тяги від рівня батареї</translation>
+      <translation>Увімкнути масштабування тяги за рівнем заряду батареї</translation>
     </message>
   </context>
   <context>
@@ -21665,7 +21665,7 @@ tail_output += CA_HELI_YAW_CP_S * abs(collective_pitch - CA_HELI_YAW_CP_O)
     <name>/parameters/CA_HELI_YAW_TH_S/shortDesc</name>
     <message>
       <source>Scale for yaw compensation based on throttle</source>
-      <translation>Масштаб для компенсації рискання базованої на тязі</translation>
+      <translation>Масштаб компенсації рискання залежно від дроселя</translation>
     </message>
   </context>
   <context>
@@ -29648,7 +29648,7 @@ Validity of configured takeoffs/landings is checked independently of the setting
     <name>/parameters/MIS_YAW_ERR/shortDesc</name>
     <message>
       <source>Max yaw error in degrees needed for waypoint heading acceptance</source>
-      <translation>Максимальна помилка рискання в градусах, необхідних для приймання напрямку точки маршруту</translation>
+      <translation>Максимальна помилка рискання в градусах, необхідна для прийняття курсу точки маршруту</translation>
     </message>
   </context>
   <context>
@@ -31196,7 +31196,7 @@ Unset if accurate position tracking during dynamic maneuvers is more important t
     <name>/parameters/MPC_ACC_DOWN_MAX/shortDesc</name>
     <message>
       <source>Maximum downwards acceleration in climb rate controlled modes</source>
-      <translation>Максимальне прискорення донизу у режимі контрольованого набору висоти</translation>
+      <translation>Максимальне прискорення донизу в режимах з керуванням швидкістю набору висоти</translation>
     </message>
   </context>
   <context>
@@ -31237,7 +31237,7 @@ With MPC_POS_MODE=4 it is unused (see MPC_ACC_HOR).
     <name>/parameters/MPC_ACC_UP_MAX/shortDesc</name>
     <message>
       <source>Maximum upwards acceleration in climb rate controlled modes</source>
-      <translation>Максимальне прискорення доверху у режимі контрольованого набору висоти</translation>
+      <translation>Максимальне прискорення догори в режимах з керуванням швидкістю набору висоти</translation>
     </message>
   </context>
   <context>
@@ -31713,7 +31713,7 @@ The hover thrust is important for land detection to work correctly.
     <name>/parameters/MPC_THR_MAX/shortDesc</name>
     <message>
       <source>Maximum collective thrust in climb rate controlled modes</source>
-      <translation>Максимальна сукупна тяга при наборі висоти у контрольованих режимах</translation>
+      <translation>Максимальна сукупна тяга в режимах з керуванням швидкістю набору висоти</translation>
     </message>
   </context>
   <context>
@@ -31729,7 +31729,7 @@ The hover thrust is important for land detection to work correctly.
     <name>/parameters/MPC_THR_MIN/shortDesc</name>
     <message>
       <source>Minimum collective thrust in climb rate controlled modes</source>
-      <translation>Мінімальна сукупна тяга при наборі висоти у контрольованих режимах</translation>
+      <translation>Мінімальна сукупна тяга в режимах з керуванням швидкістю набору висоти</translation>
     </message>
   </context>
   <context>
@@ -32427,7 +32427,7 @@ no limit is commanded through MAVLink.
     <name>/parameters/MC_SLOW_MAP_HVEL/shortDesc</name>
     <message>
       <source>Manual input mapped to scale horizontal velocity in position slow mode</source>
-      <translation>Призначено ручне керування, для налаштування горизонтальної швидкості в позиції повільного режиму</translation>
+      <translation>Ручне введення, призначене для масштабування горизонтальної швидкості в режимі Position Slow</translation>
     </message>
   </context>
   <context>
@@ -32548,7 +32548,7 @@ no limit is commanded through MAVLink.
     <name>/parameters/MC_SLOW_MAP_VVEL/shortDesc</name>
     <message>
       <source>Manual input mapped to scale vertical velocity in position slow mode</source>
-      <translation>Призначено ручне керування, для налаштування горизонтальної швидкості в позиції повільного режиму</translation>
+      <translation>Ручне введення, призначене для масштабування вертикальної швидкості в режимі Position Slow</translation>
     </message>
   </context>
   <context>
@@ -32604,7 +32604,7 @@ no limit is commanded through MAVLink.
     <name>/parameters/MC_SLOW_MAP_YAWR/shortDesc</name>
     <message>
       <source>Manual input mapped to scale yaw rate in position slow mode</source>
-      <translation>Призначено ручне керування, для налаштування горизонтальної швидкості в позиції повільного режиму</translation>
+      <translation>Ручне введення, призначене для масштабування швидкості рискання в режимі Position Slow</translation>
     </message>
   </context>
   <context>
@@ -33227,7 +33227,7 @@ This is lower-bounded by the nominal loop rate of this module.
     <name>/parameters/OSD_SYMBOLS/bitmask/1/description</name>
     <message>
       <source>DISARMED</source>
-      <translation>ОХОЛОЩЕНИЙ</translation>
+      <translation>РОЗЗБРОЄНИЙ</translation>
     </message>
   </context>
   <context>
@@ -36752,7 +36752,7 @@ A value of zero indicates the switch is not assigned.
     <name>/parameters/RC_MAP_THROTTLE/shortDesc</name>
     <message>
       <source>Throttle control channel mapping</source>
-      <translation>Позначення каналу контролю тяги</translation>
+      <translation>Призначення каналу керування тягою</translation>
     </message>
   </context>
   <context>
@@ -39476,7 +39476,7 @@ affects the altitude at which the vehicle returns.
     <name>/parameters/RTL_CONE_ANG/values/0/description</name>
     <message>
       <source>No cone, always climb to RTL_RETURN_ALT above destination.</source>
-      <translation>Без конуса, завжди підійматися до RTL_RETURN_ALT над напрямком.</translation>
+      <translation>Без конуса, завжди підійматися до RTL_RETURN_ALT над пунктом призначення.</translation>
     </message>
   </context>
   <context>
@@ -39518,7 +39518,7 @@ affects the altitude at which the vehicle returns.
     <name>/parameters/RTL_DESCEND_ALT/shortDesc</name>
     <message>
       <source>Return mode loiter altitude</source>
-      <translation>Режим Повернення висота баражування</translation>
+      <translation>Висота баражування в режимі повернення</translation>
     </message>
   </context>
   <context>
@@ -39556,7 +39556,7 @@ If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.
     <name>/parameters/RTL_LOITER_RAD/shortDesc</name>
     <message>
       <source>Loiter radius for rtl descend</source>
-      <translation>Радіус баражування для rtl (повернення на точку приземлення) при зниженні</translation>
+      <translation>Радіус баражування при зниженні в режимі RTL</translation>
     </message>
   </context>
   <context>
@@ -40636,7 +40636,7 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
     <name>/parameters/SDLOG_MODE/values/4/description</name>
     <message>
       <source>from 1st armed until shutdown</source>
-      <translation>від першого взведеного і до закриття</translation>
+      <translation>від першого взведення до вимкнення</translation>
     </message>
   </context>
   <context>
@@ -44904,7 +44904,7 @@ Set to "Custom Euler Angle" to define the rotation using CAL_MAG0_ROLL, CAL_MAG0
     <name>/parameters/CAL_MAG0_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 0 X Axis throttle compensation</source>
-      <translation>Магнітометр 0 вісі X компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі X магнітометра 0</translation>
     </message>
   </context>
   <context>
@@ -44967,7 +44967,7 @@ for current-based compensation [G/kA]
     <name>/parameters/CAL_MAG0_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 0 Y Axis throttle compensation</source>
-      <translation>Магнітометр 0 вісі Y компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі Y магнітометра 0</translation>
     </message>
   </context>
   <context>
@@ -45014,7 +45014,7 @@ for current-based compensation [G/kA]
     <name>/parameters/CAL_MAG0_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 0 Z Axis throttle compensation</source>
-      <translation>Магнітометр 0 вісі Z компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі Z магнітометра 0</translation>
     </message>
   </context>
   <context>
@@ -45486,7 +45486,7 @@ Set to "Custom Euler Angle" to define the rotation using CAL_MAG1_ROLL, CAL_MAG1
     <name>/parameters/CAL_MAG1_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 1 X Axis throttle compensation</source>
-      <translation>Магнітометр 1 вісі X компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі X магнітометра 1</translation>
     </message>
   </context>
   <context>
@@ -45549,7 +45549,7 @@ for current-based compensation [G/kA]
     <name>/parameters/CAL_MAG1_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 1 Y Axis throttle compensation</source>
-      <translation>Магнітометр 1 вісі Y компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі Y магнітометра 1</translation>
     </message>
   </context>
   <context>
@@ -45596,7 +45596,7 @@ for current-based compensation [G/kA]
     <name>/parameters/CAL_MAG1_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 1 Z Axis throttle compensation</source>
-      <translation>Магнітометр 1 вісі Z компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі Z магнітометра 1</translation>
     </message>
   </context>
   <context>
@@ -46068,7 +46068,7 @@ Set to "Custom Euler Angle" to define the rotation using CAL_MAG2_ROLL, CAL_MAG2
     <name>/parameters/CAL_MAG2_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 2 X Axis throttle compensation</source>
-      <translation>Магнітометр 2 вісі X компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі X магнітометра 2</translation>
     </message>
   </context>
   <context>
@@ -46131,7 +46131,7 @@ for current-based compensation [G/kA]
     <name>/parameters/CAL_MAG2_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 2 Y Axis throttle compensation</source>
-      <translation>Магнітометр 2 вісі Y компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі Y магнітометра 2</translation>
     </message>
   </context>
   <context>
@@ -46178,7 +46178,7 @@ for current-based compensation [G/kA]
     <name>/parameters/CAL_MAG2_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 2 Z Axis throttle compensation</source>
-      <translation>Магнітометр 2 вісі Z компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі Z магнітометра 2</translation>
     </message>
   </context>
   <context>
@@ -46650,7 +46650,7 @@ Set to "Custom Euler Angle" to define the rotation using CAL_MAG3_ROLL, CAL_MAG3
     <name>/parameters/CAL_MAG3_XCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 3 X Axis throttle compensation</source>
-      <translation>Магнітометр 3 вісі X компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі X магнітометра 3</translation>
     </message>
   </context>
   <context>
@@ -46713,7 +46713,7 @@ for current-based compensation [G/kA]
     <name>/parameters/CAL_MAG3_YCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 3 Y Axis throttle compensation</source>
-      <translation>Магнітометр 3 вісі Y компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі Y магнітометра 3</translation>
     </message>
   </context>
   <context>
@@ -46760,7 +46760,7 @@ for current-based compensation [G/kA]
     <name>/parameters/CAL_MAG3_ZCOMP/shortDesc</name>
     <message>
       <source>Magnetometer 3 Z Axis throttle compensation</source>
-      <translation>Магнітометр 3 вісі Z компенсація тяги</translation>
+      <translation>Компенсація дроселя по осі Z магнітометра 3</translation>
     </message>
   </context>
   <context>
@@ -46821,7 +46821,7 @@ for current-based compensation [G/kA]
     <name>/parameters/CAL_MAG_COMP_TYP/values/1/description</name>
     <message>
       <source>Throttle-based compensation</source>
-      <translation>Компенсаці базована на тязі</translation>
+      <translation>Компенсація на основі тяги</translation>
     </message>
   </context>
   <context>
@@ -47222,7 +47222,7 @@ Requires ESC RPM feedback or onboard FFT (IMU_GYRO_FFT_EN).
     <name>/parameters/IMU_GYRO_DNF_HMC/shortDesc</name>
     <message>
       <source>IMU gyro dynamic notch filter harmonics</source>
-      <translation>IMU (інерційно-вимірювальний пристрій) гіроскопа динамічного рівня фільтра гармоніки</translation>
+      <translation>Гармоніки динамічного режекторного фільтра гіроскопа IMU</translation>
     </message>
   </context>
   <context>
@@ -49745,7 +49745,7 @@ to represent a physical ground location on Earth.
     <name>/parameters/SIH_L_PITCH/shortDesc</name>
     <message>
       <source>Pitch arm length</source>
-      <translation>Тангаж по довжині променя</translation>
+      <translation>Довжина променя по осі тангажу</translation>
     </message>
   </context>
   <context>
@@ -49767,7 +49767,7 @@ This corresponds to half the distance between the front and rear motors.
     <name>/parameters/SIH_L_ROLL/shortDesc</name>
     <message>
       <source>Roll arm length</source>
-      <translation>Довжина крену променю</translation>
+      <translation>Довжина променя по осі крену</translation>
     </message>
   </context>
   <context>
@@ -50583,7 +50583,7 @@ value, which can be used for log analysis).
     <name>/parameters/SYS_HITL/values/0/description</name>
     <message>
       <source>HITL and SIH disabled</source>
-      <translation>HITL і SIH вимкнуто</translation>
+      <translation>HITL і SIH вимкнено</translation>
     </message>
   </context>
   <context>
@@ -53576,7 +53576,7 @@ Set to 0 do disable this threshold.
     <name>/parameters/VT_F_TRANS_THR/shortDesc</name>
     <message>
       <source>Target throttle value for the transition to fixed-wing flight</source>
-      <translation>Націлитися на значення тяги для переходу до польоту з фіксованим крилом</translation>
+      <translation>Цільове значення тяги для переходу до польоту з фіксованим крилом</translation>
     </message>
   </context>
   <context>
@@ -53648,7 +53648,7 @@ VT_FWD_TRHUST_EN is set.
     <name>/parameters/VT_PSHER_SLEW/shortDesc</name>
     <message>
       <source>Pusher throttle ramp up slew rate</source>
-      <translation>Штовхач тяги підвищує швидкість зростання</translation>
+      <translation>Швидкість наростання тяги штовхального двигуна</translation>
     </message>
   </context>
   <context>
@@ -53842,7 +53842,7 @@ Set to 0 do disable this threshold.
     <name>/parameters/VTO_LOITER_ALT/shortDesc</name>
     <message>
       <source>VTOL Takeoff relative loiter altitude</source>
-      <translation>Зліт при вертикальному зльоті/посадці відносно висоти</translation>
+      <translation>Відносна висота баражування при зльоті VTOL</translation>
     </message>
   </context>
   <context>
