@@ -117,7 +117,7 @@ for context, string in tuples:
     ts_file.write("</context>\n")
 
 for global_translation in sorted(global_translations):
-    for string in global_translations[global_translation]:
+    for string in sorted(global_translations[global_translation]):
         ts_file.write("<context>\n")
         ts_file.write("  <name>{:}</name>\n".format('$globals/'+escape(global_translation)+'/'+escape(string)))
         ts_file.write("  <message>\n")
