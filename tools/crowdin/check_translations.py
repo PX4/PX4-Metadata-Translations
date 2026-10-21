@@ -25,7 +25,7 @@ PRESERVED = [
     # ASCII-only boundaries: \b would not match next to CJK characters
     ('identifier', re.compile(r'(?<![A-Za-z0-9_])[A-Za-z][A-Za-z0-9]*_[A-Za-z0-9_]+(?![A-Za-z0-9_])')),
 ]
-NUMBER = re.compile(r'(?<![A-Za-z0-9_.])-?\d+(?:\.\d+)?(?![A-Za-z0-9_.])')
+NUMBER = re.compile(r'(?<![A-Za-z0-9_.])-?\d+(?:\.\d+)?(?![A-Za-z0-9_]|\.\d)')
 
 
 def _strip_preserved(text):
