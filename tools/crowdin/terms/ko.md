@@ -49,5 +49,7 @@
 - weathervane -> 웨더베인
 - vehicle -> 기체
 
+- compass -> 나침반 (magnetometer stays 지자기계)
+- orbit -> 선회
 Open questions for a Korean proofreader: innovation (이노베이션 vs 잔차), setpoint (설정값 vs 목표값),
 magnetometer (지자기계 vs 지자기 센서), quad-chute (쿼드슈트, a transliteration).

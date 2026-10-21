@@ -49,5 +49,6 @@
 - weathervane -> Windfahne (Windfahnenregler)
 - control surfaces -> Steuerflächen
 
+- heading -> Steuerkurs; mount (MNT_*) -> Halterung; innovation gate size -> Innovationsschwelle
 Open questions for a German proofreader: arm/disarm (scharf schalten/entschärfen vs aktivieren/deaktivieren),
 loiter (Kreisflug vs keeping "Loiter"), airspeed (Fluggeschwindigkeit vs Eigengeschwindigkeit), throttle (Gas vs Schub).
