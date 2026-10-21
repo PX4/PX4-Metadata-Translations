@@ -65,6 +65,7 @@ All scripts are Python 3 and use only the standard library. No dependencies need
 ## Working conventions
 
 - Keep the scripts dependency-free and runnable by the GitHub Actions `ubuntu-latest` image with only `xz-utils` installed.
+- Dependabot (`.github/dependabot.yml`) checks the workflow's actions every month and opens PRs for new major versions. Actions are pinned to major tags (for example `@v7`), so minor and patch releases apply without a PR. Before merging a Dependabot PR, check its release notes for breaking changes that affect `daily_sync.yml`.
 - To check a script change, run it against the committed data and inspect `git diff`. There is no test suite. Running `./scripts/prepare_ts_all.sh` twice should produce identical output, so any diff between runs comes from your change.
 - Scope changes narrowly. A script change regenerates large files: `parameters.ts` is about 1 MB, and each locale adds more. Commit generated output separately from script changes, or leave regeneration to CI.
 - Don't commit to `l10n_main`. It belongs to Crowdin.
