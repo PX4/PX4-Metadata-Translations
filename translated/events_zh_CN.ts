@@ -54,7 +54,7 @@
     <name>/components/0/enums/calibration_sides_t/entries/1/description</name>
     <message>
       <source>Tail Down</source>
-      <translation type="unfinished">Tail Down</translation>
+      <translation>机尾朝下</translation>
     </message>
   </context>
   <context>
