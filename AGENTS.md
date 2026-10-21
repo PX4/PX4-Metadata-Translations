@@ -47,7 +47,7 @@ All scripts are Python 3 and use only the standard library. No dependencies need
 - It supports the schema keys `items` (with `*` wildcard), `list` (with optional `key`), `translate`, `translate-global` and `$ref`/`$defs`.
 - Each string becomes one `<context>`, whose `<name>` is a slash path into the JSON (for example `/parameters/ADSB_CALLSIGN_1/shortDesc`). Lists are keyed by `key` or by index.
 - `translate-global` values (for example parameter `category`/`group`) are deduplicated into `$globals/<field>/<value>` contexts.
-- **Context names are the translation keys.** Consumers look up translations by these names, and Crowdin matches existing translations by them. Changing how names are built invalidates every existing translation, so treat that as a breaking change.
+- **Context names are the translation keys.** QGroundControl looks up translations by `<name>` only and never compares `<source>`. Changing how names are built invalidates every existing translation, so treat that as a breaking change.
 - If a JSON has no `translation` key, the script prints a warning and writes nothing.
 - The output must stay deterministic: `$globals` values are collected in a `set`, so they are written out sorted. Unsorted output would reorder lines on every run and cause churn in every daily commit and Crowdin sync.
 
@@ -57,10 +57,26 @@ All scripts are Python 3 and use only the standard library. No dependencies need
 - It skips `en_*` because English is the source language. Summary URLs point at `https://raw.githubusercontent.com/PX4/PX4-Metadata-Translations/main/translated/<file>.ts.xz`.
 - `last-modified` comes from the file mtime. In CI the mtime is the checkout time, so every run rewrites the summary files. The daily auto-commit touching only `*_summary.json` is expected, not a bug.
 
+## Translating with Claude (`tools/crowdin/`)
+
+Claude pre-translates strings and reviews existing translations. Humans approve in Crowdin. The goal is that only approved translations are exported.
+The tools talk to the Crowdin API as a dedicated bot account, so everything Claude adds can be filtered in the Crowdin Editor by *Translated by* or *Approved by*.
+
+- Use the `crowdin-translate` skill (`.claude/skills/crowdin-translate/SKILL.md`) for a session. It runs this pipeline:
+  1. `export_strings.py`: exports the strings.
+  2. Claude works through them in chunks, following `TRANSLATION_GUIDE.md`.
+  3. `check_translations.py`: checks the results.
+  4. `apply_results.py`: applies them. It's a dry run unless `--apply` is given.
+- Credentials come from `CROWDIN_PERSONAL_TOKEN` and `CROWDIN_PROJECT_ID`. Never commit or print the token.
+- `check_translations.py` is the mechanical safety net: tags, `{placeholders}`, code, URLs, identifiers, numbers and line structure. It also blocks approval of existing translations that break those rules. Tighten its rules rather than loosen them.
+- QGC shows any `<translation>` text in the published files, even a stale one, so the approval gate in Crowdin is what keeps unreviewed or superseded text away from users.
+- Session files go in `work/`, which is git-ignored.
+- The tools use only the standard library, like `scripts/`. They need network access and a token, and they don't run in the daily sync.
+
 ## Known quirks (don't "fix" without asking)
 
 - Actuator metadata is not translated here. PX4 publishes it only per board (there is no `_general/actuators.json.xz` for CI to sync), and the firmware gives actuators an empty translation URI.
-- `.gitignore` is empty, and the `.ts.xz` artifacts are committed on purpose.
+- The `.ts.xz` artifacts are committed on purpose.
 
 ## Working conventions
 
