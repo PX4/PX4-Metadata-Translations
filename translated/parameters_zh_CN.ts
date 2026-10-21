@@ -14,8 +14,8 @@
       <source>Sets first 4 characters of a total of 8. Valid characters are A-Z, 0-9, " ". Example "PX4 " -&gt; 1347957792
 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
 </source>
-      <translation>设置8个字符中的前4个字符。有效字符包括A-Z、0-9和" "。例如"PX4 " -&gt; 1347957792
-对于少于8个字符的CALLSIGN，在末尾使用NULL结束符'\0'。
+      <translation type="unfinished">Sets first 4 characters of a total of 8. Valid characters are A-Z, 0-9, " ". Example "PX4 " -&gt; 1347957792
+For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
 </translation>
     </message>
   </context>
@@ -32,8 +32,8 @@ For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
       <source>Sets second 4 characters of a total of 8. Valid characters are A-Z, 0-9, " " only. Example "TEST" -&gt; 1413829460
 For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
 </source>
-      <translation>设置8个字符中的后4个字符。有效字符仅包括A-Z、0-9和" "。例如"TEST" -&gt; 1413829460
-对于少于8个字符的CALLSIGN，在末尾使用NULL结束符'\0'。
+      <translation type="unfinished">Sets second 4 characters of a total of 8. Valid characters are A-Z, 0-9, " " only. Example "TEST" -&gt; 1413829460
+For CALLSIGN shorter than 8 characters use the null terminator at the end '\0'.
 </translation>
     </message>
   </context>
@@ -1077,7 +1077,7 @@ The default failsafe value is set according to the selected function:
     <name>/parameters/PWM_MAIN_FUNC1/values/450/description</name>
     <message>
       <source>IC Engine Ignition</source>
-      <translation>IC引擎点火</translation>
+      <translation type="unfinished">IC Engine Ignition</translation>
     </message>
   </context>
   <context>
@@ -13471,7 +13471,7 @@ action will be executed.
     <name>/parameters/NAV_DLL_ACT/values/1/description</name>
     <message>
       <source>Hold mode</source>
-      <translation>保持模式</translation>
+      <translation type="unfinished">Hold mode</translation>
     </message>
   </context>
   <context>
