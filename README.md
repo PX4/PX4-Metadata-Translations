@@ -18,3 +18,8 @@ Update steps:
 - Compress and update summary file:
   `./scripts/update_summary.py translated`
 
+## Translating with Claude
+
+Claude can pre-translate strings and review existing translations in Crowdin through the tools in `tools/crowdin/`. Everything it adds is **unapproved**, so a human translator still has to approve it.
+The Claude Code skill `crowdin-translate` describes a session. `tools/crowdin/TRANSLATION_GUIDE.md` holds the translation rules, which are also useful to human translators.
+
