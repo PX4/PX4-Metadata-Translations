@@ -54,11 +54,13 @@ class Crowdin:
                     continue
                 detail = e.read().decode('utf-8', 'replace')
                 raise CrowdinError(f'{method} {path} failed: HTTP {e.code}: {detail}') from None
-            except urllib.error.URLError as e:
+            except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+                # a retried POST may repeat a request that did reach the server;
+                # approving is idempotent and a repeated translation fails as a duplicate
                 if attempt < MAX_RETRIES - 1:
                     time.sleep(2 ** attempt)
                     continue
-                raise CrowdinError(f'{method} {path} failed: {e.reason}') from None
+                raise CrowdinError(f'{method} {path} failed: {getattr(e, "reason", e)}') from None
 
     def project_path(self, suffix):
         return f'/projects/{self.project_id}{suffix}'

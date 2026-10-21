@@ -86,7 +86,12 @@ def main():
                 response = crowdin.add_translation(result['stringId'], lang[result['stringId']], result['text'])
             return dict(result, status='ok', responseId=response.get('id'))
         except CrowdinError as e:
+            if 'Duplicate translation' in str(e):
+                # the same text is already a translation of this string (e.g. from an interrupted run)
+                return dict(result, status='ok', note='already present')
             return dict(result, status='error', error=str(e))
+        except Exception as e:  # never let one record abort the run and lose the log of the others
+            return dict(result, status='error', error=f'{type(e).__name__}: {e}')
 
     os.makedirs(args.log_dir, exist_ok=True)
     timestamp = datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S.%fZ')
