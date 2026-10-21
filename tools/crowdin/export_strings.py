@@ -52,7 +52,8 @@ def main():
                 'stringId': string_id,
                 'lang': args.lang,
                 'file': file['name'],
-                'key': string.get('identifier') or string.get('context'),
+                # for Qt TS files the identifier is "<context>['<source text>']", so prefer the plain context path
+                'key': string.get('context') or string.get('identifier'),
                 'source': string['text'],
                 'translation': None,
             }
