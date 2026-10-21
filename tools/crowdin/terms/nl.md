@@ -1,0 +1,56 @@
+# Dutch term sheet (`nl`): mandatory terms for new translations
+- arm / armed / arming -> armen / gearmd / armen (inschakelen van de motoren)
+- disarm / disarmed / disarming -> disarmen / gedisarmd / disarmen
+- prearm (check) -> pre-arm-controle
+- throttle -> gas (throttle value -> gaswaarde; trim throttle -> trimgas)
+- thrust -> stuwkracht (differential thrust -> differentiële stuwkracht)
+- failsafe -> failsafe
+- setpoint -> setpoint (pitch setpoint -> stamphoeksetpoint)
+- loiter -> rondcirkelen (loiter altitude -> rondcirkelhoogte)
+- hold mode -> Hold-modus
+- mission -> missie
+- waypoint -> waypoint
+- takeoff -> opstijgen (Takeoff mode -> Takeoff-modus)
+- land / landing -> landen / landing
+- precision landing -> precisielanding
+- RTL / Return mode -> RTL / Return-modus (terugkeren naar Home)
+- Home -> Home (thuispositie)
+- Offboard -> Offboard
+- airspeed -> luchtsnelheid
+- groundspeed -> grondsnelheid
+- attitude -> standhoek (attitude control -> standregeling)
+- yaw / roll / pitch -> gieren / rollen / stampen (yaw angle -> gierhoek, roll angle -> rolhoek, pitch angle -> stamphoek)
+- yaw rate -> giersnelheid
+- heading -> koers
+- angular rate -> hoeksnelheid
+- gain -> versterking (I gain -> I-versterking)
+- feedforward -> feedforward (voorwaartskoppeling)
+- estimator -> schatter
+- fusion / fuse -> fusie / fuseren
+- innovation / innovation gate -> innovatie / innovatiepoort
+- timeout -> time-out
+- threshold -> drempelwaarde
+- gyro / accelerometer / magnetometer -> gyroscoop / versnellingsmeter / magnetometer
+- declination -> declinatie
+- drift -> drift
+- landing gear -> landingsgestel
+- gimbal -> gimbal
+- parachute -> parachute
+- kill switch -> noodstopschakelaar (kill switch)
+- circuit breaker -> circuit breaker (veiligheidsschakelaar)
+- transition / front transition / back transition -> transitie / voorwaartse transitie / terugtransitie
+- hover -> hoveren (hover mode -> hovermodus)
+- fixed-wing (FW) -> vaste vleugel (fixed-wing flight -> vastevleugelvlucht; FW mode -> FW-modus)
+- multicopter (MC) -> multicopter (MC mode -> MC-modus)
+- VTOL -> VTOL (standard VTOL -> standaard-VTOL)
+- quad-chute -> quad-chute
+- RC -> RC (RC channel -> RC-kanaal)
+- ESC -> ESC
+- battery / battery cell -> accu / accucel
+- slew rate -> slew rate
+- control surfaces -> stuurvlakken
+- weathervane -> windvaan (weathervane controller -> windvaanregelaar)
+- tilt -> kanteling
+
+Open questions for a Dutch proofreader: arm/disarm (armen/disarmen anglicisms vs inschakelen/uitschakelen),
+yaw/roll/pitch (gieren/rollen/stampen vs the English words), fixed-wing (vaste vleugel), attitude (standhoek).

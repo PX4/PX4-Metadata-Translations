@@ -1,0 +1,53 @@
+# Korean term sheet (`ko`): mandatory terms for new translations
+- arm / armed / arming -> 시동 / 시동됨 / 시동 걸기
+- disarm / disarmed / disarming -> 시동 해제 / 시동 해제됨 / 시동 해제
+- prearm (check) -> 시동 전 (검사)
+- throttle -> 스로틀
+- thrust -> 추력; differential thrust -> 차동 추력
+- failsafe -> 페일세이프; failsafe action -> 페일세이프 동작
+- setpoint -> 설정값
+- loiter -> 로이터 (Loiter mode -> 로이터 모드)
+- hold mode -> 홀드 모드
+- mission -> 미션; waypoint -> 웨이포인트
+- takeoff -> 이륙
+- land / landing -> 착륙; LAND mode -> LAND 모드
+- precision landing -> 정밀 착륙
+- RTL -> RTL; Return mode -> 복귀 모드
+- Home -> 홈 (home position -> 홈 위치)
+- Offboard -> Offboard (Offboard mode -> Offboard 모드)
+- airspeed -> 대기속도; groundspeed -> 대지속도
+- attitude -> 자세
+- yaw / roll / pitch -> 요 / 롤 / 피치
+- angular rate -> 각속도; yaw rate -> 요 레이트
+- gain -> 게인
+- feedforward -> 피드포워드
+- estimator -> 추정기
+- fusion -> 융합
+- innovation -> 이노베이션; innovation gate -> 이노베이션 게이트
+- variance / covariance -> 분산 / 공분산
+- timeout -> 타임아웃
+- threshold -> 임계값
+- gyro / accelerometer / magnetometer -> 자이로 / 가속도계 / 지자기계
+- declination -> 자기 편각
+- drift -> 드리프트
+- landing gear -> 랜딩 기어
+- gimbal -> 짐벌
+- parachute -> 낙하산
+- kill switch -> 킬 스위치
+- circuit breaker -> 서킷 브레이커
+- transition -> 전환; front transition -> 전방 전환; back transition -> 후방 전환
+- hover -> 호버 (hovering -> 호버링)
+- fixed-wing (FW) -> 고정익 (FW)
+- multicopter (MC) -> 멀티콥터 (MC)
+- VTOL -> VTOL; tailsitter -> 테일시터; tiltrotor -> 틸트로터
+- quad-chute -> 쿼드슈트
+- RC -> RC
+- ESC -> ESC
+- battery cell -> 배터리 셀
+- slew rate -> 슬루율
+- control surfaces -> 조종면
+- weathervane -> 웨더베인
+- vehicle -> 기체
+
+Open questions for a Korean proofreader: innovation (이노베이션 vs 잔차), setpoint (설정값 vs 목표값),
+magnetometer (지자기계 vs 지자기 센서), quad-chute (쿼드슈트, a transliteration).

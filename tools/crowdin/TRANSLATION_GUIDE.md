@@ -58,6 +58,21 @@ Each exported record has a `key`, which is the string's path in the PX4 metadata
 - Keep ASCII punctuation inside identifiers, placeholders, code and URLs.
 - Don't put spaces between Chinese characters. Spaces next to Latin words and numbers are optional, but use them consistently.
 
+### German (`de`)
+- Address the user formally (`Sie`). Instructions in messages use the imperative with `Sie` (`Prüfen Sie …`) or the infinitive in short labels (`Kalibrierung starten`).
+- Capitalise nouns. Join compounds with a hyphen when one part is an acronym or identifier (`GPS-Empfänger`, `RC-Kanal`).
+- Keep `.` as the decimal separator (see Numbers), even though German normally uses `,`.
+
+### Korean (`ko`)
+- Use the formal polite style (`-습니다`/`-하십시오`) in sentences, and plain noun phrases in titles and labels.
+- Write established loanwords in Hangul (`스로틀`, `센서`), and keep acronyms in Latin script.
+- Use ASCII punctuation, which is normal in Korean.
+
+### Dutch (`nl`)
+- Address the user with `u` in sentences. Short labels and titles use the infinitive or a noun phrase.
+- Write compounds as one word, or with a hyphen when one part is an acronym or identifier (`GPS-ontvanger`, `RC-kanaal`).
+- Keep `.` as the decimal separator (see Numbers), even though Dutch normally uses `,`.
+
 ## Reviewing an existing translation
 
 Use **approve** only if all of these are true:

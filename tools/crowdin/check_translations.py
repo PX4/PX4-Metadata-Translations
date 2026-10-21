@@ -9,6 +9,7 @@ numbers and the line structure.
 
 import argparse
 import collections
+import html
 import json
 import re
 import sys
@@ -40,6 +41,13 @@ def check(source, text):
     warnings = []
     if not text or not text.strip():
         return ['translation is empty'], warnings
+
+    # Crowdin stores most markup in TS strings as entities (&lt;param&gt;); keep the
+    # translation's encoding the same as the source, and compare the decoded markup
+    for entity in ('&lt;', '&gt;', '&amp;', '&quot;'):
+        if source.count(entity) != text.count(entity):
+            errors.append(f'{entity} count differs: source {source.count(entity)}, translation {text.count(entity)}')
+    source, text = html.unescape(source), html.unescape(text)
 
     for name, pattern in PRESERVED:
         expected = collections.Counter(pattern.findall(source))
