@@ -7,7 +7,7 @@ Guidance for AI coding agents working in this repository.
 This repo is the translation pipeline for PX4 metadata: parameter and event descriptions shown in ground stations such as QGroundControl.
 It has almost no code. Nearly all commits are made by bots:
 
-- **Daily CI** (`.github/workflows/daily_sync.yml`, 06:00 UTC) downloads the latest PX4 `main` metadata, regenerates the source strings, recompresses the translations, rewrites the summary files and auto-commits as `[AUTO COMMIT] update metadata and summary`.
+- **Daily CI** (`.github/workflows/daily_sync.yml`, 06:00 UTC) downloads the latest PX4 `main` metadata, regenerates the source strings, recompresses the translations, rewrites the summary files and auto-commits as `[AUTO COMMIT] update metadata and summary`. To sync on demand, start a new run from the Actions tab ("Run workflow"). Don't re-run an old run: a re-run checks out that run's original commit, so its auto-commit push is rejected once `main` has moved on.
 - **Crowdin** ([px4-metadata-translations](https://crowdin.com/project/px4-metadata-translations)) pushes `New translations <file>.ts (<Language>)` commits to the `l10n_main` branch. A maintainer then merges them into `main` with a PR.
 
 Consumers fetch the files straight from `main` over `raw.githubusercontent.com`. PX4 firmware hard-codes the summary URLs in `PX4-Autopilot/src/lib/component_information/CMakeLists.txt`:
