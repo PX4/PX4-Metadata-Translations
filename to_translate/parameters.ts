@@ -7284,14 +7284,7 @@ the drone properly.
 <context>
   <name>/parameters/BAT1_I_OVERWRITE/longDesc</name>
   <message>
-  <source>This parameter allows to overwrite the current measured during
-idle (unarmed) state with a user-defined constant value (expressed in amperes).
-When the system is armed, the measured current is used. This is useful
-because on certain ESCs current measurements are inaccurate in case of no load.
-Negative values are ignored and will cause the measured current to be used.
-The default value of 0 disables the overwrite, in which case the measured value
-is always used.
-
+  <source>While disarmed, replaces the measured current with this value in amps, for ESCs that measure current inaccurately at no load. Set to 0 or less to disable.
 </source>
   </message>
 </context>
@@ -7434,17 +7427,9 @@ is always used.
 <context>
   <name>/parameters/BAT1_SOURCE/longDesc</name>
   <message>
-  <source>This parameter controls the source of battery data. The value 'Power Module / Analog'
-means that measurements are expected to come from either analog (ADC) inputs
-or an I2C power monitor (e.g. INA226). Analog inputs are voltage and current
-measurements read from the board's ADC channels, typically from an onboard
-voltage divider and current shunt, or an external analog power module.
-I2C power monitors are digital sensors on the I2C bus.
-If the value is set to 'External' then the system expects to receive MAVLink
-or CAN battery status messages, or the battery data is published by an external driver.
-If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current (via ESC telemetry).
-
+  <source>Power Module / Analog: board ADC inputs (onboard or external analog power module) or an I2C power monitor (e.g. INA226).
+External: MAVLink or CAN battery status messages, or an external driver.
+ESCs: esc_status from ESC telemetry; requires voltage and current.
 </source>
   </message>
 </context>
@@ -7482,7 +7467,6 @@ This requires the ESC to provide both voltage as well as current (via ESC teleme
   <name>/parameters/BAT1_V_CHARGED/longDesc</name>
   <message>
   <source>Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V
 
 </source>
   </message>
@@ -7527,14 +7511,7 @@ it drops off to a voltage level damaging the cells.
 <context>
   <name>/parameters/BAT2_I_OVERWRITE/longDesc</name>
   <message>
-  <source>This parameter allows to overwrite the current measured during
-idle (unarmed) state with a user-defined constant value (expressed in amperes).
-When the system is armed, the measured current is used. This is useful
-because on certain ESCs current measurements are inaccurate in case of no load.
-Negative values are ignored and will cause the measured current to be used.
-The default value of 0 disables the overwrite, in which case the measured value
-is always used.
-
+  <source>While disarmed, replaces the measured current with this value in amps, for ESCs that measure current inaccurately at no load. Set to 0 or less to disable.
 </source>
   </message>
 </context>
@@ -7677,17 +7654,9 @@ is always used.
 <context>
   <name>/parameters/BAT2_SOURCE/longDesc</name>
   <message>
-  <source>This parameter controls the source of battery data. The value 'Power Module / Analog'
-means that measurements are expected to come from either analog (ADC) inputs
-or an I2C power monitor (e.g. INA226). Analog inputs are voltage and current
-measurements read from the board's ADC channels, typically from an onboard
-voltage divider and current shunt, or an external analog power module.
-I2C power monitors are digital sensors on the I2C bus.
-If the value is set to 'External' then the system expects to receive MAVLink
-or CAN battery status messages, or the battery data is published by an external driver.
-If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current (via ESC telemetry).
-
+  <source>Power Module / Analog: board ADC inputs (onboard or external analog power module) or an I2C power monitor (e.g. INA226).
+External: MAVLink or CAN battery status messages, or an external driver.
+ESCs: esc_status from ESC telemetry; requires voltage and current.
 </source>
   </message>
 </context>
@@ -7725,7 +7694,6 @@ This requires the ESC to provide both voltage as well as current (via ESC teleme
   <name>/parameters/BAT2_V_CHARGED/longDesc</name>
   <message>
   <source>Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V
 
 </source>
   </message>
@@ -7770,14 +7738,7 @@ it drops off to a voltage level damaging the cells.
 <context>
   <name>/parameters/BAT3_I_OVERWRITE/longDesc</name>
   <message>
-  <source>This parameter allows to overwrite the current measured during
-idle (unarmed) state with a user-defined constant value (expressed in amperes).
-When the system is armed, the measured current is used. This is useful
-because on certain ESCs current measurements are inaccurate in case of no load.
-Negative values are ignored and will cause the measured current to be used.
-The default value of 0 disables the overwrite, in which case the measured value
-is always used.
-
+  <source>While disarmed, replaces the measured current with this value in amps, for ESCs that measure current inaccurately at no load. Set to 0 or less to disable.
 </source>
   </message>
 </context>
@@ -7920,17 +7881,9 @@ is always used.
 <context>
   <name>/parameters/BAT3_SOURCE/longDesc</name>
   <message>
-  <source>This parameter controls the source of battery data. The value 'Power Module / Analog'
-means that measurements are expected to come from either analog (ADC) inputs
-or an I2C power monitor (e.g. INA226). Analog inputs are voltage and current
-measurements read from the board's ADC channels, typically from an onboard
-voltage divider and current shunt, or an external analog power module.
-I2C power monitors are digital sensors on the I2C bus.
-If the value is set to 'External' then the system expects to receive MAVLink
-or CAN battery status messages, or the battery data is published by an external driver.
-If the value is set to 'ESCs', the battery information are taken from the esc_status message.
-This requires the ESC to provide both voltage as well as current (via ESC telemetry).
-
+  <source>Power Module / Analog: board ADC inputs (onboard or external analog power module) or an I2C power monitor (e.g. INA226).
+External: MAVLink or CAN battery status messages, or an external driver.
+ESCs: esc_status from ESC telemetry; requires voltage and current.
 </source>
   </message>
 </context>
@@ -7968,7 +7921,6 @@ This requires the ESC to provide both voltage as well as current (via ESC teleme
   <name>/parameters/BAT3_V_CHARGED/longDesc</name>
   <message>
   <source>Defines the voltage where a single cell of the battery is considered full.
-For a more accurate estimate set this below the nominal voltage of e.g. 4.2V
 
 </source>
   </message>
@@ -8000,7 +7952,7 @@ it drops off to a voltage level damaging the cells.
   <name>/parameters/BAT_AVRG_CURRENT/longDesc</name>
   <message>
   <source>This value is used to initialize the in-flight average current estimation,
-which in turn is used for estimating remaining flight time and RTL triggering.
+which in turn is used for estimating remaining flight time and Return triggering.
 
 </source>
   </message>
@@ -8016,7 +7968,7 @@ which in turn is used for estimating remaining flight time and RTL triggering.
   <message>
   <source>Sets the threshold when the battery will be reported as critically low.
 This has to be lower than the low threshold. This threshold commonly
-will trigger RTL.
+will trigger Return.
 
 </source>
   </message>
@@ -8276,20 +8228,6 @@ all others enabled.
 by the FailureDetector logic or if FMU is lost.
 This circuit breaker does not affect the RC loss, data link loss, geofence,
 and takeoff failure detection safety logic.
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CBRK_IO_SAFETY/shortDesc</name>
-  <message>
-  <source>Circuit breaker for IO safety</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/CBRK_IO_SAFETY/longDesc</name>
-  <message>
-  <source>Setting this parameter to 22027 will disable IO safety.
-WARNING: ENABLING THIS CIRCUIT BREAKER IS AT OWN RISK
 </source>
   </message>
 </context>
@@ -8785,7 +8723,7 @@ Has no effect if COM_ARMABLE is 0.
   <name>/parameters/COM_ARM_WO_GPS/longDesc</name>
   <message>
   <source>Configures whether arming is allowed without GNSS, for modes that require a global position
-(specifically, in those modes when a check defined by EKF2_GPS_CHECK fails).
+(specifically, in those modes when a check defined by GNSS_CHECK fails).
 The settings deny arming and warn, allow arming and warn, or silently allow arming.
 </source>
   </message>
@@ -8937,7 +8875,7 @@ See also COM_RCL_EXCEPT.
 <context>
   <name>/parameters/COM_FAIL_ACT_T/longDesc</name>
   <message>
-  <source>Before entering failsafe (RTL, Land, Hold), wait COM_FAIL_ACT_T seconds in Hold mode
+  <source>Before entering failsafe (Return, Land, Hold), wait COM_FAIL_ACT_T seconds in Hold mode
 for the user to realize.
 During that time the user can switch modes, but cannot take over control via the manual control override feature (see MAN_OVERRIDE_SPD).
 Afterwards the configured failsafe action is triggered and the user may use manual control override.
@@ -9070,6 +9008,12 @@ selected flight mode will be applied.
   <name>/parameters/COM_FLTMODE1/values/16/description</name>
   <message>
   <source>Altitude Cruise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE1/values/17/description</name>
+  <message>
+  <source>Manual Parking</source>
   </message>
 </context>
 <context>
@@ -9232,6 +9176,12 @@ selected flight mode will be applied.
   </message>
 </context>
 <context>
+  <name>/parameters/COM_FLTMODE2/values/17/description</name>
+  <message>
+  <source>Manual Parking</source>
+  </message>
+</context>
+<context>
   <name>/parameters/COM_FLTMODE2/values/100/description</name>
   <message>
   <source>External Mode 1</source>
@@ -9388,6 +9338,12 @@ selected flight mode will be applied.
   <name>/parameters/COM_FLTMODE3/values/16/description</name>
   <message>
   <source>Altitude Cruise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE3/values/17/description</name>
+  <message>
+  <source>Manual Parking</source>
   </message>
 </context>
 <context>
@@ -9550,6 +9506,12 @@ selected flight mode will be applied.
   </message>
 </context>
 <context>
+  <name>/parameters/COM_FLTMODE4/values/17/description</name>
+  <message>
+  <source>Manual Parking</source>
+  </message>
+</context>
+<context>
   <name>/parameters/COM_FLTMODE4/values/100/description</name>
   <message>
   <source>External Mode 1</source>
@@ -9709,6 +9671,12 @@ selected flight mode will be applied.
   </message>
 </context>
 <context>
+  <name>/parameters/COM_FLTMODE5/values/17/description</name>
+  <message>
+  <source>Manual Parking</source>
+  </message>
+</context>
+<context>
   <name>/parameters/COM_FLTMODE5/values/100/description</name>
   <message>
   <source>External Mode 1</source>
@@ -9865,6 +9833,12 @@ selected flight mode will be applied.
   <name>/parameters/COM_FLTMODE6/values/16/description</name>
   <message>
   <source>Altitude Cruise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_FLTMODE6/values/17/description</name>
+  <message>
+  <source>Manual Parking</source>
   </message>
 </context>
 <context>
@@ -10044,38 +10018,6 @@ mode command is received.
   </message>
 </context>
 <context>
-  <name>/parameters/COM_FLTT_LOW_ACT/shortDesc</name>
-  <message>
-  <source>Remaining flight time low failsafe</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_FLTT_LOW_ACT/longDesc</name>
-  <message>
-  <source>Action the system takes when the remaining flight time is below
-the estimated time it takes to reach the RTL destination.
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_FLTT_LOW_ACT/values/0/description</name>
-  <message>
-  <source>None</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_FLTT_LOW_ACT/values/1/description</name>
-  <message>
-  <source>Warning</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_FLTT_LOW_ACT/values/3/description</name>
-  <message>
-  <source>Return</source>
-  </message>
-</context>
-<context>
   <name>/parameters/COM_FLT_TIME_MAX/shortDesc</name>
   <message>
   <source>Maximum allowed flight time</source>
@@ -10084,13 +10026,13 @@ the estimated time it takes to reach the RTL destination.
 <context>
   <name>/parameters/COM_FLT_TIME_MAX/longDesc</name>
   <message>
-  <source>The vehicle aborts the current operation and returns to launch when
+  <source>The vehicle aborts the current operation and switches to Return mode when
 the time since takeoff is above this value. It is not possible to resume the
-mission or switch to any auto mode other than RTL or Land. Taking over in any manual
+mission or switch to any auto mode other than Return or Land. Taking over in any manual
 mode is still possible.
 
 Starting from 90% of the maximum flight time, a warning message will be sent
-every 1 minute with the remaining time until automatic RTL.
+every 1 minute with the remaining time until automatic Return.
 
 Set to -1 to disable.
 </source>
@@ -10099,14 +10041,7 @@ Set to -1 to disable.
 <context>
   <name>/parameters/COM_FORCE_SAFETY/shortDesc</name>
   <message>
-  <source>Enable force safety</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/COM_FORCE_SAFETY/longDesc</name>
-  <message>
-  <source>Force safety when the vehicle disarms
-</source>
+  <source>Re-enable safety when the vehicle disarms</source>
   </message>
 </context>
 <context>
@@ -10134,6 +10069,7 @@ Set to -1 to disable.
 Triggers when the active GNSS count drops below SYS_HAS_NUM_GNSS (disabled
 when SYS_HAS_NUM_GNSS=0), or when two receivers report positions inconsistent
 with their reported accuracy and SYS_HAS_NUM_GNSS=2 (otherwise warning only).
+The reported accuracy of each receiver is floored with EKF2_GPS_P_NOISE.
 Any value above Warning also blocks arming.
 </source>
   </message>
@@ -10160,6 +10096,12 @@ Any value above Warning also blocks arming.
   <name>/parameters/COM_GNSSLOSS_ACT/values/3/description</name>
   <message>
   <source>Terminate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_GNSSLOSS_ACT/values/4/description</name>
+  <message>
+  <source>Warning, block arming</source>
   </message>
 </context>
 <context>
@@ -10240,8 +10182,11 @@ If no local position is available, home is set to the current position.
 <context>
   <name>/parameters/COM_LOW_BAT_ACT/longDesc</name>
   <message>
-  <source>Action the system takes at critical battery. See also BAT_CRIT_THR and BAT_EMERGEN_THR
-for definition of battery states.
+  <source>Action when the battery drops below the critical (BAT_CRIT_THR) or emergency (BAT_EMERGEN_THR) level.
+
+Options 3 and 4 also engage Return mode when the remaining flight time is only just enough to return (distance-aware return, with the margin set by RTL_TIME_FACTOR and RTL_TIME_MARGIN).
+This needs a remaining flight time estimate, such as from BATn_CAPACITY or a smart battery.
+The other options only warn.
 </source>
   </message>
 </context>
@@ -10260,13 +10205,25 @@ for definition of battery states.
 <context>
   <name>/parameters/COM_LOW_BAT_ACT/values/3/description</name>
   <message>
-  <source>Return at critical level, land at emergency level</source>
+  <source>Distance-aware return, Critical level return, Emergency level land</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_LOW_BAT_ACT/values/4/description</name>
   <message>
-  <source>Return at critical level, terminate at emergency level</source>
+  <source>Distance-aware return, Critical level return, Emergency level terminate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_LOW_BAT_ACT/values/5/description</name>
+  <message>
+  <source>Critical level return, Emergency level land</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_LOW_BAT_ACT/values/6/description</name>
+  <message>
+  <source>Critical level return, Emergency level terminate</source>
   </message>
 </context>
 <context>
@@ -10684,6 +10641,10 @@ Note: CBRK_SUPPLY_CHK disables all power checks including this one.
   <message>
   <source>Condition to enter the prearmed state, an intermediate state between disarmed and armed
 in which non-throttling actuators are active.
+
+0: Never prearmed.
+1: Prearmed when safety is off (COM_SAFETY_MODE)
+2: Always prearmed.
 </source>
   </message>
 </context>
@@ -10696,7 +10657,7 @@ in which non-throttling actuators are active.
 <context>
   <name>/parameters/COM_PREARM_MODE/values/1/description</name>
   <message>
-  <source>Safety button</source>
+  <source>When safety off</source>
   </message>
 </context>
 <context>
@@ -10761,7 +10722,7 @@ A negative value disables the check.
   <message>
   <source>Specify modes in which stick input is ignored and no failsafe action is triggered.
 External modes requiring stick input will still failsafe.
-Auto modes are: Hold, Takeoff, Land, RTL, Descend, Follow Target, Precland, Orbit.
+Auto modes are: Hold, Takeoff, Land, Return, Descend, Follow Target, Precland, Orbit.
 </source>
   </message>
 </context>
@@ -10804,33 +10765,20 @@ Auto modes are: Hold, Takeoff, Land, RTL, Descend, Follow Target, Precland, Orbi
 <context>
   <name>/parameters/COM_RC_IN_MODE/longDesc</name>
   <message>
-  <source>Selects stick input selection behavior:
-either a traditional remote control receiver (RC) or a MAVLink joystick (MANUAL_CONTROL message)
-
-Priority sources are immediately switched to whenever they get valid.
-
-0 RC only. Requires valid RC calibration.
-1 MAVLink only. RC and related checks are disabled.
-2 Switches only if current source becomes invalid.
-3 Locks to the first valid source until reboot.
-4 Ignores all sources.
-5 RC priority, then MAVLink (lower instance before higher)
-6 MAVLink priority (lower instance before higher), then RC
-7 RC priority, then MAVLink (higher instance before lower)
-8 MAVLink priority (higher instance before lower), then RC
+  <source>RC receiver or MAVLink joystick (MANUAL_CONTROL). Priority modes switch to a higher-priority source as soon as it becomes valid. MAVL 1 is the lower MAVLink instance.
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_RC_IN_MODE/values/0/description</name>
   <message>
-  <source>RC only</source>
+  <source>RC only (requires RC calibration)</source>
   </message>
 </context>
 <context>
   <name>/parameters/COM_RC_IN_MODE/values/1/description</name>
   <message>
-  <source>MAVLink only</source>
+  <source>MAVLink only (disables RC checks)</source>
   </message>
 </context>
 <context>
@@ -10842,7 +10790,7 @@ Priority sources are immediately switched to whenever they get valid.
 <context>
   <name>/parameters/COM_RC_IN_MODE/values/3/description</name>
   <message>
-  <source>RC or MAVLink keep first</source>
+  <source>RC or MAVLink keep first until reboot</source>
   </message>
 </context>
 <context>
@@ -10888,6 +10836,48 @@ Priority sources are immediately switched to whenever they get valid.
 This must be kept short as the vehicle will use the last supplied setpoint until the timeout triggers.
 Ensure the value is not set lower than the update interval of the RC or Joystick.
 </source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_SAFETY_MODE/shortDesc</name>
+  <message>
+  <source>Condition to turn safety off</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_SAFETY_MODE/longDesc</name>
+  <message>
+  <source>Condition to turn safety off. Vehicle arming is prevented for as long as safety is on.
+
+0: Always off.
+1: Safety can be turned off either by pressing a physical safety switch, or by sending a MAV_CMD_DO_SET_SAFETY_SWITCH_STATE command.
+2: Safety can only be turned off by pressing a physical safety switch. MAV_CMD_DO_SET_SAFETY_SWITCH_STATE commands are rejected.
+3: Safety can only be turned off by sending a MAV_CMD_DO_SET_SAFETY_SWITCH_STATE command. Any physical switch is ignored.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_SAFETY_MODE/values/0/description</name>
+  <message>
+  <source>Always off</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_SAFETY_MODE/values/1/description</name>
+  <message>
+  <source>Safety switch (physical or virtual via MAVLink)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_SAFETY_MODE/values/2/description</name>
+  <message>
+  <source>Physical safety switch only</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_SAFETY_MODE/values/3/description</name>
+  <message>
+  <source>MAVLink only</source>
   </message>
 </context>
 <context>
@@ -11036,7 +11026,7 @@ Failsafe action can be specified with COM_WIND_MAX_ACT.
   <source>Action the system takes when a wind speed above the specified threshold is detected.
 See COM_WIND_MAX to set the failsafe threshold.
 If enabled, it is not possible to resume the mission or switch to any auto mode other than
-RTL or Land if this threshold is exceeded. Taking over in any manual
+Return or Land if this threshold is exceeded. Taking over in any manual
 mode is still possible.
 </source>
   </message>
@@ -11643,7 +11633,7 @@ Specific to the F3442 DAA standard.
 <context>
   <name>/parameters/EKF2_AGP0_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion
+  <source>Set bit 0 to enable the horizontal position fusion. Bit 1 is reserved for vertical position fusion, which is not implemented: the altitude is not fused, it only takes part when the global origin is first set from this source.
 </source>
   </message>
 </context>
@@ -11656,7 +11646,7 @@ Specific to the F3442 DAA standard.
 <context>
   <name>/parameters/EKF2_AGP0_CTRL/bitmask/1/description</name>
   <message>
-  <source>Vertical position</source>
+  <source>Vertical position (reserved, not implemented)</source>
   </message>
 </context>
 <context>
@@ -11738,7 +11728,7 @@ Specific to the F3442 DAA standard.
 <context>
   <name>/parameters/EKF2_AGP1_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion
+  <source>Set bit 0 to enable the horizontal position fusion. Bit 1 is reserved for vertical position fusion, which is not implemented: the altitude is not fused, it only takes part when the global origin is first set from this source.
 </source>
   </message>
 </context>
@@ -11751,7 +11741,7 @@ Specific to the F3442 DAA standard.
 <context>
   <name>/parameters/EKF2_AGP1_CTRL/bitmask/1/description</name>
   <message>
-  <source>Vertical position</source>
+  <source>Vertical position (reserved, not implemented)</source>
   </message>
 </context>
 <context>
@@ -11833,7 +11823,7 @@ Specific to the F3442 DAA standard.
 <context>
   <name>/parameters/EKF2_AGP2_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion
+  <source>Set bit 0 to enable the horizontal position fusion. Bit 1 is reserved for vertical position fusion, which is not implemented: the altitude is not fused, it only takes part when the global origin is first set from this source.
 </source>
   </message>
 </context>
@@ -11846,7 +11836,7 @@ Specific to the F3442 DAA standard.
 <context>
   <name>/parameters/EKF2_AGP2_CTRL/bitmask/1/description</name>
   <message>
-  <source>Vertical position</source>
+  <source>Vertical position (reserved, not implemented)</source>
   </message>
 </context>
 <context>
@@ -11928,7 +11918,7 @@ Specific to the F3442 DAA standard.
 <context>
   <name>/parameters/EKF2_AGP3_CTRL/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable: 0 : Horizontal position fusion 1 : Vertical position fusion
+  <source>Set bit 0 to enable the horizontal position fusion. Bit 1 is reserved for vertical position fusion, which is not implemented: the altitude is not fused, it only takes part when the global origin is first set from this source.
 </source>
   </message>
 </context>
@@ -11941,7 +11931,7 @@ Specific to the F3442 DAA standard.
 <context>
   <name>/parameters/EKF2_AGP3_CTRL/bitmask/1/description</name>
   <message>
-  <source>Vertical position</source>
+  <source>Vertical position (reserved, not implemented)</source>
   </message>
 </context>
 <context>
@@ -12137,7 +12127,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
 <context>
   <name>/parameters/EKF2_BCOEF_X/longDesc</name>
   <message>
-  <source>This parameter controls the prediction of drag produced by bluff body drag along the forward/reverse axis when flying a multi-copter which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.
+  <source>Bluff body drag along the forward/reverse axis, which scales with speed squared. Rotor drag is set by EKF2_MCOEF. Only used when EKF2_DRAG_CTRL is enabled. Set to 0 to disable for this axis.
 </source>
   </message>
 </context>
@@ -12150,7 +12140,7 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
 <context>
   <name>/parameters/EKF2_BCOEF_Y/longDesc</name>
   <message>
-  <source>This parameter controls the prediction of drag produced by bluff body drag along the right/left axis when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed squared. The predicted drag from the rotors is specified separately by the EKF2_MCOEF parameter. Set this parameter to zero to turn off the bluff body drag model for this axis.
+  <source>Bluff body drag along the right/left axis, which scales with speed squared. Rotor drag is set by EKF2_MCOEF. Only used when EKF2_DRAG_CTRL is enabled. Set to 0 to disable for this axis.
 </source>
   </message>
 </context>
@@ -12516,91 +12506,6 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_GPS_CHECK/shortDesc</name>
-  <message>
-  <source>Integer bitmask controlling GPS checks</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/longDesc</name>
-  <message>
-  <source>Each threshold value is defined by the parameter indicated next to the check. Drift and offset checks only run when the vehicle is on ground and stationary.
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/0/description</name>
-  <message>
-  <source>Sat count (EKF2_REQ_NSATS)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/1/description</name>
-  <message>
-  <source>PDOP (EKF2_REQ_PDOP)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/2/description</name>
-  <message>
-  <source>EPH (EKF2_REQ_EPH)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/3/description</name>
-  <message>
-  <source>EPV (EKF2_REQ_EPV)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/4/description</name>
-  <message>
-  <source>Speed accuracy (EKF2_REQ_SACC)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/5/description</name>
-  <message>
-  <source>Horizontal position drift (EKF2_REQ_HDRIFT)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/6/description</name>
-  <message>
-  <source>Vertical position drift (EKF2_REQ_VDRIFT)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/7/description</name>
-  <message>
-  <source>Horizontal speed offset (EKF2_REQ_HDRIFT)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/8/description</name>
-  <message>
-  <source>Vertical speed offset (EKF2_REQ_VDRIFT)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/9/description</name>
-  <message>
-  <source>Spoofing</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/10/description</name>
-  <message>
-  <source>GPS fix type (EKF2_REQ_FIX)</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_GPS_CHECK/bitmask/11/description</name>
-  <message>
-  <source>Jamming</source>
-  </message>
-</context>
-<context>
   <name>/parameters/EKF2_GPS_CTRL/shortDesc</name>
   <message>
   <source>GNSS sensor aiding</source>
@@ -12701,9 +12606,16 @@ only fused when landing_target_pose.rel_vel_ekf2_valid is true.
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_GPS_YAW_OFF/shortDesc</name>
+  <name>/parameters/EKF2_GPS_YAW_RST/shortDesc</name>
   <message>
-  <source>Heading/Yaw offset for dual antenna GPS</source>
+  <source>GNSS heading reset wait</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_GPS_YAW_RST/longDesc</name>
+  <message>
+  <source>After GNSS heading fusion fails, or the heading receiver reports spoofing or jamming, EKF2 waits this long before resetting yaw to the GNSS heading.
+</source>
   </message>
 </context>
 <context>
@@ -13047,7 +12959,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
 <context>
   <name>/parameters/EKF2_MCOEF/longDesc</name>
   <message>
-  <source>This parameter controls the prediction of drag produced by the propellers when flying a multi-copter, which enables estimation of wind drift when enabled by the EKF2_DRAG_CTRL parameter. The drag produced by this effect scales with speed not speed squared and is produced because some of the air velocity normal to the propeller axis of rotation is lost when passing through the rotor disc. This  changes the momentum of the flow which creates a drag reaction force. When comparing un-ducted propellers of the same diameter, the effect is roughly proportional to the area of the propeller blades when viewed side on and changes with propeller selection. Momentum drag is significantly higher for ducted rotors. To account for the drag produced by the body which scales with speed squared, see documentation for the EKF2_BCOEF_X and EKF2_BCOEF_Y parameters. Set this parameter to zero to turn off the momentum drag model for both axis.
+  <source>Propeller momentum drag, which scales with speed, not speed squared. For unducted propellers of equal diameter, roughly proportional to blade area seen side-on; much higher for ducted rotors. Body drag is set by EKF2_BCOEF_X and EKF2_BCOEF_Y. Only used when EKF2_DRAG_CTRL is enabled. Set to 0 to disable for both axes.
 </source>
   </message>
 </context>
@@ -13143,7 +13055,9 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
 <context>
   <name>/parameters/EKF2_OF_DELAY/longDesc</name>
   <message>
-  <source>Assumes measurement is timestamped at trailing edge of integration period
+  <source>Assumes measurement is timestamped at trailing edge of integration
+period. The default matches a DroneCAN flow node, whose frame reaches
+the flight controller about 7 ms after its integration window closes.
 </source>
   </message>
 </context>
@@ -13380,116 +13294,6 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_REQ_EPH/shortDesc</name>
-  <message>
-  <source>Required EPH to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_EPV/shortDesc</name>
-  <message>
-  <source>Required EPV to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_FIX/shortDesc</name>
-  <message>
-  <source>Required GPS fix</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_FIX/longDesc</name>
-  <message>
-  <source>Minimum GPS fix type required for GPS usage.
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_FIX/values/0/description</name>
-  <message>
-  <source>No fix required</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_FIX/values/2/description</name>
-  <message>
-  <source>2D fix</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_FIX/values/3/description</name>
-  <message>
-  <source>3D fix</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_FIX/values/4/description</name>
-  <message>
-  <source>RTCM code differential</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_FIX/values/5/description</name>
-  <message>
-  <source>RTK float</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_FIX/values/6/description</name>
-  <message>
-  <source>RTK fixed</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_FIX/values/8/description</name>
-  <message>
-  <source>Extrapolated</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_GPS_H/shortDesc</name>
-  <message>
-  <source>Required GPS health time on startup</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_GPS_H/longDesc</name>
-  <message>
-  <source>Minimum continuous period without GPS failure required to mark a healthy GPS status. It can be reduced to speed up initialization, but it's recommended to keep this unchanged for a vehicle.
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_HDRIFT/shortDesc</name>
-  <message>
-  <source>Maximum horizontal drift speed to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_NSATS/shortDesc</name>
-  <message>
-  <source>Required satellite count to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_PDOP/shortDesc</name>
-  <message>
-  <source>Maximum PDOP to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_SACC/shortDesc</name>
-  <message>
-  <source>Required speed accuracy to use GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_REQ_VDRIFT/shortDesc</name>
-  <message>
-  <source>Maximum vertical drift speed to use GPS</source>
-  </message>
-</context>
-<context>
   <name>/parameters/EKF2_RNGBC_CTRL/shortDesc</name>
   <message>
   <source>Ranging beacon fusion control</source>
@@ -13581,7 +13385,7 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
 <context>
   <name>/parameters/EKF2_RNG_CTRL/longDesc</name>
   <message>
-  <source>WARNING: Range finder measurements are less reliable and can experience unexpected errors. For these reasons, if accurate control of height relative to ground is required, it is recommended to use the MPC_ALT_MODE parameter instead, unless baro errors are severe enough to cause problems with landing and takeoff. If this parameter is enabled then the estimator will make use of the range finder measurements to estimate its height in addition to other height sources (if activated). Range sensor aiding can be enabled (i.e.: always use) or set in "conditional" mode. Conditional mode: This enables the range finder to be used during low speed (&lt; EKF2_RNG_A_VMAX) and low altitude (&lt; EKF2_RNG_A_HMAX) operation, eg takeoff and landing, where baro interference from rotor wash is excessive and can corrupt EKF state estimates. It is intended to be used where a vertical takeoff and landing is performed, and horizontal flight does not occur until above EKF2_RNG_A_HMAX.
+  <source>WARNING: range finders are less reliable and can have unexpected errors. For accurate height above ground, use MPC_ALT_MODE instead, unless baro errors cause problems at takeoff and landing. Fuses range as an additional height source. Conditional mode only fuses it below EKF2_RNG_A_VMAX speed and EKF2_RNG_A_HMAX height, where rotor wash corrupts the baro; for vertical takeoff and landing with no horizontal flight below EKF2_RNG_A_HMAX.
 </source>
   </message>
 </context>
@@ -13957,6 +13761,13 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
   </message>
 </context>
 <context>
+  <name>/parameters/EKF2_VEL_LIM/longDesc</name>
+  <message>
+  <source>Each axis of the velocity state is constrained to this magnitude. GNSS and external vision velocity samples beyond it are not fused.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/EKF2_WIND_NSD/shortDesc</name>
   <message>
   <source>Process noise spectral density for wind velocity prediction</source>
@@ -14049,7 +13860,10 @@ any specific status events.
 <context>
   <name>/parameters/FW_MAN_P_MAX/longDesc</name>
   <message>
-  <source>Applies to both directions in all manual modes with attitude stabilization but without altitude control
+  <source>Pitch angle commanded by full stick deflection, relative to FW_PSP_OFF (the centred-stick pitch).
+The resulting pitch setpoint is additionally limited to this angle around level,
+so with a non-zero FW_PSP_OFF the range is not symmetric.
+Applies in all manual modes with attitude stabilization but without altitude control.
 </source>
   </message>
 </context>
@@ -14089,9 +13903,12 @@ It is added to the yaw rate setpoint generated by the controller for turn coordi
 <context>
   <name>/parameters/FW_PSP_OFF/longDesc</name>
   <message>
-  <source>An airframe specific offset of the pitch setpoint in degrees, the value is
-added to the pitch setpoint and should correspond to the pitch at
-typical cruise speed of the airframe.
+  <source>Pitch angle of the body x-axis above the horizon in level flight at trim airspeed (FW_AIRSPD_TRIM).
+
+The altitude and airspeed controller (TECS) uses it as the pitch at zero climb angle,
+and in Stabilized mode the centred pitch stick commands it.
+Pitch setpoints and pitch limits set elsewhere, for example FW_P_LIM_MIN and FW_P_LIM_MAX,
+are absolute and do not include it.
 </source>
   </message>
 </context>
@@ -14340,13 +14157,15 @@ Otherwise is enabled only in the final approach.
   <name>/parameters/FW_LND_FLALT/longDesc</name>
   <message>
   <source>NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * |z-velocity|) is taken as the flare altitude
+
+Set FW_LND_FLALT or FW_LND_FL_TIME to -1 to disable the flare (land on the glide slope at landing airspeed).
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/FW_LND_FL_PMAX/shortDesc</name>
   <message>
-  <source>Flare, maximum pitch</source>
+  <source>Flare, maximum absolute pitch</source>
   </message>
 </context>
 <context>
@@ -14359,7 +14178,7 @@ Otherwise is enabled only in the final approach.
 <context>
   <name>/parameters/FW_LND_FL_PMIN/shortDesc</name>
   <message>
-  <source>Flare, minimum pitch</source>
+  <source>Flare, minimum absolute pitch</source>
   </message>
 </context>
 <context>
@@ -14395,6 +14214,8 @@ Otherwise is enabled only in the final approach.
 to trigger the flare.
 
 NOTE: max(FW_LND_FLALT, FW_LND_FL_TIME * descent rate) is taken as the flare altitude
+
+Set FW_LND_FLALT or FW_LND_FL_TIME to -1 to disable the flare (land on the glide slope at landing airspeed).
 </source>
   </message>
 </context>
@@ -14432,6 +14253,71 @@ relative to the vehicle heading (stick deflection to the right = land point move
   <name>/parameters/FW_LND_NUDGE/values/2/description</name>
   <message>
   <source>Nudge approach path</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_LND_PARA_ALT/shortDesc</name>
+  <message>
+  <source>Parachute landing release altitude above ground</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_LND_PARA_ALT/longDesc</name>
+  <message>
+  <source>Altitude the vehicle descends to and holds for the release. The release happens
+higher if the predicted touchdown point reaches the landing point while still on
+the approach slope, or lower for a vehicle that cannot hold the altitude, but
+never below 3 seconds of descent at FW_LND_PARA_SINK, so that the canopy has
+room to open.
+
+Lower values reduce the wind drift of the touchdown point.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_LND_PARA_EN/shortDesc</name>
+  <message>
+  <source>Enable parachute landing on mission landing approach</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_LND_PARA_EN/longDesc</name>
+  <message>
+  <source>If enabled, the vehicle follows the mission landing approach down to the release
+altitude (FW_LND_PARA_ALT) and releases the parachute by triggering flight
+termination, such that the predicted touchdown point under canopy lies on the
+landing point, accounting for ground speed, estimated wind drift during the descent
+(FW_LND_PARA_SINK) and the forward carry while the parachute deploys.
+
+The parachute is released through the flight termination failsafe outputs, or an
+external parachute system (COM_PARACHUTE). Not supported on VTOL.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_LND_PARA_EN/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_LND_PARA_EN/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_LND_PARA_SINK/shortDesc</name>
+  <message>
+  <source>Sink rate under the deployed parachute</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_LND_PARA_SINK/longDesc</name>
+  <message>
+  <source>Expected steady-state sink rate under canopy. Used to predict the descent duration and
+therewith the wind drift of the touchdown point.
+</source>
   </message>
 </context>
 <context>
@@ -14555,6 +14441,23 @@ Also applies to flaperons if enabled in the mixer/allocation.
   </message>
 </context>
 <context>
+  <name>/parameters/FW_LAUN_CLR_ALT/shortDesc</name>
+  <message>
+  <source>Launch climbout clearance altitude</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_LAUN_CLR_ALT/longDesc</name>
+  <message>
+  <source>Height above the launch point below which the vehicle holds the wind-compensated launch bearing
+instead of the normal line-following guidance, and the roll limit is ramped linearly from 0 at
+the launch point up to FW_R_LIM at this altitude, so that a poor heading estimate or a bad launch
+cannot induce a large bank close to the ground. Only relevant for hand- or catapult-launched
+vehicles (FW_LAUN_DETCN_ON).
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/FW_LAUN_CS_LK_DY/shortDesc</name>
   <message>
   <source>Control surface launch delay</source>
@@ -14624,9 +14527,25 @@ If set &lt;= 0, FW_AIRSPD_MIN will be set by default.
   </message>
 </context>
 <context>
+  <name>/parameters/FW_TKO_CLMB_T/shortDesc</name>
+  <message>
+  <source>Takeoff climbout duration</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FW_TKO_CLMB_T/longDesc</name>
+  <message>
+  <source>Ends the takeoff climbout this many seconds after the vehicle started climbing, instead of
+when the takeoff altitude is reached.
+
+If set to 0, the climbout ends at the takeoff altitude.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/FW_TKO_PITCH_MIN/shortDesc</name>
   <message>
-  <source>Minimum pitch during takeoff</source>
+  <source>Minimum absolute pitch during takeoff</source>
   </message>
 </context>
 <context>
@@ -14685,7 +14604,7 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.
 <context>
   <name>/parameters/FW_P_LIM_MAX/shortDesc</name>
   <message>
-  <source>Maximum pitch angle setpoint</source>
+  <source>Maximum absolute pitch angle setpoint</source>
   </message>
 </context>
 <context>
@@ -14698,7 +14617,7 @@ Does only apply for fixed-wing vehicles or VTOLs with NAV_FORCE_VT set to 0.
 <context>
   <name>/parameters/FW_P_LIM_MIN/shortDesc</name>
   <message>
-  <source>Minimum pitch angle setpoint</source>
+  <source>Minimum absolute pitch angle setpoint</source>
   </message>
 </context>
 <context>
@@ -14804,6 +14723,9 @@ In manual modes: maximum sink rate setpoint.
 applies to speed vs height errors.
 0 -&gt; control height only
 2 -&gt; control speed only (gliders)
+Up to a weight of 1, pitch only trades height for speed up to trim airspeed;
+accelerating above trim is left to the throttle. Between 1 and 2, pitch
+increasingly tracks airspeed setpoints above trim as well.
 </source>
   </message>
 </context>
@@ -15355,6 +15277,21 @@ disables trim throttle and minimum airspeed compensation based on weight.
   </message>
 </context>
 <context>
+  <name>/parameters/WEIGHT_FUEL/shortDesc</name>
+  <message>
+  <source>Mass of a full fuel load</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/WEIGHT_FUEL/longDesc</name>
+  <message>
+  <source>If set together with WEIGHT_BASE and WEIGHT_GROSS, the weight used for
+performance scaling is reduced by the burned fuel reported in the fuel tank status.
+Only a single fuel tank is supported. A zero or negative value disables fuel-based weight compensation.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/WEIGHT_GROSS/shortDesc</name>
   <message>
   <source>Vehicle gross weight</source>
@@ -15366,6 +15303,7 @@ disables trim throttle and minimum airspeed compensation based on weight.
   <source>This is the actual weight of the vehicle at any time. This value will differ from WEIGHT_BASE in case weight was added
 or removed from the base weight. Examples are the addition of payloads or larger batteries. A zero or negative value
 disables trim throttle and minimum airspeed compensation based on weight.
+If fuel-based weight compensation is enabled (WEIGHT_FUEL), set this to the takeoff weight with a full fuel load.
 </source>
   </message>
 </context>
@@ -15605,6 +15543,12 @@ normalize performance across the operating range of the battery.
   </message>
 </context>
 <context>
+  <name>/parameters/FW_FLAPS_MAN/values/7/description</name>
+  <message>
+  <source>Aux6</source>
+  </message>
+</context>
+<context>
   <name>/parameters/FW_GC_EN/shortDesc</name>
   <message>
   <source>Enable rate gain compression</source>
@@ -15835,6 +15779,12 @@ Negative values reduce setpoint tracking aggressiveness while preserving disturb
   </message>
 </context>
 <context>
+  <name>/parameters/FW_SPOILERS_MAN/values/7/description</name>
+  <message>
+  <source>Aux6</source>
+  </message>
+</context>
+<context>
   <name>/parameters/FW_USE_AIRSPD/shortDesc</name>
   <message>
   <source>Use airspeed for control</source>
@@ -15912,7 +15862,7 @@ Negative values reduce setpoint tracking aggressiveness while preserving disturb
 <context>
   <name>/parameters/FD_ALT_LOSS/longDesc</name>
   <message>
-  <source>Maximum altitude loss below the setpoint allowed before the vehicle terminates and deploys the parachute. Set to 0 to disable.
+  <source>Maximum altitude loss allowed before the vehicle terminates and deploys the parachute. Set to 0 to disable.
 </source>
   </message>
 </context>
@@ -16080,6 +16030,81 @@ WARNING: the failures can easily cause crashes and are to be used with caution!
   </message>
 </context>
 <context>
+  <name>/parameters/SYS_FAIL_BAT_LVL/shortDesc</name>
+  <message>
+  <source>Battery failure injection severity</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_BAT_LVL/longDesc</name>
+  <message>
+  <source>Battery warning level reported while a battery 'wrong' failure
+injection is active. The injected remaining charge is set just below
+the matching threshold (BAT_LOW_THR, BAT_CRIT_THR or
+BAT_EMERGEN_THR).
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_BAT_LVL/values/1/description</name>
+  <message>
+  <source>Warn</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_BAT_LVL/values/2/description</name>
+  <message>
+  <source>Critical</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_BAT_LVL/values/3/description</name>
+  <message>
+  <source>Emergency</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_GPS_JAM/shortDesc</name>
+  <message>
+  <source>GPS Wrong-failure jamming state</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_GPS_JAM/longDesc</name>
+  <message>
+  <source>GNSS jamming state reported by the addressed receiver while a GPS 'wrong'
+failure injection is active. The reported position is left untouched, so
+'Detected' simulates a receiver that still delivers a valid fix while
+reporting interference. Leave at 'Unchanged' to keep the simulated
+receiver's own jamming state.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_GPS_JAM/values/0/description</name>
+  <message>
+  <source>Unchanged</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_GPS_JAM/values/1/description</name>
+  <message>
+  <source>OK</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_GPS_JAM/values/2/description</name>
+  <message>
+  <source>Mitigated</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_GPS_JAM/values/3/description</name>
+  <message>
+  <source>Detected</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SYS_FAIL_GPS_WRG/shortDesc</name>
   <message>
   <source>GPS Wrong-failure fix type</source>
@@ -16091,9 +16116,8 @@ WARNING: the failures can easily cause crashes and are to be used with caution!
   <source>GNSS fix type reported by the addressed receiver while a GPS 'wrong'
 failure injection is active. The reported position is left untouched.
 The default 2D fix is rejected by the estimator, which requires a 3D
-fix, and makes the GNSS redundancy check report a lost fix, while the
-receiver stays eligible for GPS blending. Values above 3D fix report a
-better solution than the receiver really has.
+fix, and makes the GNSS redundancy check report a lost fix. Values above
+3D fix report a better solution than the receiver really has.
 </source>
   </message>
 </context>
@@ -16130,15 +16154,111 @@ better solution than the receiver really has.
 <context>
   <name>/parameters/SYS_FAIL_RC_INST/shortDesc</name>
   <message>
-  <source>Instance failed by the RC switch</source>
+  <source>Instances failed by the RC switch</source>
   </message>
 </context>
 <context>
   <name>/parameters/SYS_FAIL_RC_INST/longDesc</name>
   <message>
-  <source>Which instance of SYS_FAIL_RC_UNIT the SYS_FAIL_RC_SRC trigger affects.
-1-based, or 0 for all instances (motor number for motors).
+  <source>Bitmask of instances of SYS_FAIL_RC_UNIT that the SYS_FAIL_RC_SRC trigger
+affects (bit 0 = instance 1, motor number for motors). 0 = all instances.
 </source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/0/description</name>
+  <message>
+  <source>Instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/1/description</name>
+  <message>
+  <source>Instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/2/description</name>
+  <message>
+  <source>Instance 3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/3/description</name>
+  <message>
+  <source>Instance 4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/4/description</name>
+  <message>
+  <source>Instance 5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/5/description</name>
+  <message>
+  <source>Instance 6</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/6/description</name>
+  <message>
+  <source>Instance 7</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/7/description</name>
+  <message>
+  <source>Instance 8</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/8/description</name>
+  <message>
+  <source>Instance 9</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/9/description</name>
+  <message>
+  <source>Instance 10</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/10/description</name>
+  <message>
+  <source>Instance 11</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/11/description</name>
+  <message>
+  <source>Instance 12</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/12/description</name>
+  <message>
+  <source>Instance 13</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/13/description</name>
+  <message>
+  <source>Instance 14</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/14/description</name>
+  <message>
+  <source>Instance 15</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_INST/bitmask/15/description</name>
+  <message>
+  <source>Instance 16</source>
   </message>
 </context>
 <context>
@@ -16326,6 +16446,18 @@ SYS_FAIL_RC_INST.
   <name>/parameters/SYS_FAIL_RC_UNIT/values/101/description</name>
   <message>
   <source>Motor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_UNIT/values/107/description</name>
+  <message>
+  <source>Traffic avoidance</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_UNIT/values/200/description</name>
+  <message>
+  <source>CAN bus</source>
   </message>
 </context>
 <context>
@@ -16787,14 +16919,6 @@ which is then logged as gps_dump and can be used for PPK.
   </message>
 </context>
 <context>
-  <name>/parameters/GPS_SAT_INFO/longDesc</name>
-  <message>
-  <source>Enable publication of satellite info (ORB_ID(satellite_info)) if possible.
-Not available on MTK.
-</source>
-  </message>
-</context>
-<context>
   <name>/parameters/GPS_SAT_INFO/values/0/description</name>
   <message>
   <source>Disabled</source>
@@ -16830,7 +16954,8 @@ Not available on MTK.
 <context>
   <name>/parameters/GPS_UBX_BAUD2/longDesc</name>
   <message>
-  <source>Baudrate for the receiver UART2 port.
+  <source>Baudrate for the receiver UART2 port. Only applied by GPS_UBX_MODE 1, 2, 5, 6 and 7;
+the other modes leave UART2 untouched.
 </source>
   </message>
 </context>
@@ -16904,15 +17029,33 @@ the expected application environment.
   </message>
 </context>
 <context>
+  <name>/parameters/GPS_UBX_DYNMODEL/values/0/description</name>
+  <message>
+  <source>portable</source>
+  </message>
+</context>
+<context>
   <name>/parameters/GPS_UBX_DYNMODEL/values/2/description</name>
   <message>
   <source>stationary</source>
   </message>
 </context>
 <context>
+  <name>/parameters/GPS_UBX_DYNMODEL/values/3/description</name>
+  <message>
+  <source>pedestrian</source>
+  </message>
+</context>
+<context>
   <name>/parameters/GPS_UBX_DYNMODEL/values/4/description</name>
   <message>
   <source>automotive</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GPS_UBX_DYNMODEL/values/5/description</name>
+  <message>
+  <source>sea</source>
   </message>
 </context>
 <context>
@@ -17009,6 +17152,14 @@ F9P units are connected to each other.
 Modes 3 and 4 only require UART1 on each F9P connected to the Autopilot or Can Node. UART RX DMA is required.
 RTK is still possible with this setup.
 Mode 6 is intended for use with a ground control station (not necessarily an RTK correction base).
+Mode 7 turns UART2 into a diagnostic port: the receiver keeps serving the autopilot on UART1
+while UART2 outputs UBX at GPS_UBX_BAUD2 for u-center. Keep GPS_UBX_BAUD2 at 115200 or above,
+the diagnostic message set saturates a slower link. UBX input is left enabled on UART2, so
+anything attached there can also reconfigure the receiver.
+Mode 8 uses the free Galileo HAS corrections broadcast on E6 (ZED-X20P with HPG 2.10 or
+later) for a PPP solution of roughly 20 cm after a few minutes of convergence. The
+receiver only processes HAS while host corrections are off, so RTCM and SPARTN from the
+autopilot are ignored in this mode; use mode 0 whenever a correction link is available.
 </source>
   </message>
 </context>
@@ -17055,6 +17206,18 @@ Mode 6 is intended for use with a ground control station (not necessarily an RTK
   </message>
 </context>
 <context>
+  <name>/parameters/GPS_UBX_MODE/values/7/description</name>
+  <message>
+  <source>u-center on UART2 (UART2 outputs UBX diagnostics)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GPS_UBX_MODE/values/8/description</name>
+  <message>
+  <source>Galileo HAS (X20P, PPP from E6, RTCM/SPARTN input disabled)</source>
+  </message>
+</context>
+<context>
   <name>/parameters/GPS_UBX_PPK/shortDesc</name>
   <message>
   <source>Enable MSM7 message output for PPK workflow</source>
@@ -17092,28 +17255,21 @@ High rates at 115200 baud may cause dropouts.
   </message>
 </context>
 <context>
-  <name>/parameters/GPS_YAW_OFFSET/shortDesc</name>
+  <name>/parameters/GPS_UBX_SPECTRUM/shortDesc</name>
   <message>
-  <source>Heading/Yaw offset for dual antenna GPS</source>
+  <source>Enable spectrum analyzer (if available)</source>
   </message>
 </context>
 <context>
-  <name>/parameters/GPS_YAW_OFFSET/longDesc</name>
+  <name>/parameters/GPS_UBX_SPECTRUM/values/0/description</name>
   <message>
-  <source>Heading offset angle for dual antenna GPS setups that support heading estimation.
-
-Set this to 0 if the antennas are parallel to the forward-facing direction
-of the vehicle and the rover (or Unicore primary) antenna is in front.
-
-The offset angle increases clockwise.
-
-Set this to 90 if the rover (or Unicore primary, or Septentrio Mosaic Aux)
-antenna is placed on the right side of the vehicle and the moving base
-antenna is on the left side.
-
-(Note: the Unicore primary antenna is the one connected on the right as seen
-from the top).
-</source>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GPS_UBX_SPECTRUM/values/1/description</name>
+  <message>
+  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -17164,6 +17320,25 @@ which will kill the vehicle on violation of the fence.
   <name>/parameters/GF_ACTION/values/5/description</name>
   <message>
   <source>Land mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_AVOID_NODES/shortDesc</name>
+  <message>
+  <source>Max graph nodes for geofence avoidance in Return</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_AVOID_NODES/longDesc</name>
+  <message>
+  <source>Maximum number of geofence vertices the Return geofence avoidance planner can use.
+Circles use 8 vertices each, polygons their vertex count plus extra vertices for sharp corners.
+If the fence needs more vertices, Return flies directly and ignores the geofence.
+Replanning time (on geofence / safety margin change) is cubic, RAM usage quadratic in this number
+(about 2 * N^2 bytes, e.g. 20 kB for 100 nodes).
+The maximum of 200 is sufficient for any fence that can be stored.
+Set to 0 to disable geofence avoidance in Return.
+</source>
   </message>
 </context>
 <context>
@@ -22744,6 +22919,10 @@ This parameter has no effect if the instance mode is different from iridium.
   <source>The MAVLink Mode defines the set of streamed messages (for example the
 vehicle's attitude) and their sending rates.
 
+Use ADS-B/Traffic for a traffic receiver such as an ADS-B or FLARM
+device. With message signing active, unsigned ADSB_VEHICLE and
+COLLISION messages are only accepted on links in this mode.
+
 </source>
   </message>
 </context>
@@ -22810,7 +22989,7 @@ vehicle's attitude) and their sending rates.
 <context>
   <name>/parameters/MAV_0_MODE/values/12/description</name>
   <message>
-  <source>uAvionix</source>
+  <source>ADS-B/Traffic (uAvionix)</source>
   </message>
 </context>
 <context>
@@ -22863,7 +23042,31 @@ each stream is automatically decreased.
 
 If this is set to 0 a value of half of the theoretical maximum bandwidth is used.
 This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on
-8N1-configured links).
+8N1-configured links). USB and UDP links have no baudrate, so for those 0
+means 100000 Bytes/s.
+
+Note that for a telemetry radio the serial baudrate says little about what
+the link can actually carry over the air. A SiK radio at the common 57600
+baud, 64 kbps air rate carries roughly 2000 B/s with error correction
+enabled and about twice that without, where baudrate/20 would suggest 2880.
+Instance 0 therefore defaults to a fixed value that is safe either way
+rather than to 0. Raise it if you know your link is better.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_REMOTE_IP/shortDesc</name>
+  <message>
+  <source>MAVLink Partner IP for instance 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_0_REMOTE_IP/longDesc</name>
+  <message>
+  <source>Messages go to this address at port MAV_0_REMOTE_PRT. Encoded as int32
+with the first octet in the most significant byte, e.g. 192.168.1.2 is -1062731518.
+Set to 0 to discover the partner from received packets.
 
 </source>
   </message>
@@ -23022,6 +23225,10 @@ This parameter has no effect if the instance mode is different from iridium.
   <source>The MAVLink Mode defines the set of streamed messages (for example the
 vehicle's attitude) and their sending rates.
 
+Use ADS-B/Traffic for a traffic receiver such as an ADS-B or FLARM
+device. With message signing active, unsigned ADSB_VEHICLE and
+COLLISION messages are only accepted on links in this mode.
+
 </source>
   </message>
 </context>
@@ -23088,7 +23295,7 @@ vehicle's attitude) and their sending rates.
 <context>
   <name>/parameters/MAV_1_MODE/values/12/description</name>
   <message>
-  <source>uAvionix</source>
+  <source>ADS-B/Traffic (uAvionix)</source>
   </message>
 </context>
 <context>
@@ -23141,7 +23348,31 @@ each stream is automatically decreased.
 
 If this is set to 0 a value of half of the theoretical maximum bandwidth is used.
 This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on
-8N1-configured links).
+8N1-configured links). USB and UDP links have no baudrate, so for those 0
+means 100000 Bytes/s.
+
+Note that for a telemetry radio the serial baudrate says little about what
+the link can actually carry over the air. A SiK radio at the common 57600
+baud, 64 kbps air rate carries roughly 2000 B/s with error correction
+enabled and about twice that without, where baudrate/20 would suggest 2880.
+Instance 0 therefore defaults to a fixed value that is safe either way
+rather than to 0. Raise it if you know your link is better.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_REMOTE_IP/shortDesc</name>
+  <message>
+  <source>MAVLink Partner IP for instance 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_1_REMOTE_IP/longDesc</name>
+  <message>
+  <source>Messages go to this address at port MAV_1_REMOTE_PRT. Encoded as int32
+with the first octet in the most significant byte, e.g. 192.168.1.2 is -1062731518.
+Set to 0 to discover the partner from received packets.
 
 </source>
   </message>
@@ -23300,6 +23531,10 @@ This parameter has no effect if the instance mode is different from iridium.
   <source>The MAVLink Mode defines the set of streamed messages (for example the
 vehicle's attitude) and their sending rates.
 
+Use ADS-B/Traffic for a traffic receiver such as an ADS-B or FLARM
+device. With message signing active, unsigned ADSB_VEHICLE and
+COLLISION messages are only accepted on links in this mode.
+
 </source>
   </message>
 </context>
@@ -23366,7 +23601,7 @@ vehicle's attitude) and their sending rates.
 <context>
   <name>/parameters/MAV_2_MODE/values/12/description</name>
   <message>
-  <source>uAvionix</source>
+  <source>ADS-B/Traffic (uAvionix)</source>
   </message>
 </context>
 <context>
@@ -23419,7 +23654,31 @@ each stream is automatically decreased.
 
 If this is set to 0 a value of half of the theoretical maximum bandwidth is used.
 This corresponds to baudrate/20 Bytes/s (baudrate/10 = maximum data rate on
-8N1-configured links).
+8N1-configured links). USB and UDP links have no baudrate, so for those 0
+means 100000 Bytes/s.
+
+Note that for a telemetry radio the serial baudrate says little about what
+the link can actually carry over the air. A SiK radio at the common 57600
+baud, 64 kbps air rate carries roughly 2000 B/s with error correction
+enabled and about twice that without, where baudrate/20 would suggest 2880.
+Instance 0 therefore defaults to a fixed value that is safe either way
+rather than to 0. Raise it if you know your link is better.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_REMOTE_IP/shortDesc</name>
+  <message>
+  <source>MAVLink Partner IP for instance 2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_2_REMOTE_IP/longDesc</name>
+  <message>
+  <source>Messages go to this address at port MAV_2_REMOTE_PRT. Encoded as int32
+with the first octet in the most significant byte, e.g. 192.168.1.2 is -1062731518.
+Set to 0 to discover the partner from received packets.
 
 </source>
   </message>
@@ -23591,6 +23850,20 @@ factory defaults. Only applies if this mavlink instance is going through a SiK r
   <name>/parameters/MAV_SYS_ID/shortDesc</name>
   <message>
   <source>MAVLink system ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MAV_SYS_ID/longDesc</name>
+  <message>
+  <source>IDs above 255 use the 32-bit system ID extension of MAVLink 2,
+which forces MAV_PROTO_VER to 2. Every system on the network needs
+to support the extension to talk to such a system.
+
+Only use IDs above 255 for vehicles, and keep ground stations and
+other controlling systems at 255 or below. The gimbal protocol and
+other messages that carry a system ID inside the payload, such as
+the ID of the system in control, still only support IDs up to 255.
+</source>
   </message>
 </context>
 <context>
@@ -23976,16 +24249,16 @@ Only applies to fixed-wing vehicles.
 <context>
   <name>/parameters/MIS_MNT_YAW_CTL/shortDesc</name>
   <message>
-  <source>Enable gimbal yaw control in missions</source>
+  <source>Enable gimbal yaw control in missions and Hold</source>
   </message>
 </context>
 <context>
   <name>/parameters/MIS_MNT_YAW_CTL/longDesc</name>
   <message>
-  <source>Enable yaw control of the mount. (Only affects multicopters and ROI mission items)
+  <source>Enable yaw control of the mount. (Only affects multicopters with an active ROI)
 
 If enabled, yaw commands will be sent to the mount and the vehicle will follow its heading towards the flight direction.
-If disabled, the vehicle will yaw towards the ROI.
+If disabled, the vehicle will yaw towards the ROI in Mission and Hold mode.
 </source>
   </message>
 </context>
@@ -24066,6 +24339,47 @@ Validity of configured takeoffs/landings is checked independently of the setting
   </message>
 </context>
 <context>
+  <name>/parameters/MIS_TKO_PREC/shortDesc</name>
+  <message>
+  <source>Precision takeoff</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MIS_TKO_PREC/longDesc</name>
+  <message>
+  <source>Keep the vehicle over the landing target during vertical takeoffs (multicopter and VTOL in hover),
+using the landing target estimate. Requires the vision target estimator with bit 2 of
+VTE_TASK_MASK set. Without a valid target estimate the takeoff is unchanged.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MIS_TKO_PREC/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MIS_TKO_PREC/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MIS_TKO_PREC_DLY/shortDesc</name>
+  <message>
+  <source>Precision takeoff correction delay</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MIS_TKO_PREC_DLY/longDesc</name>
+  <message>
+  <source>Time after the takeoff ramp is complete before a vertical takeoff setpoint may move
+sideways onto the landing target. Gives the vehicle time to clear the pad. Only used with MIS_TKO_PREC.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/MIS_YAW_ERR/shortDesc</name>
   <message>
   <source>Max yaw error in degrees needed for waypoint heading acceptance</source>
@@ -24080,12 +24394,13 @@ Validity of configured takeoffs/landings is checked independently of the setting
 <context>
   <name>/parameters/MIS_YAW_TMT/longDesc</name>
   <message>
-  <source>Time in seconds we wait on reaching target heading at a waypoint if it is forced
+  <source>Time from commanding a waypoint heading until a multicopter continues without reaching it,
+to not get stuck with low yaw authority.
 
-If set &gt; 0 it will ignore the target heading for normal waypoint acceptance. If the
-waypoint forces the heading the timeout will matter. For example on VTOL forwards transition.
-Mainly useful for VTOLs that have less yaw authority and might not reach target
-yaw in wind. Disabled by default.
+A forced heading (e.g. before a VTOL transition) is never skipped: a mission fails instead,
+other modes keep waiting.
+VTOLs only wait for forced headings.
+0: don't wait, -1: wait indefinitely
 </source>
   </message>
 </context>
@@ -24134,14 +24449,13 @@ yaw in wind. Disabled by default.
 <context>
   <name>/parameters/NAV_ACC_RAD/shortDesc</name>
   <message>
-  <source>Acceptance Radius</source>
+  <source>Acceptance radius</source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_ACC_RAD/longDesc</name>
   <message>
-  <source>Default acceptance radius, overridden by acceptance radius of waypoint if set.
-For fixed-wing and rovers, the high level controllers output their own acceptance radius. Those values are used instead only when above this parameter.
+  <source>Overridden by a waypoint's own acceptance radius, if set. For fixed-wing and rovers, the controller's acceptance radius is used instead when it is larger.
 </source>
   </message>
 </context>
@@ -24166,43 +24480,32 @@ For fixed-wing and rovers, the high level controllers output their own acceptanc
 <context>
   <name>/parameters/NAV_FW_ALTL_RAD/shortDesc</name>
   <message>
-  <source>FW Altitude Acceptance Radius before a landing</source>
+  <source>FW Altitude acceptance radius before landing</source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_FW_ALTL_RAD/longDesc</name>
   <message>
-  <source>Altitude acceptance used for the last waypoint before a fixed-wing landing. This is usually smaller
-than the standard vertical acceptance because close to the ground higher accuracy is required.
+  <source>FW acceptance alt for last waypoint before landing. Usually smaller than NAV_FW_ALT_RAD; accuracy matters more near the ground.
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_FW_ALT_RAD/shortDesc</name>
   <message>
-  <source>FW Altitude Acceptance Radius</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NAV_FW_ALT_RAD/longDesc</name>
-  <message>
-  <source>Acceptance radius for fixedwing altitude.
-</source>
+  <source>FW Altitude acceptance radius</source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_LOITER_RAD/shortDesc</name>
   <message>
-  <source>Loiter radius (FW only)</source>
+  <source>FW Loiter radius</source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_LOITER_RAD/longDesc</name>
   <message>
-  <source>Default value of loiter radius in fixed-wing mode (e.g. for Loiter mode).
-
-The direction of the loiter can be set via the sign: A positive value for
-clockwise, negative for counter-clockwise.
+  <source>Default for fixed-wing loiters, e.g. in Hold mode. Positive values loiter clockwise, negative values counter-clockwise.
 </source>
   </message>
 </context>
@@ -24215,10 +24518,7 @@ clockwise, negative for counter-clockwise.
 <context>
   <name>/parameters/NAV_LTR_LAST_DL/longDesc</name>
   <message>
-  <source>When the data link is lost and this setting is enabled,
-the vehicle will loiter at the position where the last GCS
-heartbeat was received rather than at its current position.
-Only applies to Hold mode during failsafe actions.
+  <source>If disabled, the vehicle loiters at its current position. Only applies to Hold mode during failsafe actions.
 </source>
   </message>
 </context>
@@ -24237,61 +24537,45 @@ Only applies to Hold mode during failsafe actions.
 <context>
   <name>/parameters/NAV_MC_ALT_RAD/shortDesc</name>
   <message>
-  <source>MC Altitude Acceptance Radius</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/NAV_MC_ALT_RAD/longDesc</name>
-  <message>
-  <source>Acceptance radius for multicopter altitude.
-</source>
+  <source>MC Altitude acceptance radius</source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_MIN_GND_DIST/shortDesc</name>
   <message>
-  <source>Minimum height above ground during Mission and RTL</source>
+  <source>Minimum height above ground during Mission and Return</source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_MIN_GND_DIST/longDesc</name>
   <message>
-  <source>Minimum height above ground the vehicle is allowed to descend to during Mission and RTL,
-excluding landing commands.
-Requires a distance sensor to be set up.
-Note: only prevents the vehicle from descending further, but does not force it to climb.
-
-Set to a negative value to disable.
+  <source>Minimum height AGL in Return and Mission (excluding landing commands). Requires a distance sensor. Stops further descent but doesn't force a climb. Set to -1 to disable.
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_MIN_LTR_ALT/shortDesc</name>
   <message>
-  <source>Minimum Loiter altitude</source>
+  <source>Minimum loiter altitude</source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_MIN_LTR_ALT/longDesc</name>
   <message>
-  <source>This is the minimum altitude above Home the system will always obey in Loiter (Hold) mode if switched into this
-mode without specifying an altitude (e.g. through Loiter switch on RC).
-Doesn't affect Loiters that are part of Missions or that are entered through a reposition setpoint ("Go to").
-Set to a negative value to disable.
+  <source>Altitude above Home used when Hold mode is entered without an altitude, e.g. from an RC switch. Doesn't apply to mission loiters or reposition ("Go to") setpoints. Set to -1 to disable.
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_TRAFF_AVOID/shortDesc</name>
   <message>
-  <source>Set traffic avoidance action</source>
+  <source>Traffic avoidance action (Xtrack only)</source>
   </message>
 </context>
 <context>
   <name>/parameters/NAV_TRAFF_AVOID/longDesc</name>
   <message>
-  <source>Action requested for a crosstrack traffic conflict.
-Runtime changes apply on later conflict level transitions.
+  <source>Changes take effect at the next cross-track conflict level transition.
 </source>
   </message>
 </context>
@@ -24410,9 +24694,9 @@ Enabling air-mode for yaw requires the use of an arming switch.
 <context>
   <name>/parameters/FD_ACT_EN/longDesc</name>
   <message>
-  <source>If enabled, the HealthAndArmingChecks will verify that for motors, a minimum amount of ESC current per throttle
-level is being consumed.
-Otherwise this indicates an motor failure.
+  <source>If enabled, the HealthAndArmingChecks compare each motor's ESC current against the expected
+current for the commanded throttle, and flag a motor whose current stays too far from that
+expectation (too low or too high) for a set time.
 This check only works for ESCs that report current consumption.
 </source>
   </message>
@@ -24432,41 +24716,64 @@ This check only works for ESCs that report current consumption.
 <context>
   <name>/parameters/MOTFAIL_C2T/shortDesc</name>
   <message>
-  <source>Motor Failure Current/Throttle Scale</source>
+  <source>Motor failure model current-vs-command slope</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MOTFAIL_C2T/longDesc</name>
+  <name>/parameters/MOTFAIL_IDLE/shortDesc</name>
   <message>
-  <source>Determines the slope between expected steady state current and linearized, normalized thrust command.
-E.g. FD_ACT_MOT_C2T A represents the expected steady state current at 100%.
-FD_ACT_LOW_OFF and FD_ACT_HIGH_OFF offset the threshold from that slope.
+  <source>Motor failure model idle current</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_OVER/shortDesc</name>
+  <message>
+  <source>Motor failure overcurrent trip band</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_OVER/longDesc</name>
+  <message>
+  <source>Set 0 to disable overcurrent detection.
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/MOTFAIL_OFF/shortDesc</name>
+  <name>/parameters/MOTFAIL_OVR_TIME/shortDesc</name>
   <message>
-  <source>Under/over-current motor failure limit offset</source>
+  <source>Motor failure overcurrent trigger time</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MOTFAIL_OFF/longDesc</name>
+  <name>/parameters/MOTFAIL_OVR_TIME/longDesc</name>
   <message>
-  <source>Check is triggered if `abs(FD_ACT_MOT_C2T * thrust - FD_ACT_OFF)` is above this value.
+  <source>Motor failure only triggers after MOTFAIL_OVER is exceeded for this time.
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/MOTFAIL_TIME/shortDesc</name>
+  <name>/parameters/MOTFAIL_UNDER/shortDesc</name>
   <message>
-  <source>Motor Failure Hysteresis Time</source>
+  <source>Motor failure undercurrent trip band</source>
   </message>
 </context>
 <context>
-  <name>/parameters/MOTFAIL_TIME/longDesc</name>
+  <name>/parameters/MOTFAIL_UNDER/longDesc</name>
   <message>
-  <source>Motor failure only triggers after current thresholds are exceeded for this time.
+  <source>Set 0 to disable undercurrent detection.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_UND_TIME/shortDesc</name>
+  <message>
+  <source>Motor failure undercurrent trigger time</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MOTFAIL_UND_TIME/longDesc</name>
+  <message>
+  <source>Motor failure only triggers after MOTFAIL_UNDER is exceeded for this time.
 </source>
   </message>
 </context>
@@ -24817,6 +25124,59 @@ assigned output functions require a reboot).
   <name>/parameters/MNT_MODE_OUT/values/2/description</name>
   <message>
   <source>MAVLink gimbal protocol v2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MNT_MODE_OUT/values/3/description</name>
+  <message>
+  <source>Forward to external gimbal manager</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MNT_MODE_OUT2/shortDesc</name>
+  <message>
+  <source>Second mount output mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MNT_MODE_OUT2/longDesc</name>
+  <message>
+  <source>Optional second output, driven in parallel to MNT_MODE_OUT with the
+same setpoints. This allows the gimbal driver to talk to a second
+gimbal in addition to the primary one.
+
+Set to Disabled if not used. The two outputs must use different modes.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MNT_MODE_OUT2/values/-1/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MNT_MODE_OUT2/values/0/description</name>
+  <message>
+  <source>AUX</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MNT_MODE_OUT2/values/1/description</name>
+  <message>
+  <source>MAVLink gimbal protocol v1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MNT_MODE_OUT2/values/2/description</name>
+  <message>
+  <source>MAVLink gimbal protocol v2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MNT_MODE_OUT2/values/3/description</name>
+  <message>
+  <source>Forward to external gimbal manager</source>
   </message>
 </context>
 <context>
@@ -25377,7 +25737,7 @@ The speed threshold is MPC_HOLD_MAX_XY
   <source>Bitmask to enable pilot override of heading and position during auto modes.
 
 Bit 0 - Yaw nudging: yaw stick rotates the heading in all auto types
-(takeoff, mission, RTL, hold, landing). The new heading is held until a
+(takeoff, mission, Return, hold, landing). The new heading is held until a
 mode switch resets it.
 
 Bit 1 - Land nudging: during autonomous landing the pitch/roll sticks move
@@ -25626,18 +25986,9 @@ Sticks map to acceleration and there's a virtual brake drag
 <context>
   <name>/parameters/MPC_THR_CURVE/longDesc</name>
   <message>
-  <source>Defines how the throttle stick is mapped to collective thrust in Stabilized mode.
-
-Rescale to hover thrust estimate:
-Stick input is linearly rescaled, such that a centered throttle stick corresponds to the hover thrust estimator's output.
-
-No rescale:
-Directly map the stick 1:1 to the output.
-Can be useful with very low hover thrust which leads to much distortion and the upper half getting sensitive.
-
-Rescale to hover thrust parameter:
-Similar to rescaling to the hover thrust estimate, but it uses the hover thrust parameter value (see MPC_THR_HOVER) instead of estimated value.
-With MPC_THR_HOVER 0.5 it's equivalent to No rescale.
+  <source>Rescale to estimate: stick is rescaled linearly so center stick gives the hover thrust estimate.
+No rescale: stick maps 1:1 to thrust; useful with very low hover thrust, where rescaling distorts the curve and makes the upper half sensitive.
+Rescale to parameter: as Rescale to estimate, but uses MPC_THR_HOVER; with MPC_THR_HOVER 0.5 same as No rescale.
 </source>
   </message>
 </context>
@@ -25871,7 +26222,7 @@ A value of 0 disables the filter.
 <context>
   <name>/parameters/MPC_XY_CRUISE/longDesc</name>
   <message>
-  <source>e.g. in Missions, RTL, Goto if the waypoint does not specify differently
+  <source>e.g. in Missions, Return, Goto if the waypoint does not specify differently
 </source>
   </message>
 </context>
@@ -26495,6 +26846,47 @@ it will still be 0.5 at 60% battery.
   </message>
 </context>
 <context>
+  <name>/parameters/MC_GC_EN/shortDesc</name>
+  <message>
+  <source>Enable rate gain compression</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_GC_EN/longDesc</name>
+  <message>
+  <source>Dynamically reduces the rate controller output gain when an oscillation
+(limit cycle) is detected on the torque setpoint, e.g. caused by too high gains.
+The gain recovers to 1.0 once the oscillation stops.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_GC_EN/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_GC_EN/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_GC_GAIN_MIN/shortDesc</name>
+  <message>
+  <source>Compression gain lower limit</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/MC_GC_GAIN_MIN/longDesc</name>
+  <message>
+  <source>The range of the compression gain is between this parameter and 1.0
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/MC_PITCHRATE_D/shortDesc</name>
   <message>
   <source>Pitch rate D gain</source>
@@ -26770,13 +27162,29 @@ Set MC_YAWRATE_K=1 to implement a PID in the parallel form.
   </message>
 </context>
 <context>
-  <name>/parameters/OSD_CH_HEIGHT/shortDesc</name>
+  <name>/parameters/OSD_CH_POS_HOR/shortDesc</name>
   <message>
-  <source>OSD Crosshairs Height</source>
+  <source>OSD Crosshairs Horizontal Position</source>
   </message>
 </context>
 <context>
-  <name>/parameters/OSD_CH_HEIGHT/longDesc</name>
+  <name>/parameters/OSD_CH_POS_HOR/longDesc</name>
+  <message>
+  <source>Controls the horizontal position of the crosshair display.
+Resolution is limited by OSD to 15 discrete values. Negative
+values will display the crosshairs left of the center of the screen
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_CH_POS_VER/shortDesc</name>
+  <message>
+  <source>OSD Crosshairs Vertical Position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/OSD_CH_POS_VER/longDesc</name>
   <message>
   <source>Controls the vertical position of the crosshair display.
 Resolution is limited by OSD to 15 discrete values. Negative
@@ -26901,13 +27309,13 @@ This is lower-bounded by the nominal loop rate of this module.
 <context>
   <name>/parameters/OSD_SYMBOLS/bitmask/7/description</name>
   <message>
-  <source>HOME_DIR</source>
+  <source>(unused) HOME_DIR</source>
   </message>
 </context>
 <context>
   <name>/parameters/OSD_SYMBOLS/bitmask/8/description</name>
   <message>
-  <source>MAIN_BATT_VOLTAGE</source>
+  <source>(unused) MAIN_BATT_VOLTAGE</source>
   </message>
 </context>
 <context>
@@ -26937,7 +27345,7 @@ This is lower-bounded by the nominal loop rate of this module.
 <context>
   <name>/parameters/OSD_SYMBOLS/bitmask/13/description</name>
   <message>
-  <source>NUMERICAL_VARIO</source>
+  <source>(unused) NUMERICAL_VARIO</source>
   </message>
 </context>
 <context>
@@ -26955,13 +27363,13 @@ This is lower-bounded by the nominal loop rate of this module.
 <context>
   <name>/parameters/OSD_SYMBOLS/bitmask/16/description</name>
   <message>
-  <source>(unused) PITCH_ANGLE</source>
+  <source>PITCH_ANGLE</source>
   </message>
 </context>
 <context>
   <name>/parameters/OSD_SYMBOLS/bitmask/17/description</name>
   <message>
-  <source>(unused) ROLL_ANGLE</source>
+  <source>ROLL_ANGLE</source>
   </message>
 </context>
 <context>
@@ -26985,7 +27393,7 @@ This is lower-bounded by the nominal loop rate of this module.
 <context>
   <name>/parameters/OSD_SYMBOLS/bitmask/21/description</name>
   <message>
-  <source>POWER</source>
+  <source>(unused) POWER</source>
   </message>
 </context>
 <context>
@@ -32007,7 +32415,7 @@ negative : true when channel&lt;th
 <context>
   <name>/parameters/RC_RETURN_TH/shortDesc</name>
   <message>
-  <source>Threshold for selecting return to launch mode</source>
+  <source>Threshold for selecting Return mode</source>
   </message>
 </context>
 <context>
@@ -32041,6 +32449,31 @@ negative : true when channel&lt;th
   </message>
 </context>
 <context>
+  <name>/parameters/RTL_APPR_FORCE/shortDesc</name>
+  <message>
+  <source>Force VTOL approach landing on Return</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RTL_APPR_FORCE/longDesc</name>
+  <message>
+  <source>Only home and rally points with a VTOL approach loiter (a MAV_CMD_NAV_LOITER_TO_ALT item with finite position and altitude) are used as return destinations.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RTL_APPR_FORCE/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RTL_APPR_FORCE/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
   <name>/parameters/RTL_CONE_ANG/shortDesc</name>
   <message>
   <source>Half-angle of the return mode altitude cone</source>
@@ -32049,8 +32482,7 @@ negative : true when channel&lt;th
 <context>
   <name>/parameters/RTL_CONE_ANG/longDesc</name>
   <message>
-  <source>Defines the half-angle of a cone centered around the destination position that
-affects the altitude at which the vehicle returns.
+  <source>Half-angle of a cone centered around the destination position. Affects the altitude at which the vehicle returns.
 </source>
   </message>
 </context>
@@ -32099,9 +32531,7 @@ affects the altitude at which the vehicle returns.
 <context>
   <name>/parameters/RTL_DESCEND_ALT/longDesc</name>
   <message>
-  <source>Descend to this altitude (above destination position) after return, and wait for time defined in RTL_LAND_DELAY.
-Land (i.e. slowly descend) from this altitude if autolanding allowed.
-VTOLs do transition to hover in this altitude above the landing point.
+  <source>After returning, the vehicle descends to this altitude above the destination and waits RTL_LAND_DELAY, then lands if autolanding is allowed. VTOLs transition to hover at this altitude.
 </source>
   </message>
 </context>
@@ -32114,51 +32544,46 @@ VTOLs do transition to hover in this altitude above the landing point.
 <context>
   <name>/parameters/RTL_LAND_DELAY/longDesc</name>
   <message>
-  <source>Delay before landing (after initial descent) in Return mode.
-If set to -1 the system will not land but loiter at RTL_DESCEND_ALT.
+  <source>Delay after the descent to RTL_DESCEND_ALT, before landing. Set to -1 to loiter at RTL_DESCEND_ALT without landing.
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_LOITER_RAD/shortDesc</name>
   <message>
-  <source>Loiter radius for rtl descend</source>
+  <source>Loiter radius for return descent</source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_LOITER_RAD/longDesc</name>
   <message>
-  <source>Set the radius for loitering to a safe altitude for VTOL transition.
+  <source>Default loiter radius for descent to RTL_DESCEND_ALT if not set in landing approach. Set to safe altitude for VTOL transitions.
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_MIN_DIST/shortDesc</name>
   <message>
-  <source>Min distance for RTL cone altitude calculation</source>
+  <source>Min distance for return cone altitude calculation</source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_MIN_DIST/longDesc</name>
   <message>
-  <source>Horizontal radius from return point within which special rules for return mode apply
-
-The return altitude will be calculated based on RTL_CONE_ANG parameter.
-The yaw setpoint will switch to the one defined by corresponding waypoint.
+  <source>Within this horizontal distance of the destination, the return altitude comes from RTL_CONE_ANG and the yaw setpoint switches to the destination's yaw.
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_PLD_MD/shortDesc</name>
   <message>
-  <source>RTL precision land mode</source>
+  <source>Return precision land mode</source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_PLD_MD/longDesc</name>
   <message>
-  <source>Use precision landing when doing an RTL landing phase.
-This setting does not apply for RTL destinations planned as part of a mission.
+  <source>Doesn't apply to return destinations planned in a mission.
 </source>
   </message>
 </context>
@@ -32189,9 +32614,33 @@ This setting does not apply for RTL destinations planned as part of a mission.
 <context>
   <name>/parameters/RTL_RETURN_ALT/longDesc</name>
   <message>
-  <source>Default minimum altitude above destination (e.g. home, safe point, landing pattern) for return flight.
-The vehicle will climb to this altitude when Return mode is engaged, unless it currently is flying higher already.
-This is affected by RTL_MIN_DIST and RTL_CONE_ANG.
+  <source>Minimum altitude above the destination (home, rally point or landing pattern) during return. The vehicle climbs to it unless already higher. Adjusted by RTL_MIN_DIST and RTL_CONE_ANG.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RTL_TIME_FACTOR/shortDesc</name>
+  <message>
+  <source>Return time estimate safety margin factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RTL_TIME_FACTOR/longDesc</name>
+  <message>
+  <source>Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RTL_TIME_MARGIN/shortDesc</name>
+  <message>
+  <source>Return time estimate safety margin offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RTL_TIME_MARGIN/longDesc</name>
+  <message>
+  <source>Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN.
 </source>
   </message>
 </context>
@@ -32205,103 +32654,63 @@ This is affected by RTL_MIN_DIST and RTL_CONE_ANG.
   <name>/parameters/RTL_TYPE/longDesc</name>
   <message>
   <source>Return mode destination and flight path (home location, rally point, mission landing pattern, reverse mission)
+
+- 0 (Direct to home or rally point): Return to closest safe point (home or rally point) via direct path.
+
+- 1 (Direct to mission landing or rally point): Return to closest safe point other than home (mission landing pattern or rally point), via direct path. If no mission landing or rally points are defined return home via direct path. Always choose closest safe landing point if vehicle is a VTOL in hover mode.
+
+- 2 (Mission path to landing, else reverse home): Return to a planned mission landing, if available, using the mission path while skipping DO_JUMP and other non-position mission items, else return to home via the reverse mission path with the same traversal rules. Do not consider rally points.
+
+- 3 (Direct to closest safe destination): Return via direct path to closest destination: home, start of mission landing pattern or safe point. If the destination is a mission landing pattern, follow the pattern to land.
+
+- 4 (Mission path, closest of landing or home): Return to the planned mission landing, or to home via the reverse mission path, whichever is estimated to be closer using mission item indices. Skip DO_JUMP and other non-position mission items while following either mission path. Do not consider rally points.
+
+- 5 (Direct to rally point only): Return directly to safe landing point (do not consider mission landing and Home).
+
+- 6 (Home if battery allows, else rally point): Return to home if time estimate to home is less than battery remaining estimate, else return to the closest rally point. If battery remaining estimate is not available, return to the closest safe point (home or rally point).
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_TYPE/values/0/description</name>
   <message>
-  <source>Return to closest safe point (home or rally point) via direct path.</source>
+  <source>Direct to home or rally point</source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_TYPE/values/1/description</name>
   <message>
-  <source>Return to closest safe point other than home (mission landing pattern or rally point), via direct path. If no mission landing or rally points are defined return home via direct path. Always choose closest safe landing point if vehicle is a VTOL in hover mode.</source>
+  <source>Direct to mission landing or rally point</source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_TYPE/values/2/description</name>
   <message>
-  <source>Return to a planned mission landing, if available, using the mission path while skipping DO_JUMP and other non-position mission items, else return to home via the reverse mission path with the same traversal rules. Do not consider rally points.</source>
+  <source>Mission path to landing, else reverse home</source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_TYPE/values/3/description</name>
   <message>
-  <source>Return via direct path to closest destination: home, start of mission landing pattern or safe point. If the destination is a mission landing pattern, follow the pattern to land.</source>
+  <source>Direct to closest safe destination</source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_TYPE/values/4/description</name>
   <message>
-  <source>Return to the planned mission landing, or to home via the reverse mission path, whichever is estimated to be closer using mission item indices. Skip DO_JUMP and other non-position mission items while following either mission path. Do not consider rally points.</source>
+  <source>Mission path, closest of landing or home</source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_TYPE/values/5/description</name>
   <message>
-  <source>Return directly to safe landing point (do not consider mission landing and Home).</source>
+  <source>Direct to rally point only</source>
   </message>
 </context>
 <context>
   <name>/parameters/RTL_TYPE/values/6/description</name>
   <message>
-  <source>Return to home if time estimate to home is less than battery remaining estimate, else return to the closest rally point. If battery remaining estimate is not available, return to the closest safe point (home or rally point).</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RTL_APPR_FORCE/shortDesc</name>
-  <message>
-  <source>RTL force approach landing</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RTL_APPR_FORCE/longDesc</name>
-  <message>
-  <source>Only consider home/rally RTL points that have a VTOL approach loiter.
-A VTOL approach loiter is a MAV_CMD_NAV_LOITER_TO_ALT item with finite position and altitude.
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RTL_APPR_FORCE/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RTL_APPR_FORCE/values/1/description</name>
-  <message>
-  <source>Enabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RTL_TIME_FACTOR/shortDesc</name>
-  <message>
-  <source>RTL time estimate safety margin factor</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RTL_TIME_FACTOR/longDesc</name>
-  <message>
-  <source>Safety factor that is used to scale the actual RTL time estimate.
-Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RTL_TIME_MARGIN/shortDesc</name>
-  <message>
-  <source>RTL time estimate safety margin offset</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/RTL_TIME_MARGIN/longDesc</name>
-  <message>
-  <source>Margin that is added to the time estimate, after it has already been scaled
-Time with margin = RTL_TIME_FACTOR * time + RTL_TIME_MARGIN
-</source>
+  <source>Home if battery allows, else rally point</source>
   </message>
 </context>
 <context>
@@ -32430,6 +32839,20 @@ error between the desired and actual yaw.
   <name>/parameters/RD_YAW_STK_GAIN/longDesc</name>
   <message>
   <source>Assign value &lt;1.0 to decrease stick response for yaw control.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_PARK_THR_MAX/shortDesc</name>
+  <message>
+  <source>Maximum throttle in Manual Parking mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_PARK_THR_MAX/longDesc</name>
+  <message>
+  <source>Scales the stick inputs that are mapped to motor commands in Manual Parking mode, so that maneuvering in tight spaces stays slow. Applies symmetrically to forward and reverse throttle.
+
 </source>
   </message>
 </context>
@@ -32758,7 +33181,7 @@ Particularly useful for skinny runways or if the wheel servo is a bit off trim.
 <context>
   <name>/parameters/RWTO_PSP/shortDesc</name>
   <message>
-  <source>Pitch setpoint during taxi / before rotation</source>
+  <source>Absolute pitch setpoint during taxi / before rotation</source>
   </message>
 </context>
 <context>
@@ -32884,7 +33307,7 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
 <context>
   <name>/parameters/SDLOG_DIRS_MAX/longDesc</name>
   <message>
-  <source>If greater than 0, the oldest log directories are deleted at log start to keep the total directory count at or below this value. This cleanup is orthogonal to the free-space cleanup driven by SDLOG_ROTATE and SDLOG_MAX_SIZE, and is useful for capping log usage by count independent of available disk size (e.g. in SITL). A value of 0 disables this count-based cleanup.
+  <source>At log start, oldest log directories are deleted to stay within this count. Independent of SDLOG_ROTATE and SDLOG_MAX_SIZE, e.g. to cap logs by count in SITL. Set to 0 to disable.
 </source>
   </message>
 </context>
@@ -32910,7 +33333,7 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
 <context>
   <name>/parameters/SDLOG_MISSION/longDesc</name>
   <message>
-  <source>If enabled, a small additional "mission" log file will be written to the SD card. The log contains just those messages that are useful for tasks like generating flight statistics and geotagging. The different modes can be used to further reduce the logged data (and thus the log file size). For example, choose geotagging mode to only log data required for geotagging. Note that the normal/full log is still created, and contains all the data in the mission log (and more).
+  <source>Writes a small extra log with only the messages needed for flight statistics and geotagging. The full log is still written and contains all of this data.
 </source>
   </message>
 </context>
@@ -32941,7 +33364,7 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
 <context>
   <name>/parameters/SDLOG_MODE/longDesc</name>
   <message>
-  <source>Determines when to start and stop logging. By default, logging is started when arming the system, and stopped when disarming. Note: The logging start/end points that can be configured here only apply to SD logging. The mavlink backend is started/stopped independently of these points.
+  <source>Only applies to SD card logging; MAVLink logging starts and stops independently.
 </source>
   </message>
 </context>
@@ -32978,13 +33401,13 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
 <context>
   <name>/parameters/SDLOG_PROFILE/shortDesc</name>
   <message>
-  <source>Logging topic profile (integer bitmask)</source>
+  <source>Logging topic profile</source>
   </message>
 </context>
 <context>
   <name>/parameters/SDLOG_PROFILE/longDesc</name>
   <message>
-  <source>This integer bitmask controls the set and rates of logged topics. The default allows for general log analysis while keeping the log file size reasonably small. Enabling multiple sets leads to higher bandwidth requirements and larger log files. Set bits true to enable: 0 : Default set (used for general log analysis) 1 : Full rate estimator (EKF2) replay topics 2 : Topics for thermal calibration (high rate raw IMU and Baro sensor data) 3 : Topics for system identification (high rate actuator control and IMU data) 4 : Full rates for analysis of fast maneuvers (RC, attitude, rates and actuators) 5 : Debugging topics (debug_*.msg topics, for custom code) 6 : Topics for sensor comparison (low rate raw IMU, Baro and magnetometer data) 7 : Topics for computer vision and collision prevention 8 : Raw FIFO high-rate IMU (Gyro) 9 : Raw FIFO high-rate IMU (Accel) 10: Logging of mavlink tunnel message (useful for payload communication debugging)
+  <source>Each additional set increases bandwidth and log size.
 </source>
   </message>
 </context>
@@ -32997,37 +33420,37 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
 <context>
   <name>/parameters/SDLOG_PROFILE/bitmask/1/description</name>
   <message>
-  <source>Estimator replay (EKF2)</source>
+  <source>Estimator replay (EKF2, full rate)</source>
   </message>
 </context>
 <context>
   <name>/parameters/SDLOG_PROFILE/bitmask/2/description</name>
   <message>
-  <source>Thermal calibration</source>
+  <source>Thermal calibration (high-rate raw IMU and baro)</source>
   </message>
 </context>
 <context>
   <name>/parameters/SDLOG_PROFILE/bitmask/3/description</name>
   <message>
-  <source>System identification</source>
+  <source>System identification (high-rate actuator and IMU)</source>
   </message>
 </context>
 <context>
   <name>/parameters/SDLOG_PROFILE/bitmask/4/description</name>
   <message>
-  <source>High rate</source>
+  <source>High rate (RC, attitude, rates and actuators)</source>
   </message>
 </context>
 <context>
   <name>/parameters/SDLOG_PROFILE/bitmask/5/description</name>
   <message>
-  <source>Debug</source>
+  <source>Debug (debug_*.msg topics)</source>
   </message>
 </context>
 <context>
   <name>/parameters/SDLOG_PROFILE/bitmask/6/description</name>
   <message>
-  <source>Sensor comparison</source>
+  <source>Sensor comparison (low-rate raw IMU, baro and mag)</source>
   </message>
 </context>
 <context>
@@ -33051,7 +33474,7 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
 <context>
   <name>/parameters/SDLOG_PROFILE/bitmask/10/description</name>
   <message>
-  <source>Mavlink tunnel message logging</source>
+  <source>Mavlink tunnel message logging (payload debugging)</source>
   </message>
 </context>
 <context>
@@ -33069,7 +33492,7 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
 <context>
   <name>/parameters/SDLOG_ROTATE/longDesc</name>
   <message>
-  <source>Maximum percentage of disk space that logs may occupy during operation, including while writing a new log file. For example, a value of 90 means at least 10% of disk is always kept free, even while writing. A value of 100 lets logs fill the disk completely. A value of 0 disables space-based cleanup entirely. At log start, oldest logs are deleted as needed to maintain this guarantee, accounting for the next file write of up to SDLOG_MAX_SIZE. Cleanup always happens at log start (not boot) so logs can be downloaded via FTP before deletion.
+  <source>The limit includes the log being written. Oldest logs are deleted at log start (not boot), leaving room for a file of up to SDLOG_MAX_SIZE, so logs can be downloaded before deletion. 100 lets logs fill the disk. Set to 0 to disable.
 </source>
   </message>
 </context>
@@ -33109,6 +33532,96 @@ If set &lt;= 0.0, defaults to 0.9 * takeoff airspeed (see FW_TKO_AIRSPD)
   <name>/parameters/SDLOG_UUID/values/1/description</name>
   <message>
   <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT1_DRAIN/shortDesc</name>
+  <message>
+  <source>Simulated battery 1 full-discharge time</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT1_DRAIN/longDesc</name>
+  <message>
+  <source>Time in seconds for simulated battery 1 to drain from 100% to 0% while armed,
+overriding SIM_BAT_DRAIN for this battery only. A non-positive value uses SIM_BAT_DRAIN.
+Only has an effect if battery 1 is enabled through BAT1_SOURCE.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT1_MIN_PCT/shortDesc</name>
+  <message>
+  <source>Simulated battery 1 minimal percentage</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT1_MIN_PCT/longDesc</name>
+  <message>
+  <source>Lowest state of charge simulated battery 1 drains down to, overriding
+SIM_BAT_MIN_PCT for this battery only. Set to -1 to use SIM_BAT_MIN_PCT.
+Only has an effect if battery 1 is enabled through BAT1_SOURCE.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT2_DRAIN/shortDesc</name>
+  <message>
+  <source>Simulated battery 2 full-discharge time</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT2_DRAIN/longDesc</name>
+  <message>
+  <source>Time in seconds for simulated battery 2 to drain from 100% to 0% while armed,
+overriding SIM_BAT_DRAIN for this battery only. A non-positive value uses SIM_BAT_DRAIN.
+Only has an effect if battery 2 is enabled through BAT2_SOURCE.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT2_MIN_PCT/shortDesc</name>
+  <message>
+  <source>Simulated battery 2 minimal percentage</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT2_MIN_PCT/longDesc</name>
+  <message>
+  <source>Lowest state of charge simulated battery 2 drains down to, overriding
+SIM_BAT_MIN_PCT for this battery only. Set to -1 to use SIM_BAT_MIN_PCT.
+Only has an effect if battery 2 is enabled through BAT2_SOURCE.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT3_DRAIN/shortDesc</name>
+  <message>
+  <source>Simulated battery 3 full-discharge time</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT3_DRAIN/longDesc</name>
+  <message>
+  <source>Time in seconds for simulated battery 3 to drain from 100% to 0% while armed,
+overriding SIM_BAT_DRAIN for this battery only. A non-positive value uses SIM_BAT_DRAIN.
+Only has an effect if battery 3 is enabled through BAT3_SOURCE.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT3_MIN_PCT/shortDesc</name>
+  <message>
+  <source>Simulated battery 3 minimal percentage</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIM_BAT3_MIN_PCT/longDesc</name>
+  <message>
+  <source>Lowest state of charge simulated battery 3 drains down to, overriding
+SIM_BAT_MIN_PCT for this battery only. Set to -1 to use SIM_BAT_MIN_PCT.
+Only has an effect if battery 3 is enabled through BAT3_SOURCE.
+</source>
   </message>
 </context>
 <context>
@@ -33155,6 +33668,15 @@ Particularly useful for testing different low-battery behaviour.
   <name>/parameters/CAL_ACC0_PRIO/shortDesc</name>
   <message>
   <source>Accelerometer 0 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC0_PRIO/longDesc</name>
+  <message>
+  <source>Uninitialized sensors default to Medium when internal and Low when
+external, so an on-board IMU is preferred over one behind a bus.
+
+</source>
   </message>
 </context>
 <context>
@@ -33521,6 +34043,15 @@ Particularly useful for testing different low-battery behaviour.
   </message>
 </context>
 <context>
+  <name>/parameters/CAL_ACC1_PRIO/longDesc</name>
+  <message>
+  <source>Uninitialized sensors default to Medium when internal and Low when
+external, so an on-board IMU is preferred over one behind a bus.
+
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/CAL_ACC1_PRIO/values/-1/description</name>
   <message>
   <source>Uninitialized</source>
@@ -33884,6 +34415,15 @@ Particularly useful for testing different low-battery behaviour.
   </message>
 </context>
 <context>
+  <name>/parameters/CAL_ACC2_PRIO/longDesc</name>
+  <message>
+  <source>Uninitialized sensors default to Medium when internal and Low when
+external, so an on-board IMU is preferred over one behind a bus.
+
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/CAL_ACC2_PRIO/values/-1/description</name>
   <message>
   <source>Uninitialized</source>
@@ -34244,6 +34784,15 @@ Particularly useful for testing different low-battery behaviour.
   <name>/parameters/CAL_ACC3_PRIO/shortDesc</name>
   <message>
   <source>Accelerometer 3 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_ACC3_PRIO/longDesc</name>
+  <message>
+  <source>Uninitialized sensors default to Medium when internal and Low when
+external, so an on-board IMU is preferred over one behind a bus.
+
+</source>
   </message>
 </context>
 <context>
@@ -34859,6 +35408,84 @@ Particularly useful for testing different low-battery behaviour.
   </message>
 </context>
 <context>
+  <name>/parameters/CAL_DPRES0_ID/shortDesc</name>
+  <message>
+  <source>Differential pressure sensor 0 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES0_ID/longDesc</name>
+  <message>
+  <source>Device ID of the differential pressure sensor this calibration applies to.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES0_OFF/shortDesc</name>
+  <message>
+  <source>Differential pressure sensor 0 offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES0_OFF/longDesc</name>
+  <message>
+  <source>The zero-reading of this differential pressure sensor, in Pascal.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES1_ID/shortDesc</name>
+  <message>
+  <source>Differential pressure sensor 1 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES1_ID/longDesc</name>
+  <message>
+  <source>Device ID of the differential pressure sensor this calibration applies to.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES1_OFF/shortDesc</name>
+  <message>
+  <source>Differential pressure sensor 1 offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES1_OFF/longDesc</name>
+  <message>
+  <source>The zero-reading of this differential pressure sensor, in Pascal.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES2_ID/shortDesc</name>
+  <message>
+  <source>Differential pressure sensor 2 calibration device ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES2_ID/longDesc</name>
+  <message>
+  <source>Device ID of the differential pressure sensor this calibration applies to.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES2_OFF/shortDesc</name>
+  <message>
+  <source>Differential pressure sensor 2 offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_DPRES2_OFF/longDesc</name>
+  <message>
+  <source>The zero-reading of this differential pressure sensor, in Pascal.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/CAL_GYRO0_ID/shortDesc</name>
   <message>
   <source>Gyroscope 0 calibration device ID</source>
@@ -34875,6 +35502,15 @@ Particularly useful for testing different low-battery behaviour.
   <name>/parameters/CAL_GYRO0_PRIO/shortDesc</name>
   <message>
   <source>Gyroscope 0 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO0_PRIO/longDesc</name>
+  <message>
+  <source>Uninitialized sensors default to Medium when internal and Low when
+external, so an on-board IMU is preferred over one behind a bus.
+
+</source>
   </message>
 </context>
 <context>
@@ -35223,6 +35859,15 @@ Particularly useful for testing different low-battery behaviour.
   </message>
 </context>
 <context>
+  <name>/parameters/CAL_GYRO1_PRIO/longDesc</name>
+  <message>
+  <source>Uninitialized sensors default to Medium when internal and Low when
+external, so an on-board IMU is preferred over one behind a bus.
+
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/CAL_GYRO1_PRIO/values/-1/description</name>
   <message>
   <source>Uninitialized</source>
@@ -35568,6 +36213,15 @@ Particularly useful for testing different low-battery behaviour.
   </message>
 </context>
 <context>
+  <name>/parameters/CAL_GYRO2_PRIO/longDesc</name>
+  <message>
+  <source>Uninitialized sensors default to Medium when internal and Low when
+external, so an on-board IMU is preferred over one behind a bus.
+
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/CAL_GYRO2_PRIO/values/-1/description</name>
   <message>
   <source>Uninitialized</source>
@@ -35910,6 +36564,15 @@ Particularly useful for testing different low-battery behaviour.
   <name>/parameters/CAL_GYRO3_PRIO/shortDesc</name>
   <message>
   <source>Gyroscope 3 priority</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/CAL_GYRO3_PRIO/longDesc</name>
+  <message>
+  <source>Uninitialized sensors default to Medium when internal and Low when
+external, so an on-board IMU is preferred over one behind a bus.
+
+</source>
   </message>
 </context>
 <context>
@@ -38213,13 +38876,16 @@ the static and dynamic tubes.
 <context>
   <name>/parameters/SENS_DPRES_OFF/shortDesc</name>
   <message>
-  <source>Differential pressure sensor offset</source>
+  <source>Differential pressure sensor offset of the first airspeed sensor</source>
   </message>
 </context>
 <context>
   <name>/parameters/SENS_DPRES_OFF/longDesc</name>
   <message>
-  <source>The offset (zero-reading) in Pascal
+  <source>The offset (zero-reading) in Pascal of the sensor holding calibration slot 0.
+
+Kept as a mirror of CAL_DPRES0_OFF so that ground stations can still detect whether
+airspeed has been calibrated. The firmware applies CAL_DPRESx_OFF, not this value.
 </source>
   </message>
 </context>
@@ -38372,6 +39038,208 @@ CAL_AIR_TUBELEN: Length of the tubes connecting the pitot to the sensor and the 
   <message>
   <source>Use SENS_MAG_SIDES instead
 </source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/shortDesc</name>
+  <message>
+  <source>Integer bitmask controlling GNSS checks</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/longDesc</name>
+  <message>
+  <source>Each threshold value is defined by the parameter indicated next to the check. Drift and offset checks only run when the vehicle is on ground and stationary. The spoofing and jamming checks also apply to the receiver providing the GNSS heading.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/0/description</name>
+  <message>
+  <source>Sat count (GNSS_REQ_NSATS)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/1/description</name>
+  <message>
+  <source>PDOP (GNSS_REQ_PDOP)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/2/description</name>
+  <message>
+  <source>EPH (GNSS_REQ_EPH)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/3/description</name>
+  <message>
+  <source>EPV (GNSS_REQ_EPV)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/4/description</name>
+  <message>
+  <source>Speed accuracy (GNSS_REQ_SACC)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/5/description</name>
+  <message>
+  <source>Horizontal position drift (GNSS_REQ_HDRIFT)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/6/description</name>
+  <message>
+  <source>Vertical position drift (GNSS_REQ_VDRIFT)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/7/description</name>
+  <message>
+  <source>Horizontal speed offset (GNSS_REQ_HDRIFT)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/8/description</name>
+  <message>
+  <source>Vertical speed offset (GNSS_REQ_VDRIFT)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/9/description</name>
+  <message>
+  <source>Spoofing</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/10/description</name>
+  <message>
+  <source>GNSS fix type (GNSS_REQ_FIX)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_CHECK/bitmask/11/description</name>
+  <message>
+  <source>Jamming</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_EPH/shortDesc</name>
+  <message>
+  <source>Required EPH to use GNSS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_EPV/shortDesc</name>
+  <message>
+  <source>Required EPV to use GNSS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_FIX/shortDesc</name>
+  <message>
+  <source>Required GNSS fix</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_FIX/longDesc</name>
+  <message>
+  <source>Minimum GNSS fix type required for GNSS usage.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_FIX/values/0/description</name>
+  <message>
+  <source>No fix required</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_FIX/values/2/description</name>
+  <message>
+  <source>2D fix</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_FIX/values/3/description</name>
+  <message>
+  <source>3D fix</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_FIX/values/4/description</name>
+  <message>
+  <source>RTCM code differential</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_FIX/values/5/description</name>
+  <message>
+  <source>RTK float</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_FIX/values/6/description</name>
+  <message>
+  <source>RTK fixed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_FIX/values/8/description</name>
+  <message>
+  <source>Extrapolated</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_HDRIFT/shortDesc</name>
+  <message>
+  <source>Maximum horizontal drift speed to use GNSS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_NSATS/shortDesc</name>
+  <message>
+  <source>Required satellite count to use GNSS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_PDOP/shortDesc</name>
+  <message>
+  <source>Maximum PDOP to use GNSS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_SACC/shortDesc</name>
+  <message>
+  <source>Required speed accuracy to use GNSS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_SACC/longDesc</name>
+  <message>
+  <source>EKF2 also feeds GNSS velocity to the EKF-GSF yaw estimator, and trusts the GNSS vertical velocity while the accelerometer clips, only below this speed accuracy, in flight too. With the speed accuracy check disabled in GNSS_CHECK, it does both whatever the speed accuracy.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_TIME/shortDesc</name>
+  <message>
+  <source>Required GNSS health time on startup</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_TIME/longDesc</name>
+  <message>
+  <source>Minimum continuous period without GNSS failure required to mark a healthy GNSS status. It can be reduced to speed up initialization, but it's recommended to keep this unchanged for a vehicle.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_VDRIFT/shortDesc</name>
+  <message>
+  <source>Maximum vertical drift speed to use GNSS</source>
   </message>
 </context>
 <context>
@@ -38551,12 +39419,6 @@ Requires ESC RPM feedback or onboard FFT (IMU_GYRO_FFT_EN).
   </message>
 </context>
 <context>
-  <name>/parameters/IMU_GYRO_FFT_LEN/values/4096/description</name>
-  <message>
-  <source>4096</source>
-  </message>
-</context>
-<context>
   <name>/parameters/IMU_GYRO_FFT_MAX/shortDesc</name>
   <message>
   <source>IMU gyro FFT maximum frequency</source>
@@ -38577,7 +39439,7 @@ Requires ESC RPM feedback or onboard FFT (IMU_GYRO_FFT_EN).
 <context>
   <name>/parameters/IMU_GYRO_NF0_BW/shortDesc</name>
   <message>
-  <source>Notch filter bandwidth for gyro</source>
+  <source>Notch filter 0 bandwidth for gyro</source>
   </message>
 </context>
 <context>
@@ -38592,7 +39454,7 @@ Applies to both angular velocity and angular acceleration sent to the controller
 <context>
   <name>/parameters/IMU_GYRO_NF0_FRQ/shortDesc</name>
   <message>
-  <source>Notch filter frequency for gyro</source>
+  <source>Notch filter 0 frequency for gyro</source>
   </message>
 </context>
 <context>
@@ -38626,7 +39488,7 @@ Applies to both angular velocity and angular acceleration sent to the controller
 <context>
   <name>/parameters/IMU_GYRO_NF1_FRQ/shortDesc</name>
   <message>
-  <source>Notch filter 2 frequency for gyro</source>
+  <source>Notch filter 1 frequency for gyro</source>
   </message>
 </context>
 <context>
@@ -39302,16 +40164,61 @@ Zero rotation is defined as X on flow board pointing towards front of vehicle.
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_DELAY/shortDesc</name>
+  <name>/parameters/SENS_GNSS0_AUXX/shortDesc</name>
+  <message>
+  <source>GNSS 0 auxiliary antenna X position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_AUXX/longDesc</name>
+  <message>
+  <source>Forward axis relative to vehicle centre of gravity, of the receiver's second antenna.
+Used when SENS_GNSS0_HDG is Dual antenna.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_AUXY/shortDesc</name>
+  <message>
+  <source>GNSS 0 auxiliary antenna Y position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_AUXY/longDesc</name>
+  <message>
+  <source>Right axis relative to vehicle centre of gravity, of the receiver's second antenna.
+Used when SENS_GNSS0_HDG is Dual antenna.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_AUXZ/shortDesc</name>
+  <message>
+  <source>GNSS 0 auxiliary antenna Z position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_AUXZ/longDesc</name>
+  <message>
+  <source>Down axis relative to vehicle centre of gravity, of the receiver's second antenna.
+Used when SENS_GNSS0_HDG is Dual antenna.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_DELAY/shortDesc</name>
   <message>
   <source>GPS 0 measurement delay</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_DELAY/longDesc</name>
+  <name>/parameters/SENS_GNSS0_DELAY/longDesc</name>
   <message>
   <source>GPS measurement delay relative to IMU measurements.
-Matched to physical GPS receiver via SENS_GPS0_ID.
+Matched to physical GPS receiver via SENS_GNSS0_ID.
 Only applied when the GPS driver does not provide its own
 timestamp_sample correction.
 
@@ -39319,13 +40226,52 @@ timestamp_sample correction.
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_ID/shortDesc</name>
+  <name>/parameters/SENS_GNSS0_HDG/shortDesc</name>
+  <message>
+  <source>GNSS 0 heading setup</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_HDG/longDesc</name>
+  <message>
+  <source>How the receiver in slot 0 (matched via SENS_GNSS0_ID) measures its dual antenna heading.
+The heading is the bearing of the baseline between two antennas, and is only used when the
+baseline length the receiver reports is within 20% of the configured one.
+Moving base rover: this receiver is the rover of a moving base pair, the moving base is the
+receiver in the other slot. The baseline runs from the moving base's antenna to this
+receiver's antenna (SENS_GNSSn_OFFX/Y/Z of both slots).
+Dual antenna: this receiver has two antennas. The baseline runs from its main antenna
+(SENS_GNSS0_OFFX/Y/Z) to its auxiliary antenna (SENS_GNSS0_AUXX/Y/Z).
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_HDG/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_HDG/values/1/description</name>
+  <message>
+  <source>Moving base rover</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_HDG/values/2/description</name>
+  <message>
+  <source>Dual antenna</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS0_ID/shortDesc</name>
   <message>
   <source>GPS 0 device ID</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_ID/longDesc</name>
+  <name>/parameters/SENS_GNSS0_ID/longDesc</name>
   <message>
   <source>Device ID of the GPS receiver for antenna offset slot 0.
 Set to 0 to disable this slot. When all slots are 0, offsets are
@@ -39335,61 +40281,106 @@ matched by uORB instance index (only reliable for serial GPS).
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_OFFX/shortDesc</name>
+  <name>/parameters/SENS_GNSS0_OFFX/shortDesc</name>
   <message>
   <source>GPS 0 antenna X position</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_OFFX/longDesc</name>
+  <name>/parameters/SENS_GNSS0_OFFX/longDesc</name>
   <message>
   <source>Forward axis relative to vehicle centre of gravity.
-Matched to physical GPS receiver via SENS_GPS0_ID.
+Matched to physical GPS receiver via SENS_GNSS0_ID.
 
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_OFFY/shortDesc</name>
+  <name>/parameters/SENS_GNSS0_OFFY/shortDesc</name>
   <message>
   <source>GPS 0 antenna Y position</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_OFFY/longDesc</name>
+  <name>/parameters/SENS_GNSS0_OFFY/longDesc</name>
   <message>
   <source>Right axis relative to vehicle centre of gravity.
-Matched to physical GPS receiver via SENS_GPS0_ID.
+Matched to physical GPS receiver via SENS_GNSS0_ID.
 
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_OFFZ/shortDesc</name>
+  <name>/parameters/SENS_GNSS0_OFFZ/shortDesc</name>
   <message>
   <source>GPS 0 antenna Z position</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS0_OFFZ/longDesc</name>
+  <name>/parameters/SENS_GNSS0_OFFZ/longDesc</name>
   <message>
   <source>Down axis relative to vehicle centre of gravity.
-Matched to physical GPS receiver via SENS_GPS0_ID.
+Matched to physical GPS receiver via SENS_GNSS0_ID.
 
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_DELAY/shortDesc</name>
+  <name>/parameters/SENS_GNSS1_AUXX/shortDesc</name>
+  <message>
+  <source>GNSS 1 auxiliary antenna X position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_AUXX/longDesc</name>
+  <message>
+  <source>Forward axis relative to vehicle centre of gravity, of the receiver's second antenna.
+Used when SENS_GNSS1_HDG is Dual antenna.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_AUXY/shortDesc</name>
+  <message>
+  <source>GNSS 1 auxiliary antenna Y position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_AUXY/longDesc</name>
+  <message>
+  <source>Right axis relative to vehicle centre of gravity, of the receiver's second antenna.
+Used when SENS_GNSS1_HDG is Dual antenna.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_AUXZ/shortDesc</name>
+  <message>
+  <source>GNSS 1 auxiliary antenna Z position</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_AUXZ/longDesc</name>
+  <message>
+  <source>Down axis relative to vehicle centre of gravity, of the receiver's second antenna.
+Used when SENS_GNSS1_HDG is Dual antenna.
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_DELAY/shortDesc</name>
   <message>
   <source>GPS 1 measurement delay</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_DELAY/longDesc</name>
+  <name>/parameters/SENS_GNSS1_DELAY/longDesc</name>
   <message>
   <source>GPS measurement delay relative to IMU measurements.
-Matched to physical GPS receiver via SENS_GPS1_ID.
+Matched to physical GPS receiver via SENS_GNSS1_ID.
 Only applied when the GPS driver does not provide its own
 timestamp_sample correction.
 
@@ -39397,13 +40388,52 @@ timestamp_sample correction.
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_ID/shortDesc</name>
+  <name>/parameters/SENS_GNSS1_HDG/shortDesc</name>
+  <message>
+  <source>GNSS 1 heading setup</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_HDG/longDesc</name>
+  <message>
+  <source>How the receiver in slot 1 (matched via SENS_GNSS1_ID) measures its dual antenna heading.
+The heading is the bearing of the baseline between two antennas, and is only used when the
+baseline length the receiver reports is within 20% of the configured one.
+Moving base rover: this receiver is the rover of a moving base pair, the moving base is the
+receiver in the other slot. The baseline runs from the moving base's antenna to this
+receiver's antenna (SENS_GNSSn_OFFX/Y/Z of both slots).
+Dual antenna: this receiver has two antennas. The baseline runs from its main antenna
+(SENS_GNSS1_OFFX/Y/Z) to its auxiliary antenna (SENS_GNSS1_AUXX/Y/Z).
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_HDG/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_HDG/values/1/description</name>
+  <message>
+  <source>Moving base rover</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_HDG/values/2/description</name>
+  <message>
+  <source>Dual antenna</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_GNSS1_ID/shortDesc</name>
   <message>
   <source>GPS 1 device ID</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_ID/longDesc</name>
+  <name>/parameters/SENS_GNSS1_ID/longDesc</name>
   <message>
   <source>Device ID of the GPS receiver for antenna offset slot 1.
 Set to 0 to disable this slot. When all slots are 0, offsets are
@@ -39413,122 +40443,60 @@ matched by uORB instance index (only reliable for serial GPS).
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_OFFX/shortDesc</name>
+  <name>/parameters/SENS_GNSS1_OFFX/shortDesc</name>
   <message>
   <source>GPS 1 antenna X position</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_OFFX/longDesc</name>
+  <name>/parameters/SENS_GNSS1_OFFX/longDesc</name>
   <message>
   <source>Forward axis relative to vehicle centre of gravity.
-Matched to physical GPS receiver via SENS_GPS1_ID.
+Matched to physical GPS receiver via SENS_GNSS1_ID.
 
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_OFFY/shortDesc</name>
+  <name>/parameters/SENS_GNSS1_OFFY/shortDesc</name>
   <message>
   <source>GPS 1 antenna Y position</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_OFFY/longDesc</name>
+  <name>/parameters/SENS_GNSS1_OFFY/longDesc</name>
   <message>
   <source>Right axis relative to vehicle centre of gravity.
-Matched to physical GPS receiver via SENS_GPS1_ID.
+Matched to physical GPS receiver via SENS_GNSS1_ID.
 
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_OFFZ/shortDesc</name>
+  <name>/parameters/SENS_GNSS1_OFFZ/shortDesc</name>
   <message>
   <source>GPS 1 antenna Z position</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS1_OFFZ/longDesc</name>
+  <name>/parameters/SENS_GNSS1_OFFZ/longDesc</name>
   <message>
   <source>Down axis relative to vehicle centre of gravity.
-Matched to physical GPS receiver via SENS_GPS1_ID.
+Matched to physical GPS receiver via SENS_GNSS1_ID.
 
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS_MASK/shortDesc</name>
-  <message>
-  <source>Multi GPS Blending Control Mask</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_GPS_MASK/longDesc</name>
-  <message>
-  <source>Set bits in the following positions to set which GPS accuracy metrics will
-be used to calculate the blending weight. Set to zero to disable and always
-used first GPS instance.
-
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_GPS_MASK/bitmask/0/description</name>
-  <message>
-  <source>use speed accuracy</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_GPS_MASK/bitmask/1/description</name>
-  <message>
-  <source>use hpos accuracy</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_GPS_MASK/bitmask/2/description</name>
-  <message>
-  <source>use vpos accuracy</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_GPS_PRIME/shortDesc</name>
+  <name>/parameters/SENS_GNSS_PRIME/shortDesc</name>
   <message>
   <source>Multi GPS primary instance</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_GPS_PRIME/longDesc</name>
+  <name>/parameters/SENS_GNSS_PRIME/longDesc</name>
   <message>
-  <source>When no blending is active, this defines the preferred GPS receiver instance.
-The GPS selection logic waits until the primary receiver is available to
-send data to the EKF even if a secondary instance is already available.
-The secondary instance is then only used if the primary one times out.
-
-To select a DroneCAN GPS, set this to the node ID.
-
-The primary receiver is reported in the GPS_RAW_INT MAVLink
-message and the secondary in GPS2_RAW.
-
-This parameter has no effect on the EKF GPS selection if
-blending is active.
-
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_GPS_TAU/shortDesc</name>
-  <message>
-  <source>Multi GPS Blending Time Constant</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_GPS_TAU/longDesc</name>
-  <message>
-  <source>Sets the longest time constant that will be applied to the calculation of GPS
-position and height offsets used to correct data from multiple GPS data for
-steady state position differences.
-
+  <source>The primary receiver is used while it passes the strict checks (GNSS_REQ_*), and while disarmed whenever it publishes. In flight, the other receiver is used when the primary fails its checks (GNSS_CHECK) or stops publishing for 2 s, and then for the rest of the flight unless it fails too. The other receiver is also used once it has been better through a hold: when the primary failed the strict checks while the other passed them, or when the primary was usable for a clearly smaller share of the last 10 s or so (availability lower by 0.2). The primary is used again once it has been better through the hold. The hold is 10 s and doubles with every such switch in a flight, so the first return takes 20 s. With Auto, the moving base of a moving base pair (SENS_GNSSn_HDG) is the primary. Without a primary, a receiver that passes the strict checks is preferred, and among those one with an RTK fixed solution. To make a DroneCAN receiver the primary, set its node ID (2 to 127). GPS_RAW_INT reports the primary receiver, or the first receiver to publish if there is no primary.
 </source>
   </message>
 </context>
@@ -39598,31 +40566,6 @@ steady state position differences.
   <name>/parameters/SENS_IMU_MODE/values/1/description</name>
   <message>
   <source>Publish primary IMU selection</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_INT_BARO_EN/shortDesc</name>
-  <message>
-  <source>Enable internal barometers</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_INT_BARO_EN/longDesc</name>
-  <message>
-  <source>For systems with an external barometer, this should be set to false to make sure that the external is used.
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_INT_BARO_EN/values/0/description</name>
-  <message>
-  <source>Disabled</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SENS_INT_BARO_EN/values/1/description</name>
-  <message>
-  <source>Enabled</source>
   </message>
 </context>
 <context>
@@ -40073,25 +41016,6 @@ For example, "To receiver" will log all commands and corrections sent by the dri
   </message>
 </context>
 <context>
-  <name>/parameters/SEP_PITCH_OFFS/shortDesc</name>
-  <message>
-  <source>Pitch offset for dual antenna GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SEP_PITCH_OFFS/longDesc</name>
-  <message>
-  <source>Vertical offsets can be compensated for by adjusting the Pitch offset.
-
-Note that this can be interpreted as the "roll" angle in case the antennas are aligned along the perpendicular axis.
-This occurs in situations where the two antenna ARPs may not be exactly at the same height in the vehicle reference frame.
-Since pitch is defined as the right-handed rotation about the vehicle Y axis,
-a situation where the main antenna is mounted lower than the aux antenna (assuming the default antenna setup) will result in a positive pitch.
-
-</source>
-  </message>
-</context>
-<context>
   <name>/parameters/SEP_SAT_INFO/shortDesc</name>
   <message>
   <source>Enable sat info</source>
@@ -40145,28 +41069,6 @@ Set this to another value if the default stream is already used for another purp
   <source>The stream the autopilot sets up on the receiver to output the main data.
 
 Set this to another value if the default stream is already used for another purpose.
-
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SEP_YAW_OFFS/shortDesc</name>
-  <message>
-  <source>Heading/Yaw offset for dual antenna GPS</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/SEP_YAW_OFFS/longDesc</name>
-  <message>
-  <source>Heading offset angle for dual antenna GPS setups that support heading estimation.
-
-Set this to 0 if the antennas are parallel to the forward-facing direction
-of the vehicle and the rover antenna is in front.
-
-The offset angle increases clockwise.
-
-Set this to 90 if the rover antenna is placed on the
-right side of the vehicle and the moving base antenna is on the left side.
 
 </source>
   </message>
@@ -40746,7 +41648,6 @@ Enable when the airframe ships its own calibration.
   <message>
   <source>Set to 1 to reset parameters on next system startup (setting defaults).
 Platform-specific values are used if available.
-RC* parameters are preserved.
 </source>
   </message>
 </context>
@@ -40784,7 +41685,8 @@ RC* parameters are preserved.
 <context>
   <name>/parameters/SYS_BL_UPDATE/longDesc</name>
   <message>
-  <source>If enabled, update the bootloader on the next boot.
+  <source>If enabled, update the bootloader on the next boot. DroneCAN nodes
+update within about 2 seconds of it being set, without rebooting.
 
 WARNING: do not cut the power during an update process, otherwise you will
 have to recover using some alternative method (e.g. JTAG).
@@ -41013,7 +41915,7 @@ barometer.
   <name>/parameters/SYS_HAS_GPS/longDesc</name>
   <message>
   <source>Disable this if the system has no GPS.
-If disabled, the sensors hub will not process sensor_gps,
+If disabled, the sensors hub will not process sensor_gnss,
 and GPS will not be available for the rest of the system.
 </source>
   </message>
@@ -41086,9 +41988,9 @@ Disable the check with 0.
   <source>0: No minimum receiver count required. Position divergence between two receivers
 and loss of a GNSS receiver still produce a warning but never trigger the
 COM_GNSSLOSS_ACT failsafe action.
-1-N: Require the presence of N GNSS receivers for arming and during flight.
+1-N: Require the presence of N GNSS receivers for arming.
 If the active count drops below this value in flight, COM_GNSSLOSS_ACT is triggered.
-When set to 2, position divergence between the two receivers also triggers COM_GNSSLOSS_ACT.
+When set to 2, position divergence between the two receivers also blocks arming when not armed and triggers COM_GNSSLOSS_ACT in flight.
 </source>
   </message>
 </context>
@@ -43869,14 +44771,8 @@ Set to 0 do disable this threshold.
 <context>
   <name>/parameters/VTE_ACC_D_UNC/longDesc</name>
   <message>
-  <source>White-noise PSD on the UAV acceleration input. The
-1-sigma vel_uav change allowed over a time t is sqrt(VTE_ACC_D_UNC * t).
-
-This is a variance rate, not a per-step variance; the value is independent
-of the filter update rate. Higher values let the filter follow new
-measurements more tightly and reject fewer outliers.
-
-Unit: m^2/s^3.
+  <source>UAV velocity variance growth rate from acceleration noise (m^2/s^3), independent of update rate.
+Higher values follow measurements faster and reject fewer outliers.
 </source>
   </message>
 </context>
@@ -43889,16 +44785,8 @@ Unit: m^2/s^3.
 <context>
   <name>/parameters/VTE_ACC_T_UNC/longDesc</name>
   <message>
-  <source>Process-noise spectral density of the target acceleration random walk
-(moving-target builds only). The 1-sigma target-acceleration change over a
-time t is sqrt(VTE_ACC_T_UNC * t) (e.g. for the 0.1 default, ~0.32 m/s^2
-after 1 s, ~1.0 m/s^2 after 10 s).
-
-This is a variance rate, not a linear rate of change; the value is
-independent of the filter update rate. Higher values let the filter follow
-target manoeuvres more aggressively and accept more outliers.
-
-Unit: ((m/s^2)^2)/s.
+  <source>Target acceleration variance growth rate (m^2/s^5), independent of update rate. Moving-target builds only.
+Higher values track manoeuvres faster and reject fewer outliers.
 </source>
   </message>
 </context>
@@ -43911,13 +44799,8 @@ Unit: ((m/s^2)^2)/s.
 <context>
   <name>/parameters/VTE_ACC_UNC_IN/longDesc</name>
   <message>
-  <source>Initial variance of the relative target acceleration in x, y, and z directions
-(moving-target builds only).
-Changes while the estimator is running are picked up immediately by the module but only take effect
-the next time the estimator initializes or resets.
-Once the filter is running, the steady-state target-acceleration variance is
-governed by VTE_ACC_T_UNC and the measurement updates, so this parameter does
-not influence runtime behaviour.
+  <source>Initial absolute target-acceleration variance per axis (moving-target builds only).
+Changes apply at initialization/reset. Use VTE_ACC_T_UNC for ongoing manoeuvre tracking.
 </source>
   </message>
 </context>
@@ -43930,19 +44813,15 @@ not influence runtime behaviour.
 <context>
   <name>/parameters/VTE_AID_MASK/longDesc</name>
   <message>
-  <source>Set bits in the following positions to enable:
-0 : Set to true to use the target's GNSS position data if available. (+1)
-1 : Set to true to use the UAV GNSS velocity data if available. (+2)
-2 : Set to true to use the target relative position from vision-based data if available. (+4)
-3 : Set to true to use the mission land point. Ignored if target GNSS position enabled. (+8)
-4 : Set to true to use the target GNSS velocity if available. (+16)
+  <source>Absolute target references (bits 0, 3, 5) require vehicle GNSS; their offset from vision is estimated as a bias.
+Bit 0 overrides bits 3 and 5, which are ignored in moving-target builds.
 </source>
   </message>
 </context>
 <context>
   <name>/parameters/VTE_AID_MASK/bitmask/0/description</name>
   <message>
-  <source>target GNSS position</source>
+  <source>Target GNSS position (receiver on the target)</source>
   </message>
 </context>
 <context>
@@ -43954,19 +44833,25 @@ not influence runtime behaviour.
 <context>
   <name>/parameters/VTE_AID_MASK/bitmask/2/description</name>
   <message>
-  <source>vision relative position</source>
+  <source>Vision relative position</source>
   </message>
 </context>
 <context>
   <name>/parameters/VTE_AID_MASK/bitmask/3/description</name>
   <message>
-  <source>mission position</source>
+  <source>Mission land position (precision landing)</source>
   </message>
 </context>
 <context>
   <name>/parameters/VTE_AID_MASK/bitmask/4/description</name>
   <message>
-  <source>target GNSS velocity</source>
+  <source>Target GNSS velocity (moving-target builds only)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VTE_AID_MASK/bitmask/5/description</name>
+  <message>
+  <source>Home position (precision takeoff)</source>
   </message>
 </context>
 <context>
@@ -43978,18 +44863,8 @@ not influence runtime behaviour.
 <context>
   <name>/parameters/VTE_BIAS_UNC/longDesc</name>
   <message>
-  <source>Process-noise spectral density of the GPS/vision bias random walk. The
-1-sigma expected bias change over a time t is sqrt(VTE_BIAS_UNC * t) (e.g.
-for the 0.001 default, ~3 cm after 1 s, ~10 cm after 10 s, ~32 cm after
-100 s).
-
-This is a variance rate, not a linear drift rate; the value is independent
-of the filter update rate. Higher values let the bias follow new
-observations more aggressively; lower values keep it stiff. Tune to match
-the realistic physical drift of the absolute reference (typically a few
-centimetres over tens of seconds for consumer GNSS, less for RTK).
-
-Unit: m^2/s.
+  <source>GNSS/vision position-bias variance growth rate (m^2/s), independent of update rate.
+Higher values track reference drift faster; lower values keep the bias steadier.
 </source>
   </message>
 </context>
@@ -44002,10 +44877,9 @@ Unit: m^2/s.
 <context>
   <name>/parameters/VTE_BIA_AVG_THR/longDesc</name>
   <message>
-  <source>When the GNSS/vision bias first becomes observable while the estimator is still referenced to GNSS,
-VTE low-pass filters the first GNSS/vision bias samples before activating the bias estimate.
-The LPF exit requires consecutive raw bias samples to stay within this threshold and for the LPF
-to have run for at least 2 * tau, or until VTE_BIA_AVG_TOUT elapses.
+  <source>Maximum 3D difference between raw and filtered bias to finish averaging after GNSS-first startup.
+Lower values require steadier samples. Requires 5 consecutive matches and at least 0.6 s, or VTE_BIA_AVG_TOUT.
+Set to 0 to disable averaging.
 </source>
   </message>
 </context>
@@ -44018,14 +44892,8 @@ to have run for at least 2 * tau, or until VTE_BIA_AVG_TOUT elapses.
 <context>
   <name>/parameters/VTE_BIA_AVG_TOUT/longDesc</name>
   <message>
-  <source>Maximum time spent averaging the initial GNSS bias before activating it once GNSS and vision
-are jointly observable while the estimator is still referenced to GNSS. During that phase, valid
-vision samples keep updating the LPF. While the current GNSS-relative measurement stays valid,
-it can be propagated with the UAV velocity estimate to match the vision timestamp. If that GNSS
-sample is no longer valid, averaging stops, the current vision position is used, and the current
-LPF bias is activated.
-
-Set to 0 to disable averaging and activate the bias immediately.
+  <source>Maximum time to average the GNSS/vision bias when starting from GNSS position. Vision fusion waits meanwhile.
+If GNSS expires, switch to vision with the filtered bias. Set to 0 to disable averaging.
 </source>
   </message>
 </context>
@@ -44038,12 +44906,8 @@ Set to 0 to disable averaging and activate the bias immediately.
 <context>
   <name>/parameters/VTE_BIA_UNC_IN/longDesc</name>
   <message>
-  <source>Initial variance of the bias between the GPS on the target and the GPS on the drone.
-Changes while the estimator is running are picked up immediately by the module but only take effect
-the next time the estimator initializes or resets.
-Once the filter is running, the steady-state bias variance is governed by VTE_BIAS_UNC
-and the measurement updates, so this parameter does not influence runtime behaviour.
-Keep it large so initialization can absorb initial misalignments.
+  <source>Initial GNSS/vision position-bias variance per axis. Higher values allow larger initial bias corrections.
+Applied at initialization/reset and bias activation. Use VTE_BIAS_UNC for ongoing drift.
 </source>
   </message>
 </context>
@@ -44056,7 +44920,8 @@ Keep it large so initialization can absorb initial misalignments.
 <context>
   <name>/parameters/VTE_BTOUT/longDesc</name>
   <message>
-  <source>Time after which the target is considered lost without any new fused measurements. When this timeout expires, the estimator is reset and can restart immediately once an enabled fusion source is available.
+  <source>Reset after this long without accepted position or yaw updates, tracked separately.
+Velocity updates do not prevent position resets.
 </source>
   </message>
 </context>
@@ -44087,13 +44952,8 @@ Keep it large so initialization can absorb initial misalignments.
 <context>
   <name>/parameters/VTE_EVA_NOISE/longDesc</name>
   <message>
-  <source>Lower bound on the standard deviation used when fusing the vision yaw
-observation. The estimator squares this value and clamps the per-sample
-observation variance to max(reported_variance, VTE_EVA_NOISE^2). The floor only
-takes effect when the sensor under-reports its own noise.
-The default of ~0.07 rad (4 deg) is a reasonable starting point for marker-based
-yaw detection. Lowering it makes the filter trust each yaw sample more, which
-can cause the controller to chase the resulting setpoint changes and oscillate.
+  <source>Minimum vision yaw noise; used only when reported noise is lower. Default: about 4 deg.
+Lower values increase trust in yaw measurements and can cause control oscillations.
 </source>
   </message>
 </context>
@@ -44106,10 +44966,8 @@ can cause the controller to chase the resulting setpoint changes and oscillate.
 <context>
   <name>/parameters/VTE_EVP_NOISE/longDesc</name>
   <message>
-  <source>Lower bound on the standard deviation used when fusing the vision relative
-position. The estimator squares this value and clamps the per-sample
-observation variance to max(reported_variance, VTE_EVP_NOISE^2). The floor only
-takes effect when the sensor under-reports its own noise.
+  <source>Minimum vision position noise; used only when reported noise is lower.
+Increase to reduce trust in position measurements.
 </source>
   </message>
 </context>
@@ -44122,10 +44980,8 @@ takes effect when the sensor under-reports its own noise.
 <context>
   <name>/parameters/VTE_GPS_P_NOISE/longDesc</name>
   <message>
-  <source>Lower bound on the standard deviation used when fusing GPS position (target or
-mission landing waypoint). The estimator squares this value and clamps the
-per-sample observation variance to max(reported_variance, VTE_GPS_P_NOISE^2).
-The floor only takes effect when the sensor under-reports its own noise.
+  <source>Minimum GNSS position noise for target, mission or home aiding; used only when reported noise is lower.
+Increase to reduce trust in position measurements.
 </source>
   </message>
 </context>
@@ -44138,11 +44994,8 @@ The floor only takes effect when the sensor under-reports its own noise.
 <context>
   <name>/parameters/VTE_GPS_V_NOISE/longDesc</name>
   <message>
-  <source>Lower bound on the standard deviation used when fusing GPS velocity. The
-estimator squares this value and clamps the per-sample observation variance
-to max(reported_variance, VTE_GPS_V_NOISE^2). The floor only takes effect when
-the sensor under-reports its own noise; if the reported variance is already
-above the floor, this parameter has no effect.
+  <source>Minimum GNSS velocity noise; used only when reported noise is lower.
+Increase to reduce trust in velocity measurements.
 </source>
   </message>
 </context>
@@ -44155,7 +45008,7 @@ above the floor, this parameter has no effect.
 <context>
   <name>/parameters/VTE_M_REC_TOUT/longDesc</name>
   <message>
-  <source>Time window for considering a raw measurement as recent and eligible for fusion.
+  <source>Maximum raw measurement age allowed for fusion.
 </source>
   </message>
 </context>
@@ -44168,7 +45021,7 @@ above the floor, this parameter has no effect.
 <context>
   <name>/parameters/VTE_M_UPD_TOUT/longDesc</name>
   <message>
-  <source>Maximum allowed age of a retained measurement before it is discarded from the estimator's cache.
+  <source>Maximum age of local position, velocity and antenna-offset corrections. GNSS-to-vision alignment may span the measurement recent timeout.
 </source>
   </message>
 </context>
@@ -44199,10 +45052,8 @@ above the floor, this parameter has no effect.
 <context>
   <name>/parameters/VTE_POS_NIS_THRE/longDesc</name>
   <message>
-  <source>Lower values mean that more measurements will be rejected. Null hypothesis H0: the innovation is
-consistent with the innovation covariance matrix. Values of 0.46, 1.64, 2.71, 3.84, 6.63, and 10.83
-correspond to 50%, 20%, 10%, 5%, 1%, and 0.1% probability respectively that H0 is incorrectly rejected.
-The confidence interval is computed from the chi-squared distribution.
+  <source>Per-axis outlier gate for position and velocity measurements. Lower values reject more samples.
+For Gaussian innovations, 3.84 rejects about 5% of valid samples; 6.63 rejects 1%.
 </source>
   </message>
 </context>
@@ -44215,9 +45066,9 @@ The confidence interval is computed from the chi-squared distribution.
 <context>
   <name>/parameters/VTE_POS_UNC_IN/longDesc</name>
   <message>
-  <source>Initial variance of the relative target position in x, y, and z direction.
-Changes while the estimator is running are picked up immediately by the module but only take effect
-the next time the estimator initializes or resets.
+  <source>Minimum initial variance of the relative target position in x, y, and z direction.
+The variance reported by the initializing observation is used if it is larger.
+Applied at initialization/reset and GNSS/vision bias activation.
 </source>
   </message>
 </context>
@@ -44225,15 +45076,6 @@ the next time the estimator initializes or resets.
   <name>/parameters/VTE_TASK_MASK/shortDesc</name>
   <message>
   <source>Integer bitmask controlling the tasks of the target estimator</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/VTE_TASK_MASK/longDesc</name>
-  <message>
-  <source>Set bits in the following positions to enable:
-0 : Set to true to use the vision target estimator for precision landing. (+1)
-1 : DEBUG, always active. (+2)
-</source>
   </message>
 </context>
 <context>
@@ -44249,6 +45091,12 @@ the next time the estimator initializes or resets.
   </message>
 </context>
 <context>
+  <name>/parameters/VTE_TASK_MASK/bitmask/2/description</name>
+  <message>
+  <source>precision takeoff</source>
+  </message>
+</context>
+<context>
   <name>/parameters/VTE_TGT_TOUT/shortDesc</name>
   <message>
   <source>Target validity timeout</source>
@@ -44257,7 +45105,8 @@ the next time the estimator initializes or resets.
 <context>
   <name>/parameters/VTE_TGT_TOUT/longDesc</name>
   <message>
-  <source>Maximum time without any fused measurements before the published relative pose/yaw is flagged invalid.
+  <source>Maximum time without accepted position or yaw updates before that estimate becomes invalid.
+Keep below VTE_BTOUT.
 </source>
   </message>
 </context>
@@ -44270,9 +45119,8 @@ the next time the estimator initializes or resets.
 <context>
   <name>/parameters/VTE_VEL_UNC_IN/longDesc</name>
   <message>
-  <source>Initial variance of the relative target velocity in x, y, and z directions.
-Changes while the estimator is running are picked up immediately by the module but only take effect
-the next time the estimator initializes or resets.
+  <source>Initial velocity variance per axis, applied separately to the UAV and moving target.
+Changes apply at initialization/reset.
 </source>
   </message>
 </context>
@@ -44285,16 +45133,8 @@ the next time the estimator initializes or resets.
 <context>
   <name>/parameters/VTE_YAW_ACC_UNC/longDesc</name>
   <message>
-  <source>White-noise PSD on the yaw acceleration driving the
-yaw-rate state. The 1-sigma yaw-rate change allowed over a time t is
-sqrt(VTE_YAW_ACC_UNC * t) (e.g. for the 0.004 default, ~3.6 deg/s after 1 s,
-~11.5 deg/s after 10 s).
-
-This is a variance rate, not a per-step variance; the value is independent
-of the filter update rate. Higher values let the filter follow rapid
-heading changes; lower values smooth the yaw estimate aggressively.
-
-Unit: rad^2/s^3.
+  <source>Yaw-rate variance growth rate from acceleration noise (rad^2/s^3), independent of update rate.
+Higher values track heading changes faster; lower values smooth yaw more.
 </source>
   </message>
 </context>
@@ -44325,10 +45165,8 @@ Unit: rad^2/s^3.
 <context>
   <name>/parameters/VTE_YAW_NIS_THRE/longDesc</name>
   <message>
-  <source>Lower values mean that more measurements will be rejected. Null hypothesis H0: the innovation is
-consistent with the innovation covariance matrix. Values of 0.46, 1.64, 2.71, 3.84, 6.63, and 10.83
-correspond to 50%, 20%, 10%, 5%, 1%, and 0.1% probability respectively that H0 is incorrectly rejected.
-The confidence interval is computed from the chi-squared distribution.
+  <source>Yaw outlier gate. Lower values reject more samples.
+For Gaussian innovations, 3.84 rejects about 5% of valid samples; 6.63 rejects 1%.
 </source>
   </message>
 </context>
@@ -44341,10 +45179,67 @@ The confidence interval is computed from the chi-squared distribution.
 <context>
   <name>/parameters/VTE_YAW_UNC_IN/longDesc</name>
   <message>
-  <source>Initial variance of the target orientation yaw in rad^2.
-Changes while the estimator is running are picked up immediately by the module but only take effect
-the next time the estimator initializes or resets.
+  <source>Initial yaw variance (rad^2); also used for yaw-rate variance ((rad/s)^2).
+Changes apply at initialization/reset.
 </source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ZENOH_ENABLE/shortDesc</name>
+  <message>
+  <source>Enable Zenoh</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ZENOH_ENABLE/longDesc</name>
+  <message>
+  <source>Set true (1) to start the Zenoh driver module (a.k.a the "Zenoh-Pico Node").
+See https://docs.px4.io/main/en/middleware/zenoh and
+https://docs.px4.io/main/en/modules/modules_driver.html#zenoh
+
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ZENOH_ENABLE/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ZENOH_ENABLE/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ZENOH_DOMAIN_ID/shortDesc</name>
+  <message>
+  <source>ROS2 RMW_ZENOH_CPP Domain id</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ZENOH_PUB_CC/shortDesc</name>
+  <message>
+  <source>Zenoh publisher congestion control (global default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ZENOH_PUB_EXPR/shortDesc</name>
+  <message>
+  <source>Zenoh publisher express mode (global default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ZENOH_PUB_PRIO/shortDesc</name>
+  <message>
+  <source>Zenoh publisher priority (global default)</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/ZENOH_PUB_REL/shortDesc</name>
+  <message>
+  <source>Zenoh publisher reliability (global default)</source>
   </message>
 </context>
 <context>
@@ -44588,6 +45483,12 @@ the next time the estimator initializes or resets.
   </message>
 </context>
 <context>
+  <name>$globals/group/Miscellaneous</name>
+  <message>
+  <source>Miscellaneous</source>
+  </message>
+</context>
+<context>
   <name>$globals/group/Mission</name>
   <message>
   <source>Mission</source>
@@ -44690,12 +45591,6 @@ the next time the estimator initializes or resets.
   </message>
 </context>
 <context>
-  <name>$globals/group/Return To Land</name>
-  <message>
-  <source>Return To Land</source>
-  </message>
-</context>
-<context>
   <name>$globals/group/Rover Ackermann</name>
   <message>
   <source>Rover Ackermann</source>
@@ -44711,6 +45606,12 @@ the next time the estimator initializes or resets.
   <name>$globals/group/Rover Differential</name>
   <message>
   <source>Rover Differential</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Rover Manual Control</name>
+  <message>
+  <source>Rover Manual Control</source>
   </message>
 </context>
 <context>
@@ -44831,6 +45732,12 @@ the next time the estimator initializes or resets.
   <name>$globals/group/Vision Target Estimator</name>
   <message>
   <source>Vision Target Estimator</source>
+  </message>
+</context>
+<context>
+  <name>$globals/group/Zenoh</name>
+  <message>
+  <source>Zenoh</source>
   </message>
 </context>
 </TS>

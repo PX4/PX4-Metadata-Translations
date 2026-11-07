@@ -406,7 +406,7 @@
 <context>
   <name>/components/1/enums/failsafe_action_t/entries/6/description</name>
   <message>
-  <source>RTL</source>
+  <source>Return</source>
   </message>
 </context>
 <context>
@@ -467,6 +467,78 @@
   <name>/components/1/enums/failsafe_cause_t/entries/6/description</name>
   <message>
   <source>Remaining flight time low</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/1/description</name>
+  <message>
+  <source>Fix too low</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/1024/description</name>
+  <message>
+  <source>Signal spoofed</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/128/description</name>
+  <message>
+  <source>Vertical position drift too high</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/16/description</name>
+  <message>
+  <source>Vertical position error too high</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/2/description</name>
+  <message>
+  <source>Not enough satellites</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/2048/description</name>
+  <message>
+  <source>Signal jammed</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/256/description</name>
+  <message>
+  <source>Horizontal speed drift too high</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/32/description</name>
+  <message>
+  <source>Speed accuracy too low</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/4/description</name>
+  <message>
+  <source>PDOP too high</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/512/description</name>
+  <message>
+  <source>Vertical speed drift too high</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/64/description</name>
+  <message>
+  <source>Horizontal position drift too high</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/8/description</name>
+  <message>
+  <source>Horizontal position error too high</source>
   </message>
 </context>
 <context>
@@ -754,7 +826,7 @@
 <context>
   <name>/components/1/enums/navigation_mode_group_t/entries/32/description</name>
   <message>
-  <source>RTL</source>
+  <source>Return</source>
   </message>
 </context>
 <context>
@@ -779,6 +851,12 @@
   <name>/components/1/enums/navigation_mode_group_t/entries/4194304/description</name>
   <message>
   <source>VTOL Takeoff</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/enums/navigation_mode_group_t/entries/512/description</name>
+  <message>
+  <source>Manual Parking</source>
   </message>
 </context>
 <context>
@@ -944,6 +1022,12 @@
   </message>
 </context>
 <context>
+  <name>/components/1/enums/navigation_mode_t/entries/27/description</name>
+  <message>
+  <source>Manual Parking</source>
+  </message>
+</context>
+<context>
   <name>/components/1/enums/navigation_mode_t/entries/3/description</name>
   <message>
   <source>Mission</source>
@@ -958,7 +1042,7 @@
 <context>
   <name>/components/1/enums/navigation_mode_t/entries/5/description</name>
   <message>
-  <source>RTL</source>
+  <source>Return</source>
   </message>
 </context>
 <context>
@@ -1072,7 +1156,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/10198977/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1097,7 +1181,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/1049276/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1110,7 +1194,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/10678671/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1196,7 +1280,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/11497430/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1222,14 +1306,14 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/12369553/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/arming_check/events/124285/message</name>
   <message>
-  <source>Geofence RTL requires valid home</source>
+  <source>Geofence Return action requires valid home</source>
   </message>
 </context>
 <context>
@@ -1290,7 +1374,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/13094458/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1310,6 +1394,18 @@
   <name>/components/1/event_groups/arming_check/events/13426421/description</name>
   <message>
   <source>No heading source has aligned the EKF yaw</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/13496123/message</name>
+  <message>
+  <source>Mode not supported</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/13496123/description</name>
+  <message>
+  <source>The selected mode is not supported by the vehicle type.</source>
   </message>
 </context>
 <context>
@@ -1415,7 +1511,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/14995448/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1435,6 +1531,21 @@
   <name>/components/1/event_groups/arming_check/events/15713375/description</name>
   <message>
   <source>&lt;profile name="dev"&gt; Measured strength: {3:.3}, expected: {4:.3} ± &lt;param&gt;EKF2_MAG_CHK_STR&lt;/param&gt; Measured inclination: {5:.3}, expected: {6:.3} ± &lt;param&gt;EKF2_MAG_CHK_INC&lt;/param&gt; This check can be configured via &lt;param&gt;COM_ARM_MAG_STR&lt;/param&gt; and &lt;param&gt;EKF2_MAG_CHECK&lt;/param&gt; parameters.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/1612499/message</name>
+  <message>
+  <source>Battery {3}: charge unknown</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/1612499/description</name>
+  <message>
+  <source>The battery doesn't report its state of charge.
+
+&lt;profile name="dev"&gt; A DroneCAN battery with &lt;param&gt;UAVCAN_SUB_BAT&lt;/param&gt; set to filter the data is estimated from its cell count: configure it with &lt;param&gt;BAT1_N_CELLS&lt;/param&gt; (or the respective battery's parameter).
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1545,7 +1656,7 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
 <context>
   <name>/components/1/event_groups/arming_check/events/2228586/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_FLTT_LOW_ACT&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; The action (warning or distance-aware return) can be configured via &lt;param&gt;COM_LOW_BAT_ACT&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1618,7 +1729,7 @@ Inconsistency value: {4}. Configured Threshold: {5}.
 <context>
   <name>/components/1/event_groups/arming_check/events/276785/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;CBRK_IO_SAFETY&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_SAFETY_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1738,7 +1849,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/4554738/description</name>
   <message>
-  <source>No rally point is configured. Return will fall back to the current position when RTL is triggered. Upload at least one rally point, or change &lt;param&gt;RTL_TYPE&lt;/param&gt; to silence this warning.
+  <source>No rally point is configured. Return mode will fall back to the current position when triggered. Upload at least one rally point, or change &lt;param&gt;RTL_TYPE&lt;/param&gt; to silence this warning.
 
 &lt;profile name="dev"&gt; This warning is active when RTL_TYPE is set to 5 (safe points only).
 &lt;/profile&gt;</source>
@@ -1753,7 +1864,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/4975227/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1781,7 +1892,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/516062/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1821,14 +1932,14 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/5717196/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/arming_check/events/5943233/message</name>
   <message>
-  <source>Found {3} compass (required: {4})</source>
+  <source>Waiting for compass (found {3}, required: {4})</source>
   </message>
 </context>
 <context>
@@ -1880,7 +1991,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/6558257/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1939,6 +2050,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/7796423/message</name>
+  <message>
+  <source>Battery {3}: charge unknown, set BAT{3}_N_CELLS</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/7796423/description</name>
+  <message>
+  <source>The state of charge can't be estimated without knowing the number of cells.
+
+&lt;profile name="dev"&gt; Configure the cell count with &lt;param&gt;BAT1_N_CELLS&lt;/param&gt; (or the respective battery's parameter).
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/7847312/message</name>
   <message>
   <source>RC calibration for channel {3} invalid: MAX greater than {4}</source>
@@ -1953,7 +2079,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/7884377/message</name>
   <message>
-  <source>RTL switch engaged</source>
+  <source>Return switch engaged</source>
   </message>
 </context>
 <context>
@@ -1974,6 +2100,19 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   <source>Vehicle is in safety configuration and denies arming.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARMABLE&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/797656/message</name>
+  <message>
+  <source>Turn safety off first</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/797656/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_SAFETY_MODE&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -2019,7 +2158,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/8713942/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;EKF2_GPS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+  <source>&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -2127,7 +2266,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/1013050/message</name>
   <message>
-  <source>Calibration denied: not supported in SIH mode</source>
+  <source>Sensor calibration denied: not supported in SIH mode</source>
   </message>
 </context>
 <context>
@@ -2145,7 +2284,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/10229254/message</name>
   <message>
-  <source>RTL Mission Land: climb to {1m_v}</source>
+  <source>Return mission landing: climb to {1m_v}</source>
   </message>
 </context>
 <context>
@@ -2181,7 +2320,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/10493596/message</name>
   <message>
-  <source>Airspeed sensor failure detected. Return to launch (RTL) is advised</source>
+  <source>Airspeed sensor failure detected. Return mode is advised</source>
   </message>
 </context>
 <context>
@@ -2221,6 +2360,18 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/10882635/message</name>
+  <message>
+  <source>GPS heading not used: set SENS_GNSSn_HDG</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/10882635/description</name>
+  <message>
+  <source>A receiver reports a dual antenna heading, but &lt;param&gt;SENS_GNSS0_HDG&lt;/param&gt; or &lt;param&gt;SENS_GNSS1_HDG&lt;/param&gt; is Disabled for its slot, or no SENS_GNSSn_ID matches it. Set SENS_GNSSn_HDG and the antenna positions.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/10962739/message</name>
   <message>
   <source>SET_POSITION_TARGET_GLOBAL_INT invalid coordinate frame {1}</source>
@@ -2255,6 +2406,18 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <message>
   <source>- &lt;param&gt;FW_AIRSPD_MIN&lt;/param&gt;: {1:.1}
 - &lt;param&gt;FW_AIRSPD_STALL&lt;/param&gt;: {2:.1}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/11230916/message</name>
+  <message>
+  <source>Local position lost, no GNSS data</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/11230916/description</name>
+  <message>
+  <source>The receiver had stopped delivering samples when the local position estimate became invalid.</source>
   </message>
 </context>
 <context>
@@ -2380,7 +2543,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/12320347/message</name>
   <message>
-  <source>Primary airspeed index bigger than number connected sensors, taking last sensor</source>
+  <source>Primary airspeed sensor not connected, taking last sensor</source>
   </message>
 </context>
 <context>
@@ -2450,6 +2613,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/12815955/message</name>
   <message>
   <source>SET_POSITION_TARGET_LOCAL_NED: FORCE is not supported</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/12826183/message</name>
+  <message>
+  <source>Releasing parachute at minimum altitude</source>
   </message>
 </context>
 <context>
@@ -2617,7 +2786,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/14238006/message</name>
   <message>
-  <source>RTL destination invalid, not updating</source>
+  <source>Return destination invalid, not updating</source>
   </message>
 </context>
 <context>
@@ -2715,6 +2884,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/15438771/message</name>
   <message>
   <source>Invalid configuration for speed control: Neither feed forward (RO_MAX_THR_SPEED) nor feedback (RO_SPEED_P) is setup</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/15442998/message</name>
+  <message>
+  <source>Geofence load failed, fence is not active</source>
   </message>
 </context>
 <context>
@@ -2823,7 +2998,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/16090809/message</name>
   <message>
-  <source>Geofence data invalid (code {1}), RTL will fly directly</source>
+  <source>Geofence data invalid (code {1}), Return will fly directly</source>
   </message>
 </context>
 <context>
@@ -2842,6 +3017,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/16347639/message</name>
   <message>
   <source>Landing, flaring</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/16408389/message</name>
+  <message>
+  <source>Geofence update failed, previous fence still active</source>
   </message>
 </context>
 <context>
@@ -2895,7 +3076,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/16725343/message</name>
   <message>
-  <source>RTL: completed, loitering</source>
+  <source>Return: completed, loitering</source>
   </message>
 </context>
 <context>
@@ -2907,7 +3088,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/185258/message</name>
   <message>
-  <source>RTL: land at destination</source>
+  <source>Return: land at destination</source>
   </message>
 </context>
 <context>
@@ -2956,6 +3137,18 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/2440093/message</name>
   <message>
   <source>Unsupported ARM_DISARM param: {1:.3}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/2451239/message</name>
+  <message>
+  <source>GPS heading not used: set the antenna positions</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/2451239/description</name>
+  <message>
+  <source>SENS_GNSSn_HDG is set, but the antenna positions it measures between are less than 5 cm apart. Set SENS_GNSSn_OFFX/Y/Z of both receivers for a moving base, or SENS_GNSSn_AUXX/Y/Z for a dual antenna receiver.</source>
   </message>
 </context>
 <context>
@@ -3013,6 +3206,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/3064354/message</name>
+  <message>
+  <source>Geofence loaded, no fence configured</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/3092229/message</name>
   <message>
   <source>Unsupported auto mode</source>
@@ -3045,7 +3244,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/3327268/message</name>
   <message>
-  <source>RTL: avoiding geofence</source>
+  <source>Return: avoiding geofence</source>
   </message>
 </context>
 <context>
@@ -3093,7 +3292,19 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/3484900/message</name>
   <message>
-  <source>Returning to launch</source>
+  <source>Switching to Return</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/3585876/message</name>
+  <message>
+  <source>Geofence too large for Return avoidance (needs {1} of {2} nodes), Return will fly directly</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/3585876/description</name>
+  <message>
+  <source>The geofence needs more graph nodes than configured with &lt;param&gt;GF_AVOID_NODES&lt;/param&gt;. Return will fly directly to its destination, ignoring the geofence. Increase &lt;param&gt;GF_AVOID_NODES&lt;/param&gt; to at least the required count (reboot required), or set it to 0 to disable geofence avoidance in Return.</source>
   </message>
 </context>
 <context>
@@ -3204,6 +3415,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/4197821/message</name>
+  <message>
+  <source>Geofence breach on path to waypoint {1}</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/4202815/message</name>
   <message>
   <source>Ignoring mission clear command, busy</source>
@@ -3296,6 +3513,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/4953371/message</name>
+  <message>
+  <source>Mission rejected: DO_JUMP {1} path cannot be resolved</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/5063943/message</name>
   <message>
   <source>Error saving settings</source>
@@ -3335,6 +3558,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/5158211/message</name>
   <message>
   <source>No airspeed sensor detected, switching to non-airspeed mode</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/5248520/message</name>
+  <message>
+  <source>Return: cannot follow the mission; flying directly</source>
   </message>
 </context>
 <context>
@@ -3382,7 +3611,13 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/5383828/message</name>
   <message>
-  <source>RTL: start return at {1m_v} ({2m_v} above destination)</source>
+  <source>Return: start return at {1m_v} ({2m_v} above destination)</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/5429634/message</name>
+  <message>
+  <source>Geofence breach on DO_JUMP {1} path</source>
   </message>
 </context>
 <context>
@@ -3418,7 +3653,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/5747358/message</name>
   <message>
-  <source>RTL destination breaches geofence, will fly directly</source>
+  <source>Return destination breaches geofence, will fly directly</source>
   </message>
 </context>
 <context>
@@ -3458,9 +3693,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/5991400/message</name>
+  <message>
+  <source>Mission rejected: geofence path check unavailable</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/6006807/message</name>
   <message>
   <source>Quad-chute triggered due to maximum pitch angle exceeded</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/6025607/message</name>
+  <message>
+  <source>Mission rejected: DO_JUMP {1} must target an earlier item</source>
   </message>
 </context>
 <context>
@@ -3506,6 +3753,18 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/6462949/message</name>
+  <message>
+  <source>No velocity estimate, loitering instead of holding course</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/6724085/message</name>
+  <message>
+  <source>Takeoff complete, continuing on course {1:.0} deg</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/6738881/message</name>
   <message>
   <source>DAA: resolve air-traffic conflict before flight</source>
@@ -3532,7 +3791,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/6880628/message</name>
   <message>
-  <source>Approaching max flight time (system will RTL in {1} minutes)</source>
+  <source>Approaching max flight time (system will switch to Return mode in {1} minutes)</source>
   </message>
 </context>
 <context>
@@ -3544,7 +3803,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/6922012/message</name>
   <message>
-  <source>DO JUMP waypoint could not be written</source>
+  <source>DO JUMP could not be saved, continuing without the jump</source>
   </message>
 </context>
 <context>
@@ -3616,7 +3875,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/7714236/message</name>
   <message>
-  <source>Approaching max flight time (system will RTL in {1} seconds)</source>
+  <source>Approaching max flight time (system will switch to Return mode in {1} seconds)</source>
   </message>
 </context>
 <context>
@@ -3652,7 +3911,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/7860665/message</name>
   <message>
-  <source>Mission rejected: land start item before RTL item is not possible</source>
+  <source>Mission rejected: land start item before Return item is not possible</source>
   </message>
 </context>
 <context>
@@ -3702,6 +3961,18 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/8409952/message</name>
+  <message>
+  <source>Local position lost, GNSS check failed: {1}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/8409952/description</name>
+  <message>
+  <source>The GNSS quality checks that failed in the run up to the local position estimate becoming invalid. In flight EKF2 checks the fix type, the horizontal, vertical and speed accuracy, spoofing and jamming.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/8459921/message</name>
   <message>
   <source>Mission rejected: Landing waypoint/pattern required</source>
@@ -3710,7 +3981,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/8518010/message</name>
   <message>
-  <source>RTL: no geofence avoidance path; flying directly</source>
+  <source>Return: no geofence avoidance path; flying directly</source>
   </message>
 </context>
 <context>
@@ -3738,6 +4009,18 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/8675984/message</name>
+  <message>
+  <source>Geofence loaded, fence is active</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/8704411/message</name>
+  <message>
+  <source>Geofence breach by loiter circle of waypoint {1}</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/8706060/message</name>
   <message>
   <source>Manual backward speed has been constrained by forward speed</source>
@@ -3747,6 +4030,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/8706060/description</name>
   <message>
   <source>&lt;param&gt;MPC_VEL_MAN_BACK&lt;/param&gt; is set to {1:.0}.</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/8713202/message</name>
+  <message>
+  <source>Releasing parachute, terminating flight</source>
   </message>
 </context>
 <context>
@@ -3792,6 +4081,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/8935528/message</name>
   <message>
   <source>Mission manager currently busy, ignoring new waypoint index</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/895279/message</name>
+  <message>
+  <source>Mission rejected: DO_JUMP {1} must target an earlier item and repeat at most 65535 times</source>
   </message>
 </context>
 <context>
@@ -3920,6 +4215,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/9746573/message</name>
+  <message>
+  <source>Geofence item {1} invalid, fence is not active</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/9751178/message</name>
   <message>
   <source>{3}: switching to {2}</source>
@@ -3971,6 +4272,20 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/health/events/10332979/message</name>
+  <message>
+  <source>No barometer enabled</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/10332979/description</name>
+  <message>
+  <source>There is no barometer, or every barometer has been disabled by setting its
+&lt;param&gt;CAL_BARO0_PRIO&lt;/param&gt; (or CAL_BARO1/2/3_PRIO) to zero. Set
+&lt;param&gt;SYS_HAS_BARO&lt;/param&gt; to 0 if the vehicle is meant to fly without one.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/health/events/1058956/message</name>
   <message>
   <source>CPU load too high: {3:.1}%</source>
@@ -3992,22 +4307,24 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
-  <name>/components/1/event_groups/health/events/1127257/message</name>
-  <message>
-  <source>GPS {3} lost fix</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/health/events/1127257/description</name>
-  <message>
-  <source>&lt;profile name="dev"&gt; Configure the minimum required GPS count with &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt;. Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;.
-&lt;/profile&gt;</source>
-  </message>
-</context>
-<context>
   <name>/components/1/event_groups/health/events/11478328/message</name>
   <message>
   <source>No valid data from Gyro {3}</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/1202140/message</name>
+  <message>
+  <source>Motor {3} not spinning</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/1202140/description</name>
+  <message>
+  <source>The motor reports no RPM or a stuck fault after arming and the vehicle is disarmed.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -4260,6 +4577,18 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/health/events/4822975/message</name>
+  <message>
+  <source>No valid barometer data</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/4822975/description</name>
+  <message>
+  <source>Every enabled barometer is unavailable or unhealthy.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/health/events/4877352/message</name>
   <message>
   <source>Imbalanced propeller detected</source>
@@ -4361,6 +4690,19 @@ This check can be configured via &lt;param&gt;COM_ARM_HFLT_CHK&lt;/param&gt; par
   <source>&lt;profile name="dev"&gt; Ensure the ADC is working and the system_power topic is published.
 
 This check can be configured via &lt;param&gt;CBRK_SUPPLY_CHK&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/7836538/message</name>
+  <message>
+  <source>GNSS {3} fails its checks</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/health/events/7836538/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; Configure the minimum required GPS count with &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt;. Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;.
 &lt;/profile&gt;</source>
   </message>
 </context>

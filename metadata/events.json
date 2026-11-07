@@ -385,7 +385,7 @@
               "name": "hold"
             },
             "6": {
-              "description": "RTL",
+              "description": "Return",
               "name": "rtl"
             },
             "7": {
@@ -436,6 +436,61 @@
             }
           },
           "type": "uint8_t"
+        },
+        "gnss_check_fail_t": {
+          "description": "Bitfield of failing GNSS quality checks, the bit numbers of estimator_status.gps_check_fail_flags",
+          "entries": {
+            "1": {
+              "description": "Fix too low",
+              "name": "fix"
+            },
+            "1024": {
+              "description": "Signal spoofed",
+              "name": "spoofed"
+            },
+            "128": {
+              "description": "Vertical position drift too high",
+              "name": "vdrift"
+            },
+            "16": {
+              "description": "Vertical position error too high",
+              "name": "vacc"
+            },
+            "2": {
+              "description": "Not enough satellites",
+              "name": "nsats"
+            },
+            "2048": {
+              "description": "Signal jammed",
+              "name": "jammed"
+            },
+            "256": {
+              "description": "Horizontal speed drift too high",
+              "name": "hspeed"
+            },
+            "32": {
+              "description": "Speed accuracy too low",
+              "name": "sacc"
+            },
+            "4": {
+              "description": "PDOP too high",
+              "name": "pdop"
+            },
+            "512": {
+              "description": "Vertical speed drift too high",
+              "name": "vspeed"
+            },
+            "64": {
+              "description": "Horizontal position drift too high",
+              "name": "hdrift"
+            },
+            "8": {
+              "description": "Horizontal position error too high",
+              "name": "hacc"
+            }
+          },
+          "is_bitfield": true,
+          "type": "uint16_t"
         },
         "health_component_t": {
           "description": "Bitfield for subsystems & components",
@@ -639,7 +694,7 @@
               "name": "external6"
             },
             "32": {
-              "description": "RTL",
+              "description": "Return",
               "name": "rtl"
             },
             "32768": {
@@ -657,6 +712,10 @@
             "4194304": {
               "description": "VTOL Takeoff",
               "name": "vtol_takeoff"
+            },
+            "512": {
+              "description": "Manual Parking",
+              "name": "manual_parking"
             },
             "524288": {
               "description": "Follow Target",
@@ -773,6 +832,10 @@
               "description": "Descend",
               "name": "descend"
             },
+            "27": {
+              "description": "Manual Parking",
+              "name": "manual_parking"
+            },
             "3": {
               "description": "Mission",
               "name": "auto_mission"
@@ -782,7 +845,7 @@
               "name": "auto_loiter"
             },
             "5": {
-              "description": "RTL",
+              "description": "Return",
               "name": "auto_rtl"
             },
             "6": {
@@ -897,7 +960,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS PDOP too high",
               "name": "check_estimator_gps_pdop_too_high"
             },
@@ -927,7 +990,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS Horizontal Position Error too high",
               "name": "check_estimator_gps_hor_pos_err_too_high"
             },
@@ -942,7 +1005,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS Speed Accuracy too low",
               "name": "check_estimator_gps_speed_acc_too_low"
             },
@@ -1063,7 +1126,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS Vertical Position Drift too high",
               "name": "check_estimator_gps_vert_pos_drift_too_high"
             },
@@ -1093,7 +1156,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS fix too low",
               "name": "check_estimator_gps_fix_too_low"
             },
@@ -1109,7 +1172,7 @@
                 }
               ],
               "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> parameter.\n</profile>",
-              "message": "Geofence RTL requires valid home",
+              "message": "Geofence Return action requires valid home",
               "name": "check_gf_no_home"
             },
             "12689900": {
@@ -1195,7 +1258,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "Not enough GPS Satellites",
               "name": "check_estimator_gps_num_sats_too_low"
             },
@@ -1231,6 +1294,21 @@
               "description": "No heading source has aligned the EKF yaw",
               "message": "No heading reference",
               "name": "check_estimator_heading_no_source"
+            },
+            "13496123": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "The selected mode is not supported by the vehicle type.",
+              "message": "Mode not supported",
+              "name": "check_modes_not_supported"
             },
             "13528143": {
               "arguments": [
@@ -1362,7 +1440,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS signal jammed",
               "name": "check_estimator_gps_jammed"
             },
@@ -1410,6 +1488,25 @@
               "description": "<profile name=\"dev\"> Measured strength: {3:.3}, expected: {4:.3} \u00b1 <param>EKF2_MAG_CHK_STR</param> Measured inclination: {5:.3}, expected: {6:.3} \u00b1 <param>EKF2_MAG_CHK_INC</param> This check can be configured via <param>COM_ARM_MAG_STR</param> and <param>EKF2_MAG_CHECK</param> parameters.\n</profile>",
               "message": "Strong magnetic interference",
               "name": "check_estimator_mag_interference"
+            },
+            "1612499": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "The battery doesn't report its state of charge.\n\n<profile name=\"dev\"> A DroneCAN battery with <param>UAVCAN_SUB_BAT</param> set to filter the data is estimated from its cell count: configure it with <param>BAT1_N_CELLS</param> (or the respective battery's parameter).\n</profile>",
+              "message": "Battery {3}: charge unknown",
+              "name": "check_battery_charge_unknown"
             },
             "16158540": {
               "arguments": [
@@ -1578,7 +1675,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_FLTT_LOW_ACT</param> parameter.\n</profile>",
+              "description": "<profile name=\"dev\"> The action (warning or distance-aware return) can be configured via <param>COM_LOW_BAT_ACT</param> parameter.\n</profile>",
               "message": "Remaining flight time low",
               "name": "check_battery_rem_flight_time_low"
             },
@@ -1673,7 +1770,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>CBRK_IO_SAFETY</param> parameter.\n</profile>",
+              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_SAFETY_MODE</param> parameter.\n</profile>",
               "message": "Press safety button first",
               "name": "check_system_safety_button"
             },
@@ -1835,7 +1932,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "No rally point is configured. Return will fall back to the current position when RTL is triggered. Upload at least one rally point, or change <param>RTL_TYPE</param> to silence this warning.\n\n<profile name=\"dev\"> This warning is active when RTL_TYPE is set to 5 (safe points only).\n</profile>",
+              "description": "No rally point is configured. Return mode will fall back to the current position when triggered. Upload at least one rally point, or change <param>RTL_TYPE</param> to silence this warning.\n\n<profile name=\"dev\"> This warning is active when RTL_TYPE is set to 5 (safe points only).\n</profile>",
               "message": "No rally point configured",
               "name": "check_rally_point_missing"
             },
@@ -1850,7 +1947,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS Horizontal Speed Drift too high",
               "name": "check_estimator_gps_hor_speed_drift_too_high"
             },
@@ -1880,7 +1977,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS Vertical Position Error too high",
               "name": "check_estimator_gps_vert_pos_err_too_high"
             },
@@ -1946,7 +2043,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS Horizontal Position Drift too high",
               "name": "check_estimator_gps_hor_pos_drift_too_high"
             },
@@ -1970,7 +2067,7 @@
                 }
               ],
               "description": "Make sure all required sensors are working, enabled and calibrated.\n\n<profile name=\"dev\"> This check can be configured via <param>SYS_HAS_MAG</param> parameter.\n</profile>",
-              "message": "Found {3} compass (required: {4})",
+              "message": "Waiting for compass (found {3}, required: {4})",
               "name": "check_mag_sys_has_mag_missing"
             },
             "6054338": {
@@ -2032,7 +2129,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS Vertical Speed Drift too high",
               "name": "check_estimator_gps_vert_speed_drift_too_high"
             },
@@ -2104,6 +2201,25 @@
               "message": "USB connected",
               "name": "check_system_usb_connected"
             },
+            "7796423": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "The state of charge can't be estimated without knowing the number of cells.\n\n<profile name=\"dev\"> Configure the cell count with <param>BAT1_N_CELLS</param> (or the respective battery's parameter).\n</profile>",
+              "message": "Battery {3}: charge unknown, set BAT{3}_N_CELLS",
+              "name": "check_battery_cell_count_unknown"
+            },
             "7847312": {
               "arguments": [
                 {
@@ -2138,7 +2254,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "message": "RTL switch engaged",
+              "message": "Return switch engaged",
               "name": "check_man_control_rtl_engaged"
             },
             "79408": {
@@ -2169,6 +2285,21 @@
               "description": "Vehicle is in safety configuration and denies arming.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARMABLE</param> parameter.\n</profile>",
               "message": "Vehicle is in safety configuration",
               "name": "check_armable_configuration"
+            },
+            "797656": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>COM_SAFETY_MODE</param> parameter.\n</profile>",
+              "message": "Turn safety off first",
+              "name": "check_system_safety"
             },
             "810921": {
               "arguments": [
@@ -2237,7 +2368,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> Can be configured with <param>EKF2_GPS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "description": "<profile name=\"dev\"> Can be configured with <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
               "message": "GPS signal spoofed",
               "name": "check_estimator_gps_spoofed"
             },
@@ -2414,7 +2545,7 @@
               "name": "commander_calib_rc_off"
             },
             "1013050": {
-              "message": "Calibration denied: not supported in SIH mode",
+              "message": "Sensor calibration denied: not supported in SIH mode",
               "name": "commander_calib_denied_sih"
             },
             "10155243": {
@@ -2432,7 +2563,7 @@
                   "type": "int32_t"
                 }
               ],
-              "message": "RTL Mission Land: climb to {1m_v}",
+              "message": "Return mission landing: climb to {1m_v}",
               "name": "rtl_mission_land_climb"
             },
             "10250020": {
@@ -2479,7 +2610,7 @@
               "name": "mavlink_iridium_enable_cmd"
             },
             "10493596": {
-              "message": "Airspeed sensor failure detected. Return to launch (RTL) is advised",
+              "message": "Airspeed sensor failure detected. Return mode is advised",
               "name": "airspeed_selector_sensor_failure"
             },
             "10503063": {
@@ -2523,6 +2654,11 @@
               "message": "Enabling transmitting with IRIDIUM mavlink on instance {1}",
               "name": "mavlink_iridium_enable"
             },
+            "10882635": {
+              "description": "A receiver reports a dual antenna heading, but <param>SENS_GNSS0_HDG</param> or <param>SENS_GNSS1_HDG</param> is Disabled for its slot, or no SENS_GNSSn_ID matches it. Set SENS_GNSSn_HDG and the antenna positions.",
+              "message": "GPS heading not used: set SENS_GNSSn_HDG",
+              "name": "sensors_gnss_heading_unconfigured"
+            },
             "10962739": {
               "arguments": [
                 {
@@ -2559,6 +2695,11 @@
               "description": "- <param>FW_AIRSPD_MIN</param>: {1:.1}\n- <param>FW_AIRSPD_STALL</param>: {2:.1}",
               "message": "Invalid configuration: FW_AIRSPD_STALL higher FW_AIRSPD_MIN",
               "name": "fixedwing_position_control_conf_invalid_stall"
+            },
+            "11230916": {
+              "description": "The receiver had stopped delivering samples when the local position estimate became invalid.",
+              "message": "Local position lost, no GNSS data",
+              "name": "check_estimator_position_lost_gnss_no_data"
             },
             "11290563": {
               "message": "Kill engaged",
@@ -2713,7 +2854,7 @@
               "name": "navigator_fail_max_hagl"
             },
             "12320347": {
-              "message": "Primary airspeed index bigger than number connected sensors, taking last sensor",
+              "message": "Primary airspeed sensor not connected, taking last sensor",
               "name": "airspeed_selector_prim_too_high"
             },
             "12399035": {
@@ -2789,6 +2930,10 @@
               "message": "SET_POSITION_TARGET_LOCAL_NED: FORCE is not supported",
               "name": "mavlink_rcv_sp_target_unsup_force"
             },
+            "12826183": {
+              "message": "Releasing parachute at minimum altitude",
+              "name": "fw_mode_manager_parachute_release_floor"
+            },
             "12894058": {
               "arguments": [
                 {
@@ -2845,8 +2990,15 @@
               "type": "append_health_and_arming_messages"
             },
             "133277": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint32_t"
+                }
+              ],
               "message": "Arming denied: Resolve system health failures first",
-              "name": "commander_arm_denied_resolve_failures"
+              "name": "commander_arm_denied_resolve_failures",
+              "type": "append_health_and_arming_messages"
             },
             "13378512": {
               "arguments": [
@@ -2972,7 +3124,7 @@
               "name": "commander_dl_regained"
             },
             "14238006": {
-              "message": "RTL destination invalid, not updating",
+              "message": "Return destination invalid, not updating",
               "name": "rtl_destination_invalid"
             },
             "14440680": {
@@ -3088,6 +3240,10 @@
               "message": "Invalid configuration for speed control: Neither feed forward (RO_MAX_THR_SPEED) nor feedback (RO_SPEED_P) is setup",
               "name": "differential_speed_control_conf_invalid_speed_control"
             },
+            "15442998": {
+              "message": "Geofence load failed, fence is not active",
+              "name": "navigator_geofence_load_failed"
+            },
             "15456613": {
               "arguments": [
                 {
@@ -3190,7 +3346,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "message": "Geofence data invalid (code {1}), RTL will fly directly",
+              "message": "Geofence data invalid (code {1}), Return will fly directly",
               "name": "rtl_avoidance_build_failed"
             },
             "16223078": {
@@ -3210,6 +3366,10 @@
             "16347639": {
               "message": "Landing, flaring",
               "name": "fixedwing_position_control_landing_circle_flaring"
+            },
+            "16408389": {
+              "message": "Geofence update failed, previous fence still active",
+              "name": "navigator_geofence_update_failed"
             },
             "16440365": {
               "arguments": [
@@ -3250,7 +3410,7 @@
               "name": "mavlink_mission_mis_item_invalid"
             },
             "16725343": {
-              "message": "RTL: completed, loitering",
+              "message": "Return: completed, loitering",
               "name": "rtl_completed_loiter"
             },
             "1746622": {
@@ -3258,7 +3418,7 @@
               "name": "commander_rc_override"
             },
             "185258": {
-              "message": "RTL: land at destination",
+              "message": "Return: land at destination",
               "name": "rtl_land_at_destination"
             },
             "1880909": {
@@ -3298,6 +3458,11 @@
               ],
               "message": "Unsupported ARM_DISARM param: {1:.3}",
               "name": "commander_unsupported_arm_disarm_param"
+            },
+            "2451239": {
+              "description": "SENS_GNSSn_HDG is set, but the antenna positions it measures between are less than 5 cm apart. Set SENS_GNSSn_OFFX/Y/Z of both receivers for a moving base, or SENS_GNSSn_AUXX/Y/Z for a dual antenna receiver.",
+              "message": "GPS heading not used: set the antenna positions",
+              "name": "sensors_gnss_heading_no_baseline"
             },
             "2474944": {
               "message": "Critical battery level, land now",
@@ -3353,6 +3518,10 @@
               "message": "Received unknown mission type, abort",
               "name": "mavlink_mission_unknown_mis_type"
             },
+            "3064354": {
+              "message": "Geofence loaded, no fence configured",
+              "name": "navigator_geofence_empty_load_recovered"
+            },
             "3092229": {
               "message": "Unsupported auto mode",
               "name": "commander_unsupported_auto_mode"
@@ -3384,7 +3553,7 @@
               "name": "commander_landing_current_pos"
             },
             "3327268": {
-              "message": "RTL: avoiding geofence",
+              "message": "Return: avoiding geofence",
               "name": "rtl_avoiding_geofence"
             },
             "3329221": {
@@ -3438,8 +3607,23 @@
               "name": "launch_detection_running_info"
             },
             "3484900": {
-              "message": "Returning to launch",
+              "message": "Switching to Return",
               "name": "commander_rtl"
+            },
+            "3585876": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                },
+                {
+                  "name": "arg1",
+                  "type": "uint16_t"
+                }
+              ],
+              "description": "The geofence needs more graph nodes than configured with <param>GF_AVOID_NODES</param>. Return will fly directly to its destination, ignoring the geofence. Increase <param>GF_AVOID_NODES</param> to at least the required count (reboot required), or set it to 0 to disable geofence avoidance in Return.",
+              "message": "Geofence too large for Return avoidance (needs {1} of {2} nodes), Return will fly directly",
+              "name": "rtl_avoidance_budget_exceeded"
             },
             "3623245": {
               "arguments": [
@@ -3550,6 +3734,16 @@
               "message": "Start loiter with fixed bank angle",
               "name": "fixedwing_position_control_fb_loiter"
             },
+            "4197821": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                }
+              ],
+              "message": "Geofence breach on path to waypoint {1}",
+              "name": "navigator_mis_geofence_path_violation"
+            },
             "4202815": {
               "message": "Ignoring mission clear command, busy",
               "name": "mavlink_mission_ignore_clear"
@@ -3659,6 +3853,16 @@
               "message": "Gyro {1} clipping, not safe to fly!",
               "name": "vehicle_imu_gyro_clipping"
             },
+            "4953371": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                }
+              ],
+              "message": "Mission rejected: DO_JUMP {1} path cannot be resolved",
+              "name": "navigator_mis_do_jump_invalid"
+            },
             "5063943": {
               "message": "Error saving settings",
               "name": "commander_save_param_failed"
@@ -3695,6 +3899,10 @@
             "5158211": {
               "message": "No airspeed sensor detected, switching to non-airspeed mode",
               "name": "airspeed_selector_switch"
+            },
+            "5248520": {
+              "message": "Return: cannot follow the mission; flying directly",
+              "name": "rtl_mission_executor_failed"
             },
             "5300601": {
               "arguments": [
@@ -3764,8 +3972,18 @@
                   "type": "int32_t"
                 }
               ],
-              "message": "RTL: start return at {1m_v} ({2m_v} above destination)",
+              "message": "Return: start return at {1m_v} ({2m_v} above destination)",
               "name": "vrtl_return_at"
+            },
+            "5429634": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                }
+              ],
+              "message": "Geofence breach on DO_JUMP {1} path",
+              "name": "navigator_mis_geofence_jump_breach"
             },
             "5494498": {
               "message": "Mission rejected: Takeoff waypoint required",
@@ -3800,7 +4018,7 @@
               "name": "commander_cal_cmd_denied"
             },
             "5747358": {
-              "message": "RTL destination breaches geofence, will fly directly",
+              "message": "Return destination breaches geofence, will fly directly",
               "name": "rtl_destination_breaches"
             },
             "5795201": {
@@ -3827,9 +4045,23 @@
               "message": "Received unknown mission type, abort",
               "name": "mavlink_mission_recv_unknown_mis_type"
             },
+            "5991400": {
+              "message": "Mission rejected: geofence path check unavailable",
+              "name": "navigator_mis_geofence_unavailable"
+            },
             "6006807": {
               "message": "Quad-chute triggered due to maximum pitch angle exceeded",
               "name": "vtol_att_ctrl_quadchute_max_pitch"
+            },
+            "6025607": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                }
+              ],
+              "message": "Mission rejected: DO_JUMP {1} must target an earlier item",
+              "name": "navigator_mis_jump_not_backward"
             },
             "6124520": {
               "message": "Mission rejected: starts with landing",
@@ -3855,6 +4087,20 @@
             "6415112": {
               "message": "RC trim calibration completed",
               "name": "commander_cal_trim_done"
+            },
+            "6462949": {
+              "message": "No velocity estimate, loitering instead of holding course",
+              "name": "navigator_takeoff_hold_course_no_velocity"
+            },
+            "6724085": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "float"
+                }
+              ],
+              "message": "Takeoff complete, continuing on course {1:.0} deg",
+              "name": "navigator_takeoff_hold_course"
             },
             "6738881": {
               "message": "DAA: resolve air-traffic conflict before flight",
@@ -3886,11 +4132,11 @@
                 }
               ],
               "description": "Maximal flight time warning (more than 1min remaining)",
-              "message": "Approaching max flight time (system will RTL in {1} minutes)",
+              "message": "Approaching max flight time (system will switch to Return mode in {1} minutes)",
               "name": "commander_max_flight_time_warning_minutes"
             },
             "6922012": {
-              "message": "DO JUMP waypoint could not be written",
+              "message": "DO JUMP could not be saved, continuing without the jump",
               "name": "mission_failed_to_write_do_jump"
             },
             "6974862": {
@@ -3968,7 +4214,7 @@
                 }
               ],
               "description": "Maximal flight time warning (less than 1min remaining)",
-              "message": "Approaching max flight time (system will RTL in {1} seconds)",
+              "message": "Approaching max flight time (system will switch to Return mode in {1} seconds)",
               "name": "commander_max_flight_time_warning_seconds"
             },
             "7791755": {
@@ -4001,7 +4247,7 @@
               "name": "mecanum_vel_control_conf_invalid_speed_lim"
             },
             "7860665": {
-              "message": "Mission rejected: land start item before RTL item is not possible",
+              "message": "Mission rejected: land start item before Return item is not possible",
               "name": "navigator_mis_land_before_rtl"
             },
             "7939557": {
@@ -4071,12 +4317,23 @@
               "message": "Not yet ready for mission, no position lock",
               "name": "navigator_mis_no_pos_lock"
             },
+            "8409952": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "px4::gnss_check_fail_t"
+                }
+              ],
+              "description": "The GNSS quality checks that failed in the run up to the local position estimate becoming invalid. In flight EKF2 checks the fix type, the horizontal, vertical and speed accuracy, spoofing and jamming.",
+              "message": "Local position lost, GNSS check failed: {1}",
+              "name": "check_estimator_position_lost_gnss_reason"
+            },
             "8459921": {
               "message": "Mission rejected: Landing waypoint/pattern required",
               "name": "navigator_mis_land_missing"
             },
             "8518010": {
-              "message": "RTL: no geofence avoidance path; flying directly",
+              "message": "Return: no geofence avoidance path; flying directly",
               "name": "rtl_avoidance_runtime_fallback"
             },
             "8546752": {
@@ -4108,6 +4365,20 @@
               "message": "Not enough bandwidth to enable log streaming ({1} \\< 5000)",
               "name": "mavlink_log_not_enough_bw"
             },
+            "8675984": {
+              "message": "Geofence loaded, fence is active",
+              "name": "navigator_geofence_load_recovered"
+            },
+            "8704411": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                }
+              ],
+              "message": "Geofence breach by loiter circle of waypoint {1}",
+              "name": "navigator_mis_geofence_loiter_breach"
+            },
             "8706060": {
               "arguments": [
                 {
@@ -4118,6 +4389,10 @@
               "description": "<param>MPC_VEL_MAN_BACK</param> is set to {1:.0}.",
               "message": "Manual backward speed has been constrained by forward speed",
               "name": "mc_pos_ctrl_man_vel_back_set"
+            },
+            "8713202": {
+              "message": "Releasing parachute, terminating flight",
+              "name": "fw_mode_manager_parachute_landing_release"
             },
             "8716557": {
               "arguments": [
@@ -4171,6 +4446,16 @@
             "8935528": {
               "message": "Mission manager currently busy, ignoring new waypoint index",
               "name": "mavlink_mission_state_busy"
+            },
+            "895279": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                }
+              ],
+              "message": "Mission rejected: DO_JUMP {1} must target an earlier item and repeat at most 65535 times",
+              "name": "mavlink_mission_jump_invalid"
             },
             "8960600": {
               "arguments": [
@@ -4289,6 +4574,16 @@
               "message": "5V overcurrent detected, landing advised",
               "name": "check_power_oc_report"
             },
+            "9746573": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                }
+              ],
+              "message": "Geofence item {1} invalid, fence is not active",
+              "name": "navigator_geofence_invalid_item"
+            },
             "9751178": {
               "arguments": [
                 {
@@ -4357,6 +4652,21 @@
               "message": "Battery {3} missing",
               "name": "check_battery_missing"
             },
+            "10332979": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "There is no barometer, or every barometer has been disabled by setting its\n<param>CAL_BARO0_PRIO</param> (or CAL_BARO1/2/3_PRIO) to zero. Set\n<param>SYS_HAS_BARO</param> to 0 if the vehicle is meant to fly without one.",
+              "message": "No barometer enabled",
+              "name": "check_baro_none_enabled"
+            },
             "1058956": {
               "arguments": [
                 {
@@ -4390,25 +4700,6 @@
               "message": "No valid data from optical flow sensor",
               "name": "check_optical_flow_sensor_invalid"
             },
-            "1127257": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                },
-                {
-                  "name": "arg0",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "<profile name=\"dev\"> Configure the minimum required GPS count with <param>SYS_HAS_NUM_GNSS</param>. Configure the failsafe action with <param>COM_GNSSLOSS_ACT</param>.\n</profile>",
-              "message": "GPS {3} lost fix",
-              "name": "check_gnss_receiver_no_fix"
-            },
             "11478328": {
               "arguments": [
                 {
@@ -4426,6 +4717,25 @@
               ],
               "message": "No valid data from Gyro {3}",
               "name": "check_gyro_no_data"
+            },
+            "1202140": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "The motor reports no RPM or a stuck fault after arming and the vehicle is disarmed.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_CHK_ESCS</param> parameter.\n</profile>",
+              "message": "Motor {3} not spinning",
+              "name": "check_esc_motor_not_spinning"
             },
             "13344346": {
               "arguments": [
@@ -4829,6 +5139,21 @@
               "message": "Airspeed invalid",
               "name": "check_airspeed_invalid"
             },
+            "4822975": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Every enabled barometer is unavailable or unhealthy.",
+              "message": "No valid barometer data",
+              "name": "check_baro_none_selected"
+            },
             "4877352": {
               "arguments": [
                 {
@@ -4981,6 +5306,25 @@
               "description": "<profile name=\"dev\"> Ensure the ADC is working and the system_power topic is published.\n\nThis check can be configured via <param>CBRK_SUPPLY_CHK</param> parameter.\n</profile>",
               "message": "System power unavailable",
               "name": "check_missing_system_power"
+            },
+            "7836538": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                },
+                {
+                  "name": "arg0",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> Configure the minimum required GPS count with <param>SYS_HAS_NUM_GNSS</param>. Configure the failsafe action with <param>COM_GNSSLOSS_ACT</param>.\n</profile>",
+              "message": "GNSS {3} fails its checks",
+              "name": "check_gnss_receiver_unhealthy"
             },
             "7908333": {
               "arguments": [
@@ -5242,6 +5586,9 @@
           ],
           "8": [
             720896
+          ],
+          "9": [
+            786432
           ]
         }
       },
