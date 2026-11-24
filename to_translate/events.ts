@@ -524,6 +524,12 @@
   </message>
 </context>
 <context>
+  <name>/components/1/enums/gnss_check_fail_t/entries/4096/description</name>
+  <message>
+  <source>Horizontal position inconsistent with velocity</source>
+  </message>
+</context>
+<context>
   <name>/components/1/enums/gnss_check_fail_t/entries/512/description</name>
   <message>
   <source>Vertical speed drift too high</source>
@@ -1568,6 +1574,21 @@
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/16347677/message</name>
+  <message>
+  <source>Attitude failure detected</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/16347677/description</name>
+  <message>
+  <source>The vehicle tilt deviated from the attitude setpoint, by more than the configured angle.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_TILT_ERROR&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/16642797/message</name>
   <message>
   <source>Heading estimate invalid</source>
@@ -1583,21 +1604,6 @@
   <name>/components/1/event_groups/arming_check/events/16716537/message</name>
   <message>
   <source>Compass {3} uncalibrated</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/16745468/message</name>
-  <message>
-  <source>Attitude failure detected</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/16745468/description</name>
-  <message>
-  <source>The vehicle exceeded the maximum configured pitch angle.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_P&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -1645,6 +1651,21 @@ This check can be configured via &lt;param&gt;FW_AIRSPD_MAX&lt;/param&gt; parame
   <name>/components/1/event_groups/arming_check/events/2088119/message</name>
   <message>
   <source>Poor GPS Quality</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/2162272/message</name>
+  <message>
+  <source>GPS position inconsistent with velocity</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/2162272/description</name>
+  <message>
+  <source>The change of the reported horizontal position does not match the reported velocity, as with multipath.
+
+&lt;profile name="dev"&gt; Can be configured with &lt;param&gt;GNSS_REQ_HKIN&lt;/param&gt;, &lt;param&gt;GNSS_CHECK&lt;/param&gt; and &lt;param&gt;COM_ARM_WO_GPS&lt;/param&gt;.
+&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -1817,6 +1838,21 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   <name>/components/1/event_groups/arming_check/events/4261821/description</name>
   <message>
   <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_EXT_ATS_EN&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/4431518/message</name>
+  <message>
+  <source>Waiting for ESCs to initialize</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/4431518/description</name>
+  <message>
+  <source>The ESCs get time to boot once a required battery connects.
+
+&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;COM_ARM_CHK_ESCS&lt;/param&gt; parameter.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -2132,21 +2168,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   <name>/components/1/event_groups/arming_check/events/8495477/description</name>
   <message>
   <source>Recalibrate the RC.</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/8538897/message</name>
-  <message>
-  <source>Attitude failure detected</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/arming_check/events/8538897/description</name>
-  <message>
-  <source>The vehicle exceeded the maximum configured roll angle.
-
-&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;FD_FAIL_R&lt;/param&gt; parameter.
-&lt;/profile&gt;</source>
   </message>
 </context>
 <context>
@@ -2844,6 +2865,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/1519767/message</name>
+  <message>
+  <source>Mission rejected: DO_JUMP {1} target reaches a DO_JUMP before a waypoint</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/1525547/message</name>
   <message>
   <source>Landing aborted: unknown criterion</source>
@@ -3439,6 +3466,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/4465595/message</name>
+  <message>
+  <source>Quad-chute triggered due to pusher failure</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/4502496/message</name>
   <message>
   <source>Failsafe activated: switching to {2} in {3} seconds</source>
@@ -3510,12 +3543,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/4934924/description</name>
   <message>
   <source>Land now, and check the vehicle setup. Clipping can lead to fly-aways.</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/4953371/message</name>
-  <message>
-  <source>Mission rejected: DO_JUMP {1} path cannot be resolved</source>
   </message>
 </context>
 <context>
@@ -3642,12 +3669,6 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/5726704/message</name>
   <message>
   <source>High wind speed detected ({1:.1m/s}), landing advised</source>
-  </message>
-</context>
-<context>
-  <name>/components/1/event_groups/default/events/5734437/message</name>
-  <message>
-  <source>Command denied during calibration: {1}</source>
   </message>
 </context>
 <context>
@@ -4161,6 +4182,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/9412967/message</name>
+  <message>
+  <source>Front transition skipped after quad-chute, continuing in multicopter mode</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/9421773/message</name>
   <message>
   <source>Baro sensor #{1} failure: {2}</source>
@@ -4398,15 +4425,15 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/health/events/1457161/message</name>
   <message>
-  <source>GPS receivers disagree by {3:.1}m</source>
+  <source>GPS receivers disagree by {3:.1}m horizontally, {4:.1}m vertically</source>
   </message>
 </context>
 <context>
   <name>/components/1/event_groups/health/events/1457161/description</name>
   <message>
-  <source>Two GNSS receivers report positions that are inconsistent with their reported accuracy.
+  <source>Two GNSS receivers report positions that disagree by more than their antenna positions explain.
 
-&lt;profile name="dev"&gt; Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;. The failsafe action is only triggered when &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt; is set to 2.
+&lt;profile name="dev"&gt; Configure the limits with &lt;param&gt;COM_GNSS_H_MAX&lt;/param&gt; and &lt;param&gt;COM_GNSS_V_MAX&lt;/param&gt;. Configure the failsafe action with &lt;param&gt;COM_GNSSLOSS_ACT&lt;/param&gt;. The failsafe action is only triggered when &lt;param&gt;SYS_HAS_NUM_GNSS&lt;/param&gt; is set to 2.
 &lt;/profile&gt;</source>
   </message>
 </context>

@@ -7284,7 +7284,7 @@ the drone properly.
 <context>
   <name>/parameters/BAT1_I_OVERWRITE/longDesc</name>
   <message>
-  <source>While disarmed, replaces the measured current with this value in amps, for ESCs that measure current inaccurately at no load. Set to 0 or less to disable.
+  <source>While disarmed, replaces the measured current with this value, for ESCs that measure current inaccurately at no load. Set to 0 or less to disable.
 </source>
   </message>
 </context>
@@ -7511,7 +7511,7 @@ it drops off to a voltage level damaging the cells.
 <context>
   <name>/parameters/BAT2_I_OVERWRITE/longDesc</name>
   <message>
-  <source>While disarmed, replaces the measured current with this value in amps, for ESCs that measure current inaccurately at no load. Set to 0 or less to disable.
+  <source>While disarmed, replaces the measured current with this value, for ESCs that measure current inaccurately at no load. Set to 0 or less to disable.
 </source>
   </message>
 </context>
@@ -7738,7 +7738,7 @@ it drops off to a voltage level damaging the cells.
 <context>
   <name>/parameters/BAT3_I_OVERWRITE/longDesc</name>
   <message>
-  <source>While disarmed, replaces the measured current with this value in amps, for ESCs that measure current inaccurately at no load. Set to 0 or less to disable.
+  <source>While disarmed, replaces the measured current with this value, for ESCs that measure current inaccurately at no load. Set to 0 or less to disable.
 </source>
   </message>
 </context>
@@ -10067,9 +10067,9 @@ Set to -1 to disable.
   <message>
   <source>Action the system takes when a GNSS failure is detected during flight.
 Triggers when the active GNSS count drops below SYS_HAS_NUM_GNSS (disabled
-when SYS_HAS_NUM_GNSS=0), or when two receivers report positions inconsistent
-with their reported accuracy and SYS_HAS_NUM_GNSS=2 (otherwise warning only).
-The reported accuracy of each receiver is floored with EKF2_GPS_P_NOISE.
+when SYS_HAS_NUM_GNSS=0), or when two receivers disagree by more than
+COM_GNSS_H_MAX or COM_GNSS_V_MAX and SYS_HAS_NUM_GNSS=2 (otherwise warning only).
+Return and Land are skipped if the failure clears during the COM_FAIL_ACT_T Hold.
 Any value above Warning also blocks arming.
 </source>
   </message>
@@ -10105,6 +10105,40 @@ Any value above Warning also blocks arming.
   </message>
 </context>
 <context>
+  <name>/parameters/COM_GNSS_H_MAX/shortDesc</name>
+  <message>
+  <source>Maximum horizontal disagreement between GNSS receivers</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_GNSS_H_MAX/longDesc</name>
+  <message>
+  <source>Two receivers diverge when their horizontal positions disagree by more than
+this, after their antenna positions. The default suits standalone receivers.
+Detecting swapped antennas needs a limit below twice the distance between them.
+It also needs a heading that doesn't come from these two receivers.
+Until the heading is aligned, a limit that low also reports a divergence.
+Before arming a divergence is reported at once and clears after 2 s of
+agreement. In flight it has to persist for 2 s. See COM_GNSSLOSS_ACT for the action.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_GNSS_V_MAX/shortDesc</name>
+  <message>
+  <source>Maximum vertical disagreement between GNSS receivers</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/COM_GNSS_V_MAX/longDesc</name>
+  <message>
+  <source>Two receivers diverge when their heights disagree by more than this, after
+their antenna positions. The default suits standalone receivers.
+Same timing and action as COM_GNSS_H_MAX.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/COM_HLDL_LOSS_T/shortDesc</name>
   <message>
   <source>High Latency Datalink loss time threshold</source>
@@ -10127,6 +10161,8 @@ Any value above Warning also blocks arming.
   <name>/parameters/COM_HOME_EN/longDesc</name>
   <message>
   <source>Set home position automatically if possible.
+
+If disabled, home is only set manually with MAV_CMD_DO_SET_HOME.
 
 During missions, the latitude/longitude of the home position is locked and will not reset during intermediate landings.
 It will only update once the mission is complete or landed outside of a mission.
@@ -13022,171 +13058,232 @@ If GPS is set as reference and EKF2_GPS_CTRL is not 0, the GPS altitude is still
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_CTRL/shortDesc</name>
+  <name>/parameters/EKF2_OF0_CTRL/shortDesc</name>
   <message>
-  <source>Optical flow aiding</source>
+  <source>Optical flow sensor 0 aiding</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_CTRL/longDesc</name>
+  <name>/parameters/EKF2_OF0_CTRL/longDesc</name>
   <message>
-  <source>Enable optical flow fusion.
+  <source>Enable optical flow fusion for sensor slot 0.
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_CTRL/values/0/description</name>
+  <name>/parameters/EKF2_OF0_CTRL/values/0/description</name>
   <message>
   <source>Disabled</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_CTRL/values/1/description</name>
+  <name>/parameters/EKF2_OF0_CTRL/values/1/description</name>
   <message>
   <source>Enabled</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_DELAY/shortDesc</name>
+  <name>/parameters/EKF2_OF0_GATE/shortDesc</name>
   <message>
-  <source>Optical flow measurement delay relative to IMU measurements</source>
+  <source>Gate size for optical flow sensor 0 fusion</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_DELAY/longDesc</name>
-  <message>
-  <source>Assumes measurement is timestamped at trailing edge of integration
-period. The default matches a DroneCAN flow node, whose frame reaches
-the flight controller about 7 ms after its integration window closes.
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_GATE/shortDesc</name>
-  <message>
-  <source>Gate size for optical flow fusion</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/EKF2_OF_GATE/longDesc</name>
+  <name>/parameters/EKF2_OF0_GATE/longDesc</name>
   <message>
   <source>Sets the number of standard deviations used by the innovation consistency test.
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_GYR_SRC/shortDesc</name>
+  <name>/parameters/EKF2_OF0_GYR_SRC/shortDesc</name>
   <message>
-  <source>Optical flow angular rate compensation source</source>
+  <source>Optical flow sensor 0 angular rate compensation source</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_GYR_SRC/longDesc</name>
+  <name>/parameters/EKF2_OF0_GYR_SRC/longDesc</name>
   <message>
   <source>Auto: use gyro from optical flow message if available, internal gyro otherwise. Internal: always use internal gyro
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_GYR_SRC/values/0/description</name>
+  <name>/parameters/EKF2_OF0_GYR_SRC/values/0/description</name>
   <message>
   <source>Auto</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_GYR_SRC/values/1/description</name>
+  <name>/parameters/EKF2_OF0_GYR_SRC/values/1/description</name>
   <message>
   <source>Internal</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_N_MAX/shortDesc</name>
+  <name>/parameters/EKF2_OF0_N_MAX/shortDesc</name>
   <message>
-  <source>Optical flow maximum noise</source>
+  <source>Optical flow sensor 0 maximum noise</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_N_MAX/longDesc</name>
+  <name>/parameters/EKF2_OF0_N_MAX/longDesc</name>
   <message>
   <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the minimum
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_N_MIN/shortDesc</name>
+  <name>/parameters/EKF2_OF0_N_MIN/shortDesc</name>
   <message>
-  <source>Optical flow minimum noise</source>
+  <source>Optical flow sensor 0 minimum noise</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_N_MIN/longDesc</name>
+  <name>/parameters/EKF2_OF0_N_MIN/longDesc</name>
   <message>
   <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_POS_X/shortDesc</name>
+  <name>/parameters/EKF2_OF0_QMIN/shortDesc</name>
   <message>
-  <source>X position of optical flow focal point in body frame</source>
+  <source>In air optical flow sensor 0 minimum quality</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_POS_X/longDesc</name>
+  <name>/parameters/EKF2_OF0_QMIN/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity
+  <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF0_QMIN
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_POS_Y/shortDesc</name>
+  <name>/parameters/EKF2_OF0_QMINGND/shortDesc</name>
   <message>
-  <source>Y position of optical flow focal point in body frame</source>
+  <source>On ground optical flow sensor 0 minimum quality</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_POS_Y/longDesc</name>
+  <name>/parameters/EKF2_OF0_QMINGND/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity
+  <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF0_QMINGND
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_POS_Z/shortDesc</name>
+  <name>/parameters/EKF2_OF1_CTRL/shortDesc</name>
   <message>
-  <source>Z position of optical flow focal point in body frame</source>
+  <source>Optical flow sensor 1 aiding</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_POS_Z/longDesc</name>
+  <name>/parameters/EKF2_OF1_CTRL/longDesc</name>
   <message>
-  <source>Forward axis with origin relative to vehicle centre of gravity
+  <source>Enable optical flow fusion for sensor slot 1.
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_QMIN/shortDesc</name>
+  <name>/parameters/EKF2_OF1_CTRL/values/0/description</name>
   <message>
-  <source>In air optical flow minimum quality</source>
+  <source>Disabled</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_QMIN/longDesc</name>
+  <name>/parameters/EKF2_OF1_CTRL/values/1/description</name>
   <message>
-  <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF_QMIN
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_GATE/shortDesc</name>
+  <message>
+  <source>Gate size for optical flow sensor 1 fusion</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_GATE/longDesc</name>
+  <message>
+  <source>Sets the number of standard deviations used by the innovation consistency test.
 </source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_QMIN_GND/shortDesc</name>
+  <name>/parameters/EKF2_OF1_GYR_SRC/shortDesc</name>
   <message>
-  <source>On ground optical flow minimum quality</source>
+  <source>Optical flow sensor 1 angular rate compensation source</source>
   </message>
 </context>
 <context>
-  <name>/parameters/EKF2_OF_QMIN_GND/longDesc</name>
+  <name>/parameters/EKF2_OF1_GYR_SRC/longDesc</name>
   <message>
-  <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF_QMIN_GND
+  <source>Auto: use gyro from optical flow message if available, internal gyro otherwise. Internal: always use internal gyro
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_GYR_SRC/values/0/description</name>
+  <message>
+  <source>Auto</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_GYR_SRC/values/1/description</name>
+  <message>
+  <source>Internal</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_N_MAX/shortDesc</name>
+  <message>
+  <source>Optical flow sensor 1 maximum noise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_N_MAX/longDesc</name>
+  <message>
+  <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the minimum
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_N_MIN/shortDesc</name>
+  <message>
+  <source>Optical flow sensor 1 minimum noise</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_N_MIN/longDesc</name>
+  <message>
+  <source>Measurement noise for the optical flow sensor when it's reported quality metric is at the maximum
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_QMIN/shortDesc</name>
+  <message>
+  <source>In air optical flow sensor 1 minimum quality</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_QMIN/longDesc</name>
+  <message>
+  <source>Optical Flow data will only be used in air if the sensor reports a quality metric &gt;= EKF2_OF1_QMIN
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_QMINGND/shortDesc</name>
+  <message>
+  <source>On ground optical flow sensor 1 minimum quality</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/EKF2_OF1_QMINGND/longDesc</name>
+  <message>
+  <source>Optical Flow data will only be used on the ground if the sensor reports a quality metric &gt;= EKF2_OF1_QMINGND
 </source>
   </message>
 </context>
@@ -15923,70 +16020,6 @@ External ATS is required by ASTM F3322-18.
   </message>
 </context>
 <context>
-  <name>/parameters/FD_FAIL_P/shortDesc</name>
-  <message>
-  <source>FailureDetector Max Pitch</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_FAIL_P/longDesc</name>
-  <message>
-  <source>Maximum pitch angle before FailureDetector triggers the attitude_failure flag.
-The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0),
-which sets outputs to their failsafe values.
-On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM),
-which disarms motors but does not set outputs to failsafe values.
-
-Setting this parameter to 0 disables the check
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_FAIL_P_TTRI/shortDesc</name>
-  <message>
-  <source>Pitch failure trigger time</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_FAIL_P_TTRI/longDesc</name>
-  <message>
-  <source>Seconds (decimal) that pitch has to exceed FD_FAIL_P before being considered as a failure.
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_FAIL_R/shortDesc</name>
-  <message>
-  <source>FailureDetector Max Roll</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_FAIL_R/longDesc</name>
-  <message>
-  <source>Maximum roll angle before FailureDetector triggers the attitude_failure flag.
-The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0),
-which sets outputs to their failsafe values.
-On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM),
-which disarms motors but does not set outputs to failsafe values.
-
-Setting this parameter to 0 disables the check
-</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_FAIL_R_TTRI/shortDesc</name>
-  <message>
-  <source>Roll failure trigger time</source>
-  </message>
-</context>
-<context>
-  <name>/parameters/FD_FAIL_R_TTRI/longDesc</name>
-  <message>
-  <source>Seconds (decimal) that roll has to exceed FD_FAIL_R before being considered as a failure.
-</source>
-  </message>
-</context>
-<context>
   <name>/parameters/FD_IMB_PROP_THR/shortDesc</name>
   <message>
   <source>Imbalanced propeller check threshold</source>
@@ -15999,6 +16032,40 @@ Setting this parameter to 0 disables the check
 vertical acceleration variance) triggers a failure
 
 Setting this value to 0 disables the feature.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FD_TILT_ERROR/shortDesc</name>
+  <message>
+  <source>FailureDetector Max Tilt Error</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FD_TILT_ERROR/longDesc</name>
+  <message>
+  <source>Maximum angle between the vehicle tilt and the attitude setpoint tilt before FailureDetector triggers the attitude_failure flag.
+Without a recent attitude setpoint, e.g. on rovers, the tilt from level is checked instead.
+The flag triggers flight termination (if @CBRK_FLIGHTTERM = 0),
+which sets outputs to their failsafe values.
+On takeoff the flag triggers lockdown (irrespective of @CBRK_FLIGHTTERM),
+which disarms motors but does not set outputs to failsafe values.
+The check is paused for the first 5 s after a VTOL quad-chute or aborted front transition.
+
+Set to -1 to disable.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FD_TILT_ERROR_T/shortDesc</name>
+  <message>
+  <source>Tilt failure trigger time</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/FD_TILT_ERROR_T/longDesc</name>
+  <message>
+  <source>Seconds (decimal) that the tilt error has to exceed FD_TILT_ERROR before being considered as a failure.
 </source>
   </message>
 </context>
@@ -16027,6 +16094,45 @@ WARNING: the failures can easily cause crashes and are to be used with caution!
   <name>/parameters/SYS_FAILURE_EN/values/1/description</name>
   <message>
   <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_A_BIAS/shortDesc</name>
+  <message>
+  <source>Accel bias failure injection offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_A_BIAS/longDesc</name>
+  <message>
+  <source>Constant offset added to every axis while an accel 'wrong' failure injection is active.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_A_DRIFT/shortDesc</name>
+  <message>
+  <source>Accel drift failure injection rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_A_DRIFT/longDesc</name>
+  <message>
+  <source>Rate at which the offset added to every axis grows while an accel 'drift' failure injection is active.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_A_NOISE/shortDesc</name>
+  <message>
+  <source>Accel noise failure injection magnitude</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_A_NOISE/longDesc</name>
+  <message>
+  <source>Amplitude of the uniform noise added to every axis while an accel 'garbage' failure injection is active.
+</source>
   </message>
 </context>
 <context>
@@ -16149,6 +16255,45 @@ fix, and makes the GNSS redundancy check report a lost fix. Values above
   <name>/parameters/SYS_FAIL_GPS_WRG/values/6/description</name>
   <message>
   <source>Fix: RTK fixed</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_G_BIAS/shortDesc</name>
+  <message>
+  <source>Gyro bias failure injection offset</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_G_BIAS/longDesc</name>
+  <message>
+  <source>Constant offset added to every axis while a gyro 'wrong' failure injection is active.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_G_DRIFT/shortDesc</name>
+  <message>
+  <source>Gyro drift failure injection rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_G_DRIFT/longDesc</name>
+  <message>
+  <source>Rate at which the offset added to every axis grows while a gyro 'drift' failure injection is active.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_G_NOISE/shortDesc</name>
+  <message>
+  <source>Gyro noise failure injection magnitude</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_G_NOISE/longDesc</name>
+  <message>
+  <source>Amplitude of the uniform noise added to every axis while a gyro 'garbage' failure injection is active.
+</source>
   </message>
 </context>
 <context>
@@ -16321,6 +16466,12 @@ unsupported (unit, type) pairs are ignored.
   <name>/parameters/SYS_FAIL_RC_MODE/values/7/description</name>
   <message>
   <source>Intermittent</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_MODE/values/8/description</name>
+  <message>
+  <source>Drift</source>
   </message>
 </context>
 <context>
@@ -16552,7 +16703,7 @@ to prevent terrain collisions due to GPS inaccuracies of the target.
 <context>
   <name>/parameters/FLW_TGT_FA/shortDesc</name>
   <message>
-  <source>Follow Angle setting in degrees</source>
+  <source>Follow Angle setting</source>
   </message>
 </context>
 <context>
@@ -25258,7 +25409,7 @@ Set to Disabled if not used. The two outputs must use different modes.
 <context>
   <name>/parameters/MNT_TAU/longDesc</name>
   <message>
-  <source>Alpha filter time constant defining the convergence rate (in seconds) for open-loop AUX mount control
+  <source>Alpha filter time constant defining the convergence rate for open-loop AUX mount control
 
 Use when no angular position feedback is available.
 With MNT_MODE_OUT set to AUX, the mount operates in open-loop and directly commands the servo output.
@@ -27196,13 +27347,13 @@ values will display the crosshairs below the horizon
 <context>
   <name>/parameters/OSD_DWELL_TIME/shortDesc</name>
   <message>
-  <source>OSD Dwell Time (ms)</source>
+  <source>OSD Dwell Time</source>
   </message>
 </context>
 <context>
   <name>/parameters/OSD_DWELL_TIME/longDesc</name>
   <message>
-  <source>Amount of time in milliseconds to dwell at the beginning of the display, when scrolling.
+  <source>Amount of time to dwell at the beginning of the display, when scrolling.
 
 </source>
   </message>
@@ -27238,13 +27389,13 @@ values will display the crosshairs below the horizon
 <context>
   <name>/parameters/OSD_SCROLL_RATE/shortDesc</name>
   <message>
-  <source>OSD Scroll Rate (ms)</source>
+  <source>OSD Scroll Rate</source>
   </message>
 </context>
 <context>
   <name>/parameters/OSD_SCROLL_RATE/longDesc</name>
   <message>
-  <source>Scroll rate in milliseconds for OSD messages longer than available character width.
+  <source>Scroll rate for OSD messages longer than available character width.
 This is lower-bounded by the nominal loop rate of this module.
 
 </source>
@@ -32667,7 +32818,7 @@ negative : true when channel&lt;th
 
 - 5 (Direct to rally point only): Return directly to safe landing point (do not consider mission landing and Home).
 
-- 6 (Home if battery allows, else rally point): Return to home if time estimate to home is less than battery remaining estimate, else return to the closest rally point. If battery remaining estimate is not available, return to the closest safe point (home or rally point).
+- 6 (Home if battery allows, else rally point): Return to home if time estimate to home is less than battery remaining estimate. Otherwise, or if battery remaining estimate is not available, return to the closest safe point (home or rally point).
 </source>
   </message>
 </context>
@@ -32854,6 +33005,43 @@ error between the desired and actual yaw.
   <source>Scales the stick inputs that are mapped to motor commands in Manual Parking mode, so that maneuvering in tight spaces stays slow. Applies symmetrically to forward and reverse throttle.
 
 </source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_STICK_MAP/shortDesc</name>
+  <message>
+  <source>Stick mapping for the manual modes</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_STICK_MAP/longDesc</name>
+  <message>
+  <source>Follows the RC transmitter modes 1-4 with the pitch stick driving forwards/backwards, the roll stick sideways and the yaw stick turning, assuming the RC channels are mapped as for a mode 2 transmitter. Ackermann and differential rovers ignore the sideways assignment. In the tank-style Manual Parking mode of differential and mecanum rovers only the sideways assignment applies.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_STICK_MAP/values/1/description</name>
+  <message>
+  <source>Mode 1: forward and turn on left stick, sideways on right stick</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_STICK_MAP/values/2/description</name>
+  <message>
+  <source>Mode 2: turn on left stick, forward and sideways on right stick</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_STICK_MAP/values/3/description</name>
+  <message>
+  <source>Mode 3: forward and sideways on left stick, turn on right stick</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_STICK_MAP/values/4/description</name>
+  <message>
+  <source>Mode 4: sideways on left stick, forward and turn on right stick</source>
   </message>
 </context>
 <context>
@@ -33141,6 +33329,21 @@ Set to -1 to disable bearing error based speed reduction.
   <message>
   <source>Set to -1 to disable.
 The minimum threshold for the speed measurement not to be interpreted as zero.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_WHEEL_RAD/shortDesc</name>
+  <message>
+  <source>Wheel radius in meters</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/RO_WHEEL_RAD/longDesc</name>
+  <message>
+  <source>Used to convert wheel encoder counts to the distance travelled by each wheel
+for the MAVLink WHEEL_DISTANCE message:
+distance = 2 * pi * RO_WHEEL_RAD * encoder_counts / counts_per_rev
 </source>
   </message>
 </context>
@@ -35429,7 +35632,7 @@ external, so an on-board IMU is preferred over one behind a bus.
 <context>
   <name>/parameters/CAL_DPRES0_OFF/longDesc</name>
   <message>
-  <source>The zero-reading of this differential pressure sensor, in Pascal.
+  <source>The zero-reading of this differential pressure sensor.
 </source>
   </message>
 </context>
@@ -35455,7 +35658,7 @@ external, so an on-board IMU is preferred over one behind a bus.
 <context>
   <name>/parameters/CAL_DPRES1_OFF/longDesc</name>
   <message>
-  <source>The zero-reading of this differential pressure sensor, in Pascal.
+  <source>The zero-reading of this differential pressure sensor.
 </source>
   </message>
 </context>
@@ -35481,7 +35684,7 @@ external, so an on-board IMU is preferred over one behind a bus.
 <context>
   <name>/parameters/CAL_DPRES2_OFF/longDesc</name>
   <message>
-  <source>The zero-reading of this differential pressure sensor, in Pascal.
+  <source>The zero-reading of this differential pressure sensor.
 </source>
   </message>
 </context>
@@ -38866,7 +39069,7 @@ for current-based compensation [G/kA]
   <message>
   <source>Pick the appropriate scaling from the datasheet.
 this number defines the (linear) conversion from voltage
-to Pascal (pa). For the MPXV7002DP this is 1000.
+to pressure. For the MPXV7002DP this is 1000.
 
 NOTE: If the sensor always registers zero, try switching
 the static and dynamic tubes.
@@ -38882,7 +39085,7 @@ the static and dynamic tubes.
 <context>
   <name>/parameters/SENS_DPRES_OFF/longDesc</name>
   <message>
-  <source>The offset (zero-reading) in Pascal of the sensor holding calibration slot 0.
+  <source>The offset (zero-reading) of the sensor holding calibration slot 0.
 
 Kept as a mirror of CAL_DPRES0_OFF so that ground stations can still detect whether
 airspeed has been calibrated. The firmware applies CAL_DPRESx_OFF, not this value.
@@ -38916,13 +39119,29 @@ This can be enabled if the sensors have static and dynamic ports swapped.
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_MAXHGT/shortDesc</name>
+  <name>/parameters/SENS_FLOW0_DELAY/shortDesc</name>
   <message>
-  <source>Maximum height above ground when reliant on optical flow</source>
+  <source>Optical flow sensor 0 measurement delay relative to IMU</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_MAXHGT/longDesc</name>
+  <name>/parameters/SENS_FLOW0_DELAY/longDesc</name>
+  <message>
+  <source>Assumes measurement is timestamped at trailing edge of integration
+period. Applied to timestamp_sample of the published data. The default
+matches a DroneCAN flow node, whose frame reaches the flight controller
+about 7 ms after its integration window closes.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_HMAX/shortDesc</name>
+  <message>
+  <source>Maximum height above ground when reliant on optical flow 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_HMAX/longDesc</name>
   <message>
   <source>This parameter defines the maximum distance from ground at which the optical flow sensor operates reliably.
 The height setpoint will be limited to be no greater than this value when the navigation system
@@ -38932,13 +39151,40 @@ The sensor may be usable above this height, but accuracy will progressively degr
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_MAXR/shortDesc</name>
+  <name>/parameters/SENS_FLOW0_HMIN/shortDesc</name>
   <message>
-  <source>Max angular flow rate measurable by sensor</source>
+  <source>Minimum height above ground when reliant on optical flow 0</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_MAXR/longDesc</name>
+  <name>/parameters/SENS_FLOW0_HMIN/longDesc</name>
+  <message>
+  <source>This parameter defines the minimum distance from ground at which the optical flow sensor operates reliably.
+The sensor may be usable below this height, but accuracy will progressively reduce to loss of focus.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_ID/shortDesc</name>
+  <message>
+  <source>Optical flow sensor 0 ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_ID/longDesc</name>
+  <message>
+  <source>Device ID of the flow sensor configured by the SENS_FLOW0_* parameters. Set to 0 to automatically bind the first unbound sensor reporting data.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_MAXR/shortDesc</name>
+  <message>
+  <source>Max angular flow rate measurable by sensor 0</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_MAXR/longDesc</name>
   <message>
   <source>Magnitude of maximum angular flow rate reliably measurable by the optical flow sensor
 
@@ -38949,16 +39195,156 @@ is less than 50% of this value.
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_MINHGT/shortDesc</name>
+  <name>/parameters/SENS_FLOW0_POS_X/shortDesc</name>
   <message>
-  <source>Minimum height above ground when reliant on optical flow</source>
+  <source>X position of optical flow sensor 0 focal point in body frame</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_MINHGT/longDesc</name>
+  <name>/parameters/SENS_FLOW0_POS_X/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_POS_Y/shortDesc</name>
+  <message>
+  <source>Y position of optical flow sensor 0 focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_POS_Y/longDesc</name>
+  <message>
+  <source>Right axis with origin relative to vehicle centre of gravity
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_POS_Z/shortDesc</name>
+  <message>
+  <source>Z position of optical flow sensor 0 focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW0_POS_Z/longDesc</name>
+  <message>
+  <source>Down axis with origin relative to vehicle centre of gravity
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_DELAY/shortDesc</name>
+  <message>
+  <source>Optical flow sensor 1 measurement delay relative to IMU</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_DELAY/longDesc</name>
+  <message>
+  <source>Assumes measurement is timestamped at trailing edge of integration
+period. Applied to timestamp_sample of the published data. The default
+matches a DroneCAN flow node, whose frame reaches the flight controller
+about 7 ms after its integration window closes.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_HMAX/shortDesc</name>
+  <message>
+  <source>Maximum height above ground when reliant on optical flow 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_HMAX/longDesc</name>
+  <message>
+  <source>This parameter defines the maximum distance from ground at which the optical flow sensor operates reliably.
+The height setpoint will be limited to be no greater than this value when the navigation system
+is completely reliant on optical flow data and the height above ground estimate is valid.
+The sensor may be usable above this height, but accuracy will progressively degrade.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_HMIN/shortDesc</name>
+  <message>
+  <source>Minimum height above ground when reliant on optical flow 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_HMIN/longDesc</name>
   <message>
   <source>This parameter defines the minimum distance from ground at which the optical flow sensor operates reliably.
 The sensor may be usable below this height, but accuracy will progressively reduce to loss of focus.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ID/shortDesc</name>
+  <message>
+  <source>Optical flow sensor 1 ID</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ID/longDesc</name>
+  <message>
+  <source>Device ID of the flow sensor configured by the SENS_FLOW1_* parameters. Set to 0 to automatically bind the first unbound sensor reporting data.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_MAXR/shortDesc</name>
+  <message>
+  <source>Max angular flow rate measurable by sensor 1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_MAXR/longDesc</name>
+  <message>
+  <source>Magnitude of maximum angular flow rate reliably measurable by the optical flow sensor
+
+Optical flow data will not fused by the estimators if the magnitude of the flow rate exceeds this value and
+control loops will be instructed to limit ground speed such that the flow rate produced by movement over ground
+is less than 50% of this value.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_POS_X/shortDesc</name>
+  <message>
+  <source>X position of optical flow sensor 1 focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_POS_X/longDesc</name>
+  <message>
+  <source>Forward axis with origin relative to vehicle centre of gravity
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_POS_Y/shortDesc</name>
+  <message>
+  <source>Y position of optical flow sensor 1 focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_POS_Y/longDesc</name>
+  <message>
+  <source>Right axis with origin relative to vehicle centre of gravity
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_POS_Z/shortDesc</name>
+  <message>
+  <source>Z position of optical flow sensor 1 focal point in body frame</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_POS_Z/longDesc</name>
+  <message>
+  <source>Down axis with origin relative to vehicle centre of gravity
 </source>
   </message>
 </context>
@@ -39126,6 +39512,12 @@ CAL_AIR_TUBELEN: Length of the tubes connecting the pitot to the sensor and the 
   </message>
 </context>
 <context>
+  <name>/parameters/GNSS_CHECK/bitmask/12/description</name>
+  <message>
+  <source>Horizontal kinematic consistency (GNSS_REQ_HKIN)</source>
+  </message>
+</context>
+<context>
   <name>/parameters/GNSS_REQ_EPH/shortDesc</name>
   <message>
   <source>Required EPH to use GNSS</source>
@@ -39196,6 +39588,19 @@ CAL_AIR_TUBELEN: Length of the tubes connecting the pitot to the sensor and the 
   <name>/parameters/GNSS_REQ_HDRIFT/shortDesc</name>
   <message>
   <source>Maximum horizontal drift speed to use GNSS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_HKIN/shortDesc</name>
+  <message>
+  <source>Maximum horizontal kinematic inconsistency to use GNSS</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GNSS_REQ_HKIN/longDesc</name>
+  <message>
+  <source>The rate of change of the reported horizontal position, minus the reported horizontal velocity, filtered over 1 s.
+</source>
   </message>
 </context>
 <context>
@@ -39623,7 +40028,8 @@ actual barometric data rate is still dependent on the sensor.
 <context>
   <name>/parameters/SENS_BAR_AUTOCAL/longDesc</name>
   <message>
-  <source>Automatically calibrate barometer based on the GNSS height
+  <source>Automatically calibrate barometer based on the GNSS height.
+Keeps recalibrating while landed and disarmed when the baro drifts away from the GNSS height.
 </source>
   </message>
 </context>
@@ -40082,13 +40488,13 @@ Has to be set manually (not set by any calibration).
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_RATE/shortDesc</name>
+  <name>/parameters/SENS_FLOW0_RATE/shortDesc</name>
   <message>
-  <source>Optical flow max rate</source>
+  <source>Optical flow 0 max rate</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_RATE/longDesc</name>
+  <name>/parameters/SENS_FLOW0_RATE/longDesc</name>
   <message>
   <source>Optical flow data maximum publication rate. This is an upper bound,
 actual optical flow data rate is still dependent on the sensor.
@@ -40096,13 +40502,13 @@ actual optical flow data rate is still dependent on the sensor.
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/shortDesc</name>
+  <name>/parameters/SENS_FLOW0_ROT/shortDesc</name>
   <message>
-  <source>Optical flow rotation</source>
+  <source>Optical flow 0 rotation</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/longDesc</name>
+  <name>/parameters/SENS_FLOW0_ROT/longDesc</name>
   <message>
   <source>This parameter defines the yaw rotation of the optical flow relative to the vehicle body frame.
 Zero rotation is defined as X on flow board pointing towards front of vehicle.
@@ -40110,57 +40516,139 @@ Zero rotation is defined as X on flow board pointing towards front of vehicle.
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/values/0/description</name>
+  <name>/parameters/SENS_FLOW0_ROT/values/0/description</name>
   <message>
   <source>No rotation</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/values/1/description</name>
+  <name>/parameters/SENS_FLOW0_ROT/values/1/description</name>
   <message>
   <source>Yaw 45°</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/values/2/description</name>
+  <name>/parameters/SENS_FLOW0_ROT/values/2/description</name>
   <message>
   <source>Yaw 90°</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/values/3/description</name>
+  <name>/parameters/SENS_FLOW0_ROT/values/3/description</name>
   <message>
   <source>Yaw 135°</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/values/4/description</name>
+  <name>/parameters/SENS_FLOW0_ROT/values/4/description</name>
   <message>
   <source>Yaw 180°</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/values/5/description</name>
+  <name>/parameters/SENS_FLOW0_ROT/values/5/description</name>
   <message>
   <source>Yaw 225°</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/values/6/description</name>
+  <name>/parameters/SENS_FLOW0_ROT/values/6/description</name>
   <message>
   <source>Yaw 270°</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_ROT/values/7/description</name>
+  <name>/parameters/SENS_FLOW0_ROT/values/7/description</name>
   <message>
   <source>Yaw 315°</source>
   </message>
 </context>
 <context>
-  <name>/parameters/SENS_FLOW_SCALE/shortDesc</name>
+  <name>/parameters/SENS_FLOW0_SCALE/shortDesc</name>
   <message>
-  <source>Optical flow scale factor</source>
+  <source>Optical flow 0 scale factor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_RATE/shortDesc</name>
+  <message>
+  <source>Optical flow 1 max rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_RATE/longDesc</name>
+  <message>
+  <source>Optical flow data maximum publication rate. This is an upper bound,
+actual optical flow data rate is still dependent on the sensor.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/shortDesc</name>
+  <message>
+  <source>Optical flow 1 rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/longDesc</name>
+  <message>
+  <source>This parameter defines the yaw rotation of the optical flow relative to the vehicle body frame.
+Zero rotation is defined as X on flow board pointing towards front of vehicle.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/values/0/description</name>
+  <message>
+  <source>No rotation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/values/1/description</name>
+  <message>
+  <source>Yaw 45°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/values/2/description</name>
+  <message>
+  <source>Yaw 90°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/values/3/description</name>
+  <message>
+  <source>Yaw 135°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/values/4/description</name>
+  <message>
+  <source>Yaw 180°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/values/5/description</name>
+  <message>
+  <source>Yaw 225°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/values/6/description</name>
+  <message>
+  <source>Yaw 270°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_ROT/values/7/description</name>
+  <message>
+  <source>Yaw 315°</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SENS_FLOW1_SCALE/shortDesc</name>
+  <message>
+  <source>Optical flow 1 scale factor</source>
   </message>
 </context>
 <context>
@@ -40577,7 +41065,7 @@ Matched to physical GPS receiver via SENS_GNSS1_ID.
 <context>
   <name>/parameters/SENS_MAG_AUTOCAL/longDesc</name>
   <message>
-  <source>Automatically initialize magnetometer calibration from bias estimate if available. The estimate only captures hard-iron offsets, so a full calibration is still recommended. Mainly intended for remote nodes (e.g. CAN GPS units) that cannot be calibrated from a ground station.
+  <source>Automatically initialize magnetometer calibration from bias estimate if available. The estimate only captures hard-iron offsets, so a full calibration is still recommended.
 </source>
   </message>
 </context>
@@ -41074,15 +41562,63 @@ Set this to another value if the default stream is already used for another purp
   </message>
 </context>
 <context>
+  <name>/parameters/SIH_DISTSNSR_EN/shortDesc</name>
+  <message>
+  <source>Enable the simulated downward facing distance sensor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_DISTSNSR_EN/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_DISTSNSR_EN/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SIH_DISTSNSR_MAX/shortDesc</name>
   <message>
   <source>distance sensor maximum range</source>
   </message>
 </context>
 <context>
+  <name>/parameters/SIH_DISTSNSR_MAX/longDesc</name>
+  <message>
+  <source>The signal quality degrades over the last 20% of the range. Beyond the maximum range
+the sensor reports a saturated reading with a zero signal quality.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SIH_DISTSNSR_MIN/shortDesc</name>
   <message>
   <source>distance sensor minimum range</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_DISTSNSR_MIN/longDesc</name>
+  <message>
+  <source>Readings closer than this saturate at the minimum range
+and are reported with a zero signal quality.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_DISTSNSR_NOI/shortDesc</name>
+  <message>
+  <source>Distance sensor measurement noise standard deviation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_DISTSNSR_NOI/longDesc</name>
+  <message>
+  <source>Gaussian noise added to the simulated distance sensor measurements.
+Set to 0 to disable noise.
+</source>
   </message>
 </context>
 <context>
@@ -41094,7 +41630,7 @@ Set this to another value if the default stream is already used for another purp
 <context>
   <name>/parameters/SIH_DISTSNSR_OVR/longDesc</name>
   <message>
-  <source>Absolute value superior to 10000 will disable distance sensor
+  <source>Set SIH_DISTSNSR_EN to 0 to disable the distance sensor.
 </source>
   </message>
 </context>
@@ -41434,6 +41970,74 @@ This corresponds to half the distance between the left and right motors.
   </message>
 </context>
 <context>
+  <name>/parameters/SIH_OF_EN/shortDesc</name>
+  <message>
+  <source>Enable the simulated optical flow sensor</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_OF_EN/longDesc</name>
+  <message>
+  <source>The simulated sensor reports the integrated flow only. The flow module completes the
+sample with the vehicle gyro and the downward facing distance sensor, which therefore
+has to be enabled as well (SIH_DISTSNSR_EN) for the flow to be usable by the estimator.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_OF_EN/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_OF_EN/values/1/description</name>
+  <message>
+  <source>Enabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_OF_H_MAX/shortDesc</name>
+  <message>
+  <source>Optical flow maximum ground distance</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_OF_H_MAX/longDesc</name>
+  <message>
+  <source>Above this distance to the ground the simulated sensor cannot track the ground image
+anymore and reports a zero quality.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_OF_NOISE/shortDesc</name>
+  <message>
+  <source>Optical flow measurement noise standard deviation</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_OF_NOISE/longDesc</name>
+  <message>
+  <source>Gaussian noise added to the simulated flow rate.
+Set to 0 to disable noise.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_OF_RATE/shortDesc</name>
+  <message>
+  <source>Optical flow publication rate</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_OF_RATE/longDesc</name>
+  <message>
+  <source>The simulated sensor integrates the flow over one publication interval.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SIH_Q_MAX/shortDesc</name>
   <message>
   <source>Max multicopter propeller torque</source>
@@ -41535,6 +42139,12 @@ Refer to SIH_F_T_MAX for the thrust for FW, Tailsitter, and VTOL pusher.
   <name>/parameters/SIH_VEHICLE_TYPE/values/5/description</name>
   <message>
   <source>Rover Ackermann</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SIH_VEHICLE_TYPE/values/6/description</name>
+  <message>
+  <source>Rover Differential</source>
   </message>
 </context>
 <context>
@@ -43867,7 +44477,7 @@ The default value enables all sources.
 <context>
   <name>/parameters/UUV_SP_MAX_AGE/shortDesc</name>
   <message>
-  <source>Maximum time (in seconds) before resetting setpoint</source>
+  <source>Maximum time before resetting setpoint</source>
   </message>
 </context>
 <context>
@@ -44293,6 +44903,45 @@ For standard vtol and tiltrotors a controller is used to track this value during
   <name>/parameters/VT_B_TRANS_RAMP/longDesc</name>
   <message>
   <source>This sets the duration during which the MC motors ramp up to the commanded thrust during the back transition stage.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VT_EF_THROT/shortDesc</name>
+  <message>
+  <source>Pusher failure detection throttle threshold</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VT_EF_THROT/longDesc</name>
+  <message>
+  <source>Has to be below the highest pusher assist throttle, which VT_FWD_THRUST_SC, VT_PITCH_MIN and MPC_TILTMAX_AIR set.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VT_EF_TIME/shortDesc</name>
+  <message>
+  <source>Pusher failure detection time</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VT_EF_TIME/longDesc</name>
+  <message>
+  <source>A pusher failure is detected in multicopter mode when, for this time, the pusher assist throttle is above VT_EF_THROT, but the forward velocity stays more than VT_EF_VEL_ERR below its setpoint. It is handled as a quad-chute that blocks front transitions until reboot or until disabled. Only used by standard VTOLs when VT_FWD_THRUST_EN is enabled. Set to 0 to disable.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VT_EF_VEL_ERR/shortDesc</name>
+  <message>
+  <source>Pusher failure detection forward velocity error</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/VT_EF_VEL_ERR/longDesc</name>
+  <message>
+  <source>Forward velocity setpoint minus forward velocity above which pusher assist above VT_EF_THROT is considered ineffective, see VT_EF_TIME.
 </source>
   </message>
 </context>

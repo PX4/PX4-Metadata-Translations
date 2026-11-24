@@ -476,6 +476,10 @@
               "description": "PDOP too high",
               "name": "pdop"
             },
+            "4096": {
+              "description": "Horizontal position inconsistent with velocity",
+              "name": "hkin"
+            },
             "512": {
               "description": "Vertical speed drift too high",
               "name": "vspeed"
@@ -1537,6 +1541,21 @@
               "message": "Offboard requires attitude estimate",
               "name": "check_modes_offboard_no_attitude"
             },
+            "16347677": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "The vehicle tilt deviated from the attitude setpoint, by more than the configured angle.\n\n<profile name=\"dev\"> This check can be configured via <param>FD_TILT_ERROR</param> parameter.\n</profile>",
+              "message": "Attitude failure detected",
+              "name": "check_failure_detector_tilt"
+            },
             "16642797": {
               "arguments": [
                 {
@@ -1569,21 +1588,6 @@
               ],
               "message": "Compass {3} uncalibrated",
               "name": "check_mag_not_calibrated"
-            },
-            "16745468": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "The vehicle exceeded the maximum configured pitch angle.\n\n<profile name=\"dev\"> This check can be configured via <param>FD_FAIL_P</param> parameter.\n</profile>",
-              "message": "Attitude failure detected",
-              "name": "check_failure_detector_pitch"
             },
             "1802995": {
               "arguments": [
@@ -1663,6 +1667,21 @@
               ],
               "message": "Poor GPS Quality",
               "name": "check_estimator_gps_generic"
+            },
+            "2162272": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "The change of the reported horizontal position does not match the reported velocity, as with multipath.\n\n<profile name=\"dev\"> Can be configured with <param>GNSS_REQ_HKIN</param>, <param>GNSS_CHECK</param> and <param>COM_ARM_WO_GPS</param>.\n</profile>",
+              "message": "GPS position inconsistent with velocity",
+              "name": "check_estimator_gps_hkin"
             },
             "2228586": {
               "arguments": [
@@ -1891,6 +1910,21 @@
               "description": "<profile name=\"dev\"> This check can be configured via <param>FD_EXT_ATS_EN</param> parameter.\n</profile>",
               "message": "Failure triggered by external system",
               "name": "check_failure_detector_ext"
+            },
+            "4431518": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "The ESCs get time to boot once a required battery connects.\n\n<profile name=\"dev\"> This check can be configured via <param>COM_ARM_CHK_ESCS</param> parameter.\n</profile>",
+              "message": "Waiting for ESCs to initialize",
+              "name": "check_escs_initializing"
             },
             "453929": {
               "arguments": [
@@ -2341,21 +2375,6 @@
               "description": "Recalibrate the RC.",
               "message": "RC calibration for channel {3} invalid: TRIM less than MIN ({4} less than {5})",
               "name": "check_rc_trim_too_small"
-            },
-            "8538897": {
-              "arguments": [
-                {
-                  "name": "modes",
-                  "type": "navigation_mode_group_t"
-                },
-                {
-                  "name": "health_component_index",
-                  "type": "uint8_t"
-                }
-              ],
-              "description": "The vehicle exceeded the maximum configured roll angle.\n\n<profile name=\"dev\"> This check can be configured via <param>FD_FAIL_R</param> parameter.\n</profile>",
-              "message": "Attitude failure detected",
-              "name": "check_failure_detector_roll"
             },
             "8713942": {
               "arguments": [
@@ -3189,6 +3208,16 @@
               "message": "Disabling transmitting with IRIDIUM mavlink on instance {1}",
               "name": "mavlink_iridium_disable"
             },
+            "1519767": {
+              "arguments": [
+                {
+                  "name": "arg0",
+                  "type": "uint16_t"
+                }
+              ],
+              "message": "Mission rejected: DO_JUMP {1} target reaches a DO_JUMP before a waypoint",
+              "name": "navigator_mis_jump_no_waypoint"
+            },
             "1525547": {
               "message": "Landing aborted: unknown criterion",
               "name": "fixedwing_position_control_landing_abort_status_unknown_criterion"
@@ -3756,6 +3785,10 @@
               "message": "Ignoring mission item, no transfer in progress",
               "name": "mavlink_mission_no_transfer"
             },
+            "4465595": {
+              "message": "Quad-chute triggered due to pusher failure",
+              "name": "vtol_att_ctrl_quadchute_pusher"
+            },
             "4502496": {
               "arguments": [
                 {
@@ -3852,16 +3885,6 @@
               "description": "Land now, and check the vehicle setup. Clipping can lead to fly-aways.",
               "message": "Gyro {1} clipping, not safe to fly!",
               "name": "vehicle_imu_gyro_clipping"
-            },
-            "4953371": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint16_t"
-                }
-              ],
-              "message": "Mission rejected: DO_JUMP {1} path cannot be resolved",
-              "name": "navigator_mis_do_jump_invalid"
             },
             "5063943": {
               "message": "Error saving settings",
@@ -4006,16 +4029,6 @@
               ],
               "message": "High wind speed detected ({1:.1m/s}), landing advised",
               "name": "check_high_wind_warning"
-            },
-            "5734437": {
-              "arguments": [
-                {
-                  "name": "arg0",
-                  "type": "uint32_t"
-                }
-              ],
-              "message": "Command denied during calibration: {1}",
-              "name": "commander_cal_cmd_denied"
             },
             "5747358": {
               "message": "Return destination breaches geofence, will fly directly",
@@ -4519,6 +4532,10 @@
               "message": "Could not set mission closest to position",
               "name": "mission_failed_set_closest"
             },
+            "9412967": {
+              "message": "Front transition skipped after quad-chute, continuing in multicopter mode",
+              "name": "navigator_front_transition_skipped"
+            },
             "9421773": {
               "arguments": [
                 {
@@ -4837,10 +4854,14 @@
                 {
                   "name": "arg0",
                   "type": "float"
+                },
+                {
+                  "name": "arg1",
+                  "type": "float"
                 }
               ],
-              "description": "Two GNSS receivers report positions that are inconsistent with their reported accuracy.\n\n<profile name=\"dev\"> Configure the failsafe action with <param>COM_GNSSLOSS_ACT</param>. The failsafe action is only triggered when <param>SYS_HAS_NUM_GNSS</param> is set to 2.\n</profile>",
-              "message": "GPS receivers disagree by {3:.1}m",
+              "description": "Two GNSS receivers report positions that disagree by more than their antenna positions explain.\n\n<profile name=\"dev\"> Configure the limits with <param>COM_GNSS_H_MAX</param> and <param>COM_GNSS_V_MAX</param>. Configure the failsafe action with <param>COM_GNSSLOSS_ACT</param>. The failsafe action is only triggered when <param>SYS_HAS_NUM_GNSS</param> is set to 2.\n</profile>",
+              "message": "GPS receivers disagree by {3:.1}m horizontally, {4:.1}m vertically",
               "name": "check_gps_position_divergence"
             },
             "15289843": {
