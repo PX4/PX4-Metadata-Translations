@@ -17426,14 +17426,14 @@ High rates at 115200 baud may cause dropouts.
 <context>
   <name>/parameters/GF_ACTION/shortDesc</name>
   <message>
-  <source>Geofence violation action</source>
+  <source>Emergency geofence breach action</source>
   </message>
 </context>
 <context>
   <name>/parameters/GF_ACTION/longDesc</name>
   <message>
   <source>Note: Setting this value to 4 enables flight termination,
-which will kill the vehicle on violation of the fence.
+which will kill the vehicle on a breach of the fence.
 </source>
   </message>
 </context>
@@ -17493,6 +17493,62 @@ Set to 0 to disable geofence avoidance in Return.
   </message>
 </context>
 <context>
+  <name>/parameters/GF_CONT_ACTION/shortDesc</name>
+  <message>
+  <source>Contingency geofence breach action</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_CONT_ACTION/longDesc</name>
+  <message>
+  <source>If the emergency geofence is breached as well, the more severe of this action and GF_ACTION is taken.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_CONT_ACTION/values/0/description</name>
+  <message>
+  <source>None</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_CONT_ACTION/values/1/description</name>
+  <message>
+  <source>Warning</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_CONT_ACTION/values/2/description</name>
+  <message>
+  <source>Hold mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_CONT_ACTION/values/3/description</name>
+  <message>
+  <source>Return mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_CONT_ACTION/values/5/description</name>
+  <message>
+  <source>Land mode</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_CONT_H_MARGIN/shortDesc</name>
+  <message>
+  <source>Contingency geofence horizontal margin</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/GF_CONT_H_MARGIN/longDesc</name>
+  <message>
+  <source>Triggers GF_CONT_ACTION within this horizontal distance of GF_MAX_HOR_DIST, or of a polygon or circle of the geofence plan. Disabled if 0.
+</source>
+  </message>
+</context>
+<context>
   <name>/parameters/GF_MAX_HOR_DIST/shortDesc</name>
   <message>
   <source>Max horizontal distance from Home</source>
@@ -17501,8 +17557,7 @@ Set to 0 to disable geofence avoidance in Return.
 <context>
   <name>/parameters/GF_MAX_HOR_DIST/longDesc</name>
   <message>
-  <source>Maximum horizontal distance in meters the vehicle can be from Home before triggering a geofence action.
-Disabled if 0.
+  <source>Triggers GF_ACTION beyond this distance. Disabled if 0.
 </source>
   </message>
 </context>
@@ -17515,8 +17570,7 @@ Disabled if 0.
 <context>
   <name>/parameters/GF_MAX_VER_DIST/longDesc</name>
   <message>
-  <source>Maximum vertical distance in meters the vehicle can be from Home before triggering a geofence action.
-Disabled if 0.
+  <source>Triggers GF_ACTION above this height over Home. Disabled if 0.
 </source>
   </message>
 </context>

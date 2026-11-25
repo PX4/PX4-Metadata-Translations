@@ -1325,7 +1325,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/124285/description</name>
   <message>
-  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; parameter.
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_ACTION&lt;/param&gt; and &lt;param&gt;GF_CONT_ACTION&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -1421,6 +1421,19 @@
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/13673828/message</name>
+  <message>
+  <source>Contingency geofence breach: approaching or outside the fence</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/13673828/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_CONT_ACTION&lt;/param&gt; and &lt;param&gt;GF_CONT_H_MARGIN&lt;/param&gt; parameters.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/13679014/message</name>
   <message>
   <source>Offboard requires local position</source>
@@ -1447,7 +1460,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/13923616/message</name>
   <message>
-  <source>Geofence violation: exceeding maximum altitude above Home</source>
+  <source>Emergency geofence breach: exceeding maximum altitude above Home</source>
   </message>
 </context>
 <context>
@@ -1473,7 +1486,7 @@
 <context>
   <name>/components/1/event_groups/arming_check/events/143019/message</name>
   <message>
-  <source>Geofence violation: approaching or outside geofence</source>
+  <source>Emergency geofence breach: outside the fence</source>
   </message>
 </context>
 <context>
@@ -1818,7 +1831,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
 <context>
   <name>/components/1/event_groups/arming_check/events/4065583/message</name>
   <message>
-  <source>Geofence violation: exceeding maximum distance to Home</source>
+  <source>Emergency geofence breach: exceeding maximum distance to Home</source>
   </message>
 </context>
 <context>
@@ -2043,6 +2056,19 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   <source>To arm, at least a data link or RC must be present.
 
 &lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;NAV_DLL_ACT&lt;/param&gt; parameter.
+&lt;/profile&gt;</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/6847914/message</name>
+  <message>
+  <source>Contingency geofence breach: approaching the maximum distance to Home</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/6847914/description</name>
+  <message>
+  <source>&lt;profile name="dev"&gt; This check can be configured via &lt;param&gt;GF_CONT_ACTION&lt;/param&gt;, &lt;param&gt;GF_MAX_HOR_DIST&lt;/param&gt; and &lt;param&gt;GF_CONT_H_MARGIN&lt;/param&gt; parameters.
 &lt;/profile&gt;</source>
   </message>
 </context>
@@ -2637,6 +2663,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/default/events/12825294/message</name>
+  <message>
+  <source>Altitude change is outside the contingency geofence</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/default/events/12826183/message</name>
   <message>
   <source>Releasing parachute at minimum altitude</source>
@@ -2670,6 +2702,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/13168253/message</name>
   <message>
   <source>Invalid configuration of necessary parameter RA_WHEEL_BASE</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/13256022/message</name>
+  <message>
+  <source>Altitude change is outside the contingency geofence</source>
   </message>
 </context>
 <context>
@@ -2711,7 +2749,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/13495236/message</name>
   <message>
-  <source>Reposition is outside geofence</source>
+  <source>Reposition is outside the emergency geofence</source>
   </message>
 </context>
 <context>
@@ -2856,6 +2894,12 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
   <name>/components/1/event_groups/default/events/14699175/message</name>
   <message>
   <source>GNSS data fusion stopped</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/default/events/15073229/message</name>
+  <message>
+  <source>Reposition is outside the contingency geofence</source>
   </message>
 </context>
 <context>
@@ -3079,7 +3123,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/16653157/message</name>
   <message>
-  <source>Altitude change is outside geofence</source>
+  <source>Altitude change is outside the emergency geofence</source>
   </message>
 </context>
 <context>
@@ -3121,7 +3165,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/1880909/message</name>
   <message>
-  <source>Altitude change is outside geofence</source>
+  <source>Altitude change is outside the emergency geofence</source>
   </message>
 </context>
 <context>
@@ -3217,7 +3261,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/2831661/message</name>
   <message>
-  <source>Geofence violation for waypoint {1}</source>
+  <source>Geofence breach for waypoint {1}</source>
   </message>
 </context>
 <context>

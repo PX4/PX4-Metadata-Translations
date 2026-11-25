@@ -1175,7 +1175,7 @@
                   "type": "uint8_t"
                 }
               ],
-              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> parameter.\n</profile>",
+              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> and <param>GF_CONT_ACTION</param> parameters.\n</profile>",
               "message": "Geofence Return action requires valid home",
               "name": "check_gf_no_home"
             },
@@ -1328,6 +1328,21 @@
               "message": "Vehicle is in transition state",
               "name": "check_system_vtol_in_transition"
             },
+            "13673828": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_CONT_ACTION</param> and <param>GF_CONT_H_MARGIN</param> parameters.\n</profile>",
+              "message": "Contingency geofence breach: approaching or outside the fence",
+              "name": "check_gf_cont_breach_custom_gf"
+            },
             "13679014": {
               "arguments": [
                 {
@@ -1370,7 +1385,7 @@
                 }
               ],
               "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> and <param>GF_MAX_VER_DIST</param> parameters.\n</profile>",
-              "message": "Geofence violation: exceeding maximum altitude above Home",
+              "message": "Emergency geofence breach: exceeding maximum altitude above Home",
               "name": "check_gf_violation_max_alt"
             },
             "14200647": {
@@ -1400,7 +1415,7 @@
                 }
               ],
               "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> parameter.\n</profile>",
-              "message": "Geofence violation: approaching or outside geofence",
+              "message": "Emergency geofence breach: outside the fence",
               "name": "check_gf_violation_custom_gf"
             },
             "14644618": {
@@ -1893,7 +1908,7 @@
                 }
               ],
               "description": "<profile name=\"dev\"> This check can be configured via <param>GF_ACTION</param> and <param>GF_MAX_HOR_DIST</param> parameters.\n</profile>",
-              "message": "Geofence violation: exceeding maximum distance to Home",
+              "message": "Emergency geofence breach: exceeding maximum distance to Home",
               "name": "check_gf_violation_max_hor_dist"
             },
             "4261821": {
@@ -2181,6 +2196,21 @@
               "description": "To arm, at least a data link or RC must be present.\n\n<profile name=\"dev\"> This check can be configured via <param>NAV_DLL_ACT</param> parameter.\n</profile>",
               "message": "No connection to the ground control station",
               "name": "check_rc_dl_no_dllink"
+            },
+            "6847914": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "<profile name=\"dev\"> This check can be configured via <param>GF_CONT_ACTION</param>, <param>GF_MAX_HOR_DIST</param> and <param>GF_CONT_H_MARGIN</param> parameters.\n</profile>",
+              "message": "Contingency geofence breach: approaching the maximum distance to Home",
+              "name": "check_gf_cont_breach_max_hor_dist"
             },
             "6979701": {
               "arguments": [
@@ -2949,6 +2979,10 @@
               "message": "SET_POSITION_TARGET_LOCAL_NED: FORCE is not supported",
               "name": "mavlink_rcv_sp_target_unsup_force"
             },
+            "12825294": {
+              "message": "Altitude change is outside the contingency geofence",
+              "name": "navigator_course_change_altitude_outside_cont_geofence"
+            },
             "12826183": {
               "message": "Releasing parachute at minimum altitude",
               "name": "fw_mode_manager_parachute_release_floor"
@@ -2995,6 +3029,10 @@
               ],
               "message": "Invalid configuration of necessary parameter RA_WHEEL_BASE",
               "name": "ackermann_rate_control_conf_invalid_wheel_base"
+            },
+            "13256022": {
+              "message": "Altitude change is outside the contingency geofence",
+              "name": "navigator_change_altitude_outside_cont_geofence"
             },
             "13277401": {
               "arguments": [
@@ -3048,7 +3086,7 @@
               "name": "vtol_att_ctrl_quadchute_trans_alt_err"
             },
             "13495236": {
-              "message": "Reposition is outside geofence",
+              "message": "Reposition is outside the emergency geofence",
               "name": "navigator_reposition_outside_geofence"
             },
             "1351736": {
@@ -3197,6 +3235,10 @@
             "14699175": {
               "message": "GNSS data fusion stopped",
               "name": "check_estimator_gnss_fusion_stopped"
+            },
+            "15073229": {
+              "message": "Reposition is outside the contingency geofence",
+              "name": "navigator_reposition_outside_cont_geofence"
             },
             "15098248": {
               "arguments": [
@@ -3423,7 +3465,7 @@
               "name": "commander_ctrl_high_latency_failed"
             },
             "16653157": {
-              "message": "Altitude change is outside geofence",
+              "message": "Altitude change is outside the emergency geofence",
               "name": "navigator_course_change_altitude_outside_geofence"
             },
             "16663074": {
@@ -3451,7 +3493,7 @@
               "name": "rtl_land_at_destination"
             },
             "1880909": {
-              "message": "Altitude change is outside geofence",
+              "message": "Altitude change is outside the emergency geofence",
               "name": "navigator_change_altitude_outside_geofence"
             },
             "1925166": {
@@ -3536,7 +3578,7 @@
                   "type": "int16_t"
                 }
               ],
-              "message": "Geofence violation for waypoint {1}",
+              "message": "Geofence breach for waypoint {1}",
               "name": "navigator_mis_geofence_violation"
             },
             "2842608": {
