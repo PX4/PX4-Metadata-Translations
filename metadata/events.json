@@ -2463,6 +2463,21 @@
               "message": "Vertical velocity unstable",
               "name": "check_estimator_vert_vel_not_stable"
             },
+            "9199593": {
+              "arguments": [
+                {
+                  "name": "modes",
+                  "type": "navigation_mode_group_t"
+                },
+                {
+                  "name": "health_component_index",
+                  "type": "uint8_t"
+                }
+              ],
+              "description": "Connected RC is not calibrated. Calibrate to use it or disable if not used.",
+              "message": "RC input detected but not calibrated",
+              "name": "check_rc_not_calibrated"
+            },
             "9307221": {
               "arguments": [
                 {
@@ -2659,7 +2674,7 @@
               "name": "mavlink_iridium_enable_cmd"
             },
             "10493596": {
-              "message": "Airspeed sensor failure detected. Return mode is advised",
+              "message": "Airspeed sensor failure detected",
               "name": "airspeed_selector_sensor_failure"
             },
             "10503063": {

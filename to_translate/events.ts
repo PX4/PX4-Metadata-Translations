@@ -2228,6 +2228,18 @@ This check can be configured via &lt;param&gt;EKF2_ABL_LIM&lt;/param&gt; paramet
   </message>
 </context>
 <context>
+  <name>/components/1/event_groups/arming_check/events/9199593/message</name>
+  <message>
+  <source>RC input detected but not calibrated</source>
+  </message>
+</context>
+<context>
+  <name>/components/1/event_groups/arming_check/events/9199593/description</name>
+  <message>
+  <source>Connected RC is not calibrated. Calibrate to use it or disable if not used.</source>
+  </message>
+</context>
+<context>
   <name>/components/1/event_groups/arming_check/events/9307221/message</name>
   <message>
   <source>High Gyro Bias</source>
@@ -2367,7 +2379,7 @@ This check can be configured via &lt;param&gt;EKF2_ABL_GYRLIM&lt;/param&gt; para
 <context>
   <name>/components/1/event_groups/default/events/10493596/message</name>
   <message>
-  <source>Airspeed sensor failure detected. Return mode is advised</source>
+  <source>Airspeed sensor failure detected</source>
   </message>
 </context>
 <context>

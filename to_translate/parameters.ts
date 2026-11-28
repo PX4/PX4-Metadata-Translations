@@ -16475,6 +16475,61 @@ unsupported (unit, type) pairs are ignored.
   </message>
 </context>
 <context>
+  <name>/parameters/SYS_FAIL_RC_RST/shortDesc</name>
+  <message>
+  <source>RC aux input that clears all failures</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_RST/longDesc</name>
+  <message>
+  <source>Every switch position change clears all active failures, including those injected over MAVLink or the console. The SYS_FAIL_RC_SRC switch must be cycled to inject again. Mapped via RC_MAP_AUXn, gated by SYS_FAILURE_EN, and disabled if equal to SYS_FAIL_RC_SRC.
+</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_RST/values/0/description</name>
+  <message>
+  <source>Disabled</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_RST/values/1/description</name>
+  <message>
+  <source>AUX1</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_RST/values/2/description</name>
+  <message>
+  <source>AUX2</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_RST/values/3/description</name>
+  <message>
+  <source>AUX3</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_RST/values/4/description</name>
+  <message>
+  <source>AUX4</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_RST/values/5/description</name>
+  <message>
+  <source>AUX5</source>
+  </message>
+</context>
+<context>
+  <name>/parameters/SYS_FAIL_RC_RST/values/6/description</name>
+  <message>
+  <source>AUX6</source>
+  </message>
+</context>
+<context>
   <name>/parameters/SYS_FAIL_RC_SRC/shortDesc</name>
   <message>
   <source>RC aux input that triggers failure injection</source>
